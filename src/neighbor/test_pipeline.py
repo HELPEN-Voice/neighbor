@@ -13,8 +13,8 @@ from typing import Dict, Any
 
 # CRITICAL: Load environment variables FIRST before any imports that might use them
 from dotenv import load_dotenv
-# Go up 5 levels: test_pipeline.py -> neighbor -> tools -> ii_agent -> src -> project_root
-env_path = Path(__file__).parent.parent.parent.parent.parent / '.env'
+# Go up 3 levels: test_pipeline.py -> neighbor -> src -> project_root
+env_path = Path(__file__).parent.parent.parent / '.env'
 load_dotenv(env_path)
 print(f"Loaded .env from {env_path}")
 print(f"OPENAI_API_KEY present: {'OPENAI_API_KEY' in os.environ}")

@@ -21,7 +21,7 @@ from pprint import pprint
 
 # Load environment variables
 from dotenv import load_dotenv
-env_path = Path(__file__).parent.parent.parent.parent.parent / '.env'
+env_path = Path(__file__).parent.parent.parent / '.env'
 load_dotenv(env_path)
 
 # Add parent directories to path
