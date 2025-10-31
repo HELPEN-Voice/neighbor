@@ -70,6 +70,14 @@ class NeighborProfile(BaseModel):
         None  # Structured engagement strategy
     )
 
+    @field_validator("noted_stance", mode="before")
+    @classmethod
+    def lowercase_noted_stance(cls, v):
+        """Normalize noted_stance by converting to lowercase"""
+        if isinstance(v, str) and v:
+            return v.lower()
+        return v
+
     @field_validator("community_influence", mode="before")
     @classmethod
     def capitalize_community_influence(cls, v):
