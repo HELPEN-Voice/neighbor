@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Output directories
+neighbor_outputs/
+neighbor_html_outputs/
+individual_pdf_reports/
+combined_pdf_reports/
+deep_research_outputs/
+
+# Logs
+*.log
+
+# Ruff cache
+.ruff_cache/
+
+# Playwright
+.playwright/
+
+# Temporary files
+*.tmp
+.webhook_url

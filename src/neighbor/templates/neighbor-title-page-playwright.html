@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ location_display }} - Neighbor Screen</title>
+    
+    <!-- Self-hosted fonts for Playwright -->
+    <style>
+        @font-face { font-family:"DM Sans"; src:url("../fonts/DMSans-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("../fonts/DMSans-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("../fonts/DMSans-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+        @font-face { font-family:"Inter"; src:url("../fonts/Inter-Variable.woff2") format("woff2"); font-weight:300 700; font-style:normal; font-display:swap; }
+    </style>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 16:9 slide system */
+        @page { size: 10in 5.625in; margin: 0; }
+        html, body { width: 10in; height: 5.625in; margin: 0; }
+
+        /* Ensure media elements scale within the page bounds */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        body.slides { background: #F1F5F9; font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+        
+        /* Brand (adjust to Helpen brand kit) */
+        :root{
+            --hp-navy:#0B1D3A;
+            --hp-accent:#007BFF;
+            --hp-bg:#F1F5F9;
+        }
+        
+        /* One "slide" per page */
+        .slide {
+            width: 10in; height: 5.625in; 
+            display: grid; 
+            grid-template-rows: 0.9in auto 0.5in;  /* header / content / footer */
+            padding: 0.4in 0.5in;
+            box-sizing: border-box;
+            page-break-after: always;
+            background-color: var(--hp-navy);
+        }
+        .slide:last-of-type { page-break-after: auto; }
+        
+        /* Safe header/footer bars */
+        .slide .header {
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .slide .footer {
+            display:flex; align-items:center; justify-content:space-between;
+            font-size: 10pt; color:#475569;
+        }
+        
+        /* Fix headings (remove over-tracking; use tight caps) */
+        h1, h2 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;        /* was too large; keep subtle */
+            font-family: 'DM Sans', Inter, sans-serif;
+            color: var(--hp-navy);
+        }
+        .cover h1 { font-size: 40pt; line-height: 1.05; }
+        .cover h2 { font-size: 16pt; font-weight: 500; letter-spacing: 0.01em; }
+        .summary h2, .table h2 { font-size: 18pt; }
+        
+        
+        /* Cover slide specific styles */
+        .slide.cover {
+            background-color: var(--hp-navy);
+        }
+        
+        /* Print color adjustment */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="slides">
+    <section class="slide cover">
+        
+        <!-- Header area -->
+        <div class="header">
+            <img src="../Helpen_Logo_White.svg" alt="Helpen Logo" style="height:0.4in; width:auto;" />
+            {% if coordinates %}
+            <div style="font-size: 9pt; color: #007BFF; opacity: 0.6; letter-spacing: 0.5px; font-feature-settings: 'tnum';">{{ coordinates }}</div>
+            {% endif %}
+        </div>
+        
+        <!-- Content area -->
+        <div class="content" style="display: flex; flex-direction: column; justify-content: flex-end; color: white;">
+            <div style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 10pt; color: #007BFF; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.3in; opacity: 0.9; display: flex; align-items: center; gap: 0.125in;">
+                <div style="width: 0.25in; height: 1px; background: #007BFF; opacity: 0.5;"></div>
+                Neighbor Screen
+            </div>
+            
+            <h1 style="font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 40pt; color: #ffffff; line-height: 1.05; margin-bottom: 0.2in;">{{ location_display|upper }}</h1>
+            
+            {% if township %}
+            <div style="font-family: 'Inter', sans-serif; font-weight: 400; font-size: 14pt; color: #D1D5DB; margin-bottom: 0.2in; opacity: 0.8; letter-spacing: 0.02em;">in {{ county }}</div>
+            {% endif %}
+            
+            <p style="font-family: 'Inter', sans-serif; font-weight: 300; font-size: 18px; color: #D1D5DB; line-height: 1.4; letter-spacing: 0.02em; padding-top: 16px; border-top: 1px solid rgba(0, 123, 255, 0.15);">AI Powered Deep Diligence</p>
+        </div>
+        
+        <!-- Footer area -->
+        <div class="footer" style="justify-content: flex-end;">
+            {% set risk_level = 'green' if risk_score <= 3.0 else 'yellow' if risk_score <= 5.0 else 'orange' if risk_score <= 7.0 else 'red' %}
+            {% set active_bars = (risk_score / 2)|round|int %}
+            <div style="display: flex; gap: 0.04in; opacity: 0.15;">
+                {% for i in range(1, 6) %}
+                <div style="width: 0.03in; background: {% if risk_level == 'green' %}#10B981{% elif risk_level == 'yellow' %}#F59E0B{% elif risk_level == 'orange' %}#F97316{% else %}#EF4444{% endif %}; height: {{ [0.2, 0.3, 0.25, 0.35, 0.28][loop.index0] }}in; {% if active_bars < i %}opacity: 0.3;{% endif %}"></div>
+                {% endfor %}
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
