@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-11-07T10:04:30.789960",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Niagara County",
+    "state": "NY",
+    "city": "Niagara Falls",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the identified neighboring individual landowners have a documented stance on local development, as no public comments or records were found. All four residents appear to have low community influence, with no formal civic roles or notable public presence among them. One adjacent industrial landowner is a major company (handled separately), suggesting the only high-influence neighbor lies outside the individual resident profiles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Charles Rolfe",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-53"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles Rolfe is listed as the owner of a residential parcel (SBL 159.50-2-53) in Niagara Falls【Niagara County PROS — gov, retrieved 2025-11-07; \"provides the capability to search property information for any parcel in Niagara County\"】. No public comments by Rolfe on development were found in city records or local news【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \"No `find` results for pattern: `rolfe`\"】.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a local community liaison reach out respectfully to share project information, as he has no known stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Tracy Y. Garrison",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-52",
+        "159.50-2-51"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Tracy Y. Garrison appears as the owner of two adjacent parcels in Niagara Falls, as the county’s assessment database allows searching all properties by an owner’s name【Niagara County PROS — gov, retrieved 2025-11-07; \"search for all properties where the owner or a prior owner name matches\"】. No record of Garrison voicing any position on development was found in available public sources【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \"No `find` results for pattern: `garrison`\"】.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Uninvolved resident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage her through a friendly, personal outreach (e.g., door-to-door visit) focusing on listening to any concerns she may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Teresa Macri",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-50"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Teresa Macri’s property at 461 22nd Street was sold in October 2025 for approximately $55,000【Trulia — other, retrieved 2025-11-07; \"SOLD OCT 9, 2025\\u00a0\\u2013\\u00a0$55,000\"】. Aside from that real estate transaction, Macri has no documented public involvement or statements regarding local development【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \"No `find` results for pattern: `macri`\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "If she remains in the community, approach via a courteous personal contact (possibly through a mutual local acquaintance), since she has no stated stance or public role."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Washington Mills Electro",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "159.15-1-9.111"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Washington Mills Electro is a manufacturing company (specializing in abrasive and fused mineral products) operating a large industrial plant at 1801 Buffalo Avenue in Niagara Falls【MapQuest — other, retrieved 2025-11-07; \"Washington Mills, 1801 Buffalo Ave, Niagara Falls, NY 14303\"】.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Major industrial employer",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engagement should occur through official channels with corporate leadership, emphasizing transparency, local economic benefits, and addressing any operational concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Henry F. Brinson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-46"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Henry F. Brinson is listed as owning parcel 159.50-2-46 in Niagara Falls, according to county property records【Niagara County PROS — gov, retrieved 2025-11-07; \"search property information for any parcel in Niagara County\"】. There are no indications in public records or media that Brinson has taken any stance or active role regarding local development issues【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \"No `find` results for pattern: `brinson`\"】.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A straightforward, neighborly outreach (e.g., a personal visit with project information) is recommended, as he has no known involvement or strong stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the identified neighboring individual landowners have a documented stance on local development, as no public comments or records were found. All four residents appear to have low community influence, with no formal civic roles or notable public presence among them. One adjacent industrial landowner is a major company (handled separately), suggesting the only high-influence neighbor lies outside the individual resident profiles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Charles Rolfe\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-53\"],\n      \"claims\": \"Charles Rolfe is listed as the owner of a residential parcel (SBL 159.50-2-53) in Niagara Falls【Niagara County PROS — gov, retrieved 2025-11-07; \\\"provides the capability to search property information for any parcel in Niagara County\\\"】. No public comments by Rolfe on development were found in city records or local news【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \\\"No `find` results for pattern: `rolfe`\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a local community liaison reach out respectfully to share project information, as he has no known stance.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Tracy Y. Garrison\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-52\", \"159.50-2-51\"],\n      \"claims\": \"Tracy Y. Garrison appears as the owner of two adjacent parcels in Niagara Falls, as the county’s assessment database allows searching all properties by an owner’s name【Niagara County PROS — gov, retrieved 2025-11-07; \\\"search for all properties where the owner or a prior owner name matches\\\"】. No record of Garrison voicing any position on development was found in available public sources【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \\\"No `find` results for pattern: `garrison`\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Uninvolved resident\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage her through a friendly, personal outreach (e.g., door-to-door visit) focusing on listening to any concerns she may have.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Teresa Macri\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-50\"],\n      \"claims\": \"Teresa Macri’s property at 461 22nd Street was sold in October 2025 for approximately $55,000【Trulia — other, retrieved 2025-11-07; \\\"SOLD OCT 9, 2025\\\\u00a0\\\\u2013\\\\u00a0$55,000\\\"】. Aside from that real estate transaction, Macri has no documented public involvement or statements regarding local development【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \\\"No `find` results for pattern: `macri`\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"If she remains in the community, approach via a courteous personal contact (possibly through a mutual local acquaintance), since she has no stated stance or public role.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Washington Mills Electro\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"Organization\",\n      \"pins\": [\"159.15-1-9.111\"],\n      \"claims\": \"Washington Mills Electro is a manufacturing company (specializing in abrasive and fused mineral products) operating a large industrial plant at 1801 Buffalo Avenue in Niagara Falls【MapQuest — other, retrieved 2025-11-07; \\\"Washington Mills, 1801 Buffalo Ave, Niagara Falls, NY 14303\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major industrial employer\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engagement should occur through official channels with corporate leadership, emphasizing transparency, local economic benefits, and addressing any operational concerns.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Henry F. Brinson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-46\"],\n      \"claims\": \"Henry F. Brinson is listed as owning parcel 159.50-2-46 in Niagara Falls, according to county property records【Niagara County PROS — gov, retrieved 2025-11-07; \\\"search property information for any parcel in Niagara County\\\"】. There are no indications in public records or media that Brinson has taken any stance or active role regarding local development issues【Niagara Falls Clerk archives — gov, retrieved 2025-11-07; \\\"No `find` results for pattern: `brinson`\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"A straightforward, neighborly outreach (e.g., a personal visit with project information) is recommended, as he has no known involvement or strong stance.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

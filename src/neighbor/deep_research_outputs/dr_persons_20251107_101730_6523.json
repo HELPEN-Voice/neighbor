@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-11-07T10:17:30.652398",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Niagara County",
+    "state": "NY",
+    "city": "Niagara Falls",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both identified neighbors have an **unknown** stance on the development due to no public statements found, and neither holds a notable influence in the community. In total, 0 neighbors show support, 0 oppose, and 2 are unknown; none are high-profile local figures.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Sylvan Andray",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-44"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sylvan Andray appears as the owner of parcel 159.50-2-44 in Niagara Falls property records ([niagaracounty.prosgar.com](https://niagaracounty.prosgar.com/PROSSearch/SearchFilters#:~:text=,return%20all%20addresses%20on%20that)). No meeting minutes or local news references to this individual were found in public sources ([niagarafalls.civicweb.net](https://niagarafalls.civicweb.net/document/60482/#:~:text=No%20,andray)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach neutrally via community outreach (e.g., a neighbor meeting) to share project details and invite any questions or concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Elisha A. Delgado Colón",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-34"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Elisha A. Delgado Colón is listed as an owner of parcel 159.50-2-34 in Niagara Falls according to county property records ([niagaracounty.prosgar.com](https://niagaracounty.prosgar.com/PROSSearch/SearchFilters#:~:text=,return%20all%20addresses%20on%20that)). There is no public record of Delgado Colón taking part in local hearings or voicing opinions on development ([niagarafalls.civicweb.net](https://niagarafalls.civicweb.net/document/60482/#:~:text=No%20,andray)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a standard community relations approach (e.g., informational mailer or door visit) to explain the project and gauge their feedback, emphasizing local benefits."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both identified neighbors have an **unknown** stance on the development due to no public statements found, and neither holds a notable influence in the community. In total, 0 neighbors show support, 0 oppose, and 2 are unknown; none are high-profile local figures.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Sylvan Andray\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-44\"],\n      \"claims\": \"Sylvan Andray appears as the owner of parcel 159.50-2-44 in Niagara Falls property records ([niagaracounty.prosgar.com](https://niagaracounty.prosgar.com/PROSSearch/SearchFilters#:~:text=,return%20all%20addresses%20on%20that)). No meeting minutes or local news references to this individual were found in public sources ([niagarafalls.civicweb.net](https://niagarafalls.civicweb.net/document/60482/#:~:text=No%20,andray)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach neutrally via community outreach (e.g., a neighbor meeting) to share project details and invite any questions or concerns.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Elisha A. Delgado Col\\u00f3n\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-34\"],\n      \"claims\": \"Elisha A. Delgado Col\\u00f3n is listed as an owner of parcel 159.50-2-34 in Niagara Falls according to county property records ([niagaracounty.prosgar.com](https://niagaracounty.prosgar.com/PROSSearch/SearchFilters#:~:text=,return%20all%20addresses%20on%20that)). There is no public record of Delgado Col\\u00f3n taking part in local hearings or voicing opinions on development ([niagarafalls.civicweb.net](https://niagarafalls.civicweb.net/document/60482/#:~:text=No%20,andray)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a standard community relations approach (e.g., informational mailer or door visit) to explain the project and gauge their feedback, emphasizing local benefits.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

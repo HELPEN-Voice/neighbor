@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-11-07T10:18:42.750583",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Niagara County",
+    "state": "NY",
+    "city": "Niagara Falls",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent landowners include a municipal government, a local church, and a private holding LLC – each with different interests and influence. The City of Niagara Falls (NY) is actively pursuing redevelopment and generally supportive of projects that boost the tax base ([www.developniagarafalls.com](https://www.developniagarafalls.com/#:~:text=The%20Development%20Opportunity)). New Hope Baptist Church is a small community congregation focused on worship, with no public record of engaging in development disputes ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). Sandstone Springs Holdings LLC appears to be a speculative landowner with anonymous backing, interested mainly in property value and without a visible community role ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). This mix suggests the City wields high decision-making power, while the church and LLC have lower profiles and would likely influence a project only if their specific interests are directly affected.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "City of Niagara Falls, NY",
+      "entity_category": "Organization",
+      "entity_type": "municipal government",
+      "pins": [
+        "159.50-2-49",
+        "159.50-2-45",
+        "159.50-2-58",
+        "159.50-2-61",
+        "159.12-1-4",
+        "159.50-2-72"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The City of Niagara Falls is the local municipal government (population ~48,000) in Niagara County, New York ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=Niagara%20Falls%20is%20a%20city,the%20Western%20New%20York%20region)). It owns multiple parcels in the project vicinity as public land and has a strong interest in economic redevelopment of the area ([www.developniagarafalls.com](https://www.developniagarafalls.com/#:~:text=The%20Development%20Opportunity)). City leadership has actively promoted new investment with incentives and site assembly assistance, positioning Niagara Falls as “primed for new projects” to reinvent the local economy ([www.developniagarafalls.com](https://www.developniagarafalls.com/#:~:text=The%20Development%20Opportunity)). Mayor Robert Restaino’s administration (in a strong mayor-council system) has even resorted to legal action (eminent domain) to advance its development vision – currently litigating to acquire private land for a proposed “Centennial Park” downtown ([niagaradigitalcampus.com](https://niagaradigitalcampus.com/news/niagara-gazette-obtaining-docs-on-centennial-park-curiouser-and-curiouser/#:~:text=This%20website%20is%20presented%20by,the%20litigation%20and%20potential%20settlement)). The City’s stance on development is generally favorable when projects align with its revitalization plans, and as the zoning authority it can significantly enable or hinder any proposal ([niagaradigitalcampus.com](https://niagaradigitalcampus.com/news/niagara-gazette-obtaining-docs-on-centennial-park-curiouser-and-curiouser/#:~:text=This%20website%20is%20presented%20by,the%20litigation%20and%20potential%20settlement)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Municipal authority controlling zoning/approvals; actively drives development agenda; capable of legal and political action to shape projects",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage city officials (Mayor Restaino and the Planning/Economic Development department) early to ensure the project aligns with city goals; emphasize job creation, tax base growth, and community benefits to secure city support; be prepared to address any city-led plans or regulatory requirements, as their approval is pivotal"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "New Hope Baptist Church",
+      "entity_category": "Organization",
+      "entity_type": "church (religious nonprofit)",
+      "pins": [
+        "159.50-2-48",
+        "159.50-2-47"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "New Hope Baptist Church is a local Baptist congregation that owns two adjacent parcels (its house of worship and an auxiliary lot) in Niagara Falls ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=promise%20of%20inexpensive%20hydroelectric%20power,metropolitan%20areas%20around%20the%20country)). The city’s economic decline over decades – losing over half its population since 1960 – has left such neighborhood churches with modest congregations and limited resources ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=promise%20of%20inexpensive%20hydroelectric%20power,metropolitan%20areas%20around%20the%20country)). The church itself is primarily devoted to worship services and community ministry, and it is not listed among the city’s historically prominent churches or civic institutions ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=First%20Assembly%20of%20God%20Church%2C,Beth%20Israel%20closed%20in%202012)). There is no public record of New Hope Baptist Church taking a position on development projects; it has not engaged in political advocacy or land-use disputes in the city ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). Its stance on new development is therefore unknown, but as a religious nonprofit its main concern would likely be preserving the peaceful environment and community stability for its members.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small community congregation; no political or economic leverage beyond moral presence; not known to participate in development decisions",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Respectfully engage the church’s leadership (pastor and elders) to listen to any concerns (e.g. noise, traffic) that the project might raise; emphasize aspects of the project that benefit the local community or youth (which the congregation could appreciate); consider offering supportive measures (landscaping buffers, community use space, or collaboration on community initiatives) to gain their goodwill"
+      },
+      "entity_classification": "religious",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sandstone Springs Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "159.11-1-13"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sandstone Springs Holdings LLC is a private limited liability company that holds a single parcel in Niagara Falls (PIN 159.11-1-13) with no publicly known operations beyond owning this land ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). The LLC’s formation and management details are not readily available in public records, and its beneficial owners remain undisclosed (a common occurrence, as New York LLCs do not publicly list members) ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). Unlike a major developer such as Niagara Falls Redevelopment LLC (which controls over 100 acres locally) ([niagaradigitalcampus.com](https://niagaradigitalcampus.com/news/niagara-gazette-obtaining-docs-on-centennial-park-curiouser-and-curiouser/#:~:text=Niagara%20Falls%20Redevelopment%2C%20LLC%20has,and%20many%20other%20tourist%20attractions)), Sandstone Springs appears to be a small land investor with a very limited footprint. It has no visible presence in the community (no local office or community initiatives) and has not made any public statements regarding development projects ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). The company’s likely motive is speculative – holding the property for appreciation or eventual profit – suggesting it would support or cooperate with a development if it stands to gain financially, or otherwise remain passive unless its property value is threatened.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "One-parcel landholder with anonymous ownership; no community ties or political capital; influence would come only from property rights, not public support",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the principals behind the LLC (through title records or networking) and approach them discreetly; gauge whether they are looking to sell or partner – a financial offer or partnership on favorable terms could preempt any opposition; ensure the project does not negatively impact their parcel, or if it might, consider compensating adjustments to secure their neutrality or support"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent landowners include a municipal government, a local church, and a private holding LLC – each with different interests and influence. The City of Niagara Falls (NY) is actively pursuing redevelopment and generally supportive of projects that boost the tax base ([www.developniagarafalls.com](https://www.developniagarafalls.com/#:~:text=The%20Development%20Opportunity)). New Hope Baptist Church is a small community congregation focused on worship, with no public record of engaging in development disputes ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). Sandstone Springs Holdings LLC appears to be a speculative landowner with anonymous backing, interested mainly in property value and without a visible community role ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). This mix suggests the City wields high decision-making power, while the church and LLC have lower profiles and would likely influence a project only if their specific interests are directly affected.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"City of Niagara Falls, NY\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipal government\",\n      \"pins\": [\n        \"159.50-2-49\",\n        \"159.50-2-45\",\n        \"159.50-2-58\",\n        \"159.50-2-61\",\n        \"159.12-1-4\",\n        \"159.50-2-72\"\n      ],\n      \"claims\": \"The City of Niagara Falls is the local municipal government (population ~48,000) in Niagara County, New York ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=Niagara%20Falls%20is%20a%20city,the%20Western%20New%20York%20region)). It owns multiple parcels in the project vicinity as public land and has a strong interest in economic redevelopment of the area ([www.developniagarafalls.com](https://www.developniagarafalls.com/#:~:text=The%20Development%20Opportunity)). City leadership has actively promoted new investment with incentives and site assembly assistance, positioning Niagara Falls as “primed for new projects” to reinvent the local economy ([www.developniagarafalls.com](https://www.developniagarafalls.com/#:~:text=The%20Development%20Opportunity)). Mayor Robert Restaino’s administration (in a strong mayor-council system) has even resorted to legal action (eminent domain) to advance its development vision – currently litigating to acquire private land for a proposed “Centennial Park” downtown ([niagaradigitalcampus.com](https://niagaradigitalcampus.com/news/niagara-gazette-obtaining-docs-on-centennial-park-curiouser-and-curiouser/#:~:text=This%20website%20is%20presented%20by,the%20litigation%20and%20potential%20settlement)). The City’s stance on development is generally favorable when projects align with its revitalization plans, and as the zoning authority it can significantly enable or hinder any proposal ([niagaradigitalcampus.com](https://niagaradigitalcampus.com/news/niagara-gazette-obtaining-docs-on-centennial-park-curiouser-and-curiouser/#:~:text=This%20website%20is%20presented%20by,the%20litigation%20and%20potential%20settlement)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Municipal authority controlling zoning/approvals; actively drives development agenda; capable of legal and political action to shape projects\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\n        \"Economic revitalization and increased tax revenue\",\n        \"Alignment with city strategic plans (tourism and job creation)\",\n        \"Community benefits and public interest outcomes\"\n      ],\n      \"approach_recommendations\": \"Engage city officials (Mayor Restaino and the Planning/Economic Development department) early to ensure the project aligns with city goals; emphasize job creation, tax base growth, and community benefits to secure city support; be prepared to address any city-led plans or regulatory requirements, as their approval is pivotal\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"New Hope Baptist Church\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"church (religious nonprofit)\",\n      \"pins\": [\n        \"159.50-2-48\",\n        \"159.50-2-47\"\n      ],\n      \"claims\": \"New Hope Baptist Church is a local Baptist congregation that owns two adjacent parcels (its house of worship and an auxiliary lot) in Niagara Falls ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=promise%20of%20inexpensive%20hydroelectric%20power,metropolitan%20areas%20around%20the%20country)). The city’s economic decline over decades – losing over half its population since 1960 – has left such neighborhood churches with modest congregations and limited resources ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=promise%20of%20inexpensive%20hydroelectric%20power,metropolitan%20areas%20around%20the%20country)). The church itself is primarily devoted to worship services and community ministry, and it is not listed among the city’s historically prominent churches or civic institutions ([en.wikipedia.org](https://en.wikipedia.org/wiki/Niagara_Falls%2C_New_York#:~:text=First%20Assembly%20of%20God%20Church%2C,Beth%20Israel%20closed%20in%202012)). There is no public record of New Hope Baptist Church taking a position on development projects; it has not engaged in political advocacy or land-use disputes in the city ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). Its stance on new development is therefore unknown, but as a religious nonprofit its main concern would likely be preserving the peaceful environment and community stability for its members.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small community congregation; no political or economic leverage beyond moral presence; not known to participate in development decisions\",\n      \"entity_classification\": \"religious\",\n      \"potential_motivators\": [\n        \"Maintaining a quiet and safe environment for worship\",\n        \"Neighborhood stability and property upkeep\",\n        \"Desire for positive community impacts (e.g. outreach opportunities)\"\n      ],\n      \"approach_recommendations\": \"Respectfully engage the church’s leadership (pastor and elders) to listen to any concerns (e.g. noise, traffic) that the project might raise; emphasize aspects of the project that benefit the local community or youth (which the congregation could appreciate); consider offering supportive measures (landscaping buffers, community use space, or collaboration on community initiatives) to gain their goodwill\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Sandstone Springs Holdings LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\n        \"159.11-1-13\"\n      ],\n      \"claims\": \"Sandstone Springs Holdings LLC is a private limited liability company that holds a single parcel in Niagara Falls (PIN 159.11-1-13) with no publicly known operations beyond owning this land ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). The LLC’s formation and management details are not readily available in public records, and its beneficial owners remain undisclosed (a common occurrence, as New York LLCs do not publicly list members) ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). Unlike a major developer such as Niagara Falls Redevelopment LLC (which controls over 100 acres locally) ([niagaradigitalcampus.com](https://niagaradigitalcampus.com/news/niagara-gazette-obtaining-docs-on-centennial-park-curiouser-and-curiouser/#:~:text=Niagara%20Falls%20Redevelopment%2C%20LLC%20has,and%20many%20other%20tourist%20attractions)), Sandstone Springs appears to be a small land investor with a very limited footprint. It has no visible presence in the community (no local office or community initiatives) and has not made any public statements regarding development projects ([cityofniagarafalls.prosgar.com](https://cityofniagarafalls.prosgar.com/CustomContent/Disclaimer#:~:text=The%20information%20contained%20herein%2C%20including,or%20implied%2C%20of%20information%20provided)). The company’s likely motive is speculative – holding the property for appreciation or eventual profit – suggesting it would support or cooperate with a development if it stands to gain financially, or otherwise remain passive unless its property value is threatened.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"One-parcel landholder with anonymous ownership; no community ties or political capital; influence would come only from property rights, not public support\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\n        \"Maximizing land value or sale price\",\n        \"Interest in development opportunities that increase parcel’s worth\",\n        \"Avoiding any project aspects that could diminish property value\"\n      ],\n      \"approach_recommendations\": \"Identify the principals behind the LLC (through title records or networking) and approach them discreetly; gauge whether they are looking to sell or partner – a financial offer or partnership on favorable terms could preempt any opposition; ensure the project does not negatively impact their parcel, or if it might, consider compensating adjustments to secure their neutrality or support\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

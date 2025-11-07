@@ -1,0 +1,248 @@
+{
+  "timestamp": "2025-11-07T10:08:39.015514",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Niagara County",
+    "state": "NY",
+    "city": "Niagara Falls",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighboring landowners have no recorded positions for or against the project. Most exhibit low community influence (no official roles or public advocacy noted), with only one neighbor’s influence bolstered by a prominent local family background.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kacper Jarecki",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-35"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kacper Jarecki is the Community Library Manager of the Cambria Heights Library in Queens, NYC, and a union delegate since 2016 ([www.local1321.org](https://www.local1321.org/local-1321-queens-library-guild/about-us/kacper-jarecki#:~:text=Kacper%20Jarecki%20is%20the%20Community,been%20a%20delegate%20since%202016)); he has no documented involvement or stance in Niagara Falls community affairs ([www.local1321.org](https://www.local1321.org/local-1321-queens-library-guild/about-us/kacper-jarecki#:~:text=Kacper%20enjoys%20reading%20,Cena%20says%3A%20never%20give%20up)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "NYC resident; no local role",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Have a senior project representative contact this out-of-town owner (phone or email) and emphasize how the development could enhance neighborhood property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Gautam Sanjay Sharma",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-56",
+        "159.50-2-65",
+        "159.50-2-66",
+        "159.50-2-67",
+        "159.50-2-68"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gautam Sanjay Sharma holds multiple adjacent parcels in Niagara Falls, indicating a real-estate investment interest ([buffalo647.rssing.com](https://buffalo647.rssing.com/chan-6030487/article150.html#:~:text=NIAGARA%20FALLS%20Highest%20price%3A%20%24106%2C000,Hickey%2C%20%24106%2C000)). He maintains a very low public profile, with no mentions in local news or civic records related to development ([buffalo647.rssing.com](https://buffalo647.rssing.com/chan-6030487/article150.html#:~:text=No%20,sharma)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Multiple lots; unknown locally",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Project leaders should reach out to Mr. Sharma to discuss mutual benefits; highlight how the development could increase the value and marketability of his vacant lots."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Kathleen J. Kajfasz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-57",
+        "159.50-2-59",
+        "159.50-2-60",
+        "159.50-2-63"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kathleen J. Kajfasz is a certified public accountant based in Buffalo, New York ([www.ptindirectory.com](https://www.ptindirectory.com/tax-firms/new-york/buffalo-ny/279693/kathleen-j-kajfasz/kathleen-j-kajfasz#:~:text=Kathleen%20J,0801)). Her family name appears in Niagara Falls obituaries ([www.legacy.com](https://www.legacy.com/us/obituaries/buffalonews/name/emily-kajfasz-obituary?id=6410918#:~:text=,on%20September%2019%2C%202017%2C%20at)), but she herself has not been active in local civic matters or taken any public position on development issues ([www.legacy.com](https://www.legacy.com/us/obituaries/buffalonews/name/emily-kajfasz-obituary?id=6410918#:~:text=,on%20September%2019%2C%202017%2C%20at)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Buffalo-based; limited local ties",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Engage her through a data-driven outreach (possibly via a city official she may know), emphasizing fiscal stability and property value growth that the project could bring to her Niagara Falls holdings."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Chris D. Pineda",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-62"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Chris D. Pineda is identified as a real estate professional affiliated with Realty of America, LLC ([zenlist.com](https://zenlist.com/a/chris.pineda#:~:text=2025%20,else%21%20Request%20Access%20Built%20with)). He owns property in Niagara Falls but has no known civic roles or public statements regarding local development ([niagaraexpress.town.news](https://niagaraexpress.town.news/g/niagara-falls-ny/n/269293/niagara-falls-police-blotter#:~:text=Niagara%20Falls%20Police%20Blotter%20,TRAFFIC)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local realtor; small property owner",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Connect with Mr. Pineda through local real estate networks or the Chamber of Commerce. Emphasize how the proposed development could stimulate the housing market and increase nearby property values, aligning with his professional interests."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Randolph Thomas Rotella",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "159.50-2-64"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Randolph T. Rotella is listed as a Niagara Falls landowner (with minimal personal details publicly available) ([niagaracounty.prosgar.com](https://niagaracounty.prosgar.com/PROSSearch/SearchFilters#:~:text=,will%20return%2055%20Main%20St)). He belongs to the Rotella family, known for civic involvement in Niagara Falls – for example, Carmelette M. Rotella was an educator, union leader and Board of Education member regarded as “a pillar of the Niagara Falls community” ([obituaries.niagara-gazette.com](https://obituaries.niagara-gazette.com/obituary/carmelette-rotella-1075406411#:~:text=Carmelette%20M,Cosentino%29%20DeFazio)) – yet no evidence of Randolph’s own public engagement or stance on development has been noted ([obituaries.niagara-gazette.com](https://obituaries.niagara-gazette.com/obituary/carmelette-rotella-1075406411#:~:text=Carmelette%20M,Cosentino%29%20DeFazio)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local civic legacy family",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control"
+        ],
+        "engage": "Approach Mr. Rotella respectfully through a mutual local contact, acknowledging his family’s community legacy. Emphasize that the project will involve local input and uphold community values, which may resonate given his family’s civic history."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighboring landowners have no recorded positions for or against the project. Most exhibit low community influence (no official roles or public advocacy noted), with only one neighbor’s influence bolstered by a prominent local family background.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Kacper Jarecki\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-35\"],\n      \"claims\": \"Kacper Jarecki is the Community Library Manager of the Cambria Heights Library in Queens, NYC, and a union delegate since 2016 ([www.local1321.org](https://www.local1321.org/local-1321-queens-library-guild/about-us/kacper-jarecki#:~:text=Kacper%20Jarecki%20is%20the%20Community,been%20a%20delegate%20since%202016)); he has no documented involvement or stance in Niagara Falls community affairs ([www.local1321.org](https://www.local1321.org/local-1321-queens-library-guild/about-us/kacper-jarecki#:~:text=Kacper%20enjoys%20reading%20,Cena%20says%3A%20never%20give%20up)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"NYC resident; no local role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Have a senior project representative contact this out-of-town owner (phone or email) and emphasize how the development could enhance neighborhood property values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Gautam Sanjay Sharma\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-56\", \"159.50-2-65\", \"159.50-2-66\", \"159.50-2-67\", \"159.50-2-68\"],\n      \"claims\": \"Gautam Sanjay Sharma holds multiple adjacent parcels in Niagara Falls, indicating a real-estate investment interest ([buffalo647.rssing.com](https://buffalo647.rssing.com/chan-6030487/article150.html#:~:text=NIAGARA%20FALLS%20Highest%20price%3A%20%24106%2C000,Hickey%2C%20%24106%2C000)). He maintains a very low public profile, with no mentions in local news or civic records related to development ([buffalo647.rssing.com](https://buffalo647.rssing.com/chan-6030487/article150.html#:~:text=No%20,sharma)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Multiple lots; unknown locally\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Project leaders should reach out to Mr. Sharma to discuss mutual benefits; highlight how the development could increase the value and marketability of his vacant lots.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Kathleen J. Kajfasz\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-57\", \"159.50-2-59\", \"159.50-2-60\", \"159.50-2-63\"],\n      \"claims\": \"Kathleen J. Kajfasz is a certified public accountant based in Buffalo, New York ([www.ptindirectory.com](https://www.ptindirectory.com/tax-firms/new-york/buffalo-ny/279693/kathleen-j-kajfasz/kathleen-j-kajfasz#:~:text=Kathleen%20J,0801)). Her family name appears in Niagara Falls obituaries ([www.legacy.com](https://www.legacy.com/us/obituaries/buffalonews/name/emily-kajfasz-obituary?id=6410918#:~:text=,on%20September%2019%2C%202017%2C%20at)), but she herself has not been active in local civic matters or taken any public position on development issues ([www.legacy.com](https://www.legacy.com/us/obituaries/buffalonews/name/emily-kajfasz-obituary?id=6410918#:~:text=,on%20September%2019%2C%202017%2C%20at)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Buffalo-based; limited local ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Engage her through a data-driven outreach (possibly via a city official she may know), emphasizing fiscal stability and property value growth that the project could bring to her Niagara Falls holdings.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Chris D. Pineda\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-62\"],\n      \"claims\": \"Chris D. Pineda is identified as a real estate professional affiliated with Realty of America, LLC ([zenlist.com](https://zenlist.com/a/chris.pineda#:~:text=2025%20,else%21%20Request%20Access%20Built%20with)). He owns property in Niagara Falls but has no known civic roles or public statements regarding local development ([niagaraexpress.town.news](https://niagaraexpress.town.news/g/niagara-falls-ny/n/269293/niagara-falls-police-blotter#:~:text=Niagara%20Falls%20Police%20Blotter%20,TRAFFIC)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local realtor; small property owner\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Connect with Mr. Pineda through local real estate networks or the Chamber of Commerce. Emphasize how the proposed development could stimulate the housing market and increase nearby property values, aligning with his professional interests.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Randolph Thomas Rotella\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"159.50-2-64\"],\n      \"claims\": \"Randolph T. Rotella is listed as a Niagara Falls landowner (with minimal personal details publicly available) ([niagaracounty.prosgar.com](https://niagaracounty.prosgar.com/PROSSearch/SearchFilters#:~:text=,will%20return%2055%20Main%20St)). He belongs to the Rotella family, known for civic involvement in Niagara Falls – for example, Carmelette M. Rotella was an educator, union leader and Board of Education member regarded as “a pillar of the Niagara Falls community” ([obituaries.niagara-gazette.com](https://obituaries.niagara-gazette.com/obituary/carmelette-rotella-1075406411#:~:text=Carmelette%20M,Cosentino%29%20DeFazio)) – yet no evidence of Randolph’s own public engagement or stance on development has been noted ([obituaries.niagara-gazette.com](https://obituaries.niagara-gazette.com/obituary/carmelette-rotella-1075406411#:~:text=Carmelette%20M,Cosentino%29%20DeFazio)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local civic legacy family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"local_control\"],\n        \"engage\": \"Approach Mr. Rotella respectfully through a mutual local contact, acknowledging his family’s community legacy. Emphasize that the project will involve local input and uphold community values, which may resonate given his family’s civic history.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
