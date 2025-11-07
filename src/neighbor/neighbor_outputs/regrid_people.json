@@ -1,0 +1,72 @@
+{
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "name": "Riverview Innovation",
+      "entity_type": "person",
+      "pins": [
+        "64.12-1-17",
+        "64.08-1-10",
+        "64.12-1-14"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Tollner Gary C",
+      "entity_type": "person",
+      "pins": [
+        "65.09-4-6.1"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Mislin William H Jr",
+      "entity_type": "person",
+      "pins": [
+        "65.09-4-3.11"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Mann Joseph",
+      "entity_type": "person",
+      "pins": [
+        "65.09-4-5"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Battaglia David",
+      "entity_type": "person",
+      "pins": [
+        "65.09-4-1.1"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Town Of Tonawanda",
+      "entity_type": "person",
+      "pins": [
+        "65.06-1-21",
+        "65.06-1-19"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Minnesota Mining",
+      "entity_type": "person",
+      "pins": [
+        "65.09-6-5"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Kobee Blake A",
+      "entity_type": "person",
+      "pins": [
+        "65.10-1-7"
+      ],
+      "owns_adjacent_parcel": "No"
+    }
+  ]
+}

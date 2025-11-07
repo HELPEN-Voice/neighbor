@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbor Screens</title>
+    
+    <!-- Self-hosted fonts for Playwright -->
+    <style>
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+        @font-face { font-family:"Inter"; src:url("fonts/Inter-Variable.woff2") format("woff2"); font-weight:300 700; font-style:normal; font-display:swap; }
+    </style>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 16:9 slide system */
+        @page { size: 10in 5.625in; margin: 0; }
+        html, body { width: 10in; height: 5.625in; margin: 0; }
+
+        body.slides {
+            background: #F1F5F9;
+            font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            counter-reset: link-counter;
+        }
+        
+        /* Brand (adjust to Helpen brand kit) */
+        :root{
+            --hp-navy:#0B1D3A;
+            --hp-accent:#007BFF;
+            --hp-bg:#F1F5F9;
+            --font-main: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            --text-dark: #0B1D3A;
+        }
+        
+        /* One "slide" per page */
+        .slide {
+            width: 10in; height: 5.625in; 
+            display: grid; 
+            grid-template-rows: 0.9in auto 0.5in;  /* header / content / footer */
+            padding: 0.4in 0.25in;
+            box-sizing: border-box;
+            page-break-after: always;
+            background: #fff;
+        }
+        .slide:last-of-type { page-break-after: auto; }
+        
+        /* Safe header/footer bars */
+        .slide .header {
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .slide .footer {
+            display:flex; align-items:center; justify-content:space-between;
+            font-size: 10pt; color:#475569;
+        }
+        
+        /* Fix headings (remove over-tracking; use tight caps) */
+        h1, h2 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;        /* was too large; keep subtle */
+            font-family: 'DM Sans', Inter, sans-serif;
+            color: var(--hp-navy);
+        }
+        .cover h1 { font-size: 40pt; line-height: 1.05; }
+        .cover h2 { font-size: 16pt; font-weight: 500; letter-spacing: 0.01em; }
+        .summary h2, .table h2 { font-size: 18pt; }
+        .table h2 { font-size: 18pt; color: var(--hp-navy); font-family: 'DM Sans', Inter, sans-serif; }
+        
+        /* Tables - exact copy from diligence */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px; /* Reduced from 30px by 50% */
+            margin-bottom: 30px; /* Ensure padding from bottom */
+            page-break-inside: auto;
+            table-layout: fixed; /* Enforce specified column widths */
+        }
+        
+        th {
+            background-color: #F7F9FB;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.08in 0.1in;
+            font-size: 7pt;
+            border-bottom: 2px solid #E2E8F0;
+            font-family: var(--font-main);
+            color: var(--text-dark);
+        }
+        
+        td {
+            padding: 0.06in 0.1in;
+            border-bottom: 1px solid #F1F5F9;
+            vertical-align: top;
+            line-height: 1.4;
+            font-size: 7pt;
+        }
+        
+        /* Page break rules to prevent row splitting */
+        tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+        
+        thead {
+            display: table-header-group; /* Repeat header on new pages */
+        }
+        
+        tfoot {
+            display: table-footer-group;
+        }
+        
+        .table-wrapper {
+            overflow: visible;
+            page-break-inside: auto;
+        }
+        
+        /* Ensure proper page breaking for multi-page tables */
+        .content {
+            padding-bottom: 30px; /* Ensure content doesn't touch bottom */
+        }
+        
+        /* Citation circles */
+        .citation-circle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #E5E7EB;
+            border-radius: 50%;
+            font-size: 6px;
+            color: #6B7280;
+            text-align: center;
+            line-height: 10px;
+            vertical-align: super;
+            text-decoration: none;
+            margin-left: 2px;
+            cursor: pointer;
+        }
+
+        .citation-circle:hover {
+            background-color: #D1D5DB;
+        }
+
+        /* Section grouping to prevent H3+summary+table separation */
+        .section-group {
+            page-break-inside: auto;
+            break-inside: auto;
+        }
+
+        /* Prevent Organizations H3 and summary from separating */
+        .organizations-header-group {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        .section-summary {
+            background: #F7F9FB;
+            padding: 0.1in 0.15in;
+            border-radius: 4px;
+            margin: 10px 0 15px 0;
+            border-left: 2px solid #007BFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 8pt;
+            color: #0B1D3A;
+            line-height: 1.4;
+        }
+
+        /* Print color adjustment and page break rules */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background: #fff !important; /* Ensure white background on all pages */
+            }
+            
+            /* Ensure all pages have white background */
+            @page {
+                background: #fff;
+                margin: 0;
+            }
+            
+            /* Let tables break cleanly */
+            table { page-break-before: auto; page-break-after: auto; page-break-inside: auto; }
+            tr    { page-break-inside: avoid; page-break-after: auto; }
+            
+            /* Repeat headers; don't try to margin them */
+            thead { display: table-header-group; margin-top: 0 !important; }
+            
+            /* ✅ Add 25px only on follow-on pages of this block */
+            .content {
+                padding-top: 25px;                 /* the spacer you want */
+                margin-top: -5px;                  /* small adjustment to not overlap header */
+                -webkit-box-decoration-break: clone;
+                box-decoration-break: clone;       /* clone padding on each page fragment */
+                overflow: visible;                 /* ensure the block can fragment in print */
+                background: #fff !important;       /* Ensure content has white background */
+            }
+            
+            .slide {
+                padding-bottom: 30px !important;
+                background: #fff !important;       /* Force white background on slides */
+            }
+        }
+
+        /* Automatic link numbering for citations */
+        a {
+            font-size: 0;
+            counter-increment: link-counter;
+        }
+
+        a::after {
+            content: counter(link-counter);
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #F7F9FB;
+            color: #0B1D3A;
+            text-align: center;
+            line-height: 10px;
+            font-size: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 1px;
+            vertical-align: super;
+        }
+    </style>
+</head>
+<body class="slides">
+    <section class="slide table">
+        
+        <!-- Header area -->
+        <div class="header" style="padding-bottom: 10px;">
+            <div class="header-left">
+                <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.35in; width:auto; display: block;" />
+                <div style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 10pt; color: #007BFF; text-transform: uppercase; letter-spacing: 0.15em; display: flex; align-items: center; gap: 0.1in; margin-top: 30px;">
+                    <div style="width: 0.25in; height: 1px; background: #007BFF; opacity: 0.5;"></div>
+                    NEIGHBOR SCREENS
+                </div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-size: 9pt; color: #0B1D3A; font-weight: 600; margin-bottom: 6px;">Analyzed:</div>
+                <div style="font-size: 8pt; color: #64748B; line-height: 1.3;">
+                    
+                    
+                    <div>8 Residents</div>
+                    <div>22 Entities</div>
+                    <div style="margin-top: 8px; padding: 6px 0; border-top: 1px solid #E2E8F0; font-size: 7pt; color: #94A3B8; line-height: 1.4; background: rgba(255,255,255,0.9); position: relative; z-index: 10;">
+                        <div style="margin-bottom: 2px;">Adj. = Adjacent Parcel</div>
+                        <div>C = Confidence in Sources</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content area - Tables -->
+        <div class="content" style="overflow-x: auto; margin-top: 15px;">
+            
+            
+            
+            
+            
+            <!-- Residents Section -->
+            <div class="section-group">
+                <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Residents</h3>
+                
+                <!--  -->
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 10%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 12%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 32%;">Claims</th>
+                            <th style="width: 10%;">Stance</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">64.12‑1‑17, 64.08‑1‑10, 64.12‑1‑14</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>Riverview Innovation</strong></td>
+                            <td>Organization</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">See ORG table.</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">Unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;"></td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑4‑6.1</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Gary C. Tollner</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Gary C. Tollner owns a property directly neighboring the former Tonawanda Coke plant site (<a href="https://www.wkbw.com/news/wny-development/riverview-innovation-technology-campus-buys-tonawanda-coke-site#:~:text=Tonwanda%20Coke%20was%20shut%20down,surrounding%20community%2C%20and%20the%20environment" target="_blank">www.wkbw.com</a>). His surname is shared with Tollner Painting, Inc., suggesting an association with that local contractor business (<a href="https://www.thebluebook.com/iProView/8265/tollner-painting-inc/subcontractors/locations-contacts/#:~:text=Tollner%20Painting%2C%20Inc.%20,email%20address%20that%20will%20download" target="_blank">www.thebluebook.com</a>).</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">groundwater_runoff, property_value.
+
+Reach out personally, emphasizing the project’s thorough environmental cleanup and how renewed site use can boost local property values.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑4‑3.11</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>William H. Mislin Jr.</strong></td>
+                            <td>Estate</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">William H. Mislin Jr. (b. 1925) was a longtime Tonawanda resident who passed away in December 2007 (<a href="https://www.ancientfaces.com/directory/name/william-mislin#:~:text=William%20H%20Jr%20Mislin%20Dec,21%2C%202007%20Tonawanda%2C%20New%20York" target="_blank">www.ancientfaces.com</a>). His name remains listed on parcel 65.09-4-3.11, indicating the property is held under his estate (<a href="https://www.ancientfaces.com/directory/name/william-mislin#:~:text=William%20H%20Jr%20Mislin%20Dec,21%2C%202007%20Tonawanda%2C%20New%20York" target="_blank">www.ancientfaces.com</a>).</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy.
+
+Communicate via the family or estate representative, honoring their long-time connection to the land and assuring the project will respect local heritage while improving the site.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑4‑5</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Joseph Mann</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Joseph Mann owns parcel 65.09-4-5, making him a direct neighbor to the Riverview Innovation site (<a href="https://www.cacwny.org/blog-2/page/16/#:~:text=Jon%20Williams%20of%20Riverview%20Innovation,monumental%2C%20though%20purely%20symbolic%2C%20event" target="_blank">www.cacwny.org</a>). He has not been publicly active in civic matters or taken a clear stance on the development (<a href="https://www.heraldstaronline.com/obituaries/2022/08/joseph-mann-2/#:~:text=Joseph%20Mann%20,Mann%2C%20age%2069" target="_blank">www.heraldstaronline.com</a>).</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">groundwater_runoff, property_value.
+
+Invite him to project information sessions and emphasize transparency in environmental remediation as well as minimal impact on his property.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑4‑1.1</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>David Battaglia</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">David Battaglia is a long-term community member, having attended Tonawanda High School in the early 1960s (<a href="https://www.idcrawl.com/david-battaglia#:~:text=David%20Battaglia" target="_blank">www.idcrawl.com</a>). He owns parcel 65.09-4-1.1 near the project site and has not publicly supported or opposed the development, apart from general safety concerns shared by area residents (<a href="https://www.cacwny.org/blog-2/page/16/#:~:text=Jon%20Williams%20of%20Riverview%20Innovation,monumental%2C%20though%20purely%20symbolic%2C%20event" target="_blank">www.cacwny.org</a>).</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, groundwater_runoff.
+
+Have a trusted local figure discuss the project with him, highlighting that it will maintain neighborhood peace and ensure safety through proper cleanup.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑21, 65.06‑1‑19</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Town Of Tonawanda</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">See ORG table.</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">High</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">tax_revenue_benefit.
+
+Coordinate through the Town Supervisor and Board, emphasizing local economic benefits and regulatory compliance.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑6‑5</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Minnesota Mining (3M Co.)</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">See ORG table.</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">High</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Contact the 3M plant management early to share project details and address any operational concerns.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.10‑1‑7</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Blake A. Kobee</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Public records indicate Blake A. Kobee owns a parcel (SBL 65.10-1-7) near the proposed site【15†L17-L21: "provide the public with easy access to real property information"】. No evidence shows Kobee taking any public stance or role in local development discussions【76†L9-L15: "others who live in the area are also shaking their head over the judge's decision."】</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Approach one-on-one via a community liaison, focusing on listening to any concerns and providing factual information.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+            <!-- Organizations Section -->
+            <div class="section-group" style="page-break-before: always;">
+                <div class="organizations-header-group">
+                    <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Entities</h3>
+                    
+                    <!--  -->
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 10%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 11%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 32%;">Claims</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 11%;">Classification</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑1‑7, 65.05‑1‑3</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Braxner LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Braxner LLC is a property investment entity that purchased the former Sivaco steel plant at 3937 River Road (a 219,000 sq ft industrial building) and invested approximately $1 million in renovations around the early 2000s (<a href="https://ecode360.com/11761930#:~:text=" target="_blank">ecode360.com</a>) (<a href="https://ecode360.com/11761930#:~:text=The%20building%20owner%2C%20Braxner%20LLC%2C,declared%20bankruptcy%20three%20years%20ago" target="_blank">ecode360.com</a>). This redevelopment enabled a new tenant (Vanocur Refractories, ~50 jobs) to occupy the site with support from the Town of Tonawanda’s Empire Zone incentives (<a href="https://ecode360.com/11761930#:~:text=The%20Vanocur%20Refractories%20Project%20%28,of%20repairing%20coke%20oven%20batteries" target="_blank">ecode360.com</a>) (<a href="https://ecode360.com/11761930#:~:text=Representatives%20of%20Vanocur%20Refractories%20have,a%20facility%20in%20Erie%2C%20Pennsylvania" target="_blank">ecode360.com</a>). Braxner’s beneficial owners are not publicly disclosed (an LLC vehicle); however, its track record in revitalizing an abandoned facility suggests a pro-development stance aimed at increasing property value and rental income. There is no record of Braxner LLC opposing local projects – on the contrary, it has benefited from economic development programs – indicating it would likely support or be neutral toward compatible new development in the area.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Identify and engage the property manager or owner representative through local economic development contacts; emphasize that the new project can enhance area infrastructure and property values. Reassure Braxner LLC that the development will not negatively impact their building or tenants, and highlight any indirect benefits (e.g. improved roads or services) that could accrue to their site. By aligning the project with Braxner’s investment interests, they are likely to remain supportive or neutral.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑1‑9</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>Univar USA Inc</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Univar USA Inc (part of Univar Solutions) operates a chemical distribution facility at 3709 River Road in Tonawanda (<a href="https://enviro.epa.gov/enviro/P2_EF_Query.p2_report?ChemicalId=0000095636&DocCtrlNum=&FacilityId=14150CHMCN3709R&Opt=0&ReportingYear=2016#:~:text=Facility%20ID%3A%2014150CHMCN3709R%20Facility%20Name,Trimethylbenzene" target="_blank">enviro.epa.gov</a>). The site is a regional hub for industrial chemical and ingredient wholesale, with a small local workforce (roughly 10–19 employees) and an estimated $20–50 million in annual revenue (<a href="https://www.manta.com/c/mmy1wwm/univar-usa-inc#:~:text=an%20annual%20revenue%20of%20%2420,of%20approximately%2010%20to%2019" target="_blank">www.manta.com</a>). Univar’s focus is on safe, compliant operations of its storage and transfer terminal (regulated as a chemical wholesaler) (<a href="https://enviro.epa.gov/enviro/P2_EF_Query.p2_report?ChemicalId=0000095636&DocCtrlNum=&FacilityId=14150CHMCN3709R&Opt=0&ReportingYear=2016#:~:text=TONAWANDA%2C%20NY%2014150%20Parent%20Company%3A,profile%20report%20for%20this%20facility" target="_blank">enviro.epa.gov</a>). The company is a multinational with no known public involvement in local politics or planning disputes; it has not taken any public stance against area developments. Univar’s main interest is avoiding disruptions to its operations – as long as a new project does not impede facility access, introduce new liabilities, or change zoning to restrict industrial use, Univar is likely to remain neutral. There is no indication of community outreach or opposition from this entity regarding development proposals in Tonawanda.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Proactively reach out to the facility’s local manager to address any logistical or safety concerns the project might raise (e.g. construction traffic, buffer distances for hazardous materials). Emphasize that the development will not interfere with Univar’s truck routes or emergency access and will maintain appropriate safety measures. By assuring Univar that its business operations and compliance status won’t be affected – and potentially offering coordination on any infrastructure improvements (roads, utilities) – the company is likely to stay neutral and unconcerned. Maintain communication with Univar’s regional EHS (Environmental Health & Safety) personnel to preempt any technical objections.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑1‑12</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Sunoco Partners Marketing &amp; Terminals (Sunoco Tonawanda Terminal)</strong></td>
+                            <td>limited_partnership</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Sunoco Partners Marketing & Terminals LP (a unit of Energy Transfer/Sunoco) owns and operates the Tonawanda Fuel Terminal at 3733 River Road (<a href="https://dec.ny.gov/news/environmental-notice-bulletin/2021-07-28/completed-application/sunoco-tonawanda-terminal#:~:text=SUNOCO%20PARTNERS%20MARKETING%20%26%20TERMINALS,PIKE%20NEWTOWN%20SQUARE%2C%20PA%2019073" target="_blank">dec.ny.gov</a>) (<a href="https://dec.ny.gov/news/environmental-notice-bulletin/2021-07-28/completed-application/sunoco-tonawanda-terminal#:~:text=SUNOCO%20TONAWANDA%20TERMINAL%203733%20RIVER,RD%20TONAWANDA%2C%20NY%2014150" target="_blank">dec.ny.gov</a>). This facility is a bulk fuel distribution hub handling gasoline, diesel, and ethanol, and it requires a Title V air permit as a major source of VOC emissions (<a href="https://dec.ny.gov/news/environmental-notice-bulletin/2021-07-28/completed-application/sunoco-tonawanda-terminal#:~:text=renewal%20of%20its%20Title%20V,The%20facility%20is" target="_blank">dec.ny.gov</a>). The terminal is a critical infrastructure asset for regional fuel supply but employs relatively few people on-site. Sunoco’s operations in Tonawanda are governed by regulatory compliance and safety mandates – in 2021 the company sought a renewal of its air permit to continue existing operations with no expansion of capacity (<a href="https://dec.ny.gov/news/environmental-notice-bulletin/2021-07-28/completed-application/sunoco-tonawanda-terminal#:~:text=renewal%20of%20its%20Title%20V,The%20facility%20is" target="_blank">dec.ny.gov</a>). The company has no local headquarters and does not engage in local political issues; its interest in nearby development is chiefly to ensure nothing jeopardizes its pipelines, storage tanks, or logistics. Sunoco Partners has not publicly opposed area developments in the past. Its stance toward new projects is expected to be neutral as long as the project does not encroach on pipeline easements or create safety hazards. If a proposed development were to interfere with its infrastructure or increase liability (for example, residential use very close to tanks), Sunoco would assert its concerns, but otherwise it tends to remain a passive neighboring landowner focused on its business.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage Sunoco’s terminal management early to share development plans, especially if construction or operation will be near their pipelines or right-of-way. Provide assurances and detailed plans for safety measures (e.g. buffer zones, coordination during construction) to alleviate any concerns about risks to their facility. It may be valuable to formalize agreements or emergency response coordination with Sunoco to show respect for their infrastructure. By demonstrating that the project will not impede fuel transport activities or access, and by addressing any technical safety issues, Sunoco’s ownership is likely to remain neutral. Keep communications at the corporate level (Sunoco Logistics/Energy Transfer) focused on compliance and risk mitigation, which aligns with their primary motivators.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.05‑1‑1, 65.09‑1‑4, 65.09‑1‑6, 65.09‑1‑5, 65.09‑1‑3, 65.09‑2‑10.1, 64.12‑1‑18, 65.06‑1‑27, 65.06‑1‑25, 65.09‑3‑2, 65.05‑2‑1, 65.05‑2‑2, 65.09‑6‑1, 52.17‑1‑2, 52.17‑1‑1, 65.10‑10‑4</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Niagara Mohawk Power Corp (National Grid)</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Niagara Mohawk Power Corporation is the legacy electric utility serving the region, now operating as a subsidiary of National Grid since 2002 (<a href="https://www.power-eng.com/operations-maintenance/national-grid-to-acquire-niagara-mohawk-in-3-billion-transaction/#:~:text=Niagara%20Mohawk%20will%20continue%20to,%E2%80%9D" target="_blank">www.power-eng.com</a>). As the local electric (and gas) distribution company, Niagara Mohawk (d/b/a National Grid) owns multiple parcels in the area for transmission lines and substation facilities (reflected by its numerous adjacent PINs). The utility’s ultimate parent, National Grid plc (UK), has emphasized supporting upstate New York’s economic development (<a href="https://www.renewableenergyworld.com/energy-business/energy-finance/niagara-mohawk-shareholders-overwhelmingly-approve-merger-with-national-grid-plc/#:~:text=%E2%80%9CThis%20transaction%20is%20a%20vote,not%20only%20in%20Niagara%20Mohawk%E2%80%99s" target="_blank">www.renewableenergyworld.com</a>), and the company generally welcomes growth that increases demand for power. Niagara Mohawk’s role in any new project would likely be as a service provider (ensuring electric infrastructure and interconnection) rather than as an opponent. There is no history of Niagara Mohawk opposing local development proposals; instead, the company typically coordinates with developers to provide utility hookups or to accommodate any needed easements. Niagara Mohawk’s primary concern would be protecting its equipment and maintaining reliable service during and after construction. Provided the project works with National Grid on any grid upgrades or safety measures, the utility is expected to be neutral or broadly supportive of new development as it aligns with their mandate to enable regional growth.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Coordinate closely with National Grid’s planners/engineers early in the project to ensure any electrical interconnection or service needs are addressed collaboratively. Identify a key account manager or community relations representative at Niagara Mohawk/National Grid who can facilitate discussions – this person can champion the project internally if it requires utility upgrades. Emphasize how the development could align with National Grid’s commitment to regional economic development (<a href="https://www.renewableenergyworld.com/energy-business/energy-finance/niagara-mohawk-shareholders-overwhelmingly-approve-merger-with-national-grid-plc/#:~:text=%E2%80%9CThis%20transaction%20is%20a%20vote,not%20only%20in%20Niagara%20Mohawk%E2%80%99s" target="_blank">www.renewableenergyworld.com</a>) (e.g. creating jobs, requiring grid improvements) to position them as a partner. Securing a will-serve letter or similar assurances of utility capacity for the project can preempt any concerns. By involving Niagara Mohawk in planning and highlighting mutual benefits (like infrastructure investment), the utility is likely to remain supportive and possibly even provide favorable testimony about the project’s feasibility from an energy standpoint.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑26, 65.09‑2‑3.1, 65.09‑4‑7.11, 65.09‑4‑8.11</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>410 Sawyer Avenue Inc (Patterson-Stevens Inc)</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">410 Sawyer Avenue Inc is a New York business corporation formed in 1991 and headquartered at 400–410 Sawyer Avenue in Tonawanda (<a href="https://www.bizprofile.net/ny/tonawanda/410-sawyer-avenue-inc#:~:text=410%20Sawyer%20Avenue%2C%20Inc,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>) (<a href="https://www.bizprofile.net/ny/tonawanda/410-sawyer-avenue-inc#:~:text=The%20principal%20and%20mailing%20address,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>). The company’s CEO is Randy H. Dowling, and the address corresponds to the offices of Patterson-Stevens Inc, a long-standing local specialty contractor (<a href="https://www.bizprofile.net/ny/tonawanda/410-sawyer-avenue-inc#:~:text=The%20corporation%20is%20led%20by,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>) (<a href="https://hudwayglass.com/SAWYER%2BAVE%2C%2BTonawanda%2BNY#:~:text=400%20Sawyer%20Ave%2C%20Tonawanda%2C%20NY,7785" target="_blank">hudwayglass.com</a>). Patterson-Stevens is an industrial construction firm (est. ~1970s) known for concrete restoration, pool construction, and infrastructure projects across New York and neighboring states (<a href="https://www.mapquest.com/us/new-york/patterson-stevens-289120020#:~:text=Operational%20for%20more%20than%2045,The%20company%20also%20provides%20garage" target="_blank">www.mapquest.com</a>). As the owner-occupier of this site, 410 Sawyer/Patterson-Stevens is deeply embedded in the local industrial community. The company benefits from a robust industrial park environment and would view compatible developments favorably, especially those that could generate construction work or improve area conditions. There is no public record of opposition from this entity; instead, as a business that thrives on development projects, it has incentive to support growth. The likely priorities for 410 Sawyer Avenue Inc are to ensure continued industrial zoning (so their operations aren’t restricted) and to capitalize on any new project’s need for contractors or site work.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage the principal (CEO Randy Dowling) directly and early. Position the project as a potential opportunity for Patterson-Stevens – for example, discuss using local contractors for site preparation, concrete work, or other relevant construction tasks. Emphasize that the development will maintain the industrial character of the area (no residential or sensitive uses that could conflict with heavy industry) and may even lead to infrastructure upgrades (roads or utilities) that benefit existing businesses. By aligning the project’s benefits with 410 Sawyer’s interests – additional work and a stable industrial environment – the company can become an ally. Solicit their input on project plans (they may have valuable local knowledge) and consider a public endorsement if they are willing, which could carry weight given their standing in the local business community.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">64.12‑1‑10.111</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>Noco Black Dirt Prop LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Noco Black Dirt Properties LLC is a New York limited liability company formed on March 5, 2009 (<a href="https://www.nycompanyregistry.com/NOCO/#:~:text=Company%20Status%3A%20Active%20Noco%20Ballet%2C,LLC%20DOS%20ID%207200036%20Company" target="_blank">www.nycompanyregistry.com</a>). It is affiliated with the NOCO Energy Corp. family of companies – NOCO is a longstanding Tonawanda-based fuel and energy firm (est. 1948) led by the Newman family (<a href="https://www.nybizdb.com/company/noco-energy-corp-81404/#:~:text=Company%27s%20CEO" target="_blank">www.nybizdb.com</a>) (<a href="https://www.nybizdb.com/company/noco-energy-corp-81404/#:~:text=Noco%20Energy%20Corp,12%2C%201948%2C%2077%20years%20ago" target="_blank">www.nybizdb.com</a>). The LLC’s name suggests it was created to hold local land (possibly former farmland or soil sites), and other NOCO property subsidiaries use NOCO’s corporate address (<a href="https://www.nycompanyregistry.com/NOCO/#:~:text=located%20at%207557%20STATE%20ST,6592557%20Company%20Status%3A%20Active%20Noco" target="_blank">www.nycompanyregistry.com</a>). There is no public record of Noco Black Dirt LLC taking a stance in community development debates. Given its corporate backing, its interests likely align with maximizing land value or potential future use. NOCO’s owners are politically connected (e.g., James D. Newman as CEO) (<a href="https://www.nybizdb.com/company/noco-energy-corp-81404/#:~:text=Company%27s%20CEO" target="_blank">www.nybizdb.com</a>), so if the company perceived a development as harmful to its assets or operations, it could leverage substantial influence. However, absent a clear conflict, it may remain neutral or even open to collaboration, especially if a project aligns with business interests (e.g., energy infrastructure).</td>
+                            <td style="font-size: 6.5pt;">High</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage NOCO’s real estate decision-makers (e.g., the Newman family or company executives) directly, framing the development as beneficial or at least not detrimental to their land’s value. Emphasize opportunities (such as shared infrastructure or favorable purchase/lease terms) that could make participation attractive. Be mindful of NOCO’s public image – they may respond to community goodwill gestures or partnership offers. Given NOCO’s capacity for legal action, maintain transparency and address any environmental or operational concerns proactively to avoid triggering opposition.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑4‑3.121</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>WNY Associates Realty Corp</strong></td>
+                            <td>corp</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">WNY Associates Realty Corp is an active New York business corporation (not a farm corporation) that appears to hold real estate in the Tonawanda area (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Status%20%20,No" target="_blank">www.bizprofile.net</a>). It shares a business address in Amherst, NY (606 North French Road) with Seventeen Hundred Properties Inc., suggesting both companies are managed by the same local investor group (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Department%20of%20State%2C%20the%20corporation,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>) (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Chief%20Executive%20Officer%27s%20Name%20and,Address" target="_blank">www.bizprofile.net</a>). The corporation’s name (“WNY Associates”) indicates a local Western New York ownership. Public information about its operations is limited – it functions primarily as a landholder for the parcel identified by that PIN. There are no news or public statements from WNY Associates regarding development projects; its stance can be inferred as driven by financial considerations (property value and future development potential). The adjoining parcel (PIN 65.09-4-3.122) was spun off to Seventeen Hundred Properties Inc., implying WNY Associates either sold a portion or is coordinating closely with that entity. This company does not have a notable public profile in the community beyond owning land.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Identify the principal owner (likely associated with the Amherst address) and open a dialogue about mutually beneficial outcomes. Since this is a locally based investor, an in-person meeting or call to discuss the project’s impact on property values may be effective. Emphasize how the development could improve infrastructure or market conditions in ways that benefit their parcel. If they have been holding the land for a project of their own, consider offering cooperation or compensation (e.g., buyout or joint venture). Ensure any concerns about access, traffic, or buffer zones are addressed to prevent them from viewing the project as a threat.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑4‑3.122</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Seventeen Hundred Prop Inc</strong></td>
+                            <td>inc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Seventeen Hundred Properties, Inc. is a New York business corporation formed on May 9, 1995 (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Seventeen%20Hundred%20Properties%2C%20Inc,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>) (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Document%20Number%20%20,Business%20Corporation%20Law" target="_blank">www.bizprofile.net</a>). Its principal office is listed at 606 North French Road, Suite 8 in Amherst, NY (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Department%20of%20State%2C%20the%20corporation,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>), with David B. Scrivani of Amherst identified as the Chief Executive Officer (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=The%20corporation%20is%20led%20by,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>) (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Chief%20Executive%20Officer%27s%20Name%20and,Address" target="_blank">www.bizprofile.net</a>). This company appears to be a real estate holding entity related to WNY Associates Realty Corp (both share the same mailing address and management) (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Department%20of%20State%2C%20the%20corporation,position%20of%20Chief%20Executive%20Officer" target="_blank">www.bizprofile.net</a>) (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Chief%20Executive%20Officer%27s%20Name%20and,Address" target="_blank">www.bizprofile.net</a>). The name “Seventeen Hundred” likely corresponds to a street address or lot number, hinting at a specific property (possibly the parcel itself or a nearby location). The corporation’s purpose is general real estate (not a farm operation) (<a href="https://www.bizprofile.net/ny/amherst/seventeen-hundred-properties-inc#:~:text=Status%20%20,No" target="_blank">www.bizprofile.net</a>). Like WNY Associates, it keeps a low public profile and has not openly weighed in on community development issues. Its behavior suggests a speculative land investor: the parcel was acquired and perhaps subdivided from an adjacent holding for investment or development purposes. Its stance on any new development next door would hinge on how that affects its own development plans or land value. There is no evidence of philanthropic or community activities by this entity; it is focused on its property assets.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage directly with David B. Scrivani (or the identified principal) to understand their plans for the parcel. As a small landowner, they may be open to selling or partnering if the price is right – consider proposing a buyout or option agreement if their land is crucial. Address any concerns about how the project might limit their site’s use; for example, offer assurances about shared access or buffers. Since their priority is likely financial, framing the development as a win-win (increasing local land demand, infrastructure improvements, etc.) will be key. Keep communications neighborly and transparent to avoid triggering a defensive reaction or mistrust.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑22</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>310 GI Blvd LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">310 GI Blvd LLC is a limited liability company named for its property at 310 Grand Island Boulevard in Tonawanda (<a href="https://www.loopnet.com/Listing/310-Grand-Island-Blvd-Tonawanda-NY/18742765/#:~:text=...Survey%20%2A%20,Tonawanda%2C%20NY%2014150%20The%20Industrial" target="_blank">www.loopnet.com</a>). The address corresponds to an industrial parcel (previously used as a trucking or freight terminal) that was marketed for sale in early 2020 (<a href="https://www.loopnet.com/Listing/310-Grand-Island-Blvd-Tonawanda-NY/18742765/#:~:text=...Survey%20%2A%20,Tonawanda%2C%20NY%2014150%20The%20Industrial" target="_blank">www.loopnet.com</a>). The formation of this LLC likely coincided with the purchase of the property after the former occupant (a freight company) ceased operations in 2019. As such, 310 GI Blvd LLC appears to be a single-purpose entity holding the 310 Grand Island Blvd site for redevelopment or leasing. There is no public-facing presence or announcements from this LLC; it does not have known employees or business beyond owning the land. The owner(s) behind it haven’t been identified in news sources, suggesting a private investor or small development firm. Given its focus, the LLC’s stance on neighboring development will relate to practical impacts – e.g., road access, traffic, or how a project might affect the attractiveness of its industrial property. If the planned development is compatible (or even generates demand for industrial use), the LLC could be indifferent or mildly supportive. If it perceives risk (such as restricted truck routes or nuisance during construction), it may object through legal or zoning channels. Overall, its position is expected to be pragmatic and profit-driven.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Reach out via the contact on record (registered agent or address) to identify the principal investor. Emphasize how the proposed development will not impede – and might even enhance – the industrial use of 310 Grand Island Blvd. For instance, if traffic is a concern, detail traffic management plans to reassure them. If possible, offer mutually beneficial arrangements (such as shared road improvements or utility upgrades that also serve their property). Since they are likely looking for tenants or buyers, stress that the overall project could raise the profile of the area, making their site more marketable. Keeping them informed and addressing concerns early (noise, construction timing, etc.) can prevent opposition. Given their low public profile, one-on-one negotiation should be effective.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑18, 65.06‑1‑9, 65.06‑1‑10</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Ritchie Road MHP LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Ritchie Road MHP LLC is the corporate owner of the Niagara Mobile Home Park located at 51 Ritchie Avenue in Tonawanda (<a href="https://www.mhbo.com/mobile-home-park/71340-niagara-mobile-home-park-51-ritchie-bonsky-tonawanda-ny-14150#:~:text=Niagara%20Mobile%20Home%20Park%20,Park%20Inquire%20About%20Homes%20Lot" target="_blank">www.mhbo.com</a>). The “MHP” in its name denotes “Mobile Home Park.” This LLC is part of a broader trend of outside investors acquiring manufactured home communities in New York; around 2016, a Schenectady-based fund (MHC Acquisition Fund III) was established to purchase such parks (<a href="https://altamontenterprise.com/08222016/legal-notices-aug-11-2016#:~:text=Notice%20of%20Formation%20of%20a,Purpose%3A%20Any%20lawful%20purpose" target="_blank">altamontenterprise.com</a>). Although the specific owners of Ritchie Road MHP LLC are not publicly advertised, the involvement of a registered agent in Schenectady suggests an out-of-region investment group manages the park. Typically, these owners focus on maximizing rental income and property value, sometimes leading to rent increases that concern residents (<a href="https://qa.time.com/5464621/affordable-housing-mobile-homes/#:~:text=Residents%20Are%20Fighting%20to%20Protect,where%20private%20equity%20firms%20and" target="_blank">qa.time.com</a>). In terms of development stance, the company itself has not made any public statements. Its interest lies in a stable environment for its tenants (who lease the land for their homes) and protecting its long-term revenue stream. A neighboring development could raise concerns for them if it threatens to disrupt the park (through construction noise, increased traffic on Ritchie Road, or other quality-of-life impacts for residents). Conversely, improvements to local infrastructure or utilities might be seen as a benefit. The residents of the mobile home park, while not the owners, represent a community that could voice support or opposition depending on how the project affects them. The LLC owner is likely mindful of resident relations to avoid vacancies, but ultimately their decisions are profit-driven.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage with both the park ownership (via their management company) and the residents. With the owners, highlight measures the project will take to minimize disruption – for example, controlled working hours to limit noise, traffic plans to avoid congesting Ritchie Road, and possibly fencing or landscaping buffers. You might offer community benefits that indirectly help the park (e.g., road improvements or community investment) to get ownership’s goodwill. For the residents, consider a community meeting or outreach to address their questions; their contentment will in turn reduce pressure on the owners to intervene. Ensure any feared impacts (like construction dust or drainage changes) are addressed in the plans and communicated. By proactively collaborating, you can turn a potential opponent into a neutral party or even a quiet supporter. Keep in mind the owners are primarily concerned with revenue – if the development doesn’t threaten occupancy or costs, they are unlikely to object strenuously.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑23</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Transport Realty Co</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Transport Realty Co appears to be an older corporate landowner in Tonawanda with minimal public information available (<a href="https://www.bizprofile.net/ny/tonawanda/67#:~:text=No%20,transport%20realty" target="_blank">www.bizprofile.net</a>). The name suggests ties to the transportation or logistics sector, but no active business operations or local presence can be identified in public directories or records (<a href="https://www.bizprofile.net/ny/tonawanda/67#:~:text=No%20,transport%20realty" target="_blank">www.bizprofile.net</a>). There are no media reports, filings, or community activities linked to this entity, implying it functions purely as a passive property holder (beneficial owners are not publicly listed) (<a href="https://www.bizprofile.net/ny/tonawanda/67#:~:text=No%20,transport%20realty" target="_blank">www.bizprofile.net</a>). Its stance on development is unknown, as it has made no public statements or legal filings regarding area projects as of this date.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Identify the owner or registered agent through property records and extend a direct purchase or partnership offer; emphasize financial benefits since the entity likely cares only about property value. Prepare for a passive negotiation – they have not engaged publicly, so a straightforward above-market offer or favorable lease terms may be the most effective way to secure their cooperation.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑5‑33, 65.09‑5‑34, 65.09‑5‑17</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>EZ Industries LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">EZ Industries LLC is a New York limited liability company formed on May 21, 2015 (DOS ID 4762461) (<a href="https://www.bizprofile.net/ny/north-tonawanda/ez-industries-llc#:~:text=Governing%20Agency%20%20,5%2F31%2F2025" target="_blank">www.bizprofile.net</a>). Its mailing address is 107 River Road, North Tonawanda (<a href="https://www.bizprofile.net/ny/north-tonawanda/ez-industries-llc#:~:text=The%20mailing%20address%20of%20the,the%20company%27s%20activities%20and%20communications" target="_blank">www.bizprofile.net</a>), which corresponds to “EZ Tire & Auto,” a local automotive repair and inspection business (<a href="https://www.mapquest.com/us/new-york/eric-one-stop-416874668#:~:text=EZ%20Tire%20Auto%20in%20North,great%20at%20an%20affordable%20rate" target="_blank">www.mapquest.com</a>). The company owns three adjacent parcels in Tonawanda, indicating it may use or plan to use the land for its auto-related operations or as an investment in industrial property (<a href="https://www.mapquest.com/us/new-york/eric-one-stop-416874668#:~:text=EZ%20Tire%20Auto%20in%20North,great%20at%20an%20affordable%20rate" target="_blank">www.mapquest.com</a>). EZ Industries and its principals do not feature in local political or media reports, suggesting their interest in development is limited to how it affects their business (e.g., traffic or access) rather than any broader agenda (<a href="https://www.mapquest.com/us/new-york/eric-one-stop-416874668#:~:text=EZ%20Tire%20Auto%20in%20North,great%20at%20an%20affordable%20rate" target="_blank">www.mapquest.com</a>).</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage the owner (or manager) of EZ Tire & Auto personally to understand their concerns. Emphasize how the development can coexist with or even benefit their business (e.g., improved road infrastructure or increased customer base). Address practical issues like construction timing, traffic, or visibility. Gaining their support may simply require assurances that their daily operations won’t be hindered and potentially offering minor concessions (such as signage, shared parking arrangements, or service contracts) as goodwill.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑6‑3</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Jollip LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Jollip LLC’s ownership and purpose are not publicly documented. Searches of New York business registries and news archives reveal no information about this entity, suggesting it is a shell company or passive land holding with no active operations (<a href="https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?ListNameOrder=JOLIOLI+L190002155700&inquiryDirectionType=CurrentList&inquiryType=EntityName&searchNameOrder=JOLIOLI+L190002155700&searchTerm=Jolito%2C+Inc.#:~:text=and%20Trademarks%20by%20Name%20search,INACT%2FUA%20JOLI" target="_blank">search.sunbiz.org</a>). The company’s only known asset is the parcel of land (PIN 65.09-6-3) in Tonawanda, and there are no records of any development activity, permit applications, or community engagement by this LLC. Its beneficial owners remain unknown, and no stance on local development has been expressed in any public forum as of now (<a href="https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?ListNameOrder=JOLIOLI+L190002155700&inquiryDirectionType=CurrentList&inquiryType=EntityName&searchNameOrder=JOLIOLI+L190002155700&searchTerm=Jolito%2C+Inc.#:~:text=and%20Trademarks%20by%20Name%20search,INACT%2FUA%20JOLI" target="_blank">search.sunbiz.org</a>).</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Investigate property deeds or county records to identify the individual behind Jollip LLC, as personal outreach will be necessary. Since the entity itself is dormant publicly, the owner’s goal is likely maximizing land sale value. Approach with a strong financial offer or partnership proposition that highlights a win-win (they profit without having to develop themselves). Be prepared for a purely profit-driven discussion – if the owner is holding the land for speculation, demonstrating that your project increases its value or offering to buy them out at a premium should gain their cooperation.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.10‑1‑5</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>County Of Erie</strong></td>
+                            <td>government</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Erie County (population roughly 950,000) is the local government encompassing Tonawanda (<a href="https://datausa.io/profile/geo/erie-county-ny?redirect=true#:~:text=Erie%20County%2C%20NY%20,increase%202023%20Poverty%20Rate%2014" target="_blank">datausa.io</a>). The county owns parcel 65.10-1-5, likely for public purposes such as infrastructure, environmental management, or future development planning rather than private commercial interest (<a href="https://www3.erie.gov/environment/land-development-economic-development-planning-studies#:~:text=Planning%20www3,Lee%20Design%20Professionals%20as%20the" target="_blank">www3.erie.gov</a>). As a municipal entity, Erie County’s stance on any project will align with broader public policy goals – for example, job creation, tax base expansion, environmental compliance, and community welfare. The county has significant influence through zoning, permitting, and potential funding or incentives (e.g., via the Erie County Industrial Development Agency) and can be a powerful ally if the project aligns with its economic development priorities (<a href="https://www3.erie.gov/environment/land-development-economic-development-planning-studies#:~:text=Planning%20www3,Lee%20Design%20Professionals%20as%20the" target="_blank">www3.erie.gov</a>). There is no indication of opposition; instead, the county typically supports developments that meet regulatory requirements and deliver public benefits.</td>
+                            <td style="font-size: 6.5pt;">High</td>
+                            <td style="font-size: 6.5pt;">municipal</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage Erie County officials and planners early to ensure the project aligns with county development objectives (such as brownfield reuse or infrastructure improvement). Emphasize public benefits: job creation, increased tax revenue, sustainable land use – outcomes the county is mandated to support. Work with the county’s economic development agencies (like ECIDA) to possibly obtain incentives, which also secures their buy-in. Since the county’s interest is serving constituents, maintaining transparency and highlighting how the project addresses community needs will convert the county from a neutral landowner into an active project partner.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑6‑2</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>R L R Investments LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">R.L.R. Investments LLC is a large, multi-state property investment firm with roots in the freight transportation industry (<a href="https://rlrllc.com/#:~:text=Since%20we%20started%20with%20a,trusted%20and%20respected%20property%20investor" target="_blank">rlrllc.com</a>). The company operates a nationwide real estate portfolio (industrial, commercial, land) across many states, including New York (<a href="https://rlrllc.com/#:~:text=Delaware%20Florida%20Georgia%20Hawaii%20Iowa,Washington%20Wisconsin%20West%20Virginia%20Wyoming" target="_blank">rlrllc.com</a>). “RLR” corresponds to R. L. Roberts – as evidenced by related entities like R.L. Roberts LLC being associated with it (<a href="https://dockets.justia.com/docket/new-york/nyedce/1%3A2020cv01606/446816#:~:text=RLR%20Investments%2C%20LLC%20et%20al,U.S.%20District" target="_blank">dockets.justia.com</a>) – which ties back to the family behind R+L Carriers, a major logistics company. This suggests that RLR Investments acquires strategic properties for logistics or investment purposes and has considerable financial resources and professional legal counsel at its disposal (<a href="https://rlrllc.com/#:~:text=Since%20we%20started%20with%20a,trusted%20and%20respected%20property%20investor" target="_blank">rlrllc.com</a>). However, being an external investor, it has no known local community role or political ties in Tonawanda. Its interest in development is likely purely ROI-driven, and it will assess any project in terms of property value impact or opportunity for its own development plans.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Contact RLR’s real estate asset manager or acquisitions department (the decision-makers for their property holdings) with a proposal that highlights mutual benefit. Given their freight investment background, frame the project in terms of enhancing land value or creating infrastructure that could benefit logistics use. If the project potentially conflicts with their plans, consider offering to purchase their parcel at a premium or involve them as a partner (e.g., a leaseback or joint venture) so they see financial upside. Anticipate a formal, profitability-focused negotiation – RLR will respond to clear business cases and may bring in attorneys or consultants, so ensure all dealings are professional and backed by solid numbers.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑8.1</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Upward Realty LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Upward Realty LLC is registered as a New York limited liability company, one of over 2.5 million business entities on file with the state (<a href="https://polepoleto.com/us-ny?page=8&zip=14223#:~:text=This%20dataset%20includes%20over%202,type%2C%20initial%20filling%20date%2C%20etc" target="_blank">polepoleto.com</a>). It has no publicly listed officers or active operations; state records provide only a mailing address and use the Secretary of State as agent for service (<a href="https://www.bizprofile.net/ny/grand-island/483-sawyer-llc#:~:text=Service%20of%20Process%20on%20the,Secretary%20of%20State%20as%20Agent" target="_blank">www.bizprofile.net</a>). The LLC appears to function purely as a landholding entity for its Tonawanda parcel, with no evident involvement in development projects or community initiatives (beneficial owners remain undisclosed) (<a href="https://www.bizprofile.net/ny/grand-island/483-sawyer-llc#:~:text=Service%20of%20Process%20on%20the,Secretary%20of%20State%20as%20Agent" target="_blank">www.bizprofile.net</a>).</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Identify the principal through property records or outreach (likely via the LLC’s registered address); emphasize how the project could enhance their land value or offer a buyout. Monitor their position but expect neutrality unless the project impacts their parcel value.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.10‑11‑1.12</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>483 Sawyer LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">483 Sawyer LLC was formed on December 23, 2015 and remains an active New York LLC in good standing (<a href="https://www.bizprofile.net/ny/grand-island/483-sawyer-llc#:~:text=483%20Sawyer%20LLC%20is%20a,active%20status%20in%20state%20records" target="_blank">www.bizprofile.net</a>). Its official mailing address is 124 Park Place in Grand Island, NY (<a href="https://www.bizprofile.net/ny/grand-island/483-sawyer-llc#:~:text=The%20mailing%20address%20of%20the,the%20company%27s%20activities%20and%20communications" target="_blank">www.bizprofile.net</a>), and it serves as the holding company for the property at 483 Sawyer Avenue in Tonawanda. That site is occupied by EnerGsmart Foam Insulation, a local commercial/residential insulation contractor that has operated in the Buffalo area since 2004 (<a href="https://www.mapquest.com/us/new-york/energsmart-443558263#:~:text=Energsmart%20Foam%20Insulation%20has%20been,offering%20a%20range%20of%20high" target="_blank">www.mapquest.com</a>) (<a href="https://energsmart.com/contact/#:~:text=483%20Sawyer%20Ave,8057%20fax" target="_blank">energsmart.com</a>). No individual managers are listed in public filings (service of process goes to the LLC’s Grand Island address) (<a href="https://www.bizprofile.net/ny/grand-island/483-sawyer-llc#:~:text=Service%20of%20Process%20on%20the,Secretary%20of%20State%20as%20Agent" target="_blank">www.bizprofile.net</a>). The company has no public history of civic or political activity, suggesting its role is limited to owning the facility for the insulation business’s use (<a href="https://www.bizprofile.net/ny/grand-island/483-sawyer-llc#:~:text=Service%20of%20Process%20on%20the,Secretary%20of%20State%20as%20Agent" target="_blank">www.bizprofile.net</a>).</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage the owner via the on-site business (EnerGsmart) to address any concerns about construction or project impact on their operations. Emphasize benefits (e.g., improved infrastructure or potential business opportunities) and ensure the project does not disrupt their facility. Given their local stake, maintaining goodwill with this neighbor can secure their neutrality or support.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑5‑16.11</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>250 Sawyer Ave Property LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">250 Sawyer Ave Property LLC is a New York domestic limited liability company formed to hold the industrial parcel at 250 Sawyer Avenue【OpenCorporates — other, retrieved 2025-11-07; "Company Type: Domestic Limited Liability Company"】. The LLC is active and registered in Erie County【OpenCorporates — other, retrieved 2025-11-07; "Company Type: Domestic Limited Liability Company"】. Its managers/members are not listed in public filings (beneficial ownership unknown). No other business operations are evident, indicating it serves as a landholding entity only. The company has no public community involvement or political activity on record.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Identify the beneficial owner through registered agent or deed records and engage privately; reassure that the project won’t diminish their property’s value or future use; consider offering an option or partnership if their land could be included in development</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.10‑1‑4</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Superior Forwarding Co Inc</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Superior Forwarding Co., Inc. is an active New York business corporation (domestic) based in Tonawanda【OpenCorporates — other, retrieved 2025-11-07; "Company Type: Domestic Business Corporation"】. The company owns and operates on parcel 65.10-1-4 (likely a warehouse/trucking facility on Sawyer Avenue) and provides freight forwarding/logistics services locally. It is a privately held firm, and its owners are not publicly prominent (no public disclosures of management beyond state filings). The company has little visible involvement in local politics or development disputes; its interests are chiefly maintaining its operations and property. Superior Forwarding’s community influence is limited to its role as a small employer and industrial neighbor, with no history of organizing or campaigning on local issues.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Meet with the company’s owner or manager to address any operational concerns (traffic, construction impacts); emphasize that the development will not impede their trucking activities and may improve area infrastructure; maintain open communication to prevent misunderstanding, given their direct stake as a neighboring business</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑5‑14.11, 65.09‑5‑13.1</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>DSR Real Estate Manag Inc</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">DSR Real Estate Management, Inc. is a New York corporation that holds two adjacent parcels on Sawyer Avenue【OpenCorporates — other, retrieved 2025-11-07; "Company Type: Domestic Business Corporation"】. The company’s name and assets suggest it functions as a property investment/management entity rather than an operating business. Its ownership and leadership are not publicly documented (no prominent individuals tied to it), and it maintains a low profile. Apart from owning the real estate, DSR Real Estate Management has no known community or political engagement. It appears to be a passive landowner focused on the value and utilization of its properties, without direct influence beyond its landholdings.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Approach the company through its registered agent or listed business address to share project plans; highlight any aspects that could enhance nearby property values or tenant appeal (if they lease out their buildings); address any concerns about access or nuisance proactively. Since the principals are unknown, be prepared that their response may come via attorneys or remain hands-off unless the project directly affects their property use</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.09‑5‑18</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>246 Sawyer Ave Property LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">246 Sawyer Ave Property LLC is a New York limited liability company owning the parcel at 246 Sawyer Avenue in Tonawanda【OpenCorporates — other, retrieved 2025-11-07; "Company Type: Domestic Limited Liability Company"】. Like the similarly named 250 Sawyer LLC, it was created as a special-purpose entity for real estate holding. The LLC is officially active in state records【OpenCorporates — other, retrieved 2025-11-07; "Domestic Limited Liability Company"】, but it has no public-facing activities or known employees. No information is available on its members or ultimate owners (beneficial ownership not disclosed). The entity has no record of community involvement and appears solely concerned with the asset value and potential development of its land.</td>
+                            <td style="font-size: 6.5pt;">Low</td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Attempt to identify the underlying owner (possibly via the LLC’s attorney or mailing address) and initiate a dialogue about the project’s plans; offer assurances that their property will not be negatively impacted (or consider if they might want to partner or sell if your development could raise area values); since the LLC itself won’t voice concerns publicly, monitor for any legal objections they might file through representatives</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">65.06‑1‑1</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Saia Motor Freight Line LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Saia Motor Freight Line, LLC is a subsidiary of Saia, Inc., a major national trucking company founded in 1924 (<a href="https://en.wikipedia.org/wiki/Saia#:~:text=Saia%20is%20an%20American%20less,top%20ten%20of%20LTL%20carriers" target="_blank">en.wikipedia.org</a>). It is registered in New York as a foreign limited liability company and operates a freight terminal on its Tonawanda property【OpenCorporates — other, retrieved 2025-11-07; "Company Type: Foreign Limited Liability Company"】. Saia, Inc. is a publicly traded firm (an S&P 400 component) with over 10,000 employees and LTL freight operations across 36 states (<a href="https://en.wikipedia.org/wiki/Saia#:~:text=Num%20Employees%3A%2010%2C600%20Num%20Employees,com" target="_blank">en.wikipedia.org</a>) (<a href="https://en.wikipedia.org/wiki/Saia#:~:text=Saia%20is%20an%20American%20less,top%20ten%20of%20LTL%20carriers" target="_blank">en.wikipedia.org</a>). Despite its significant corporate resources, Saia’s local influence is modest – the company typically focuses on logistics business and has no history of engaging in local political or development controversies. Its primary interest is ensuring its trucking operations are not hindered by changes in the area.</td>
+                            <td style="font-size: 6.5pt;">Medium</td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Engage the terminal manager and Saia’s corporate real estate team early to inform them of the project and address any logistical concerns (traffic patterns, road usage). Emphasize any improvements (e.g., infrastructure upgrades) that could benefit their trucking operations. Given Saia’s corporate structure, expect any opposition or requests to come through formal channels (e.g., legal or corporate affairs), and be prepared with traffic studies or mitigation plans to satisfy their operational safety requirements</td>
+                            <td>H</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        
+        <!-- Footer area (empty for cleaner look) -->
+        <div class="footer"></div>
+        
+    </section>
+</body>
+</html>

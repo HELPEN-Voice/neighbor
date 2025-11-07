@@ -94,7 +94,7 @@ class WebhookManager:
         self.data[response_id] = {"agent": agent_name, "status": "pending"}
 
     async def wait_for_webhook(
-        self, response_id: str, timeout: int = 1800
+        self, response_id: str, timeout: int = 2700
     ) -> Dict[str, Any]:
         """Wait for a webhook callback for the given response ID."""
         if response_id not in self.callbacks:

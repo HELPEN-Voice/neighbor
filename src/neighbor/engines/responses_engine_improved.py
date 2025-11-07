@@ -292,9 +292,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
                     f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏳ Waiting for webhook callback for {len(names)} {entity_type}s..."
                 )
 
-                # Wait for webhook with shorter timeout (20 minutes)
+                # Wait for webhook with 45 minute timeout
                 webhook_result = await webhook_manager.wait_for_webhook(
-                    response_id, timeout=1200
+                    response_id, timeout=2700
                 )
 
                 if webhook_result.get("status") == "completed":

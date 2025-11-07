@@ -1,0 +1,228 @@
+{
+  "timestamp": "2025-11-06T16:32:51.292124",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Erie County",
+    "state": "NY",
+    "city": "Tonawanda",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All of the neighboring landowners identified have not publicly stated positions on the project, so their stances remain unknown. None hold notable sway in local affairs; each appears to have low community influence with no official roles. Their focus is likely on practical concerns like thorough environmental cleanup and safeguarding property values, given their long-term residence near the former industrial site.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Riverview Innovation",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "64.12-1-17",
+        "64.08-1-10",
+        "64.12-1-14"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Gary C. Tollner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "65.09-4-6.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gary C. Tollner owns a property directly neighboring the former Tonawanda Coke plant site ([www.wkbw.com](https://www.wkbw.com/news/wny-development/riverview-innovation-technology-campus-buys-tonawanda-coke-site#:~:text=Tonwanda%20Coke%20was%20shut%20down,surrounding%20community%2C%20and%20the%20environment)). His surname is shared with Tollner Painting, Inc., suggesting an association with that local contractor business ([www.thebluebook.com](https://www.thebluebook.com/iProView/8265/tollner-painting-inc/subcontractors/locations-contacts/#:~:text=Tollner%20Painting%2C%20Inc.%20,email%20address%20that%20will%20download)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "property_value"
+        ],
+        "engage": "Reach out personally, emphasizing the project’s thorough environmental cleanup and how renewed site use can boost local property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "William H. Mislin Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "65.09-4-3.11"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William H. Mislin Jr. (b. 1925) was a longtime Tonawanda resident who passed away in December 2007 ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/william-mislin#:~:text=William%20H%20Jr%20Mislin%20Dec,21%2C%202007%20Tonawanda%2C%20New%20York)). His name remains listed on parcel 65.09-4-3.11, indicating the property is held under his estate ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/william-mislin#:~:text=William%20H%20Jr%20Mislin%20Dec,21%2C%202007%20Tonawanda%2C%20New%20York)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Deceased landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Communicate via the family or estate representative, honoring their long-time connection to the land and assuring the project will respect local heritage while improving the site."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Joseph Mann",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "65.09-4-5"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph Mann owns parcel 65.09-4-5, making him a direct neighbor to the Riverview Innovation site ([www.cacwny.org](https://www.cacwny.org/blog-2/page/16/#:~:text=Jon%20Williams%20of%20Riverview%20Innovation,monumental%2C%20though%20purely%20symbolic%2C%20event)). He has not been publicly active in civic matters or taken a clear stance on the development ([www.heraldstaronline.com](https://www.heraldstaronline.com/obituaries/2022/08/joseph-mann-2/#:~:text=Joseph%20Mann%20,Mann%2C%20age%2069)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "property_value"
+        ],
+        "engage": "Invite him to project information sessions and emphasize transparency in environmental remediation as well as minimal impact on his property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "David Battaglia",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "65.09-4-1.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "David Battaglia is a long-term community member, having attended Tonawanda High School in the early 1960s ([www.idcrawl.com](https://www.idcrawl.com/david-battaglia#:~:text=David%20Battaglia)). He owns parcel 65.09-4-1.1 near the project site and has not publicly supported or opposed the development, apart from general safety concerns shared by area residents ([www.cacwny.org](https://www.cacwny.org/blog-2/page/16/#:~:text=Jon%20Williams%20of%20Riverview%20Innovation,monumental%2C%20though%20purely%20symbolic%2C%20event)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "groundwater_runoff"
+        ],
+        "engage": "Have a trusted local figure discuss the project with him, highlighting that it will maintain neighborhood peace and ensure safety through proper cleanup."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All of the neighboring landowners identified have not publicly stated positions on the project, so their stances remain unknown. None hold notable sway in local affairs; each appears to have low community influence with no official roles. Their focus is likely on practical concerns like thorough environmental cleanup and safeguarding property values, given their long-term residence near the former industrial site.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Riverview Innovation\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"Organization\",\n      \"pins\": [\"64.12-1-17\", \"64.08-1-10\", \"64.12-1-14\"],\n      \"claims\": \"See ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Gary C. Tollner\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"65.09-4-6.1\"],\n      \"claims\": \"Gary C. Tollner owns a property directly neighboring the former Tonawanda Coke plant site ([www.wkbw.com](https://www.wkbw.com/news/wny-development/riverview-innovation-technology-campus-buys-tonawanda-coke-site#:~:text=Tonwanda%20Coke%20was%20shut%20down,surrounding%20community%2C%20and%20the%20environment)). His surname is shared with Tollner Painting, Inc., suggesting an association with that local contractor business ([www.thebluebook.com](https://www.thebluebook.com/iProView/8265/tollner-painting-inc/subcontractors/locations-contacts/#:~:text=Tollner%20Painting%2C%20Inc.%20,email%20address%20that%20will%20download)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"groundwater_runoff\", \"property_value\"],\n        \"engage\": \"Reach out personally, emphasizing the project’s thorough environmental cleanup and how renewed site use can boost local property values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"William H. Mislin Jr.\",\n      \"entity_category\": \"Estate\",\n      \"entity_type\": \"Estate\",\n      \"pins\": [\"65.09-4-3.11\"],\n      \"claims\": \"William H. Mislin Jr. (b. 1925) was a longtime Tonawanda resident who passed away in December 2007 ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/william-mislin#:~:text=William%20H%20Jr%20Mislin%20Dec,21%2C%202007%20Tonawanda%2C%20New%20York)). His name remains listed on parcel 65.09-4-3.11, indicating the property is held under his estate ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/william-mislin#:~:text=William%20H%20Jr%20Mislin%20Dec,21%2C%202007%20Tonawanda%2C%20New%20York)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Deceased landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Communicate via the family or estate representative, honoring their long-time connection to the land and assuring the project will respect local heritage while improving the site.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Joseph Mann\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"65.09-4-5\"],\n      \"claims\": \"Joseph Mann owns parcel 65.09-4-5, making him a direct neighbor to the Riverview Innovation site ([www.cacwny.org](https://www.cacwny.org/blog-2/page/16/#:~:text=Jon%20Williams%20of%20Riverview%20Innovation,monumental%2C%20though%20purely%20symbolic%2C%20event)). He has not been publicly active in civic matters or taken a clear stance on the development ([www.heraldstaronline.com](https://www.heraldstaronline.com/obituaries/2022/08/joseph-mann-2/#:~:text=Joseph%20Mann%20,Mann%2C%20age%2069)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"groundwater_runoff\", \"property_value\"],\n        \"engage\": \"Invite him to project information sessions and emphasize transparency in environmental remediation as well as minimal impact on his property.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"David Battaglia\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"65.09-4-1.1\"],\n      \"claims\": \"David Battaglia is a long-term community member, having attended Tonawanda High School in the early 1960s ([www.idcrawl.com](https://www.idcrawl.com/david-battaglia#:~:text=David%20Battaglia)). He owns parcel 65.09-4-1.1 near the project site and has not publicly supported or opposed the development, apart from general safety concerns shared by area residents ([www.cacwny.org](https://www.cacwny.org/blog-2/page/16/#:~:text=Jon%20Williams%20of%20Riverview%20Innovation,monumental%2C%20though%20purely%20symbolic%2C%20event)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"groundwater_runoff\"],\n        \"engage\": \"Have a trusted local figure discuss the project with him, highlighting that it will maintain neighborhood peace and ensure safety through proper cleanup.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

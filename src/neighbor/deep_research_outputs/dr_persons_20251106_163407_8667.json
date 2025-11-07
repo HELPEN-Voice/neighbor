@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-11-06T16:34:07.866820",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Erie County",
+    "state": "NY",
+    "city": "Tonawanda",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three adjacent landowners have no recorded stance regarding the development. Two of the neighbors (the Town and a major company) wield high influence in the community, while the one private individual has low influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Town Of Tonawanda",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "65.06-1-21",
+        "65.06-1-19"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Local government authority",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit"
+        ],
+        "engage": "Coordinate through the Town Supervisor and Board, emphasizing local economic benefits and regulatory compliance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Minnesota Mining (3M Co.)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "65.09-6-5"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Major manufacturer; large landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact the 3M plant management early to share project details and address any operational concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Blake A. Kobee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "65.10-1-7"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records indicate Blake A. Kobee owns a parcel (SBL 65.10-1-7) near the proposed site【15†L17-L21: \"provide the public with easy access to real property information\"】. No evidence shows Kobee taking any public stance or role in local development discussions【76†L9-L15: \"others who live in the area are also shaking their head over the judge's decision.\"】",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach one-on-one via a community liaison, focusing on listening to any concerns and providing factual information."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three adjacent landowners have no recorded stance regarding the development. Two of the neighbors (the Town and a major company) wield high influence in the community, while the one private individual has low influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Town Of Tonawanda\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"65.06-1-21\", \"65.06-1-19\"],\n      \"claims\": \"See ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Local government authority\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"tax_revenue_benefit\"],\n        \"engage\": \"Coordinate through the Town Supervisor and Board, emphasizing local economic benefits and regulatory compliance.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Minnesota Mining (3M Co.)\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"65.09-6-5\"],\n      \"claims\": \"See ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major manufacturer; large landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Contact the 3M plant management early to share project details and address any operational concerns.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Blake A. Kobee\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"65.10-1-7\"],\n      \"claims\": \"Public records indicate Blake A. Kobee owns a parcel (SBL 65.10-1-7) near the proposed site【15†L17-L21: \\\"provide the public with easy access to real property information\\\"】. No evidence shows Kobee taking any public stance or role in local development discussions【76†L9-L15: \\\"others who live in the area are also shaking their head over the judge's decision.\\\"】\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach one-on-one via a community liaison, focusing on listening to any concerns and providing factual information.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

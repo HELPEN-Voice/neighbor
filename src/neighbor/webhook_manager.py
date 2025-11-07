@@ -93,7 +93,7 @@ class WebhookManagerClient:
             self._events[response_id].set()
 
     async def wait_for_webhook(
-        self, response_id: str, timeout: int = 1800
+        self, response_id: str, timeout: int = 2700
     ) -> Dict[str, Any]:
         """
         Wait for a webhook response using WebSocket connection.
