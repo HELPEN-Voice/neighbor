@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+
+# Output directories
+src/neighbor/neighbor_outputs/
+src/neighbor/neighbor_html_outputs/
+src/neighbor/individual_pdf_reports/
+src/neighbor/combined_pdf_reports/
+src/neighbor/deep_research_outputs/
+
+# Documentation (except README.md which is needed by pyproject.toml)
+ECS_DEPLOYMENT.md
+
+# Test files (but keep test_live_regrid.py as it's the entry point)
+*.test.py

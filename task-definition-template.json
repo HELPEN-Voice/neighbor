@@ -1,0 +1,22 @@
+{
+  "family": "neighbor-pipeline",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "2048",
+  "memory": "4096",
+  "executionRoleArn": "arn:aws:iam::378088657283:role/ecsTaskExecutionRole",
+  "containerDefinitions": [{
+    "name": "neighbor-app",
+    "image": "378088657283.dkr.ecr.us-east-2.amazonaws.com/helpen/neighbor:latest",
+    "environment": [],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "/ecs/neighbor-pipeline",
+        "awslogs-region": "us-east-2",
+        "awslogs-stream-prefix": "ecs",
+        "awslogs-create-group": "true"
+      }
+    }
+  }]
+}

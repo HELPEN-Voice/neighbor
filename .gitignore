@@ -57,3 +57,6 @@ htmlcov/
 # Temporary files
 *.tmp
 .webhook_url
+
+# ECS helper script (contains subnet/SG IDs)
+run-ecs-task.sh

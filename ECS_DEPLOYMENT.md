@@ -130,7 +130,7 @@ Required environment variables (you'll set these directly in the task definition
 REGRID_API_KEY=<your-regrid-key>
 OPENAI_API_KEY=<your-openai-key>
 AZURE_MAPS_API_KEY=<your-azure-maps-key>
-NGROK_AUTHTOKEN=<your-ngrok-token>
+NGROK_AUTHTOKEN=<your-ngrok-token>  # Ngrok CLI looks for this env var by default
 NGROK_DOMAIN=eminent-guided-silkworm.ngrok-free.app
 OPENAI_WEBHOOK_URL=https://eminent-guided-silkworm.ngrok-free.app/webhooks/openai
 DB_HOST=helpen-db.c6psfzphsyru.us-east-2.rds.amazonaws.com
@@ -140,7 +140,7 @@ DB_PASSWORD=<your-db-password>
 DB_NAME=helpen_db
 ```
 
-**Note**: The script will automatically start an ngrok tunnel (just like it does locally) to provide HTTPS access to your webhook server. OpenAI requires HTTPS for webhooks, which is why ngrok is used. The ngrok binary will automatically authenticate using the `NGROK_AUTHTOKEN` environment variable.
+**Note**: The script will automatically start an ngrok tunnel (just like it does locally) to provide HTTPS access to your webhook server. OpenAI requires HTTPS for webhooks, which is why ngrok is used. The ngrok CLI automatically looks for the `NGROK_AUTHTOKEN` environment variable for authentication.
 
 Get your ngrok auth token from: https://dashboard.ngrok.com/get-started/your-authtoken
 
