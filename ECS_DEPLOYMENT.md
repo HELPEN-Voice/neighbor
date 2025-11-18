@@ -122,51 +122,27 @@ s3_client.upload_file(
 - More expensive but acts like local filesystem
 - Configure in task definition
 
-### 3. Environment Variables & Secrets
+### 3. Environment Variables
 
-Store secrets in **AWS Secrets Manager** or **SSM Parameter Store**:
+Required environment variables (you'll set these directly in the task definition):
 
-Required environment variables:
 ```
-REGRID_API_KEY=<from-secrets-manager>
-OPENAI_API_KEY=<from-secrets-manager>
-AZURE_MAPS_API_KEY=<from-secrets-manager>
-NGROK_AUTHTOKEN=<from-secrets-manager>
+REGRID_API_KEY=<your-regrid-key>
+OPENAI_API_KEY=<your-openai-key>
+AZURE_MAPS_API_KEY=<your-azure-maps-key>
+NGROK_AUTHTOKEN=<your-ngrok-token>
 NGROK_DOMAIN=eminent-guided-silkworm.ngrok-free.app
 OPENAI_WEBHOOK_URL=https://eminent-guided-silkworm.ngrok-free.app/webhooks/openai
-DB_HOST=<database-host>
+DB_HOST=helpen-db.c6psfzphsyru.us-east-2.rds.amazonaws.com
 DB_PORT=5432
-DB_USERNAME=<from-secrets-manager>
-DB_PASSWORD=<from-secrets-manager>
-DB_NAME=<database-name>
-S3_BUCKET_NAME=<bucket-for-reports>
+DB_USER=helpen_team
+DB_PASSWORD=<your-db-password>
+DB_NAME=helpen_db
 ```
 
 **Note**: The script will automatically start an ngrok tunnel (just like it does locally) to provide HTTPS access to your webhook server. OpenAI requires HTTPS for webhooks, which is why ngrok is used. The ngrok binary will automatically authenticate using the `NGROK_AUTHTOKEN` environment variable.
 
-Create secrets in AWS Secrets Manager:
-```bash
-aws secretsmanager create-secret \
-    --name neighbor/regrid-api-key \
-    --secret-string "YOUR_REGRID_KEY"
-
-aws secretsmanager create-secret \
-    --name neighbor/openai-api-key \
-    --secret-string "YOUR_OPENAI_KEY"
-
-aws secretsmanager create-secret \
-    --name neighbor/azure-maps-api-key \
-    --secret-string "YOUR_AZURE_MAPS_KEY"
-
-# Get your ngrok auth token from: https://dashboard.ngrok.com/get-started/your-authtoken
-aws secretsmanager create-secret \
-    --name neighbor/ngrok-authtoken \
-    --secret-string "YOUR_NGROK_AUTHTOKEN"
-
-aws secretsmanager create-secret \
-    --name neighbor/db-password \
-    --secret-string "YOUR_DB_PASSWORD"
-```
+Get your ngrok auth token from: https://dashboard.ngrok.com/get-started/your-authtoken
 
 ### 4. ECS Task Definition
 
@@ -185,36 +161,18 @@ Create `task-definition.json`:
     "name": "neighbor-app",
     "image": "ACCOUNT_ID.dkr.ecr.us-east-2.amazonaws.com/neighbor:latest",
     "command": ["--lat", "43.081409", "--lon", "-79.029438"],
-    "secrets": [
-      {
-        "name": "REGRID_API_KEY",
-        "valueFrom": "arn:aws:secretsmanager:us-east-2:ACCOUNT_ID:secret:neighbor/regrid-api-key"
-      },
-      {
-        "name": "OPENAI_API_KEY",
-        "valueFrom": "arn:aws:secretsmanager:us-east-2:ACCOUNT_ID:secret:neighbor/openai-api-key"
-      },
-      {
-        "name": "AZURE_MAPS_API_KEY",
-        "valueFrom": "arn:aws:secretsmanager:us-east-2:ACCOUNT_ID:secret:neighbor/azure-maps-api-key"
-      },
-      {
-        "name": "NGROK_AUTHTOKEN",
-        "valueFrom": "arn:aws:secretsmanager:us-east-2:ACCOUNT_ID:secret:neighbor/ngrok-authtoken"
-      },
-      {
-        "name": "DB_PASSWORD",
-        "valueFrom": "arn:aws:secretsmanager:us-east-2:ACCOUNT_ID:secret:neighbor/db-password"
-      }
-    ],
     "environment": [
+      {"name": "REGRID_API_KEY", "value": "YOUR_REGRID_KEY"},
+      {"name": "OPENAI_API_KEY", "value": "YOUR_OPENAI_KEY"},
+      {"name": "AZURE_MAPS_API_KEY", "value": "YOUR_AZURE_MAPS_KEY"},
+      {"name": "NGROK_AUTHTOKEN", "value": "YOUR_NGROK_TOKEN"},
       {"name": "NGROK_DOMAIN", "value": "eminent-guided-silkworm.ngrok-free.app"},
       {"name": "OPENAI_WEBHOOK_URL", "value": "https://eminent-guided-silkworm.ngrok-free.app/webhooks/openai"},
-      {"name": "DB_HOST", "value": "your-db-host.rds.amazonaws.com"},
+      {"name": "DB_HOST", "value": "helpen-db.c6psfzphsyru.us-east-2.rds.amazonaws.com"},
       {"name": "DB_PORT", "value": "5432"},
-      {"name": "DB_USERNAME", "value": "your_db_user"},
-      {"name": "DB_NAME", "value": "your_db_name"},
-      {"name": "S3_BUCKET_NAME", "value": "neighbor-reports"}
+      {"name": "DB_USER", "value": "helpen_team"},
+      {"name": "DB_PASSWORD", "value": "YOUR_DB_PASSWORD"},
+      {"name": "DB_NAME", "value": "helpen_db"}
     ],
     "logConfiguration": {
       "logDriver": "awslogs",
@@ -231,7 +189,7 @@ Create `task-definition.json`:
 
 ### 5. Create IAM Roles
 
-#### Execution Role (for ECS to pull images and secrets)
+#### Execution Role (for ECS to pull images and write logs)
 ```json
 {
   "Version": "2012-10-17",
@@ -245,7 +203,7 @@ Create `task-definition.json`:
         "ecr:BatchGetImage",
         "logs:CreateLogStream",
         "logs:PutLogEvents",
-        "secretsmanager:GetSecretValue"
+        "logs:CreateLogGroup"
       ],
       "Resource": "*"
     }
@@ -459,16 +417,15 @@ aws logs tail /ecs/neighbor-pipeline --follow
 
 ## Next Steps
 
-1. **Create Dockerfile** (provided above)
+1. **Create Dockerfile** ✓ (provided above)
 2. **Modify code to upload outputs to S3** instead of local filesystem (optional - for persistent storage)
 3. **Set up AWS infrastructure**:
    - ECR repository
-   - Secrets Manager secrets (including ngrok auth token)
    - IAM roles
    - ECS cluster
    - VPC/subnet/security group configuration
 4. **Build and push Docker image**
-5. **Register task definition**
+5. **Create and register task definition** with your actual environment variable values
 6. **Test run a task**
 7. **Set up Lambda or EventBridge trigger** for automation (optional)
 
@@ -476,13 +433,13 @@ aws logs tail /ecs/neighbor-pipeline --follow
 
 ### Task Fails Immediately
 - Check CloudWatch logs: `aws logs tail /ecs/neighbor-pipeline --follow`
-- Verify secrets are accessible (IAM permissions)
+- Verify environment variables are set correctly in task definition
 - Check security groups allow outbound internet access
 
 ### Cannot Connect to Database
 - Verify security group rules
 - Check VPC configuration
-- Ensure correct DB credentials in Secrets Manager
+- Ensure correct DB credentials in environment variables
 
 ### Out of Memory
 - Increase memory in task definition (currently 4096 MB)
@@ -494,7 +451,7 @@ aws logs tail /ecs/neighbor-pipeline --follow
 - Ensure correct region in task definition
 
 ### Ngrok Tunnel Fails
-- Verify `NGROK_AUTHTOKEN` is correctly set in Secrets Manager
+- Verify `NGROK_AUTHTOKEN` is correctly set in task definition environment variables
 - Check `NGROK_DOMAIN` matches your ngrok account domain
 - Ensure ECS task has outbound internet access (public IP or NAT gateway)
 - Check CloudWatch logs for ngrok error messages
