@@ -20,7 +20,7 @@ class NeighborSettings(BaseSettings):
     # Deep Research model selection
     DR_MODEL: Literal[
         "o4-mini-deep-research-2025-06-26", "o3-deep-research-2025-06-26"
-    ] = "o3-deep-research-2025-06-26"
+    ] = "o4-mini-deep-research-2025-06-26"
 
     # Concurrency & batching
     BATCH_SIZE: int = 5

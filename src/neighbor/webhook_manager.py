@@ -48,15 +48,26 @@ class WebhookManagerClient:
             # Ensure base URL doesn't end with /
             self.base_url = self.base_url.rstrip("/")
 
-            # Use AWS ALB for WebSocket connections
+            # Use WebSocket base URL from environment or default to ALB
+            # For ECS deployments, set WEBHOOK_WS_URL to internal service discovery DNS
+            ws_url_env = os.getenv("WEBHOOK_WS_URL", "")
+            print(f"🔍 WEBHOOK_WS_URL env var: '{ws_url_env}'")
             self.ws_base_url = (
-                "ws://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com"
+                ws_url_env.strip('"')
+                if ws_url_env
+                else "ws://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com"
             )
+            print(f"🔍 Using WebSocket base URL: {self.ws_base_url}")
         else:
             self.base_url = ""
+            ws_url_env = os.getenv("WEBHOOK_WS_URL", "")
+            print(f"🔍 WEBHOOK_WS_URL env var: '{ws_url_env}'")
             self.ws_base_url = (
-                "ws://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com"
+                ws_url_env.strip('"')
+                if ws_url_env
+                else "ws://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com"
             )
+            print(f"🔍 Using WebSocket base URL: {self.ws_base_url}")
 
         self._initialized = True
 
@@ -67,9 +78,7 @@ class WebhookManagerClient:
     async def register_callback(self, response_id: str, agent_name: str = None) -> bool:
         """Register a callback with the webhook server."""
         try:
-            logger.info(
-                f"📌 Registering callback for {response_id} (agent: {agent_name})"
-            )
+            print(f"📌 Registering callback for {response_id} (agent: {agent_name})")
 
             # Create an event for this response ID
             if response_id not in self._events:
@@ -78,12 +87,12 @@ class WebhookManagerClient:
             return True
 
         except Exception as e:
-            logger.error(f"Error registering callback: {e}")
+            print(f"Error registering callback: {e}")
             return False
 
     def handle_webhook_notification(self, response_id: str, data: Any):
         """Called by the webhook server when a webhook is received."""
-        logger.info(f"📥 Webhook notification received for {response_id}")
+        print(f"📥 Webhook notification received for {response_id}")
 
         # Store in memory
         self._results[response_id] = data
@@ -98,15 +107,49 @@ class WebhookManagerClient:
         """
         Wait for a webhook response using WebSocket connection.
         """
-        logger.info(f"⏳ Waiting for webhook for response_id: {response_id}")
-        logger.info(f"📡 Webhook URL configured: {self.webhook_url}")
+        print(f"⏳ Waiting for webhook for response_id: {response_id}")
+        print(f"📡 Webhook URL configured: {self.webhook_url}")
+        print(f"🔌 WebSocket base URL: {self.ws_base_url}")
 
         ws_url = f"{self.ws_base_url}/ws/{response_id}"
+        print(f"🔌 Attempting WebSocket connection:")
+        print(f"   URL: {ws_url}")
+        print(f"   open_timeout: 30s")
+        print(f"   ping_interval: 20s")
 
         try:
-            # Connect to WebSocket endpoint
-            async with websockets.connect(ws_url) as websocket:
-                logger.info(f"🔌 Connected to WebSocket: {ws_url}")
+            # Connect to WebSocket endpoint with explicit timeout and ping settings
+            print(f"🔌 Initiating WebSocket connection...")
+            try:
+                websocket = await asyncio.wait_for(
+                    websockets.connect(
+                        ws_url,
+                        open_timeout=30,
+                        close_timeout=10,
+                        ping_interval=20,  # Send ping every 20 seconds
+                        ping_timeout=10,  # Wait 10 seconds for pong response
+                    ),
+                    timeout=35,  # Slightly longer than open_timeout
+                )
+                print(f"✅ WebSocket connection object created")
+            except asyncio.TimeoutError:
+                print(f"❌ Connection timeout after 35s trying to connect to {ws_url}")
+                return {
+                    "status": "error",
+                    "error": f"Connection timeout after 35 seconds",
+                }
+            except Exception as conn_error:
+                print(f"❌ Connection error: {type(conn_error).__name__}: {conn_error}")
+                import traceback
+
+                print(f"   Traceback: {traceback.format_exc()}")
+                return {
+                    "status": "error",
+                    "error": f"Connection error: {str(conn_error)}",
+                }
+
+            async with websocket:
+                print(f"✅ WebSocket connected successfully to {ws_url}")
 
                 # Set up timeout
                 async def wait_for_completion():
@@ -120,7 +163,7 @@ class WebhookManagerClient:
                                 logger.debug(f"💓 Heartbeat received for {response_id}")
                                 continue
                             elif data.get("type") == "webhook_received":
-                                logger.info(
+                                print(
                                     f"✅ Webhook received notification for {response_id}"
                                 )
                                 # Add a small delay to handle race condition between webhook and API update
@@ -128,7 +171,7 @@ class WebhookManagerClient:
                                 await asyncio.sleep(
                                     10.0
                                 )  # 10 second delay to ensure API consistency
-                                logger.debug(
+                                print(
                                     f"⏱️ Waited 10s after webhook for API consistency ({response_id})"
                                 )
                                 return {
@@ -138,12 +181,10 @@ class WebhookManagerClient:
                                     "data": data.get("data"),
                                 }
                         except websockets.exceptions.ConnectionClosed:
-                            logger.error(
-                                f"WebSocket connection closed for {response_id}"
-                            )
+                            print(f"WebSocket connection closed for {response_id}")
                             break
                         except Exception as e:
-                            logger.error(f"Error receiving WebSocket message: {e}")
+                            print(f"Error receiving WebSocket message: {e}")
                             break
 
                     return {"status": "error", "error": "WebSocket connection lost"}
@@ -153,16 +194,34 @@ class WebhookManagerClient:
                 return result
 
         except asyncio.TimeoutError:
-            logger.error(f"⏰ Timeout waiting for webhook {response_id}")
+            print(f"⏰ Timeout waiting for webhook {response_id} after {timeout}s")
             return {
                 "status": "timeout",
                 "error": f"Timeout after {timeout} seconds waiting for webhook",
             }
-        except Exception as e:
-            logger.error(f"❌ WebSocket connection failed: {e}")
+        except websockets.exceptions.WebSocketException as e:
+            print(f"❌ WebSocket error for {response_id}:")
+            print(f"   Type: {type(e).__name__}")
+            print(f"   Message: {e}")
+            print(f"   URL attempted: {ws_url}")
+            import traceback
+
+            print(f"   Traceback: {traceback.format_exc()}")
             return {
                 "status": "error",
-                "error": f"WebSocket connection failed: {str(e)}",
+                "error": f"WebSocket error: {str(e)}",
+            }
+        except Exception as e:
+            print(f"❌ Unexpected error waiting for webhook {response_id}:")
+            print(f"   Type: {type(e).__name__}")
+            print(f"   Message: {e}")
+            print(f"   URL attempted: {ws_url}")
+            import traceback
+
+            print(f"   Traceback: {traceback.format_exc()}")
+            return {
+                "status": "error",
+                "error": f"Error: {str(e)}",
             }
 
     async def retrieve_response(self, response_id: str) -> Dict[str, Any]:
@@ -180,7 +239,7 @@ class WebhookManagerClient:
             # Check if response is still processing
             status = getattr(response, "status", "unknown")
             if status != "completed":
-                logger.warning(
+                print(
                     f"Response status is '{status}', not 'completed'. Response ID: {response_id}"
                 )
                 # If still processing, return a pending status
@@ -195,9 +254,9 @@ class WebhookManagerClient:
             # Process the response
             if not response.output:
                 # Log more details about the response
-                logger.error(f"Response has no output. Status: {status}")
-                logger.error(f"Response ID: {response_id}")
-                logger.error(f"Response attributes: {dir(response)}")
+                print(f"Response has no output. Status: {status}")
+                print(f"Response ID: {response_id}")
+                print(f"Response attributes: {dir(response)}")
                 raise ValueError("No output in response")
 
             output_text = response.output[-1].content[0].text
@@ -249,7 +308,7 @@ class WebhookManagerClient:
             }
 
         except Exception as e:
-            logger.error(f"Error retrieving response {response_id}: {e}")
+            print(f"Error retrieving response {response_id}: {e}")
             return {
                 "status": "error",
                 "error": str(e),

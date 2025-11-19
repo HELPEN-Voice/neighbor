@@ -58,11 +58,18 @@ def start_ngrok_tunnel():
     except Exception:
         pass
 
+    # Use private IP if available (for ECS deployments), otherwise use public ALB
+    webhook_target = (
+        os.getenv("WEBHOOK_WS_URL", "").strip('"').replace("ws://", "http://")
+    )
+    if not webhook_target or webhook_target == "http://":
+        webhook_target = (
+            "http://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com"
+        )
+
     print(f"🚀 Starting ngrok tunnel to AWS webhook server...")
     print(f"   Domain: {ngrok_domain}")
-    print(
-        f"   Target: http://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com"
-    )
+    print(f"   Target: {webhook_target}")
 
     try:
         # Start ngrok in background
@@ -72,7 +79,7 @@ def start_ngrok_tunnel():
                 "http",
                 "--domain",
                 ngrok_domain,
-                "http://webhook-server-alb-1412407138.us-east-2.elb.amazonaws.com",
+                webhook_target,
             ],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
