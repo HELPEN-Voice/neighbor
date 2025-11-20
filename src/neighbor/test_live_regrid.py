@@ -18,6 +18,8 @@ import time
 from pathlib import Path
 from datetime import datetime
 from pprint import pprint
+import boto3
+from botocore.exceptions import ClientError
 
 # Load environment variables
 from dotenv import load_dotenv
@@ -163,6 +165,64 @@ def generate_pdf_report(result_data: dict) -> str:
     # Fallback to individual PDFs directory
     pdf_dir = base / "individual_pdf_reports"
     return str(pdf_dir)
+
+
+def upload_outputs_to_s3(lat: float, lon: float) -> str:
+    """Upload all output files to S3 with organized folder structure.
+
+    Folder structure: {lat}_{lon}_{timestamp}/json/..., /html/..., /pdf/individual/..., /pdf/combined/...
+
+    Returns:
+        S3 path prefix for the uploaded files
+    """
+    base = Path(__file__).resolve().parent
+
+    # Create folder name with coords and timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    folder_name = f"{lat}_{lon}_{timestamp}"
+
+    s3_client = boto3.client('s3', region_name='us-east-2')
+    bucket_name = 'neighbor-intelligence-outputs'
+
+    uploaded_files = []
+
+    # Define directories to upload and their S3 subfolders
+    upload_mappings = [
+        (base / "neighbor_outputs", "json"),
+        (base / "neighbor_html_outputs", "html"),
+        (base / "individual_pdf_reports", "pdf/individual"),
+        (base / "combined_pdf_reports", "pdf/combined"),
+        (base / "deep_research_outputs", "deep_research"),
+    ]
+
+    print(f"\n📤 Uploading outputs to S3...")
+    print(f"   Bucket: {bucket_name}")
+    print(f"   Folder: {folder_name}")
+
+    for local_dir, s3_subfolder in upload_mappings:
+        if not local_dir.exists():
+            continue
+
+        # Upload all files in the directory
+        for file_path in local_dir.iterdir():
+            if file_path.is_file():
+                s3_key = f"{folder_name}/{s3_subfolder}/{file_path.name}"
+
+                try:
+                    s3_client.upload_file(
+                        str(file_path),
+                        bucket_name,
+                        s3_key
+                    )
+                    uploaded_files.append(s3_key)
+                    print(f"  ✓ Uploaded: {s3_subfolder}/{file_path.name}")
+                except ClientError as e:
+                    print(f"  ❌ Failed to upload {file_path.name}: {e}")
+
+    print(f"\n✅ Uploaded {len(uploaded_files)} files to S3")
+    print(f"   S3 path: s3://{bucket_name}/{folder_name}/")
+
+    return f"s3://{bucket_name}/{folder_name}/"
 
 
 async def test_live_pipeline(lat, lon):
@@ -393,6 +453,18 @@ async def test_live_pipeline(lat, lon):
                     print(f"    Full path: {pdf_path}")
                 except Exception as e:
                     print(f"  ⚠ PDF generation failed: {e}")
+                    import traceback
+
+                    traceback.print_exc()
+
+                # Upload all outputs to S3
+                print(f"\n📦 Step 6: Uploading outputs to S3...")
+                try:
+                    s3_path = upload_outputs_to_s3(lat, lon)
+                    print(f"  ✓ All outputs uploaded successfully")
+                    print(f"    S3 location: {s3_path}")
+                except Exception as e:
+                    print(f"  ⚠ S3 upload failed: {e}")
                     import traceback
 
                     traceback.print_exc()
