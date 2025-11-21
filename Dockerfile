@@ -36,8 +36,8 @@ COPY pyproject.toml README.md ./
 COPY src/ ./src/
 COPY merge_new_orgs.py retrieve_response.py ./
 
-# Install Python dependencies
-RUN pip install --no-cache-dir .
+# Install Python dependencies (editable mode so package points to source dir)
+RUN pip install --no-cache-dir -e .
 
 # Install Playwright browsers
 RUN playwright install chromium
