@@ -201,12 +201,16 @@ def upload_outputs_to_s3(lat: float, lon: float) -> str:
 
     for local_dir, s3_subfolder in upload_mappings:
         if not local_dir.exists():
+            print(f"  ⊘ Skipping {s3_subfolder}/ (directory not found)")
             continue
 
         # Upload all files in the directory
         for file_path in local_dir.iterdir():
             if file_path.is_file():
                 s3_key = f"{folder_name}/{s3_subfolder}/{file_path.name}"
+                file_size_kb = file_path.stat().st_size / 1024
+
+                print(f"  → Uploading {file_path.name} ({file_size_kb:.1f} KB) to s3://{bucket_name}/{s3_key}")
 
                 try:
                     s3_client.upload_file(
@@ -215,7 +219,7 @@ def upload_outputs_to_s3(lat: float, lon: float) -> str:
                         s3_key
                     )
                     uploaded_files.append(s3_key)
-                    print(f"  ✓ Uploaded: {s3_subfolder}/{file_path.name}")
+                    print(f"  ✓ Successfully uploaded: {s3_subfolder}/{file_path.name}")
                 except ClientError as e:
                     print(f"  ❌ Failed to upload {file_path.name}: {e}")
 
