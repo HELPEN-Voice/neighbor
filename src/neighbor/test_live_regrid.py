@@ -177,9 +177,9 @@ def upload_outputs_to_s3(lat: float, lon: float) -> str:
     """
     base = Path(__file__).resolve().parent
 
-    # Create folder name with coords and timestamp
+    # Create folder name with timestamp and coords
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_name = f"{lat}_{lon}_{timestamp}"
+    folder_name = f"{timestamp}_{lat}_{lon}"
 
     s3_client = boto3.client('s3', region_name='us-east-2')
     bucket_name = 'neighbor-intelligence-outputs'
