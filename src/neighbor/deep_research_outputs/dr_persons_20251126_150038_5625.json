@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-11-26T15:00:38.562581",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Spotsylvania County",
+    "state": "VA",
+    "city": "Fredericksburg",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighboring landowners have no clearly documented stance on the proposed development, as none were found to have made public comments or taken positions in local forums. Their influence in the community appears low, with no high-profile roles or notable community leadership among them. This suggests outreach will need to be personalized since none are established community influencers or vocal development critics.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Nana M. Hayles",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21M-2-28"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Nana M. Hayles is listed as a property owner in Spotsylvania County tax records ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No meeting minutes or news reports were found that indicate any public stance or involvement by Hayles in local development issues ([spotsylvania66.rssing.com](https://spotsylvania66.rssing.com/chan-6338001/all_p2.html#:~:text=%E2%86%A7%20%E2%86%A7%20Nan%20Row%20Kate,of%20my%20third%20great%20grandfather)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no official roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out one-on-one to learn her perspective, as she has no recorded position."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jason H. Ruth & Rubi G. Ruth",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21M-2-10"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason H. Ruth and Rubi G. Ruth jointly own a parcel in Spotsylvania County ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No evidence of their participation in local hearings or statements on development was found in public records ([www.novec.com](https://www.novec.com/forms2/customerservices/cashbacklist.cfm?letter=R&startRow=10701#:~:text=RUBY%20RUTH%20%20,File)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a neighborly approach and encourage dialogue, addressing general homeowner interests."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Robert L. Garrison & Shirley A. Garrison",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21-A-95A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert L. Garrison and Shirley A. Garrison are identified as co-owners of a property in Spotsylvania County ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No public comments or community leadership roles by the Garrisons were found in local records ([www.klein-shiflett.com](https://www.klein-shiflett.com/Obit_Section/Obit_Related_Names/garrison.htm#:~:text=Garrison%20The%20Daily%20Progress%2C%20Charlottesville%2C,Ruby)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No noted influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Provide information transparently and invite questions, given their low-key community presence."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Norman D. Sherrod & Linda F. Sherrod",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21J-1-15"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Norman D. Sherrod and Linda F. Sherrod are recorded as landowners in Spotsylvania County ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No indication of any public stance or involvement in civic affairs by the Sherrods was found in available sources ([veripages.com](https://veripages.com/abc/845-36#:~:text=Names%20Sherrod%2C%20Lisa%20,age%2058%20Address)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public involvement observed",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage privately and neutrally to learn their concerns, since they have not voiced opinions publicly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Andrew J. Czaplicki & Nicole M. Czaplicki",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21M-2-13"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Andrew J. Czaplicki and Nicole M. Czaplicki are listed as the owners of a Spotsylvania County parcel ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No public records or media mentions suggest that the Czaplickis have taken any position on development or energy projects ([www.lynchandsonswalledlake.com](https://www.lynchandsonswalledlake.com/obituaries/Loren-Czaplicki?obId=23040612#:~:text=Obituary%20information%20for%20Loren%20Czaplicki,Obituary)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with open-ended questions and provide information, as they have no known stance or influence."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighboring landowners have no clearly documented stance on the proposed development, as none were found to have made public comments or taken positions in local forums. Their influence in the community appears low, with no high-profile roles or notable community leadership among them. This suggests outreach will need to be personalized since none are established community influencers or vocal development critics.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Nana M. Hayles\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21M-2-28\"],\n      \"claims\": \"Nana M. Hayles is listed as a property owner in Spotsylvania County tax records ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No meeting minutes or news reports were found that indicate any public stance or involvement by Hayles in local development issues ([spotsylvania66.rssing.com](https://spotsylvania66.rssing.com/chan-6338001/all_p2.html#:~:text=%E2%86%A7%20%E2%86%A7%20Nan%20Row%20Kate,of%20my%20third%20great%20grandfather)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; no official roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out one-on-one to learn her perspective, as she has no recorded position.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jason H. Ruth & Rubi G. Ruth\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21M-2-10\"],\n      \"claims\": \"Jason H. Ruth and Rubi G. Ruth jointly own a parcel in Spotsylvania County ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No evidence of their participation in local hearings or statements on development was found in public records ([www.novec.com](https://www.novec.com/forms2/customerservices/cashbacklist.cfm?letter=R&startRow=10701#:~:text=RUBY%20RUTH%20%20,File)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a neighborly approach and encourage dialogue, addressing general homeowner interests.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Robert L. Garrison & Shirley A. Garrison\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21-A-95A\"],\n      \"claims\": \"Robert L. Garrison and Shirley A. Garrison are identified as co-owners of a property in Spotsylvania County ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No public comments or community leadership roles by the Garrisons were found in local records ([www.klein-shiflett.com](https://www.klein-shiflett.com/Obit_Section/Obit_Related_Names/garrison.htm#:~:text=Garrison%20The%20Daily%20Progress%2C%20Charlottesville%2C,Ruby)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No noted influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Provide information transparently and invite questions, given their low-key community presence.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Norman D. Sherrod & Linda F. Sherrod\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21J-1-15\"],\n      \"claims\": \"Norman D. Sherrod and Linda F. Sherrod are recorded as landowners in Spotsylvania County ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No indication of any public stance or involvement in civic affairs by the Sherrods was found in available sources ([veripages.com](https://veripages.com/abc/845-36#:~:text=Names%20Sherrod%2C%20Lisa%20,age%2058%20Address)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public involvement observed\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage privately and neutrally to learn their concerns, since they have not voiced opinions publicly.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Andrew J. Czaplicki & Nicole M. Czaplicki\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21M-2-13\"],\n      \"claims\": \"Andrew J. Czaplicki and Nicole M. Czaplicki are listed as the owners of a Spotsylvania County parcel ([gis.spotsylvania.va.us](https://gis.spotsylvania.va.us/arcgis/rest/services/PublicHearingCases/Public_Hearing_Mailing_List/FeatureServer/0#:~:text=true%2C%20length%3A%203%2C%20defaultValue%3A%20null%2C,defaultValue%3A%20null%2C%20modelName%3A%20STATE)). No public records or media mentions suggest that the Czaplickis have taken any position on development or energy projects ([www.lynchandsonswalledlake.com](https://www.lynchandsonswalledlake.com/obituaries/Loren-Czaplicki?obId=23040612#:~:text=Obituary%20information%20for%20Loren%20Czaplicki,Obituary)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach with open-ended questions and provide information, as they have no known stance or influence.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
