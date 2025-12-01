@@ -105,10 +105,11 @@ Return ONLY a ```json fenced JSON object with this exact structure (no extra tex
 PRIVACY & PROFESSIONAL BOUNDARIES
 - Focus on PUBLIC ROLES and BUSINESS INTERESTS, not personal details
 - NEVER include: house square footage, family obituaries (unless person is deceased), 
-  children's names, health information, divorces, personal financial struggles, personal relationships, company revenues or profits 
+  children's names, health information, divorces, personal financial struggles, personal relationships, company revenues or profits
+- NEVER include: personal or business loans, criminal records, financial struggles, or personal information you wouldn't want a developer to know about you
 - APPROPRIATE to include: business ownership, civic roles, public meeting participation,
   documented stances, property acreage (not home details), professional affiliations, club affiliations, school committee roles
-- When in doubt, err toward privacy - you're assessing project risk, not investigating personal lives
+- When in doubt, ERR TOWARDS PRIVACY - you're assessing project risk, not investigating personal lives
 
 CONTROLLED VOCABULARIES
 - `stance`: support | oppose | neutral | unknown  
