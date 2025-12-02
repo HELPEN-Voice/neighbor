@@ -77,17 +77,37 @@ async def reverse_geocode_azure(
                                 county = county_info
 
                         # Get city and formatted address
-                        city = address.get("locality", "")
+                        locality = address.get("locality", "")
                         full_address = address.get("formattedAddress", "")
+
+                        # Detect if area is unincorporated:
+                        # If adminDistricts[1] is a County (not a City), the locality
+                        # is just the postal city, not the actual municipality.
+                        # In this case, leave city empty so we use county instead.
+                        is_unincorporated = False
+                        if len(admin_districts) > 1:
+                            admin2_name = admin_districts[1].get("name", "")
+                            # If second admin district is a county (not an independent city),
+                            # the area is unincorporated
+                            if "County" in admin2_name and "City" not in admin2_name:
+                                is_unincorporated = True
+
+                        # Only use locality as city if it's an incorporated area
+                        city = "" if is_unincorporated else locality
 
                         result = {
                             "county": county or None,
                             "state": state or None,
                             "city": city or None,
                             "address": full_address or None,
+                            "is_unincorporated": is_unincorporated,
+                            "postal_city": locality or None,  # Always include postal city for reference
                         }
 
-                        print(f"✓ Geocoded: {lat}, {lon} -> {city}, {county}, {state}")
+                        if is_unincorporated:
+                            print(f"✓ Geocoded: {lat}, {lon} -> {county}, {state} (unincorporated, postal city: {locality})")
+                        else:
+                            print(f"✓ Geocoded: {lat}, {lon} -> {city}, {county}, {state}")
                         return result
                 else:
                     error_text = await response.text()

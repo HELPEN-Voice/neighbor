@@ -3,6 +3,12 @@ import json, re
 from typing import Optional, Tuple
 
 
+def _strip_trailing_commas(json_str: str) -> str:
+    """Remove trailing commas before } or ] which are invalid JSON but common LLM output."""
+    # Remove trailing commas before closing braces/brackets (with optional whitespace)
+    return re.sub(r',(\s*[}\]])', r'\1', json_str)
+
+
 def _extract_markdown(text: str) -> Optional[str]:
     """Helper to extract optional markdown block."""
     markdown_match = re.search(r"```markdown\s*([\s\S]+?)\s*```", text)
@@ -20,7 +26,8 @@ def extract_fenced_blocks(text: str) -> Tuple[dict, Optional[str]]:
 
     if json_match:
         try:
-            json_data = json.loads(json_match.group(1).strip())
+            cleaned_json = _strip_trailing_commas(json_match.group(1).strip())
+            json_data = json.loads(cleaned_json)
             return json_data, _extract_markdown(text)
         except json.JSONDecodeError as e:
             # If fenced block exists but has invalid JSON, still raise error
@@ -28,7 +35,8 @@ def extract_fenced_blocks(text: str) -> Tuple[dict, Optional[str]]:
 
     # Fallback: try whole text as JSON
     try:
-        json_data = json.loads(text.strip())
+        cleaned_json = _strip_trailing_commas(text.strip())
+        json_data = json.loads(cleaned_json)
         return json_data, _extract_markdown(text)
     except json.JSONDecodeError as e:
         raise ValueError(f"No valid JSON found: {e}")

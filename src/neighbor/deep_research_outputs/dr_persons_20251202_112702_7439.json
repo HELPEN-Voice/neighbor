@@ -1,0 +1,197 @@
+{
+  "timestamp": "2025-12-02T11:27:02.743975",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighboring landowners have no documented public stance on the development, with 0 support, 0 opposition, and 5 unknown positions. None hold any official roles or notable influence in the community, as all appear to be private residents with low public profiles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Tyler Halter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037022B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No references to Tyler Halter appear in county meeting records【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: halter\"】. His land lies in an agricultural region where farmers formed a group to guard farmland from solar projects【AZBEX – news, retrieved 2025-12-02; \"formed a citizens group focused on preserving farmland\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage through a trusted farming community member, emphasizing commitments to preserve farmland and maintain property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "David Arthur Christianson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014U"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No public comments or civic roles by David Christianson were found in local records【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: Christianson\"】. The land is in a rural farming area where residents have pushed back on large solar projects to preserve agriculture【AZBEX – news, retrieved 2025-12-02; \"preserving farmland and limiting the spread of solar development\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public office; private citizen",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Use a personal approach via agricultural networks, stressing respect for farmland heritage and addressing property value concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Ryan Sanchez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014V"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No evidence of Ryan Sanchez taking a public stance on development was located in county hearings【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: ryan sanchez\"】. Neighbors of similar rural projects often worry about property values and visual impacts from new facilities【Axios – news, retrieved 2025-12-02; \"worried about ... the reduction in property values\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known influence; private resident",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Reach out one-on-one to share project facts and listen to any concerns, especially about land use and property value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Kristina N Snow & Jack H Snow",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037013Z"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kristina and Jack Snow do not appear in any Pinal County meeting minutes or local media reports on development【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: snow\"】. Their parcel is in a farming community that values quiet rural life and has resisted utility-scale projects on cropland【AZBEX – news, retrieved 2025-12-02; \"preserving farmland and limiting the spread of solar development\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile; private owners",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Initiate a respectful in-person visit to discuss how the project will respect their rural lifestyle and safeguard their land’s value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Psalm Arbhye Castor & Skylar Reese Pridgeon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "210244890"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Skylar Pridgeon and Psalm (Arbhye) Castor are a young couple who married in late 2024【Zola Wedding Registry – other, retrieved 2025-12-02; \"Skylar & Arbhye November 02, 2024\"】. They have no recorded involvement in local government or development forums【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: pridgeon\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New residents; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Connect informally (e.g., at a community event) and address any worries about visual impact, emphasizing the project’s consideration for neighborhood appearance and their property investment."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighboring landowners have no documented public stance on the development, with 0 support, 0 opposition, and 5 unknown positions. None hold any official roles or notable influence in the community, as all appear to be private residents with low public profiles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Tyler Halter\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037022B\"],\n      \"claims\": \"No references to Tyler Halter appear in county meeting records【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \\\"No find results for pattern: halter\\\"】. His land lies in an agricultural region where farmers formed a group to guard farmland from solar projects【AZBEX – news, retrieved 2025-12-02; \\\"formed a citizens group focused on preserving farmland\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Engage through a trusted farming community member, emphasizing commitments to preserve farmland and maintain property values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"David Arthur Christianson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037014U\"],\n      \"claims\": \"No public comments or civic roles by David Christianson were found in local records【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \\\"No find results for pattern: Christianson\\\"】. The land is in a rural farming area where residents have pushed back on large solar projects to preserve agriculture【AZBEX – news, retrieved 2025-12-02; \\\"preserving farmland and limiting the spread of solar development\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public office; private citizen\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Use a personal approach via agricultural networks, stressing respect for farmland heritage and addressing property value concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Ryan Sanchez\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037014V\"],\n      \"claims\": \"No evidence of Ryan Sanchez taking a public stance on development was located in county hearings【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \\\"No find results for pattern: ryan sanchez\\\"】. Neighbors of similar rural projects often worry about property values and visual impacts from new facilities【Axios – news, retrieved 2025-12-02; \\\"worried about ... the reduction in property values\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known influence; private resident\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Reach out one-on-one to share project facts and listen to any concerns, especially about land use and property value.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Kristina N Snow & Jack H Snow\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037013Z\"],\n      \"claims\": \"Kristina and Jack Snow do not appear in any Pinal County meeting minutes or local media reports on development【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \\\"No find results for pattern: snow\\\"】. Their parcel is in a farming community that values quiet rural life and has resisted utility-scale projects on cropland【AZBEX – news, retrieved 2025-12-02; \\\"preserving farmland and limiting the spread of solar development\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile; private owners\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Initiate a respectful in-person visit to discuss how the project will respect their rural lifestyle and safeguard their land’s value.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Psalm Arbhye Castor & Skylar Reese Pridgeon\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"210244890\"],\n      \"claims\": \"Skylar Pridgeon and Psalm (Arbhye) Castor are a young couple who married in late 2024【Zola Wedding Registry – other, retrieved 2025-12-02; \\\"Skylar & Arbhye November 02, 2024\\\"】. They have no recorded involvement in local government or development forums【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \\\"No find results for pattern: pridgeon\\\"】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"New residents; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\", \"aesthetics_viewshed\"],\n        \"engage\": \"Connect informally (e.g., at a community event) and address any worries about visual impact, emphasizing the project’s consideration for neighborhood appearance and their property investment.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

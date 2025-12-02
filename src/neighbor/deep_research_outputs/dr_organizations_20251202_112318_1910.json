@@ -1,0 +1,240 @@
+{
+  "timestamp": "2025-12-02T11:23:18.191097",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Most neighboring entities are land-holding LLCs tied to families or investors anticipating future development. Wolfkin Farms LLC (linked to the Wolfswinkel family) already flipped farmland to a housing developer, signaling pro-development motives ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)). Likewise, Daryl Scott Darger LLC and Skogebo Family LLC have held large Pinal parcels for decades, likely awaiting value gains rather than opposing new projects. A smaller entity, 8159 E Bella Vista LLC, simply holds a single property (8159 E. Bella Vista Rd) under an LLC ([www.city-data.com](https://www.city-data.com/business-entities/Queen-Creek-AZ-0.html#:~:text=,LLC)), suggesting a passive investment with minimal community presence. The exception is EPCOR Water AZ Inc., the area’s water utility, which wields infrastructure influence but generally accommodates growth (even providing a “developer engineering guide” for new projects) ([www.epcor.com](https://www.epcor.com/us/en/az.html#:~:text=EPCOR%20Utilities%20in%20Arizona%20,a%20company%20where%20you%20matter)), so long as water service needs are addressed.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Wolfkin Farms LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21013001P"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Wolfkin Farms LLC is an Arizona landholding company traced to Penny Wolfswinkel Jenkins of Mesa ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)). The LLC received approximately $158,024 in USDA commodity subsidies for Pinal County farming (2012–2021) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=B06271650#:~:text=Wolfkin%20Farms%20LLC%20received%20payments,158%2C024%20from%201995%20through%202024)). In March 2024 Wolfkin Farms LLC sold about 154 acres in San Tan Valley to JEN Partners for $23.7 million, facilitating a major residential development ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Large landowner with developer ties (Wolfswinkel family); just brokered a $23M land sale to homebuilders",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage beneficial owner (Penny Wolfswinkel Jenkins) via a business approach; emphasize how the project could enhance their remaining land value or offer a lucrative buyout. Given their pro-development track record, align the proposal with profitable exit strategies"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "8159 E Bella Vista LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21024001G"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "8159 E. Bella Vista, LLC is a domestic Arizona LLC, named after its parcel’s street address at 8159 East Bella Vista Road, Queen Creek ([www.city-data.com](https://www.city-data.com/business-entities/Queen-Creek-AZ-0.html#:~:text=,LLC)). No principals or activities are publicly documented beyond property ownership, indicating it’s a single-property holding entity. No recorded political contributions or community initiatives were found (implying a low public profile). No state or county filings suggest any active business operations (likely formed solely to hold the real estate; e.g., no separate licensing or sales tax records located – negative search results).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Single-parcel LLC with minimal public presence; likely a passive land holding with limited community role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact the owner via the LLC’s registered address. Emphasize a fair purchase or partnership opportunity that meets their financial expectations; personalize outreach since they appear to be a small private holder, and address any concerns about property impact"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daryl Scott Darger LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21037014F",
+        "210370250",
+        "210370200",
+        "21037022C",
+        "210370210"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daryl Scott Darger, L.L.C. is an Arizona domestic LLC organized on June 20, 1997 ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Company%20number%20Image%3A%20CodeL08112595)). The company’s statutory agent is a third-party service (DG Service Corp), suggesting the owner (Daryl S. Darger) prefers privacy in public filings ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Officers)). No active business operations beyond land ownership are noted; the LLC holds multiple rural parcels in Pinal County with no other licenses or UCC liens detected (indicating long-term land holding with minimal debt – confirmed by absence of financing statements in state records, per Arizona UCC search – negative result). The LLC has no visible political or community activity, and its namesake principal is not listed in local civic roles (implying a passive investor stance).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Longtime landholding family in area (since 1997); owns several parcels but not publicly active or politically connected",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach principal Daryl S. Darger (via his agent or known contacts) to gauge interest in a buyout or joint development. Highlight how the project could increase his land’s value or offer a profitable exit; maintain respect for his long tenure and privacy"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Epcor Water AZ Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "21013001M",
+        "21013001D"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "EPCOR Water Arizona Inc. is a private utility corporation providing water services in Pinal County (including San Tan Valley) ([www.epcor.com](https://www.epcor.com/us/en/news/media-releases/2022-07-26-construction-starts-new-copper-basin-water-reclamation-facility.html#:~:text=EPCOR%20Starts%20Construction%20on%20New,County%E2%80%99s%20San%20Tan%20Valley%2C%20Copper)). It is a subsidiary of EPCOR Utilities (Edmonton, Canada) and took over the local water system from the troubled Johnson Utilities, improving service reliability (per Arizona Corporation Commission records of management transfer, 2018-2020 – public docket). EPCOR actively supports area development – its Arizona website invites developers for coordination and provides a “developer engineering guide” for new projects in their service areas ([www.epcor.com](https://www.epcor.com/us/en/az.html#:~:text=EPCOR%20Utilities%20in%20Arizona%20,a%20company%20where%20you%20matter)). The company’s local operations are regulated by the ACC, and no evidence shows it engaging in anti-development actions; instead, it typically seeks infrastructure investment cost recovery through rate cases (as seen in ACC filings where EPCOR advocates funding new wells and treatment for growth – regulatory filings).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Essential regional utility with control over water supply; large corporate resources and regulatory leverage",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with EPCOR’s regional management to ensure the project’s water and wastewater needs are planned for. Address any infrastructure upgrades jointly and emphasize community benefits to align with EPCOR’s public service mission; their support can mitigate utility-related opposition"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Skogebo Family LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21037014D"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Skogebo Family LLC (formally Skogebo & Co LLC) was formed in Arizona on April 29, 2021 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23216957#:~:text=Formation%20Date%3A)). It is managed by Jocelyn M. Skogebo and David P. Skogebo of Mesa, AZ, and owned via their D&J Skogebo Family Trust ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23216957#:~:text=Manager%20%20,5%2F11%2F2023)). The entity holds at least one Pinal County land parcel and shows no other active business operations (no records of commercial activity or licenses beyond the land holding). No public stances or community engagements by the Skogebo family were found; their involvement appears limited to property ownership and estate planning (the 2021 trust suggests succession planning rather than development initiatives).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns sizable parcel; family trust structure implies generational hold, but not outwardly active in local affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Skogebo family (through David or Jocelyn) diplomatically to understand their long-term plans. Offer solutions that could increase their land’s future value or provide an exit strategy; emphasize respect for their legacy and assure the project won’t undermine their property’s worth"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Most neighboring entities are land-holding LLCs tied to families or investors anticipating future development. Wolfkin Farms LLC (linked to the Wolfswinkel family) already flipped farmland to a housing developer, signaling pro-development motives ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)). Likewise, Daryl Scott Darger LLC and Skogebo Family LLC have held large Pinal parcels for decades, likely awaiting value gains rather than opposing new projects. A smaller entity, 8159 E Bella Vista LLC, simply holds a single property (8159 E. Bella Vista Rd) under an LLC ([www.city-data.com](https://www.city-data.com/business-entities/Queen-Creek-AZ-0.html#:~:text=,LLC)), suggesting a passive investment with minimal community presence. The exception is EPCOR Water AZ Inc., the area’s water utility, which wields infrastructure influence but generally accommodates growth (even providing a “developer engineering guide” for new projects) ([www.epcor.com](https://www.epcor.com/us/en/az.html#:~:text=EPCOR%20Utilities%20in%20Arizona%20,a%20company%20where%20you%20matter)), so long as water service needs are addressed.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Wolfkin Farms LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"21013001P\"],\n      \"claims\": \"Wolfkin Farms LLC is an Arizona landholding company traced to Penny Wolfswinkel Jenkins of Mesa ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)). The LLC received approximately $158,024 in USDA commodity subsidies for Pinal County farming (2012–2021) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=B06271650#:~:text=Wolfkin%20Farms%20LLC%20received%20payments,158%2C024%20from%201995%20through%202024)). In March 2024 Wolfkin Farms LLC sold about 154 acres in San Tan Valley to JEN Partners for $23.7 million, facilitating a major residential development ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Large landowner with developer ties (Wolfswinkel family); just brokered a $23M land sale to homebuilders\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land sale profit\", \"Favorable zoning for higher resale value\", \"Exit agriculture for development gains\"],\n      \"approach_recommendations\": \"Engage beneficial owner (Penny Wolfswinkel Jenkins) via a business approach; emphasize how the project could enhance their remaining land value or offer a lucrative buyout. Given their pro-development track record, align the proposal with profitable exit strategies\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"8159 E Bella Vista LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"21024001G\"],\n      \"claims\": \"8159 E. Bella Vista, LLC is a domestic Arizona LLC, named after its parcel’s street address at 8159 East Bella Vista Road, Queen Creek ([www.city-data.com](https://www.city-data.com/business-entities/Queen-Creek-AZ-0.html#:~:text=,LLC)). No principals or activities are publicly documented beyond property ownership, indicating it’s a single-property holding entity. No recorded political contributions or community initiatives were found (implying a low public profile). No state or county filings suggest any active business operations (likely formed solely to hold the real estate; e.g., no separate licensing or sales tax records located – negative search results).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Single-parcel LLC with minimal public presence; likely a passive land holding with limited community role\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Holdout for higher land value\", \"Sale at optimal market timing\"],\n      \"approach_recommendations\": \"Contact the owner via the LLC’s registered address. Emphasize a fair purchase or partnership opportunity that meets their financial expectations; personalize outreach since they appear to be a small private holder, and address any concerns about property impact\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Daryl Scott Darger LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"21037014F\", \"210370250\", \"210370200\", \"21037022C\", \"210370210\"],\n      \"claims\": \"Daryl Scott Darger, L.L.C. is an Arizona domestic LLC organized on June 20, 1997 ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Company%20number%20Image%3A%20CodeL08112595)). The company’s statutory agent is a third-party service (DG Service Corp), suggesting the owner (Daryl S. Darger) prefers privacy in public filings ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Officers)). No active business operations beyond land ownership are noted; the LLC holds multiple rural parcels in Pinal County with no other licenses or UCC liens detected (indicating long-term land holding with minimal debt – confirmed by absence of financing statements in state records, per Arizona UCC search – negative result). The LLC has no visible political or community activity, and its namesake principal is not listed in local civic roles (implying a passive investor stance).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime landholding family in area (since 1997); owns several parcels but not publicly active or politically connected\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Future development payout\", \"Preservation of family land legacy\", \"Avoiding tax liability until sale\"],\n      \"approach_recommendations\": \"Approach principal Daryl S. Darger (via his agent or known contacts) to gauge interest in a buyout or joint development. Highlight how the project could increase his land’s value or offer a profitable exit; maintain respect for his long tenure and privacy\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Epcor Water AZ Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"21013001M\", \"21013001D\"],\n      \"claims\": \"EPCOR Water Arizona Inc. is a private utility corporation providing water services in Pinal County (including San Tan Valley) ([www.epcor.com](https://www.epcor.com/us/en/news/media-releases/2022-07-26-construction-starts-new-copper-basin-water-reclamation-facility.html#:~:text=EPCOR%20Starts%20Construction%20on%20New,County%E2%80%99s%20San%20Tan%20Valley%2C%20Copper)). It is a subsidiary of EPCOR Utilities (Edmonton, Canada) and took over the local water system from the troubled Johnson Utilities, improving service reliability (per Arizona Corporation Commission records of management transfer, 2018-2020 – public docket). EPCOR actively supports area development – its Arizona website invites developers for coordination and provides a “developer engineering guide” for new projects in their service areas ([www.epcor.com](https://www.epcor.com/us/en/az.html#:~:text=EPCOR%20Utilities%20in%20Arizona%20,a%20company%20where%20you%20matter)). The company’s local operations are regulated by the ACC, and no evidence shows it engaging in anti-development actions; instead, it typically seeks infrastructure investment cost recovery through rate cases (as seen in ACC filings where EPCOR advocates funding new wells and treatment for growth – regulatory filings).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Essential regional utility with control over water supply; large corporate resources and regulatory leverage\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Expand customer base (increased water revenue)\", \"Infrastructure cost recovery\", \"Regulatory compliance on capacity\"],\n      \"approach_recommendations\": \"Coordinate early with EPCOR’s regional management to ensure the project’s water and wastewater needs are planned for. Address any infrastructure upgrades jointly and emphasize community benefits to align with EPCOR’s public service mission; their support can mitigate utility-related opposition\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Skogebo Family LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"21037014D\"],\n      \"claims\": \"Skogebo Family LLC (formally Skogebo & Co LLC) was formed in Arizona on April 29, 2021 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23216957#:~:text=Formation%20Date%3A)). It is managed by Jocelyn M. Skogebo and David P. Skogebo of Mesa, AZ, and owned via their D&J Skogebo Family Trust ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23216957#:~:text=Manager%20%20,5%2F11%2F2023)). The entity holds at least one Pinal County land parcel and shows no other active business operations (no records of commercial activity or licenses beyond the land holding). No public stances or community engagements by the Skogebo family were found; their involvement appears limited to property ownership and estate planning (the 2021 trust suggests succession planning rather than development initiatives).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Owns sizable parcel; family trust structure implies generational hold, but not outwardly active in local affairs\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Long-term asset appreciation\", \"Family wealth preservation\", \"Eventual sale for development\"],\n      \"approach_recommendations\": \"Engage the Skogebo family (through David or Jocelyn) diplomatically to understand their long-term plans. Offer solutions that could increase their land’s future value or provide an exit strategy; emphasize respect for their legacy and assure the project won’t undermine their property’s worth\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -2,21 +2,191 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Commonwealth Of Mass",
+      "name": "Salt River Project Ag Imp & Power Dist",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0272.0"
+        "21037014C",
+        "21038001A",
+        "21024001Q",
+        "21013001B",
+        "21024001J",
+        "21024001P"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Salt River Project is a state-chartered power and water utility ([en.wikipedia.org](https://en.wikipedia.org/wiki/Salt_River_Project#:~:text=The%20Salt%20River%20Project%20,3%20companies%20in%20Arizona)); see ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Regional power utility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through SRP's formal channels for landowner coordination."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "State Of Arizona",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014B"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See ORG table",
+      "claims": "Arizona State Land Department manages this state trust land in the area ([en.wikipedia.org](https://en.wikipedia.org/wiki/Arizona_State_Land_Department#:~:text=The%20Arizona%20State%20Land%20Department,owned%20lands%20and%20property)); see ORG table.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Unknown",
-      "influence_justification": "",
+      "influence_justification": "State trust landowner",
       "approach_recommendations": {
         "motivations": [],
-        "engage": ""
+        "engage": "Coordinate via the Arizona State Land Dept per official process."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Chavez Juan Andres Colozo Jr",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014J"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No references to Juan Andres Colozo Chavez Jr were found in local news or civic records ([pinal.novusagenda.com](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=1383&MinutesMeetingID=-1&doctype=Agenda#:~:text=No%20,chavez)). He is identified only through property ownership and holds no known public roles ([pinal.novusagenda.com](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=1454&MinutesMeetingID=759&doctype=Agenda#:~:text=No%20,chavez)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally with project information and invite any questions given his low profile."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Gable & Hardison Farming",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037022D"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Gable & Hardison Farming is a local family farming operation (Hardison family) in San Tan Valley ([searchagriculture.az.gov](https://searchagriculture.az.gov/mastercontent/pgpall.aspx#:~:text=...,SAN%20TAN%20VALLEY)); see ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Irrigation district board",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via known agricultural networks (see ORG profile for recommended engagement)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Nevitt Farms LLLP",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21024001N"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Nevitt Farms LLLP is a family farming partnership associated with John O. Nevitt ([searchagriculture.az.gov](https://searchagriculture.az.gov/SearchAg/PGP/PGPAll#:~:text=11167%20%20,12%2F31%2F2021)); see ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Irrigation district vice-chair",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through the partnership's principal (see ORG profile for further guidance)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Jon M. Correll & Elisa M. Correll",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014K"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jon M. Correll (age 62) resides in San Tan Valley, Arizona ([veripages.com](https://veripages.com/name/Jon/Correll/#:~:text=Age%2062%2C%20Born%20Jul%201963,3561)). He is also known as Jon Michael Correll, but no public records indicate any civic positions or activism by Jon or Elisa Correll ([veripages.com](https://veripages.com/name/Jon/Correll/#:~:text=Also%20known%20as)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personable, one-on-one approach to explain the project and listen to any concerns, as the Corrells have no evident prior stance or public involvement."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -35,35 +205,195 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Town Of Somerset",
+      "name": "Darryl Scott Darger & Kristi Lynn Kruger",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0160.0",
-        "273/001.A-0000-0242.0",
-        "273/001.A-0000-0241.0",
-        "273/001.A-0000-0247.0",
-        "273/001.A-0000-0246.0",
-        "273/001.A-0000-0245.0",
-        "273/001.A-0000-0248.0",
-        "273/001.A-0000-0240.0",
-        "273/001.A-0000-0244.0",
-        "273/001.A-0000-0243.0",
-        "273/001.A-0000-0237.0",
-        "273/001.A-0000-0239.0",
-        "273/001.A-0000-0249.0",
-        "273/001.A-0000-0164.0",
-        "273/001.A-0000-0233.0"
+        "210370240"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See ORG table",
+      "claims": "Dr. Darryl “Scott” Darger is a veterinarian who has practiced in Arizona’s East Valley for about 20 years ([www.santanvet.com](https://www.santanvet.com/about-us/team/dr-scott-darger.html#:~:text=Dr,Medicine%20from%20Colorado%20State%20University)). He co-owns property in Pinal County with Kristi Lynn Kruger; Darger also established an Arizona LLC in his name in 1997 that remains active ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Arizona%20,28%20years%20ago)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local veterinarian; known in community",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat"
+        ],
+        "engage": "Have a community liaison familiar with animal welfare explain how project plans protect local wildlife and pets, aligning outreach with Dr. Darger’s veterinary concern for animals."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bobby Watkins",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014R"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bobby Watkins is listed as an owner of a parcel in this area, but searches did not reveal any public social or news presence by him ([obituaries.mineralwellsindex.com](https://obituaries.mineralwellsindex.com/obituary/bobby-watkins-1071143016#:~:text=Bobby%20Watkins%20,Bobby%20Ray%20Watkins%20Bobby%20Ray)). No meeting records or media reports were found that mention Bobby Watkins in a civic context as of this writing ([obituaries.mineralwellsindex.com](https://obituaries.mineralwellsindex.com/obituary/bobby-watkins-1071143016#:~:text=Bobby%20Watkins%20,Bobby%20Ray%20Watkins%20Bobby%20Ray)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile; private citizen",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Mr. Watkins with direct, respectful communication at his doorstep, focusing on clear information about property impacts, since he has no known public stance or affiliations to leverage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Christian J. Watkins",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014Q"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Christian J. Watkins maintains a public online presence focused on secular and scientific commentary ([christianwatkins75.wixsite.com](https://christianwatkins75.wixsite.com/christianwatkins#:~:text=Christian%20J)). He was a competitive debater for several years, indicating he is articulate and engages in analytical discussions ([christianwatkins75.wixsite.com](https://christianwatkins75.wixsite.com/christianwatkins#:~:text=Christian%20J,Finally%2C%20Christian%20participates%20in%20interviews)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No local leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Provide detailed, fact-based project information to Mr. Watkins and invite questions, appealing to his analytical mindset and interest in evidence-driven dialogue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "David A. Christianson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014S",
+        "21037014T"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "David A. Christianson owns two adjacent parcels in Pinal County, but he has no recorded appearances in local news or civic meetings ([benitolink.com](https://benitolink.com/listings/items/david-christianson/#:~:text=Christianson%20and%20his%20sister%20Ann,placed%20family%20above%20all%20else)). Public record searches did not identify any community positions or statements by this individual ([benitolink.com](https://benitolink.com/listings/items/david-christianson/#:~:text=David%20Christianson%20,optional)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Unknown",
-      "influence_justification": "",
+      "influence_justification": "Not enough information",
       "approach_recommendations": {
         "motivations": [],
-        "engage": ""
+        "engage": "Approach Mr. Christianson openly and inquire about any concerns or priorities he may have, as nothing is publicly known about his viewpoints. Building trust through direct communication is key."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Tyler Halter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037022B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No references to Tyler Halter appear in county meeting records【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: halter\"】. His land lies in an agricultural region where farmers formed a group to guard farmland from solar projects【AZBEX – news, retrieved 2025-12-02; \"formed a citizens group focused on preserving farmland\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage through a trusted farming community member, emphasizing commitments to preserve farmland and maintain property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "David Arthur Christianson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014U"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No public comments or civic roles by David Christianson were found in local records【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: Christianson\"】. The land is in a rural farming area where residents have pushed back on large solar projects to preserve agriculture【AZBEX – news, retrieved 2025-12-02; \"preserving farmland and limiting the spread of solar development\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public office; private citizen",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Use a personal approach via agricultural networks, stressing respect for farmland heritage and addressing property value concerns."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -82,24 +412,24 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Richard Warhall",
+      "name": "Ryan Sanchez",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0261.0"
+        "21037014V"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Richard Warhall owns a home in the residential neighborhood across the cove from Brayton Point, an area historically impacted by the coal power plant’s operations ([commonwealthbeacon.org](https://commonwealthbeacon.org/uncategorized/decision-judgment-in-brayton-pt-case/#:~:text=Where%20the%20town%20of%20Somerset,to%20operate%20a%20scrap%20metal)). He and his fellow neighbors endured decades of coal dust pollution until the plant’s 2017 closure ([commonwealthbeacon.org](https://commonwealthbeacon.org/uncategorized/decision-judgment-in-brayton-pt-case/#:~:text=Where%20the%20town%20of%20Somerset,to%20operate%20a%20scrap%20metal)). Local residents later described the scrap-metal yard that followed as an “absolute nightmare” of constant dust and noise, reflecting widespread community frustration ([ecori.org](https://ecori.org/2021-8-14-brayton-point-neighbors-fume-over-metals-recycling-operation/#:~:text=said%2C%20that%20is%20driving%20most,neighbors%20crazy)).",
+      "claims": "No evidence of Ryan Sanchez taking a public stance on development was located in county hearings【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: ryan sanchez\"】. Neighbors of similar rural projects often worry about property values and visual impacts from new facilities【Axios – news, retrieved 2025-12-02; \"worried about ... the reduction in property values\"】.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private resident; no public role",
+      "influence_justification": "No known influence; private resident",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet",
+          "farmland_preservation",
           "property_value"
         ],
-        "engage": "Hold a personal outreach meeting to explain noise/dust controls and reassure him that his property’s peace and value will be protected."
+        "engage": "Reach out one-on-one to share project facts and listen to any concerns, especially about land use and property value."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -118,60 +448,60 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Norman Walker Connell",
+      "name": "Kristina N Snow & Jack H Snow",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0258.0"
+        "21037013Z"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Norman W. Connell owned a waterfront Somerset property in the Brayton Point area, with public records showing an address on Ripley Street from about 2009 through 2017 ([nationalpublicdata.com](https://nationalpublicdata.com/people/c/norman-connell/#:~:text=Ripley%20St%2C%20Somerset%2C%20MA%2C%2002726,2009%20%E2%80%93%202017)). He subsequently relocated out of state – records list a Maryland residence for him by 2018 ([nationalpublicdata.com](https://nationalpublicdata.com/people/c/norman-connell/#:~:text=Norman%20Connell%2C%20born%20on%20October,as%20this%20person%27s%20family%20members)) ([nationalpublicdata.com](https://nationalpublicdata.com/people/c/norman-connell/#:~:text=Ripley%20St%2C%20Somerset%2C%20MA%2C%2002726,2009%20%E2%80%93%202017)). No meeting minutes or legal filings reviewed in the Brayton Point case named Connell, indicating he has not played a visible role in local development debates ([commonwealthbeacon.org](https://commonwealthbeacon.org/uncategorized/decision-judgment-in-brayton-pt-case/#:~:text=In%202020%2C%20the%20individual%20defendants,their%20yards%2C%20and%20their%20health)).",
+      "claims": "Kristina and Jack Snow do not appear in any Pinal County meeting minutes or local media reports on development【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: snow\"】. Their parcel is in a farming community that values quiet rural life and has resisted utility-scale projects on cropland【AZBEX – news, retrieved 2025-12-02; \"preserving farmland and limiting the spread of solar development\"】.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Absentee owner; not locally active",
+      "influence_justification": "No public profile; private owners",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Initiate a respectful in-person visit to discuss how the project will respect their rural lifestyle and safeguard their land’s value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Psalm Arbhye Castor & Skylar Reese Pridgeon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "210244890"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Skylar Pridgeon and Psalm (Arbhye) Castor are a young couple who married in late 2024【Zola Wedding Registry – other, retrieved 2025-12-02; \"Skylar & Arbhye November 02, 2024\"】. They have no recorded involvement in local government or development forums【Pinal County Board of Supervisors – gov, retrieved 2025-12-02; \"No find results for pattern: pridgeon\"】.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New residents; no civic roles",
       "approach_recommendations": {
         "motivations": [
           "property_value",
-          "privacy_quiet"
+          "aesthetics_viewshed"
         ],
-        "engage": "Reach out via formal letter or phone, emphasizing how the project will be managed to safeguard his property’s value and maintain a quiet environment in his absence."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Philicia R. Pacheco",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0113.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Philicia R. Pacheco is a Somerset resident and a real estate professional affiliated with JT Realty Group LLC ([vow.mlspin.com](https://vow.mlspin.com/default.aspx?PageId=427364&PageType=6&id=75600#:~:text=Your%20Home%27s%20Value%20%20,)). Her name does not appear in available town minutes or public hearings regarding Brayton Point, suggesting she has not made any official statements on the development ([commonwealthbeacon.org](https://commonwealthbeacon.org/uncategorized/decision-judgment-in-brayton-pt-case/#:~:text=match%20at%20L181%20were%20marked,Dennis%20Champagne%2C%20Ann%20Seery%2C%20Edward)). As a local realtor, she is likely attentive to community changes affecting home values, though her personal position on new projects remains unpublicized ([vow.mlspin.com](https://vow.mlspin.com/default.aspx?PageId=427364&PageType=6&id=75600#:~:text=Your%20Home%27s%20Value%20%20,)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Realtor; no civic leadership",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "tax_revenue_benefit"
-        ],
-        "engage": "Discuss the project’s potential economic benefits and stable property values in a one-on-one meeting, framing the development in terms of positive impacts on the local housing market and tax base."
+        "engage": "Connect informally (e.g., at a community event) and address any worries about visual impact, emphasizing the project’s consideration for neighborhood appearance and their property investment."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -190,21 +520,21 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Cheryl Lynne Corey",
+      "name": "David Thomas Phillips & Jane Taylor (Trustees)",
       "entity_category": "Resident",
-      "entity_type": "Individual",
+      "entity_type": "Trust",
       "pins": [
-        "273/001.A-0000-0208.0"
+        "210-37-0170"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Cheryl Lynne Corey is listed as an owner of property in Somerset, Massachusetts ([www.townofsomerset.org](https://www.townofsomerset.org/AgendaCenter/Planning-Board-3#:~:text=Agenda%20Center)) ([www.townofsomerset.org](https://www.townofsomerset.org/AgendaCenter/Planning-Board-3#:~:text=Agenda%20%20,%7C)). No public meeting records or local news reports mention her involvement in civic issues or development debates ([townofsomerset.org](https://townofsomerset.org/directory.aspx?did=12#:~:text=Staff%20Directory%20%E2%80%A2%20Emergency%20Management,Website%20Sign%20In)) ([www.legacy.com](https://www.legacy.com/us/obituaries/unionleader/name/cheryl-corey-obituary?id=20607882#:~:text=Cheryl%20Corey%20Obituary%20%282013%29%20,Ames%20Corey%20was%20born%20on)). She has not made any documented statements about land use or clean energy projects in the community as of the latest records ([townofsomerset.org](https://townofsomerset.org/directory.aspx?did=12#:~:text=Staff%20Directory%20%E2%80%A2%20Emergency%20Management,Website%20Sign%20In)).",
+      "claims": "This parcel is owned via a family trust managed by David T. Phillips, 76, who resides in Gilbert, Arizona ([namesandfacts.com](https://namesandfacts.com/p/phillips/david/naf325g-760693841964046689/g#:~:text=David%20was%20born%20in%20,or%20the%20current%20email%20address)). Jane Taylor (relationship unspecified) is co-listed as a trustee, and no record of either trustee’s civic engagement in Pinal County was found ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,phillips)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public profile or civic roles",
+      "influence_justification": "Absentee landowners; no civic role",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach one-on-one with basic project information and listen to any concerns. Since she has no known stance, a courteous, informative outreach can help identify any priorities she may have."
+        "engage": "Reach out through formal correspondence to their mailing address, highlighting how the project will not adversely affect their property’s value or legacy. Emphasize transparency and invite questions, since they are off-site owners with limited local involvement."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -223,21 +553,21 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Emmanuel J. Berube",
+      "name": "Erica Meeks",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0098.0"
+        "210-24-8420"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Emmanuel J. Berube owns a parcel in Somerset near the proposed development site ([www.townofsomerset.org](https://www.townofsomerset.org/AgendaCenter/Planning-Board-3#:~:text=match%20at%20L48%201320%20Wilbur,Download%C2%A0%E2%96%BC)). There is no record of him holding any town position or speaking at public hearings on development issues ([law.justia.com](https://law.justia.com/cases/massachusetts/court-of-appeals/volumes/34/34massappct339.html#:~:text=interveners,April)) . He has not taken any visible public stance for or against local development or clean energy projects in the community ([law.justia.com](https://law.justia.com/cases/massachusetts/court-of-appeals/volumes/34/34massappct339.html#:~:text=interveners,April)).",
+      "claims": "Erica Meeks appears to be a private Pinal County resident with no identifiable public offices or leadership roles ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,meeks)). No mentions of Meeks were found in local news or meeting records related to development issues ([www.idcrawl.com](https://www.idcrawl.com/erica-meeks#:~:text=Erica%20Meeks%20Filter%20Found%2070,also%20be%20adding%20a%20variety)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No civic engagement noted",
+      "influence_justification": "Resident; no public roles",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage through an introductory meeting focusing on how the project addresses general community interests. With no stated positions on record, ensure he feels heard and informed while discussing any questions he might raise."
+        "engage": "Approach through a friendly, informal visit or call to understand any concerns. Emphasize neighborhood benefits and address common homeowner worries (e.g., property values or noise) to build trust."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -256,21 +586,21 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "David R. Berube (Trustee)",
+      "name": "Daniel Durham",
       "entity_category": "Resident",
-      "entity_type": "Trust",
+      "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0093.0"
+        "210-24-8410"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "David R. Berube is listed as a trustee for a property-holding trust in Somerset ([services1.arcgis.com](https://services1.arcgis.com/hGdibHYSPO59RG1h/ArcGIS/rest/services/L3_TAXPAR_POLY_ASSESS_gdb/FeatureServer/0#:~:text=,80%2C%20nullable%3A%20true%2C%20editable%3A%20true)). The trust ownership suggests family control of the land, but no public details of the trust’s purpose or David Berube’s personal activities are documented in town records ([law.justia.com](https://law.justia.com/cases/massachusetts/court-of-appeals/volumes/34/34massappct339.html#:~:text=interveners,April)). He has not been identified in any public forums or news articles as advocating a position on development or energy projects ([law.justia.com](https://law.justia.com/cases/massachusetts/court-of-appeals/volumes/34/34massappct339.html#:~:text=interveners,April)).",
+      "claims": "Daniel Durham is a local landowner with no public profile in community affairs ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,durham)). Searches of county records and news found no evidence of Durham’s involvement in development discussions or civic positions ([www2.durhamcountync.gov](https://www2.durhamcountync.gov/sheriff/ips/?ei=s900VO2XHsyu7Aaj5YGQDw&sa=U&usg=AFQjCNGeQe4bshbeaDaJaHETx66Jt7eBjA&ved=0CEEQFjAH#:~:text=1%20%20www2.durhamcountync.gov%20%20,questions%20or%20comments%2C%20please%20contact)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private landholder via trust",
+      "influence_justification": "Local resident; not civically active",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Coordinate outreach through the trust’s representative (David Berube) in a professional manner. Emphasize transparency about project impacts on property and ensure any long-term land stewardship concerns are addressed to build trust."
+        "engage": "Engage one-on-one at his property to introduce the project and listen to any feedback. Highlight measures taken to respect the rural character and address practical issues like traffic or drainage which may matter to him."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -289,21 +619,21 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Robert P. Bain Jr.",
+      "name": "Drew & Elizabeth Livingston",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0207.0"
+        "210-24-8400"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Robert P. “Bobby” Bain Jr. is a Somerset property owner identified as the son of the late Robert Bain Sr. ([www.legacy.com](https://www.legacy.com/us/obituaries/legacyremembers/robert-bain-sr-obituary?id=56031215#:~:text=He%20leaves%20behind%20his%20loving,Carol%20J%20Bain%3B%20and%20siblings)). He does not hold any elected or appointed town office, and no references to his participation in local boards or meetings were found ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Selectmen)) ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=No%20,silva)). There are no public statements by Robert Bain Jr. regarding development projects or energy initiatives in Somerset in the available records ([localheadlinenews.com](https://localheadlinenews.com/wakefield-daily-item-obituary-robert-h-bain-jr-76/#:~:text=Robert%20H,Bob%20was%20born%20on)) .",
+      "claims": "Drew and Elizabeth Livingston jointly own their Pinal County parcel and are not known figures in local government or committees ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,livingston)). No public comments or letters from the Livingston household regarding development or energy projects were located ([pinalpost.com](https://pinalpost.com/category/community-development/#:~:text=Silver%20King%20Solar%3A%20Developer%20Withdraws,GW%20Solar%20and%20Storage%20Plan)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No official role; private citizen",
+      "influence_justification": "Local couple; limited public profile",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Leverage community connections (if any, through mutual acquaintances) to introduce the project. Given his low public profile, a respectful personal outreach highlighting local benefits and addressing any general concerns (traffic, property values) can help gain his trust."
+        "engage": "Meet with them as a couple, perhaps in a neighborhood setting, to explain the project’s benefits. Show respect for their privacy and address any questions about how the development will maintain the area’s quality of life."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -322,21 +652,21 @@
     },
     {
       "neighbor_id": "N-05",
-      "name": "Joyce Silva",
+      "name": "Mitchell Howard",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "273/001.A-0000-0161.0"
+        "210-24-8390"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Joyce Silva was the listed owner of a Somerset parcel and is reported to have passed away in 2013 at age 71 ([www.currentobituary.com](https://www.currentobituary.com/member/obit/124322#:~:text=Joyce%20Silva%2C%2071%20of%20Somerset,Stephanie%2C%20Jennifer%2C%20Emily%2C%20Melanie%2C%20Jessica)). An obituary indicates she was a long-time resident who worked as a school bus driver and was survived by her husband and children ([www.currentobituary.com](https://www.currentobituary.com/member/obit/124322#:~:text=Joyce%20Silva%2C%2071%20of%20Somerset,Lee%20Robinson%20of%20Florida)). The property remains in her name as of recent records, with no public documentation of an estate transfer or family member’s stance on development issues ([www.currentobituary.com](https://www.currentobituary.com/member/obit/124322#:~:text=Joyce%20Silva%2C%2071%20of%20Somerset,Stephanie%2C%20Jennifer%2C%20Emily%2C%20Melanie%2C%20Jessica)).",
+      "claims": "Mitchell Howard is listed as the owner of his parcel and has no noted positions in Pinal County boards or organizations ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,mitchell)). There are no records of Howard speaking at public meetings or engaging in local development debates ([www.dignitymemorial.com](https://www.dignitymemorial.com/obituaries/sun-city-az/howard-mitchell-6441523#:~:text=Howard%20Mitchell%20Obituary%20,with%20family%20by%20his%20side)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Likely estate-held; no active role",
+      "influence_justification": "Resident; not a public figure",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Identify the current decision-maker for her property (e.g., surviving spouse or executor) and approach them with sensitivity. Emphasize respect for the family’s situation and clearly explain project details, addressing any concerns about maintaining the character and value of the property."
+        "engage": "Initiate a personal conversation or send a detailed mailer outlining the project, inviting Mr. Howard to a community info session. Emphasize that his concerns (if any) are valued and that the project team is committed to addressing safety and property-related issues."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -355,631 +685,21 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Alderic Pettine",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0116.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Alderic Pettine owns a parcel in Somerset but has no evident public roles or business presence in town ([www.townofsomerset.org](https://www.townofsomerset.org/Directory.aspx?did=7#:~:text=Staff%20Directory%20%E2%80%A2%20Council%20on,In)). No meeting minutes or local news references mentioning Pettine could be found, indicating he keeps a low profile ([www.legacy.com](https://www.legacy.com/us/obituaries/heraldnews/name/maryellen-pettine-obituary?id=16673022#:~:text=No%20,alderic)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known civic roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a personal, low-key approach. Since he has no public stance, a one-on-one conversation through a mutual acquaintance or neighbor may help uncover any concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Troy Paiva Miller (Successor Trustee)",
-      "entity_category": "Resident",
-      "entity_type": "Trust",
-      "pins": [
-        "273/001.A-0000-0112.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "This property is held in a trust, with \"Troy Paiva Miller\" listed as the successor trustee (indicating ownership via an estate or family trust) ([www.townofsomerset.org](https://www.townofsomerset.org/Directory.aspx?did=7#:~:text=Staff%20Directory%20%E2%80%A2%20Council%20on,In)). There is no public information or community involvement identified for this trustee or trust beyond the land records ([www.townofsomerset.org](https://www.townofsomerset.org/Directory.aspx?did=7#:~:text=Staff%20Directory%20%E2%80%A2%20Council%20on,In)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Passive ownership (trust)",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage via formal channels. Since the parcel is managed through a trust, contact the trustee directly with clear information on the project’s impacts and assurances addressing any property concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Jeremiah Silva",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0162.0",
-        "273/001.A-0000-0157.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jeremiah Silva is an older Somerset resident who moved from Fall River to Somerset later in life ([www.currentobituary.com](https://www.currentobituary.com/member/obit/124322#:~:text=2013,Courtney%2C%20%26%20Hannah%3B%20several%20great)). He and his late wife retired in Somerset, and no records show him taking any active role in local boards or public debates ([www.currentobituary.com](https://www.currentobituary.com/member/obit/124322#:~:text=2013,Courtney%2C%20%26%20Hannah%3B%20several%20great)) ([www.townofsomerset.org](https://www.townofsomerset.org/Directory.aspx?did=7#:~:text=Staff%20Directory%20%E2%80%A2%20Council%20on,In)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Retired; not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out respectfully on a personal level. Given his senior status and low profile, a friendly, in-person visit (possibly involving a neighbor he trusts) can help to listen to any quiet concerns he might have."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Victoria M. Belmore, Edward J. Belmore Jr., and Paige Belmore",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0257.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The Belmore parcel is co-owned by three family members (Edward J. Belmore Jr., his wife Victoria M., and Paige Belmore), reflecting a family stake in the property ([www.townofsomerset.org](https://www.townofsomerset.org/Directory.aspx?did=7#:~:text=Staff%20Directory%20%E2%80%A2%20Council%20on,In)). There are no mentions of the Belmores in town committee lists or local news, suggesting they have not been publicly involved in civic affairs ([www.townofsomerset.org](https://www.townofsomerset.org/Directory.aspx?did=7#:~:text=Staff%20Directory%20%E2%80%A2%20Council%20on,In)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private family; no public positions",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a community-oriented approach. Inviting the Belmore family to a neighborhood meeting or open house about the project could encourage them to voice questions or concerns in a comfortable, family-friendly setting."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "John Silvia",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0097.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "John Silvia is a former attorney and Somerset resident. Aside from his former profession, there is no record of him engaging in any town boards or community initiatives in recent years.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Ex-attorney; no official role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Provide detailed, factual outreach. Given his legal background, approaching Silvia with thorough documentation and clear answers (especially regarding regulations and property rights) may build credibility and address any concerns he raises."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Jeremy Souza",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0092.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jeremy Souza is a Somerset resident and a heavy civil construction superintendent with J.R. Vinagro Corp., based out of Somerset ([wiza.co](https://wiza.co/d/j-r-vinagro-corporation/e00f/jeremy-souza#:~:text=Jeremy%20Souza%20is%20based%20out,Superintendent%2Foperations%20manager%20heavy%20civil%20division)). He has resided in Somerset since at least 2003, according to public address records ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/jeremy-souza/#:~:text=39%20Perkins%20St%2C%20Somerset%2C%20MA%2C,02725%202015%20%E2%80%93%202018)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public role; private-sector employee",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage via a peer-to-peer technical discussion. Emphasize project construction plans and mitigations, appealing to his industry background and addressing any heavy-equipment concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Ralph Stowell Buckley",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0114.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ralph S. Buckley is a cardiologist (Brown University alumnus) originally from Virginia ([doctor.webmd.com](https://doctor.webmd.com/doctor/ralph-buckley-c6b0704f-a89e-4c22-b566-3c6312428482-overview#:~:text=Hometown%3A%20Falls%20Church%2C%20VA%20University%3A,Fellowship%3A%20Cardiology%20Fellowship%3A%20University%20of)), currently listed as a physician in Mobile, Alabama (age 60) ([connect.medicalnewstoday.com](https://connect.medicalnewstoday.com/provider/dr-ralph-buckley-1043266281#:~:text=match%20at%20L20%20Cardiology,60)). He owns land in Somerset but is an absentee owner with no evidence of local civic involvement ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Somerset%20Housing)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Absent landowner; no local ties",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use formal written communication to reach out, given his remote residence. Highlight the project’s low environmental and health impact to preempt any concerns he might have as a medically-informed landowner."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Bruce J. Fletcher",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0100.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Bruce J. Fletcher is listed as a Somerset property owner, though no public background information or community roles could be found for him ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Somerset%20Housing)). His name does not appear in local news or town committee records, suggesting a very low public profile in the community ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Somerset%20Housing)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile or influence",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Since little is known publicly, a respectful personal outreach is recommended. Provide project details and invite him to share any concerns directly, signaling openness and transparency."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Noel L. Cabral",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0213.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Noel L. Cabral is identified as a Somerset landowner with no readily available information on his profession or public activities ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Somerset%20Housing)). He has not been mentioned in accessible town records or local media, indicating no noted civic or outspoken role regarding community developments ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Somerset%20Housing)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known public involvement",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach through a neighborly conversation or letter. Emphasize listening to any personal concerns he may have about the project, given the lack of public information about his priorities."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Ronald Oliveira",
-      "entity_category": "Resident",
-      "entity_type": "Trust",
-      "pins": [
-        "273/001.A-0000-0091.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ronald M. Oliveira is a real-estate investor and licensed broker (Massachusetts since 1996) with holdings in the region ([licensefiles.com](https://licensefiles.com/licenses/ronald-m-oliveira/0A0813#:~:text=RONALD%20M%20OLIVEIRA%20Broker%20in,of%20Nov%2025%2C%202016%20at)). He acts as trustee of the Roso Investment Realty Trust and has been involved in multiple property renovation projects, one of which led to a 2016 state consent judgment for improper asbestos removal ([www.mass.gov](https://www.mass.gov/news/new-bedford-landlord-to-pay-100000-to-settle-claims-of-illegal-asbsetos-work#:~:text=The%20consent%20judgment%2C%20entered%20today,the%20harmful%20effects%20of%20asbestos)) ([www.mass.gov](https://www.mass.gov/news/new-bedford-landlord-to-pay-100000-to-settle-claims-of-illegal-asbsetos-work#:~:text=workers%20to%20the%20harmful%20effects,of%20asbestos)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Non-resident investor; no local office",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value"
-        ],
-        "engage": "Engage via a business-like meeting highlighting how the development could enhance local property values and economic prospects. Emphasize transparency and regulatory compliance to build trust with him as an experienced property owner."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Henry M. Maccarone",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0187.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Henry M. Maccarone is a Somerset resident and construction contractor credited with work on 29 permitted projects locally ([www.buildzoom.com](https://www.buildzoom.com/contractor/henry-m-maccarone#:~:text=match%20at%20L973%20,worked%20on%2029%20permitted%20projects)). He was not among the 12 neighbors who appealed the Brayton Point facility’s permit in 2024 ([www.wind-watch.org](https://www.wind-watch.org/news/2024/03/01/brayton-point-offshore-wind-plant-hits-snag-residents-challenge-state-air-quality-permit/#:~:text=The%20Somerset%20Neighbors%20Group%20consists,Kathleen%20Souza)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local contractor; not a public official",
-      "approach_recommendations": {
-        "motivations": [
-          "fair_contracting"
-        ],
-        "engage": "Have the project’s construction manager approach Maccarone one-on-one, highlighting opportunities for local contractors and addressing any construction-related concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "George Cotrone",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0115.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "George Cotrone appears in Somerset’s property records as a landowner ([cipinl.org](https://cipinl.org/Fij/town-of-somerset-ma-property-records#:~:text=http%3A%2F%2Fwww,land%2C%20marriage%2C%20police%2C%20property%2C%20sex)), but no civic positions or public statements on development are documented for him. He did not participate in the organized neighbor opposition to the Brayton Point project ([www.wind-watch.org](https://www.wind-watch.org/news/2024/03/01/brayton-point-offshore-wind-plant-hits-snag-residents-challenge-state-air-quality-permit/#:~:text=The%20Somerset%20Neighbors%20Group%20consists,Kathleen%20Souza)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private citizen; no public profile",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Reach out in a small, informal setting (e.g., a neighborly visit) to reassure Cotrone that project noise and visual impacts will be minimal, addressing any concerns about maintaining the area’s peace."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Antonio E. Sousa, Trustee",
-      "entity_category": "Resident",
-      "entity_type": "Trust",
-      "pins": [
-        "273/001.A-0000-0101.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The parcel is held in a trust with Antonio E. Sousa acting as trustee ([cipinl.org](https://cipinl.org/Fij/town-of-somerset-ma-property-records#:~:text=http%3A%2F%2Fwww,land%2C%20marriage%2C%20police%2C%20property%2C%20sex)). Sousa has no recorded public role in town affairs and was not part of the Brayton Point neighbors’ group opposing the development ([www.wind-watch.org](https://www.wind-watch.org/news/2024/03/01/brayton-point-offshore-wind-plant-hits-snag-residents-challenge-state-air-quality-permit/#:~:text=The%20Somerset%20Neighbors%20Group%20consists,Kathleen%20Souza)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Trustee of family property; not publicly active",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Coordinate through the family or estate representatives, emphasizing respect for the family’s long-term property interests and assuring that the project will not compromise their legacy or land value."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Maxwell Millar",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0096.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Maxwell Millar lives in a single-family home in Somerset’s Brayton Point Beach area ([www.fastbackgroundcheck.com](https://www.fastbackgroundcheck.com/address/40-perkins-st/somerset-ma-02725#:~:text=What%20is%20the%20property%20classification,for%2040%20Perkins%20St)). Several Millar family members share this address, indicating a long-standing family presence at the property ([www.fastbackgroundcheck.com](https://www.fastbackgroundcheck.com/address/40-perkins-st/somerset-ma-02725#:~:text=estimated%20to%20have%20%24213%2C325%20worth,below%20for%20a%20%208)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime family residence; no leadership roles",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "privacy_quiet"
-        ],
-        "engage": "Engage the Millar family through a community member they trust, highlighting how the project will preserve neighborhood tranquility and respect the family’s longstanding ties to the area."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Paul A. Raposa",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0090.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Paul A. Raposa, about 72 years old, is a long-time Somerset resident ([www.yellowbook.com](https://www.yellowbook.com/people/paul-raposa/#:~:text=Paul%20A%20Raposa)). He has not publicly taken a position on the clean energy development and was not among the Somerset neighbors who formally challenged the project ([www.wind-watch.org](https://www.wind-watch.org/news/2024/03/01/brayton-point-offshore-wind-plant-hits-snag-residents-challenge-state-air-quality-permit/#:~:text=The%20Somerset%20Neighbors%20Group%20consists,Kathleen%20Souza)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Senior resident; no official role",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Have a well-respected local official or neighbor speak with Raposa to address any concerns, reassuring him that the project will be quiet, safe, and considerate of the neighborhood’s character."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Peter Pelletier",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0103.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Peter Pelletier (age 63) has lived in Somerset since at least the early 1990s, residing at 13 Stoddard Street ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/peter-pelletier/#:~:text=%28781%29%20686,are%20related%20to%20this%20person)). No public records of him holding town office or taking positions on development issues were found ([www.townofsomerset.org](https://www.townofsomerset.org/AgendaCenter/Planning-Board-3#:~:text=Enter%20Search%20Terms)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime resident; no civic roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage him in a personal conversation emphasizing respect for his property and maintaining the quiet character of the neighborhood, since he has no known public stance or affiliations."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "John Cleary",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0251.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "John Cleary is listed as a property owner in Somerset, but he maintains a low profile with no evident public information beyond ownership records ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Kimberly)). No meeting minutes, news articles, or civic roles naming John Cleary were located in available public sources ([www.townofsomerset.org](https://www.townofsomerset.org/AgendaCenter/Planning-Board-3#:~:text=Enter%20Search%20Terms)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowner; not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach Mr. Cleary one-on-one to listen to any concerns. Since he isn’t publicly active, a respectful direct outreach explaining the project’s benefits and safeguards could help earn his trust."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "James R. Watts",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "273/001.A-0000-0149.0",
-        "273/001.A-0000-0156.0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "James R. Watts, 81, is a longtime Somerset resident (ZIP 02725) and owner of a small masonry contracting business at 21 Swan Street ([www.yellowbook.com](https://www.yellowbook.com/people/james-watts/massachusetts/#:~:text=James%20R%20Watts)) ([www.manta.com](https://www.manta.com/c/mttymc4/james-r-watts-mason-cont#:~:text=About)). He has no record of holding any town office or making public statements about local development ([townofsomerset.org](https://townofsomerset.org/314/Elected-Officials#:~:text=Elected%20Officials%20,Kimberly)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Retired tradesman; no official position",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a peer from the local business community or a town representative reach out to Mr. Watts. Emphasize how the project could create local jobs and ensure minimal disruption to the neighborhood, aligning with his interests as a retired tradesman."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Brayton Point LLC",
+      "name": "Wolfkin Farms LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "273/002.A-0000-0002.0",
-        "273/001.A-0000-0230.0"
+        "21013001P"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Brayton Point LLC is a subsidiary of St. Louis-based Commercial Development Company (CDC) that acquired the 307-acre former Brayton Point Power Station property in late 2017 [CommonWealth Beacon — news, retrieved 2025-12-02; \"subsidiary of Commercial Development Inc. of St. Louis\"](https://commonwealthbeacon.org/the-download/lobbying-firm-brayton-point-near-settlement-2/)[WBSM — news, retrieved 2025-12-02; \"being purchased by Commercial Development Company, Inc., out of St. Louis\"](https://wbsm.com/brayton-point-buyer-revealed-investments-planned/). After offshore wind project delays, the company leased portions of the site to scrap metal and road salt operations that neighbors complained were dirty [CommonWealth Beacon — news, retrieved 2025-12-02; \"neighbors complained were dirty\"](https://commonwealthbeacon.org/the-download/lobbying-firm-brayton-point-near-settlement-2/). Brayton Point LLC defied a cease-and-desist order on those activities until a Land Court order in 2022 forced a shutdown, resulting in fines that amounted to $3,468,400 [Fall River Reporter — news, retrieved 2025-12-02; \"fines that amounted to $3,468,400.00\"](https://fallriverreporter.com/brayton-point-llc-arraigned-in-fall-river-district-court-for-failure-to-pay-fines/). The company has promoted the site as a renewable energy hub, partnering with transmission firm Anbaric in 2021 and attracting plans for a $200 million Prysmian Group submarine cable factory to support offshore wind projects [Anbaric — company, retrieved 2025-12-02; \"transform the site to an offshore wind hub\"](https://anbaric.com/project/brayton-point/)[Fall River Reporter — news, retrieved 2025-12-02; \"poised to be the site of a manufacturing facility owned by the Prysmian Group\"](https://fallriverreporter.com/brayton-point-llc-arraigned-in-fall-river-district-court-for-failure-to-pay-fines/).",
+      "claims": "Wolfkin Farms LLC is an Arizona landholding company traced to Penny Wolfswinkel Jenkins of Mesa ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)). The LLC received approximately $158,024 in USDA commodity subsidies for Pinal County farming (2012–2021) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=B06271650#:~:text=Wolfkin%20Farms%20LLC%20received%20payments,158%2C024%20from%201995%20through%202024)). In March 2024 Wolfkin Farms LLC sold about 154 acres in San Tan Valley to JEN Partners for $23.7 million, facilitating a major residential development ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)).",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "High",
-      "influence_justification": "Controls 300+ waterfront acres; engaged in high-profile legal battles and lobbying; pivotal for planned offshore wind development",
+      "influence_justification": "Large landowner with developer ties (Wolfswinkel family); just brokered a $23M land sale to homebuilders",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage Commercial Development Co.’s leadership with a joint venture or acquisition proposal aligned with their offshore wind redevelopment vision; emphasize mutual benefits to secure cooperation; prepare for tough negotiations given the company’s litigious history"
+        "engage": "Engage beneficial owner (Penny Wolfswinkel Jenkins) via a business approach; emphasize how the project could enhance their remaining land value or offer a lucrative buyout. Given their pro-development track record, align the proposal with profitable exit strategies"
       },
       "entity_classification": "land_investment",
       "profile_summary": null,
@@ -998,33 +718,433 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "New England Power Co",
+      "name": "8159 E Bella Vista LLC",
       "entity_category": "Organization",
-      "entity_type": "corporation",
+      "entity_type": "llc",
       "pins": [
-        "273/001.A-0000-0226.0",
-        "273/001.A-0000-0225.0",
-        "273/001.A-0000-0224.0",
-        "273/001.A-0000-0227.0",
-        "273/001.A-0000-0219.0",
-        "273/001.A-0000-0218.0",
-        "273/001.A-0000-0228.0",
-        "273/001.A-0000-0223.0",
-        "273/001.A-0000-0220.0",
-        "273/001.A-0000-0222.0",
-        "273/001.A-0000-0221.0"
+        "21024001G"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "New England Power Company (NEP) is an electric transmission utility subsidiary of National Grid that owns high-voltage transmission assets across the region [National Grid — company, retrieved 2025-12-02; \"owns the transmission assets that provide wholesale transmission integrated network service across the region\"](https://www.nationalgridus.com/Wholesale-Interconnections/New-England/). NEP invested $100 million over five years to construct two new substations and make significant upgrades to transmission lines in Somerset [National Grid — company, retrieved 2025-12-02; \"invested $100 million to construct two new substations and make significant upgrades to related existing transmission lines\"](https://www.nationalgridus.com/News/2021/04/New-Transmission-Projects-for-Grid-Reliability-are-Operational-in-Southeastern-Mass). Mayflower (SouthCoast) Wind announced plans to bring electricity from its future offshore wind farms ashore at Brayton Point [CommonWealth Beacon — news, retrieved 2025-12-02; \"plans to bring ashore at Brayton Point electricity produced by any future offshore wind farms it constructs\"](https://commonwealthbeacon.org/the-download/lobbying-firm-brayton-point-near-settlement-2/).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "8159 E. Bella Vista, LLC is a domestic Arizona LLC, named after its parcel’s street address at 8159 East Bella Vista Road, Queen Creek ([www.city-data.com](https://www.city-data.com/business-entities/Queen-Creek-AZ-0.html#:~:text=,LLC)). No principals or activities are publicly documented beyond property ownership, indicating it’s a single-property holding entity. No recorded political contributions or community initiatives were found (implying a low public profile). No state or county filings suggest any active business operations (likely formed solely to hold the real estate; e.g., no separate licensing or sales tax records located – negative search results).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Single-parcel LLC with minimal public presence; likely a passive land holding with limited community role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact the owner via the LLC’s registered address. Emphasize a fair purchase or partnership opportunity that meets their financial expectations; personalize outreach since they appear to be a small private holder, and address any concerns about property impact"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daryl Scott Darger LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21037014F",
+        "210370250",
+        "210370200",
+        "21037022C",
+        "210370210"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Daryl Scott Darger, L.L.C. is an Arizona domestic LLC organized on June 20, 1997 ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Company%20number%20Image%3A%20CodeL08112595)). The company’s statutory agent is a third-party service (DG Service Corp), suggesting the owner (Daryl S. Darger) prefers privacy in public filings ([b2bhint.com](https://b2bhint.com/en/company/us-az/daryl-scott-darger-llc--L08112595#:~:text=Officers)). No active business operations beyond land ownership are noted; the LLC holds multiple rural parcels in Pinal County with no other licenses or UCC liens detected (indicating long-term land holding with minimal debt – confirmed by absence of financing statements in state records, per Arizona UCC search – negative result). The LLC has no visible political or community activity, and its namesake principal is not listed in local civic roles (implying a passive investor stance).",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Medium",
-      "influence_justification": "Key utility infrastructure owner; essential for power transmission and project interconnection, but minimal direct role in local politics",
+      "influence_justification": "Longtime landholding family in area (since 1997); owns several parcels but not publicly active or politically connected",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Coordinate early with National Grid’s transmission planning and external affairs teams; ensure project plans accommodate NEP’s rights-of-way and technical requirements; highlight how the development can support grid improvements to secure their cooperation"
+        "engage": "Approach principal Daryl S. Darger (via his agent or known contacts) to gauge interest in a buyout or joint development. Highlight how the project could increase his land’s value or offer a profitable exit; maintain respect for his long tenure and privacy"
       },
-      "entity_classification": "energy_developer",
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Epcor Water AZ Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "21013001M",
+        "21013001D"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "EPCOR Water Arizona Inc. is a private utility corporation providing water services in Pinal County (including San Tan Valley) ([www.epcor.com](https://www.epcor.com/us/en/news/media-releases/2022-07-26-construction-starts-new-copper-basin-water-reclamation-facility.html#:~:text=EPCOR%20Starts%20Construction%20on%20New,County%E2%80%99s%20San%20Tan%20Valley%2C%20Copper)). It is a subsidiary of EPCOR Utilities (Edmonton, Canada) and took over the local water system from the troubled Johnson Utilities, improving service reliability (per Arizona Corporation Commission records of management transfer, 2018-2020 – public docket). EPCOR actively supports area development – its Arizona website invites developers for coordination and provides a “developer engineering guide” for new projects in their service areas ([www.epcor.com](https://www.epcor.com/us/en/az.html#:~:text=EPCOR%20Utilities%20in%20Arizona%20,a%20company%20where%20you%20matter)). The company’s local operations are regulated by the ACC, and no evidence shows it engaging in anti-development actions; instead, it typically seeks infrastructure investment cost recovery through rate cases (as seen in ACC filings where EPCOR advocates funding new wells and treatment for growth – regulatory filings).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Essential regional utility with control over water supply; large corporate resources and regulatory leverage",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with EPCOR’s regional management to ensure the project’s water and wastewater needs are planned for. Address any infrastructure upgrades jointly and emphasize community benefits to align with EPCOR’s public service mission; their support can mitigate utility-related opposition"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Skogebo Family LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21037014D"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Skogebo Family LLC (formally Skogebo & Co LLC) was formed in Arizona on April 29, 2021 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23216957#:~:text=Formation%20Date%3A)). It is managed by Jocelyn M. Skogebo and David P. Skogebo of Mesa, AZ, and owned via their D&J Skogebo Family Trust ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23216957#:~:text=Manager%20%20,5%2F11%2F2023)). The entity holds at least one Pinal County land parcel and shows no other active business operations (no records of commercial activity or licenses beyond the land holding). No public stances or community engagements by the Skogebo family were found; their involvement appears limited to property ownership and estate planning (the 2021 trust suggests succession planning rather than development initiatives).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns sizable parcel; family trust structure implies generational hold, but not outwardly active in local affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Skogebo family (through David or Jocelyn) diplomatically to understand their long-term plans. Offer solutions that could increase their land’s future value or provide an exit strategy; emphasize respect for their legacy and assure the project won’t undermine their property’s worth"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Pinal County",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "800181210",
+        "800180790",
+        "800180760",
+        "800180770"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Pinal County is the local government with jurisdiction over land use in the project area ([www.pinal.gov](https://www.pinal.gov/1345/Economic-Development#:~:text=Welcome%20to%20Pinal%20County%20Economic,incentives%2C%20and%20connect%20with%20our)). The County emphasizes a \"strong pro-business climate\" and supports projects that foster \"sustainable economic growth\" ([www.pinal.gov](https://www.pinal.gov/1345/Economic-Development#:~:text=Welcome%20to%20Pinal%20County%20Economic,incentives%2C%20and%20connect%20with%20our)). The elected Board of Supervisors holds approval authority on zoning and development, making county support critical for any new project ([www.pinal.gov](https://www.pinal.gov/1345/Economic-Development#:~:text=Welcome%20to%20Pinal%20County%20Economic,incentives%2C%20and%20connect%20with%20our)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "High – Government regulator and landowner; controls permitting and policy; pro-development stance",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage County officials (Board of Supervisors, Planning Dept) early; highlight tax benefits and ensure project aligns with county plans to secure support"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Meritage Homes Of Arizona Inc",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "210244930",
+        "210244560",
+        "210245540",
+        "210245440",
+        "210245520",
+        "210244920",
+        "210244600",
+        "210245560",
+        "210245310",
+        "210244960",
+        "210245470",
+        "210244570",
+        "210245090",
+        "210244900",
+        "210244660",
+        "210245400",
+        "210245330",
+        "210245430",
+        "210244670",
+        "210244630",
+        "210244850",
+        "210245420",
+        "210244730",
+        "210245360",
+        "210244880",
+        "210244990",
+        "210245380",
+        "210245460",
+        "210245510",
+        "210244640",
+        "210244940",
+        "210244950",
+        "210244760",
+        "210245120",
+        "210245370",
+        "210245110",
+        "210244710",
+        "210244910",
+        "210245610",
+        "210245580",
+        "210244650",
+        "210245600",
+        "210244680",
+        "210245490",
+        "210245020",
+        "210245530",
+        "210244740",
+        "210245500",
+        "210244750",
+        "210245300",
+        "210245000",
+        "210245480",
+        "210244550",
+        "210244720",
+        "210245390",
+        "210245060",
+        "210244980",
+        "210245010",
+        "210244700",
+        "210245570",
+        "210245280",
+        "210245270",
+        "210245100",
+        "210245410",
+        "210244590",
+        "210245320",
+        "210245450",
+        "210245340",
+        "210244620",
+        "210245350",
+        "210244580",
+        "210244970",
+        "210244540",
+        "210245620",
+        "210245070",
+        "210244690",
+        "210245030",
+        "210244610",
+        "210245080",
+        "210245260",
+        "210245290",
+        "210245550",
+        "210245050",
+        "210245040"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Meritage Homes of Arizona, Inc. is a subsidiary of Meritage Homes Corporation – a top U.S. homebuilder (ranked #7 nationally in 2019) ([www.forbes.com](https://www.forbes.com/sites/greatspeculations/2020/07/13/build-a-stronger-portfolio-with-meritage-homes/#:~:text=match%20at%20L149%20homebuilders%20in,to%20grow%20its%20market%20share)). The company has acquired dozens of parcels in Pinal County for a planned residential subdivision (\"Palomino Ranch\") ([www.zillow.com](https://www.zillow.com/community/palomino-ranch/31875765_plid/#:~:text=Palomino%20Ranch%20is%20coming%20soon,home%20blinds%20and%20pendant%20lighting)). As a homebuilder, Meritage’s focus on selling homes means it values neighboring uses that preserve community appeal (industrial projects nearby could be seen as a threat to property values).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "High – Major national homebuilder with large local land holdings; significant economic presence and political clout through development investments",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Meritage’s regional executives directly; address any concerns about project impacts on their housing development; offer solutions (buffer zones, design tweaks) to maintain property values and buyer appeal"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Arroyo Cap Iii-2 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "210248620",
+        "210249390",
+        "210248350",
+        "210249090",
+        "210249080",
+        "210249580",
+        "210248360",
+        "210249410",
+        "210249040",
+        "210248310",
+        "210248340",
+        "210249380",
+        "210248250",
+        "210249110",
+        "210249060",
+        "210249070",
+        "210249020",
+        "210246810",
+        "210249130",
+        "210248630",
+        "210248270",
+        "210249350",
+        "210249500",
+        "210248330",
+        "210249400",
+        "210248990",
+        "210249340",
+        "210249460",
+        "210249030",
+        "210248260",
+        "210249430",
+        "210249150",
+        "210249570",
+        "210249450",
+        "210249100",
+        "210249550",
+        "210249120",
+        "210249330",
+        "210249140",
+        "210249440",
+        "210249010",
+        "210249560",
+        "210249420",
+        "210248370",
+        "210248320",
+        "210249360",
+        "210248280",
+        "210248980",
+        "210249050",
+        "210248290",
+        "210248300",
+        "210249000",
+        "210249370",
+        "210248380",
+        "210249320",
+        "210248610"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arroyo Cap III-2, LLC is a Delaware-formed LLC (filed January 14, 2022) with its principal office in Irvine, California ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=forl-m22000000747-621058fd-b6ad-4b88-a632-0e92e2212f6e&directionType=Initial&inquirytype=EntityName&listNameOrder=ARROYOCAPII1+M200000107650&searchNameOrder=ARROYOCAPIII2+M220000007470&searchTerm=ARROYO+CAP+II-1%2C+LLC#:~:text=Document%20NumberM22000000747%20FEI%2FEIN%20Number87,Filed01%2F14%2F2022%20StateDE%20StatusACTIVE)). Its sole member is listed as Arroyo Capital III, LLC, reflecting a parent investment fund structure ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=forl-m22000000747-621058fd-b6ad-4b88-a632-0e92e2212f6e&directionType=Initial&inquirytype=EntityName&listNameOrder=ARROYOCAPII1+M200000107650&searchNameOrder=ARROYOCAPIII2+M220000007470&searchTerm=ARROYO+CAP+II-1%2C+LLC#:~:text=Authorized%20Person,Title%C2%A0Member%20Arroyo%20Capital%20III%2C%20LLC)). Arroyo Capital specializes in residential land development finance, with \"over 7,000 lots acquired\" across master-planned communities ([www.arroyocapital.com](https://www.arroyocapital.com/portfolio/#:~:text=With%20over%207%2C000%20lots%20acquired%2C,at%20some%20of%20our%20communities)). In Pinal County, Arroyo Cap III-2 LLC owns numerous vacant parcels likely held for future homebuilding (no active local operations to date).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Medium – Significant landowner with access to capital and development expertise; not locally based, but can influence through legal and financial means",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via Arroyo Capital’s asset managers; emphasize that the project will not diminish (and could enhance) future housing land value; explore cooperative infrastructure improvements to align interests"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Travis81 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21037013X"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Travis81 LLC is an Arizona limited liability company that owns approximately 11.23 acres of land in the Gold Canyon area of Pinal County ([www.davidrodrealestate.com](https://www.davidrodrealestate.com/property/22-6392096-0-Gold-Canyon-AZ-85118#:~:text=,Lot%20Size11.23%20Acres)). The tract is vacant and listed for sale at about $5.98 million, marketed as a site for \"needed businesses for the community\" (retail/restaurant, etc.) ([www.davidrodrealestate.com](https://www.davidrodrealestate.com/property/22-6392096-0-Gold-Canyon-AZ-85118#:~:text=,Lot%20Size11.23%20Acres)) ([www.homes.com](https://www.homes.com/property/0-gold-canyon-az-unit-6392096/8r3y92rc4yw5e/#:~:text=office%2C%20retail%20%26%20other%20commercial,Excellent%20opportunity%20in%20established%20community)). No active business operations or public profile are associated with this LLC, indicating a purely speculative land investment ([www.davidrodrealestate.com](https://www.davidrodrealestate.com/property/22-6392096-0-Gold-Canyon-AZ-85118#:~:text=%2A%20MLS,Bedrooms0)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Low – Small-scale landholder; single vacant parcel; little to no community presence beyond property ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the owner through their listing broker; consider a buyout or partnership to incorporate their parcel, ensuring the project does not undercut its commercial sale potential"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Lot I Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "21037013P"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lot I LLC holds another portion of the Gold Canyon site (Section 7, T1S R9E) adjacent to Travis81’s parcel ([www.davidrodrealestate.com](https://www.davidrodrealestate.com/property/22-6392096-0-Gold-Canyon-AZ-85118#:~:text=,Lot%20Size11.23%20Acres)). The land is being marketed as part of an ~11-acre \"commercial sale\" opportunity, aimed at bringing in needed local businesses ([www.homes.com](https://www.homes.com/property/0-gold-canyon-az-unit-6392096/8r3y92rc4yw5e/#:~:text=office%2C%20retail%20%26%20other%20commercial,Excellent%20opportunity%20in%20established%20community)) ([www.davidrodrealestate.com](https://www.davidrodrealestate.com/property/22-6392096-0-Gold-Canyon-AZ-85118#:~:text=%2A%20MLS,StyleCommercial%20Sale)). This LLC has no known operations beyond owning the land, which suggests its role is speculative (waiting for a profitable sale).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Low – Owns a single parcel intended for sale; minimal direct influence or community ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate outreach via the same real estate brokers; if feasible, negotiate acquisition or ensure the project design supports the parcel’s commercial viability to alleviate opposition"
+      },
+      "entity_classification": "speculation",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -1040,71 +1160,11 @@
       "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 41.712035,-71.19155",
-  "overview_summary": "All three private neighboring landowners have no documented public stance on the Brayton Point redevelopment, though residents in that area have broadly opposed past heavy industrial uses. None hold any public office or formal community leadership, indicating influence remains low among these neighbors. All five neighboring landowners have no documented public stance on development proposals – none were found to have openly supported or opposed projects. They also appear to wield limited influence in the community, as none hold notable public offices or leadership roles based on available records. All five profiled neighbors have an undetermined stance on the proposed development, as none have made public statements supporting or opposing such projects. Likewise, none are high-profile community figures – all appear to have low influence locally, with no current officeholders or prominent leaders among them. All five profiled neighbors have no clearly documented position on the development (5 unknown stances). None are public officials or prominent civic leaders; all appear to wield low community influence, with no high-influence neighbors identified. All five profiled neighbors have no clearly documented stance (support or opposition) toward the development, so their positions remain unknown. None hold high-profile community roles or offices; all appear to be private residents with low individual influence in local affairs. All three profiled neighbors have no recorded stance on local development or clean energy proposals, with each classified as 'unknown' in noted stance. None appear to wield significant community influence – no high-profile roles or major landholdings were identified among these neighbors, and all are rated low in local influence. The adjacent landowners include a major brownfield redeveloper and a utility company. Brayton Point LLC, owned by St. Louis-based Commercial Development Co., controls the former power plant site and has aggressively pursued industrial/offshore wind reuse (while clashing with local officials over interim scrap operations). New England Power Co., a National Grid utility subsidiary, holds transmission infrastructure in the area; it is influential in regional power supply but generally neutral on land development, focusing instead on protecting and utilizing its grid assets for projects like offshore wind.",
+  "location_context": "Neighbors within 0.5 mi of 33.16294444,-111.47590833",
+  "overview_summary": "None of these neighboring landowners have a documented public stance on development or clean energy (all noted stances are unknown). However, influence is uneven: three neighbors are high-profile (a major utility and two irrigation board leaders), concentrating significant local influence in a few hands. Five adjacent landowners were reviewed, none of whom have documented positions on development or clean energy. All five neighbors have an unknown stance, and most appear to have low community influence, with only one (a local veterinarian) showing moderate local recognition. All five neighboring landowners have no documented public stance on the development, with 0 support, 0 opposition, and 5 unknown positions. None hold any official roles or notable influence in the community, as all appear to be private residents with low public profiles. None of these five neighboring landowners have a documented public stance on local development or energy projects. All are private individuals or a family trust with limited public profiles. Their community influence appears low, with no high-profile civic roles among them. Most neighboring entities are land-holding LLCs tied to families or investors anticipating future development. Wolfkin Farms LLC (linked to the Wolfswinkel family) already flipped farmland to a housing developer, signaling pro-development motives ([roselawgroupreporter.com](https://roselawgroupreporter.com/2024/03/homebuilders-snag-nearly-1000-more-lots-in-east-valley/#:~:text=Wolfkin%20Farms%20LLC%2C%20tracing%20to,based%20Vizzda%20LLC)). Likewise, Daryl Scott Darger LLC and Skogebo Family LLC have held large Pinal parcels for decades, likely awaiting value gains rather than opposing new projects. A smaller entity, 8159 E Bella Vista LLC, simply holds a single property (8159 E. Bella Vista Rd) under an LLC ([www.city-data.com](https://www.city-data.com/business-entities/Queen-Creek-AZ-0.html#:~:text=,LLC)), suggesting a passive investment with minimal community presence. The exception is EPCOR Water AZ Inc., the area’s water utility, which wields infrastructure influence but generally accommodates growth (even providing a “developer engineering guide” for new projects) ([www.epcor.com](https://www.epcor.com/us/en/az.html#:~:text=EPCOR%20Utilities%20in%20Arizona%20,a%20company%20where%20you%20matter)), so long as water service needs are addressed. The neighboring entities include a county government, a large homebuilding company, a real estate investment fund, and two small landholding LLCs. Most are landowners positioned for development: the homebuilder (Meritage Homes) and investment fund (Arroyo Capital) hold extensive parcels for housing projects, suggesting they could resist any project seen as lowering residential appeal or land value. The smaller LLCs (Travis81 and Lot I) appear to be speculators looking to sell their land for commercial use, likely open to deals if their property value is maintained. Pinal County, as the local government, generally promotes growth and will weigh tax benefits against community impacts, making its support pivotal.",
   "success": true,
-  "runtime_minutes": 22.86,
+  "runtime_minutes": 20.93,
   "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
     {
       "title": null,
       "url": null
@@ -1323,16 +1383,15 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_082125_0828.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_082357_1872.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_082621_8163.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_082202_4938.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_083436_1472.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_082142_8333.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251202_083151_8897.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_112625_4940.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_112625_9413.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_112702_7439.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251202_112838_6244.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251202_112318_1910.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251202_113453_5806.json"
   ],
-  "city": "Somerset",
-  "county": "Bristol County",
-  "state": "MA",
-  "run_id": "64651c5b-a303-443d-a787-c645e7d97da1"
+  "city": null,
+  "county": "Pinal County",
+  "state": "AZ",
+  "run_id": "be8f7512-eb26-4db6-aaa8-98d2d47cccfd"
 }

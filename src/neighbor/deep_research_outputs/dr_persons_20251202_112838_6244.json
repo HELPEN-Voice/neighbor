@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-12-02T11:28:38.624548",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these five neighboring landowners have a documented public stance on local development or energy projects. All are private individuals or a family trust with limited public profiles. Their community influence appears low, with no high-profile civic roles among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "David Thomas Phillips & Jane Taylor (Trustees)",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "210-37-0170"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "This parcel is owned via a family trust managed by David T. Phillips, 76, who resides in Gilbert, Arizona ([namesandfacts.com](https://namesandfacts.com/p/phillips/david/naf325g-760693841964046689/g#:~:text=David%20was%20born%20in%20,or%20the%20current%20email%20address)). Jane Taylor (relationship unspecified) is co-listed as a trustee, and no record of either trustee’s civic engagement in Pinal County was found ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,phillips)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee landowners; no civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out through formal correspondence to their mailing address, highlighting how the project will not adversely affect their property’s value or legacy. Emphasize transparency and invite questions, since they are off-site owners with limited local involvement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Erica Meeks",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "210-24-8420"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Erica Meeks appears to be a private Pinal County resident with no identifiable public offices or leadership roles ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,meeks)). No mentions of Meeks were found in local news or meeting records related to development issues ([www.idcrawl.com](https://www.idcrawl.com/erica-meeks#:~:text=Erica%20Meeks%20Filter%20Found%2070,also%20be%20adding%20a%20variety)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Resident; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through a friendly, informal visit or call to understand any concerns. Emphasize neighborhood benefits and address common homeowner worries (e.g., property values or noise) to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daniel Durham",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "210-24-8410"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daniel Durham is a local landowner with no public profile in community affairs ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,durham)). Searches of county records and news found no evidence of Durham’s involvement in development discussions or civic positions ([www2.durhamcountync.gov](https://www2.durhamcountync.gov/sheriff/ips/?ei=s900VO2XHsyu7Aaj5YGQDw&sa=U&usg=AFQjCNGeQe4bshbeaDaJaHETx66Jt7eBjA&ved=0CEEQFjAH#:~:text=1%20%20www2.durhamcountync.gov%20%20,questions%20or%20comments%2C%20please%20contact)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local resident; not civically active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage one-on-one at his property to introduce the project and listen to any feedback. Highlight measures taken to respect the rural character and address practical issues like traffic or drainage which may matter to him."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Drew & Elizabeth Livingston",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "210-24-8400"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Drew and Elizabeth Livingston jointly own their Pinal County parcel and are not known figures in local government or committees ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,livingston)). No public comments or letters from the Livingston household regarding development or energy projects were located ([pinalpost.com](https://pinalpost.com/category/community-development/#:~:text=Silver%20King%20Solar%3A%20Developer%20Withdraws,GW%20Solar%20and%20Storage%20Plan)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local couple; limited public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet with them as a couple, perhaps in a neighborhood setting, to explain the project’s benefits. Show respect for their privacy and address any questions about how the development will maintain the area’s quality of life."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Mitchell Howard",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "210-24-8390"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mitchell Howard is listed as the owner of his parcel and has no noted positions in Pinal County boards or organizations ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,mitchell)). There are no records of Howard speaking at public meetings or engaging in local development debates ([www.dignitymemorial.com](https://www.dignitymemorial.com/obituaries/sun-city-az/howard-mitchell-6441523#:~:text=Howard%20Mitchell%20Obituary%20,with%20family%20by%20his%20side)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Resident; not a public figure",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate a personal conversation or send a detailed mailer outlining the project, inviting Mr. Howard to a community info session. Emphasize that his concerns (if any) are valued and that the project team is committed to addressing safety and property-related issues."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these five neighboring landowners have a documented public stance on local development or energy projects. All are private individuals or a family trust with limited public profiles. Their community influence appears low, with no high-profile civic roles among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"David Thomas Phillips & Jane Taylor (Trustees)\",\n      \"entity_category\": \"Trust\",\n      \"entity_type\": \"Trust\",\n      \"pins\": [\"210-37-0170\"],\n      \"claims\": \"This parcel is owned via a family trust managed by David T. Phillips, 76, who resides in Gilbert, Arizona ([namesandfacts.com](https://namesandfacts.com/p/phillips/david/naf325g-760693841964046689/g#:~:text=David%20was%20born%20in%20,or%20the%20current%20email%20address)). Jane Taylor (relationship unspecified) is co-listed as a trustee, and no record of either trustee’s civic engagement in Pinal County was found ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,phillips)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Absentee landowners; no civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out through formal correspondence to their mailing address, highlighting how the project will not adversely affect their property’s value or legacy. Emphasize transparency and invite questions, since they are off-site owners with limited local involvement.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Erica Meeks\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"210-24-8420\"],\n      \"claims\": \"Erica Meeks appears to be a private Pinal County resident with no identifiable public offices or leadership roles ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,meeks)). No mentions of Meeks were found in local news or meeting records related to development issues ([www.idcrawl.com](https://www.idcrawl.com/erica-meeks#:~:text=Erica%20Meeks%20Filter%20Found%2070,also%20be%20adding%20a%20variety)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Resident; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach through a friendly, informal visit or call to understand any concerns. Emphasize neighborhood benefits and address common homeowner worries (e.g., property values or noise) to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Daniel Durham\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"210-24-8410\"],\n      \"claims\": \"Daniel Durham is a local landowner with no public profile in community affairs ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,durham)). Searches of county records and news found no evidence of Durham’s involvement in development discussions or civic positions ([www2.durhamcountync.gov](https://www2.durhamcountync.gov/sheriff/ips/?ei=s900VO2XHsyu7Aaj5YGQDw&sa=U&usg=AFQjCNGeQe4bshbeaDaJaHETx66Jt7eBjA&ved=0CEEQFjAH#:~:text=1%20%20www2.durhamcountync.gov%20%20,questions%20or%20comments%2C%20please%20contact)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local resident; not civically active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage one-on-one at his property to introduce the project and listen to any feedback. Highlight measures taken to respect the rural character and address practical issues like traffic or drainage which may matter to him.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Drew & Elizabeth Livingston\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"210-24-8400\"],\n      \"claims\": \"Drew and Elizabeth Livingston jointly own their Pinal County parcel and are not known figures in local government or committees ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,livingston)). No public comments or letters from the Livingston household regarding development or energy projects were located ([pinalpost.com](https://pinalpost.com/category/community-development/#:~:text=Silver%20King%20Solar%3A%20Developer%20Withdraws,GW%20Solar%20and%20Storage%20Plan)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local couple; limited public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Meet with them as a couple, perhaps in a neighborhood setting, to explain the project’s benefits. Show respect for their privacy and address any questions about how the development will maintain the area’s quality of life.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Mitchell Howard\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"210-24-8390\"],\n      \"claims\": \"Mitchell Howard is listed as the owner of his parcel and has no noted positions in Pinal County boards or organizations ([pinalpost.com](https://pinalpost.com/silver-reef-solar-and-battery-project-faces-unanimous-denial-recommendation/#:~:text=No%20,mitchell)). There are no records of Howard speaking at public meetings or engaging in local development debates ([www.dignitymemorial.com](https://www.dignitymemorial.com/obituaries/sun-city-az/howard-mitchell-6441523#:~:text=Howard%20Mitchell%20Obituary%20,with%20family%20by%20his%20side)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Resident; not a public figure\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Initiate a personal conversation or send a detailed mailer outlining the project, inviting Mr. Howard to a community info session. Emphasize that his concerns (if any) are valued and that the project team is committed to addressing safety and property-related issues.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

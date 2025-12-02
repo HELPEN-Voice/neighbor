@@ -73,9 +73,12 @@ def combine_pdfs(location=None, date=None, run_id=None):
                             data = json.load(f)
                             if not location:
                                 city = data.get("city", "")
+                                county = data.get("county", "")
                                 state = data.get("state", "")
+                                # Use city if available, otherwise fall back to county
+                                place = city if city else county
                                 location = (
-                                    f"{city}, {state}" if city and state else "Unknown"
+                                    f"{place}, {state}" if place and state else "Unknown"
                                 )
                             if not date:
                                 date = datetime.now().strftime("%Y-%m-%d")

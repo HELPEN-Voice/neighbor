@@ -1,0 +1,212 @@
+{
+  "timestamp": "2025-12-02T11:26:25.494070",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these neighboring landowners have a documented public stance on development or clean energy (all noted stances are unknown). However, influence is uneven: three neighbors are high-profile (a major utility and two irrigation board leaders), concentrating significant local influence in a few hands.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Salt River Project Ag Imp & Power Dist",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014C",
+        "21038001A",
+        "21024001Q",
+        "21013001B",
+        "21024001J",
+        "21024001P"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Salt River Project is a state-chartered power and water utility ([en.wikipedia.org](https://en.wikipedia.org/wiki/Salt_River_Project#:~:text=The%20Salt%20River%20Project%20,3%20companies%20in%20Arizona)); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Regional power utility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through SRP's formal channels for landowner coordination."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "State Of Arizona",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arizona State Land Department manages this state trust land in the area ([en.wikipedia.org](https://en.wikipedia.org/wiki/Arizona_State_Land_Department#:~:text=The%20Arizona%20State%20Land%20Department,owned%20lands%20and%20property)); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "State trust landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate via the Arizona State Land Dept per official process."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Chavez Juan Andres Colozo Jr",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037014J"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No references to Juan Andres Colozo Chavez Jr were found in local news or civic records ([pinal.novusagenda.com](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=1383&MinutesMeetingID=-1&doctype=Agenda#:~:text=No%20,chavez)). He is identified only through property ownership and holds no known public roles ([pinal.novusagenda.com](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=1454&MinutesMeetingID=759&doctype=Agenda#:~:text=No%20,chavez)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally with project information and invite any questions given his low profile."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Gable & Hardison Farming",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21037022D"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gable & Hardison Farming is a local family farming operation (Hardison family) in San Tan Valley ([searchagriculture.az.gov](https://searchagriculture.az.gov/mastercontent/pgpall.aspx#:~:text=...,SAN%20TAN%20VALLEY)); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Irrigation district board",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via known agricultural networks (see ORG profile for recommended engagement)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Nevitt Farms LLLP",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "21024001N"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Nevitt Farms LLLP is a family farming partnership associated with John O. Nevitt ([searchagriculture.az.gov](https://searchagriculture.az.gov/SearchAg/PGP/PGPAll#:~:text=11167%20%20,12%2F31%2F2021)); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Irrigation district vice-chair",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through the partnership's principal (see ORG profile for further guidance)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these neighboring landowners have a documented public stance on development or clean energy (all noted stances are unknown). However, influence is uneven: three neighbors are high-profile (a major utility and two irrigation board leaders), concentrating significant local influence in a few hands.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Salt River Project Ag Imp & Power Dist\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037014C\", \"21038001A\", \"21024001Q\", \"21013001B\", \"21024001J\", \"21024001P\"],\n      \"claims\": \"Salt River Project is a state-chartered power and water utility ([en.wikipedia.org](https://en.wikipedia.org/wiki/Salt_River_Project#:~:text=The%20Salt%20River%20Project%20,3%20companies%20in%20Arizona)); see ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Regional power utility\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through SRP's formal channels for landowner coordination.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"State Of Arizona\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037014B\"],\n      \"claims\": \"Arizona State Land Department manages this state trust land in the area ([en.wikipedia.org](https://en.wikipedia.org/wiki/Arizona_State_Land_Department#:~:text=The%20Arizona%20State%20Land%20Department,owned%20lands%20and%20property)); see ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"State trust landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Coordinate via the Arizona State Land Dept per official process.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Chavez Juan Andres Colozo Jr\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037014J\"],\n      \"claims\": \"No references to Juan Andres Colozo Chavez Jr were found in local news or civic records ([pinal.novusagenda.com](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=1383&MinutesMeetingID=-1&doctype=Agenda#:~:text=No%20,chavez)). He is identified only through property ownership and holds no known public roles ([pinal.novusagenda.com](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=1454&MinutesMeetingID=759&doctype=Agenda#:~:text=No%20,chavez)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out personally with project information and invite any questions given his low profile.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Gable & Hardison Farming\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21037022D\"],\n      \"claims\": \"Gable & Hardison Farming is a local family farming operation (Hardison family) in San Tan Valley ([searchagriculture.az.gov](https://searchagriculture.az.gov/mastercontent/pgpall.aspx#:~:text=...,SAN%20TAN%20VALLEY)); see ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Irrigation district board\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via known agricultural networks (see ORG profile for recommended engagement).\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Nevitt Farms LLLP\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"21024001N\"],\n      \"claims\": \"Nevitt Farms LLLP is a family farming partnership associated with John O. Nevitt ([searchagriculture.az.gov](https://searchagriculture.az.gov/SearchAg/PGP/PGPAll#:~:text=11167%20%20,12%2F31%2F2021)); see ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Irrigation district vice-chair\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through the partnership's principal (see ORG profile for further guidance).\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

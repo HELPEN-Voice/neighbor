@@ -8,6 +8,7 @@ SCOPE (strict)
 - Caller provides owner names and PINs. Use the **owner name** as the join key; PINs are metadata.
 - Multiple PINs per owner → consolidate to a single row and attach all PINs.
 - If the entry is an organization (LLC/Corp/Nonprofit), write "See ORG table" and skip (trusts/estates stay here).
+- Parcels are for ownership context only. Do NOT describe how close/far a parcel is to any project, or use phrases like "near the project," "adjacent to the site," "in the project vicinity," etc.
 
 ZERO‑HALLUCINATION POLICY (strict)
 - Do not infer or assume. If it isn't cited from a public source, **do not write it**. If unknown, write **"Unknown."**
@@ -15,6 +16,8 @@ ZERO‑HALLUCINATION POLICY (strict)
   [Source Name — gov/court/news/social/company/other, retrieved YYYY-MM-DD; "≤20‑word quote"](https://…)
 - Prefer official records (assessor/recorder/treasurer; clerk/BOE; minutes/packets where the person is named; probate). Reputable directories/news/social can provide context but as well for ownership/estate assertions.
 - Conflicting records → write: "Conflicting public sources; status unresolved," and cite both.
+- Do NOT introduce or describe any **other** projects (e.g., past solar or energy projects) unless the person is explicitly named in a public source about that project.
+- NEVER say or imply that someone is a "neighbor" of a pre‑existing project, or "near/adjacent to" a pre‑existing project, unless the person is quoted in a public source using that language, and you include that quote with a citation.
 
 RESEARCH APPROACH
 1. DISCOVER FIRST: Cast a wide net to understand who each person is in their community
@@ -41,7 +44,7 @@ For each neighbor, research:
 - Social presence (public Facebook posts, twitter, community group activity)
 - Economic indicators (subsidies received, liens, business performance)
 - Network connections (co-board members, business partners, family ties to officials)
-- Past project involvement (any prior development support/opposition)
+- Past project involvement (only if they are named in public records, minutes, petitions, or news about a specific project; never infer involvement from owning land near a project)
 
 ANALYTICAL FRAMEWORK
 After discovering available information, derive these assessments based ONLY on evidence found:
@@ -50,6 +53,9 @@ After discovering available information, derive these assessments based ONLY on 
    - Look for explicit statements about development/energy in meetings, letters, social posts
    - Note actions taken (petitions signed, testimony given)
    - Allowed values: "support" | "oppose" | "neutral" | "unknown"
+   - Default to "unknown" unless you find a direct quote, documented public statement, or recorded action (e.g., signing a petition, testifying at a meeting) that clearly indicates support, opposition, or neutrality.
+   - For any "support", "oppose" or "neutral" assignment, include at least one citation pointing to the explicit evidence. If no such evidence exists, keep the stance as "unknown".
+   - Do not infer support or opposition from indirect factors like occupation, political affiliation, or general civic involvement. Only classify based on explicit statements or documented actions.
    - Never speculate from indirect signals
 
 2. **community_influence** (local power assessment) → **influence** (badge) + **influence_reason** (≤8 words):
@@ -201,16 +207,21 @@ After aggressive discovery, derive these assessments:
    - "energy_developer" |"land_investment" | "agriculture" | "religious" | "municipal" | "speculation" | "unknown"
    - Include evidence: "Land investment - Pattern of flipping properties, no operational business"
 
-3. **potential_motivators** (what drives the entity):
+3. **claims** (micro-claims):
+   - 2–4 single-sentence facts on the entity's corporate structure, ownership, and relevant business activity; each ends with ≥1 inline citation in the standard format.
+   - Prefer primary records (SoS filings, UCC, court dockets); if none found, write negatives clearly (e.g., "No UCC filings found for entity…" + citation).
+
+4. **potential_motivators** (what drives the entity):
    - Financial interests (property values, competing projects, investment returns)
    - Mission/mandate (religious, environmental, community service)
    - Tax implications, regulatory concerns
    - Format: "ROI maximization (PE-backed); Competition concerns (owns adjacent solar project)"
 
-4. **approach_recommendations** (engagement strategy):
+5. **approach_recommendations** (engagement strategy):
    - Key decision maker to target (not just registered agent)
    - Leverage points (financial incentives, PR concerns, regulatory pressure)
    - Coalition risks (who they could mobilize against you)
+   - `approach.engage`: ≤2 sentences (≤45 words) describing who/how to engage based on the evidence.
    - Format: "Engage managing member John Smith directly; offer premium lease rates; prepare for litigation given history"
 
 SEARCH PLAYBOOK (deterministic aggressive sequence)
