@@ -103,15 +103,7 @@ def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         merged_entry = winning_entry.copy()
         merged_entry["pins"] = unique_pins
         merged_entry["confidence"] = lowest_confidence
-
-        # Combine claims
-        all_claims = []
-        for entry in group:
-            claims = entry.get("claims", "")
-            if claims and claims not in all_claims:
-                all_claims.append(claims)
-        if len(all_claims) > 1:
-            merged_entry["claims"] = " ".join(all_claims)
+        # Keep only the winning entry's claims (don't combine)
 
         print(f"[DEDUP] Merged into '{merged_entry.get('name')}': {len(unique_pins)} PINs, stance={merged_entry.get('noted_stance')}, confidence={lowest_confidence}")
         deduped.append(merged_entry)
