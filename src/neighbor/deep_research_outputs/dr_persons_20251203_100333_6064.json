@@ -1,0 +1,246 @@
+{
+  "timestamp": "2025-12-03T10:03:33.606514",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Berrien County",
+    "state": "MI",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Five neighboring landowners were reviewed: none have a documented public stance on development or clean energy, and all are categorized as unknown stance. Most appear to be private rural landowners with no notable public offices or statements. Community influence is generally low; one farming family (the Zechs) has moderate local standing due to their longstanding agricultural presence, while the others are not known to hold influential roles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kent E. Stroud",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0014-08-0"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kent E. Stroud, 61, is a longtime Buchanan-area resident who lives on a 1.81-acre homestead on Cleveland Avenue ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/kent-stroud/#:~:text=Kent%20Stroud%E2%80%99s%20birthday%20is%20on,are%20related%20to%20this%20person)) ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). His property was created in January 2023 by splitting it from a larger farm parcel in Weesaw Township ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). No public records show Stroud taking any active role or stance in local development issues as of this date ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,stroud)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a friendly, one-on-one outreach. Emphasize respect for his quiet rural lifestyle and reassure him the project won’t disrupt the peace of his home."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Robby Dushuanack",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0030-00-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robby Dushuanack owns a substantial farm parcel in Section 11 of the township ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). In January 2023, a 1.8-acre portion of Dushuanack’s land was split off and sold to create a neighboring residential lot (the Stroud property) ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). There are no mentions of Dushuanack in local meeting records or media, indicating he has not publicly voiced opinions on development proposals ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,dushuanack)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Large farm owner; low public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via an agriculture-savvy contact. Emphasize minimal impact on his farming operations (e.g., crop, drainage) and respect his control over his land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "James L. McClellan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0010-0013-05-5",
+        "11-22-0010-0013-12-8"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James L. McClellan is listed as the owner of two land parcels in Section 13 of Weesaw Township (per county parcel records) ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)). He does not appear in any available township minutes or local news, suggesting no notable public role or stated position on area development ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowner; no public civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach him with direct, respectful communication. A personal visit that acknowledges his property rights and answers any questions privately is advisable."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Scott Larson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0010-0013-04-7",
+        "11-22-0010-0013-06-3",
+        "11-22-0010-0013-11-0"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Scott Larson holds at least three adjacent parcels of land in Section 13 ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)). There is no record of Larson serving in local government or making public comments on development or energy projects ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)), indicating a low public profile in community affairs.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Owns acreage; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Provide straightforward information and assure him the project will not negatively affect his property’s value or use. A face-to-face meeting to address any personal concerns can help build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "David K. Zech & Leslie M. Zech",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0010-0013-07-1",
+        "11-22-0010-0013-14-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "David K. and Leslie M. Zech jointly own two parcels of land in Section 13 ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)). The Zech family has deep roots in local agriculture – for example, the late Kenneth L. Zech (a likely relative) was a lifelong grape farmer in the Buchanan area ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)). Neither David nor Leslie has publicly taken a stance on development proposals, and no civic positions for them were found in public records ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Fruit growers; longstanding local family",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Engage through local farm community networks (e.g. fellow growers). Emphasize how the project can coexist with and even support the long-term legacy of their family farm."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Five neighboring landowners were reviewed: none have a documented public stance on development or clean energy, and all are categorized as unknown stance. Most appear to be private rural landowners with no notable public offices or statements. Community influence is generally low; one farming family (the Zechs) has moderate local standing due to their longstanding agricultural presence, while the others are not known to hold influential roles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Kent E. Stroud\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0014-08-0\"],\n      \"claims\": \"Kent E. Stroud, 61, is a longtime Buchanan-area resident who lives on a 1.81-acre homestead on Cleveland Avenue ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/kent-stroud/#:~:text=Kent%20Stroud%E2%80%99s%20birthday%20is%20on,are%20related%20to%20this%20person)) ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). His property was created in January 2023 by splitting it from a larger farm parcel in Weesaw Township ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). No public records show Stroud taking any active role or stance in local development issues as of this date ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,stroud)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a friendly, one-on-one outreach. Emphasize respect for his quiet rural lifestyle and reassure him the project won’t disrupt the peace of his home.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Robby Dushuanack\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0030-00-4\"],\n      \"claims\": \"Robby Dushuanack owns a substantial farm parcel in Section 11 of the township ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). In January 2023, a 1.8-acre portion of Dushuanack’s land was split off and sold to create a neighboring residential lot (the Stroud property) ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). There are no mentions of Dushuanack in local meeting records or media, indicating he has not publicly voiced opinions on development proposals ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,dushuanack)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Large farm owner; low public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage via an agriculture-savvy contact. Emphasize minimal impact on his farming operations (e.g., crop, drainage) and respect his control over his land.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"James L. McClellan\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0010-0013-05-5\", \"11-22-0010-0013-12-8\"],\n      \"claims\": \"James L. McClellan is listed as the owner of two land parcels in Section 13 of Weesaw Township (per county parcel records) ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)). He does not appear in any available township minutes or local news, suggesting no notable public role or stated position on area development ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Landowner; no public civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach him with direct, respectful communication. A personal visit that acknowledges his property rights and answers any questions privately is advisable.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Scott Larson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0010-0013-04-7\", \"11-22-0010-0013-06-3\", \"11-22-0010-0013-11-0\"],\n      \"claims\": \"Scott Larson holds at least three adjacent parcels of land in Section 13 ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)). There is no record of Larson serving in local government or making public comments on development or energy projects ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)), indicating a low public profile in community affairs.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Owns acreage; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Provide straightforward information and assure him the project will not negatively affect his property’s value or use. A face-to-face meeting to address any personal concerns can help build trust.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"David K. Zech & Leslie M. Zech\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0010-0013-07-1\", \"11-22-0010-0013-14-4\"],\n      \"claims\": \"David K. and Leslie M. Zech jointly own two parcels of land in Section 13 ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)). The Zech family has deep roots in local agriculture – for example, the late Kenneth L. Zech (a likely relative) was a lifelong grape farmer in the Buchanan area ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)). Neither David nor Leslie has publicly taken a stance on development proposals, and no civic positions for them were found in public records ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Fruit growers; longstanding local family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"farmland_preservation\"],\n        \"engage\": \"Engage through local farm community networks (e.g. fellow growers). Emphasize how the project can coexist with and even support the long-term legacy of their family farm.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

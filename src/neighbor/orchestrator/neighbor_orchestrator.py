@@ -249,6 +249,136 @@ class NeighborOrchestrator:
             if r.get("saved_filepath"):
                 saved_filepaths.append(r["saved_filepath"])
 
+        # 6.5) Deduplicate neighbors with similar names (Levenshtein distance <= 2)
+        def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+            """
+            Deduplicate neighbors with similar names (Levenshtein distance <= 2).
+            Rules:
+            - Combine PINs from all duplicates
+            - Stance priority: oppose > neutral > support > unknown
+            - Keep stance, community_influence, approach_recommendations from winning entry
+            - Use lowest confidence: low < medium < high
+            """
+
+            def levenshtein_distance(s1: str, s2: str) -> int:
+                """Calculate Levenshtein distance between two strings."""
+                if len(s1) < len(s2):
+                    return levenshtein_distance(s2, s1)
+                if len(s2) == 0:
+                    return len(s1)
+
+                previous_row = range(len(s2) + 1)
+                for i, c1 in enumerate(s1):
+                    current_row = [i + 1]
+                    for j, c2 in enumerate(s2):
+                        insertions = previous_row[j + 1] + 1
+                        deletions = current_row[j] + 1
+                        substitutions = previous_row[j] + (c1 != c2)
+                        current_row.append(min(insertions, deletions, substitutions))
+                    previous_row = current_row
+                return previous_row[-1]
+
+            STANCE_PRIORITY = {"oppose": 3, "neutral": 2, "support": 1, "unknown": 0}
+            CONFIDENCE_PRIORITY = {"low": 1, "medium": 2, "high": 3}  # Lower = keep
+            MAX_DISTANCE = 2
+
+            # Split into residents and entities - only dedupe residents
+            residents = []
+            entities = []
+            for n in neighbors:
+                category = n.get("entity_category", "").lower()
+                if category in ["resident", "individual", "person"]:
+                    residents.append(n)
+                else:
+                    entities.append(n)
+
+            # Group residents by similar names (Levenshtein distance <= 2)
+            # Each group is a list of neighbors; we track a representative name for matching
+            groups: List[List[Dict[str, Any]]] = []
+            group_names: List[str] = []  # Representative name for each group
+
+            for n in residents:
+                name = n.get("name", "").strip().lower()
+                if not name:
+                    continue
+
+                # Find if this name matches any existing group
+                matched_group_idx = None
+                for idx, rep_name in enumerate(group_names):
+                    if levenshtein_distance(name, rep_name) <= MAX_DISTANCE:
+                        matched_group_idx = idx
+                        break
+
+                if matched_group_idx is not None:
+                    groups[matched_group_idx].append(n)
+                else:
+                    # Create new group
+                    groups.append([n])
+                    group_names.append(name)
+
+            deduped = []
+            for group in groups:
+                if len(group) == 1:
+                    deduped.append(group[0])
+                    continue
+
+                # Multiple entries with similar names - merge them
+                names_in_group = [e.get("name", "") for e in group]
+                print(f"[DEDUP] Found {len(group)} similar entries: {names_in_group}, merging...")
+
+                # Combine all PINs
+                all_pins = []
+                for entry in group:
+                    pins = entry.get("pins", [])
+                    if isinstance(pins, list):
+                        all_pins.extend(pins)
+                    elif pins:
+                        all_pins.append(pins)
+                # Remove duplicates while preserving order
+                seen_pins = set()
+                unique_pins = []
+                for pin in all_pins:
+                    if pin not in seen_pins:
+                        seen_pins.add(pin)
+                        unique_pins.append(pin)
+
+                # Find entry with highest stance priority (most hostile)
+                def get_stance_priority(entry):
+                    stance = entry.get("noted_stance", "unknown") or "unknown"
+                    return STANCE_PRIORITY.get(stance.lower(), 0)
+
+                winning_entry = max(group, key=get_stance_priority)
+
+                # Find lowest confidence
+                def get_confidence_priority(entry):
+                    conf = entry.get("confidence", "medium") or "medium"
+                    return CONFIDENCE_PRIORITY.get(conf.lower(), 2)
+
+                lowest_conf_entry = min(group, key=get_confidence_priority)
+                lowest_confidence = lowest_conf_entry.get("confidence", "medium")
+
+                # Start with the winning entry (has best stance) and modify
+                merged_entry = winning_entry.copy()
+                merged_entry["pins"] = unique_pins
+                merged_entry["confidence"] = lowest_confidence
+
+                # Combine claims from all entries (they may have different info)
+                all_claims = []
+                for entry in group:
+                    claims = entry.get("claims", "")
+                    if claims and claims not in all_claims:
+                        all_claims.append(claims)
+                if len(all_claims) > 1:
+                    merged_entry["claims"] = " ".join(all_claims)
+
+                print(f"[DEDUP] Merged into '{merged_entry.get('name')}': {len(unique_pins)} PINs, stance={merged_entry.get('noted_stance')}, confidence={lowest_confidence}")
+                deduped.append(merged_entry)
+
+            # Return deduped residents + untouched entities
+            return deduped + entities
+
+        merged = dedupe_neighbors(merged)
+
         # 7) Validate & finalize
         # Helper function to normalize names for matching
         def normalize_for_matching(name):

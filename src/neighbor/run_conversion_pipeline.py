@@ -231,79 +231,6 @@ class NeighborConversionPipeline:
             self.print_error(f"PDF conversion failed with exception: {str(e)}")
             return False
 
-    def run_pdf_combination(self) -> Optional[str]:
-        """Combine individual PDFs into final report"""
-        self.print_step(
-            5, "PDF Combination", "Combining individual PDFs into final report"
-        )
-
-        try:
-            from pypdf import PdfReader, PdfWriter
-            import json
-
-            # Define paths
-            pdf_dir = self.script_dir / "individual_pdf_reports"
-            combined_dir = self.script_dir / "combined_pdf_reports"
-            combined_dir.mkdir(parents=True, exist_ok=True)
-
-            # Load metadata from JSON to construct filename
-            location = None
-            date = None
-            run_id = None
-
-            json_path = self.script_dir / "neighbor_outputs" / "neighbor_final_merged.json"
-            if json_path.exists():
-                try:
-                    with open(json_path) as f:
-                        data = json.load(f)
-                        city = data.get("city", "")
-                        state = data.get("state", "")
-                        location = f"{city}, {state}" if city and state else "Unknown"
-                        date = datetime.now().strftime("%Y-%m-%d")
-                        run_id = data.get("run_id", "")
-                        self.print_success(f"Loaded metadata: {location}, {date}, run_id={run_id[:8]}...")
-                except Exception as e:
-                    self.print_warning(f"Could not load metadata from JSON: {e}")
-
-            # Construct filename: "Location YYYY-MM-DD run_id.pdf"
-            if location and date and run_id:
-                filename = f"{location} {date} {run_id}.pdf"
-            else:
-                timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-                filename = f"neighbor_report_{timestamp}.pdf"
-                self.print_warning(f"Using fallback filename: {filename}")
-
-            final_pdf_path = combined_dir / filename
-
-            # Combine PDFs in order
-            writer = PdfWriter()
-            pdf_files = [
-                "neighbor-title-page-playwright.pdf",
-                "neighbor-parameters-playwright.pdf",
-                "neighbor-deep-dive.pdf"
-            ]
-
-            for pdf_name in pdf_files:
-                pdf_path = pdf_dir / pdf_name
-                if pdf_path.exists():
-                    reader = PdfReader(str(pdf_path))
-                    for page in reader.pages:
-                        writer.add_page(page)
-                    self.print_success(f"Added: {pdf_name}")
-                else:
-                    self.print_warning(f"PDF not found: {pdf_name}")
-
-            # Write the combined PDF
-            with open(final_pdf_path, "wb") as output_file:
-                writer.write(output_file)
-
-            self.print_success(f"Combined PDF saved: {final_pdf_path}")
-            return str(final_pdf_path)
-
-        except Exception as e:
-            self.print_error(f"PDF combination failed with exception: {str(e)}")
-            return None
-
     async def run_pipeline(self) -> Optional[str]:
         """Run the conversion pipeline"""
 
@@ -327,16 +254,15 @@ class NeighborConversionPipeline:
                 self.print_error("Pipeline stopped due to HTML conversion failure")
                 return None
 
-            # Step 4: Convert to PDF
+            # Step 4: Convert to PDF (also combines PDFs)
             if not self.run_pdf_conversion():
                 self.print_error("Pipeline stopped due to PDF conversion failure")
                 return None
 
-            # Step 5: Combine PDFs
-            final_pdf_path = self.run_pdf_combination()
-            if not final_pdf_path:
-                self.print_error("Pipeline stopped due to PDF combination failure")
-                return None
+            # Get the combined PDF path
+            combined_dir = self.script_dir / "combined_pdf_reports"
+            combined_pdfs = list(combined_dir.glob("*.pdf"))
+            final_pdf_path = str(combined_pdfs[0]) if combined_pdfs else None
 
             # Success!
             total_time = (time.time() - self.start_time) / 60
@@ -373,8 +299,8 @@ Examples:
     )
     
     parser.add_argument(
-        "--json-file", "-j", type=str, default="sample_neighbor.json",
-        help="JSON file to convert (default: sample_neighbor.json)"
+        "--json-file", "-j", type=str, default="neighbor_outputs/neighbor_final_merged.json",
+        help="JSON file to convert (default: neighbor_outputs/neighbor_final_merged.json)"
     )
 
     return parser.parse_args()

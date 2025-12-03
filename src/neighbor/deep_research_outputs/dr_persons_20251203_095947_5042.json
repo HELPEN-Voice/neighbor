@@ -1,0 +1,204 @@
+{
+  "timestamp": "2025-12-03T09:59:47.504301",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Berrien County",
+    "state": "MI",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All four profiled neighbors have no clearly documented public stance on development or clean energy. Three appear to have low community influence as private landowners, while one (Jelinek) has moderate influence due to a prominent local family connection.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Aleksi Nakonechny",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0015-07-0",
+        "11-22-2800-0001-02-7",
+        "11-22-2800-0010-00-0",
+        "11-22-2800-0009-00-1",
+        "11-22-2800-0004-01-0",
+        "11-22-2800-0019-00-7",
+        "11-22-0002-0017-00-9",
+        "11-22-0002-0020-01-8",
+        "11-22-2800-0016-03-2",
+        "11-22-0002-0012-02-3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Aleksi Nakonechny is identified in Berrien County property records as a landowner with multiple parcels ([www.berriencounty.org](https://www.berriencounty.org/276/Geographical-Information-Systems-GIS#:~:text=1,current%20and%20historic%20geospatial%20data)). No references in local news, public meeting minutes or civic groups were found that mention him ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowner; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Invite Nakonechny to a one-on-one conversation on his property to understand any concerns. Emphasize listening and respect for his privacy and land use priorities."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Sarah A. Nelson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0015-01-3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sarah A. Nelson owns a parcel in Berrien County, but there is no public information about her community involvement ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)). A search of local records and news media yielded no statements or actions by Nelson regarding development issues ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; low profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally to Nelson in a casual, non-threatening way. Encourage her to share any questions or concerns privately, as she has no known public positions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Michael Thomas Jelinek",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0015-04-8",
+        "11-22-0011-0015-03-0"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael Thomas Jelinek is a local landowner whose surname is associated with a prominent Berrien County political family (former State Sen. Ron Jelinek) ([www.leaderpub.com](https://www.leaderpub.com/2010/10/29/leader-endorses-2010-candidates/#:~:text=Ron%20Jelinek%2C%20R,also%20reached%20his%20term%20limit)). No direct evidence was found of Michael Jelinek engaging in public debate or commentary on development as of the latest records ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Prominent local family name",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a community figure with ties to local farming or the Jelinek family initiate contact. Acknowledge the Jelinek family’s local legacy to build goodwill and invite dialogue about the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Ricky Marsh",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0018-00-4",
+        "11-22-0011-0019-00-1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ricky (Richard) Marsh appears to be part of a long-time Berrien Springs area family; an obituary of Jack L. Marsh (2019) lists a brother, Richard Marsh, residing in Berrien Springs ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=Jack%20Lee%20Marsh%20Nov,telling%20jokes%20and%20sharing%20his)) ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=Jack%20is%20survived%20by%20his,Robert%20Marsh%2C%20and%20Kenneth%20Marsh)). No public statements or official roles for Ricky Marsh were found in local sources ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime local family; no office",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage through a mutual local friend or agricultural extension contact who knows the Marsh family. Emphasize plans to preserve rural character and wildlife habitat, aligning with the family’s appreciation of outdoor life ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=He%20was%20born%20November%2018%2C,Robert%20Marsh%2C%20and%20Kenneth%20Marsh))."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All four profiled neighbors have no clearly documented public stance on development or clean energy. Three appear to have low community influence as private landowners, while one (Jelinek) has moderate influence due to a prominent local family connection.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Aleksi Nakonechny\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0015-07-0\", \"11-22-2800-0001-02-7\", \"11-22-2800-0010-00-0\", \"11-22-2800-0009-00-1\", \"11-22-2800-0004-01-0\", \"11-22-2800-0019-00-7\", \"11-22-0002-0017-00-9\", \"11-22-0002-0020-01-8\", \"11-22-2800-0016-03-2\", \"11-22-0002-0012-02-3\"],\n      \"claims\": \"Aleksi Nakonechny is identified in Berrien County property records as a landowner with multiple parcels ([www.berriencounty.org](https://www.berriencounty.org/276/Geographical-Information-Systems-GIS#:~:text=1,current%20and%20historic%20geospatial%20data)). No references in local news, public meeting minutes or civic groups were found that mention him ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Landowner; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Invite Nakonechny to a one-on-one conversation on his property to understand any concerns. Emphasize listening and respect for his privacy and land use priorities.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Sarah A. Nelson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0015-01-3\"],\n      \"claims\": \"Sarah A. Nelson owns a parcel in Berrien County, but there is no public information about her community involvement ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)). A search of local records and news media yielded no statements or actions by Nelson regarding development issues ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out personally to Nelson in a casual, non-threatening way. Encourage her to share any questions or concerns privately, as she has no known public positions.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Michael Thomas Jelinek\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0015-04-8\", \"11-22-0011-0015-03-0\"],\n      \"claims\": \"Michael Thomas Jelinek is a local landowner whose surname is associated with a prominent Berrien County political family (former State Sen. Ron Jelinek) ([www.leaderpub.com](https://www.leaderpub.com/2010/10/29/leader-endorses-2010-candidates/#:~:text=Ron%20Jelinek%2C%20R,also%20reached%20his%20term%20limit)). No direct evidence was found of Michael Jelinek engaging in public debate or commentary on development as of the latest records ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Prominent local family name\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a community figure with ties to local farming or the Jelinek family initiate contact. Acknowledge the Jelinek family’s local legacy to build goodwill and invite dialogue about the project.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Ricky Marsh\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0018-00-4\", \"11-22-0011-0019-00-1\"],\n      \"claims\": \"Ricky (Richard) Marsh appears to be part of a long-time Berrien Springs area family; an obituary of Jack L. Marsh (2019) lists a brother, Richard Marsh, residing in Berrien Springs ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=Jack%20Lee%20Marsh%20Nov,telling%20jokes%20and%20sharing%20his)) ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=Jack%20is%20survived%20by%20his,Robert%20Marsh%2C%20and%20Kenneth%20Marsh)). No public statements or official roles for Ricky Marsh were found in local sources ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime local family; no office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"wildlife_habitat\", \"heritage_family_legacy\"],\n        \"engage\": \"Engage through a mutual local friend or agricultural extension contact who knows the Marsh family. Emphasize plans to preserve rural character and wildlife habitat, aligning with the family’s appreciation of outdoor life ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=He%20was%20born%20November%2018%2C,Robert%20Marsh%2C%20and%20Kenneth%20Marsh)).\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

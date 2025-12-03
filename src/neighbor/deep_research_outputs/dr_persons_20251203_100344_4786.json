@@ -1,0 +1,219 @@
+{
+  "timestamp": "2025-12-03T10:03:44.478737",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Berrien County",
+    "state": "MI",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these five neighboring landowners have an openly documented stance on the development, leaving all of their positions unknown. In terms of community influence, none hold formal leadership roles; only one neighbor (a long-tenured local family) has medium social influence, while the rest appear to have low profiles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Joseph A. Briggs & Marie C. Briggs",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0010-0001-00-6",
+        "11-22-0010-0001-01-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph A. Briggs (age 60) and his wife Marie relocated to their current home in rural Buchanan, MI, from out-of-state around 2018 ([besthistorysites.net](https://besthistorysites.net/name/joseph-briggs#:~:text=Joseph%20A%20Briggs%20is%20sixty,touch%20with%20Joseph%20A%20Briggs)). Neither of the Briggs are recorded as holding any local public offices or voicing opinions on development issues in the community ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New to area; no civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "As relatively new residents, a personal introduction by a trusted local figure (such as a well-regarded neighboring farmer or township official) is advisable to build rapport and share project information in a low-key, neighborly manner."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Vicki Hauch",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0010-0013-01-2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Vicki Hauch has deep roots in the township, having married her late husband James there in 1964 and shared 56 years together ([www.pikefh.com](https://www.pikefh.com/obituaries/james-hauch#:~:text=James%20was%20born%20September%2028%2C,James%20will%20be%20remembered%20as)). James Hauch was a lifelong local who ran a machine service business and volunteered with the Weesaw Township Fire Department for 30 years ([www.pikefh.com](https://www.pikefh.com/obituaries/james-hauch#:~:text=shared%2056%20years%20together,Fire%20Department%20for%2030%20years)), underscoring the family’s long-standing community presence.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Fire dept family; decades in community",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected community member (for example, a retired firefighter or American Legion colleague) reach out to Mrs. Hauch, acknowledging her family’s decades of local service and emphasizing how the project will respect and benefit the community’s heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aleski Nakonechny",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0025-01-0",
+        "11-22-0011-0028-00-0"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Aleski Nakonechny is a private landowner in the township with minimal public profile. Beyond being listed in county land records, his name does not appear in local news reports or civic documents, suggesting he has not been publicly active in community or development matters ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)) ([www.yumpu.com](https://www.yumpu.com/en/document/view/42360172/berrien-county-michigan-returns-of-deaths-1910-1919-note-most-#:~:text=...W.%20Niles%20City%202%2F21%2F1913%20,9%20and%2010%3A%20Bliss%2C%20Susan)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Mr. Nakonechny stays out of local spotlight, a low-key approach by a neutral township representative is recommended – for instance, providing him with straightforward information and an invitation to discuss any questions one-on-one."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Ryan Vanderveen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0011-0029-04-9"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ryan Vanderveen is identified as a landowner in Weesaw Township but has no evident public presence in local affairs. His name does not show up in township board listings or local media coverage, indicating no noted community positions or stated views on development proposals ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known community roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A direct, personal outreach would be appropriate for Mr. Vanderveen. Having a neighboring farmer or community peer introduce the project in a casual, conversational way could encourage him to share any concerns in a comfortable setting."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Melvin D. Brewster & Katherine Marie Brewster",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-22-0002-0005-07-8"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Melvin and Katherine Brewster jointly own land in the township but maintain a very low public profile. A search of available records and local news found no indication of the Brewsters participating in community meetings or making any public comments regarding development or energy projects ([genealogytrails.com](https://genealogytrails.com/mich/berrien/1871directorypt2.html#:~:text=Free%20Family%20Records%20for%20Researching,Source%3A%20Berrien%20County%2C%20Michigan)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic engagement noted",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach to the Brewsters should be approached person-to-person. It may be effective to have a trusted neighbor or agricultural community contact initiate the conversation, focusing on practical topics like how the project will address land use concerns and protect property interests."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these five neighboring landowners have an openly documented stance on the development, leaving all of their positions unknown. In terms of community influence, none hold formal leadership roles; only one neighbor (a long-tenured local family) has medium social influence, while the rest appear to have low profiles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Joseph A. Briggs & Marie C. Briggs\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0010-0001-00-6\", \"11-22-0010-0001-01-4\"],\n      \"claims\": \"Joseph A. Briggs (age 60) and his wife Marie relocated to their current home in rural Buchanan, MI, from out-of-state around 2018 ([besthistorysites.net](https://besthistorysites.net/name/joseph-briggs#:~:text=Joseph%20A%20Briggs%20is%20sixty,touch%20with%20Joseph%20A%20Briggs)). Neither of the Briggs are recorded as holding any local public offices or voicing opinions on development issues in the community ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"New to area; no civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"As relatively new residents, a personal introduction by a trusted local figure (such as a well-regarded neighboring farmer or township official) is advisable to build rapport and share project information in a low-key, neighborly manner.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Vicki Hauch\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0010-0013-01-2\"],\n      \"claims\": \"Vicki Hauch has deep roots in the township, having married her late husband James there in 1964 and shared 56 years together ([www.pikefh.com](https://www.pikefh.com/obituaries/james-hauch#:~:text=James%20was%20born%20September%2028%2C,James%20will%20be%20remembered%20as)). James Hauch was a lifelong local who ran a machine service business and volunteered with the Weesaw Township Fire Department for 30 years ([www.pikefh.com](https://www.pikefh.com/obituaries/james-hauch#:~:text=shared%2056%20years%20together,Fire%20Department%20for%2030%20years)), underscoring the family’s long-standing community presence.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Fire dept family; decades in community\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Have a respected community member (for example, a retired firefighter or American Legion colleague) reach out to Mrs. Hauch, acknowledging her family’s decades of local service and emphasizing how the project will respect and benefit the community’s heritage.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Aleski Nakonechny\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0025-01-0\", \"11-22-0011-0028-00-0\"],\n      \"claims\": \"Aleski Nakonechny is a private landowner in the township with minimal public profile. Beyond being listed in county land records, his name does not appear in local news reports or civic documents, suggesting he has not been publicly active in community or development matters ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)) ([www.yumpu.com](https://www.yumpu.com/en/document/view/42360172/berrien-county-michigan-returns-of-deaths-1910-1919-note-most-#:~:text=...W.%20Niles%20City%202%2F21%2F1913%20,9%20and%2010%3A%20Bliss%2C%20Susan)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Since Mr. Nakonechny stays out of local spotlight, a low-key approach by a neutral township representative is recommended – for instance, providing him with straightforward information and an invitation to discuss any questions one-on-one.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Ryan Vanderveen\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0011-0029-04-9\"],\n      \"claims\": \"Ryan Vanderveen is identified as a landowner in Weesaw Township but has no evident public presence in local affairs. His name does not show up in township board listings or local media coverage, indicating no noted community positions or stated views on development proposals ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known community roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"A direct, personal outreach would be appropriate for Mr. Vanderveen. Having a neighboring farmer or community peer introduce the project in a casual, conversational way could encourage him to share any concerns in a comfortable setting.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Melvin D. Brewster & Katherine Marie Brewster\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-22-0002-0005-07-8\"],\n      \"claims\": \"Melvin and Katherine Brewster jointly own land in the township but maintain a very low public profile. A search of available records and local news found no indication of the Brewsters participating in community meetings or making any public comments regarding development or energy projects ([genealogytrails.com](https://genealogytrails.com/mich/berrien/1871directorypt2.html#:~:text=Free%20Family%20Records%20for%20Researching,Source%3A%20Berrien%20County%2C%20Michigan)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic engagement noted\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Outreach to the Brewsters should be approached person-to-person. It may be effective to have a trusted neighbor or agricultural community contact initiate the conversation, focusing on practical topics like how the project will address land use concerns and protect property interests.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -1,0 +1,229 @@
+{
+  "timestamp": "2025-12-03T10:01:03.721370",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Berrien County",
+    "state": "MI",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring entities include a major electric utility, a local contractor, and several private landholding organizations. Indiana Michigan Power (a subsidiary of AEP) holds significant influence locally and is likely neutral or supportive of development that aligns with grid or generation interests. The others – a small excavating firm, a family trust, and two modest companies holding land – have limited public profiles and appear driven mainly by personal or financial interests (e.g., land value, potential contract work or sale), rather than coordinated ideological opposition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Indiana Michigan Power Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-22-0011-0015-06-0",
+        "11-22-0011-0030-01-2",
+        "11-22-0011-0029-01-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Indiana Michigan Power Company (I&M) is an Indiana corporation organized in 1925 and is a wholly owned subsidiary of American Electric Power (AEP) ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,of%20electric%20power%20to%20approximately)) ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,2)). I&M serves approximately 582,000 customers in Indiana and southwest Michigan, engaging in the generation, transmission, and distribution of electricity ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,2)). The company operates the D.C. Cook Nuclear Plant on the Lake Michigan shoreline in Bridgman, Berrien County ([www.cookinfo.com](https://www.cookinfo.com/About.aspx#:~:text=The%20Donald%20C,power%2C%20both%20reactors%20produce%20a)). In 2024, AEP and local authorities agreed on a reduced tax valuation for the Cook plant, which cut Bridgman’s annual tax revenue by about $1.2 million ([www.leaderpub.com](https://www.leaderpub.com/2025/03/28/berrien-county-commissioners-discuss-cook-nuclear-plant/#:~:text=Dissette%20didn%E2%80%99t%20give%20specifics%20about,making%20cuts%20because%20of%20that)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Operates county’s nuclear plant (major employer and taxpayer); part of large utility (AEP); strong regulatory and political presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with I&M’s leadership (e.g., President Steve Baker) or government affairs team; emphasize how the project complements grid plans and local economic benefits to ensure a collaborative stance"
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Burkholder Excavating Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-22-0011-0016-01-0"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Burkholder Excavating, Inc. is a Michigan corporation that began operations in 1992 ([www.bbb.org](https://www.bbb.org/us/mi/sawyer/profile/excavating-contractors/burkholder-excavating-inc-0372-13004452#:~:text=BBB%20File%20Opened%3A%202%2F6%2F2007)). It is a local family-run excavation contracting business based in Sawyer, Michigan ([business.harborcountry.org](https://business.harborcountry.org/list/member/burkholder-excavating-55#:~:text=,4227)) ([business.harborcountry.org](https://business.harborcountry.org/list/member/burkholder-excavating-55#:~:text=About%20Us)). The company’s President is Scott Burkholder, with Wilma Burkholder serving as Office Manager ([www.bbb.org](https://www.bbb.org/us/mi/sawyer/profile/excavating-contractors/burkholder-excavating-inc-0372-13004452#:~:text=Additional%20Contact%20Information)). No significant political contributions or public disputes involving this company were found, suggesting its community profile is limited to providing excavation and site work services.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small family business; limited land holdings and no notable political activity; primarily known through local contracting work",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owner Scott Burkholder directly; underline potential subcontracting or site-preparation work the project could offer to secure goodwill and support"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mensinger Harold Herbert & Mensinger Dora Ann Rev Liv Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "11-22-0002-0005-09-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Personal family trust with private land; no public corporate presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A (handled as residential landowner)"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Geiger Building Services LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-22-0002-0005-00-1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Geiger Building Services LLC is a Michigan limited liability company, but it has a minimal public footprint (no listings in local business directories or BBB) ([www.angi.com](https://www.angi.com/companylist/us/mi/berrien-center/subcontractors.htm#:~:text=No%20,geiger)). Its name suggests involvement in construction or property development services, though no corporate filings or official details on its members were readily found. The company appears to hold at least one parcel in Berrien County (PIN 11-22-0002-0005-00-1), indicating it may own land potentially for future development or investment. No recorded political contributions or public statements from this LLC were identified in available sources.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private LLC; little known publicly; likely limited to its immediate property interests",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the LLC’s principal discreetly to learn their plans for the property; if they are holding for development or sale, consider collaborative planning or a buyout to align interests and prevent opposition"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Teifke Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-22-0002-0005-02-7"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Teifke Inc. is a Michigan corporation, likely family-owned, with a very limited public profile (no online business listings or websites). The Teifke family is known to reside in the area of Buchanan, Berrien County ([obituary.memorial](https://obituary.memorial/en/obituary/richard-allen-teifke-1964-5-20-2020-12-15-1552541#:~:text=Our%20deepest%20condolences%20to%20Richard,MI)), suggesting this entity may be related to family land or agricultural holdings. There are no public records of business activity, political donations, or development projects connected to Teifke Inc. in the available sources. The corporation’s primary relevance appears to be as a landowner of record for parcel 11-22-0002-0005-02-7, presumably for personal or investment purposes.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private family corporation holding land; not a prominent business or political player; influence limited to their property",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Teifke family through a respectful, personal approach; emphasize how the project can coexist with or benefit their land interests, and be prepared to offer fair compensation or assurances to mitigate any concerns"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring entities include a major electric utility, a local contractor, and several private landholding organizations. Indiana Michigan Power (a subsidiary of AEP) holds significant influence locally and is likely neutral or supportive of development that aligns with grid or generation interests. The others – a small excavating firm, a family trust, and two modest companies holding land – have limited public profiles and appear driven mainly by personal or financial interests (e.g., land value, potential contract work or sale), rather than coordinated ideological opposition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Indiana Michigan Power Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-22-0011-0015-06-0\", \"11-22-0011-0030-01-2\", \"11-22-0011-0029-01-4\"],\n      \"claims\": \"Indiana Michigan Power Company (I&M) is an Indiana corporation organized in 1925 and is a wholly owned subsidiary of American Electric Power (AEP) ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,of%20electric%20power%20to%20approximately)) ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,2)). I&M serves approximately 582,000 customers in Indiana and southwest Michigan, engaging in the generation, transmission, and distribution of electricity ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,2)). The company operates the D.C. Cook Nuclear Plant on the Lake Michigan shoreline in Bridgman, Berrien County ([www.cookinfo.com](https://www.cookinfo.com/About.aspx#:~:text=The%20Donald%20C,power%2C%20both%20reactors%20produce%20a)). In 2024, AEP and local authorities agreed on a reduced tax valuation for the Cook plant, which cut Bridgman’s annual tax revenue by about $1.2 million ([www.leaderpub.com](https://www.leaderpub.com/2025/03/28/berrien-county-commissioners-discuss-cook-nuclear-plant/#:~:text=Dissette%20didn%E2%80%99t%20give%20specifics%20about,making%20cuts%20because%20of%20that)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Operates county’s nuclear plant (major employer and taxpayer); part of large utility (AEP); strong regulatory and political presence\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Grid reliability and expansion\", \"Protecting generation assets\", \"Regulatory compliance\"],\n      \"approach_recommendations\": \"Coordinate with I&M’s leadership (e.g., President Steve Baker) or government affairs team; emphasize how the project complements grid plans and local economic benefits to ensure a collaborative stance\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Burkholder Excavating Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-22-0011-0016-01-0\"],\n      \"claims\": \"Burkholder Excavating, Inc. is a Michigan corporation that began operations in 1992 ([www.bbb.org](https://www.bbb.org/us/mi/sawyer/profile/excavating-contractors/burkholder-excavating-inc-0372-13004452#:~:text=BBB%20File%20Opened%3A%202%2F6%2F2007)). It is a local family-run excavation contracting business based in Sawyer, Michigan ([business.harborcountry.org](https://business.harborcountry.org/list/member/burkholder-excavating-55#:~:text=,4227)) ([business.harborcountry.org](https://business.harborcountry.org/list/member/burkholder-excavating-55#:~:text=About%20Us)). The company’s President is Scott Burkholder, with Wilma Burkholder serving as Office Manager ([www.bbb.org](https://www.bbb.org/us/mi/sawyer/profile/excavating-contractors/burkholder-excavating-inc-0372-13004452#:~:text=Additional%20Contact%20Information)). No significant political contributions or public disputes involving this company were found, suggesting its community profile is limited to providing excavation and site work services.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small family business; limited land holdings and no notable political activity; primarily known through local contracting work\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Contract opportunities from new development\", \"General local economic interest\"],\n      \"approach_recommendations\": \"Engage owner Scott Burkholder directly; underline potential subcontracting or site-preparation work the project could offer to secure goodwill and support\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Mensinger Harold Herbert & Mensinger Dora Ann Rev Liv Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"11-22-0002-0005-09-4\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Personal family trust with private land; no public corporate presence\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Unknown\"],\n      \"approach_recommendations\": \"N/A (handled as residential landowner)\",\n      \"confidence\": \"unknown\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Geiger Building Services LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"11-22-0002-0005-00-1\"],\n      \"claims\": \"Geiger Building Services LLC is a Michigan limited liability company, but it has a minimal public footprint (no listings in local business directories or BBB) ([www.angi.com](https://www.angi.com/companylist/us/mi/berrien-center/subcontractors.htm#:~:text=No%20,geiger)). Its name suggests involvement in construction or property development services, though no corporate filings or official details on its members were readily found. The company appears to hold at least one parcel in Berrien County (PIN 11-22-0002-0005-00-1), indicating it may own land potentially for future development or investment. No recorded political contributions or public statements from this LLC were identified in available sources.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private LLC; little known publicly; likely limited to its immediate property interests\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Future development plans\"],\n      \"approach_recommendations\": \"Approach the LLC’s principal discreetly to learn their plans for the property; if they are holding for development or sale, consider collaborative planning or a buyout to align interests and prevent opposition\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Teifke Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-22-0002-0005-02-7\"],\n      \"claims\": \"Teifke Inc. is a Michigan corporation, likely family-owned, with a very limited public profile (no online business listings or websites). The Teifke family is known to reside in the area of Buchanan, Berrien County ([obituary.memorial](https://obituary.memorial/en/obituary/richard-allen-teifke-1964-5-20-2020-12-15-1552541#:~:text=Our%20deepest%20condolences%20to%20Richard,MI)), suggesting this entity may be related to family land or agricultural holdings. There are no public records of business activity, political donations, or development projects connected to Teifke Inc. in the available sources. The corporation’s primary relevance appears to be as a landowner of record for parcel 11-22-0002-0005-02-7, presumably for personal or investment purposes.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private family corporation holding land; not a prominent business or political player; influence limited to their property\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of family land value\", \"Financial consideration for land sale or lease\"],\n      \"approach_recommendations\": \"Engage the Teifke family through a respectful, personal approach; emphasize how the project can coexist with or benefit their land interests, and be prepared to offer fair compensation or assurances to mitigate any concerns\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
