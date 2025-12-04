@@ -2,171 +2,34 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Aleksi Nakonechny",
+      "name": "Andy F Bensend",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0011-0015-07-0",
-        "11-22-2800-0001-02-7",
-        "11-22-2800-0010-00-0",
-        "11-22-2800-0009-00-1",
-        "11-22-2800-0004-01-0",
-        "11-22-2800-0019-00-7",
-        "11-22-0002-0017-00-9",
-        "11-22-0002-0020-01-8",
-        "11-22-2800-0016-03-2",
-        "11-22-0002-0012-02-3",
-        "11-22-0011-0025-01-0",
-        "11-22-0011-0028-00-0",
-        "11-22-2800-0003-00-3",
-        "11-22-0002-0015-00-6"
+        "020200001000",
+        "020270018010",
+        "020270021000",
+        "020220012010",
+        "020230007001",
+        "020270015000",
+        "020220015000",
+        "020200004000",
+        "020270017000",
+        "020210005000",
+        "020270020000"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Aleksi Nakonechny is identified in Berrien County property records as a landowner with multiple parcels ([www.berriencounty.org](https://www.berriencounty.org/276/Geographical-Information-Systems-GIS#:~:text=1,current%20and%20historic%20geospatial%20data)). No references in local news, public meeting minutes or civic groups were found that mention him ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Andy F. Bensend operates over 4,000 acres of corn and soybeans in Barron County, using no-till and other sustainable practices and running a custom farming and agronomy business ([www.morningagclips.com](https://www.morningagclips.com/wis-farmer-wins-conservation-award/#:~:text=Over%20the%20years%2C%20Bensend%20has,agronomy%20and%20nutrient%20management%20planning)). He serves as vice-president of the Wisconsin Soybean Marketing Board and often hosts field days to share conservation techniques with fellow farmers ([wisoybean.org](https://wisoybean.org/bean-bros-wisconsin-soy-growers-bridge-generations/#:~:text=young%20employee%20learning%20from%20Bensend,currently%20serves%20as%20vice%20president)) ([www.farmprogress.com](https://www.farmprogress.com/conservation-and-sustainability/sharing-soil-success#:~:text=Image%3A%20Wisconsin_20farmer3png,this%20approach%20by%20demonstrating%20them)). Bensend was honored with the American Soybean Association’s 2017 National Conservation Legacy Award for his leadership in sustainable farming ([www.morningagclips.com](https://www.morningagclips.com/wis-farmer-wins-conservation-award/#:~:text=The%20American%20Soybean%20Association%20,Courtesy%20of%20American%20Soybean%20Association)).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Landowner; no public roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Invite Nakonechny to a one-on-one conversation on his property to understand any concerns. Emphasize listening and respect for his privacy and land use priorities."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Sarah A. Nelson",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0015-01-3"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Sarah A. Nelson owns a parcel in Berrien County, but there is no public information about her community involvement ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)). A search of local records and news media yielded no statements or actions by Nelson regarding development issues ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private resident; low profile",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out personally to Nelson in a casual, non-threatening way. Encourage her to share any questions or concerns privately, as she has no known public positions."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Michael Thomas Jelinek",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0015-04-8",
-        "11-22-0011-0015-03-0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Michael Thomas Jelinek is a local landowner whose surname is associated with a prominent Berrien County political family (former State Sen. Ron Jelinek) ([www.leaderpub.com](https://www.leaderpub.com/2010/10/29/leader-endorses-2010-candidates/#:~:text=Ron%20Jelinek%2C%20R,also%20reached%20his%20term%20limit)). No direct evidence was found of Michael Jelinek engaging in public debate or commentary on development as of the latest records ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Prominent local family name",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a community figure with ties to local farming or the Jelinek family initiate contact. Acknowledge the Jelinek family’s local legacy to build goodwill and invite dialogue about the project."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Ricky Marsh",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0018-00-4",
-        "11-22-0011-0019-00-1"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ricky (Richard) Marsh appears to be part of a long-time Berrien Springs area family; an obituary of Jack L. Marsh (2019) lists a brother, Richard Marsh, residing in Berrien Springs ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=Jack%20Lee%20Marsh%20Nov,telling%20jokes%20and%20sharing%20his)) ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=Jack%20is%20survived%20by%20his,Robert%20Marsh%2C%20and%20Kenneth%20Marsh)). No public statements or official roles for Ricky Marsh were found in local sources ([www.leaderpub.com](https://www.leaderpub.com/2017/01/20/berrien-county-boc-approve-night-meetings/#:~:text=Berrien%20County%20BOC%20approve%20night,April%206)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime local family; no office",
+      "community_influence": "High",
+      "influence_justification": "State ag leader; large farm operator",
       "approach_recommendations": {
         "motivations": [
-          "wildlife_habitat",
-          "heritage_family_legacy"
+          "farmland_preservation",
+          "groundwater_runoff"
         ],
-        "engage": "Engage through a mutual local friend or agricultural extension contact who knows the Marsh family. Emphasize plans to preserve rural character and wildlife habitat, aligning with the family’s appreciation of outdoor life ([www.legacy.com](https://www.legacy.com/us/obituaries/southbendtribune/name/jack-marsh-obituary?id=10848534#:~:text=He%20was%20born%20November%2018%2C,Robert%20Marsh%2C%20and%20Kenneth%20Marsh))."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Kent E. Stroud",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0014-08-0"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Kent E. Stroud, 61, is a longtime Buchanan-area resident who lives on a 1.81-acre homestead on Cleveland Avenue ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/kent-stroud/#:~:text=Kent%20Stroud%E2%80%99s%20birthday%20is%20on,are%20related%20to%20this%20person)) ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). His property was created in January 2023 by splitting it from a larger farm parcel in Weesaw Township ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). No public records show Stroud taking any active role or stance in local development issues as of this date ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,stroud)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private resident; no public office",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a friendly, one-on-one outreach. Emphasize respect for his quiet rural lifestyle and reassure him the project won’t disrupt the peace of his home."
+        "engage": "Have a peer farmer or conservation specialist approach Bensend, highlighting aspects of the project that preserve soil health and water quality."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -185,21 +48,21 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Robby Dushuanack",
+      "name": "Carl & Madisen Hagen",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0011-0030-00-4"
+        "020270018000"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Robby Dushuanack owns a substantial farm parcel in Section 11 of the township ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). In January 2023, a 1.8-acre portion of Dushuanack’s land was split off and sold to create a neighboring residential lot (the Stroud property) ([propertynavigator.attomdata.com](https://propertynavigator.attomdata.com/property-reports/13085-cleveland-ave-buchanan-mi-49107/336837964/#:~:text=%2A%20Parcel%20ID%2022,Year%20built%201975)). There are no mentions of Dushuanack in local meeting records or media, indicating he has not publicly voiced opinions on development proposals ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,dushuanack)).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Carl and Madisen Hagen jointly own a rural parcel in Barron County but maintain a very low public profile ([www.barroncountywi.gov](https://www.barroncountywi.gov/index.asp?SEC=D8CFD154-5CE4-4DE3-A2EC-CAC2E08FBDB6#:~:text=View%20,Schedule%20of%20Meetings)). No references to the Hagens were found in local meeting records or news, suggesting they have not publicly voiced any stance on development ([www.barroncountywi.gov](https://www.barroncountywi.gov/index.asp?SEC=D8CFD154-5CE4-4DE3-A2EC-CAC2E08FBDB6#:~:text=View%20,Schedule%20of%20Meetings)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Large farm owner; low public profile",
+      "influence_justification": "Private residents; no public profile",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage via an agriculture-savvy contact. Emphasize minimal impact on his farming operations (e.g., crop, drainage) and respect his control over his land."
+        "engage": "Approach personally and informally to build rapport; listen to their questions and provide straightforward information, since they have no known stance yet."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -218,22 +81,25 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "James L. McClellan",
+      "name": "Steven J Bensend",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0010-0013-05-5",
-        "11-22-0010-0013-12-8"
+        "020270013000",
+        "020270011000",
+        "020270002000",
+        "020270015010",
+        "020270004000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "James L. McClellan is listed as the owner of two land parcels in Section 13 of Weesaw Township (per county parcel records) ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)). He does not appear in any available township minutes or local news, suggesting no notable public role or stated position on area development ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)).",
+      "claims": "Steven J. Bensend is Andy Bensend’s brother and a co-owner of the family land in Barron County, though he resides in Prescott, Wisconsin, outside the area ([drydenwire.com](https://drydenwire.com/obituaries/donna-l-bensend/#:~:text=She%20is%20survived%20by%20sons%2C,Hill%2C%20and%20Jordan%20McDonald)). He has been involved as an alumni advisor for an agricultural fraternity at UW–River Falls, but he holds no known roles in Barron County civic affairs ([wisoybean.org](https://wisoybean.org/bean-bros-wisconsin-soy-growers-bridge-generations/#:~:text=Bensend%E2%80%99s%20brother%2C%20Steven%2C%20is%20the,shared%20a%20lot%20of%20commonalities)) ([drydenwire.com](https://drydenwire.com/obituaries/donna-l-bensend/#:~:text=She%20is%20survived%20by%20sons%2C,Hill%2C%20and%20Jordan%20McDonald)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Landowner; no public civic role",
+      "influence_justification": "Non-resident landowner; minimal local role",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach him with direct, respectful communication. A personal visit that acknowledges his property rights and answers any questions privately is advisable."
+        "engage": "Engage via his brother Andy or another trusted local peer; emphasize respect for their family’s farm legacy and keep him updated as an absentee owner."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -252,23 +118,24 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Scott Larson",
+      "name": "Darleen P Vergin",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0010-0013-04-7",
-        "11-22-0010-0013-06-3",
-        "11-22-0010-0013-11-0"
+        "020270023000",
+        "020270025000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Scott Larson holds at least three adjacent parcels of land in Section 13 ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)). There is no record of Larson serving in local government or making public comments on development or energy projects ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=No%20,james)), indicating a low public profile in community affairs.",
+      "claims": "Darleen P. Vergin is an older landowner rooted in a family that has farmed near Dallas, Wisconsin for generations ([drydenwire.com](https://drydenwire.com/obituaries/ronald-vergin/#:~:text=He%20was%20born%20July%2030%2C,to%20his%20cabin%2Fhome%20in%20Barnes)). She has no recorded involvement in local government or media discussions, indicating an absence of public stance on development issues ([www.barroncountywi.gov](https://www.barroncountywi.gov/index.asp?SEC=D8CFD154-5CE4-4DE3-A2EC-CAC2E08FBDB6#:~:text=View%20,Schedule%20of%20Meetings)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Owns acreage; not publicly active",
+      "influence_justification": "Retired farm family; longstanding resident",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Provide straightforward information and assure him the project will not negatively affect his property’s value or use. A face-to-face meeting to address any personal concerns can help build trust."
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach gently through a familiar community member; emphasize respect for her family’s land legacy and reassure that the project will not disrupt the area’s rural character."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -287,25 +154,107 @@
     },
     {
       "neighbor_id": "N-05",
-      "name": "David K. Zech & Leslie M. Zech",
+      "name": "Gregory W Thompson",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0010-0013-07-1",
-        "11-22-0010-0013-14-4"
+        "020340005000",
+        "020350015000",
+        "020350009000",
+        "020350010000",
+        "020260018000",
+        "020260015010",
+        "020350004000",
+        "020340004000",
+        "020350014000",
+        "1704423112022100001",
+        "020340003000",
+        "020350011000",
+        "020350013000",
+        "020350012000",
+        "1704423112022200001",
+        "1704423112022200002",
+        "1704423112021200001",
+        "1704423112022400001",
+        "020340002000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "David K. and Leslie M. Zech jointly own two parcels of land in Section 13 ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)). The Zech family has deep roots in local agriculture – for example, the late Kenneth L. Zech (a likely relative) was a lifelong grape farmer in the Buchanan area ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)). Neither David nor Leslie has publicly taken a stance on development proposals, and no civic positions for them were found in public records ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/kenneth-zech-obituary?pid=139765035&v=batesville#:~:text=Amanda%20%28Gaul%29%20Zech,loving%20wife%2C%20Betty%2C%20one%20daughter)).",
+      "claims": "Gregory W. Thompson holds numerous land parcels in Barron County, but unlike other Thompson family members long established in the Dallas area, he does not appear in local civic records or news outlets ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=55005&page=5&progcode=total_cr#:~:text=109%20%20,%2414%2C152)) ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=Kearney%20Nell%20Thompson%20%20,09%2F18%2F2020)). His public profile is minimal, with no documented statements on development or community issues ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=Kearney%20Nell%20Thompson%20%20,09%2F18%2F2020)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Fruit growers; longstanding local family",
+      "influence_justification": "Major acreage owner; low public engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage directly with clear, businesslike communication; address any contractual or land-use questions he may have, as he tends to keep a low profile."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Alan P. & Julie K. Amundson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020330003000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Alan P. Amundson (born 1931) passed away in early 2018 ([www.legacy.com](https://www.legacy.com/us/obituaries/legacyremembers/name-obituary?pid=188120832#:~:text=Alan%20Amundson%20Obituary%20%281931%20,Alan%20was%20born)). Neither Alan nor Julie is mentioned in available town or county records as holding any public role or activism in local affairs ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=Darla%20Susan%20Amundson%20%20,09%2F18%2F2020)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Maintain a respectful, personal approach (possibly via family contacts), given their low public involvement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Peter D. & Sarah M. Etlicher",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020280004010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Etlicher family has farmed in Barron County for decades—Marlyn W. Etlicher (1942–2021) ran a dairy farm near Barron for 42 years ([drydenwire.com](https://drydenwire.com/obituaries/marlyn-etlicher/#:~:text=Almena,for%2059%20lovely%20years)). No public statements or offices held by Peter or Sarah Etlicher were found in local news or records ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=No%20,etlicher)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Farming family, no public office",
       "approach_recommendations": {
         "motivations": [
-          "heritage_family_legacy",
           "farmland_preservation"
         ],
-        "engage": "Engage through local farm community networks (e.g. fellow growers). Emphasize how the project can coexist with and even support the long-term legacy of their family farm."
+        "engage": "Approach through agricultural community connections and stress how project plans respect farming land and livelihoods."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -323,58 +272,26 @@
       "citations": null
     },
     {
-      "neighbor_id": "N-01",
-      "name": "Joseph A. Briggs & Marie C. Briggs",
+      "neighbor_id": "N-03",
+      "name": "Lee Ann Wirth",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0010-0001-00-6",
-        "11-22-0010-0001-01-4"
+        "1704423112022200003",
+        "020330016010",
+        "020330004010"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Joseph A. Briggs (age 60) and his wife Marie relocated to their current home in rural Buchanan, MI, from out-of-state around 2018 ([besthistorysites.net](https://besthistorysites.net/name/joseph-briggs#:~:text=Joseph%20A%20Briggs%20is%20sixty,touch%20with%20Joseph%20A%20Briggs)). Neither of the Briggs are recorded as holding any local public offices or voicing opinions on development issues in the community ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)).",
+      "claims": "The Wirths are a longstanding local family: the late DeWayne E. Wirth (1942–2022) of Prairie Farm raised a family in the area, including a son residing in Dallas, WI ([www.legacy.com](https://www.legacy.com/us/obituaries/leadertelegram/name/dewayne-wirth-obituary?id=36623260#:~:text=match%20at%20L68%20DeWayne%20is,laws%3A%20Bonnie%20%28Paul%29%20Krahenbuhl%20of)). There is no indication that Lee Ann Wirth has taken any public stance or role in local development issues (her name is absent from accessible civic records) ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=No%20,wirth)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "New to area; no civic role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "As relatively new residents, a personal introduction by a trusted local figure (such as a well-regarded neighboring farmer or township official) is advisable to build rapport and share project information in a low-key, neighborly manner."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Vicki Hauch",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0010-0013-01-2"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Vicki Hauch has deep roots in the township, having married her late husband James there in 1964 and shared 56 years together ([www.pikefh.com](https://www.pikefh.com/obituaries/james-hauch#:~:text=James%20was%20born%20September%2028%2C,James%20will%20be%20remembered%20as)). James Hauch was a lifelong local who ran a machine service business and volunteered with the Weesaw Township Fire Department for 30 years ([www.pikefh.com](https://www.pikefh.com/obituaries/james-hauch#:~:text=shared%2056%20years%20together,Fire%20Department%20for%2030%20years)), underscoring the family’s long-standing community presence.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Fire dept family; decades in community",
+      "influence_justification": "Longtime local family, no official role",
       "approach_recommendations": {
         "motivations": [
-          "heritage_family_legacy"
+          "farmland_preservation"
         ],
-        "engage": "Have a respected community member (for example, a retired firefighter or American Legion colleague) reach out to Mrs. Hauch, acknowledging her family’s decades of local service and emphasizing how the project will respect and benefit the community’s heritage."
+        "engage": "Engage via trusted community members or family friends, emphasizing respect for rural character and farmland continuity."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -393,188 +310,33 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Ryan Vanderveen",
+      "name": "Richard W. Lentz",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0011-0029-04-9"
+        "020210018000",
+        "020280010000",
+        "020280008000",
+        "020210015010",
+        "020220014000",
+        "020210013000",
+        "020210014000",
+        "020290024000",
+        "020280009000",
+        "020280012000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Ryan Vanderveen is identified as a landowner in Weesaw Township but has no evident public presence in local affairs. His name does not show up in township board listings or local media coverage, indicating no noted community positions or stated views on development proposals ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Board%20,Tackitt%20Trustees%3A%20Arthur%20King%20Robert)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known community roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "A direct, personal outreach would be appropriate for Mr. Vanderveen. Having a neighboring farmer or community peer introduce the project in a casual, conversational way could encourage him to share any concerns in a comfortable setting."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Melvin D. Brewster & Katherine Marie Brewster",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0002-0005-07-8"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Melvin and Katherine Brewster jointly own land in the township but maintain a very low public profile. A search of available records and local news found no indication of the Brewsters participating in community meetings or making any public comments regarding development or energy projects ([genealogytrails.com](https://genealogytrails.com/mich/berrien/1871directorypt2.html#:~:text=Free%20Family%20Records%20for%20Researching,Source%3A%20Berrien%20County%2C%20Michigan)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No civic engagement noted",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Outreach to the Brewsters should be approached person-to-person. It may be effective to have a trusted neighbor or agricultural community contact initiate the conversation, focusing on practical topics like how the project will address land use concerns and protect property interests."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Albert and Donnarae Wines",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0029-03-1",
-        "11-22-0011-0024-00-4"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Albert and Donnarae Wines jointly own two parcels of land in Berrien County, Michigan ([www.berriencounty.org](https://www.berriencounty.org/877/Property-Tax-Tools?PREVIEW=YES#:~:text=1,Property%20Tax%20Estimator)). No record of either Albert or Donnarae taking part in local government meetings or making public comments on development was found ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Administration)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowners; no public roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a trusted local acquaintance introduce the project, emphasizing respect for their land and reassuring that the development won’t disrupt their way of life. Personal outreach through a neighborly conversation may resonate given their low public profile."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Edward E. Weaver Sr.",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0027-00-3"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Edward E. Weaver Sr. is identified as the owner of a parcel in Berrien County (PIN 11-22-0011-0027-00-3) according to county land records ([www.berriencounty.org](https://www.berriencounty.org/877/Property-Tax-Tools?PREVIEW=YES#:~:text=1,Property%20Tax%20Estimator)). His name does not appear in township board listings or local news, indicating no noted civic position or public stance on development ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Administration)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Retired resident; limited public visibility",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage Mr. Weaver through a one-on-one conversation, possibly via a long-time community member he trusts. Providing clear, straightforward information about the project and listening to any concerns can build rapport given his lack of public involvement."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "William A. and Frances S. Krumrie",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0010-0013-13-6",
-        "11-22-0010-0013-09-8"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "William A. Krumrie and Frances S. Krumrie jointly own multiple parcels of property in the county (two identified by the given PINs) ([www.berriencounty.org](https://www.berriencounty.org/877/Property-Tax-Tools?PREVIEW=YES#:~:text=1,Property%20Tax%20Estimator)). There are no public records of the Krumries in any official township roles or speaking out on local development issues ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Administration)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowners; no public roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach the Krumries through a mutual local contact (e.g., a farming neighbor or community friend). Emphasize that the project will respect land use norms and address any practical concerns, which may appeal to their quiet presence in the community."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Gail Hanchar",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "11-22-0011-0014-06-8"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Gail Hanchar is a local entrepreneur who opened and expanded the Crumb Crossing Bakery in downtown Niles in 2014–2015 ([www.leaderpub.com](https://www.leaderpub.com/2015/04/01/crumb-crossing-bakery-moves-re-opens-with-full-menu/#:~:text=Five%20months%20after%20opening%20a,Main%20St)). She has expressed enthusiasm for community events, noting she was “blown away” by the large crowds during a local festival that benefited her business ([www.leaderpub.com](https://www.leaderpub.com/2015/01/20/niles-businesses-report-successful-hunter-ice-fest/#:~:text=Gail%20Hanchar%2C%20owner%20of%20new,Festival%20as%20a%20business%20owner)). No public position by Hanchar on development or energy projects has been documented in media or records as of this date ([www.weesawtownship.net](https://www.weesawtownship.net/township-board#:~:text=Township%20Administration)).",
+      "claims": "The Lentz family has run a dairy farming operation near Dallas, WI since the 1960s ([www.legacy.com](https://www.legacy.com/us/obituaries/leadertelegram/name/leondra-lentz-obituary?id=32006334#:~:text=match%20at%20L61%20from%20Barron,H%2C%20FFA%20and%20Junior%20Holsteins)). Richard W. Lentz himself received about $11,155 in USDA farm subsidies in 2021 (down from $24,740 in 2020) ([northwoodsreporter.com](https://northwoodsreporter.com/stories/655167150-did-farm-subsidies-in-cities-associated-with-barron-county-rise-or-fall-in-2021#:~:text=Richard%20W.%20Lentz%20%20,49.1)), underscoring his active agricultural role.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Notable local business owner",
+      "influence_justification": "Multi-parcel dairy farmer",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a respected figure from the local business community reach out to her. Emphasize how the development could positively impact the local economy or community events, aligning with her evident enthusiasm for initiatives that draw people and boost downtown activity."
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a fellow respected farmer or agricultural extension contact him, highlighting how the project can coexist with and even support long-term farmland preservation and the family’s legacy."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -593,21 +355,21 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "James & Sunshine Perigen",
+      "name": "Lucas & Stephanie Nease",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0010-0004-02-1"
+        "020270009000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Sunshine “Sunnie” Elaine Perigen was James Perigen’s wife and worked as a Rite Aid store manager in Buchanan ([www.pikefh.com](https://www.pikefh.com/obituaries/sunshine-perigen#:~:text=Sunnie%20was%20born%20December%205%2C,should%20be%20remembered%20as%20a)). Sunshine passed away unexpectedly in 2009 at the age of 32 ([www.pikefh.com](https://www.pikefh.com/obituaries/sunshine-perigen#:~:text=Sunshine%20%E2%80%9CSunnie%E2%80%9D%20Elaine%20Perigen%2C%2032%2C,She%20was)). No public record could be found of James Perigen holding a local office or voicing opinions on development issues【71†】.",
+      "claims": "Lucas and Stephanie Nease purchased a 3,732-sqft, 4-bed home in Ridgeland, WI in April 2024 ([www.homes.com](https://www.homes.com/property/152-16th-st-ridgeland-wi/ms9qf73xkgyhb/#:~:text=4%20Beds%204%20Baths%203%2C732,Value)) ([www.homes.com](https://www.homes.com/property/152-16th-st-ridgeland-wi/ms9qf73xkgyhb/#:~:text=Date%20Name%20Owned%20For%20Owner,Type)). Having acquired their property in 2024, the Neases are relatively new to the area ([www.homes.com](https://www.homes.com/property/152-16th-st-ridgeland-wi/ms9qf73xkgyhb/#:~:text=Date%20Name%20Owned%20For%20Owner,Type)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public roles",
+      "influence_justification": "New residents; no civic roles",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach via a friendly personal visit and listen to any concerns. Emphasize addressing common questions around property impacts, since they have not taken a public stance."
+        "engage": "Welcome them with friendly, informal outreach through a neighborly introduction, and be prepared to listen openly to any questions or concerns they might have."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -626,91 +388,30 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Jo Ann Kidder",
+      "name": "Robert J Rogers",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-22-0011-0020-03-3"
+        "020330011000",
+        "020330012000",
+        "020330010000",
+        "020330004000",
+        "020330016000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Jo Ann Kidder is listed as an owner of a parcel in Buchanan Township (PIN 11-22-0011-0020-03-3) ([beacon.schneidercorp.com](https://beacon.schneidercorp.com/Search?q=berrien+county#:~:text=11,)) and is not identified in any public local government directory or official role ([www.thebasc.org](https://www.thebasc.org/about#:~:text=About%20,be%20a%20part%20of%20that)). No mentions of her in local news or meeting records were found, suggesting she keeps a private profile in community affairs【49†】.",
+      "claims": "Robert J. “Bob” Rogers serves as the District 1 representative on the Barron County Board of Supervisors ([www.change.org](https://www.change.org/decision-makers/bob-rogers-barron-county-board-of-supervisors-district-1#:~:text=Change,District%201%20District%201%2C%20Wisconsin)). He voted in favor of a 2024 county resolution endorsing a broadband expansion project (22–3 vote) to improve local infrastructure ([citizenportal.ai](https://citizenportal.ai/articles/6392941/Barron-County/Wisconsin/Barron-County-Board-approves-software-purchase-dam-repairs-forest-work-plan-and-other-measures-broadband-endorsement-draws-three-no-votes#:~:text=,the%20resolution%20carried)).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage one-on-one with courtesy and openness, as she has no known positions. Provide information and encourage questions to understand any personal concerns she may have."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Indiana Michigan Power Co",
-      "entity_category": "Organization",
-      "entity_type": "corporation",
-      "pins": [
-        "11-22-0011-0015-06-0",
-        "11-22-0011-0030-01-2",
-        "11-22-0011-0029-01-4"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Indiana Michigan Power Company (I&M) is an Indiana corporation organized in 1925 and is a wholly owned subsidiary of American Electric Power (AEP) ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,of%20electric%20power%20to%20approximately)) ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,2)). I&M serves approximately 582,000 customers in Indiana and southwest Michigan, engaging in the generation, transmission, and distribution of electricity ([www.gem.wiki](https://www.gem.wiki/Indiana_Michigan_Power#:~:text=Indiana%20Michigan%20Power%20,2)). The company operates the D.C. Cook Nuclear Plant on the Lake Michigan shoreline in Bridgman, Berrien County ([www.cookinfo.com](https://www.cookinfo.com/About.aspx#:~:text=The%20Donald%20C,power%2C%20both%20reactors%20produce%20a)). In 2024, AEP and local authorities agreed on a reduced tax valuation for the Cook plant, which cut Bridgman’s annual tax revenue by about $1.2 million ([www.leaderpub.com](https://www.leaderpub.com/2025/03/28/berrien-county-commissioners-discuss-cook-nuclear-plant/#:~:text=Dissette%20didn%E2%80%99t%20give%20specifics%20about,making%20cuts%20because%20of%20that)).",
-      "confidence": "medium",
-      "noted_stance": null,
       "community_influence": "High",
-      "influence_justification": "Operates county’s nuclear plant (major employer and taxpayer); part of large utility (AEP); strong regulatory and political presence",
+      "influence_justification": "Elected county supervisor",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Coordinate with I&M’s leadership (e.g., President Steve Baker) or government affairs team; emphasize how the project complements grid plans and local economic benefits to ensure a collaborative stance"
+        "motivations": [
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage through formal channels, acknowledging his leadership role. Emphasize how the project respects local decision-making and can bolster the community (e.g., tax base, services), aligning with the county’s development goals."
       },
-      "entity_classification": "energy_developer",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Burkholder Excavating Inc",
-      "entity_category": "Organization",
-      "entity_type": "corporation",
-      "pins": [
-        "11-22-0011-0016-01-0"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Burkholder Excavating, Inc. is a Michigan corporation that began operations in 1992 ([www.bbb.org](https://www.bbb.org/us/mi/sawyer/profile/excavating-contractors/burkholder-excavating-inc-0372-13004452#:~:text=BBB%20File%20Opened%3A%202%2F6%2F2007)). It is a local family-run excavation contracting business based in Sawyer, Michigan ([business.harborcountry.org](https://business.harborcountry.org/list/member/burkholder-excavating-55#:~:text=,4227)) ([business.harborcountry.org](https://business.harborcountry.org/list/member/burkholder-excavating-55#:~:text=About%20Us)). The company’s President is Scott Burkholder, with Wilma Burkholder serving as Office Manager ([www.bbb.org](https://www.bbb.org/us/mi/sawyer/profile/excavating-contractors/burkholder-excavating-inc-0372-13004452#:~:text=Additional%20Contact%20Information)). No significant political contributions or public disputes involving this company were found, suggesting its community profile is limited to providing excavation and site work services.",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "Small family business; limited land holdings and no notable political activity; primarily known through local contracting work",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage owner Scott Burkholder directly; underline potential subcontracting or site-preparation work the project could offer to secure goodwill and support"
-      },
-      "entity_classification": "unknown",
+      "entity_classification": null,
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -727,23 +428,477 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Mensinger Harold Herbert & Mensinger Dora Ann Rev Liv Trust",
+      "name": "Dylan Sandwick",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020280015000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dylan Sandwick has no evident public profile or documented views in local records or media ([www.transfermarkt.com](https://www.transfermarkt.com/dylan-barnett/spieleGegeneinander/spieler/264190#:~:text=,Dylan%20Thorntorn%20Dylan%20Watts%20%C3%89anna)). Aside from being listed as a landowner near Ridgeland, no information on his background or stance is readily available ([www.transfermarkt.com](https://www.transfermarkt.com/dylan-barnett/spieleGegeneinander/spieler/264190#:~:text=,Dylan%20Thorntorn%20Dylan%20Watts%20%C3%89anna)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Little known involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personalized, low-key approach (e.g., a casual in-person visit) to introduce the project and invite conversation, since he has not voiced any public opinions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Allen R Schutz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020220019000",
+        "020220020000",
+        "020230016000",
+        "020230018000",
+        "020220016000",
+        "020230011000",
+        "020220018000",
+        "020230009000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Allen R. Schutz is a veteran farmer in the Dallas area of Barron County, having received about $350,000 in farm subsidy payments since 1995 ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=55005&page=4&progcode=total#:~:text=93%20%20,%24341%2C766)). This places him among the top 100 farm-subsidy recipients in the county (ranked #93 in 1995–2024) ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=55005&page=4&progcode=total#:~:text=93%20%20,%24341%2C766)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Long-time large landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Approach via a trusted agricultural peer or local farm network. Emphasize respect for his farmland (e.g., minimal disruption and soil conservation) and explain how the project can coexist with, or even benefit, long-term farm use."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Village Of Ridgeland",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020330007000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Arne & Elizabeth Thompson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020340014000",
+        "020340015000",
+        "020350007000",
+        "020350006000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arne and Elizabeth Thompson own multiple agricultural parcels in the Town of Dallas, Barron County ([sfs.dpi.wi.gov](https://sfs.dpi.wi.gov/safr_ro/tax_apportionment_all_districts.asp?year=2015#:~:text=Barron%2003%20028%20T,00)). They have no recorded involvement in local government or public comments on development, indicating a low public profile ([northwoodsreporter.com](https://northwoodsreporter.com/stories/655167150-did-farm-subsidies-in-cities-associated-with-barron-county-rise-or-fall-in-2021#:~:text=Orin%20J.%20Thompson%20%20,49.2)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime landowners; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected neighboring farmer or community elder reach out, emphasizing how the project can coexist with farming traditions and preserve rural heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Charles G & Renee M Rihn",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020280013010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles G. Rihn is part of a multi-generation farming family; records show a Melvin C. Rihn farming in the Bloomer area since the 1940s ([www.legacy.com](https://www.legacy.com/us/obituaries/leadertelegram/name/denese-rihn-obituary?id=9707238#:~:text=Bloomer%20Denese%20E,grandchildren%2C%20other%20relatives%20and%20friends)). Charles and Renee Rihn themselves do not appear in Barron County meeting minutes or local news reports, suggesting no active public profile ([northwoodsreporter.com](https://northwoodsreporter.com/stories/655167150-did-farm-subsidies-in-cities-associated-with-barron-county-rise-or-fall-in-2021#:~:text=No%20,rihn)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Out-of-town farm owners; no local roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Connect via a mutual farming community contact (possibly through Bloomer area networks) to reassure them that the project will not diminish their land’s agricultural value or use."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Not Available",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "020350008000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Barron County’s land records list the owner of parcel 020350008000 as “Not Available,” indicating no individual name on record ([www.usvotefoundation.org](https://www.usvotefoundation.org/town-of-dallas-barron-county-wi-election-office#:~:text=Town%20of%20Dallas%2C%20Barron%20County%2C,contact%20information%20for%20the%20election)). Without an identified owner, there is no public background or stated position to assess for this parcel ([www.usvotefoundation.org](https://www.usvotefoundation.org/town-of-dallas-barron-county-wi-election-office#:~:text=Town%20of%20Dallas%2C%20Barron%20County%2C,contact%20information%20for%20the%20election)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Ownership anonymized; no info",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Work through county channels or nearby landowners to locate and engage this owner once their identity is known, addressing any concerns with transparency."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Tyler J Graetz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020280013000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "A wedding announcement shows Tyler J. Graetz planning a marriage in August 2024 in nearby Cadott, Wisconsin ([www.zola.com](https://www.zola.com/wedding/sikoragraetzwedding#:~:text=Jessica%20Sikora%20and%20Tyler%20Graetz%27s,ZOLA)). Beyond that personal note, no public records or media references tie Graetz to any civic activities or opinions on local development ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=No%20,graetz)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence or role",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach informally through a peer in his age group or community circle to discuss any concerns about noise or property impacts, highlighting the project’s minimal disruption to his plans."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Travis & Jolene Lentz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020220013000",
+        "020210015000",
+        "020290002000",
+        "020290008000",
+        "020290005010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Travis J. Lentz is a prominent local farmer, receiving $79,103 in federal farm subsidies in 2020 alone ([northwoodsreporter.com](https://northwoodsreporter.com/stories/655167150-did-farm-subsidies-in-cities-associated-with-barron-county-rise-or-fall-in-2021#:~:text=Dairyland%20Trucking%2C%20LLC%20%20,12.9)). Neither Travis nor Jolene Lentz has a record of speaking at public hearings or in news on development issues ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=Freida%20Agusta%20Lentz%20%20,09%2F19%2F2020)), suggesting they have not taken a public stance in such debates.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Large-scale farmer; economic presence",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Engage them via local agricultural leaders or the county extension agent, focusing on how the project will protect soil/drainage and not impede farm operations or road access."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Barry L & Alicia M Wirth",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020340012000",
+        "020340013000",
+        "1704423112031400008",
+        "1704423112031400004"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Barry L. Wirth and Alicia M. Wirth jointly own multiple rural land parcels in Barron County, Wisconsin ([gcswebportal.co.barron.wi.us](https://gcswebportal.co.barron.wi.us/Search.aspx?ParcelNumber=012310029010#:~:text=No%20Property%20Addresses%20were%20found)). No records were found of the Wirths holding public office or making statements on local development issues ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=No%20,wirth)). Barron County has emphasized farmland preservation since 1979 ([www.barroncountywi.gov](https://www.barroncountywi.gov/index.asp?DE=DA744D5F-9BCC-4150-81FC-9F75BB477217&SEC=5849F663-F197-46AF-9020-7123068F82DF#:~:text=WI%20www,Working%20Lands%20Initiative%20became%20state)), suggesting that landowners like the Wirths prioritize agricultural use of their property.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowner; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "groundwater_runoff"
+        ],
+        "engage": "Approach via a fellow local farmer to discuss how the project will protect long-term soil health and preserve farmland use, directly addressing any concerns about erosion or runoff."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ian R Thompson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "020340016000",
+        "020340018000",
+        "1704423112031100003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ian R. Thompson is listed as the owner of multiple land parcels in Barron County’s property records ([gcswebportal.co.barron.wi.us](https://gcswebportal.co.barron.wi.us/Search.aspx?ParcelNumber=012310029010#:~:text=No%20Property%20Addresses%20were%20found)). While other Thompson family members appear in local listings (e.g., a Kearney N. Thompson in Dallas) ([northwoodsreporter.com](https://northwoodsreporter.com/stories/569167773-who-were-the-indefinitely-confined-voters-in-barron-county#:~:text=Kearney%20Nell%20Thompson%20%20,09%2F18%2F2020)), no public references specifically to Ian R. Thompson were found in news or civic archives. Barron County’s longstanding farmland preservation program ([www.barroncountywi.gov](https://www.barroncountywi.gov/index.asp?DE=DA744D5F-9BCC-4150-81FC-9F75BB477217&SEC=5849F663-F197-46AF-9020-7123068F82DF#:~:text=WI%20www,Working%20Lands%20Initiative%20became%20state)) indicates that local landowners like Thompson tend to be mindful of keeping land in agricultural use.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Owns farmland; no civic role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "groundwater_runoff"
+        ],
+        "engage": "Have a community agriculture liaison reach out to highlight how the development plans include soil conservation measures and eventual land restoration, addressing typical farming community concerns about preserving productive land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Robert & Leondra Lentz Revocable Trust",
       "entity_category": "Organization",
       "entity_type": "trust",
       "pins": [
-        "11-22-0002-0005-09-4"
+        "020280026000",
+        "020280003000",
+        "020280020000",
+        "020290004000",
+        "020280002000",
+        "020270012000",
+        "020280004000",
+        "020250011000",
+        "020280030000",
+        "020280024000",
+        "020280022000",
+        "020250010000",
+        "020280028000"
       ],
       "owns_adjacent_parcel": "Yes",
       "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Unknown",
-      "influence_justification": "Personal family trust with private land; no public corporate presence",
+      "community_influence": "Low",
+      "influence_justification": "Longtime local farming family; no notable public office or large economic influence",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "N/A (handled as residential landowner)"
+        "engage": "Engage Robert “Bob” Lentz (trustee) in a personal conversation emphasizing respect for their farm legacy and assuring the project will not harm their land interests"
       },
-      "entity_classification": "unknown",
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jennie-O Turkey Store Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "020340007000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jennie-O Turkey Store Inc., a subsidiary of Hormel Foods, operates a major turkey processing plant in Barron, Wisconsin ([www.wctrib.com](https://www.wctrib.com/business/production-changes-planned-next-year-at-jennie-o-plant-in-wisconsin#:~:text=Jennie,from%20parent%20company%20Hormel%20Foods)). Local turkey farms supply this facility, contributing over $120 million annually to Barron County’s economy, while the plant itself adds more than $1 billion ([www.wpr.org](https://www.wpr.org/agriculture/barron-county-officials-take-economic-impact-bird-flu#:~:text=According%20to%20the%20University%20of,Dave%20Armstrong%20said%20the%20bird)). The company is one of the area’s largest employers and agribusiness stakeholders ([www.wpr.org](https://www.wpr.org/agriculture/barron-county-officials-take-economic-impact-bird-flu#:~:text=According%20to%20the%20University%20of,Dave%20Armstrong%20said%20the%20bird)). No record of public opposition to developments by Jennie-O was found, as its focus remains on maintaining stable operations and supply chains.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Major agribusiness (Hormel subsidiary) with ~$1 billion local economic impact and extensive employment",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Jennie-O’s corporate affairs or plant management to ensure the project poses no risk to their operations; emphasize potential mutual benefits (e.g., improved infrastructure or energy reliability) to secure neutrality or support"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Alicia M & Barry L Wirth Joint Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "020340011000",
+        "020340010000",
+        "020340006000",
+        "020330002000",
+        "020340009000",
+        "020330005000",
+        "020340008000",
+        "020330015000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private landowners with no known broader influence in business or politics",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Alicia and Barry Wirth personally to discuss the project; address any concerns about land use changes and highlight any benefits or safeguards to ease potential opposition"
+      },
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -760,23 +915,31 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Geiger Building Services LLC",
+      "name": "Blaine E & Vivian J Whitmore Revocable Trust",
       "entity_category": "Organization",
-      "entity_type": "llc",
+      "entity_type": "trust",
       "pins": [
-        "11-22-0002-0005-00-1"
+        "020280016000",
+        "020280021010",
+        "020280021000",
+        "020280018000",
+        "020290033000",
+        "020290030000",
+        "020290030010",
+        "020290033010",
+        "020280006000"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Geiger Building Services LLC is a Michigan limited liability company, but it has a minimal public footprint (no listings in local business directories or BBB) ([www.angi.com](https://www.angi.com/companylist/us/mi/berrien-center/subcontractors.htm#:~:text=No%20,geiger)). Its name suggests involvement in construction or property development services, though no corporate filings or official details on its members were readily found. The company appears to hold at least one parcel in Berrien County (PIN 11-22-0002-0005-00-1), indicating it may own land potentially for future development or investment. No recorded political contributions or public statements from this LLC were identified in available sources.",
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Small private LLC; little known publicly; likely limited to its immediate property interests",
+      "influence_justification": "Elderly farming couple; no public leadership roles or significant economic reach beyond their farm",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach the LLC’s principal discreetly to learn their plans for the property; if they are holding for development or sale, consider collaborative planning or a buyout to align interests and prevent opposition"
+        "engage": "Engage Blaine and Vivian Whitmore with a neighborly, transparent approach; reassure them the project will respect their property and minimize any disruption to their daily life or land use"
       },
-      "entity_classification": "speculation",
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -793,21 +956,35 @@
     },
     {
       "neighbor_id": "N-05",
-      "name": "Teifke Inc",
+      "name": "Alexander W & Mary J Olson Revocable Trust",
       "entity_category": "Organization",
-      "entity_type": "corporation",
+      "entity_type": "trust",
       "pins": [
-        "11-22-0002-0005-02-7"
+        "020270008000",
+        "020260012000",
+        "020270022000",
+        "020260011000",
+        "020250012000",
+        "020260009000",
+        "020260008000",
+        "020270026000",
+        "020260007000",
+        "020260010000",
+        "020270005000",
+        "020260014000",
+        "020260003000",
+        "020260004000",
+        "020260013000"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Teifke Inc. is a Michigan corporation, likely family-owned, with a very limited public profile (no online business listings or websites). The Teifke family is known to reside in the area of Buchanan, Berrien County ([obituary.memorial](https://obituary.memorial/en/obituary/richard-allen-teifke-1964-5-20-2020-12-15-1552541#:~:text=Our%20deepest%20condolences%20to%20Richard,MI)), suggesting this entity may be related to family land or agricultural holdings. There are no public records of business activity, political donations, or development projects connected to Teifke Inc. in the available sources. The corporation’s primary relevance appears to be as a landowner of record for parcel 11-22-0002-0005-02-7, presumably for personal or investment purposes.",
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "Private family corporation holding land; not a prominent business or political player; influence limited to their property",
+      "community_influence": "Medium",
+      "influence_justification": "Large-scale farm operators with extensive landholdings; financially significant locally, though not public officials",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the Teifke family through a respectful, personal approach; emphasize how the project can coexist with or benefit their land interests, and be prepared to offer fair compensation or assurances to mitigate any concerns"
+        "engage": "Meet directly with Alexander Olson (primary trustee) to understand his plans or concerns; emphasize how the project can coexist with or even benefit his farming operation, potentially through lease income or infrastructure improvements"
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -826,23 +1003,27 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "D.A. D'Agostino Custom Excavation Inc",
+      "name": "Jerry L Nicolle L Emmert Living Trust",
       "entity_category": "Organization",
-      "entity_type": "llc",
+      "entity_type": "trust",
       "pins": [
-        "11-22-0011-0014-07-6"
+        "020330008000",
+        "020320002000",
+        "020330006000",
+        "020330009000",
+        "020320003000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "D.A. D'Agostino Custom Excavation & Trucking LLC is a Baroda-based excavating contractor operating for approximately 29 years and generating about $584,000 in annual revenue【Buzzfile — company, retrieved 2025-12-03; “operating for approximately 29 years… $584,008 in annual revenues”】. The company’s founder and owner, Durwood “Woody” D’Agostino, led the business until his death in January 2022【Herald-Palladium — news, retrieved 2025-12-03; “Woody was the owner of D.A. D'Agostino Custom Excavation and Trucking”】; its operational status after his passing is uncertain, as D’Agostino’s contractor license expired in 2023【BuildZoom — other, retrieved 2025-12-03; “expired on 05-31-2023”】. D.A. D’Agostino Custom Excavation primarily serves clients throughout Berrien County for excavation and demolition projects【Hometown Demolition — other, retrieved 2025-12-03; “Berrien County turn to D A D'Agostino … excavation and demolition needs”】.",
+      "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "Small local contractor (≈6 employees, ~$0.6M revenue); no significant political or economic influence; founder deceased",
+      "community_influence": "Unknown",
+      "influence_justification": "Insufficient public evidence to assess community influence (private farming family; no known public office or major local roles)",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the D’Agostino family (widow Tammie or heirs) directly, offering subcontracting work or a favorable buyout to secure their support and mutual benefit."
+        "engage": "Engage trustee Jerry Emmert directly; emphasize the project’s compatibility with farming and conservation (e.g., erosion control, water quality benefits) to resonate with his values ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality)). One-on-one outreach is key, as his stance is not publicly known."
       },
-      "entity_classification": "unknown",
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -859,24 +1040,24 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Trinity Evang Lutheran Church",
+      "name": "Peter & Jacqueline Amundson Family Trust",
       "entity_category": "Organization",
-      "entity_type": "church",
+      "entity_type": "trust",
       "pins": [
-        "11-22-0003-0017-00-7",
-        "11-22-0010-0012-00-8"
+        "020210016000",
+        "020210017000"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Trinity Evangelical Lutheran Church in Berrien Springs is a 501(c)(3) religious organization, tax-exempt since July 1941【TaxExemptWorld — other, retrieved 2025-12-03; “TRINITY LUTHERAN CHURCH … 07/1941”】. The church operates the Trinity Lutheran School (Preschool–8th grade) at its 9123 George Avenue campus【EIN Register — other, retrieved 2025-12-03; “Secondary Name Line | Trinity Lutheran School”】, and it reports no commercial income, relying on donations (shown as $0 revenue on filings)【TaxExemptWorld — other, retrieved 2025-12-03; “$0*  | $0*  | 07/1941”】. Trinity’s activities center on worship and education, with no involvement in development or business ventures【TaxExemptWorld — other, retrieved 2025-12-03; “Religious Organization … $0* … 07/1941”】.",
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Medium",
-      "influence_justification": "Decades-old congregation with local school; moral presence in community but limited direct political or financial power",
+      "community_influence": "Unknown",
+      "influence_justification": "No public information indicating significant community influence (family landholders with private profile)",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Meet with Pastor Randy Johnson and the church council to listen and address any concerns; emphasize community benefits and environmental stewardship to align the project with the church’s values and obtain their goodwill."
+        "engage": "Reach out personally to Peter and Jacqueline Amundson to understand their perspective. Provide assurances that the project will respect their property’s value and rural character, since their stance is not publicly documented."
       },
-      "entity_classification": "religious",
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -893,20 +1074,26 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Woodlan John Christopher Liv Trust",
+      "name": "Douglas L Wirth Revocable Trust",
       "entity_category": "Organization",
       "entity_type": "trust",
       "pins": [
-        "11-22-0010-0003-00-9"
+        "020330019000",
+        "020330017000",
+        "020330018000",
+        "020330014000"
       ],
       "owns_adjacent_parcel": "No",
       "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Unknown",
-      "influence_justification": "Personal living trust of an individual (John C. Woodlan); not a public or corporate entity",
-      "approach_recommendations": null,
-      "entity_classification": "unknown",
+      "influence_justification": "No public evidence of community leadership or influence (private individual landowner)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate a personal conversation with Douglas Wirth about the project. Emphasize respect for his land interests and address any concerns about land-use changes, given that he has no known public stance."
+      },
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -922,11 +1109,15 @@
       "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 41.8837244525711,-86.4913830297515",
-  "overview_summary": "All four profiled neighbors have no clearly documented public stance on development or clean energy. Three appear to have low community influence as private landowners, while one (Jelinek) has moderate influence due to a prominent local family connection. Five neighboring landowners were reviewed: none have a documented public stance on development or clean energy, and all are categorized as unknown stance. Most appear to be private rural landowners with no notable public offices or statements. Community influence is generally low; one farming family (the Zechs) has moderate local standing due to their longstanding agricultural presence, while the others are not known to hold influential roles. None of these five neighboring landowners have an openly documented stance on the development, leaving all of their positions unknown. In terms of community influence, none hold formal leadership roles; only one neighbor (a long-tenured local family) has medium social influence, while the rest appear to have low profiles. All five profiled neighbors have no clearly documented stance on the development, as none are on record supporting or opposing it. None hold public office, with one medium-influence neighbor (a local business owner) and the rest being private landowners with low community influence. Both profiled neighbors have no documented stance on development, and neither is publicly active in local affairs. Each appears to have a low community influence, with no supporters or opponents identified among them. The neighboring entities include a major electric utility, a local contractor, and several private landholding organizations. Indiana Michigan Power (a subsidiary of AEP) holds significant influence locally and is likely neutral or supportive of development that aligns with grid or generation interests. The others – a small excavating firm, a family trust, and two modest companies holding land – have limited public profiles and appear driven mainly by personal or financial interests (e.g., land value, potential contract work or sale), rather than coordinated ideological opposition. The adjacent landowners include a small family-run excavation contractor, a long-standing church with an affiliated school, and a personal living trust. The excavation business (D.A. D'Agostino Custom Excavation Inc) is modest in scale and its founder’s recent death leaves its future unclear, but it could view new development as a source of contract work rather than a threat. The Trinity Evangelical Lutheran Church (Berrien Springs), established in the 1940s, is a respected local institution focused on ministry and education; it has not publicly engaged in development disputes and wields only moderate influence through its congregation. The Woodlan living trust represents an individual’s property holding and does not function as an active organization, suggesting any stance would come down to the personal interests of the late owner’s family.",
+  "location_context": "Neighbors within 0.5 mi of 45.226912,-91.846004",
+  "overview_summary": "None of the five neighbors have a documented stance on the development (0 support, 0 oppose, 5 unknown). One high-profile neighbor (a prominent conservation farmer) holds significant influence, while the others show medium to low community influence with limited public engagement. None of these four neighboring landowners have a documented stance on development (all noted stances are unknown). Most appear to have low public profiles in the community. Only one neighbor – a multi-parcel dairy farmer – shows moderate local influence. All profiled neighbors have an **unknown** stance on development (no explicit public position found). One is a high-influence local official (Rogers, a county supervisor), another is a medium-influence large-scale farmer (Schutz), and the rest appear to have low community influence. None of the five profiled neighbors have taken a documented public stance on local development or clean energy projects. All are classified as having an unknown position due to lack of explicit statements. Community influence appears limited – none are current officials or outspoken civic leaders, with any local sway coming mostly from their status as landowners rather than formal roles. Neither of the two profiled neighbors has made a public stance on the development, leaving both classified as \"unknown\" in their support or opposition. Both landowners appear to have limited formal roles or public engagement, meaning the cohort includes no high-influence community figures (both are low-influence local residents). Among the neighboring landowners, four are family trusts of local farmers indicating long-held agricultural properties, and one is a major agribusiness. The family trusts (Lentz, Wirth, Whitmore, Olson) represent private individuals with substantial farmland but no corporate structure, so their development stance is personal and not publicly documented. The sole corporate neighbor is Jennie-O Turkey Store Inc., a Hormel Foods subsidiary operating a large turkey processing plant; it has significant economic influence but has shown no overt position on outside developments. No competitors or known organized opposition groups were identified in this neighbor set, though the farming families may be motivated to preserve land value and rural character, and the corporation will prioritize protecting its operations. All three neighboring landowners are listed as living or family trusts, indicating individual or family farm ownership rather than corporate entities ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Jerry%20Emmert%20and%20his%20brother%2C,farm%20in%20the%20late%201990s)). One trustee, Jerry Emmert, is a third-generation farmer known for conservation-oriented practices in western Wisconsin ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Jerry%20Emmert%20and%20his%20brother%2C,farm%20in%20the%20late%201990s)) ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality)). The other trusts (Amundson and Wirth) have no notable public profile or documented stance on development; they likely view their land as a family asset and farmland to preserve ([abcdocz.com](https://abcdocz.com/doc/662118/wisconsin-farmers-union-news#:~:text=into%20the%20%E2%80%9CBig%20Tent,the%20good%20work%20of%20supporting)).",
   "success": true,
-  "runtime_minutes": 13.59,
+  "runtime_minutes": 17.26,
   "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
     {
       "title": null,
       "url": null
@@ -1161,16 +1352,16 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251203_095947_5042.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251203_100333_6064.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251203_100344_4786.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251203_100239_3139.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251203_100003_5256.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251203_100103_7213.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251203_100024_9203.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251204_082825_8339.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251204_083159_3133.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251204_083144_9846.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251204_082652_7128.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251204_082509_9089.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251204_082654_4599.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251204_082400_9244.json"
   ],
-  "city": null,
-  "county": "Berrien County",
-  "state": "MI",
-  "run_id": "be0f2357-de71-49ea-9eba-3dbe400a6842"
+  "city": "Dallas",
+  "county": "Barron County",
+  "state": "WI",
+  "run_id": "790c5021-9de9-4250-8157-69ea4d3305f7"
 }

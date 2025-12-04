@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-12-04T08:24:00.924471",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Barron County",
+    "state": "WI",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three neighboring landowners are listed as living or family trusts, indicating individual or family farm ownership rather than corporate entities ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Jerry%20Emmert%20and%20his%20brother%2C,farm%20in%20the%20late%201990s)). One trustee, Jerry Emmert, is a third-generation farmer known for conservation-oriented practices in western Wisconsin ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Jerry%20Emmert%20and%20his%20brother%2C,farm%20in%20the%20late%201990s)) ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality)). The other trusts (Amundson and Wirth) have no notable public profile or documented stance on development; they likely view their land as a family asset and farmland to preserve ([abcdocz.com](https://abcdocz.com/doc/662118/wisconsin-farmers-union-news#:~:text=into%20the%20%E2%80%9CBig%20Tent,the%20good%20work%20of%20supporting)).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jerry L Nicolle L Emmert Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "020330008000",
+        "020320002000",
+        "020330006000",
+        "020330009000",
+        "020320003000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Insufficient public evidence to assess community influence (private farming family; no known public office or major local roles)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage trustee Jerry Emmert directly; emphasize the project’s compatibility with farming and conservation (e.g., erosion control, water quality benefits) to resonate with his values ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality)). One-on-one outreach is key, as his stance is not publicly known."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Peter & Jacqueline Amundson Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "020210016000",
+        "020210017000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "No public information indicating significant community influence (family landholders with private profile)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally to Peter and Jacqueline Amundson to understand their perspective. Provide assurances that the project will respect their property’s value and rural character, since their stance is not publicly documented."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Douglas L Wirth Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "020330019000",
+        "020330017000",
+        "020330018000",
+        "020330014000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "No public evidence of community leadership or influence (private individual landowner)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate a personal conversation with Douglas Wirth about the project. Emphasize respect for his land interests and address any concerns about land-use changes, given that he has no known public stance."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three neighboring landowners are listed as living or family trusts, indicating individual or family farm ownership rather than corporate entities ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Jerry%20Emmert%20and%20his%20brother%2C,farm%20in%20the%20late%201990s)). One trustee, Jerry Emmert, is a third-generation farmer known for conservation-oriented practices in western Wisconsin ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Jerry%20Emmert%20and%20his%20brother%2C,farm%20in%20the%20late%201990s)) ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality)). The other trusts (Amundson and Wirth) have no notable public profile or documented stance on development; they likely view their land as a family asset and farmland to preserve ([abcdocz.com](https://abcdocz.com/doc/662118/wisconsin-farmers-union-news#:~:text=into%20the%20%E2%80%9CBig%20Tent,the%20good%20work%20of%20supporting)).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Jerry L Nicolle L Emmert Living Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"020330008000\", \"020320002000\", \"020330006000\", \"020330009000\", \"020320003000\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Insufficient public evidence to assess community influence (private farming family; no known public office or major local roles)\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Farmland and water conservation ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality))\", \"Keeping family land intact for future generations ([abcdocz.com](https://abcdocz.com/doc/662118/wisconsin-farmers-union-news#:~:text=into%20the%20%E2%80%9CBig%20Tent,the%20good%20work%20of%20supporting))\"],\n      \"approach_recommendations\": \"Engage trustee Jerry Emmert directly; emphasize the project’s compatibility with farming and conservation (e.g., erosion control, water quality benefits) to resonate with his values ([www.wispolitics.com](https://www.wispolitics.com/2022/western-wisconsin-conservation-council-farmer-to-farmer-conversations-shorten-path-to-conservation-success/#:~:text=Emmert%20has%20been%20integrating%20conservation,place%20and%20improving%20water%20quality)). One-on-one outreach is key, as his stance is not publicly known.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Peter & Jacqueline Amundson Family Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"020210016000\", \"020210017000\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"No public information indicating significant community influence (family landholders with private profile)\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of family farmland (avoid conversion to development) ([abcdocz.com](https://abcdocz.com/doc/662118/wisconsin-farmers-union-news#:~:text=into%20the%20%E2%80%9CBig%20Tent,the%20good%20work%20of%20supporting))\"],\n      \"approach_recommendations\": \"Reach out personally to Peter and Jacqueline Amundson to understand their perspective. Provide assurances that the project will respect their property’s value and rural character, since their stance is not publicly documented.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Douglas L Wirth Revocable Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"020330019000\", \"020330017000\", \"020330018000\", \"020330014000\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"No public evidence of community leadership or influence (private individual landowner)\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Keeping land in family use (farmland retention) ([abcdocz.com](https://abcdocz.com/doc/662118/wisconsin-farmers-union-news#:~:text=into%20the%20%E2%80%9CBig%20Tent,the%20good%20work%20of%20supporting))\"],\n      \"approach_recommendations\": \"Initiate a personal conversation with Douglas Wirth about the project. Emphasize respect for his land interests and address any concerns about land-use changes, given that he has no known public stance.\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

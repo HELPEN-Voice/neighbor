@@ -11,11 +11,12 @@ from datetime import datetime
 
 # Load environment variables
 from dotenv import load_dotenv
-env_path = Path(__file__).parent / '.env'
+
+env_path = Path(__file__).parent / ".env"
 load_dotenv(env_path)
 
 # Add to path
-sys.path.insert(0, str(Path(__file__).parent / 'src'))
+sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from neighbor.webhook_manager import webhook_manager
 
@@ -31,33 +32,34 @@ async def retrieve_and_save(response_id: str, output_file: str):
     print(f"Has citations: {'citations' in result}")
     print(f"Has research_steps: {'research_steps' in result}")
 
-    if result.get('status') == 'completed':
+    if result.get("status") == "completed":
         # Read the existing file to get metadata
-        with open(output_file, 'r') as f:
+        with open(output_file, "r") as f:
             existing = json.load(f)
 
         # Update with the new data
-        existing['raw_text'] = result.get('raw_output', '')
-        existing['annotations'] = result.get('citations', [])
-        existing['research_steps'] = result.get('research_steps', [])
-        existing['status'] = 'completed'
-        existing['retrieved_at'] = datetime.now().isoformat()
+        existing["raw_text"] = result.get("raw_output", "")
+        existing["annotations"] = result.get("citations", [])
+        existing["research_steps"] = result.get("research_steps", [])
+        existing["status"] = "completed"
+        existing["retrieved_at"] = datetime.now().isoformat()
 
         # Try to parse the JSON from raw_output
         try:
             # Look for JSON blocks in the output
             from neighbor.utils.json_parse import extract_fenced_blocks
-            parsed, markdown = extract_fenced_blocks(existing['raw_text'])
 
-            existing['overview_summary'] = parsed.get('overview_summary')
-            existing['neighbors'] = parsed.get('neighbors', [])
-            existing['markdown_debug'] = markdown
+            parsed, markdown = extract_fenced_blocks(existing["raw_text"])
+
+            existing["overview_summary"] = parsed.get("overview_summary")
+            existing["neighbors"] = parsed.get("neighbors", [])
+            existing["markdown_debug"] = markdown
             print(f"\n✅ Parsed JSON: {len(existing['neighbors'])} neighbors")
         except Exception as e:
             print(f"\n⚠️ Could not parse JSON from output: {e}")
 
         # Save the updated file
-        with open(output_file, 'w') as f:
+        with open(output_file, "w") as f:
             json.dump(existing, f, indent=2)
 
         print(f"\n✅ Saved updated response to: {output_file}")
@@ -71,9 +73,9 @@ async def retrieve_and_save(response_id: str, output_file: str):
         return None
 
 
-if __name__ == '__main__':
-    response_id = 'resp_0906c4c24718ce0000690d3985d2d08197b6297533426d9845'
-    output_file = '/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251106_164255_4179.json'
+if __name__ == "__main__":
+    response_id = "resp_0906c4c24718ce0000690d3985d2d08197b6297533426d9845"
+    output_file = "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251106_164255_4179.json"
 
     result = asyncio.run(retrieve_and_save(response_id, output_file))
 

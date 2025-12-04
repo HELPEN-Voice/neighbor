@@ -77,7 +77,9 @@ class NeighborConversionPipeline:
         if json_file:
             self.json_file = json_file
         else:
-            self.json_file = str(self.script_dir / "neighbor_outputs" / "neighbor_final_merged.json")
+            self.json_file = str(
+                self.script_dir / "neighbor_outputs" / "neighbor_final_merged.json"
+            )
         self.start_time = time.time()
 
     def print_banner(self, title: str):
@@ -110,14 +112,12 @@ class NeighborConversionPipeline:
 
     def cleanup_directories(self) -> bool:
         """Clean up existing output directories to avoid duplicates"""
-        self.print_step(
-            1, "Directory Cleanup", "Removing existing output directories"
-        )
+        self.print_step(1, "Directory Cleanup", "Removing existing output directories")
 
         directories_to_clean = [
             self.script_dir / "neighbor_html_outputs",
             self.script_dir / "individual_pdf_reports",
-            self.script_dir / "combined_pdf_reports"
+            self.script_dir / "combined_pdf_reports",
         ]
 
         for directory in directories_to_clean:
@@ -126,22 +126,19 @@ class NeighborConversionPipeline:
                     # Use trash instead of rm as per user's global instructions
                     trash_cmd = f"trash {directory}"
                     result = subprocess.run(
-                        trash_cmd,
-                        shell=True,
-                        capture_output=True,
-                        text=True
+                        trash_cmd, shell=True, capture_output=True, text=True
                     )
-                    
+
                     if result.returncode == 0:
                         self.print_success(f"Cleaned: {directory.name}")
                     else:
                         # Fallback to shutil if trash command fails
                         shutil.rmtree(directory)
                         self.print_success(f"Cleaned: {directory.name} (using shutil)")
-                    
+
                     # Recreate the directory
                     directory.mkdir(parents=True, exist_ok=True)
-                    
+
                 except Exception as e:
                     self.print_warning(f"Could not clean {directory.name}: {str(e)}")
             else:
@@ -154,16 +151,14 @@ class NeighborConversionPipeline:
 
     def check_json_file(self) -> bool:
         """Check if the JSON file exists"""
-        self.print_step(
-            2, "JSON File Check", f"Verifying {self.json_file} exists"
-        )
+        self.print_step(2, "JSON File Check", f"Verifying {self.json_file} exists")
 
         json_path = self.script_dir / self.json_file
-        
+
         if not json_path.exists():
             self.print_error(f"JSON file does not exist: {json_path}")
             return False
-            
+
         self.print_success(f"Found JSON file: {self.json_file}")
         return True
 
@@ -175,19 +170,19 @@ class NeighborConversionPipeline:
 
         try:
             script_path = self.script_dir / "convert_neighbor_to_html.py"
-            
+
             # Import and run the conversion function directly
             import json
             from convert_neighbor_to_html import generate_neighbor_reports
-            
+
             # Load the JSON data
             json_path = self.script_dir / self.json_file
-            with open(json_path, 'r') as f:
+            with open(json_path, "r") as f:
                 data = json.load(f)
-            
+
             # Run the conversion
             generate_neighbor_reports(data)
-            
+
             self.print_success("HTML conversion completed successfully")
             return True
 
@@ -297,10 +292,13 @@ Examples:
     parser.add_argument(
         "--verbose", "-v", action="store_true", help="Enable verbose logging"
     )
-    
+
     parser.add_argument(
-        "--json-file", "-j", type=str, default="neighbor_outputs/neighbor_final_merged.json",
-        help="JSON file to convert (default: neighbor_outputs/neighbor_final_merged.json)"
+        "--json-file",
+        "-j",
+        type=str,
+        default="neighbor_outputs/neighbor_final_merged.json",
+        help="JSON file to convert (default: neighbor_outputs/neighbor_final_merged.json)",
     )
 
     return parser.parse_args()

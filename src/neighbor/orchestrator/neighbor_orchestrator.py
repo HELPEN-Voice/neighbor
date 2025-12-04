@@ -324,7 +324,9 @@ class NeighborOrchestrator:
 
                 # Multiple entries with similar names - merge them
                 names_in_group = [e.get("name", "") for e in group]
-                print(f"[DEDUP] Found {len(group)} similar entries: {names_in_group}, merging...")
+                print(
+                    f"[DEDUP] Found {len(group)} similar entries: {names_in_group}, merging..."
+                )
 
                 # Combine all PINs
                 all_pins = []
@@ -363,7 +365,9 @@ class NeighborOrchestrator:
                 merged_entry["confidence"] = lowest_confidence
                 # Keep only the winning entry's claims (don't combine)
 
-                print(f"[DEDUP] Merged into '{merged_entry.get('name')}': {len(unique_pins)} PINs, stance={merged_entry.get('noted_stance')}, confidence={lowest_confidence}")
+                print(
+                    f"[DEDUP] Merged into '{merged_entry.get('name')}': {len(unique_pins)} PINs, stance={merged_entry.get('noted_stance')}, confidence={lowest_confidence}"
+                )
                 deduped.append(merged_entry)
 
             # Return deduped residents + untouched entities

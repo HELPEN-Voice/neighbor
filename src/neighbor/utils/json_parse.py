@@ -6,7 +6,7 @@ from typing import Optional, Tuple
 def _strip_trailing_commas(json_str: str) -> str:
     """Remove trailing commas before } or ] which are invalid JSON but common LLM output."""
     # Remove trailing commas before closing braces/brackets (with optional whitespace)
-    return re.sub(r',(\s*[}\]])', r'\1', json_str)
+    return re.sub(r",(\s*[}\]])", r"\1", json_str)
 
 
 def _extract_markdown(text: str) -> Optional[str]:

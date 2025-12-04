@@ -2,6 +2,7 @@
 """
 Apply deduplication to neighbor_final_merged.json without re-running the full pipeline.
 """
+
 import json
 from pathlib import Path
 from typing import List, Dict, Any
@@ -66,7 +67,9 @@ def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             continue
 
         names_in_group = [e.get("name", "") for e in group]
-        print(f"[DEDUP] Found {len(group)} similar entries: {names_in_group}, merging...")
+        print(
+            f"[DEDUP] Found {len(group)} similar entries: {names_in_group}, merging..."
+        )
 
         # Combine all PINs
         all_pins = []
@@ -76,7 +79,7 @@ def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                 all_pins.extend(pins)
             elif pins:
                 all_pins.append(pins)
-        
+
         seen_pins = set()
         unique_pins = []
         for pin in all_pins:
@@ -105,7 +108,9 @@ def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         merged_entry["confidence"] = lowest_confidence
         # Keep only the winning entry's claims (don't combine)
 
-        print(f"[DEDUP] Merged into '{merged_entry.get('name')}': {len(unique_pins)} PINs, stance={merged_entry.get('noted_stance')}, confidence={lowest_confidence}")
+        print(
+            f"[DEDUP] Merged into '{merged_entry.get('name')}': {len(unique_pins)} PINs, stance={merged_entry.get('noted_stance')}, confidence={lowest_confidence}"
+        )
         deduped.append(merged_entry)
 
     return deduped
@@ -114,21 +119,21 @@ def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 if __name__ == "__main__":
     base = Path(__file__).parent
     json_path = base / "neighbor_outputs" / "neighbor_final_merged.json"
-    
+
     print(f"Loading {json_path}...")
     with open(json_path) as f:
         data = json.load(f)
-    
+
     original_count = len(data["neighbors"])
     print(f"Original neighbor count: {original_count}")
-    
+
     data["neighbors"] = dedupe_neighbors(data["neighbors"])
-    
+
     new_count = len(data["neighbors"])
     print(f"After dedup: {new_count} ({original_count - new_count} removed)")
-    
+
     # Save back
     with open(json_path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    
+
     print(f"Saved to {json_path}")

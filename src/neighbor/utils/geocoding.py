@@ -81,19 +81,14 @@ async def reverse_geocode_azure(
                         full_address = address.get("formattedAddress", "")
 
                         # Detect if area is unincorporated:
-                        # If adminDistricts[1] is a County (not a City), the locality
-                        # is just the postal city, not the actual municipality.
-                        # In this case, leave city empty so we use county instead.
-                        is_unincorporated = False
-                        if len(admin_districts) > 1:
-                            admin2_name = admin_districts[1].get("name", "")
-                            # If second admin district is a county (not an independent city),
-                            # the area is unincorporated
-                            if "County" in admin2_name and "City" not in admin2_name:
-                                is_unincorporated = True
+                        # If Azure Maps returns no locality, the area is likely unincorporated.
+                        # Most US cities/villages are within counties, so we can't use
+                        # "County" in adminDistricts[1] as a signal - that would incorrectly
+                        # mark places like Dallas, WI (village in Barron County) as unincorporated.
+                        is_unincorporated = not locality
 
-                        # Only use locality as city if it's an incorporated area
-                        city = "" if is_unincorporated else locality
+                        # Use locality as city if present
+                        city = locality if locality else ""
 
                         result = {
                             "county": county or None,
@@ -101,13 +96,18 @@ async def reverse_geocode_azure(
                             "city": city or None,
                             "address": full_address or None,
                             "is_unincorporated": is_unincorporated,
-                            "postal_city": locality or None,  # Always include postal city for reference
+                            "postal_city": locality
+                            or None,  # Always include postal city for reference
                         }
 
                         if is_unincorporated:
-                            print(f"✓ Geocoded: {lat}, {lon} -> {county}, {state} (unincorporated, postal city: {locality})")
+                            print(
+                                f"✓ Geocoded: {lat}, {lon} -> {county}, {state} (unincorporated, postal city: {locality})"
+                            )
                         else:
-                            print(f"✓ Geocoded: {lat}, {lon} -> {city}, {county}, {state}")
+                            print(
+                                f"✓ Geocoded: {lat}, {lon} -> {city}, {county}, {state}"
+                            )
                         return result
                 else:
                     error_text = await response.text()

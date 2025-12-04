@@ -78,7 +78,9 @@ def combine_pdfs(location=None, date=None, run_id=None):
                                 # Use city if available, otherwise fall back to county
                                 place = city if city else county
                                 location = (
-                                    f"{place}, {state}" if place and state else "Unknown"
+                                    f"{place}, {state}"
+                                    if place and state
+                                    else "Unknown"
                                 )
                             if not date:
                                 date = datetime.now().strftime("%Y-%m-%d")
