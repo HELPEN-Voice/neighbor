@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """
-Ad hoc Regrid data extraction script for testing the neighbor pipeline
-without consuming API tokens unnecessarily.
+Ad hoc Regrid data extraction script for testing the neighbor pipeline.
 
 This script fetches parcel data from Regrid API and saves it to CSV/JSON formats
 that match what the neighbor pipeline expects, allowing for offline testing.
 
+Uses expanding radii starting at 0.25 miles to ensure nearest parcels first,
+stopping when max_parcels (default 50) unique parcels are accumulated.
+This ensures billing optimization while guaranteeing nearest-neighbor ordering.
+
 Usage:
     python regrid_adhoc.py --coords 44.8951,-90.4420
     python regrid_adhoc.py --pin 018.0508.000 --county-path /us/wi/clark/green-grove
+    python regrid_adhoc.py --coords 44.8951,-90.4420 --max-parcels 100 --initial-radius 0.5
 """
 
 import requests
@@ -256,167 +260,202 @@ def get_closest_landowners(
     api_token: str,
     lat: float,
     lon: float,
-    target_count: int = 30,
+    max_parcels: int = 50,
     adjacent_pins: Set[str] = None,
+    initial_radius_mi: float = 0.25,
 ) -> List[Dict]:
     """
     Fetches parcels for the closest distinct landowners to a central point.
     Returns a list of owner dictionaries matching the pipeline format.
+
+    Uses expanding radii starting at 0.25 miles to ensure nearest parcels first,
+    stopping when max_parcels unique parcels are accumulated.
+
+    Args:
+        api_token: Regrid API token
+        lat: Latitude of center point
+        lon: Longitude of center point
+        max_parcels: Maximum number of parcels to fetch (billing optimization)
+        adjacent_pins: Set of PINs that are adjacent to target parcel
+        initial_radius_mi: Starting radius in miles (doubles each iteration)
     """
     base_url = "https://app.regrid.com/api/v2/parcels/point"
-    radius_meters = 1609  # Start with 1 mile
-    limit = 100
     max_radius_meters = 32000  # ~20 miles max
+    radius_mi = initial_radius_mi
+    radius_meters = radius_mi * 1609.34
+
+    # Track unique parcels across expansions (by PIN)
+    all_parcels = {}  # pin -> parcel feature
     all_owners = OrderedDict()
 
-    print(f"\n🔍 Searching for {target_count} closest distinct landowners...")
+    print(f"\n🔍 Fetching up to {max_parcels} nearest parcels using expanding radii...")
 
-    while len(all_owners) < target_count and radius_meters <= max_radius_meters:
+    while len(all_parcels) < max_parcels and radius_meters <= max_radius_meters:
+        # Request enough to potentially fill remaining quota
+        remaining = max_parcels - len(all_parcels)
+        request_limit = min(remaining + 20, 100)
+
         params = {
             "lat": lat,
             "lon": lon,
             "radius": int(radius_meters),
-            "limit": min(limit, 500),
+            "limit": request_limit,
             "token": api_token,
         }
 
+        print(f"   Searching {radius_mi:.2f} mi radius ({int(radius_meters)}m)...")
+
         try:
-            print(f"   Fetching parcels within {int(radius_meters)}m radius...")
             response = requests.get(base_url, params=params)
             response.raise_for_status()
             data = response.json()
             parcels = data.get("parcels", {}).get("features", [])
 
             if not parcels:
-                print(f"   No new parcels found within {int(radius_meters)}m radius.")
-                if not all_owners:
-                    return []
-                else:
-                    break
+                print(f"      No parcels found, expanding radius...")
+                radius_mi *= 2
+                radius_meters = radius_mi * 1609.34
+                continue
 
-            # Process parcels
+            # Add new unique parcels (by PIN)
+            new_count = 0
             for parcel in parcels:
-                properties = parcel.get("properties", {})
-                fields = properties.get("fields", {})
-                enhanced = properties.get("enhanced_ownership", [])
+                if len(all_parcels) >= max_parcels:
+                    break
+                pin = parcel.get("properties", {}).get("fields", {}).get("parcelnumb")
+                if pin and pin not in all_parcels:
+                    all_parcels[pin] = parcel
+                    new_count += 1
 
-                # Extract owner name - try enhanced ownership first
-                owner_name = None
-                if enhanced and len(enhanced) > 0:
-                    eo = enhanced[0]
-                    if eo.get("eo_owner"):
-                        owner_name = str(eo["eo_owner"])
-                    elif eo.get("eo_ownerfirst") and eo.get("eo_ownerlast"):
-                        owner_name = f"{eo['eo_ownerfirst']} {eo['eo_ownerlast']}"
+            print(f"      Found {new_count} new parcels (total: {len(all_parcels)})")
 
-                # Fallback to regular fields
-                if not owner_name:
-                    for field in [
-                        "owner",
-                        "owner1",
-                        "ownername",
-                        "ownname1",
-                        "owner_name",
-                    ]:
-                        if fields.get(field):
-                            value = str(fields[field]).strip()
-                            if value and value.lower() not in [
-                                "null",
-                                "none",
-                                "",
-                                "unknown",
-                                "unavailable",
-                            ]:
-                                owner_name = value
-                                break
-
-                if not owner_name:
-                    continue
-
-                # Clean and title case
-                owner_name = owner_name.strip().title()
-
-                # Get a normalized key for comparison
-                name_key = get_name_key(owner_name)
-
-                # Extract PIN
-                pin = (
-                    fields.get("parcelnumb")
-                    or fields.get("parcelnumb_no_formatting")
-                    or fields.get("ll_uuid")
-                    or ""
-                )
-
-                # Add to owners dict using name key
-                if name_key not in all_owners:
-                    if len(all_owners) >= target_count:
-                        break
-                    all_owners[name_key] = {
-                        "name": owner_name,  # Store the actual name (will be updated if more complete version found)
-                        "entity_type": guess_entity_type(owner_name),
-                        "pins": [],
-                        "owns_adjacent_parcel": "No",
-                        "acres": 0.0,
-                        "assessed_value": 0.0,
-                        "mailing_address": None,
-                        "name_variations": set(),  # Track original variations
-                    }
-                else:
-                    # Owner already exists - update with most complete name
-                    existing_name = all_owners[name_key]["name"]
-                    most_complete_name = choose_most_complete_name(
-                        existing_name, owner_name
-                    )
-                    all_owners[name_key]["name"] = most_complete_name
-
-                # Track original name variation
-                all_owners[name_key]["name_variations"].add(owner_name)
-
-                # Add PIN if not already present
-                if pin and pin not in all_owners[name_key]["pins"]:
-                    all_owners[name_key]["pins"].append(pin)
-
-                    # Check if adjacent
-                    if adjacent_pins and pin in adjacent_pins:
-                        all_owners[name_key]["owns_adjacent_parcel"] = "Yes"
-
-                    # Accumulate acres and value
-                    all_owners[name_key]["acres"] += float(
-                        fields.get("ll_gisacre", 0) or 0
-                    )
-                    all_owners[name_key]["assessed_value"] += float(
-                        fields.get("parval", 0) or 0
-                    )
-
-                    # Get mailing address (only set once)
-                    if not all_owners[name_key]["mailing_address"]:
-                        mailing_parts = [
-                            fields.get("mailadd"),
-                            fields.get("mail_city"),
-                            fields.get("mail_state2"),
-                        ]
-                        mailing_address = ", ".join(filter(None, mailing_parts))
-                        if fields.get("mail_zip"):
-                            mailing_address += f" {fields.get('mail_zip')}"
-                        if mailing_address:
-                            all_owners[name_key]["mailing_address"] = mailing_address
-
-            print(f"   Found {len(all_owners)} distinct owners so far...")
-
-            if len(all_owners) >= target_count:
+            if len(all_parcels) >= max_parcels:
+                print(f"   Reached {max_parcels} parcel limit")
                 break
 
-            # Expand search radius
-            radius_meters = min(radius_meters * 2, max_radius_meters)
-            limit = min(limit * 2, 500)
+            # Expand radius for next iteration
+            radius_mi *= 2
+            radius_meters = radius_mi * 1609.34
 
         except Exception as e:
             print(f"⚠️ Error fetching from Regrid: {e}")
             break
 
-    # Convert to list and limit to target_count
+    if not all_parcels:
+        print("   No parcels found within maximum search radius.")
+        return []
+
+    print(f"   Accumulated {len(all_parcels)} unique parcels")
+    parcels = list(all_parcels.values())
+
+    # Process parcels to extract unique owners
+    for parcel in parcels:
+        properties = parcel.get("properties", {})
+        fields = properties.get("fields", {})
+        enhanced = properties.get("enhanced_ownership", [])
+
+        # Extract owner name - try enhanced ownership first
+        owner_name = None
+        if enhanced and len(enhanced) > 0:
+            eo = enhanced[0]
+            if eo.get("eo_owner"):
+                owner_name = str(eo["eo_owner"])
+            elif eo.get("eo_ownerfirst") and eo.get("eo_ownerlast"):
+                owner_name = f"{eo['eo_ownerfirst']} {eo['eo_ownerlast']}"
+
+        # Fallback to regular fields
+        if not owner_name:
+            for field in [
+                "owner",
+                "owner1",
+                "ownername",
+                "ownname1",
+                "owner_name",
+            ]:
+                if fields.get(field):
+                    value = str(fields[field]).strip()
+                    if value and value.lower() not in [
+                        "null",
+                        "none",
+                        "",
+                        "unknown",
+                        "unavailable",
+                    ]:
+                        owner_name = value
+                        break
+
+        if not owner_name:
+            continue
+
+        # Clean and title case
+        owner_name = owner_name.strip().title()
+
+        # Get a normalized key for comparison
+        name_key = get_name_key(owner_name)
+
+        # Extract PIN
+        pin = (
+            fields.get("parcelnumb")
+            or fields.get("parcelnumb_no_formatting")
+            or fields.get("ll_uuid")
+            or ""
+        )
+
+        # Add to owners dict using name key
+        if name_key not in all_owners:
+            all_owners[name_key] = {
+                "name": owner_name,
+                "entity_type": guess_entity_type(owner_name),
+                "pins": [],
+                "owns_adjacent_parcel": "No",
+                "acres": 0.0,
+                "assessed_value": 0.0,
+                "mailing_address": None,
+                "name_variations": set(),
+            }
+        else:
+            # Owner already exists - update with most complete name
+            existing_name = all_owners[name_key]["name"]
+            most_complete_name = choose_most_complete_name(
+                existing_name, owner_name
+            )
+            all_owners[name_key]["name"] = most_complete_name
+
+        # Track original name variation
+        all_owners[name_key]["name_variations"].add(owner_name)
+
+        # Add PIN if not already present
+        if pin and pin not in all_owners[name_key]["pins"]:
+            all_owners[name_key]["pins"].append(pin)
+
+            # Check if adjacent
+            if adjacent_pins and pin in adjacent_pins:
+                all_owners[name_key]["owns_adjacent_parcel"] = "Yes"
+
+            # Accumulate acres and value
+            all_owners[name_key]["acres"] += float(
+                fields.get("ll_gisacre", 0) or 0
+            )
+            all_owners[name_key]["assessed_value"] += float(
+                fields.get("parval", 0) or 0
+            )
+
+            # Get mailing address (only set once)
+            if not all_owners[name_key]["mailing_address"]:
+                mailing_parts = [
+                    fields.get("mailadd"),
+                    fields.get("mail_city"),
+                    fields.get("mail_state2"),
+                ]
+                mailing_address = ", ".join(filter(None, mailing_parts))
+                if fields.get("mail_zip"):
+                    mailing_address += f" {fields.get('mail_zip')}"
+                if mailing_address:
+                    all_owners[name_key]["mailing_address"] = mailing_address
+
+    # Convert to list (return all distinct owners found from the parcels)
     result = []
-    for owner_data in list(all_owners.values())[:target_count]:
+    for owner_data in list(all_owners.values()):
         # Log merged name variations if any
         if len(owner_data.get("name_variations", set())) > 1:
             variations = owner_data["name_variations"]
@@ -429,7 +468,7 @@ def get_closest_landowners(
         }
         result.append(clean_owner_data)
 
-    print(f"✅ Returning {len(result)} unique owners")
+    print(f"✅ Extracted {len(result)} distinct owners from {len(parcels)} parcels")
     return result
 
 
@@ -525,10 +564,16 @@ def main():
         help='County path for PIN search (e.g., "/us/wi/clark/green-grove")',
     )
     parser.add_argument(
-        "--count",
+        "--max-parcels",
         type=int,
-        default=30,
-        help="Number of distinct owners to find (default: 30)",
+        default=50,
+        help="Maximum parcels to fetch from Regrid API (default: 50, billing optimization)",
+    )
+    parser.add_argument(
+        "--initial-radius",
+        type=float,
+        default=0.25,
+        help="Starting search radius in miles, doubles each iteration (default: 0.25)",
     )
     parser.add_argument(
         "--output-dir",
@@ -579,8 +624,9 @@ def main():
         api_token,
         target_info["lat"],
         target_info["lon"],
-        target_count=args.count,
+        max_parcels=args.max_parcels,
         adjacent_pins=adjacent_pins,
+        initial_radius_mi=args.initial_radius,
     )
 
     if not owners_data:

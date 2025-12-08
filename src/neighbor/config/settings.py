@@ -24,8 +24,9 @@ class NeighborSettings(BaseSettings):
 
     # Concurrency & batching
     BATCH_SIZE: int = 5
-    MAX_NEIGHBORS: int = 30
-    DEFAULT_RADIUS_MILES: float = 0.5
+    MAX_NEIGHBORS: int = 30  # Max owners to return
+    MAX_PARCELS: int = 50  # Hard cap on parcels fetched from Regrid API (billing optimization)
+    DEFAULT_RADIUS_MILES: float = 0.25  # Starting radius for expansion (doubles each iteration)
     CONCURRENCY_LIMIT: int = 15  # guardrail if you want to cap in dense areas
 
     # Future toggles (not used yet; here for forward-compat)

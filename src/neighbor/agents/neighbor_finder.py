@@ -143,100 +143,113 @@ class NeighborFinder:
         self,
         lat: float,
         lon: float,
-        initial_radius_mi: float = 0.5,
+        initial_radius_mi: float = 0.25,
         target_count: int = 30,
         adjacent_pins: Optional[set] = None,
     ) -> List[Dict[str, Any]]:
         """
-        Query Regrid API for parcels, expanding radius until target_count distinct owners found.
+        Query Regrid API for parcels using expanding radii to ensure nearest parcels first.
+
+        Starts at a small radius (0.25 mi) and expands until MAX_PARCELS (50) unique parcels
+        are accumulated. This guarantees we get the truly nearest parcels while capping
+        total parcel records for billing optimization.
+
         Also adds owns_adjacent_parcel flag to owners.
         Returns: [{ "name": "Karen Newman", "entity_type": "person", "pins": ["12-34-56"], "owns_adjacent_parcel": "No" }, ...]
+
+        Note: target_count caps the number of owners returned (default 30).
         """
         if not self.api_key:
             raise ValueError("REGRID_API_KEY not found in environment variables")
 
-        radius_meters = initial_radius_mi * 1609.34
-        limit = 100
+        max_parcels = settings.MAX_PARCELS  # Hard cap on parcels (billing optimization)
         max_radius_meters = 32000  # ~20 miles max
+        radius_mi = initial_radius_mi
+        radius_meters = radius_mi * 1609.34
 
-        all_owners = {}  # Accumulate owners across radius expansions
         url = f"{self.base_url}/parcels/point"
 
-        print(f"\nSearching for {target_count} closest distinct landowners...")
+        # Track unique parcels across expansions (by PIN)
+        all_parcels = {}  # pin -> parcel feature
 
-        while len(all_owners) < target_count and radius_meters <= max_radius_meters:
-            params = {
-                "lat": lat,
-                "lon": lon,
-                "radius": int(radius_meters),
-                "token": self.api_key,
-                "limit": min(limit, 500),  # Cap at 500 per request
-            }
+        print(f"\nFetching up to {max_parcels} nearest parcels using expanding radii...")
 
-            print(f"Fetching parcels within {int(radius_meters)}m radius...")
+        async with aiohttp.ClientSession() as session:
+            while len(all_parcels) < max_parcels and radius_meters <= max_radius_meters:
+                # Request enough to potentially fill remaining quota
+                remaining = max_parcels - len(all_parcels)
+                request_limit = min(remaining + 20, 100)  # Small buffer for deduplication
 
-            try:
-                async with aiohttp.ClientSession() as session:
+                params = {
+                    "lat": lat,
+                    "lon": lon,
+                    "radius": int(radius_meters),
+                    "token": self.api_key,
+                    "limit": request_limit,
+                }
+
+                print(f"  Searching {radius_mi:.2f} mi radius ({int(radius_meters)}m)...")
+
+                try:
                     async with session.get(url, params=params) as response:
                         if response.status == 200:
                             data = await response.json()
                             parcels = data.get("parcels", {}).get("features", [])
 
                             if not parcels:
-                                print(
-                                    f"No new parcels found within {int(radius_meters)}m radius."
-                                )
-                                if not all_owners:
-                                    return []
-                                else:
+                                print(f"    No parcels found, expanding radius...")
+                                radius_mi *= 2
+                                radius_meters = radius_mi * 1609.34
+                                continue
+
+                            # Add new unique parcels (by PIN)
+                            new_count = 0
+                            for parcel in parcels:
+                                if len(all_parcels) >= max_parcels:
                                     break
+                                pin = (
+                                    parcel.get("properties", {})
+                                    .get("fields", {})
+                                    .get("parcelnumb")
+                                )
+                                if pin and pin not in all_parcels:
+                                    all_parcels[pin] = parcel
+                                    new_count += 1
 
-                            # Process parcels and merge with existing owners
-                            new_owners = self._process_parcels(parcels, adjacent_pins)
+                            print(f"    Found {new_count} new parcels (total: {len(all_parcels)})")
 
-                            # Merge new owners with existing, preserving order
-                            for owner_name, owner_data in new_owners.items():
-                                if owner_name not in all_owners:
-                                    if len(all_owners) >= target_count:
-                                        break
-                                    all_owners[owner_name] = owner_data
-                                else:
-                                    # Merge PINs if owner already exists
-                                    existing_pins = set(all_owners[owner_name]["pins"])
-                                    new_pins = set(owner_data["pins"])
-                                    all_owners[owner_name]["pins"] = list(
-                                        existing_pins | new_pins
-                                    )
-
-                                    # Update owns_adjacent_parcel flag if needed
-                                    if owner_data.get("owns_adjacent_parcel") == "Yes":
-                                        all_owners[owner_name][
-                                            "owns_adjacent_parcel"
-                                        ] = "Yes"
-
-                            print(f"Found {len(all_owners)} distinct owners so far...")
-
-                            if len(all_owners) >= target_count:
+                            if len(all_parcels) >= max_parcels:
+                                print(f"  Reached {max_parcels} parcel limit")
                                 break
 
-                            # Expand search if needed
-                            if len(all_owners) < target_count:
-                                radius_meters = min(
-                                    radius_meters * 2, max_radius_meters
-                                )
-                                limit = min(limit * 2, 500)
+                            # Expand radius for next iteration
+                            radius_mi *= 2
+                            radius_meters = radius_mi * 1609.34
                         else:
                             error_text = await response.text()
                             print(f"Regrid API error: {error_text[:500]}")
                             break
 
-            except Exception as e:
-                print(f"Error fetching from Regrid: {e}")
-                break
+                except Exception as e:
+                    print(f"Error fetching from Regrid: {e}")
+                    break
 
-        # Convert to list and limit to target_count
-        result = list(all_owners.values())[:target_count]
-        print(f"\nReturning {len(result)} unique owners")
+        if not all_parcels:
+            print("No parcels found within maximum search radius.")
+            return []
+
+        print(f"Accumulated {len(all_parcels)} unique parcels")
+
+        # Process all accumulated parcels to extract unique owners
+        parcel_features = list(all_parcels.values())
+        owners = self._process_parcels(parcel_features, adjacent_pins)
+
+        # Convert to list and cap at target_count owners
+        result = list(owners.values())
+        if len(result) > target_count:
+            result = result[:target_count]
+
+        print(f"Extracted {len(result)} distinct owners from {len(all_parcels)} parcels")
         return result
 
     async def find_by_location(
