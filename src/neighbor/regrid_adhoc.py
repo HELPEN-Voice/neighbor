@@ -313,7 +313,11 @@ def get_closest_landowners(
 
             if not parcels:
                 print(f"      No parcels found, expanding radius...")
-                radius_mi *= 2
+                # Use 1.5x multiplier up to 2 miles, then 2x after
+                if radius_mi < 2.0:
+                    radius_mi *= 1.5
+                else:
+                    radius_mi *= 2
                 radius_meters = radius_mi * 1609.34
                 continue
 
@@ -334,7 +338,11 @@ def get_closest_landowners(
                 break
 
             # Expand radius for next iteration
-            radius_mi *= 2
+            # Use 1.5x multiplier up to 2 miles, then 2x after
+            if radius_mi < 2.0:
+                radius_mi *= 1.5
+            else:
+                radius_mi *= 2
             radius_meters = radius_mi * 1609.34
 
         except Exception as e:
