@@ -180,6 +180,77 @@ class NeighborDBConnector:
                 f"💾 Saved {len(neighbors)} neighbor stakeholders to the database (run_id: {run_id})"
             )
 
+    def save_local_cluster_benchmark(
+        self,
+        run_id: str,
+        benchmark_data: dict,
+    ):
+        """
+        Save local cluster valuation benchmark to the database.
+
+        Args:
+            run_id: Unique identifier for this pipeline run
+            benchmark_data: Dictionary from LocalClusterBenchmark.to_dict()
+        """
+        if not self.conn:
+            print("⚠️ No database connection for saving benchmark")
+            return
+
+        sql = """
+            INSERT INTO local_cluster_benchmarks (
+                run_id,
+                coordinates,
+                state_code,
+                parcels_analyzed,
+                valid_residential_samples,
+                valid_ag_samples,
+                median_structure_value,
+                median_land_value_per_acre,
+                wealth_risk_level,
+                land_risk_level,
+                benchmark_json
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (run_id) DO UPDATE SET
+                coordinates = EXCLUDED.coordinates,
+                state_code = EXCLUDED.state_code,
+                parcels_analyzed = EXCLUDED.parcels_analyzed,
+                valid_residential_samples = EXCLUDED.valid_residential_samples,
+                valid_ag_samples = EXCLUDED.valid_ag_samples,
+                median_structure_value = EXCLUDED.median_structure_value,
+                median_land_value_per_acre = EXCLUDED.median_land_value_per_acre,
+                wealth_risk_level = EXCLUDED.wealth_risk_level,
+                land_risk_level = EXCLUDED.land_risk_level,
+                benchmark_json = EXCLUDED.benchmark_json,
+                created_at = CURRENT_TIMESTAMP;
+        """
+
+        try:
+            wealth = benchmark_data.get("community_wealth_proxy", {})
+            land = benchmark_data.get("land_value_proxy", {})
+
+            with self.conn.cursor() as cur:
+                cur.execute(
+                    sql,
+                    (
+                        run_id,
+                        benchmark_data.get("coordinates"),
+                        benchmark_data.get("state_code"),
+                        benchmark_data.get("parcels_analyzed"),
+                        wealth.get("valid_samples"),
+                        land.get("valid_samples"),
+                        wealth.get("median_structure_value"),
+                        land.get("median_value_per_acre"),
+                        wealth.get("risk_level"),
+                        land.get("risk_level"),
+                        json.dumps(benchmark_data),  # Full JSON for flexibility
+                    ),
+                )
+                self.conn.commit()
+                print(f"💾 Saved local cluster benchmark to database (run_id: {run_id})")
+        except Exception as e:
+            print(f"⚠️ Failed to save benchmark to database: {e}")
+
     def close(self):
         """Closes the database connection."""
         if self.conn:

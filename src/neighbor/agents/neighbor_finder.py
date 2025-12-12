@@ -12,6 +12,7 @@ class NeighborFinder:
         self.api_key = settings.REGRID_API_KEY or os.getenv("REGRID_API_KEY")
         self.base_url = "https://app.regrid.com/api/v2"
         self.target_parcel_info = None  # Store target parcel info
+        self.raw_parcels = []  # Store raw parcel features for valuation service
 
     async def get_target_parcel(
         self,
@@ -240,12 +241,16 @@ class NeighborFinder:
 
         if not all_parcels:
             print("No parcels found within maximum search radius.")
+            self.raw_parcels = []
             return []
 
         print(f"Accumulated {len(all_parcels)} unique parcels")
 
-        # Process all accumulated parcels to extract unique owners
+        # Store raw parcels for valuation service access
         parcel_features = list(all_parcels.values())
+        self.raw_parcels = parcel_features
+
+        # Process all accumulated parcels to extract unique owners
         owners = self._process_parcels(parcel_features, adjacent_pins)
 
         # Convert to list and cap at target_count owners

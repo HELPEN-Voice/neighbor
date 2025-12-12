@@ -11,6 +11,7 @@ from ..models.schemas import NeighborResult, NeighborProfile
 from ..agents.neighbor_finder import NeighborFinder
 from ..utils.entity import guess_entity_type
 from ..utils.db_connector import NeighborDBConnector
+from ..services.local_valuation import LocalValuationService
 
 # Engines
 from ..engines.base import ResearchEngine, ResearchEvent
@@ -569,5 +570,40 @@ class NeighborOrchestrator:
         except Exception as e:
             print(f"⚠️ Failed to save neighbors to database: {e}")
             # Don't fail the entire operation if database save fails
+
+        # Calculate and save local cluster valuation benchmark
+        try:
+            if self.finder.raw_parcels and state:
+                print(f"\n📊 Calculating local cluster valuation benchmark...")
+                valuation_service = LocalValuationService(state_code=state)
+                benchmark = valuation_service.calculate_benchmark(
+                    parcels=self.finder.raw_parcels,
+                    run_id=run_id,
+                    coordinates=location or f"{lat},{lon}" if lat and lon else "",
+                )
+                benchmark_dict = benchmark.to_dict()
+
+                # Save benchmark to JSON file
+                benchmark_file = output_dir / "local_cluster_benchmark.json"
+                with open(benchmark_file, "w") as f:
+                    json.dump(benchmark_dict, f, indent=2)
+                print(f"💾 Saved local cluster benchmark to: {benchmark_file.name}")
+
+                # Save to database
+                db = NeighborDBConnector()
+                if db.conn:
+                    db.save_local_cluster_benchmark(run_id=run_id, benchmark_data=benchmark_dict)
+                    db.close()
+
+                # Log summary
+                wealth = benchmark.community_wealth_proxy
+                land = benchmark.land_value_proxy
+                print(f"   Community Wealth Proxy: {wealth.formatted} ({wealth.risk_level}) - {wealth.valid_samples} samples")
+                print(f"   Land Value Proxy: {land.formatted} ({land.risk_level}) - {land.valid_samples} samples")
+            else:
+                print("⚠️ Skipping valuation benchmark - no raw parcels or state available")
+        except Exception as e:
+            print(f"⚠️ Failed to calculate valuation benchmark: {e}")
+            # Don't fail the entire operation if valuation fails
 
         return final
