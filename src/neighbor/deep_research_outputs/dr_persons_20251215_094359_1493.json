@@ -1,0 +1,252 @@
+{
+  "timestamp": "2025-12-15T09:43:59.149459",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Phelps County",
+    "state": "NE",
+    "city": "Funk",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the profiled neighbors have publicly stated a stance on the proposed development or clean energy projects. The Schrock family stands out as particularly influential locally, while the other landowners appear to wield moderate to low community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Samuel T. Schrock III & Sharon K. Schrock",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005543.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Samuel T. Schrock III is part of a fourth-generation farm family in Phelps County, dating back to land acquired in 1908 ([nebraskacorn.gov](https://nebraskacorn.gov/cornstalk/families/proud-heritage-a-familys-history-of-corn-farming-in-nebraska/#:~:text=My%20great,I%E2%80%99m%20the%20fourth%20generation)). His wife, Sharon K. Schrock, co-compiled a book documenting the 100-year history of their family farm (1908–2008) ([birkey.org](https://birkey.org/schrock-immigrant-day-family-reunion/schrock-reunion-andrew-schrock-1803-1855/#:~:text=Schrock%20Reunion%20%E2%80%93%20Andrew%20Schrock,Sharon%20Schrock%20and%20Nancy%20Morse)). Schrock’s brother, Ed Schrock, served 14 years as a Nebraska state senator and is a past Corn Growers president and current public power district board member ([www.nppd.com](https://www.nppd.com/press-releases/ed-schrock-re-elected-nppd-board-chairman#:~:text=Prior%20to%20his%20election%20to,Association%20and%20a%20past%20member)) ([nebraskacorn.gov](https://nebraskacorn.gov/cornstalk/families/proud-heritage-a-familys-history-of-corn-farming-in-nebraska/#:~:text=There%E2%80%99s%20six%20of%20us%3A%20my,he%E2%80%99ll%20be%20the%20fifth%20generation)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Century farm; brother state senator",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Leverage the Schrock family’s deep agricultural roots. Enlist a respected peer (such as Ed Schrock) to discuss how the project can coexist with their farm’s legacy and preserve the land for future generations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Roberta K. Weber",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005567.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roberta K. Weber owns a parcel near Funk, Nebraska, but no public records indicate she holds any civic positions or has taken a public stance on local developments ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6637%202008%20,Helen%20Anderson)). No meeting minutes or news articles naming Weber were located in searches of Phelps County public archives as of this writing ([sortedbyname.com](https://sortedbyname.com/letter_w/weber/index_16.html#:~:text=,WEBER)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public role; low visibility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach privately through a friendly introduction by a mutual neighbor. Emphasize transparency and quiet communication, as she has kept a low community profile."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Roger K. Cain & Doris L. Cain",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005571.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roger K. Cain comes from a long-established local farm family; an earlier generation (Robert Cain) received a Pioneer Family Farm award in 1991 for over a century of continuous ownership ([aksarben.org](https://aksarben.org/farm-families/#:~:text=1991%20%20,Clinton%20Burgeson%20Farms%20Inc)). No records were found of Roger or Doris Cain holding public office or speaking in county meetings on development issues ([aksarben.org](https://aksarben.org/farm-families/#:~:text=1991%20%20,Clinton%20Burgeson%20Farms%20Inc)), suggesting they have stayed active mainly in farming.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime farm family; respected locals",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Acknowledge the Cain family’s generations of farming in initial outreach. Emphasize how project plans will respect and perhaps even financially support the long-term use of their land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Erick Ray Erickson Jr. et al.",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "0005501.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Erickson family has farmed in Phelps County for generations, with an Erickson farm honored as a century-old Pioneer Farm in 1988 ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6689%201989%20,Laura%20Polhemus)). Multiple Erickson family parcels were recognized in the late 1980s ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6685%201989%20,Lamont%20%26%20Jean%20Englad)), indicating the land may now be held by several heirs. No public comments by Erick Ray Erickson Jr. or his family on development or energy projects were found ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6689%201989%20,Laura%20Polhemus)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Old family farm; multi-generational ties",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Coordinate with the family’s point of contact (e.g., Timothy Erickson) to start dialogue. Emphasize the project’s respect for their family’s long stewardship of the land and clarify long-term land restoration plans."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Roxanna L. Leff",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005566.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roxanna L. Leff is the step-daughter of the late Charles E. Leff, a Holdrege community volunteer who, along with his wife, was active in local civic organizations ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=On%20November%206%2C%201981%2C%20Dee,Wheels%20together)) ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=husband%2C%20William%3B%20and%20Roxanna%20Leff%3B,law%3A%20Joy%20Reed%20and)). Roxanna herself has not been identified in any public leadership roles or statements on development issues in Phelps County ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=On%20November%206%2C%201981%2C%20Dee,Wheels%20together)). Her name appears mainly in family context (e.g., as a survivor in local obituaries) rather than news about civic matters ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=husband%2C%20William%3B%20and%20Roxanna%20Leff%3B,law%3A%20Joy%20Reed%20and)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Known by family name; no official role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through a neighborly, community-oriented appeal, mentioning her family’s history of civic-mindedness. Highlight community benefits of the project in a respectful, personal conversation to honor the legacy of service associated with her family."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the profiled neighbors have publicly stated a stance on the proposed development or clean energy projects. The Schrock family stands out as particularly influential locally, while the other landowners appear to wield moderate to low community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Samuel T. Schrock III & Sharon K. Schrock\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005543.00\"],\n      \"claims\": \"Samuel T. Schrock III is part of a fourth-generation farm family in Phelps County, dating back to land acquired in 1908 ([nebraskacorn.gov](https://nebraskacorn.gov/cornstalk/families/proud-heritage-a-familys-history-of-corn-farming-in-nebraska/#:~:text=My%20great,I%E2%80%99m%20the%20fourth%20generation)). His wife, Sharon K. Schrock, co-compiled a book documenting the 100-year history of their family farm (1908–2008) ([birkey.org](https://birkey.org/schrock-immigrant-day-family-reunion/schrock-reunion-andrew-schrock-1803-1855/#:~:text=Schrock%20Reunion%20%E2%80%93%20Andrew%20Schrock,Sharon%20Schrock%20and%20Nancy%20Morse)). Schrock’s brother, Ed Schrock, served 14 years as a Nebraska state senator and is a past Corn Growers president and current public power district board member ([www.nppd.com](https://www.nppd.com/press-releases/ed-schrock-re-elected-nppd-board-chairman#:~:text=Prior%20to%20his%20election%20to,Association%20and%20a%20past%20member)) ([nebraskacorn.gov](https://nebraskacorn.gov/cornstalk/families/proud-heritage-a-familys-history-of-corn-farming-in-nebraska/#:~:text=There%E2%80%99s%20six%20of%20us%3A%20my,he%E2%80%99ll%20be%20the%20fifth%20generation)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Century farm; brother state senator\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Leverage the Schrock family’s deep agricultural roots. Enlist a respected peer (such as Ed Schrock) to discuss how the project can coexist with their farm’s legacy and preserve the land for future generations.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Roberta K. Weber\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005567.00\"],\n      \"claims\": \"Roberta K. Weber owns a parcel near Funk, Nebraska, but no public records indicate she holds any civic positions or has taken a public stance on local developments ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6637%202008%20,Helen%20Anderson)). No meeting minutes or news articles naming Weber were located in searches of Phelps County public archives as of this writing ([sortedbyname.com](https://sortedbyname.com/letter_w/weber/index_16.html#:~:text=,WEBER)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public role; low visibility\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach privately through a friendly introduction by a mutual neighbor. Emphasize transparency and quiet communication, as she has kept a low community profile.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Roger K. Cain & Doris L. Cain\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005571.00\"],\n      \"claims\": \"Roger K. Cain comes from a long-established local farm family; an earlier generation (Robert Cain) received a Pioneer Family Farm award in 1991 for over a century of continuous ownership ([aksarben.org](https://aksarben.org/farm-families/#:~:text=1991%20%20,Clinton%20Burgeson%20Farms%20Inc)). No records were found of Roger or Doris Cain holding public office or speaking in county meetings on development issues ([aksarben.org](https://aksarben.org/farm-families/#:~:text=1991%20%20,Clinton%20Burgeson%20Farms%20Inc)), suggesting they have stayed active mainly in farming.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime farm family; respected locals\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Acknowledge the Cain family’s generations of farming in initial outreach. Emphasize how project plans will respect and perhaps even financially support the long-term use of their land.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Erick Ray Erickson Jr. et al.\",\n      \"entity_category\": \"Estate\",\n      \"entity_type\": \"Estate\",\n      \"pins\": [\"0005501.00\"],\n      \"claims\": \"The Erickson family has farmed in Phelps County for generations, with an Erickson farm honored as a century-old Pioneer Farm in 1988 ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6689%201989%20,Laura%20Polhemus)). Multiple Erickson family parcels were recognized in the late 1980s ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6685%201989%20,Lamont%20%26%20Jean%20Englad)), indicating the land may now be held by several heirs. No public comments by Erick Ray Erickson Jr. or his family on development or energy projects were found ([aksarben.org](https://aksarben.org/farm-families/#:~:text=match%20at%20L6689%201989%20,Laura%20Polhemus)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Old family farm; multi-generational ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Coordinate with the family’s point of contact (e.g., Timothy Erickson) to start dialogue. Emphasize the project’s respect for their family’s long stewardship of the land and clarify long-term land restoration plans.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Roxanna L. Leff\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005566.00\"],\n      \"claims\": \"Roxanna L. Leff is the step-daughter of the late Charles E. Leff, a Holdrege community volunteer who, along with his wife, was active in local civic organizations ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=On%20November%206%2C%201981%2C%20Dee,Wheels%20together)) ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=husband%2C%20William%3B%20and%20Roxanna%20Leff%3B,law%3A%20Joy%20Reed%20and)). Roxanna herself has not been identified in any public leadership roles or statements on development issues in Phelps County ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=On%20November%206%2C%201981%2C%20Dee,Wheels%20together)). Her name appears mainly in family context (e.g., as a survivor in local obituaries) rather than news about civic matters ([www.mccookgazette.com](https://www.mccookgazette.com/story/2991199.html#:~:text=husband%2C%20William%3B%20and%20Roxanna%20Leff%3B,law%3A%20Joy%20Reed%20and)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Known by family name; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through a neighborly, community-oriented appeal, mentioning her family’s history of civic-mindedness. Highlight community benefits of the project in a respectful, personal conversation to honor the legacy of service associated with her family.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

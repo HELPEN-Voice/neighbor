@@ -1,0 +1,220 @@
+{
+  "timestamp": "2025-12-15T09:37:32.521450",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Phelps County",
+    "state": "NE",
+    "city": "Funk",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the profiled neighbors have made a clear public stance for or against development; all are categorized with a noted stance of \"unknown.\" Most also wield limited community influence, as none hold public office or overt leadership roles. Only one neighbor (a decades-long local farmer) registers a moderate community standing due to long-term local ties, while the rest are considered to have low influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Joshua James Just",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005554.10",
+        "0005554.05",
+        "0005554.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joshua James Just was identified as residing in Funk, Phelps County ([www.wowt.com](https://www.wowt.com/content/news/Nebraska-man-sentenced-for-child-pornography-411674825.html#:~:text=Further%20investigation%20showed%20that%20the,his%20residence%20in%20Funk%20Nebraska)). He has no documented civic roles or public participation in local affairs (no mentions in county records or news) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Board%20Minutes%20Meets%20First%20Four,If)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic roles; limited community presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via any known local representative (e.g., mailing contact) since he appears absentee. Emphasize how the project can preserve property value and require minimal involvement on his part."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cain Farms Limited Partnership",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005569.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Not profiled (organization)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Handled in organization outreach (see ORG strategy)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Thomas E. Schrock",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005551.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas (Tom) Schrock is a long-time Phelps County farmer; his farm business was established in 1984 ([www.manta.com](https://www.manta.com/c/mm2xw39/tom-schrock#:~:text=Categorized%20under%20Farms,a%20staff%20of%20approximately%201)). He holds no public office or known advocacy roles – a search of local boards showed no reference to Schrock ([www.tribasinnrd.org](https://www.tribasinnrd.org/information-outreach/board-directors#:~:text=No%20,schrock)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime local farmer",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Have a respected local farmer or agricultural extension agent approach him. Highlight how the project will protect farmland integrity and benefit the farming community."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Barbara Kay Vercher",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005544.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records do not show an active local presence for Barbara Kay Vercher; a person of the same name passed away in Texas in 2006 ([www.legacy.com](https://www.legacy.com/us/obituaries/dfw/name/barbara-vercher-obituary?id=16031575#:~:text=Barbara%20R,16%2C%202006%2C%20at%20her%20home)). All listed survivors were from Texas, suggesting her Phelps County land is held via an estate or absentee ownership ([www.legacy.com](https://www.legacy.com/us/obituaries/dfw/name/barbara-vercher-obituary?id=16031575#:~:text=Survivors%3A%20Her%20husband%2C%20Willie%20E,of%20Kingsville%3B%20her%20stepson%2C%20Jeff)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Out-of-state owner; no local activity",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "decommissioning_assurance"
+        ],
+        "engage": "Contact the estate’s representative or property manager. Provide clear assurances on contract terms and end-of-project land restoration to address financial and liability concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Jordan R. Wells",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005554.15"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jordan R. Wells is identified as a landowner in the area, but no public information on him could be found beyond the property record. He has no apparent community profile or involvement (his name does not surface in local board or media references) ([www.tribasinnrd.org](https://www.tribasinnrd.org/information-outreach/board-directors#:~:text=No%20,wells)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public presence",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Initiate a direct, friendly outreach to introduce the project and hear his concerns. Emphasize protections for his property value and quality of life, as he is likely primarily concerned with the practical impacts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the profiled neighbors have made a clear public stance for or against development; all are categorized with a noted stance of \\\"unknown.\\\" Most also wield limited community influence, as none hold public office or overt leadership roles. Only one neighbor (a decades-long local farmer) registers a moderate community standing due to long-term local ties, while the rest are considered to have low influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Joshua James Just\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005554.10\", \"0005554.05\", \"0005554.00\"],\n      \"claims\": \"Joshua James Just was identified as residing in Funk, Phelps County ([www.wowt.com](https://www.wowt.com/content/news/Nebraska-man-sentenced-for-child-pornography-411674825.html#:~:text=Further%20investigation%20showed%20that%20the,his%20residence%20in%20Funk%20Nebraska)). He has no documented civic roles or public participation in local affairs (no mentions in county records or news) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Board%20Minutes%20Meets%20First%20Four,If)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic roles; limited community presence\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage via any known local representative (e.g., mailing contact) since he appears absentee. Emphasize how the project can preserve property value and require minimal involvement on his part.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Cain Farms Limited Partnership\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005569.00\"],\n      \"claims\": \"See ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Not profiled (organization)\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Handled in organization outreach (see ORG strategy).\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Thomas E. Schrock\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005551.00\"],\n      \"claims\": \"Thomas (Tom) Schrock is a long-time Phelps County farmer; his farm business was established in 1984 ([www.manta.com](https://www.manta.com/c/mm2xw39/tom-schrock#:~:text=Categorized%20under%20Farms,a%20staff%20of%20approximately%201)). He holds no public office or known advocacy roles – a search of local boards showed no reference to Schrock ([www.tribasinnrd.org](https://www.tribasinnrd.org/information-outreach/board-directors#:~:text=No%20,schrock)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime local farmer\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Have a respected local farmer or agricultural extension agent approach him. Highlight how the project will protect farmland integrity and benefit the farming community.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Barbara Kay Vercher\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005544.00\"],\n      \"claims\": \"Public records do not show an active local presence for Barbara Kay Vercher; a person of the same name passed away in Texas in 2006 ([www.legacy.com](https://www.legacy.com/us/obituaries/dfw/name/barbara-vercher-obituary?id=16031575#:~:text=Barbara%20R,16%2C%202006%2C%20at%20her%20home)). All listed survivors were from Texas, suggesting her Phelps County land is held via an estate or absentee ownership ([www.legacy.com](https://www.legacy.com/us/obituaries/dfw/name/barbara-vercher-obituary?id=16031575#:~:text=Survivors%3A%20Her%20husband%2C%20Willie%20E,of%20Kingsville%3B%20her%20stepson%2C%20Jeff)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-state owner; no local activity\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\", \"decommissioning_assurance\"],\n        \"engage\": \"Contact the estate’s representative or property manager. Provide clear assurances on contract terms and end-of-project land restoration to address financial and liability concerns.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Jordan R. Wells\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005554.15\"],\n      \"claims\": \"Jordan R. Wells is identified as a landowner in the area, but no public information on him could be found beyond the property record. He has no apparent community profile or involvement (his name does not surface in local board or media references) ([www.tribasinnrd.org](https://www.tribasinnrd.org/information-outreach/board-directors#:~:text=No%20,wells)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public presence\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Initiate a direct, friendly outreach to introduce the project and hear his concerns. Emphasize protections for his property value and quality of life, as he is likely primarily concerned with the practical impacts.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

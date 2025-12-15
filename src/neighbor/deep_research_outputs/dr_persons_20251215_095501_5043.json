@@ -1,0 +1,243 @@
+{
+  "timestamp": "2025-12-15T09:55:01.504468",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Phelps County",
+    "state": "NE",
+    "city": "Funk",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighboring landowners have no documented stance on development or clean energy projects, as no public statements or actions could be found. Their influence in the community appears limited, with none holding significant public offices or leadership roles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Nicholas M. Wells & Toni D. Wells",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005554.20"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Nicholas M. and Toni D. Wells are listed as co-owners of a Phelps County parcel (PIN 0005554.20) in the Funk area ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). They do not serve on the Funk village board or the county commission, and no public civic roles for them are noted ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public offices held",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, neighborly approach via a trusted local agricultural contact, emphasizing respect for their farmland and listening to any land-use concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James R. Clampitt & Amber L. Clampitt",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005570.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James R. and Amber L. Clampitt appear as owners of Phelps County parcel 0005570.00, a rural property near Funk ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). No evidence indicates that the Clampitts hold any public office or influence locally; they are not listed on village or county boards ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in person (potentially through a mutual farming acquaintance) and emphasize listening to their concerns, particularly regarding their property and privacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Randall E. Purdy & Paige L. Purdy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005565.10"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Randall E. and Paige L. Purdy are listed as property owners of parcel 0005565.10 in Phelps County, near the village of Funk ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). They have not been identified in local public affairs or leadership roles; their names do not appear on any local governing boards ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Connect with the Purdy family in a friendly, one-on-one manner through shared agricultural community ties, while assuring them that any development will not negatively impact their land or farming operations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Robert F. Just & Judy A. Just",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005554.09"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert F. and Judy A. Just are the recorded owners of a Phelps County parcel (PIN 0005554.09) in the Funk vicinity ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). There is no public record of the Justs participating in community boards or speaking on development issues; they do not hold any civic positions ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizens; not in leadership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A face-to-face meeting led by a familiar local community member (such as a neighboring farmer) is advisable, focusing on understanding any concerns they have about property values or community impact."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Rebecca A. Ritterbush",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005566.10"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rebecca A. Ritterbush is the recorded owner of parcel 0005566.10 in Phelps County ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). No public statements or official roles by Ritterbush were found in available local records; she is not involved in any village or county boards ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Rebecca Ritterbush privately with an emphasis on transparency and respect for her autonomy and land. A one-on-one conversation, possibly through a trusted community intermediary, could help build trust and address any questions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighboring landowners have no documented stance on development or clean energy projects, as no public statements or actions could be found. Their influence in the community appears limited, with none holding significant public offices or leadership roles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Nicholas M. Wells & Toni D. Wells\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005554.20\"],\n      \"claims\": \"Nicholas M. and Toni D. Wells are listed as co-owners of a Phelps County parcel (PIN 0005554.20) in the Funk area ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). They do not serve on the Funk village board or the county commission, and no public civic roles for them are noted ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public offices held\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a personal, neighborly approach via a trusted local agricultural contact, emphasizing respect for their farmland and listening to any land-use concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"James R. Clampitt & Amber L. Clampitt\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005570.00\"],\n      \"claims\": \"James R. and Amber L. Clampitt appear as owners of Phelps County parcel 0005570.00, a rural property near Funk ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). No evidence indicates that the Clampitts hold any public office or influence locally; they are not listed on village or county boards ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out in person (potentially through a mutual farming acquaintance) and emphasize listening to their concerns, particularly regarding their property and privacy.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Randall E. Purdy & Paige L. Purdy\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005565.10\"],\n      \"claims\": \"Randall E. and Paige L. Purdy are listed as property owners of parcel 0005565.10 in Phelps County, near the village of Funk ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). They have not been identified in local public affairs or leadership roles; their names do not appear on any local governing boards ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Connect with the Purdy family in a friendly, one-on-one manner through shared agricultural community ties, while assuring them that any development will not negatively impact their land or farming operations.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Robert F. Just & Judy A. Just\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005554.09\"],\n      \"claims\": \"Robert F. and Judy A. Just are the recorded owners of a Phelps County parcel (PIN 0005554.09) in the Funk vicinity ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). There is no public record of the Justs participating in community boards or speaking on development issues; they do not hold any civic positions ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizens; not in leadership\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"A face-to-face meeting led by a familiar local community member (such as a neighboring farmer) is advisable, focusing on understanding any concerns they have about property values or community impact.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Rebecca A. Ritterbush\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005566.10\"],\n      \"claims\": \"Rebecca A. Ritterbush is the recorded owner of parcel 0005566.10 in Phelps County ([revenue.nebraska.gov](https://revenue.nebraska.gov/property-assessment-county-contact-information-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). No public statements or official roles by Ritterbush were found in available local records; she is not involved in any village or county boards ([www.phelpscountyne.com](https://www.phelpscountyne.com/phelps-county/relocation-assistance/community-resources#:~:text=Keith%20Jauken%2C%20Chair%20%28308%29%20991,Chair%20Michael%20DeJonge%20Ed%20Forkner)) ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/webpages/board/board_members.html#:~:text=Dennis%20Ostgren%20,505%20Melbourne%20Ave)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Rebecca Ritterbush privately with an emphasis on transparency and respect for her autonomy and land. A one-on-one conversation, possibly through a trusted community intermediary, could help build trust and address any questions.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

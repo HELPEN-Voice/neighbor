@@ -1,0 +1,211 @@
+{
+  "timestamp": "2025-12-15T09:29:33.545020",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Phelps County",
+    "state": "NE",
+    "city": "Funk",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these four neighbors have a clearly documented public stance on local development or renewable energy projects. All are rural landowners with agricultural interests, and none hold prominent civic positions based on available records. As a result, all four have an **unknown** stance, and their direct influence in the community appears **low**, with no evidence of formal leadership roles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven R. Johnson (Trustee)",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "0005534.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven R. Johnson is listed as the trustee owner of an agricultural parcel in Phelps County, Nebraska ([revenue.nebraska.gov](https://revenue.nebraska.gov/PAD/county-assessors-and-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). No meeting minutes or news articles were found in which Johnson voiced opinions on development or energy projects ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). His landholding appears to be held in trust, suggesting it may be part of a family farm estate plan (indicating long-term family ownership) ([revenue.nebraska.gov](https://revenue.nebraska.gov/PAD/county-assessors-and-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowner; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Emphasize respect for agricultural heritage and land continuity when reaching out. A local farm peer or ag extension contact might best approach him to discuss how the project can coexist with farming."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kent A. Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005479.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kent A. Smith is identified in Phelps County property records as an owner of a rural parcel near Funk ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). There is no public record of Smith participating in county board meetings or local planning hearings ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). He has not been quoted in local media regarding development or energy, and his public profile is minimal or non-existent ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local farmer; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Engage via neighborly conversation, possibly through a respected local farmer or friend. Emphasize how the project leaves agricultural operations unharmed and consider offering information on land stewardship."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Anita L. Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005545.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anita L. Smith (listed with spouse) owns farmland in the Funk area of Phelps County ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). No evidence was found of her engagement in public meetings or local committees ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). Like her husband, she maintains a low public profile with no documented statements on development or energy issues ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Farmer’s spouse; not civically active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Approach the Smith household through a community acquaintance they trust. Frame discussions around maintaining the rural character and protecting farm viability alongside any new development."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Scott & Carol Huston",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "0005502.00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Scott Huston is a Phelps County corn farmer who received a $10,000 Paycheck Protection Program loan in 2020 for his farming operation ([projects.propublica.org](https://projects.propublica.org/coronavirus/bailouts/loans/scott-huston-4305217106#:~:text=Loan%20Amount)) ([projects.propublica.org](https://projects.propublica.org/coronavirus/bailouts/loans/scott-huston-4305217106#:~:text=Industry)). The Hustons own and reside on agricultural land near Funk, NE, and are not recorded as holding any public office or board positions ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). There are no public comments from Scott or Carol in local media about development or renewable energy projects ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small farmer; no official role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control"
+        ],
+        "engage": "Have an agriculture-focused representative (perhaps another farmer or someone from the local NRD) reach out. Emphasize how the project will respect their farming operations and local decision-making, addressing any concerns about land use and control."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these four neighbors have a clearly documented public stance on local development or renewable energy projects. All are rural landowners with agricultural interests, and none hold prominent civic positions based on available records. As a result, all four have an **unknown** stance, and their direct influence in the community appears **low**, with no evidence of formal leadership roles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Steven R. Johnson (Trustee)\",\n      \"entity_category\": \"Trust\",\n      \"entity_type\": \"Trust\",\n      \"pins\": [\"0005534.00\"],\n      \"claims\": \"Steven R. Johnson is listed as the trustee owner of an agricultural parcel in Phelps County, Nebraska ([revenue.nebraska.gov](https://revenue.nebraska.gov/PAD/county-assessors-and-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)). No meeting minutes or news articles were found in which Johnson voiced opinions on development or energy projects ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). His landholding appears to be held in trust, suggesting it may be part of a family farm estate plan (indicating long-term family ownership) ([revenue.nebraska.gov](https://revenue.nebraska.gov/PAD/county-assessors-and-parcel-search#:~:text=Parcel%20Search%3A%C2%A0https%3A%2F%2Fphelps)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Landowner; no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Emphasize respect for agricultural heritage and land continuity when reaching out. A local farm peer or ag extension contact might best approach him to discuss how the project can coexist with farming.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kent A. Smith\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005479.00\"],\n      \"claims\": \"Kent A. Smith is identified in Phelps County property records as an owner of a rural parcel near Funk ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). There is no public record of Smith participating in county board meetings or local planning hearings ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). He has not been quoted in local media regarding development or energy, and his public profile is minimal or non-existent ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local farmer; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Engage via neighborly conversation, possibly through a respected local farmer or friend. Emphasize how the project leaves agricultural operations unharmed and consider offering information on land stewardship.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Anita L. Smith\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005545.00\"],\n      \"claims\": \"Anita L. Smith (listed with spouse) owns farmland in the Funk area of Phelps County ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). No evidence was found of her engagement in public meetings or local committees ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). Like her husband, she maintains a low public profile with no documented statements on development or energy issues ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Farmer’s spouse; not civically active\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Approach the Smith household through a community acquaintance they trust. Frame discussions around maintaining the rural character and protecting farm viability alongside any new development.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Scott & Carol Huston\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"0005502.00\"],\n      \"claims\": \"Scott Huston is a Phelps County corn farmer who received a $10,000 Paycheck Protection Program loan in 2020 for his farming operation ([projects.propublica.org](https://projects.propublica.org/coronavirus/bailouts/loans/scott-huston-4305217106#:~:text=Loan%20Amount)) ([projects.propublica.org](https://projects.propublica.org/coronavirus/bailouts/loans/scott-huston-4305217106#:~:text=Industry)). The Hustons own and reside on agricultural land near Funk, NE, and are not recorded as holding any public office or board positions ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)). There are no public comments from Scott or Carol in local media about development or renewable energy projects ([phelpscounty.ne.gov](https://phelpscounty.ne.gov/board_meetings/minutes.aspx#:~:text=Phelps%20County%20Board%20of%20Commissioners,If)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small farmer; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"local_control\"],\n        \"engage\": \"Have an agriculture-focused representative (perhaps another farmer or someone from the local NRD) reach out. Emphasize how the project will respect their farming operations and local decision-making, addressing any concerns about land use and control.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
