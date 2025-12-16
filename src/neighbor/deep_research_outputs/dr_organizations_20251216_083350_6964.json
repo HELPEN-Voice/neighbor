@@ -1,0 +1,220 @@
+{
+  "timestamp": "2025-12-16T08:33:50.696517",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": "Peoria",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Among the adjacent landowners are two small construction companies and three property-holding LLCs. The contractors (Concrete Coring Co. and H & H Masonry) are long-established local businesses focused on operations, with moderate influence but no record of active opposition to development ([leadiq.com](https://leadiq.com/c/concrete-coring-company/5ecfdf3c8a998f161e9aa337/employee-directory?page=2#:~:text=Construction%20%20351)). The other owners are investment-oriented LLCs (including a developer-tied entity controlling ~15 acres) that have minimal public profiles, suggesting a speculative stance and potential development-driven motives ([www.zillow.com](https://www.zillow.com/homedetails/8789-N-75th-Ave-Peoria-AZ-85345/146069385_zpid/#:~:text=2%2F7%2F2025%20%20,Public%20Record%20Report%20a%20problem)) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mlm Property Management Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220104"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "MLM Property Management LLC is an Arizona-registered LLC with no publicly listed operations beyond holding its Peoria property【27†L12-L19; \"registered with ... business name, principal address, mailing address, owner name\"】. It has no online presence or media mentions, indicating the company serves purely as a landowner without active business activity or community engagement ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). Beneficial ownership is not disclosed in public records, and no evidence of the LLC’s stance on local development issues could be found ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Single-parcel owner; anonymous in community with no known influence or local involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out via registered agent or mailing address; emphasize how the project could raise nearby property values and ensure their property remains undisturbed"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Concrete Coring Company Inc",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "14220103"
+      ],
+      "claims": "Concrete Coring Company, Inc. is a long-established Arizona construction firm (founded in 1961) specializing in concrete cutting and coring【84†L1-L4; \"Leading the industry since 1961.\"】. The company operates a facility at 8629 N 78th Ave in Peoria and provides 24/7 concrete cutting services from that industrial location【83†L28-L31; \"8629 N 78th Ave Phoenix, AZ 85345\"】. It employs roughly 51–200 people and is based out of Glendale, AZ, reflecting a significant local presence built over decades【85†L8-L11; \"51-200 Employees ... Glendale, Arizona\"】. Concrete Coring is privately held and focused on its contracting business; there are no indications of the company taking public positions on land development issues ([leadiq.com](https://leadiq.com/c/concrete-coring-company/5ecfdf3c8a998f161e9aa337/employee-directory?page=2#:~:text=Construction%20%20351)).",
+      "community_influence": "Medium",
+      "influence_justification": "Long-standing employer (~60+ years, ~200 staff); regionally important contractor but limited political engagement",
+      "entity_classification": "other",
+      "potential_motivators": [
+        "Continuity of operations (no new restrictions)",
+        "Opportunity for project contracts/services",
+        "Infrastructure improvements benefiting access"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the company’s management (owner or general manager) directly; highlight potential subcontracting or supply opportunities in the project and reassure that construction will not impede their facility access"
+      },
+      "confidence": "medium"
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "H And H Masonry Inc",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "14220102"
+      ],
+      "claims": "H & H Masonry Inc. appears to be a small Arizona masonry contractor operating in the same industrial area near N 78th Avenue【89†L1-L4; \"P&Q Inc ... 8903 N 78TH AVE ... $31,531\"】. The company has no website or significant online footprint; outside of basic state business registry listings, there is little public information available ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). No records of political contributions, community activism, or involvement in local development disputes were found for H & H Masonry, suggesting it remains a low-profile private business ([www.governmentcontractswon.com](https://www.governmentcontractswon.com/department/defense/peoria_az_arizona.asp#:~:text=P%26Q%20INC%208903%20N%2078TH,3%20%2431%2C531%20PAP%2C%20MONA%20L)).",
+      "community_influence": "Low",
+      "influence_justification": "Small subcontractor with minimal public presence; no evident influence in community or politics",
+      "entity_classification": "other",
+      "potential_motivators": [
+        "Continuity of business operations",
+        "Potential subcontract work from new projects",
+        "Avoiding any new regulations or costs"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the owner (or principal) and have a personal conversation to assure the project won’t hinder their work; consider offering them subcontracting opportunities or other benefits to gain their goodwill"
+      },
+      "confidence": "low"
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "8769 75Th Ave Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321008B",
+        "14321001A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "8769 75th Ave LLC is a property holding entity (likely formed for development purposes) that owns the largest adjacent tract (over 15 acres) on 75th Avenue【87†L1-L4; \"2/7/2025  | Sold  | $2,075,000...+200.7%\"】. Its ownership is shielded behind the LLC, with no principals named in public filings (beneficial owner is unknown) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). Real estate activity around this parcel suggests a speculative investment: a neighboring 1.95-acre lot sold for $2.075 million in Feb 2025, a 200% increase from its 2019 sale price【87†L1-L4; \"2/7/2025  | Sold  | $2,075,000...+200.7%\"】. This trend indicates the LLC’s land is in an area of high development interest, implying the entity may be positioning for a future project or profitable resale rather than opposing new development ([www.zillow.com](https://www.zillow.com/homedetails/8789-N-75th-Ave-Peoria-AZ-85345/146069385_zpid/#:~:text=2%2F7%2F2025%20%20,Public%20Record%20Report%20a%20problem)) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Controls ~15 acres of land; likely has significant financial backing for development, though owners remain behind an LLC veil",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Utilize official records to identify the developer behind this LLC and initiate discussions; propose coordinating on zoning/infrastructure and highlight mutual benefits (such as shared improvements) to reduce competitive tension or opposition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Jmm 8657 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220101"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JMM 8657 LLC is an opaque landholding company (named after its street address) with no active business operations apparent besides owning its parcel ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). The LLC’s owners are not listed in any public sources, and it has no discernible presence in news or community discussions, indicating a purely speculative or passive investment role ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). There is no record of JMM 8657 LLC engaging in development processes or taking any stance on local projects, implying that it will act primarily in its financial self-interest regarding any new development nearby ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Single-parcel speculative owner; no public identity or leverage in local affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out through the LLC’s registered agent to gauge interest in selling or partnering; emphasize that the project could increase their land’s market value and offer an exit strategy at a premium"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Among the adjacent landowners are two small construction companies and three property-holding LLCs. The contractors (Concrete Coring Co. and H & H Masonry) are long-established local businesses focused on operations, with moderate influence but no record of active opposition to development ([leadiq.com](https://leadiq.com/c/concrete-coring-company/5ecfdf3c8a998f161e9aa337/employee-directory?page=2#:~:text=Construction%20%20351)). The other owners are investment-oriented LLCs (including a developer-tied entity controlling ~15 acres) that have minimal public profiles, suggesting a speculative stance and potential development-driven motives ([www.zillow.com](https://www.zillow.com/homedetails/8789-N-75th-Ave-Peoria-AZ-85345/146069385_zpid/#:~:text=2%2F7%2F2025%20%20,Public%20Record%20Report%20a%20problem)) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Mlm Property Management Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220104\"],\n      \"claims\": \"MLM Property Management LLC is an Arizona-registered LLC with no publicly listed operations beyond holding its Peoria property【27†L12-L19; \\\"registered with ... business name, principal address, mailing address, owner name\\\"】. It has no online presence or media mentions, indicating the company serves purely as a landowner without active business activity or community engagement ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). Beneficial ownership is not disclosed in public records, and no evidence of the LLC’s stance on local development issues could be found ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Single-parcel owner; anonymous in community with no known influence or local involvement\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Property value appreciation\", \"Rental/lease income (if any tenants)\", \"Minimize disruption to property use\"],\n      \"approach_recommendations\": \"Reach out via registered agent or mailing address; emphasize how the project could raise nearby property values and ensure their property remains undisturbed\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Concrete Coring Company Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"inc\",\n      \"pins\": [\"14220103\"],\n      \"claims\": \"Concrete Coring Company, Inc. is a long-established Arizona construction firm (founded in 1961) specializing in concrete cutting and coring【84†L1-L4; \\\"Leading the industry since 1961.\\\"】. The company operates a facility at 8629 N 78th Ave in Peoria and provides 24/7 concrete cutting services from that industrial location【83†L28-L31; \\\"8629 N 78th Ave Phoenix, AZ 85345\\\"】. It employs roughly 51–200 people and is based out of Glendale, AZ, reflecting a significant local presence built over decades【85†L8-L11; \\\"51-200 Employees ... Glendale, Arizona\\\"】. Concrete Coring is privately held and focused on its contracting business; there are no indications of the company taking public positions on land development issues ([leadiq.com](https://leadiq.com/c/concrete-coring-company/5ecfdf3c8a998f161e9aa337/employee-directory?page=2#:~:text=Construction%20%20351)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Long-standing employer (~60+ years, ~200 staff); regionally important contractor but limited political engagement\",\n      \"entity_classification\": \"other\",\n      \"potential_motivators\": [\"Continuity of operations (no new restrictions)\", \"Opportunity for project contracts/services\", \"Infrastructure improvements benefiting access\"],\n      \"approach_recommendations\": \"Engage the company’s management (owner or general manager) directly; highlight potential subcontracting or supply opportunities in the project and reassure that construction will not impede their facility access\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"H And H Masonry Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"inc\",\n      \"pins\": [\"14220102\"],\n      \"claims\": \"H & H Masonry Inc. appears to be a small Arizona masonry contractor operating in the same industrial area near N 78th Avenue【89†L1-L4; \\\"P&Q Inc ... 8903 N 78TH AVE ... $31,531\\\"】. The company has no website or significant online footprint; outside of basic state business registry listings, there is little public information available ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). No records of political contributions, community activism, or involvement in local development disputes were found for H & H Masonry, suggesting it remains a low-profile private business ([www.governmentcontractswon.com](https://www.governmentcontractswon.com/department/defense/peoria_az_arizona.asp#:~:text=P%26Q%20INC%208903%20N%2078TH,3%20%2431%2C531%20PAP%2C%20MONA%20L)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small subcontractor with minimal public presence; no evident influence in community or politics\",\n      \"entity_classification\": \"other\",\n      \"potential_motivators\": [\"Continuity of business operations\", \"Potential subcontract work from new projects\", \"Avoiding any new regulations or costs\"],\n      \"approach_recommendations\": \"Identify the owner (or principal) and have a personal conversation to assure the project won’t hinder their work; consider offering them subcontracting opportunities or other benefits to gain their goodwill\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"8769 75Th Ave Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321008B\", \"14321001A\"],\n      \"claims\": \"8769 75th Ave LLC is a property holding entity (likely formed for development purposes) that owns the largest adjacent tract (over 15 acres) on 75th Avenue【87†L1-L4; \\\"2/7/2025  | Sold  | $2,075,000...+200.7%\\\"】. Its ownership is shielded behind the LLC, with no principals named in public filings (beneficial owner is unknown) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). Real estate activity around this parcel suggests a speculative investment: a neighboring 1.95-acre lot sold for $2.075 million in Feb 2025, a 200% increase from its 2019 sale price【87†L1-L4; \\\"2/7/2025  | Sold  | $2,075,000...+200.7%\\\"】. This trend indicates the LLC’s land is in an area of high development interest, implying the entity may be positioning for a future project or profitable resale rather than opposing new development ([www.zillow.com](https://www.zillow.com/homedetails/8789-N-75th-Ave-Peoria-AZ-85345/146069385_zpid/#:~:text=2%2F7%2F2025%20%20,Public%20Record%20Report%20a%20problem)) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Controls ~15 acres of land; likely has significant financial backing for development, though owners remain behind an LLC veil\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land development ROI\", \"Prevent adjacent projects that lower land value\", \"Secure favorable zoning or infrastructure for own project\"],\n      \"approach_recommendations\": \"Utilize official records to identify the developer behind this LLC and initiate discussions; propose coordinating on zoning/infrastructure and highlight mutual benefits (such as shared improvements) to reduce competitive tension or opposition\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Jmm 8657 Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220101\"],\n      \"claims\": \"JMM 8657 LLC is an opaque landholding company (named after its street address) with no active business operations apparent besides owning its parcel ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). The LLC’s owners are not listed in any public sources, and it has no discernible presence in news or community discussions, indicating a purely speculative or passive investment role ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)). There is no record of JMM 8657 LLC engaging in development processes or taking any stance on local projects, implying that it will act primarily in its financial self-interest regarding any new development nearby ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=This%20dataset%20includes%201,status%2C%20type%20and%20creation%20date)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Single-parcel speculative owner; no public identity or leverage in local affairs\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Future sale profitability\", \"Preservation of land value for resale\", \"Favorable zoning decisions to boost parcel worth\"],\n      \"approach_recommendations\": \"Reach out through the LLC’s registered agent to gauge interest in selling or partnering; emphasize that the project could increase their land’s market value and offer an exit strategy at a premium\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

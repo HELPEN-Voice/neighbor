@@ -1,0 +1,31 @@
+{
+  "run_id": "7441d2d6-e6f2-415e-a9de-4cf74a39fd0b",
+  "coordinates": "33.56027,-112.22223",
+  "state_code": "AZ",
+  "parcels_analyzed": 50,
+  "community_wealth_proxy": {
+    "valid_samples": 27,
+    "median_structure_value": 788100.0,
+    "formatted": "$788,100",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
+  },
+  "land_value_proxy": {
+    "valid_samples": 19,
+    "median_value_per_acre": 233549.98705528074,
+    "formatted": "$233,550/acre",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
+  },
+  "template_variables": {
+    "median_structure_value": "$788,100",
+    "wealth_risk_level": "HIGH",
+    "wealth_risk_class": "risk-high",
+    "wealth_valid_samples": "27",
+    "median_land_value_acre": "$233,550/acre",
+    "land_risk_level": "HIGH",
+    "land_risk_class": "risk-high",
+    "land_valid_samples": "19",
+    "parcels_analyzed": "50"
+  }
+}

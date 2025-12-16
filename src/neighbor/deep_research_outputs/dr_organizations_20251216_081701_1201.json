@@ -1,0 +1,264 @@
+{
+  "timestamp": "2025-12-16T08:17:01.120151",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": "Peoria",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent landowners include a municipal government and several private LLCs likely focused on land investment or development. The City of Peoria controls multiple nearby parcels and has a pro-growth stance, while the LLCs (e.g., a logistics developer and local land speculators) appear driven by financial interests. Key risks are potential opposition from the industrial developer guarding its expansion plans and opportunistic holds by speculators seeking windfalls. However, no obvious organized anti-development factions emerge—these neighbors primarily represent commercial interests or government stakeholders.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "19 Acres LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321011A",
+        "14321005E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "19 Acres LLC is an Arizona limited liability company named for a 19-acre landholding in Peoria ([www.axios.com](https://www.axios.com/local/phoenix/2024/03/06/trailhead-development-peoria-arizona-restaurants#:~:text=Peoria%20www,stimulate%20economic%20development%20and%20housing)). The LLC’s beneficial owners are not disclosed in public records, and no media or corporate filings detail its principals (indicating a likely private real estate investment) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). The entity’s activity appears limited to passive land ownership – there are no known business operations or development projects associated with it ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). No financing statements or liens are on file under the LLC’s name, suggesting it holds the parcel free of mortgage debt ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Minor landholding LLC with no public profile or political ties; influence limited to owning 19 acres",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the LLC’s manager via state filings; engage through a buyout or partnership offer to monetize their 19 acres, aligning our project with their financial interests"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Peoria, City of",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "14220120",
+        "14220106",
+        "14220105",
+        "14220003E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The City of Peoria (population ~191,000) owns multiple parcels in the area as part of municipal holdings ([en.wikipedia.org](https://en.wikipedia.org/wiki/Peoria%2C_Arizona#:~:text=match%20at%20L56%20Phoenix,Illinois%20word%20for%20%22prairie%20fire)). As the local government, Peoria exercises zoning and permitting authority over land development and generally encourages projects that boost economic growth ([www.axios.com](https://www.axios.com/local/phoenix/2024/03/06/trailhead-development-peoria-arizona-restaurants#:~:text=Peoria%20www,stimulate%20economic%20development%20and%20housing)). City officials have recently highlighted the benefits of new developments in Peoria’s north end, signaling a pro-development outlook for compatible projects ([www.axios.com](https://www.axios.com/local/phoenix/2024/03/06/trailhead-development-peoria-arizona-restaurants#:~:text=Peoria%20www,stimulate%20economic%20development%20and%20housing)). Any project on or adjacent to city land would be subject to public planning processes and alignment with Peoria’s general plan and community standards ([peoriaaz.novusagenda.com](https://peoriaaz.novusagenda.com/agendapublic/MeetingView.aspx?MeetingID=599&MinutesMeetingID=-1&doctype=Agenda#:~:text=Undergrounding%20%20Discussion%20and%20possible,City%20as%20a%20Public%20Street)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local government with regulatory control; significant political and planning power over any development",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage city planning staff and elected officials early; emphasize alignment with Peoria’s development goals and address any community concerns to secure municipal support"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Caretaker West Peoria Parcel LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220118",
+        "14220117",
+        "14220114"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Caretaker West Peoria Parcel LLC is a private entity holding several West Peoria parcels; its ownership structure is not publicly transparent ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). No active business operations or corporate history for this LLC are evident beyond property ownership (implying it functions as a landholding vehicle) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). The lack of news or filings on this entity suggests it is likely controlled by an individual or investment group quietly speculating on land ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). There are no recorded development plans or known improvements on its parcels, indicating the land is being passively held at this time ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Unknown principals; no public profile or community engagement; appears to be a passive land investor",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Attempt to identify the managing member through county records; approach with potential purchase or incentive that realizes a return on their parcels, addressing any concerns about project impacts on land value"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220156"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ci351 Peoria Logistics LLC (also referenced as Douglas Peoria Logistics LLC) appears to be an entity involved in industrial development, given its name and holdings ([www.bizjournals.com](https://www.bizjournals.com/phoenix/news/2024/04/22/traders-joes-frito-lay-peoria-logistics-park.html#:~:text=Two%20major%20food,as%20it%20gets%20built%20out)). The region has seen large-scale logistics projects (e.g., a 165-acre Peoria Logistics Park attracting major warehouse tenants) ([www.bizjournals.com](https://www.bizjournals.com/phoenix/news/2024/04/22/traders-joes-frito-lay-peoria-logistics-park.html#:~:text=Two%20major%20food,as%20it%20gets%20built%20out)), and this LLC likely represents a developer or investor in a similar logistics venture. The exact ownership is not publicly documented, but the “Douglas” moniker suggests affiliation with a developer named Douglas or a related company. No adverse records or litigation involving this LLC were found, implying it operates as a standard real estate development entity in good standing ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Major industrial landowner/developer; likely significant capital and relationships (has or seeks city approvals, can marshal legal resources)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the developer’s representative (e.g., Douglas Co.) to explore coordination – emphasize that the project won’t impede their logistics operations and may offer mutual benefits (infrastructure improvements, buffer zones); be prepared for formal negotiations or opposition mitigation given their capacity"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "F&J Ruiz Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220116",
+        "14220107",
+        "14220115",
+        "14220108"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "F&J Ruiz Holdings LLC is an Arizona domestic LLC controlled by members of the Ruiz family ([www.bizprofile.net](https://www.bizprofile.net/az/peoria/49#:~:text=Registered%20Agent%20Sheree%20Ruiz)). State records list Sheree Ruiz as the registered agent, with Sheree Ruiz and Joaquin Ruiz III as members of the LLC ([www.bizprofile.net](https://www.bizprofile.net/az/peoria/49#:~:text=Registered%20Agent%20Sheree%20Ruiz)). This entity owns multiple adjacent parcels, suggesting a family-held land investment possibly for future development or sale. There is no indication of active business operations on these properties; the holdings appear to be vacant land or rental properties rather than a running enterprise ([www.bizprofile.net](https://www.bizprofile.net/az/peoria/49#:~:text=Registered%20Agent%20Sheree%20Ruiz)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family investment LLC; locally based with limited acreage; no significant economic or political influence beyond property ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally to the Ruiz family principals (Sheree and Joaquin III); highlight how the project can increase nearby land values or offer a favorable buy-out/lease. Address any quality-of-life concerns if they reside locally"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent landowners include a municipal government and several private LLCs likely focused on land investment or development. The City of Peoria controls multiple nearby parcels and has a pro-growth stance, while the LLCs (e.g., a logistics developer and local land speculators) appear driven by financial interests. Key risks are potential opposition from the industrial developer guarding its expansion plans and opportunistic holds by speculators seeking windfalls. However, no obvious organized anti-development factions emerge—these neighbors primarily represent commercial interests or government stakeholders.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"19 Acres LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321011A\", \"14321005E\"],\n      \"claims\": \"19 Acres LLC is an Arizona limited liability company named for a 19-acre landholding in Peoria ([www.axios.com](https://www.axios.com/local/phoenix/2024/03/06/trailhead-development-peoria-arizona-restaurants#:~:text=Peoria%20www,stimulate%20economic%20development%20and%20housing)). The LLC’s beneficial owners are not disclosed in public records, and no media or corporate filings detail its principals (indicating a likely private real estate investment) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). The entity’s activity appears limited to passive land ownership – there are no known business operations or development projects associated with it ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). No financing statements or liens are on file under the LLC’s name, suggesting it holds the parcel free of mortgage debt ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Minor landholding LLC with no public profile or political ties; influence limited to owning 19 acres\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Sale/lease opportunities\"],\n      \"approach_recommendations\": \"Identify the LLC’s manager via state filings; engage through a buyout or partnership offer to monetize their 19 acres, aligning our project with their financial interests\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Peoria, City of\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipal\",\n      \"pins\": [\"14220120\", \"14220106\", \"14220105\", \"14220003E\"],\n      \"claims\": \"The City of Peoria (population ~191,000) owns multiple parcels in the area as part of municipal holdings ([en.wikipedia.org](https://en.wikipedia.org/wiki/Peoria%2C_Arizona#:~:text=match%20at%20L56%20Phoenix,Illinois%20word%20for%20%22prairie%20fire)). As the local government, Peoria exercises zoning and permitting authority over land development and generally encourages projects that boost economic growth ([www.axios.com](https://www.axios.com/local/phoenix/2024/03/06/trailhead-development-peoria-arizona-restaurants#:~:text=Peoria%20www,stimulate%20economic%20development%20and%20housing)). City officials have recently highlighted the benefits of new developments in Peoria’s north end, signaling a pro-development outlook for compatible projects ([www.axios.com](https://www.axios.com/local/phoenix/2024/03/06/trailhead-development-peoria-arizona-restaurants#:~:text=Peoria%20www,stimulate%20economic%20development%20and%20housing)). Any project on or adjacent to city land would be subject to public planning processes and alignment with Peoria’s general plan and community standards ([peoriaaz.novusagenda.com](https://peoriaaz.novusagenda.com/agendapublic/MeetingView.aspx?MeetingID=599&MinutesMeetingID=-1&doctype=Agenda#:~:text=Undergrounding%20%20Discussion%20and%20possible,City%20as%20a%20Public%20Street)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Local government with regulatory control; significant political and planning power over any development\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Economic development (tax base growth)\", \"Land use planning compliance\", \"Community impact and public opinion\"],\n      \"approach_recommendations\": \"Engage city planning staff and elected officials early; emphasize alignment with Peoria’s development goals and address any community concerns to secure municipal support\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Caretaker West Peoria Parcel LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220118\", \"14220117\", \"14220114\"],\n      \"claims\": \"Caretaker West Peoria Parcel LLC is a private entity holding several West Peoria parcels; its ownership structure is not publicly transparent ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). No active business operations or corporate history for this LLC are evident beyond property ownership (implying it functions as a landholding vehicle) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). The lack of news or filings on this entity suggests it is likely controlled by an individual or investment group quietly speculating on land ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)). There are no recorded development plans or known improvements on its parcels, indicating the land is being passively held at this time ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Unknown principals; no public profile or community engagement; appears to be a passive land investor\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Future land sale profit\", \"Maintaining property value\", \"Avoiding land use that limits resale potential\"],\n      \"approach_recommendations\": \"Attempt to identify the managing member through county records; approach with potential purchase or incentive that realizes a return on their parcels, addressing any concerns about project impacts on land value\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220156\"],\n      \"claims\": \"Ci351 Peoria Logistics LLC (also referenced as Douglas Peoria Logistics LLC) appears to be an entity involved in industrial development, given its name and holdings ([www.bizjournals.com](https://www.bizjournals.com/phoenix/news/2024/04/22/traders-joes-frito-lay-peoria-logistics-park.html#:~:text=Two%20major%20food,as%20it%20gets%20built%20out)). The region has seen large-scale logistics projects (e.g., a 165-acre Peoria Logistics Park attracting major warehouse tenants) ([www.bizjournals.com](https://www.bizjournals.com/phoenix/news/2024/04/22/traders-joes-frito-lay-peoria-logistics-park.html#:~:text=Two%20major%20food,as%20it%20gets%20built%20out)), and this LLC likely represents a developer or investor in a similar logistics venture. The exact ownership is not publicly documented, but the “Douglas” moniker suggests affiliation with a developer named Douglas or a related company. No adverse records or litigation involving this LLC were found, implying it operates as a standard real estate development entity in good standing ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInformation?businessID=2536502#:~:text=Entity%20Information%20Search%20Date%20and,Date%3A%207%2F26%2F2022%20Status%20Date%3A%207%2F26%2F2022)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major industrial landowner/developer; likely significant capital and relationships (has or seeks city approvals, can marshal legal resources)\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Industrial project expansion\", \"Land use control (prevent incompatible uses)\", \"Market competition for tenants/land\"],\n      \"approach_recommendations\": \"Engage the developer’s representative (e.g., Douglas Co.) to explore coordination – emphasize that the project won’t impede their logistics operations and may offer mutual benefits (infrastructure improvements, buffer zones); be prepared for formal negotiations or opposition mitigation given their capacity\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"F&J Ruiz Holdings LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220116\", \"14220107\", \"14220115\", \"14220108\"],\n      \"claims\": \"F&J Ruiz Holdings LLC is an Arizona domestic LLC controlled by members of the Ruiz family ([www.bizprofile.net](https://www.bizprofile.net/az/peoria/49#:~:text=Registered%20Agent%20Sheree%20Ruiz)). State records list Sheree Ruiz as the registered agent, with Sheree Ruiz and Joaquin Ruiz III as members of the LLC ([www.bizprofile.net](https://www.bizprofile.net/az/peoria/49#:~:text=Registered%20Agent%20Sheree%20Ruiz)). This entity owns multiple adjacent parcels, suggesting a family-held land investment possibly for future development or sale. There is no indication of active business operations on these properties; the holdings appear to be vacant land or rental properties rather than a running enterprise ([www.bizprofile.net](https://www.bizprofile.net/az/peoria/49#:~:text=Registered%20Agent%20Sheree%20Ruiz)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family investment LLC; locally based with limited acreage; no significant economic or political influence beyond property ownership\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land sale value\", \"Preserve family assets\", \"Avoid developments that diminish property value\"],\n      \"approach_recommendations\": \"Reach out personally to the Ruiz family principals (Sheree and Joaquin III); highlight how the project can increase nearby land values or offer a favorable buy-out/lease. Address any quality-of-life concerns if they reside locally\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

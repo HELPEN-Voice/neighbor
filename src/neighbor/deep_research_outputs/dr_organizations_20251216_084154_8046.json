@@ -1,0 +1,230 @@
+{
+  "timestamp": "2025-12-16T08:41:54.804718",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": "Peoria",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring organizational landowners are a mix of a large energy infrastructure firm and small private LLCs with land holdings. Transwestern Pipeline Company, a major pipeline operator, is focused on protecting its right-of-way rather than local development. The other entities (Sharro LLC, DCMS Properties LLC, Num 1 Job LLC, JGJ Real Estate Experts LLC) appear to be land investors or small businesses with little public presence, likely motivated by property value and financial considerations. None shows evidence of significant community influence or outspoken stance, suggesting opposition (if any) would be driven by individual financial interests or safety concerns rather than organized community action.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Sharro LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220121",
+        "14220122"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharro, LLC is an Arizona limited liability company operating a small metal window and door manufacturing business in Phoenix for over two years, with only about two employees ([naicslist.com](https://naicslist.com/company-profile/sharro-llc-phoenix-az-85009#:~:text=Sharro%2C%20LLC%20is%20a%20specialized,team%20of%20approximately%202%20employees)). The company’s official address is in Phoenix (3003 North Central Ave), and it has no known public activities in Peoria beyond holding its land parcels ([www.city-data.com](https://www.city-data.com/business-entities/Phoenix-AZ-S5.html#:~:text=)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private business with minimal local presence or political connections",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the LLC’s owner (a small business proprietor) with a direct purchase offer or partnership, emphasizing how the project can enhance their land’s value; their interests are likely purely financial, so compensation or profit-sharing could prevent any opposition"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Transwestern Pipeline Company LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220109"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Transwestern Pipeline Company, LLC is a major interstate natural gas pipeline operator (founded 1957) now owned by Energy Transfer ([en.wikipedia.org](https://en.wikipedia.org/wiki/Transwestern_Pipeline#:~:text=Founded%3A%201957,Transfer)). Its pipeline system traverses Arizona, connecting New Mexico gas-producing regions to markets in Arizona, Nevada and California ([en.wikipedia.org](https://en.wikipedia.org/wiki/Transwestern_Pipeline#:~:text=Southeastern%20New%20Mexico%20with%20California%2C,FERC)). As a FERC-regulated pipeline utility, its local presence is limited to the existing pipeline easement, with focus on safety and maintenance rather than new development ([en.wikipedia.org](https://en.wikipedia.org/wiki/Transwestern_Pipeline#:~:text=Southeastern%20New%20Mexico%20with%20California%2C,regulated%20under%20the%20rules%20and)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Large energy infrastructure company with regulatory and legal clout, but little direct local community engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with Transwestern’s right-of-way management to ensure the project respects pipeline safety and clearance requirements; address any technical concerns to secure their acquiescence, as their interest is primarily maintaining pipeline integrity"
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "DCMS Properties LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220110",
+        "14220134",
+        "14220099"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "DCMS Properties LLC is an Arizona LLC identified as the owner of multiple parcels in the area, with no other active business operations apparent ([www.city-data.com](https://www.city-data.com/business-entities/Peoria-AZ-S.html#:~:text=No%20,dcms)). The company’s principals and ultimate owners are not disclosed in public records, and no development projects or community activities are associated with it (beneficial ownership and intentions remain unknown) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,dcms)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private landholding entity with no public profile or significant economic footprint",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify and approach the individuals behind DCMS Properties (likely a local investor group) with proposals that align with their financial interests, such as a land purchase or joint venture; they are likely to respond to monetary incentives given their passive investment role"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Num 1 Job LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321009A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Num 1 Job LLC is a little-known Arizona limited liability company that holds a single parcel (APN 143-21-009A) in the project vicinity ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,num%201%20job)). It has no discernible business activity or public information beyond the land ownership record, effectively serving as a private holding for its owner ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,num%201%20job)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "One-parcel holding with no community role or wider economic impact",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the owner (likely an individual investor) with a straightforward buyout or benefit offer; with no broader agenda or community ties, they are primarily motivated by financial terms and can be dissuaded from opposition through compensation"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "JGJ Real Estate Experts LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220113"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JGJ Real Estate Experts LLC is an Arizona-registered LLC (presumably a small real estate investment or brokerage entity) that owns a parcel in the area ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,jgj)). The firm has virtually no public profile or readily available information aside from its name, indicating it operates as a private venture with a focus on real estate holdings rather than any public-facing activities ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,jgj)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private real estate venture with limited reach and no known political or community influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the LLC’s principals (likely local real estate professionals) to discuss mutually beneficial outcomes; for instance, offering them a role in any land transactions or development could align their financial interests with the project and mitigate opposition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring organizational landowners are a mix of a large energy infrastructure firm and small private LLCs with land holdings. Transwestern Pipeline Company, a major pipeline operator, is focused on protecting its right-of-way rather than local development. The other entities (Sharro LLC, DCMS Properties LLC, Num 1 Job LLC, JGJ Real Estate Experts LLC) appear to be land investors or small businesses with little public presence, likely motivated by property value and financial considerations. None shows evidence of significant community influence or outspoken stance, suggesting opposition (if any) would be driven by individual financial interests or safety concerns rather than organized community action.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Sharro LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220121\", \"14220122\"],\n      \"claims\": \"Sharro, LLC is an Arizona limited liability company operating a small metal window and door manufacturing business in Phoenix for over two years, with only about two employees ([naicslist.com](https://naicslist.com/company-profile/sharro-llc-phoenix-az-85009#:~:text=Sharro%2C%20LLC%20is%20a%20specialized,team%20of%20approximately%202%20employees)). The company’s official address is in Phoenix (3003 North Central Ave), and it has no known public activities in Peoria beyond holding its land parcels ([www.city-data.com](https://www.city-data.com/business-entities/Phoenix-AZ-S5.html#:~:text=)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private business with minimal local presence or political connections\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Potential buyout profit\"],\n      \"approach_recommendations\": \"Engage the LLC’s owner (a small business proprietor) with a direct purchase offer or partnership, emphasizing how the project can enhance their land’s value; their interests are likely purely financial, so compensation or profit-sharing could prevent any opposition\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Transwestern Pipeline Company LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220109\"],\n      \"claims\": \"Transwestern Pipeline Company, LLC is a major interstate natural gas pipeline operator (founded 1957) now owned by Energy Transfer ([en.wikipedia.org](https://en.wikipedia.org/wiki/Transwestern_Pipeline#:~:text=Founded%3A%201957,Transfer)). Its pipeline system traverses Arizona, connecting New Mexico gas-producing regions to markets in Arizona, Nevada and California ([en.wikipedia.org](https://en.wikipedia.org/wiki/Transwestern_Pipeline#:~:text=Southeastern%20New%20Mexico%20with%20California%2C,FERC)). As a FERC-regulated pipeline utility, its local presence is limited to the existing pipeline easement, with focus on safety and maintenance rather than new development ([en.wikipedia.org](https://en.wikipedia.org/wiki/Transwestern_Pipeline#:~:text=Southeastern%20New%20Mexico%20with%20California%2C,regulated%20under%20the%20rules%20and)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Large energy infrastructure company with regulatory and legal clout, but little direct local community engagement\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Pipeline easement protection\", \"Regulatory compliance and safety\"],\n      \"approach_recommendations\": \"Coordinate early with Transwestern’s right-of-way management to ensure the project respects pipeline safety and clearance requirements; address any technical concerns to secure their acquiescence, as their interest is primarily maintaining pipeline integrity\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"DCMS Properties LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220110\", \"14220134\", \"14220099\"],\n      \"claims\": \"DCMS Properties LLC is an Arizona LLC identified as the owner of multiple parcels in the area, with no other active business operations apparent ([www.city-data.com](https://www.city-data.com/business-entities/Peoria-AZ-S.html#:~:text=No%20,dcms)). The company’s principals and ultimate owners are not disclosed in public records, and no development projects or community activities are associated with it (beneficial ownership and intentions remain unknown) ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,dcms)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landholding entity with no public profile or significant economic footprint\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Property value maximization\", \"Future development or resale opportunity\"],\n      \"approach_recommendations\": \"Identify and approach the individuals behind DCMS Properties (likely a local investor group) with proposals that align with their financial interests, such as a land purchase or joint venture; they are likely to respond to monetary incentives given their passive investment role\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Num 1 Job LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321009A\"],\n      \"claims\": \"Num 1 Job LLC is a little-known Arizona limited liability company that holds a single parcel (APN 143-21-009A) in the project vicinity ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,num%201%20job)). It has no discernible business activity or public information beyond the land ownership record, effectively serving as a private holding for its owner ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,num%201%20job)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"One-parcel holding with no community role or wider economic impact\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Sale profit\", \"Personal financial gain\"],\n      \"approach_recommendations\": \"Engage the owner (likely an individual investor) with a straightforward buyout or benefit offer; with no broader agenda or community ties, they are primarily motivated by financial terms and can be dissuaded from opposition through compensation\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"JGJ Real Estate Experts LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220113\"],\n      \"claims\": \"JGJ Real Estate Experts LLC is an Arizona-registered LLC (presumably a small real estate investment or brokerage entity) that owns a parcel in the area ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,jgj)). The firm has virtually no public profile or readily available information aside from its name, indicating it operates as a private venture with a focus on real estate holdings rather than any public-facing activities ([provence-sites.com](https://provence-sites.com/arizona-corporation#:~:text=No%20,jgj)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private real estate venture with limited reach and no known political or community influence\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Increase in land market value\", \"Potential brokerage or development deal\"],\n      \"approach_recommendations\": \"Approach the LLC’s principals (likely local real estate professionals) to discuss mutually beneficial outcomes; for instance, offering them a role in any land transactions or development could align their financial interests with the project and mitigate opposition\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
