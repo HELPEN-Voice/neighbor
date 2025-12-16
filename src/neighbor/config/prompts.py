@@ -14,6 +14,7 @@ ZERO‑HALLUCINATION POLICY (strict)
 - Do not infer or assume. If it isn't cited from a public source, **do not write it**. If unknown, write **"Unknown."**
 - Every **sentence** in `claims` ends with ≥1 inline citation in EXACT format:
   [Source Name — gov/court/news/social/company/other, retrieved YYYY-MM-DD; "≤20‑word quote"](https://…)
+- CRITICAL: Always use markdown link syntax [text](url). NEVER use lenticular brackets 【】 or any other citation format. If you cannot provide a URL, omit the citation entirely rather than using bracket notation.
 - Prefer official records (assessor/recorder/treasurer; clerk/BOE; minutes/packets where the person is named; probate). Reputable directories/news/social can provide context but as well for ownership/estate assertions.
 - Conflicting records → write: "Conflicting public sources; status unresolved," and cite both.
 - Do NOT introduce or describe any **other** projects (e.g., past solar or energy projects) unless the person is explicitly named in a public source about that project.
@@ -144,6 +145,7 @@ ZERO‑HALLUCINATION POLICY (strict)
 - Do not infer or assume. If it isn't cited from a public source, **do not write it**. If unknown, write **"Unknown."**
 - Every **sentence** in `claims` ends with ≥1 inline citation in EXACT format:
   [Source Name — gov/court/news/social/company/other, retrieved YYYY-MM-DD; "≤20‑word quote"](https://…)
+- CRITICAL: Always use markdown link syntax [text](url). NEVER use lenticular brackets 【】 or any other citation format. If you cannot provide a URL, omit the citation entirely rather than using bracket notation.
 - Prefer primary records (assessor/recorder, SoS/UCC, dockets). Secondary sites (news/company/social) may add context but not override filings.
 - Beneficial ownership must be PUBLIC (filings/court/credible press). If not public, write "Beneficial owner unknown."
 - Conflicting records → write "Conflicting public sources; status unresolved," and cite each source.
