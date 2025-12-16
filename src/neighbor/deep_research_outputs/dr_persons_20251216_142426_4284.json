@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-12-16T14:24:26.428457",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Anderson County",
+    "state": "SC",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighbors have no documented stance on local development or clean energy. None hold notable public positions or leadership roles in Anderson County. All appear to be private landowners with limited community influence and would need direct outreach to gauge their views.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Benjamin Hayes Smith & Jada Katherine Bu",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-06-03-006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Benjamin Hayes Smith and Jada Katherine Bu are listed as co-owners of an Anderson County parcel (ID 225-06-03-006) according to the county’s property records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=)). No record of Smith or Bu taking part in local civic meetings or voicing opinions on development issues was found in public sources ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=For%20property%20tax%20and%20assessment,Anderson%20County%20Assessor%27s%20Office%20offers)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out to the couple in person or by a personalized letter to introduce the project and invite them to discuss any questions or concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Russell R. Roberts",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-06-04-008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Russell R. Roberts is documented as the owner of Anderson County parcel 225-06-04-008 in county property records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=)). No evidence could be found of Roberts participating in local government meetings or making any public statements about development or energy projects ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=For%20property%20tax%20and%20assessment,Anderson%20County%20Assessor%27s%20Office%20offers)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen, no public office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Mr. Roberts directly with a friendly, informative briefing about the planned development, and be prepared to listen to any personal concerns he might raise."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Carmen Jose Rojas Noyola & Celsa Rojas",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-16-01-001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carmen Jose Rojas Noyola and Celsa Rojas are joint owners of a parcel in Anderson County (tax map 225-16-01-001) per county land records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=)). No public records or local news reports were identified that show Rojas Noyola or Celsa Rojas involved in community boards or speaking out on development matters ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=For%20property%20tax%20and%20assessment,Anderson%20County%20Assessor%27s%20Office%20offers)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known community involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet with the Rojas family personally to explain the project and ask for their feedback, as they have no clear community affiliations through which to engage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighbors have no documented stance on local development or clean energy. None hold notable public positions or leadership roles in Anderson County. All appear to be private landowners with limited community influence and would need direct outreach to gauge their views.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Benjamin Hayes Smith & Jada Katherine Bu\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-06-03-006\"],\n      \"claims\": \"Benjamin Hayes Smith and Jada Katherine Bu are listed as co-owners of an Anderson County parcel (ID 225-06-03-006) according to the county’s property records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=)). No record of Smith or Bu taking part in local civic meetings or voicing opinions on development issues was found in public sources ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=For%20property%20tax%20and%20assessment,Anderson%20County%20Assessor%27s%20Office%20offers)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out to the couple in person or by a personalized letter to introduce the project and invite them to discuss any questions or concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Russell R. Roberts\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-06-04-008\"],\n      \"claims\": \"Russell R. Roberts is documented as the owner of Anderson County parcel 225-06-04-008 in county property records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=)). No evidence could be found of Roberts participating in local government meetings or making any public statements about development or energy projects ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=For%20property%20tax%20and%20assessment,Anderson%20County%20Assessor%27s%20Office%20offers)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen, no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Mr. Roberts directly with a friendly, informative briefing about the planned development, and be prepared to listen to any personal concerns he might raise.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Carmen Jose Rojas Noyola & Celsa Rojas\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-16-01-001\"],\n      \"claims\": \"Carmen Jose Rojas Noyola and Celsa Rojas are joint owners of a parcel in Anderson County (tax map 225-16-01-001) per county land records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=)). No public records or local news reports were identified that show Rojas Noyola or Celsa Rojas involved in community boards or speaking out on development matters ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=For%20property%20tax%20and%20assessment,Anderson%20County%20Assessor%27s%20Office%20offers)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known community involvement\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Meet with the Rojas family personally to explain the project and ask for their feedback, as they have no clear community affiliations through which to engage.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

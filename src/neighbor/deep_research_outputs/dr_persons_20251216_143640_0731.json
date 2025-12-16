@@ -1,0 +1,258 @@
+{
+  "timestamp": "2025-12-16T14:36:40.073181",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Anderson County",
+    "state": "SC",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five profiled neighbors are private landowners with no documented public stance on the development. All are classified as low-influence residents, as none hold notable civic roles. Stances remain unknown, with none on record explicitly supporting or opposing the project.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mark Sanders & Lydia Sanders",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-06-04-016"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark and Lydia Sanders own a parcel of land in rural Anderson County, according to county property records ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). No meeting minutes or news reports show them voicing any opinion on local development or energy projects as of 2025 ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowners; no public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Have an agricultural extension agent or trusted farm neighbor discuss how the project will safeguard their farmland and property value, addressing common fears of losing farm viability and land value ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values))."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Mark Jerome Sloan & Angelia Sloan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-06-03-005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark Jerome Sloan and his wife Angelia appear in Anderson County’s land records as property owners in the area ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). They have no recorded public comments or participation in local zoning or clean energy debates to date ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizens; not in public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage the Sloans through a one-on-one meeting emphasizing that their agricultural use and land value will be protected. A local farm community leader can help convey how the development respects existing farms and property interests ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values))."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Kevin Gray & Aida Annette Gray",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-11-01-005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin Gray and his wife Aida Annette Gray own land in Anderson County, but they have not been prominent in public forums or civic roles ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). No evidence was found of them taking any public stance on development or renewable energy issues ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Reach out via a respected community member to reassure the Grays that the project will not harm local farms or diminish property values. Highlight commitments to preserving the rural character and land value in their community ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values))."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Charles L. Burton & Olene W. Burton",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "225-06-03-009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles L. Burton and Olene W. Burton have held their Anderson County property for many years, evidenced by a life estate designation on the land title ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). They have not made any public statements in county meetings or media regarding development plans or energy facilities ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elder landowners; no public influence",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Invite a longstanding local farmer or family friend to approach the Burtons, focusing on how the project honors their family’s land legacy and protects the farmland for future generations ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values))."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Brandy McIntyre & Evin McIntyre",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "225-06-02-008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brandy and Evin McIntyre are listed as property owners in the vicinity, but they do not hold any public positions or notable influence locally ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). There are no documented remarks from the McIntyres concerning development or clean energy proposals in Anderson County ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile; private residents",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "drainage_roads"
+        ],
+        "engage": "Address the McIntyres’ practical concerns directly by explaining traffic and road safety measures and assuring property values won’t be hurt. A local official familiar with infrastructure can help alleviate fears about strain on roads from the project ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Some%20residents%20remained%20skeptical%20of,cited%20Anderson%20County%E2%80%99s%202016%20green))."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five profiled neighbors are private landowners with no documented public stance on the development. All are classified as low-influence residents, as none hold notable civic roles. Stances remain unknown, with none on record explicitly supporting or opposing the project.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Mark Sanders & Lydia Sanders\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-06-04-016\"],\n      \"claims\": \"Mark and Lydia Sanders own a parcel of land in rural Anderson County, according to county property records ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). No meeting minutes or news reports show them voicing any opinion on local development or energy projects as of 2025 ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local landowners; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Have an agricultural extension agent or trusted farm neighbor discuss how the project will safeguard their farmland and property value, addressing common fears of losing farm viability and land value ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Mark Jerome Sloan & Angelia Sloan\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-06-03-005\"],\n      \"claims\": \"Mark Jerome Sloan and his wife Angelia appear in Anderson County’s land records as property owners in the area ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). They have no recorded public comments or participation in local zoning or clean energy debates to date ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizens; not in public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Engage the Sloans through a one-on-one meeting emphasizing that their agricultural use and land value will be protected. A local farm community leader can help convey how the development respects existing farms and property interests ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Kevin Gray & Aida Annette Gray\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-11-01-005\"],\n      \"claims\": \"Kevin Gray and his wife Aida Annette Gray own land in Anderson County, but they have not been prominent in public forums or civic roles ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). No evidence was found of them taking any public stance on development or renewable energy issues ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known leadership roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Reach out via a respected community member to reassure the Grays that the project will not harm local farms or diminish property values. Highlight commitments to preserving the rural character and land value in their community ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Charles L. Burton & Olene W. Burton\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Estate\",\n      \"pins\": [\"225-06-03-009\"],\n      \"claims\": \"Charles L. Burton and Olene W. Burton have held their Anderson County property for many years, evidenced by a life estate designation on the land title ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). They have not made any public statements in county meetings or media regarding development plans or energy facilities ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Elder landowners; no public influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Invite a longstanding local farmer or family friend to approach the Burtons, focusing on how the project honors their family’s land legacy and protects the farmland for future generations ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Brandy McIntyre & Evin McIntyre\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"225-06-02-008\"],\n      \"claims\": \"Brandy and Evin McIntyre are listed as property owners in the vicinity, but they do not hold any public positions or notable influence locally ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)). There are no documented remarks from the McIntyres concerning development or clean energy proposals in Anderson County ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Developers%20contended%20that%20residential%20projects,businesses%2C%20farms%20and%20property%20values)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile; private residents\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\", \"drainage_roads\"],\n        \"engage\": \"Address the McIntyres’ practical concerns directly by explaining traffic and road safety measures and assuring property values won’t be hurt. A local official familiar with infrastructure can help alleviate fears about strain on roads from the project ([gsabusiness.com](https://gsabusiness.com/anderson-planned-development-proposals-flounder-with-controversy/#:~:text=Some%20residents%20remained%20skeptical%20of,cited%20Anderson%20County%E2%80%99s%202016%20green)).\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
