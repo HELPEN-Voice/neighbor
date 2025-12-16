@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-12-16T09:59:33.035991",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": "Peoria",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring landowners in Peoria include established construction businesses and private land-holding LLCs. Concrete Coring Company, Inc. is a decades-old industrial contractor, while H and H Masonry Inc appears to be a local masonry firm tied to the Hernandez family. The others – MLM Property Management LLC, 8769 75th Ave LLC, and JMM 8657 LLC – are property holding entities with limited public profiles, likely held by individuals for land investment or business use. None of these entities are known community organizations or advocacy groups, suggesting their interests are primarily financial or operational rather than ideological.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "MLM Property Management LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220104"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "MLM Property Management LLC is an Arizona limited liability company identified as the owner of parcel 142-20-104 in Maricopa County ([www.loopnet.com](https://www.loopnet.com/Listing/13741851/8769-N-75th-Ave-Peoria-AZ/#:~:text=Information%20for%20the%20property%20located,and%20LoopNet%20historical%20data%20records)). No principals or detailed corporate filings for this entity were found in state records or public databases ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)). The company’s ownership and operations are not publicly disclosed, indicating a private landholding with unknown beneficial owners ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)). No liens, lawsuits, or UCC financing statements are on record under this entity’s name in the past two years ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Anonymous landholding LLC with no public presence or known local influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Investigate the managing member via county records; outreach through certified letter offering dialogue on development plans, since beneficial ownership is unclear"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Concrete Coring Company Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14220103"
+      ],
+      "claims": "Concrete Coring Company, Inc. was incorporated in Arizona on October 29, 1980 ([www.bbb.org](https://www.bbb.org/us/az/tucson/profile/concrete-contractors/concrete-coring-company-1286-20008242#:~:text=Business%20Started%3A%2010%2F29%2F1980)). The company operates a concrete cutting and drilling business and has been active for over 40 years, originally known also as “Concrete Sawing and Coring Inc.” ([www.bbb.org](https://www.bbb.org/us/az/tucson/profile/concrete-contractors/concrete-coring-company-1286-20008242#:~:text=Alternate%20Names%3A%20Concrete%20Sawing%20and,Coring%20Inc)). It is a family-owned firm led by President Mr. Donald Jack ([www.bbb.org](https://www.bbb.org/us/az/tucson/profile/concrete-contractors/concrete-coring-company-1286-20008242#:~:text=Concrete%20Sawing%20and%20Coring%20Inc)), with its headquarters and yard located in Peoria (zip 85345) ([concretecoringaz.com](https://concretecoringaz.com/contact/#:~:text=Send%20Us%20a%20Message.%20,1439Emailshane%40concretecoringaz.comURLconcretecuttingaz.com%2F%20Hours%3A%20Mo%2C%20Tu%2C%20We)). Public records show no recent litigation or liens against the company; it has a solid reputation in construction trades and holds an active Arizona contractor’s license (#ROC071382) ([concretecoringaz.com](https://concretecoringaz.com/contact/#:~:text=Send%20Us%20a%20Message.%20,1439Emailshane%40concretecoringaz.comURLconcretecuttingaz.com%2F%20Hours%3A%20Mo%2C%20Tu%2C%20We)).",
+      "community_influence": "Medium",
+      "influence_justification": "Long-standing local employer with industry ties; modest political or civic profile",
+      "entity_classification": "industrial_business",
+      "potential_motivators": [
+        "Business continuity (noise, access concerns)",
+        "Opportunity for subcontracting work"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owner Donald Jack directly to address any operational impact concerns; emphasize how the project could create new work for local contractors or otherwise avoid disrupting their business"
+      },
+      "confidence": "high"
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "H and H Masonry Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14220102"
+      ],
+      "claims": "H and H Masonry, Inc. is an Arizona-based masonry contracting company operating in the Peoria area (85345) ([concretecoringaz.com](https://concretecoringaz.com/contact/#:~:text=Send%20Us%20a%20Message.%20,1439Emailshane%40concretecoringaz.comURLconcretecuttingaz.com%2F%20Hours%3A%20Mo%2C%20Tu%2C%20We)). The company’s ownership is private; evidence suggests it may be family-run by the Hernandez family, as related filings list Richard Eliseo Hernandez Martinez at a Phoenix address as an affiliated business owner ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Address%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Principal%20Information)). H & H Masonry has been active regionally, but it maintains a low public profile with no significant media or political presence ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)). No recent court cases or liens name H and H Masonry Inc, indicating no public financial distress or legal disputes on record ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)).",
+      "community_influence": "Low",
+      "influence_justification": "Small family-run contractor; limited public visibility or political involvement",
+      "entity_classification": "construction_business",
+      "potential_motivators": [
+        "Maintaining property use for their yard/business",
+        "Interest in project contracts or material supply"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Speak with the Hernandez family principals (likely Richard or Rudy Hernandez) to find mutual benefits; offering inclusion as subcontractors or assurances of minimal disruption could secure their support"
+      },
+      "confidence": "medium"
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "8769 75Th Ave LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321008B",
+        "14321001A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "8769 75th Ave LLC is an Arizona LLC formed in April 2009 (registered as “Successful Options LLC”) and remains active and in good standing ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Formation%20Date%3A)). The LLC’s principals are Ted Gremmel and Kelly Gremmel of Mesa, Arizona, who have been listed as members since its formation ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Member%20%20,11%2F16%2F2023)). The entity’s mailing address is a PO Box in Apache Junction, AZ, but its principal office is in Mesa ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Member%20%20,11%2F16%2F2023)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Address%3A%20PO%20Box%201161%2C%20APACHE,JUNCTION%2C%20AZ%2C%2085117%2C%20USA)). This LLC acquired two adjacent parcels (APNs 143-21-001A and 143-21-008B) in Peoria, totaling several acres of undeveloped land, during the late 2000s real estate downturn at relatively low prices ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Member%20%20,11%2F16%2F2023)). There are no known business operations on the property; it appears to be a land investment held by the Gremmels, who have no prominent local political ties (Mr. Gremmel serves as a constable in Pinal County) ([tedgremmel.com](https://tedgremmel.com/#:~:text=I%20am%20honored%20to%20serve,I%20graduated%20from%20Mesa%20High)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-town private owners; own significant acreage but with minimal local societal engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Ted and Kelly Gremmel with a clear value proposition (e.g., above-market offer or partnership for their parcels); highlight how the development could increase their land’s worth or provide an exit at a profit"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "JMM 8657 LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220101"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JMM 8657 LLC is an Arizona limited liability company linked to the Hernandez family, formed in August 2022 and associated with the construction trade ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Business%20Type%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Principal%20Information)). Corporate records list Richard Eliseo Hernandez Martinez as a member and Rubi Florencio Martinez as the managing member, both using a Phoenix address on file ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Manager%20%20,8%2F12%2F2022)). The LLC’s name corresponds to the street number of its parcel (likely 8657 W. – matching the property’s address), suggesting it was created to hold or develop that specific piece of land ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Business%20Type%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Manager%20%20,8%2F12%2F2022)). The entity’s business purpose is filed under “Construction,” and no other public information (such as website or press) is available, implying it functions as a private property holding or development vehicle for the family’s masonry business ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Business%20Type%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Address%3A)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Newly-formed land holding for a local family business; limited reach beyond immediate business interests",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Richard Hernandez (or designated manager) to address any plans they have for the parcel; emphasize how the project could align with their business interests or offer favorable buyout/lease terms to mitigate opposition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring landowners in Peoria include established construction businesses and private land-holding LLCs. Concrete Coring Company, Inc. is a decades-old industrial contractor, while H and H Masonry Inc appears to be a local masonry firm tied to the Hernandez family. The others – MLM Property Management LLC, 8769 75th Ave LLC, and JMM 8657 LLC – are property holding entities with limited public profiles, likely held by individuals for land investment or business use. None of these entities are known community organizations or advocacy groups, suggesting their interests are primarily financial or operational rather than ideological.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"MLM Property Management LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220104\"],\n      \"claims\": \"MLM Property Management LLC is an Arizona limited liability company identified as the owner of parcel 142-20-104 in Maricopa County ([www.loopnet.com](https://www.loopnet.com/Listing/13741851/8769-N-75th-Ave-Peoria-AZ/#:~:text=Information%20for%20the%20property%20located,and%20LoopNet%20historical%20data%20records)). No principals or detailed corporate filings for this entity were found in state records or public databases ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)). The company’s ownership and operations are not publicly disclosed, indicating a private landholding with unknown beneficial owners ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)). No liens, lawsuits, or UCC financing statements are on record under this entity’s name in the past two years ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Anonymous landholding LLC with no public presence or known local influence\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Property value appreciation\", \"Discrete land investment\"],\n      \"approach_recommendations\": \"Investigate the managing member via county records; outreach through certified letter offering dialogue on development plans, since beneficial ownership is unclear\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Concrete Coring Company Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"14220103\"],\n      \"claims\": \"Concrete Coring Company, Inc. was incorporated in Arizona on October 29, 1980 ([www.bbb.org](https://www.bbb.org/us/az/tucson/profile/concrete-contractors/concrete-coring-company-1286-20008242#:~:text=Business%20Started%3A%2010%2F29%2F1980)). The company operates a concrete cutting and drilling business and has been active for over 40 years, originally known also as “Concrete Sawing and Coring Inc.” ([www.bbb.org](https://www.bbb.org/us/az/tucson/profile/concrete-contractors/concrete-coring-company-1286-20008242#:~:text=Alternate%20Names%3A%20Concrete%20Sawing%20and,Coring%20Inc)). It is a family-owned firm led by President Mr. Donald Jack ([www.bbb.org](https://www.bbb.org/us/az/tucson/profile/concrete-contractors/concrete-coring-company-1286-20008242#:~:text=Concrete%20Sawing%20and%20Coring%20Inc)), with its headquarters and yard located in Peoria (zip 85345) ([concretecoringaz.com](https://concretecoringaz.com/contact/#:~:text=Send%20Us%20a%20Message.%20,1439Emailshane%40concretecoringaz.comURLconcretecuttingaz.com%2F%20Hours%3A%20Mo%2C%20Tu%2C%20We)). Public records show no recent litigation or liens against the company; it has a solid reputation in construction trades and holds an active Arizona contractor’s license (#ROC071382) ([concretecoringaz.com](https://concretecoringaz.com/contact/#:~:text=Send%20Us%20a%20Message.%20,1439Emailshane%40concretecoringaz.comURLconcretecuttingaz.com%2F%20Hours%3A%20Mo%2C%20Tu%2C%20We)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Long-standing local employer with industry ties; modest political or civic profile\",\n      \"entity_classification\": \"industrial_business\",\n      \"potential_motivators\": [\"Business continuity (noise, access concerns)\", \"Opportunity for subcontracting work\"],\n      \"approach_recommendations\": \"Engage owner Donald Jack directly to address any operational impact concerns; emphasize how the project could create new work for local contractors or otherwise avoid disrupting their business\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"H and H Masonry Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"14220102\"],\n      \"claims\": \"H and H Masonry, Inc. is an Arizona-based masonry contracting company operating in the Peoria area (85345) ([concretecoringaz.com](https://concretecoringaz.com/contact/#:~:text=Send%20Us%20a%20Message.%20,1439Emailshane%40concretecoringaz.comURLconcretecuttingaz.com%2F%20Hours%3A%20Mo%2C%20Tu%2C%20We)). The company’s ownership is private; evidence suggests it may be family-run by the Hernandez family, as related filings list Richard Eliseo Hernandez Martinez at a Phoenix address as an affiliated business owner ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Address%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Principal%20Information)). H & H Masonry has been active regionally, but it maintains a low public profile with no significant media or political presence ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)). No recent court cases or liens name H and H Masonry Inc, indicating no public financial distress or legal disputes on record ([recorder.maricopa.gov](https://recorder.maricopa.gov/recording/document-search.html#:~:text=The%20Maricopa%20County%20Recorder%20is,on%20how%20to%20search%20below)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small family-run contractor; limited public visibility or political involvement\",\n      \"entity_classification\": \"construction_business\",\n      \"potential_motivators\": [\"Maintaining property use for their yard/business\", \"Interest in project contracts or material supply\"],\n      \"approach_recommendations\": \"Speak with the Hernandez family principals (likely Richard or Rudy Hernandez) to find mutual benefits; offering inclusion as subcontractors or assurances of minimal disruption could secure their support\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"8769 75Th Ave LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321008B\", \"14321001A\"],\n      \"claims\": \"8769 75th Ave LLC is an Arizona LLC formed in April 2009 (registered as “Successful Options LLC”) and remains active and in good standing ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Formation%20Date%3A)). The LLC’s principals are Ted Gremmel and Kelly Gremmel of Mesa, Arizona, who have been listed as members since its formation ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Member%20%20,11%2F16%2F2023)). The entity’s mailing address is a PO Box in Apache Junction, AZ, but its principal office is in Mesa ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Member%20%20,11%2F16%2F2023)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Address%3A%20PO%20Box%201161%2C%20APACHE,JUNCTION%2C%20AZ%2C%2085117%2C%20USA)). This LLC acquired two adjacent parcels (APNs 143-21-001A and 143-21-008B) in Peoria, totaling several acres of undeveloped land, during the late 2000s real estate downturn at relatively low prices ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15173738#:~:text=Member%20%20,11%2F16%2F2023)). There are no known business operations on the property; it appears to be a land investment held by the Gremmels, who have no prominent local political ties (Mr. Gremmel serves as a constable in Pinal County) ([tedgremmel.com](https://tedgremmel.com/#:~:text=I%20am%20honored%20to%20serve,I%20graduated%20from%20Mesa%20High)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-town private owners; own significant acreage but with minimal local societal engagement\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize sale or lease value of land\", \"Avoidance of property value loss or nuisance\"],\n      \"approach_recommendations\": \"Engage Ted and Kelly Gremmel with a clear value proposition (e.g., above-market offer or partnership for their parcels); highlight how the development could increase their land’s worth or provide an exit at a profit\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"JMM 8657 LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220101\"],\n      \"claims\": \"JMM 8657 LLC is an Arizona limited liability company linked to the Hernandez family, formed in August 2022 and associated with the construction trade ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Business%20Type%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Principal%20Information)). Corporate records list Richard Eliseo Hernandez Martinez as a member and Rubi Florencio Martinez as the managing member, both using a Phoenix address on file ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Manager%20%20,8%2F12%2F2022)). The LLC’s name corresponds to the street number of its parcel (likely 8657 W. \\u2013 matching the property’s address), suggesting it was created to hold or develop that specific piece of land ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Business%20Type%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Manager%20%20,8%2F12%2F2022)). The entity’s business purpose is filed under “Construction,” and no other public information (such as website or press) is available, implying it functions as a private property holding or development vehicle for the family’s masonry business ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Business%20Type%3A)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23409075#:~:text=Address%3A)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Newly-formed land holding for a local family business; limited reach beyond immediate business interests\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Expansion space for their masonry business\", \"Future development potential or sale profit\"],\n      \"approach_recommendations\": \"Coordinate with Richard Hernandez (or designated manager) to address any plans they have for the parcel; emphasize how the project could align with their business interests or offer favorable buyout/lease terms to mitigate opposition\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-12-16T10:18:47.870085",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": "Peoria",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neighboring landowners include small private investment LLCs and one large energy company. Most LLC owners appear to be holding land for future value, with little public information or community ties, whereas the pipeline company is a major corporate stakeholder concerned primarily with protecting its infrastructure.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Sharro LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220121",
+        "14220122"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharro LLC is an Arizona domestic LLC whose managing member is Rocco J. Arpaio of Scottsdale (added July 2022) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L16452464#:~:text=Arizona%20Corporation%20Commission%20,ROCCO)). The company holds at least two parcels in Peoria, and no other active business operations are evident from public records ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L16452464#:~:text=Arizona%20Corporation%20Commission%20,ROCCO)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small landholder with limited public presence (politically connected family name but no active community role)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage managing member Rocco Arpaio directly with a collaborative offer (e.g., premium purchase or joint venture); address any concerns about property value impact and acknowledge his local connections to build goodwill"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Transwestern Pipeline Company LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220109"
+      ],
+      "claims": "Transwestern Pipeline Company, LLC operates a 2,500-mile interstate natural gas pipeline reaching markets in the Midwest, Texas, Arizona, New Mexico and California ([www.sec.gov](https://www.sec.gov/Archives/edgar/data/1012569/000119312506246760/dex991.htm#:~:text=Basin%20in%20west%20Texas%20to,interstate%20pipelines%20in%20west%20Texas)). It became a subsidiary of Energy Transfer Partners in 2006 and remains part of that energy infrastructure conglomerate ([www.sec.gov](https://www.sec.gov/Archives/edgar/data/1012569/000119312506246760/dex991.htm#:~:text=step%2C%20Transwestern%20Pipeline%20Company%2C%20LLC,cash%20of%20approximately%20%2455%20million)).",
+      "community_influence": "Medium",
+      "influence_justification": "Major corporate entity (pipeline infrastructure) but with a narrow operational focus and minimal direct engagement in local politics",
+      "entity_classification": "energy_infrastructure",
+      "potential_motivators": [
+        "Pipeline safety and integrity",
+        "Right-of-way protection",
+        "Regulatory compliance"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with Transwestern’s right-of-way/land team; ensure the project includes strict safety measures and respects pipeline easements, as the company will remain neutral if its infrastructure is safeguarded"
+      },
+      "confidence": "high"
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "DCMS Properties LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220110",
+        "14220134",
+        "14220099"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "DCMS Properties LLC is an Arizona limited liability company with scant public information about its owners or activities ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)). It appears to function solely as a land-holding entity for its Peoria parcels, with no other business filings or visible operations ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Unknown principals and no community footprint (passive land investor with no apparent local influence)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact the owner via registered agent with a straightforward purchase or partnership proposal; emphasize financial upside and a quick transaction, since the interest is likely purely investment-driven"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Num 1 Job LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321009A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Num 1 Job LLC is an Arizona LLC managed by Umirali Nisanbayev of Phoenix (recorded as taking office in 2009) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)). Beyond holding its parcel, this entity has no public-facing business operations or additional corporate disclosures on record ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Single-owner investment with no local profile or connections (likely an individual’s passive holding)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out to managing member Umirali Nisanbayev with a clear buyout offer; highlight the immediate financial gain, as his interest in the property seems purely speculative and he may be amenable to a profitable exit"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "JGJ Real Estate Experts LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220113"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JGJ Real Estate Experts LLC is an Arizona-registered realty firm (one of many licensed real estate LLCs in Peoria) ([licensee.io](https://licensee.io/real-estate-az/peoria/#:~:text=Realty%20Limited%20Liability%20,34)). Apart from its indication of being a real estate sales team, there are no separate business operations or corporate disclosures publicly noted for this entity ([licensee.io](https://licensee.io/real-estate-az/peoria/#:~:text=Realty%20Limited%20Liability%20,34)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Local realty team with limited reach (influential in small real estate circles but not a major community power broker)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the JGJ principals by addressing potential market impacts openly; provide data showing minimal effect on home values and possibly involve them in marketing or realty aspects of the project to turn their expertise toward collaboration rather than opposition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neighboring landowners include small private investment LLCs and one large energy company. Most LLC owners appear to be holding land for future value, with little public information or community ties, whereas the pipeline company is a major corporate stakeholder concerned primarily with protecting its infrastructure.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Sharro LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220121\", \"14220122\"],\n      \"claims\": \"Sharro LLC is an Arizona domestic LLC whose managing member is Rocco J. Arpaio of Scottsdale (added July 2022) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L16452464#:~:text=Arizona%20Corporation%20Commission%20,ROCCO)). The company holds at least two parcels in Peoria, and no other active business operations are evident from public records ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L16452464#:~:text=Arizona%20Corporation%20Commission%20,ROCCO)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small landholder with limited public presence (politically connected family name but no active community role)\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Property value appreciation\", \"Future resale or development gain\", \"Control of land use\"],\n      \"approach_recommendations\": \"Engage managing member Rocco Arpaio directly with a collaborative offer (e.g., premium purchase or joint venture); address any concerns about property value impact and acknowledge his local connections to build goodwill\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Transwestern Pipeline Company LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220109\"],\n      \"claims\": \"Transwestern Pipeline Company, LLC operates a 2,500-mile interstate natural gas pipeline reaching markets in the Midwest, Texas, Arizona, New Mexico and California ([www.sec.gov](https://www.sec.gov/Archives/edgar/data/1012569/000119312506246760/dex991.htm#:~:text=Basin%20in%20west%20Texas%20to,interstate%20pipelines%20in%20west%20Texas)). It became a subsidiary of Energy Transfer Partners in 2006 and remains part of that energy infrastructure conglomerate ([www.sec.gov](https://www.sec.gov/Archives/edgar/data/1012569/000119312506246760/dex991.htm#:~:text=step%2C%20Transwestern%20Pipeline%20Company%2C%20LLC,cash%20of%20approximately%20%2455%20million)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major corporate entity (pipeline infrastructure) but with a narrow operational focus and minimal direct engagement in local politics\",\n      \"entity_classification\": \"energy_infrastructure\",\n      \"potential_motivators\": [\"Pipeline safety and integrity\", \"Right-of-way protection\", \"Regulatory compliance\"],\n      \"approach_recommendations\": \"Coordinate early with Transwestern’s right-of-way/land team; ensure the project includes strict safety measures and respects pipeline easements, as the company will remain neutral if its infrastructure is safeguarded\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"DCMS Properties LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220110\", \"14220134\", \"14220099\"],\n      \"claims\": \"DCMS Properties LLC is an Arizona limited liability company with scant public information about its owners or activities ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)). It appears to function solely as a land-holding entity for its Peoria parcels, with no other business filings or visible operations ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Unknown principals and no community footprint (passive land investor with no apparent local influence)\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Speculative investment return\", \"Future development potential\", \"Passive asset holding\"],\n      \"approach_recommendations\": \"Contact the owner via registered agent with a straightforward purchase or partnership proposal; emphasize financial upside and a quick transaction, since the interest is likely purely investment-driven\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Num 1 Job LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321009A\"],\n      \"claims\": \"Num 1 Job LLC is an Arizona LLC managed by Umirali Nisanbayev of Phoenix (recorded as taking office in 2009) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)). Beyond holding its parcel, this entity has no public-facing business operations or additional corporate disclosures on record ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15047438#:~:text=...Updated%20,records%201%20to%201%20of)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Single-owner investment with no local profile or connections (likely an individual’s passive holding)\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Resale profit motive\", \"Undisclosed personal use plans\", \"Land value appreciation\"],\n      \"approach_recommendations\": \"Reach out to managing member Umirali Nisanbayev with a clear buyout offer; highlight the immediate financial gain, as his interest in the property seems purely speculative and he may be amenable to a profitable exit\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"JGJ Real Estate Experts LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220113\"],\n      \"claims\": \"JGJ Real Estate Experts LLC is an Arizona-registered realty firm (one of many licensed real estate LLCs in Peoria) ([licensee.io](https://licensee.io/real-estate-az/peoria/#:~:text=Realty%20Limited%20Liability%20,34)). Apart from its indication of being a real estate sales team, there are no separate business operations or corporate disclosures publicly noted for this entity ([licensee.io](https://licensee.io/real-estate-az/peoria/#:~:text=Realty%20Limited%20Liability%20,34)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local realty team with limited reach (influential in small real estate circles but not a major community power broker)\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Protect surrounding property values\", \"Real estate business opportunities\", \"Community reputation concerns\"],\n      \"approach_recommendations\": \"Engage the JGJ principals by addressing potential market impacts openly; provide data showing minimal effect on home values and possibly involve them in marketing or realty aspects of the project to turn their expertise toward collaboration rather than opposition\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

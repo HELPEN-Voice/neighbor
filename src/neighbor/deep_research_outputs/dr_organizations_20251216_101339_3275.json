@@ -1,0 +1,260 @@
+{
+  "timestamp": "2025-12-16T10:13:39.327601",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": "Peoria",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring organizational landowners include a speculative holding LLC, a national retail distributor, a data center developer, and a local construction supplier. Most are involved in industrial or logistics projects on their parcels, indicating a generally pro-development stance as long as their operations are not hindered. The primary influence lies with Aligned Data Centers (a major investor expanding in Peoria) and Trader Joe’s (a high-profile corporate presence), whereas the small Westech business and the anonymous Phi PLP 13 LLC wield limited community power.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Phi Plp 13 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220158"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Phi PLP 13 LLC owns a 17.5-acre parcel at Peoria Logistics Park, which houses a new 157,000 ft² Frito Lay distribution center opened in 2023 ([vantrustrealestate.com](https://vantrustrealestate.com/vantrust-real-estate-attracts-industrial-users-to-peoria-with-a-150-acre-build-to-suit-industrial-park/#:~:text=The%20first%20phase%20features%20a,general%20contractor%20is%20Willmeng%20Construction)) ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Following%20the%20completion%20of%20a,major%20user%20%E2%80%94%20Trader%20Joe%E2%80%99s)). The Texas-based snack company Frito Lay was the first tenant to occupy this site, highlighting the parcel’s use as an industrial logistics facility ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Following%20the%20completion%20of%20a,major%20user%20%E2%80%94%20Trader%20Joe%E2%80%99s)). The LLC has no publicly known officers or parent company; it appears to be a single-purpose entity holding the property for investment (beneficial ownership is not disclosed in Arizona filings) ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Following%20the%20completion%20of%20a,major%20user%20%E2%80%94%20Trader%20Joe%E2%80%99s)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Passive landowner with anonymous ownership; no local presence beyond collecting rent on a logistics facility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Little direct engagement possible (ownership is opaque); coordinate with the Frito Lay facility’s management to address any issues, ensuring Helpen’s project does not interfere with their distribution operations"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Trader Joes Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14220157"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trader Joe’s Company purchased 16 acres in Peoria in 2024 for $7.1 million to build a 155,000 ft² cold-storage distribution center ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Trader%20Joe%E2%80%99s%20acquired%2016%20acres,to%20design%20its%20own%20facility)). The new facility, located just south of Frito Lay’s, will serve as Trader Joe’s regional hub, chosen for its central Valley location and the ability to custom-design the warehouse ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Trader%20Joe%E2%80%99s%20acquired%2016%20acres,to%20design%20its%20own%20facility)) ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=million%20in%20cash%20for%20the,to%20design%20its%20own%20facility)). There is no indication Trader Joe’s has opposed local development; the firm’s focus is on efficient supply chain operations, and its presence underscores industrial growth in the area ([hoodline.com](https://hoodline.com/2024/04/frito-lay-and-trader-joe-s-establish-key-facilities-in-peoria-s-expanding-logistics-parks/#:~:text=Logistics%20Park%2C%20a%20new%20hub,further%20cements%20the%20park%27s%20reputation)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Major employer investment (distribution center) but not politically active; respected brand with moderate local economic impact",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Peoria distribution center’s management early to discuss any project impact on traffic or infrastructure; emphasize minimal disruption and highlight any improvements (e.g., road upgrades) that could benefit Trader Joe’s operations"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aligned Data Centers Peoria Prop Co Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14223012A",
+        "14223006D",
+        "14223012B",
+        "14223006E",
+        "14223014B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Aligned Data Centers Peoria Prop Co LLC (a unit of Aligned Data Centers) acquired nearly 80 acres at Peoria Logistics Park for $43.2 million in October 2024 ([baxtel.com](https://baxtel.com/data-center/aligned-peoria-logistics-park#:~:text=Lot%20Size%3A%2080%20acres)). The company has not yet announced specific development plans for the site, indicating it is in a land-banking or pre-construction stage for a future data center campus ([www.datacenterdynamics.com](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/#:~:text=BizJournal%20reports%20that%20Aligned%20this,reached%20out%20for%20more%20information)). Aligned is a large data center developer backed by global investors (CenterSquare, Mubadala, Macquarie) and already operates a 55-acre, 180 MW data center campus in the Phoenix area ([www.datacenterdynamics.com](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/#:~:text=Aligned%20operates%20a%2055,suit%20project%20on%20the%20campus)). This suggests significant financial strength and a focus on expanding digital infrastructure in Peoria.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Large-scale investor (80-acre tech campus); strong financial backing; likely support from city for high-tech development",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate dialogue with Aligned’s regional development executives; explore mutually beneficial arrangements (e.g., shared infrastructure or renewable energy supply) and ensure Helpen’s plans complement their data center project to foster cooperation rather than competition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Westech Lumber Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321010D",
+        "14321010A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Westech Lumber LLC is a local building materials supplier located at 8525 N 75th Ave in Peoria ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)). Operating as Westech Building Supplies (part of the Younger Brothers Companies) since around 2009, it provides lumber, hardware, and construction materials to large contractors in the Phoenix area ([www.youngerbrothers.com](https://www.youngerbrothers.com/westech#:~:text=Westech%20has%20been%20proudly%20serving,to%20get%20the%20job%20done)). The company does not appear in any land use disputes or political campaigns; as a vendor, its interest lies in a robust construction market and it benefits from increased development activity rather than opposing it ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private business; limited political or financial clout beyond its niche in construction supply",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet informally with Westech’s owner/manager; explain how Helpen’s project can contribute to local construction growth, and offer open communication to mitigate any inconveniences during construction, aligning the project with Westech’s business interests"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Westech Components Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14321007A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Westech Components Inc is affiliated with Westech Lumber, sharing the same address at 8525 N 75th Ave in Peoria ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)). It serves as the corporate entity behind Westech’s operations, which have been serving Phoenix-area builders for over a decade ([www.youngerbrothers.com](https://www.youngerbrothers.com/westech#:~:text=Westech%20has%20been%20proudly%20serving,to%20get%20the%20job%20done)). There is no separate public profile or outreach by Westech Components Inc itself, suggesting it functions mainly as an internal holding/operating company rather than an independent community actor ([www.youngerbrothers.com](https://www.youngerbrothers.com/westech#:~:text=Westech%20has%20been%20proudly%20serving,to%20get%20the%20job%20done)) ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Back-office corporate entity; no direct community role apart from the associated Westech Lumber business",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "No separate engagement needed beyond dealing with Westech Lumber’s leadership; Westech Components has no independent activities, so addressing any concerns through the Westech Lumber contacts effectively covers this entity as well"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring organizational landowners include a speculative holding LLC, a national retail distributor, a data center developer, and a local construction supplier. Most are involved in industrial or logistics projects on their parcels, indicating a generally pro-development stance as long as their operations are not hindered. The primary influence lies with Aligned Data Centers (a major investor expanding in Peoria) and Trader Joe’s (a high-profile corporate presence), whereas the small Westech business and the anonymous Phi PLP 13 LLC wield limited community power.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Phi Plp 13 Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220158\"],\n      \"claims\": \"Phi PLP 13 LLC owns a 17.5-acre parcel at Peoria Logistics Park, which houses a new 157,000 ft² Frito Lay distribution center opened in 2023 ([vantrustrealestate.com](https://vantrustrealestate.com/vantrust-real-estate-attracts-industrial-users-to-peoria-with-a-150-acre-build-to-suit-industrial-park/#:~:text=The%20first%20phase%20features%20a,general%20contractor%20is%20Willmeng%20Construction)) ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Following%20the%20completion%20of%20a,major%20user%20%E2%80%94%20Trader%20Joe%E2%80%99s)). The Texas-based snack company Frito Lay was the first tenant to occupy this site, highlighting the parcel’s use as an industrial logistics facility ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Following%20the%20completion%20of%20a,major%20user%20%E2%80%94%20Trader%20Joe%E2%80%99s)). The LLC has no publicly known officers or parent company; it appears to be a single-purpose entity holding the property for investment (beneficial ownership is not disclosed in Arizona filings) ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Following%20the%20completion%20of%20a,major%20user%20%E2%80%94%20Trader%20Joe%E2%80%99s)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Passive landowner with anonymous ownership; no local presence beyond collecting rent on a logistics facility\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Rental income from Frito Lay lease\", \"Long-term property appreciation\"],\n      \"approach_recommendations\": \"Little direct engagement possible (ownership is opaque); coordinate with the Frito Lay facility’s management to address any issues, ensuring Helpen’s project does not interfere with their distribution operations\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Trader Joes Company\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"14220157\"],\n      \"claims\": \"Trader Joe’s Company purchased 16 acres in Peoria in 2024 for $7.1 million to build a 155,000 ft² cold-storage distribution center ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Trader%20Joe%E2%80%99s%20acquired%2016%20acres,to%20design%20its%20own%20facility)). The new facility, located just south of Frito Lay’s, will serve as Trader Joe’s regional hub, chosen for its central Valley location and the ability to custom-design the warehouse ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=Trader%20Joe%E2%80%99s%20acquired%2016%20acres,to%20design%20its%20own%20facility)) ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=million%20in%20cash%20for%20the,to%20design%20its%20own%20facility)). There is no indication Trader Joe’s has opposed local development; the firm’s focus is on efficient supply chain operations, and its presence underscores industrial growth in the area ([hoodline.com](https://hoodline.com/2024/04/frito-lay-and-trader-joe-s-establish-key-facilities-in-peoria-s-expanding-logistics-parks/#:~:text=Logistics%20Park%2C%20a%20new%20hub,further%20cements%20the%20park%27s%20reputation)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major employer investment (distribution center) but not politically active; respected brand with moderate local economic impact\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Efficient regional distribution\", \"Securing supply chain infrastructure\", \"Maintaining favorable logistics conditions\"],\n      \"approach_recommendations\": \"Engage the Peoria distribution center’s management early to discuss any project impact on traffic or infrastructure; emphasize minimal disruption and highlight any improvements (e.g., road upgrades) that could benefit Trader Joe’s operations\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Aligned Data Centers Peoria Prop Co Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14223012A\", \"14223006D\", \"14223012B\", \"14223006E\", \"14223014B\"],\n      \"claims\": \"Aligned Data Centers Peoria Prop Co LLC (a unit of Aligned Data Centers) acquired nearly 80 acres at Peoria Logistics Park for $43.2 million in October 2024 ([baxtel.com](https://baxtel.com/data-center/aligned-peoria-logistics-park#:~:text=Lot%20Size%3A%2080%20acres)). The company has not yet announced specific development plans for the site, indicating it is in a land-banking or pre-construction stage for a future data center campus ([www.datacenterdynamics.com](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/#:~:text=BizJournal%20reports%20that%20Aligned%20this,reached%20out%20for%20more%20information)). Aligned is a large data center developer backed by global investors (CenterSquare, Mubadala, Macquarie) and already operates a 55-acre, 180 MW data center campus in the Phoenix area ([www.datacenterdynamics.com](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/#:~:text=Aligned%20operates%20a%2055,suit%20project%20on%20the%20campus)). This suggests significant financial strength and a focus on expanding digital infrastructure in Peoria.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Large-scale investor (80-acre tech campus); strong financial backing; likely support from city for high-tech development\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Data center market expansion\", \"Capital investment ROI\", \"Leveraging local tax/power incentives\"],\n      \"approach_recommendations\": \"Initiate dialogue with Aligned’s regional development executives; explore mutually beneficial arrangements (e.g., shared infrastructure or renewable energy supply) and ensure Helpen’s plans complement their data center project to foster cooperation rather than competition\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Westech Lumber Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321010D\", \"14321010A\"],\n      \"claims\": \"Westech Lumber LLC is a local building materials supplier located at 8525 N 75th Ave in Peoria ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)). Operating as Westech Building Supplies (part of the Younger Brothers Companies) since around 2009, it provides lumber, hardware, and construction materials to large contractors in the Phoenix area ([www.youngerbrothers.com](https://www.youngerbrothers.com/westech#:~:text=Westech%20has%20been%20proudly%20serving,to%20get%20the%20job%20done)). The company does not appear in any land use disputes or political campaigns; as a vendor, its interest lies in a robust construction market and it benefits from increased development activity rather than opposing it ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private business; limited political or financial clout beyond its niche in construction supply\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Growth in local construction projects\", \"Steady demand for building materials\"],\n      \"approach_recommendations\": \"Meet informally with Westech’s owner/manager; explain how Helpen’s project can contribute to local construction growth, and offer open communication to mitigate any inconveniences during construction, aligning the project with Westech’s business interests\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Westech Components Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"14321007A\"],\n      \"claims\": \"Westech Components Inc is affiliated with Westech Lumber, sharing the same address at 8525 N 75th Ave in Peoria ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)). It serves as the corporate entity behind Westech’s operations, which have been serving Phoenix-area builders for over a decade ([www.youngerbrothers.com](https://www.youngerbrothers.com/westech#:~:text=Westech%20has%20been%20proudly%20serving,to%20get%20the%20job%20done)). There is no separate public profile or outreach by Westech Components Inc itself, suggesting it functions mainly as an internal holding/operating company rather than an independent community actor ([www.youngerbrothers.com](https://www.youngerbrothers.com/westech#:~:text=Westech%20has%20been%20proudly%20serving,to%20get%20the%20job%20done)) ([westech-lumber-llc.hub.biz](https://westech-lumber-llc.hub.biz/#:~:text=Westech%20Lumber%20is%20located%20at,please%20leave%20a%20review%20to)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Back-office corporate entity; no direct community role apart from the associated Westech Lumber business\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Maximize operational profits\", \"Support Westech’s market presence\"],\n      \"approach_recommendations\": \"No separate engagement needed beyond dealing with Westech Lumber’s leadership; Westech Components has no independent activities, so addressing any concerns through the Westech Lumber contacts effectively covers this entity as well\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -388,6 +388,14 @@ async def process_completed_response_async(response_id: str, response: Any) -> N
 
         # Extract citations
         annotations = response.output[-1].content[0].annotations
+
+        # Debug: log annotation structure
+        if annotations:
+            logger.info(f"📋 Annotations count: {len(annotations)}")
+            for i, ann in enumerate(annotations[:3]):  # Log first 3
+                logger.info(f"📋 Annotation {i} type: {type(ann).__name__}, attrs: {dir(ann)}")
+                logger.info(f"📋 Annotation {i} dict: {vars(ann) if hasattr(ann, '__dict__') else 'no __dict__'}")
+
         citations = []
         for i, citation in enumerate(annotations):
             citations.append(

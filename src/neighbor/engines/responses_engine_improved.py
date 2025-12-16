@@ -173,6 +173,14 @@ class DeepResearchResponsesEngine(ResearchEngine):
 
         # Extract citations
         annotations = response.output[-1].content[0].annotations
+
+        # Debug: log annotation structure
+        if annotations:
+            print(f"📋 [DEBUG] Annotations count: {len(annotations)}")
+            for i, ann in enumerate(annotations[:3]):  # Log first 3
+                print(f"📋 [DEBUG] Annotation {i} type: {type(ann).__name__}, attrs: {dir(ann)}")
+                print(f"📋 [DEBUG] Annotation {i} dict: {vars(ann) if hasattr(ann, '__dict__') else 'no __dict__'}")
+
         citations = []
         for i, citation in enumerate(annotations):
             citations.append(
