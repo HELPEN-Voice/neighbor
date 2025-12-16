@@ -197,7 +197,7 @@ class NeighborDBConnector:
             return
 
         sql = """
-            INSERT INTO local_cluster_benchmarks (
+            INSERT INTO regrid_values (
                 run_id,
                 coordinates,
                 state_code,
