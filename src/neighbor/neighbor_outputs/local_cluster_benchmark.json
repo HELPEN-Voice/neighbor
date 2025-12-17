@@ -1,31 +1,31 @@
 {
-  "run_id": "4b85d47c-8577-4d9d-8031-6278733ee615",
-  "coordinates": "36.2148,-99.0365",
+  "run_id": "aab3ce99-7e11-40d6-8d01-3ca6ea2442db",
+  "coordinates": "34.6092,-99.1428",
   "state_code": "OK",
-  "parcels_analyzed": 35,
+  "parcels_analyzed": 47,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 6,
+    "median_structure_value": 29960.0,
+    "formatted": "$29,960",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "land_value_proxy": {
-    "valid_samples": 33,
-    "median_value_per_acre": 184.03163377406233,
-    "formatted": "$184/acre",
+    "valid_samples": 34,
+    "median_value_per_acre": 263.64834914808773,
+    "formatted": "$264/acre",
     "risk_level": "LOW",
     "risk_class": "risk-low"
   },
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "$184/acre",
+    "median_structure_value": "$29,960",
+    "wealth_risk_level": "LOW",
+    "wealth_risk_class": "risk-low",
+    "wealth_valid_samples": "6",
+    "median_land_value_acre": "$264/acre",
     "land_risk_level": "LOW",
     "land_risk_class": "risk-low",
-    "land_valid_samples": "33",
-    "parcels_analyzed": "35"
+    "land_valid_samples": "34",
+    "parcels_analyzed": "47"
   }
 }

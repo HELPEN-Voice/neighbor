@@ -1,0 +1,189 @@
+{
+  "timestamp": "2025-12-17T12:44:48.728100",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "OK",
+    "city": "Headrick",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five profiled neighbors have no documented public stance on the development, with 0 expressing support, 0 opposition, and 5 unknown. Most are private landowners with low public profiles; none hold high-influence positions in the community. Only one neighbor (William Wright) owns multiple parcels, giving him moderate local economic influence, but overall there are no high-influence power-brokers in this group.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Trina Adams",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017840"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trina Adams is the daughter of the late Richard Wayne Adams, who grew up farming near Headrick [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Richard-Wayne-Adams?obId=2904100) — \"He grew up on a farm on the river bend in Headrick, Oklahoma.\" She was listed as residing in Altus in 2011 [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Richard-Wayne-Adams?obId=2904100) — \"five daughters, Sherrie Adams and Trina Adams, both of Altus,\" indicating her ties to the area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local farm family, no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Leverage personal connections and acknowledge her family’s long history on the land. Emphasize respect for her family’s farming legacy and how the project can align with preserving local heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Norma Wright",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017837"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Norma Wright is a long-time resident landowner in rural Jackson County, holding property near Headrick (per county parcel records). She has no evident public profile; her name does not appear in local news archives or civic records, reflecting the very small community’s low visibility [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"Population 316 ... number of seniors is extremely large.\"",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired rural resident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with a neighborly, low-key conversation. It may be effective to involve a trusted local intermediary or friend when reaching out, given her private nature."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cornelio Rangel",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017816"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cornelio Rangel is listed as the owner of a parcel of land in the Headrick vicinity of Jackson County. No public statements or community leadership roles could be found for Rangel; he maintains a low profile typical of the area’s rural landowners [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"Population 316 ... number of seniors is extremely large.\"",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner, not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, trust-building approach. A one-on-one visit by a project representative who can speak informally (and bilingually if needed) may help open communication, since Rangel has no prior public engagement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "William Wright",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017834",
+        "330017835",
+        "330017836"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William Wright is identified in county records as owning multiple farm parcels in the Headrick area, indicating a significant farming presence (by acreage) in the local community. He has not been quoted or noted in any media or public meetings related to development, suggesting he has stayed out of public controversies [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"The people living in ZIP code 73549 are primarily white. The number of middle aged adults is extremely large while the number of seniors is extremely large.\"",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major landowner in area",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Have a respected agriculture-oriented community member (or ag extension agent) reach out to discuss how the project will protect farm operations. Emphasize measures for soil conservation, drainage, and minimal disturbance to his farmland to address any unspoken concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Kevin & Manette Lewis",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017838"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin and Manette Lewis jointly own a tract of land in Jackson County near the proposed site. They have no public footprint in local affairs; their names do not surface in available news or civic documents, which is common in this small rural community [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"Population 316 ... number of seniors is extremely large.\"",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small-scale landowners, not active publicly",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Lewis family through personal outreach by someone they know or a community liaison. A straightforward conversation at their home or a local gathering, focusing on listening to any concerns about quiet and property, can build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five profiled neighbors have no documented public stance on the development, with 0 expressing support, 0 opposition, and 5 unknown. Most are private landowners with low public profiles; none hold high-influence positions in the community. Only one neighbor (William Wright) owns multiple parcels, giving him moderate local economic influence, but overall there are no high-influence power-brokers in this group.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Trina Adams\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330017840\"],\n      \"claims\": \"Trina Adams is the daughter of the late Richard Wayne Adams, who grew up farming near Headrick [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Richard-Wayne-Adams?obId=2904100) — \\\"He grew up on a farm on the river bend in Headrick, Oklahoma.\\\" She was listed as residing in Altus in 2011 [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Richard-Wayne-Adams?obId=2904100) — \\\"five daughters, Sherrie Adams and Trina Adams, both of Altus,\\\" indicating her ties to the area.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local farm family, no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Leverage personal connections and acknowledge her family’s long history on the land. Emphasize respect for her family’s farming legacy and how the project can align with preserving local heritage.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Norma Wright\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330017837\"],\n      \"claims\": \"Norma Wright is a long-time resident landowner in rural Jackson County, holding property near Headrick (per county parcel records). She has no evident public profile; her name does not appear in local news archives or civic records, reflecting the very small community’s low visibility [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \\\"Population 316 ... number of seniors is extremely large.\\\"\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Retired rural resident\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach with a neighborly, low-key conversation. It may be effective to involve a trusted local intermediary or friend when reaching out, given her private nature.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Cornelio Rangel\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330017816\"],\n      \"claims\": \"Cornelio Rangel is listed as the owner of a parcel of land in the Headrick vicinity of Jackson County. No public statements or community leadership roles could be found for Rangel; he maintains a low profile typical of the area’s rural landowners [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \\\"Population 316 ... number of seniors is extremely large.\\\"\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner, not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a personal, trust-building approach. A one-on-one visit by a project representative who can speak informally (and bilingually if needed) may help open communication, since Rangel has no prior public engagement.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"William Wright\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330017834\", \"330017835\", \"330017836\"],\n      \"claims\": \"William Wright is identified in county records as owning multiple farm parcels in the Headrick area, indicating a significant farming presence (by acreage) in the local community. He has not been quoted or noted in any media or public meetings related to development, suggesting he has stayed out of public controversies [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \\\"The people living in ZIP code 73549 are primarily white. The number of middle aged adults is extremely large while the number of seniors is extremely large.\\\"\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major landowner in area\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"drainage_roads\"],\n        \"engage\": \"Have a respected agriculture-oriented community member (or ag extension agent) reach out to discuss how the project will protect farm operations. Emphasize measures for soil conservation, drainage, and minimal disturbance to his farmland to address any unspoken concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Kevin & Manette Lewis\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330017838\"],\n      \"claims\": \"Kevin and Manette Lewis jointly own a tract of land in Jackson County near the proposed site. They have no public footprint in local affairs; their names do not surface in available news or civic documents, which is common in this small rural community [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \\\"Population 316 ... number of seniors is extremely large.\\\"\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small-scale landowners, not active publicly\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the Lewis family through personal outreach by someone they know or a community liaison. A straightforward conversation at their home or a local gathering, focusing on listening to any concerns about quiet and property, can build trust.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

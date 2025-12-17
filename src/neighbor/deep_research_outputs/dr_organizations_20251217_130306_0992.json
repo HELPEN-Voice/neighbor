@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-12-17T13:03:06.099325",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "OK",
+    "city": "Headrick",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Adjacent landowners include a rural water utility cooperative and several private landholding entities (LLCs and a trust). None appear to be overtly opposed to development; their interests are primarily financial or operational, meaning they can likely be engaged through practical incentives rather than ideological debate.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jackson County Water Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "330002383"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jackson County Water Company (also known as Jackson County Water Corporation) is a 501(c)(12) nonprofit rural water utility based in Blair, Oklahoma, operating since 1973 [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \"Tax-exempt since July 1973\". The cooperative reported roughly $1.22 million in annual revenue and $3.98 million in assets in 2023 [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \"$1.22M (2023)\" [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \"$3.98M (2023)\". Its mission is to provide water services to rural areas of Jackson County [Cause IQ](https://www.causeiq.com/organizations/jackson-county-water-company,730929547/) — \"Provide Water ... to members in rural areas around Jackson County, Oklahoma\". The company focuses on water supply and has not taken any public position on land development issues (its role is limited to ensuring reliable water service).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Essential service provider but limited political activity; influence mainly in water-related matters",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the cooperative’s board leadership (e.g., President Dave Samples) to share project plans and address any water supply concerns; emphasize that development will not strain local water resources and offer collaboration on infrastructure improvements if needed."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Prairie Properties, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "330017841"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Prairie Properties, LLC is a privately held real estate management company headquartered in Oklahoma City (beneficial owners not publicly disclosed) [MapQuest](https://www.mapquest.com/us/oklahoma/prairie-properties-llc-420582743) — \"real estate management company located in ... Oklahoma City OK\". It is a small firm with under $500,000 in annual sales and only 5–10 employees [Cortera](https://start.cortera.com/company/research/m4n3oqm1k/prairie-properties-llc/) — \"Under $500,000 ... 5 to 10\". The company’s presence in Jackson County is limited to owning land as an investment asset, with no local operations or community role; beneficial owner unknown.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-town investment LLC; no local ties or constituency",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the company through its Oklahoma City office or registered agent to identify the decision-maker; frame the conversation around financial benefits (e.g., premium purchase offer or revenue-sharing) to align with their investment interests and secure their cooperation or sale."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Frank, Donald P. Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "330002693"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Trust tied to an individual; insufficient public information to assess",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A (individual landowner; see resident profile for engagement strategy)."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "DLW Development, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "330002643"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "DLW Development, LLC has almost no public profile beyond being a registered LLC; no readily available records detail its operations or principals (suggesting it may be a shell entity). It appears to hold a parcel near Headrick as a speculative land investment; beneficial ownership is not disclosed in public filings.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Opaque entity with no known community presence; likely only holds land",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the LLC’s representative or registered agent via county or state records and initiate direct contact; since this entity is likely financially driven, offer a favorable buyout or partnership opportunity to align with their profit motive and preempt any opposition."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Adjacent landowners include a rural water utility cooperative and several private landholding entities (LLCs and a trust). None appear to be overtly opposed to development; their interests are primarily financial or operational, meaning they can likely be engaged through practical incentives rather than ideological debate.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Jackson County Water Company\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"330002383\"],\n      \"claims\": \"Jackson County Water Company (also known as Jackson County Water Corporation) is a 501(c)(12) nonprofit rural water utility based in Blair, Oklahoma, operating since 1973 [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \\\"Tax-exempt since July 1973\\\". The cooperative reported roughly $1.22 million in annual revenue and $3.98 million in assets in 2023 [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \\\"$1.22M (2023)\\\" [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \\\"$3.98M (2023)\\\". Its mission is to provide water services to rural areas of Jackson County [Cause IQ](https://www.causeiq.com/organizations/jackson-county-water-company,730929547/) — \\\"Provide Water ... to members in rural areas around Jackson County, Oklahoma\\\". The company focuses on water supply and has not taken any public position on land development issues (its role is limited to ensuring reliable water service).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Essential service provider but limited political activity; influence mainly in water-related matters\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Protect water resources\", \"Service expansion opportunities\"],\n      \"approach_recommendations\": \"Coordinate with the cooperative’s board leadership (e.g., President Dave Samples) to share project plans and address any water supply concerns; emphasize that development will not strain local water resources and offer collaboration on infrastructure improvements if needed.\",\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Prairie Properties, LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"330017841\"],\n      \"claims\": \"Prairie Properties, LLC is a privately held real estate management company headquartered in Oklahoma City (beneficial owners not publicly disclosed) [MapQuest](https://www.mapquest.com/us/oklahoma/prairie-properties-llc-420582743) — \\\"real estate management company located in ... Oklahoma City OK\\\". It is a small firm with under $500,000 in annual sales and only 5–10 employees [Cortera](https://start.cortera.com/company/research/m4n3oqm1k/prairie-properties-llc/) — \\\"Under $500,000 ... 5 to 10\\\". The company’s presence in Jackson County is limited to owning land as an investment asset, with no local operations or community role; beneficial owner unknown.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-town investment LLC; no local ties or constituency\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land resale value\", \"Potential buyout or lease income\"],\n      \"approach_recommendations\": \"Engage the company through its Oklahoma City office or registered agent to identify the decision-maker; frame the conversation around financial benefits (e.g., premium purchase offer or revenue-sharing) to align with their investment interests and secure their cooperation or sale.\",\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Frank, Donald P. Living Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"330002693\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Trust tied to an individual; insufficient public information to assess\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [],\n      \"approach_recommendations\": \"N/A (individual landowner; see resident profile for engagement strategy).\",\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"DLW Development, LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"330002643\"],\n      \"claims\": \"DLW Development, LLC has almost no public profile beyond being a registered LLC; no readily available records detail its operations or principals (suggesting it may be a shell entity). It appears to hold a parcel near Headrick as a speculative land investment; beneficial ownership is not disclosed in public filings.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Opaque entity with no known community presence; likely only holds land\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Profit from future sale or project\"],\n      \"approach_recommendations\": \"Identify the LLC’s representative or registered agent via county or state records and initiate direct contact; since this entity is likely financially driven, offer a favorable buyout or partnership opportunity to align with their profit motive and preempt any opposition.\",\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

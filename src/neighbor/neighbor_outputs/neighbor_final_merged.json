@@ -2,21 +2,24 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Estus, Carol",
+      "name": "Bron & Shellie Howard",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "770000038"
+        "330002698"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Carol Estus is a landowner in Mutual, a very small community (16 residents in 2023) [Data USA — other, retrieved 2025-12-17; \"Mutual, OK had a population of 16 people with a median age of 40.8\"](https://datausa.io/profile/geo/mutual-ok). She does not hold any public office; her name is absent from Woodward County’s list of officials [Woodward County Gov. — gov, retrieved 2025-12-17; \"Wendy Dunlap County Clerk ... Kim Bowers County Treasurer\"](https://woodward.okcounties.org/).",
+      "owns_adjacent_parcel": "No",
+      "claims": "The Howard family is known for farming wheat, hay and cattle near Headrick for six generations ([www.okfarmbureau.org](https://www.okfarmbureau.org/district-2-the-howard-family/#:~:text=Renee%20was%20still%20not%20sure,alongside%20Bob%20and%20his%20family)). No evidence was found of Bron or Shellie Howard participating in local energy or development debates as of 2025 (no news or meeting records reference them).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No civic roles; private landowner",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-generation farm family",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out personally in an informal setting to build rapport and hear any concerns she might have."
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Engage via local ag community networks (e.g., farm bureau), emphasizing respect for their family’s farming legacy and assuring farmland preservation."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -35,21 +38,33 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Scadden, Anna M. (Life Estate)",
+      "name": "Shane Reaser & Lori Willis",
       "entity_category": "Resident",
-      "entity_type": "Estate",
+      "entity_type": "Individual",
       "pins": [
-        "770000082"
+        "330002630",
+        "330002377",
+        "330002638",
+        "330002633",
+        "330002632",
+        "330002631",
+        "330002634",
+        "330002386",
+        "330002378",
+        "330002379"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The parcel is held under a life estate for Anna M. Scadden, giving her use of the land for her lifetime and passing the remainder to heirs [OSU Extension — other, retrieved 2025-12-17; \"...life estate in a farm... has the use of the farm during his or her lifetime\"](https://extension.okstate.edu/fact-sheets/estate-planning-a-simplified-guide-for-oklahoma-farm-and-ranch-families.html). No evidence was found of Scadden taking any public stance or community leadership role [Woodward County Gov. — gov, retrieved 2025-12-17; \"Wendy Dunlap County Clerk ... Kim Bowers County Treasurer\"](https://woodward.okcounties.org/).",
+      "claims": "Shane Reaser and Lori Willis jointly own multiple agricultural parcels in Jackson County (nine parcels near Headrick) ([southkcnews.com](https://southkcnews.com/stories/655139236-how-much-in-taxpayer-funded-subsidies-did-farmers-in-jackson-county-receive-in-2021#:~:text=Subsidies%20Received%20by%20Jackson%20County,Code%20Farmers%20in%202021)). They have no public profile of commenting on development or clean energy projects (no references to them appear in local news archives).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Elder landowner; no public roles",
+      "community_influence": "Medium",
+      "influence_justification": "Large landowner",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage with deference to her family legacy; involve her family or heirs in discussions to address any long-term land concerns."
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Approach through peer farmers they trust, addressing how the project can protect long-term land value and farming operations."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -68,21 +83,23 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Luttrell, Katie J. & David",
+      "name": "Troy D. Metheny III",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "770000035"
+        "330002385"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Katie J. and David Luttrell jointly own land in the rural Mutual area of Woodward County [Data USA — other, retrieved 2025-12-17; \"Mutual, OK had a population of 16 people with a median age of 40.8\"](https://datausa.io/profile/geo/mutual-ok). They have not been identified in any public proceedings or local leadership positions to date [Woodward County Gov. — gov, retrieved 2025-12-17; \"Wendy Dunlap County Clerk ... Kim Bowers County Treasurer\"](https://woodward.okcounties.org/).",
+      "claims": "Troy D. Metheny III resides in Jackson County as the third-generation namesake of his family (suffix “III” indicating multi-generational presence). He has shown personal interest in family heritage, once posting about Metheny ancestors dating back to the 1700s ([www.genealogyworld.com](https://www.genealogyworld.com/mgc/geobook.html#:~:text=,Comments%3A%20I)). There are no public statements or records of him taking a position on local development proposals.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private landowners; no civic roles",
+      "influence_justification": "No public role",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage the couple in a friendly, neighbor-to-neighbor conversation to share project information and invite their questions or input."
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage one-on-one highlighting respect for his family’s long history in the area, and discuss how the project honors local heritage."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -101,22 +118,23 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Sander Family, L.L.C.",
+      "name": "Stuart & Karen Ferguson",
       "entity_category": "Resident",
-      "entity_type": "LLC",
+      "entity_type": "Individual",
       "pins": [
-        "770000076",
-        "770000078"
+        "330002384"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See ORG table.",
+      "claims": "Stuart Ferguson is a retired Altus Air Force Base veteran who settled with his wife Karen in Headrick after 1990 ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=before%20returning%20to%20Oklahoma,spent%20their%20remaining%20years%20together)). Karen Ferguson (born 1947) was active in church and community, volunteering in local polling and prayer ministry until her passing in 2020 ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=and%20homemaker%2C%20Housemother%20for%20Oklahoma,and%20taking%20care%20of%20her)) ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Baptist%20Church%20in%20Madill%2C%20Oklahoma,bible%20study%2C%20traveling%20the%20United)). Neither has any record of speaking publicly on development issues in Jackson County.",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "See ORG table.",
+      "community_influence": "Low",
+      "influence_justification": "Retired; church volunteer",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "N/A – see organizational profile for engagement strategy."
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Have a community member from their church or veteran circle reach out, keeping the conversation personal and low-key out of respect for their quiet retirement."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -135,21 +153,24 @@
     },
     {
       "neighbor_id": "N-05",
-      "name": "Wheatridge Properties, L.L.C.",
+      "name": "Michael & Linda Dishman",
       "entity_category": "Resident",
-      "entity_type": "LLC",
+      "entity_type": "Individual",
       "pins": [
-        "770000077"
+        "330002635",
+        "330002636"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See ORG table.",
+      "claims": "Michael and Linda Dishman have lived in the Headrick area for decades; their son Derick G. Dishman, 41, is listed as residing in Headrick ([www.idcrawl.com](https://www.idcrawl.com/derrick-dishman#:~:text=Derick%20G%20Dishman%20Age%3A%2041,In%20Headrick%2C%20Ok)). They maintain a low public profile with no known involvement in local civic boards or public commentary on development. No media or official records link the Dishmans to any stance on energy projects.",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "See ORG table.",
+      "community_influence": "Low",
+      "influence_justification": "Private residents",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "N/A – see organizational profile for engagement strategy."
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Reach out in a neighborly manner through a familiar community acquaintance, reassuring them that their peace and privacy will be respected."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -168,24 +189,295 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Sander, Tracy D.",
+      "name": "John Phillip Olson & Glyna Gaye Olson",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "770026354"
+        "330000014"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Tracy D. Sander appears to be part of a prominent ranching family; relatives Wesley Sander and Cody G. Sander are among Woodward County’s top farm subsidy recipients ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=40153&progcode=total&regionname=WoodwardCounty%2COklahoma#:~:text=4%20%20,%241%2C410%2C256)). No evidence was found of Tracy Sander holding any civic office or speaking publicly on development issues ([www.cityofwoodward-ok.gov](https://www.cityofwoodward-ok.gov/151/City-Commissioners#:~:text=ok,the%20boundaries%20of%20the%20current)).",
+      "claims": "John Phillip Olson has received a total of $2,528 in federal Emergency Conservation Program payments (1995–2024), indicating his involvement in local agriculture [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=40065&page=1&progcode=em_cons) — \"John Phillip Olson | Olustee, OK 73560 | $2,528\". No public statements by John or Glyna Olson regarding development or energy projects were found in local news or records as of this report (their community engagement appears limited to farming-related activities).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Ranch family, no civic roles",
+      "influence_justification": "Private farmer; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Engage via a fellow farmer or agricultural adviser who can acknowledge their farming interests and address any land-use concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Carl Todd Bridges",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330000012",
+        "330000011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carl Todd Bridges is a local landowner identified in county property records (owner of two parcels near Headrick) [DataCrosspoint](https://www.datacrosspoint.com/jackson-county-property-search/) — \"Owner Name Search: Quickly locate properties by current or previous owner names across Jackson County assessor records.\" He has no documented involvement in civic committees or public comment forums on area developments, and his community presence is limited to private farming or landholding with no noted leadership roles.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Rural landowner; no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A neighborly one-on-one approach is suggested, preferably through someone he knows (such as a longtime farming neighbor), focusing on listening to any land or property concerns he might have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Travis G. Walls & Betty L. Walls",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330002612"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Travis G. Walls and Betty L. Walls have been landowners in the area for decades; property transaction records show Travis Walls involved in local land deeds as far back as 1998 [RealtyHop](https://www.realtyhop.com/property-records/search/travis-walls) — \"the oldest on Jun 17th, 1998\". There is no record of either Travis or Betty Walls taking public positions on development or energy issues, and they do not hold any known public offices, suggesting a low-profile presence in the community.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident; no civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Walls family through personal outreach (for example, a visit by a respected local community member) to build trust and gently discuss any concerns about the project in a quiet, informal setting."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Public Service (See ORG table)",
+      "entity_category": "Resident",
+      "entity_type": "",
+      "pins": [
+        "330017817"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Donnie Lee Shiplet & Elicia Dawn Shiplet",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017839"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donnie Lee Shiplet comes from a long-standing local family (he was noted as an Altus resident in his late father’s 1994 obituary) [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Kenny-Mac-Shiplet?obId=2896262) — \"Donnie and Robert Shiplet, both of Altus, Oklahoma\". The Shiplets have no record of public activism or statements on development projects, and they have not been identified in any local governmental roles, indicating their influence is limited to private citizenship.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local family; no public office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach could be through a mutual acquaintance or family friend. Emphasize respect for their family’s legacy in the area and listen to any personal or property concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Trina Adams",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017840"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trina Adams is the daughter of the late Richard Wayne Adams, who grew up farming near Headrick [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Richard-Wayne-Adams?obId=2904100) — \"He grew up on a farm on the river bend in Headrick, Oklahoma.\" She was listed as residing in Altus in 2011 [Lowell-Tims Funeral Home](https://www.lowell-tims.com/obituaries/Richard-Wayne-Adams?obId=2904100) — \"five daughters, Sherrie Adams and Trina Adams, both of Altus,\" indicating her ties to the area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local farm family, no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Leverage personal connections and acknowledge her family’s long history on the land. Emphasize respect for her family’s farming legacy and how the project can align with preserving local heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Norma Wright",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017837"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Norma Wright is a long-time resident landowner in rural Jackson County, holding property near Headrick (per county parcel records). She has no evident public profile; her name does not appear in local news archives or civic records, reflecting the very small community’s low visibility [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"Population 316 ... number of seniors is extremely large.\"",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired rural resident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with a neighborly, low-key conversation. It may be effective to involve a trusted local intermediary or friend when reaching out, given her private nature."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cornelio Rangel",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017816"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cornelio Rangel is listed as the owner of a parcel of land in the Headrick vicinity of Jackson County. No public statements or community leadership roles could be found for Rangel; he maintains a low profile typical of the area’s rural landowners [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"Population 316 ... number of seniors is extremely large.\"",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner, not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, trust-building approach. A one-on-one visit by a project representative who can speak informally (and bilingually if needed) may help open communication, since Rangel has no prior public engagement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "William Wright",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330017834",
+        "330017835",
+        "330017836"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William Wright is identified in county records as owning multiple farm parcels in the Headrick area, indicating a significant farming presence (by acreage) in the local community. He has not been quoted or noted in any media or public meetings related to development, suggesting he has stayed out of public controversies [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"The people living in ZIP code 73549 are primarily white. The number of middle aged adults is extremely large while the number of seniors is extremely large.\"",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major landowner in area",
       "approach_recommendations": {
         "motivations": [
           "farmland_preservation",
-          "heritage_family_legacy"
+          "drainage_roads"
         ],
-        "engage": "Have a local rancher or Farm Bureau contact her, emphasizing that any project would respect agricultural land use and family legacy."
+        "engage": "Have a respected agriculture-oriented community member (or ag extension agent) reach out to discuss how the project will protect farm operations. Emphasize measures for soil conservation, drainage, and minimal disturbance to his farmland to address any unspoken concerns."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -203,55 +495,22 @@
       "citations": null
     },
     {
-      "neighbor_id": "N-02",
-      "name": "Smith, Jim & Eldena",
+      "neighbor_id": "N-05",
+      "name": "Kevin & Manette Lewis",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "770000032"
+        "330017838"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Jim and Eldena Smith are listed as landowners in the Mutual area of Woodward County ([www.land.com](https://www.land.com/property/160-acres-in-woodward-county-oklahoma/23465173/#:~:text=...for%20Sale%20,Auction%20%26%20Realty%2C%20Inc)). They have no public record of community leadership or stated views on development, suggesting they maintain a very low profile ([www.cityofwoodward-ok.gov](https://www.cityofwoodward-ok.gov/151/City-Commissioners#:~:text=Commissioners%201.%20,the%20boundaries%20of%20the%20current)).",
+      "claims": "Kevin and Manette Lewis jointly own a tract of land in Jackson County near the proposed site. They have no public footprint in local affairs; their names do not surface in available news or civic documents, which is common in this small rural community [UnitedStatesZipcodes.org](https://www.unitedstateszipcodes.org/73549/) — \"Population 316 ... number of seniors is extremely large.\"",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public roles noted",
+      "influence_justification": "Small-scale landowners, not active publicly",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the Smiths through a familiar local figure (neighbor or county extension agent) in an informal setting, addressing any concerns about privacy and property rights."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Cole, James R. & Katheryn J.",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "770000105"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "James R. Cole (Mutual, OK) received about $147,000 in farm program payments from 1995 to 2024 ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=73853#:~:text=49%20%20,%24%20138%2C437.68)), indicating active farming operations. Neither James nor Katheryn Cole has been mentioned in local news or meeting minutes, reflecting an absence of public civic activity ([www.cityofwoodward-ok.gov](https://www.cityofwoodward-ok.gov/151/City-Commissioners#:~:text=ok,the%20boundaries%20of%20the%20current)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private farmer, no civic roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach the Coles via a peer in the farming community and discuss how the development could provide benefits or supplemental income to local farmers."
+        "engage": "Engage the Lewis family through personal outreach by someone they know or a community liaison. A straightforward conversation at their home or a local gathering, focusing on listening to any concerns about quiet and property, can build trust."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -270,88 +529,24 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "State Land",
-      "entity_category": "Resident",
-      "entity_type": "Trust",
-      "pins": [
-        "770000074",
-        "770000075"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "See ORG table.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "N/A"
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Mark Paul Lamm & Nancy Dianne Lamm",
+      "name": "Anita Miller",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "770000089"
+        "330017820"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Mark P. Lamm and Nancy D. Lamm own property in Mutual, a small town in Woodward County, Oklahoma (population 63 in 2020) [Wikipedia — other, retrieved 2025-12-17; \"Population Total: 63\"](https://en.wikipedia.org/wiki/Mutual,_Oklahoma). The Mutual area has historically seen only modest growth and limited public activity [Wikipedia — other, retrieved 2025-12-17; \"saw only minimal growth\"](https://en.wikipedia.org/wiki/Mutual,_Oklahoma).",
+      "claims": "The Miller family farm near Headrick was established in 1952 when Anita’s parents moved to the Miller homeplace ([www.legacy.com](https://www.legacy.com/us/obituaries/name/doris-miller-obituary?id=59328381#:~:text=sisters%2C,people%20to%20Jesus%20as%20a)). Anita Miller is listed as a resident of Altus, Oklahoma, and is one of four daughters of the late Doris and Carroll Miller ([www.legacy.com](https://www.legacy.com/us/obituaries/name/doris-miller-obituary?id=59328381#:~:text=She%20is%20survived%20by%20her,grandchildren%2C%20Jestyn%20and%20Jaysa)). Her late mother, Doris Miller, worked as Headrick’s assistant postmaster from 1974 until retiring in 1992 ([www.legacy.com](https://www.legacy.com/us/obituaries/name/doris-miller-obituary?id=59328381#:~:text=lived%20there%20until%201952%20when,people%20to%20Jesus%20as%20a)) and was a longtime member of the Headrick First Baptist Church ([www.legacy.com](https://www.legacy.com/us/obituaries/name/doris-miller-obituary?id=59328381#:~:text=assistant%20postmaster%20in%20Headrick%2C%20in,also%20enjoyed%20puzzles%20of%20all)).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No official role; private citizens",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-generation farm family",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage with a friendly, personal visit (ideally involving a neighbor they know) to build trust and ensure their questions about land use or any disturbances are fully addressed."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Charles Newton Brown",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "770000098"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Charles N. Brown is a landowner in the Mutual area of Woodward County, a rural community with only a few dozen residents [Wikipedia — other, retrieved 2025-12-17; \"population was 61 at the 2010 census\"](https://en.wikipedia.org/wiki/Mutual,_Oklahoma).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public role; private citizen",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a one-on-one conversation (possibly arranged through a mutual acquaintance) to explain the project and listen to any concerns he may have, emphasizing open communication."
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Outreach via a trusted local farmer or community leader she respects can help build rapport. Emphasize respect for her family’s multi-generational farm legacy and explain how the development will not compromise the land’s agricultural heritage."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -370,28 +565,25 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Fenton, Lawson B. Rev. Trust",
+      "name": "Howco, Inc.",
       "entity_category": "Organization",
-      "entity_type": "trust",
+      "entity_type": "corporation",
       "pins": [
-        "770000080",
-        "770000079",
-        "770000083",
-        "770000039",
-        "770000081",
-        "770000041",
-        "770000088",
-        "770000037",
-        "770000087"
+        "330002697",
+        "330002696",
+        "330002695"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "See RESIDENT table.",
+      "owns_adjacent_parcel": "No",
+      "claims": "Howco, Inc. appears to be involved in oil and gas operations, with a listed contact address at 517 W 5th St in Stroud, Oklahoma ([www.shalexp.com](https://www.shalexp.com/howco-oil-and-gas#:~:text=Address%20%20%7C%20Phone%20,0945)). It operated oil/gas wells in Oklahoma from the late 1990s through around 2015 ([www.shalexp.com](https://www.shalexp.com/howco-oil-and-gas#:~:text=match%20at%20L25%20gas%20production,Oct%201998%20to%20Mar%202015)). No information on local presence or personnel is publicly available; its beneficial owners are not disclosed (likely a private investor holding).",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Unknown",
-      "influence_justification": "",
-      "approach_recommendations": null,
-      "entity_classification": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee corporate owner with no local presence or community engagement; limited to land/mineral ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify Howco’s principal (via its Stroud contact) and emphasize a financial incentive (e.g., premium purchase or lease). As an absentee investor, they are likely responsive to clear economic benefits and assurances their mineral interests or land value will be protected."
+      },
+      "entity_classification": "land_investment",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -408,21 +600,21 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Pittman Ranch LLC",
+      "name": "Flying B Land & Cattle Co. LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "770000084"
+        "330002388"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Pittman Ranch LLC is an Oklahoma limited liability company holding ranch land near Mutual in Woodward County ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). The LLC has no listed business operations or online presence beyond property ownership records, indicating it is a private family ranch entity ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). A review of county filings shows no recorded transactions involving Pittman Ranch LLC and the solar developer (Mutual Solar, LLC) as of 2025 ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). No UCC liens or litigation records were found under the company’s name in public databases, suggesting minimal external financial activity ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)).",
+      "owns_adjacent_parcel": "No",
+      "claims": "Flying B Grain & Cattle Co., LLC (presumed the same as Flying B Land & Cattle Co.) was formed in Oklahoma on January 18, 2008 by Terry J. Barker, with its organizer’s address in Tulsa ([businessprofiles.com](https://businessprofiles.com/details/flying-b-grain-cattle-co-llc/OK-3512167393#:~:text=FLYING%20,200%2C%20TULSA%20OK%2074136%201242)). The company’s name indicates farming operations (grain and cattle), but it has no known facilities in Jackson County – its management is based out-of-area ([businessprofiles.com](https://businessprofiles.com/details/flying-b-grain-cattle-co-llc/OK-3512167393#:~:text=FLYING%20,200%2C%20TULSA%20OK%2074136%201242)). No local political or community activities are noted for this entity, suggesting it functions purely as a farm/ranch investment holding by its owner.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Small private ranch with limited public profile or political activity",
+      "influence_justification": "Out-of-area investor; owns farmland but not engaged in local affairs; limited local network",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the family owners directly to address any ranching impact concerns; offer leasing terms that provide supplemental income while assuring minimal disturbance"
+        "engage": "Engage Terry J. Barker (managing member) via his Tulsa office, highlighting guaranteed lease revenue or a buyout offer. As an absentee landowner, he is likely motivated by financial returns; addressing any cattle operation concerns and offering favorable terms could secure his cooperation or neutrality."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -441,22 +633,153 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Downs Medical Properties, LLC",
+      "name": "The Pamela A. Roudebush Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "330002694"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert “Roudy” Roudebush farmed and ranched in Jackson County for over fifty years ([www.lowell-tims.com](https://www.lowell-tims.com/obituaries/Robert-Earl-Roudebush?obId=2901927#:~:text=school%20to%20take%20over%20the,s%20Coop%2C%20Cotton)). He also served on the boards of the local farmers’ cooperative, the cotton gin, and the Lugert-Altus Irrigation District ([www.lowell-tims.com](https://www.lowell-tims.com/obituaries/Robert-Earl-Roudebush?obId=2901927#:~:text=fifty%20years%2C%20Roudy%20has%20farmed%2C,was%20also%20a%20former%20member)), underscoring the family’s long-standing influence in the farming community. After Roudy’s passing in 2014, his wife Pamela (“Pam”) Roudebush remained at the family homestead in Altus ([www.lowell-tims.com](https://www.lowell-tims.com/obituaries/Robert-Earl-Roudebush?obId=2901927#:~:text=Preceded%20in%20death%20by%20his,nine%20grandchildren%2C%20Reagin%20Roudebush%2C%20Danaca)). The Pamela A. Roudebush Living Trust now holds the family’s land; this trust represents the multi-generation local farm estate (specific trust details are private).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Long-standing local farm family; well-connected in agricultural circles (co-op and irrigation board)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the Roudebush family with respect and transparency. Engage Pamela Roudebush (and/or her adult children who may manage the trust) in dialogue emphasizing how the development can co-exist with farming and benefit the local community; addressing their concerns about land and heritage will be key to gaining support or acceptance."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "AFL Farms, LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "770000040",
-        "770000036"
+        "330002642"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Downs Medical Properties, LLC holds two parcels in Woodward County and appears to be a real estate investment entity ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). The company’s name suggests ownership of medical or commercial properties, but no active business presence is noted locally in Woodward (no clinics or offices under this name) ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). No state business filings or liens were found beyond the deed records, implying it functions as a passive landholding vehicle ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). The beneficial owners are not disclosed in public records, and the LLC has not been identified in any recorded agreements related to the proposed solar project ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)).",
+      "claims": "AFL Farms LLC has been active in the local farming community for over nine years ([farmlovers.org](https://farmlovers.org/supplier/afl-farms-llc/251#:~:text=An%20LLC%20that%20has%20been,the%20states%20and%20outside%20continents)). It is a small Altus-based farming operation classified under “All Other Miscellaneous Crop Farming” (NAICS 111998) with approximately three employees ([naicslist.com](https://naicslist.com/company-profile/afl-farms-llc-altus-ok-73521#:~:text=Afl%20Farms%20Llc%20is%20a,and%20has%20approximately%203%20employees)). The company’s registered address is 517 Buena Vista St, Altus, Oklahoma ([naicslist.com](https://naicslist.com/company-profile/afl-farms-llc-altus-ok-73521#:~:text=,OKLAHOMA)), indicating it is locally operated. There are no notable public records of political or development involvement by AFL Farms; it appears focused on its crop farming business without outward advocacy, implying its stance will hinge on practical impacts to its farm income and operations.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Out-of-town investment with no local operations or community role",
+      "influence_justification": "Small family-run farm; limited economic reach and no known political activity outside farming",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Contact the registered agent or owner with a clear financial offer for land use; emphasize ease of transaction and ROI to encourage cooperation"
+        "engage": "Meet directly with the owners of AFL Farms LLC in Altus to discuss the project’s benefits. Emphasize practical incentives (such as improved infrastructure or direct lease payments) and reassure them that any development will not impede their farming operations. Building a personal rapport and understanding their farm needs will help in securing their neutrality or support."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "JEH, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "330002641"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JEH, LLC is an opaque Oklahoma-registered entity with no public profile or disclosed principals. (Notably, a similarly named JEH, Inc. was formed in 1985 by a John Henry in Oklahoma City ([businessprofiles.com](https://businessprofiles.com/details/jeh-inc/OK-1900436280#:~:text=Business%20Profile%20Image%20,Type%3A%20Domestic)), but it is unclear if there is any relation.) No news, filings, or records were found to detail JEH, LLC’s ownership or operations; it appears to be a private land-holding vehicle. Its involvement in the community is not evident, and it has not publicly stated any position on local development.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Ownership and local ties are unclear; no visible engagement or information to assess influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Further research is needed to identify the decision-maker behind JEH, LLC. Once a contact is established, approach them with a clear financial proposition (e.g., buyout or lease terms) as they likely view the land purely as an investment. Since their priorities are not publicly known, ensuring confidentiality and addressing any risk concerns will be important in discussions."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Jackson County Water Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "330002383"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jackson County Water Company (also known as Jackson County Water Corporation) is a 501(c)(12) nonprofit rural water utility based in Blair, Oklahoma, operating since 1973 [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \"Tax-exempt since July 1973\". The cooperative reported roughly $1.22 million in annual revenue and $3.98 million in assets in 2023 [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \"$1.22M (2023)\" [ProPublica](https://projects.propublica.org/nonprofits/organizations/730929547) — \"$3.98M (2023)\". Its mission is to provide water services to rural areas of Jackson County [Cause IQ](https://www.causeiq.com/organizations/jackson-county-water-company,730929547/) — \"Provide Water ... to members in rural areas around Jackson County, Oklahoma\". The company focuses on water supply and has not taken any public position on land development issues (its role is limited to ensuring reliable water service).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Essential service provider but limited political activity; influence mainly in water-related matters",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the cooperative’s board leadership (e.g., President Dave Samples) to share project plans and address any water supply concerns; emphasize that development will not strain local water resources and offer collaboration on infrastructure improvements if needed."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Prairie Properties, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "330017841"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Prairie Properties, LLC is a privately held real estate management company headquartered in Oklahoma City (beneficial owners not publicly disclosed) [MapQuest](https://www.mapquest.com/us/oklahoma/prairie-properties-llc-420582743) — \"real estate management company located in ... Oklahoma City OK\". It is a small firm with under $500,000 in annual sales and only 5–10 employees [Cortera](https://start.cortera.com/company/research/m4n3oqm1k/prairie-properties-llc/) — \"Under $500,000 ... 5 to 10\". The company’s presence in Jackson County is limited to owning land as an investment asset, with no local operations or community role; beneficial owner unknown.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-town investment LLC; no local ties or constituency",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the company through its Oklahoma City office or registered agent to identify the decision-maker; frame the conversation around financial benefits (e.g., premium purchase offer or revenue-sharing) to align with their investment interests and secure their cooperation or sale."
       },
       "entity_classification": "land_investment",
       "profile_summary": null,
@@ -474,21 +797,23 @@
       "citations": null
     },
     {
-      "neighbor_id": "N-04",
-      "name": "Sander, Lanny & Betty Revocable Trust",
+      "neighbor_id": "N-03",
+      "name": "Frank, Donald P. Living Trust",
       "entity_category": "Organization",
       "entity_type": "trust",
       "pins": [
-        "770000097",
-        "770000096"
+        "330002693"
       ],
       "owns_adjacent_parcel": "No",
       "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Unknown",
-      "influence_justification": "",
-      "approach_recommendations": null,
+      "influence_justification": "Trust tied to an individual; insufficient public information to assess",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A (individual landowner; see resident profile for engagement strategy)."
+      },
       "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
@@ -505,21 +830,188 @@
       "citations": null
     },
     {
-      "neighbor_id": "N-05",
-      "name": "Smart Family Trust",
+      "neighbor_id": "N-04",
+      "name": "DLW Development, LLC",
       "entity_category": "Organization",
-      "entity_type": "trust",
+      "entity_type": "llc",
       "pins": [
-        "770000034"
+        "330002643"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See RESIDENT table.",
+      "claims": "DLW Development, LLC has almost no public profile beyond being a registered LLC; no readily available records detail its operations or principals (suggesting it may be a shell entity). It appears to hold a parcel near Headrick as a speculative land investment; beneficial ownership is not disclosed in public filings.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Unknown",
-      "influence_justification": "",
-      "approach_recommendations": null,
-      "entity_classification": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Opaque entity with no known community presence; likely only holds land",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the LLC’s representative or registered agent via county or state records and initiate direct contact; since this entity is likely financially driven, offer a favorable buyout or partnership opportunity to align with their profit motive and preempt any opposition."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Kenneth Helton & Neoma Linares",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [],
+      "owns_adjacent_parcel": "No",
+      "claims": "Neoma Linares (born 1945 in Altus) later relocated to Texas ([www.legacy.com](https://www.legacy.com/us/obituaries/name/neoma-linares-obituary?id=59841877#:~:text=Neoma%20Lee%20Linares%2C%20a%20beloved,in%20family%20values%20and%20faith)) ([www.legacy.com](https://www.legacy.com/us/obituaries/name/neoma-linares-obituary?id=59841877#:~:text=Neoma%20is%20survived%20by%20her,is%20also%20survived%20by%20her)). She and co-owner Kenneth Helton do not appear in any local civic records or news reports, suggesting no public-facing roles as of 2025.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; private locals",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Connect via shared local heritage; acknowledge their family’s long history in the area to build rapport."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Annette & George Benbow",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [],
+      "owns_adjacent_parcel": "No",
+      "claims": "Annette and George Benbow are listed as landowners in Headrick with no identifiable presence in news archives or public meeting records (no mentions found as of 2025), indicating they maintain a low public profile. Their lack of public commentary or roles means no clear stance or influence could be determined from available records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach should be personal and low-key. Engage through informal channels (e.g., mutual neighbors) to respect their privacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Betty L. Walls",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [],
+      "owns_adjacent_parcel": "No",
+      "claims": "Betty L. Walls appears to be part of a local farming family; for example, a Rance Walls received USDA farm program payments in Jackson County ([southkcnews.com](https://southkcnews.com/stories/655139236-how-much-in-taxpayer-funded-subsidies-did-farmers-in-jackson-county-receive-in-2021#:~:text=Rance%20Walls%20%20,Targeted)). There is no record of Betty holding any public office or making statements on development in local sources, implying her stance remains unrecorded.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no offices",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Highlight respect for agricultural land and reassure on preserving farm operations. A farm community liaison (like a fellow farmer) could best initiate dialogue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Gregory K. & Julie M. Carpenter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gregory and Julie Carpenter are part of a multi-generational farm family in Jackson County. A Carpenter Family Trust in the county received Conservation Reserve Program payments ([southkcnews.com](https://southkcnews.com/stories/655139236-how-much-in-taxpayer-funded-subsidies-did-farmers-in-jackson-county-receive-in-2021#:~:text=Carpenter%20Family%20Trust%20%20,%246%2C522)), and a James V. Carpenter obtained livestock assistance ([southkcnews.com](https://southkcnews.com/stories/655139236-how-much-in-taxpayer-funded-subsidies-did-farmers-in-jackson-county-receive-in-2021#:~:text=James%20V.%20Carpenter%20%20,%2449%2C437)) – reflecting the family’s agricultural engagement. No public meeting records or statements were found for the Carpenters, suggesting they have kept a low civic profile.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Established farm family; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "heritage_family_legacy"
+        ],
+        "engage": "Recognize their conservation efforts (e.g., land in CRP) and long family ties. Engage via agricultural extension or farm bureau contacts they trust to discuss the project’s benefits to land stewardship."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Justin Tanner Carpenter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin Tanner Carpenter is likely part of the same Carpenter farming family in the area (sharing surname and land proximity). The Carpenter family’s presence is noted through subsidy records (e.g., a family trust’s conservation payments ([southkcnews.com](https://southkcnews.com/stories/655139236-how-much-in-taxpayer-funded-subsidies-did-farmers-in-jackson-county-receive-in-2021#:~:text=Carpenter%20Family%20Trust%20%20,%246%2C522))), but Justin himself has no documented public statements or roles. His personal stance on development is not recorded in any available public sources.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Family farm member; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Frame discussions around maintaining productive farmland and respecting family farming continuity. A younger local farmer or peer could be a relatable messenger."
+      },
+      "entity_classification": null,
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -535,11 +1027,39 @@
       "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 36.2148,-99.0365",
-  "overview_summary": "None of the three individual landowners have publicly stated positions on the development, leaving their stances unknown. All identified neighbors are private landholders without official roles, indicating generally low influence in the community. No high-influence neighbors were noted in this profile. All three profiled neighbors have no documented stance on development or clean energy projects. None holds a high-profile community position, and each appears to wield low public influence in local affairs. All three nearby landowners show no clear public stance on development or clean energy, with no records of open support or opposition. None hold any known public office or leadership roles, indicating mainly low influence in the small Mutual community, and no high-influence neighbors are identified. The adjacent landowners consist of family trusts and locally-registered LLCs. Several are legacy ranching interests held in revocable trusts (e.g., Lawson Fenton and Lanny Sander), while others are small private companies like Pittman Ranch LLC (agricultural) and Downs Medical Properties LLC (investment in land). One trust (Fenton) has already transacted with the solar developer, signaling support ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). Overall, these neighbors are primarily long-time landholders, not commercial developers, so their influence stems from acreage and local ties rather than corporate or political clout. Key considerations include the Fenton trust’s cooperation (a possible ally) and the unknown stance of the remaining owners, who could either seek financial incentives or resist changes to their land use.",
+  "location_context": "Neighbors within 0.5 mi of 34.6092,-99.1428",
+  "overview_summary": "All five neighbors have no recorded stance on the proposed development, with **0 supporting**, **0 opposing**, and **5 unknown**. None hold formal public roles; two (Howard and Reaser households) have moderate influence as longstanding landowners, while the rest are **low-influence** private residents. None of the five profiled neighbors have a documented stance on the development (all are classified as \"unknown\"). All are private landowners with no public offices or outspoken roles, so their community influence is generally low. In summary, these neighbors include multi-generational farm families and a local contractor, but none are prominent community leaders or vocal about development. All four neighboring landowners have an undetermined stance on the development, as none have made public comments or taken visible action for or against it. They appear to be private rural landholders with generally low profiles in the community and no evident formal influence, as none hold public office or leadership roles. All five profiled neighbors have no documented public stance on the development, with 0 expressing support, 0 opposition, and 5 unknown. Most are private landowners with low public profiles; none hold high-influence positions in the community. Only one neighbor (William Wright) owns multiple parcels, giving him moderate local economic influence, but overall there are no high-influence power-brokers in this group. This profile covers one neighboring landowner with an unknown stance on development. The individual is part of a long-established local farm family and holds moderate influence in the community due to deep generational ties. The adjacent landowners in Headrick are a mix of absentee land investment entities and long-time local farming interests. Two corporate owners (Howco, Inc. and Flying B Land & Cattle Co., LLC) are operated from outside the community and appear primarily motivated by land or mineral investment returns. In contrast, the Pamela Roudebush Living Trust and AFL Farms LLC represent established local agricultural families with deep roots in the area, likely valuing the continuation of farming and community ties. One entity (JEH, LLC) remains opaque, suggesting a passive holding with no visible community role or stated development stance. Adjacent landowners include a rural water utility cooperative and several private landholding entities (LLCs and a trust). None appear to be overtly opposed to development; their interests are primarily financial or operational, meaning they can likely be engaged through practical incentives rather than ideological debate.",
   "success": true,
-  "runtime_minutes": 23.43,
+  "runtime_minutes": 27.09,
   "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
     {
       "title": null,
       "url": null
@@ -602,13 +1122,16 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_171512_4871.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_171154_4951.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_170527_7826.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251216_165923_4201.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_125117_9372.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_124939_7261.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_124448_7280.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_124150_5575.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251217_124649_3241.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251217_130306_0992.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_134537_4242.json"
   ],
-  "city": "Mutual",
-  "county": "Woodward County",
+  "city": "Headrick",
+  "county": "Jackson County",
   "state": "OK",
-  "run_id": "4b85d47c-8577-4d9d-8031-6278733ee615"
+  "run_id": "aab3ce99-7e11-40d6-8d01-3ca6ea2442db"
 }
