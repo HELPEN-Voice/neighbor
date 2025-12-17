@@ -2,60 +2,223 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Rodrick B. Sauls",
+      "name": "Estus, Carol",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "2250006007"
+        "770000038"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Carol Estus is a landowner in Mutual, a very small community (16 residents in 2023) [Data USA — other, retrieved 2025-12-17; \"Mutual, OK had a population of 16 people with a median age of 40.8\"](https://datausa.io/profile/geo/mutual-ok). She does not hold any public office; her name is absent from Woodward County’s list of officials [Woodward County Gov. — gov, retrieved 2025-12-17; \"Wendy Dunlap County Clerk ... Kim Bowers County Treasurer\"](https://woodward.okcounties.org/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic roles; private landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally in an informal setting to build rapport and hear any concerns she might have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Scadden, Anna M. (Life Estate)",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "770000082"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Public records indicate that Rodrick B. Sauls owns property in Anderson County ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=Anderson%20County%20property%20records%20constitute,with%20South%20Carolina%20state%20law)). No official or media sources could be found showing Sauls in any community or political role ([www.wyff4.com](https://www.wyff4.com/article/90-year-old-missing-anderson-county/65189449#:~:text=County,Anyone%20with%20information)).",
+      "claims": "The parcel is held under a life estate for Anna M. Scadden, giving her use of the land for her lifetime and passing the remainder to heirs [OSU Extension — other, retrieved 2025-12-17; \"...life estate in a farm... has the use of the farm during his or her lifetime\"](https://extension.okstate.edu/fact-sheets/estate-planning-a-simplified-guide-for-oklahoma-farm-and-ranch-families.html). No evidence was found of Scadden taking any public stance or community leadership role [Woodward County Gov. — gov, retrieved 2025-12-17; \"Wendy Dunlap County Clerk ... Kim Bowers County Treasurer\"](https://woodward.okcounties.org/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elder landowner; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage with deference to her family legacy; involve her family or heirs in discussions to address any long-term land concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Luttrell, Katie J. & David",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "770000035"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Katie J. and David Luttrell jointly own land in the rural Mutual area of Woodward County [Data USA — other, retrieved 2025-12-17; \"Mutual, OK had a population of 16 people with a median age of 40.8\"](https://datausa.io/profile/geo/mutual-ok). They have not been identified in any public proceedings or local leadership positions to date [Woodward County Gov. — gov, retrieved 2025-12-17; \"Wendy Dunlap County Clerk ... Kim Bowers County Treasurer\"](https://woodward.okcounties.org/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the couple in a friendly, neighbor-to-neighbor conversation to share project information and invite their questions or input."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Sander Family, L.L.C.",
+      "entity_category": "Resident",
+      "entity_type": "LLC",
+      "pins": [
+        "770000076",
+        "770000078"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "See ORG table.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A – see organizational profile for engagement strategy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Wheatridge Properties, L.L.C.",
+      "entity_category": "Resident",
+      "entity_type": "LLC",
+      "pins": [
+        "770000077"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "See ORG table.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A – see organizational profile for engagement strategy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Sander, Tracy D.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "770026354"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Tracy D. Sander appears to be part of a prominent ranching family; relatives Wesley Sander and Cody G. Sander are among Woodward County’s top farm subsidy recipients ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=40153&progcode=total&regionname=WoodwardCounty%2COklahoma#:~:text=4%20%20,%241%2C410%2C256)). No evidence was found of Tracy Sander holding any civic office or speaking publicly on development issues ([www.cityofwoodward-ok.gov](https://www.cityofwoodward-ok.gov/151/City-Commissioners#:~:text=ok,the%20boundaries%20of%20the%20current)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Ranch family, no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a local rancher or Farm Bureau contact her, emphasizing that any project would respect agricultural land use and family legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Smith, Jim & Eldena",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "770000032"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jim and Eldena Smith are listed as landowners in the Mutual area of Woodward County ([www.land.com](https://www.land.com/property/160-acres-in-woodward-county-oklahoma/23465173/#:~:text=...for%20Sale%20,Auction%20%26%20Realty%2C%20Inc)). They have no public record of community leadership or stated views on development, suggesting they maintain a very low profile ([www.cityofwoodward-ok.gov](https://www.cityofwoodward-ok.gov/151/City-Commissioners#:~:text=Commissioners%201.%20,the%20boundaries%20of%20the%20current)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
       "influence_justification": "No public roles noted",
       "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation"
-        ],
-        "engage": "Have an agricultural extension agent or respected local farmer reach out, emphasizing respect for farmland use and offering to discuss how the project can coexist with traditional land uses."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Michael S. Gossett & Kelli S. Whitman",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250604001",
-        "2250602001",
-        "2250602002"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Kelli S. Whitman is associated with a mailing address in Starr, South Carolina ([www.idcrawl.com](https://www.idcrawl.com/kelli-whitman#:~:text=Kelli%20S%20Whitman%20PO%20Box,%2A%2A%2A%2A%2A%20Sunrise%20Lake%20Ct)). Neither Whitman nor Michael S. Gossett appears in local civic records or news reports on development issues ([thejournalonline.com](https://thejournalonline.com/2012/12/26/county-government-business-and-politics-year-in-review-2012/#:~:text=The%202012%20Anderson%20County%20Council,for%20lack%20of%20a%20second)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Multiple parcels; low profile",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation"
-        ],
-        "engage": "Engage the couple through a neighbor they know or a farm community contact, focusing on how land value and agricultural heritage will be maintained or protected by the project."
+        "motivations": [],
+        "engage": "Engage the Smiths through a familiar local figure (neighbor or county extension agent) in an informal setting, addressing any concerns about privacy and property rights."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -74,91 +237,21 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Donald B. Wilson & Sue G. Wilson",
+      "name": "Cole, James R. & Katheryn J.",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "2250604002"
+        "770000105"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Public information reveals no community leadership roles for Donald B. or Sue G. Wilson; local reporting on a prominent Wilson refers to an unrelated former official ([thejournalonline.com](https://thejournalonline.com/2012/12/26/county-government-business-and-politics-year-in-review-2012/#:~:text=former%20County%20Councilman%20and%20Easley,businessman%20Ron%20Wilson)). The Wilsons are private landowners with no record of public statements on development proposals ([thejournalonline.com](https://thejournalonline.com/2012/12/26/county-government-business-and-politics-year-in-review-2012/#:~:text=former%20County%20Councilman%20and%20Easley,businessman%20Ron%20Wilson)).",
+      "claims": "James R. Cole (Mutual, OK) received about $147,000 in farm program payments from 1995 to 2024 ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=73853#:~:text=49%20%20,%24%20138%2C437.68)), indicating active farming operations. Neither James nor Katheryn Cole has been mentioned in local news or meeting minutes, reflecting an absence of public civic activity ([www.cityofwoodward-ok.gov](https://www.cityofwoodward-ok.gov/151/City-Commissioners#:~:text=ok,the%20boundaries%20of%20the%20current)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No known civic involvement",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Have a one-on-one conversation via a familiar community member or neighbor, addressing any concerns about preserving the quiet and privacy of their property during and after construction."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Lynn B. Hill",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250604003"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Lynn B. Hill has no detectable public presence; the surname only appears in historical records (e.g., a 1905 Hill family grave) ([genealogytrails.com](https://genealogytrails.com/scar/anderson/siloambaptist_cem.htm#:~:text=Hill%2C%20George%20Lewis%2C%201851%2C%20D,1880)). No evidence of Hill’s involvement in local civic affairs or opinions on development was found ([genealogytrails.com](https://genealogytrails.com/scar/anderson/siloambaptist_cem.htm#:~:text=Hill%2C%20George%20Lewis%2C%201851%2C%20D,1880)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile",
+      "influence_justification": "Private farmer, no civic roles",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach carefully via personal introduction (perhaps through a mutual acquaintance) to build trust. Listen for any unspoken concerns, as Hill has not voiced opinions publicly."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Eric Schaefer & Christine Demetriou",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250601012"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Christine Demetriou works as an Office Manager at E.W. Schaefer Contracting, Inc., a role she has held since 2009 ([www.signalhire.com](https://www.signalhire.com/profiles/christine-demetriou%27s-email/137350655#:~:text=Office%20Manager%20at%20E,Contracting%2C%20Inc)). Her professional profile places her in Woodruff, SC (outside Anderson County), suggesting they do not reside on their Anderson property ([www.signalhire.com](https://www.signalhire.com/profiles/christine-demetriou%27s-email/137350655#:~:text=Woodruff%2C%20South%20Carolina%2C%20United%20States)). Neither Demetriou nor Eric Schaefer has made any public comments on local development known to date ([www.signalhire.com](https://www.signalhire.com/profiles/christine-demetriou%27s-email/137350655#:~:text=Woodruff%2C%20South%20Carolina%2C%20United%20States)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No local ties evident",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value"
-        ],
-        "engage": "Engage them with data and third-party assurances about property values and future resale potential. Having a local economic development official or real estate professional join the discussion could address their likely concerns."
+        "engage": "Approach the Coles via a peer in the farming community and discuss how the development could provide benefits or supplemental income to local farmers."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -177,21 +270,22 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Edward L. Heath & Lois C. Heath",
+      "name": "State Land",
       "entity_category": "Resident",
-      "entity_type": "Individual",
+      "entity_type": "Trust",
       "pins": [
-        "2250006005"
+        "770000074",
+        "770000075"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Edward and Lois Heath are listed as co-owners of a parcel in Anderson County, but they have no public presence in local government or media ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)). No meeting minutes or news reports were found that mention the Heaths taking part in community discussions or civic roles ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)).",
+      "claims": "See ORG table.",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents; no civic roles",
+      "community_influence": "Unknown",
+      "influence_justification": "",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Begin with a personal visit to introduce the project and listen to any concerns, building trust through respectful, one-on-one communication."
+        "engage": "N/A"
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -210,21 +304,21 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Carolina Jenkins",
+      "name": "Mark Paul Lamm & Nancy Dianne Lamm",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "2250603001"
+        "770000089"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Carolina Jenkins owns property in Anderson County but has no evident engagement in community affairs ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)). There are no records of Jenkins participating in local meetings or voicing opinions on development in news sources ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)).",
+      "claims": "Mark P. Lamm and Nancy D. Lamm own property in Mutual, a small town in Woodward County, Oklahoma (population 63 in 2020) [Wikipedia — other, retrieved 2025-12-17; \"Population Total: 63\"](https://en.wikipedia.org/wiki/Mutual,_Oklahoma). The Mutual area has historically seen only modest growth and limited public activity [Wikipedia — other, retrieved 2025-12-17; \"saw only minimal growth\"](https://en.wikipedia.org/wiki/Mutual,_Oklahoma).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public profile or roles",
+      "influence_justification": "No official role; private citizens",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach with an introductory phone call or visit to share information, inviting questions and emphasizing willingness to address any concerns."
+        "engage": "Engage with a friendly, personal visit (ideally involving a neighbor they know) to build trust and ensure their questions about land use or any disturbances are fully addressed."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -243,88 +337,21 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Meghan E. Mumpower & Erick A. Sanchez Martínez",
+      "name": "Charles Newton Brown",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "2250602003"
+        "770000098"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Meghan Mumpower and Erick Sanchez Martínez jointly own an Anderson County parcel, and no public information suggests any involvement in local civic groups or issues ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)). A search of county records and news yielded no mentions of Mumpower or Sanchez Martínez speaking about development or energy projects ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)).",
+      "claims": "Charles N. Brown is a landowner in the Mutual area of Woodward County, a rural community with only a few dozen residents [Wikipedia — other, retrieved 2025-12-17; \"population was 61 at the 2010 census\"](https://en.wikipedia.org/wiki/Mutual,_Oklahoma).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No known community roles",
+      "influence_justification": "No public role; private citizen",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the couple via a friendly in-person meeting, ensuring both owners are included. Highlight how their property and lifestyle will be respected, and encourage them to share any priorities or questions."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Mark Anthony Starrett",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250604004"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Mark Anthony Starrett is an Anderson County landowner with no identifiable public profile ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)). There is no indication of Starrett holding any public office or making statements in local forums regarding development ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a direct conversation on his property or at a neutral local spot. Emphasize listening to his viewpoint and clarify any misconceptions about the development early in the dialogue."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Robert Dustin Antici",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250602005",
-        "2250602006"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Robert \"Dustin\" Antici, 40, resides in Anderson County (Belton area) and owns two adjacent parcels ([besthistorysites.net](https://besthistorysites.net/name/robert-antici#:~:text=Robert%20Dustin%20Antici%2C%20age%2040)). He has no record of public involvement in local development debates or community leadership positions ([thejournalonline.com](https://thejournalonline.com/2025/03/06/anderson-county-council-postpones-vote-on-6-month-moratorium-on-large-scale-developments/#:~:text=become%20involved%20when%20houses%20are,in%20a%20particular%20Council%20District)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public advocacy noted",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out via a local mutual acquaintance or community event to introduce the project. Focusing on informal, trust-building communication may encourage him to express any concerns or needs."
+        "engage": "Use a one-on-one conversation (possibly arranged through a mutual acquaintance) to explain the project and listen to any concerns he may have, emphasizing open communication."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -343,23 +370,28 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Daniel Corey Richey",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
+      "name": "Fenton, Lawson B. Rev. Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
       "pins": [
-        "2250603012"
+        "770000080",
+        "770000079",
+        "770000083",
+        "770000039",
+        "770000081",
+        "770000041",
+        "770000088",
+        "770000037",
+        "770000087"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Daniel C. Richey’s name appears in multiple South Carolina property transactions, indicating he owns real estate in the area ([www.realtyhop.com](https://www.realtyhop.com/property-records/search/daniel-richey#:~:text=There%20are%20currently%2068%20property,South%20Lake%20Mortgage%20Bankers%20In)). He is not listed on any Anderson County boards or committees (a different person with the Richey surname serves on a local water board) ([thejournalonline.com](https://thejournalonline.com/2023/12/21/anderson-county-legislative-delegation-approves-pard-funding-and-board-appointments/#:~:text=The%20reappointments%20of%20James%20Herron%2C,Dickie%20Smith%2C%20Jim%20Simpson%20and)).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "See RESIDENT table.",
       "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known public role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Initiate a one-on-one conversation through a mutual acquaintance, emphasizing open dialogue since his views are not known."
-      },
-      "entity_classification": null,
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": null,
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -376,586 +408,21 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Juanita G. Creamer",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250604005"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Juanita G. Creamer, 81, resides on Skyland Drive in Belton, Anderson County ([www.simplecontacts.com](https://www.simplecontacts.com/state/SC/Belton/Skyland-Drive#:~:text=Juanita%20Creamer)). There is no public record of her involvement in local government or any development-related debates in the community ([andersonobserver.squarespace.com](https://andersonobserver.squarespace.com/news/?currentPage=1131#:~:text=,DateFriday%2C%20October%2016%2C%202009%20at)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private retiree; no public role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a trusted neighbor or community elder reach out informally, focusing on building rapport and understanding any concerns she may have."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Kimberly Denise Milam & Anthony Tyler Milam",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250603003"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Kimberly D. Milam and Anthony T. Milam purchased their Anderson County parcel in October 2017 ([www.realtyhop.com](https://www.realtyhop.com/property-records/search/milam-kimberly-s#:~:text=2017)). They have no evident public profile in Anderson County; neither appears in local news or civic records regarding land use issues ([www.newspapers.com](https://www.newspapers.com/newspage/813708567/#:~:text=Anderson%20Independent,Carnes%2C%20Willie%20Albert)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "New landowners; not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage this couple in a neighborly manner, perhaps at a community gathering, and address any practical questions they have about nearby development."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Charles Dean Gillespie",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250603011"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Charles D. Gillespie (born 1949) is 75 years old and has lived at 1313 Old Gantt Mill Road in Anderson since the early 1990s ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/charles-gillespie/#:~:text=Charles%20Gillespie%2C%20born%20on%20December,This%20person%20has%205%20relatives)). He has made no public comments on development, and no record was found of him taking part in local civic issues or meetings ([thejournalonline.com](https://thejournalonline.com/2023/12/21/anderson-county-legislative-delegation-approves-pard-funding-and-board-appointments/#:~:text=The%20reappointments%20of%20James%20Herron%2C,Dickie%20Smith%2C%20Jim%20Simpson%20and)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime resident; no official role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Leverage his long community tenure by having a respected local figure initiate contact; emphasize that his experience and any concerns are valued."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Richard L. Wilson & Marilyn Y. Wilson",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "2250006006"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Richard L. Wilson and his wife Marilyn Y. Wilson are co-owners of a residential parcel in Anderson County ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=Anderson%20County%2C%20South%20Carolina%20Property,These)). There is no indication that either holds a public position or has spoken out on local development matters (their names do not surface in Anderson County civic records) ([www.locatefamily.com](https://www.locatefamily.com/W/WIL/WILSON-22955.html#:~:text=Locate%20WILSON%20Family%20Members%20,Leave%20messageView%20Map)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowners; not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out in person with a polite introduction, possibly accompanied by a mutual neighbor, to discuss the project and invite their questions or input."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Carol Ann G. Stone",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "225-06-04-006"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Carol Ann G. Stone holds a life estate interest in her Anderson County property, a mechanism often used to keep land in the family ([www.farmprogress.com](https://www.farmprogress.com/commentary/what-exactly-is-a-life-estate-gift-of-farmland-#:~:text=house%20and%2For%20land%2C%20that%20you,the%20kids)). Barring a similarly named Florida obituary, no media references to Carol Ann Stone in Anderson County were found ([www.marionnelsonfuneralhome.com](https://www.marionnelsonfuneralhome.com/obituaries/carol-stone#:~:text=Carol%20Ann%20Stone%20Obituary%20September,She%20was%20born)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No civic roles",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Arrange a personal meeting that includes her family or heirs, emphasizing long-term land stewardship and aligning the project with her desire to preserve the property for her family."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Barbara J. Richards",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-03-004"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Barbara J. Richards is listed as an owner of an Anderson County parcel, but she has maintained a low public profile (no civic appointments or letters in local news identified) ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/barbara-richards/5#:~:text=AncientFaces%20www,was%20born%20on%20July%205)). Beyond a genealogical record of a namesake born in 1925 and deceased in 1991, no information connects this Barbara Richards to community affairs ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/barbara-richards/5#:~:text=AncientFaces%20www,was%20born%20on%20July%205)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach with a neighborly introduction and open dialogue. Since she has no known public positions, invite her to share any concerns one-on-one, emphasizing respect for her property and transparency about the project."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Doris Bratcher",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "225-06-03-010"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Doris Gossett Williams Bratcher is a long-time local resident; she was noted as the wife of the late William “Red” Bratcher of Skyland Drive in Belton ([www.legacy.com](https://www.legacy.com/us/obituaries/indexjournal/name/william-bratcher-obituary?id=34912732#:~:text=Belton%20William%20,late%20Raymond%20and%20Elizabeth%20Brock)). She holds a life estate in her land, a strategy commonly used by widows to ensure the property passes to children, keeping the farm in the family ([www.farmprogress.com](https://www.farmprogress.com/commentary/what-exactly-is-a-life-estate-gift-of-farmland-#:~:text=house%20and%2For%20land%2C%20that%20you,the%20kids)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Elder resident; no official role",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage Mrs. Bratcher in person through a trusted community connection (for example, a fellow church member), focusing on how the development will honor her family’s legacy on the land. Emphasize continuity and assurances that any project agreements will protect her heirs’ interests."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Allen Wayne Fields",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-02-007"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Public records indicate Allen Wayne Fields is about 61 years old and has primary addresses in Trenton, SC and Texas rather than in Anderson County ([truepeoplesearch.net](https://truepeoplesearch.net/people/allen-fields#:~:text=,AND%209%20MORE)). There are no reports of Fields taking part in local meetings or development debates; search results show only generic name matches and unrelated legal cases ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/allen-fields#:~:text=Allen%20Fields%20Biographies%20%26%20Genealogy,Back%20to%20Top%20Advertisement)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known civic position",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Because Mr. Fields likely resides out of the area, start by reaching out via a formal letter or phone call explaining the project’s benefits. Highlight commitments that protect his property value and clarify any potential financial opportunities or safeguards, as these practical points may resonate given his absence from daily community life."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Eunice H. Sims",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-07-03-006"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Eunice H. Sims owns a parcel in the area but maintains an extremely low profile. A search of public sources yields mainly unrelated obituaries of similarly named individuals, and no evidence of her involvement in local issues or commentary on development was found ([obituary.memorial](https://obituary.memorial/en/obituary/eunice-elizabeth-sims-williams-1943-10-10-2018-9-15-218357#:~:text=Eunice%20Elizabeth%20Sims%20Williams%20,SC%29%2C%20USA%20Funeral%20Home)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Given Ms. Sims’s private nature, a respectful face-to-face visit is recommended to establish trust. Engage through a familiar local intermediary if possible, and gently inquire about any concerns she might have, assuring that her peace and privacy will be respected throughout the project."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Mark and Lydia Sanders",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-04-016"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Mark and Lydia Sanders are listed as co-owners of an Anderson County parcel (PIN 225-06-04-016) as per county property records ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=Viewer%20propertyviewer,m)). No news articles or public meeting minutes were found in which either Mark or Lydia Sanders commented on local development or energy projects ([obits.robinsonfuneralhomes.com](https://obits.robinsonfuneralhomes.com/mark-sanders#:~:text=Mark%20Ivan%20Sanders%2C%20of%20Seneca%2C,higher%20education%20at%20Lander%20College)). The only Sanders serving in Anderson County’s government is Brett Sanders (a council member), indicating Mark and Lydia hold no official positions ([www.andersoncountysc.org](https://www.andersoncountysc.org/county-council/#:~:text=,Chairman%20Entrepreneur%20owning%20and)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile or office",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Begin with a personal, informational approach to learn their views, as they have no known public stance."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Mark Jerome and Angelia Sloan",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-03-005"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Mark Jerome Sloan and his spouse Angelia are the identified owners of Anderson County parcel 225-06-03-005 ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=Viewer%20propertyviewer,m)). There is no record of either Mark or Angelia Sloan making public statements about development or energy in local media or hearings (their names do not appear in relevant Anderson County records) ([www.andersoncountysc.org](https://www.andersoncountysc.org/county-council/#:~:text=,Chairman%20Entrepreneur%20owning%20and)). They have not been identified in any civic roles or offices in Anderson County ([www.andersoncountysc.org](https://www.andersoncountysc.org/county-council/#:~:text=,Chairman%20Entrepreneur%20owning%20and)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private citizens, no civic roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach via direct, friendly outreach to gauge their perspectives privately since they have no public position."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Kevin and Aida Annette Gray",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-11-01-005"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Kevin Gray and Aida Annette Gray jointly own the property corresponding to PIN 225-11-01-005 in Anderson County ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=Viewer%20propertyviewer,m)). No evidence was found of this couple speaking out on land development or renewable energy issues in Anderson County (most media references to \"Kevin Gray\" in South Carolina refer to a well-known Columbia activist, not this landowner) ([www.blythewoodonline.com](https://www.blythewoodonline.com/2023/03/guest-editorial-activist-kevin-gray-was-larger-than-life-yet-unassuming/#:~:text=Tuesday%2C%20March%207%2C%202023%2C%20Columbia,of%20my%20most%20cherished%20friends)). They are not listed among local officials or board members, suggesting they have no formal influence in local governance ([www.sccounties.org](https://www.sccounties.org/county/anderson-county/directory#:~:text=Brett%20Sanders%20%20,1618)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Not publicly active or known",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a neighborly one-on-one conversation to share project information, as they haven’t signaled any stance publicly."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Charles L. and Olene W. Burton (Life Estate)",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "225-06-03-009"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Charles L. Burton and Olene W. Burton hold a life estate interest in their Anderson County property (PIN 225-06-03-009) ([www.scribd.com](https://www.scribd.com/document/528899352/great-old-property-outline-detailed#:~:text=Patent%20www.scribd.com%20%20Ch.3%20,A%20can)). No public comments or letters from the Burtons about local development or solar projects were found in official records or news archives ([www.andersoncountysc.org](https://www.andersoncountysc.org/county-council/#:~:text=,Chairman%20Entrepreneur%20owning%20and)). They do not appear in any elected or appointed capacity locally, indicating they remain private retirees with no formal community leadership role ([www.sccounties.org](https://www.sccounties.org/county/anderson-county/directory#:~:text=Brett%20Sanders%20%20,1618)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Elder landowners; no public role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Show respect for their long-term ownership and family legacy, listening to any concerns quietly in person due to their private profile."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Brandy and Evin McIntyre",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-02-008"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Brandy and Evin McIntyre own the parcel identified by PIN 225-06-02-008 in Anderson County ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/assessor/#:~:text=Viewer%20propertyviewer,m)). There are no indications of either Brandy or Evin McIntyre participating in public meetings or local media discussions regarding development plans (their names do not surface in available local records) ([www.sccounties.org](https://www.sccounties.org/county/anderson-county/directory#:~:text=Brett%20Sanders%20%20,1618)). They have not been noted to hold any community positions or to have a public presence around civic issues ([www.sccounties.org](https://www.sccounties.org/county/anderson-county/directory#:~:text=Brett%20Sanders%20%20,1618)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known public activity",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out in an informal manner (e.g., via mutual acquaintances or a community gathering) to introduce the project and hear their thoughts, given their currently low-profile stance."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Benjamin Hayes Smith and Jada Katherine Bu",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-03-006"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Benjamin Hayes Smith and Jada Katherine Bu are listed as owners of an Anderson County parcel but have no readily available public biographical or civic information ([andersonrecords.org](https://andersonrecords.org/#:~:text=Research%20Assistance%3A)). No references to either individual were found in local meeting minutes or news reports regarding development or energy projects ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=,back%20to%20previous%20reassessment%20periods)) ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=The%20Anderson%20County%20Lien%20Search,process%20includes)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public roles held",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "With no known stance or public profile, approach them informally via direct outreach, sharing project facts and inviting any questions or concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Russell R. Roberts",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-06-04-008"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Russell R. Roberts owns property in Anderson County with no indication of active civic or leadership roles ([andersonrecords.org](https://andersonrecords.org/#:~:text=Research%20Assistance%3A)). Public record searches yielded no evidence of Roberts speaking out on local development or renewable energy issues ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=,back%20to%20previous%20reassessment%20periods)) ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=The%20Anderson%20County%20Lien%20Search,process%20includes)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage one-on-one by providing information about the project and asking for feedback, as he has not voiced opinions publicly."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Carmen Jose Rojas Noyola and Celsa Rojas",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "225-16-01-001"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Carmen Jose Rojas Noyola and Celsa Rojas jointly own a parcel in Anderson County, but little else is documented about them in accessible public sources ([andersonrecords.org](https://andersonrecords.org/#:~:text=Research%20Assistance%3A)). They have made no known public comments or appearances regarding local development proposals ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=,back%20to%20previous%20reassessment%20periods)) ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=The%20Anderson%20County%20Lien%20Search,process%20includes)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No community spotlight",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Outreach should be done in a personal, community-oriented manner (possibly with Spanish-language materials if needed), focusing on listening to any concerns since their views are not publicly known."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Six O Ranch LLC",
+      "name": "Pittman Ranch LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "2250006004"
+        "770000084"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Six O Ranch LLC is a limited liability company owning parcel 225-00-06-004 in Anderson County, South Carolina ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=The%20Anderson%20County%20Register%20of,property%20information%20to%20the%20public)) ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/register-of-deeds/#:~:text=The%20Register%20of%20Deeds%20is,personal%20property%20in%20Anderson%20county)). The company’s name and parcel usage suggest it is a private ranch or agricultural land-holding with no other public-facing business operations ([sos.sc.gov](https://sos.sc.gov/online-filings/business-entities#:~:text=The%20Secretary%20of%20State%E2%80%99s%20Office,partnerships%2C%20and%20limited%20liability%20partnerships)) ([www.wyff4.com](https://www.wyff4.com/article/2000-new-anderson-county-home-proposals-reoning-met-with-opposition/32828155#:~:text=2%2C000%2B%20new%20Anderson%20County%20home,opposition%20from%20county%20residents%202%2C000)). No record of Six O Ranch LLC appears in South Carolina’s corporate filings or local news archives beyond property ownership, indicating no significant corporate affiliations or political contributions on record ([sos.sc.gov](https://sos.sc.gov/online-filings/business-entities#:~:text=The%20Secretary%20of%20State%E2%80%99s%20Office,partnerships%2C%20and%20limited%20liability%20partnerships)) ([www.wyff4.com](https://www.wyff4.com/article/2000-new-anderson-county-home-proposals-reoning-met-with-opposition/32828155#:~:text=2%2C000%2B%20new%20Anderson%20County%20home,opposition%20from%20county%20residents%202%2C000)). The LLC has not been cited in any county development controversies or opposition groups, implying a low-profile landowner concerned mainly with its own property and land use ([www.wyff4.com](https://www.wyff4.com/article/2000-new-anderson-county-home-proposals-reoning-met-with-opposition/32828155#:~:text=2%2C000%2B%20new%20Anderson%20County%20home,opposition%20from%20county%20residents%202%2C000)).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Pittman Ranch LLC is an Oklahoma limited liability company holding ranch land near Mutual in Woodward County ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). The LLC has no listed business operations or online presence beyond property ownership records, indicating it is a private family ranch entity ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). A review of county filings shows no recorded transactions involving Pittman Ranch LLC and the solar developer (Mutual Solar, LLC) as of 2025 ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). No UCC liens or litigation records were found under the company’s name in public databases, suggesting minimal external financial activity ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)).",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Small private landholder with no public profile; not a major employer or donor; no known political or civic activity",
+      "influence_justification": "Small private ranch with limited public profile or political activity",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the LLC’s owner (likely a local ranch family) to address any concerns about project impact on their land; emphasize measures to protect livestock and land value, and consider offering mutually beneficial arrangements (e.g., buffer zones or purchase of easements) to alleviate their worries"
+        "engage": "Engage the family owners directly to address any ranching impact concerns; offer leasing terms that provide supplemental income while assuring minimal disturbance"
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -973,23 +440,23 @@
       "citations": null
     },
     {
-      "neighbor_id": "N-02",
-      "name": "Oscar BP Properties LLC",
+      "neighbor_id": "N-03",
+      "name": "Downs Medical Properties, LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "2250006012",
-        "2251101705"
+        "770000040",
+        "770000036"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Oscar BP Properties LLC is a limited liability company identified as the owner of at least two parcels (TMS 225-00-06-012 and 225-11-01-705) in Anderson County ([andersonrecords.org](https://andersonrecords.org/property-records#:~:text=The%20Anderson%20County%20Register%20of,property%20information%20to%20the%20public)). The entity’s name indicates a property investment or holding company with no discernible operating business, suggesting its primary purpose is land ownership or real estate speculation ([www.andersoncountysc.org](https://www.andersoncountysc.org/departments-a-z/register-of-deeds/#:~:text=The%20Register%20of%20Deeds%20is,personal%20property%20in%20Anderson%20county)) ([www.wyff4.com](https://www.wyff4.com/article/2000-new-anderson-county-home-proposals-reoning-met-with-opposition/32828155#:~:text=2%2C000%2B%20new%20Anderson%20County%20home,opposition%20from%20county%20residents%202%2C000)). There are no listings of Oscar BP Properties LLC in South Carolina’s business news, political contributions, or UCC financing statements, reflecting an absence of public-facing activity or disclosed beneficial owners ([sos.sc.gov](https://sos.sc.gov/online-filings/business-entities#:~:text=The%20Secretary%20of%20State%E2%80%99s%20Office,partnerships%2C%20and%20limited%20liability%20partnerships)) ([www.wyff4.com](https://www.wyff4.com/article/2000-new-anderson-county-home-proposals-reoning-met-with-opposition/32828155#:~:text=2%2C000%2B%20new%20Anderson%20County%20home,opposition%20from%20county%20residents%202%2C000)). The company has not been mentioned in local development disputes or media, implying it has not taken any visible stance for or against nearby projects and likely remains focused on the financial aspects of its property assets ([www.wyff4.com](https://www.wyff4.com/article/2000-new-anderson-county-home-proposals-reoning-met-with-opposition/32828155#:~:text=2%2C000%2B%20new%20Anderson%20County%20home,opposition%20from%20county%20residents%202%2C000)).",
+      "owns_adjacent_parcel": "No",
+      "claims": "Downs Medical Properties, LLC holds two parcels in Woodward County and appears to be a real estate investment entity ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). The company’s name suggests ownership of medical or commercial properties, but no active business presence is noted locally in Woodward (no clinics or offices under this name) ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). No state business filings or liens were found beyond the deed records, implying it functions as a passive landholding vehicle ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). The beneficial owners are not disclosed in public records, and the LLC has not been identified in any recorded agreements related to the proposed solar project ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)).",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Minimal public footprint; appears to be a passive land investor with no local civic engagement or large-scale business operations",
+      "influence_justification": "Out-of-town investment with no local operations or community role",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Identify and reach out to the LLC’s manager or agent (beneficial owner unknown) to discuss the project’s benefits; highlight potential value uplift or partnership opportunities for their parcels, and address any concerns about zoning or access to ensure they feel included rather than threatened"
+        "engage": "Contact the registered agent or owner with a clear financial offer for land use; emphasize ease of transaction and ROI to encourage cooperation"
       },
       "entity_classification": "land_investment",
       "profile_summary": null,
@@ -1005,261 +472,74 @@
       "coalition_predictors": null,
       "disambiguation": null,
       "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Sander, Lanny & Betty Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "770000097",
+        "770000096"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": null,
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Smart Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "770000034"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": null,
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 34.53726,-82.51177",
-  "overview_summary": "None of these five neighboring landowners has a documented stance, with all classified as having an unknown position on new development. Similarly, none hold formal local offices or leadership roles; all appear to have low individual influence in the community. No high-influence neighbors were identified among the group. All five profiled landowners have no clear public stance on development or clean energy, with each classified as \"unknown\" due to a lack of documented statements. None hold notable positions of influence in Anderson County; they appear to be private residents without significant public profiles or community leadership roles. All five neighboring landowners are private residents with no documented stances on development or energy projects. None hold public office or lead civic groups, suggesting limited direct influence. Engagement will require personal outreach and listening to understand any concerns. All five neighboring landowners have an unknown stance on the planned development, as none have made any public statements or taken recorded actions for or against it. Their individual community influence appears low – none hold notable public positions or major social sway, and there are zero high-influence figures among these neighbors. None of the five profiled neighbors have a clear public stance on development or clean energy, as no statements or actions could be found. All appear to be private landowners without known civic roles. Consequently, all five are categorized as having an unknown stance, and none are considered high-influence community figures (primarily low influence across the group). All three profiled neighbors have no documented public stance on development or clean energy. None hold notable community positions, indicating low individual influence in local affairs. The neighboring entities are small private LLCs holding land adjacent to the project site. **Six O Ranch LLC** appears to be a locally-held ranch or farmland entity (implied by name), while **Oscar BP Properties LLC** is a property holding/investment vehicle. Neither shows a public corporate profile or known involvement in major community initiatives, suggesting limited influence and primarily financial motivations (land value, preservation of use). Both seem focused on their land interests without clear ties to larger development or political networks, indicating they are more likely passive neighbors than organized opposition leaders.",
+  "location_context": "Neighbors within 0.5 mi of 36.2148,-99.0365",
+  "overview_summary": "None of the three individual landowners have publicly stated positions on the development, leaving their stances unknown. All identified neighbors are private landholders without official roles, indicating generally low influence in the community. No high-influence neighbors were noted in this profile. All three profiled neighbors have no documented stance on development or clean energy projects. None holds a high-profile community position, and each appears to wield low public influence in local affairs. All three nearby landowners show no clear public stance on development or clean energy, with no records of open support or opposition. None hold any known public office or leadership roles, indicating mainly low influence in the small Mutual community, and no high-influence neighbors are identified. The adjacent landowners consist of family trusts and locally-registered LLCs. Several are legacy ranching interests held in revocable trusts (e.g., Lawson Fenton and Lanny Sander), while others are small private companies like Pittman Ranch LLC (agricultural) and Downs Medical Properties LLC (investment in land). One trust (Fenton) has already transacted with the solar developer, signaling support ([webserver2.okcountyrecords.com](https://webserver2.okcountyrecords.com/detail/woodward/2024-003846/34077156#:~:text=,Search%20MUTUAL%20SOLAR%2C%20LLC)). Overall, these neighbors are primarily long-time landholders, not commercial developers, so their influence stems from acreage and local ties rather than corporate or political clout. Key considerations include the Fenton trust’s cooperation (a possible ally) and the unknown stance of the remaining owners, who could either seek financial incentives or resist changes to their land use.",
   "success": true,
-  "runtime_minutes": 19.42,
+  "runtime_minutes": 23.43,
   "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
     {
       "title": null,
       "url": null
@@ -1322,16 +602,13 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_151153_7251.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_152021_3275.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_151859_6892.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_151727_9545.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_151329_2569.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_151003_2711.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251216_151439_2985.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_171512_4871.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_171154_4951.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251216_170527_7826.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251216_165923_4201.json"
   ],
-  "city": null,
-  "county": "Anderson County",
-  "state": "SC",
-  "run_id": "a2591a37-0bfe-4113-a9b6-27b26b294950"
+  "city": "Mutual",
+  "county": "Woodward County",
+  "state": "OK",
+  "run_id": "4b85d47c-8577-4d9d-8031-6278733ee615"
 }

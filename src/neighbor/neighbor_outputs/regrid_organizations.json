@@ -2,21 +2,54 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Six O Ranch Llc",
+      "name": "Fenton,Lawson B. Rev. Trust",
       "entity_type": "organization",
       "pins": [
-        "2250006004"
+        "770000080",
+        "770000079",
+        "770000083",
+        "770000039",
+        "770000081",
+        "770000041",
+        "770000088",
+        "770000037",
+        "770000087"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Pittman Ranch Llc",
+      "entity_type": "organization",
+      "pins": [
+        "770000084"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Downs Medical Properties, Llc",
+      "entity_type": "organization",
+      "pins": [
+        "770000040",
+        "770000036"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Oscar Bp Properties Llc",
+      "name": "Sander,Lanny & Betty Revocable Trust",
       "entity_type": "organization",
       "pins": [
-        "2250006012",
-        "2251101705"
+        "770000097",
+        "770000096"
       ],
-      "owns_adjacent_parcel": "Yes"
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Smart Family Trust",
+      "entity_type": "organization",
+      "pins": [
+        "770000034"
+      ],
+      "owns_adjacent_parcel": "No"
     }
   ]
 }

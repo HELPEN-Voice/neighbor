@@ -1,8 +1,8 @@
 {
-  "run_id": "a2591a37-0bfe-4113-a9b6-27b26b294950",
-  "coordinates": "34.53726,-82.51177",
-  "state_code": "SC",
-  "parcels_analyzed": 50,
+  "run_id": "4b85d47c-8577-4d9d-8031-6278733ee615",
+  "coordinates": "36.2148,-99.0365",
+  "state_code": "OK",
+  "parcels_analyzed": 35,
   "community_wealth_proxy": {
     "valid_samples": 0,
     "median_structure_value": null,
@@ -11,21 +11,21 @@
     "risk_class": "risk-unknown"
   },
   "land_value_proxy": {
-    "valid_samples": 0,
-    "median_value_per_acre": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 33,
+    "median_value_per_acre": 184.03163377406233,
+    "formatted": "$184/acre",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "template_variables": {
     "median_structure_value": "N/A",
     "wealth_risk_level": "UNKNOWN",
     "wealth_risk_class": "risk-unknown",
     "wealth_valid_samples": "0",
-    "median_land_value_acre": "N/A",
-    "land_risk_level": "UNKNOWN",
-    "land_risk_class": "risk-unknown",
-    "land_valid_samples": "0",
-    "parcels_analyzed": "50"
+    "median_land_value_acre": "$184/acre",
+    "land_risk_level": "LOW",
+    "land_risk_class": "risk-low",
+    "land_valid_samples": "33",
+    "parcels_analyzed": "35"
   }
 }
