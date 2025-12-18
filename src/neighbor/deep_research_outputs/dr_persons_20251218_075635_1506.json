@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-12-18T07:56:35.150674",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighbors have an unknown stance toward new development, as none have made public statements or taken clear actions for or against it. None is a public official or overt community leader – one couple has moderate influence through a prominent farming operation, while the others are private landowners with relatively low public profiles in the Orleans area.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Luther, Roger & Jennifer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280006200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jennifer Luther is listed as the CEO of the family’s Luther Farms operation based in Orleans, Nebraska [Leadsforge Directory](https://www.leadsforge.ai/contact/jennifer-luther-7a975731). Roger Luther has received about $314,000 in USDA farm program subsidies since 1995, indicating a substantial farming enterprise in Harlan County [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=68966). No records were found of the Luthers holding public office or making public comments on local development as of this search.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major farm operators",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local agriculture figure reach out to underscore how the project respects farmland and the area’s farming legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Stoelting, James",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Stoelting is a partner in “Stoelting Brothers,” a small corn farming operation registered in Orleans, Nebraska [NAICS Business Directory](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966). He does not appear in local news or county meeting records, suggesting he has no notable public roles in the community. There are no public statements or documented actions by Stoelting regarding development or energy projects in Harlan County.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small farm partnership",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Engage him through a neighbor-to-neighbor conversation focused on protecting farm operations and maintaining local road conditions during the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Lewis, Marlen L. & Beverly E.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005800",
+        "280003700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Marlen L. and Beverly E. Lewis are listed as owners of multiple parcels in the Orleans vicinity of Harlan County (per county property records), but they maintain a low public profile. No mentions of this couple were found in available Harlan County news archives or meeting minutes, and there is no public evidence of any stance or involvement in local development issues.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; low profile",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach via a trusted community member and emphasize how the project will respect their privacy, quiet rural lifestyle, and the longstanding heritage of the area."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighbors have an unknown stance toward new development, as none have made public statements or taken clear actions for or against it. None is a public official or overt community leader – one couple has moderate influence through a prominent farming operation, while the others are private landowners with relatively low public profiles in the Orleans area.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Luther, Roger & Jennifer\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280006200\"],\n      \"claims\": \"Jennifer Luther is listed as the CEO of the family’s Luther Farms operation based in Orleans, Nebraska [Leadsforge Directory](https://www.leadsforge.ai/contact/jennifer-luther-7a975731). Roger Luther has received about $314,000 in USDA farm program subsidies since 1995, indicating a substantial farming enterprise in Harlan County [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=68966). No records were found of the Luthers holding public office or making public comments on local development as of this search.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major farm operators\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local agriculture figure reach out to underscore how the project respects farmland and the area’s farming legacy.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Stoelting, James\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002700\"],\n      \"claims\": \"James Stoelting is a partner in “Stoelting Brothers,” a small corn farming operation registered in Orleans, Nebraska [NAICS Business Directory](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966). He does not appear in local news or county meeting records, suggesting he has no notable public roles in the community. There are no public statements or documented actions by Stoelting regarding development or energy projects in Harlan County.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small farm partnership\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"drainage_roads\"],\n        \"engage\": \"Engage him through a neighbor-to-neighbor conversation focused on protecting farm operations and maintaining local road conditions during the project.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Lewis, Marlen L. & Beverly E.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005800\", \"280003700\"],\n      \"claims\": \"Marlen L. and Beverly E. Lewis are listed as owners of multiple parcels in the Orleans vicinity of Harlan County (per county property records), but they maintain a low public profile. No mentions of this couple were found in available Harlan County news archives or meeting minutes, and there is no public evidence of any stance or involvement in local development issues.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"heritage_family_legacy\"],\n        \"engage\": \"Approach via a trusted community member and emphasize how the project will respect their privacy, quiet rural lifestyle, and the longstanding heritage of the area.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

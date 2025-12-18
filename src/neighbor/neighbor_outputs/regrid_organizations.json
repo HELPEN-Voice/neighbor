@@ -2,27 +2,55 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Yancey Properties Inc",
+      "name": "Murdoch Enterprises, Inc.",
       "entity_type": "organization",
       "pins": [
-        "0967-48-3051"
+        "280003600",
+        "280005200",
+        "280003400",
+        "280005400",
+        "280003300",
+        "280004200",
+        "280004500"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Pleasant Hills Farm Llc",
+      "name": "James Drake Farm Enterprises Llc",
       "entity_type": "organization",
       "pins": [
-        "0967-27-2598"
+        "280002800",
+        "280003000",
+        "280005700",
+        "280006300",
+        "280002601",
+        "280006100",
+        "280003100",
+        "280002900"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Fencepost Farms, Llc / Firefly Farms, Llc",
+      "entity_type": "organization",
+      "pins": [
+        "280005501"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Richard Lewis Taylor Revocable Trust",
+      "name": "Robison Living Trust, Ronald & Bretta",
       "entity_type": "organization",
       "pins": [
-        "0968-63-1322",
-        "0967-99-2507"
+        "320014000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Vorderstrasse Trustees, Duane L & Debra L",
+      "entity_type": "organization",
+      "pins": [
+        "280003900"
       ],
       "owns_adjacent_parcel": "No"
     }

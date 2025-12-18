@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-12-18T07:53:07.193866",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighbors have no documented public stance on the proposed development, leaving their positions classified as unknown. Their community influence appears limited; apart from one neighbor who co-runs a local farm auction (moderate social ties), the others do not hold prominent public roles or influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Beau & Jessica Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280006301"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Beau Martin helps run Martin Auction Company, a family-owned farm auction service based near Orleans ([martin-auctionco.com](https://martin-auctionco.com/about-us/#:~:text=In%202004%2C%20Lyle%20and%20son%2C,the%20clerking%20for%20items%20sold)). The Martin family has farmed and raised cattle west of Orleans for decades, and Beau continues that tradition on his own farm northwest of town ([martin-auctionco.com](https://martin-auctionco.com/about-us/#:~:text=Lyle%20and%20Judy%20Martin%20were,Lance%2C%20DeLanie%2C%20Wyatt%20and%20Berkley)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Auctioneer; farm family",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Have a respected farm community member (e.g., his father or a Farm Bureau peer) introduce the project to Beau, emphasizing how it can align with preserving their family farm legacy and support the local agricultural economy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Carol A. Wells",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005301"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carol A. Wells owns property in the Orleans area, but no evidence was found of her serving in local government or speaking publicly on development issues ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). She does not appear in available county records or news reports regarding civic engagement or land-use debates ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach should be one-on-one and neighborly. A personal visit to introduce the project and listen to any concerns would be appropriate, as she is a private landowner with no known organizational affiliations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bart A. & Jill R. Woodward",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005500"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bart and Jill Woodward are listed as landowners in Harlan County but do not hold any public offices or prominent roles in community groups, according to local records ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). No public statements or participation by the Woodwards in development or energy issues could be identified in news or meeting archives ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Woodwards through an informal neighbor-to-neighbor approach. Emphasize listening to their concerns about farming operations, and possibly involve an agricultural extension agent or mutual acquaintance to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Jesse R. & Jill C. Hays",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002501",
+        "280002500"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jesse and Jill Hays own multiple parcels near Orleans, but there is no record of them participating in local government or public forums on land development ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). They have kept a low public profile, with no mentions in recent county board minutes or local media regarding community issues ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the Hays family personally via a friendly introduction from a mutual farming community contact. Discuss the project in terms of practical impacts (roads, drainage) and reassure them by showing an understanding of rural landowner concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Gary L. & James G. Stoelting",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002400",
+        "280002300",
+        "320014700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brothers Gary and James Stoelting operate “Stoelting Brothers,” a small corn-farming partnership based in Orleans ([naicslist.com](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966#:~:text=Stoelting%20Brothers%20is%20a%20specialized,team%20of%20approximately%202%20employees)). Aside from running their farm business, the Stoeltings are not publicly active in civic affairs, and there are no public records of them taking positions on local development projects ([naicslist.com](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966#:~:text=Stoelting%20Brothers%20is%20a%20specialized,team%20of%20approximately%202%20employees)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small farming partnership",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Have an agriculture-oriented discussion with the Stoelting brothers. A peer farmer or local ag extension representative could help explain how the project will protect farmland integrity and address any crop or soil concerns they may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighbors have no documented public stance on the proposed development, leaving their positions classified as unknown. Their community influence appears limited; apart from one neighbor who co-runs a local farm auction (moderate social ties), the others do not hold prominent public roles or influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Beau & Jessica Martin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280006301\"],\n      \"claims\": \"Beau Martin helps run Martin Auction Company, a family-owned farm auction service based near Orleans ([martin-auctionco.com](https://martin-auctionco.com/about-us/#:~:text=In%202004%2C%20Lyle%20and%20son%2C,the%20clerking%20for%20items%20sold)). The Martin family has farmed and raised cattle west of Orleans for decades, and Beau continues that tradition on his own farm northwest of town ([martin-auctionco.com](https://martin-auctionco.com/about-us/#:~:text=Lyle%20and%20Judy%20Martin%20were,Lance%2C%20DeLanie%2C%20Wyatt%20and%20Berkley)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Auctioneer; farm family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"farmland_preservation\"],\n        \"engage\": \"Have a respected farm community member (e.g., his father or a Farm Bureau peer) introduce the project to Beau, emphasizing how it can align with preserving their family farm legacy and support the local agricultural economy.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Carol A. Wells\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005301\"],\n      \"claims\": \"Carol A. Wells owns property in the Orleans area, but no evidence was found of her serving in local government or speaking publicly on development issues ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). She does not appear in available county records or news reports regarding civic engagement or land-use debates ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"No public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Outreach should be one-on-one and neighborly. A personal visit to introduce the project and listen to any concerns would be appropriate, as she is a private landowner with no known organizational affiliations.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Bart A. & Jill R. Woodward\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005500\"],\n      \"claims\": \"Bart and Jill Woodward are listed as landowners in Harlan County but do not hold any public offices or prominent roles in community groups, according to local records ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). No public statements or participation by the Woodwards in development or energy issues could be identified in news or meeting archives ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the Woodwards through an informal neighbor-to-neighbor approach. Emphasize listening to their concerns about farming operations, and possibly involve an agricultural extension agent or mutual acquaintance to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Jesse R. & Jill C. Hays\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002501\", \"280002500\"],\n      \"claims\": \"Jesse and Jill Hays own multiple parcels near Orleans, but there is no record of them participating in local government or public forums on land development ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). They have kept a low public profile, with no mentions in recent county board minutes or local media regarding community issues ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach the Hays family personally via a friendly introduction from a mutual farming community contact. Discuss the project in terms of practical impacts (roads, drainage) and reassure them by showing an understanding of rural landowner concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Gary L. & James G. Stoelting\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002400\", \"280002300\", \"320014700\"],\n      \"claims\": \"Brothers Gary and James Stoelting operate “Stoelting Brothers,” a small corn-farming partnership based in Orleans ([naicslist.com](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966#:~:text=Stoelting%20Brothers%20is%20a%20specialized,team%20of%20approximately%202%20employees)). Aside from running their farm business, the Stoeltings are not publicly active in civic affairs, and there are no public records of them taking positions on local development projects ([naicslist.com](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966#:~:text=Stoelting%20Brothers%20is%20a%20specialized,team%20of%20approximately%202%20employees)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small farming partnership\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Have an agriculture-oriented discussion with the Stoelting brothers. A peer farmer or local ag extension representative could help explain how the project will protect farmland integrity and address any crop or soil concerns they may have.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

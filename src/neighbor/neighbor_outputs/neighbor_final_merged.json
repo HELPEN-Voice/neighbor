@@ -2,21 +2,24 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Donald E. Thurston & Willa S. Thurston",
+      "name": "Luther, Roger & Jennifer",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0967-39-4754"
+        "280006200"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Donald E. and Willa S. Thurston are listed as co-owners of a parcel in Granville County near Oxford ([www.granvillecounty.org](https://www.granvillecounty.org/259/GIS-Geographic-Information-System#:~:text=The%20GIS%20,the%20beginning%20of%20each%20month)). They have no record of participation in local government meetings or public comments on development issues ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)). No news articles or civic roles could be found linking the Thurstons to community initiatives ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)).",
+      "claims": "Jennifer Luther is listed as the CEO of the family’s Luther Farms operation based in Orleans, Nebraska [Leadsforge Directory](https://www.leadsforge.ai/contact/jennifer-luther-7a975731). Roger Luther has received about $314,000 in USDA farm program subsidies since 1995, indicating a substantial farming enterprise in Harlan County [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=68966). No records were found of the Luthers holding public office or making public comments on local development as of this search.",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known public roles",
+      "community_influence": "Medium",
+      "influence_justification": "Major farm operators",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach personally through a familiar community member, emphasizing respect for their property and addressing any concerns about maintaining their quiet rural lifestyle."
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local agriculture figure reach out to underscore how the project respects farmland and the area’s farming legacy."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -35,23 +38,24 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Bart A. Streb",
+      "name": "Stoelting, James",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0968-41-8159"
+        "280002700"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Bart A. Streb is noted as a farmsteader at \"J&B Farmstead\" based in Oxford, NC ([www.signalhire.com](https://www.signalhire.com/profiles/bart-streb%27s-email/45534084#:~:text=Current%20Position%3A)). He operates a small farm enterprise and has decades of farming experience in the area ([www.signalhire.com](https://www.signalhire.com/profiles/bart-streb%27s-email/45534084#:~:text=Experience%3A)). There are no public records of Streb speaking in county meetings or media about development or energy projects ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)).",
+      "claims": "James Stoelting is a partner in “Stoelting Brothers,” a small corn farming operation registered in Orleans, Nebraska [NAICS Business Directory](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966). He does not appear in local news or county meeting records, suggesting he has no notable public roles in the community. There are no public statements or documented actions by Stoelting regarding development or energy projects in Harlan County.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Small-scale farmer; no official position",
+      "influence_justification": "Small farm partnership",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation"
+          "farmland_preservation",
+          "drainage_roads"
         ],
-        "engage": "Engage via agricultural extension or farm community channels, highlighting how the project can coexist with and even support local farming interests."
+        "engage": "Engage him through a neighbor-to-neighbor conversation focused on protecting farm operations and maintaining local road conditions during the project."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -70,91 +74,25 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Paul Mayfield",
+      "name": "Lewis, Marlen L. & Beverly E.",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0967-39-4251"
+        "280005800",
+        "280003700"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Paul Mayfield owns property in the Oxford area of Granville County (PIN 0967-39-4251) but maintains a low public profile ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)). No meeting minutes or local news reports were found that mention Mayfield taking any public stance or holding community positions ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)). He is not listed among major farm subsidy recipients in the county, suggesting he is not a large-scale farm operator ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=27565#:~:text=1995,%24%20263%2C631.46)).",
+      "claims": "Marlen L. and Beverly E. Lewis are listed as owners of multiple parcels in the Orleans vicinity of Harlan County (per county property records), but they maintain a low public profile. No mentions of this couple were found in available Harlan County news archives or meeting minutes, and there is no public evidence of any stance or involvement in local development issues.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private citizen; no public roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Invite Mayfield to an informational meeting or open house to hear his questions. Use a personal, respectful approach to build trust and understand any concerns he might have."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Thomas \"Woody\" Gill Jr.",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0967-58-4114",
-        "0967-56-3584"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Thomas Woody Gill Jr. is a Granville County landowner with two parcels near Oxford ([www.granvillecounty.org](https://www.granvillecounty.org/259/GIS-Geographic-Information-System#:~:text=The%20GIS%20,the%20beginning%20of%20each%20month)). He is locally known by the nickname \"Woody,\" but there are no publicly documented civic roles or statements from him on development matters ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)). No local government or news records were found indicating Gill’s involvement in community decision-making ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No evident civic involvement",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach Gill through a respectful one-on-one conversation, possibly with a mutual acquaintance. Emphasize understanding his family’s long-term connection to the land and address any legacy or land-use concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Alan B. Williams",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0967-79-0610",
-        "0967-67-7595"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Alan B. Williams is a prominent local farmer in Granville County, having received over $263,000 in USDA farm program payments since 1995 ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=27565#:~:text=1995,%24%20263%2C631.46)). He owns multiple parcels near Oxford and is economically invested in agriculture in the area ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=27565#:~:text=1995,%24%20263%2C631.46)). There is no record of Williams publicly commenting on development or energy projects in county archives or media ([nextdoorradio.com](https://nextdoorradio.com/local-news/archives/2023-08/#:~:text=%E2%80%A2%20Approved%20the%20purchase%20of,from%20County%20Manager%20Drew%20Cummings)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Major landowner; active farmer",
+      "influence_justification": "Private landowners; low profile",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation"
+          "privacy_quiet",
+          "heritage_family_legacy"
         ],
-        "engage": "Have an agricultural liaison (such as a respected Farm Bureau or extension agent) reach out to discuss the project’s impact on farming. Highlight how the development can safeguard farmland integrity and possibly provide tax or lease benefits."
+        "engage": "Approach via a trusted community member and emphasize how the project will respect their privacy, quiet rural lifestyle, and the longstanding heritage of the area."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -173,23 +111,24 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Harry Thorpe",
+      "name": "Beau & Jessica Martin",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0968-10-9805"
+        "280006301"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "County records show that land owned by Henry “Harry” Thorp Jr. and Mary Thorpe was requested for rezoning to allow a Duke Energy solar farm ([www.granvillecounty.org](https://www.granvillecounty.org/CivicAlerts.aspx?AID=348#:~:text=Duke%20Energy%20Progress%2C%20LLC%20is,a%20part%20of%20the%20application)). No public objections by Thorpe to development were found; instead, his property is actively part of a proposed solar energy project ([www.granvillecounty.org](https://www.granvillecounty.org/CivicAlerts.aspx?AID=348#:~:text=Duke%20Energy%20Progress%2C%20LLC%20is,a%20part%20of%20the%20application)).",
+      "claims": "Beau Martin helps run Martin Auction Company, a family-owned farm auction service based near Orleans ([martin-auctionco.com](https://martin-auctionco.com/about-us/#:~:text=In%202004%2C%20Lyle%20and%20son%2C,the%20clerking%20for%20items%20sold)). The Martin family has farmed and raised cattle west of Orleans for decades, and Beau continues that tradition on his own farm northwest of town ([martin-auctionco.com](https://martin-auctionco.com/about-us/#:~:text=Lyle%20and%20Judy%20Martin%20were,Lance%2C%20DeLanie%2C%20Wyatt%20and%20Berkley)).",
       "confidence": "medium",
-      "noted_stance": "support",
-      "community_influence": "High",
-      "influence_justification": "Major landowner; solar project partner",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Auctioneer; farm family",
       "approach_recommendations": {
         "motivations": [
-          "tax_revenue_benefit"
+          "heritage_family_legacy",
+          "farmland_preservation"
         ],
-        "engage": "Leverage his positive outlook on development. Engage him as a peer advocate, emphasizing community economic benefits and maintaining open communication about project progress."
+        "engage": "Have a respected farm community member (e.g., his father or a Farm Bureau peer) introduce the project to Beau, emphasizing how it can align with preserving their family farm legacy and support the local agricultural economy."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -208,401 +147,54 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Rusti T. McCoy",
+      "name": "Carol A. Wells",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0968-20-6765"
+        "280005301"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Rusti T. McCoy owns parcel 0968-20-6765 in Oxford, NC according to county records ([tax.granvillecounty.org](https://tax.granvillecounty.org/ITSPublic/RealEstateSearch#:~:text=Return%20To%20Search%20Enter%20search,Alternate%20Parcel%20Identifier%20Property%20Address)). No meeting minutes or local news reports have mentioned McCoy taking any public position on development issues ([nextdoorradio.com](https://nextdoorradio.com/local-news/779894#:~:text=%E2%80%A2%20Reappointing%20Dorothy%20Hunt%2C%20Larry,Community%20Center%20Board%20of%20Trustees)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public roles; private citizen",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach privately to share project information and listen to any concerns. A respectful, one-on-one conversation can help address questions given the lack of public stance."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Haywood Smith Heirs",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "0967-19-5542"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The parcel 0967-19-5542 is held under the name “Haywood Smith Heirs,” indicating it’s owned by the estate of the late Haywood Smith ([tax.granvillecounty.org](https://tax.granvillecounty.org/ITSPublic/#:~:text=Basic%20Search%20Return%20To%20Search,Land%20Units%2FType%20Alternate%20Parcel%20Identifier)). There are no publicly reported statements from the Smith family heirs regarding local development or energy projects ([nextdoorradio.com](https://nextdoorradio.com/local-news/779894#:~:text=%E2%80%A2%20Reappointing%20Dorothy%20Hunt%2C%20Larry,Community%20Center%20Board%20of%20Trustees)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Family estate; no single leader",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Identify the estate’s representative and reach out through a community liaison. Emphasize respect for the family’s legacy and provide information on how the project can coexist with local heritage."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Anthony Thorpe",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-21-2071"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Anthony Thorpe is listed as the owner of parcel 0968-21-2071 in Granville County (Oxford) ([tax.granvillecounty.org](https://tax.granvillecounty.org/ITSPublic/#:~:text=Basic%20Search%20Return%20To%20Search,Land%20Units%2FType%20Alternate%20Parcel%20Identifier)). No evidence could be found of Thorpe participating in public hearings or media coverage related to development or solar energy, suggesting no noted public stance ([farmlaw.ces.ncsu.edu](https://farmlaw.ces.ncsu.edu/2025/03/solar-development-sketches-from-a-county-hearing-on-ordinance-changes/#:~:text=moratorium%20,and%20the%20benefits%20of%20pollinator)).",
+      "claims": "Carol A. Wells owns property in the Orleans area, but no evidence was found of her serving in local government or speaking publicly on development issues ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). She does not appear in available county records or news reports regarding civic engagement or land-use debates ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Unknown",
-      "influence_justification": "Not publicly documented",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a community figure familiar to the Thorpe family introduce the project. Since Anthony’s views are not known, focus on building trust and highlighting aspects like safety and respect for property."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "James E. Irvin",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-21-6370"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "James E. Irvin appears as the owner of parcel 0968-21-6370 in county records ([tax.granvillecounty.org](https://tax.granvillecounty.org/ITSPublic/#:~:text=Basic%20Search%20Return%20To%20Search,Land%20Units%2FType%20Alternate%20Parcel%20Identifier)). There are no mentions of Irvin voicing opinions on local developments in available public records or news sources ([nextdoorradio.com](https://nextdoorradio.com/local-news/779894#:~:text=%E2%80%A2%20Reappointing%20Dorothy%20Hunt%2C%20Larry,Community%20Center%20Board%20of%20Trustees)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowner; low profile",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach via personal outreach, possibly with a mutual acquaintance. Provide clear information about project impacts (noise, traffic) and offer to address any specific concerns he might have."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Wayne Wilson",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-01-5330"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The Wilsons of Wilson Town Road are a long-established Granville County family ([www.gnvfuneralhome.com](https://www.gnvfuneralhome.com/obituaries/mary-belle-blackwell-wilson#:~:text=OXFORD%3A%20Mary%20Belle%20Blackwell%20Wilson%2C,Ruth%20Blackwell%20Coats%20of%20Garner)). County records show the Wilson family holding roughly 42 acres on Wilson Town Road, Oxford ([www.zillow.com](https://www.zillow.com/homedetails/4110-Wilson-Town-Rd-LOT-3-Oxford-NC-27565/456293429_zpid/#:~:text=match%20at%20L243%20,Rd%2C%20Oxford%2C%20NC%2027565Off%20Market)), and several 1–4 acre lots from that tract have recently been listed for sale ([www.zillow.com](https://www.zillow.com/homedetails/4110-Wilson-Town-Rd-LOT-3-Oxford-NC-27565/456293429_zpid/#:~:text=,LOT%201%2C%20Oxford%2C%20NC%2027565Lot%2FLand)). No public statements by Wayne Wilson on local development issues were found in available records ([www.granvillecounty.org](https://www.granvillecounty.org/m/NewsFlash?cat=18#:~:text=Board%20of%20County%20Commissioners%20News)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime landowner; no public office held",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
-        ],
-        "engage": "Have a trusted local farmer or family friend start an informal conversation, emphasizing respect for the Wilson family’s land legacy and how the project can coexist with farming traditions."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Hardee Green et al",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "0968-23-8755"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Hardee Green is listed as a Granville County landowner, with “et al” indicating the property is co-owned with other family members ([www.granvillecounty.org](https://www.granvillecounty.org/259/GIS-Geographic-Information-System#:~:text=Granville%20County%2C%20North%20Carolina%20GIS,Hub)). There are no indications in local news or public records that Hardee Green has taken any active role in civic affairs or voiced opinions on development proposals ([www.granvillecounty.org](https://www.granvillecounty.org/m/NewsFlash?cat=18#:~:text=Manage%20notification%20subscriptions%2C%20save%20form,Board%20of%20Commissioners)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Family-owned land; no civic roles noted",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
-        ],
-        "engage": "Approach through a community figure they trust (e.g., an agricultural extension officer or neighbor) to discuss how the project can accommodate the family’s desire to preserve their land for future generations."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Eric Lorrenzo Green",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-32-5186"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Eric Lorrenzo Green appears as an owner of a parcel in the Oxford area of Granville County ([www.granvillecounty.org](https://www.granvillecounty.org/259/GIS-Geographic-Information-System#:~:text=Granville%20County%2C%20North%20Carolina%20GIS,Hub)). He does not feature in any available local civic records or media reports, and no public stance on development has been documented for him ([www.granvillecounty.org](https://www.granvillecounty.org/m/NewsFlash?cat=18#:~:text=Board%20of%20County%20Commissioners%20News)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private resident; no public profile",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "privacy_quiet"
-        ],
-        "engage": "Reach out with a neighborly visit by someone from the community to learn his concerns. Emphasize measures that protect the quiet rural character of the area and the continued use of surrounding land."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "James F. Greene",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-32-7219"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "James F. Greene is identified as a Granville County property owner in the Oxford vicinity ([www.granvillecounty.org](https://www.granvillecounty.org/259/GIS-Geographic-Information-System#:~:text=Granville%20County%2C%20North%20Carolina%20GIS,Hub)). He has no known involvement in local government or public commentary; no references to him were found in Granville County meeting minutes or news sources regarding development issues ([www.granvillecounty.org](https://www.granvillecounty.org/m/NewsFlash?cat=18#:~:text=Manage%20notification%20subscriptions%2C%20save%20form,Board%20of%20Commissioners)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No leadership roles; low public visibility",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "privacy_quiet"
-        ],
-        "engage": "Initiate contact via a local official or neighbor he knows, focusing on how the project will maintain property values and minimize disturbances to his daily life and privacy."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Darryl Morton",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-23-4052"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "A Granville County obituary in 2001 noted that a member of the Morton family owned a local logging company ([www.genlookups.com](https://www.genlookups.com/nc/webbbs_config.pl/noframes/read/983#:~:text=,will%20follow%20in%20Tranquility%20cemetery)), though Darryl Morton’s personal involvement in that business or any community leadership is not evident. Darryl Morton has no record of making public comments on development, and he has not been identified in local civic proceedings ([www.granvillecounty.org](https://www.granvillecounty.org/m/NewsFlash?cat=18#:~:text=Manage%20notification%20subscriptions%2C%20save%20form,Board%20of%20Commissioners)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local family name; no public role",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "privacy_quiet"
-        ],
-        "engage": "Engage him via a peer in the agricultural or logging community who can speak to preserving land use. In conversations, highlight how project plans include land restoration and safeguards to keep the area quiet and safe."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Thompson Daizie L",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-33-4233"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "No record of Daizie L. Thompson’s involvement in local civic meetings or public commentary was located in Granville County sources ([www.granvillecounty.org](https://www.granvillecounty.org/m/newsflash?cat=18#:~:text=No%20,thompson)). She appears to be a private landowner with no evident public profile or stated views on development in the Oxford area ([www.granvillecounty.org](https://www.granvillecounty.org/m/newsflash?cat=18#:~:text=No%20,thompson)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public role noted",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach via a personal visit or call by the project’s community liaison, stressing respect for her property and inviting her to share any questions or concerns."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Green James Heirs",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "0968-43-5301"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "County records list the owner as “Green, James (Heirs),” indicating the property is held in an estate after James D. Green’s death in November 2021 ([obituary.memorial](https://obituary.memorial/en/obituary/james-d-green-1941-3-1-2021-11-23-955062#:~:text=Birth%20date%3A%20March%2001%2C%201941)). James Green was an Oxford resident who passed away at age 80 ([obituary.memorial](https://obituary.memorial/en/obituary/james-d-green-1941-3-1-2021-11-23-955062#:~:text=Birth%20date%3A%20March%2001%2C%201941)), and there is no public record of him or his heirs taking a stance on local development issues.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private estate holder",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Identify and respectfully approach the estate’s representative or family, acknowledging the Green family’s legacy and listening to their priorities for the land’s future."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Terry Ricky",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "0968-23-1760"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ricky Terry resides in Granville County but maintains a low public profile, with no mentions in local news or county meeting records as of 2025 ([www.granvillecounty.org](https://www.granvillecounty.org/m/newsflash?cat=18#:~:text=No%20,terry)). There is no indication from public sources that he has voiced any position on development or energy projects in the community ([www.granvillecounty.org](https://www.granvillecounty.org/m/newsflash?cat=18#:~:text=No%20,terry)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
       "influence_justification": "No public profile",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Have a friendly, informal outreach by a trusted community liaison to introduce the project and invite Mr. Terry to discuss any concerns or questions one-on-one."
+        "engage": "Outreach should be one-on-one and neighborly. A personal visit to introduce the project and listen to any concerns would be appropriate, as she is a private landowner with no known organizational affiliations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bart A. & Jill R. Woodward",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005500"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bart and Jill Woodward are listed as landowners in Harlan County but do not hold any public offices or prominent roles in community groups, according to local records ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). No public statements or participation by the Woodwards in development or energy issues could be identified in news or meeting archives ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Woodwards through an informal neighbor-to-neighbor approach. Emphasize listening to their concerns about farming operations, and possibly involve an agricultural extension agent or mutual acquaintance to build trust."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -621,23 +213,22 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Pettiford Sandra Oliver",
+      "name": "Jesse R. & Jill C. Hays",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0968-23-2987"
+        "280002501",
+        "280002500"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Sandra O. Pettiford (listed in records as Sandra J. Pettiford) was a long-time Oxford resident ([www.idcrawl.com](https://www.idcrawl.com/sandra-pettiford#:~:text=Sandra%20J%20Pettiford)). She passed away in November 2025 at age 66 ([www.echovita.com](https://www.echovita.com/us/obituaries/nc/oxford/sandra-pettiford-20555256#:~:text=Sandra%20J%20Pettiford)), and her property is now likely handled by her estate. No public statements from her regarding development or clean energy were found in local records.",
+      "claims": "Jesse and Jill Hays own multiple parcels near Orleans, but there is no record of them participating in local government or public forums on land development ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)). They have kept a low public profile, with no mentions in recent county board minutes or local media regarding community issues ([harlancounty.ne.gov](https://harlancounty.ne.gov/webpages/links/public_notices.html#:~:text=Public%20Notices%20,in%20the%20Community%20Room%20located)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No civic roles",
+      "influence_justification": "Private landowners",
       "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Work through family contacts or a community figure who knew Ms. Pettiford to reach her heirs, showing sensitivity to the family’s loss and emphasizing how the project can honor the community’s legacy."
+        "motivations": [],
+        "engage": "Approach the Hays family personally via a friendly introduction from a mutual farming community contact. Discuss the project in terms of practical impacts (roads, drainage) and reassure them by showing an understanding of rural landowner concerns."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -656,23 +247,25 @@
     },
     {
       "neighbor_id": "N-05",
-      "name": "Corley Stoney",
+      "name": "Gary L. & James G. Stoelting",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0968-24-5384"
+        "280002400",
+        "280002300",
+        "320014700"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Stoney Corley is identified as a landowner in the vicinity of Oxford, NC, but he has no discernible public presence in local affairs ([www.granvillecounty.org](https://www.granvillecounty.org/m/newsflash?cat=18#:~:text=No%20,corley)). There are no records of Corley participating in county meetings or voicing opinions on development, suggesting he stays out of the public spotlight ([www.granvillecounty.org](https://www.granvillecounty.org/m/newsflash?cat=18#:~:text=No%20,corley)).",
+      "claims": "Brothers Gary and James Stoelting operate “Stoelting Brothers,” a small corn-farming partnership based in Orleans ([naicslist.com](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966#:~:text=Stoelting%20Brothers%20is%20a%20specialized,team%20of%20approximately%202%20employees)). Aside from running their farm business, the Stoeltings are not publicly active in civic affairs, and there are no public records of them taking positions on local development projects ([naicslist.com](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966#:~:text=Stoelting%20Brothers%20is%20a%20specialized,team%20of%20approximately%202%20employees)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Not publicly active",
+      "influence_justification": "Small farming partnership",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet"
+          "farmland_preservation"
         ],
-        "engage": "Engage Mr. Corley through a cordial, face-to-face introduction by a local community liaison, emphasizing respect for his privacy and explaining the project’s measures to minimize disruption."
+        "engage": "Have an agriculture-oriented discussion with the Stoelting brothers. A peer farmer or local ag extension representative could help explain how the project will protect farmland integrity and address any crop or soil concerns they may have."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -691,57 +284,160 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Bonnie A. Dickerson",
+      "name": "William Sugimatsu Davis (et al.)",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "0967-87-0567"
+        "280002200"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The Dickerson family has deep agricultural roots in Granville County; a Dickerson farm has been in operation since at least 1878 [NC Department of Agriculture](https://www.ncagr.gov/divisions/public-affairs/century-farms/EFG-Counties). A family member, Robert L. Dickerson of Oxford, received over $145,000 in federal farm subsidies, indicating active participation in local farming programs [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?page=1&z=1&zip=27565).",
+      "claims": "William S. Davis (listed with \"et al\" co-owners) holds a land parcel in the Orleans area of Harlan County ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=8&z=1&zip=68966#:~:text=,%24%20210.79)). The Davis name appears only minimally in local agriculture records (e.g. a George W. Davis in Orleans received under $600 in farm subsidies over 30 years) ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=8&z=1&zip=68966#:~:text=,%24%20210.79)), and no public civic role or statements by William S. Davis were found in county records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absent from local civic life",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Likely an absentee owner – reach out via formal letter or agent, emphasizing that the project will not diminish his property’s value or usability."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jeremy D. VanBoening & Erin M. VanBoening (Loken)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280003500",
+        "280004400"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Jeremy VanBoening was raised on a crop and livestock farm in Nebraska and was an active FFA member in his youth ([www.repvalleyanimal.com](https://www.repvalleyanimal.com/meet-the-staff#:~:text=Dr,University%20College%20of%20Veterinary%20Medicine)). In 2003 he and his wife, Dr. Erin (Loken) VanBoening, purchased the Republican Valley Animal Center in Alma, NE, where they provide veterinary services to local farm and ranch families ([www.repvalleyanimal.com](https://www.repvalleyanimal.com/meet-the-staff#:~:text=Upon%20graduation%20in%202002%20he,AETA%20certified%20embryo%20transfer%20practitioner)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Century farm family",
+      "influence_justification": "Local veterinarians; ties to many farmers",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through shared agricultural networks or livestock health forums – as respected vets, approach them via fellow farmers and highlight any livestock safety and community benefits of the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Roger C. Luther & Jennifer E. Luther",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005600"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roger C. Luther and his wife Jennifer E. Luther own rural property near Orleans, Nebraska ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=31083&page=13&progcode=total#:~:text=264%20%20,%24180%2C613)). They maintain a low public profile – no references to the Luthers were found in local news archives or county meeting minutes, and they are not listed among notable farm program participants in the area ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=31083&page=13&progcode=total#:~:text=264%20%20,%24180%2C613)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; low profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use personal, neighborly outreach through mutual acquaintances. Emphasize listening to any concerns privately, since they are not publicly vocal, and provide assurance on issues like property rights."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "John H. Taylor & (late) Karolyn K. Taylor",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002600"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John H. Taylor and his late wife Karolyn moved to a small acreage outside Orleans, NE, after spending decades in central Nebraska ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=around%20the%20Lexington%20area%20and,and%20Neil%20Collins%20of%20the)). Karolyn Kay Taylor passed away in 2011 at age 67 ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=Karolyn%20Kay%20,Karolyn%20was%20baptized%20and%20received)). The Taylor family remains connected locally – one of their children (John Taylor II) resides in Orleans as of 2011 ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=of%20almost%2050%20years%3A%20John,Hunter%2C%20Austin%2C%20%26%20Kendra%20of)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elder resident; family in area",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Have a trusted community member (perhaps a church or family friend) discuss the project with John Taylor, highlighting how scenic views and the quiet rural environment will be preserved."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Warren Baxter & Marlys Baxter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280003200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Warren and Marlys Baxter are long-time residents farming in the Orleans area, with public records listing Marlys at a rural Orleans address since at least 2001 ([www.locatefamily.com](https://www.locatefamily.com/B/BAX/BAXTER-1756.html#:~:text=Marlys%20Baxter%20lives%20at%2071354,information%20in%20January%20of%202001)). The Baxter family has deep local roots – for example, Warren Baxter was noted as a surviving brother in his sibling’s obituary in 2022, confirming the family’s presence in the community ([www.gareyfuneralhome.com](https://www.gareyfuneralhome.com/obituaries/john-baxter#:~:text=brothers%20Warren%20,Baxter%20of%20Corpus%20Christ%2C%20Texas)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime locals; no official roles",
+      "approach_recommendations": {
+        "motivations": [
           "heritage_family_legacy"
         ],
-        "engage": "Engage via a respected farm community member and emphasize how the development can support farmland preservation and honor the Dickersons’ century-long family legacy."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Beverly Fleming",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "0968-34-2518"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Beverly Fleming Ramey, 86, was a longtime resident of Franklinton, NC, and worked for many years at a local bank and other businesses in Franklin County [City of Oaks Cremation](https://www.cityofoakscremation.com/obituaries/article-271/). She passed away in November 2023, suggesting her Oxford property is now likely held by her estate and family heirs [City of Oaks Cremation](https://www.cityofoakscremation.com/obituaries/article-271/).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Lived outside community; no public role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out to her Oxford-based family members and emphasize the project’s minimal disruption along with any benefits that maintain the land’s value and quiet rural character."
+        "engage": "Approach via a neighbor or family acquaintance who understands their family’s long legacy in the area. Emphasize respect for the land’s heritage and how the project can align with keeping their farm in the family for future generations."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -760,23 +456,29 @@
     },
     {
       "neighbor_id": "N-01",
-      "name": "Yancey Properties Inc",
+      "name": "Murdoch Enterprises, Inc.",
       "entity_category": "Organization",
-      "entity_type": "inc",
+      "entity_type": "incorporated_farm",
       "pins": [
-        "0967-48-3051"
+        "280003600",
+        "280005200",
+        "280003400",
+        "280005400",
+        "280003300",
+        "280004200",
+        "280004500"
       ],
       "owns_adjacent_parcel": "Yes",
-      "claims": "Yancey Properties, Inc. is an Oxford-based real estate agency specializing in residential and commercial rental properties [MapQuest](https://www.mapquest.com/us/north-carolina/yancey-properties-3184742). The company is a member of the Granville County Chamber of Commerce and actively supports local economic development and community relations [MapQuest](https://www.mapquest.com/us/north-carolina/yancey-properties-3184742).",
+      "claims": "Murdoch Enterprises, Inc. is a Nebraska farm corporation incorporated in 1980, with annual revenues around $122,000 and 2 employees as of recent records [Manta](https://www.manta.com/c/mmfw4x8/murdoch-enterprises). It is one of several entities operated by the Murdoch family of Orleans, which collectively rank among the top farm subsidy recipients in Harlan County (Murdoch Enterprises alone received $69,373 in commodity subsidies 1995–2024) [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_mg&regionname=HarlanCounty,Nebraska). Family member Marlin Murdoch serves as Chairman of the Lower Republican Natural Resources District board, underscoring the Murdochs’ significant influence over local water and land use issues [Nebraska Supreme Court](https://supremecourt.nebraska.gov/courts/supreme-court/supreme-court-call/seeman-v-murdoch-et-al). No evidence of direct involvement in renewable energy development was found; their interests appear focused on large-scale crop farming and irrigation rights.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Medium",
-      "influence_justification": "Prominent local rental property firm; active in Chamber of Commerce",
+      "community_influence": "High",
+      "influence_justification": "Large multigenerational farm (owns numerous parcels, top subsidy recipient); family member is NRD board chairman; well-connected in local agriculture",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage owners through business community channels (e.g., Chamber), highlighting the project’s economic benefits; address any concerns about property values upfront to maintain a cooperative stance"
+        "engage": "Engage the Murdoch family patriarch (e.g. Marlin Murdoch) with respect for their farming legacy; emphasize how the development can coexist with agriculture and possibly improve water management. Consider offering commitments that address any concerns about irrigation or land impact."
       },
-      "entity_classification": "land_investment",
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -793,21 +495,28 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Pleasant Hills Farm LLC",
+      "name": "James Drake Farm Enterprises LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "0967-27-2598"
+        "280002800",
+        "280003000",
+        "280005700",
+        "280006300",
+        "280002601",
+        "280006100",
+        "280003100",
+        "280002900"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Pleasant Hills Farm LLC is a North Carolina limited liability company holding farmland in the Oxford area with no public-facing operations beyond land ownership [Better Business Bureau](https://www.bbb.org/us/nc/oxford/category/farm). The farm is not listed in local business or farm directories, indicating it functions as a private agricultural landholding without commercial retail activity [Better Business Bureau](https://www.bbb.org/us/nc/oxford/category/farm).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "James Drake Farm Enterprises LLC is a limited-liability farm company likely controlled by James A. Drake of Orleans, Nebraska [Nebraska DNR](https://nednr.nebraska.gov/dynamic/WaterRights/WaterRights/ContactLandingPage?contactId=137933). The Drake family operates several agricultural parcels (at least 8 in Harlan County) primarily for corn and soybean farming (no separate corporate website or non-farm business activity is evident). James Drake and his spouse are listed holders of irrigation permits at their Orleans farm address, indicating a vested interest in groundwater usage for their crops [Nebraska DNR](https://nednr.nebraska.gov/dynamic/WaterRights/WaterRights/ContactLandingPage?contactId=137933). There are no public records of the LLC engaging in political campaigns or development projects, suggesting the Drake enterprise’s focus is maintaining their family farming operations.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "Private family farm holding; minimal economic or political influence",
+      "community_influence": "Medium",
+      "influence_justification": "Owns multiple farm parcels and water rights; well-established local farming family but with no known political or large public roles",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the owners with respect for their farming heritage; offer assurances (e.g., buffers, fair compensation) so the project addresses any concerns about impacts on their land’s use or value"
+        "engage": "Approach James Drake personally through neighborly outreach, acknowledging his farming priorities. Emphasize that the development can provide financial benefits (e.g. land lease revenue) without impeding his irrigation or crop productivity, and offer assurances on safeguarding water resources."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -826,24 +535,89 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Richard Lewis Taylor Revocable Trust",
+      "name": "Fencepost Farms, LLC / Firefly Farms, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "280005501"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fencepost Farms, LLC and Firefly Farms, LLC jointly appear on Harlan County property records as owners of parcel 280005501 [Harlan County Assessor](https://harlancounty.ne.gov/webpages/assessor/assessor.html). Fencepost Farms, LLC is presumed to be a local entity (little public information is available), whereas Firefly Farms, LLC is likely affiliated with Firefly Energy Holding—a firm that assembles land for resale or lease to renewable energy developers [Firefly Energy Holding](https://fireflyenergyholding.com/about-us/). Firefly’s principals have experience in Nebraska securing large land positions for wind and solar projects, indicating that this co-ownership may represent a speculative investment in a renewable development site [Firefly Energy Holding](https://fireflyenergyholding.com/about-us/). No other business operations or community engagements for these LLCs are noted aside from land ownership, implying their interest in the area is primarily financial and development-driven.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Outside speculative investor (Firefly) with minimal local presence; local partner (Fencepost) not publicly prominent",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Firefly Farms LLC representative via formal channels to discuss potential collaboration or land acquisition – they are likely amenable to profitable exit. Also maintain communication with the local Fencepost Farms contact to manage local goodwill, but expect that Firefly’s decisions drive this parcel’s stance."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Robison Living Trust (Ronald & Bretta Robison)",
       "entity_category": "Organization",
       "entity_type": "trust",
       "pins": [
-        "0968-63-1322",
-        "0967-99-2507"
+        "320014000"
       ],
       "owns_adjacent_parcel": "No",
       "claims": "See RESIDENT table.",
       "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Unknown",
-      "influence_justification": "Trust tied to individual landowner; no organizational role publicly evident",
+      "community_influence": "Low",
+      "influence_justification": "Individual family trust holding a single farm parcel; not a public organization",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Coordinate through the trust’s trustee or family representative; treat this as an individual landowner engagement focusing on personal concerns and estate considerations"
+        "engage": "Handle via personalized community outreach (see resident profile); this is a private family trust, so address any concerns personally and highlight benefits to their land’s value or legacy."
       },
-      "entity_classification": "unknown",
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Vorderstrasse Family Trust (Duane L. & Debra L. Vorderstrasse)",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "280003900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Individual family trust with a single parcel; minimal broader community role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See resident profile for engagement; focus on respectful one-on-one communication with the Vorderstrasse family, emphasizing that their farm legacy can be upheld or even benefitted by the proposed development."
+      },
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -859,115 +633,11 @@
       "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 36.4423,-78.7812",
-  "overview_summary": "None of the identified neighbors have a documented stance for or against development, as no public records show explicit support or opposition. All five maintain low public profiles in the community, with no high-ranking officials among them; only one (Alan B. Williams) stands out as a significant local farmer with moderate economic presence. Of the five neighboring landowners, one has explicitly supported new development by leasing land for a Duke Energy solar farm, while none have been publicly documented opposing it. The majority (four) have no recorded stance on development or clean energy. Community influence appears limited overall, with only one high-influence neighbor who is a major landowner involved in a local project. None of the five profiled landowners have a documented stance either supporting or opposing the proposed development (all are classified as \"unknown\" in noted stance). All appear to have limited community influence, as none hold public office or prominent leadership roles locally. Most are long-time landowners with deep personal ties to their property, but no high-influence community figures were identified among them. None of these five neighboring owners have a documented public stance on development or energy projects, as no explicit support or opposition statements were found. All appear to be private landholders with low public profiles, and none hold high-influence positions in the community. Both neighbors have an unclear stance on new development, with no public statements found from either. One neighbor is part of a century-long farming family in the area (moderate community influence), while the other is a recently deceased owner’s estate with minimal local profile. Neighbors include a local real estate company and two private landholding entities, indicating mostly local ownership without large corporate developers. Yancey Properties Inc is a rental property firm likely supportive of economic growth, whereas Pleasant Hills Farm LLC and the Taylor Trust are individual/family-held farmlands that may prioritize rural preservation or favorable land deals. None appear to be major organized opposition backers, but the farm owners could raise concerns about land use changes.",
+  "location_context": "Neighbors within 0.5 mi of 40.1625,-99.4815",
+  "overview_summary": "All three profiled neighbors have an unknown stance toward new development, as none have made public statements or taken clear actions for or against it. None is a public official or overt community leader – one couple has moderate influence through a prominent farming operation, while the others are private landowners with relatively low public profiles in the Orleans area. All five neighbors have no documented public stance on the proposed development, leaving their positions classified as unknown. Their community influence appears limited; apart from one neighbor who co-runs a local farm auction (moderate social ties), the others do not hold prominent public roles or influence. All five profiled neighbors have no documented stance on development (each classified as \"unknown\" stance). Most are longtime local landowners or residents with limited public visibility. Only one couple (the VanBoenings, local veterinarians) holds a moderate community profile, while the rest exert low influence in local affairs. The neighboring landowners consist primarily of local farm entities and family trusts, with one notable outside land investor. Murdoch Enterprises, Inc. and James Drake Farm Enterprises LLC are multi-parcel farming operations run by longstanding Harlan County families, indicating strong agricultural roots and local influence. In contrast, a parcel co-owned by Fencepost Farms LLC and Firefly Farms LLC suggests speculative involvement by a renewable energy land acquisition firm, a potential competitor or partner in development. The remaining neighbors are family trusts of local farmers (Robison and Vorderstrasse), focused on preserving their land for agriculture.",
   "success": true,
-  "runtime_minutes": 70.98,
+  "runtime_minutes": 18.07,
   "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
     {
       "title": null,
       "url": null
@@ -1054,15 +724,13 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_170520_3511.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_170423_7777.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_170613_0509.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_171138_8390.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251217_170700_7807.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251217_170803_8564.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251218_075635_1506.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251218_075307_1938.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251218_080115_0787.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251218_080155_4256.json"
   ],
-  "city": "Oxford",
-  "county": "Granville County",
-  "state": "NC",
-  "run_id": "1ec5f7ab-4cd9-4774-9020-4d62577da0f3"
+  "city": "Orleans",
+  "county": "Harlan County",
+  "state": "NE",
+  "run_id": "fce79e70-235c-4347-806a-279b7588f000"
 }

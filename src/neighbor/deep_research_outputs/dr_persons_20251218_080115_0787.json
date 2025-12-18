@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-12-18T08:01:15.078819",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five profiled neighbors have no documented stance on development (each classified as \"unknown\" stance). Most are longtime local landowners or residents with limited public visibility. Only one couple (the VanBoenings, local veterinarians) holds a moderate community profile, while the rest exert low influence in local affairs.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "William Sugimatsu Davis (et al.)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William S. Davis (listed with \"et al\" co-owners) holds a land parcel in the Orleans area of Harlan County ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=8&z=1&zip=68966#:~:text=,%24%20210.79)). The Davis name appears only minimally in local agriculture records (e.g. a George W. Davis in Orleans received under $600 in farm subsidies over 30 years) ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=8&z=1&zip=68966#:~:text=,%24%20210.79)), and no public civic role or statements by William S. Davis were found in county records.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absent from local civic life",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Likely an absentee owner – reach out via formal letter or agent, emphasizing that the project will not diminish his property’s value or usability."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jeremy D. VanBoening & Erin M. VanBoening (Loken)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280003500",
+        "280004400"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Jeremy VanBoening was raised on a crop and livestock farm in Nebraska and was an active FFA member in his youth ([www.repvalleyanimal.com](https://www.repvalleyanimal.com/meet-the-staff#:~:text=Dr,University%20College%20of%20Veterinary%20Medicine)). In 2003 he and his wife, Dr. Erin (Loken) VanBoening, purchased the Republican Valley Animal Center in Alma, NE, where they provide veterinary services to local farm and ranch families ([www.repvalleyanimal.com](https://www.repvalleyanimal.com/meet-the-staff#:~:text=Upon%20graduation%20in%202002%20he,AETA%20certified%20embryo%20transfer%20practitioner)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local veterinarians; ties to many farmers",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through shared agricultural networks or livestock health forums – as respected vets, approach them via fellow farmers and highlight any livestock safety and community benefits of the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Roger C. Luther & Jennifer E. Luther",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005600"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roger C. Luther and his wife Jennifer E. Luther own rural property near Orleans, Nebraska ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=31083&page=13&progcode=total#:~:text=264%20%20,%24180%2C613)). They maintain a low public profile – no references to the Luthers were found in local news archives or county meeting minutes, and they are not listed among notable farm program participants in the area ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=31083&page=13&progcode=total#:~:text=264%20%20,%24180%2C613)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; low profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use personal, neighborly outreach through mutual acquaintances. Emphasize listening to any concerns privately, since they are not publicly vocal, and provide assurance on issues like property rights."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "John H. Taylor & (late) Karolyn K. Taylor",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002600"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John H. Taylor and his late wife Karolyn moved to a small acreage outside Orleans, NE, after spending decades in central Nebraska ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=around%20the%20Lexington%20area%20and,and%20Neil%20Collins%20of%20the)). Karolyn Kay Taylor passed away in 2011 at age 67 ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=Karolyn%20Kay%20,Karolyn%20was%20baptized%20and%20received)). The Taylor family remains connected locally – one of their children (John Taylor II) resides in Orleans as of 2011 ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=of%20almost%2050%20years%3A%20John,Hunter%2C%20Austin%2C%20%26%20Kendra%20of)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elder resident; family in area",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed"
+        ],
+        "engage": "Have a trusted community member (perhaps a church or family friend) discuss the project with John Taylor, highlighting how scenic views and the quiet rural environment will be preserved."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Warren Baxter & Marlys Baxter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280003200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Warren and Marlys Baxter are long-time residents farming in the Orleans area, with public records listing Marlys at a rural Orleans address since at least 2001 ([www.locatefamily.com](https://www.locatefamily.com/B/BAX/BAXTER-1756.html#:~:text=Marlys%20Baxter%20lives%20at%2071354,information%20in%20January%20of%202001)). The Baxter family has deep local roots – for example, Warren Baxter was noted as a surviving brother in his sibling’s obituary in 2022, confirming the family’s presence in the community ([www.gareyfuneralhome.com](https://www.gareyfuneralhome.com/obituaries/john-baxter#:~:text=brothers%20Warren%20,Baxter%20of%20Corpus%20Christ%2C%20Texas)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime locals; no official roles",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach via a neighbor or family acquaintance who understands their family’s long legacy in the area. Emphasize respect for the land’s heritage and how the project can align with keeping their farm in the family for future generations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five profiled neighbors have no documented stance on development (each classified as \\\"unknown\\\" stance). Most are longtime local landowners or residents with limited public visibility. Only one couple (the VanBoenings, local veterinarians) holds a moderate community profile, while the rest exert low influence in local affairs.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"William Sugimatsu Davis (et al.)\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002200\"],\n      \"claims\": \"William S. Davis (listed with \\\"et al\\\" co-owners) holds a land parcel in the Orleans area of Harlan County ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=8&z=1&zip=68966#:~:text=,%24%20210.79)). The Davis name appears only minimally in local agriculture records (e.g. a George W. Davis in Orleans received under $600 in farm subsidies over 30 years) ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=8&z=1&zip=68966#:~:text=,%24%20210.79)), and no public civic role or statements by William S. Davis were found in county records.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Absent from local civic life\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Likely an absentee owner – reach out via formal letter or agent, emphasizing that the project will not diminish his property’s value or usability.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jeremy D. VanBoening & Erin M. VanBoening (Loken)\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280003500\", \"280004400\"],\n      \"claims\": \"Dr. Jeremy VanBoening was raised on a crop and livestock farm in Nebraska and was an active FFA member in his youth ([www.repvalleyanimal.com](https://www.repvalleyanimal.com/meet-the-staff#:~:text=Dr,University%20College%20of%20Veterinary%20Medicine)). In 2003 he and his wife, Dr. Erin (Loken) VanBoening, purchased the Republican Valley Animal Center in Alma, NE, where they provide veterinary services to local farm and ranch families ([www.repvalleyanimal.com](https://www.repvalleyanimal.com/meet-the-staff#:~:text=Upon%20graduation%20in%202002%20he,AETA%20certified%20embryo%20transfer%20practitioner)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local veterinarians; ties to many farmers\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through shared agricultural networks or livestock health forums – as respected vets, approach them via fellow farmers and highlight any livestock safety and community benefits of the project.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Roger C. Luther & Jennifer E. Luther\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005600\"],\n      \"claims\": \"Roger C. Luther and his wife Jennifer E. Luther own rural property near Orleans, Nebraska ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=31083&page=13&progcode=total#:~:text=264%20%20,%24180%2C613)). They maintain a low public profile – no references to the Luthers were found in local news archives or county meeting minutes, and they are not listed among notable farm program participants in the area ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=31083&page=13&progcode=total#:~:text=264%20%20,%24180%2C613)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use personal, neighborly outreach through mutual acquaintances. Emphasize listening to any concerns privately, since they are not publicly vocal, and provide assurance on issues like property rights.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"John H. Taylor & (late) Karolyn K. Taylor\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002600\"],\n      \"claims\": \"John H. Taylor and his late wife Karolyn moved to a small acreage outside Orleans, NE, after spending decades in central Nebraska ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=around%20the%20Lexington%20area%20and,and%20Neil%20Collins%20of%20the)). Karolyn Kay Taylor passed away in 2011 at age 67 ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=Karolyn%20Kay%20,Karolyn%20was%20baptized%20and%20received)). The Taylor family remains connected locally – one of their children (John Taylor II) resides in Orleans as of 2011 ([www.reynoldslovefuneralhome.com](https://www.reynoldslovefuneralhome.com/obituaries/1083370#:~:text=of%20almost%2050%20years%3A%20John,Hunter%2C%20Austin%2C%20%26%20Kendra%20of)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Elder resident; family in area\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"aesthetics_viewshed\"],\n        \"engage\": \"Have a trusted community member (perhaps a church or family friend) discuss the project with John Taylor, highlighting how scenic views and the quiet rural environment will be preserved.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Warren Baxter & Marlys Baxter\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280003200\"],\n      \"claims\": \"Warren and Marlys Baxter are long-time residents farming in the Orleans area, with public records listing Marlys at a rural Orleans address since at least 2001 ([www.locatefamily.com](https://www.locatefamily.com/B/BAX/BAXTER-1756.html#:~:text=Marlys%20Baxter%20lives%20at%2071354,information%20in%20January%20of%202001)). The Baxter family has deep local roots – for example, Warren Baxter was noted as a surviving brother in his sibling’s obituary in 2022, confirming the family’s presence in the community ([www.gareyfuneralhome.com](https://www.gareyfuneralhome.com/obituaries/john-baxter#:~:text=brothers%20Warren%20,Baxter%20of%20Corpus%20Christ%2C%20Texas)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime locals; no official roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Approach via a neighbor or family acquaintance who understands their family’s long legacy in the area. Emphasize respect for the land’s heritage and how the project can align with keeping their farm in the family for future generations.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

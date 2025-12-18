@@ -1,31 +1,31 @@
 {
-  "run_id": "1ec5f7ab-4cd9-4774-9020-4d62577da0f3",
-  "coordinates": "36.4423,-78.7812",
-  "state_code": "NC",
-  "parcels_analyzed": 37,
+  "run_id": "fce79e70-235c-4347-806a-279b7588f000",
+  "coordinates": "40.1625,-99.4815",
+  "state_code": "NE",
+  "parcels_analyzed": 40,
   "community_wealth_proxy": {
-    "valid_samples": 13,
-    "median_structure_value": 47915.0,
-    "formatted": "$47,915",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 0,
+    "median_structure_value": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
   },
   "land_value_proxy": {
-    "valid_samples": 32,
-    "median_value_per_acre": 5255.716640000259,
-    "formatted": "$5,256/acre",
-    "risk_level": "MEDIUM",
-    "risk_class": "risk-medium"
+    "valid_samples": 0,
+    "median_value_per_acre": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
   },
   "template_variables": {
-    "median_structure_value": "$47,915",
-    "wealth_risk_level": "LOW",
-    "wealth_risk_class": "risk-low",
-    "wealth_valid_samples": "13",
-    "median_land_value_acre": "$5,256/acre",
-    "land_risk_level": "MEDIUM",
-    "land_risk_class": "risk-medium",
-    "land_valid_samples": "32",
-    "parcels_analyzed": "37"
+    "median_structure_value": "N/A",
+    "wealth_risk_level": "UNKNOWN",
+    "wealth_risk_class": "risk-unknown",
+    "wealth_valid_samples": "0",
+    "median_land_value_acre": "N/A",
+    "land_risk_level": "UNKNOWN",
+    "land_risk_class": "risk-unknown",
+    "land_valid_samples": "0",
+    "parcels_analyzed": "40"
   }
 }
