@@ -1,7 +1,10 @@
 # src/ii_agent/tools/neighbor/engines/responses_engine.py
 import asyncio
 import json
+import logging
 import os
+import re
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Literal, Callable
@@ -13,6 +16,80 @@ from ..models.schemas import NeighborProfile
 from ..utils.json_parse import extract_fenced_blocks
 from .base import ResearchEngine, ResearchEvent
 from ..webhook_manager import webhook_manager
+
+logger = logging.getLogger(__name__)
+
+# Patterns that indicate bad/invalid citations
+BAD_CITATION_PATTERNS = [
+    r'【.*?】',  # Lenticular brackets (forbidden format)
+    r'No `?find`? results',  # Debug output from failed searches
+    r'No results were found',  # Empty search results
+    r'No results found',
+    r'pattern:\s*[\'"]',  # Search pattern debug output
+    r'Enter Last Name',  # Form placeholder text
+    r'skip to main content',  # Generic page content
+]
+
+
+def validate_citations(result: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Validate citations in the result and return validation info.
+
+    Returns dict with:
+        - is_valid: bool
+        - bad_citation_count: int
+        - total_citation_count: int
+        - issues: list of specific issues found
+    """
+    issues = []
+    bad_count = 0
+    total_count = 0
+
+    neighbors = result.get("neighbors", [])
+
+    for neighbor in neighbors:
+        claims = neighbor.get("claims", "")
+        if not claims:
+            continue
+
+        # Count citations (both valid markdown and invalid bracket format)
+        markdown_citations = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', claims)
+        bracket_citations = re.findall(r'【[^】]+】', claims)
+
+        # Detect orphan brackets: [text] without (url) following
+        # This catches [Source Name – "quote"] format that's missing URLs
+        orphan_brackets = re.findall(r'\[[^\]]+\](?!\()', claims)
+
+        total_count += len(markdown_citations) + len(bracket_citations) + len(orphan_brackets)
+
+        # Check for bad patterns
+        for pattern in BAD_CITATION_PATTERNS:
+            matches = re.findall(pattern, claims, re.IGNORECASE)
+            if matches:
+                bad_count += len(matches)
+                issues.append(f"{neighbor.get('name', 'Unknown')}: Found bad pattern '{pattern}' ({len(matches)} times)")
+
+        # Count orphan brackets as bad
+        if orphan_brackets:
+            bad_count += len(orphan_brackets)
+            issues.append(f"{neighbor.get('name', 'Unknown')}: Found {len(orphan_brackets)} citations without URLs")
+
+    # Consider result invalid if >30% of citations are bad or if bracket format is used
+    has_bracket_format = any(re.search(r'【.*?】', n.get("claims", "")) for n in neighbors)
+    has_orphan_brackets = any(re.search(r'\[[^\]]+\](?!\()', n.get("claims", "")) for n in neighbors)
+    bad_ratio = bad_count / total_count if total_count > 0 else 0
+
+    is_valid = not has_bracket_format and not has_orphan_brackets and bad_ratio < 0.3
+
+    return {
+        "is_valid": is_valid,
+        "bad_citation_count": bad_count,
+        "total_citation_count": total_count,
+        "bad_ratio": bad_ratio,
+        "has_bracket_format": has_bracket_format,
+        "has_orphan_brackets": has_orphan_brackets,
+        "issues": issues
+    }
 
 
 class DeepResearchResponsesEngine(ResearchEngine):
@@ -39,6 +116,8 @@ class DeepResearchResponsesEngine(ResearchEngine):
         context: Dict[str, Any],
         entity_type: Literal["person", "organization"],
         on_event: Optional[Callable[[ResearchEvent], None]] = None,
+        max_retries: int = 2,
+        _retry_count: int = 0,
     ) -> Dict[str, Any]:
         if on_event:
             on_event(
@@ -142,9 +221,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
                 f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏳ Waiting for webhook callback for {len(names)} {entity_type}s..."
             )
 
-            # Wait for webhook (45 minutes timeout for Deep Research)
+            # Wait for webhook (55 minutes timeout for Deep Research)
             webhook_result = await webhook_manager.wait_for_webhook(
-                response_id, timeout=2700
+                response_id, timeout=3300
             )
 
             if webhook_result.get("status") == "completed":
@@ -154,8 +233,8 @@ Follow the OUTPUT format and example provided in your instructions above."""
                 # Retrieve the full response
                 final_result = await webhook_manager.retrieve_response(response_id)
 
-                # Extract the content from the webhook response
-                if final_result and "raw_output" in final_result:
+                # Extract the content from the webhook response (check it's not still pending)
+                if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
                     # Create a mock response object with the webhook data
                     resp = type(
                         "Response",
@@ -184,8 +263,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
                         },
                     )()
                 else:
+                    status = final_result.get("status", "unknown") if final_result else "no response"
                     raise Exception(
-                        f"Invalid response structure from webhook: {final_result}"
+                        f"Webhook completed but response still {status}: {final_result}"
                     )
             elif webhook_result.get("status") == "timeout":
                 # Webhook timed out - try direct retrieval as fallback
@@ -197,8 +277,8 @@ Follow the OUTPUT format and example provided in your instructions above."""
                 try:
                     final_result = await webhook_manager.retrieve_response(response_id)
 
-                    # Check if we got a valid response
-                    if final_result and "raw_output" in final_result:
+                    # Check if we got a valid, completed response (not still pending)
+                    if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
                         print(
                             f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Successfully retrieved response via polling for {len(names)} {entity_type}s (ID: {response_id})"
                         )
@@ -233,8 +313,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
                             },
                         )
                     else:
+                        status = final_result.get("status", "unknown") if final_result else "no response"
                         raise Exception(
-                            f"Response not ready or invalid after timeout: {final_result}"
+                            f"Response still {status} after 55min timeout - OpenAI deep research taking too long for {entity_type} batch"
                         )
                 except Exception as e:
                     print(
@@ -379,6 +460,50 @@ Follow the OUTPUT format and example provided in your instructions above."""
             "markdown_debug": markdown_debug,  # Optional, for logging only
         }
 
+        # Validate citations and retry if needed
+        validation = validate_citations(result)
+        result["citation_validation"] = validation
+
+        # DEBUG: Always print validation result
+        print(f"[DEBUG] Citation validation: is_valid={validation['is_valid']}, has_bracket={validation['has_bracket_format']}, has_orphan={validation.get('has_orphan_brackets', False)}, total={validation['total_citation_count']}, bad={validation['bad_citation_count']}", flush=True)
+
+        if not validation["is_valid"] and _retry_count < max_retries:
+            print(
+                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ Bad citations detected (attempt {_retry_count + 1}/{max_retries + 1}):"
+            )
+            print(f"   - Bad citation ratio: {validation['bad_ratio']:.1%}")
+            print(f"   - Has bracket format: {validation['has_bracket_format']}")
+            print(f"   - Has orphan brackets: {validation.get('has_orphan_brackets', False)}")
+            for issue in validation["issues"][:3]:  # Show first 3 issues
+                print(f"   - {issue}")
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Retrying request...")
+
+            if on_event:
+                on_event(
+                    {
+                        "type": "retry",
+                        "batch_size": len(names),
+                        "entity_type": entity_type,
+                        "message": f"Retrying due to bad citations (attempt {_retry_count + 2}/{max_retries + 1})",
+                        "meta": {"validation": validation},
+                    }
+                )
+
+            # Retry the request
+            return await self.run_batch(
+                names=names,
+                context=context,
+                entity_type=entity_type,
+                on_event=on_event,
+                max_retries=max_retries,
+                _retry_count=_retry_count + 1,
+            )
+
+        if not validation["is_valid"]:
+            print(
+                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ❌ Bad citations persisted after {max_retries + 1} attempts"
+            )
+
         # Save deep research response to JSON file
         saved_filepath = self._save_deep_research_response(
             result=result,
@@ -397,7 +522,7 @@ Follow the OUTPUT format and example provided in your instructions above."""
                     "batch_size": len(names),
                     "entity_type": entity_type,
                     "message": "batch done",
-                    "meta": {"neighbors": len(neighbors)},
+                    "meta": {"neighbors": len(neighbors), "citation_validation": validation},
                 }
             )
         return result

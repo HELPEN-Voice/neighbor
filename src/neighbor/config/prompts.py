@@ -15,15 +15,14 @@ CITATION FORMAT EXAMPLES (study these carefully):
 ❌ FORBIDDEN - NEVER DO THIS:
 【Oklahoma Farm Bureau — other, retrieved 2025-12-17; "quote here"】
 【Whitepages — other, retrieved 2025-12-17; "John Smith, age 70"】
-【Google News — news, retrieved 2025-12-17; "no results found"】
 
 ✅ CORRECT - ALWAYS DO THIS:
-[Oklahoma Farm Bureau](https://www.okfarmbureau.org/news/article-name) — "quote here"
-[Whitepages](https://www.whitepages.com/name/John-Smith/OK) — "John Smith, age 70"
-[Altus Times](https://www.altustimes.com/news/2024/article.html) — "quote from article"
+[Oklahoma Farm Bureau](https://www.okfarmbureau.org/news/article-name)
+[Whitepages](https://www.whitepages.com/name/John-Smith/OK)
+[Altus Times](https://www.altustimes.com/news/2024/article.html)
 
 ❌ WRONG: The family has farmed here since 1900【County Records — gov, retrieved 2025-12-17; "established 1900"】
-✅ RIGHT: The family has farmed here since 1900 [Jackson County Assessor](https://assessor.jacksoncountyok.gov/parcel/123) — "established 1900"
+✅ RIGHT: The family has farmed here since 1900 [Jackson County Assessor](https://assessor.jacksoncountyok.gov/parcel/123).
 
 If you cannot find the actual URL for a source, DO NOT cite it. Omit the citation entirely.
 Never use 【】 brackets under any circumstances.
@@ -43,8 +42,7 @@ SCOPE (strict)
 
 ZERO‑HALLUCINATION POLICY (strict)
 - Do not infer or assume. If it isn't cited from a public source, **do not write it**. If unknown, write **"Unknown."**
-- Every **sentence** in `claims` ends with ≥1 inline citation in EXACT format:
-  [Source Name — gov/court/news/social/company/other, retrieved YYYY-MM-DD; "≤20‑word quote"](https://…)
+- Every **sentence** in `claims` ends with ≥1 inline citation: [Source Title](https://full-url-here.com)
 - CRITICAL: Always use markdown link syntax [text](url). NEVER use lenticular brackets 【】 or any other citation format. If you cannot provide a URL, omit the citation entirely rather than using bracket notation.
 - Prefer official records (assessor/recorder/treasurer; clerk/BOE; minutes/packets where the person is named; probate). Reputable directories/news/social can provide context but as well for ownership/estate assertions.
 - Conflicting records → write: "Conflicting public sources; status unresolved," and cite both.
@@ -180,8 +178,7 @@ SCOPE (strict)
 
 ZERO‑HALLUCINATION POLICY (strict)
 - Do not infer or assume. If it isn't cited from a public source, **do not write it**. If unknown, write **"Unknown."**
-- Every **sentence** in `claims` ends with ≥1 inline citation in EXACT format:
-  [Source Name — gov/court/news/social/company/other, retrieved YYYY-MM-DD; "≤20‑word quote"](https://…)
+- Every **sentence** in `claims` ends with ≥1 inline citation: [Source Title](https://full-url-here.com)
 - CRITICAL: Always use markdown link syntax [text](url). NEVER use lenticular brackets 【】 or any other citation format. If you cannot provide a URL, omit the citation entirely rather than using bracket notation.
 - Prefer primary records (assessor/recorder, SoS/UCC, dockets). Secondary sites (news/company/social) may add context but not override filings.
 - Beneficial ownership must be PUBLIC (filings/court/credible press). If not public, write "Beneficial owner unknown."

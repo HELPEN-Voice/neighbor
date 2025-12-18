@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-12-17T17:08:03.856543",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Granville County",
+    "state": "NC",
+    "city": "Oxford",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neighbors include a local real estate company and two private landholding entities, indicating mostly local ownership without large corporate developers. Yancey Properties Inc is a rental property firm likely supportive of economic growth, whereas Pleasant Hills Farm LLC and the Taylor Trust are individual/family-held farmlands that may prioritize rural preservation or favorable land deals. None appear to be major organized opposition backers, but the farm owners could raise concerns about land use changes.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Yancey Properties Inc",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "0967-48-3051"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Yancey Properties, Inc. is an Oxford-based real estate agency specializing in residential and commercial rental properties [MapQuest](https://www.mapquest.com/us/north-carolina/yancey-properties-3184742). The company is a member of the Granville County Chamber of Commerce and actively supports local economic development and community relations [MapQuest](https://www.mapquest.com/us/north-carolina/yancey-properties-3184742).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Prominent local rental property firm; active in Chamber of Commerce",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owners through business community channels (e.g., Chamber), highlighting the project’s economic benefits; address any concerns about property values upfront to maintain a cooperative stance"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Pleasant Hills Farm LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "0967-27-2598"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pleasant Hills Farm LLC is a North Carolina limited liability company holding farmland in the Oxford area with no public-facing operations beyond land ownership [Better Business Bureau](https://www.bbb.org/us/nc/oxford/category/farm). The farm is not listed in local business or farm directories, indicating it functions as a private agricultural landholding without commercial retail activity [Better Business Bureau](https://www.bbb.org/us/nc/oxford/category/farm).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private family farm holding; minimal economic or political influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the owners with respect for their farming heritage; offer assurances (e.g., buffers, fair compensation) so the project addresses any concerns about impacts on their land’s use or value"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Richard Lewis Taylor Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "0968-63-1322",
+        "0967-99-2507"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Trust tied to individual landowner; no organizational role publicly evident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate through the trust’s trustee or family representative; treat this as an individual landowner engagement focusing on personal concerns and estate considerations"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neighbors include a local real estate company and two private landholding entities, indicating mostly local ownership without large corporate developers. Yancey Properties Inc is a rental property firm likely supportive of economic growth, whereas Pleasant Hills Farm LLC and the Taylor Trust are individual/family-held farmlands that may prioritize rural preservation or favorable land deals. None appear to be major organized opposition backers, but the farm owners could raise concerns about land use changes.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Yancey Properties Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"inc\",\n      \"pins\": [\"0967-48-3051\"],\n      \"claims\": \"Yancey Properties, Inc. is an Oxford-based real estate agency specializing in residential and commercial rental properties [MapQuest](https://www.mapquest.com/us/north-carolina/yancey-properties-3184742). The company is a member of the Granville County Chamber of Commerce and actively supports local economic development and community relations [MapQuest](https://www.mapquest.com/us/north-carolina/yancey-properties-3184742).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Prominent local rental property firm; active in Chamber of Commerce\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Local economic growth\", \"Protection of property values\"],\n      \"approach_recommendations\": \"Engage owners through business community channels (e.g., Chamber), highlighting the project’s economic benefits; address any concerns about property values upfront to maintain a cooperative stance\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Pleasant Hills Farm LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"0967-27-2598\"],\n      \"claims\": \"Pleasant Hills Farm LLC is a North Carolina limited liability company holding farmland in the Oxford area with no public-facing operations beyond land ownership [Better Business Bureau](https://www.bbb.org/us/nc/oxford/category/farm). The farm is not listed in local business or farm directories, indicating it functions as a private agricultural landholding without commercial retail activity [Better Business Bureau](https://www.bbb.org/us/nc/oxford/category/farm).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private family farm holding; minimal economic or political influence\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Land preservation\", \"Property value maximization\"],\n      \"approach_recommendations\": \"Engage the owners with respect for their farming heritage; offer assurances (e.g., buffers, fair compensation) so the project addresses any concerns about impacts on their land’s use or value\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Richard Lewis Taylor Revocable Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"0968-63-1322\", \"0967-99-2507\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Trust tied to individual landowner; no organizational role publicly evident\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [],\n      \"approach_recommendations\": \"Coordinate through the trust’s trustee or family representative; treat this as an individual landowner engagement focusing on personal concerns and estate considerations\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
