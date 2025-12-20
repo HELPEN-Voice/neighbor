@@ -2,14 +2,68 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Rock District Solar Llc",
+      "name": "Flattop Ranch Llc",
       "entity_type": "organization",
       "pins": [
-        "33.-2-1",
-        "33.-5-8",
-        "33.-2-3"
+        "43110708201010000",
+        "43110718101010000",
+        "43110708401010000",
+        "06110618401050000",
+        "43110705101010000",
+        "43110706301010000",
+        "43110412101010000",
+        "43110413101010000"
       ],
       "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Huem Headwaters Ranch Llc",
+      "entity_type": "organization",
+      "pins": [
+        "43110717204010000",
+        "43110703201020000",
+        "06110617202020100",
+        "43110708101010000",
+        "06110618101010100",
+        "43110709201010000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Csh Properties Llp",
+      "entity_type": "organization",
+      "pins": [
+        "06110617302010000",
+        "06110620201010000",
+        "06110617301050000",
+        "06110620201080000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Dimock Farms Inc",
+      "entity_type": "organization",
+      "pins": [
+        "06110616201010000",
+        "06110609301010000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Gcc Trident Llc",
+      "entity_type": "organization",
+      "pins": [
+        "06110609101010000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Triangle Gold Llc",
+      "entity_type": "organization",
+      "pins": [
+        "06110619102010000"
+      ],
+      "owns_adjacent_parcel": "No"
     }
   ]
 }

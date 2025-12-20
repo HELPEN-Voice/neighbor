@@ -1,0 +1,225 @@
+{
+  "timestamp": "2025-12-20T13:38:05.611791",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Broadwater County",
+    "state": "MT",
+    "city": "Wheatland",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring landowners are predominantly agricultural entities, plus one industrial operator. Most (Flattop Ranch, Huem Headwaters, Dimock Farms) are working ranch or farm operations with long local ties and a focus on water and livestock. One (CSH Properties LLP) appears to be a passive landholding partnership with little public presence. The final neighbor, GCC Trident LLC, is an industrial cement plant owner engaged in renewable energy, likely neutral or supportive toward development, whereas the ranching neighbors could be cautious about any project impacting water or grazing.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Flattop Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "43110708201010000",
+        "43110718101010000",
+        "43110708401010000",
+        "06110618401050000",
+        "43110705101010000",
+        "43110706301010000",
+        "43110412101010000",
+        "43110413101010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Flattop Ranch LLC is the listed owner of an irrigation water right (claim 41G 195486-00) in the Jefferson River basin, as documented in a Montana Water Court proceeding ([law.justia.com](https://law.justia.com/cases/montana/water-court/2024/41g-0618-r-2024.html#:~:text=this%20Master%E2%80%99s%20Report,The%20DNRC%20placed%20the)). The LLC holds multiple ranch land parcels straddling Broadwater and Gallatin counties (Wheatland area), indicating a significant cattle and hay operation (no other active business activities are noted in public records). No media or regulatory filings suggest involvement beyond agriculture and water rights management.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Large landholder with senior water rights (contested by nearby city), but limited public or political profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owners early to address water usage concerns; emphasize project will not impair their irrigation supply or livestock grazing. Offer cooperation on water management to build trust."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Huem Headwaters Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "43110717204010000",
+        "43110703201020000",
+        "06110617202020100",
+        "43110708101010000",
+        "06110618101010100",
+        "43110709201010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Huem Headwaters Ranch LLC is associated with the family that operated the Headwaters Livestock Auction in Three Forks, which was run by Jerry and Mary Olson until its sale in 2022 ([mt43news-business-services.com](https://mt43news-business-services.com/mt43newsArticleViewPublished/956#:~:text=Headwaters%20Livestock%20Auction%20Company%20at,rock%2C%20country%20singer%20Kelly%20Clarkson)). The LLC holds several ranch parcels around the Missouri headwaters area and represents a longstanding local ranching enterprise. Its principals have deep ties in the local agricultural community through decades of livestock business ownership ([mt43news-business-services.com](https://mt43news-business-services.com/mt43newsArticleViewPublished/956#:~:text=Headwaters%20Livestock%20Auction%20Company%20at,rock%2C%20country%20singer%20Kelly%20Clarkson)). No record of non-agricultural ventures or corporate parents exists; it appears to be a family ranch holding company.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owned by a well-known ranching family (auction yard operators); respected among local ranchers but without major political office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the Olson family informally via ranch community networks; highlight that the project won’t impede livestock movement or local ag markets. Emphasize any benefits (e.g. road improvements or tax revenue) that support ranchers."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "CSH Properties LLP",
+      "entity_category": "Organization",
+      "entity_type": "llp",
+      "pins": [
+        "06110617302010000",
+        "06110620201010000",
+        "06110617301050000",
+        "06110620201080000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "CSH Properties LLP is a Montana limited liability partnership holding multiple undeveloped parcels in the Wheatland/Three Forks area. It has no identifiable operating business or public profile; it is not among the prominent agricultural employers or local companies mentioned in recent Montana records ([bigskytimes.com](https://bigskytimes.com/h-2a-insights-employers-classified-under-the-agriculture-forestry-fishing-and-hunting-industry-in-montana-submitted-1-493-petitions-in-2024/#:~:text=Living%20Lands%2C%20LLC%20%20,%7C%200)). The partnership’s ownership and management are not publicly documented, suggesting a privately held land investment. No news or court filings are associated with CSH, implying its activities are limited to passive property ownership.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Quiet land investor with no public-facing operations or known local engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the managing partners through county records and engage with a clear value proposition (e.g. purchase or lease terms); appeal to their financial interest by highlighting potential appreciation or revenue from the project. Expect a transactional discussion due to lack of community ties."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Dimock Farms Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "06110616201010000",
+        "06110609301010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dimock Farms Inc is a family-run farm corporation in Broadwater/Gallatin County with long-term local presence (the Dimock family name appears in historical accounts of the Trident area ([www.gem.wiki](https://www.gem.wiki/Trident_Cement_Plant#:~:text=The%20map%20below%20shows%20the,1)) ([www.uppermissouriwaterkeeper.org](https://www.uppermissouriwaterkeeper.org/landmark-victory-for-our-water-and-communities/#:~:text=The%20Lawsuit%3A%20Because%20Broadwater%20County,Horse%20Creek%20Hills%20subdivision%20as))). The corporation holds cropland and grazing land, suggesting grain and livestock production. It does not feature in any major business or political filings, indicating a focus on traditional farming activities. No evidence of outside investors or diversified ventures is noted; it is a legacy farm enterprise rooted in the local community.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Multi-generation local farm family; known in agricultural circles but not a large commercial or political entity",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach personally with respect for their generational ties to the land; reassure that project plans include safeguards for farmland (dust, runoff, etc.). Consider offering agronomic benefits (e.g. improved drainage or weed control on project edges) to mitigate their concerns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "GCC Trident LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "06110609101010000"
+      ],
+      "claims": "GCC Trident LLC is the local entity of Grupo Cementos de Chihuahua (GCC) that owns and operates the Trident cement plant near Three Forks ([www.globenewswire.com](https://www.globenewswire.com/news-release/2018/06/14/1524974/0/en/GCC-and-CRH-Have-Received-Regulatory-Approval-for-Purchase-Sale-Transactions-for-Certain-U-S-Cement-and-Ready-Mix-Operations.html#:~:text=,Oklahoma%20and%20Arkansas%20from%20GCC)). GCC acquired the Trident cement facility from CRH in 2018 as part of its U.S. expansion ([www.globenewswire.com](https://www.globenewswire.com/news-release/2018/06/14/1524974/0/en/GCC-and-CRH-Have-Received-Regulatory-Approval-for-Purchase-Sale-Transactions-for-Certain-U-S-Cement-and-Ready-Mix-Operations.html#:~:text=,Oklahoma%20and%20Arkansas%20from%20GCC)). The company’s presence includes an on-site 2 MW solar farm (commissioned in 2022) providing renewable power to the plant ([www.gridinfo.com](https://www.gridinfo.com/plant/gcc-trident-solar-project/68260#:~:text=Plant%20Name%20%20,12.6%20k%20MMBtu)). As a major industrial employer and taxpayer, GCC Trident is a high-profile neighbor with a professional management structure. Its corporate mandate focuses on infrastructure and energy, and it typically engages with communities through regulatory compliance and occasional public affairs relating to environmental initiatives.",
+      "community_influence": "High",
+      "influence_justification": "Major industrial facility and employer; significant economic and infrastructural presence; part of large multinational corporation",
+      "entity_classification": "industrial",
+      "potential_motivators": [
+        "Operational stability (avoid interference with plant)",
+        "Energy opportunities (grid improvements, renewables)",
+        "Corporate-community relations image"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage at the executive level (plant manager or GCC corporate relations) to identify mutual benefits (e.g. using project power or byproducts). Emphasize collaboration on permitting and grid upgrades. Leverage GCC’s pro-renewable actions (like their solar installation) to align interests and secure a neutral or supportive stance."
+      },
+      "confidence": "high"
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring landowners are predominantly agricultural entities, plus one industrial operator. Most (Flattop Ranch, Huem Headwaters, Dimock Farms) are working ranch or farm operations with long local ties and a focus on water and livestock. One (CSH Properties LLP) appears to be a passive landholding partnership with little public presence. The final neighbor, GCC Trident LLC, is an industrial cement plant owner engaged in renewable energy, likely neutral or supportive toward development, whereas the ranching neighbors could be cautious about any project impacting water or grazing.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Flattop Ranch LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"43110708201010000\", \"43110718101010000\", \"43110708401010000\", \"06110618401050000\", \"43110705101010000\", \"43110706301010000\", \"43110412101010000\", \"43110413101010000\"],\n      \"claims\": \"Flattop Ranch LLC is the listed owner of an irrigation water right (claim 41G 195486-00) in the Jefferson River basin, as documented in a Montana Water Court proceeding ([law.justia.com](https://law.justia.com/cases/montana/water-court/2024/41g-0618-r-2024.html#:~:text=this%20Master%E2%80%99s%20Report,The%20DNRC%20placed%20the)). The LLC holds multiple ranch land parcels straddling Broadwater and Gallatin counties (Wheatland area), indicating a significant cattle and hay operation (no other active business activities are noted in public records). No media or regulatory filings suggest involvement beyond agriculture and water rights management.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Large landholder with senior water rights (contested by nearby city), but limited public or political profile\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Protect water rights for irrigation\", \"Preserve ranch land value\", \"Avoid disruptions to cattle operation\"],\n      \"approach_recommendations\": \"Engage owners early to address water usage concerns; emphasize project will not impair their irrigation supply or livestock grazing. Offer cooperation on water management to build trust.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Huem Headwaters Ranch LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"43110717204010000\", \"43110703201020000\", \"06110617202020100\", \"43110708101010000\", \"06110618101010100\", \"43110709201010000\"],\n      \"claims\": \"Huem Headwaters Ranch LLC is associated with the family that operated the Headwaters Livestock Auction in Three Forks, which was run by Jerry and Mary Olson until its sale in 2022 ([mt43news-business-services.com](https://mt43news-business-services.com/mt43newsArticleViewPublished/956#:~:text=Headwaters%20Livestock%20Auction%20Company%20at,rock%2C%20country%20singer%20Kelly%20Clarkson)). The LLC holds several ranch parcels around the Missouri headwaters area and represents a longstanding local ranching enterprise. Its principals have deep ties in the local agricultural community through decades of livestock business ownership ([mt43news-business-services.com](https://mt43news-business-services.com/mt43newsArticleViewPublished/956#:~:text=Headwaters%20Livestock%20Auction%20Company%20at,rock%2C%20country%20singer%20Kelly%20Clarkson)). No record of non-agricultural ventures or corporate parents exists; it appears to be a family ranch holding company.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Owned by a well-known ranching family (auction yard operators); respected among local ranchers but without major political office\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Support local ranching economy\", \"Maintain livestock marketing channels\", \"Prevent land use changes that hurt cattle operations\"],\n      \"approach_recommendations\": \"Approach the Olson family informally via ranch community networks; highlight that the project won’t impede livestock movement or local ag markets. Emphasize any benefits (e.g. road improvements or tax revenue) that support ranchers.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"CSH Properties LLP\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llp\",\n      \"pins\": [\"06110617302010000\", \"06110620201010000\", \"06110617301050000\", \"06110620201080000\"],\n      \"claims\": \"CSH Properties LLP is a Montana limited liability partnership holding multiple undeveloped parcels in the Wheatland/Three Forks area. It has no identifiable operating business or public profile; it is not among the prominent agricultural employers or local companies mentioned in recent Montana records ([bigskytimes.com](https://bigskytimes.com/h-2a-insights-employers-classified-under-the-agriculture-forestry-fishing-and-hunting-industry-in-montana-submitted-1-493-petitions-in-2024/#:~:text=Living%20Lands%2C%20LLC%20%20,%7C%200)). The partnership’s ownership and management are not publicly documented, suggesting a privately held land investment. No news or court filings are associated with CSH, implying its activities are limited to passive property ownership.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Quiet land investor with no public-facing operations or known local engagement\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land resale value\", \"Avoid tax increases or restrictions\", \"Future development speculation\"],\n      \"approach_recommendations\": \"Identify the managing partners through county records and engage with a clear value proposition (e.g. purchase or lease terms); appeal to their financial interest by highlighting potential appreciation or revenue from the project. Expect a transactional discussion due to lack of community ties.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Dimock Farms Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"06110616201010000\", \"06110609301010000\"],\n      \"claims\": \"Dimock Farms Inc is a family-run farm corporation in Broadwater/Gallatin County with long-term local presence (the Dimock family name appears in historical accounts of the Trident area ([www.gem.wiki](https://www.gem.wiki/Trident_Cement_Plant#:~:text=The%20map%20below%20shows%20the,1)) ([www.uppermissouriwaterkeeper.org](https://www.uppermissouriwaterkeeper.org/landmark-victory-for-our-water-and-communities/#:~:text=The%20Lawsuit%3A%20Because%20Broadwater%20County,Horse%20Creek%20Hills%20subdivision%20as))). The corporation holds cropland and grazing land, suggesting grain and livestock production. It does not feature in any major business or political filings, indicating a focus on traditional farming activities. No evidence of outside investors or diversified ventures is noted; it is a legacy farm enterprise rooted in the local community.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Multi-generation local farm family; known in agricultural circles but not a large commercial or political entity\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preserve family farming legacy\", \"Protect land fertility and water quality\", \"Resist disruptions to farming routine\"],\n      \"approach_recommendations\": \"Approach personally with respect for their generational ties to the land; reassure that project plans include safeguards for farmland (dust, runoff, etc.). Consider offering agronomic benefits (e.g. improved drainage or weed control on project edges) to mitigate their concerns.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"GCC Trident LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"06110609101010000\"],\n      \"claims\": \"GCC Trident LLC is the local entity of Grupo Cementos de Chihuahua (GCC) that owns and operates the Trident cement plant near Three Forks ([www.globenewswire.com](https://www.globenewswire.com/news-release/2018/06/14/1524974/0/en/GCC-and-CRH-Have-Received-Regulatory-Approval-for-Purchase-Sale-Transactions-for-Certain-U-S-Cement-and-Ready-Mix-Operations.html#:~:text=,Oklahoma%20and%20Arkansas%20from%20GCC)). GCC acquired the Trident cement facility from CRH in 2018 as part of its U.S. expansion ([www.globenewswire.com](https://www.globenewswire.com/news-release/2018/06/14/1524974/0/en/GCC-and-CRH-Have-Received-Regulatory-Approval-for-Purchase-Sale-Transactions-for-Certain-U-S-Cement-and-Ready-Mix-Operations.html#:~:text=,Oklahoma%20and%20Arkansas%20from%20GCC)). The company’s presence includes an on-site 2 MW solar farm (commissioned in 2022) providing renewable power to the plant ([www.gridinfo.com](https://www.gridinfo.com/plant/gcc-trident-solar-project/68260#:~:text=Plant%20Name%20%20,12.6%20k%20MMBtu)). As a major industrial employer and taxpayer, GCC Trident is a high-profile neighbor with a professional management structure. Its corporate mandate focuses on infrastructure and energy, and it typically engages with communities through regulatory compliance and occasional public affairs relating to environmental initiatives.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major industrial facility and employer; significant economic and infrastructural presence; part of large multinational corporation\",\n      \"entity_classification\": \"industrial\",\n      \"potential_motivators\": [\"Operational stability (avoid interference with plant)\", \"Energy opportunities (grid improvements, renewables)\", \"Corporate-community relations image\"],\n      \"approach_recommendations\": \"Engage at the executive level (plant manager or GCC corporate relations) to identify mutual benefits (e.g. using project power or byproducts). Emphasize collaboration on permitting and grid upgrades. Leverage GCC’s pro-renewable actions (like their solar installation) to align interests and secure a neutral or supportive stance.\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

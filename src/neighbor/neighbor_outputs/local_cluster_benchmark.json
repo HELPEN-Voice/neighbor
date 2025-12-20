@@ -1,31 +1,31 @@
 {
-  "run_id": "5716221f-8bda-4687-b26e-9803187c0a2b",
-  "coordinates": "42.743503,-74.502275",
-  "state_code": "NY",
-  "parcels_analyzed": 49,
+  "run_id": "331435e8-4c68-474b-8cbc-01603f406ce6",
+  "coordinates": "45.93544,-111.513429",
+  "state_code": "MT",
+  "parcels_analyzed": 35,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 1,
+    "median_structure_value": 17350.0,
+    "formatted": "$17,350",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "land_value_proxy": {
-    "valid_samples": 46,
-    "median_value_per_acre": 1707.4055579649487,
-    "formatted": "$1,707/acre",
+    "valid_samples": 35,
+    "median_value_per_acre": 60.69118210522687,
+    "formatted": "$61/acre",
     "risk_level": "LOW",
     "risk_class": "risk-low"
   },
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "$1,707/acre",
+    "median_structure_value": "$17,350",
+    "wealth_risk_level": "LOW",
+    "wealth_risk_class": "risk-low",
+    "wealth_valid_samples": "1",
+    "median_land_value_acre": "$61/acre",
     "land_risk_level": "LOW",
     "land_risk_class": "risk-low",
-    "land_valid_samples": "46",
-    "parcels_analyzed": "49"
+    "land_valid_samples": "35",
+    "parcels_analyzed": "35"
   }
 }
