@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-12-20T10:13:43.425937",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Ogle County",
+    "state": "IL",
+    "city": "Rochelle",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Most neighboring parcels are held by non-local corporate or institutional owners – including a national insurance corporation and a farmland investment fund – indicating primarily absentee land investment motivations [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). The City of Rochelle is the one public, local stakeholder, likely supportive of development if it aligns with economic growth plans [City of Rochelle](https://www.excelinrochelle.com/content/business-environment/rochelle-dashboard.html). None of the private LLC or trust owners appear to have an active community presence, suggesting their stance will hinge on financial impact rather than local sentiment [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). Overall, the landscape features absentee investors focused on land value, and a municipal government focused on planned growth, which may present opportunities for negotiation and alignment rather than grassroots opposition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Allstate Insurance Co",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "25-17-100-007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Allstate Insurance Co is a Fortune 100 insurance giant headquartered in Illinois with diversified investments, including a dedicated agriculture and timberland portfolio launched in 2012 [Quartz](https://qz.com/allstate-statefarm-insurance-halt-california-1850499223) [Allstate Investments](https://www.allstateinvestmentbk.co.za/agriculture-timber.html). The company owns farmland in Ogle County as an institutional asset and leases it to local farmers rather than operating it directly [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). Allstate has no local presence in Rochelle and is an absentee landlord, focused on stable returns and long-term land value appreciation instead of day-to-day farming or community involvement [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Large out-of-town corporation with no local operations; owns land purely as investment and does not engage in community affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Allstate’s real estate investment contact through its asset management division; emphasize that the project can be structured to preserve or enhance their land’s value, possibly via a buyout or protective agreements to address any liability or drainage concerns"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "16280 Twombly LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "25-08-300-005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "16280 Twombly LLC appears to be a single-purpose Illinois limited liability company created to hold the farmland at 16280 Twombly Road near Rochelle (no other business activities are evident) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). There are no online records of its members or operations, and the owner’s identity is not publicly disclosed – a common scenario where an absentee investor or family uses an LLC for land ownership anonymity [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html). The land is presumably leased out for farming, indicating the LLC’s interest is financial (collecting rent and land appreciation) rather than an active farming enterprise or community engagement [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Anonymous absentee ownership; no known local ties or contributions; likely passive investor with little sway in local social networks",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out via the LLC’s registered agent or mailing address to open communications; offer assurances (e.g., drainage improvements, fair compensation) to address any concerns about the development impacting their farmland value, or explore a purchase if they are willing to divest"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Ceres Farms Cropland Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "25-07-100-002",
+        "24-12-400-004"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ceres Farms Cropland Holdings LLC is part of Ceres Partners, an Indiana-based farmland investment firm that manages about 160,000 acres across 12 states (including over 14,000 acres in Illinois) for institutional and high-net-worth investors [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). The LLC holds multiple Ogle County farm tracts as long-term investments; Ceres acquires such farmland and leases it out to local farmers on multi-year leases, aiming for steady rental income and land appreciation rather than direct farming [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html). There is no local management presence – decisions are made by Ceres Partners’ remote management team – so the company’s stance on nearby development will be driven by financial considerations (impact on land value or potential sale opportunity) rather than community or personal factors [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Institutional absentee owner; while it controls significant acreage, it has no local voter base or personal community ties, and typically does not engage in local politics",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact Ceres Partners’ asset management (e.g., their farm portfolio manager or executive team) to discuss mutually beneficial arrangements; highlight that the development can provide a profitable exit or long-term easement that meets their return criteria, rather than threatening their asset value"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "City Of Rochelle",
+      "entity_category": "Organization",
+      "entity_type": "municipality",
+      "pins": [
+        "25-18-100-008",
+        "25-17-300-023",
+        "25-17-100-010",
+        "25-17-300-025",
+        "25-18-100-002",
+        "25-17-300-027",
+        "25-18-100-007",
+        "25-17-300-026",
+        "25-17-300-028"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The City of Rochelle (population ~9,500) is the local municipal government and owns several parcels in the vicinity, likely for public infrastructure or future development use [World Population Review](https://worldpopulationreview.com/us-cities/rochelle-il-population). Rochelle’s city leadership has a pro-development stance – the city engages in strategic planning and aggressive goal-setting to attract industry and jobs, branding itself as a regional logistics hub (“Hub City”) [City of Rochelle](https://www.excelinrochelle.com/content/business-environment/rochelle-dashboard.html). As a governing body, the City wields significant influence through zoning, annexation, and infrastructure decisions, and is generally supportive of projects that expand the tax base or improve utilities, provided they align with the city’s comprehensive plan and community interests [City of Rochelle](https://www.excelinrochelle.com/content/business-environment/rochelle-dashboard.html). City officials and council members will evaluate the development’s impact on local economic growth, land use plans, and public opinion, and their formal approval or opposition will carry substantial weight in the outcome.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local government authority; can regulate zoning and permitting; has direct say in community planning and often guides public sentiment; controls infrastructure support for the project",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate closely with Rochelle’s city officials (City Manager and City Council); emphasize how the project complements the city’s development goals and provides community benefits (jobs, tax revenue, improved infrastructure), addressing any municipal concerns (such as road use or utility impacts) to secure their support"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "MBG Consulting AAF Northern Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "25-17-100-009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "“MBG Consulting AAF Northern Trust” indicates a private landholding held in trust: Northern Trust Company is acting as an agent or trustee managing this parcel, with the actual beneficial owner remaining private (not listed as an individual in public records) [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html). This structure is typical of a family trust or estate planning vehicle wherein a bank (Northern Trust) administers the farmland on behalf of an investor or family, and the property is likely leased out for farming by a local tenant farmer [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). No evidence of local involvement or personal farming exists for this parcel – it is an absentee ownership for financial purposes, with Northern Trust’s fiduciary duty being to preserve the land’s value and income for the beneficiary [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Property held by a distant trust; beneficial owner is anonymous and not active locally; decisions funnel through a corporate trustee with no direct community engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate contact with Northern Trust’s trust officer responsible for this property; position any proposal (land purchase or easement agreement) to highlight financial security and due diligence, addressing liability or maintenance aspects so that the trustee can justify cooperation in the beneficiary’s best interest"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Most neighboring parcels are held by non-local corporate or institutional owners – including a national insurance corporation and a farmland investment fund – indicating primarily absentee land investment motivations [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). The City of Rochelle is the one public, local stakeholder, likely supportive of development if it aligns with economic growth plans [City of Rochelle](https://www.excelinrochelle.com/content/business-environment/rochelle-dashboard.html). None of the private LLC or trust owners appear to have an active community presence, suggesting their stance will hinge on financial impact rather than local sentiment [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). Overall, the landscape features absentee investors focused on land value, and a municipal government focused on planned growth, which may present opportunities for negotiation and alignment rather than grassroots opposition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Allstate Insurance Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corp\",\n      \"pins\": [\"25-17-100-007\"],\n      \"claims\": \"Allstate Insurance Co is a Fortune 100 insurance giant headquartered in Illinois with diversified investments, including a dedicated agriculture and timberland portfolio launched in 2012 [Quartz](https://qz.com/allstate-statefarm-insurance-halt-california-1850499223) [Allstate Investments](https://www.allstateinvestmentbk.co.za/agriculture-timber.html). The company owns farmland in Ogle County as an institutional asset and leases it to local farmers rather than operating it directly [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). Allstate has no local presence in Rochelle and is an absentee landlord, focused on stable returns and long-term land value appreciation instead of day-to-day farming or community involvement [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Large out-of-town corporation with no local operations; owns land purely as investment and does not engage in community affairs\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Asset value maximization\", \"Risk avoidance (protect farmland value)\"],\n      \"approach_recommendations\": \"Engage Allstate’s real estate investment contact through its asset management division; emphasize that the project can be structured to preserve or enhance their land’s value, possibly via a buyout or protective agreements to address any liability or drainage concerns\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"16280 Twombly LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"25-08-300-005\"],\n      \"claims\": \"16280 Twombly LLC appears to be a single-purpose Illinois limited liability company created to hold the farmland at 16280 Twombly Road near Rochelle (no other business activities are evident) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). There are no online records of its members or operations, and the owner’s identity is not publicly disclosed – a common scenario where an absentee investor or family uses an LLC for land ownership anonymity [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html). The land is presumably leased out for farming, indicating the LLC’s interest is financial (collecting rent and land appreciation) rather than an active farming enterprise or community engagement [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Anonymous absentee ownership; no known local ties or contributions; likely passive investor with little sway in local social networks\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value preservation\", \"Rental income stability\"],\n      \"approach_recommendations\": \"Reach out via the LLC’s registered agent or mailing address to open communications; offer assurances (e.g., drainage improvements, fair compensation) to address any concerns about the development impacting their farmland value, or explore a purchase if they are willing to divest\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Ceres Farms Cropland Holdings LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"25-07-100-002\", \"24-12-400-004\"],\n      \"claims\": \"Ceres Farms Cropland Holdings LLC is part of Ceres Partners, an Indiana-based farmland investment firm that manages about 160,000 acres across 12 states (including over 14,000 acres in Illinois) for institutional and high-net-worth investors [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). The LLC holds multiple Ogle County farm tracts as long-term investments; Ceres acquires such farmland and leases it out to local farmers on multi-year leases, aiming for steady rental income and land appreciation rather than direct farming [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html). There is no local management presence – decisions are made by Ceres Partners’ remote management team – so the company’s stance on nearby development will be driven by financial considerations (impact on land value or potential sale opportunity) rather than community or personal factors [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Institutional absentee owner; while it controls significant acreage, it has no local voter base or personal community ties, and typically does not engage in local politics\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Rental income protection\", \"Land appreciation potential\", \"Exit value (if selling becomes attractive)\"],\n      \"approach_recommendations\": \"Contact Ceres Partners’ asset management (e.g., their farm portfolio manager or executive team) to discuss mutually beneficial arrangements; highlight that the development can provide a profitable exit or long-term easement that meets their return criteria, rather than threatening their asset value\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"City Of Rochelle\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipality\",\n      \"pins\": [\"25-18-100-008\", \"25-17-300-023\", \"25-17-100-010\", \"25-17-300-025\", \"25-18-100-002\", \"25-17-300-027\", \"25-18-100-007\", \"25-17-300-026\", \"25-17-300-028\"],\n      \"claims\": \"The City of Rochelle (population ~9,500) is the local municipal government and owns several parcels in the vicinity, likely for public infrastructure or future development use [World Population Review](https://worldpopulationreview.com/us-cities/rochelle-il-population). Rochelle’s city leadership has a pro-development stance – the city engages in strategic planning and aggressive goal-setting to attract industry and jobs, branding itself as a regional logistics hub (“Hub City”) [City of Rochelle](https://www.excelinrochelle.com/content/business-environment/rochelle-dashboard.html). As a governing body, the City wields significant influence through zoning, annexation, and infrastructure decisions, and is generally supportive of projects that expand the tax base or improve utilities, provided they align with the city’s comprehensive plan and community interests [City of Rochelle](https://www.excelinrochelle.com/content/business-environment/rochelle-dashboard.html). City officials and council members will evaluate the development’s impact on local economic growth, land use plans, and public opinion, and their formal approval or opposition will carry substantial weight in the outcome.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Local government authority; can regulate zoning and permitting; has direct say in community planning and often guides public sentiment; controls infrastructure support for the project\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Economic development (jobs/tax revenue)\", \"Alignment with city land-use plans\", \"Public benefits (infrastructure improvements, environmental considerations)\"],\n      \"approach_recommendations\": \"Coordinate closely with Rochelle’s city officials (City Manager and City Council); emphasize how the project complements the city’s development goals and provides community benefits (jobs, tax revenue, improved infrastructure), addressing any municipal concerns (such as road use or utility impacts) to secure their support\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"MBG Consulting AAF Northern Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"25-17-100-009\"],\n      \"claims\": \"“MBG Consulting AAF Northern Trust” indicates a private landholding held in trust: Northern Trust Company is acting as an agent or trustee managing this parcel, with the actual beneficial owner remaining private (not listed as an individual in public records) [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html). This structure is typical of a family trust or estate planning vehicle wherein a bank (Northern Trust) administers the farmland on behalf of an investor or family, and the property is likely leased out for farming by a local tenant farmer [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html) [Farm Progress](https://www.farmprogress.com/farm-business/who-owns-the-most-farmland-in-illinois-). No evidence of local involvement or personal farming exists for this parcel – it is an absentee ownership for financial purposes, with Northern Trust’s fiduciary duty being to preserve the land’s value and income for the beneficiary [Chicago Tribune](https://www.chicagotribune.com/news/environment/ct-illinois-farmland-ownership-corporate-climate-justice-20230827-e5bpml5y3vdyfbipwjxhv5ukvi-story.html).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Property held by a distant trust; beneficial owner is anonymous and not active locally; decisions funnel through a corporate trustee with no direct community engagement\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Trust asset preservation\", \"Steady rental income\", \"Risk mitigation for beneficiary\"],\n      \"approach_recommendations\": \"Initiate contact with Northern Trust’s trust officer responsible for this property; position any proposal (land purchase or easement agreement) to highlight financial security and due diligence, addressing liability or maintenance aspects so that the trustee can justify cooperation in the beneficiary’s best interest\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
