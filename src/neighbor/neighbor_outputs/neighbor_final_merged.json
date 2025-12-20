@@ -2,25 +2,24 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "John David Macintyre",
+      "name": "Legg George W III & Daphne V",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-32-100-018",
-        "11-32-100-020"
+        "1002025744"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "John D. Macintyre has collected over $400,000 in federal farm subsidies since 1995, indicating a significant farming operation [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A03192501) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=A03192501#:~:text=Total%20%20,%24400%2C703)). Subsidy records show his farming activities in both McHenry County (about $175,738) and Boone County (about $224,965), reflecting landholdings across the county line [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A03192501) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=A03192501#:~:text=County%20%20,%24400%2C703)).",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "George W. Legg III sued Dorchester County in 2002, claiming that seepage from the county’s closed landfill polluted his family’s adjacent farm near Secretary, MD ([thedailyrecord.com](https://thedailyrecord.com/2002/05/20/no-taking-but-maybe-a-nuisance-29885/#:~:text=In%201974%2C%20Legg%E2%80%99s%20grandmother%20leased,wanted%20to%20sell%20for%20development)) ([thedailyrecord.com](https://thedailyrecord.com/2002/05/20/no-taking-but-maybe-a-nuisance-29885/#:~:text=In%20February%201998%2C%20Legg%E2%80%99s%20attorney,a%20potential%20buyer%20in%201996)). He had intended to subdivide and sell roughly 16.5 acres of that farm for residential development, but a 1996 Maryland environmental report warned that landfill contaminants could taint any new wells on his property, scuttling a planned sale ([thedailyrecord.com](https://thedailyrecord.com/2002/05/20/no-taking-but-maybe-a-nuisance-29885/#:~:text=Motz%20found%20that%20Legg%20was,Also%2C%20methane%20gas%20from%20the)) ([thedailyrecord.com](https://thedailyrecord.com/2002/05/20/no-taking-but-maybe-a-nuisance-29885/#:~:text=The%20county%20rejected%20Legg%E2%80%99s%20offer,filed%20suit%20in%20January%202002)). Legg even offered to sell the affected land to the County in 1998 – blaming the landfill for his failed 1996 deal – but County officials rejected his offer ([thedailyrecord.com](https://thedailyrecord.com/2002/05/20/no-taking-but-maybe-a-nuisance-29885/#:~:text=In%20February%201998%2C%20Legg%E2%80%99s%20attorney,a%20potential%20buyer%20in%201996)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Longtime large-scale farmer",
+      "influence_justification": "Longtime landowner; litigated vs. County",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
-          "drainage_roads"
+          "property_value",
+          "groundwater_runoff"
         ],
-        "engage": "Have a respected agriculture peer reach out to Macintyre, emphasizing how the project will protect farmland and address any drainage or road use concerns in the area."
+        "engage": "Have an environmental specialist meet with Legg to acknowledge his past landfill issues and emphasize strong protections for groundwater and property value in the new project."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -39,106 +38,26 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Avalos Daniela Vega Martin",
+      "name": "Windsor John R & Marion H",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "11-31-100-003"
+        "1002026619"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Daniela Vega Martin Avalos is listed as the owner of a parcel in Marengo Township, McHenry County [McHenry County Property Tax Inquiry](https://mchenryil.devnetwedge.com/) ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=1,Inquiry)). No references to her involvement or statements in local civic matters were found in available public records or news archives ([marengo-township.org](https://marengo-township.org/2021-past-meeting-minutes#:~:text=2021%20Past%20Meeting%20Minutes%20Town,Download%20Marengo%20Monthly%20Meeting)).",
+      "claims": "John R. Windsor is a second-generation Dorchester County farmer who lives with his wife Marion in East New Market, MD ([www.newcombcollins.com](https://www.newcombcollins.com/obituaries/Frederick-Windsor#:~:text=Windsor%20Yale%20of%20Potomac%2C%20MD%2C,DC%2C%20John%20Robert%20Windsor%20Jr)). He comes from a prominent local farm family – his late father, Frederick “Freddie” Windsor, was a lifelong Dorchester farmer who served as president of the Linkwood-Salem Volunteer Fire Company and was active in the county Farm Bureau ([www.newcombcollins.com](https://www.newcombcollins.com/obituaries/Frederick-Windsor#:~:text=place%20trophies)). John and his siblings grew up working on the family farm; as adults, he and his brother each established their own farming operations in the county ([www.newcombcollins.com](https://www.newcombcollins.com/obituaries/Frederick-Windsor#:~:text=Cambridge%20and%20moved%20to%20the,at%20the%20age%20of%2080)).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile or civic roles",
+      "community_influence": "High",
+      "influence_justification": "Multi-generation farmer; deep local ties",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a one-on-one, neighborly approach to introduce the project, listening to any concerns she may have and ensuring she feels included in the information flow."
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage through a respected agriculture community liaison. Emphasize respect for farming heritage and explain how the project will safeguard farmland and local traditions."
       },
       "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Union Operating Co LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "11-31-200-009",
-        "11-31-200-008",
-        "11-31-200-011"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Union Operating Co. LLC is an Illinois limited liability company listed as owner of three farmland parcels in Marengo Township (PINs above) ([mchenryil.devnetwedge.com](https://mchenryil.devnetwedge.com/search#:~:text=To%20access%20your%20property%20tax,with%20more%20explanation%20and%20information)). No record of this entity is found in Illinois corporate registration databases, suggesting it is a private landholding vehicle with no public-facing operations ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=Research%20Your%20Property%20,the%20information%2C%20you%20can%20use)). The LLC has not appeared in local news or court filings, indicating its activity is limited to passive land ownership (no development projects or public statements on record) ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=Research%20Your%20Property%20,the%20information%2C%20you%20can%20use)).",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "Owns farmland only; no known community role or political activity; low public visibility",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Quietly engage through informal contact with owner or agent; emphasize respect for farming operations and offer assurances project won’t harm their land use"
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "McHenry Co. Conservation Dist.",
-      "entity_category": "Organization",
-      "entity_type": "government",
-      "pins": [
-        "11-31-400-005",
-        "11-31-200-004",
-        "11-31-100-011",
-        "11-31-300-003",
-        "11-31-100-012",
-        "11-31-200-001",
-        "11-31-300-005",
-        "11-31-200-006",
-        "11-31-300-006",
-        "11-30-400-005",
-        "11-31-100-010",
-        "11-32-100-015",
-        "11-32-100-013",
-        "11-30-300-001",
-        "11-29-300-001",
-        "11-31-300-001"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The McHenry County Conservation District (MCCD) is a governmental entity created by voter referendum in 1971 to protect open space and natural resources ([mchenrycountyhistory.org](https://mchenrycountyhistory.org/day-mchenry-county-history#:~:text=,Woodstock%20Jaycees%20organized)). MCCD currently manages nearly 25,000 acres of land across the county, including about 6,646 acres of farmland under agricultural lease programs ([orgfarmlandsurvey.com](https://orgfarmlandsurvey.com/mchenry/#:~:text=,total%20acres)). The District’s mission is to preserve wildlife habitat, water quality, and scenic land; it often reviews development proposals for environmental impacts and advocates for mitigation or preservation measures ([www.mchenrydems.org](https://www.mchenrydems.org/mccd_proposition#:~:text=What%20is%20it%20about%3F)) ([mchenrycountyhistory.org](https://mchenrycountyhistory.org/day-mchenry-county-history#:~:text=,Woodstock%20Jaycees%20organized)). MCCD is well-established and respected locally, with taxing authority and a history of mobilizing public support for conservation funding (e.g., recent tax referenda) ([www.dailyherald.com](https://www.dailyherald.com/20241120/local-politics/mchenry-county-voters-approve-conservation-district-tax-request/#:~:text=Local%20Politics%20,McHenry%20County%20voters%20appear%20to)) ([www.mchenrycountyblog.com](https://www.mchenrycountyblog.com/2024/11/05/conservation-district-33-tax-hike-referendum-reported-losing-by-271-votes-with-all-precincts-counted/#:~:text=Conservation%20District%2033,the%20map%20showing%20the%20results)).",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "High",
-      "influence_justification": "Government agency owning extensive land; strong public mandate for conservation; ability to sway public opinion and officials on environmental grounds",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage MCCD leadership early to highlight project’s minimal environmental footprint; offer habitat enhancements or partnerships to align with their conservation goals; address any concerns about wildlife and open space openly to prevent opposition"
-      },
-      "entity_classification": "municipal",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -155,25 +74,25 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "West Grant Develop Inc",
-      "entity_category": "Organization",
-      "entity_type": "corporation",
+      "name": "Hurley Wilbur F Jr",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
       "pins": [
-        "11-31-200-003",
-        "11-31-200-012",
-        "11-32-100-014"
+        "1002280140"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "West Grant Development, Inc. is an Illinois domestic corporation formed on May 5, 2005 ([businessprofiles.com](https://businessprofiles.com/details/west-grant-development-inc/IL-64158619#:~:text=,05)). The company’s registered agent at formation was local attorney Donald F. Franz, and its initial officers included James Athans (President) and David Klesmith (Secretary) ([businessprofiles.com](https://businessprofiles.com/details/west-grant-development-inc/IL-64158619#:~:text=,DAVID%20KLESMITH%20SAME%20Secretary)). West Grant Development Inc owns multiple adjacent parcels along West Grant Highway, indicating a strategic land position likely intended for future development or resale. The corporation has no visible business operations or website, and no public records of active development projects on its Marengo Township land (suggesting it is holding the property, possibly for speculative investment) ([businessprofiles.com](https://businessprofiles.com/details/west-grant-development-inc/IL-64158619#:~:text=,DAVID%20KLESMITH%20SAME%20Secretary)) ([www.chicagocityscape.com](https://www.chicagocityscape.com/companies.php?company=James+Athans#:~:text=Chicago%20Cityscape%20,where%20James%20Athans%20has%20projects)).",
+      "claims": "Wilbur F. Hurley Jr. is listed as an owner of property near Linkwood WMA but has no public presence in local government or media ([dcgm.tripod.com](https://dcgm.tripod.com/dcgmefindex.html#:~:text=HURLEY%2C%20Jason%20d%20Mar%201866,Obit)) ([dcgm.tripod.com](https://dcgm.tripod.com/dcgmefindex.html#:~:text=HURLEY%2C%20Ware%20W.%20,N%201%20Dec%201883)). His family name is common in Dorchester County, yet no recent news, civic records, or leadership roles were found associated with him, indicating he maintains a very low public profile ([dcgm.tripod.com](https://dcgm.tripod.com/dcgmefindex.html#:~:text=HURLEY%2C%20Jason%20d%20Mar%201866,Obit)) ([dcgm.tripod.com](https://dcgm.tripod.com/dcgmefindex.html#:~:text=HURLEY%2C%20Ware%20W.%20,N%201%20Dec%201883)).",
       "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "Medium",
-      "influence_justification": "Controls several highway-frontage parcels; led by local business figures; potential resources for development but no public outreach to date",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; low public profile",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Identify current decision-maker (e.g., surviving officer or agent) and discuss mutually beneficial options (buyout or joint venture); stress how proposed project could raise neighboring land values; monitor for any competitive development plans they might have"
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Approach via a personal, low-key visit by a community member. Emphasize minimal disruption to his daily life and the quiet rural character of the area."
       },
-      "entity_classification": "land_investment",
+      "entity_classification": null,
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -190,21 +109,837 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Burma Rd Grain LLC",
+      "name": "Secrist Kevin Baker And [co-owner]",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002280752"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin B. Secrist is identified as a parcel owner, but he does not appear in any Dorchester County civic records, news archives, or community organizations ([www.locatefamily.com](https://www.locatefamily.com/S/SEC/SECRIST-37.html#:~:text=Worldwide%20www,call%20Jake%20Secrist%20by%20telephone)). No biographical details or local involvement for Secrist could be verified in public sources, suggesting he is not an active figure in the community’s public affairs ([www.locatefamily.com](https://www.locatefamily.com/S/SEC/SECRIST-37.html#:~:text=Worldwide%20www,call%20Jake%20Secrist%20by%20telephone)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known local involvement",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Provide clear, straightforward information via mail or phone. Since Secrist isn’t locally engaged, focus on factual benefits (e.g. property protections, minimal disturbances) to address any concerns he may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Travers Brett W",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026910",
+        "1002280655"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brett W. Travers shares a surname with one of Dorchester County’s historically influential families – 19th-century records refer to the Travers family as a distinguished lineage of large landowners in the county ([msa.maryland.gov](https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/051300/051327/html/51327bio.html#:~:text=Levi%20D,1%2C%202)). While the Travers name is represented in current local leadership (for example, County Councilman Ricky Travers) ([abcdocz.com](https://abcdocz.com/doc/1119203/to-view-the-april-7--2015-regular-session-meeting-minutes#:~:text=the%20following%20members%20present%3A%20Ricky,Also%20present%20were)), Brett himself has not been mentioned in local news or public meetings, indicating he has stayed out of the spotlight and any development debates so far.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Notable family name; landholdings",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Meet through a mutual local contact (such as a community or family connection) to respect hometown dynamics. Discuss how the project will be guided by local input and bring economic benefits to Dorchester County."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "James W. Phillips Jr. et al.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002280760"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James W. Phillips Jr. has served as Dorchester County Sheriff since 2002 ([msa.maryland.gov](https://msa.maryland.gov/msa/mdmanual/36loc/do/jud/sheriffs/html/msa14125.html#:~:text=Sheriff%2C%20Dorchester%20County%2C%20since%20December,former%20chief%20deputy)). He also chairs the county Recreation and Parks Board and sits on the Drug and Alcohol Abuse Council, reflecting a significant local leadership role ([msa.maryland.gov](https://msa.maryland.gov/msa/mdmanual/36loc/do/jud/sheriffs/html/msa14125.html#:~:text=Member%2C%20Drug%20and%20Alcohol%20Abuse,Wic%20Community%20College)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "County Sheriff; multiple civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via formal briefing with county officials to ensure Sheriff Phillips is informed. Emphasize public safety measures and community benefits while addressing any law enforcement or traffic concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Justin T. Koshar",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002280779"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin T. Koshar is a local property owner with no public record of involvement in civic groups or local government ([mdfarmbureau.com](https://mdfarmbureau.com/dorchester-county-board-of-directors/#:~:text=BOARD%20MEMBERS)). His name does not appear in known community leadership lists, suggesting a low public profile ([mdfarmbureau.com](https://mdfarmbureau.com/dorchester-county-board-of-directors/#:~:text=BOARD%20MEMBERS)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A personal one-on-one outreach is recommended to hear any concerns he may have. Emphasize open communication and the steps being taken to minimize impacts on his property and lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Tyler Lee Mabry",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002025868",
+        "1002286820",
+        "1002278839"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Tyler Lee Mabry owns multiple parcels in the area (per county records) but holds no visible role in local organizations ([mdfarmbureau.com](https://mdfarmbureau.com/dorchester-county-board-of-directors/#:~:text=Dale%20Collins%20Barbara%20Edgar%20Trent,Mike%20Nicholas%20Max%20Schnoor%2C%20Jr)). His absence from community or agricultural leadership forums indicates a limited public presence ([mdfarmbureau.com](https://mdfarmbureau.com/dorchester-county-board-of-directors/#:~:text=Dale%20Collins%20Barbara%20Edgar%20Trent,Mike%20Nicholas%20Max%20Schnoor%2C%20Jr)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out with a neighborly approach to discuss the project’s plans. Highlight any measures protecting farmland and address practical issues like drainage or access to ensure his land interests are respected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Warwick Manor Behavioral Health",
+      "entity_category": "Resident",
+      "entity_type": "Corporation",
+      "pins": [
+        "1002280787"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Handled in organization-level outreach."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Charles Andrew Clow",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002023237"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles Andrew Clow has no noted involvement in public meetings or local committees ([mdfarmbureau.com](https://mdfarmbureau.com/dorchester-county-board-of-directors/#:~:text=BOARD%20MEMBERS)). Public records do not show him in any community leadership positions, implying a low-profile local presence ([mdfarmbureau.com](https://mdfarmbureau.com/dorchester-county-board-of-directors/#:~:text=BOARD%20MEMBERS)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a friendly, informal approach to introduce the project and listen to any concerns. Emphasize that the development will respect residential peace and not adversely affect surrounding properties."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Arthur S. Clough",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026872"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arthur S. Clough is a private landowner in Dorchester County’s rural Linkwood area ([dnr.maryland.gov](https://dnr.maryland.gov/wildlife/pages/publiclands/eastern/linkwood.aspx#:~:text=Linkwood%20WMA)). No evidence was found of Clough holding any public office or speaking out on local development issues ([msa.maryland.gov](https://msa.maryland.gov/msa/mdmanual/36loc/do/html/doe.html#:~:text=Maryland,mail%3A%20lpfeffer%40dorchestermd.gov%20web%3A%20www.dorchestermd.gov)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; private citizen",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach one-on-one through a familiar local intermediary to build trust, as he has maintained a low profile and may respond best to personal, respectful outreach."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Christopher Roop",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002025655"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Christopher Roop is listed as a landowner in the same Linkwood vicinity of Dorchester County ([dnr.maryland.gov](https://dnr.maryland.gov/wildlife/pages/publiclands/eastern/linkwood.aspx#:~:text=Linkwood%20WMA)). He has no known public profile in community affairs, and no records of him taking a stance on development have been found ([msa.maryland.gov](https://msa.maryland.gov/msa/mdmanual/36loc/do/html/doe.html#:~:text=Maryland,mail%3A%20lpfeffer%40dorchestermd.gov%20web%3A%20www.dorchestermd.gov)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage him in a straightforward, informal conversation (possibly via a neighbor he knows) to understand his concerns, since he has stayed out of the public eye."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rachel Lewis",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002284693"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rachel Lewis appears to be a local property owner with no accompanying public record of civic involvement ([msa.maryland.gov](https://msa.maryland.gov/msa/mdmanual/36loc/do/html/doe.html#:~:text=Maryland,mail%3A%20lpfeffer%40dorchestermd.gov%20web%3A%20www.dorchestermd.gov)). There are no public statements or articles linking her to any position on development or land use debates in Dorchester County ([msa.maryland.gov](https://msa.maryland.gov/msa/mdmanual/36loc/do/html/doe.html#:~:text=Maryland,mail%3A%20lpfeffer%40dorchestermd.gov%20web%3A%20www.dorchestermd.gov)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Invite her to a community information meeting or a one-on-one visit to share project details and listen to any concerns, as she has not publicly voiced opinions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Hattie S. Thompson",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "1002027119"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hattie S. Thompson was an 85-year-old lifelong Dorchester County resident who passed away in April 2007 ([www.legacy.com](https://www.legacy.com/us/obituaries/baytobaynews-md/name/hattie-thompson-obituary?id=50301300#:~:text=Hattie%20Thompson%20HURLOCK%20,God%20in%20East%20New%20Market)). She devoted herself to family and community church life and never held public office or led any civic campaigns ([www.legacy.com](https://www.legacy.com/us/obituaries/baytobaynews-md/name/hattie-thompson-obituary?id=50301300#:~:text=Mrs,God%20in%20East%20New%20Market)). There is no record of her having taken any public position regarding development projects ([www.legacy.com](https://www.legacy.com/us/obituaries/baytobaynews-md/name/hattie-thompson-obituary?id=50301300#:~:text=Mrs,God%20in%20East%20New%20Market)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elderly resident; no civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since she is deceased, outreach should be directed to her heirs or estate representatives (such as her surviving son) to understand their plans and address any inheritance-related concerns sensitively."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Richard & Angela K. Norfolk",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026570"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Richard H. Norfolk, Jr., 66, was a long-time Dorchester County resident (East New Market) who passed away in November 2024 ([www.thomasfuneralhomepa.com](https://www.thomasfuneralhomepa.com/obituaries/richard-h-norfolk-jr#:~:text=Richard%20H,Norfolk%2C%20Sr)). A retired UPS employee who enjoyed outdoor activities and family time, he was not involved in local politics or activism ([www.thomasfuneralhomepa.com](https://www.thomasfuneralhomepa.com/obituaries/richard-h-norfolk-jr#:~:text=Rick%20graduated%20from%20Glen%20Burnie,of%20AA%20for%2036%20years)). His wife, Angela K. Norfolk, survives him, and neither has been noted making any public comments for or against development initiatives ([www.thomasfuneralhomepa.com](https://www.thomasfuneralhomepa.com/obituaries/richard-h-norfolk-jr#:~:text=He%20is%20survived%20by%20his,grandchildren%2C%20and%20five%20great%20grandchildren)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired local; not a public figure",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Angela Norfolk with empathy and personal outreach, acknowledging the family’s long residence and assuring that any project plans will respect their privacy and the character of the community."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Mendiola Meliton Alberto Garcia",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026856"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Meliton Alberto Garcia is listed as an owner of a parcel on Linkwood Road near the Linkwood community in Dorchester County [Dorchester Chamber of Commerce](https://www.dorchesterchamber.org/news/details/public-notice-from-rwe-clean-energy). No evidence of Garcia’s involvement in local civic affairs or any public stance on development was found; the only references to his name were outside Maryland (e.g., a South Carolina report) [Patch (Summerville, SC)](https://patch.com/south-carolina/summerville/busted-arrest-reports-for-dec-23).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No local profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "As an absent or low-profile landowner, initial outreach via a polite formal letter or phone call—sharing project details and inviting questions—may help build trust and gauge his interest."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Sean P. Reincke and Susan K. Reincke",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002284685"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sean P. Reincke is a teacher at Cambridge-South Dorchester High School, indicating he is an active local community member [Cambridge-South Dorchester HS Staff Directory](https://www.dcps.k12.md.us/o/cambridgesouth/staff?page_no=4). Neither Sean nor Susan Reincke holds a public office or has been noted speaking on development issues in any local records or media [Maryland Manual – Dorchester County](https://2022mdmanual.msa.maryland.gov/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local teacher; no official role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Reinckes through a friendly, personal approach (e.g., at a community event or via a neighborly visit) and emphasize transparency and facts; as an educator, Sean may appreciate open dialogue about the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Doretha O. Abraham",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002021234",
+        "1002280353"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Doretha O. Abraham is a long-time local landowner; property records also list her as Doretha Dockins Abraham, reflecting a family name with deep roots in Dorchester County [Free Dorchester Obituary Index](http://dcgm.tripod.com/dcgmcdindex.html#99). She has no recorded participation in public meetings or committees and has not taken any documented stance on development or energy projects [Maryland Manual – Dorchester County](https://2022mdmanual.msa.maryland.gov/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident; no formal power",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Mrs. Abraham with respect for her long family tenure in the area. A personal visit by a community liaison emphasizing the project’s respect for local land and heritage may address any legacy or land-preservation concerns she could have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Mary Elizabeth Scott et al",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026384"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mary Elizabeth Scott (with “et al” indicating other family co-owners) holds an ownership stake in land in the Linkwood vicinity of Dorchester County [Dorchester Chamber of Commerce](https://www.dorchesterchamber.org/news/details/public-notice-from-rwe-clean-energy). She does not serve in any public leadership capacity, and there are no public statements from her regarding local development in available records [Maryland Manual – Dorchester County](https://2022mdmanual.msa.maryland.gov/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a neighborly, informal approach—perhaps through an introduction by a mutual acquaintance or local community meeting—to share information about the project. Emphasize community benefits and listen to any family concerns to build goodwill."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Adedapo Olutoyin Amos",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026783"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Adedapo O. Amos owns property in the vicinity of the Linkwood Wildlife Management Area in Dorchester County and has no documented involvement in local development issues ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner, no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use personal, one-on-one outreach to introduce the project and listen to any concerns, given his lack of a public stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Donald L. Cheesman Sr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002032430"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donald L. Cheesman Sr. comes from a multi-generational Dorchester farming family – his late father, Thomas E. Cheesman Sr., was a lifelong farmer and Farm Bureau member ([www.legacy.com](https://www.legacy.com/us/obituaries/newszapmd/name/thomas-cheesman-obituary?id=24602226#:~:text=Thomas%20Edward%20Cheesman%20Sr,14%2C%202008%2C%20in)). The Cheesman family remains active in local agriculture, as Donald L. Cheesman Jr. of East New Market received about $1,627 in recent farm support payments ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=24019&page=8&progcode=tot_cfap2#:~:text=171%20%20,%241%2C540)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-generation farm family",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or agricultural leader reach out, emphasizing that the project will protect farmland use and respect the family’s farming legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Benjamin Connor Doyle",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026589"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Benjamin C. Doyle owns land near the Linkwood WMA in Dorchester County and has not taken any public role or position in local development issues ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage him directly with an introductory conversation, focusing on understanding any personal concerns since he has not voiced opinions publicly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Kevin C. Parker Sr. et al.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026198"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin C. Parker Sr. (and co-owners) hold property around the Linkwood Wildlife Management Area, but he has not been prominently involved in community or development discussions ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Family landowner; not in public spotlight",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Include his family in outreach and emphasize local control – reassure them the project will not undermine their land’s long-term value or heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Jeffrey S. Graybill",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002023725"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jeffrey S. Graybill is a landowner near the Linkwood WMA in Dorchester County and has no recorded public stance or civic engagement regarding development proposals ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out with a neighborly approach and provide information calmly, addressing any questions to build trust, as he has not been active publicly on these issues."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Anna Mae Dockins",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002021269"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anna Mae Dockins holds a life estate interest in a rural parcel in Dorchester County, Maryland ([www.wboc.com](https://www.wboc.com/archive/east-new-market-citizens-concerned-about-solar-farm-project/article_23b7861f-6bd3-5c6f-8422-e5a52ced3933.html#:~:text=The%20fields%20around%20East%20New,about%20the%20prospect%20of%20solar)). Her family name is associated with a longtime service station in the East New Market area of the county ([www.mapquest.com](https://www.mapquest.com/us/maryland/dockins-service-station-2704587#:~:text=Dockins%20Service%20Station%2C%204102%20E,4113%20http%3A%2F%2Fshell.com%20Dockins%20Service%20Station)). No record of her speaking at public meetings or holding civic positions was found ([www.wboc.com](https://www.wboc.com/archive/east-new-market-citizens-concerned-about-solar-farm-project/article_23b7861f-6bd3-5c6f-8422-e5a52ced3933.html#:~:text=WBOC%20spoke%20with%20neighbors%20at,are%20concerned%20about%20this%20project)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Have a respected local neighbor or agricultural extension agent reach out to discuss how the project will protect farmland character and minimize visual impact on her property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Brenda Faye Era",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002023881"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brenda Faye Era is part of a locally rooted family; she is the wife of the late Joseph G. Era III of Cambridge, who was active as a church trustee, American Legion member, and Ruritan Club president ([www.legacy.com](https://www.legacy.com/us/obituaries/baytobaynews-md/name/joseph-era-obituary?id=20351615#:~:text=dog%2C%20Pancho,Deborah)). The Era family maintains deep ties in Dorchester County, with relatives in nearby communities like Secretary and Hurlock ([www.legacy.com](https://www.legacy.com/us/obituaries/baytobaynews-md/name/joseph-era-obituary?id=20351615#:~:text=his%20devoted%20dog%2C%20Pancho%3B%20son,nieces%2C%20Leslie%20Fetzer%20of%20Pa)). She has not made any public statements on development, and her name did not appear in recent county meeting discussions on local solar projects ([www.wboc.com](https://www.wboc.com/archive/east-new-market-citizens-concerned-about-solar-farm-project/article_23b7861f-6bd3-5c6f-8422-e5a52ced3933.html#:~:text=WBOC%20spoke%20with%20neighbors%20at,are%20concerned%20about%20this%20project)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Widow of community leader",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage her through a community connection (such as a church or veterans’ group peer) who can emphasize plans for preserving agricultural heritage and safeguarding home values during the project’s development."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Harpers Legacy LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "11-32-100-019"
+        "1002019639",
+        "1002025892",
+        "1002032414"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Harpers Legacy LLC is a Maryland limited liability company that owns multiple parcels of land in Dorchester County (approximately 145.8 acres near Linkwood) ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20made%20a%20motion,Mr)). County records indicate this LLC’s property (on Harper Road near Hurlock) was selected as the site of a 20 MW solar farm (Todd Solar), with a 35-year lease agreement approved in 2018 ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20made%20a%20motion,Mr)). The County’s tax agreement for that project applied only to the solar equipment, confirming Harpers Legacy LLC retained land ownership during the solar development ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=business%20personal%20property%2C%20not%20the,land)) ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20made%20a%20motion,Mr)). No other business operations are noted for Harpers Legacy LLC; its activities appear limited to holding and leasing land for investment purposes ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20made%20a%20motion,Mr)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns ~145 acres used in a major solar project; local landowner but no known broader civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage principal owners quietly with win-win proposals (e.g., revenue sharing); emphasize respect for land legacy; anticipate openness to development that offers financial upside"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Edmondson Agriculture LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "1002023644"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Burma Rd Grain LLC appears to be a privately-held Illinois farm entity owning a parcel on Burma Road in Marengo Township ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=Museum%20www,the%20information%2C%20you%20can%20use)). The LLC’s name suggests a focus on grain farming or storage, but it has no listed corporate presence or public information aside from county land records (no business website or news mentions). No state-level filings or UCC liens were found under this name, implying it operates as a family-run farm business without external financing or separate ventures ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=Museum%20www,the%20information%2C%20you%20can%20use)). The company’s activities seem limited to agriculture on its land, and it has not publicly stated any position on local development proposals (likely maintaining a low profile) ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=Museum%20www,the%20information%2C%20you%20can%20use)).",
+      "claims": "Edmondson Agriculture LLC is a family-run farming entity based in Cambridge, Maryland ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=24019&page=19&progcode=total#:~:text=,%2441%2C988)). The LLC has received approximately $42,096 in federal farm program payments from 1995–2024, reflecting active agricultural operations on its Dorchester County land ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=24019&page=19&progcode=total#:~:text=,%2441%2C988)). The Edmondson family (e.g., Cornelia J. Edmondson of Cambridge) has separately received substantial farm subsidies, suggesting this LLC is part of a longstanding local farm enterprise ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=21613#:~:text=,%24%20129%2C893.73)) ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=21613#:~:text=67%20%20,%24%20127%2C517.35)). No records indicate involvement in commercial development beyond farming; the company’s interests seem focused on crop production and land stewardship.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Single-parcel farm ownership; no public or political role; influence confined to personal connections in farming community",
+      "influence_justification": "Moderate-size family farm; known in farming community but limited political or economic clout",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach via local farm networks or cooperative to build trust; reassure that development will not impede farm access or drainage; offer any needed mitigation (e.g., dust control, buffer) to address their farming concerns"
+        "engage": "Approach via personal outreach emphasizing respect for farming needs; highlight how the project can coexist with agriculture (buffer zones, etc.); address any concerns about soil, water, or long-term land use"
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -222,127 +957,24 @@
       "citations": null
     },
     {
-      "neighbor_id": "N-05",
-      "name": "John C Tr et al Martin",
+      "neighbor_id": "N-03",
+      "name": "Dorchester County, Maryland",
       "entity_category": "Organization",
-      "entity_type": "trust",
+      "entity_type": "government",
       "pins": [
-        "11-32-300-001",
-        "11-32-100-009"
+        "1002024667"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See RESIDENT table",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "Unknown",
-      "influence_justification": "",
-      "approach_recommendations": null,
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Commonwealth Edison Co",
-      "entity_category": "Organization",
-      "entity_type": "corporation",
-      "pins": [
-        "11-31-200-002",
-        "11-31-100-002",
-        "11-32-100-002"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Commonwealth Edison (ComEd) is Illinois’ largest electric utility, serving Chicago and most of Northern Illinois as a subsidiary of Exelon Corporation [Wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Edison). ComEd has wielded political influence in Illinois – a federal corruption case revealed the company arranged benefits for associates of the Illinois House Speaker in exchange for favorable energy legislation [AP News](https://apnews.com/article/598e993948fd1a2f05a3b80a3da9eeee). ComEd’s service territory spans about 11,400 square miles across northern Illinois (extending to McHenry County), and it maintains local grid infrastructure such as transmission lines and substations on its land holdings [MC2 Energy Services](https://mc2energyservices.com/service_map.php).",
+      "claims": "Dorchester County (local government) owns land adjoining Linkwood WMA, reflecting the county’s role in managing public assets ([dnr.maryland.gov](https://dnr.maryland.gov/wildlife/Pages/publiclands/eastern/linkwood.aspx#:~:text=forest%20ecosystem%2C%20Linkwood%20WMA%20is,wide%20range%20of%20forest%20animals)) ([dnr.maryland.gov](https://dnr.maryland.gov/wildlife/Pages/publiclands/eastern/linkwood.aspx#:~:text=Image%3A%20Linkwood%20WMA%20is%20located,Directions)). The County Council has shown a generally pro-development stance when it benefits the public; in 2018, the Council approved a 35-year Payment in Lieu of Taxes (PILOT) agreement for a 20 MW solar facility, citing significant long-term revenue for schools and services ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20made%20a%20motion,Mr)) ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20stated%20that%20the,He%20advised%20that%20the%20Planning)). County officials have balanced economic development with resident concerns – for example, requiring landscape buffers around energy projects to address community feedback ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Shiloh%20Camp%20Road%20and%20perhaps,Todd%20said%20during%20a%20State)) ([mdstatewire.com](https://mdstatewire.com/dorchester-county-council-met-october-2/#:~:text=Councilman%20Satterfield%20made%20a%20motion,Mr)). As the governing authority, Dorchester County influences zoning, permits, and tax policy for any new development in the area.",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "High",
-      "influence_justification": "Dominant regional utility with deep political connections and essential infrastructure; historically willing to exert influence for favorable policies",
+      "influence_justification": "Local governing body with regulatory power and control over land use and tax incentives",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage ComEd’s regional external affairs manager to address any grid or safety concerns. Emphasize how the project can improve local reliability or require infrastructure upgrades, aligning with ComEd’s interests to ensure a neutral or supportive stance."
+        "engage": "Engage county officials openly through formal channels; emphasize tax benefits and compliance with county plans; build community support to align with county’s public interest mandate"
       },
-      "entity_classification": "energy_developer",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Union Pacific Railroad Co",
-      "entity_category": "Organization",
-      "entity_type": "corporation",
-      "pins": [
-        "11-31-502-004",
-        "11-31-502-003",
-        "11-32-502-003"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Union Pacific Railroad Company is a Class I freight railroad operating a 32,100-mile network across the western and midwestern United States, under the parent company Union Pacific Corporation [Wikipedia](https://en.wikipedia.org/wiki/Union_Pacific_Railroad). Union Pacific expanded into northern Illinois by acquiring the Chicago & North Western Railway in 1995, gaining rail lines and yards in the greater Chicago region [Wikipedia](https://en.wikipedia.org/wiki/Union_Pacific_Railroad). The company’s public affairs strategy prioritizes issues directly impacting its rail operations and business performance, indicating it engages locally only when its transportation interests are at stake [Union Pacific Railroad](https://investor.unionpacific.com/ir-resources/political-contributions-policy-and-procedures/).",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "National infrastructure company with legal leverage over its right-of-way but minimal involvement in local community or politics unless rail operations are affected",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Coordinate with Union Pacific’s property and engineering department on any necessary rail crossing or safety agreements. Otherwise, expect minimal engagement from the railroad as long as the development does not interfere with its operations."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Freedom Lane LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "11-32-100-005",
-        "11-32-100-008",
-        "11-32-100-006"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Freedom Lane LLC is an Illinois limited liability company that owns multiple parcels of agricultural land in Marengo Township, McHenry County (as identified by the listed PINs) [McHenry County Assessor](https://www.mchenrycountyil.gov/departments/assessments/board-of-review/assessment-records). No public information is readily available about Freedom Lane LLC’s principals or business activities; it appears to be a passive landholding entity with no publicly recorded operations beyond property ownership [McHenry County Assessor](https://www.mchenrycountyil.gov/departments/assessments/board-of-review/assessment-records).",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "Unknown",
-      "influence_justification": "Privately held land investor with no known public profile or community role; beneficial owners and intentions are undisclosed",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Identify the managing member behind Freedom Lane LLC via records or local contacts and engage them discreetly. Align outreach with their financial interests (e.g., offer competitive land terms or buyout) to neutralize potential opposition given their likely investment motive."
-      },
-      "entity_classification": "land_investment",
+      "entity_classification": "municipal",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -358,11 +990,183 @@
       "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 42.2496,-88.6917",
-  "overview_summary": "Neither neighboring landowner has a documented stance on local development or clean energy projects. One is a long-established farmer with moderate community influence due to extensive landholdings, while the other appears to have a minimal public profile or influence. The neighboring entities include a county conservation authority focused on preserving open land, a small development company holding vacant parcels, and two farm-related LLCs with minimal public profiles. The McHenry County Conservation District wields significant influence and prioritizes environmental and open-space protection. The private LLC owners appear primarily interested in land value and agricultural use, with no overt public stance on development documented. The adjacent organizational landowners include a major electric utility (ComEd), a freight railroad corporation (Union Pacific), and a private landholding LLC (Freedom Lane LLC). ComEd and Union Pacific are large infrastructure entities focused on their operations; both have significant resources but typically remain neutral on local development unless their facilities are directly affected. Freedom Lane LLC appears to be a speculative land investor with little public information available, making its stance on new projects unclear and its influence limited to its ownership of the parcels.",
+  "location_context": "Neighbors within 0.5 mi of 38.5826909,-75.902169",
+  "overview_summary": "None of the five adjacent landowners have a documented stance for or against the development – all are currently categorized as unknown in terms of support or opposition. Two come from longstanding local farm families that carry significant social capital in Dorchester County, whereas the others appear to have relatively lower public profiles or community influence. All profiled neighbors have no documented public stance regarding the development, with 0 openly supporting or opposing it. One neighbor holds a high-impact position (the long-serving county sheriff), while the others appear to have low community influence due to limited public roles. All five neighboring landowners have no documented public stance on development or clean energy, so their positions remain unknown. None holds any official local government role or overt community leadership; overall their influence in the community appears to be low. None of the four profiled neighbors has made a public statement supporting or opposing the Linkwood area development, so all are currently classified with unknown stances. Their community influence appears limited, as none hold public office or prominent leadership roles locally. Most are private landowners with minimal public profiles, indicating that any concerns or opposition they might have would likely remain low-profile and individual. None of the five adjacent landowners has a publicly documented stance either supporting or opposing the project. Most maintain a low profile in the community, with one notable exception: a long-established farming family patriarch who carries moderate influence due to his family’s generations of local farming. Two local individual landowners were identified, neither of whom has a publicly documented stance on development. Both appear to have limited public profiles, and no direct evidence of support or opposition was found. Community influence among these neighbors is generally low, with one having some familial ties to local civic circles. Concerns common in the area include preserving farmland and home values, reflecting issues raised by other nearby residents. The adjacent landowners around Linkwood WMA include private LLCs tied to local farming interests and the county government. Two family-linked LLCs (Harpers Legacy LLC and Edmondson Agriculture LLC) own nearby farmlands, while Dorchester County owns a parcel as public land. These entities likely prioritize land value, agricultural use, and community considerations in evaluating new development. None appear to be large corporations; their influence stems more from land ownership and local ties than organized development activity, though the county government wields regulatory power.",
   "success": true,
-  "runtime_minutes": 15.65,
+  "runtime_minutes": 21.07,
   "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
     {
       "title": null,
       "url": null
@@ -445,12 +1249,16 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_055345_4811.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251220_055714_4267.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251220_055121_3303.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_074202_4246.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_074541_3073.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_075343_0803.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_074927_9880.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_074439_6566.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251220_074308_3264.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251220_074114_4714.json"
   ],
-  "city": "Marengo",
-  "county": "McHenry County",
-  "state": "IL",
-  "run_id": "702d1624-abff-4fb8-bd5d-582e3b5cced8"
+  "city": "East New Market",
+  "county": "Dorchester County",
+  "state": "MD",
+  "run_id": "b69a9b9d-672e-468c-afb0-9c6de649e7b0"
 }

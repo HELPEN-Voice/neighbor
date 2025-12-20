@@ -1,31 +1,31 @@
 {
-  "run_id": "702d1624-abff-4fb8-bd5d-582e3b5cced8",
-  "coordinates": "42.2496,-88.6917",
-  "state_code": "IL",
+  "run_id": "b69a9b9d-672e-468c-afb0-9c6de649e7b0",
+  "coordinates": "38.5826909,-75.902169",
+  "state_code": "MD",
   "parcels_analyzed": 37,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 17,
+    "median_structure_value": 154400.0,
+    "formatted": "$154,400",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "land_value_proxy": {
-    "valid_samples": 0,
-    "median_value_per_acre": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 23,
+    "median_value_per_acre": 1609.3028433028528,
+    "formatted": "$1,609/acre",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "N/A",
-    "land_risk_level": "UNKNOWN",
-    "land_risk_class": "risk-unknown",
-    "land_valid_samples": "0",
+    "median_structure_value": "$154,400",
+    "wealth_risk_level": "LOW",
+    "wealth_risk_class": "risk-low",
+    "wealth_valid_samples": "17",
+    "median_land_value_acre": "$1,609/acre",
+    "land_risk_level": "LOW",
+    "land_risk_class": "risk-low",
+    "land_valid_samples": "23",
     "parcels_analyzed": "37"
   }
 }

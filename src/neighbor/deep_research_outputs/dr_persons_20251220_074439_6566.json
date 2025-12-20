@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-12-20T07:44:39.656678",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Dorchester County",
+    "state": "MD",
+    "city": "Linkwood Wildlife Management Area",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the five adjacent landowners has a publicly documented stance either supporting or opposing the project. Most maintain a low profile in the community, with one notable exception: a long-established farming family patriarch who carries moderate influence due to his family’s generations of local farming.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Adedapo Olutoyin Amos",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026783"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Adedapo O. Amos owns property in the vicinity of the Linkwood Wildlife Management Area in Dorchester County and has no documented involvement in local development issues ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner, no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use personal, one-on-one outreach to introduce the project and listen to any concerns, given his lack of a public stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Donald L. Cheesman Sr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002032430"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donald L. Cheesman Sr. comes from a multi-generational Dorchester farming family – his late father, Thomas E. Cheesman Sr., was a lifelong farmer and Farm Bureau member ([www.legacy.com](https://www.legacy.com/us/obituaries/newszapmd/name/thomas-cheesman-obituary?id=24602226#:~:text=Thomas%20Edward%20Cheesman%20Sr,14%2C%202008%2C%20in)). The Cheesman family remains active in local agriculture, as Donald L. Cheesman Jr. of East New Market received about $1,627 in recent farm support payments ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=24019&page=8&progcode=tot_cfap2#:~:text=171%20%20,%241%2C540)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-generation farm family",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or agricultural leader reach out, emphasizing that the project will protect farmland use and respect the family’s farming legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Benjamin Connor Doyle",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026589"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Benjamin C. Doyle owns land near the Linkwood WMA in Dorchester County and has not taken any public role or position in local development issues ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage him directly with an introductory conversation, focusing on understanding any personal concerns since he has not voiced opinions publicly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Kevin C. Parker Sr. et al.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002026198"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin C. Parker Sr. (and co-owners) hold property around the Linkwood Wildlife Management Area, but he has not been prominently involved in community or development discussions ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Family landowner; not in public spotlight",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Include his family in outreach and emphasize local control – reassure them the project will not undermine their land’s long-term value or heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Jeffrey S. Graybill",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1002023725"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jeffrey S. Graybill is a landowner near the Linkwood WMA in Dorchester County and has no recorded public stance or civic engagement regarding development proposals ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out with a neighborly approach and provide information calmly, addressing any questions to build trust, as he has not been active publicly on these issues."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the five adjacent landowners has a publicly documented stance either supporting or opposing the project. Most maintain a low profile in the community, with one notable exception: a long-established farming family patriarch who carries moderate influence due to his family’s generations of local farming.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Adedapo Olutoyin Amos\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1002026783\"],\n      \"claims\": \"Adedapo O. Amos owns property in the vicinity of the Linkwood Wildlife Management Area in Dorchester County and has no documented involvement in local development issues ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner, no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use personal, one-on-one outreach to introduce the project and listen to any concerns, given his lack of a public stance.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Donald L. Cheesman Sr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1002032430\"],\n      \"claims\": \"Donald L. Cheesman Sr. comes from a multi-generational Dorchester farming family – his late father, Thomas E. Cheesman Sr., was a lifelong farmer and Farm Bureau member ([www.legacy.com](https://www.legacy.com/us/obituaries/newszapmd/name/thomas-cheesman-obituary?id=24602226#:~:text=Thomas%20Edward%20Cheesman%20Sr,14%2C%202008%2C%20in)). The Cheesman family remains active in local agriculture, as Donald L. Cheesman Jr. of East New Market received about $1,627 in recent farm support payments ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=24019&page=8&progcode=tot_cfap2#:~:text=171%20%20,%241%2C540)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Multi-generation farm family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local farmer or agricultural leader reach out, emphasizing that the project will protect farmland use and respect the family’s farming legacy.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Benjamin Connor Doyle\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1002026589\"],\n      \"claims\": \"Benjamin C. Doyle owns land near the Linkwood WMA in Dorchester County and has not taken any public role or position in local development issues ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic involvement\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage him directly with an introductory conversation, focusing on understanding any personal concerns since he has not voiced opinions publicly.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Kevin C. Parker Sr. et al.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1002026198\"],\n      \"claims\": \"Kevin C. Parker Sr. (and co-owners) hold property around the Linkwood Wildlife Management Area, but he has not been prominently involved in community or development discussions ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family landowner; not in public spotlight\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Include his family in outreach and emphasize local control – reassure them the project will not undermine their land’s long-term value or heritage.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Jeffrey S. Graybill\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1002023725\"],\n      \"claims\": \"Jeffrey S. Graybill is a landowner near the Linkwood WMA in Dorchester County and has no recorded public stance or civic engagement regarding development proposals ([visitdorchester.org](https://visitdorchester.org/listing/linkwood-wildlife-management-area#:~:text=A%20remnant%20of%20a%20larger,wide%20range%20of%20forest%20animals)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out with a neighborly approach and provide information calmly, addressing any questions to build trust, as he has not been active publicly on these issues.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
