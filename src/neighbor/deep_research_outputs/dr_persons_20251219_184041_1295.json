@@ -1,0 +1,181 @@
+{
+  "timestamp": "2025-12-19T18:40:41.129560",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Lincoln County",
+    "state": "WY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All neighboring landowners have an **unknown** stance on the project, with no clear public record of support or opposition. None hold formal public offices; most are small-scale ranchers with **low** community influence, aside from one long-established ranch family that carries moderate social weight locally.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jason & Tracy Thornock",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23202240000900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason and Tracy Thornock own a ranch in Lincoln County, Wyoming, and in 2015 they filed an unsuccessful lawsuit claiming their property was landlocked and seeking a private access road ([law.justia.com](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html#:~:text=Jason%20and%20Tracy%20Thornock%20,showed%20that%20Plaintiffs%20had%20direct)). Jason Thornock also sued PacifiCorp in a contract dispute over power line easements for an irrigation pivot on his ranch; the Wyoming Supreme Court ruled against him in 2016 ([law.justia.com](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html#:~:text=Jason%20Thornock%20requested%20that%20PacifiCorp,first%20contract%20between%20the%20parties)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public office; private ranchers",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "fair_contracting"
+        ],
+        "engage": "Engage the Thornocks with a straightforward, businesslike approach that respects their property rights. Emphasize clear written agreements and assure them the development will not interfere with their ranch access or operations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Justin & Jamie McKinnon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23202510002100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin and Jamie McKinnon are landowners based near Cokeville in Lincoln County, and their family ranch has received around $227,000 in federal farm subsidies from 1995 to 2024 ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=56023&page=1&progcode=total#:~:text=33%20%20,%24223%2C311)). This indicates a substantial cattle or hay operation, but neither Justin nor Jamie has a public profile in local government or development issues (no mentions in news or civic records).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local ranchers; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Meet on their farm to discuss how the project can coexist with or even benefit their agricultural operation. Highlight protections for their grazing land and any improvements (like road upkeep) that will help their ranch."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "State of Utah",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "44-28-000-0002",
+        "44-21-000-0001",
+        "44-29-000-0002",
+        "44-20-000-0001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "These parcels are owned by the State of Utah as part of its state trust lands. Such lands were granted to Utah at statehood and are managed by the Utah Trust Lands Administration to generate revenue for public schools and other institutions ([trustlands.utah.gov](https://trustlands.utah.gov/faqs/#:~:text=What%20are%20trust%20lands%3F)). No individual resident is associated with these properties (they are not privately owned).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Institutional owner, not a local resident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordination would occur through official channels (Utah’s trust land administration) rather than personal outreach."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Monte McKinnon (Trustee)",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "23202410002000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Monte McKinnon is listed as the trustee of a family ranch property in Lincoln County, suggesting the McKinnon land is held in a trust. He is part of the longstanding McKinnon ranching family based around Cokeville, Wyoming ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=56023&page=1&progcode=total#:~:text=33%20%20,%24223%2C311)), although he himself has kept a low public profile with no noted involvement in local civic affairs.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime ranch family",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Approach through a personal, respectful conversation that acknowledges the family’s long legacy in the area. Involve his family (e.g. adult children managing the ranch) and focus on how the project can be shaped to honor and protect their generational land investment."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All neighboring landowners have an **unknown** stance on the project, with no clear public record of support or opposition. None hold formal public offices; most are small-scale ranchers with **low** community influence, aside from one long-established ranch family that carries moderate social weight locally.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Jason & Tracy Thornock\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"23202240000900\"],\n      \"claims\": \"Jason and Tracy Thornock own a ranch in Lincoln County, Wyoming, and in 2015 they filed an unsuccessful lawsuit claiming their property was landlocked and seeking a private access road ([law.justia.com](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html#:~:text=Jason%20and%20Tracy%20Thornock%20,showed%20that%20Plaintiffs%20had%20direct)). Jason Thornock also sued PacifiCorp in a contract dispute over power line easements for an irrigation pivot on his ranch; the Wyoming Supreme Court ruled against him in 2016 ([law.justia.com](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html#:~:text=Jason%20Thornock%20requested%20that%20PacifiCorp,first%20contract%20between%20the%20parties)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public office; private ranchers\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"fair_contracting\"],\n        \"engage\": \"Engage the Thornocks with a straightforward, businesslike approach that respects their property rights. Emphasize clear written agreements and assure them the development will not interfere with their ranch access or operations.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Justin & Jamie McKinnon\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"23202510002100\"],\n      \"claims\": \"Justin and Jamie McKinnon are landowners based near Cokeville in Lincoln County, and their family ranch has received around $227,000 in federal farm subsidies from 1995 to 2024 ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=56023&page=1&progcode=total#:~:text=33%20%20,%24223%2C311)). This indicates a substantial cattle or hay operation, but neither Justin nor Jamie has a public profile in local government or development issues (no mentions in news or civic records).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local ranchers; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Meet on their farm to discuss how the project can coexist with or even benefit their agricultural operation. Highlight protections for their grazing land and any improvements (like road upkeep) that will help their ranch.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"State of Utah\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"Organization\",\n      \"pins\": [\"44-28-000-0002\", \"44-21-000-0001\", \"44-29-000-0002\", \"44-20-000-0001\"],\n      \"claims\": \"These parcels are owned by the State of Utah as part of its state trust lands. Such lands were granted to Utah at statehood and are managed by the Utah Trust Lands Administration to generate revenue for public schools and other institutions ([trustlands.utah.gov](https://trustlands.utah.gov/faqs/#:~:text=What%20are%20trust%20lands%3F)). No individual resident is associated with these properties (they are not privately owned).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Institutional owner, not a local resident\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Coordination would occur through official channels (Utah’s trust land administration) rather than personal outreach.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Monte McKinnon (Trustee)\",\n      \"entity_category\": \"Trust\",\n      \"entity_type\": \"Trust\",\n      \"pins\": [\"23202410002000\"],\n      \"claims\": \"Monte McKinnon is listed as the trustee of a family ranch property in Lincoln County, suggesting the McKinnon land is held in a trust. He is part of the longstanding McKinnon ranching family based around Cokeville, Wyoming ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=56023&page=1&progcode=total#:~:text=33%20%20,%24223%2C311)), although he himself has kept a low public profile with no noted involvement in local civic affairs.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime ranch family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"farmland_preservation\"],\n        \"engage\": \"Approach through a personal, respectful conversation that acknowledges the family’s long legacy in the area. Involve his family (e.g. adult children managing the ranch) and focus on how the project can be shaped to honor and protect their generational land investment.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

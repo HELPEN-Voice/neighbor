@@ -1,148 +1,15 @@
 {
+  "timestamp": "2025-12-19T18:24:16.876042",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Lincoln County",
+    "state": "WY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neighboring landowners encompass both traditional ranching entities and investment-focused LLCs. Putnam Ranch, LLP and Pope Cattle Refuge, L.L.C. are long-standing ranch operations rooted in Lincoln County’s agricultural community, whereas G & D Properties, LLC and Willis Land Wyoming, LLC appear to be private landholding companies with no visible local operations. The ranch family partnerships likely carry local influence and prioritize land preservation, while the LLCs are more enigmatic, possibly holding land for speculative or investment value.",
   "neighbors": [
-    {
-      "neighbor_id": "N-01",
-      "name": "Jason & Tracy Thornock",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "23202240000900"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jason and Tracy Thornock own a ranch in Lincoln County, Wyoming, and in 2015 they filed an unsuccessful lawsuit claiming their property was landlocked and seeking a private access road ([law.justia.com](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html#:~:text=Jason%20and%20Tracy%20Thornock%20,showed%20that%20Plaintiffs%20had%20direct)). Jason Thornock also sued PacifiCorp in a contract dispute over power line easements for an irrigation pivot on his ranch; the Wyoming Supreme Court ruled against him in 2016 ([law.justia.com](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html#:~:text=Jason%20Thornock%20requested%20that%20PacifiCorp,first%20contract%20between%20the%20parties)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public office; private ranchers",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "fair_contracting"
-        ],
-        "engage": "Engage the Thornocks with a straightforward, businesslike approach that respects their property rights. Emphasize clear written agreements and assure them the development will not interfere with their ranch access or operations."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Justin & Jamie McKinnon",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "23202510002100"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Justin and Jamie McKinnon are landowners based near Cokeville in Lincoln County, and their family ranch has received around $227,000 in federal farm subsidies from 1995 to 2024 ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=56023&page=1&progcode=total#:~:text=33%20%20,%24223%2C311)). This indicates a substantial cattle or hay operation, but neither Justin nor Jamie has a public profile in local government or development issues (no mentions in news or civic records).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local ranchers; no civic roles",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation"
-        ],
-        "engage": "Meet on their farm to discuss how the project can coexist with or even benefit their agricultural operation. Highlight protections for their grazing land and any improvements (like road upkeep) that will help their ranch."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "State of Utah",
-      "entity_category": "Resident",
-      "entity_type": "Organization",
-      "pins": [
-        "44-28-000-0002",
-        "44-21-000-0001",
-        "44-29-000-0002",
-        "44-20-000-0001"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "These parcels are owned by the State of Utah as part of its state trust lands. Such lands were granted to Utah at statehood and are managed by the Utah Trust Lands Administration to generate revenue for public schools and other institutions ([trustlands.utah.gov](https://trustlands.utah.gov/faqs/#:~:text=What%20are%20trust%20lands%3F)). No individual resident is associated with these properties (they are not privately owned).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Institutional owner, not a local resident",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Coordination would occur through official channels (Utah’s trust land administration) rather than personal outreach."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Monte McKinnon (Trustee)",
-      "entity_category": "Resident",
-      "entity_type": "Trust",
-      "pins": [
-        "23202410002000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Monte McKinnon is listed as the trustee of a family ranch property in Lincoln County, suggesting the McKinnon land is held in a trust. He is part of the longstanding McKinnon ranching family based around Cokeville, Wyoming ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=56023&page=1&progcode=total#:~:text=33%20%20,%24223%2C311)), although he himself has kept a low public profile with no noted involvement in local civic affairs.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Longtime ranch family",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "farmland_preservation"
-        ],
-        "engage": "Approach through a personal, respectful conversation that acknowledges the family’s long legacy in the area. Involve his family (e.g. adult children managing the ranch) and focus on how the project can be shaped to honor and protect their generational land investment."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
     {
       "neighbor_id": "N-01",
       "name": "G & D Properties LLC",
@@ -152,9 +19,9 @@
         "23203410000200",
         "22200130001900"
       ],
-      "owns_adjacent_parcel": "Yes",
+      "owns_adjacent_parcel": "No",
       "claims": "G & D Properties LLC is registered in Wyoming as a limited liability company owning multiple parcels in Lincoln County, but public records do not disclose its managers or members [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/). The company has no known local business presence beyond holding land, and no UCC financing statements or other filings were found to indicate active operations or indebtedness in Wyoming [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/). Beneficial ownership remains unknown due to Wyoming’s privacy laws for LLCs, suggesting this entity may be an investment vehicle rather than a local family business [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/).",
-      "confidence": "medium",
+      "confidence": "low",
       "noted_stance": null,
       "community_influence": "Low",
       "influence_justification": "Minimal public footprint; no known local stakeholders or community involvement beyond property ownership",
@@ -188,7 +55,7 @@
       ],
       "owns_adjacent_parcel": "No",
       "claims": "Willis Land Wyoming LLC is an entity holding land in Lincoln County, Wyoming, with little publicly available information on its ownership or operations ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=Wyoming%20Capitol%20building%20in%20Cheyenne,Idler%20for%20Cowboy%20State%20Daily)) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=entities%20some%20of%20the%20nation%E2%80%99s,LLC%29%20filing%20laws)). The LLC’s name suggests a private investment (possibly by an individual or family named Willis), but Wyoming’s anonymous LLC filing practices mean the true beneficial owner is not disclosed [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/). No business licenses, local addresses, or media references were found for this company, indicating it functions purely as a landholding vehicle ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=A%20county,place%20for%20nearly%2017%2C000%20businesses)) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=There%E2%80%99s%20a%20new%20spinoff%20on,LLC%29%20filing%20laws)). There are no recorded political donations or court cases linked to Willis Land Wyoming LLC in Wyoming, further implying its involvement in the community is limited to passive land ownership ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=A%20county,place%20for%20nearly%2017%2C000%20businesses)).",
-      "confidence": "medium",
+      "confidence": "low",
       "noted_stance": null,
       "community_influence": "Low",
       "influence_justification": "Out-of-area ownership; no evident local role or contributions; likely passive investor",
@@ -279,31 +146,7 @@
       "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 41.933732,-111.01683",
-  "overview_summary": "All neighboring landowners have an **unknown** stance on the project, with no clear public record of support or opposition. None hold formal public offices; most are small-scale ranchers with **low** community influence, aside from one long-established ranch family that carries moderate social weight locally. Neighboring landowners encompass both traditional ranching entities and investment-focused LLCs. Putnam Ranch, LLP and Pope Cattle Refuge, L.L.C. are long-standing ranch operations rooted in Lincoln County’s agricultural community, whereas G & D Properties, LLC and Willis Land Wyoming, LLC appear to be private landholding companies with no visible local operations. The ranch family partnerships likely carry local influence and prioritize land preservation, while the LLCs are more enigmatic, possibly holding land for speculative or investment value.",
-  "success": true,
-  "runtime_minutes": 25.13,
-  "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
+  "annotations": [
     {
       "title": null,
       "url": null
@@ -369,12 +212,6 @@
       "url": null
     }
   ],
-  "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20251219_184041_1295.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20251219_182416_8760.json"
-  ],
-  "city": null,
-  "county": "Taylor",
-  "state": "WY",
-  "run_id": "3b0d6f1f-601e-4d65-bd42-3b11d792bd1e"
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neighboring landowners encompass both traditional ranching entities and investment-focused LLCs. Putnam Ranch, LLP and Pope Cattle Refuge, L.L.C. are long-standing ranch operations rooted in Lincoln County’s agricultural community, whereas G & D Properties, LLC and Willis Land Wyoming, LLC appear to be private landholding companies with no visible local operations. The ranch family partnerships likely carry local influence and prioritize land preservation, while the LLCs are more enigmatic, possibly holding land for speculative or investment value.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"G & D Properties LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"23203410000200\", \"22200130001900\"],\n      \"claims\": \"G & D Properties LLC is registered in Wyoming as a limited liability company owning multiple parcels in Lincoln County, but public records do not disclose its managers or members [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/). The company has no known local business presence beyond holding land, and no UCC financing statements or other filings were found to indicate active operations or indebtedness in Wyoming [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/). Beneficial ownership remains unknown due to Wyoming’s privacy laws for LLCs, suggesting this entity may be an investment vehicle rather than a local family business [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Minimal public footprint; no known local stakeholders or community involvement beyond property ownership\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Sale or lease profit\", \"Minimal local ties\"],\n      \"approach_recommendations\": \"Unknown principals – engage through registered agent to identify decision-makers; emphasize financial incentives or buyout options given likely investment motive; expect limited community pushback unless property values are impacted\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Willis Land Wyoming LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"22200340002000\", \"22200130002000\"],\n      \"claims\": \"Willis Land Wyoming LLC is an entity holding land in Lincoln County, Wyoming, with little publicly available information on its ownership or operations ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=Wyoming%20Capitol%20building%20in%20Cheyenne,Idler%20for%20Cowboy%20State%20Daily)) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=entities%20some%20of%20the%20nation%E2%80%99s,LLC%29%20filing%20laws)). The LLC’s name suggests a private investment (possibly by an individual or family named Willis), but Wyoming’s anonymous LLC filing practices mean the true beneficial owner is not disclosed [Cowboy State Daily](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/). No business licenses, local addresses, or media references were found for this company, indicating it functions purely as a landholding vehicle ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=A%20county,place%20for%20nearly%2017%2C000%20businesses)) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=There%E2%80%99s%20a%20new%20spinoff%20on,LLC%29%20filing%20laws)). There are no recorded political donations or court cases linked to Willis Land Wyoming LLC in Wyoming, further implying its involvement in the community is limited to passive land ownership ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=A%20county,place%20for%20nearly%2017%2C000%20businesses)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-area ownership; no evident local role or contributions; likely passive investor\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Property resale value\", \"Tax considerations\", \"Low engagement in local issues\"],\n      \"approach_recommendations\": \"Identify and reach out to the owner or representative (possibly via the registered agent); emphasize financial outcomes (e.g., buy-out or land value impacts) to gain cooperation; anticipate neutral stance unless investment is threatened\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Putnam Ranch, LLP\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llp\",\n      \"pins\": [\"22200220002100\", \"44-28-000-0001\"],\n      \"claims\": \"Putnam Ranch, LLP is a Wyoming limited liability partnership that appears to represent a family ranch operation in Lincoln County (Star Valley area), as indicated by its name and long-term land ownership ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=There%E2%80%99s%20a%20new%20spinoff%20on,LLC%29%20filing%20laws)) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=entities%20some%20of%20the%20nation%E2%80%99s,LLC%29%20filing%20laws)). The partnership holds at least two sizable parcels, consistent with an established cattle ranch or agricultural enterprise in the community (likely multi-generational, though specific family members are not publicly listed) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=A%20county,place%20for%20nearly%2017%2C000%20businesses)) ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=There%E2%80%99s%20a%20new%20spinoff%20on,LLC%29%20filing%20laws)). No separate commercial business filings or corporate officers are listed beyond the partnership itself, suggesting the Putnam Ranch is managed privately by the family and primarily focused on ranching activities rather than diversified business ventures ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=A%20county,place%20for%20nearly%2017%2C000%20businesses)). The partnership has no recorded involvement in public disputes or developments, implying its stance would center on protecting its agricultural land use and property rights ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/23/evidence-piles-up-showing-wyomings-secretive-llc-filing-laws-being-used-for-fraud/#:~:text=There%E2%80%99s%20a%20new%20spinoff%20on,LLC%29%20filing%20laws)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Long-standing ranch family; owns significant acreage; respected local agricultural presence but no overt political role known\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of ranch land\", \"Avoiding disruption to cattle operations\", \"Family legacy and land value\"],\n      \"approach_recommendations\": \"Engage the Putnam family partners directly with respect for their ranching heritage; address any development impact on grazing or land use; consider offering agreements that protect or benefit their agricultural interests to gain support\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Pope Cattle Refuge LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"23202510000100\"],\n      \"claims\": \"Pope Cattle Refuge, L.L.C. is a Wyoming LLC formed on December 31, 2012, with its legal address in Cokeville, Lincoln County [B2BHint](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392). The company is part of the Pope family’s ranching enterprises – records show that Evan Pope is listed as the organizer and registered agent, and he also manages related entities like Pope Rawhide, LLC and Pope Shield, LLC, indicating a significant family-run cattle operation ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Legal%20address%20230%20Taft%20Avenue,40%20Cokeville%2C%20WY%2083114%20USA)) ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Officers)). The Pope family’s entities collectively hold substantial ranch acreage in the area, and their LLC names suggest a focus on cattle raising and land conservation (“Refuge” and “Rawhide”) under family ownership ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Legal%20address%20230%20Taft%20Avenue,40%20Cokeville%2C%20WY%2083114%20USA)) ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Evan%20Pope)). There is no indication of non-ranch business activities; the family’s public profile is tied to local agriculture, implying that Pope Cattle Refuge LLC’s priorities lie in maintaining their cattle ranching interests and rural land use ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Legal%20address%20230%20Taft%20Avenue,40%20Cokeville%2C%20WY%2083114%20USA)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Established local ranch family; multiple landholdings; involved in community through agriculture (not through politics, but respected locally)\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Protecting grazing land\", \"Ranch profitability and legacy\", \"Avoiding land use conflicts\"],\n      \"approach_recommendations\": \"Contact managing member Evan Pope as the family’s point person; build trust by acknowledging their stewardship of the land; offer project adjustments or benefits (e.g., fencing, land improvements) that address cattle operation concerns to mitigate opposition\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
 }
