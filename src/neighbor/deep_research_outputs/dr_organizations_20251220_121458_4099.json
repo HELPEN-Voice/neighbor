@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-20T12:14:58.410018",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Schoharie County",
+    "state": "NY",
+    "city": "Cobleskill",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Rock District Solar LLC appears to be a special-purpose entity backed by Greenbacker Renewable Energy, aimed at constructing a 20 MW solar farm in Schoharie County. This profile suggests a commercial renewable energy developer (not a local resident or grassroots group). As a neighbor, they are likely focused on advancing their state-permitted solar project; they could potentially align with other renewable initiatives, but might also compete for grid connection capacity or similar resources.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Rock District Solar LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "33.-2-1",
+        "33.-5-8",
+        "33.-2-3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "In line with New York's Clean Energy Standard (targeting 70% renewable electricity by 2030), Greenbacker Renewable Energy Company is proposing the 20 MW Rock District Solar project in Schoharie County, New York [Cypress Creek Renewables — company website, accessed 2025-12-20; \"Greenbacker Renewable Energy Company is proposing the construction of 'Rock District Solar.' The proposed Facility is a 20 megawatt (MW) photovoltaic (PV) solar energy generating project located within the Towns of Carlisle and Seward, Schoharie County, New York.\"](https://ccrenew.com/rock-district/). The project's site spans roughly 316 acres of rural land (with about 125 acres used for solar infrastructure) and will interconnect via an adjacent 69 kV transmission line [Cypress Creek Renewables — company website, accessed 2025-12-20; \"total approximately 316 acres, of which approximately 125 acres will be occupied by Facility infrastructure ... 69 kilovolt (kV) transmission line.\"](https://ccrenew.com/rock-district/). A coordinated environmental review (SEQRA) found no significant impacts, and the project's Section 94-c permit application is under state review by the Office of Renewable Energy Siting [Cypress Creek Renewables — company website, accessed 2025-12-20; \"no significant adverse environmental impacts ... reviewed by ORES\"](https://ccrenew.com/rock-district/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Backed by a well-funded renewable energy firm (Greenbacker); pursuing a 20 MW solar project under state review; minimal local history or community ties.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate directly with the project's sponsor (Greenbacker Renewable Energy) to address any mutual concerns. Emphasize shared renewable goals and ensure your plans won't hinder their solar farm; explore potential collaboration on grid interconnection or community outreach."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Rock District Solar LLC appears to be a special-purpose entity backed by Greenbacker Renewable Energy, aimed at constructing a 20 MW solar farm in Schoharie County. This profile suggests a commercial renewable energy developer (not a local resident or grassroots group). As a neighbor, they are likely focused on advancing their state-permitted solar project; they could potentially align with other renewable initiatives, but might also compete for grid connection capacity or similar resources.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Rock District Solar LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"33.-2-1\", \"33.-5-8\", \"33.-2-3\"],\n      \"claims\": \"In line with New York's Clean Energy Standard (targeting 70% renewable electricity by 2030), Greenbacker Renewable Energy Company is proposing the 20 MW Rock District Solar project in Schoharie County, New York [Cypress Creek Renewables — company website, accessed 2025-12-20; \\\"Greenbacker Renewable Energy Company is proposing the construction of 'Rock District Solar.' The proposed Facility is a 20 megawatt (MW) photovoltaic (PV) solar energy generating project located within the Towns of Carlisle and Seward, Schoharie County, New York.\\\"](https://ccrenew.com/rock-district/). The project's site spans roughly 316 acres of rural land (with about 125 acres used for solar infrastructure) and will interconnect via an adjacent 69 kV transmission line [Cypress Creek Renewables — company website, accessed 2025-12-20; \\\"total approximately 316 acres, of which approximately 125 acres will be occupied by Facility infrastructure ... 69 kilovolt (kV) transmission line.\\\"](https://ccrenew.com/rock-district/). A coordinated environmental review (SEQRA) found no significant impacts, and the project's Section 94-c permit application is under state review by the Office of Renewable Energy Siting [Cypress Creek Renewables — company website, accessed 2025-12-20; \\\"no significant adverse environmental impacts ... reviewed by ORES\\\"](https://ccrenew.com/rock-district/).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Backed by a well-funded renewable energy firm (Greenbacker); pursuing a 20 MW solar project under state review; minimal local history or community ties.\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Financial return\", \"Regulatory approval and grid access\", \"State renewable targets\"],\n      \"approach_recommendations\": \"Coordinate directly with the project's sponsor (Greenbacker Renewable Energy) to address any mutual concerns. Emphasize shared renewable goals and ensure your plans won't hinder their solar farm; explore potential collaboration on grid interconnection or community outreach.\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

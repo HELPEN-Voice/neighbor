@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-12-20T12:30:08.313321",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Schoharie County",
+    "state": "NY",
+    "city": "Cobleskill",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "For all five profiled neighbors, no clear public stance on development or clean energy could be identified (0 support, 0 oppose, 5 unknown). Only one neighbor – an influential former local official – stands out with high community influence; the rest appear to have low profiles and minimal sway in local affairs.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Arthur E. Graulich",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "23.-2-19"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arthur E. Graulich was a lifelong farmer and local official who passed away in February 2024 at age 94 [Mereness-Putnam Funeral Home](https://www.merenessputnamfuneralhome.com/m/obituaries/Arthur-Graulich/). He served 18 years as Town of Carlisle Supervisor and chaired the Schoharie County Board of Supervisors, while also serving on town and county planning boards and the county agriculture committee [Mereness-Putnam Funeral Home](https://www.merenessputnamfuneralhome.com/m/obituaries/Arthur-Graulich/). His family farm, Argus Acres, has operated in Schoharie County since 1948, reflecting his deep roots in local agriculture [Mereness-Putnam Funeral Home](https://www.merenessputnamfuneralhome.com/m/obituaries/Arthur-Graulich/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "County board ex-chair; longtime farm advocate",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control"
+        ],
+        "engage": "Engage via his family or trusted farm community contacts, emphasizing respect for his farm legacy and local oversight."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Francis Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "34.-1-1.2",
+        "23.-2-16"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Francis Johnson is a Cobleskill-area landowner, but little publicly available information exists about him or his activities [Whitepages](https://www.whitepages.com/name/Francis-Johnson/NY). No references to Johnson were found in local meeting records or media, suggesting he has not taken any visible role in community affairs [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Multi-parcel landowner; no civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach personally via a farming community connection, emphasizing listening to any land use or property concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Carl Ilowiecki",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "24.-1-8"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carl Ilowiecki owns a rural parcel in the Cobleskill area and maintains a very low public profile [Whitepages](https://www.whitepages.com/name/Carl-Ilowiecki/NY). No public records or news mentions show Ilowiecki engaging in local civic matters or commenting on development issues [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowner; no known civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a neighborly, low-key approach through someone he trusts, addressing any questions about property impacts while respecting his privacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Harry Laux",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23.-2-10.2",
+        "23.-2-10.3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Harry Laux is a local landowner with multiple parcels, but he has virtually no public presence or documented statements in community forums [Whitepages](https://www.whitepages.com/name/Harry-Laux/NY). A search of local records and media turned up no involvement by Laux in civic or development issues [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Multi-parcel landowner; no civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a familiar local peer reach out, stressing that any plans will respect his property and rural lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Mark Pinheiro",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23.-2-10.111"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark Pinheiro owns a parcel in the Cobleskill area but has no public profile or known community involvement [Whitepages](https://www.whitepages.com/name/Mark-Pinheiro/NY). There are no public indications of Pinheiro’s views on local development, and his name does not appear in any local civic records or news reports [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a straightforward, informative approach (e.g., a personal visit) to address any questions he may have about noise, traffic, or property impacts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"For all five profiled neighbors, no clear public stance on development or clean energy could be identified (0 support, 0 oppose, 5 unknown). Only one neighbor \\u2013 an influential former local official \\u2013 stands out with high community influence; the rest appear to have low profiles and minimal sway in local affairs.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Arthur E. Graulich\",\n      \"entity_category\": \"Estate\",\n      \"entity_type\": \"Estate\",\n      \"pins\": [\"23.-2-19\"],\n      \"claims\": \"Arthur E. Graulich was a lifelong farmer and local official who passed away in February 2024 at age 94 [Mereness-Putnam Funeral Home](https://www.merenessputnamfuneralhome.com/m/obituaries/Arthur-Graulich/). He served 18 years as Town of Carlisle Supervisor and chaired the Schoharie County Board of Supervisors, while also serving on town and county planning boards and the county agriculture committee [Mereness-Putnam Funeral Home](https://www.merenessputnamfuneralhome.com/m/obituaries/Arthur-Graulich/). His family farm, Argus Acres, has operated in Schoharie County since 1948, reflecting his deep roots in local agriculture [Mereness-Putnam Funeral Home](https://www.merenessputnamfuneralhome.com/m/obituaries/Arthur-Graulich/).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"high\",\n      \"influence_justification\": \"County board ex-chair; longtime farm advocate\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"local_control\"],\n        \"engage\": \"Engage via his family or trusted farm community contacts, emphasizing respect for his farm legacy and local oversight.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Francis Johnson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"34.-1-1.2\", \"23.-2-16\"],\n      \"claims\": \"Francis Johnson is a Cobleskill-area landowner, but little publicly available information exists about him or his activities [Whitepages](https://www.whitepages.com/name/Francis-Johnson/NY). No references to Johnson were found in local meeting records or media, suggesting he has not taken any visible role in community affairs [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"low\",\n      \"influence_justification\": \"Multi-parcel landowner; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach personally via a farming community connection, emphasizing listening to any land use or property concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Carl Ilowiecki\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"24.-1-8\"],\n      \"claims\": \"Carl Ilowiecki owns a rural parcel in the Cobleskill area and maintains a very low public profile [Whitepages](https://www.whitepages.com/name/Carl-Ilowiecki/NY). No public records or news mentions show Ilowiecki engaging in local civic matters or commenting on development issues [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"low\",\n      \"influence_justification\": \"Landowner; no known civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a neighborly, low-key approach through someone he trusts, addressing any questions about property impacts while respecting his privacy.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Harry Laux\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"23.-2-10.2\", \"23.-2-10.3\"],\n      \"claims\": \"Harry Laux is a local landowner with multiple parcels, but he has virtually no public presence or documented statements in community forums [Whitepages](https://www.whitepages.com/name/Harry-Laux/NY). A search of local records and media turned up no involvement by Laux in civic or development issues [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"low\",\n      \"influence_justification\": \"Multi-parcel landowner; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a familiar local peer reach out, stressing that any plans will respect his property and rural lifestyle.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Mark Pinheiro\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"23.-2-10.111\"],\n      \"claims\": \"Mark Pinheiro owns a parcel in the Cobleskill area but has no public profile or known community involvement [Whitepages](https://www.whitepages.com/name/Mark-Pinheiro/NY). There are no public indications of Pinheiro\\u2019s views on local development, and his name does not appear in any local civic records or news reports [Schoharie County Public Documents](https://www2.schohariecounty-ny.gov/EdocWebApp/faces/SchoCo/BoardMinutesIndex.xhtml).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"low\",\n      \"influence_justification\": \"Landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a straightforward, informative approach (e.g., a personal visit) to address any questions he may have about noise, traffic, or property impacts.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
