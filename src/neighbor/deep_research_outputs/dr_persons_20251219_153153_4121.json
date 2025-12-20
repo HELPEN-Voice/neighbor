@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-12-19T15:31:53.412184",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Albany County",
+    "state": "NY",
+    "city": "Selkirk",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five profiled neighbors have no clear public stance on local development, with each classified as \"unknown\" in terms of support or opposition. None of these landowners hold prominent community positions or notable influence; all are considered to have low individual impact in the area.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kjeld J. Van Dusen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-3-2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kjeld J. Van Dusen is listed as the owner of a parcel (SBL 143.-3-2) in Selkirk on the Town of Bethlehem’s 2024 assessment roll [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). No record could be found of Van Dusen publicly commenting on local development proposals in meetings or news coverage [Times Union](https://www.timesunion.com/news/article/Selkirk-Reserve-granted-waiver-from-development-16688085.php).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Begin with a cordial, informal introduction by a community liaison to hear any concerns. Emphasize listening and transparency to build trust since Van Dusen’s views are not yet known."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Joseph Tanner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-3-3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph Tanner is the listed owner of parcel 143.-3-3 in Selkirk, according to the town’s property assessment records [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). Tanner has not been mentioned in any local news reports or public meetings regarding recent development issues, indicating no documented stance so far [Times Union](https://www.timesunion.com/news/article/Development-moratorium-could-jeopardize-16666817.php).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles or influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through a neighborly conversation by a project representative to understand Tanner’s perspective. Since he hasn’t voiced opinions publicly, ensure the discussion invites any questions or concerns he may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Michael J. Harrington Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-7.3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael J. Harrington Jr. is recorded as the owner of tax parcel 143.-2-7.3 in Selkirk on the official Bethlehem assessment roll [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). There is no indication from town records or local media that Harrington Jr. has taken any public position on development or energy projects [Spotlight News](https://spotlightnews.com/news/2021/12/15/affordable-housing-prop-for-selkirk-will-go-before-planning-board-on-dec-21/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a one-on-one outreach via someone in Harrington’s community network (e.g., a neighbor or local official he knows). Since he hasn’t been vocal publicly, focus on open-ended questions to learn his priorities or concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Andrew Siskind",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Andrew Siskind appears as the owner of parcel 143.-2-12 in the Selkirk area per the Town of Bethlehem’s assessment roll [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). Siskind has not been identified in any public hearings or press coverage of local development debates, so his viewpoint remains undocumented [Times Union](https://www.timesunion.com/news/article/Development-moratorium-could-jeopardize-16666817.php).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No evident community influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Siskind via a respectful outreach (such as a letter or visit from a community liaison) emphasizing willingness to address any issues. Given no known stance, ensure communication is informative and invites dialogue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Robert S. Day Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-7.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert S. Day Jr. is listed on the Bethlehem property tax roll as the owner of parcel 143.-2-7.2 in Selkirk [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). No evidence was found of Day Jr. engaging in local planning meetings or making public comments related to development or renewable energy projects [Times Union](https://www.timesunion.com/news/article/Selkirk-Reserve-granted-waiver-from-development-16688085.php).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen with no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a local community representative reach out in a casual manner to build rapport with Day Jr. Without prior indications of his stance, emphasize listening to his views and providing factual information about any proposed development."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five profiled neighbors have no clear public stance on local development, with each classified as \\\"unknown\\\" in terms of support or opposition. None of these landowners hold prominent community positions or notable influence; all are considered to have low individual impact in the area.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Kjeld J. Van Dusen\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-3-2\"],\n      \"claims\": \"Kjeld J. Van Dusen is listed as the owner of a parcel (SBL 143.-3-2) in Selkirk on the Town of Bethlehem’s 2024 assessment roll [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). No record could be found of Van Dusen publicly commenting on local development proposals in meetings or news coverage [Times Union](https://www.timesunion.com/news/article/Selkirk-Reserve-granted-waiver-from-development-16688085.php).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Begin with a cordial, informal introduction by a community liaison to hear any concerns. Emphasize listening and transparency to build trust since Van Dusen’s views are not yet known.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Joseph Tanner\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-3-3\"],\n      \"claims\": \"Joseph Tanner is the listed owner of parcel 143.-3-3 in Selkirk, according to the town’s property assessment records [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). Tanner has not been mentioned in any local news reports or public meetings regarding recent development issues, indicating no documented stance so far [Times Union](https://www.timesunion.com/news/article/Development-moratorium-could-jeopardize-16666817.php).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic roles or influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach through a neighborly conversation by a project representative to understand Tanner’s perspective. Since he hasn’t voiced opinions publicly, ensure the discussion invites any questions or concerns he may have.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Michael J. Harrington Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-7.3\"],\n      \"claims\": \"Michael J. Harrington Jr. is recorded as the owner of tax parcel 143.-2-7.3 in Selkirk on the official Bethlehem assessment roll [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). There is no indication from town records or local media that Harrington Jr. has taken any public position on development or energy projects [Spotlight News](https://spotlightnews.com/news/2021/12/15/affordable-housing-prop-for-selkirk-will-go-before-planning-board-on-dec-21/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or leadership roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a one-on-one outreach via someone in Harrington’s community network (e.g., a neighbor or local official he knows). Since he hasn’t been vocal publicly, focus on open-ended questions to learn his priorities or concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Andrew Siskind\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-12\"],\n      \"claims\": \"Andrew Siskind appears as the owner of parcel 143.-2-12 in the Selkirk area per the Town of Bethlehem’s assessment roll [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). Siskind has not been identified in any public hearings or press coverage of local development debates, so his viewpoint remains undocumented [Times Union](https://www.timesunion.com/news/article/Development-moratorium-could-jeopardize-16666817.php).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No evident community influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Siskind via a respectful outreach (such as a letter or visit from a community liaison) emphasizing willingness to address any issues. Given no known stance, ensure communication is informative and invites dialogue.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Robert S. Day Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-7.2\"],\n      \"claims\": \"Robert S. Day Jr. is listed on the Bethlehem property tax roll as the owner of parcel 143.-2-7.2 in Selkirk [Bethlehem Assessor](https://www.townofbethlehem.org/DocumentCenter/View/1895). No evidence was found of Day Jr. engaging in local planning meetings or making public comments related to development or renewable energy projects [Times Union](https://www.timesunion.com/news/article/Selkirk-Reserve-granted-waiver-from-development-16688085.php).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen with no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a local community representative reach out in a casual manner to build rapport with Day Jr. Without prior indications of his stance, emphasize listening to his views and providing factual information about any proposed development.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

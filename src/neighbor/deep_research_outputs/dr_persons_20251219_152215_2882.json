@@ -1,0 +1,244 @@
+{
+  "timestamp": "2025-12-19T15:22:15.288246",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Albany County",
+    "state": "NY",
+    "city": "Selkirk",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Among these five neighbors, none have been vocal public supporters of development or clean energy projects. One landowner (Flach) has signaled opposition to town-led land use changes, while the rest have no documented stance. Influence in the community is generally low, with only one being a major landowner with local name recognition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mark Flach",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-21.2",
+        "143.-2-19.1",
+        "143.-2-20",
+        "143.-2-22",
+        "143.-2-6",
+        "143.-2-5",
+        "143.-2-4.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Flach is a multi-parcel farmland owner in Selkirk and was among local farmers who opposed the town’s recent 307-acre open-space purchase, with an Albany County Farm Bureau letter noting “most farm owners” saw little development pressure and preferred to keep land private ([www.timesunion.com](https://www.timesunion.com/news/article/bethlehem-proposition-2-farmland-controversy-17533429.php#:~:text=Albany%20County%20Farm%20Bureau%20opposing,the%20town%E2%80%99s%20proposal)). He also comes from a family prominent in the area’s motorsports scene – his relatives are known stock-car racers at Lebanon Valley Speedway – which gives the Flach name local recognition ([www.dirttrackdigest.com](https://www.dirttrackdigest.com/featured/2019/04/11/mark-flach-a-racing-life-dtd-exclusive/#:~:text=ImageMark%20Flach%E2%80%99s%20meteoric%20rise%20to,he%20possibly%20could%20regardless%20of)).",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Medium",
+      "influence_justification": "Large landowner; well-known family",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Have a fellow farmer or Farm Bureau peer approach him. Emphasize how the project will respect private property rights and contribute to the local tax base without undermining his farmland legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Darrell Drevojan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-16.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Drevojan resides on Elm Avenue in Selkirk (ZIP 12158), indicating multi-generational ties as he was listed at that address in recent public directories ([www.locatefamily.com](https://www.locatefamily.com/D/DRE/DREVOJAN-1.html#:~:text=Darrell%20Drevojan%20is%20a%20man,gathered%20during%20January%20of%202024)) and was named as a son in his late father’s local obituary ([www.newcomeralbany.com](https://www.newcomeralbany.com/obituaries/anthony-g-drevojan#:~:text=Anthony%20is%20survived%20by%20his,and%20several%20nieces%20and%20nephews)). He has no recorded participation in town meetings or development debates, unlike some other outspoken neighbors ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles or statements",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "traffic_safety"
+        ],
+        "engage": "Reach out in a neighborly way through someone he knows. Address concerns about noise and traffic upfront, explaining measures to keep the area quiet and roads safe so his daily routine remains undisturbed."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "George Lamountain",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "144.-1-29"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lamountain appears to be a long-term landowner in Selkirk; a family member (Marilyn Lamountain) has been listed at a Selkirk address since at least 2001 ([www.locatefamily.com](https://www.locatefamily.com/L/LAM/LAMOUNTAIN-19.html#:~:text=city%20of%20Selkirk%20which%20is,gathered%20during%20January%20of%202001)) ([www.locatefamily.com](https://www.locatefamily.com/L/LAM/LAMOUNTAIN-19.html#:~:text=Marilyn%20Lamountain%20lives%20at%20Post,Marilyn%20Lamountain%27s%20information%20in%20January)), suggesting deep roots in the community. There is no evidence of him taking public positions on development or serving in local government as of the latest records ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident; low profile",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "privacy_quiet"
+        ],
+        "engage": "Have a respected community elder or familiar local figure talk with him. Emphasize that the plan will honor the area’s heritage and keep a low impact, assuring his family’s way of life is respected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Timothy P. Williams",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-16.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Williams owns a rural parcel in the Selkirk area (tax map 143.-2-16.1) but maintains a private profile. His name does not surface in available town board minutes or news reports on development issues, suggesting he has not publicly taken a stance in such matters ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic engagement noted",
+      "approach_recommendations": {
+        "motivations": [
+          "drainage_roads",
+          "property_value"
+        ],
+        "engage": "Provide direct outreach from the project engineer or town liaison. Share detailed plans on stormwater management and road upkeep to reassure him that his property will be protected and its value maintained."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Christine M. Driscoll",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "143.-2-18"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Driscoll is listed as the owner of an individual parcel in this Selkirk vicinity (parcel 143.-2-18) and appears to be a private landowner with no public-facing roles. A review of local media and records shows no instances of her involvement in community meetings or development disputes ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed",
+          "property_value"
+        ],
+        "engage": "Reach out via a personal, informal meeting or phone call. Show her visuals of the project’s appearance and explain planned landscape buffering, while reassuring that nearby home values have been preserved in similar cases."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Among these five neighbors, none have been vocal public supporters of development or clean energy projects. One landowner (Flach) has signaled opposition to town-led land use changes, while the rest have no documented stance. Influence in the community is generally low, with only one being a major landowner with local name recognition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Mark Flach\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-21.2\", \"143.-2-19.1\", \"143.-2-20\", \"143.-2-22\", \"143.-2-6\", \"143.-2-5\", \"143.-2-4.1\"],\n      \"claims\": \"Flach is a multi-parcel farmland owner in Selkirk and was among local farmers who opposed the town’s recent 307-acre open-space purchase, with an Albany County Farm Bureau letter noting “most farm owners” saw little development pressure and preferred to keep land private ([www.timesunion.com](https://www.timesunion.com/news/article/bethlehem-proposition-2-farmland-controversy-17533429.php#:~:text=Albany%20County%20Farm%20Bureau%20opposing,the%20town%E2%80%99s%20proposal)). He also comes from a family prominent in the area’s motorsports scene – his relatives are known stock-car racers at Lebanon Valley Speedway – which gives the Flach name local recognition ([www.dirttrackdigest.com](https://www.dirttrackdigest.com/featured/2019/04/11/mark-flach-a-racing-life-dtd-exclusive/#:~:text=ImageMark%20Flach%E2%80%99s%20meteoric%20rise%20to,he%20possibly%20could%20regardless%20of)).\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Large landowner; well-known family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"local_control\", \"tax_revenue_benefit\"],\n        \"engage\": \"Have a fellow farmer or Farm Bureau peer approach him. Emphasize how the project will respect private property rights and contribute to the local tax base without undermining his farmland legacy.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Darrell Drevojan\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-16.2\"],\n      \"claims\": \"Drevojan resides on Elm Avenue in Selkirk (ZIP 12158), indicating multi-generational ties as he was listed at that address in recent public directories ([www.locatefamily.com](https://www.locatefamily.com/D/DRE/DREVOJAN-1.html#:~:text=Darrell%20Drevojan%20is%20a%20man,gathered%20during%20January%20of%202024)) and was named as a son in his late father’s local obituary ([www.newcomeralbany.com](https://www.newcomeralbany.com/obituaries/anthony-g-drevojan#:~:text=Anthony%20is%20survived%20by%20his,and%20several%20nieces%20and%20nephews)). He has no recorded participation in town meetings or development debates, unlike some other outspoken neighbors ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles or statements\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"traffic_safety\"],\n        \"engage\": \"Reach out in a neighborly way through someone he knows. Address concerns about noise and traffic upfront, explaining measures to keep the area quiet and roads safe so his daily routine remains undisturbed.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"George Lamountain\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"144.-1-29\"],\n      \"claims\": \"Lamountain appears to be a long-term landowner in Selkirk; a family member (Marilyn Lamountain) has been listed at a Selkirk address since at least 2001 ([www.locatefamily.com](https://www.locatefamily.com/L/LAM/LAMOUNTAIN-19.html#:~:text=city%20of%20Selkirk%20which%20is,gathered%20during%20January%20of%202001)) ([www.locatefamily.com](https://www.locatefamily.com/L/LAM/LAMOUNTAIN-19.html#:~:text=Marilyn%20Lamountain%20lives%20at%20Post,Marilyn%20Lamountain%27s%20information%20in%20January)), suggesting deep roots in the community. There is no evidence of him taking public positions on development or serving in local government as of the latest records ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime resident; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"privacy_quiet\"],\n        \"engage\": \"Have a respected community elder or familiar local figure talk with him. Emphasize that the plan will honor the area’s heritage and keep a low impact, assuring his family’s way of life is respected.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Timothy P. Williams\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-16.1\"],\n      \"claims\": \"Williams owns a rural parcel in the Selkirk area (tax map 143.-2-16.1) but maintains a private profile. His name does not surface in available town board minutes or news reports on development issues, suggesting he has not publicly taken a stance in such matters ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic engagement noted\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"drainage_roads\", \"property_value\"],\n        \"engage\": \"Provide direct outreach from the project engineer or town liaison. Share detailed plans on stormwater management and road upkeep to reassure him that his property will be protected and its value maintained.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Christine M. Driscoll\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"143.-2-18\"],\n      \"claims\": \"Driscoll is listed as the owner of an individual parcel in this Selkirk vicinity (parcel 143.-2-18) and appears to be a private landowner with no public-facing roles. A review of local media and records shows no instances of her involvement in community meetings or development disputes ([www.wamc.org](https://www.wamc.org/news/2022-11-09/town-of-bethlehem-voters-approve-land-acquisition-after-spirited-proposition-debate#:~:text=Glenmont%20resident%20Steve%20Peterson%20thinks,can%20employ%20across%20New%20York)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"aesthetics_viewshed\", \"property_value\"],\n        \"engage\": \"Reach out via a personal, informal meeting or phone call. Show her visuals of the project’s appearance and explain planned landscape buffering, while reassuring that nearby home values have been preserved in similar cases.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
