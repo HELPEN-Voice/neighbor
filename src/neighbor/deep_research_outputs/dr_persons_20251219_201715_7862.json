@@ -1,0 +1,225 @@
+{
+  "timestamp": "2025-12-19T20:17:15.786313",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Orange County",
+    "state": "NY",
+    "city": "Deerpark",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the identified neighbors have a clearly documented stance on the proposed development, with all five rated as \"unknown\" in their position. The Hartwood Club, a large private landowner, is the only neighbor with high community influence, whereas the remaining individual landowners are considered to have low direct influence locally.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Hartwood Club",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "3-1-1",
+        "13-1-1",
+        "2-1-1",
+        "4-1-2",
+        "2-1-3.2",
+        "3-1-2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Hartwood Club Inc is a private hunting and fishing club owning extensive forest land in the Town of Deerpark ([mapcarta.com](https://mapcarta.com/W826216244#:~:text=The%20Hartwood%20Club%20Inc)), offering members exclusive outdoor recreation opportunities focused on wildlife and habitat conservation ([www.mapquest.com](https://www.mapquest.com/us/new-york/hartwood-club-inc-355226764#:~:text=https%3A%2F%2Fthehartwoodclub)). (See ORG table for detailed organizational profile.)",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Major landowner; longstanding club",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "privacy_quiet"
+        ],
+        "engage": "Engage the club’s leadership privately to address any concerns about habitat and noise, emphasizing that project plans will preserve hunting land and the quiet rural character."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Richard R. Leonard",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "15-1-1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records list Richard R. Leonard as the owner of a large undeveloped tract (tax parcel 15-1-1) in Deerpark ([www.orangecountygov.com](https://www.orangecountygov.com/1153/Property-Tax-Information#:~:text=Parcel%20Information)). There are no apparent mentions of Leonard taking part in local meetings or public debates on development issues.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a trusted local figure reach out to Mr. Leonard one-on-one to learn his priorities and reassure him the project will respect his property boundaries."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mark P. Frizzell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-4.4",
+        "13-1-4.5"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark P. Frizzell was the owner of a one-acre residential parcel on Hartwood Club Road that sold for $304,000 in July 2025 ([www.zillow.com](https://www.zillow.com/homedetails/45-Hartwood-Club-Rd-Sparrow-Bush-NY-12780/31813418_zpid/#:~:text=Sold%20for%20%24304%2C000%20on%2007%2F22%2F25)). County records also show Frizzell’s name on an adjacent parcel at that location, suggesting a long-term personal residence in the project area ([www.orangecountygov.com](https://www.orangecountygov.com/1153/Property-Tax-Information#:~:text=Parcel%20Information)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local homeowner; not civically active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet with Mr. Frizzell informally (through a mutual acquaintance if possible) to understand any concerns, highlighting measures to maintain local road conditions and property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Cornelius L. Alexy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-14"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cornelius L. Alexy purchased a historic 1886 farmhouse property on Hartwood Club Road (approximately 118 acres of land) around 2016 ([www.zillow.com](https://www.zillow.com/homedetails/72-Hartwood-Club-Rd-Sparrow-Bush-NY-12780/31813429_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,62%2Fsqft%20%242%2C881%20Estimated%20rent)) ([www.redfin.com](https://www.redfin.com/NY/Sparrow-Bush/72-Hartwood-Club-Rd-12780/home/54951615#:~:text=Redesign)). Alexy has no recorded involvement in town government or public commentary on development proposals in Deerpark.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New landowner; no local network",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Mr. Alexy in a neighborly way, possibly via a welcome visit by a community liaison, and emphasize how the project will be mindful of preserving the scenic and historic value of his property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Richard L. Stevens II",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-4.2",
+        "13-1-4.3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Richard L. Stevens II is identified as the owner of two adjacent residential lots on Hartwood Club Road, including a single-family home (approx. 1,744 sq ft) built in 1989 ([www.zillow.com](https://www.zillow.com/homedetails/39-Hartwood-Club-Rd-Sparrow-Bush-NY-12780/31813420_zpid/#:~:text=%24395%2C100)). There is no public record of Stevens holding any official positions or taking a public stance on local development issues.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a friendly in-person conversation with Mr. Stevens (or a family contact) to address any questions, focusing on how the project will ensure minimal disruption to daily life and maintain local property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the identified neighbors have a clearly documented stance on the proposed development, with all five rated as \\\"unknown\\\" in their position. The Hartwood Club, a large private landowner, is the only neighbor with high community influence, whereas the remaining individual landowners are considered to have low direct influence locally.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Hartwood Club\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"3-1-1\", \"13-1-1\", \"2-1-1\", \"4-1-2\", \"2-1-3.2\", \"3-1-2\"],\n      \"claims\": \"The Hartwood Club Inc is a private hunting and fishing club owning extensive forest land in the Town of Deerpark ([mapcarta.com](https://mapcarta.com/W826216244#:~:text=The%20Hartwood%20Club%20Inc)), offering members exclusive outdoor recreation opportunities focused on wildlife and habitat conservation ([www.mapquest.com](https://www.mapquest.com/us/new-york/hartwood-club-inc-355226764#:~:text=https%3A%2F%2Fthehartwoodclub)). (See ORG table for detailed organizational profile.)\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major landowner; longstanding club\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"wildlife_habitat\", \"privacy_quiet\"],\n        \"engage\": \"Engage the club’s leadership privately to address any concerns about habitat and noise, emphasizing that project plans will preserve hunting land and the quiet rural character.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Richard R. Leonard\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"15-1-1\"],\n      \"claims\": \"Public records list Richard R. Leonard as the owner of a large undeveloped tract (tax parcel 15-1-1) in Deerpark ([www.orangecountygov.com](https://www.orangecountygov.com/1153/Property-Tax-Information#:~:text=Parcel%20Information)). There are no apparent mentions of Leonard taking part in local meetings or public debates on development issues.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a trusted local figure reach out to Mr. Leonard one-on-one to learn his priorities and reassure him the project will respect his property boundaries.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Mark P. Frizzell\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-4.4\", \"13-1-4.5\"],\n      \"claims\": \"Mark P. Frizzell was the owner of a one-acre residential parcel on Hartwood Club Road that sold for $304,000 in July 2025 ([www.zillow.com](https://www.zillow.com/homedetails/45-Hartwood-Club-Rd-Sparrow-Bush-NY-12780/31813418_zpid/#:~:text=Sold%20for%20%24304%2C000%20on%2007%2F22%2F25)). County records also show Frizzell’s name on an adjacent parcel at that location, suggesting a long-term personal residence in the project area ([www.orangecountygov.com](https://www.orangecountygov.com/1153/Property-Tax-Information#:~:text=Parcel%20Information)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local homeowner; not civically active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Meet with Mr. Frizzell informally (through a mutual acquaintance if possible) to understand any concerns, highlighting measures to maintain local road conditions and property values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Cornelius L. Alexy\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-14\"],\n      \"claims\": \"Cornelius L. Alexy purchased a historic 1886 farmhouse property on Hartwood Club Road (approximately 118 acres of land) around 2016 ([www.zillow.com](https://www.zillow.com/homedetails/72-Hartwood-Club-Rd-Sparrow-Bush-NY-12780/31813429_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,62%2Fsqft%20%242%2C881%20Estimated%20rent)) ([www.redfin.com](https://www.redfin.com/NY/Sparrow-Bush/72-Hartwood-Club-Rd-12780/home/54951615#:~:text=Redesign)). Alexy has no recorded involvement in town government or public commentary on development proposals in Deerpark.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"New landowner; no local network\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Mr. Alexy in a neighborly way, possibly via a welcome visit by a community liaison, and emphasize how the project will be mindful of preserving the scenic and historic value of his property.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Richard L. Stevens II\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-4.2\", \"13-1-4.3\"],\n      \"claims\": \"Richard L. Stevens II is identified as the owner of two adjacent residential lots on Hartwood Club Road, including a single-family home (approx. 1,744 sq ft) built in 1989 ([www.zillow.com](https://www.zillow.com/homedetails/39-Hartwood-Club-Rd-Sparrow-Bush-NY-12780/31813420_zpid/#:~:text=%24395%2C100)). There is no public record of Stevens holding any official positions or taking a public stance on local development issues.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; no public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a friendly in-person conversation with Mr. Stevens (or a family contact) to address any questions, focusing on how the project will ensure minimal disruption to daily life and maintain local property values.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

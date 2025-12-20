@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-12-19T20:37:41.549967",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Orange County",
+    "state": "NY",
+    "city": "Deerpark",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring landowners include a solar project holding company, a private recreational club, a land investment LLC, and an industrial corporation. Most lack deep local ties; their incentives vary from pursuing energy development (Little Pond) to preserving land (Cahoonzie Club) or maximizing land value (Whitehead Lake Properties, KGK). None appear to be community institutions or outspoken actors, suggesting limited coordinated opposition but potential individual concerns around land use and value.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Little Pond Land Holdco, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "13-1-3.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Little Pond Land Holdco, LLC was registered in New York in December 2021, with Corporation Service Company (Albany) as its agent【Bloomberg LEI](https://lei.bloomberg.com/leis/view/254900O2MIO5HEV7V531)​. It is affiliated with the proposed Little Pond Solar project (20 MW) and shares a developer address in Santa Monica, California【NYSDEC Bulletin](https://dec.ny.gov/news/environmental-notice-bulletin/2024-11-27/completed-application/town-of-deerpark-little-pond-solar)​. The LLC itself holds the land for the solar development and has no other known business operations in the community【NYSDEC Bulletin](https://dec.ny.gov/news/environmental-notice-bulletin/2024-11-27/completed-application/town-of-deerpark-little-pond-solar)​. No separate political or charitable activities are evident for this entity (it serves the project’s corporate structure)【Bloomberg LEI](https://lei.bloomberg.com/leis/view/254900O2MIO5HEV7V531)​.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Out-of-state solar developer affiliate; controls project land and capital, but minimal local social presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate closely with the project’s managing entity (developer); ensure alignment on development plans and leverage their interest in a smooth approval process. Engage their representatives as allies in community outreach since they benefit directly from the project’s success"
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cahoonzie Club, Inc.",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14-1-1",
+        "26-1-1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cahoonzie Club, Inc. is a longstanding private club owning extensive acreage in Deerpark, evidenced by the local road named after it (Cahoonzie Club Road)【Zillow](https://www.zillow.com/homedetails/17-Cahoonzie-Club-Rd-Sparrowbush-NY-12780/31814052_zpid/)​. It does not appear in public nonprofit registries, indicating it is a private membership or land-holding corporation rather than a charitable organization【TaxExemptWorld](https://www.taxexemptworld.com/organizations/orange-county-ny-new-york.asp)​. The club’s activities are largely private (likely hunting, fishing, or nature retreat use) and it has no online or commercial presence【TaxExemptWorld](https://www.taxexemptworld.com/organizations/orange-county-ny-new-york.asp)​. No record of political donations or advocacy from this entity or its officers was found in public databases, suggesting a low public profile【Orange County Nonprofits](https://www.taxexemptworld.com/organizations/orange-county-ny-new-york.asp)​.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private recreational group; holds large land but not publicly active or politically connected",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the club’s leadership early through informal, respectful dialogue; emphasize measures to protect scenery and privacy. Address any environmental concerns with data and offer accommodations (screening, limited access) to maintain their use of the land"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Whitehead Lake Properties, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "13-1-15.22",
+        "13-1-21"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Whitehead Lake Properties, LLC is an entity that holds multiple real estate parcels near Whitehead Lake/Whitehead Road in Deerpark【NYSDEC Bulletin](https://dec.ny.gov/news/environmental-notice-bulletin/2024-11-27/completed-application/town-of-deerpark-little-pond-solar)​. The LLC’s formation and ownership are not readily visible in state corporate filings, indicating it may be a small private investment vehicle (no separate business filings or website)【Orange County Parcel Information](https://propertydata.orangecountygov.com)​. Its name suggests a focus on property holding in the Whitehead Lake area, and no other business activities are noted aside from owning land. No liens, UCC filings, or court cases were found associated with this LLC in public records, implying a simple land-holding purpose with low external activity【Orange County Parcel Information](https://propertydata.orangecountygov.com)​.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Local land investor with limited footprint; no known community role beyond owning parcels",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the principal owner (via LLC registration) and open a discussion about mutually beneficial outcomes. Highlight how the proposed development could increase nearby land values or offer an exit strategy, and consider negotiating purchase or buffers to address their interests"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "K G K International Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "12-1-17"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "KGK International Inc is a U.S. subsidiary of a global industrial firm (Kanematsu KGK), established in 1981 to distribute industrial machinery and equipment【Bloomberg Markets](https://www.bloomberg.com/profile/company/1255885D:US)​. Its main operations are based in Illinois, and it has no known active facilities or workforce in Orange County, NY. The company does own a parcel of land in Deerpark (PIN 12-1-17), but there is no evidence of any structure or business use on that site (suggesting it remains vacant land). No local political contributions or community initiatives have been linked to KGK, reflecting that its presence in Deerpark is investment-oriented rather than community-driven【Bloomberg Markets](https://www.bloomberg.com/profile/company/1255885D:US)​.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Non-local corporation; owns land but has no local operations or engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach KGK via its corporate real estate or asset management division; propose mutually beneficial solutions such as purchasing their unused land or ensuring the project will not impede any future plans. Emphasize a cooperative stance to avoid conflict given their minimal local involvement"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring landowners include a solar project holding company, a private recreational club, a land investment LLC, and an industrial corporation. Most lack deep local ties; their incentives vary from pursuing energy development (Little Pond) to preserving land (Cahoonzie Club) or maximizing land value (Whitehead Lake Properties, KGK). None appear to be community institutions or outspoken actors, suggesting limited coordinated opposition but potential individual concerns around land use and value.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Little Pond Land Holdco, LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"13-1-3.2\"],\n      \"claims\": \"Little Pond Land Holdco, LLC was registered in New York in December 2021, with Corporation Service Company (Albany) as its agent【Bloomberg LEI](https://lei.bloomberg.com/leis/view/254900O2MIO5HEV7V531)​. It is affiliated with the proposed Little Pond Solar project (20 MW) and shares a developer address in Santa Monica, California【NYSDEC Bulletin](https://dec.ny.gov/news/environmental-notice-bulletin/2024-11-27/completed-application/town-of-deerpark-little-pond-solar)​. The LLC itself holds the land for the solar development and has no other known business operations in the community【NYSDEC Bulletin](https://dec.ny.gov/news/environmental-notice-bulletin/2024-11-27/completed-application/town-of-deerpark-little-pond-solar)​. No separate political or charitable activities are evident for this entity (it serves the project’s corporate structure)【Bloomberg LEI](https://lei.bloomberg.com/leis/view/254900O2MIO5HEV7V531)​.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Out-of-state solar developer affiliate; controls project land and capital, but minimal local social presence\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Successful project completion\", \"Renewable energy ROI\"],\n      \"approach_recommendations\": \"Coordinate closely with the project’s managing entity (developer); ensure alignment on development plans and leverage their interest in a smooth approval process. Engage their representatives as allies in community outreach since they benefit directly from the project’s success\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Cahoonzie Club, Inc.\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"14-1-1\", \"26-1-1\"],\n      \"claims\": \"Cahoonzie Club, Inc. is a longstanding private club owning extensive acreage in Deerpark, evidenced by the local road named after it (Cahoonzie Club Road)【Zillow](https://www.zillow.com/homedetails/17-Cahoonzie-Club-Rd-Sparrowbush-NY-12780/31814052_zpid/)​. It does not appear in public nonprofit registries, indicating it is a private membership or land-holding corporation rather than a charitable organization【TaxExemptWorld](https://www.taxexemptworld.com/organizations/orange-county-ny-new-york.asp)​. The club’s activities are largely private (likely hunting, fishing, or nature retreat use) and it has no online or commercial presence【TaxExemptWorld](https://www.taxexemptworld.com/organizations/orange-county-ny-new-york.asp)​. No record of political donations or advocacy from this entity or its officers was found in public databases, suggesting a low public profile【Orange County Nonprofits](https://www.taxexemptworld.com/organizations/orange-county-ny-new-york.asp)​.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private recreational group; holds large land but not publicly active or politically connected\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Preservation of land for recreation\", \"Environmental and privacy concerns\"],\n      \"approach_recommendations\": \"Engage the club’s leadership early through informal, respectful dialogue; emphasize measures to protect scenery and privacy. Address any environmental concerns with data and offer accommodations (screening, limited access) to maintain their use of the land\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Whitehead Lake Properties, LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"13-1-15.22\", \"13-1-21\"],\n      \"claims\": \"Whitehead Lake Properties, LLC is an entity that holds multiple real estate parcels near Whitehead Lake/Whitehead Road in Deerpark【NYSDEC Bulletin](https://dec.ny.gov/news/environmental-notice-bulletin/2024-11-27/completed-application/town-of-deerpark-little-pond-solar)​. The LLC’s formation and ownership are not readily visible in state corporate filings, indicating it may be a small private investment vehicle (no separate business filings or website)【Orange County Parcel Information](https://propertydata.orangecountygov.com)​. Its name suggests a focus on property holding in the Whitehead Lake area, and no other business activities are noted aside from owning land. No liens, UCC filings, or court cases were found associated with this LLC in public records, implying a simple land-holding purpose with low external activity【Orange County Parcel Information](https://propertydata.orangecountygov.com)​.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local land investor with limited footprint; no known community role beyond owning parcels\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Future development opportunity\"],\n      \"approach_recommendations\": \"Identify the principal owner (via LLC registration) and open a discussion about mutually beneficial outcomes. Highlight how the proposed development could increase nearby land values or offer an exit strategy, and consider negotiating purchase or buffers to address their interests\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"K G K International Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"12-1-17\"],\n      \"claims\": \"KGK International Inc is a U.S. subsidiary of a global industrial firm (Kanematsu KGK), established in 1981 to distribute industrial machinery and equipment【Bloomberg Markets](https://www.bloomberg.com/profile/company/1255885D:US)​. Its main operations are based in Illinois, and it has no known active facilities or workforce in Orange County, NY. The company does own a parcel of land in Deerpark (PIN 12-1-17), but there is no evidence of any structure or business use on that site (suggesting it remains vacant land). No local political contributions or community initiatives have been linked to KGK, reflecting that its presence in Deerpark is investment-oriented rather than community-driven【Bloomberg Markets](https://www.bloomberg.com/profile/company/1255885D:US)​.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Non-local corporation; owns land but has no local operations or engagement\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Property resale or development potential\", \"Corporate expansion opportunity\"],\n      \"approach_recommendations\": \"Approach KGK via its corporate real estate or asset management division; propose mutually beneficial solutions such as purchasing their unused land or ensuring the project will not impede any future plans. Emphasize a cooperative stance to avoid conflict given their minimal local involvement\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -62,6 +62,9 @@ def format_citations(text):
     if not text:
         return text
 
+    # Normalize lenticular brackets to standard brackets (fixes malformed citations from some LLMs)
+    text = text.replace('【', '[').replace('】', ']')
+
     # First, convert markdown links [text](url) to HTML <a> tags
     # Pattern to match markdown links [link text](url)
     markdown_link_pattern = r"\[([^\]]+)\]\(([^)]+)\)"

@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-12-19T20:09:35.337605",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Orange County",
+    "state": "NY",
+    "city": "Deerpark",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these Deerpark neighbors have an openly stated stance on the development. One neighbor is a high-profile county figure, but the other two appear to have low public profiles. No direct supporters or opponents have been identified among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Keith G. Campbell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-4.123"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Keith G. Campbell is listed as a Deerpark property owner in the town’s 2024 tax roll, but he holds no known public office or committee position [Town of Deerpark](https://townofdeerparkny.gov/?p=10318). As of late 2025, no public statements from Campbell about development or energy projects have been found in local records [Town of Deerpark](https://townofdeerparkny.gov/?p=10318).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Mr. Campbell in a personal, respectful visit at his property. Emphasize how the project will preserve the rural character and quiet he values, and offer meaningful assurances about minimal disruption to his land and lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michael T. Ashcraft",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-24"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael T. Ashcraft is a veteran law enforcement officer who served as an Orange County Deputy Sheriff (Undersheriff) through 2023 ([govsalaries.com](https://govsalaries.com/ashcraft-michael-t-182203941#:~:text=Michael%20Ashcraft%20T%20in%202023,the%20median%20salary%20in%20Orange)), reflecting strong ties to local authorities [GovSalaries](https://govsalaries.com/ashcraft-michael-t-182203941). He owns property in Deerpark, but no record of him speaking publicly on development or clean energy issues was found as of 2025 [Town of Deerpark](https://townofdeerparkny.gov/?p=10318).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Former county undersheriff",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a respected law-enforcement peer or safety official reach out to Mr. Ashcraft. Emphasize the project’s thorough safety plans (traffic control, emergency access) and show respect for his public service while addressing any security or community order concerns he might raise."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Robert Stormes",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert Stormes is identified as a landowner in the Town of Deerpark’s assessment records [Town of Deerpark](https://townofdeerparkny.gov/?p=10318). He has no known involvement in local boards or public initiatives, and no statements regarding development projects have been documented under his name in local news or meetings [Town of Deerpark](https://townofdeerparkny.gov/?p=10318).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Mr. Stormes one-on-one with a neighborly tone. Discuss how the project will be screened and managed to protect his property’s privacy and value, and invite his feedback in an informal setting to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these Deerpark neighbors have an openly stated stance on the development. One neighbor is a high-profile county figure, but the other two appear to have low public profiles. No direct supporters or opponents have been identified among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Keith G. Campbell\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-4.123\"],\n      \"claims\": \"Keith G. Campbell is listed as a Deerpark property owner in the town’s 2024 tax roll, but he holds no known public office or committee position [Town of Deerpark](https://townofdeerparkny.gov/?p=10318). As of late 2025, no public statements from Campbell about development or energy projects have been found in local records [Town of Deerpark](https://townofdeerparkny.gov/?p=10318).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage Mr. Campbell in a personal, respectful visit at his property. Emphasize how the project will preserve the rural character and quiet he values, and offer meaningful assurances about minimal disruption to his land and lifestyle.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Michael T. Ashcraft\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-24\"],\n      \"claims\": \"Michael T. Ashcraft is a veteran law enforcement officer who served as an Orange County Deputy Sheriff (Undersheriff) through 2023 ([govsalaries.com](https://govsalaries.com/ashcraft-michael-t-182203941#:~:text=Michael%20Ashcraft%20T%20in%202023,the%20median%20salary%20in%20Orange)), reflecting strong ties to local authorities [GovSalaries](https://govsalaries.com/ashcraft-michael-t-182203941). He owns property in Deerpark, but no record of him speaking publicly on development or clean energy issues was found as of 2025 [Town of Deerpark](https://townofdeerparkny.gov/?p=10318).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Former county undersheriff\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a respected law-enforcement peer or safety official reach out to Mr. Ashcraft. Emphasize the project’s thorough safety plans (traffic control, emergency access) and show respect for his public service while addressing any security or community order concerns he might raise.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Robert Stormes\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-23\"],\n      \"claims\": \"Robert Stormes is identified as a landowner in the Town of Deerpark’s assessment records [Town of Deerpark](https://townofdeerparkny.gov/?p=10318). He has no known involvement in local boards or public initiatives, and no statements regarding development projects have been documented under his name in local news or meetings [Town of Deerpark](https://townofdeerparkny.gov/?p=10318).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Mr. Stormes one-on-one with a neighborly tone. Discuss how the project will be screened and managed to protect his property’s privacy and value, and invite his feedback in an informal setting to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

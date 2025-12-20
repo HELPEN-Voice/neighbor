@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-12-19T20:39:26.956543",
+  "entity_type": "organization",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Orange County",
+    "state": "NY",
+    "city": "Deerpark",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Two trusts hold the neighboring parcels instead of corporate entities. One is a small private trust likely created for a single property acquisition, indicating an individual investor with limited community clout. The other is an irrevocable family trust for a long-owned local property with strong sentimental value. Neither has organized backing; the family trust might oppose development to preserve its land, whereas the small trust is likely driven by profit.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "109 Whitehead Rd. Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "13-1-18"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "109 Whitehead Rd. Trust acquired the property at 109 Whitehead Road (Sparrowbush) in December 2021 for $37,500 [Zillow — other, retrieved 2025-12-20; \"12/29/2021 Sold $37,500\"](https://www.zillow.com/b/109-whitehead-rd-sparrow-bush-ny-97ybSR/). This trust is a private land-holding entity (not registered as an LLC or corporation) with no other parcels or business operations identified in public records [Orange County Real Property Tax Service — gov, retrieved 2025-12-20; \"search for a property by Owner Name\"](https://propertydata.orangecountygov.com/index.aspx?cty=33).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small single-parcel trust; no significant assets or known local connections",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the trust’s representative with a straightforward purchase offer; likely profit-driven and willing to sell for a premium"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ligarzewski Irrevocable Trust The Florence",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "13-1-5.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Florence Ligarzewski Irrevocable Trust is listed as owner of tax parcel 13-1-5.2 in Deerpark, Orange County [Orange County Real Property Tax Service — gov, retrieved 2025-12-20; \"search for a property by Owner Name\"](https://propertydata.orangecountygov.com/index.aspx?cty=33). This trust was likely established for estate planning purposes, holding family property under the name of Florence Ligarzewski rather than as a business asset [Calbo Law — other, retrieved 2025-12-20; \"secure their assets for future generations\"](https://calbolaw.com/how-irrevocable-trusts-shape-modern-estate-planning-strategies/). No evidence of any commercial activity or public political engagement is associated with this trust; it functions solely to hold and manage inherited real estate for the family’s benefit [Orange County Real Property Tax Service — gov, retrieved 2025-12-20; \"search for a property by Owner Name\"](https://propertydata.orangecountygov.com/index.aspx?cty=33).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Longtime local family ownership; holds a significant land parcel but has limited public or economic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate dialogue with the trust’s trustee or family representative; emphasize respectful development plans and consider proposing arrangements that honor the family’s land legacy (e.g., conservation easements or revenue sharing)"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Two trusts hold the neighboring parcels instead of corporate entities. One is a small private trust likely created for a single property acquisition, indicating an individual investor with limited community clout. The other is an irrevocable family trust for a long-owned local property with strong sentimental value. Neither has organized backing; the family trust might oppose development to preserve its land, whereas the small trust is likely driven by profit.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"109 Whitehead Rd. Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"13-1-18\"],\n      \"claims\": \"109 Whitehead Rd. Trust acquired the property at 109 Whitehead Road (Sparrowbush) in December 2021 for $37,500 [Zillow — other, retrieved 2025-12-20; \\\"12/29/2021 Sold $37,500\\\"](https://www.zillow.com/b/109-whitehead-rd-sparrow-bush-ny-97ybSR/). This trust is a private land-holding entity (not registered as an LLC or corporation) with no other parcels or business operations identified in public records [Orange County Real Property Tax Service — gov, retrieved 2025-12-20; \\\"search for a property by Owner Name\\\"](https://propertydata.orangecountygov.com/index.aspx?cty=33).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small single-parcel trust; no significant assets or known local connections\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Speculative land value increase\", \"Privacy/anonymous ownership\"],\n      \"approach_recommendations\": \"Engage the trust’s representative with a straightforward purchase offer; likely profit-driven and willing to sell for a premium\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Ligarzewski Irrevocable Trust The Florence\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"13-1-5.2\"],\n      \"claims\": \"The Florence Ligarzewski Irrevocable Trust is listed as owner of tax parcel 13-1-5.2 in Deerpark, Orange County [Orange County Real Property Tax Service — gov, retrieved 2025-12-20; \\\"search for a property by Owner Name\\\"](https://propertydata.orangecountygov.com/index.aspx?cty=33). This trust was likely established for estate planning purposes, holding family property under the name of Florence Ligarzewski rather than as a business asset [Calbo Law — other, retrieved 2025-12-20; \\\"secure their assets for future generations\\\"](https://calbolaw.com/how-irrevocable-trusts-shape-modern-estate-planning-strategies/). No evidence of any commercial activity or public political engagement is associated with this trust; it functions solely to hold and manage inherited real estate for the family’s benefit [Orange County Real Property Tax Service — gov, retrieved 2025-12-20; \\\"search for a property by Owner Name\\\"](https://propertydata.orangecountygov.com/index.aspx?cty=33).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime local family ownership; holds a significant land parcel but has limited public or economic role\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of family land\", \"Property value protection\"],\n      \"approach_recommendations\": \"Initiate dialogue with the trust’s trustee or family representative; emphasize respectful development plans and consider proposing arrangements that honor the family’s land legacy (e.g., conservation easements or revenue sharing)\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

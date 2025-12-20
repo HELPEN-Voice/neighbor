@@ -1,0 +1,211 @@
+{
+  "timestamp": "2025-12-19T20:19:19.009412",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Orange County",
+    "state": "NY",
+    "city": "Deerpark",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these five neighbors have a publicly documented stance for or against development, as no explicit statements were found. Most appear to be private landowners with little public profile or formal role in Deerpark. Only one neighbor hails from a historically prominent local family (suggesting moderate community influence), while the rest have low community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Anthony Dedona",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anthony J. Dedona, 88, is listed as the owner of parcel 13-1-6 in Deerpark and is a resident of Maspeth, Queens ([veripages.com](https://veripages.com/name/Anthony/Dedona/#:~:text=Anthony%20Dedona%20Age%2088)) ([veripages.com](https://veripages.com/name/Anthony/Dedona/#:~:text=,Dedona)). He does not appear to reside locally in Orange County and has no known involvement in Deerpark civic affairs (no mentions in town meetings or local news).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Non-resident owner; no local role",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "As an absentee owner, he may be primarily concerned with property value. Outreach should be via written communication emphasizing how the project maintains or enhances local property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lori Bodine",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-15.21"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lori Bodine is the recorded owner of parcel 13-1-15.21 in Deerpark (Orange County) ([townofdeerparkny.gov](https://townofdeerparkny.gov/?p=10318#:~:text=Deerpark%202024%20Tentative%20Tax%20Roll)). There is little public information available about her, and she has not been identified in any local government minutes or news reports reviewed (no public statements on development issues).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through standard community outreach (mailers or door-knocking), listening for any personal concerns. Emphasize respect for her property and routine (since no specific issues are known)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Thomas E. Gumaer III",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2-1-2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas E. Gumaer III owns parcel 2-1-2 in Deerpark. The Gumaer family is historically significant in Deerpark; early settler Peter E. Gumaer and his descendants were prominent in the community’s history ([www.wgpfoundation.org](https://www.wgpfoundation.org/historic-markers/gumaer-cemetery/#:~:text=Gumaer%20Cemetery%20was%20established%20circa,%E2%80%9D)). No recent records show Thomas III holding an official position or making public comments on local development.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Old Deerpark family; longstanding local ties",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Recognize the Gumaer family’s long legacy in the area and emphasize how the project honors local history and land stewardship. A face-to-face meeting with a community liaison can build trust by acknowledging his family’s roots."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "George Perry",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "13-1-4.124"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George Perry is listed as the owner of parcel 13-1-4.124 in Deerpark (Orange County) ([townofdeerparkny.gov](https://townofdeerparkny.gov/?p=10318#:~:text=Deerpark%202024%20Tentative%20Tax%20Roll)). There is no public record of Perry taking part in local boards or speaking on development issues. His profile in community records is minimal, suggesting he is a private landowner without public civic roles.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use general outreach methods (community meetings, mailed notices) to keep him informed. Since he hasn’t voiced specific concerns publicly, be prepared to address common issues like traffic or noise if he raises them."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Paul Eliya",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "25-1-1.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Paul Eliya, owner of parcel 25-1-1.1, is an information technology professional based in the New York City area ([onug.net](https://onug.net/members/paul-eliya/#:~:text=Staff%20Sales%20Engineer%20)). He appears to be a relatively new property owner in Deerpark and has no recorded history of local civic engagement or public commentary on development proposals. His background implies he is not from a traditional farming family in the town.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Newer owner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with a focus on transparency and data (given his tech background). Providing clear, factual information about project impacts (noise levels, technology, etc.) via email or community webinars may resonate."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these five neighbors have a publicly documented stance for or against development, as no explicit statements were found. Most appear to be private landowners with little public profile or formal role in Deerpark. Only one neighbor hails from a historically prominent local family (suggesting moderate community influence), while the rest have low community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Anthony Dedona\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-6\"],\n      \"claims\": \"Anthony J. Dedona, 88, is listed as the owner of parcel 13-1-6 in Deerpark and is a resident of Maspeth, Queens ([veripages.com](https://veripages.com/name/Anthony/Dedona/#:~:text=Anthony%20Dedona%20Age%2088)) ([veripages.com](https://veripages.com/name/Anthony/Dedona/#:~:text=,Dedona)). He does not appear to reside locally in Orange County and has no known involvement in Deerpark civic affairs (no mentions in town meetings or local news).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Non-resident owner; no local role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"As an absentee owner, he may be primarily concerned with property value. Outreach should be via written communication emphasizing how the project maintains or enhances local property values.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Lori Bodine\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-15.21\"],\n      \"claims\": \"Lori Bodine is the recorded owner of parcel 13-1-15.21 in Deerpark (Orange County) ([townofdeerparkny.gov](https://townofdeerparkny.gov/?p=10318#:~:text=Deerpark%202024%20Tentative%20Tax%20Roll)). There is little public information available about her, and she has not been identified in any local government minutes or news reports reviewed (no public statements on development issues).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; no public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through standard community outreach (mailers or door-knocking), listening for any personal concerns. Emphasize respect for her property and routine (since no specific issues are known).\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Thomas E. Gumaer III\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"2-1-2\"],\n      \"claims\": \"Thomas E. Gumaer III owns parcel 2-1-2 in Deerpark. The Gumaer family is historically significant in Deerpark; early settler Peter E. Gumaer and his descendants were prominent in the community’s history ([www.wgpfoundation.org](https://www.wgpfoundation.org/historic-markers/gumaer-cemetery/#:~:text=Gumaer%20Cemetery%20was%20established%20circa,%E2%80%9D)). No recent records show Thomas III holding an official position or making public comments on local development.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Old Deerpark family; longstanding local ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Recognize the Gumaer family’s long legacy in the area and emphasize how the project honors local history and land stewardship. A face-to-face meeting with a community liaison can build trust by acknowledging his family’s roots.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"George Perry\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"13-1-4.124\"],\n      \"claims\": \"George Perry is listed as the owner of parcel 13-1-4.124 in Deerpark (Orange County) ([townofdeerparkny.gov](https://townofdeerparkny.gov/?p=10318#:~:text=Deerpark%202024%20Tentative%20Tax%20Roll)). There is no public record of Perry taking part in local boards or speaking on development issues. His profile in community records is minimal, suggesting he is a private landowner without public civic roles.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic involvement\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use general outreach methods (community meetings, mailed notices) to keep him informed. Since he hasn’t voiced specific concerns publicly, be prepared to address common issues like traffic or noise if he raises them.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Paul Eliya\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"25-1-1.1\"],\n      \"claims\": \"Paul Eliya, owner of parcel 25-1-1.1, is an information technology professional based in the New York City area ([onug.net](https://onug.net/members/paul-eliya/#:~:text=Staff%20Sales%20Engineer%20)). He appears to be a relatively new property owner in Deerpark and has no recorded history of local civic engagement or public commentary on development proposals. His background implies he is not from a traditional farming family in the town.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Newer owner; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach with a focus on transparency and data (given his tech background). Providing clear, factual information about project impacts (noise levels, technology, etc.) via email or community webinars may resonate.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
