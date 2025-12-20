@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-12-19T16:05:24.973988",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Manistee County",
+    "state": "MI",
+    "city": "Onekama",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Four of the five neighboring landowners are family trusts tied to longtime local residents, including a prominent oil executive and a township zoning board member. These individuals likely prioritize preserving their land value and community character, indicating potential caution or opposition toward new development. The remaining neighbor is JFS Real Estate Group LLC, an outside real estate investment entity speculating on local property and primarily motivated by financial returns.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mccarthy Dennis B Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "11-014-010-00",
+        "11-015-009-01"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Headed by Dennis B. McCarthy – a wealthy oil company president, former bank board chair, and active community leader",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Dennis McCarthy directly with community-focused discussion; emphasize how the development aligns with local values and preserves Portage Lake’s integrity, given his civic involvement"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Agle Ardath Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "11-014-007-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "No public profile or known community roles; likely a private landowner with minimal broader influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, low-key outreach to Ardath Agle; address any concerns about disturbance and highlight minimal impact on her property’s peace and value"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Kane Kevin & Eilene Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "11-440-143-00",
+        "11-440-142-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Trustee Kevin Kane serves as Vice Chair of the Onekama Township Zoning Board of Appeals, giving him moderate sway in local land-use decisions【Onekama Township】",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with Kevin Kane given his zoning role; demonstrate the project’s compliance with local ordinances and minimal impact on nearby residences"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Carroll Ruth K Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "11-520-028-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "No known community positions or activities; appears to be a private landholder without broader influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through respectful personal communication (likely via family or local connections); reassure that the development will not negatively affect her property or lifestyle"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Jfs Real Estate Group Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-015-010-00",
+        "11-015-011-00",
+        "11-440-091-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JFS Real Estate Group LLC is a property investment company that purchased a mixed-use commercial building in Onekama for $300,000 in June 2021 [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html). The company subsequently spent approximately $328,500 on renovations and later sought a cash-out refinance to recoup those funds [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html). Financial filings characterize JFS as a real estate holding company, indicating its primary focus is property investment [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html). The ultimate ownership of JFS is not publicly disclosed; records show a single 100% owner, suggesting a privately held venture [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Recent outside investor with limited local ties; owns property but lacks established political or social influence in Onekama",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify and engage JFS’s principal investor(s) on a business level; highlight how the project could enhance property values or offer partnership opportunities rather than competition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Four of the five neighboring landowners are family trusts tied to longtime local residents, including a prominent oil executive and a township zoning board member. These individuals likely prioritize preserving their land value and community character, indicating potential caution or opposition toward new development. The remaining neighbor is JFS Real Estate Group LLC, an outside real estate investment entity speculating on local property and primarily motivated by financial returns.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Mccarthy Dennis B Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"11-014-010-00\", \"11-015-009-01\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Headed by Dennis B. McCarthy – a wealthy oil company president, former bank board chair, and active community leader\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Preserve family land legacy\", \"Protect local environmental and scenic quality\"],\n      \"approach_recommendations\": \"Engage Dennis McCarthy directly with community-focused discussion; emphasize how the development aligns with local values and preserves Portage Lake’s integrity, given his civic involvement\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Agle Ardath Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"11-014-007-00\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or known community roles; likely a private landowner with minimal broader influence\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Maintain current land use and privacy\", \"Avoid disruptive changes to property\"],\n      \"approach_recommendations\": \"Use a personal, low-key outreach to Ardath Agle; address any concerns about disturbance and highlight minimal impact on her property’s peace and value\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Kane Kevin & Eilene Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"11-440-143-00\", \"11-440-142-00\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Trustee Kevin Kane serves as Vice Chair of the Onekama Township Zoning Board of Appeals, giving him moderate sway in local land-use decisions【Onekama Township】\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Adherence to zoning regulations\", \"Protect neighborhood character and home value\"],\n      \"approach_recommendations\": \"Coordinate early with Kevin Kane given his zoning role; demonstrate the project’s compliance with local ordinances and minimal impact on nearby residences\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Carroll Ruth K Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"11-520-028-00\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known community positions or activities; appears to be a private landholder without broader influence\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Preserve property value and quiet use\", \"Resist unwanted disturbances or risks\"],\n      \"approach_recommendations\": \"Approach through respectful personal communication (likely via family or local connections); reassure that the development will not negatively affect her property or lifestyle\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Jfs Real Estate Group Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"11-015-010-00\", \"11-015-011-00\", \"11-440-091-00\"],\n      \"claims\": \"JFS Real Estate Group LLC is a property investment company that purchased a mixed-use commercial building in Onekama for $300,000 in June 2021 [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html). The company subsequently spent approximately $328,500 on renovations and later sought a cash-out refinance to recoup those funds [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html). Financial filings characterize JFS as a real estate holding company, indicating its primary focus is property investment [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html). The ultimate ownership of JFS is not publicly disclosed; records show a single 100% owner, suggesting a privately held venture [Blackburne & Sons](https://www.blackburneandsons.com/trustdeeds/2788/OnekamaMIMixedUseRefinance.html).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Recent outside investor with limited local ties; owns property but lacks established political or social influence in Onekama\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Real estate ROI maximization\", \"Ensure new development doesn’t diminish their property value or market plans\"],\n      \"approach_recommendations\": \"Identify and engage JFS’s principal investor(s) on a business level; highlight how the project could enhance property values or offer partnership opportunities rather than competition\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

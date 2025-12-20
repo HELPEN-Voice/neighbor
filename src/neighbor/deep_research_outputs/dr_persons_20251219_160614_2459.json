@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-12-19T16:06:14.245992",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Manistee County",
+    "state": "MI",
+    "city": "Onekama",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the profiled landowners have explicitly voiced support or opposition to development projects, so all five are classified with an unknown stance. One family (the Smeltzers) wields high community influence due to their longstanding agricultural legacy and civic involvement, while the others have medium to low public profiles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Tinsley James S & Kathryn M",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-440-094-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James S. \"Jim\" Tinsley has been an active voice in Manistee County, authoring letters to the editor on local school funding issues and federal legislation ([www.manisteenews.com](https://www.manisteenews.com/letters-to-the-editor/article/JIM-TINSLEY-Retirement-shortfalls-shouldn-t-come-14236133.php#:~:text=In%20political%20campaigns%2C%20numbers%20always,what%20is%20relevant%20to%20me)) ([www.manisteenews.com](https://www.manisteenews.com/letters-to-the-editor/article/JIM-TINSLEY-Benishek-s-column-doesn-t-tell-whole-14222763.php#:~:text=My%20letter%20is%20in%20response,of%20the%20Manistee%20News%20Advocate)). No record was found of Tinsley holding any official position in Onekama, but his frequent public commentary suggests he is an engaged community member ([www.manisteenews.com](https://www.manisteenews.com/letters-to-the-editor/article/JIM-TINSLEY-Benishek-s-column-doesn-t-tell-whole-14222763.php#:~:text=If%20Dr,serving)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Outspoken local commentator",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage him with data-driven explanations of how the development could boost local tax revenue (for example, funding for schools), which aligns with his focus on public funding and community benefits."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Hasse Roderick L & Melissa A",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-440-096-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roderick and Melissa Hasse own property in Onekama Township but have maintained a low profile, with no mention of either in local news reports or civic records ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=In%20Onekama%20Township%20voters%20will,%28Courtesy%20photo)). There is no evidence of the Hasses taking any public stance on development or participating in community meetings as of this report.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a neighborly, informal approach to open communication, as they have not been publicly active. Listening to any concerns in a one-on-one setting may encourage them to share their thoughts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Case Road Associates",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-520-029-00",
+        "11-520-000-00",
+        "11-520-001-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "This entity is addressed in the organizational profile; engagement strategy should follow corporate/LLC stakeholder outreach protocols."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Snyder Philip C & Karen J (Le)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-440-093-00"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Philip C. Snyder and Karen J. Snyder are private landowners in Onekama Township with no public history of civic roles or statements on community projects ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=In%20Onekama%20Township%20voters%20will,%28Courtesy%20photo)). Their property is listed under a life estate, indicating a personal estate planning arrangement; otherwise, they have not been prominent in local affairs.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or offices",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via a trusted community intermediary or family acquaintance, emphasizing respectful communication. Given their low public profile, one-on-one conversations addressing any personal concerns would be most effective."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Smeltzer David & Waters Mary",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-023-009-25"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "David Smeltzer manages Westwind Orchards, a fourth-generation fruit farm in Onekama Township (about 175 acres of apples and cherries) established by his family in the late 1880s ([www.masoncountypress.com](https://www.masoncountypress.com/2016/11/12/the-land-a-place-of-abundance-at-westwind-orchards/#:~:text=Arcadia%2C%20is%20orchard%20country,of%20farming%20in%20these%20parts)) ([www.masoncountypress.com](https://www.masoncountypress.com/2016/11/12/the-land-a-place-of-abundance-at-westwind-orchards/#:~:text=South%20about%2010%20miles%20from,his%20father%2C%20Percy%2C%20in%201944)). He has been a visible advocate on agricultural issues, openly discussing crop losses and supporting state assistance programs for farmers during a difficult 2012 harvest season ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Unusual-interesting-and-14235671.php#:~:text=On%20Friday%20fruit%20farmer%20David,%28Dave%20Yarnell%2FNews%20Advocate)) ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Unusual-interesting-and-14235671.php#:~:text=Smeltzer%20said%20the%20crop%20disaster,state%20will%20help%20some%20farmers)). His wife, Jennifer Smeltzer, is a well-known local figure who worked in the Michigan Legislature and even ran for a Onekama Township trustee seat in 2020, reflecting the family’s significant community engagement ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=SMELTZER%3A%20My%20husband%20and%20I,am%20a%20graduate%20of%20the)) ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=election%20on%20Nov,the%20township%20board%27s%20trustee%20positions)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Major orchard family; local political ties",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected agricultural community leader or neighbor approach the Smeltzers. Emphasize how the development can be compatible with farming and honor local heritage, which aligns with their long-term family legacy and interest in preserving farmland."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the profiled landowners have explicitly voiced support or opposition to development projects, so all five are classified with an unknown stance. One family (the Smeltzers) wields high community influence due to their longstanding agricultural legacy and civic involvement, while the others have medium to low public profiles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Tinsley James S & Kathryn M\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-440-094-00\"],\n      \"claims\": \"James S. \\\"Jim\\\" Tinsley has been an active voice in Manistee County, authoring letters to the editor on local school funding issues and federal legislation ([www.manisteenews.com](https://www.manisteenews.com/letters-to-the-editor/article/JIM-TINSLEY-Retirement-shortfalls-shouldn-t-come-14236133.php#:~:text=In%20political%20campaigns%2C%20numbers%20always,what%20is%20relevant%20to%20me)) ([www.manisteenews.com](https://www.manisteenews.com/letters-to-the-editor/article/JIM-TINSLEY-Benishek-s-column-doesn-t-tell-whole-14222763.php#:~:text=My%20letter%20is%20in%20response,of%20the%20Manistee%20News%20Advocate)). No record was found of Tinsley holding any official position in Onekama, but his frequent public commentary suggests he is an engaged community member ([www.manisteenews.com](https://www.manisteenews.com/letters-to-the-editor/article/JIM-TINSLEY-Benishek-s-column-doesn-t-tell-whole-14222763.php#:~:text=If%20Dr,serving)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Outspoken local commentator\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"tax_revenue_benefit\"],\n        \"engage\": \"Engage him with data-driven explanations of how the development could boost local tax revenue (for example, funding for schools), which aligns with his focus on public funding and community benefits.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Hasse Roderick L & Melissa A\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-440-096-00\"],\n      \"claims\": \"Roderick and Melissa Hasse own property in Onekama Township but have maintained a low profile, with no mention of either in local news reports or civic records ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=In%20Onekama%20Township%20voters%20will,%28Courtesy%20photo)). There is no evidence of the Hasses taking any public stance on development or participating in community meetings as of this report.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a neighborly, informal approach to open communication, as they have not been publicly active. Listening to any concerns in a one-on-one setting may encourage them to share their thoughts.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Case Road Associates\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-520-029-00\", \"11-520-000-00\", \"11-520-001-00\"],\n      \"claims\": \"See ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"This entity is addressed in the organizational profile; engagement strategy should follow corporate/LLC stakeholder outreach protocols.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Snyder Philip C & Karen J (Le)\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-440-093-00\"],\n      \"claims\": \"Philip C. Snyder and Karen J. Snyder are private landowners in Onekama Township with no public history of civic roles or statements on community projects ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=In%20Onekama%20Township%20voters%20will,%28Courtesy%20photo)). Their property is listed under a life estate, indicating a personal estate planning arrangement; otherwise, they have not been prominent in local affairs.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or offices\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via a trusted community intermediary or family acquaintance, emphasizing respectful communication. Given their low public profile, one-on-one conversations addressing any personal concerns would be most effective.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Smeltzer David & Waters Mary\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-023-009-25\"],\n      \"claims\": \"David Smeltzer manages Westwind Orchards, a fourth-generation fruit farm in Onekama Township (about 175 acres of apples and cherries) established by his family in the late 1880s ([www.masoncountypress.com](https://www.masoncountypress.com/2016/11/12/the-land-a-place-of-abundance-at-westwind-orchards/#:~:text=Arcadia%2C%20is%20orchard%20country,of%20farming%20in%20these%20parts)) ([www.masoncountypress.com](https://www.masoncountypress.com/2016/11/12/the-land-a-place-of-abundance-at-westwind-orchards/#:~:text=South%20about%2010%20miles%20from,his%20father%2C%20Percy%2C%20in%201944)). He has been a visible advocate on agricultural issues, openly discussing crop losses and supporting state assistance programs for farmers during a difficult 2012 harvest season ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Unusual-interesting-and-14235671.php#:~:text=On%20Friday%20fruit%20farmer%20David,%28Dave%20Yarnell%2FNews%20Advocate)) ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Unusual-interesting-and-14235671.php#:~:text=Smeltzer%20said%20the%20crop%20disaster,state%20will%20help%20some%20farmers)). His wife, Jennifer Smeltzer, is a well-known local figure who worked in the Michigan Legislature and even ran for a Onekama Township trustee seat in 2020, reflecting the family’s significant community engagement ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=SMELTZER%3A%20My%20husband%20and%20I,am%20a%20graduate%20of%20the)) ([www.manisteenews.com](https://www.manisteenews.com/local-news/article/Three-candidates-vie-for-two-trustee-seats-in-15405168.php#:~:text=election%20on%20Nov,the%20township%20board%27s%20trustee%20positions)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major orchard family; local political ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected agricultural community leader or neighbor approach the Smeltzers. Emphasize how the development can be compatible with farming and honor local heritage, which aligns with their long-term family legacy and interest in preserving farmland.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
