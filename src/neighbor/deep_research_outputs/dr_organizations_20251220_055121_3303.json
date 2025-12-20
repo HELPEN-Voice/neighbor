@@ -1,0 +1,122 @@
+{
+  "timestamp": "2025-12-20T05:51:21.330386",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "McHenry County",
+    "state": "IL",
+    "city": "Marengo Township",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent organizational landowners include a major electric utility (ComEd), a freight railroad corporation (Union Pacific), and a private landholding LLC (Freedom Lane LLC). ComEd and Union Pacific are large infrastructure entities focused on their operations; both have significant resources but typically remain neutral on local development unless their facilities are directly affected. Freedom Lane LLC appears to be a speculative land investor with little public information available, making its stance on new projects unclear and its influence limited to its ownership of the parcels.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Commonwealth Edison Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-31-200-002",
+        "11-31-100-002",
+        "11-32-100-002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Commonwealth Edison (ComEd) is Illinois’ largest electric utility, serving Chicago and most of Northern Illinois as a subsidiary of Exelon Corporation [Wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Edison). ComEd has wielded political influence in Illinois – a federal corruption case revealed the company arranged benefits for associates of the Illinois House Speaker in exchange for favorable energy legislation [AP News](https://apnews.com/article/598e993948fd1a2f05a3b80a3da9eeee). ComEd’s service territory spans about 11,400 square miles across northern Illinois (extending to McHenry County), and it maintains local grid infrastructure such as transmission lines and substations on its land holdings [MC2 Energy Services](https://mc2energyservices.com/service_map.php).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Dominant regional utility with deep political connections and essential infrastructure; historically willing to exert influence for favorable policies",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage ComEd’s regional external affairs manager to address any grid or safety concerns. Emphasize how the project can improve local reliability or require infrastructure upgrades, aligning with ComEd’s interests to ensure a neutral or supportive stance."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Union Pacific Railroad Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-31-502-004",
+        "11-31-502-003",
+        "11-32-502-003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Union Pacific Railroad Company is a Class I freight railroad operating a 32,100-mile network across the western and midwestern United States, under the parent company Union Pacific Corporation [Wikipedia](https://en.wikipedia.org/wiki/Union_Pacific_Railroad). Union Pacific expanded into northern Illinois by acquiring the Chicago & North Western Railway in 1995, gaining rail lines and yards in the greater Chicago region [Wikipedia](https://en.wikipedia.org/wiki/Union_Pacific_Railroad). The company’s public affairs strategy prioritizes issues directly impacting its rail operations and business performance, indicating it engages locally only when its transportation interests are at stake [Union Pacific Railroad](https://investor.unionpacific.com/ir-resources/political-contributions-policy-and-procedures/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "National infrastructure company with legal leverage over its right-of-way but minimal involvement in local community or politics unless rail operations are affected",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Union Pacific’s property and engineering department on any necessary rail crossing or safety agreements. Otherwise, expect minimal engagement from the railroad as long as the development does not interfere with its operations."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Freedom Lane LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-32-100-005",
+        "11-32-100-008",
+        "11-32-100-006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Freedom Lane LLC is an Illinois limited liability company that owns multiple parcels of agricultural land in Marengo Township, McHenry County (as identified by the listed PINs) [McHenry County Assessor](https://www.mchenrycountyil.gov/departments/assessments/board-of-review/assessment-records). No public information is readily available about Freedom Lane LLC’s principals or business activities; it appears to be a passive landholding entity with no publicly recorded operations beyond property ownership [McHenry County Assessor](https://www.mchenrycountyil.gov/departments/assessments/board-of-review/assessment-records).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Privately held land investor with no known public profile or community role; beneficial owners and intentions are undisclosed",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the managing member behind Freedom Lane LLC via records or local contacts and engage them discreetly. Align outreach with their financial interests (e.g., offer competitive land terms or buyout) to neutralize potential opposition given their likely investment motive."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent organizational landowners include a major electric utility (ComEd), a freight railroad corporation (Union Pacific), and a private landholding LLC (Freedom Lane LLC). ComEd and Union Pacific are large infrastructure entities focused on their operations; both have significant resources but typically remain neutral on local development unless their facilities are directly affected. Freedom Lane LLC appears to be a speculative land investor with little public information available, making its stance on new projects unclear and its influence limited to its ownership of the parcels.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Commonwealth Edison Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-31-200-002\", \"11-31-100-002\", \"11-32-100-002\"],\n      \"claims\": \"Commonwealth Edison (ComEd) is Illinois’ largest electric utility, serving Chicago and most of Northern Illinois as a subsidiary of Exelon Corporation [Wikipedia](https://en.wikipedia.org/wiki/Commonwealth_Edison). ComEd has wielded political influence in Illinois – a federal corruption case revealed the company arranged benefits for associates of the Illinois House Speaker in exchange for favorable energy legislation [AP News](https://apnews.com/article/598e993948fd1a2f05a3b80a3da9eeee). ComEd’s service territory spans about 11,400 square miles across northern Illinois (extending to McHenry County), and it maintains local grid infrastructure such as transmission lines and substations on its land holdings [MC2 Energy Services](https://mc2energyservices.com/service_map.php).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Dominant regional utility with deep political connections and essential infrastructure; historically willing to exert influence for favorable policies\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Grid reliability and safety\", \"Regulatory compliance\", \"Infrastructure investment opportunities\"],\n      \"approach_recommendations\": \"Engage ComEd’s regional external affairs manager to address any grid or safety concerns. Emphasize how the project can improve local reliability or require infrastructure upgrades, aligning with ComEd’s interests to ensure a neutral or supportive stance.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Union Pacific Railroad Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-31-502-004\", \"11-31-502-003\", \"11-32-502-003\"],\n      \"claims\": \"Union Pacific Railroad Company is a Class I freight railroad operating a 32,100-mile network across the western and midwestern United States, under the parent company Union Pacific Corporation [Wikipedia](https://en.wikipedia.org/wiki/Union_Pacific_Railroad). Union Pacific expanded into northern Illinois by acquiring the Chicago & North Western Railway in 1995, gaining rail lines and yards in the greater Chicago region [Wikipedia](https://en.wikipedia.org/wiki/Union_Pacific_Railroad). The company’s public affairs strategy prioritizes issues directly impacting its rail operations and business performance, indicating it engages locally only when its transportation interests are at stake [Union Pacific Railroad](https://investor.unionpacific.com/ir-resources/political-contributions-policy-and-procedures/).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"National infrastructure company with legal leverage over its right-of-way but minimal involvement in local community or politics unless rail operations are affected\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Rail safety and right-of-way integrity\", \"Avoiding new crossings or liabilities\"],\n      \"approach_recommendations\": \"Coordinate with Union Pacific’s property and engineering department on any necessary rail crossing or safety agreements. Otherwise, expect minimal engagement from the railroad as long as the development does not interfere with its operations.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Freedom Lane LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"11-32-100-005\", \"11-32-100-008\", \"11-32-100-006\"],\n      \"claims\": \"Freedom Lane LLC is an Illinois limited liability company that owns multiple parcels of agricultural land in Marengo Township, McHenry County (as identified by the listed PINs) [McHenry County Assessor](https://www.mchenrycountyil.gov/departments/assessments/board-of-review/assessment-records). No public information is readily available about Freedom Lane LLC’s principals or business activities; it appears to be a passive landholding entity with no publicly recorded operations beyond property ownership [McHenry County Assessor](https://www.mchenrycountyil.gov/departments/assessments/board-of-review/assessment-records).\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Privately held land investor with no known public profile or community role; beneficial owners and intentions are undisclosed\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land sale or lease value\", \"Preserve property value (farmland income or future development potential)\"],\n      \"approach_recommendations\": \"Identify the managing member behind Freedom Lane LLC via records or local contacts and engage them discreetly. Align outreach with their financial interests (e.g., offer competitive land terms or buyout) to neutralize potential opposition given their likely investment motive.\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

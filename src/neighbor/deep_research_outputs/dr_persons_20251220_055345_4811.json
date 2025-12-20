@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-12-20T05:53:45.481187",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "McHenry County",
+    "state": "IL",
+    "city": "Marengo Township",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neither neighboring landowner has a documented stance on local development or clean energy projects. One is a long-established farmer with moderate community influence due to extensive landholdings, while the other appears to have a minimal public profile or influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "John David Macintyre",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-32-100-018",
+        "11-32-100-020"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John D. Macintyre has collected over $400,000 in federal farm subsidies since 1995, indicating a significant farming operation [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A03192501) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=A03192501#:~:text=Total%20%20,%24400%2C703)). Subsidy records show his farming activities in both McHenry County (about $175,738) and Boone County (about $224,965), reflecting landholdings across the county line [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A03192501) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=A03192501#:~:text=County%20%20,%24400%2C703)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime large-scale farmer",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Have a respected agriculture peer reach out to Macintyre, emphasizing how the project will protect farmland and address any drainage or road use concerns in the area."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Avalos Daniela Vega Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "11-31-100-003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daniela Vega Martin Avalos is listed as the owner of a parcel in Marengo Township, McHenry County [McHenry County Property Tax Inquiry](https://mchenryil.devnetwedge.com/) ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=1,Inquiry)). No references to her involvement or statements in local civic matters were found in available public records or news archives ([marengo-township.org](https://marengo-township.org/2021-past-meeting-minutes#:~:text=2021%20Past%20Meeting%20Minutes%20Town,Download%20Marengo%20Monthly%20Meeting)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a one-on-one, neighborly approach to introduce the project, listening to any concerns she may have and ensuring she feels included in the information flow."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neither neighboring landowner has a documented stance on local development or clean energy projects. One is a long-established farmer with moderate community influence due to extensive landholdings, while the other appears to have a minimal public profile or influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"John David Macintyre\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-32-100-018\", \"11-32-100-020\"],\n      \"claims\": \"John D. Macintyre has collected over $400,000 in federal farm subsidies since 1995, indicating a significant farming operation [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A03192501) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=A03192501#:~:text=Total%20%20,%24400%2C703)). Subsidy records show his farming activities in both McHenry County (about $175,738) and Boone County (about $224,965), reflecting landholdings across the county line [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A03192501) ([farm.ewg.org](https://farm.ewg.org/persondetail.php?custnumber=A03192501#:~:text=County%20%20,%24400%2C703)).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"medium\",\n      \"influence_justification\": \"Longtime large-scale farmer\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"drainage_roads\"],\n        \"engage\": \"Have a respected agriculture peer reach out to Macintyre, emphasizing how the project will protect farmland and address any drainage or road use concerns in the area.\"\n      },\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Avalos Daniela Vega Martin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"11-31-100-003\"],\n      \"claims\": \"Daniela Vega Martin Avalos is listed as the owner of a parcel in Marengo Township, McHenry County [McHenry County Property Tax Inquiry](https://mchenryil.devnetwedge.com/) ([www.mchenrycountyhistory.org](https://www.mchenrycountyhistory.org/property-research/#:~:text=1,Inquiry)). No references to her involvement or statements in local civic matters were found in available public records or news archives ([marengo-township.org](https://marengo-township.org/2021-past-meeting-minutes#:~:text=2021%20Past%20Meeting%20Minutes%20Town,Download%20Marengo%20Monthly%20Meeting)).\",\n      \"noted_stance\": \"unknown\",\n      \"community_influence\": \"low\",\n      \"influence_justification\": \"No public profile or civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a one-on-one, neighborly approach to introduce the project, listening to any concerns she may have and ensuring she feels included in the information flow.\"\n      },\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
