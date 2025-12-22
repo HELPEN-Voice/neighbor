@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-12-22T15:05:22.407451",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "AL",
+    "city": "Flat Rock",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both identified neighbors are landowning residents in Flat Rock with no recorded public stance on the development. Neither has been noted taking a clear support or opposition position. One neighbor (a major poultry farm operator) carries moderate local influence due to their economic presence, while the other is a low-profile landowner with limited public involvement.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ricky & Cheryl Clark",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507350000004004"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ricky and Cheryl Clark own approximately 96 acres in Flat Rock, operating a poultry farm with seven broiler houses built in 1995 and 2017 ([www.kellyrightrealestate.com](https://www.kellyrightrealestate.com/property/86-10540624-25398-Highway-71-Flat-Rock-AL-35966#:~:text=7%20broiler%20houses%20on%20approximately,3%20bedroom%2C%202)). Their farm is contracted with Pilgrim’s Pride as the poultry integrator ([www.daltonwade.com](https://www.daltonwade.com/property/168-7524341-25398-Al-Highway-71-Flat-Rock-AL-35966#:~:text=Propane%20tanks%20%28Houses%201,Birmingham%20132%20miles%20from%20Atlanta)). The property includes a brick farmhouse constructed in 1965 ([www.kellyrightrealestate.com](https://www.kellyrightrealestate.com/property/86-10540624-25398-Highway-71-Flat-Rock-AL-35966#:~:text=7%20broiler%20houses%20on%20approximately,3%20bedroom%2C%202)), indicating a long-term family presence on the land.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Large poultry farm operator",
+      "approach_recommendations": {
+        "motivations": [
+          "drainage_roads",
+          "livestock_safety"
+        ],
+        "engage": "Have an agriculture-friendly liaison reach out to address any concerns about road upkeep and to reassure the Clarks that construction will not disrupt their poultry operation."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James Williams",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507260000003004"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Williams is listed as a landowner in Flat Rock, Jackson County, but little public information is available about him. He has not been identified in local news reports or meeting records taking any position on community or development issues ([yellowhammernews.com](https://yellowhammernews.com/historic-jackson-county-school-closing-after-120-years/#:~:text=The%20closure%20comes%20after%20weeks,educational%20resources%20as%20driving%20factors)). No civic roles or public statements by Williams were found in the course of this research.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner, no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage quietly through a personal visit or local mutual acquaintance to understand any concerns, respecting Williams’s privacy and low public profile."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both identified neighbors are landowning residents in Flat Rock with no recorded public stance on the development. Neither has been noted taking a clear support or opposition position. One neighbor (a major poultry farm operator) carries moderate local influence due to their economic presence, while the other is a low-profile landowner with limited public involvement.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Ricky & Cheryl Clark\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507350000004004\"],\n      \"claims\": \"Ricky and Cheryl Clark own approximately 96 acres in Flat Rock, operating a poultry farm with seven broiler houses built in 1995 and 2017 ([www.kellyrightrealestate.com](https://www.kellyrightrealestate.com/property/86-10540624-25398-Highway-71-Flat-Rock-AL-35966#:~:text=7%20broiler%20houses%20on%20approximately,3%20bedroom%2C%202)). Their farm is contracted with Pilgrim’s Pride as the poultry integrator ([www.daltonwade.com](https://www.daltonwade.com/property/168-7524341-25398-Al-Highway-71-Flat-Rock-AL-35966#:~:text=Propane%20tanks%20%28Houses%201,Birmingham%20132%20miles%20from%20Atlanta)). The property includes a brick farmhouse constructed in 1965 ([www.kellyrightrealestate.com](https://www.kellyrightrealestate.com/property/86-10540624-25398-Highway-71-Flat-Rock-AL-35966#:~:text=7%20broiler%20houses%20on%20approximately,3%20bedroom%2C%202)), indicating a long-term family presence on the land.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Large poultry farm operator\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"drainage_roads\", \"livestock_safety\"],\n        \"engage\": \"Have an agriculture-friendly liaison reach out to address any concerns about road upkeep and to reassure the Clarks that construction will not disrupt their poultry operation.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"James Williams\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507260000003004\"],\n      \"claims\": \"James Williams is listed as a landowner in Flat Rock, Jackson County, but little public information is available about him. He has not been identified in local news reports or meeting records taking any position on community or development issues ([yellowhammernews.com](https://yellowhammernews.com/historic-jackson-county-school-closing-after-120-years/#:~:text=The%20closure%20comes%20after%20weeks,educational%20resources%20as%20driving%20factors)). No civic roles or public statements by Williams were found in the course of this research.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner, no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage quietly through a personal visit or local mutual acquaintance to understand any concerns, respecting Williams’s privacy and low public profile.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

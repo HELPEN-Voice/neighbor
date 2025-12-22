@@ -1,0 +1,190 @@
+{
+  "timestamp": "2025-12-22T15:06:56.741138",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "AL",
+    "city": "Flat Rock",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the five neighboring landowners have made any public statements about the proposed development, so all are classified with an unknown stance. A couple of the neighbors (the Worley/Peet family) hold a large poultry farming operation, giving them moderate economic influence locally, but overall these individuals do not occupy official positions and have a low public profile in the community.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Curtis & Clara Schofield",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1508340000001001",
+        "1508340000001003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Curtis Schofield was a retired United Methodist minister who pastored churches across East Tennessee and North Georgia during his career [Discover Dade](https://kwntv7.wixsite.com/discoverdade/post/dr-curtis-schofield). He and his wife Clara lived on a homestead along Alabama Highway 71 in Flat Rock [Veripages](https://veripages.com/name/Curtis/Schofield/). Rev. Schofield passed away in 2019 at the age of 82, leaving Clara as the surviving owner [Discover Dade](https://kwntv7.wixsite.com/discoverdade/post/dr-curtis-schofield).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired pastor; no civic office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through personal and faith-based connections. For example, have a local Methodist pastor or mutual church acquaintance introduce the project to Clara, respecting their long-standing church community ties."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Austin P. Worley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507260000003018"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Austin P. Worley owns a parcel of land in Flat Rock’s rural farming zone near State Highway 71, an area that includes a 96-acre broiler chicken operation [Land & Farm](https://www.landandfarm.com/property/96-acres-in-jackson-county-36677301/). There are no news reports or public records indicating that Austin Worley has been involved in local meetings or voiced opinions on development issues as of 2025 [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major farm landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "traffic_safety"
+        ],
+        "engage": "Highlight measures that protect ongoing farm operations and road safety. Engage him via agricultural networks (e.g. a county extension agent or Farm Bureau introduction) to show respect for his farming background."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aaron Dale Hamlen & Brandi Stephenson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1508270000001001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Aaron Dale Hamlen and Brandi Stephenson are listed as co-owners of a Flat Rock parcel, but they maintain an extremely low public profile [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/). No available public sources show them participating in community meetings or commenting on local developments [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a direct but neighborly approach. Because the Hamlens are not publicly active, a personal visit or informal neighborhood gathering can help build trust and communicate project details in a low-key manner."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Mark Oscar Holmen & Amy Ruth Holmen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507260000003016",
+        "1507260000003017"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark and Amy Holmen own two adjacent parcels in Flat Rock, indicating a relatively sizeable property holding in the area [Land & Farm](https://www.landandfarm.com/property/96-acres-in-jackson-county-36677301/). There is no record of the Holmens taking part in local civic affairs or making public comments on development proposals in Jackson County 【WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No local profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Provide straightforward, factual information emphasizing property value stability and land-use compatibility. Since the Holmens are not publicly involved, consider introducing the project through a friendly neighboring landowner to make them more comfortable."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Judith A. Peet & Rex Worley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507260000003012"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Judith Peet and Rex Worley jointly own a large farm property in Flat Rock that is currently listed as a 96-acre, seven-chicken-house poultry operation on Alabama Highway 71 [Land & Farm](https://www.landandfarm.com/property/96-acres-in-jackson-county-36677301/). Neither of them appears in local news or public meeting records, suggesting they have not publicly engaged in debates about development projects [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Owns major poultry farm",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "livestock_safety"
+        ],
+        "engage": "Acknowledge their farming legacy and address any concerns about protecting their poultry operation. It may be effective to have an agricultural extension officer or respected farming peer start the conversation, focusing on how the project will safeguard farmland and biosecurity."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the five neighboring landowners have made any public statements about the proposed development, so all are classified with an unknown stance. A couple of the neighbors (the Worley/Peet family) hold a large poultry farming operation, giving them moderate economic influence locally, but overall these individuals do not occupy official positions and have a low public profile in the community.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Curtis & Clara Schofield\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1508340000001001\", \"1508340000001003\"],\n      \"claims\": \"Curtis Schofield was a retired United Methodist minister who pastored churches across East Tennessee and North Georgia during his career [Discover Dade](https://kwntv7.wixsite.com/discoverdade/post/dr-curtis-schofield). He and his wife Clara lived on a homestead along Alabama Highway 71 in Flat Rock [Veripages](https://veripages.com/name/Curtis/Schofield/). Rev. Schofield passed away in 2019 at the age of 82, leaving Clara as the surviving owner [Discover Dade](https://kwntv7.wixsite.com/discoverdade/post/dr-curtis-schofield).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Retired pastor; no civic office\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through personal and faith-based connections. For example, have a local Methodist pastor or mutual church acquaintance introduce the project to Clara, respecting their long-standing church community ties.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Austin P. Worley\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507260000003018\"],\n      \"claims\": \"Austin P. Worley owns a parcel of land in Flat Rock’s rural farming zone near State Highway 71, an area that includes a 96-acre broiler chicken operation [Land & Farm](https://www.landandfarm.com/property/96-acres-in-jackson-county-36677301/). There are no news reports or public records indicating that Austin Worley has been involved in local meetings or voiced opinions on development issues as of 2025 [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major farm landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"traffic_safety\"],\n        \"engage\": \"Highlight measures that protect ongoing farm operations and road safety. Engage him via agricultural networks (e.g. a county extension agent or Farm Bureau introduction) to show respect for his farming background.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Aaron Dale Hamlen & Brandi Stephenson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1508270000001001\"],\n      \"claims\": \"Aaron Dale Hamlen and Brandi Stephenson are listed as co-owners of a Flat Rock parcel, but they maintain an extremely low public profile [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/). No available public sources show them participating in community meetings or commenting on local developments [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"No known public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a direct but neighborly approach. Because the Hamlens are not publicly active, a personal visit or informal neighborhood gathering can help build trust and communicate project details in a low-key manner.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Mark Oscar Holmen & Amy Ruth Holmen\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507260000003016\", \"1507260000003017\"],\n      \"claims\": \"Mark and Amy Holmen own two adjacent parcels in Flat Rock, indicating a relatively sizeable property holding in the area [Land & Farm](https://www.landandfarm.com/property/96-acres-in-jackson-county-36677301/). There is no record of the Holmens taking part in local civic affairs or making public comments on development proposals in Jackson County 【WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"No local profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Provide straightforward, factual information emphasizing property value stability and land-use compatibility. Since the Holmens are not publicly involved, consider introducing the project through a friendly neighboring landowner to make them more comfortable.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Judith A. Peet & Rex Worley\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507260000003012\"],\n      \"claims\": \"Judith Peet and Rex Worley jointly own a large farm property in Flat Rock that is currently listed as a 96-acre, seven-chicken-house poultry operation on Alabama Highway 71 [Land & Farm](https://www.landandfarm.com/property/96-acres-in-jackson-county-36677301/). Neither of them appears in local news or public meeting records, suggesting they have not publicly engaged in debates about development projects [WAFF News](https://www.waff.com/story/29522743/judge-orders-jackson-co-dam-used-by-coal-mining-company-remain-untouched/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Owns major poultry farm\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"livestock_safety\"],\n        \"engage\": \"Acknowledge their farming legacy and address any concerns about protecting their poultry operation. It may be effective to have an agricultural extension officer or respected farming peer start the conversation, focusing on how the project will safeguard farmland and biosecurity.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

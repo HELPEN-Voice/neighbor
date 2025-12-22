@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-12-22T15:10:22.453571",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "AL",
+    "city": "Flat Rock",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five profiled neighbors are private landowners in Flat Rock with no clear public stance for or against local development. None of them hold any known official positions or leadership roles in the community, indicating a low overall influence profile among these neighbors.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Michael Cecil Bain & Tambra Lynn Bain",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1508270000008000",
+        "1508270000001000",
+        "1508270000001003",
+        "1508270000007000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael Cecil Bain (who also appears as Cecil C. Bain) is listed at a Flat Rock, AL address on County Road 197 ([www.idcrawl.com](https://www.idcrawl.com/cecil-bain#:~:text=Cecil%20Bain%27s%20Instagram%2C%20Twitter%20%26,insightbb.com%20%E2%80%94%20%28256)), and together with Tambra Lynn Bain is the owner of multiple parcels in the Flat Rock area (per Jackson County land records). No news reports or public meeting minutes show the Bains voicing any opinions on development projects ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=61%20%20,%24%208%2C592.00)), and they are not listed among local farm subsidy recipients ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=61%20%20,%24%208%2C592.00)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Multi-parcel owners; no public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Approach with a personal visit by a local farming community liaison. Emphasize respect for their land and listen to any concerns about preserving agricultural use."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Monica Hernandez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1508270000001002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Monica Hernandez is identified as the owner of a parcel in Flat Rock (Jackson County records), but she has no discernible public profile in local news or civic affairs ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=No%20,hernandez)). Her name does not appear in local farm or community subsidy databases ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=61%20%20,%24%208%2C592.00)), and there are no records of her taking any public stance on development issues.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via a friendly, informal introduction (such as a neighborly visit). Provide clear information about the project and invite her to share any questions or concerns in a comfortable setting."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Trevor Newsom",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507260000003015"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trevor Newsom owns property in the Flat Rock area according to county parcel records, but no public information was found linking him to any community leadership or commentary on local development ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=65%20%20,%24%208%2C184.00)). There are no indications in news archives or public databases that Newsom has taken a stance on development or energy projects.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach personally through a mutual local contact or neighbor. Have an open, one-on-one conversation to explain the project and show willingness to address any issues important to him."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Amber Haley Gray Smith & Dillion Lee Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507350000001005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Amber Haley Gray Smith and Dillion Lee Smith are co-owners of a property in Flat Rock, as recorded in county land ownership files. They do not feature in local government or civic records (e.g., no mentions in county meeting minutes or local news regarding development) ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=85%20%20,%24%203%2C511.00)). There is no public evidence of this young couple taking any position on community development or energy initiatives.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Young local couple; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Smiths together in a casual meeting at their convenience. Emphasize how the project will safeguard neighborhood values (like property values and safety) and invite their input to make them feel heard."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five profiled neighbors are private landowners in Flat Rock with no clear public stance for or against local development. None of them hold any known official positions or leadership roles in the community, indicating a low overall influence profile among these neighbors.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Michael Cecil Bain & Tambra Lynn Bain\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1508270000008000\", \"1508270000001000\", \"1508270000001003\", \"1508270000007000\"],\n      \"claims\": \"Michael Cecil Bain (who also appears as Cecil C. Bain) is listed at a Flat Rock, AL address on County Road 197 ([www.idcrawl.com](https://www.idcrawl.com/cecil-bain#:~:text=Cecil%20Bain%27s%20Instagram%2C%20Twitter%20%26,insightbb.com%20%E2%80%94%20%28256)), and together with Tambra Lynn Bain is the owner of multiple parcels in the Flat Rock area (per Jackson County land records). No news reports or public meeting minutes show the Bains voicing any opinions on development projects ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=61%20%20,%24%208%2C592.00)), and they are not listed among local farm subsidy recipients ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=61%20%20,%24%208%2C592.00)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Multi-parcel owners; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Approach with a personal visit by a local farming community liaison. Emphasize respect for their land and listen to any concerns about preserving agricultural use.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Monica Hernandez\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1508270000001002\"],\n      \"claims\": \"Monica Hernandez is identified as the owner of a parcel in Flat Rock (Jackson County records), but she has no discernible public profile in local news or civic affairs ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=No%20,hernandez)). Her name does not appear in local farm or community subsidy databases ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=61%20%20,%24%208%2C592.00)), and there are no records of her taking any public stance on development issues.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage via a friendly, informal introduction (such as a neighborly visit). Provide clear information about the project and invite her to share any questions or concerns in a comfortable setting.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Trevor Newsom\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507260000003015\"],\n      \"claims\": \"Trevor Newsom owns property in the Flat Rock area according to county parcel records, but no public information was found linking him to any community leadership or commentary on local development ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=65%20%20,%24%208%2C184.00)). There are no indications in news archives or public databases that Newsom has taken a stance on development or energy projects.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach personally through a mutual local contact or neighbor. Have an open, one-on-one conversation to explain the project and show willingness to address any issues important to him.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Amber Haley Gray Smith & Dillion Lee Smith\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507350000001005\"],\n      \"claims\": \"Amber Haley Gray Smith and Dillion Lee Smith are co-owners of a property in Flat Rock, as recorded in county land ownership files. They do not feature in local government or civic records (e.g., no mentions in county meeting minutes or local news regarding development) ([farm.ewg.org](https://farm.ewg.org/addrsearch.php?page=2&z=1&zip=35966#:~:text=85%20%20,%24%203%2C511.00)). There is no public evidence of this young couple taking any position on community development or energy initiatives.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Young local couple; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the Smiths together in a casual meeting at their convenience. Emphasize how the project will safeguard neighborhood values (like property values and safety) and invite their input to make them feel heard.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
