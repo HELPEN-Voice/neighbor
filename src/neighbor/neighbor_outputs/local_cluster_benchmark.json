@@ -1,31 +1,31 @@
 {
-  "run_id": "e0ff04da-f4a5-4ed9-9287-061cb65d8c11",
-  "coordinates": "34.6092,-99.1428",
-  "state_code": "OK",
-  "parcels_analyzed": 47,
+  "run_id": "97215bd5-bef3-4cfc-8976-60a5b7a210e9",
+  "coordinates": "32.88675833,-111.82673056",
+  "state_code": "AZ",
+  "parcels_analyzed": 50,
   "community_wealth_proxy": {
-    "valid_samples": 6,
-    "median_structure_value": 29960.0,
-    "formatted": "$29,960",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 0,
+    "median_structure_value": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
   },
   "land_value_proxy": {
-    "valid_samples": 34,
-    "median_value_per_acre": 263.64834914808773,
-    "formatted": "$264/acre",
+    "valid_samples": 4,
+    "median_value_per_acre": 2678.6211420126147,
+    "formatted": "$2,679/acre",
     "risk_level": "LOW",
     "risk_class": "risk-low"
   },
   "template_variables": {
-    "median_structure_value": "$29,960",
-    "wealth_risk_level": "LOW",
-    "wealth_risk_class": "risk-low",
-    "wealth_valid_samples": "6",
-    "median_land_value_acre": "$264/acre",
+    "median_structure_value": "N/A",
+    "wealth_risk_level": "UNKNOWN",
+    "wealth_risk_class": "risk-unknown",
+    "wealth_valid_samples": "0",
+    "median_land_value_acre": "$2,679/acre",
     "land_risk_level": "LOW",
     "land_risk_class": "risk-low",
-    "land_valid_samples": "34",
-    "parcels_analyzed": "47"
+    "land_valid_samples": "4",
+    "parcels_analyzed": "50"
   }
 }

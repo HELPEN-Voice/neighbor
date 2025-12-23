@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-12-23T11:44:05.863458",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": "Casa Grande",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One neighboring landowner was profiled, and this individual has no recorded stance on local development or renewable energy. The neighbor holds no public roles or influence in community affairs, and none of the profiled neighbors have high community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Henry D. Cory",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "503-68-2560"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Henry D. Cory is listed as the primary owner of Pinal County parcel 503-68-2560 in the Casa Grande area [Pinal County Assessor](https://www.pinal.gov/486/Assessor). No meeting minutes or local news reports were found that mention Henry D. Cory, suggesting he has not been publicly active in civic issues or development debates in Casa Grande [Pinal County Board of Supervisors Minutes](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=2143).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles identified",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Because he is not publicly active, a one-on-one meeting with a community liaison is advised to explain the project and listen to any concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One neighboring landowner was profiled, and this individual has no recorded stance on local development or renewable energy. The neighbor holds no public roles or influence in community affairs, and none of the profiled neighbors have high community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Henry D. Cory\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"503-68-2560\"],\n      \"claims\": \"Henry D. Cory is listed as the primary owner of Pinal County parcel 503-68-2560 in the Casa Grande area [Pinal County Assessor](https://www.pinal.gov/486/Assessor). No meeting minutes or local news reports were found that mention Henry D. Cory, suggesting he has not been publicly active in civic issues or development debates in Casa Grande [Pinal County Board of Supervisors Minutes](https://pinal.novusagenda.com/AgendaPublic/MeetingView.aspx?MeetingID=2143).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles identified\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Because he is not publicly active, a one-on-one meeting with a community liaison is advised to explain the project and listen to any concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
