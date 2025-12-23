@@ -1,0 +1,235 @@
+{
+  "timestamp": "2025-12-22T16:06:25.220023",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "OK",
+    "city": "Headrick",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighboring landowners have an undetermined stance on development, with no explicit support or opposition documented. Most exert limited community influence; none hold public office, though a couple of families (like the Howards and Reasers) command respect as established farm owners.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bron & Shellie Howard",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330002698"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Howard family is an established farming presence in Headrick, raising wheat and cattle on a 2,500-acre Jackson County farm that has been in the family since 1884 [Oklahoma Farm Bureau](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/). Like many local producers, the Howards tend to focus on agriculture and avoid public complaints or political activism [Oklahoma Farm Bureau](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Legacy farm family; large landholdings",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or Farm Bureau member approach them, emphasizing respect for their family’s land legacy and minimal disruption to their farming routine."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Shane & Lori Reaser",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330002630",
+        "330002377",
+        "330002638",
+        "330002633",
+        "330002632",
+        "330002631",
+        "330002634",
+        "330002386",
+        "330002378",
+        "330002379"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lori Reaser (née Reaser) was raised in the Altus area; she is identified as the daughter of longtime Altus residents Joe Don and Sherrie Reaser ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Kevin-Dean-Reaser?obId=2896237#:~:text=Kevin%20Dean%20Reaser%20was%20born,Phil%20and%20Joy%20Phillips%20of)). The Reaser family holds multiple parcels of agricultural land in Jackson County, suggesting a significant farming operation similar to other large farm families in the region [Oklahoma Farm Bureau](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major landowners; longstanding local family",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage via a fellow farmer or agricultural extension contact who knows them. Stress how project plans will protect farmland integrity and maintain property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Troy D. Metheny III",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330002385"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Troy D. Metheny III’s public records show previous addresses in Hollis, Oklahoma (Harmon County) and even out-of-state, indicating he may not reside full-time in Jackson County ([veripages.com](https://veripages.com/name/Troy/Metheny/#:~:text=Veripages%20veripages,Hollis%2C%20OK%2073550%20See%20Troy%27s)). He carries a generational suffix (“III”), but no local news or civic documents mention him, suggesting he maintains a very low public profile in the community ([veripages.com](https://veripages.com/name/Troy/Metheny/#:~:text=Veripages%20veripages,Hollis%2C%20OK%2073550%20See%20Troy%27s)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No local presence or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Because he appears to live off-site, reach out via certified mail or a phone call to discuss the project and address any property-specific concerns directly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Stuart & Karen Ferguson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330002384"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Karen R. Ferguson, 73, was a Headrick resident who passed away in December 2020 ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Obituary%20for%20Karen%20Ferguson)); she is survived by her husband Stuart Ferguson at their home in Headrick ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Karen%20is%20survived%20her%20husband,wife%20Lyne%20Whorton%20of%20Tulsa)). Stuart Ferguson served at Altus Air Force Base during his military career and, after a period of working as house parents at a Baptist children’s home, the couple settled into retirement life in rural Jackson County ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Oklahoma,Homes%20for%20Children%20for%20five)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired military; private citizens",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Have a fellow veteran or community member known to them start a conversation. Emphasize how the project will respect their peaceful retirement and not intrude on their quiet lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Michael & Linda Dishman",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "330002635",
+        "330002636"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No notable public information was found on Michael or Linda Dishman; their names do not surface in available local news, suggesting they have not taken on visible community roles ([gateway.okhistory.org](https://gateway.okhistory.org/ark%3A/67531/metadc2187242/m1/9/#:~:text=The%20Altus%20Times%20%28Altus%2C%20Okla,JK%20JONES%20HOWARD%20D%20FRANCIS)). Like many long-term rural landowners, they appear to keep a low profile, focusing on their property and daily life rather than public issues ([okfbfoundationforagriculture.org](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/#:~:text=Like%20many%20of%20Oklahoma%E2%80%99s%20farmers,you%20won%E2%80%99t%20hear%20him%20complain)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public or leadership role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Approach casually through a neighborly visit or local acquaintance. Reassure them that the project will be unobtrusive and respect the calm and privacy of the area."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighboring landowners have an undetermined stance on development, with no explicit support or opposition documented. Most exert limited community influence; none hold public office, though a couple of families (like the Howards and Reasers) command respect as established farm owners.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Bron & Shellie Howard\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330002698\"],\n      \"claims\": \"The Howard family is an established farming presence in Headrick, raising wheat and cattle on a 2,500-acre Jackson County farm that has been in the family since 1884 [Oklahoma Farm Bureau](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/). Like many local producers, the Howards tend to focus on agriculture and avoid public complaints or political activism [Oklahoma Farm Bureau](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Legacy farm family; large landholdings\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local farmer or Farm Bureau member approach them, emphasizing respect for their family’s land legacy and minimal disruption to their farming routine.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Shane & Lori Reaser\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330002630\", \"330002377\", \"330002638\", \"330002633\", \"330002632\", \"330002631\", \"330002634\", \"330002386\", \"330002378\", \"330002379\"],\n      \"claims\": \"Lori Reaser (née Reaser) was raised in the Altus area; she is identified as the daughter of longtime Altus residents Joe Don and Sherrie Reaser ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Kevin-Dean-Reaser?obId=2896237#:~:text=Kevin%20Dean%20Reaser%20was%20born,Phil%20and%20Joy%20Phillips%20of)). The Reaser family holds multiple parcels of agricultural land in Jackson County, suggesting a significant farming operation similar to other large farm families in the region [Oklahoma Farm Bureau](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major landowners; longstanding local family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Engage via a fellow farmer or agricultural extension contact who knows them. Stress how project plans will protect farmland integrity and maintain property values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Troy D. Metheny III\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330002385\"],\n      \"claims\": \"Troy D. Metheny III’s public records show previous addresses in Hollis, Oklahoma (Harmon County) and even out-of-state, indicating he may not reside full-time in Jackson County ([veripages.com](https://veripages.com/name/Troy/Metheny/#:~:text=Veripages%20veripages,Hollis%2C%20OK%2073550%20See%20Troy%27s)). He carries a generational suffix (“III”), but no local news or civic documents mention him, suggesting he maintains a very low public profile in the community ([veripages.com](https://veripages.com/name/Troy/Metheny/#:~:text=Veripages%20veripages,Hollis%2C%20OK%2073550%20See%20Troy%27s)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No local presence or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Because he appears to live off-site, reach out via certified mail or a phone call to discuss the project and address any property-specific concerns directly.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Stuart & Karen Ferguson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330002384\"],\n      \"claims\": \"Karen R. Ferguson, 73, was a Headrick resident who passed away in December 2020 ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Obituary%20for%20Karen%20Ferguson)); she is survived by her husband Stuart Ferguson at their home in Headrick ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Karen%20is%20survived%20her%20husband,wife%20Lyne%20Whorton%20of%20Tulsa)). Stuart Ferguson served at Altus Air Force Base during his military career and, after a period of working as house parents at a Baptist children’s home, the couple settled into retirement life in rural Jackson County ([www.harmoncountyfuneral.com](https://www.harmoncountyfuneral.com/obituaries/Karen-Ferguson?obId=19264077#:~:text=Oklahoma,Homes%20for%20Children%20for%20five)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Retired military; private citizens\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\"],\n        \"engage\": \"Have a fellow veteran or community member known to them start a conversation. Emphasize how the project will respect their peaceful retirement and not intrude on their quiet lifestyle.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Michael & Linda Dishman\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"330002635\", \"330002636\"],\n      \"claims\": \"No notable public information was found on Michael or Linda Dishman; their names do not surface in available local news, suggesting they have not taken on visible community roles ([gateway.okhistory.org](https://gateway.okhistory.org/ark%3A/67531/metadc2187242/m1/9/#:~:text=The%20Altus%20Times%20%28Altus%2C%20Okla,JK%20JONES%20HOWARD%20D%20FRANCIS)). Like many long-term rural landowners, they appear to keep a low profile, focusing on their property and daily life rather than public issues ([okfbfoundationforagriculture.org](https://okfbfoundationforagriculture.org/producer-perspective/bob-and-renee-howard-headrick-ok/#:~:text=Like%20many%20of%20Oklahoma%E2%80%99s%20farmers,you%20won%E2%80%99t%20hear%20him%20complain)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public or leadership role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\"],\n        \"engage\": \"Approach casually through a neighborly visit or local acquaintance. Reassure them that the project will be unobtrusive and respect the calm and privacy of the area.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

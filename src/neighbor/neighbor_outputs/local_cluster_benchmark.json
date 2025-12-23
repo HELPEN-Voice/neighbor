@@ -1,31 +1,31 @@
 {
-  "run_id": "1884bb6e-b953-49b4-9e69-609b40d06459",
-  "coordinates": "34.83057,-85.66845",
-  "state_code": "AL",
-  "parcels_analyzed": 36,
+  "run_id": "e0ff04da-f4a5-4ed9-9287-061cb65d8c11",
+  "coordinates": "34.6092,-99.1428",
+  "state_code": "OK",
+  "parcels_analyzed": 47,
   "community_wealth_proxy": {
-    "valid_samples": 17,
-    "median_structure_value": 689000.0,
-    "formatted": "$689,000",
-    "risk_level": "HIGH",
-    "risk_class": "risk-high"
+    "valid_samples": 6,
+    "median_structure_value": 29960.0,
+    "formatted": "$29,960",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "land_value_proxy": {
-    "valid_samples": 30,
-    "median_value_per_acre": 6717.97808649142,
-    "formatted": "$6,718/acre",
-    "risk_level": "MEDIUM",
-    "risk_class": "risk-medium"
+    "valid_samples": 34,
+    "median_value_per_acre": 263.64834914808773,
+    "formatted": "$264/acre",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
   "template_variables": {
-    "median_structure_value": "$689,000",
-    "wealth_risk_level": "HIGH",
-    "wealth_risk_class": "risk-high",
-    "wealth_valid_samples": "17",
-    "median_land_value_acre": "$6,718/acre",
-    "land_risk_level": "MEDIUM",
-    "land_risk_class": "risk-medium",
-    "land_valid_samples": "30",
-    "parcels_analyzed": "36"
+    "median_structure_value": "$29,960",
+    "wealth_risk_level": "LOW",
+    "wealth_risk_class": "risk-low",
+    "wealth_valid_samples": "6",
+    "median_land_value_acre": "$264/acre",
+    "land_risk_level": "LOW",
+    "land_risk_class": "risk-low",
+    "land_valid_samples": "34",
+    "parcels_analyzed": "47"
   }
 }
