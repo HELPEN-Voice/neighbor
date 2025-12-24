@@ -379,7 +379,7 @@ class NeighborOrchestrator:
         # 7) Validate & finalize
         # Helper function to normalize names for matching
         def normalize_for_matching(name):
-            """Normalize name to handle dots, commas, and case variations."""
+            """Normalize name to handle dots, commas, case, and name order variations."""
             if not name:
                 return ""
 
@@ -392,10 +392,14 @@ class NeighborOrchestrator:
             # Remove commas and extra spaces
             normalized = normalized.replace(",", " ")
 
-            # Collapse multiple spaces to single space
-            normalized = " ".join(normalized.split())
+            # Collapse multiple spaces to single space and split into tokens
+            tokens = normalized.split()
 
-            return normalized
+            # Sort tokens to handle name order differences
+            # "worley austin p" and "austin p worley" both become "austin p worley"
+            tokens.sort()
+
+            return " ".join(tokens)
 
         # Create a mapping of normalized names to adjacency info from original resolved data
         adjacency_map = {}
