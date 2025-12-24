@@ -1,101 +1,242 @@
 {
-  "total": 7,
+  "total": 29,
   "neighbors": [
     {
-      "name": "Bianco 20 Llc",
+      "name": "Lake Majestik Llc",
       "entity_type": "organization",
       "pins": [
-        "50341005A",
-        "50341005B"
+        "1507260000003000"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Sonoran Land Fund Llc",
-      "entity_type": "organization",
-      "pins": [
-        "503682950",
-        "503682960",
-        "503682940",
-        "503682970",
-        "503682620",
-        "503682930",
-        "503682980",
-        "503682630",
-        "503682640",
-        "503682920",
-        "503682990",
-        "503682610",
-        "503682650",
-        "503682600",
-        "503682910",
-        "503683000",
-        "503682590",
-        "503682660",
-        "503682580",
-        "503682900",
-        "503683010",
-        "503682670",
-        "503682570",
-        "503682280",
-        "503682890",
-        "503683020",
-        "503682290",
-        "503682680",
-        "503682300",
-        "503682310",
-        "503682880",
-        "503682550",
-        "503682690",
-        "503682320",
-        "503682270",
-        "503682260",
-        "503682870",
-        "503683040",
-        "503682540",
-        "503682330",
-        "503682250",
-        "503682700"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Ethington & Hwy 84 Llc",
-      "entity_type": "organization",
-      "pins": [
-        "50344008A"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Pinal County",
-      "entity_type": "organization",
-      "pins": [
-        "800191920"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Arizona Public Service Company",
-      "entity_type": "organization",
-      "pins": [
-        "50344004D"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Cory Henry D",
+      "name": "Bain Michael C & Tambra",
       "entity_type": "person",
       "pins": [
-        "503682560"
+        "1508270000008000"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Joe Auza Sheep Co Inc",
+      "name": "Bain Michael Cecil & Tambra Lynn And Bain Michael Cecil & Tambra Lynn",
+      "entity_type": "person",
+      "pins": [
+        "1508270000001000",
+        "1508270000001003",
+        "1508270000007000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Hernandez Monica",
+      "entity_type": "person",
+      "pins": [
+        "1508270000001002"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Newsom Trevor",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003015"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Smith Amber Haley Gray And Smith Dillion Lee",
+      "entity_type": "person",
+      "pins": [
+        "1507350000001005"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Schofield Curtis & Clara",
+      "entity_type": "person",
+      "pins": [
+        "1508340000001001",
+        "1508340000001003"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Worley Austin P",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003018"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Hamlen Aaron Dale & Brandi Stephenson And Hamlen Aaron Dale & Brandi Stephenson",
+      "entity_type": "person",
+      "pins": [
+        "1508270000001001"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Holmen Mark Oscar & Holmen Amy Ruth",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003016",
+        "1507260000003017"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Peet Judith A & Worley Rex",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003012"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Hughes Thelma Life Estate & And Hughes Thelma Life Estate & And Sullivan Donna",
+      "entity_type": "person",
+      "pins": [
+        "1507350000002000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Wade Leon & Gail",
+      "entity_type": "person",
+      "pins": [
+        "1507350000003000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Williams Henry R Jr",
+      "entity_type": "person",
+      "pins": [
+        "1508270000006000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Scruggs Cynthia",
+      "entity_type": "person",
+      "pins": [
+        "1508340000001005"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Craig Phillip Lansin And Craig Sherrie Severance",
+      "entity_type": "person",
+      "pins": [
+        "1507350000001004",
+        "1507350000001012",
+        "1507350000001013"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Williams Noah A",
+      "entity_type": "person",
+      "pins": [
+        "1508270000006001"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Price John H & Angie M",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003005"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Smith Kenney L And Smith Kristy Y",
+      "entity_type": "person",
+      "pins": [
+        "1507350000004000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Holman Denny",
+      "entity_type": "person",
+      "pins": [
+        "1508270000007001"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Vaughn Michael",
+      "entity_type": "person",
+      "pins": [
+        "1508340000001002",
+        "1508340000004000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Household Finance",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003006"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Shrader Dickson C & Janice",
+      "entity_type": "person",
+      "pins": [
+        "1508270000002000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Maples Michael Alan And Maples Bruce Taylor And Maples Matthew Ryan",
+      "entity_type": "person",
+      "pins": [
+        "1508340000003000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Hartline Desiree M & Keith",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003007"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Trustees Of Of The Pilote Family Trust And Pilote Pierre & Pilote Angela Ruth As",
       "entity_type": "organization",
       "pins": [
-        "503683030"
+        "1508340000001000"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Rochon Mark L & Tina M",
+      "entity_type": "person",
+      "pins": [
+        "1507350000004002"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Clark Ricky & Cheryl",
+      "entity_type": "person",
+      "pins": [
+        "1507350000004004"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Williams James",
+      "entity_type": "person",
+      "pins": [
+        "1507260000003004"
       ],
       "owns_adjacent_parcel": "No"
     }

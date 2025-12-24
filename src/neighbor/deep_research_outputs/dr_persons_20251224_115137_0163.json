@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-12-24T11:51:37.016369",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Jackson County",
+    "state": "AL",
+    "city": "Flat Rock",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the five profiled neighboring landowners have a noted public stance on the proposed development or clean energy (all are classified as 'unknown' stance). Their community influence is uniformly low, with no high-profile local figures identified among these neighbors.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Thelma Hughes & Donna Sullivan",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "1507350000002000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The land is held under a life estate deed by Thelma Hughes, indicating an intention to keep the property in the family while avoiding probate [Provident Law](https://www.provident.law/post/alabama-life-estate-deeds-a-complete-guide-to-how-they-work-pros-and-cons-and-when-to-use-them). No records of Hughes or Sullivan participating in local meetings or expressing views on development were found [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Aging private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage via Donna Sullivan (younger family), emphasizing respect for the family’s land legacy and how any project can honor their long-term heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Leon & Gail Wade",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507350000003000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Leon Wade (born 1933) was a longtime local resident; he passed away in 2004 at age 71 [AL.com (Huntsville)](https://obits.al.com/us/obituaries/huntsville/name/leon-wade-obituary?id=35387021). His widow, Gail Wade, now holds the property, and there are no public reports of her taking any stance or active role regarding development issues [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no formal influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out to Gail in person with a respectful, neighborly approach—acknowledging Leon’s legacy on the land and patiently listening to any concerns she may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Henry R. Williams Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1508270000006000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Henry R. Williams Jr. owns land in Flat Rock but has no documented involvement in local public affairs or organizations [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx). No records indicate any statements or positions by Williams Jr. on development or energy projects in the community [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Mr. Williams privately through a casual, one-on-one conversation since he is not publicly engaged, and be prepared to address basic questions about how the project might affect his property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Cynthia Scruggs",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1508340000001005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cynthia Scruggs is a local landowner with no evident public roles or civic profile in Jackson County [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx). Her name does not appear in local government minutes or news reports, and there is no record of her voicing any opinions on development proposals [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate contact directly and politely (e.g., a phone call or visit) since she keeps a low profile, and be ready to listen to any personal concerns she might raise about changes in the area."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Phillip Lansin & Sherrie Craig",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1507350000001004",
+        "1507350000001012",
+        "1507350000001013"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Phillip Lansin Craig Jr. (age 40) and Sherrie Craig reside on County Road 814 in Flat Rock [Offender Radar](https://www.offenderradar.com/offender-details/phillip-lansin-craig-jr-of-alabama-1092459). They have not been active in any public meetings or local media; there are no records of the Craig family expressing views or concerns about development plans in the community [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public activity",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Craigs with a straightforward, informational approach. Given their lack of public involvement, provide clear details on how the project might benefit or protect their property and be open to answering their questions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the five profiled neighboring landowners have a noted public stance on the proposed development or clean energy (all are classified as 'unknown' stance). Their community influence is uniformly low, with no high-profile local figures identified among these neighbors.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Thelma Hughes & Donna Sullivan\",\n      \"entity_category\": \"Estate\",\n      \"entity_type\": \"Estate\",\n      \"pins\": [\"1507350000002000\"],\n      \"claims\": \"The land is held under a life estate deed by Thelma Hughes, indicating an intention to keep the property in the family while avoiding probate [Provident Law](https://www.provident.law/post/alabama-life-estate-deeds-a-complete-guide-to-how-they-work-pros-and-cons-and-when-to-use-them). No records of Hughes or Sullivan participating in local meetings or expressing views on development were found [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Aging private landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Engage via Donna Sullivan (younger family), emphasizing respect for the family’s land legacy and how any project can honor their long-term heritage.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Leon & Gail Wade\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507350000003000\"],\n      \"claims\": \"Leon Wade (born 1933) was a longtime local resident; he passed away in 2004 at age 71 [AL.com (Huntsville)](https://obits.al.com/us/obituaries/huntsville/name/leon-wade-obituary?id=35387021). His widow, Gail Wade, now holds the property, and there are no public reports of her taking any stance or active role regarding development issues [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; no formal influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out to Gail in person with a respectful, neighborly approach—acknowledging Leon’s legacy on the land and patiently listening to any concerns she may have.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Henry R. Williams Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1508270000006000\"],\n      \"claims\": \"Henry R. Williams Jr. owns land in Flat Rock but has no documented involvement in local public affairs or organizations [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx). No records indicate any statements or positions by Williams Jr. on development or energy projects in the community [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Mr. Williams privately through a casual, one-on-one conversation since he is not publicly engaged, and be prepared to address basic questions about how the project might affect his property.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Cynthia Scruggs\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1508340000001005\"],\n      \"claims\": \"Cynthia Scruggs is a local landowner with no evident public roles or civic profile in Jackson County [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx). Her name does not appear in local government minutes or news reports, and there is no record of her voicing any opinions on development proposals [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Initiate contact directly and politely (e.g., a phone call or visit) since she keeps a low profile, and be ready to listen to any personal concerns she might raise about changes in the area.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Phillip Lansin & Sherrie Craig\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1507350000001004\", \"1507350000001012\", \"1507350000001013\"],\n      \"claims\": \"Phillip Lansin Craig Jr. (age 40) and Sherrie Craig reside on County Road 814 in Flat Rock [Offender Radar](https://www.offenderradar.com/offender-details/phillip-lansin-craig-jr-of-alabama-1092459). They have not been active in any public meetings or local media; there are no records of the Craig family expressing views or concerns about development plans in the community [Jackson County Records Archive](https://jacksoncountyal.gov/Archive.aspx).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no public activity\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the Craigs with a straightforward, informational approach. Given their lack of public involvement, provide clear details on how the project might benefit or protect their property and be open to answering their questions.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
