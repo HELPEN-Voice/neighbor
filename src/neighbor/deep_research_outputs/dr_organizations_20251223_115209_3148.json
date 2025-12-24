@@ -1,0 +1,267 @@
+{
+  "timestamp": "2025-12-23T11:52:09.314901",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": "Casa Grande",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent organizations are mostly land investment entities with development interests, plus the county government and utility company. Bianco 20 LLC and Ethington & Hwy 84 LLC appear to be local landholders speculating on rising property values near new industry. Sonoran Land Fund LLC is a large-scale land investor (thousands of foreclosed lots) driven by profit and favorable regulations. Pinal County (local government) and Arizona Public Service (utility) generally support growth in the Casa Grande area, seeking economic development and infrastructure expansion opportunities.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bianco 20 LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "50341005A",
+        "50341005B"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Bianco 20 LLC holds approximately 21.8 acres of land along North Bianco Road in Casa Grande, currently zoned rural with an intended use for single-family residential development ([www.loopnet.com](https://www.loopnet.com/Listing/Bianco-Casa-Grande-AZ/23545428/#:~:text=Property%20Type%20%20,43)). The property was listed for sale in 2021 as a growth-area investment (including promotion as a 1031 exchange opportunity) given its proximity to new developments like the Lucid Motors plant ([www.loopnet.com](https://www.loopnet.com/Listing/Bianco-Casa-Grande-AZ/23545428/#:~:text=Located%20in%20the%20fast,investment%20or%20a%201031%20exchange)). No other business activities or public filings beyond land ownership are noted; the LLC appears to be a single-purpose landholding for resale.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private landowner; limited local presence; primarily seeking to sell parcel",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via the property\u2019s listing broker or owner\u2019s representative to discuss acquisition/partnership, highlighting how the project could increase the land\u2019s value or facilitate a sale"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Sonoran Land Fund LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "503682950",
+        "503682960",
+        "503682940",
+        "503682970",
+        "503682620",
+        "503682930",
+        "503682980",
+        "503682630",
+        "503682640",
+        "503682920",
+        "503682990",
+        "503682610",
+        "503682650",
+        "503682600",
+        "503682910",
+        "503683000",
+        "503682590",
+        "503682660",
+        "503682580",
+        "503682900",
+        "503683010",
+        "503682670",
+        "503682570",
+        "503682280",
+        "503682890",
+        "503683020",
+        "503682290",
+        "503682680",
+        "503682300",
+        "503682310",
+        "503682880",
+        "503682550",
+        "503682690",
+        "503682320",
+        "503682270",
+        "503682260",
+        "503682870",
+        "503683040",
+        "503682540",
+        "503682330",
+        "503682250",
+        "503682700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sonoran Land Fund LLC is a Delaware-formed investment entity (active in Arizona since 2012) tied to Phoenix investor Wayne Howard ([www.inmaricopa.com](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/#:~:text=At%20the%20center%20of%20the,his%20Sonoran%20Land%20Fund%20LLC)). The fund acquired roughly 2,922 tax-delinquent parcels across Pinal County via foreclosure lien sales and then sought to obtain deeds for them in bulk ([www.inmaricopa.com](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/#:~:text=After%20purchasing%202%2C922%20liens%20on,have%20cost%20more%20than%20%24145%2C000)). Howard and Sonoran Land Fund have actively pushed for state legislation (SB 1071) to cap fees on processing multiple parcel deeds, reflecting their focus on reducing holding costs and improving profit margins for large-scale land acquisitions ([www.inmaricopa.com](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/#:~:text=for%20multiple%20tax%20liens,for%2010%20or%20more%20parcels)). The company\u2019s strategy is land banking for value appreciation, and it has no known operational business beyond holding and liquidating real estate assets.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Controls a very large number of local parcels; engaged in state-level policy (SB1071); investor is Phoenix-based with financial resources but not deeply rooted in local community",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach principal investor Wayne Howard directly or through his legal representative; emphasize how the proposed development could enhance the value of his extensive land holdings or offer an exit strategy for some parcels"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Ethington & Hwy 84 LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "50344008A"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Ethington & Hwy 84, LLC was organized in Arizona in March 2022 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23358315#:~:text=Formation%20Date%3A)). Its members are a consortium of real estate investors based in the Phoenix area \u2013 for example, Willis Holdings L.C. (managed by C. Dale Willis Jr.) and Hamstra Investments LLLP (Carrie Hamstra) are listed among the managing members ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23358315#:~:text=Member%20and%20Manager%20%20,4%2F7%2F2022)). The LLC owns approximately 146.7 acres at the southwest corner of Highway 84 and Ethington Road, Casa Grande, which is zoned I-2 (Industrial) and currently being marketed for industrial/commercial use (e.g. warehouses or an industrial park) ([www.loopnet.com](https://www.loopnet.com/Listing/SW-Hwy-84-Ethington-Rd-Casa-Grande-AZ/33485430/#:~:text=Sale%20Type%20%20,Commercial)). The site lies near Lucid Motors and other new industrial facilities, and city planners have indicated support for converting the land to employment uses to capitalize on the area\u2019s growth ([www.loopnet.com](https://www.loopnet.com/Listing/SW-Hwy-84-Ethington-Rd-Casa-Grande-AZ/33485430/#:~:text=The%20property%20has%20frontage%20on,the%20FEMA%20floodplain%20designation%20AE)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Significant landholding (146 acres) in strategic location; ties to regional developers; actively working with city on land use changes but entity itself is new and not an established local institution",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage managing member C. Dale Willis Jr. (Willis Holdings) with a proposal that aligns the project with their planned industrial development; highlight any infrastructure improvements or synergies that could boost their site\u2019s marketability"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Pinal County",
+      "entity_category": "Organization",
+      "entity_type": "government",
+      "pins": [
+        "800191920"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pinal County (the county government) owns the parcel in question, likely for public use or future infrastructure (as counties often hold land for roads, drainage, or facilities). County officials are generally pro-development in this region: Pinal County\u2019s leadership has actively coordinated with Casa Grande city to attract new industrial and manufacturing projects in the area ([madrid-media.com](https://madrid-media.com/news-updates/80-acres-in-casa-grande-purchased-for-new-power-switching-yard-and-substation/#:~:text=%E2%80%9CWe%E2%80%99ve%20been%20working%20to%20bring,%E2%80%9D)). The county\u2019s stance on development emphasizes economic growth, increased tax base, and job creation, balanced with adherence to zoning and community standards. There is no indication of county opposition to private development here; rather, the county would oversee permitting and ensure the project meets regulations and public interest.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local governing authority over land use and permitting; can incentivize or constrain projects; publicly accountable and invested in economic outcomes",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Work closely with the Pinal County Board of Supervisors and planning staff; emphasize the project\u2019s benefits to the community (employment, tax base) and ensure all county requirements (permits, impact studies) are thoroughly addressed to secure county support"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Arizona Public Service Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "50344004D"
+      ],
+      "claims": "Arizona Public Service (APS) is the state\u2019s largest electric utility and owns a nearby parcel used for electrical infrastructure (a substation or transmission corridor). APS is currently expanding its grid capacity around Casa Grande \u2013 it has planned new 69kV/230kV transmission lines and a substation (the \u201cBianco\u201d project) to support the area\u2019s rapidly growing power demand from industry and population growth ([www.aps.com](https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Power-Line-Siting/Power-Line-Siting-Projects/Bianco-230kV#:~:text=Why%20this%20project%20is%20needed%3A)) ([www.aps.com](https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Power-Line-Siting/Power-Line-Siting-Projects/Bianco-230kV#:~:text=To%20meet%20the%20expanding%20energy,These%20facilities%20will%20connect%20with)). In 2024, APS (through a land purchase in western Casa Grande) secured 80 acres for a new switching yard and substation to improve reliability for the expanding industrial corridor ([madrid-media.com](https://madrid-media.com/news-updates/80-acres-in-casa-grande-purchased-for-new-power-switching-yard-and-substation/#:~:text=Casa%20Grande%2C%20Ariz,Casa%20Grande%20West%20Industrial%20area)). The utility generally supports developments that increase electricity usage or require new infrastructure, as these align with its business growth and regulatory service obligations. APS does not typically oppose local projects unless there are safety or grid interference issues; more often it will collaborate on power supply needs.",
+      "community_influence": "High",
+      "influence_justification": "Dominant regional utility with critical infrastructure; significant political and economic influence state-wide; can expedite or complicate projects through utility interconnection and service agreements",
+      "entity_classification": "utility",
+      "potential_motivators": [
+        "New customer load (revenue growth)",
+        "Grid expansion opportunities",
+        "Regulatory mandates for reliable service"
+      ],
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with APS\u2019s grid planning and economic development managers about the project\u2019s power needs or generation plans; ensure the project fits into APS\u2019s infrastructure expansion (possibly leveraging the planned Bianco substation and line upgrades) to garner their technical support and avoid interconnection delays"
+      },
+      "confidence": "high"
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent organizations are mostly land investment entities with development interests, plus the county government and utility company. Bianco 20 LLC and Ethington & Hwy 84 LLC appear to be local landholders speculating on rising property values near new industry. Sonoran Land Fund LLC is a large-scale land investor (thousands of foreclosed lots) driven by profit and favorable regulations. Pinal County (local government) and Arizona Public Service (utility) generally support growth in the Casa Grande area, seeking economic development and infrastructure expansion opportunities.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Bianco 20 LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"50341005A\", \"50341005B\"],\n      \"claims\": \"Bianco 20 LLC holds approximately 21.8 acres of land along North Bianco Road in Casa Grande, currently zoned rural with an intended use for single-family residential development ([www.loopnet.com](https://www.loopnet.com/Listing/Bianco-Casa-Grande-AZ/23545428/#:~:text=Property%20Type%20%20,43)). The property was listed for sale in 2021 as a growth-area investment (including promotion as a 1031 exchange opportunity) given its proximity to new developments like the Lucid Motors plant ([www.loopnet.com](https://www.loopnet.com/Listing/Bianco-Casa-Grande-AZ/23545428/#:~:text=Located%20in%20the%20fast,investment%20or%20a%201031%20exchange)). No other business activities or public filings beyond land ownership are noted; the LLC appears to be a single-purpose landholding for resale.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private landowner; limited local presence; primarily seeking to sell parcel\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land sale price\", \"Capitalize on area growth (1031 exchange)\"],\n      \"approach_recommendations\": \"Engage via the property\u2019s listing broker or owner\u2019s representative to discuss acquisition/partnership, highlighting how the project could increase the land\u2019s value or facilitate a sale\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Sonoran Land Fund LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"503682950\", \"503682960\", \"503682940\", \"503682970\", \"503682620\", \"503682930\", \"503682980\", \"503682630\", \"503682640\", \"503682920\", \"503682990\", \"503682610\", \"503682650\", \"503682600\", \"503682910\", \"503683000\", \"503682590\", \"503682660\", \"503682580\", \"503682900\", \"503683010\", \"503682670\", \"503682570\", \"503682280\", \"503682890\", \"503683020\", \"503682290\", \"503682680\", \"503682300\", \"503682310\", \"503682880\", \"503682550\", \"503682690\", \"503682320\", \"503682270\", \"503682260\", \"503682870\", \"503683040\", \"503682540\", \"503682330\", \"503682250\", \"503682700\"],\n      \"claims\": \"Sonoran Land Fund LLC is a Delaware-formed investment entity (active in Arizona since 2012) tied to Phoenix investor Wayne Howard ([www.inmaricopa.com](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/#:~:text=At%20the%20center%20of%20the,his%20Sonoran%20Land%20Fund%20LLC)). The fund acquired roughly 2,922 tax-delinquent parcels across Pinal County via foreclosure lien sales and then sought to obtain deeds for them in bulk ([www.inmaricopa.com](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/#:~:text=After%20purchasing%202%2C922%20liens%20on,have%20cost%20more%20than%20%24145%2C000)). Howard and Sonoran Land Fund have actively pushed for state legislation (SB 1071) to cap fees on processing multiple parcel deeds, reflecting their focus on reducing holding costs and improving profit margins for large-scale land acquisitions ([www.inmaricopa.com](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/#:~:text=for%20multiple%20tax%20liens,for%2010%20or%20more%20parcels)). The company\u2019s strategy is land banking for value appreciation, and it has no known operational business beyond holding and liquidating real estate assets.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Controls a very large number of local parcels; engaged in state-level policy (SB1071); investor is Phoenix-based with financial resources but not deeply rooted in local community\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Reducing transaction costs (tax/liens fees)\", \"Legislative/regulatory advantages\"],\n      \"approach_recommendations\": \"Approach principal investor Wayne Howard directly or through his legal representative; emphasize how the proposed development could enhance the value of his extensive land holdings or offer an exit strategy for some parcels\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Ethington & Hwy 84 LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"50344008A\"],\n      \"claims\": \"Ethington & Hwy 84, LLC was organized in Arizona in March 2022 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23358315#:~:text=Formation%20Date%3A)). Its members are a consortium of real estate investors based in the Phoenix area \u2013 for example, Willis Holdings L.C. (managed by C. Dale Willis Jr.) and Hamstra Investments LLLP (Carrie Hamstra) are listed among the managing members ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23358315#:~:text=Member%20and%20Manager%20%20,4%2F7%2F2022)). The LLC owns approximately 146.7 acres at the southwest corner of Highway 84 and Ethington Road, Casa Grande, which is zoned I-2 (Industrial) and currently being marketed for industrial/commercial use (e.g. warehouses or an industrial park) ([www.loopnet.com](https://www.loopnet.com/Listing/SW-Hwy-84-Ethington-Rd-Casa-Grande-AZ/33485430/#:~:text=Sale%20Type%20%20,Commercial)). The site lies near Lucid Motors and other new industrial facilities, and city planners have indicated support for converting the land to employment uses to capitalize on the area\u2019s growth ([www.loopnet.com](https://www.loopnet.com/Listing/SW-Hwy-84-Ethington-Rd-Casa-Grande-AZ/33485430/#:~:text=The%20property%20has%20frontage%20on,the%20FEMA%20floodplain%20designation%20AE)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Significant landholding (146 acres) in strategic location; ties to regional developers; actively working with city on land use changes but entity itself is new and not an established local institution\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Sale or lease to industrial developer\", \"Increasing land value via zoning and infrastructure\", \"Partnerships to expedite industrial project\"],\n      \"approach_recommendations\": \"Engage managing member C. Dale Willis Jr. (Willis Holdings) with a proposal that aligns the project with their planned industrial development; highlight any infrastructure improvements or synergies that could boost their site\u2019s marketability\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Pinal County\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"government\",\n      \"pins\": [\"800191920\"],\n      \"claims\": \"Pinal County (the county government) owns the parcel in question, likely for public use or future infrastructure (as counties often hold land for roads, drainage, or facilities). County officials are generally pro-development in this region: Pinal County\u2019s leadership has actively coordinated with Casa Grande city to attract new industrial and manufacturing projects in the area ([madrid-media.com](https://madrid-media.com/news-updates/80-acres-in-casa-grande-purchased-for-new-power-switching-yard-and-substation/#:~:text=%E2%80%9CWe%E2%80%99ve%20been%20working%20to%20bring,%E2%80%9D)). The county\u2019s stance on development emphasizes economic growth, increased tax base, and job creation, balanced with adherence to zoning and community standards. There is no indication of county opposition to private development here; rather, the county would oversee permitting and ensure the project meets regulations and public interest.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Local governing authority over land use and permitting; can incentivize or constrain projects; publicly accountable and invested in economic outcomes\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Economic development (jobs and tax revenue)\", \"Infrastructure planning\", \"Public interest and compliance with regulations\"],\n      \"approach_recommendations\": \"Work closely with the Pinal County Board of Supervisors and planning staff; emphasize the project\u2019s benefits to the community (employment, tax base) and ensure all county requirements (permits, impact studies) are thoroughly addressed to secure county support\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Arizona Public Service Company\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"50344004D\"],\n      \"claims\": \"Arizona Public Service (APS) is the state\u2019s largest electric utility and owns a nearby parcel used for electrical infrastructure (a substation or transmission corridor). APS is currently expanding its grid capacity around Casa Grande \u2013 it has planned new 69kV/230kV transmission lines and a substation (the \u201cBianco\u201d project) to support the area\u2019s rapidly growing power demand from industry and population growth ([www.aps.com](https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Power-Line-Siting/Power-Line-Siting-Projects/Bianco-230kV#:~:text=Why%20this%20project%20is%20needed%3A)) ([www.aps.com](https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Power-Line-Siting/Power-Line-Siting-Projects/Bianco-230kV#:~:text=To%20meet%20the%20expanding%20energy,These%20facilities%20will%20connect%20with)). In 2024, APS (through a land purchase in western Casa Grande) secured 80 acres for a new switching yard and substation to improve reliability for the expanding industrial corridor ([madrid-media.com](https://madrid-media.com/news-updates/80-acres-in-casa-grande-purchased-for-new-power-switching-yard-and-substation/#:~:text=Casa%20Grande%2C%20Ariz,Casa%20Grande%20West%20Industrial%20area)). The utility generally supports developments that increase electricity usage or require new infrastructure, as these align with its business growth and regulatory service obligations. APS does not typically oppose local projects unless there are safety or grid interference issues; more often it will collaborate on power supply needs.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Dominant regional utility with critical infrastructure; significant political and economic influence state-wide; can expedite or complicate projects through utility interconnection and service agreements\",\n      \"entity_classification\": \"utility\",\n      \"potential_motivators\": [\"New customer load (revenue growth)\", \"Grid expansion opportunities\", \"Regulatory mandates for reliable service\"],\n      \"approach_recommendations\": \"Coordinate early with APS\u2019s grid planning and economic development managers about the project\u2019s power needs or generation plans; ensure the project fits into APS\u2019s infrastructure expansion (possibly leveraging the planned Bianco substation and line upgrades) to garner their technical support and avoid interconnection delays\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```\n\n**Sources:**\n[LoopNet (Casa Grande land listing)](https://www.loopnet.com/Listing/Bianco-Casa-Grande-AZ/23545428/) \u2022 [LoopNet (Ethington industrial land)](https://www.loopnet.com/Listing/SW-Hwy-84-Ethington-Rd-Casa-Grande-AZ/33485430/) \u2022 [Arizona Corporation Commission](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23358315) \u2022 [InMaricopa](https://www.inmaricopa.com/aggregate-fee-for-tax-liens/) \u2022 [APS (Bianco 230kV Project)](https://www.aps.com/en/About/Construction-and-Power-Line-Siting/Power-Line-Siting/Power-Line-Siting-Projects/Bianco-230kV) \u2022 [MadridMedia](https://madrid-media.com/news-updates/80-acres-in-casa-grande-purchased-for-new-power-switching-yard-and-substation/)\n```",
+  "markdown_debug": null
+}
