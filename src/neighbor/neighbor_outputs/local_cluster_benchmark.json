@@ -1,8 +1,8 @@
 {
-  "run_id": "97215bd5-bef3-4cfc-8976-60a5b7a210e9",
-  "coordinates": "32.88675833,-111.82673056",
-  "state_code": "AZ",
-  "parcels_analyzed": 50,
+  "run_id": "ec69e015-a18c-48e2-a3b8-a33b59c32107",
+  "coordinates": "42.334408,-73.808592",
+  "state_code": "NY",
+  "parcels_analyzed": 47,
   "community_wealth_proxy": {
     "valid_samples": 0,
     "median_structure_value": null,
@@ -11,9 +11,9 @@
     "risk_class": "risk-unknown"
   },
   "land_value_proxy": {
-    "valid_samples": 4,
-    "median_value_per_acre": 2678.6211420126147,
-    "formatted": "$2,679/acre",
+    "valid_samples": 38,
+    "median_value_per_acre": 4595.365401013849,
+    "formatted": "$4,595/acre",
     "risk_level": "LOW",
     "risk_class": "risk-low"
   },
@@ -22,10 +22,10 @@
     "wealth_risk_level": "UNKNOWN",
     "wealth_risk_class": "risk-unknown",
     "wealth_valid_samples": "0",
-    "median_land_value_acre": "$2,679/acre",
+    "median_land_value_acre": "$4,595/acre",
     "land_risk_level": "LOW",
     "land_risk_class": "risk-low",
-    "land_valid_samples": "4",
-    "parcels_analyzed": "50"
+    "land_valid_samples": "38",
+    "parcels_analyzed": "47"
   }
 }

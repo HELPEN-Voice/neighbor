@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-12-29T13:34:26.200869",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Greene County",
+    "state": "NY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neither of the two profiled neighbors has a documented stance on the proposed development (both are classified as \"unknown\" in this regard). Both also appear to wield low influence in the community, as neither holds any public office or is noted for significant civic engagement in local affairs.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Scott M. Bennett",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "71.00-3-19"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records show a Scott M. Bennett (age 47) residing in Wantagh, NY, outside Greene County [Veripages](https://veripages.com/name/Scott/Bennet/NY/). No references to Scott M. Bennett were found in Greene County meeting minutes or local news archives, and he has not been identified in any public discussion of development projects as of this date [Town of Coxsackie Minutes](https://coxsackie.org/minutes/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Since Bennett is an absentee landowner, reach out via written correspondence emphasizing how the project will preserve or enhance his property’s value and involve minimal hassle for non-resident owners."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Patrick G. West",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "71.00-3-32"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Patrick G. West is listed as the owner of tax parcel 71.00-3-32 in Greene County, but he does not appear in any official civic roles or boards in the community [Town of Coxsackie Minutes](https://coxsackie.org/minutes/). No public statements or documented positions by West on local development or energy projects were found in available records [Town of Coxsackie Minutes](https://coxsackie.org/minutes/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach West through a personal visit or phone call to introduce the project and listen to any concerns, building trust since he has no known public position."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neither of the two profiled neighbors has a documented stance on the proposed development (both are classified as \\\"unknown\\\" in this regard). Both also appear to wield low influence in the community, as neither holds any public office or is noted for significant civic engagement in local affairs.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Scott M. Bennett\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"71.00-3-19\"],\n      \"claims\": \"Public records show a Scott M. Bennett (age 47) residing in Wantagh, NY, outside Greene County [Veripages](https://veripages.com/name/Scott/Bennet/NY/). No references to Scott M. Bennett were found in Greene County meeting minutes or local news archives, and he has not been identified in any public discussion of development projects as of this date [Town of Coxsackie Minutes](https://coxsackie.org/minutes/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\"],\n        \"engage\": \"Since Bennett is an absentee landowner, reach out via written correspondence emphasizing how the project will preserve or enhance his property’s value and involve minimal hassle for non-resident owners.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Patrick G. West\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"71.00-3-32\"],\n      \"claims\": \"Patrick G. West is listed as the owner of tax parcel 71.00-3-32 in Greene County, but he does not appear in any official civic roles or boards in the community [Town of Coxsackie Minutes](https://coxsackie.org/minutes/). No public statements or documented positions by West on local development or energy projects were found in available records [Town of Coxsackie Minutes](https://coxsackie.org/minutes/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach West through a personal visit or phone call to introduce the project and listen to any concerns, building trust since he has no known public position.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
