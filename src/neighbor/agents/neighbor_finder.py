@@ -13,6 +13,7 @@ class NeighborFinder:
         self.base_url = "https://app.regrid.com/api/v2"
         self.target_parcel_info = None  # Store target parcel info
         self.raw_parcels = []  # Store raw parcel features for valuation service
+        self.final_radius_miles = None  # Store final search radius used
 
     async def get_target_parcel(
         self,
@@ -244,11 +245,12 @@ class NeighborFinder:
             self.raw_parcels = []
             return []
 
-        print(f"Accumulated {len(all_parcels)} unique parcels")
+        print(f"Accumulated {len(all_parcels)} unique parcels at final radius {radius_mi:.2f} mi")
 
         # Store raw parcels for valuation service access
         parcel_features = list(all_parcels.values())
         self.raw_parcels = parcel_features
+        self.final_radius_miles = radius_mi  # Store final radius used
 
         # Process all accumulated parcels to extract unique owners
         owners = self._process_parcels(parcel_features, adjacent_pins)

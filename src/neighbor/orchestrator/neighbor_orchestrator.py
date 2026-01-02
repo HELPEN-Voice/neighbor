@@ -584,6 +584,7 @@ class NeighborOrchestrator:
                     parcels=self.finder.raw_parcels,
                     run_id=run_id,
                     coordinates=location or f"{lat},{lon}" if lat and lon else "",
+                    final_radius_miles=self.finder.final_radius_miles,
                 )
                 benchmark_dict = benchmark.to_dict()
 
@@ -604,6 +605,9 @@ class NeighborOrchestrator:
                 land = benchmark.land_value_proxy
                 print(f"   Community Wealth Proxy: {wealth.formatted} ({wealth.risk_level}) - {wealth.valid_samples} samples")
                 print(f"   Land Value Proxy: {land.formatted} ({land.risk_level}) - {land.valid_samples} samples")
+                print(f"   Total Property Value: ${benchmark.total_property_value:,.0f}" if benchmark.total_property_value else "   Total Property Value: N/A")
+                print(f"   Total Land Value: ${benchmark.total_land_value:,.0f}" if benchmark.total_land_value else "   Total Land Value: N/A")
+                print(f"   Final Search Radius: {benchmark.final_radius_miles:.2f} mi" if benchmark.final_radius_miles else "   Final Search Radius: N/A")
             else:
                 print("⚠️ Skipping valuation benchmark - no raw parcels or state available")
         except Exception as e:
