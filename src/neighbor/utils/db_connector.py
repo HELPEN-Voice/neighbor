@@ -208,9 +208,12 @@ class NeighborDBConnector:
                 median_land_value_per_acre,
                 wealth_risk_level,
                 land_risk_level,
+                total_property_value,
+                total_land_value,
+                final_radius_miles,
                 benchmark_json
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (run_id) DO UPDATE SET
                 coordinates = EXCLUDED.coordinates,
                 state_code = EXCLUDED.state_code,
@@ -221,6 +224,9 @@ class NeighborDBConnector:
                 median_land_value_per_acre = EXCLUDED.median_land_value_per_acre,
                 wealth_risk_level = EXCLUDED.wealth_risk_level,
                 land_risk_level = EXCLUDED.land_risk_level,
+                total_property_value = EXCLUDED.total_property_value,
+                total_land_value = EXCLUDED.total_land_value,
+                final_radius_miles = EXCLUDED.final_radius_miles,
                 benchmark_json = EXCLUDED.benchmark_json,
                 created_at = CURRENT_TIMESTAMP;
         """
@@ -243,6 +249,9 @@ class NeighborDBConnector:
                         land.get("median_value_per_acre"),
                         wealth.get("risk_level"),
                         land.get("risk_level"),
+                        benchmark_data.get("total_property_value"),
+                        benchmark_data.get("total_land_value"),
+                        benchmark_data.get("final_radius_miles"),
                         json.dumps(benchmark_data),  # Full JSON for flexibility
                     ),
                 )

@@ -43,6 +43,10 @@ class LocalClusterBenchmark:
     parcels_analyzed: int
     community_wealth_proxy: WealthProxy
     land_value_proxy: LandValueProxy
+    # New aggregate metrics
+    total_property_value: Optional[float]
+    total_land_value: Optional[float]
+    final_radius_miles: Optional[float]
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
@@ -53,6 +57,9 @@ class LocalClusterBenchmark:
             "parcels_analyzed": self.parcels_analyzed,
             "community_wealth_proxy": asdict(self.community_wealth_proxy),
             "land_value_proxy": asdict(self.land_value_proxy),
+            "total_property_value": self.total_property_value,
+            "total_land_value": self.total_land_value,
+            "final_radius_miles": self.final_radius_miles,
             "template_variables": self.get_template_variables(),
         }
 
@@ -68,6 +75,9 @@ class LocalClusterBenchmark:
             "land_risk_class": self.land_value_proxy.risk_class,
             "land_valid_samples": str(self.land_value_proxy.valid_samples),
             "parcels_analyzed": str(self.parcels_analyzed),
+            "total_property_value": f"${self.total_property_value:,.0f}" if self.total_property_value else "N/A",
+            "total_land_value": f"${self.total_land_value:,.0f}" if self.total_land_value else "N/A",
+            "final_radius_miles": f"{self.final_radius_miles:.2f}" if self.final_radius_miles else "N/A",
         }
 
 
@@ -101,6 +111,7 @@ class LocalValuationService:
         parcels: List[Dict[str, Any]],
         run_id: str,
         coordinates: str,
+        final_radius_miles: Optional[float] = None,
     ) -> LocalClusterBenchmark:
         """
         Calculate the full local cluster benchmark from parcel data.
@@ -109,12 +120,16 @@ class LocalValuationService:
             parcels: List of raw parcel dictionaries from Regrid API
             run_id: Unique identifier for this pipeline run
             coordinates: "lat,lon" string for the target location
+            final_radius_miles: The final search radius used to collect parcels
 
         Returns:
             LocalClusterBenchmark with wealth and land proxies
         """
         wealth_proxy = self._calculate_wealth_proxy(parcels)
         land_proxy = self._calculate_land_proxy(parcels)
+
+        # Calculate aggregate totals
+        total_property_value, total_land_value = self._calculate_aggregates(parcels)
 
         return LocalClusterBenchmark(
             run_id=run_id,
@@ -123,6 +138,9 @@ class LocalValuationService:
             parcels_analyzed=len(parcels),
             community_wealth_proxy=wealth_proxy,
             land_value_proxy=land_proxy,
+            total_property_value=total_property_value,
+            total_land_value=total_land_value,
+            final_radius_miles=final_radius_miles,
         )
 
     def _calculate_wealth_proxy(self, parcels: List[Dict[str, Any]]) -> WealthProxy:
@@ -262,3 +280,44 @@ class LocalValuationService:
             return result if result >= 0 else None
         except (ValueError, TypeError):
             return None
+
+    def _calculate_aggregates(
+        self, parcels: List[Dict[str, Any]]
+    ) -> tuple[Optional[float], Optional[float]]:
+        """
+        Calculate aggregate totals for property and land values.
+
+        Returns:
+            Tuple of (total_property_value, total_land_value) normalized to market value
+        """
+        total_property = 0.0
+        total_land = 0.0
+        property_count = 0
+        land_count = 0
+
+        for parcel in parcels:
+            fields = parcel.get("properties", {}).get("fields", {})
+            parvaltype = fields.get("parvaltype", "")
+
+            # Sum improvement values (property/structure value)
+            improvval = self._safe_float(fields.get("improvval"))
+            if improvval is not None and improvval > 0:
+                market_value = normalize_to_market_value(
+                    improvval, self.state_code, parvaltype
+                )
+                total_property += market_value
+                property_count += 1
+
+            # Sum land values
+            landval = self._safe_float(fields.get("landval"))
+            if landval is not None and landval > 0:
+                market_landval = normalize_to_market_value(
+                    landval, self.state_code, parvaltype
+                )
+                total_land += market_landval
+                land_count += 1
+
+        return (
+            total_property if property_count > 0 else None,
+            total_land if land_count > 0 else None,
+        )
