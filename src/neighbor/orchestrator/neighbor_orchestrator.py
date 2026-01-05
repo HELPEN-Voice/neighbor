@@ -517,6 +517,8 @@ class NeighborOrchestrator:
         final["county"] = county  # Include county for HTML generation
         final["state"] = state  # Include state for HTML generation
         final["run_id"] = run_id  # Include unique run_id for this screening
+        final["target_pin"] = target_parcel_info.get("pin") if target_parcel_info else None
+        final["target_parcel_info"] = target_parcel_info  # Include for map generation
 
         # Save the final merged result with adjacency data
         output_dir = Path(__file__).parent.parent / "neighbor_outputs"
