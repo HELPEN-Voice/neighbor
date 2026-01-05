@@ -1,4 +1,6 @@
 # src/ii_agent/tools/neighbor/config/settings.py
+import os
+
 try:
     from pydantic_settings import BaseSettings
 except ImportError:
@@ -6,7 +8,7 @@ except ImportError:
     from pydantic import BaseSettings
 
 from pydantic import Field
-from typing import Literal
+from typing import Literal, Optional
 
 
 class NeighborSettings(BaseSettings):
@@ -33,9 +35,41 @@ class NeighborSettings(BaseSettings):
     STREAMING_ENABLED: bool = False
     TRACE_ENABLED: bool = False
 
+    # Map Generation Settings
+    GENERATE_MAP: bool = Field(
+        default=True, description="Enable map generation after neighbor screening"
+    )
+    MAPBOX_ACCESS_TOKEN: str = Field(
+        default="", env="MAPBOX_ACCESS_TOKEN", description="Mapbox public access token"
+    )
+    MAPBOX_STYLE: str = Field(
+        default="satellite-streets-v12", description="Mapbox style ID"
+    )
+    MAP_WIDTH: int = Field(default=800, description="Map image width in pixels")
+    MAP_HEIGHT: int = Field(
+        default=450, description="Map image height in pixels (16:9 ratio)"
+    )
+    MAP_PADDING: int = Field(
+        default=50, description="Padding around features in pixels"
+    )
+    MAP_RETINA: bool = Field(default=True, description="Generate @2x retina images")
+
+    # Geometry Processing
+    SIMPLIFY_TOLERANCE: float = Field(
+        default=0.0001, description="Douglas-Peucker simplification tolerance (~10m)"
+    )
+    MAX_GEOJSON_URL_LENGTH: int = Field(
+        default=6000, description="Max URL length before falling back to polyline"
+    )
+
     class Config:
         env_file = ".env"
         extra = "ignore"  # Ignore extra environment variables
 
 
 settings = NeighborSettings()
+
+
+def get_settings() -> NeighborSettings:
+    """Get the settings instance."""
+    return settings

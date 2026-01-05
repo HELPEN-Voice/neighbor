@@ -614,4 +614,59 @@ class NeighborOrchestrator:
             print(f"⚠️ Failed to calculate valuation benchmark: {e}")
             # Don't fail the entire operation if valuation fails
 
+        # Generate neighbor map visualization
+        try:
+            if (
+                settings.GENERATE_MAP
+                and settings.MAPBOX_ACCESS_TOKEN
+                and target_parcel_info
+                and self.finder.raw_parcels
+            ):
+                print(f"\n🗺️  Generating neighbor map visualization...")
+                from ..mapping.map_generator import NeighborMapGenerator
+
+                map_generator = NeighborMapGenerator(
+                    target_parcel=target_parcel_info,
+                    raw_parcels=self.finder.raw_parcels,
+                    neighbor_profiles=validated_neighbors,
+                    mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
+                    output_dir=str(output_dir.parent / "neighbor_map_outputs"),
+                    style=settings.MAPBOX_STYLE,
+                    width=settings.MAP_WIDTH,
+                    height=settings.MAP_HEIGHT,
+                    padding=settings.MAP_PADDING,
+                    retina=settings.MAP_RETINA,
+                )
+
+                map_result = map_generator.generate(run_id=run_id)
+
+                if map_result.success:
+                    print(f"✅ Map generated: {map_result.image_path}")
+                    print(
+                        f"   Strategy: {map_result.generation_result.strategy_used}, "
+                        f"Parcels: {map_result.generation_result.parcels_rendered}"
+                    )
+                    final["map_image_path"] = map_result.image_path
+                    final["map_thumbnail_path"] = map_result.thumbnail_path
+                    final["map_legend_html"] = map_result.legend_html
+                    final["map_labels"] = map_result.labels
+                    final["map_metadata"] = map_result.metadata
+                else:
+                    print(
+                        f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
+                    )
+                    final["map_error"] = (
+                        map_result.generation_result.error_message
+                        if map_result.generation_result
+                        else "Unknown error"
+                    )
+            elif not settings.MAPBOX_ACCESS_TOKEN:
+                print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
+            elif not target_parcel_info:
+                print("⚠️ Skipping map generation - no target parcel info available")
+        except Exception as e:
+            print(f"⚠️ Failed to generate map: {e}")
+            # Don't fail the entire operation if map generation fails
+            final["map_error"] = str(e)
+
         return final
