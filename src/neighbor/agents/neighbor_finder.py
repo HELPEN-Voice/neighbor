@@ -165,7 +165,7 @@ class NeighborFinder:
             raise ValueError("REGRID_API_KEY not found in environment variables")
 
         max_parcels = settings.MAX_PARCELS  # Hard cap on parcels (billing optimization)
-        max_radius_meters = 4828  # ~3 miles max
+        max_radius_meters = 2414  # ~1.5 miles max
         radius_mi = initial_radius_mi
         radius_meters = radius_mi * 1609.34
 
