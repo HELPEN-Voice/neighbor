@@ -1,6 +1,7 @@
 # src/ii_agent/tools/neighbor/orchestrator/neighbor_orchestrator.py
 import asyncio, time
 import json
+import re
 import sys, subprocess
 import uuid
 from datetime import datetime
@@ -17,6 +18,63 @@ from ..services.local_valuation import LocalValuationService
 from ..engines.base import ResearchEngine, ResearchEvent
 from ..engines.responses_engine import DeepResearchResponsesEngine
 from ..engines.agents_sdk_engine import AgentsSDKEngine
+
+
+# =============================================================================
+# Smart Caching / Resume Helper Functions
+# =============================================================================
+
+def get_vr_files_for_run(dr_files: List[str]) -> List[str]:
+    """Convert dr_* paths to vr_* paths."""
+    return [f.replace("/dr_", "/vr_") for f in dr_files]
+
+
+def delete_html_outputs(base_dir: Path = None):
+    """Delete all HTML files in neighbor_html_outputs/"""
+    if base_dir is None:
+        base_dir = Path(__file__).parent.parent
+    html_dir = base_dir / "neighbor_html_outputs"
+    if html_dir.exists():
+        for f in html_dir.glob("*.html"):
+            f.unlink()
+        print(f"   🧹 Deleted HTML outputs")
+
+
+def delete_pdf_outputs(base_dir: Path = None):
+    """Delete individual and combined PDFs."""
+    if base_dir is None:
+        base_dir = Path(__file__).parent.parent
+    for pdf_dir in [base_dir / "individual_pdf_reports", base_dir / "combined_pdf_reports"]:
+        if pdf_dir.exists():
+            for f in pdf_dir.glob("*.pdf"):
+                f.unlink()
+    print(f"   🧹 Deleted PDF outputs")
+
+
+def load_verified_profiles(vr_files: List[str]) -> List[Dict]:
+    """Load and combine all verified profiles from vr_*.json files."""
+    all_profiles = []
+    for filepath in vr_files:
+        try:
+            with open(filepath, "r") as f:
+                data = json.load(f)
+            all_profiles.extend(data.get("neighbors", []))
+        except Exception as e:
+            print(f"   ⚠️ Failed to load {filepath}: {e}")
+    return all_profiles
+
+
+def load_unverified_profiles(dr_files: List[str]) -> List[Dict]:
+    """Load and combine all unverified profiles from dr_*.json files."""
+    all_profiles = []
+    for filepath in dr_files:
+        try:
+            with open(filepath, "r") as f:
+                data = json.load(f)
+            all_profiles.extend(data.get("neighbors", []))
+        except Exception as e:
+            print(f"   ⚠️ Failed to load {filepath}: {e}")
+    return all_profiles
 
 
 def _engine_factory() -> ResearchEngine:
@@ -95,160 +153,319 @@ class NeighborOrchestrator:
     ) -> Dict[str, Any]:
         t0 = time.time()
 
-        # Generate unique run_id for this neighbor screening
-        run_id = str(uuid.uuid4())
-        print(
-            f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🆔 Generated run_id: {run_id}"
-        )
+        # Check cache - smart caching / resume behavior
+        output_dir = Path(__file__).parent.parent / "neighbor_outputs"
+        dr_output_dir = Path(__file__).parent.parent / "deep_research_outputs"
+        cache_file = output_dir / "neighbor_final_merged.json"
 
-        # 1) Determine target parcel and get adjacent parcels
-        target_parcel_info = None
-        adjacent_pins = set()
+        # Cache detection: check what files exist for these coordinates
+        cached_dr_files = []
+        cached_vr_files = []
+        cache_coords_match = False
+        resolved = None  # Will be loaded from cache if resuming
 
-        if pin:  # PIN-based search
-            target_parcel_info = await self.finder.get_target_parcel(
-                search_mode="PIN", pin=pin, county_path=county_path
+        if cache_file.exists() and location:
+            try:
+                with open(cache_file, "r") as f:
+                    cached = json.load(f)
+                cached_context = cached.get("location_context", "")
+
+                # Extract coordinates from cached context
+                if cached_context:
+                    coord_match = re.search(r"([-\d.]+),\s*([-\d.]+)", cached_context)
+                    if coord_match:
+                        cached_lat = float(coord_match.group(1))
+                        cached_lon = float(coord_match.group(2))
+                        req_lat, req_lon = [float(x.strip()) for x in location.split(",")]
+
+                        # Check if coordinates match
+                        if abs(cached_lat - req_lat) < 1e-6 and abs(cached_lon - req_lon) < 1e-6:
+                            cache_coords_match = True
+
+                            # Get dr_* files from cached data
+                            cached_dr_files = cached.get("deep_research_files", [])
+                            if cached_dr_files:
+                                # Verify dr_* files exist
+                                cached_dr_files = [f for f in cached_dr_files if Path(f).exists()]
+
+                            # Check for corresponding vr_* files
+                            if cached_dr_files:
+                                cached_vr_files = get_vr_files_for_run(cached_dr_files)
+                                cached_vr_files = [f for f in cached_vr_files if Path(f).exists()]
+            except Exception as e:
+                print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ Cache check failed: {e}, proceeding with fresh run")
+                cache_coords_match = False
+
+        # Determine run mode based on cached files
+        has_dr = bool(cached_dr_files)
+        has_vr = bool(cached_vr_files) and len(cached_vr_files) == len(cached_dr_files)
+
+        # Scenario 3: Have both dr_* and vr_* files → skip research, just regenerate outputs
+        # Delete HTML/PDFs so they get regenerated by the caller
+        if cache_coords_match and has_dr and has_vr:
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Found complete cached & verified data")
+            print(f"   Using {len(cached_dr_files)} cached dr_*.json files")
+            print(f"   Using {len(cached_vr_files)} cached vr_*.json files")
+            print(f"   Skipping OpenAI + Verification stages")
+            print(f"   Neighbors: {len(cached.get('neighbors', []))}")
+
+            # Delete old outputs so caller regenerates them
+            delete_html_outputs()
+            delete_pdf_outputs()
+
+            print(f"   Returning cached data for HTML/PDF regeneration")
+
+            # Return the cached final result
+            return cached
+
+        # Scenario 2: Have dr_* but no vr_* files → skip OpenAI, run verification only
+        # This scenario sets up variables and falls through to the dedupe/save logic
+        skip_openai = False
+        if cache_coords_match and has_dr and not has_vr and settings.ENABLE_VERIFICATION:
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📂 Found existing deep research files, resuming verification...")
+            print(f"   Skipping OpenAI stage - using {len(cached_dr_files)} cached dr_*.json files")
+            skip_openai = True
+
+            # Import verification manager
+            from ..agents.verification_manager_neighbor import NeighborVerificationManager
+
+            verification_context = {"county": county, "state": state, "city": city}
+            verification_manager = NeighborVerificationManager()
+
+            verified_result = await verification_manager.verify_all(
+                dr_filepaths=cached_dr_files,
+                context=verification_context,
+                concurrency_limit=settings.VERIFICATION_CONCURRENCY,
             )
-            if not target_parcel_info:
-                return NeighborResult(
-                    neighbors=[],
-                    location_context="Target parcel not found",
-                    success=False,
-                ).dict()
 
-            # Get adjacent parcels for the target
-            adjacent_pins = await self.finder.get_adjacent_parcels(
-                target_parcel_info["geometry"], target_parcel_info["pin"]
+            # Set up variables for the rest of the flow
+            merged = verified_result["verified_profiles"]
+            saved_filepaths = cached_dr_files + verified_result.get("vr_filepaths", [])
+            flat_citations = []
+            overview_summaries = []
+
+            # Generate run_id for this resumed run
+            run_id = str(uuid.uuid4())
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🆔 Generated run_id: {run_id}")
+
+            # These may be needed later
+            target_parcel_info = None
+            adjacent_pins = set()
+
+            # Parse lat/lon from location for later use
+            if location:
+                lat, lon = [float(x) for x in location.split(",")]
+            else:
+                lat, lon = None, None
+
+            stats = verified_result["stats"]
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Verification complete:")
+            print(f"   Files processed: {stats['files_processed']}")
+            print(f"   Files succeeded: {stats['files_succeeded']}")
+            print(f"   Total profiles verified: {stats['total_profiles_verified']}")
+
+            if verified_result.get("errors"):
+                for err in verified_result["errors"]:
+                    print(f"   ⚠️ Error in {err['file']}: {err['error']}")
+
+            # Load resolved data for adjacency mapping
+            regrid_file = output_dir / "regrid_all.json"
+            if regrid_file.exists():
+                with open(regrid_file, "r") as f:
+                    regrid_data = json.load(f)
+                resolved = regrid_data.get("neighbors", [])
+            else:
+                resolved = []
+
+        # Scenario 1: Fresh run - no cached data, need to run full pipeline
+        if not skip_openai:
+            # Generate unique run_id for this neighbor screening
+            run_id = str(uuid.uuid4())
+            print(
+                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🆔 Generated run_id: {run_id}"
             )
 
-            # Use target parcel's coordinates for neighbor search
-            lat = target_parcel_info["lat"]
-            lon = target_parcel_info["lon"]
+            # 1) Determine target parcel and get adjacent parcels
+            target_parcel_info = None
+            adjacent_pins = set()
 
-        elif location:  # Coordinate-based search
-            lat, lon = [float(x) for x in location.split(",")]
-            # Get target parcel info from coordinates
-            target_parcel_info = await self.finder.get_target_parcel(
-                search_mode="COORDS", lat=lat, lon=lon
-            )
-            if target_parcel_info:
+            if pin:  # PIN-based search
+                target_parcel_info = await self.finder.get_target_parcel(
+                    search_mode="PIN", pin=pin, county_path=county_path
+                )
+                if not target_parcel_info:
+                    return NeighborResult(
+                        neighbors=[],
+                        location_context="Target parcel not found",
+                        success=False,
+                    ).dict()
+
                 # Get adjacent parcels for the target
                 adjacent_pins = await self.finder.get_adjacent_parcels(
                     target_parcel_info["geometry"], target_parcel_info["pin"]
                 )
 
-        # 2) Resolve neighbors
-        resolved: List[Dict[str, Any]] = []
-        if neighbors:
-            # Manual neighbor list provided
-            for name in neighbors:
-                etype = (entity_type_map or {}).get(name) or guess_entity_type(name)
-                resolved.append(
-                    {
-                        "name": name,
-                        "entity_type": etype,
-                        "pins": [],
-                        "owns_adjacent_parcel": "No",  # Default to No for manual entries
-                    }
+                # Use target parcel's coordinates for neighbor search
+                lat = target_parcel_info["lat"]
+                lon = target_parcel_info["lon"]
+
+            elif location:  # Coordinate-based search
+                lat, lon = [float(x) for x in location.split(",")]
+                # Get target parcel info from coordinates
+                target_parcel_info = await self.finder.get_target_parcel(
+                    search_mode="COORDS", lat=lat, lon=lon
                 )
-        elif lat and lon:
-            # Use the new expansion method to find neighbors
-            resolved = await self.finder.find_by_location_with_expansion(
-                lat=lat,
-                lon=lon,
-                initial_radius_mi=radius_mi,
-                target_count=settings.MAX_NEIGHBORS,
-                adjacent_pins=adjacent_pins,
-            )
-        else:
-            return NeighborResult(
-                neighbors=[],
-                location_context="No location or neighbors provided",
-                success=False,
-            ).dict()
+                if target_parcel_info:
+                    # Get adjacent parcels for the target
+                    adjacent_pins = await self.finder.get_adjacent_parcels(
+                        target_parcel_info["geometry"], target_parcel_info["pin"]
+                    )
 
-        # Cap to limit
-        resolved = resolved[: settings.MAX_NEIGHBORS]
-        if not resolved:
-            return NeighborResult(
-                neighbors=[], location_context="No neighbors", success=True
-            ).dict()
-
-        # Save Regrid results to JSON files if requested
-        if save_regrid_json:
-            saved_files = self._save_regrid_to_json(resolved)
-            print(
-                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Regrid data saved to: {saved_files}"
-            )
-
-        # 3) Split by entity type - include name, PINs, and owns_adjacent_parcel
-        people = [
-            {
-                "name": r["name"],
-                "pins": r.get("pins", []),
-                "owns_adjacent_parcel": r.get("owns_adjacent_parcel", "No"),
-            }
-            for r in resolved
-            if r.get("entity_type") == "person"
-        ]
-        orgs = [
-            {
-                "name": r["name"],
-                "pins": r.get("pins", []),
-                "owns_adjacent_parcel": r.get("owns_adjacent_parcel", "No"),
-            }
-            for r in resolved
-            if r.get("entity_type") == "organization"
-        ]
-
-        # 4) Batch
-        batches: List[tuple[list[str], str]] = []
-        for group, etype in ((people, "person"), (orgs, "organization")):
-            for chunk in await self._chunk(group, settings.BATCH_SIZE):
-                batches.append((chunk, etype))
-
-        context = {
-            "county": county,
-            "state": state,
-            "city": city,
-            "radius_mi": radius_mi,
-        }
-        sem = asyncio.Semaphore(settings.CONCURRENCY_LIMIT)
-
-        async def run(names: List[str], etype: str):
-            async with sem:
-                return await self.engine.run_batch(
-                    names, context, etype, on_event=on_event
-                )
-
-        # 5) Fire concurrently
-        tasks = [run(names, etype) for names, etype in batches]
-        results = await asyncio.gather(*tasks, return_exceptions=True)
-
-        # 6) Merge results
-        merged: List[Dict[str, Any]] = []
-        flat_citations: List[Dict[str, Any]] = []
-        overview_summaries: List[str] = []
-        saved_filepaths: List[str] = []  # Track saved deep research files
-        for r in results:
-            if isinstance(r, Exception):
-                if on_event:
-                    on_event(
+            # 2) Resolve neighbors
+            resolved = []
+            if neighbors:
+                # Manual neighbor list provided
+                for name in neighbors:
+                    etype = (entity_type_map or {}).get(name) or guess_entity_type(name)
+                    resolved.append(
                         {
-                            "type": "error",
-                            "batch_size": 0,
-                            "entity_type": "person",
-                            "message": str(r),
-                            "meta": {},
+                            "name": name,
+                            "entity_type": etype,
+                            "pins": [],
+                            "owns_adjacent_parcel": "No",  # Default to No for manual entries
                         }
                     )
-                continue
-            merged.extend(r.get("neighbors", []))
-            flat_citations.extend(r.get("annotations", []))
-            if r.get("overview_summary"):
-                overview_summaries.append(r["overview_summary"])
-            if r.get("saved_filepath"):
-                saved_filepaths.append(r["saved_filepath"])
+            elif lat and lon:
+                # Use the new expansion method to find neighbors
+                resolved = await self.finder.find_by_location_with_expansion(
+                    lat=lat,
+                    lon=lon,
+                    initial_radius_mi=radius_mi,
+                    target_count=settings.MAX_NEIGHBORS,
+                    adjacent_pins=adjacent_pins,
+                )
+            else:
+                return NeighborResult(
+                    neighbors=[],
+                    location_context="No location or neighbors provided",
+                    success=False,
+                ).dict()
+
+            # Cap to limit
+            resolved = resolved[: settings.MAX_NEIGHBORS]
+            if not resolved:
+                return NeighborResult(
+                    neighbors=[], location_context="No neighbors", success=True
+                ).dict()
+
+            # Save Regrid results to JSON files if requested
+            if save_regrid_json:
+                saved_files = self._save_regrid_to_json(resolved)
+                print(
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Regrid data saved to: {saved_files}"
+                )
+
+            # 3) Split by entity type - include name, PINs, and owns_adjacent_parcel
+            people = [
+                {
+                    "name": r["name"],
+                    "pins": r.get("pins", []),
+                    "owns_adjacent_parcel": r.get("owns_adjacent_parcel", "No"),
+                }
+                for r in resolved
+                if r.get("entity_type") == "person"
+            ]
+            orgs = [
+                {
+                    "name": r["name"],
+                    "pins": r.get("pins", []),
+                    "owns_adjacent_parcel": r.get("owns_adjacent_parcel", "No"),
+                }
+                for r in resolved
+                if r.get("entity_type") == "organization"
+            ]
+
+            # 4) Batch
+            batches: List[tuple[list[str], str]] = []
+            for group, etype in ((people, "person"), (orgs, "organization")):
+                for chunk in await self._chunk(group, settings.BATCH_SIZE):
+                    batches.append((chunk, etype))
+
+            context = {
+                "county": county,
+                "state": state,
+                "city": city,
+                "radius_mi": radius_mi,
+            }
+            sem = asyncio.Semaphore(settings.CONCURRENCY_LIMIT)
+
+            async def run(names: List[str], etype: str):
+                async with sem:
+                    return await self.engine.run_batch(
+                        names, context, etype, on_event=on_event
+                    )
+
+            # 5) Fire concurrently
+            tasks = [run(names, etype) for names, etype in batches]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            # 6) Merge results
+            merged = []
+            flat_citations = []
+            overview_summaries = []
+            saved_filepaths = []  # Track saved deep research files
+            for r in results:
+                if isinstance(r, Exception):
+                    if on_event:
+                        on_event(
+                            {
+                                "type": "error",
+                                "batch_size": 0,
+                                "entity_type": "person",
+                                "message": str(r),
+                                "meta": {},
+                            }
+                        )
+                    continue
+                merged.extend(r.get("neighbors", []))
+                flat_citations.extend(r.get("annotations", []))
+                if r.get("overview_summary"):
+                    overview_summaries.append(r["overview_summary"])
+                if r.get("saved_filepath"):
+                    saved_filepaths.append(r["saved_filepath"])
+
+            # 6.25) VERIFICATION STAGE (Gemini Deep Research)
+            # Run verification on individual dr_*.json files before merge/dedupe
+            if settings.ENABLE_VERIFICATION and saved_filepaths:
+                print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔬 Starting Verification Stage...")
+                print(f"   Processing {len(saved_filepaths)} deep research files...")
+
+                from ..agents.verification_manager_neighbor import NeighborVerificationManager
+
+                verification_context = {"county": county, "state": state, "city": city}
+                verification_manager = NeighborVerificationManager()
+
+                verified_result = await verification_manager.verify_all(
+                    dr_filepaths=saved_filepaths,
+                    context=verification_context,
+                    concurrency_limit=settings.VERIFICATION_CONCURRENCY,
+                )
+
+                # Replace merged with verified profiles
+                merged = verified_result["verified_profiles"]
+
+                # Track verified file paths
+                saved_filepaths.extend(verified_result.get("vr_filepaths", []))
+
+                stats = verified_result["stats"]
+                print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Verification complete:")
+                print(f"   Files processed: {stats['files_processed']}")
+                print(f"   Files succeeded: {stats['files_succeeded']}")
+                print(f"   Total profiles verified: {stats['total_profiles_verified']}")
+
+                if verified_result.get("errors"):
+                    for err in verified_result["errors"]:
+                        print(f"   ⚠️ Error in {err['file']}: {err['error']}")
 
         # 6.5) Deduplicate neighbors with similar names (Levenshtein distance <= 2)
         def dedupe_neighbors(neighbors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -524,7 +741,7 @@ class NeighborOrchestrator:
         final_output_path = output_dir / "neighbor_final_merged.json"
 
         with open(final_output_path, "w", encoding="utf-8") as f:
-            json.dump(final, f, indent=2, ensure_ascii=False)
+            json.dump(final, f, indent=2, ensure_ascii=False, default=str)
 
         print(
             f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 💾 Saved final merged output to: {final_output_path.name}"

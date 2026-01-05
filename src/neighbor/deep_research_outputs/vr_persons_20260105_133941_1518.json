@@ -1,0 +1,184 @@
+{
+  "timestamp": "2026-01-05T14:02:18.193442",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260105_133941_1518.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Lincoln County",
+    "state": "WY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jason & Tracy Thornock",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23202240000900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason and Tracy Thornock own a third-generation cattle and hay ranch in Cokeville, Lincoln County, Wyoming ([Inside Climate News](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/)). Jason Thornock has publicly advocated for ranch-scale solar to offset an approximately $150,000 annual electric bill, testifying to the state legislature about the benefits of net metering and criticizing the utility as a 'government-protected monopoly' ([Wyoming Public Media](https://www.wyomingpublicmedia.org/natural-resources-energy/2025-12-17/ranchers-hoping-solar-can-lower-costs-say-utilities-and-the-state-stand-in-their-way)). In 2016, the Wyoming Supreme Court affirmed a district court ruling denying the Thornocks' request for a private road across neighboring land, finding they already had adequate access via a public road ([Justia](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Legislative witness; vocal energy advocate",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage Jason on energy independence. Acknowledge his legislative testimony regarding net metering and emphasize how this project aligns with his goal of reducing utility monopoly control and lowering agricultural operating costs."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Own a third-generation cattle and hay ranch in Cokeville, Lincoln County, Wyoming",
+          "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
+          "title": "Wyoming Ranchers Hoping Solar Can Lower Costs Say Utilities and the State Stand in Their Way",
+          "date": "2025-12-14"
+        },
+        {
+          "claim": "Advocated for ranch-scale solar to offset $150,000 bill and criticized utility monopoly",
+          "url": "https://www.wyomingpublicmedia.org/natural-resources-energy/2025-12-17/ranchers-hoping-solar-can-lower-costs-say-utilities-and-the-state-stand-in-their-way",
+          "title": "Ranchers hoping solar can lower costs say utilities and the state stand in their way",
+          "date": "2025-12-17"
+        },
+        {
+          "claim": "Wyoming Supreme Court affirmed denial of private road request in 2016",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html",
+          "title": "Thornock v. Esterholdt, 2016 WY 129",
+          "date": "2016-12-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Justin & Jamie Mckinnon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23202510002100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin and Jamie Mckinnon operate McKinnon Livestock, a cattle ranch business based in Cokeville, Wyoming ([Buzzfile](https://www.buzzfile.com/business/McKinnon-Livestock-307-279-2177)). Justin Mckinnon serves as the Vice President of the Cokeville Stock and Saddle Club, a key local organization that manages the annual rodeo ([Cokeville Rodeo](https://www.cokevillerodeo.com/)). USDA records indicate that Justin Mckinnon received approximately $228,600 in federal farm subsidies from 1995 to 2024, reflecting the family’s active ranch operations ([EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?z=1&zip=83114&page=0)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Vice President of Cokeville Stock and Saddle Club",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Connect via his leadership role in the Stock and Saddle Club. Emphasize respect for ranching traditions and how the project supports the local agricultural economy without interfering with livestock operations or rodeo events."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Operate McKinnon Livestock in Cokeville",
+          "url": "https://www.buzzfile.com/business/McKinnon-Livestock-307-279-2177",
+          "title": "McKinnon Livestock Overview",
+          "date": "2026-01-05"
+        },
+        {
+          "claim": "Serves as Vice President of the Cokeville Stock and Saddle Club",
+          "url": "https://www.cokevillerodeo.com/",
+          "title": "Cokeville Rodeo - Meet Our Team",
+          "date": "2025-07-19"
+        },
+        {
+          "claim": "Received approximately $228,600 in federal farm subsidies 1995-2024",
+          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=83114&page=0",
+          "title": "EWG Farm Subsidy Database Search Results",
+          "date": "2024-12-31"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Monte Mckinnon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23202410002000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Monte Mckinnon is a long-time resident of Cokeville, listed as an alumnus of Cokeville High School ([Old Friends](https://old-friends.co/school.php?s=37752)). The Mckinnon family has a documented presence in the community dating back to at least the 1920s ([Genealogy Trails](http://genealogytrails.com/wyo/lincoln/cokevillecem.html)). Public records confirm his past residency at addresses within Cokeville ([National Public Data](https://nationalpublicdata.com/people/m/monte-mckinnon/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-time resident; no public leadership found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach with deference to his seniority in the community. Focus on preserving the quiet, rural character of the area and ensuring the project respects the long-standing history of local families like the Mckinnons."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Alumnus of Cokeville High School",
+          "url": "https://old-friends.co/school.php?s=37752",
+          "title": "Cokeville High School Alumni List",
+          "date": "2026-01-05"
+        },
+        {
+          "claim": "Mckinnon family presence since 1920s",
+          "url": "http://genealogytrails.com/wyo/lincoln/cokevillecem.html",
+          "title": "Cokeville Cemetery Records",
+          "date": "2026-01-05"
+        },
+        {
+          "claim": "Past residency at addresses within Cokeville",
+          "url": "https://nationalpublicdata.com/people/m/monte-mckinnon/",
+          "title": "Monte Mckinnon Residential History",
+          "date": "2026-01-05"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 496144,
+    "thinking_count": 23
+  }
+}

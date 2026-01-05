@@ -33,6 +33,12 @@ class NeighborSettings(BaseSettings):
     STREAMING_ENABLED: bool = False
     TRACE_ENABLED: bool = False
 
+    # Verification settings (Gemini Deep Research)
+    ENABLE_VERIFICATION: bool = True
+    VERIFICATION_CONCURRENCY: int = 4  # Max parallel Gemini requests
+    GEMINI_POLL_INTERVAL: int = 60  # Seconds between status checks
+    GEMINI_MAX_WAIT_TIME: int = 3600  # Max wait time (60 min) for Gemini response
+
     class Config:
         env_file = ".env"
         extra = "ignore"  # Ignore extra environment variables
