@@ -145,16 +145,16 @@ class NeighborFinder:
         self,
         lat: float,
         lon: float,
-        initial_radius_mi: float = 0.25,
+        initial_radius_mi: float = 0.5,  # Kept for backward compatibility (ignored)
         target_count: int = 30,
         adjacent_pins: Optional[set] = None,
     ) -> List[Dict[str, Any]]:
         """
         Query Regrid API for parcels using expanding radii to ensure nearest parcels first.
 
-        Starts at a small radius (0.25 mi) and expands until MAX_PARCELS (50) unique parcels
-        are accumulated. This guarantees we get the truly nearest parcels while capping
-        total parcel records for billing optimization.
+        Searches at fixed radii of 0.5, 1.0, and 1.5 miles until MAX_PARCELS (30) unique
+        parcels are accumulated. This guarantees we get the truly nearest parcels while
+        capping total parcel records for billing optimization.
 
         Also adds owns_adjacent_parcel flag to owners.
         Returns: [{ "name": "Karen Newman", "entity_type": "person", "pins": ["12-34-56"], "owns_adjacent_parcel": "No" }, ...]
@@ -165,19 +165,21 @@ class NeighborFinder:
             raise ValueError("REGRID_API_KEY not found in environment variables")
 
         max_parcels = settings.MAX_PARCELS  # Hard cap on parcels (billing optimization)
-        max_radius_meters = 2414  # ~1.5 miles max
-        radius_mi = initial_radius_mi
-        radius_meters = radius_mi * 1609.34
+        search_radii_mi = [0.5, 1.0, 1.5]  # Fixed search radii in miles
 
         url = f"{self.base_url}/parcels/point"
 
         # Track unique parcels across expansions (by PIN)
         all_parcels = {}  # pin -> parcel feature
+        radius_mi = search_radii_mi[0]  # Track current radius for logging
 
         print(f"\nFetching up to {max_parcels} nearest parcels using expanding radii...")
 
         async with aiohttp.ClientSession() as session:
-            while len(all_parcels) < max_parcels and radius_meters <= max_radius_meters:
+            for radius_mi in search_radii_mi:
+                if len(all_parcels) >= max_parcels:
+                    break
+                radius_meters = radius_mi * 1609.34
                 # Request enough to potentially fill remaining quota
                 remaining = max_parcels - len(all_parcels)
                 request_limit = min(remaining + 20, 100)  # Small buffer for deduplication
@@ -199,9 +201,7 @@ class NeighborFinder:
                             parcels = data.get("parcels", {}).get("features", [])
 
                             if not parcels:
-                                print(f"    No parcels found, expanding radius...")
-                                radius_mi *= 2
-                                radius_meters = radius_mi * 1609.34
+                                print(f"    No parcels found at this radius")
                                 continue
 
                             # Add new unique parcels (by PIN)
@@ -223,14 +223,6 @@ class NeighborFinder:
                             if len(all_parcels) >= max_parcels:
                                 print(f"  Reached {max_parcels} parcel limit")
                                 break
-
-                            # Expand radius for next iteration
-                            # Use 1.5x multiplier up to 2 miles, then 2x after
-                            if radius_mi < 2.0:
-                                radius_mi *= 1.5
-                            else:
-                                radius_mi *= 2
-                            radius_meters = radius_mi * 1609.34
                         else:
                             error_text = await response.text()
                             print(f"Regrid API error: {error_text[:500]}")
