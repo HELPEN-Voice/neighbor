@@ -28,7 +28,7 @@ def _list(v):
 
 
 def normalize_pin(pin):
-    """Normalize PINs by removing zero-width characters and using non-breaking hyphens"""
+    """Normalize PINs by removing zero-width characters"""
     if not pin:
         return pin
     return (
@@ -38,7 +38,6 @@ def normalize_pin(pin):
         .replace("\u200d", "")
         .replace("\ufeff", "")
         .replace("\u2060", "")
-        .replace("-", "\u2011")
     )
 
 

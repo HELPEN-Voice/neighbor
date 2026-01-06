@@ -107,6 +107,27 @@ class NeighborProfile(BaseModel):
         ]
     ] = None
 
+    @field_validator("entity_classification", mode="before")
+    @classmethod
+    def normalize_entity_classification(cls, v):
+        """Map invalid entity_classification values to 'unknown'"""
+        valid = {
+            "energy_developer",
+            "land_investment",
+            "agriculture",
+            "religious",
+            "municipal",
+            "speculation",
+            "unknown",
+        }
+        if v is None:
+            return None
+        v_lower = str(v).lower().strip()
+        if v_lower in valid:
+            return v_lower
+        # Map common invalid values
+        return "unknown"
+
     # Legacy fields for backward compatibility (optional)
     profile_summary: Optional[str] = None  # Maps to claims
     stance: Optional[str] = None  # Extracted from claims if needed

@@ -158,35 +158,40 @@ def generate_pdf_report(result_data: dict) -> str:
     return str(pdf_dir)
 
 
-async def test_live_pipeline(lat, lon):
+async def test_live_pipeline(lat, lon, skip_clean=False):
     """Test the complete pipeline with live Regrid data.
 
     Args:
         lat: Latitude (required)
         lon: Longitude (required)
+        skip_clean: If True, skip cleanup to enable smart caching/resume
     """
     print("=" * 60)
     print("LIVE REGRID -> DEEP RESEARCH PIPELINE TEST")
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # Clean up old outputs
-    print("🧹 Cleaning up old outputs...")
-    output_dirs = [
-        Path(__file__).parent / "neighbor_outputs",
-        Path(__file__).parent / "neighbor_html_outputs",
-        Path(__file__).parent / "individual_pdf_reports",
-        Path(__file__).parent / "combined_pdf_reports",
-        Path(__file__).parent / "deep_research_outputs",
-    ]
+    if skip_clean:
+        print("⏭️  Skipping cleanup (--no-clean flag set)")
+        print("   Smart caching enabled: will resume from cached dr_*/vr_* files if available")
+    else:
+        # Clean up old outputs
+        print("🧹 Cleaning up old outputs...")
+        output_dirs = [
+            Path(__file__).parent / "neighbor_outputs",
+            Path(__file__).parent / "neighbor_html_outputs",
+            Path(__file__).parent / "individual_pdf_reports",
+            Path(__file__).parent / "combined_pdf_reports",
+            Path(__file__).parent / "deep_research_outputs",
+        ]
 
-    for output_dir in output_dirs:
-        if output_dir.exists():
-            # Remove all JSON, HTML, PDF, TXT, and MD files
-            for pattern in ["*.json", "*.html", "*.pdf", "*.txt", "*.md"]:
-                for file in output_dir.glob(pattern):
-                    file.unlink()
-                    print(f"  ✓ Deleted {file.name}")
+        for output_dir in output_dirs:
+            if output_dir.exists():
+                # Remove all JSON, HTML, PDF, TXT, and MD files
+                for pattern in ["*.json", "*.html", "*.pdf", "*.txt", "*.md"]:
+                    for file in output_dir.glob(pattern):
+                        subprocess.run(["trash", str(file)], check=True)
+                        print(f"  ✓ Trashed {file.name}")
 
     # Check for API keys
     regrid_key = os.getenv("REGRID_API_KEY")
@@ -421,6 +426,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--lat", type=float, required=True, help="Latitude coordinate")
     parser.add_argument("--lon", type=float, required=True, help="Longitude coordinate")
+    parser.add_argument("--no-clean", action="store_true", help="Skip cleanup to use cached data (smart resume)")
     args = parser.parse_args()
 
     # Start ngrok tunnel to webhook server
@@ -428,7 +434,7 @@ if __name__ == "__main__":
 
     try:
         # Run the test with provided coordinates
-        success = asyncio.run(test_live_pipeline(args.lat, args.lon))
+        success = asyncio.run(test_live_pipeline(args.lat, args.lon, skip_clean=args.no_clean))
     finally:
         # Always stop ngrok tunnel
         stop_ngrok_tunnel(ngrok_process)

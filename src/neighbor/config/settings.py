@@ -27,7 +27,7 @@ class NeighborSettings(BaseSettings):
     # Concurrency & batching
     BATCH_SIZE: int = 5
     MAX_NEIGHBORS: int = 30  # Max owners to return
-    MAX_PARCELS: int = 50  # Hard cap on parcels fetched from Regrid API (billing optimization)
+    MAX_PARCELS: int = 30  # Hard cap on parcels fetched from Regrid API (billing optimization)
     DEFAULT_RADIUS_MILES: float = 0.25  # Starting radius for expansion (doubles each iteration)
     CONCURRENCY_LIMIT: int = 15  # guardrail if you want to cap in dense areas
 
@@ -61,6 +61,12 @@ class NeighborSettings(BaseSettings):
     MAX_GEOJSON_URL_LENGTH: int = Field(
         default=6000, description="Max URL length before falling back to polyline"
     )
+
+    # Verification settings (Gemini Deep Research)
+    ENABLE_VERIFICATION: bool = True
+    VERIFICATION_CONCURRENCY: int = 4  # Max parallel Gemini requests
+    GEMINI_POLL_INTERVAL: int = 60  # Seconds between status checks
+    GEMINI_MAX_WAIT_TIME: int = 3600  # Max wait time (60 min) for Gemini response
 
     class Config:
         env_file = ".env"
