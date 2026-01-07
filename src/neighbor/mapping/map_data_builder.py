@@ -126,6 +126,7 @@ class MapDataBuilder:
 
         # 1. Add target parcel (always first for z-order)
         target_geometry = self.target_parcel.get("geometry")
+        target_pin = self.target_parcel.get("pin", "")
         if target_geometry:
             features.append(
                 MapFeature(
@@ -133,12 +134,15 @@ class MapDataBuilder:
                     style=STYLES["target"],
                     label="TARGET",
                     neighbor_id=None,
-                    pin=self.target_parcel.get("pin", ""),
+                    pin=target_pin,
                     is_target=True,
                     is_adjacent=False,
                 )
             )
             stats["target_included"] = True
+            # Mark target PIN as processed so it's not rendered again as a neighbor
+            if target_pin:
+                processed_pins.add(target_pin)
 
         # 2. Process each neighbor
         for neighbor in self.neighbor_profiles:

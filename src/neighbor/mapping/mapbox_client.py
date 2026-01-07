@@ -171,7 +171,7 @@ class MapboxClient:
         return (
             f"{self.BASE_URL}/{self.username}/{self.style}/static/"
             f"{overlay}/auto/{width}x{height}{retina_suffix}"
-            f"?padding={padding}&access_token={self.access_token}"
+            f"?padding={padding}&logo=false&attribution=false&access_token={self.access_token}"
         )
 
     def _build_polyline_url(
@@ -228,7 +228,7 @@ class MapboxClient:
         return (
             f"{self.BASE_URL}/{self.username}/{self.style}/static/"
             f"{overlay}/auto/{width}x{height}{retina_suffix}"
-            f"?padding={padding}&access_token={self.access_token}"
+            f"?padding={padding}&logo=false&attribution=false&access_token={self.access_token}"
         )
 
     def _simplify_features(
