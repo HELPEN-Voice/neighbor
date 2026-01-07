@@ -40,97 +40,193 @@
         .slide {
             width: 10in; height: 5.625in;
             display: grid;
-            grid-template-rows: 0.7in auto 0.4in;
-            padding: 0.3in 0.4in;
+            grid-template-rows: auto 1fr;
+            padding: 0.25in 0.4in;
             box-sizing: border-box;
             page-break-after: always;
             background: var(--hp-bg);
         }
         .slide:last-of-type { page-break-after: auto; }
 
-        .slide .header {
-            display:flex; align-items:center; justify-content:space-between;
-        }
-        .slide .footer {
-            display:flex; align-items:center; justify-content:space-between;
-            font-size: 10pt; color:#475569;
+        /* Header with logo, title, and location */
+        .header {
+            display: flex;
+            flex-direction: column;
+            gap: 0.05in;
+            margin-bottom: 0.15in;
         }
 
-        h1, h2 {
-            margin: 0;
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 0.15in;
+        }
+
+        .section-title {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14pt;
+            font-weight: 600;
+            color: var(--hp-navy);
             text-transform: uppercase;
             letter-spacing: 0.02em;
-            font-family: 'DM Sans', Inter, sans-serif;
-            color: var(--hp-navy);
         }
 
-        .map-container {
-            display: flex;
-            gap: 0.3in;
+        .location-info {
+            font-family: 'Inter', sans-serif;
+            font-size: 9pt;
+            color: #64748B;
+            margin-left: 0.05in;
+        }
+
+        /* Main content area */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 2.2in;
+            gap: 0.25in;
             height: 100%;
-            align-items: center;
         }
 
-        .map-image-wrapper {
+        /* Left side: Map + Legend */
+        .left-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 0.12in;
+        }
+
+        .map-wrapper {
             flex: 1;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 1px 8px rgba(0,0,0,.05);
+            padding: 0.1in;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0,0,0,.06);
-            padding: 0.15in;
-            height: 100%;
+            overflow: hidden;
         }
 
         .map-image {
             max-width: 100%;
             max-height: 100%;
             object-fit: contain;
-            border-radius: 8px;
+            border-radius: 3px;
         }
 
-        .legend-panel {
-            width: 2in;
+        /* Legend - horizontal under map */
+        .legend-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.08in 0.12in;
             background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0,0,0,.06);
-            padding: 0.2in;
-            height: fit-content;
-            max-height: 100%;
-            overflow-y: auto;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0,0,0,.04);
         }
 
-        .legend-title {
-            font-family: 'DM Sans', sans-serif;
-            font-size: 11pt;
-            font-weight: 600;
-            color: var(--hp-navy);
-            margin-bottom: 0.15in;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
+        .legend-items {
+            display: flex;
+            align-items: center;
+            gap: 0.2in;
+        }
+
+        .parcel-count {
+            font-size: 8pt;
+            color: #64748B;
+            font-weight: 500;
         }
 
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 0.1in;
-            margin-bottom: 0.08in;
-            font-size: 9pt;
+            gap: 0.06in;
+            font-size: 8pt;
             color: #475569;
         }
 
         .legend-color {
-            width: 14px;
-            height: 14px;
-            border-radius: 3px;
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
             flex-shrink: 0;
         }
 
-        .legend-label {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.3;
+        .legend-divider {
+            width: 1px;
+            height: 16px;
+            background: #E2E8F0;
         }
+
+        /* Right side: Reference table */
+        .right-panel {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 1px 8px rgba(0,0,0,.05);
+            padding: 0.15in;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .table-title {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 10pt;
+            font-weight: 600;
+            color: var(--hp-navy);
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.1in;
+            padding-bottom: 0.08in;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .reference-table {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .ref-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+        }
+
+        .ref-table th {
+            text-align: left;
+            font-weight: 500;
+            color: #64748B;
+            padding: 0.05in 0.08in;
+            border-bottom: 1px solid #E2E8F0;
+            font-size: 7pt;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .ref-table td {
+            padding: 0.06in 0.08in;
+            border-bottom: 1px solid #F1F5F9;
+            vertical-align: middle;
+            color: #334155;
+        }
+
+        .ref-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .marker-num-plain {
+            font-weight: 600;
+            color: #0B1D3A;
+            text-align: center;
+        }
+
+        /* Influence column styling */
+        .influence-high { color: #007BFF; font-weight: 500; }
+        .influence-medium { color: #EA580C; font-weight: 500; }
+        .influence-low { color: #94A3B8; }
+
+        /* Stance column styling */
+        .stance-support { color: #16A34A; font-weight: 500; }
+        .stance-oppose { color: #DC2626; font-weight: 500; }
+        .stance-unknown { color: #94A3B8; }
 
         /* Print color adjustment */
         @media print {
@@ -144,63 +240,82 @@
 <body class="slides">
     <section class="slide">
 
-        <!-- Header area -->
+        <!-- Header: Logo + Title + Location -->
         <div class="header">
-            <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.35in; width:auto;" />
-            <h2 style="font-size: 14pt; font-weight: 500;">Parcel Overview</h2>
-        </div>
-
-        <!-- Content area -->
-        <div class="map-container">
-            <div class="map-image-wrapper">
-                
-                <img src="7564d0ed-51d6-43f4-bf30-3942f2372fd4_map_full.png" alt="Neighbor Map" class="map-image" />
-                
+            <div class="header-top">
+                <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.32in; width:auto;" />
             </div>
-
-            <div class="legend-panel">
-                <div class="legend-title">Legend</div>
-
-                <div class="legend-item">
-                    <div class="legend-color" style="background: #FFD700; border: 2px solid #B8860B;"></div>
-                    <span class="legend-label">Target Parcel</span>
-                </div>
-
-                <div class="legend-item">
-                    <div class="legend-color" style="background: rgba(220, 20, 60, 0.6); border: 1px solid #DC143C;"></div>
-                    <span class="legend-label">High Influence</span>
-                </div>
-
-                <div class="legend-item">
-                    <div class="legend-color" style="background: rgba(255, 165, 0, 0.6); border: 1px solid #FFA500;"></div>
-                    <span class="legend-label">Medium Influence</span>
-                </div>
-
-                <div class="legend-item">
-                    <div class="legend-color" style="background: rgba(70, 130, 180, 0.5); border: 1px solid #4682B4;"></div>
-                    <span class="legend-label">Other Parcels</span>
-                </div>
-
-                <div style="margin-top: 0.15in; padding-top: 0.1in; border-top: 1px solid #E2E8F0;">
-                    <div class="legend-title" style="font-size: 9pt; margin-bottom: 0.1in;">Stance</div>
-
-                    <div class="legend-item">
-                        <div class="legend-color" style="background: rgba(34, 139, 34, 0.6); border: 1px solid #228B22;"></div>
-                        <span class="legend-label">Support</span>
-                    </div>
-
-                    <div class="legend-item">
-                        <div class="legend-color" style="background: rgba(178, 34, 34, 0.6); border: 1px solid #B22222;"></div>
-                        <span class="legend-label">Oppose</span>
-                    </div>
-                </div>
+            <div style="margin-left: 0.02in; margin-top: 25px;">
+                <span class="section-title">Parcel Overview</span>
+                <span class="location-info">Lincoln County, WY &bull; 41.933732, -111.01683</span>
             </div>
         </div>
 
-        <!-- Footer area -->
-        <div class="footer">
-            <div style="font-size: 8pt; color: #94A3B8;">Lincoln County, WY • 41.933732,-111.01683</div>
-            <div style="font-size: 8pt; color: #94A3B8;">7 parcels displayed</div>
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Left: Map + Legend -->
+            <div class="left-panel">
+                <div class="map-wrapper">
+                    <img src="7564d0ed-51d6-43f4-bf30-3942f2372fd4_map_full.png" alt="Neighbor Map" class="map-image" />
+                </div>
+
+                <!-- Horizontal Legend -->
+                <div class="legend-bar">
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #FFD700; border: 2px solid #B8860B;"></div>
+                            <span>Target</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: rgba(0, 123, 255, 0.6); border: 1px solid #007BFF;"></div>
+                            <span>High Influence</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: rgba(249, 115, 22, 0.6); border: 1px solid #F97316;"></div>
+                            <span>Medium Influence</span>
+                        </div>
+                    </div>
+                    <div class="parcel-count">3 parcels displayed</div>
+                </div>
+            </div>
+
+            <!-- Right: Reference Table -->
+            <div class="right-panel">
+                <div class="table-title">Parcel Reference</div>
+                <div class="reference-table">
+                    <table class="ref-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 24px;">#</th>
+                                <th>Name</th>
+                                <th style="width: 60px;">Influence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="marker-num-plain">T</td>
+                                <td>Target Parcel</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td class="marker-num-plain">1</td>
+                                <td>WILKES</td>
+                                <td class="influence-high">High</td>
+                            </tr>
+                            <tr>
+                                <td class="marker-num-plain">2</td>
+                                <td>BEAR LAKE WEST</td>
+                                <td class="influence-medium">Medium</td>
+                            </tr>
+                            <tr>
+                                <td class="marker-num-plain">3</td>
+                                <td>DAVIS RANCH LLC</td>
+                                <td class="influence-medium">Medium</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
     </section>
