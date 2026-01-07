@@ -1,5 +1,6 @@
 """Parcel label generation for map visualization."""
 
+import math
 from typing import Dict, Any, List, Optional, Tuple
 from dataclasses import dataclass, field
 
@@ -304,11 +305,65 @@ class LabelGenerator:
 
         return labels, legend
 
+    def _offset_overlapping_markers(
+        self, labels: List[ParcelLabel], threshold_deg: float = 0.0008
+    ) -> List[Tuple[ParcelLabel, float, float]]:
+        """
+        Detect and offset overlapping markers.
+
+        Args:
+            labels: List of ParcelLabel objects
+            threshold_deg: Distance threshold in degrees (~90 meters at mid-latitudes)
+
+        Returns:
+            List of (label, adjusted_lon, adjusted_lat) tuples
+        """
+        if not labels:
+            return []
+
+        # Start with original positions
+        positions = [(label, label.lon, label.lat) for label in labels]
+
+        # Check each pair for overlap
+        offset_amount = 0.0006  # ~67 meters at mid-latitudes
+
+        for i in range(len(positions)):
+            for j in range(i + 1, len(positions)):
+                label_i, lon_i, lat_i = positions[i]
+                label_j, lon_j, lat_j = positions[j]
+
+                # Calculate distance
+                dist = math.sqrt((lon_i - lon_j) ** 2 + (lat_i - lat_j) ** 2)
+
+                if dist < threshold_deg:
+                    # Markers overlap - offset them in opposite directions
+                    if dist > 0:
+                        # Calculate direction from j to i
+                        dx = (lon_i - lon_j) / dist
+                        dy = (lat_i - lat_j) / dist
+                    else:
+                        # Exactly same position - offset along 45 degrees
+                        dx = 0.707
+                        dy = 0.707
+
+                    # Offset marker i in direction away from j
+                    new_lon_i = lon_i + dx * offset_amount
+                    new_lat_i = lat_i + dy * offset_amount
+                    positions[i] = (label_i, new_lon_i, new_lat_i)
+
+                    # Offset marker j in opposite direction
+                    new_lon_j = lon_j - dx * offset_amount
+                    new_lat_j = lat_j - dy * offset_amount
+                    positions[j] = (label_j, new_lon_j, new_lat_j)
+
+        return positions
+
     def build_marker_overlay(self, labels: List[ParcelLabel]) -> str:
         """
         Build Mapbox marker overlay string.
 
         Uses numbered pins: pin-l-{char}+{color}({lon},{lat})
+        Automatically offsets overlapping markers.
 
         Args:
             labels: List of ParcelLabel objects
@@ -318,11 +373,14 @@ class LabelGenerator:
         """
         markers = []
 
-        for label in labels:
+        # Get adjusted positions for overlapping markers
+        adjusted_positions = self._offset_overlapping_markers(labels)
+
+        for label, lon, lat in adjusted_positions:
             # Mapbox marker format: pin-{size}-{label}+{color}({lon},{lat})
             # size: s (small), l (large)
             # label: single alphanumeric character
-            marker = f"pin-l-{label.marker_char}+{label.color}({label.lon:.6f},{label.lat:.6f})"
+            marker = f"pin-l-{label.marker_char}+{label.color}({lon:.6f},{lat:.6f})"
             markers.append(marker)
 
         return ",".join(markers)
