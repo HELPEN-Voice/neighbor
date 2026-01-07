@@ -50,6 +50,7 @@ def combine_pdfs(location=None, date=None, run_id=None):
         pdf_files = [
             "neighbor-title-page-playwright.pdf",
             "neighbor-parameters-playwright.pdf",
+            "neighbor-map-playwright.pdf",
             "neighbor-deep-dive.pdf",
         ]
 

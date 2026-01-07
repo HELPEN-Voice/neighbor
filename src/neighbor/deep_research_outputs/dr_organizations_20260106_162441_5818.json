@@ -1,0 +1,208 @@
+{
+  "timestamp": "2026-01-06T16:24:41.581892",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Lincoln County",
+    "state": "WY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring landowners include two opaque LLCs and two local ranch operations. The LLCs (G & D Properties LLC and Willis Land Wyoming LLC) appear to be land investment vehicles with anonymous ownership, possibly holding land for speculation or project rights. The other neighbors – Putnam Ranch LLP and Pope Cattle Refuge LLC – are family ranch entities with deep local roots, likely focused on preserving agricultural use of their land. These differing profiles pose mixed risks: hidden LLC owners add uncertainty, while ranching families could rally local sentiment but might be assuaged through respectful engagement and incentives.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "G & D Properties LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "23203410000200",
+        "22200130001900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "G & D Properties LLC is a Wyoming limited liability company holding land near Cokeville, with no publicly listed managers or members due to Wyoming’s privacy laws ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)). The company has no visible operations or online presence; it appears to function as a land-holding entity, in line with reports of murky ownership structures in the project area ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)). No business filings beyond its formation are readily available, and its beneficial owners remain undisclosed ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)). The firm owns multiple parcels in Lincoln County (as indicated by county records), suggesting a speculative investment in real estate near the proposed development ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Unknown owners and no known local presence; no evident political or social capital in the community",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Research state filings to identify the registered agent; reach out through that contact with a purchase or lease offer above market value, as the entity is likely profit-driven and may cooperate if the price meets its expectations"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Willis Land Wyoming LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "22200340002000",
+        "22200130002000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Willis Land Wyoming LLC is an anonymously held Wyoming LLC that owns land in the Cokeville project vicinity ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)). There is no public information on its principals or operations, and it was likely created to hold or acquire property for the solar project (or related speculation) without revealing the true buyer ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=In%20May%202023%2C%20Greenbacker%20confirmed,project%E2%80%9D%20from%20some%20unidentified%20seller)). In 2023, renewable investor Greenbacker Capital noted it had acquired the “Lincoln solar project” from an unidentified seller ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=In%20May%202023%2C%20Greenbacker%20confirmed,project%E2%80%9D%20from%20some%20unidentified%20seller)), indicating that entities like Willis Land Wyoming LLC were used to obscure ownership during project transactions. The LLC itself has made no public statements and is not known to engage in any business activity aside from land ownership, keeping its intentions opaque ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "No identifiable local stakeholders or activities; likely an out-of-state or hidden investor with no community ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Investigate the entity’s background via property and corporate records to identify the ultimate decision-maker; if it’s connected to the project developers, coordinate strategy, otherwise offer a buyout or partnership to align its financial interests with the project’s success"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Putnam Ranch LLP",
+      "entity_category": "Organization",
+      "entity_type": "llp",
+      "pins": [
+        "22200220002100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Putnam Ranch LLP is a limited liability partnership holding ranchland in Lincoln County, Wyoming ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)). The partnership’s members are not listed in public filings (Wyoming does not mandate disclosure of partners or managers in such entities) ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)), but the name suggests it represents a Putnam family ranch operation in the Cokeville area. The entity has no web presence or corporate activity beyond land ownership, indicating it functions as a family agricultural holding. There are no records of Putnam Ranch LLP participating in development debates or litigation; it appears to quietly manage its cattle ranch without public statements on the solar project ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Local ranch family with longstanding presence; respected in the agricultural community but limited political or economic power beyond their property",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Putnam family privately through a respected local intermediary; emphasize measures to protect their grazing land and livestock, and offer compensation or land buffers to address any concerns, thereby preempting opposition born of ranching impacts"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Pope Cattle Refuge LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "23202510000100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pope Cattle Refuge LLC is a Wyoming LLC formed in 2012 and closely tied to local rancher Evan Pope of Cokeville ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Evan%20Pope)). Its mailing address is in Cokeville, Wyoming, and Evan Pope is listed as the organizer and registered agent, indicating direct family ownership and management ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Evan%20Pope)). The Pope family operates a small livestock business (Evan Pope Ranch) in the area, reported to have modest revenues (~$200,000/year) and a single employee ([www.manta.com](https://www.manta.com/c/mm2wdjc/evan-pope-ranch#:~:text=About)). The LLC’s name and activities suggest a focus on cattle grazing and possibly wildlife habitat on their land, and there is no indication that it engages in any business outside of ranching; it has made no public comment regarding the proposed development.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Local ranch owner with generational ties; known in the immediate community but with limited financial resources and broader influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet one-on-one with Evan Pope to build trust and address any concerns about cattle and wildlife; offer concrete assurances (e.g. fencing, habitat protection, or grazing agreements) to mitigate project impacts, which can neutralize potential opposition from this environmentally conscious rancher"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring landowners include two opaque LLCs and two local ranch operations. The LLCs (G & D Properties LLC and Willis Land Wyoming LLC) appear to be land investment vehicles with anonymous ownership, possibly holding land for speculation or project rights. The other neighbors – Putnam Ranch LLP and Pope Cattle Refuge LLC – are family ranch entities with deep local roots, likely focused on preserving agricultural use of their land. These differing profiles pose mixed risks: hidden LLC owners add uncertainty, while ranching families could rally local sentiment but might be assuaged through respectful engagement and incentives.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"G & D Properties LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"23203410000200\", \"22200130001900\"],\n      \"claims\": \"G & D Properties LLC is a Wyoming limited liability company holding land near Cokeville, with no publicly listed managers or members due to Wyoming’s privacy laws ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)). The company has no visible operations or online presence; it appears to function as a land-holding entity, in line with reports of murky ownership structures in the project area ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)). No business filings beyond its formation are readily available, and its beneficial owners remain undisclosed ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)). The firm owns multiple parcels in Lincoln County (as indicated by county records), suggesting a speculative investment in real estate near the proposed development ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Unknown owners and no known local presence; no evident political or social capital in the community\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Sale or lease to project developers\"],\n      \"approach_recommendations\": \"Research state filings to identify the registered agent; reach out through that contact with a purchase or lease offer above market value, as the entity is likely profit-driven and may cooperate if the price meets its expectations\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Willis Land Wyoming LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"22200340002000\", \"22200130002000\"],\n      \"claims\": \"Willis Land Wyoming LLC is an anonymously held Wyoming LLC that owns land in the Cokeville project vicinity ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)). There is no public information on its principals or operations, and it was likely created to hold or acquire property for the solar project (or related speculation) without revealing the true buyer ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=In%20May%202023%2C%20Greenbacker%20confirmed,project%E2%80%9D%20from%20some%20unidentified%20seller)). In 2023, renewable investor Greenbacker Capital noted it had acquired the “Lincoln solar project” from an unidentified seller ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=In%20May%202023%2C%20Greenbacker%20confirmed,project%E2%80%9D%20from%20some%20unidentified%20seller)), indicating that entities like Willis Land Wyoming LLC were used to obscure ownership during project transactions. The LLC itself has made no public statements and is not known to engage in any business activity aside from land ownership, keeping its intentions opaque ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No identifiable local stakeholders or activities; likely an out-of-state or hidden investor with no community ties\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Resale or development profit\", \"Project investment returns\"],\n      \"approach_recommendations\": \"Investigate the entity’s background via property and corporate records to identify the ultimate decision-maker; if it’s connected to the project developers, coordinate strategy, otherwise offer a buyout or partnership to align its financial interests with the project’s success\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Putnam Ranch LLP\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llp\",\n      \"pins\": [\"22200220002100\"],\n      \"claims\": \"Putnam Ranch LLP is a limited liability partnership holding ranchland in Lincoln County, Wyoming ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)). The partnership’s members are not listed in public filings (Wyoming does not mandate disclosure of partners or managers in such entities) ([www.llcattorney.com](https://www.llcattorney.com/states/anonymous-llc-wyoming#:~:text=,personal%20addresses%20from%20public%20records)), but the name suggests it represents a Putnam family ranch operation in the Cokeville area. The entity has no web presence or corporate activity beyond land ownership, indicating it functions as a family agricultural holding. There are no records of Putnam Ranch LLP participating in development debates or litigation; it appears to quietly manage its cattle ranch without public statements on the solar project ([cowboystatedaily.com](https://cowboystatedaily.com/2024/04/21/cokeville-solar-project-stalled-by-mystery-ownership-potential-litigation/#:~:text=The%20strands%20of%20ownership%20are,messy%20and%20difficult%20to%20unravel)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local ranch family with longstanding presence; respected in the agricultural community but limited political or economic power beyond their property\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of ranching operations\", \"Protection of land value and heritage\", \"Avoiding disruptions to livestock and water resources\"],\n      \"approach_recommendations\": \"Engage the Putnam family privately through a respected local intermediary; emphasize measures to protect their grazing land and livestock, and offer compensation or land buffers to address any concerns, thereby preempting opposition born of ranching impacts\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Pope Cattle Refuge LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"23202510000100\"],\n      \"claims\": \"Pope Cattle Refuge LLC is a Wyoming LLC formed in 2012 and closely tied to local rancher Evan Pope of Cokeville ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Evan%20Pope)). Its mailing address is in Cokeville, Wyoming, and Evan Pope is listed as the organizer and registered agent, indicating direct family ownership and management ([b2bhint.com](https://b2bhint.com/en/company/us-wy/pope-shield-llc--2012-000635392#:~:text=Evan%20Pope)). The Pope family operates a small livestock business (Evan Pope Ranch) in the area, reported to have modest revenues (~$200,000/year) and a single employee ([www.manta.com](https://www.manta.com/c/mm2wdjc/evan-pope-ranch#:~:text=About)). The LLC’s name and activities suggest a focus on cattle grazing and possibly wildlife habitat on their land, and there is no indication that it engages in any business outside of ranching; it has made no public comment regarding the proposed development.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local ranch owner with generational ties; known in the immediate community but with limited financial resources and broader influence\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Grazing land preservation\", \"Wildlife habitat and environmental concerns\", \"Maintaining rural lifestyle\"],\n      \"approach_recommendations\": \"Meet one-on-one with Evan Pope to build trust and address any concerns about cattle and wildlife; offer concrete assurances (e.g. fencing, habitat protection, or grazing agreements) to mitigate project impacts, which can neutralize potential opposition from this environmentally conscious rancher\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

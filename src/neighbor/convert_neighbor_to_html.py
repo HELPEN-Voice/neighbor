@@ -233,6 +233,32 @@ def generate_neighbor_reports(data: dict):
         f"[generate_neighbor_reports] ✓ Generated neighbor-parameters-playwright.html"
     )
 
+    # ---------- Map page ----------
+    map_image_path = data.get("map_image_path")
+    map_generated = False
+    if map_image_path:
+        # Copy map image to output directory for HTML access
+        import shutil
+        map_src = Path(map_image_path)
+        if map_src.exists():
+            map_dest = OUT / map_src.name
+            shutil.copy2(map_src, map_dest)
+            map_generated = True
+            print(f"[generate_neighbor_reports] Copied map image to output directory")
+
+    map_ctx = {
+        "map_image_path": Path(map_image_path).name if map_image_path and map_generated else None,
+        "county": data.get("county"),
+        "state": data.get("state"),
+        "coordinates": data.get("coordinates", "Not provided"),
+        "parcels_shown": data.get("map_metadata", {}).get("parcels_rendered", 0) if data.get("map_metadata") else 0,
+    }
+    html = env.get_template("neighbor-map-playwright.html").render(**map_ctx)
+    (OUT / "neighbor-map-playwright.html").write_text(html, encoding="utf-8")
+    print(
+        f"[generate_neighbor_reports] ✓ Generated neighbor-map-playwright.html"
+    )
+
     # ---------- Neighbor table ----------
     # New schema: neighbor_id, name, entity_category, entity_type, pins, claims, confidence
     neighbors = []
@@ -300,6 +326,7 @@ def generate_neighbor_reports(data: dict):
     return [
         str(OUT / "neighbor-title-page-playwright.html"),
         str(OUT / "neighbor-parameters-playwright.html"),
+        str(OUT / "neighbor-map-playwright.html"),
         str(OUT / "neighbor-deep-dive.html"),
     ]
 

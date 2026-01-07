@@ -2,24 +2,25 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Jason & Tracy Thornock",
+      "name": "Jason Thornock & Tracy Thornock",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
         "23202240000900"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Jason and Tracy Thornock own a third-generation cattle and hay ranch in Cokeville, Lincoln County, Wyoming ([Inside Climate News](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/)). Jason Thornock has publicly advocated for ranch-scale solar to offset an approximately $150,000 annual electric bill, testifying to the state legislature about the benefits of net metering and criticizing the utility as a 'government-protected monopoly' ([Wyoming Public Media](https://www.wyomingpublicmedia.org/natural-resources-energy/2025-12-17/ranchers-hoping-solar-can-lower-costs-say-utilities-and-the-state-stand-in-their-way)). In 2016, the Wyoming Supreme Court affirmed a district court ruling denying the Thornocks' request for a private road across neighboring land, finding they already had adequate access via a public road ([Justia](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html)).",
+      "claims": "Jason and Tracy Thornock are third-generation ranchers in the Cokeville area of Lincoln County, Wyoming [Inside Climate News](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/). They have actively pursued on-site renewable energy, including applying for an $868,000 federal grant to build a 648-kilowatt solar array and supporting state legislation to expand net metering for ranch-scale solar systems [Inside Climate News](https://insideclimatenews.org/news/16032025/wyoming-rooftop-solar-net-metering-energy-independence/) [WyoFile](https://wyofile.com/rancher-backed-solar-power-bill-loses-glimmer-with-amendments/). Jason Thornock testified to state lawmakers that Rocky Mountain Power’s actions nearly bankrupted his ranching business, and he later lost a court battle over those utility disputes which left him paying the company’s legal fees [Inside Climate News](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/) [Justia](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html).",
       "confidence": "high",
       "noted_stance": "support",
-      "community_influence": "Medium",
-      "influence_justification": "Legislative witness; vocal energy advocate",
+      "community_influence": "High",
+      "influence_justification": "Major rancher; policy advocate",
       "approach_recommendations": {
         "motivations": [
           "local_control",
-          "tax_revenue_benefit"
+          "heritage_family_legacy",
+          "fair_contracting"
         ],
-        "engage": "Engage Jason on energy independence. Acknowledge his legislative testimony regarding net metering and emphasize how this project aligns with his goal of reducing utility monopoly control and lowering agricultural operating costs."
+        "engage": "Engage through a respected fellow rancher or trusted community leader. Emphasize how the project can help sustain their family ranch for future generations while allowing local input and control, aligning with their values of independence and legacy."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -36,83 +37,34 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Own a third-generation cattle and hay ranch in Cokeville, Lincoln County, Wyoming",
+          "claim": "Jason and Tracy Thornock are third-generation ranchers in the Cokeville area of Lincoln County, Wyoming",
           "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
           "title": "Wyoming Ranchers Hoping Solar Can Lower Costs Say Utilities and the State Stand in Their Way",
-          "date": "2025-12-14",
-          "note": null
+          "date": "2025-12-14"
         },
         {
-          "claim": "Advocated for ranch-scale solar to offset $150,000 bill and criticized utility monopoly",
-          "url": "https://www.wyomingpublicmedia.org/natural-resources-energy/2025-12-17/ranchers-hoping-solar-can-lower-costs-say-utilities-and-the-state-stand-in-their-way",
-          "title": "Ranchers hoping solar can lower costs say utilities and the state stand in their way",
-          "date": "2025-12-17",
-          "note": null
+          "claim": "They have actively pursued on-site renewable energy, including applying for an $868,000 federal grant to build a 648-kilowatt solar array",
+          "url": "https://insideclimatenews.org/news/16032025/wyoming-rooftop-solar-net-metering-energy-independence/",
+          "title": "Wyoming Rooftop Solar Net Metering Energy Independence",
+          "date": "2025-03-16"
         },
         {
-          "claim": "Wyoming Supreme Court affirmed denial of private road request in 2016",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0273.html",
-          "title": "Thornock v. Esterholdt, 2016 WY 129",
-          "date": "2016-12-29",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Justin & Jamie Mckinnon",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "23202510002100"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Justin and Jamie Mckinnon operate McKinnon Livestock, a cattle ranch business based in Cokeville, Wyoming ([Buzzfile](https://www.buzzfile.com/business/McKinnon-Livestock-307-279-2177)). Justin Mckinnon serves as the Vice President of the Cokeville Stock and Saddle Club, a key local organization that manages the annual rodeo ([Cokeville Rodeo](https://www.cokevillerodeo.com/)). USDA records indicate that Justin Mckinnon received approximately $228,600 in federal farm subsidies from 1995 to 2024, reflecting the family’s active ranch operations ([EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?z=1&zip=83114&page=0)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Vice President of Cokeville Stock and Saddle Club",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "local_control"
-        ],
-        "engage": "Connect via his leadership role in the Stock and Saddle Club. Emphasize respect for ranching traditions and how the project supports the local agricultural economy without interfering with livestock operations or rodeo events."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Operate McKinnon Livestock in Cokeville",
-          "url": "https://www.buzzfile.com/business/McKinnon-Livestock-307-279-2177",
-          "title": "McKinnon Livestock Overview",
-          "date": "2026-01-05",
-          "note": null
+          "claim": "supporting state legislation to expand net metering for ranch-scale solar systems",
+          "url": "https://wyofile.com/rancher-backed-solar-power-bill-loses-glimmer-with-amendments/",
+          "title": "Rancher-backed solar power bill loses glimmer with amendments",
+          "date": "2025-02-24"
         },
         {
-          "claim": "Serves as Vice President of the Cokeville Stock and Saddle Club",
-          "url": "https://www.cokevillerodeo.com/",
-          "title": "Cokeville Rodeo - Meet Our Team",
-          "date": "2025-07-19",
-          "note": null
+          "claim": "Jason Thornock testified to state lawmakers that Rocky Mountain Power’s actions nearly bankrupted his ranching business",
+          "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
+          "title": "Wyoming Ranchers Hoping Solar Can Lower Costs Say Utilities and the State Stand in Their Way",
+          "date": "2025-12-14"
         },
         {
-          "claim": "Received approximately $228,600 in federal farm subsidies 1995-2024",
-          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=83114&page=0",
-          "title": "EWG Farm Subsidy Database Search Results",
-          "date": "2024-12-31",
-          "note": null
+          "claim": "he later lost a court battle over those utility disputes which left him paying the company’s legal fees",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html",
+          "title": "Thornock v. PacifiCorp, 2016 WY 93",
+          "date": "2016-09-13"
         }
       ]
     },
@@ -125,17 +77,20 @@
         "23203410000200",
         "22200130001900"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "G & D Properties LLC is a Wyoming limited liability company active since 2008 [Wyoming Secretary of State](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053). The entity's principal address is in Cokeville, WY, and its registered agent is Shawn Thornock [Wyoming Secretary of State](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053). The Thornock family is a long-standing local family in Cokeville; the previous registered agent, Gordon Thornock (deceased 2020), was a Cokeville School Board member and rodeo committee member [Matthews Mortuary](https://www.matthewsmortuaryidaho.com/obituary/Gordon-Thornock).",
+      "owns_adjacent_parcel": "No",
+      "claims": "G & D Properties LLC is a Wyoming limited liability company registered to Shawn Thornock, with a principal address in Cokeville, Wyoming ([wyobiz.wyo.gov](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053)). The entity appears to be a land-holding vehicle for the Thornock family, a long-standing local ranching family in Lincoln County ([insideclimatenews.org](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/)). Unlike reports suggesting anonymous speculative ownership, state filings identify Shawn Thornock as the registered agent ([wyobiz.wyo.gov](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053)). Family member Jason Thornock has publicly expressed support for solar development as a means to sustain the ranching operation amid high electricity costs, stating that he wants \"the sun to help them survive\" ([insideclimatenews.org](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/)). The Thornock Ranch actively seeks agricultural workers for cattle and hay operations ([ranchworldads.com](https://www.ranchworldads.com/classified.php?listing=41301)), confirming its status as an active agricultural entity rather than a passive speculative investment.",
       "confidence": "high",
-      "noted_stance": "unknown",
+      "noted_stance": "support",
       "community_influence": "Medium",
-      "influence_justification": "Principals are members of the established Thornock family in Cokeville; Gordon Thornock held significant community roles (School Board, Rodeo Committee).",
+      "influence_justification": "Established local ranching family (Thornock Ranch) with active operations and public voice on energy issues.",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage via Shawn Thornock (Registered Agent) at the Cokeville address. Acknowledge the family's long-standing community ties."
+        "motivations": [
+          "Revenue diversification",
+          "Operational sustainability"
+        ],
+        "engage": "Approach the Thornock family (Shawn or Jason) directly; acknowledge their public interest in solar revenue to offset ranching costs and propose a partnership that integrates well with their cattle and hay operations."
       },
-      "entity_classification": "land_investment",
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -150,25 +105,22 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "G & D Properties LLC is a Wyoming limited liability company active since 2008",
+          "claim": "Registered to Shawn Thornock with principal address in Cokeville",
           "url": "https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053",
-          "title": "Wyoming Secretary of State Filing Details",
-          "date": "2026-01-05",
-          "note": null
+          "title": "Wyoming Secretary of State Filing: G & D Properties, LLC",
+          "date": "2025-10-14"
         },
         {
-          "claim": "The entity's principal address is in Cokeville, WY, and its registered agent is Shawn Thornock",
-          "url": "https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053",
-          "title": "Wyoming Secretary of State Filing Details",
-          "date": "2026-01-05",
-          "note": null
+          "claim": "Jason Thornock expressed support for solar to help the ranch survive",
+          "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
+          "title": "Cokeville Wyoming Ranch Scale Solar",
+          "date": "2025-12-14"
         },
         {
-          "claim": "Gordon Thornock (deceased 2020), was a Cokeville School Board member and rodeo committee member",
-          "url": "https://www.matthewsmortuaryidaho.com/obituary/Gordon-Thornock",
-          "title": "Obituary for Gordon Thornock",
-          "date": "2020-10-23",
-          "note": null
+          "claim": "Thornock Ranch actively seeks agricultural workers",
+          "url": "https://www.ranchworldads.com/classified.php?listing=41301",
+          "title": "Ranch World Ads: Thornock Ranch",
+          "date": "2015-01-12"
         }
       ]
     },
@@ -182,14 +134,17 @@
         "22200130002000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Willis Land Wyoming LLC is a Wyoming LLC with a registered office in Cokeville, WY [Wyoming Secretary of State](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253). The registered agent is Jordon Willis, located in Cokeville, contradicting earlier assumptions of out-of-town ownership [Wyoming Secretary of State](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253). The Willis family is active in local agriculture, with related entities receiving agricultural subsidies in the area [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?z=1&zip=83114&page=0).",
+      "claims": "Willis Land Wyoming LLC is a Wyoming limited liability company registered to Jordon Willis of Cokeville, Wyoming ([wyobiz.wyo.gov](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253)). Contrary to reports of mystery ownership, the entity is the land-holding arm of the Willis Ranch, a multi-generational family operation established in the area since the late 1960s ([westernagcredit.com](https://www.westernagcredit.com/files/fencelines/pdfs/Spring_2018.pdf)). The ranch is operated by Linda Willis and her sons James, Jed, and Jordon, running approximately 1,800 head of cattle and farming malt barley and hay ([westernagcredit.com](https://www.westernagcredit.com/files/fencelines/pdfs/Spring_2018.pdf)). The family utilizes precision agriculture technology to manage crop damage and improve yields ([stotzequipment.com](https://www.stotzequipment.com/news/sustainability/sustainability-willis-ranch/)). While the entity holds land in the project vicinity, it is a functional agricultural business rather than a shell company for speculative investment.",
       "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Local ownership confirmed (Jordon Willis, Cokeville); family has established agricultural presence in the area.",
+      "influence_justification": "Prominent local ranching family with deep historical ties (BQ Ranch roots) and significant agricultural operations.",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage Jordon Willis directly in Cokeville. The entity is locally controlled, not an absentee investor."
+        "motivations": [
+          "Agricultural productivity",
+          "Family legacy"
+        ],
+        "engage": "Contact Jordon Willis directly; respect the family's long-standing stewardship of the land. Frame any proposals as complementary to their advanced agricultural practices and cattle operations rather than a buyout."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -206,46 +161,45 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Willis Land Wyoming LLC is a Wyoming LLC with a registered office in Cokeville, WY",
+          "claim": "Registered to Jordon Willis of Cokeville",
           "url": "https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253",
-          "title": "Wyoming Secretary of State Filing Details",
-          "date": "2026-01-05",
-          "note": null
+          "title": "Wyoming Secretary of State Filing: Willis Land Wyoming, LLC",
+          "date": "2025-01-31"
         },
         {
-          "claim": "The registered agent is Jordon Willis, located in Cokeville",
-          "url": "https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253",
-          "title": "Wyoming Secretary of State Filing Details",
-          "date": "2026-01-05",
-          "note": null
+          "claim": "Multi-generational family operation running 1,800 head of cattle",
+          "url": "https://www.westernagcredit.com/files/fencelines/pdfs/Spring_2018.pdf",
+          "title": "Western AgCredit FenceLines: Willis Ranch",
+          "date": "2018-05-03"
         },
         {
-          "claim": "related entities receiving agricultural subsidies in the area",
-          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=83114&page=0",
-          "title": "EWG Farm Subsidy Database Search Results 83114",
-          "date": "2026-01-05",
-          "note": null
+          "claim": "Utilizes precision agriculture technology",
+          "url": "https://www.stotzequipment.com/news/sustainability/sustainability-willis-ranch/",
+          "title": "Stotz Equipment: Sustainability at Willis Ranch",
+          "date": "2023-04-05"
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Putnam Ranch, LLP",
+      "name": "Putnam Ranch LLP",
       "entity_category": "Organization",
       "entity_type": "llp",
       "pins": [
-        "22200220002100",
-        "44-28-000-0001"
+        "22200220002100"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Putnam Ranch, LLP is a Utah registered limited liability partnership that holds ranch land in Lincoln County [Lincoln County Records](http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty). The entity is managed by trustees Keith L. Putnam and Erma N. Putnam [Lincoln County Records](http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty). The Putnam family has significant water rights and agricultural operations in the neighboring Rich County, UT area [Utah Division of Water Rights](https://www.waterrights.utah.gov/canalinfo/canal_owners.asp).",
+      "claims": "Putnam Ranch LLP is a Utah-based limited liability partnership with a primary address in Randolph, Utah ([waterrights.utah.gov](https://www.waterrights.utah.gov/canalinfo/canal_owners.asp)). Public records identify Keith L. Putnam and Erma N. Putnam as trustees associated with the partnership ([weblink.lcwy.org](http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty)). The entity holds significant agricultural interests, being a top recipient of Conservation Reserve Program (CRP) payments in Rich County, Utah ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=49033&progcode=total_cr&regionname=RichCounty,Utah)). Mortgage documents confirm the partnership owns land along the Cokeville-Utah line, indicating a cross-border ranching operation ([weblink.lcwy.org](http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty)).",
       "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Established ranching family with significant land and water holdings across the WY/UT border; Keith Putnam has served in public roles in neighboring Rich County.",
+      "influence_justification": "Large regional landholder with significant participation in federal conservation programs and cross-border property ownership.",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage the Putnam family directly; acknowledge their cross-border ranching operations and water rights interests."
+        "motivations": [
+          "Land conservation",
+          "Agricultural income"
+        ],
+        "engage": "Reach out to Keith L. Putnam via the Randolph, UT address. Given their heavy involvement in the Conservation Reserve Program, emphasize the project's land stewardship and soil conservation benefits."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -262,25 +216,22 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Putnam Ranch, LLP is a Utah registered limited liability partnership that holds ranch land in Lincoln County",
-          "url": "http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty",
-          "title": "Lincoln County Clerk Records - Assignment of Mortgage",
-          "date": "2013-11-22",
-          "note": null
-        },
-        {
-          "claim": "The entity is managed by trustees Keith L. Putnam and Erma N. Putnam",
-          "url": "http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty",
-          "title": "Lincoln County Clerk Records - Assignment of Mortgage",
-          "date": "2013-11-22",
-          "note": null
-        },
-        {
-          "claim": "The Putnam family has significant water rights and agricultural operations in the neighboring Rich County, UT area",
+          "claim": "Primary address in Randolph, Utah",
           "url": "https://www.waterrights.utah.gov/canalinfo/canal_owners.asp",
-          "title": "Utah Division of Water Rights - Canal Owners",
-          "date": "2026-01-05",
-          "note": null
+          "title": "Utah Division of Water Rights: Canal Owners",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Keith L. Putnam and Erma N. Putnam identified as trustees",
+          "url": "http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty",
+          "title": "Lincoln County Clerk Records: Mortgage Document",
+          "date": "2013-11-22"
+        },
+        {
+          "claim": "Top recipient of Conservation Reserve Program payments",
+          "url": "https://farm.ewg.org/top_recips.php?fips=49033&progcode=total_cr&regionname=RichCounty,Utah",
+          "title": "EWG Farm Subsidy Database: Rich County, Utah",
+          "date": "2024-01-01"
         }
       ]
     },
@@ -293,14 +244,17 @@
         "23202510000100"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Pope Cattle Refuge LLC is a Wyoming LLC formed in 2013 by Evan H. and Dotty Jo Pope of Cokeville [Lincoln County Records](https://weblink.lcwy.org/WebLink/DocView.aspx?id=281734&dbid=0&repo=LincolnCounty). The Pope family is deeply embedded in the local community; Shane Pope serves as the Cokeville Public Works Director [Town of Cokeville](https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_62983/File/City%20Manager's%20Office/Info%20Packets/01%2001.08.21%20IP%20packet%20(R).pdf). Shane Pope has previously attended meetings with Rocky Mountain Power regarding solar development in the region [Lincoln County Economic Development Board](https://cms5.revize.com/revize/lincoln/Document_center/Agenda%20&%20Minutes/Economic%20Development/2019/Minutes/3.4.19%20ED%20Minutes.pdf).",
+      "claims": "Pope Cattle Refuge LLC is a Wyoming limited liability company managed by Evan H. Pope and Dotty Jo Pope, who transferred land to the entity in 2013 ([weblink.lcwy.org](https://weblink.lcwy.org/WebLink/DocView.aspx?id=281734&dbid=0&repo=LincolnCounty)). Evan Pope is a local landowner who actively collaborates with the U.S. Fish and Wildlife Service, allowing access to his property for secretive marsh bird surveys ([downloads.regulations.gov](https://downloads.regulations.gov/FWS-R8-ES-2023-0146-0002/attachment_9.pdf)). This cooperation with federal conservation efforts suggests a focus on land stewardship and wildlife habitat. The entity appears to be a family-run agricultural operation with no documented public stance on the specific solar development.",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Multi-generation ranching family with direct municipal leadership role (Shane Pope is Public Works Director).",
+      "community_influence": "Medium",
+      "influence_justification": "Local rancher with documented ties to federal wildlife conservation programs (USFWS collaboration).",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage via Shane Pope given his municipal role and prior attendance at renewable energy meetings; emphasize coexistence with ranching operations."
+        "motivations": [
+          "Wildlife conservation",
+          "Land stewardship"
+        ],
+        "engage": "Engage Evan Pope by highlighting the project's environmental compatibility and potential for wildlife-friendly design. His history of cooperation with USFWS suggests he may be receptive to conservation-focused development strategies."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -317,47 +271,578 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Pope Cattle Refuge LLC is a Wyoming LLC formed in 2013 by Evan H. and Dotty Jo Pope of Cokeville",
+          "claim": "Managed by Evan H. Pope and Dotty Jo Pope",
           "url": "https://weblink.lcwy.org/WebLink/DocView.aspx?id=281734&dbid=0&repo=LincolnCounty",
-          "title": "Lincoln County Clerk Records - Quitclaim Deed",
-          "date": "2013-01-04",
-          "note": null
+          "title": "Lincoln County Clerk Records: Quitclaim Deed",
+          "date": "2013-01-04"
         },
         {
-          "claim": "Shane Pope serves as the Cokeville Public Works Director",
-          "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_62983/File/City%20Manager's%20Office/Info%20Packets/01%2001.08.21%20IP%20packet%20(R).pdf",
-          "title": "Casper City Manager's Office Info Packet (citing WAM Directory)",
-          "date": "2021-01-08",
-          "note": null
+          "claim": "Collaborates with U.S. Fish and Wildlife Service for bird surveys",
+          "url": "https://downloads.regulations.gov/FWS-R8-ES-2023-0146-0002/attachment_9.pdf",
+          "title": "USFWS Secretive Marsh Bird Survey Report",
+          "date": "2020-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Jason Thornock & Tracy Thornock",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23202240000900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason and Tracy Thornock are third-generation ranchers in the Cokeville area of Lincoln County, Wyoming [Inside Climate News](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/). They have actively pursued on-site renewable energy, including applying for an $868,000 federal grant to build a 648-kilowatt solar array and supporting state legislation to expand net metering for ranch-scale solar systems [Inside Climate News](https://insideclimatenews.org/news/16032025/wyoming-rooftop-solar-net-metering-energy-independence/) [WyoFile](https://wyofile.com/rancher-backed-solar-power-bill-loses-glimmer-with-amendments/). Jason Thornock testified to state lawmakers that Rocky Mountain Power’s actions nearly bankrupted his ranching business, and he later lost a court battle over those utility disputes which left him paying the company’s legal fees [Inside Climate News](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/) [Justia](https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major rancher; policy advocate",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "heritage_family_legacy",
+          "fair_contracting"
+        ],
+        "engage": "Engage through a respected fellow rancher or trusted community leader. Emphasize how the project can help sustain their family ranch for future generations while allowing local input and control, aligning with their values of independence and legacy."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jason and Tracy Thornock are third-generation ranchers in the Cokeville area of Lincoln County, Wyoming",
+          "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
+          "title": "Wyoming Ranchers Hoping Solar Can Lower Costs Say Utilities and the State Stand in Their Way",
+          "date": "2025-12-14"
         },
         {
-          "claim": "Shane Pope has previously attended meetings with Rocky Mountain Power regarding solar development in the region",
-          "url": "https://cms5.revize.com/revize/lincoln/Document_center/Agenda%20&%20Minutes/Economic%20Development/2019/Minutes/3.4.19%20ED%20Minutes.pdf",
-          "title": "Lincoln County Economic Development Board Minutes",
-          "date": "2019-03-04",
-          "note": null
+          "claim": "They have actively pursued on-site renewable energy, including applying for an $868,000 federal grant to build a 648-kilowatt solar array",
+          "url": "https://insideclimatenews.org/news/16032025/wyoming-rooftop-solar-net-metering-energy-independence/",
+          "title": "Wyoming Rooftop Solar Net Metering Energy Independence",
+          "date": "2025-03-16"
+        },
+        {
+          "claim": "supporting state legislation to expand net metering for ranch-scale solar systems",
+          "url": "https://wyofile.com/rancher-backed-solar-power-bill-loses-glimmer-with-amendments/",
+          "title": "Rancher-backed solar power bill loses glimmer with amendments",
+          "date": "2025-02-24"
+        },
+        {
+          "claim": "Jason Thornock testified to state lawmakers that Rocky Mountain Power’s actions nearly bankrupted his ranching business",
+          "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
+          "title": "Wyoming Ranchers Hoping Solar Can Lower Costs Say Utilities and the State Stand in Their Way",
+          "date": "2025-12-14"
+        },
+        {
+          "claim": "he later lost a court battle over those utility disputes which left him paying the company’s legal fees",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2016/s-15-0108.html",
+          "title": "Thornock v. PacifiCorp, 2016 WY 93",
+          "date": "2016-09-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "G & D Properties LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "23203410000200",
+        "22200130001900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "G & D Properties LLC is a Wyoming limited liability company registered to Shawn Thornock, with a principal address in Cokeville, Wyoming ([wyobiz.wyo.gov](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053)). The entity appears to be a land-holding vehicle for the Thornock family, a long-standing local ranching family in Lincoln County ([insideclimatenews.org](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/)). Unlike reports suggesting anonymous speculative ownership, state filings identify Shawn Thornock as the registered agent ([wyobiz.wyo.gov](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053)). Family member Jason Thornock has publicly expressed support for solar development as a means to sustain the ranching operation amid high electricity costs, stating that he wants \"the sun to help them survive\" ([insideclimatenews.org](https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/)). The Thornock Ranch actively seeks agricultural workers for cattle and hay operations ([ranchworldads.com](https://www.ranchworldads.com/classified.php?listing=41301)), confirming its status as an active agricultural entity rather than a passive speculative investment.",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Established local ranching family (Thornock Ranch) with active operations and public voice on energy issues.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue diversification",
+          "Operational sustainability"
+        ],
+        "engage": "Approach the Thornock family (Shawn or Jason) directly; acknowledge their public interest in solar revenue to offset ranching costs and propose a partnership that integrates well with their cattle and hay operations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Registered to Shawn Thornock with principal address in Cokeville",
+          "url": "https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=241127022122024208155055022090029049015163105053",
+          "title": "Wyoming Secretary of State Filing: G & D Properties, LLC",
+          "date": "2025-10-14"
+        },
+        {
+          "claim": "Jason Thornock expressed support for solar to help the ranch survive",
+          "url": "https://insideclimatenews.org/news/14122025/cokeville-wyoming-ranch-scale-solar/",
+          "title": "Cokeville Wyoming Ranch Scale Solar",
+          "date": "2025-12-14"
+        },
+        {
+          "claim": "Thornock Ranch actively seeks agricultural workers",
+          "url": "https://www.ranchworldads.com/classified.php?listing=41301",
+          "title": "Ranch World Ads: Thornock Ranch",
+          "date": "2015-01-12"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Willis Land Wyoming LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "22200340002000",
+        "22200130002000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Willis Land Wyoming LLC is a Wyoming limited liability company registered to Jordon Willis of Cokeville, Wyoming ([wyobiz.wyo.gov](https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253)). Contrary to reports of mystery ownership, the entity is the land-holding arm of the Willis Ranch, a multi-generational family operation established in the area since the late 1960s ([westernagcredit.com](https://www.westernagcredit.com/files/fencelines/pdfs/Spring_2018.pdf)). The ranch is operated by Linda Willis and her sons James, Jed, and Jordon, running approximately 1,800 head of cattle and farming malt barley and hay ([westernagcredit.com](https://www.westernagcredit.com/files/fencelines/pdfs/Spring_2018.pdf)). The family utilizes precision agriculture technology to manage crop damage and improve yields ([stotzequipment.com](https://www.stotzequipment.com/news/sustainability/sustainability-willis-ranch/)). While the entity holds land in the project vicinity, it is a functional agricultural business rather than a shell company for speculative investment.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Prominent local ranching family with deep historical ties (BQ Ranch roots) and significant agricultural operations.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural productivity",
+          "Family legacy"
+        ],
+        "engage": "Contact Jordon Willis directly; respect the family's long-standing stewardship of the land. Frame any proposals as complementary to their advanced agricultural practices and cattle operations rather than a buyout."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Registered to Jordon Willis of Cokeville",
+          "url": "https://wyobiz.wyo.gov/Business/FilingDetails.aspx?eFNum=032001058118174029224198032113143179231183021253",
+          "title": "Wyoming Secretary of State Filing: Willis Land Wyoming, LLC",
+          "date": "2025-01-31"
+        },
+        {
+          "claim": "Multi-generational family operation running 1,800 head of cattle",
+          "url": "https://www.westernagcredit.com/files/fencelines/pdfs/Spring_2018.pdf",
+          "title": "Western AgCredit FenceLines: Willis Ranch",
+          "date": "2018-05-03"
+        },
+        {
+          "claim": "Utilizes precision agriculture technology",
+          "url": "https://www.stotzequipment.com/news/sustainability/sustainability-willis-ranch/",
+          "title": "Stotz Equipment: Sustainability at Willis Ranch",
+          "date": "2023-04-05"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Putnam Ranch LLP",
+      "entity_category": "Organization",
+      "entity_type": "llp",
+      "pins": [
+        "22200220002100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Putnam Ranch LLP is a Utah-based limited liability partnership with a primary address in Randolph, Utah ([waterrights.utah.gov](https://www.waterrights.utah.gov/canalinfo/canal_owners.asp)). Public records identify Keith L. Putnam and Erma N. Putnam as trustees associated with the partnership ([weblink.lcwy.org](http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty)). The entity holds significant agricultural interests, being a top recipient of Conservation Reserve Program (CRP) payments in Rich County, Utah ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=49033&progcode=total_cr&regionname=RichCounty,Utah)). Mortgage documents confirm the partnership owns land along the Cokeville-Utah line, indicating a cross-border ranching operation ([weblink.lcwy.org](http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Large regional landholder with significant participation in federal conservation programs and cross-border property ownership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Land conservation",
+          "Agricultural income"
+        ],
+        "engage": "Reach out to Keith L. Putnam via the Randolph, UT address. Given their heavy involvement in the Conservation Reserve Program, emphasize the project's land stewardship and soil conservation benefits."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Primary address in Randolph, Utah",
+          "url": "https://www.waterrights.utah.gov/canalinfo/canal_owners.asp",
+          "title": "Utah Division of Water Rights: Canal Owners",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Keith L. Putnam and Erma N. Putnam identified as trustees",
+          "url": "http://weblink.lcwy.org/WebLink/DocView.aspx?id=302065&dbid=0&repo=LincolnCounty",
+          "title": "Lincoln County Clerk Records: Mortgage Document",
+          "date": "2013-11-22"
+        },
+        {
+          "claim": "Top recipient of Conservation Reserve Program payments",
+          "url": "https://farm.ewg.org/top_recips.php?fips=49033&progcode=total_cr&regionname=RichCounty,Utah",
+          "title": "EWG Farm Subsidy Database: Rich County, Utah",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Pope Cattle Refuge LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "23202510000100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pope Cattle Refuge LLC is a Wyoming limited liability company managed by Evan H. Pope and Dotty Jo Pope, who transferred land to the entity in 2013 ([weblink.lcwy.org](https://weblink.lcwy.org/WebLink/DocView.aspx?id=281734&dbid=0&repo=LincolnCounty)). Evan Pope is a local landowner who actively collaborates with the U.S. Fish and Wildlife Service, allowing access to his property for secretive marsh bird surveys ([downloads.regulations.gov](https://downloads.regulations.gov/FWS-R8-ES-2023-0146-0002/attachment_9.pdf)). This cooperation with federal conservation efforts suggests a focus on land stewardship and wildlife habitat. The entity appears to be a family-run agricultural operation with no documented public stance on the specific solar development.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local rancher with documented ties to federal wildlife conservation programs (USFWS collaboration).",
+      "approach_recommendations": {
+        "motivations": [
+          "Wildlife conservation",
+          "Land stewardship"
+        ],
+        "engage": "Engage Evan Pope by highlighting the project's environmental compatibility and potential for wildlife-friendly design. His history of cooperation with USFWS suggests he may be receptive to conservation-focused development strategies."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Managed by Evan H. Pope and Dotty Jo Pope",
+          "url": "https://weblink.lcwy.org/WebLink/DocView.aspx?id=281734&dbid=0&repo=LincolnCounty",
+          "title": "Lincoln County Clerk Records: Quitclaim Deed",
+          "date": "2013-01-04"
+        },
+        {
+          "claim": "Collaborates with U.S. Fish and Wildlife Service for bird surveys",
+          "url": "https://downloads.regulations.gov/FWS-R8-ES-2023-0146-0002/attachment_9.pdf",
+          "title": "USFWS Secretive Marsh Bird Survey Report",
+          "date": "2020-01-01"
         }
       ]
     }
   ],
   "location_context": "Neighbors within 0.5 mi of 41.933732,-111.01683",
-  "overview_summary": "Of the three profiled neighbors, one has openly supported renewable energy development, while the other two have no documented stance. None of these landowners hold public office or formal power in the community, and there are no high-influence neighbors identified among them. The neighboring landowners are primarily private ranching and landholding entities with limited public information, indicating they are not large corporations. Two appear to be family-run ranch operations (one a limited partnership and another an LLC by a local ranch family), while the other two are LLCs likely formed for land investment with minimal community ties. None is a major business employer, but the longstanding ranch families among them may carry influence in local circles and could be cautious about new development near their lands.",
+  "overview_summary": "The sole profiled neighbor has shown support for renewable energy on their ranch and holds a strong standing in the community. This individual is a high-influence member of the area as a multi-generational rancher engaged in local and state-level issues. The neighboring landowners include two opaque LLCs and two local ranch operations. The LLCs (G & D Properties LLC and Willis Land Wyoming LLC) appear to be land investment vehicles with anonymous ownership, possibly holding land for speculation or project rights. The other neighbors – Putnam Ranch LLP and Pope Cattle Refuge LLC – are family ranch entities with deep local roots, likely focused on preserving agricultural use of their land. These differing profiles pose mixed risks: hidden LLC owners add uncertainty, while ranching families could rally local sentiment but might be assuaged through respectful engagement and incentives.",
   "success": true,
-  "runtime_minutes": 36.97,
+  "runtime_minutes": 23.63,
   "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
     {
       "title": null,
       "url": null
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260105_133941_1518.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260105_135511_4119.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260105_133941_1518.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260105_135511_4119.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260106_161609_1724.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260106_162441_5818.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260106_161609_1724.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260106_162441_5818.json"
   ],
   "city": null,
   "county": "Lincoln County",
   "state": "WY",
-  "run_id": "18aa7feb-5dfa-4fe8-b6a9-c98b9c09fca1"
+  "run_id": "7564d0ed-51d6-43f4-bf30-3942f2372fd4",
+  "target_pin": "23202240000900",
+  "target_parcel_info": {
+    "pin": "23202240000900",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -111.004524,
+            41.936956
+          ],
+          [
+            -111.004916,
+            41.9369575
+          ],
+          [
+            -111.0223925,
+            41.937032
+          ],
+          [
+            -111.022474,
+            41.9298665
+          ],
+          [
+            -111.0104515,
+            41.9298125
+          ],
+          [
+            -111.0104055,
+            41.92987
+          ],
+          [
+            -111.008647,
+            41.9320845
+          ],
+          [
+            -111.00681,
+            41.9338265
+          ],
+          [
+            -111.0063875,
+            41.934224
+          ],
+          [
+            -111.0061855,
+            41.934416
+          ],
+          [
+            -111.005622,
+            41.9350745
+          ],
+          [
+            -111.004524,
+            41.936956
+          ]
+        ]
+      ]
+    },
+    "lat": "41.933664",
+    "lon": "-111.014774",
+    "county_path": "/us/wy/lincoln/kemmerer-west"
+  },
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/7564d0ed-51d6-43f4-bf30-3942f2372fd4_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/7564d0ed-51d6-43f4-bf30-3942f2372fd4_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #228B22; font-weight: bold;\">1</td>\n                <td class=\"name\">G & D Properties LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #228B22; font-weight: bold;\">2</td>\n                <td class=\"name\">G & D Properties LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #228B22; font-weight: bold;\">3</td>\n                <td class=\"name\">G & D Properties LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Willis Land Wyoming LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Willis Land Wyoming LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Putnam Ranch LLP</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Pope Cattle Refuge LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_labels": [
+    {
+      "text": "TARGET",
+      "full_name": "PIN: 23202240000900",
+      "lon": -111.00944495833333,
+      "lat": 41.933923,
+      "marker_char": "t",
+      "color": "FFD700",
+      "is_target": true,
+      "is_adjacent": false,
+      "influence": null,
+      "stance": null,
+      "pin": "23202240000900"
+    },
+    {
+      "text": "G",
+      "full_name": "G & D Properties LLC",
+      "lon": -111.00944495833333,
+      "lat": 41.933923,
+      "marker_char": "1",
+      "color": "228B22",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "support",
+      "pin": "23202240000900"
+    },
+    {
+      "text": "G",
+      "full_name": "G & D Properties LLC",
+      "lon": -111.01671385714285,
+      "lat": 41.92572685714286,
+      "marker_char": "2",
+      "color": "228B22",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "support",
+      "pin": "23203410000200"
+    },
+    {
+      "text": "G",
+      "full_name": "G & D Properties LLC",
+      "lon": -110.99940039534884,
+      "lat": 41.91335998837209,
+      "marker_char": "3",
+      "color": "228B22",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "support",
+      "pin": "22200130001900"
+    },
+    {
+      "text": "WILLIS",
+      "full_name": "Willis Land Wyoming LLC",
+      "lon": -111.01440296666667,
+      "lat": 41.91846483333333,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "22200340002000"
+    },
+    {
+      "text": "WILLIS",
+      "full_name": "Willis Land Wyoming LLC",
+      "lon": -110.9997183125,
+      "lat": 41.913834550000004,
+      "marker_char": "5",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "22200130002000"
+    },
+    {
+      "text": "PUTNAM",
+      "full_name": "Putnam Ranch LLP",
+      "lon": -111.0192404375,
+      "lat": 41.921342062499996,
+      "marker_char": "6",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "22200220002100"
+    },
+    {
+      "text": "POPE",
+      "full_name": "Pope Cattle Refuge LLC",
+      "lon": -110.988486025,
+      "lat": 41.93760375,
+      "marker_char": "7",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "23202510000100"
+    }
+  ],
+  "map_metadata": {
+    "run_id": "7564d0ed-51d6-43f4-bf30-3942f2372fd4",
+    "generated_at": "2026-01-06T17:33:57.112218",
+    "stats": {
+      "total_neighbors": 10,
+      "highlighted": 10,
+      "skipped_no_geometry": 0,
+      "skipped_not_highlighted": 0,
+      "by_influence": {
+        "High": 2,
+        "Medium": 8,
+        "Low": 0
+      },
+      "by_stance": {
+        "support": 4,
+        "oppose": 0,
+        "neutral": 0
+      },
+      "adjacent_highlighted": 0,
+      "target_included": true
+    },
+    "strategy_used": "polyline",
+    "url_length": 1471,
+    "parcels_rendered": 8,
+    "labels_count": 8,
+    "settings": {
+      "width": 800,
+      "height": 450,
+      "style": "satellite-streets-v12",
+      "retina": true,
+      "padding": 50
+    }
+  }
 }

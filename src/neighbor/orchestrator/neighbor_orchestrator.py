@@ -13,6 +13,8 @@ from ..agents.neighbor_finder import NeighborFinder
 from ..utils.entity import guess_entity_type
 from ..utils.db_connector import NeighborDBConnector
 from ..services.local_valuation import LocalValuationService
+from ..agents.verification_manager_neighbor import NeighborVerificationManager
+from ..mapping.map_generator import NeighborMapGenerator
 
 # Engines
 from ..engines.base import ResearchEngine, ResearchEvent
@@ -207,13 +209,90 @@ class NeighborOrchestrator:
             print(f"   Using {len(cached_dr_files)} cached dr_*.json files")
             print(f"   Using {len(cached_vr_files)} cached vr_*.json files")
             print(f"   Skipping OpenAI + Verification stages")
-            print(f"   Neighbors: {len(cached.get('neighbors', []))}")
+
+            # Rebuild neighbors from vr_*.json files (source of truth)
+            neighbors_from_vr = []
+            for vr_file in cached_vr_files:
+                try:
+                    with open(vr_file, "r") as f:
+                        vr_data = json.load(f)
+                        neighbors_from_vr.extend(vr_data.get("neighbors", []))
+                except Exception as e:
+                    print(f"   ⚠️ Failed to load {vr_file}: {e}")
+            cached["neighbors"] = neighbors_from_vr
+            print(f"   Neighbors: {len(neighbors_from_vr)}")
 
             # Delete old outputs so caller regenerates them
             delete_html_outputs()
             delete_pdf_outputs()
 
-            print(f"   Returning cached data for HTML/PDF regeneration")
+            # Generate map if we have the required data
+            raw_parcels_file = output_dir / "raw_parcels.json"
+            target_parcel_info = cached.get("target_parcel_info")
+
+            if (
+                settings.GENERATE_MAP
+                and settings.MAPBOX_ACCESS_TOKEN
+                and target_parcel_info
+                and raw_parcels_file.exists()
+            ):
+                print(f"\n🗺️  Generating neighbor map visualization...")
+                try:
+                    # Load raw parcels from cache
+                    with open(raw_parcels_file, "r") as f:
+                        raw_parcels = json.load(f)
+
+                    # Convert cached neighbors to NeighborProfile objects
+                    validated_neighbors = []
+                    for p in cached.get("neighbors", []):
+                        try:
+                            validated_neighbors.append(NeighborProfile(**p))
+                        except Exception:
+                            pass
+
+                    map_generator = NeighborMapGenerator(
+                        target_parcel=target_parcel_info,
+                        raw_parcels=raw_parcels,
+                        neighbor_profiles=validated_neighbors,
+                        mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
+                        output_dir=str(output_dir.parent / "neighbor_map_outputs"),
+                        style=settings.MAPBOX_STYLE,
+                        width=settings.MAP_WIDTH,
+                        height=settings.MAP_HEIGHT,
+                        padding=settings.MAP_PADDING,
+                        retina=settings.MAP_RETINA,
+                    )
+
+                    run_id = cached.get("run_id", datetime.now().strftime("%Y%m%d_%H%M%S"))
+                    map_result = map_generator.generate(run_id=run_id)
+
+                    if map_result.success:
+                        print(f"✅ Map generated: {map_result.image_path}")
+                        print(
+                            f"   Strategy: {map_result.generation_result.strategy_used}, "
+                            f"Parcels: {map_result.generation_result.parcels_rendered}"
+                        )
+                        cached["map_image_path"] = map_result.image_path
+                        cached["map_thumbnail_path"] = map_result.thumbnail_path
+                        cached["map_legend_html"] = map_result.legend_html
+                        cached["map_labels"] = map_result.labels
+                        cached["map_metadata"] = map_result.metadata
+                    else:
+                        print(
+                            f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
+                        )
+                except Exception as e:
+                    print(f"⚠️ Failed to generate map: {e}")
+            elif not raw_parcels_file.exists():
+                print("⚠️ Skipping map generation - raw_parcels.json not found (run without --no-clean first)")
+            elif not settings.MAPBOX_ACCESS_TOKEN:
+                print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
+
+            # Save updated cached data (with rebuilt neighbors and map info) back to JSON
+            final_output_path = output_dir / "neighbor_final_merged.json"
+            with open(final_output_path, "w", encoding="utf-8") as f:
+                json.dump(cached, f, indent=2, ensure_ascii=False, default=str)
+            print(f"   Saved updated cache to {final_output_path.name}")
 
             # Return the cached final result
             return cached
@@ -225,9 +304,6 @@ class NeighborOrchestrator:
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📂 Found existing deep research files, resuming verification...")
             print(f"   Skipping OpenAI stage - using {len(cached_dr_files)} cached dr_*.json files")
             skip_openai = True
-
-            # Import verification manager
-            from ..agents.verification_manager_neighbor import NeighborVerificationManager
 
             verification_context = {"county": county, "state": state, "city": city}
             verification_manager = NeighborVerificationManager()
@@ -365,6 +441,13 @@ class NeighborOrchestrator:
                     f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Regrid data saved to: {saved_files}"
                 )
 
+                # Also save raw parcels for map generation cache
+                if self.finder.raw_parcels:
+                    raw_parcels_file = output_dir / "raw_parcels.json"
+                    with open(raw_parcels_file, "w") as f:
+                        json.dump(self.finder.raw_parcels, f)
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Raw parcels saved for map generation")
+
             # 3) Split by entity type - include name, PINs, and owns_adjacent_parcel
             people = [
                 {
@@ -439,8 +522,6 @@ class NeighborOrchestrator:
             if settings.ENABLE_VERIFICATION and saved_filepaths:
                 print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔬 Starting Verification Stage...")
                 print(f"   Processing {len(saved_filepaths)} deep research files...")
-
-                from ..agents.verification_manager_neighbor import NeighborVerificationManager
 
                 verification_context = {"county": county, "state": state, "city": city}
                 verification_manager = NeighborVerificationManager()
@@ -842,8 +923,6 @@ class NeighborOrchestrator:
                 and self.finder.raw_parcels
             ):
                 print(f"\n🗺️  Generating neighbor map visualization...")
-                from ..mapping.map_generator import NeighborMapGenerator
-
                 map_generator = NeighborMapGenerator(
                     target_parcel=target_parcel_info,
                     raw_parcels=self.finder.raw_parcels,
