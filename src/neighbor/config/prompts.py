@@ -403,7 +403,34 @@ Add new findings with proper citations.
 
 ---
 
-## PHASE 3: OUTPUT FORMAT
+## PHASE 3: THE SANITIZATION (PRIVACY & FINANCIALS)
+
+**CRITICAL:** We must protect the privacy of landowners. Developers do not need to know specific bank balances, loan amounts, or personal legal struggles.
+
+Review the `claims` and `overview_summary` and apply these redaction rules:
+
+### 1. The "No Dollar Amounts" Rule (Personal/Farm)
+For individual residents, family trusts, and family farms:
+- **REMOVE** specific dollar figures regarding income, subsidies, loans, or net worth.
+- **REPLACE** with general qualitative statements.
+- *Example:* "Received $45,000 in USDA subsidies" → **CHANGE TO** "Recipient of USDA agricultural subsidies."
+- *Example:* "Took out a $1.2M mortgage in 2022" → **CHANGE TO** "Property is mortgaged (2022)."
+- *Example:* "Net worth estimated at $5M" → **DELETE CLAIM.**
+
+### 2. The "Relevance Only" Legal Rule
+- **REMOVE** all mentions of personal legal issues: divorce, custody, DUI, personal bankruptcy, small claims, or credit card debt.
+- **KEEP** legal history ONLY if it is explicitly related to:
+    - Land use / Zoning disputes
+    - Environmental violations
+    - Real estate development litigation
+- If a record shows a "lien" or "judgment" against an individual without a clear land-use context, **REMOVE IT**.
+
+### 3. Personal Data Scrub
+- Ensure no children's names, specific health conditions, or personal contact details (phone/email) are included in the text fields.
+
+---
+
+## PHASE 4: OUTPUT FORMAT
 
 **CRITICAL: Return the verified profile in the EXACT same JSON structure as the input.**
 
