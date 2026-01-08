@@ -533,7 +533,7 @@
         "280005400",
         "280003300"
       ],
-      "owns_adjacent_parcel": "No",
+      "owns_adjacent_parcel": "Yes",
       "claims": "Murdoch Enterprises, Inc. is a Nebraska farm corporation based in Orleans (Harlan County), primarily engaged in agriculture. The entity has received approximately $750,399 in federal farm program payments from 1995–2024, indicating a significant long-term operational presence ([EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?z=1&zip=68966&page=0)). Principal Marlin Murdoch serves as the Chairman of the Lower Republican Natural Resources District (LRNRD) Board of Directors, a powerful local regulatory body ([LRNRD Board of Directors](https://lrnrd.org/about/board-of-directors)). In his capacity as LRNRD Chair, Murdoch has overseen the district's participation in the Nebraska Cooperative Republican Platte Enhancement Project (NCORPE). In July 2020, the NCORPE board voted to enter into a lease agreement with renewable energy developer Invenergy to study solar and wind resources on NCORPE property ([LRNRD Minutes Aug 2020](https://lrnrd.org/meeting/minutes/2020/817-minutes-8-13-2020/file)). Furthermore, in June 2019, the LRNRD board provided consensus that they \"would like revenue from the land (renewables, grain production, and grazing) to support operational cost\" ([LRNRD Minutes June 2019](https://lrnrd.org/meeting/minutes/2019/724-minutes-6-13-19/file)).",
       "confidence": "high",
       "noted_stance": "support",
@@ -601,7 +601,7 @@
         "280003100",
         "280002900"
       ],
-      "owns_adjacent_parcel": "No",
+      "owns_adjacent_parcel": "Yes",
       "claims": "James Drake Farm Enterprises LLC is an agricultural limited liability company in Harlan County, Nebraska, which received $11,313 in federal farm program payments from 1995–2024 ([EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=E00064398)). The entity is associated with James Drake, a local resident who also receives personal conservation payments ([EWG](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_cr&regionname=HarlanCounty,Nebraska)). Unlike the Murdoch family, James Drake does not appear in local leadership roles or public office rosters, and no public records of involvement in development disputes or political activities were found. Note: Search results for \"James Drake\" in this region may conflate with unrelated individuals (e.g., a physicist or a criminal defendant in Michigan); no relevant local stance on renewable energy could be verified for this specific landowner.",
       "confidence": "medium",
       "noted_stance": "unknown",
@@ -750,7 +750,7 @@
   },
   "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/37e6ae3b-94e7-4dfd-ba3e-6a10a5131de0_map_full.png",
   "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/37e6ae3b-94e7-4dfd-ba3e-6a10a5131de0_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Jeremy D. VanBoening & Erin M. (Loken) VanBoening</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Murdoch Enterprises, Inc.</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Luther, Roger & Jennifer</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Beau Martin & Jessica Martin</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Bart A. Woodward & Jill R. Woodward</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Gary L. Stoelting & James G. Stoelting</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Jeremy D. VanBoening & Erin M. (Loken) VanBoening</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Murdoch Enterprises, Inc.</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Luther, Roger & Jennifer</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Beau Martin & Jessica Martin</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Bart A. Woodward & Jill R. Woodward</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Gary L. Stoelting & James G. Stoelting</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
   "map_labels": [
     {
       "text": "LUTHER",
@@ -838,7 +838,7 @@
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
       "stance": "support",
       "pin": "280005200"
@@ -851,7 +851,7 @@
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
       "stance": "support",
       "pin": "280003400"
@@ -864,7 +864,7 @@
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
       "stance": "support",
       "pin": "280005400"
@@ -877,7 +877,7 @@
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
       "stance": "support",
       "pin": "280003300"
@@ -898,7 +898,7 @@
   ],
   "map_metadata": {
     "run_id": "37e6ae3b-94e7-4dfd-ba3e-6a10a5131de0",
-    "generated_at": "2026-01-08T07:50:47.979016",
+    "generated_at": "2026-01-08T08:12:59.069658",
     "stats": {
       "total_neighbors": 12,
       "highlighted": 12,
@@ -914,7 +914,7 @@
         "oppose": 0,
         "neutral": 0
       },
-      "adjacent_highlighted": 0,
+      "adjacent_highlighted": 2,
       "target_included": true
     },
     "strategy_used": "polyline",

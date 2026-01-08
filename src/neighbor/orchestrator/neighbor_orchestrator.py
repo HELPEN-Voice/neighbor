@@ -227,6 +227,22 @@ class NeighborOrchestrator:
             delete_html_outputs()
             delete_pdf_outputs()
 
+            # Calculate adjacent parcels for cached data
+            adjacent_pins = set()
+            target_parcel_info = cached.get("target_parcel_info")
+            if location and target_parcel_info:
+                lat, lon = [float(x) for x in location.split(",")]
+                adjacent_pins = await self.finder.get_adjacent_parcels(
+                    target_parcel_info["geometry"], target_parcel_info.get("pin", "")
+                )
+                # Update neighbors with adjacency status
+                for neighbor in cached.get("neighbors", []):
+                    neighbor_pins = neighbor.get("pins", [])
+                    if any(p in adjacent_pins for p in neighbor_pins):
+                        neighbor["owns_adjacent_parcel"] = "Yes"
+                    else:
+                        neighbor["owns_adjacent_parcel"] = "No"
+
             # Generate map if we have the required data
             raw_parcels_file = output_dir / "raw_parcels.json"
             target_parcel_info = cached.get("target_parcel_info")
@@ -332,6 +348,14 @@ class NeighborOrchestrator:
             # Parse lat/lon from location for later use
             if location:
                 lat, lon = [float(x) for x in location.split(",")]
+                # Get target parcel and adjacent parcels for cached data
+                target_parcel_info = await self.finder.get_target_parcel(
+                    search_mode="COORDS", lat=lat, lon=lon
+                )
+                if target_parcel_info:
+                    adjacent_pins = await self.finder.get_adjacent_parcels(
+                        target_parcel_info["geometry"], target_parcel_info["pin"]
+                    )
             else:
                 lat, lon = None, None
 
@@ -351,6 +375,15 @@ class NeighborOrchestrator:
                 with open(regrid_file, "r") as f:
                     regrid_data = json.load(f)
                 resolved = regrid_data.get("neighbors", [])
+
+                # Update adjacency status with fresh adjacent_pins data
+                if adjacent_pins:
+                    for neighbor in resolved:
+                        neighbor_pins = neighbor.get("pins", [])
+                        if any(p in adjacent_pins for p in neighbor_pins):
+                            neighbor["owns_adjacent_parcel"] = "Yes"
+                        else:
+                            neighbor["owns_adjacent_parcel"] = "No"
             else:
                 resolved = []
 
