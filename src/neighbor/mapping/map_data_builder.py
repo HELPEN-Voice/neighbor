@@ -101,10 +101,14 @@ class MapDataBuilder:
         """
         Build list of features to render on map.
 
+        Features are sorted by influence for proper z-order (borders):
+        Low → Medium → High → Target (highest influence on top)
+
         Returns:
             Tuple of (features list, stats dict)
         """
         features = []
+        target_feature = None
         processed_pins: Set[str] = set()
 
         stats = {
@@ -118,20 +122,18 @@ class MapDataBuilder:
             "target_included": False,
         }
 
-        # 1. Add target parcel (always first for z-order)
+        # 1. Create target parcel feature (added last for z-order)
         target_geometry = self.target_parcel.get("geometry")
         target_pin = self.target_parcel.get("pin", "")
         if target_geometry:
-            features.append(
-                MapFeature(
-                    geometry=target_geometry,
-                    style=STYLES["target"],
-                    label="TARGET",
-                    neighbor_id=None,
-                    pin=target_pin,
-                    is_target=True,
-                    is_adjacent=False,
-                )
+            target_feature = MapFeature(
+                geometry=target_geometry,
+                style=STYLES["target"],
+                label="TARGET",
+                neighbor_id=None,
+                pin=target_pin,
+                is_target=True,
+                is_adjacent=False,
             )
             stats["target_included"] = True
             # Mark target PIN as processed so it's not rendered again as a neighbor
@@ -191,6 +193,14 @@ class MapDataBuilder:
                         stance=neighbor.noted_stance,
                     )
                 )
+
+        # 3. Sort features by influence for z-order: Low → Medium → High
+        influence_z_order = {"Low": 0, "Medium": 1, "High": 2}
+        features.sort(key=lambda f: influence_z_order.get(f.influence, -1))
+
+        # 4. Add target last so it's always on top
+        if target_feature:
+            features.append(target_feature)
 
         return features, stats
 

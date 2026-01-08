@@ -753,19 +753,6 @@
   "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Jeremy D. VanBoening & Erin M. (Loken) VanBoening</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Murdoch Enterprises, Inc.</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Luther, Roger & Jennifer</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Beau Martin & Jessica Martin</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Bart A. Woodward & Jill R. Woodward</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Gary L. Stoelting & James G. Stoelting</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
   "map_labels": [
     {
-      "text": "TARGET",
-      "full_name": "PIN: 280003600",
-      "lon": -99.4865228,
-      "lat": 40.16465795,
-      "marker_char": "t",
-      "color": "FFD700",
-      "is_target": true,
-      "is_adjacent": false,
-      "influence": null,
-      "stance": null,
-      "pin": "280003600"
-    },
-    {
       "text": "LUTHER",
       "full_name": "Luther, Roger & Jennifer",
       "lon": -99.4768346875,
@@ -894,11 +881,24 @@
       "influence": "High",
       "stance": "support",
       "pin": "280003300"
+    },
+    {
+      "text": "TARGET",
+      "full_name": "PIN: 280003600",
+      "lon": -99.4865228,
+      "lat": 40.16465795,
+      "marker_char": "t",
+      "color": "FFD700",
+      "is_target": true,
+      "is_adjacent": false,
+      "influence": null,
+      "stance": null,
+      "pin": "280003600"
     }
   ],
   "map_metadata": {
     "run_id": "37e6ae3b-94e7-4dfd-ba3e-6a10a5131de0",
-    "generated_at": "2026-01-08T07:30:00.522710",
+    "generated_at": "2026-01-08T07:50:47.979016",
     "stats": {
       "total_neighbors": 12,
       "highlighted": 12,

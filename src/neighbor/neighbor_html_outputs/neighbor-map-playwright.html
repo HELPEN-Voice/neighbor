@@ -45,6 +45,7 @@
             box-sizing: border-box;
             page-break-after: always;
             background: var(--hp-bg);
+            overflow: hidden;
         }
         .slide:last-of-type { page-break-after: auto; }
 
@@ -52,19 +53,19 @@
         .header {
             display: flex;
             flex-direction: column;
-            gap: 0.045in;
-            margin-bottom: 0.135in;
+            gap: 0.036in;
+            margin-bottom: 0.108in;
         }
 
         .header-top {
             display: flex;
             align-items: center;
-            gap: 0.135in;
+            gap: 0.108in;
         }
 
         .section-title {
             font-family: 'DM Sans', sans-serif;
-            font-size: 12.6pt;
+            font-size: 10pt;
             font-weight: 600;
             color: var(--hp-navy);
             text-transform: uppercase;
@@ -73,36 +74,41 @@
 
         .location-info {
             font-family: 'Inter', sans-serif;
-            font-size: 8pt;
+            font-size: 6.4pt;
             color: #64748B;
-            margin-left: 0.045in;
+            margin-left: 0.036in;
         }
 
         /* Main content area */
         .content {
             display: grid;
-            grid-template-columns: 1fr 2in;
-            gap: 0.225in;
+            grid-template-columns: 1fr 2.2in;
+            gap: 0.18in;
             height: 100%;
+            min-height: 0;
+            overflow: hidden;
         }
 
         /* Left side: Map + Legend */
         .left-panel {
             display: flex;
             flex-direction: column;
-            gap: 0.108in;
+            gap: 0.086in;
+            min-height: 0;
+            overflow: hidden;
         }
 
         .map-wrapper {
             flex: 1;
             background: #fff;
-            border-radius: 7px;
+            border-radius: 6px;
             box-shadow: 0 1px 8px rgba(0,0,0,.05);
-            padding: 0.09in;
+            padding: 0.072in;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
+            min-height: 0;
         }
 
         .map-image {
@@ -117,20 +123,21 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0.07in 0.108in;
+            padding: 0.056in 0.086in;
             background: #fff;
-            border-radius: 5px;
+            border-radius: 4px;
             box-shadow: 0 1px 4px rgba(0,0,0,.04);
+            flex-shrink: 0;
         }
 
         .legend-items {
             display: flex;
             align-items: center;
-            gap: 0.18in;
+            gap: 0.144in;
         }
 
         .parcel-count {
-            font-size: 7pt;
+            font-size: 6pt;
             color: #64748B;
             font-weight: 500;
         }
@@ -138,50 +145,52 @@
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 0.054in;
-            font-size: 7pt;
+            gap: 0.043in;
+            font-size: 6pt;
             color: #475569;
         }
 
         .legend-color {
-            width: 11px;
-            height: 11px;
+            width: 9px;
+            height: 9px;
             border-radius: 2px;
             flex-shrink: 0;
         }
 
         .legend-divider {
             width: 1px;
-            height: 14px;
+            height: 11px;
             background: #E2E8F0;
         }
 
         /* Right side: Reference table */
         .right-panel {
             background: #fff;
-            border-radius: 7px;
+            border-radius: 6px;
             box-shadow: 0 1px 8px rgba(0,0,0,.05);
-            padding: 0.135in;
+            padding: 0.108in;
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            min-height: 0;
         }
 
         .table-title {
             font-family: 'DM Sans', sans-serif;
-            font-size: 9pt;
+            font-size: 7.2pt;
             font-weight: 600;
             color: var(--hp-navy);
             text-transform: uppercase;
             letter-spacing: 0.02em;
-            margin-bottom: 0.09in;
-            padding-bottom: 0.07in;
+            margin-bottom: 0.072in;
+            padding-bottom: 0.056in;
             border-bottom: 1px solid #E2E8F0;
         }
 
         .reference-table {
             flex: 1;
-            overflow-y: auto;
+            overflow: hidden;
+            min-height: 0;
         }
 
         .ref-table {
@@ -192,20 +201,20 @@
 
         .ref-table th {
             text-align: left;
-            font-weight: 500;
-            color: #64748B;
-            padding: 0.045in 0.07in;
-            border-bottom: 1px solid #E2E8F0;
-            font-size: 6.3pt;
+            font-weight: 600;
+            color: #475569;
+            padding: 0.03in 0.04in;
+            border-bottom: 1px solid #CBD5E1;
+            font-size: 6pt;
             text-transform: uppercase;
             letter-spacing: 0.03em;
         }
 
         .ref-table td {
-            padding: 0.054in 0.07in;
-            border-bottom: 1px solid #F1F5F9;
+            padding: 0.035in 0.04in;
+            border-bottom: 1px solid #E2E8F0;
             vertical-align: middle;
-            color: #334155;
+            color: #1E293B;
         }
 
         .ref-table tr:last-child td {
@@ -213,15 +222,16 @@
         }
 
         .marker-num-plain {
-            font-weight: 600;
+            font-weight: 700;
             color: #0B1D3A;
             text-align: center;
+            font-size: 7pt;
         }
 
         /* Influence column styling */
-        .influence-high { color: #007BFF; font-weight: 500; }
-        .influence-medium { color: #EA580C; font-weight: 500; }
-        .influence-low { color: #94A3B8; }
+        .influence-high { color: #0066DD; font-weight: 600; }
+        .influence-medium { color: #C2410C; font-weight: 600; }
+        .influence-low { color: #64748B; font-weight: 500; }
 
         /* Stance column styling */
         .stance-support { color: #16A34A; font-weight: 500; }
@@ -245,7 +255,7 @@
             <div class="header-top">
                 <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.32in; width:auto;" />
             </div>
-            <div style="margin-left: 0.02in; margin-top: 22px;">
+            <div style="margin-left: 0.02in; margin-top: 18px;">
                 <span class="section-title">Parcel Overview</span>
                 <span class="location-info">Harlan County, NE &bull; 40.1625,-99.4815</span>
             </div>
