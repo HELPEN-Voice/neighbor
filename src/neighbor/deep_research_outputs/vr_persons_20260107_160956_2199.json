@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-01-07T17:53:33.356733",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260107_160956_2199.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Roger & Jennifer Luther",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280006200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roger and Jennifer Luther are Harlan County landowners in the Orleans area. Jennifer Luther has served as a board member for the Harlan County Health System Foundation ([ProPublica](https://projects.propublica.org/nonprofits/organizations/202184566)) and sponsors local 4-H awards, specifically the Ambassador jackets ([UNL Extension](https://extension.unl.edu/statewide/harlan/4-h/4-h-ambassadors/)). They are long-time parishioners of St. Mary's Catholic Church in Orleans, where they celebrated their 50th wedding anniversary in August 2023, having been married there in 1973 ([Lincoln Diocese](https://www.lincolndiocese.org/news/diocesan-news/17299-parishioners-to-celebrate-125th-anniversary-of-their-parish-home)). No public statements on development were found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Foundation board member; 4-H sponsor",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Acknowledge Jennifer’s community leadership in health and 4-H. Approach with respect for their deep local roots and Catholic faith. Frame the project as supporting the long-term vitality of the Orleans community they serve."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jennifer Luther has served as a board member for the Harlan County Health System Foundation",
+          "url": "https://projects.propublica.org/nonprofits/organizations/202184566",
+          "title": "Harlan County Health System Foundation - Nonprofit Explorer",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "sponsors local 4-H awards, specifically the Ambassador jackets",
+          "url": "https://extension.unl.edu/statewide/harlan/4-h/4-h-ambassadors/",
+          "title": "Harlan County 4-H Ambassadors",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "They are long-time parishioners of St. Mary's Catholic Church in Orleans, where they celebrated their 50th wedding anniversary in August 2023, having been married there in 1973",
+          "url": "https://www.lincolndiocese.org/news/diocesan-news/17299-parishioners-to-celebrate-125th-anniversary-of-their-parish-home",
+          "title": "Parishioners to celebrate 125th anniversary of their parish home",
+          "date": "2023-10-27"
+        }
+      ],
+      "verification_notes": "Verified board service via ProPublica tax filings (listed as member/director). Verified 4-H sponsorship via UNL Extension website. Verified marriage date and church affiliation via Lincoln Diocese article. No record of stance on renewable energy found in county minutes or local news."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James Stoelting",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Stoelting owns property in the Orleans vicinity of Harlan County, holding irrigation permits for Section 20-2-19W ([DNR Nebraska](http://govdocs.nebraska.gov/epubs/N1500/A001-200506.pdf)). The Stoelting family is long-established locally; James is the nephew of the late Edward Backes, a former Harlan County supervisor ([Kearney Hub](https://www.legacy.com/us/obituaries/kearneyhub/name/edward-backes-obituary?id=20090589)). In 2013, James requested a variance from the Lower Republican Natural Resources District ([LRNRD](https://lrnrd.org/meeting/minutes/2013/281-07-11-13-minutes/file)). No public statements on renewable development were found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-time resident; engaged with NRD",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "groundwater_runoff"
+        ],
+        "engage": "Reference his family’s long history in Harlan County. Approach as a fellow steward of the land, acknowledging his engagement with water resources. Keep the conversation informal and respectful of local agricultural heritage."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "holding irrigation permits for Section 20-2-19W",
+          "url": "http://govdocs.nebraska.gov/epubs/N1500/A001-200506.pdf",
+          "title": "Nebraska Department of Natural Resources Biennial Report",
+          "date": "2005-06-28"
+        },
+        {
+          "claim": "James is the nephew of the late Edward Backes, a former Harlan County supervisor",
+          "url": "https://www.legacy.com/us/obituaries/kearneyhub/name/edward-backes-obituary?id=20090589",
+          "title": "Edward Backes Obituary",
+          "date": "2013-07-08"
+        },
+        {
+          "claim": "In 2013, James requested a variance from the Lower Republican Natural Resources District",
+          "url": "https://lrnrd.org/meeting/minutes/2013/281-07-11-13-minutes/file",
+          "title": "Lower Republican NRD Board Minutes",
+          "date": "2013-07-11"
+        }
+      ],
+      "verification_notes": "Verified irrigation permit G-079938 in Section 20-2-19W. Confirmed family relationship to Supervisor Backes via obituary. Confirmed 2013 variance request via LRNRD minutes. No public comments on wind/solar found."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Marlen L. & Beverly E. Lewis",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005300"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Marlen L. and Beverly E. Lewis are listed as owners of a Harlan County parcel near Orleans. Marlen Lewis is the designated contact for the Orleans Farmers' Market ([Nebraska Dept of Ag](http://govdocs.nebraska.gov/epubs/A5150/D008-2013.pdf)) and has served as Treasurer for the United Presbyterian Church of Orleans ([Broker Snapshot](https://brokersnapshot.com/Company?dot=975311&prefix=MC&docket=1026106)). He has attended Central Nebraska Presbytery meetings ([Central NE Presbytery](https://www.centralnepresby.org/wp-content/uploads/2018/02/April-2-2016-PCN-Minutes-unofficial.pdf)). No commentary on local development issues was found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Farmers Market organizer; Church Treasurer",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "fair_contracting"
+        ],
+        "engage": "Recognize Marlen’s role in the Farmers Market and church. Approach with transparency, focusing on how the project aligns with community values and agricultural interests. Invite feedback on how development impacts local growers."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Marlen Lewis is the designated contact for the Orleans Farmers' Market",
+          "url": "http://govdocs.nebraska.gov/epubs/A5150/D008-2013.pdf",
+          "title": "Nebraska Our Best to You - Produce Growers",
+          "date": "2013-01-01"
+        },
+        {
+          "claim": "served as Treasurer for the United Presbyterian Church of Orleans",
+          "url": "https://brokersnapshot.com/Company?dot=975311&prefix=MC&docket=1026106",
+          "title": "United Presbyterian Church of Orleans Registration",
+          "date": "2024-05-26"
+        },
+        {
+          "claim": "attended Central Nebraska Presbytery meetings",
+          "url": "https://www.centralnepresby.org/wp-content/uploads/2018/02/April-2-2016-PCN-Minutes-unofficial.pdf",
+          "title": "Minutes of Presbytery Central Nebraska",
+          "date": "2016-04-02"
+        }
+      ],
+      "verification_notes": "Verified Farmers Market role via NE Dept of Ag directory. Verified Church Treasurer role via corporate registration data. Confirmed attendance at Presbytery meeting via minutes. No stance on development found."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 421149,
+    "thinking_count": 29
+  }
+}

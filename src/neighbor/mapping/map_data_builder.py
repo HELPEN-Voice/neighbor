@@ -49,9 +49,6 @@ class MapDataBuilder:
         # Build PIN → neighbor profile lookup
         self.pin_to_neighbor = self._build_pin_neighbor_map()
 
-        # Build neighbor_id → neighbor lookup
-        self.id_to_neighbor = {n.neighbor_id: n for n in neighbor_profiles}
-
     def _build_pin_geometry_map(self) -> Dict[str, Dict[str, Any]]:
         """Map parcel numbers to their geometries."""
         result = {}

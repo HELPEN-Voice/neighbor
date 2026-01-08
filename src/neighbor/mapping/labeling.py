@@ -349,8 +349,8 @@ class LabelGenerator:
             if is_target:
                 continue
 
-            neighbor_id = props.get("neighbor_id")
-            neighbor = neighbor_lookup.get(neighbor_id) if neighbor_id else None
+            pin = props.get("pin", "")
+            neighbor = neighbor_lookup.get(pin) if pin else None
 
             # Skip Low influence (no markers for them)
             if neighbor and neighbor.community_influence == "Low":
@@ -367,11 +367,10 @@ class LabelGenerator:
             props = feat.get("properties", {})
 
             is_target = props.get("is_target", False)
-            neighbor_id = props.get("neighbor_id")
             pin = props.get("pin", "")
             is_adjacent = props.get("is_adjacent", False)
 
-            neighbor = neighbor_lookup.get(neighbor_id) if neighbor_id else None
+            neighbor = neighbor_lookup.get(pin) if pin else None
 
             if is_target:
                 # Target parcel

@@ -126,7 +126,7 @@ class NeighborMapGenerator:
         logger.info("Generating labels...")
         label_generator = LabelGenerator()
         labels, legend = label_generator.generate_labels_for_features(
-            geojson_features, builder.id_to_neighbor
+            geojson_features, builder.pin_to_neighbor
         )
         logger.info(f"Generated {len(labels)} labels")
 

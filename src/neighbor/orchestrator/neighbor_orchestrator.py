@@ -445,6 +445,9 @@ class NeighborOrchestrator:
                 # Also save raw parcels for map generation cache
                 if self.finder.raw_parcels:
                     raw_parcels_file = output_dir / "raw_parcels.json"
+                    # Trash old file before overwriting (preserves backup)
+                    if raw_parcels_file.exists():
+                        subprocess.run(["trash", str(raw_parcels_file)], check=False)
                     with open(raw_parcels_file, "w") as f:
                         json.dump(self.finder.raw_parcels, f)
                     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Raw parcels saved for map generation")

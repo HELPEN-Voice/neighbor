@@ -2,31 +2,38 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Murdoch Enterprises, Inc.",
+      "name": "G & D Properties Llc",
       "entity_type": "organization",
       "pins": [
-        "280003600",
-        "280005200",
-        "280003400",
-        "280005400",
-        "280003300"
+        "23203410000200",
+        "22200130001900"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "James Drake Farm Enterprises Llc",
+      "name": "Willis Land Wyoming Llc",
       "entity_type": "organization",
       "pins": [
-        "280002800",
-        "280003000",
-        "280005700",
-        "280006300",
-        "280002601",
-        "280006100",
-        "280003100",
-        "280002900"
+        "22200340002000",
+        "22200130002000"
       ],
-      "owns_adjacent_parcel": "Yes"
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Putnam Ranch Llp",
+      "entity_type": "organization",
+      "pins": [
+        "22200220002100"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Pope Cattle Refuge Llc",
+      "entity_type": "organization",
+      "pins": [
+        "23202510000100"
+      ],
+      "owns_adjacent_parcel": "No"
     }
   ]
 }
