@@ -1,45 +1,131 @@
 {
-  "total": 5,
+  "total": 14,
   "neighbors": [
     {
-      "name": "Thornock Jason & Tracy",
-      "entity_type": "person",
-      "pins": [
-        "23202240000900"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "G & D Properties Llc",
+      "name": "Murdoch Enterprises, Inc.",
       "entity_type": "organization",
       "pins": [
-        "23203410000200",
-        "22200130001900"
+        "280003600",
+        "280005200",
+        "280003400",
+        "280005400",
+        "280003300"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Willis Land Wyoming Llc",
+      "name": "James Drake Farm Enterprises Llc",
       "entity_type": "organization",
       "pins": [
-        "22200340002000",
-        "22200130002000"
+        "280002800",
+        "280003000",
+        "280005700",
+        "280006300",
+        "280002601",
+        "280006100",
+        "280003100",
+        "280002900"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Luther, Roger & Jennifer",
+      "entity_type": "person",
+      "pins": [
+        "280006200"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Putnam Ranch Llp",
-      "entity_type": "organization",
+      "name": "U.S. Army Corps Of Engineers",
+      "entity_type": "person",
       "pins": [
-        "22200220002100"
+        "280006000",
+        "280003800",
+        "280006400"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Stoelting, James",
+      "entity_type": "person",
+      "pins": [
+        "280002700"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Pope Cattle Refuge Llc",
-      "entity_type": "organization",
+      "name": "State Of Nebraska",
+      "entity_type": "person",
       "pins": [
-        "23202510000100"
+        "280005800",
+        "280003700"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Lewis, Marlen L. & Beverly E.",
+      "entity_type": "person",
+      "pins": [
+        "280005300"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Martin, Beau & Jessica",
+      "entity_type": "person",
+      "pins": [
+        "280006301"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Wells, Carol A",
+      "entity_type": "person",
+      "pins": [
+        "280005301"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Woodward, Bart A & Jill R",
+      "entity_type": "person",
+      "pins": [
+        "280005500"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Hays, Jesse R. & Jill C.",
+      "entity_type": "person",
+      "pins": [
+        "280002501",
+        "280002500"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Stoelting, Gary L. & James G.",
+      "entity_type": "person",
+      "pins": [
+        "280002400",
+        "280002300"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Davis Etal, William Sugimatsu",
+      "entity_type": "person",
+      "pins": [
+        "280002200"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Vanboening, Jeremy D & Erin M Loken/Vanboening",
+      "entity_type": "person",
+      "pins": [
+        "280003500"
       ],
       "owns_adjacent_parcel": "No"
     }

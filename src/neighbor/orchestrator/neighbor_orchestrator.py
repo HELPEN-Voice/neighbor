@@ -184,11 +184,12 @@ class NeighborOrchestrator:
                         if abs(cached_lat - req_lat) < 1e-6 and abs(cached_lon - req_lon) < 1e-6:
                             cache_coords_match = True
 
-                            # Get dr_* files from cached data
+                            # Get dr_* files from cached data (filter out any vr_* files from old caches)
                             cached_dr_files = cached.get("deep_research_files", [])
                             if cached_dr_files:
-                                # Verify dr_* files exist
-                                cached_dr_files = [f for f in cached_dr_files if Path(f).exists()]
+                                # Filter to only dr_* files that exist
+                                cached_dr_files = [f for f in cached_dr_files
+                                                   if Path(f).exists() and ("/dr_" in f or "\\dr_" in f)]
 
                             # Check for corresponding vr_* files
                             if cached_dr_files:
@@ -810,7 +811,8 @@ class NeighborOrchestrator:
 
         final["runtime_minutes"] = round((time.time() - t0) / 60.0, 2)
         final["citations_flat"] = flat_citations
-        final["deep_research_files"] = saved_filepaths  # Add paths to saved files
+        # Only save dr_* files (not vr_*) to avoid re-verification on resume
+        final["deep_research_files"] = [f for f in saved_filepaths if "/dr_" in f or "\\dr_" in f]
         final["city"] = city  # Include city for HTML generation
         final["county"] = county  # Include county for HTML generation
         final["state"] = state  # Include state for HTML generation
@@ -818,9 +820,62 @@ class NeighborOrchestrator:
         final["target_pin"] = target_parcel_info.get("pin") if target_parcel_info else None
         final["target_parcel_info"] = target_parcel_info  # Include for map generation
 
-        # Save the final merged result with adjacency data
+        # Generate neighbor map visualization BEFORE saving final output
         output_dir = Path(__file__).parent.parent / "neighbor_outputs"
         output_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            if (
+                settings.GENERATE_MAP
+                and settings.MAPBOX_ACCESS_TOKEN
+                and target_parcel_info
+                and self.finder.raw_parcels
+            ):
+                print(f"\n🗺️  Generating neighbor map visualization...")
+                map_generator = NeighborMapGenerator(
+                    target_parcel=target_parcel_info,
+                    raw_parcels=self.finder.raw_parcels,
+                    neighbor_profiles=validated_neighbors,
+                    mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
+                    output_dir=str(output_dir.parent / "neighbor_map_outputs"),
+                    style=settings.MAPBOX_STYLE,
+                    width=settings.MAP_WIDTH,
+                    height=settings.MAP_HEIGHT,
+                    padding=settings.MAP_PADDING,
+                    retina=settings.MAP_RETINA,
+                )
+
+                map_result = map_generator.generate(run_id=run_id)
+
+                if map_result.success:
+                    print(f"✅ Map generated: {map_result.image_path}")
+                    print(
+                        f"   Strategy: {map_result.generation_result.strategy_used}, "
+                        f"Parcels: {map_result.generation_result.parcels_rendered}"
+                    )
+                    final["map_image_path"] = map_result.image_path
+                    final["map_thumbnail_path"] = map_result.thumbnail_path
+                    final["map_legend_html"] = map_result.legend_html
+                    final["map_labels"] = map_result.labels
+                    final["map_metadata"] = map_result.metadata
+                else:
+                    print(
+                        f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
+                    )
+                    final["map_error"] = (
+                        map_result.generation_result.error_message
+                        if map_result.generation_result
+                        else "Unknown error"
+                    )
+            elif not settings.MAPBOX_ACCESS_TOKEN:
+                print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
+            elif not target_parcel_info:
+                print("⚠️ Skipping map generation - no target parcel info available")
+        except Exception as e:
+            print(f"⚠️ Failed to generate map: {e}")
+            # Don't fail the entire operation if map generation fails
+            final["map_error"] = str(e)
+
+        # Save the final merged result with adjacency data
         final_output_path = output_dir / "neighbor_final_merged.json"
 
         with open(final_output_path, "w", encoding="utf-8") as f:
@@ -913,58 +968,5 @@ class NeighborOrchestrator:
         except Exception as e:
             print(f"⚠️ Failed to calculate valuation benchmark: {e}")
             # Don't fail the entire operation if valuation fails
-
-        # Generate neighbor map visualization
-        try:
-            if (
-                settings.GENERATE_MAP
-                and settings.MAPBOX_ACCESS_TOKEN
-                and target_parcel_info
-                and self.finder.raw_parcels
-            ):
-                print(f"\n🗺️  Generating neighbor map visualization...")
-                map_generator = NeighborMapGenerator(
-                    target_parcel=target_parcel_info,
-                    raw_parcels=self.finder.raw_parcels,
-                    neighbor_profiles=validated_neighbors,
-                    mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
-                    output_dir=str(output_dir.parent / "neighbor_map_outputs"),
-                    style=settings.MAPBOX_STYLE,
-                    width=settings.MAP_WIDTH,
-                    height=settings.MAP_HEIGHT,
-                    padding=settings.MAP_PADDING,
-                    retina=settings.MAP_RETINA,
-                )
-
-                map_result = map_generator.generate(run_id=run_id)
-
-                if map_result.success:
-                    print(f"✅ Map generated: {map_result.image_path}")
-                    print(
-                        f"   Strategy: {map_result.generation_result.strategy_used}, "
-                        f"Parcels: {map_result.generation_result.parcels_rendered}"
-                    )
-                    final["map_image_path"] = map_result.image_path
-                    final["map_thumbnail_path"] = map_result.thumbnail_path
-                    final["map_legend_html"] = map_result.legend_html
-                    final["map_labels"] = map_result.labels
-                    final["map_metadata"] = map_result.metadata
-                else:
-                    print(
-                        f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
-                    )
-                    final["map_error"] = (
-                        map_result.generation_result.error_message
-                        if map_result.generation_result
-                        else "Unknown error"
-                    )
-            elif not settings.MAPBOX_ACCESS_TOKEN:
-                print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
-            elif not target_parcel_info:
-                print("⚠️ Skipping map generation - no target parcel info available")
-        except Exception as e:
-            print(f"⚠️ Failed to generate map: {e}")
-            # Don't fail the entire operation if map generation fails
-            final["map_error"] = str(e)
 
         return final

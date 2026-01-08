@@ -35,9 +35,9 @@ STYLES = {
         stroke_width=3,
     ),
     "high_influence": ParcelStyle(
-        fill_color="DC143C",  # Crimson
-        fill_opacity=0.4,
-        stroke_color="8B0000",  # Dark Red
+        fill_color="007BFF",  # Blue
+        fill_opacity=0.6,
+        stroke_color="007BFF",  # Blue
         stroke_opacity=1.0,
         stroke_width=2,
     ),
@@ -70,21 +70,20 @@ STYLES = {
         stroke_width=3,
     ),
     "low_influence": ParcelStyle(
-        fill_color="808080",  # Gray
-        fill_opacity=0.2,
-        stroke_color="606060",  # Dark Gray
-        stroke_opacity=0.8,
-        stroke_width=1,
+        fill_color="FFFFFF",  # White
+        fill_opacity=0.0,  # No fill
+        stroke_color="FFFFFF",  # White outline
+        stroke_opacity=1.0,
+        stroke_width=2,
     ),
 }
 
 # Marker colors matching parcel styles (for numbered pins)
 MARKER_COLORS = {
     "target": "FFD700",
-    "high_influence": "DC143C",
-    "medium_influence": "FF8C00",
-    "oppose_stance": "8B0000",
-    "support_stance": "228B22",
+    "high_influence": "007BFF",  # Blue
+    "medium_influence": "FF8C00",  # Orange
+    "low_influence": "808080",  # Gray (no marker, but keep for reference)
     "adjacent": "0000FF",
     "default": "808080",
 }
@@ -96,38 +95,30 @@ def get_style_for_neighbor(
     is_adjacent: bool = False,
 ) -> Optional[ParcelStyle]:
     """
-    Determine style based on influence and stance with priority rules.
+    Determine style based on influence level.
 
     Priority order:
-    1. Oppose stance (highest alert - red)
-    2. High influence (crimson)
-    3. Support stance (green)
-    4. Medium influence (orange)
-    5. None (not highlighted)
+    1. High influence (crimson)
+    2. Medium influence (orange)
+    3. Low influence (gray)
+    4. None (not highlighted)
 
     Args:
         influence: Community influence level
-        stance: Noted development stance
+        stance: Noted development stance (currently unused)
         is_adjacent: Whether parcel is adjacent to target
 
     Returns:
         ParcelStyle or None if neighbor shouldn't be highlighted
     """
-    # Priority 1: Oppose stance (highest alert)
-    if stance == "oppose":
-        return STYLES["oppose_stance"]
-
-    # Priority 2: High influence
     if influence == "High":
         return STYLES["high_influence"]
 
-    # Priority 3: Support stance
-    if stance == "support":
-        return STYLES["support_stance"]
-
-    # Priority 4: Medium influence
     if influence == "Medium":
         return STYLES["medium_influence"]
+
+    if influence == "Low":
+        return STYLES["low_influence"]
 
     # No special styling - won't be rendered on map
     return None
@@ -138,19 +129,17 @@ def get_style_category(
     stance: Optional[Literal["support", "oppose", "neutral", "unknown"]],
 ) -> str:
     """
-    Get the style category name for a neighbor.
+    Get the style category name for a neighbor based on influence level.
 
     Returns:
-        Category name (e.g., "high_influence", "oppose_stance")
+        Category name (e.g., "high_influence", "medium_influence")
     """
-    if stance == "oppose":
-        return "oppose_stance"
     if influence == "High":
         return "high_influence"
-    if stance == "support":
-        return "support_stance"
     if influence == "Medium":
         return "medium_influence"
+    if influence == "Low":
+        return "low_influence"
     return "default"
 
 

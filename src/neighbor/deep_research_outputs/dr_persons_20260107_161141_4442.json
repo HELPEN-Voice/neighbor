@@ -1,0 +1,184 @@
+{
+  "timestamp": "2026-01-07T16:11:41.444333",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these five landowners has a publicly documented stance on the development (all are classified as \"unknown\" stance). Their community influence is generally low, as none hold public office or prominent civic roles. Only one neighbor (the Stoelting partnership owners) might be considered of medium influence due to their established farm business in the area.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Beau Martin & Jessica Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280006301"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Beau Martin is a local Orleans crop farmer who has received about $46,700 in USDA subsidies from 1995 to 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?zip=68966&page=3). Neither Beau nor Jessica Martin has any notable history of civic engagement or public statements on local development (no references in county records or news) [Harlan County Public Records Search](https://publicrecords.netronline.com/state/NE/county/harlan).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local farmer; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through a fellow local farmer who can discuss the project’s impact on agriculture and reassure them that their farming operations will be respected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Carol A. Wells",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005301"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carol A. Wells was the recorded owner of a parcel in Orleans (PIN 280005301) per Harlan County property records [Harlan County Assessor – Property Search](https://publicrecords.netronline.com/state/NE/county/harlan). Carol Ann Wells, 88, of Grand Island died on October 31, 2021, suggesting she was an elderly landowner with minimal public involvement in local affairs [Apfel Funeral Home – Obituary](https://www.apfelfuneralhome.com/obituaries/carol-a-wells).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elderly landowner; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach should be directed to her family or estate via a trusted community member, emphasizing respect for her land’s legacy and addressing any concerns they have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bart A. Woodward & Jill R. Woodward",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005500"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bart A. Woodward and Jill R. Woodward jointly own a parcel of land in rural Orleans (PIN 280005500), as recorded by the Harlan County Assessor [Harlan County Assessor – Parcel Search](https://harlan.gworks.com/). They have no public profile in local meetings or media, and no documented stance on development issues could be found [NETR Harlan County Public Records](https://publicrecords.netronline.com/state/NE/county/harlan).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage in an informal, neighborly way (for example, a farm visit through a mutual acquaintance), focusing on listening to their concerns and building trust over time."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Jesse R. Hays & Jill C. Hays",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002500",
+        "280002501"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jesse R. Hays and Jill C. Hays are listed as co-owners of two parcels near Orleans (PINs 280002500 and 280002501) in Harlan County property records [Harlan County Assessor – Property Search](https://publicrecords.netronline.com/state/NE/county/harlan). There is no record of the Hays couple taking part in local boards or voicing opinions on energy developments in any public sources reviewed [NETR Harlan County Public Records](https://publicrecords.netronline.com/state/NE/county/harlan).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local farm couple; no formal office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a friendly, neighbor-to-neighbor approach (possibly via another respected local farmer), and reassure them that any development will consider local control and protect their agricultural interests."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Gary L. Stoelting & James G. Stoelting",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002300",
+        "280002400"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gary L. Stoelting and James G. Stoelting operate **Stoelting Brothers**, a corn farming partnership based in Orleans, Nebraska [NAICS Business Listing](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966). They have been long-time landowners in the community, but no evidence was found of any political activism or public stance on development projects in local media or county records [Legacy.com – Kearney Hub Obituary](https://www.legacy.com/us/obituaries/kearneyhub/name/john-stoelting-obituary?id=53587968).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Corn farm partnership owners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A professional but personal meeting is advisable – involve an agricultural advisor or community leader they respect, and emphasize fair terms and long-term benefits to their farming operations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these five landowners has a publicly documented stance on the development (all are classified as \\\"unknown\\\" stance). Their community influence is generally low, as none hold public office or prominent civic roles. Only one neighbor (the Stoelting partnership owners) might be considered of medium influence due to their established farm business in the area.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Beau Martin & Jessica Martin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280006301\"],\n      \"claims\": \"Beau Martin is a local Orleans crop farmer who has received about $46,700 in USDA subsidies from 1995 to 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?zip=68966&page=3). Neither Beau nor Jessica Martin has any notable history of civic engagement or public statements on local development (no references in county records or news) [Harlan County Public Records Search](https://publicrecords.netronline.com/state/NE/county/harlan).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local farmer; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach through a fellow local farmer who can discuss the project’s impact on agriculture and reassure them that their farming operations will be respected.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Carol A. Wells\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005301\"],\n      \"claims\": \"Carol A. Wells was the recorded owner of a parcel in Orleans (PIN 280005301) per Harlan County property records [Harlan County Assessor – Property Search](https://publicrecords.netronline.com/state/NE/county/harlan). Carol Ann Wells, 88, of Grand Island died on October 31, 2021, suggesting she was an elderly landowner with minimal public involvement in local affairs [Apfel Funeral Home – Obituary](https://www.apfelfuneralhome.com/obituaries/carol-a-wells).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Elderly landowner; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Outreach should be directed to her family or estate via a trusted community member, emphasizing respect for her land’s legacy and addressing any concerns they have.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Bart A. Woodward & Jill R. Woodward\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005500\"],\n      \"claims\": \"Bart A. Woodward and Jill R. Woodward jointly own a parcel of land in rural Orleans (PIN 280005500), as recorded by the Harlan County Assessor [Harlan County Assessor – Parcel Search](https://harlan.gworks.com/). They have no public profile in local meetings or media, and no documented stance on development issues could be found [NETR Harlan County Public Records](https://publicrecords.netronline.com/state/NE/county/harlan).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage in an informal, neighborly way (for example, a farm visit through a mutual acquaintance), focusing on listening to their concerns and building trust over time.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Jesse R. Hays & Jill C. Hays\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002500\", \"280002501\"],\n      \"claims\": \"Jesse R. Hays and Jill C. Hays are listed as co-owners of two parcels near Orleans (PINs 280002500 and 280002501) in Harlan County property records [Harlan County Assessor – Property Search](https://publicrecords.netronline.com/state/NE/county/harlan). There is no record of the Hays couple taking part in local boards or voicing opinions on energy developments in any public sources reviewed [NETR Harlan County Public Records](https://publicrecords.netronline.com/state/NE/county/harlan).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local farm couple; no formal office\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a friendly, neighbor-to-neighbor approach (possibly via another respected local farmer), and reassure them that any development will consider local control and protect their agricultural interests.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Gary L. Stoelting & James G. Stoelting\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002300\", \"280002400\"],\n      \"claims\": \"Gary L. Stoelting and James G. Stoelting operate **Stoelting Brothers**, a corn farming partnership based in Orleans, Nebraska [NAICS Business Listing](https://naicslist.com/company-profile/stoelting-brothers-orleans-ne-68966). They have been long-time landowners in the community, but no evidence was found of any political activism or public stance on development projects in local media or county records [Legacy.com – Kearney Hub Obituary](https://www.legacy.com/us/obituaries/kearneyhub/name/john-stoelting-obituary?id=53587968).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Corn farm partnership owners\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"A professional but personal meeting is advisable – involve an agricultural advisor or community leader they respect, and emphasize fair terms and long-term benefits to their farming operations.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

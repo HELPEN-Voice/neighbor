@@ -178,6 +178,71 @@ class LabelGenerator:
         # Fallback for > 35
         return str(number % 10)
 
+    def _generate_target_label(
+        self,
+        geometry: Dict[str, Any],
+        pin: str,
+    ) -> Optional[ParcelLabel]:
+        """Generate label for target parcel."""
+        if not geometry:
+            return None
+
+        try:
+            lon, lat = get_centroid(geometry)
+        except Exception:
+            return None
+
+        return ParcelLabel(
+            text="TARGET",
+            full_name=f"PIN: {pin}",
+            lon=lon,
+            lat=lat,
+            marker_number=0,
+            marker_char="t",
+            color="FFD700",  # Gold
+            is_target=True,
+            is_adjacent=False,
+            influence=None,
+            stance=None,
+            pin=pin,
+        )
+
+    def _generate_neighbor_label(
+        self,
+        geometry: Dict[str, Any],
+        neighbor: NeighborProfile,
+        pin: str,
+        marker_num: int,
+        is_adjacent: bool,
+    ) -> Optional[ParcelLabel]:
+        """Generate label for a neighbor parcel with assigned marker number."""
+        if not geometry:
+            return None
+
+        try:
+            lon, lat = get_centroid(geometry)
+        except Exception:
+            return None
+
+        label_text = self.get_label_text(neighbor, pin, is_target=False)
+        marker_char = self._get_marker_char(marker_num)
+        color = get_marker_color(neighbor.community_influence, neighbor.noted_stance)
+
+        return ParcelLabel(
+            text=label_text,
+            full_name=neighbor.name,
+            lon=lon,
+            lat=lat,
+            marker_number=marker_num,
+            marker_char=marker_char,
+            color=color,
+            is_target=False,
+            is_adjacent=is_adjacent,
+            influence=neighbor.community_influence,
+            stance=neighbor.noted_stance,
+            pin=pin,
+        )
+
     def generate_label(
         self,
         geometry: Dict[str, Any],
@@ -197,9 +262,13 @@ class LabelGenerator:
             is_adjacent: Whether parcel is adjacent to target
 
         Returns:
-            ParcelLabel or None if geometry invalid
+            ParcelLabel or None if geometry invalid or Low influence (no marker)
         """
         if not geometry:
+            return None
+
+        # Skip markers for Low influence neighbors (they only get polygon outlines)
+        if neighbor and neighbor.community_influence == "Low":
             return None
 
         # Get centroid for label placement
@@ -255,6 +324,9 @@ class LabelGenerator:
         """
         Generate labels for all features.
 
+        Numbers are assigned per unique owner name, so all parcels owned by
+        the same entity share the same number.
+
         Args:
             features: List of GeoJSON features with properties
             neighbor_lookup: Map of neighbor_id to NeighborProfile
@@ -266,6 +338,30 @@ class LabelGenerator:
         labels = []
         legend = []
 
+        # First pass: assign numbers to unique owner names (excluding target and Low influence)
+        owner_to_number: Dict[str, int] = {}
+        owner_to_neighbor: Dict[str, NeighborProfile] = {}
+        current_number = 0
+
+        for feat in features:
+            props = feat.get("properties", {})
+            is_target = props.get("is_target", False)
+            if is_target:
+                continue
+
+            neighbor_id = props.get("neighbor_id")
+            neighbor = neighbor_lookup.get(neighbor_id) if neighbor_id else None
+
+            # Skip Low influence (no markers for them)
+            if neighbor and neighbor.community_influence == "Low":
+                continue
+
+            if neighbor and neighbor.name not in owner_to_number:
+                current_number += 1
+                owner_to_number[neighbor.name] = current_number
+                owner_to_neighbor[neighbor.name] = neighbor
+
+        # Second pass: generate labels using assigned numbers
         for feat in features:
             geometry = feat.get("geometry")
             props = feat.get("properties", {})
@@ -275,33 +371,43 @@ class LabelGenerator:
             pin = props.get("pin", "")
             is_adjacent = props.get("is_adjacent", False)
 
-            # Get neighbor profile if available
             neighbor = neighbor_lookup.get(neighbor_id) if neighbor_id else None
 
-            label = self.generate_label(
-                geometry=geometry,
-                neighbor=neighbor,
-                pin=pin,
-                is_target=is_target,
-                is_adjacent=is_adjacent,
+            if is_target:
+                # Target parcel
+                label = self._generate_target_label(geometry, pin)
+                if label:
+                    labels.append(label)
+            elif neighbor and neighbor.community_influence != "Low":
+                # Get assigned number for this owner
+                marker_num = owner_to_number.get(neighbor.name, 0)
+                label = self._generate_neighbor_label(
+                    geometry=geometry,
+                    neighbor=neighbor,
+                    pin=pin,
+                    marker_num=marker_num,
+                    is_adjacent=is_adjacent,
+                )
+                if label:
+                    labels.append(label)
+
+        # Generate legend entries (one per unique owner)
+        for name, marker_num in owner_to_number.items():
+            neighbor = owner_to_neighbor[name]
+            marker_char = self._get_marker_char(marker_num)
+            color = get_marker_color(neighbor.community_influence, neighbor.noted_stance)
+
+            legend.append(
+                LegendEntry(
+                    marker_char=marker_char.upper(),
+                    label_text=self._abbreviate_org(name) if neighbor.entity_category != "Resident" else self._extract_last_name(name),
+                    full_name=name,
+                    color=color,
+                    influence=neighbor.community_influence,
+                    stance=neighbor.noted_stance,
+                    is_adjacent=neighbor.owns_adjacent_parcel == "Yes",
+                )
             )
-
-            if label:
-                labels.append(label)
-
-                # Add legend entry (skip target - it's always labeled)
-                if not is_target:
-                    legend.append(
-                        LegendEntry(
-                            marker_char=label.marker_char.upper(),
-                            label_text=label.text,
-                            full_name=label.full_name,
-                            color=label.color,
-                            influence=label.influence,
-                            stance=label.stance,
-                            is_adjacent=is_adjacent,
-                        )
-                    )
 
         return labels, legend
 

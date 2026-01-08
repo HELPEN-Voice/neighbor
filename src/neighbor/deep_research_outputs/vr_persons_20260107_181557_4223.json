@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-01-07T18:36:44.477280",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260107_181557_4223.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "William Sugimatsu Davis",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records list William Sugimatsu Davis as a co-owner of Harlan County parcel 280002200 ([source](https://harlancounty.ne.gov/webpages/assessor/assessor.html)). William Sugimatsu Davis is listed as a graduate of the University of Nebraska Medical Center (2005) with ties to Orleans, Nebraska, located in Harlan County ([source](https://www.unmc.edu/newsroom/2005/05/04/634-unmc-students-to-receive-diplomas-in-kearney-lincoln-scottsbluff-and-omaha-at-commencements/)). No public statements on development or energy issues by Davis were found in available sources ([source](https://kearneyhub.com)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Non-resident landowner; UNMC graduate; no local roles",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Use formal communication emphasizing financial stability. Highlight guaranteed lease income and property value protection, as an absentee owner likely prioritizes economic benefits over local considerations."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records list William Sugimatsu Davis as a co-owner of Harlan County parcel 280002200",
+          "url": "https://harlancounty.ne.gov/webpages/assessor/assessor.html",
+          "title": "Harlan County Assessor",
+          "date": "2026-01-07"
+        },
+        {
+          "claim": "William Sugimatsu Davis is listed as a graduate of the University of Nebraska Medical Center (2005) with ties to Orleans, Nebraska",
+          "url": "https://www.unmc.edu/newsroom/2005/05/04/634-unmc-students-to-receive-diplomas-in-kearney-lincoln-scottsbluff-and-omaha-at-commencements/",
+          "title": "UNMC Commencement News Release",
+          "date": "2005-05-04"
+        },
+        {
+          "claim": "No public statements on development or energy issues by Davis were found in available sources",
+          "url": "https://kearneyhub.com",
+          "title": "Kearney Hub Search Results",
+          "date": "2026-01-07"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jeremy D. VanBoening & Erin M. (Loken) VanBoening",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280003500"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Jeremy VanBoening and Dr. Erin VanBoening are veterinarians who moved to Harlan County in 2003 to purchase and operate the Republican Valley Animal Center in Alma ([source](https://www.repvalleyanimal.com/meet-the-staff)). Jeremy serves as the Chairman of the Harlan County Planning Commission, with a term expiring in 2027 ([source](https://harlancounty.ne.gov/pdfs/planning_zoning/Planning%20Commission%20Members.pdf)). In November 2024, Jeremy advised the County Board of Supervisors regarding wind energy generation setbacks, recommending that previously approved setbacks not be adopted pending further information gathering ([source](https://harlancounty.ne.gov/posting_files/pdfs/board/minutes/2024/20241106_164106_board_minutes.pdf)). He is actively involved in updating the Harlan County Comprehensive Plan and zoning policies ([source](https://harlancounty.ne.gov/posting_files/pdfs/board/minutes/2024/20241106_164106_board_minutes.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Planning Commission Chairman; local veterinarian; business owner",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "farmland_preservation"
+        ],
+        "engage": "Engage formally regarding zoning compliance and comprehensive plan alignment. Acknowledge his regulatory role and emphasize how the project supports county planning goals while respecting agricultural land use."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Dr. Jeremy VanBoening and Dr. Erin VanBoening are veterinarians who moved to Harlan County in 2003 to purchase and operate the Republican Valley Animal Center in Alma",
+          "url": "https://www.repvalleyanimal.com/meet-the-staff",
+          "title": "Republican Valley Animal Center Staff",
+          "date": "2026-01-07"
+        },
+        {
+          "claim": "Jeremy serves as the Chairman of the Harlan County Planning Commission, with a term expiring in 2027",
+          "url": "https://harlancounty.ne.gov/pdfs/planning_zoning/Planning%20Commission%20Members.pdf",
+          "title": "Harlan County Planning Commission Members",
+          "date": "2026-01-07"
+        },
+        {
+          "claim": "In November 2024, Jeremy advised the County Board of Supervisors regarding wind energy generation setbacks, recommending that previously approved setbacks not be adopted pending further information gathering",
+          "url": "https://harlancounty.ne.gov/posting_files/pdfs/board/minutes/2024/20241106_164106_board_minutes.pdf",
+          "title": "Harlan County Board of Supervisors Minutes Nov 6 2024",
+          "date": "2024-11-06"
+        },
+        {
+          "claim": "He is actively involved in updating the Harlan County Comprehensive Plan and zoning policies",
+          "url": "https://harlancounty.ne.gov/posting_files/pdfs/board/minutes/2024/20241106_164106_board_minutes.pdf",
+          "title": "Harlan County Board of Supervisors Minutes Nov 6 2024",
+          "date": "2024-11-06"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 532901,
+    "thinking_count": 28
+  }
+}

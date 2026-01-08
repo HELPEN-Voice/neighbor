@@ -246,12 +246,27 @@ def generate_neighbor_reports(data: dict):
             map_generated = True
             print(f"[generate_neighbor_reports] Copied map image to output directory")
 
+    # Get map labels and filter to High/Medium influence only (no markers for Low)
+    # Also deduplicate by owner name (keep first occurrence of each unique owner)
+    map_labels = data.get("map_labels", [])
+    seen_names = set()
+    filtered_labels = []
+    for label in map_labels:
+        if label.get("is_target"):
+            filtered_labels.append(label)
+        elif label.get("influence") in ["High", "Medium"]:
+            name = label.get("full_name")
+            if name not in seen_names:
+                seen_names.add(name)
+                filtered_labels.append(label)
+
     map_ctx = {
         "map_image_path": Path(map_image_path).name if map_image_path and map_generated else None,
         "county": data.get("county"),
         "state": data.get("state"),
         "coordinates": data.get("coordinates", "Not provided"),
         "parcels_shown": data.get("map_metadata", {}).get("parcels_rendered", 0) if data.get("map_metadata") else 0,
+        "map_labels": filtered_labels,
     }
     html = env.get_template("neighbor-map-playwright.html").render(**map_ctx)
     (OUT / "neighbor-map-playwright.html").write_text(html, encoding="utf-8")

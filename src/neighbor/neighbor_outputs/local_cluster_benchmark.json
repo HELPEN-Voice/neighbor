@@ -1,8 +1,8 @@
 {
-  "run_id": "7564d0ed-51d6-43f4-bf30-3942f2372fd4",
-  "coordinates": "41.933732,-111.01683",
-  "state_code": "WY",
-  "parcels_analyzed": 12,
+  "run_id": "37e6ae3b-94e7-4dfd-ba3e-6a10a5131de0",
+  "coordinates": "40.1625,-99.4815",
+  "state_code": "NE",
+  "parcels_analyzed": 30,
   "community_wealth_proxy": {
     "valid_samples": 0,
     "median_structure_value": null,
@@ -19,7 +19,7 @@
   },
   "total_property_value": null,
   "total_land_value": null,
-  "final_radius_miles": 1.5,
+  "final_radius_miles": 1.0,
   "template_variables": {
     "median_structure_value": "N/A",
     "wealth_risk_level": "UNKNOWN",
@@ -29,9 +29,9 @@
     "land_risk_level": "UNKNOWN",
     "land_risk_class": "risk-unknown",
     "land_valid_samples": "0",
-    "parcels_analyzed": "12",
+    "parcels_analyzed": "30",
     "total_property_value": "N/A",
     "total_land_value": "N/A",
-    "final_radius_miles": "1.50"
+    "final_radius_miles": "1.00"
   }
 }

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-01-07T18:30:38.923623",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighbors have an unknown stance on the development, as none have publicly voiced support or opposition. Likewise, none of these landowners hold any notable public office or leadership role, indicating no high-influence neighbors in the community.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Luther, Roger & Jennifer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280006200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Roger K. Luther and Jennifer K. Luther are listed as residents at an Orleans, Nebraska address [Whitepages](https://www.whitepages.com/name/Roger-Luther/Orleans-NE). They have not been publicly noted in local meetings or news reports about development issues, indicating no clear stance on such projects [Kearney Hub](https://www.kearneyhub.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public role; low profile",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Have a local agricultural figure reach out to discuss how the project can coexist with farming, emphasizing minimal impact on their land’s long-term productivity."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Stoelting, James",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Stoelting is identified as an owner of land in the Orleans area of Harlan County, Nebraska [Whitepages](https://www.whitepages.com/name/James-Stoelting/Orleans-NE). There is no record of Stoelting participating in public hearings or making statements on local land development or energy initiatives to date [Kearney Hub](https://www.kearneyhub.com).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public office; low profile",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Contact him directly with information highlighting farmland protections and minimal disturbance, since he has not engaged publicly on the issue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Lewis, Marlen L. & Beverly E.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280005300"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Marlen L. Lewis and Beverly E. Lewis are listed as residents of Orleans, Nebraska [Whitepages](https://www.whitepages.com/name/Marlen-Lewis/Orleans-NE). They have not publicly voiced any position for or against local development projects, and are not known to hold any community leadership roles in the area [Kearney Hub](https://www.kearneyhub.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Meet with them face-to-face, perhaps accompanied by a longtime community member they trust. Emphasize respect for their family’s long stewardship of the land and provide assurances (such as decommissioning plans) that the land will be restored after the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighbors have an unknown stance on the development, as none have publicly voiced support or opposition. Likewise, none of these landowners hold any notable public office or leadership role, indicating no high-influence neighbors in the community.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Luther, Roger & Jennifer\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280006200\"],\n      \"claims\": \"Roger K. Luther and Jennifer K. Luther are listed as residents at an Orleans, Nebraska address [Whitepages](https://www.whitepages.com/name/Roger-Luther/Orleans-NE). They have not been publicly noted in local meetings or news reports about development issues, indicating no clear stance on such projects [Kearney Hub](https://www.kearneyhub.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public role; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Have a local agricultural figure reach out to discuss how the project can coexist with farming, emphasizing minimal impact on their land’s long-term productivity.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Stoelting, James\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002700\"],\n      \"claims\": \"James Stoelting is identified as an owner of land in the Orleans area of Harlan County, Nebraska [Whitepages](https://www.whitepages.com/name/James-Stoelting/Orleans-NE). There is no record of Stoelting participating in public hearings or making statements on local land development or energy initiatives to date [Kearney Hub](https://www.kearneyhub.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public office; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Contact him directly with information highlighting farmland protections and minimal disturbance, since he has not engaged publicly on the issue.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Lewis, Marlen L. & Beverly E.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280005300\"],\n      \"claims\": \"Marlen L. Lewis and Beverly E. Lewis are listed as residents of Orleans, Nebraska [Whitepages](https://www.whitepages.com/name/Marlen-Lewis/Orleans-NE). They have not publicly voiced any position for or against local development projects, and are not known to hold any community leadership roles in the area [Kearney Hub](https://www.kearneyhub.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Meet with them face-to-face, perhaps accompanied by a longtime community member they trust. Emphasize respect for their family’s long stewardship of the land and provide assurances (such as decommissioning plans) that the land will be restored after the project.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

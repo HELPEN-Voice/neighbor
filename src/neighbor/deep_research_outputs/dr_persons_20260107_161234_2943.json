@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-01-07T16:12:34.294447",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neither neighboring landowner has made a public stance on development or clean energy known, leaving both classified as unknown on the issue. Of the two, one is a local veterinary couple with moderate community influence due to their extensive agricultural clientele, while the other appears to have low profile and minimal local influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "William Sugimatsu & Davis et al.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280002200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Harlan County property records show parcel 280002200 is co-owned by William Sugimatsu along with members of the Davis family [Harlan County Assessor – Property Search](https://harlan.gworks.com). No reference to Sugimatsu or the Davis co-owners was found in county board minutes or local news archives, suggesting they have no public community roles [Harlan County Board of Supervisors](https://harlancounty.ne.gov/board_meetings/minutes.aspx).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known community roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach privately via established local contacts or family intermediaries. Emphasize transparent communication and any financial or legacy benefits to address their likely primary concerns as absentee or low-profile owners."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jeremy D. & Erin M. VanBoening",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "280003500"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Jeremy D. VanBoening and Dr. Erin M. VanBoening (née Loken) are veterinarians who have co-owned the Republican Valley Animal Center in Alma, Nebraska since 2003 [Republican Valley Animal Center](https://www.repvalleyanimal.com/meet-the-staff). Jeremy VanBoening was raised on a crop and livestock farm near Blue Hill, NE and specializes in cattle embryo transfer, reflecting strong ties to the local agricultural community [Republican Valley Animal Center](https://www.repvalleyanimal.com/meet-the-staff).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local veterinarians; wide farming network",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "livestock_safety"
+        ],
+        "engage": "Have a peer or respected farmer initiate dialogue focusing on how the project protects livestock health and preserves productive farmland, aligning with their agricultural background and professional priorities."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neither neighboring landowner has made a public stance on development or clean energy known, leaving both classified as unknown on the issue. Of the two, one is a local veterinary couple with moderate community influence due to their extensive agricultural clientele, while the other appears to have low profile and minimal local influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"William Sugimatsu & Davis et al.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280002200\"],\n      \"claims\": \"Harlan County property records show parcel 280002200 is co-owned by William Sugimatsu along with members of the Davis family [Harlan County Assessor – Property Search](https://harlan.gworks.com). No reference to Sugimatsu or the Davis co-owners was found in county board minutes or local news archives, suggesting they have no public community roles [Harlan County Board of Supervisors](https://harlancounty.ne.gov/board_meetings/minutes.aspx).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known community roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach privately via established local contacts or family intermediaries. Emphasize transparent communication and any financial or legacy benefits to address their likely primary concerns as absentee or low-profile owners.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jeremy D. & Erin M. VanBoening\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"280003500\"],\n      \"claims\": \"Dr. Jeremy D. VanBoening and Dr. Erin M. VanBoening (née Loken) are veterinarians who have co-owned the Republican Valley Animal Center in Alma, Nebraska since 2003 [Republican Valley Animal Center](https://www.repvalleyanimal.com/meet-the-staff). Jeremy VanBoening was raised on a crop and livestock farm near Blue Hill, NE and specializes in cattle embryo transfer, reflecting strong ties to the local agricultural community [Republican Valley Animal Center](https://www.repvalleyanimal.com/meet-the-staff).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local veterinarians; wide farming network\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"livestock_safety\"],\n        \"engage\": \"Have a peer or respected farmer initiate dialogue focusing on how the project protects livestock health and preserves productive farmland, aligning with their agricultural background and professional priorities.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

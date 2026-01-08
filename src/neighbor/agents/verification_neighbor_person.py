@@ -4,7 +4,7 @@ Extends the base verification agent with person-specific search patterns
 and field validation.
 """
 
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 
 from .verification_neighbor_base import NeighborVerificationAgent
 from ..config.prompts import VERIFICATION_NEIGHBOR_SYSTEM, VERIFICATION_PERSON_ADDENDUM
@@ -27,6 +27,7 @@ class NeighborPersonVerificationAgent(NeighborVerificationAgent):
         profiles: List[Dict[str, Any]],
         context: Dict[str, Any],
         entity_type: str = "person",
+        source_file: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Verify a batch of person profiles.
 
@@ -34,9 +35,10 @@ class NeighborPersonVerificationAgent(NeighborVerificationAgent):
             profiles: List of person profile dicts to verify
             context: Dict with county, state, city
             entity_type: Always "person" for this agent
+            source_file: Name of the source dr_*.json file (for DEBUG matching)
 
         Returns:
             Dict with verified profiles and metadata
         """
         # Force entity_type to person
-        return super().verify_batch(profiles, context, entity_type="person")
+        return super().verify_batch(profiles, context, entity_type="person", source_file=source_file)

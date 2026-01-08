@@ -103,6 +103,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
         profiles: List[Dict[str, Any]],
         context: Dict[str, Any],
         entity_type: str = "person",
+        source_file: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Verify a batch of neighbor profiles.
 
@@ -110,6 +111,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
             profiles: List of neighbor profile dicts to verify
             context: Dict with county, state, city
             entity_type: "person" or "organization"
+            source_file: Name of the source dr_*.json file (for DEBUG matching)
 
         Returns:
             Dict with verified profiles and metadata
@@ -123,6 +125,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
         print(f"   Location: {county}, {state}")
         print(f"   Entity type: {entity_type}")
         print(f"   Profiles to verify: {len(profiles)}")
+        print(f"   Source file: {source_file or 'N/A'}")
         print(f"   Agent: {self.agent}")
 
         if not profiles:
@@ -131,6 +134,77 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
                 "neighbors": [],
                 "metadata": {"note": "No profiles to verify"},
             }
+
+        # Check for existing DEBUG JSON files for THIS source file to re-parse
+        debug_dir = Path(__file__).parent.parent / "deep_research_outputs"
+        debug_files = sorted(debug_dir.glob("interaction_DEBUG_*.json"), reverse=True) if debug_dir.exists() else []
+
+        if debug_files and source_file:
+            print(f"   📂 Found {len(debug_files)} DEBUG JSON file(s), looking for match to {source_file}...")
+            for debug_file in debug_files:
+                try:
+                    with open(debug_file, "r", encoding="utf-8") as f:
+                        debug_data = json.load(f)
+
+                    # Verify this DEBUG file matches current source file
+                    if debug_data.get("source_file") != source_file:
+                        continue
+
+                    print(f"   🔄 Found matching DEBUG: {debug_file.name}")
+
+                    # Extract verified_content from debug JSON
+                    verified_content = None
+                    thinking_summaries = []
+
+                    for output in debug_data.get("outputs", []):
+                        output_type = output.get("type")
+                        if output_type == 'thought' and output.get("summary"):
+                            summary = output["summary"]
+                            if isinstance(summary, list):
+                                for item in summary:
+                                    if isinstance(item, dict) and item.get("text"):
+                                        thinking_summaries.append(item["text"])
+                                    elif isinstance(item, str):
+                                        thinking_summaries.append(item)
+                            elif isinstance(summary, str):
+                                thinking_summaries.append(summary)
+                        elif output_type == 'text' and output.get("text"):
+                            verified_content = output["text"]
+
+                    if not verified_content and debug_data.get("outputs"):
+                        verified_content = debug_data["outputs"][-1].get("text")
+
+                    if verified_content:
+                        print(f"   📊 Parsing cached content: {len(verified_content)} chars")
+                        verified_profiles = self._parse_json_output(verified_content, profiles)
+
+                        # Success - delete the DEBUG file since it's been parsed
+                        import subprocess
+                        subprocess.run(["trash", str(debug_file)], check=True)
+                        print(f"   🗑️ Trashed parsed DEBUG file: {debug_file.name}")
+
+                        print(f"\n{'=' * 70}")
+                        print("✅ NEIGHBOR VERIFICATION COMPLETE (from cached DEBUG)")
+                        print(f"{'=' * 70}")
+                        print(f"   Profiles verified: {len(verified_profiles)}")
+
+                        return {
+                            "status": "completed",
+                            "neighbors": verified_profiles,
+                            "metadata": {
+                                "thinking_summaries": thinking_summaries,
+                                "total_tokens": 0,
+                                "entity_type": entity_type,
+                                "profiles_input": len(profiles),
+                                "profiles_output": len(verified_profiles),
+                                "from_cache": True,
+                            },
+                        }
+                except Exception as e:
+                    print(f"   ⚠️ Failed to parse {debug_file.name}: {e}")
+                    continue
+
+            print(f"   ℹ️ No matching DEBUG file for {source_file}, proceeding with API call...")
 
         # Build full input
         full_input = self._build_verification_input(profiles, context, entity_type)
@@ -187,39 +261,66 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
 
                 time.sleep(self.poll_interval)
 
-            # Extract the output
-            if not interaction.outputs:
+            # Save full interaction response as debug JSON before extracting
+            debug_json_path = Path(__file__).parent.parent / "deep_research_outputs" / f"interaction_DEBUG_{entity_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            debug_json_path.parent.mkdir(parents=True, exist_ok=True)
+            try:
+                # Serialize full interaction response (use model_dump if available)
+                if hasattr(interaction, 'model_dump'):
+                    debug_data = interaction.model_dump()
+                else:
+                    debug_data = {attr: getattr(interaction, attr) for attr in dir(interaction)
+                                  if not attr.startswith('_') and not callable(getattr(interaction, attr))}
+
+                # Add our tracking fields
+                debug_data["source_file"] = source_file
+                debug_data["entity_type"] = entity_type
+
+                with open(debug_json_path, "w", encoding="utf-8") as f:
+                    json.dump(debug_data, f, indent=2, ensure_ascii=False, default=str)
+                print(f"   📄 Saved interaction debug to: {debug_json_path.name}")
+            except Exception as e:
+                print(f"   ⚠️ Failed to save interaction debug: {e}")
+                return {
+                    "status": "failed",
+                    "error": f"Failed to save interaction debug: {e}",
+                    "neighbors": profiles,
+                }
+
+            # Extract output ONLY from the saved debug JSON file
+            with open(debug_json_path, "r", encoding="utf-8") as f:
+                debug_data = json.load(f)
+
+            if not debug_data.get("outputs"):
                 return {
                     "status": "failed",
                     "error": "No outputs in completed interaction",
                     "neighbors": profiles,
                 }
 
-            # Separate thinking summaries from text output
+            # Separate thinking summaries from text output (from debug JSON)
             thinking_summaries = []
             verified_content = None
 
-            for output in interaction.outputs:
-                output_type = getattr(output, 'type', None)
-                if output_type == 'thought' and hasattr(output, 'summary'):
-                    if output.summary:
-                        # summary may be a list of TextContent objects
-                        if isinstance(output.summary, list):
-                            for item in output.summary:
-                                if hasattr(item, 'text'):
-                                    thinking_summaries.append(item.text)
-                                else:
-                                    thinking_summaries.append(str(item))
-                        elif hasattr(output.summary, 'text'):
-                            thinking_summaries.append(output.summary.text)
-                        else:
-                            thinking_summaries.append(str(output.summary))
-                elif output_type == 'text' and hasattr(output, 'text'):
-                    verified_content = output.text
+            for output in debug_data.get("outputs", []):
+                output_type = output.get("type")
+                if output_type == 'thought' and output.get("summary"):
+                    summary = output["summary"]
+                    if isinstance(summary, list):
+                        for item in summary:
+                            # Handle both string and text content object formats
+                            if isinstance(item, dict) and item.get("text"):
+                                thinking_summaries.append(item["text"])
+                            elif isinstance(item, str):
+                                thinking_summaries.append(item)
+                    elif isinstance(summary, str):
+                        thinking_summaries.append(summary)
+                elif output_type == 'text' and output.get("text"):
+                    verified_content = output["text"]
 
             # Fallback to last output if no text type found
-            if not verified_content and interaction.outputs:
-                verified_content = getattr(interaction.outputs[-1], 'text', None)
+            if not verified_content and debug_data["outputs"]:
+                verified_content = debug_data["outputs"][-1].get("text")
 
             if not verified_content:
                 return {
@@ -227,6 +328,10 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
                     "error": "Empty output from Gemini Deep Research",
                     "neighbors": profiles,
                 }
+
+            # Log what we're about to parse (should match debug JSON exactly)
+            print(f"   📊 Parsing content from debug JSON: {len(verified_content)} chars")
+            print(f"   📄 Source: {debug_json_path.name}")
 
             # Parse verified profiles from output
             verified_profiles = self._parse_json_output(verified_content, profiles)
@@ -295,15 +400,26 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
             content = content[:-3].strip()
 
         # Try to find JSON array or object in content
+        # Strategy 1: Find ```json code blocks and extract the full JSON (greedy)
+        json_block_match = re.search(r'```json\s*(\[[\s\S]*\])\s*```', content)
+        if json_block_match:
+            json_str = json_block_match.group(1)
+            try:
+                parsed = json.loads(json_str)
+                if isinstance(parsed, list):
+                    print(f"   ✓ Parsed {len(parsed)} profiles from JSON code block")
+                    return parsed
+            except json.JSONDecodeError:
+                pass
+
+        # Strategy 2: Try regex patterns
         json_patterns = [
-            # Pattern 1: Direct JSON array
+            # Pattern 1: Direct JSON array (entire content)
             r'^\s*\[[\s\S]*\]\s*$',
-            # Pattern 2: JSON in code block
-            r'```json\s*(\[[\s\S]*?\])\s*```',
-            # Pattern 3: Object with neighbors array
+            # Pattern 2: Object with neighbors array
             r'\{\s*"neighbors"\s*:\s*(\[[\s\S]*?\])',
-            # Pattern 4: Just find any JSON array
-            r'(\[[\s\S]*?\{[\s\S]*?"neighbor_id"[\s\S]*?\}[\s\S]*?\])',
+            # Pattern 3: Find array starting with neighbor_id (greedy to get full array)
+            r'(\[\s*\{[^[]*"neighbor_id"[\s\S]*\])',
         ]
 
         for pattern in json_patterns:

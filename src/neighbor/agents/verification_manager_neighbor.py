@@ -206,11 +206,12 @@ class NeighborVerificationManager:
         # Select appropriate agent
         agent = self._get_person_agent() if entity_type == "person" else self._get_org_agent()
 
-        # Run verification
+        # Run verification (pass source filename for DEBUG file matching)
         verified = agent.verify_batch(
             profiles=profiles,
             context=context,
             entity_type=entity_type,
+            source_file=path.name,
         )
 
         if verified.get("status") != "completed":

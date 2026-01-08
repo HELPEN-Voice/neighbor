@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-01-07T18:19:34.388971",
+  "entity_type": "organization",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring entities are long-established family farming corporations that hold significant acreage in Harlan County, NE. Murdoch Enterprises Inc. (led by the Murdoch family) and James Drake Farm Enterprises LLC (owned by the Drake family) are primarily engaged in corn and grain agriculture. Neither appears to be a commercial developer; their interests lie in farming, though the Murdochs’ local leadership role could translate into influence over any development proposals. Potential risks include these landowners opposing projects that threaten their land use or water resources, but conversely they could support or partner in developments that provide financial benefits without harming their farm operations.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Murdoch Enterprises, Inc.",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "280003600",
+        "280005200",
+        "280003400",
+        "280005400",
+        "280003300"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Murdoch Enterprises, Inc. is a Nebraska farm corporation based in Orleans (Harlan County), incorporated around 1980 and primarily engaged in corn farming (approximately $122,000 annual revenue with 2 employees) [Manta](https://www.manta.com/c/mmfw4x8/murdoch-enterprises). The Murdoch family operates multiple farm entities in the area (e.g., Murdoch Partnership and D & C Murdoch Farms Inc in Orleans), reflecting extensive landholdings and a leading role in local agriculture [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_mg&regionname=HarlanCounty,Nebraska). Marlin Murdoch – a likely principal of Murdoch Enterprises – serves as Chairman of the Lower Republican Natural Resources District board, indicating significant community influence and involvement in local resource governance [Nebraska Judicial Branch](https://supremecourt.nebraska.gov/courts/supreme-court/supreme-court-call/seeman-v-murdoch-et-al). Murdoch Enterprises Inc. has received roughly $69,373 in federal farm program payments (1995–2024), underscoring its long-term farming operations and financial stake in agriculture [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_mg&regionname=HarlanCounty,Nebraska).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Multi-generational farm family with large land assets; Family members hold leadership positions (NRD board chair); Economic presence through extensive farming and subsidies",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Marlin Murdoch (family patriarch) directly and transparently, emphasizing how the development can align with agricultural interests and water conservation. Leverage his influence by addressing any land impact concerns; securing his buy-in could sway other local landowners rather than incite opposition."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James Drake Farm Enterprises LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "280002800",
+        "280003000",
+        "280005700",
+        "280006300",
+        "280002601",
+        "280006100",
+        "280003100",
+        "280002900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Drake Farm Enterprises LLC is an agricultural limited liability company in Harlan County, Nebraska, presumably owned and managed by local farmer James Drake (as indicated by the name and affiliated business entities). A related entity, James D. Drake Farms Inc., received a $12,883 Paycheck Protection Program loan in 2021 and reported 3 employees, suggesting the Drake farming operation is active but small-scale [ProPublica](https://projects.propublica.org/coronavirus/bailouts/loans/jams-d-drake-farms-inc-8099288609). The company owns multiple farm parcels in the Orleans area, focusing on crop farming, and there are no public records of involvement in non-agricultural ventures or political activities (no mentions in news or state filings). Unlike the Murdochs, the Drake family has not been identified in local leadership roles or development disputes, implying their profile in the community is limited to their farming business (with no documented stance on new development).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Modest family farm operation with several parcels; No known public office or significant political engagement; Influence largely confined to personal land ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach James Drake personally with respect for his farming needs; highlight how the project can provide financial stability (e.g., easement payments) without disrupting his crops. Given his lack of outspoken positions, addressing any concerns privately should prevent him from aligning with larger opposition by default."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring entities are long-established family farming corporations that hold significant acreage in Harlan County, NE. Murdoch Enterprises Inc. (led by the Murdoch family) and James Drake Farm Enterprises LLC (owned by the Drake family) are primarily engaged in corn and grain agriculture. Neither appears to be a commercial developer; their interests lie in farming, though the Murdochs’ local leadership role could translate into influence over any development proposals. Potential risks include these landowners opposing projects that threaten their land use or water resources, but conversely they could support or partner in developments that provide financial benefits without harming their farm operations.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Murdoch Enterprises, Inc.\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"inc\",\n      \"pins\": [\"280003600\", \"280005200\", \"280003400\", \"280005400\", \"280003300\"],\n      \"claims\": \"Murdoch Enterprises, Inc. is a Nebraska farm corporation based in Orleans (Harlan County), incorporated around 1980 and primarily engaged in corn farming (approximately $122,000 annual revenue with 2 employees) [Manta](https://www.manta.com/c/mmfw4x8/murdoch-enterprises). The Murdoch family operates multiple farm entities in the area (e.g., Murdoch Partnership and D & C Murdoch Farms Inc in Orleans), reflecting extensive landholdings and a leading role in local agriculture [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_mg&regionname=HarlanCounty,Nebraska). Marlin Murdoch – a likely principal of Murdoch Enterprises – serves as Chairman of the Lower Republican Natural Resources District board, indicating significant community influence and involvement in local resource governance [Nebraska Judicial Branch](https://supremecourt.nebraska.gov/courts/supreme-court/supreme-court-call/seeman-v-murdoch-et-al). Murdoch Enterprises Inc. has received roughly $69,373 in federal farm program payments (1995–2024), underscoring its long-term farming operations and financial stake in agriculture [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_mg&regionname=HarlanCounty,Nebraska).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Multi-generational farm family with large land assets; Family members hold leadership positions (NRD board chair); Economic presence through extensive farming and subsidies\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Protecting water and land resources\", \"Maintaining farmland value/family legacy\", \"Willingness to consider lucrative lease or sale options\"],\n      \"approach_recommendations\": \"Engage Marlin Murdoch (family patriarch) directly and transparently, emphasizing how the development can align with agricultural interests and water conservation. Leverage his influence by addressing any land impact concerns; securing his buy-in could sway other local landowners rather than incite opposition.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"James Drake Farm Enterprises LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"280002800\", \"280003000\", \"280005700\", \"280006300\", \"280002601\", \"280006100\", \"280003100\", \"280002900\"],\n      \"claims\": \"James Drake Farm Enterprises LLC is an agricultural limited liability company in Harlan County, Nebraska, presumably owned and managed by local farmer James Drake (as indicated by the name and affiliated business entities). A related entity, James D. Drake Farms Inc., received a $12,883 Paycheck Protection Program loan in 2021 and reported 3 employees, suggesting the Drake farming operation is active but small-scale [ProPublica](https://projects.propublica.org/coronavirus/bailouts/loans/jams-d-drake-farms-inc-8099288609). The company owns multiple farm parcels in the Orleans area, focusing on crop farming, and there are no public records of involvement in non-agricultural ventures or political activities (no mentions in news or state filings). Unlike the Murdochs, the Drake family has not been identified in local leadership roles or development disputes, implying their profile in the community is limited to their farming business (with no documented stance on new development).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Modest family farm operation with several parcels; No known public office or significant political engagement; Influence largely confined to personal land ownership\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of family farming operation\", \"Concern about any project’s impact on farmland use\", \"Interest in fair compensation if development benefits their property\"],\n      \"approach_recommendations\": \"Approach James Drake personally with respect for his farming needs; highlight how the project can provide financial stability (e.g., easement payments) without disrupting his crops. Given his lack of outspoken positions, addressing any concerns privately should prevent him from aligning with larger opposition by default.\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

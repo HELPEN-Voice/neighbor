@@ -90,8 +90,7 @@ class MapDataBuilder:
         Determine if a neighbor should be highlighted on the map.
 
         Criteria:
-        - Medium or High community influence
-        - OR publicly stated stance (support/oppose)
+        - High, Medium, or Low community influence
 
         Args:
             neighbor: NeighborProfile to check
@@ -99,9 +98,7 @@ class MapDataBuilder:
         Returns:
             True if neighbor should be highlighted
         """
-        influence_match = neighbor.community_influence in ["High", "Medium"]
-        stance_match = neighbor.noted_stance in ["support", "oppose"]
-        return influence_match or stance_match
+        return neighbor.community_influence in ["High", "Medium", "Low"]
 
     def build_map_features(self) -> Tuple[List[MapFeature], Dict[str, Any]]:
         """

@@ -247,7 +247,7 @@
             </div>
             <div style="margin-left: 0.02in; margin-top: 25px;">
                 <span class="section-title">Parcel Overview</span>
-                <span class="location-info">Lincoln County, WY &bull; 41.933732, -111.01683</span>
+                <span class="location-info">{{ county }}, {{ state }} &bull; {{ coordinates }}</span>
             </div>
         </div>
 
@@ -256,7 +256,7 @@
             <!-- Left: Map + Legend -->
             <div class="left-panel">
                 <div class="map-wrapper">
-                    <img src="7564d0ed-51d6-43f4-bf30-3942f2372fd4_map_full.png" alt="Neighbor Map" class="map-image" />
+                    <img src="{{ map_image_path }}" alt="Neighbor Map" class="map-image" />
                 </div>
 
                 <!-- Horizontal Legend -->
@@ -275,7 +275,7 @@
                             <span>Medium Influence</span>
                         </div>
                     </div>
-                    <div class="parcel-count">3 parcels displayed</div>
+                    <div class="parcel-count">{{ parcels_shown }} parcels displayed</div>
                 </div>
             </div>
 
@@ -292,26 +292,13 @@
                             </tr>
                         </thead>
                         <tbody>
+                            {% for label in map_labels %}
                             <tr>
-                                <td class="marker-num-plain">T</td>
-                                <td>Target Parcel</td>
-                                <td>—</td>
+                                <td class="marker-num-plain">{{ label.marker_char|upper }}</td>
+                                <td>{{ label.text if label.is_target else label.full_name }}</td>
+                                <td{% if label.influence == 'High' %} class="influence-high"{% elif label.influence == 'Medium' %} class="influence-medium"{% endif %}>{{ label.influence if label.influence else '—' }}</td>
                             </tr>
-                            <tr>
-                                <td class="marker-num-plain">1</td>
-                                <td>WILKES</td>
-                                <td class="influence-high">High</td>
-                            </tr>
-                            <tr>
-                                <td class="marker-num-plain">2</td>
-                                <td>BEAR LAKE WEST</td>
-                                <td class="influence-medium">Medium</td>
-                            </tr>
-                            <tr>
-                                <td class="marker-num-plain">3</td>
-                                <td>DAVIS RANCH LLC</td>
-                                <td class="influence-medium">Medium</td>
-                            </tr>
+                            {% endfor %}
                         </tbody>
                     </table>
                 </div>

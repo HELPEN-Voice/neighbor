@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-01-07T18:36:49.374857",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260107_181934_3889.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Harlan County",
+    "state": "NE",
+    "city": "Orleans"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Murdoch Enterprises, Inc.",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "280003600",
+        "280005200",
+        "280003400",
+        "280005400",
+        "280003300"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Murdoch Enterprises, Inc. is a Nebraska farm corporation based in Orleans (Harlan County), primarily engaged in agriculture. The entity has received approximately $750,399 in federal farm program payments from 1995–2024, indicating a significant long-term operational presence ([EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?z=1&zip=68966&page=0)). Principal Marlin Murdoch serves as the Chairman of the Lower Republican Natural Resources District (LRNRD) Board of Directors, a powerful local regulatory body ([LRNRD Board of Directors](https://lrnrd.org/about/board-of-directors)). In his capacity as LRNRD Chair, Murdoch has overseen the district's participation in the Nebraska Cooperative Republican Platte Enhancement Project (NCORPE). In July 2020, the NCORPE board voted to enter into a lease agreement with renewable energy developer Invenergy to study solar and wind resources on NCORPE property ([LRNRD Minutes Aug 2020](https://lrnrd.org/meeting/minutes/2020/817-minutes-8-13-2020/file)). Furthermore, in June 2019, the LRNRD board provided consensus that they \"would like revenue from the land (renewables, grain production, and grazing) to support operational cost\" ([LRNRD Minutes June 2019](https://lrnrd.org/meeting/minutes/2019/724-minutes-6-13-19/file)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Principal Marlin Murdoch is the Chairman of the Lower Republican Natural Resources District (LRNRD), a key regulatory body for land and water use. The family operation receives substantial federal subsidies ($750k+), reflecting significant agricultural standing.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue generation for public projects",
+          "Agricultural preservation"
+        ],
+        "engage": "Engage Marlin Murdoch in his capacity as both a landowner and NRD Chairman. Acknowledge the NRD's pragmatic approach to renewable energy revenue (Invenergy lease) and position the project as a similar opportunity for private land stewardship and economic stability."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Murdoch Enterprises Inc received $750,399 in subsidies 1995-2024",
+          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=68966&page=0",
+          "title": "EWG Farm Subsidy Database - Orleans NE",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Marlin Murdoch is Chair of Lower Republican NRD",
+          "url": "https://lrnrd.org/about/board-of-directors",
+          "title": "LRNRD Board of Directors",
+          "date": "2025-01-07"
+        },
+        {
+          "claim": "NCORPE board voted to lease land to Invenergy for solar/wind study",
+          "url": "https://lrnrd.org/meeting/minutes/2020/817-minutes-8-13-2020/file",
+          "title": "LRNRD Board Minutes August 13 2020",
+          "date": "2020-08-13"
+        },
+        {
+          "claim": "LRNRD board consensus to seek revenue from renewables",
+          "url": "https://lrnrd.org/meeting/minutes/2019/724-minutes-6-13-19/file",
+          "title": "LRNRD Board Minutes June 13 2019",
+          "date": "2019-06-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James Drake Farm Enterprises LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "280002800",
+        "280003000",
+        "280005700",
+        "280006300",
+        "280002601",
+        "280006100",
+        "280003100",
+        "280002900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Drake Farm Enterprises LLC is an agricultural limited liability company in Harlan County, Nebraska, which received $11,313 in federal farm program payments from 1995–2024 ([EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=E00064398)). The entity is associated with James Drake, a local resident who also receives personal conservation payments ([EWG](https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_cr&regionname=HarlanCounty,Nebraska)). Unlike the Murdoch family, James Drake does not appear in local leadership roles or public office rosters, and no public records of involvement in development disputes or political activities were found. Note: Search results for \"James Drake\" in this region may conflate with unrelated individuals (e.g., a physicist or a criminal defendant in Michigan); no relevant local stance on renewable energy could be verified for this specific landowner.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small-scale farm operation with modest subsidy history ($11k for LLC). No evidence of public office, board memberships, or community leadership roles found in county records.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach James Drake personally with respect for his farming needs. Given the lack of public stance, he is likely a 'blank slate' regarding development; early, respectful engagement focusing on land preservation and economic stability (easements) is recommended to prevent default opposition."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "James Drake Farm Enterprises LLC received $11,313 in subsidies",
+          "url": "https://farm.ewg.org/persondetail.php?custnumber=E00064398",
+          "title": "EWG Farm Subsidy Detail - James Drake Farm Enterprises LLC",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "James Drake received personal conservation payments",
+          "url": "https://farm.ewg.org/top_recips.php?fips=31083&progcode=total_cr&regionname=HarlanCounty,Nebraska",
+          "title": "EWG Conservation Reserve Program Recipients",
+          "date": "2024-01-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 523902,
+    "thinking_count": 23
+  }
+}
