@@ -338,10 +338,8 @@ class LabelGenerator:
         labels = []
         legend = []
 
-        # First pass: assign numbers to unique owner names (excluding target and Low influence)
-        owner_to_number: Dict[str, int] = {}
+        # First pass: collect unique owners (excluding target and Low influence)
         owner_to_neighbor: Dict[str, NeighborProfile] = {}
-        current_number = 0
 
         for feat in features:
             props = feat.get("properties", {})
@@ -356,10 +354,18 @@ class LabelGenerator:
             if neighbor and neighbor.community_influence == "Low":
                 continue
 
-            if neighbor and neighbor.name not in owner_to_number:
-                current_number += 1
-                owner_to_number[neighbor.name] = current_number
+            if neighbor and neighbor.name not in owner_to_neighbor:
                 owner_to_neighbor[neighbor.name] = neighbor
+
+        # Sort owners by influence (High first, then Medium) and assign numbers
+        influence_order = {"High": 0, "Medium": 1}
+        sorted_owners = sorted(
+            owner_to_neighbor.items(),
+            key=lambda x: influence_order.get(x[1].community_influence, 2)
+        )
+        owner_to_number: Dict[str, int] = {}
+        for i, (name, _) in enumerate(sorted_owners, start=1):
+            owner_to_number[name] = i
 
         # Second pass: generate labels using assigned numbers
         for feat in features:

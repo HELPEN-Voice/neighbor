@@ -260,6 +260,13 @@ def generate_neighbor_reports(data: dict):
                 seen_names.add(name)
                 filtered_labels.append(label)
 
+    # Sort: Target first, then High influence, then Medium
+    influence_order = {"High": 0, "Medium": 1}
+    filtered_labels.sort(key=lambda x: (
+        0 if x.get("is_target") else 1,  # Target first
+        influence_order.get(x.get("influence"), 2)  # Then by influence
+    ))
+
     map_ctx = {
         "map_image_path": Path(map_image_path).name if map_image_path and map_generated else None,
         "county": data.get("county"),

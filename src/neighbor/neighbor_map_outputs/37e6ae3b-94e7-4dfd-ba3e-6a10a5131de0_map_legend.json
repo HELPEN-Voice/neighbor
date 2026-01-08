@@ -1,42 +1,6 @@
 [
   {
     "marker": "1",
-    "label": "LUTHER",
-    "full_name": "Luther, Roger & Jennifer",
-    "color": "FF8C00",
-    "influence": "Medium",
-    "stance": "unknown",
-    "is_adjacent": false
-  },
-  {
-    "marker": "2",
-    "label": "MARTIN",
-    "full_name": "Beau Martin & Jessica Martin",
-    "color": "FF8C00",
-    "influence": "Medium",
-    "stance": "unknown",
-    "is_adjacent": false
-  },
-  {
-    "marker": "3",
-    "label": "WOODWARD",
-    "full_name": "Bart A. Woodward & Jill R. Woodward",
-    "color": "FF8C00",
-    "influence": "Medium",
-    "stance": "unknown",
-    "is_adjacent": false
-  },
-  {
-    "marker": "4",
-    "label": "STOELTIN",
-    "full_name": "Gary L. Stoelting & James G. Stoelting",
-    "color": "FF8C00",
-    "influence": "Medium",
-    "stance": "unknown",
-    "is_adjacent": false
-  },
-  {
-    "marker": "5",
     "label": "VANBOENI",
     "full_name": "Jeremy D. VanBoening & Erin M. (Loken) VanBoening",
     "color": "007BFF",
@@ -45,12 +9,48 @@
     "is_adjacent": false
   },
   {
-    "marker": "6",
+    "marker": "2",
     "label": "MURDOCH",
     "full_name": "Murdoch Enterprises, Inc.",
     "color": "007BFF",
     "influence": "High",
     "stance": "support",
+    "is_adjacent": false
+  },
+  {
+    "marker": "3",
+    "label": "LUTHER",
+    "full_name": "Luther, Roger & Jennifer",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false
+  },
+  {
+    "marker": "4",
+    "label": "MARTIN",
+    "full_name": "Beau Martin & Jessica Martin",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false
+  },
+  {
+    "marker": "5",
+    "label": "WOODWARD",
+    "full_name": "Bart A. Woodward & Jill R. Woodward",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false
+  },
+  {
+    "marker": "6",
+    "label": "STOELTIN",
+    "full_name": "Gary L. Stoelting & James G. Stoelting",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
     "is_adjacent": false
   }
 ]
