@@ -230,6 +230,37 @@
             margin-left: 1px;
             vertical-align: super;
         }
+
+        /* Influence badges */
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 6.5pt;
+            font-weight: 500;
+        }
+        .badge-high {
+            background: rgba(59, 130, 246, 0.15);
+            color: #2563EB;
+        }
+        .badge-medium {
+            background: rgba(249, 115, 22, 0.15);
+            color: #EA580C;
+        }
+        .badge-low {
+            color: #64748B;
+        }
+
+        /* Stance text colors */
+        .stance-support {
+            color: #16A34A;
+        }
+        .stance-opposed {
+            color: #DC2626;
+        }
+        .stance-unknown {
+            color: #64748B;
+        }
     </style>
 </head>
 <body class="slides">
@@ -298,8 +329,8 @@
                             <td><strong>{{ r.name if r.name else '' }}</strong></td>
                             <td>{{ r.entity_type if r.entity_type else '' }}</td>
                             <td style="font-size: 6.5pt; line-height: 1.3;">{{ (r.claims|format_citations)|safe if r.claims else '' }}</td>
-                            <td style="font-size: 6.5pt;">{{ (r.noted_stance|format_citations)|safe if r.noted_stance else '' }}</td>
-                            <td style="font-size: 6.5pt;">{{ r.community_influence if r.community_influence else '' }}</td>
+                            <td style="font-size: 6.5pt;" class="{% if r.noted_stance and 'support' in r.noted_stance|lower %}stance-support{% elif r.noted_stance and 'oppos' in r.noted_stance|lower %}stance-opposed{% else %}stance-unknown{% endif %}">{{ (r.noted_stance|format_citations)|safe if r.noted_stance else '' }}</td>
+                            <td style="font-size: 6.5pt;">{% if r.community_influence %}<span class="badge {% if r.community_influence|lower == 'high' %}badge-high{% elif r.community_influence|lower == 'medium' %}badge-medium{% else %}badge-low{% endif %}">{{ r.community_influence }}</span>{% endif %}</td>
                             <td style="font-size: 6.5pt; white-space: pre-wrap;">{{ (r.approach_recommendations|format_citations)|safe if r.approach_recommendations else '' }}</td>
                             <td>{{ r.confidence if r.confidence else '' }}</td>
                         </tr>
@@ -344,7 +375,7 @@
                             <td><strong>{{ r.name if r.name else '' }}</strong></td>
                             <td>{{ r.entity_type if r.entity_type else '' }}</td>
                             <td style="font-size: 6.5pt; line-height: 1.3;">{{ (r.claims|format_citations)|safe if r.claims else '' }}</td>
-                            <td style="font-size: 6.5pt;">{{ r.community_influence if r.community_influence else '' }}</td>
+                            <td style="font-size: 6.5pt;">{% if r.community_influence %}<span class="badge {% if r.community_influence|lower == 'high' %}badge-high{% elif r.community_influence|lower == 'medium' %}badge-medium{% else %}badge-low{% endif %}">{{ r.community_influence }}</span>{% endif %}</td>
                             <td style="font-size: 6.5pt;">{{ r.entity_classification if r.entity_classification else '' }}</td>
                             <td style="font-size: 6.5pt; white-space: pre-wrap;">{{ (r.approach_recommendations|format_citations)|safe if r.approach_recommendations else '' }}</td>
                             <td>{{ r.confidence[0]|upper if r.confidence else '' }}</td>
