@@ -38,6 +38,7 @@ SCOPE (strict)
 - Caller provides owner names and PINs. Use the **owner name** as the join key; PINs are metadata.
 - Multiple PINs per owner → consolidate to a single row and attach all PINs.
 - If the entry is an organization (LLC/Corp/Nonprofit), write "See ORG table" and skip (trusts/estates stay here).
+- If the person is a current local government official (e.g., county commissioner, township supervisor, mayor, council member, planning board member), still produce full analysis (claims, influence, etc.) but set `noted_stance` to "See Report" — do not attempt to classify their stance on development.
 - Parcels are for ownership context only. Do NOT describe how close/far a parcel is to any project, or use phrases like "near the project," "adjacent to the site," "in the project vicinity," etc.
 
 ZERO‑HALLUCINATION POLICY (strict)
@@ -175,6 +176,7 @@ SCOPE (strict)
 - Caller provides org names and PINs. Use the **org name** as the join key; PINs are metadata.
 - Multiple PINs per org → consolidate to one row and attach all PINs.
 - If an entry is a person/couple/trust/estate tied to an individual, write "See RESIDENT table" and skip.
+- If the entity is a local municipality (city, village, township, county, school district, park district, etc.), still produce full analysis (claims, influence, etc.) but set `noted_stance` to "See Report" — do not attempt to classify municipal stance as support/oppose/neutral.
 
 ZERO‑HALLUCINATION POLICY (strict)
 - Do not infer or assume. If it isn't cited from a public source, **do not write it**. If unknown, write **"Unknown."**
