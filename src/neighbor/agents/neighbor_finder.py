@@ -113,9 +113,13 @@ class NeighborFinder:
         try:
             async with aiohttp.ClientSession() as session:
                 url = f"{self.base_url}/parcels/area"
-                params = {"token": self.api_key, "geojson": json.dumps(target_geometry)}
+                # Use POST to avoid 414 Request-URI Too Large with complex geometries
+                payload = {"geojson": target_geometry}
+                headers = {"Content-Type": "application/json"}
 
-                async with session.get(url, params=params) as response:
+                async with session.post(
+                    url, params={"token": self.api_key}, json=payload, headers=headers
+                ) as response:
                     if response.status != 200:
                         error_text = await response.text()
                         print(f"Error finding adjacent parcels: {error_text}")

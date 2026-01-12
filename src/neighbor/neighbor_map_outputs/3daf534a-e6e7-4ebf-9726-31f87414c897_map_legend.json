@@ -1,0 +1,38 @@
+[
+  {
+    "marker": "1",
+    "label": "PINAL",
+    "full_name": "Pinal County",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false
+  },
+  {
+    "marker": "2",
+    "label": "ARIZONA",
+    "full_name": "Arizona Public Service Company (APS)",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false
+  },
+  {
+    "marker": "3",
+    "label": "SONORAN",
+    "full_name": "Sonoran Land Fund LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "neutral",
+    "is_adjacent": false
+  },
+  {
+    "marker": "4",
+    "label": "ETHINGTO",
+    "full_name": "Ethington & Hwy 84 LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": false
+  }
+]

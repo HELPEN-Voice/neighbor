@@ -234,9 +234,11 @@ def get_adjacent_parcels(
 
     try:
         url = "https://app.regrid.com/api/v2/parcels/area"
-        params = {"token": api_token, "geojson": json.dumps(target_geometry)}
+        # Use POST to avoid 414 Request-URI Too Large with complex geometries
+        params = {"token": api_token}
+        payload = {"geojson": target_geometry}
 
-        response = requests.get(url, params=params)
+        response = requests.post(url, params=params, json=payload)
         response.raise_for_status()
         data = response.json()
 
