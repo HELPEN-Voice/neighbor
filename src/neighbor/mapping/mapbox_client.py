@@ -203,13 +203,12 @@ class MapboxClient:
             stroke_width = props.get("stroke-width", 2)
 
             # For polyline, we can only do outline (no fill)
-            # Format: path-{strokeWidth}+{strokeColor}-{strokeOpacity}({polyline})
+            # Format: path-{strokeWidth}+{strokeColor}({polyline})
+            # Polyline must be URL-encoded when used in multi-overlay URLs
             try:
                 encoded_path = geometry_to_polyline(geom)
-                safe_path = urllib.parse.quote(encoded_path)
-
-                # Mapbox path format
-                path_param = f"path-{stroke_width}+{stroke}-{stroke_opacity}({safe_path})"
+                safe_path = urllib.parse.quote(encoded_path, safe="")
+                path_param = f"path-{stroke_width}+{stroke}({safe_path})"
                 paths.append(path_param)
             except Exception as e:
                 logger.warning(f"Failed to encode geometry as polyline: {e}")

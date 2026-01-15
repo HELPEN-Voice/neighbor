@@ -196,16 +196,18 @@ class NeighborMapGenerator:
             json.dump(metadata, f, indent=2)
 
         # Save legend data to JSON for HTML template use
+        # Field names must match diligence template expectations: marker_char, text, full_name, etc.
         legend_data_path = os.path.join(self.output_dir, f"{run_id}_map_legend.json")
         legend_data = [
             {
-                "marker": entry.marker_char,
-                "label": entry.label_text,
+                "marker_char": entry.marker_char,
+                "text": entry.label_text,
                 "full_name": entry.full_name,
                 "color": entry.color,
                 "influence": entry.influence,
                 "stance": entry.stance,
                 "is_adjacent": entry.is_adjacent,
+                "is_target": False,  # Legend entries are neighbors, not the target parcel
             }
             for entry in legend
         ]
