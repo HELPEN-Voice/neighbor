@@ -8,8 +8,12 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Literal, Callable
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+
+# Load environment variables from .env file
+load_dotenv()
 from ..config.settings import settings
 from ..models.schemas import NeighborResult, NeighborProfile
 from ..agents.neighbor_finder import NeighborFinder
@@ -94,29 +98,28 @@ Write a 2-4 sentence overview that:
 
 Return ONLY the overview text, no preamble or explanation."""
 
-    try:
-        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-        if not api_key:
-            print("   ⚠️ No Gemini API key found, falling back to simple join")
-            return " ".join(batch_overviews)
-
-        client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
-            model="gemini-3-flash-preview",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=0.3,
-            ),
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        raise ValueError(
+            "GEMINI_API_KEY or GOOGLE_API_KEY must be set for overview synthesis. "
+            "Add it to your .env file."
         )
 
-        synthesized = response.text.strip() if response.text else ""
-        print(f"   ✅ Synthesized overview with Gemini 3 Flash ({len(synthesized)} chars)")
-        return synthesized
+    client = genai.Client(api_key=api_key)
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            temperature=0.3,
+        ),
+    )
 
-    except Exception as e:
-        print(f"   ⚠️ Overview synthesis failed: {e}")
-        print("   Falling back to simple join")
-        return " ".join(batch_overviews)
+    synthesized = response.text.strip() if response.text else ""
+    if not synthesized:
+        raise RuntimeError("Gemini 3 Flash returned empty response for overview synthesis")
+
+    print(f"   ✅ Synthesized overview with Gemini 3 Flash ({len(synthesized)} chars)")
+    return synthesized
 
 
 # =============================================================================

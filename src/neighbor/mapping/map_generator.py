@@ -40,6 +40,7 @@ class NeighborMapGenerator:
         mapbox_token: str,
         output_dir: Optional[str] = None,
         style: str = "satellite-streets-v12",
+        username: str = "mapbox",
         width: int = 800,
         height: int = 450,
         padding: int = 50,
@@ -66,6 +67,7 @@ class NeighborMapGenerator:
         self.mapbox_token = mapbox_token
         self.output_dir = output_dir or self._get_default_output_dir()
         self.style = style
+        self.username = username
         self.width = width
         self.height = height
         self.padding = padding
@@ -143,6 +145,7 @@ class NeighborMapGenerator:
         with MapboxClient(
             access_token=self.mapbox_token,
             style=self.style,
+            username=self.username,
         ) as client:
             result = client.generate_static_map(
                 geojson_features=geojson_features,

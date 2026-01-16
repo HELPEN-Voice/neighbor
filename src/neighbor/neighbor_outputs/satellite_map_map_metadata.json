@@ -1,6 +1,6 @@
 {
-  "run_id": "e6fe1578-17c0-435b-9d63-abc1c8d42c83",
-  "generated_at": "2026-01-16T12:46:49.394597",
+  "run_id": "satellite_map",
+  "generated_at": "2026-01-16T12:55:48.563572",
   "stats": {
     "total_neighbors": 26,
     "highlighted": 21,
@@ -17,18 +17,17 @@
       "neutral": 0
     },
     "adjacent_highlighted": 1,
-    "target_included": true
+    "target_included": false
   },
   "strategy_used": "polyline",
-  "url_length": 4300,
-  "parcels_rendered": 0,
+  "url_length": 4296,
+  "parcels_rendered": 24,
   "labels_count": 13,
   "settings": {
     "width": 800,
     "height": 450,
-    "style": "cmkhcgccj002701rxa794a82z",
+    "style": "satellite-streets-v12",
     "retina": true,
     "padding": 50
-  },
-  "error": "HTTP 404: {\"message\":\"Style not found\"}"
+  }
 }
