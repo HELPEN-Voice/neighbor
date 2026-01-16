@@ -1,37 +1,37 @@
 {
-  "run_id": "3daf534a-e6e7-4ebf-9726-31f87414c897",
-  "coordinates": "32.88675833,-111.82673056",
-  "state_code": "AZ",
+  "run_id": "e6fe1578-17c0-435b-9d63-abc1c8d42c83",
+  "coordinates": "39.273901,-77.893891",
+  "state_code": "WV",
   "parcels_analyzed": 30,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
-  },
-  "land_value_proxy": {
-    "valid_samples": 3,
-    "median_value_per_acre": 1084.2132090447526,
-    "formatted": "$1,084/acre",
+    "valid_samples": 21,
+    "median_structure_value": 193200.0,
+    "formatted": "$193,200",
     "risk_level": "LOW",
     "risk_class": "risk-low"
   },
-  "total_property_value": null,
-  "total_land_value": 263286.0,
-  "final_radius_miles": 0.5,
+  "land_value_proxy": {
+    "valid_samples": 8,
+    "median_value_per_acre": 7305.7343745625185,
+    "formatted": "$7,306/acre",
+    "risk_level": "MEDIUM",
+    "risk_class": "risk-medium"
+  },
+  "total_property_value": 9185200.0,
+  "total_land_value": 9908000.0,
+  "final_radius_miles": 1.0,
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "$1,084/acre",
-    "land_risk_level": "LOW",
-    "land_risk_class": "risk-low",
-    "land_valid_samples": "3",
+    "median_structure_value": "$193,200",
+    "wealth_risk_level": "LOW",
+    "wealth_risk_class": "risk-low",
+    "wealth_valid_samples": "21",
+    "median_land_value_acre": "$7,306/acre",
+    "land_risk_level": "MEDIUM",
+    "land_risk_class": "risk-medium",
+    "land_valid_samples": "8",
     "parcels_analyzed": "30",
-    "total_property_value": "N/A",
-    "total_land_value": "$263,286",
-    "final_radius_miles": "0.50"
+    "total_property_value": "$9,185,200",
+    "total_land_value": "$9,908,000",
+    "final_radius_miles": "1.00"
   }
 }

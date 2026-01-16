@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-01-16T10:16:59.006103",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_092458_0140.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Jefferson County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gary L. Irving Sr. and Dolores K. Irving",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1902013A034100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gary L. Irving Sr. and Dolores K. Irving are recorded as landowners in Jefferson County, specifically associated with a parcel in the Bolivar area ([source](https://data.wvgis.wvu.edu/pub/RA/State/BL/Other/House_Tenure/Owner_Tenure_Jefferson.xlsx)). Gary L. Irving Sr. was listed individually in 2016 county tax records for the Bolivar Corporation district ([source](https://wvlegals.com/jefferson-county-wv-delinquent-tax-list-2016/)). A Gary L. Irving was recognized with a Wall Street Journal Award at Shepherd College (now Shepherd University) in Shepherdstown in 1970, suggesting potential long-standing educational ties to the local community ([source](https://archive.org/stream/picket1969-1974shepu/picket1969-1974shepU_djvu.txt)). No public profile of civic engagement, board membership, or stance on development was found for either individual.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public office or civic role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "As private individuals with potential long-term local ties, a personal, low-key approach through a mutual neighbor or community contact is recommended to build trust and share information discreetly."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Gary L. Irving Sr. and Dolores K. Irving are recorded as landowners in Jefferson County",
+          "url": "https://data.wvgis.wvu.edu/pub/RA/State/BL/Other/House_Tenure/Owner_Tenure_Jefferson.xlsx",
+          "title": "Jefferson County Owner Tenure Data",
+          "date": "2005-01-01"
+        },
+        {
+          "claim": "Gary L. Irving Sr. listed in 2016 county tax records",
+          "url": "https://wvlegals.com/jefferson-county-wv-delinquent-tax-list-2016/",
+          "title": "Jefferson County WV Delinquent Tax List 2016",
+          "date": "2017-06-02"
+        },
+        {
+          "claim": "Gary L. Irving received Wall Street Journal Award at Shepherd College in 1970",
+          "url": "https://archive.org/stream/picket1969-1974shepu/picket1969-1974shepU_djvu.txt",
+          "title": "The Picket (Shepherd College Newspaper) 1969-1974 Archive",
+          "date": "1970-07-14"
+        }
+      ],
+      "verification_notes": "Confirmed property ownership via WVGIS data matching the PIN. Confirmed presence in 2016 tax records. Identified likely alumni connection to local Shepherd University. No evidence of stance on renewable energy or development found."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 551529,
+    "thinking_count": 33
+  }
+}

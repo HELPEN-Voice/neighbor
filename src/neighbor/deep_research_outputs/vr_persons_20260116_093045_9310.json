@@ -1,0 +1,261 @@
+{
+  "timestamp": "2026-01-16T10:13:56.601746",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_093045_9310.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Jefferson County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Seventh-day Adventist Church",
+      "entity_category": "Organization",
+      "entity_type": "Religious",
+      "pins": [
+        "19020011000700010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "This parcel is owned by the Charles Town Seventh-day Adventist Church, located on Summit Point Road in Jefferson County, WV ([Adventist Directory](https://www.adventistdirectory.org/viewEntity.aspx?EntityID=15524)). The congregation has been active in the area for decades, with records of services and events dating back to the 1980s ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF12241998P18.php)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local church congregation",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through the church leadership. Coordinate outreach with the pastor to address any concerns respectfully."
+      },
+      "entity_classification": "religious",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "This parcel is owned by the Charles Town Seventh-day Adventist Church, located on Summit Point Road in Jefferson County, WV",
+          "url": "https://www.adventistdirectory.org/viewEntity.aspx?EntityID=15524",
+          "title": "Charles Town SDA Church - Adventist Organizational Directory",
+          "date": "2026-01-16"
+        },
+        {
+          "claim": "The congregation has been active in the area for decades, with records of services and events dating back to the 1980s",
+          "url": "https://sjf.stparchive.com/Archive/SJF/SJF12241998P18.php",
+          "title": "Spirit of Jefferson Farmers Advocate December 24, 1998",
+          "date": "1998-12-24"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Henry B. Davenport III & Faye B. Davenport",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19020011000700000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Henry B. Davenport III is the owner of 'Altona', a historic farm listed on the National Register of Historic Places ([Jefferson County HLC](http://jeffersoncountyhlc.org/wp-content/uploads/2021/02/Altona-Nomination-Packet.pdf)). The Davenport family has a long history in the county; Henry B. Davenport III successfully sued the Jefferson County Planning Commission in 1980 to secure approval for a residential subdivision on his property ([Justia](https://law.justia.com/cases/west-virginia/supreme-court/1980/14199-3.html)). The family has established the Imogene Coleman Davenport Riely Memorial Scholarship at Shepherd University ([Shepherd University Foundation](https://shepherduniversityfoundation.org/search-named-funds/?cpage=20)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Historic landowner; legal history with planning",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "property_value"
+        ],
+        "engage": "Highlight respect for the Davenport family’s generations in the area. Acknowledge their historic property 'Altona' and their past defense of property rights."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Henry B. Davenport III is the owner of 'Altona', a historic farm listed on the National Register of Historic Places",
+          "url": "http://jeffersoncountyhlc.org/wp-content/uploads/2021/02/Altona-Nomination-Packet.pdf",
+          "title": "Altona Nomination Packet",
+          "date": "2021-02-11"
+        },
+        {
+          "claim": "Henry B. Davenport III successfully sued the Jefferson County Planning Commission in 1980 to secure approval for a residential subdivision on his property",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/1980/14199-3.html",
+          "title": "Davenport v. Jefferson County Planning Commission",
+          "date": "1980-04-04"
+        },
+        {
+          "claim": "The family has established the Imogene Coleman Davenport Riely Memorial Scholarship at Shepherd University",
+          "url": "https://shepherduniversityfoundation.org/search-named-funds/?cpage=20",
+          "title": "Shepherd University Foundation Named Funds",
+          "date": "2026-01-16"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Douglas B. Lutman",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19020011000700050000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Douglas B. Lutman is associated with Lutman Properties LLC, a family business established in 2011 with a stated purpose of crop farming ([WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=303635)). The entity has also engaged in residential development, receiving a Consent Order from the WV DEP in 2018 regarding land disturbance for a subdivision near Mannings ([WV DEP](https://dep.wv.gov/pio/Documents/Lutman%20Properties%2C%20LLC%20Signed%20Order%208741.pdf)). The Lutman family has ties to local governance; a Charles Lutman served on the Jefferson County Planning Commission in the early 1990s ([Justia](https://law.justia.com/cases/federal/appellate-courts/F3/2/48/615844/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Developer; planning board ties",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control"
+        ],
+        "engage": "Engage Douglas Lutman via shared agricultural and development interests. Note the family's history with both farming and subdivision development."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Lutman Properties LLC, a family business established in 2011 with a stated purpose of crop farming",
+          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=303635",
+          "title": "Lutman Properties LLC - WV SOS",
+          "date": "2026-01-16"
+        },
+        {
+          "claim": "The entity has also engaged in residential development, receiving a Consent Order from the WV DEP in 2018 regarding land disturbance for a subdivision near Mannings",
+          "url": "https://dep.wv.gov/pio/Documents/Lutman%20Properties%2C%20LLC%20Signed%20Order%208741.pdf",
+          "title": "WV DEP Consent Order 8741",
+          "date": "2018-02-22"
+        },
+        {
+          "claim": "a Charles Lutman served on the Jefferson County Planning Commission in the early 1990s",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/F3/2/48/615844/",
+          "title": "L.M. Everhart Construction v. Jefferson County Planning Commission",
+          "date": "1993-07-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Brandt G. Turner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19020011000700130000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brandt G. Turner has resided in Jefferson County since at least 1983, when he was recorded participating in local youth events ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF08041983P13.php)). No recent public records regarding development stances or prominent community roles were found.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach privately to learn concerns. Maintain a neighborly one-on-one conversation."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Brandt G. Turner has resided in Jefferson County since at least 1983, when he was recorded participating in local youth events",
+          "url": "https://sjf.stparchive.com/Archive/SJF/SJF08041983P13.php",
+          "title": "Spirit of Jefferson Farmers Advocate August 4, 1983",
+          "date": "1983-08-04"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Fonnie R. Crawford & Sylvia M. Crawford",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19020011000700020000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fonnie R. Crawford has a history of community service in Jefferson County, having served as Treasurer for the local American Red Cross chapter in the 1970s ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF07221971P01.php)). Sylvia M. Crawford has been a donor to the Eastern West Virginia Community Foundation ([EWVCF](https://www.ewvcf.org/wp-content/uploads/2018/05/EWVCF-22nd-Annual-Report.pdf)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Historical community service",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage with a personal, respectful approach. Acknowledge their long-standing presence and past community service."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Fonnie R. Crawford has a history of community service in Jefferson County, having served as Treasurer for the local American Red Cross chapter in the 1970s",
+          "url": "https://sjf.stparchive.com/Archive/SJF/SJF07221971P01.php",
+          "title": "Spirit of Jefferson Farmers Advocate July 22, 1971",
+          "date": "1971-07-22"
+        },
+        {
+          "claim": "Sylvia M. Crawford has been a donor to the Eastern West Virginia Community Foundation",
+          "url": "https://www.ewvcf.org/wp-content/uploads/2018/05/EWVCF-22nd-Annual-Report.pdf",
+          "title": "EWVCF 22nd Annual Report",
+          "date": "2018-05-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 5,
+    "profiles_output": 5,
+    "total_tokens": 816525,
+    "thinking_count": 32
+  }
+}

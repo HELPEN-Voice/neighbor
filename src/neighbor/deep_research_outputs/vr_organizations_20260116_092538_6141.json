@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-01-16T10:20:02.127538",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_092538_6141.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Jefferson County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Claymont Society For Continuous Education Inc",
+      "entity_category": "Organization",
+      "entity_type": "non-profit corporation",
+      "pins": [
+        "19060003000400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Claymont Society for Continuous Education, Inc. is a West Virginia domestic non-profit corporation established in 1974 ([WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=44211)). Since 1974, the Society has owned the historic Claymont Court mansion, operating it as a cooperative school and retreat center focused on spiritual education ([Washington Post](https://www.washingtonpost.com/archive/local/2000/03/05/development-sneaks-up-on-wva/f9f930ec-4141-4f4d-9ef7-692f1c094595/)). In 2012, the Society placed 264 acres of its property under a conservation easement with the Land Trust of the Eastern Panhandle, permanently restricting development to protect the estate's rural character ([Land Trust of the Eastern Panhandle](https://landtrustepwv.org/wp-content/uploads/2018/04/LTEP_Newsletter_Summer2013.pdf)). In 2000, the Society joined local residents to oppose a 3,300-home development project (Hunt Field) on adjacent farmland, reflecting its priority to preserve the area’s rural character ([Washington Post](https://www.washingtonpost.com/archive/local/2000/03/05/development-sneaks-up-on-wva/f9f930ec-4141-4f4d-9ef7-692f1c094595/)). The Society recently launched a project to 'solarize' its barn to reduce reliance on 'corporate utilities' and promote environmental sustainability ([Claymont Society](http://www.claymont.org/community-projects/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Steward of a large historic estate (Claymont Court) with 264 acres under conservation easement; engages in local land-use debates (opposed major subdivision); led by Executive Director Amy Silver.",
+      "approach_recommendations": {
+        "motivations": [
+          "Environmental sustainability",
+          "Preservation of rural character",
+          "Energy independence"
+        ],
+        "engage": "Engage Executive Director Amy Silver to discuss the project's alignment with their sustainability goals. Acknowledge their conservation easement and emphasize how the project differs from the 'corporate structures' they critique by highlighting community benefits or ecological sensitivity."
+      },
+      "entity_classification": "religious",
+      "profile_summary": "The Claymont Society is a spiritual education non-profit that owns the historic Claymont Court. They are pro-renewables (installing their own solar) but anti-sprawl (opposed Hunt Field subdivision). They have placed a conservation easement on the majority of their land, signaling a strong commitment to preservation.",
+      "stance": "support",
+      "signal": "positive",
+      "influence_level": "Medium",
+      "risk_level": "Low",
+      "engagement_recommendation": "Outreach",
+      "social": null,
+      "influence": "Medium",
+      "behavioral_indicators": [
+        "Conservation Easement Holder",
+        "Solar Adopter",
+        "Development Opponent (Residential)"
+      ],
+      "financial_stress_signals": "None detected; active fundraising for capital improvements.",
+      "coalition_predictors": "Likely to align with environmental and preservationist groups; potential ally for low-impact solar if framed as sustainability.",
+      "disambiguation": "Correctly identified as the non-profit owning Claymont Court in Charles Town, WV.",
+      "citations": [
+        {
+          "claim": "Claymont Society for Continuous Education, Inc. is a West Virginia domestic non-profit corporation established in 1974",
+          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=44211",
+          "title": "WV Secretary of State Business Organization Detail",
+          "date": "2026-01-16"
+        },
+        {
+          "claim": "Since 1974, the Society has owned the historic Claymont Court mansion... cooperative school and farm",
+          "url": "https://www.washingtonpost.com/archive/local/2000/03/05/development-sneaks-up-on-wva/f9f930ec-4141-4f4d-9ef7-692f1c094595/",
+          "title": "Development Sneaks Up on W.Va.",
+          "date": "2000-03-05"
+        },
+        {
+          "claim": "In 2012, the Society placed 264 acres of its property under a conservation easement",
+          "url": "https://landtrustepwv.org/wp-content/uploads/2018/04/LTEP_Newsletter_Summer2013.pdf",
+          "title": "Land Trust of the Eastern Panhandle Newsletter Summer 2013",
+          "date": "2013-06-01"
+        },
+        {
+          "claim": "In 2000, the Society joined local residents to oppose a 3,300-home development project (Hunt Field)",
+          "url": "https://www.washingtonpost.com/archive/local/2000/03/05/development-sneaks-up-on-wva/f9f930ec-4141-4f4d-9ef7-692f1c094595/",
+          "title": "Development Sneaks Up on W.Va.",
+          "date": "2000-03-05"
+        },
+        {
+          "claim": "The Society recently launched a project to 'solarize' its barn to reduce reliance on 'corporate utilities'",
+          "url": "http://www.claymont.org/community-projects/",
+          "title": "Claymont Society Community Projects",
+          "date": "2026-01-16"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 447874,
+    "thinking_count": 27
+  }
+}

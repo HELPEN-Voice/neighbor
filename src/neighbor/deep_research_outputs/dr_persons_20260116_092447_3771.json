@@ -1,0 +1,254 @@
+{
+  "timestamp": "2026-01-16T09:24:47.377217",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Jefferson County",
+    "state": "WV",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Five neighboring property-owning households near Middleway have all openly opposed a large industrial development proposal, citing threats to local water resources and rural character. None hold formal public office, and community influence is limited mainly to their role as landowners and citizen intervenors in the planning dispute.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Donald W. & Carmella M. Balsbaugh",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1902013A034000000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donald and Carmella Balsbaugh are landowners near the historic village of Middleway, WV, who joined other residents in legally challenging a proposed water bottling facility over concerns about their wells and property rights [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). In August 2025, a public notice to creditors regarding Carmella M. Balsbaugh’s real estate appeared in the local paper, indicating an estate or debt proceeding involving her property [Spirit of Jefferson](https://wvlegals.com/notice-to-creditors-44/) ([wvlegals.com](https://wvlegals.com/notice-to-creditors-44/#:~:text=TO%20ALL%20CREDITORS%20OF%20CARMELLA,ESTATE%2C%20OR%20ANY%20PART%20THEREOF)). Opponents of the bottling project, including the Balsbaughs, warned that extracting over one million gallons of water per day for the plant could drain the aquifer that feeds nearby Lake Louise and residential wells [West Virginia Explorer](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/) ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Once%20completed%2C%20it%20would%20become,Louise%2C%20located%20just%20outside%20Middleway)).",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Elderly landowners; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "privacy_quiet"
+        ],
+        "engage": "Have a local conservation advocate acknowledge their water rights concerns and outline strict safeguards on aquifer use and noise/traffic to reassure them."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James M. & Susan M. Baird",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1902011A008600000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James and Susan Baird own property in the Middleway area and were among the landowners who petitioned to intervene against the Mountain Pure water bottling plant proposal, arguing it would infringe on their property interests and water access [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). They share community concerns that heavy truck traffic from the facility (over 400 semis anticipated) would overwhelm Middleway’s narrow historic streets and endanger the village’s structures and safety [West Virginia Explorer](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/) ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Sidewinder%20proposes%20to%20install%20a,significant%20historic%20and%20archeological%20resources)). No records show the Bairds holding any public office or leadership roles; their public involvement has been limited to this development dispute and protecting their rural quality of life.",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Concerned residents; not in leadership",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage them via a community meeting led by a respected local planner, emphasizing plans to reroute or minimize truck traffic and preserve the historical and rural character of Middleway."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Michael M. & Tara L. Hough",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19020011000700090000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael and Tara Hough reside on Summit Point Road near Middleway and were part of the group of neighboring landowners taking legal action to halt the large-scale water bottling facility planned nearby [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). In their petition, the Houghs and others asserted that the county planning commission could not fully defend individual property owners’ rights – such as their continued access to well water – which motivated them to seek intervenor status in court [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=near%20Middleway%20and%20Lake%20Louise%2C,but%20it%20can%E2%80%99t%20directly%20defend)). There is no indication that either of the Houghs holds a public office in Jefferson County; they are known mainly for their involvement as private citizens in this development controversy.",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Private citizens; issue-specific activism",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "groundwater_runoff"
+        ],
+        "engage": "Have a one-on-one discussion through a friendly local official or mediator they trust, underscoring community oversight of the project’s water usage and guaranteeing locals a say in monitoring environmental impacts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Keith M. & Jessica A. Bala",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1902013A033800000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Keith and Jessica Bala own a parcel near the proposed Middleway development site and joined other neighbors in formally opposing the project through a court intervention ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). They were concerned that the installation of a two-mile industrial pipeline and the operation of a million-square-foot plant would irreversibly harm the area’s groundwater and environment ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Once%20completed%2C%20it%20would%20become,Louise%2C%20located%20just%20outside%20Middleway)) ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Sidewinder%20proposes%20to%20install%20a,significant%20historic%20and%20archeological%20resources)). The Balas are not publicly known to hold any civic positions in Jefferson County; their engagement has been as landowners defending their property and community from perceived industrial encroachment.",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Newer locals; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "property_value"
+        ],
+        "engage": "Connect with them via a local environmental group to highlight wildlife habitat protections and property value safeguards built into the project’s revised plans, reassuring them that local ecosystems and home values will be maintained."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Mark A. & Nancy T. Lane",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1902011A007000000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark and Nancy Lane are longtime Jefferson County residents who own land in the vicinity of the Middleway bottling plant proposal. They joined the organized resistance to that development, aligning with fellow landowners to contest it in court due to risks such as groundwater depletion and traffic danger [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=near%20Middleway%20and%20Lake%20Louise%2C,but%20it%20can%E2%80%99t%20directly%20defend)). In November 2025, a circuit judge ultimately upheld the Planning Commission’s rejection of the bottling facility, explicitly agreeing with the citizen intervenors’ warnings that pumping over a million gallons a day could threaten adjacent properties and wells [West Virginia Explorer](https://wvexplorer.com/2025/11/10/preservation-middleway-west-virginia/) ([wvexplorer.com](https://wvexplorer.com/2025/11/10/preservation-middleway-west-virginia/#:~:text=She%20also%20agreed%20with%20warnings,nearby%20properties%20and%20residential%20wells)) ([wvexplorer.com](https://wvexplorer.com/2025/11/10/preservation-middleway-west-virginia/#:~:text=After%20nearly%20four%20hours%20of,concept%20plan%20earlier%20this%20year)). The Lanes are not officeholders and have low public profile beyond this issue, but their stance carries weight as part of a unified local opposition that influenced county decisions.",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Vocal neighbors; no formal authority",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "traffic_safety"
+        ],
+        "engage": "Approach them through a neighborly community forum moderated by a county official, emphasizing commitments to protect local heritage and implement traffic safety measures, which speaks to their core concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Five neighboring property-owning households near Middleway have all openly opposed a large industrial development proposal, citing threats to local water resources and rural character. None hold formal public office, and community influence is limited mainly to their role as landowners and citizen intervenors in the planning dispute.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Donald W. & Carmella M. Balsbaugh\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1902013A034000000000\"],\n      \"claims\": \"Donald and Carmella Balsbaugh are landowners near the historic village of Middleway, WV, who joined other residents in legally challenging a proposed water bottling facility over concerns about their wells and property rights [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). In August 2025, a public notice to creditors regarding Carmella M. Balsbaugh’s real estate appeared in the local paper, indicating an estate or debt proceeding involving her property [Spirit of Jefferson](https://wvlegals.com/notice-to-creditors-44/) ([wvlegals.com](https://wvlegals.com/notice-to-creditors-44/#:~:text=TO%20ALL%20CREDITORS%20OF%20CARMELLA,ESTATE%2C%20OR%20ANY%20PART%20THEREOF)). Opponents of the bottling project, including the Balsbaughs, warned that extracting over one million gallons of water per day for the plant could drain the aquifer that feeds nearby Lake Louise and residential wells [West Virginia Explorer](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/) ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Once%20completed%2C%20it%20would%20become,Louise%2C%20located%20just%20outside%20Middleway)).\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Elderly landowners; no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"groundwater_runoff\", \"privacy_quiet\"],\n        \"engage\": \"Have a local conservation advocate acknowledge their water rights concerns and outline strict safeguards on aquifer use and noise/traffic to reassure them.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"James M. & Susan M. Baird\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1902011A008600000000\"],\n      \"claims\": \"James and Susan Baird own property in the Middleway area and were among the landowners who petitioned to intervene against the Mountain Pure water bottling plant proposal, arguing it would infringe on their property interests and water access [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). They share community concerns that heavy truck traffic from the facility (over 400 semis anticipated) would overwhelm Middleway’s narrow historic streets and endanger the village’s structures and safety [West Virginia Explorer](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/) ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Sidewinder%20proposes%20to%20install%20a,significant%20historic%20and%20archeological%20resources)). No records show the Bairds holding any public office or leadership roles; their public involvement has been limited to this development dispute and protecting their rural quality of life.\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Concerned residents; not in leadership\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"traffic_safety\", \"heritage_family_legacy\"],\n        \"engage\": \"Engage them via a community meeting led by a respected local planner, emphasizing plans to reroute or minimize truck traffic and preserve the historical and rural character of Middleway.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Michael M. & Tara L. Hough\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"19020011000700090000\"],\n      \"claims\": \"Michael and Tara Hough reside on Summit Point Road near Middleway and were part of the group of neighboring landowners taking legal action to halt the large-scale water bottling facility planned nearby [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). In their petition, the Houghs and others asserted that the county planning commission could not fully defend individual property owners’ rights – such as their continued access to well water – which motivated them to seek intervenor status in court [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=near%20Middleway%20and%20Lake%20Louise%2C,but%20it%20can%E2%80%99t%20directly%20defend)). There is no indication that either of the Houghs holds a public office in Jefferson County; they are known mainly for their involvement as private citizens in this development controversy.\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizens; issue-specific activism\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"local_control\", \"groundwater_runoff\"],\n        \"engage\": \"Have a one-on-one discussion through a friendly local official or mediator they trust, underscoring community oversight of the project’s water usage and guaranteeing locals a say in monitoring environmental impacts.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Keith M. & Jessica A. Bala\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1902013A033800000000\"],\n      \"claims\": \"Keith and Jessica Bala own a parcel near the proposed Middleway development site and joined other neighbors in formally opposing the project through a court intervention ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)). They were concerned that the installation of a two-mile industrial pipeline and the operation of a million-square-foot plant would irreversibly harm the area’s groundwater and environment ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Once%20completed%2C%20it%20would%20become,Louise%2C%20located%20just%20outside%20Middleway)) ([wvexplorer.com](https://wvexplorer.com/2025/01/28/historic-middleway-west-virginia-endangered-by-water-bottling-facility/#:~:text=Sidewinder%20proposes%20to%20install%20a,significant%20historic%20and%20archeological%20resources)). The Balas are not publicly known to hold any civic positions in Jefferson County; their engagement has been as landowners defending their property and community from perceived industrial encroachment.\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Newer locals; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"wildlife_habitat\", \"property_value\"],\n        \"engage\": \"Connect with them via a local environmental group to highlight wildlife habitat protections and property value safeguards built into the project’s revised plans, reassuring them that local ecosystems and home values will be maintained.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Mark A. & Nancy T. Lane\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1902011A007000000000\"],\n      \"claims\": \"Mark and Nancy Lane are longtime Jefferson County residents who own land in the vicinity of the Middleway bottling plant proposal. They joined the organized resistance to that development, aligning with fellow landowners to contest it in court due to risks such as groundwater depletion and traffic danger [ObserverWV](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=Soon%20after%20Sidewinder%20filed%20the,but%20it%20can%E2%80%99t%20directly%20defend)) ([observerwv.com](https://observerwv.com/local-intervenors-added-to-middleway-bottling-plant-lawsuit/#:~:text=near%20Middleway%20and%20Lake%20Louise%2C,but%20it%20can%E2%80%99t%20directly%20defend)). In November 2025, a circuit judge ultimately upheld the Planning Commission’s rejection of the bottling facility, explicitly agreeing with the citizen intervenors’ warnings that pumping over a million gallons a day could threaten adjacent properties and wells [West Virginia Explorer](https://wvexplorer.com/2025/11/10/preservation-middleway-west-virginia/) ([wvexplorer.com](https://wvexplorer.com/2025/11/10/preservation-middleway-west-virginia/#:~:text=She%20also%20agreed%20with%20warnings,nearby%20properties%20and%20residential%20wells)) ([wvexplorer.com](https://wvexplorer.com/2025/11/10/preservation-middleway-west-virginia/#:~:text=After%20nearly%20four%20hours%20of,concept%20plan%20earlier%20this%20year)). The Lanes are not officeholders and have low public profile beyond this issue, but their stance carries weight as part of a unified local opposition that influenced county decisions.\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Vocal neighbors; no formal authority\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"traffic_safety\"],\n        \"engage\": \"Approach them through a neighborly community forum moderated by a county official, emphasizing commitments to protect local heritage and implement traffic safety measures, which speaks to their core concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

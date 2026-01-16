@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-01-15T15:06:44.317753",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "McHenry County",
+    "state": "IL",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent landowners include a major electric utility, a freight railroad, and a private landholding LLC. The utility (ComEd) and railroad (Union Pacific) are large organizations with substantial influence but are generally focused on safeguarding their infrastructure (power grid and rail line) rather than opposing new development; ComEd could even view a project that enhances the grid favorably, while Union Pacific will primarily emphasize rail safety. The private entity (Freedom Lane LLC) appears to be a speculative landholder with undisclosed ownership, representing a potential wild card that may seek financial gain or assurances, so proactive engagement or acquisition may be needed to mitigate opposition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Commonwealth Edison Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-31-200-002",
+        "11-31-100-002",
+        "11-32-100-002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Commonwealth Edison Company (ComEd) is Illinois’s largest electric utility, serving northern Illinois including Chicago, and it has been an Exelon Corporation subsidiary since 2000 [U.S. Department of Justice](https://www.justice.gov/usao-ndil/pr/commonwealth-edison-agrees-pay-200-million-resolve-federal-criminal-investigation) [Chicago Magazine](https://www.chicagomag.com/chicago-magazine/may-2021/what-the-exelon-split-might-mean-for-your-electric-bill/). In 2020 ComEd agreed to pay a $200 million fine in a federal deferred prosecution deal after admitting to a years-long bribery scheme to influence Illinois officials on legislation benefiting the company [U.S. Department of Justice](https://www.justice.gov/usao-ndil/pr/commonwealth-edison-agrees-pay-200-million-resolve-federal-criminal-investigation).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Essential power provider with political clout (implicated in state-level bribery scheme); significant financial and infrastructural presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage ComEd’s regional external affairs team early to coordinate on any interconnection or easement needs; highlight how the development can bolster local grid capacity and reliability, aligning with ComEd’s service goals"
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Union Pacific Railroad Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "11-31-502-004",
+        "11-31-502-003",
+        "11-32-502-003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Union Pacific Railroad Company is a leading freight railroad operating across 23 states and is the principal operating subsidiary of Union Pacific Corporation (NYSE: UNP) [Union Pacific Railroad](https://www.up.com/aboutup/corporate_info/uprrover/). The company’s community interactions center on rail safety and right-of-way issues, as Union Pacific encourages communities to avoid new at-grade crossings and prioritize grade-separated solutions for public safety [Union Pacific Railroad](https://www.up.com/real_estate/roadxing/industry/new_conversion/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Nationwide transportation giant with legal and financial resources, but local influence is limited to its rail corridor and safety/regulatory matters",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact Union Pacific’s public projects/real estate department to address any impacts near the rail line; adhere strictly to their safety protocols and crossing requirements to prevent conflicts"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Freedom Lane LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-32-100-005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Freedom Lane LLC is listed in county property records as the owner of parcel 11-32-100-005 in the project area, but no public information is available regarding its managers or operations [McHenry County Property Tax Inquiry](https://mchenryil.devnetwedge.com). Illinois law allows LLCs to keep member identities private, and accordingly the beneficial owners of Freedom Lane LLC are not disclosed in any state filings [TotalLegal](https://www.totallegal.com/llc-privacy-which-states-list-owners-amp.aspx).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Unknown ownership with no evident community role beyond land ownership; appears to be a passive investment entity",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Research the LLC’s principals through title records and approach them discreetly to understand their intentions. If they are holding out for profit, consider offering favorable terms (e.g., purchase or partnership) to secure their cooperation or eliminate opposition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent landowners include a major electric utility, a freight railroad, and a private landholding LLC. The utility (ComEd) and railroad (Union Pacific) are large organizations with substantial influence but are generally focused on safeguarding their infrastructure (power grid and rail line) rather than opposing new development; ComEd could even view a project that enhances the grid favorably, while Union Pacific will primarily emphasize rail safety. The private entity (Freedom Lane LLC) appears to be a speculative landholder with undisclosed ownership, representing a potential wild card that may seek financial gain or assurances, so proactive engagement or acquisition may be needed to mitigate opposition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Commonwealth Edison Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-31-200-002\", \"11-31-100-002\", \"11-32-100-002\"],\n      \"claims\": \"Commonwealth Edison Company (ComEd) is Illinois’s largest electric utility, serving northern Illinois including Chicago, and it has been an Exelon Corporation subsidiary since 2000 [U.S. Department of Justice](https://www.justice.gov/usao-ndil/pr/commonwealth-edison-agrees-pay-200-million-resolve-federal-criminal-investigation) [Chicago Magazine](https://www.chicagomag.com/chicago-magazine/may-2021/what-the-exelon-split-might-mean-for-your-electric-bill/). In 2020 ComEd agreed to pay a $200 million fine in a federal deferred prosecution deal after admitting to a years-long bribery scheme to influence Illinois officials on legislation benefiting the company [U.S. Department of Justice](https://www.justice.gov/usao-ndil/pr/commonwealth-edison-agrees-pay-200-million-resolve-federal-criminal-investigation).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Essential power provider with political clout (implicated in state-level bribery scheme); significant financial and infrastructural presence\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Grid reliability improvements\", \"Increased power demand or infrastructure investment\", \"Regulatory goodwill\"],\n      \"approach_recommendations\": \"Engage ComEd’s regional external affairs team early to coordinate on any interconnection or easement needs; highlight how the development can bolster local grid capacity and reliability, aligning with ComEd’s service goals\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Union Pacific Railroad Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"11-31-502-004\", \"11-31-502-003\", \"11-32-502-003\"],\n      \"claims\": \"Union Pacific Railroad Company is a leading freight railroad operating across 23 states and is the principal operating subsidiary of Union Pacific Corporation (NYSE: UNP) [Union Pacific Railroad](https://www.up.com/aboutup/corporate_info/uprrover/). The company’s community interactions center on rail safety and right-of-way issues, as Union Pacific encourages communities to avoid new at-grade crossings and prioritize grade-separated solutions for public safety [Union Pacific Railroad](https://www.up.com/real_estate/roadxing/industry/new_conversion/).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Nationwide transportation giant with legal and financial resources, but local influence is limited to its rail corridor and safety/regulatory matters\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Rail corridor safety\", \"Preservation of right-of-way integrity\", \"Liability and compliance management\"],\n      \"approach_recommendations\": \"Contact Union Pacific’s public projects/real estate department to address any impacts near the rail line; adhere strictly to their safety protocols and crossing requirements to prevent conflicts\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Freedom Lane LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"11-32-100-005\"],\n      \"claims\": \"Freedom Lane LLC is listed in county property records as the owner of parcel 11-32-100-005 in the project area, but no public information is available regarding its managers or operations [McHenry County Property Tax Inquiry](https://mchenryil.devnetwedge.com). Illinois law allows LLCs to keep member identities private, and accordingly the beneficial owners of Freedom Lane LLC are not disclosed in any state filings [TotalLegal](https://www.totallegal.com/llc-privacy-which-states-list-owners-amp.aspx).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Unknown ownership with no evident community role beyond land ownership; appears to be a passive investment entity\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land sale or lease value\", \"Protect property value from perceived negative impacts\", \"Opportunity for buyout or partnership\"],\n      \"approach_recommendations\": \"Research the LLC’s principals through title records and approach them discreetly to understand their intentions. If they are holding out for profit, consider offering favorable terms (e.g., purchase or partnership) to secure their cooperation or eliminate opposition\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

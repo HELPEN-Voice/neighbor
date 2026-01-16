@@ -31,6 +31,60 @@ BAD_CITATION_PATTERNS = [
 ]
 
 
+def cleanup_lenticular_citations(result: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Fix malformed lenticular bracket citations to proper markdown format.
+
+    Handles all combinations:
+    - 【text](url) → [text](url)  (opening lenticular)
+    - [text】(url) → [text](url)  (closing lenticular)
+    - 【text】(url) → [text](url) (both lenticular)
+    - 【text】 → removed          (no URL)
+
+    Also strips zero-width characters that sometimes appear after citations.
+    """
+    neighbors = result.get("neighbors", [])
+    fixed_count = 0
+
+    # Zero-width characters to strip
+    zero_width_chars = '\u200b\u200c\u200d\ufeff'
+
+    for neighbor in neighbors:
+        claims = neighbor.get("claims", "")
+        if not claims:
+            continue
+
+        original = claims
+
+        # Fix all lenticular bracket combinations with URLs:
+        # 【text】(url) → [text](url) (both lenticular)
+        claims = re.sub(r'【([^】]+)】\(([^)]+)\)', r'[\1](\2)', claims)
+        # 【text](url) → [text](url) (opening lenticular only)
+        claims = re.sub(r'【([^\]]+)\]\(([^)]+)\)', r'[\1](\2)', claims)
+        # [text】(url) → [text](url) (closing lenticular only)
+        claims = re.sub(r'\[([^】]+)】\(([^)]+)\)', r'[\1](\2)', claims)
+
+        # Remove fully lenticular format with no URL: 【text】
+        claims = re.sub(r'【[^】]+】', '', claims)
+
+        # Strip zero-width characters
+        for char in zero_width_chars:
+            claims = claims.replace(char, '')
+
+        # Clean up any double spaces left behind
+        claims = re.sub(r'  +', ' ', claims)
+        claims = claims.strip()
+
+        if claims != original:
+            fixed_count += 1
+            neighbor["claims"] = claims
+
+    if fixed_count > 0:
+        print(f"[DEBUG] Fixed lenticular citations in {fixed_count} neighbor(s)")
+
+    return result
+
+
 def validate_citations(result: Dict[str, Any]) -> Dict[str, Any]:
     """
     Validate citations in the result and return validation info.
@@ -459,6 +513,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
             "overview_summary": overview_summary,
             "markdown_debug": markdown_debug,  # Optional, for logging only
         }
+
+        # Clean up malformed lenticular bracket citations before validation
+        result = cleanup_lenticular_citations(result)
 
         # Validate citations and retry if needed
         validation = validate_citations(result)

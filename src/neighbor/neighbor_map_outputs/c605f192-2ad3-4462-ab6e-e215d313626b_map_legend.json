@@ -1,0 +1,38 @@
+[
+  {
+    "marker": "1",
+    "label": "COMMONWE",
+    "full_name": "Commonwealth Edison Co",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false
+  },
+  {
+    "marker": "2",
+    "label": "MCHENRY",
+    "full_name": "McHenry County Conservation District",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "neutral",
+    "is_adjacent": false
+  },
+  {
+    "marker": "3",
+    "label": "UNION",
+    "full_name": "Union Pacific Railroad Co",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "neutral",
+    "is_adjacent": false
+  },
+  {
+    "marker": "4",
+    "label": "WEST",
+    "full_name": "West Grant Develop Inc",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": false
+  }
+]

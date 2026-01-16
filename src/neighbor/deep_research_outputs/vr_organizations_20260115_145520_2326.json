@@ -1,0 +1,215 @@
+{
+  "timestamp": "2026-01-15T15:14:51.228375",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260115_145520_2326.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "McHenry County",
+    "state": "IL",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Union Operating Co LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-31-200-009",
+        "11-31-200-008",
+        "11-31-200-011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Union Operating Co LLC is an Illinois limited liability company listed as the owner of farm parcels in McHenry County, specifically along West Grant Highway [McHenry County Meeting Portal](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=135471). In March 2024, the entity was listed as the owner of record on a zoning petition filed by Clear Channel Outdoor, LLC for billboard improvements on their property, indicating commercial leasing activity beyond simple land holding [McHenry County Zoning Petition](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=135471). The LLC's principals are not explicitly listed in the zoning documents, which defer to the lessee's representatives [McHenry County Meeting Portal](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=135471).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner with commercial interests (billboards); no evidence of broader political influence found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Commercial lease revenue"
+        ],
+        "engage": "Approach as a commercial landlord; entity has demonstrated willingness to lease land for commercial infrastructure (billboards)."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": "Private LLC owning land along Grant Highway; recently engaged in billboard leasing deals.",
+      "citations": [
+        {
+          "claim": "Union Operating Co LLC is an Illinois limited liability company listed as the owner of farm parcels in McHenry County, specifically along West Grant Highway",
+          "url": "https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=135471",
+          "title": "McHenry County Zoning Board of Appeals Packet - March 2024",
+          "date": "2024-03-01"
+        },
+        {
+          "claim": "In March 2024, the entity was listed as the owner of record on a zoning petition filed by Clear Channel Outdoor, LLC for billboard improvements on their property",
+          "url": "https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=135471",
+          "title": "McHenry County Zoning Board of Appeals Packet - March 2024",
+          "date": "2024-03-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "McHenry County Conservation District",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "11-31-400-005",
+        "11-31-200-004",
+        "11-31-100-011",
+        "11-31-300-003",
+        "11-31-100-012",
+        "11-31-200-001",
+        "11-31-300-005",
+        "11-31-200-006",
+        "11-31-300-006",
+        "11-30-400-005",
+        "11-31-100-010",
+        "11-32-100-015",
+        "11-32-100-013"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McHenry County Conservation District (MCCD) is a local government agency that manages over 25,000 acres of open space and farmland for conservation [McHenry County Government](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=131352). The District actively participates in zoning hearings for renewable energy projects; for example, during the Pebble Solar Farm hearings in 2024, MCCD requested specific conditions including increased setbacks and the preservation of a remnant oak woodland [McHenry County ZBA Minutes](https://pub-countyofmchenry.escribemeetings.com/Meeting.aspx?Id=5facd99e-d45a-468a-a911-6e3a4284c687&Agenda=PostMinutes&lang=English). MCCD has also received grants for land acquisition and restoration, such as a $223,500 grant to protect 40 acres in McHenry Township [Daily Herald](https://www.dailyherald.com/20230103/submitted-content/mchenry-county-conservation-district-protects-49-acres-with-illinois-clean-energy-community-foundati/). The agency's stance is driven by ecological impact; they do not strictly oppose solar but advocate for site plans that minimize environmental disruption [McHenry County ZBA Minutes](https://pub-countyofmchenry.escribemeetings.com/Meeting.aspx?Id=5facd99e-d45a-468a-a911-6e3a4284c687&Agenda=PostMinutes&lang=English).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Major landholder and statutory authority on environmental issues; actively influences zoning conditions for development projects.",
+      "approach_recommendations": {
+        "motivations": [
+          "Environmental protection",
+          "Habitat preservation",
+          "Visual screening"
+        ],
+        "engage": "Engage MCCD leadership early; proactively offer setbacks and vegetative screening (pollinator habitats) to align with their conservation goals."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": "County conservation authority; actively engages in solar zoning hearings to enforce environmental protections.",
+      "citations": [
+        {
+          "claim": "The District actively participates in zoning hearings for renewable energy projects; for example, during the Pebble Solar Farm hearings in 2024, MCCD requested specific conditions including increased setbacks and the preservation of a remnant oak woodland",
+          "url": "https://pub-countyofmchenry.escribemeetings.com/Meeting.aspx?Id=5facd99e-d45a-468a-a911-6e3a4284c687&Agenda=PostMinutes&lang=English",
+          "title": "McHenry County Zoning Board of Appeals Minutes - April 10, 2024",
+          "date": "2024-04-10"
+        },
+        {
+          "claim": "MCCD has also received grants for land acquisition and restoration, such as a $223,500 grant to protect 40 acres in McHenry Township",
+          "url": "https://www.dailyherald.com/20230103/submitted-content/mchenry-county-conservation-district-protects-49-acres-with-illinois-clean-energy-community-foundati/",
+          "title": "McHenry County Conservation District protects 49 acres",
+          "date": "2023-01-03"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "West Grant Develop Inc",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "11-31-200-003",
+        "11-31-200-012",
+        "11-32-100-014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "West Grant Development, Inc. is an Illinois corporation identified as the participating landowner for a commercial solar energy facility proposed by OneEnergy Development, LLC [McHenry County ZBA Petition](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=57671). The corporation's officers are listed as James Athans (President), Constantine Athans (Vice President), and David Klesmith (Secretary), with a mailing address in Elkhorn, Wisconsin [McHenry County ZBA Petition](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=131352). The entity owns multiple parcels along West Grant Highway and has actively petitioned for Conditional Use Permits to allow solar development on its property [McHenry County ZBA Petition](https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=57671). The corporation was originally founded by local attorney Donald F. Franz, who served as registered agent until his passing in 2020 [Sigma Chi Newsletter](https://nusigs.squarespace.com/s/Omega-Sig-Newsletter-Feb-2021-Final-r.pdf).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Significant landowner and active participant in renewable energy development; partners with major developers (OneEnergy).",
+      "approach_recommendations": {
+        "motivations": [
+          "Lease revenue",
+          "Land development"
+        ],
+        "engage": "Entity is already a participating landowner for solar; treat as a supportive peer or potential partner for expansion."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Land holding company owned by Wisconsin-based investors; currently leasing land for the OneEnergy solar project.",
+      "citations": [
+        {
+          "claim": "West Grant Development, Inc. is an Illinois corporation identified as the participating landowner for a commercial solar energy facility proposed by OneEnergy Development, LLC",
+          "url": "https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=57671",
+          "title": "McHenry County ZBA Petition #2018-051",
+          "date": "2018-12-11"
+        },
+        {
+          "claim": "The corporation's officers are listed as James Athans (President), Constantine Athans (Vice President), and David Klesmith (Secretary), with a mailing address in Elkhorn, Wisconsin",
+          "url": "https://pub-countyofmchenry.escribemeetings.com/filestream.ashx?DocumentId=131352",
+          "title": "McHenry County ZBA Legal Notice of Public Hearing",
+          "date": "2024-03-26"
+        },
+        {
+          "claim": "The corporation was originally founded by local attorney Donald F. Franz, who served as registered agent until his passing in 2020",
+          "url": "https://nusigs.squarespace.com/s/Omega-Sig-Newsletter-Feb-2021-Final-r.pdf",
+          "title": "Omega Sig Newsletter - Chapter Eternal",
+          "date": "2021-02-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Burma Rd Grain LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-32-100-019"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Burma Rd Grain LLC is an Illinois limited liability company associated with agricultural property on Burma Road in Marengo. The entity holds at least one parcel (PIN 11-32-100-019) used for grain cultivation. Public records do not indicate active commercial development projects or political activity for this specific entity.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small agribusiness; no public profile found.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage as a standard agricultural neighbor; verify ownership and decision-makers via direct contact."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Agricultural entity likely engaged in grain farming.",
+      "citations": []
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "John C Tr Et Al Martin",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "11-32-300-001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John C. Martin is a resident and farmer in the Marengo area of McHenry County. He is a recipient of USDA agricultural subsidies, indicating active involvement in farming operations [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=17111&progcode=total_acre&page=0). The Martin family appears to own multiple agricultural parcels in the vicinity, often listed under individual names or trusts [Starving Farmer Directory](https://www.starvingfarmer.com/county/111/17). No specific public stance on renewable energy development was found for this individual.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local farmer; no evidence of public office or high-profile community leadership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural preservation",
+          "Farm income"
+        ],
+        "engage": "Approach as a working farmer; discuss impacts on agricultural operations and potential for lease revenue."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Local farmer and trust holder; active in USDA subsidy programs.",
+      "citations": [
+        {
+          "claim": "He is a recipient of USDA agricultural subsidies, indicating active involvement in farming operations",
+          "url": "https://farm.ewg.org/top_recips.php?fips=17111&progcode=total_acre&page=0",
+          "title": "EWG Farm Subsidy Database - McHenry County",
+          "date": "2023-01-01"
+        },
+        {
+          "claim": "The Martin family appears to own multiple agricultural parcels in the vicinity, often listed under individual names or trusts",
+          "url": "https://www.starvingfarmer.com/county/111/17",
+          "title": "Starving Farmer Directory - McHenry County",
+          "date": "2023-01-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 5,
+    "profiles_output": 5,
+    "total_tokens": 856337,
+    "thinking_count": 33
+  }
+}

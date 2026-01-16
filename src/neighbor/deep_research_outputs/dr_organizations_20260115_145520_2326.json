@@ -1,0 +1,207 @@
+{
+  "timestamp": "2026-01-15T14:55:20.232671",
+  "entity_type": "organization",
+  "batch_size": 5,
+  "location_context": {
+    "county": "McHenry County",
+    "state": "IL",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring entities include a private farmland LLC, a public conservation agency, a local development corporation, a grain farming LLC, and a personal trust. Ownership patterns suggest mostly local interests with farmland or conservation roles. Key risks are potential opposition from the conservation district over environmental concerns, while private landholders may seek financial incentives or partnerships. No obvious organized opposition groups are present, but the conservation district’s influence and the development company’s assets could shape community sentiment.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Union Operating Co LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-31-200-009",
+        "11-31-200-008",
+        "11-31-200-011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Union Operating Co LLC is an Illinois limited liability company listed as owner of multiple farm parcels in the Union area of McHenry County [McHenry County Treasurer](https://mchenryil.devnetwedge.com/search). The LLC’s formation details and principals are not publicly disclosed on the Illinois Secretary of State’s database, indicating a privately held entity likely formed for land ownership [Illinois SOS Business Search](https://apps.ilsos.gov/). No active business operations or corporate presence beyond property holding are evident for this entity in public records [McHenry County Recorder](https://www.mchenrycountyil.gov/departments/county-recorder).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private landowner; no public profile or political engagement evident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the LLC’s decision-makers via county records; approach through a local land broker to discuss project benefits or land purchase opportunities, emphasizing minimal impact on farming operations"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "McHenry County Conservation District",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "11-31-400-005",
+        "11-31-200-004",
+        "11-31-100-011",
+        "11-31-300-003",
+        "11-31-100-012",
+        "11-31-200-001",
+        "11-31-300-005",
+        "11-31-200-006",
+        "11-31-300-006",
+        "11-30-400-005",
+        "11-31-100-010",
+        "11-32-100-015",
+        "11-32-100-013"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McHenry County Conservation District (MCCD) is a local government agency established in 1971 that manages over 25,000 acres of open space and farmland for conservation ([orgfarmlandsurvey.com](https://orgfarmlandsurvey.com/mchenry/#:~:text=,total%20acres)) ([orgfarmlandsurvey.com](https://orgfarmlandsurvey.com/mchenry/#:~:text=Maybe%20%28Probably%29,part%20of%20a%20larger%20acquisition)). It acquires land to preserve natural habitats; for example, MCCD purchased 82 acres near Pleasant Valley Road in 2010 for approximately $5.66 million to expand a conservation area [McHenry County Recorder](https://www.yumpu.com/en/document/view/4129048/sales-report-mchenry-county). MCCD’s mission prioritizes environmental protection and sustainable land use, and it often provides input on nearby development proposals to ensure compliance with conservation goals [MCCD Mission](https://www.mccdistrict.org/). The District has no profit motive and is governed by a publicly appointed board, making its stances driven by ecological impact rather than financial gain [McHenry County Government](https://www.mchenrycountyil.gov).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Major landholder (thousands of acres); public authority on environmental issues; strong public trust and advisory role in land use decisions",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage MCCD leadership early via formal channels; address environmental concerns by offering habitat mitigation and community benefits; emphasize how the project aligns with conservation values or includes protective measures"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "West Grant Develop Inc",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "11-31-200-003",
+        "11-31-200-012",
+        "11-32-100-014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "West Grant Development, Inc. is an Illinois corporation formed on May 5, 2005 by local attorney Donald F. Franz [Business Profiles](https://businessprofiles.com/details/west-grant-development-inc/IL-64158619). The company’s registered office was in Crystal Lake, IL, and Franz served as its registered agent until his passing in 2020 [Davenport Family Obituary](https://www.davenportfamily.com/obituaries/Donald-Franz/#!/Obituary). Public records indicate the corporation owns several parcels along West Grant Highway, suggesting it was created to hold or develop land in that corridor [McHenry County Recorder](https://www.mchenrycountyil.gov). There are no indications of active development projects or a public website, implying the firm’s activities are limited to land investment and speculative holding rather than ongoing operations [Shaw Local News Archives](https://www.shawlocal.com).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns multiple highway-adjacent parcels; founded by a well-known local attorney; moderate ability to influence through land control and local connections",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out to the current representative or estate executor of West Grant Develop Inc; propose mutually beneficial options such as purchase or joint venture for their land; highlight how the project could increase their land’s value or align with any development plans"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Burma Rd Grain LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "11-32-100-019"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Burma Rd Grain LLC is an Illinois limited liability company likely owned by a local farming family, given its name and the agricultural character of Burma Road in Marengo [LoopNet](https://www.loopnet.com/property/burma-rd-marengo-il-60152/17111-1131400006/). The LLC holds at least one significant parcel (PIN 11-32-100-019) used for grain cultivation, and no other business registrations or online presence are evident, indicating it serves as a vehicle for farm operations or land ownership [Illinois Secretary of State](https://apps.ilsos.gov). There are no news reports or public filings linking Burma Rd Grain LLC to any commercial development or political activity, suggesting its focus remains on agriculture and local grain production [Dun & Bradstreet](https://www.dnb.com).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small agribusiness with limited acreage; primarily engaged in farming; no notable political or economic leverage beyond farming community",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the owners in person on their terms (e.g. farm visit); address any concerns about how the project might affect their farming (drainage, access); offer assurances or compensation for any impacts to their agricultural activities"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "John C Tr Et Al Martin",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "11-32-300-001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "See RESIDENT table",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See RESIDENT table"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring entities include a private farmland LLC, a public conservation agency, a local development corporation, a grain farming LLC, and a personal trust. Ownership patterns suggest mostly local interests with farmland or conservation roles. Key risks are potential opposition from the conservation district over environmental concerns, while private landholders may seek financial incentives or partnerships. No obvious organized opposition groups are present, but the conservation district’s influence and the development company’s assets could shape community sentiment.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Union Operating Co LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"11-31-200-009\", \"11-31-200-008\", \"11-31-200-011\"],\n      \"claims\": \"Union Operating Co LLC is an Illinois limited liability company listed as owner of multiple farm parcels in the Union area of McHenry County [McHenry County Treasurer](https://mchenryil.devnetwedge.com/search). The LLC’s formation details and principals are not publicly disclosed on the Illinois Secretary of State’s database, indicating a privately held entity likely formed for land ownership [Illinois SOS Business Search](https://apps.ilsos.gov/). No active business operations or corporate presence beyond property holding are evident for this entity in public records [McHenry County Recorder](https://www.mchenrycountyil.gov/departments/county-recorder).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private landowner; no public profile or political engagement evident\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Farmland preservation\", \"Property value retention\"],\n      \"approach_recommendations\": \"Identify the LLC’s decision-makers via county records; approach through a local land broker to discuss project benefits or land purchase opportunities, emphasizing minimal impact on farming operations\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"McHenry County Conservation District\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipal\",\n      \"pins\": [\"11-31-400-005\", \"11-31-200-004\", \"11-31-100-011\", \"11-31-300-003\", \"11-31-100-012\", \"11-31-200-001\", \"11-31-300-005\", \"11-31-200-006\", \"11-31-300-006\", \"11-30-400-005\", \"11-31-100-010\", \"11-32-100-015\", \"11-32-100-013\"],\n      \"claims\": \"McHenry County Conservation District (MCCD) is a local government agency established in 1971 that manages over 25,000 acres of open space and farmland for conservation ([orgfarmlandsurvey.com](https://orgfarmlandsurvey.com/mchenry/#:~:text=,total%20acres)) ([orgfarmlandsurvey.com](https://orgfarmlandsurvey.com/mchenry/#:~:text=Maybe%20%28Probably%29,part%20of%20a%20larger%20acquisition)). It acquires land to preserve natural habitats; for example, MCCD purchased 82 acres near Pleasant Valley Road in 2010 for approximately $5.66 million to expand a conservation area [McHenry County Recorder](https://www.yumpu.com/en/document/view/4129048/sales-report-mchenry-county). MCCD’s mission prioritizes environmental protection and sustainable land use, and it often provides input on nearby development proposals to ensure compliance with conservation goals [MCCD Mission](https://www.mccdistrict.org/). The District has no profit motive and is governed by a publicly appointed board, making its stances driven by ecological impact rather than financial gain [McHenry County Government](https://www.mchenrycountyil.gov).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major landholder (thousands of acres); public authority on environmental issues; strong public trust and advisory role in land use decisions\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Environmental conservation\", \"Public mission to protect open space\", \"Wildlife habitat preservation\"],\n      \"approach_recommendations\": \"Engage MCCD leadership early via formal channels; address environmental concerns by offering habitat mitigation and community benefits; emphasize how the project aligns with conservation values or includes protective measures\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"West Grant Develop Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corp\",\n      \"pins\": [\"11-31-200-003\", \"11-31-200-012\", \"11-32-100-014\"],\n      \"claims\": \"West Grant Development, Inc. is an Illinois corporation formed on May 5, 2005 by local attorney Donald F. Franz [Business Profiles](https://businessprofiles.com/details/west-grant-development-inc/IL-64158619). The company’s registered office was in Crystal Lake, IL, and Franz served as its registered agent until his passing in 2020 [Davenport Family Obituary](https://www.davenportfamily.com/obituaries/Donald-Franz/#!/Obituary). Public records indicate the corporation owns several parcels along West Grant Highway, suggesting it was created to hold or develop land in that corridor [McHenry County Recorder](https://www.mchenrycountyil.gov). There are no indications of active development projects or a public website, implying the firm’s activities are limited to land investment and speculative holding rather than ongoing operations [Shaw Local News Archives](https://www.shawlocal.com).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Owns multiple highway-adjacent parcels; founded by a well-known local attorney; moderate ability to influence through land control and local connections\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Real estate value maximization\", \"Development potential of land holdings\", \"Estate settlement (post-founder’s passing)\"],\n      \"approach_recommendations\": \"Reach out to the current representative or estate executor of West Grant Develop Inc; propose mutually beneficial options such as purchase or joint venture for their land; highlight how the project could increase their land’s value or align with any development plans\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Burma Rd Grain LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"11-32-100-019\"],\n      \"claims\": \"Burma Rd Grain LLC is an Illinois limited liability company likely owned by a local farming family, given its name and the agricultural character of Burma Road in Marengo [LoopNet](https://www.loopnet.com/property/burma-rd-marengo-il-60152/17111-1131400006/). The LLC holds at least one significant parcel (PIN 11-32-100-019) used for grain cultivation, and no other business registrations or online presence are evident, indicating it serves as a vehicle for farm operations or land ownership [Illinois Secretary of State](https://apps.ilsos.gov). There are no news reports or public filings linking Burma Rd Grain LLC to any commercial development or political activity, suggesting its focus remains on agriculture and local grain production [Dun & Bradstreet](https://www.dnb.com).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small agribusiness with limited acreage; primarily engaged in farming; no notable political or economic leverage beyond farming community\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Protecting farming operations\", \"Maintaining crop yields and land quality\", \"Avoiding disruptions to agriculture\"],\n      \"approach_recommendations\": \"Engage the owners in person on their terms (e.g. farm visit); address any concerns about how the project might affect their farming (drainage, access); offer assurances or compensation for any impacts to their agricultural activities\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"John C Tr Et Al Martin\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"11-32-300-001\"],\n      \"claims\": \"See RESIDENT table\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"See RESIDENT table\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [],\n      \"approach_recommendations\": \"See RESIDENT table\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
