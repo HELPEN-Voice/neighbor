@@ -1,12 +1,15 @@
 # src/ii_agent/tools/neighbor/orchestrator/neighbor_orchestrator.py
 import asyncio, time
 import json
+import os
 import re
 import sys, subprocess
 import uuid
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Literal, Callable
+from google import genai
+from google.genai import types
 from ..config.settings import settings
 from ..models.schemas import NeighborResult, NeighborProfile
 from ..agents.neighbor_finder import NeighborFinder
@@ -20,6 +23,100 @@ from ..mapping.map_generator import NeighborMapGenerator
 from ..engines.base import ResearchEngine, ResearchEvent
 from ..engines.responses_engine import DeepResearchResponsesEngine
 from ..engines.agents_sdk_engine import AgentsSDKEngine
+
+
+# =============================================================================
+# Overview Synthesis with Gemini 3 Flash
+# =============================================================================
+
+async def synthesize_overview(
+    batch_overviews: List[str],
+    neighbors: List[Dict[str, Any]],
+    location_context: str,
+) -> str:
+    """
+    Synthesize a coherent overview from multiple batch summaries using Gemini 3 Flash.
+
+    The batch overviews from Deep Research often contradict each other because each
+    batch only sees its own subset of neighbors. This function uses an LLM to create
+    a unified summary that accurately reflects the actual neighbor data.
+
+    Args:
+        batch_overviews: List of overview strings from individual Deep Research batches
+        neighbors: List of all merged neighbor profiles (to calculate actual counts)
+        location_context: Location description for context
+
+    Returns:
+        A synthesized overview string that accurately reflects the full dataset
+    """
+    if not batch_overviews:
+        return None
+
+    # Calculate actual counts from merged neighbors
+    high_influence = sum(1 for n in neighbors if (n.get("community_influence") or "").lower() == "high")
+    medium_influence = sum(1 for n in neighbors if (n.get("community_influence") or "").lower() == "medium")
+    low_influence = sum(1 for n in neighbors if (n.get("community_influence") or "").lower() in ["low", "unknown", ""])
+
+    oppose_count = sum(1 for n in neighbors if (n.get("noted_stance") or "").lower() == "oppose")
+    support_count = sum(1 for n in neighbors if (n.get("noted_stance") or "").lower() == "support")
+    neutral_count = sum(1 for n in neighbors if (n.get("noted_stance") or "").lower() == "neutral")
+    unknown_count = len(neighbors) - oppose_count - support_count - neutral_count
+
+    residents = sum(1 for n in neighbors if (n.get("entity_category") or n.get("entity_type") or "").lower() in ["resident", "individual", "trust", "estate"])
+    organizations = len(neighbors) - residents
+
+    # Build the synthesis prompt
+    prompt = f"""You are summarizing neighbor screening results for a land development project.
+
+LOCATION: {location_context}
+
+ACTUAL COUNTS (use these exact numbers - they are authoritative):
+- Total neighbors profiled: {len(neighbors)}
+- Residents/Individuals: {residents}
+- Organizations/Entities: {organizations}
+- High influence: {high_influence}
+- Medium influence: {medium_influence}
+- Low/Unknown influence: {low_influence}
+- Oppose stance: {oppose_count}
+- Support stance: {support_count}
+- Neutral stance: {neutral_count}
+- Unknown stance: {unknown_count}
+
+BATCH SUMMARIES (from separate research batches - may contain inaccuracies about totals):
+{chr(10).join(f"Batch {i+1}: {summary}" for i, summary in enumerate(batch_overviews))}
+
+TASK:
+Write a 2-4 sentence overview that:
+1. Uses the ACTUAL COUNTS above (not the batch summaries' counts which may be wrong)
+2. Synthesizes the qualitative insights from the batch summaries (types of neighbors, key concerns, notable entities)
+3. Highlights any high-influence neighbors or opposition risks
+4. Is factual and concise - no speculation
+
+Return ONLY the overview text, no preamble or explanation."""
+
+    try:
+        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        if not api_key:
+            print("   ⚠️ No Gemini API key found, falling back to simple join")
+            return " ".join(batch_overviews)
+
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model="gemini-3-flash-preview",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.3,
+            ),
+        )
+
+        synthesized = response.text.strip() if response.text else ""
+        print(f"   ✅ Synthesized overview with Gemini 3 Flash ({len(synthesized)} chars)")
+        return synthesized
+
+    except Exception as e:
+        print(f"   ⚠️ Overview synthesis failed: {e}")
+        print("   Falling back to simple join")
+        return " ".join(batch_overviews)
 
 
 # =============================================================================
@@ -824,8 +921,18 @@ class NeighborOrchestrator:
 
                 # Note: Keep factual non-assertion fields like name, pins, entity_type
 
-        # Combine overview summaries if multiple batches produced them
-        combined_overview = " ".join(overview_summaries) if overview_summaries else None
+        # Synthesize overview from batch summaries using Gemini 3 Flash
+        # This creates a coherent summary with accurate counts from merged data
+        location_ctx = f"Neighbors within {radius_mi} mi of {location or (county + ', ' + state if county and state else 'unknown')}"
+        if overview_summaries:
+            print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📝 Synthesizing overview from {len(overview_summaries)} batch summaries...")
+            combined_overview = await synthesize_overview(
+                batch_overviews=overview_summaries,
+                neighbors=merged,
+                location_context=location_ctx,
+            )
+        else:
+            combined_overview = None
 
         # Validate neighbors and skip invalid ones
         validated_neighbors = []
