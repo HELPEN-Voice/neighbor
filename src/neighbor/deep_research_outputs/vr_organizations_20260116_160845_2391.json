@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-01-16T16:38:02.511837",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_160845_2391.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Berkeley County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "FFPLS Hedgesville LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "02   9001000120000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "FFPLS Hedgesville LLC is a limited liability company associated with the property at 1251 Hammonds Mill Road in Hedgesville ([source](https://nationalpublicdata.com/people/f/diane-fletcher/)). The entity appears to be a subsidiary of Faithful Forever Pet Loss Services ('FFPLS'), a company specializing in pet cremation and memorial services ([source](https://www.matw.com/investors/sec-filings/all-sec-filings/content/0000063296-21-000005/0000063296-21-000005.pdf)). Public records indicate the LLC has been a defendant in civil litigation in Berkeley County, with case filings dating back to 2022 ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2)). Previously, the property was the residence of Diane M. Fletcher ([source](https://nationalpublicdata.com/people/f/diane-fletcher/)). The company does not appear in West Virginia's domestic business registry, consistent with the structure of a foreign limited liability company ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Niche commercial service provider or property holding entity; no documented community leadership or broad influence found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset monetization",
+          "Operational efficiency"
+        ],
+        "engage": "Engage via the registered agent or corporate parent (Faithful Forever Pet Loss Services). As a commercial entity, they may be amenable to a financial offer that exceeds the operational or holding value of the asset."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "FFPLS Hedgesville LLC is likely a subsidiary of Faithful Forever Pet Loss Services, holding property at 1251 Hammonds Mill Road. The entity has been involved in local civil litigation and succeeded individual resident Diane M. Fletcher at the address.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "FFPLS Hedgesville LLC is associated with 1251 Hammonds Mill Road and Diane M. Fletcher",
+          "url": "https://nationalpublicdata.com/people/f/diane-fletcher/",
+          "title": "Diane Fletcher - NPD People Search",
+          "date": "2026-01-16"
+        },
+        {
+          "claim": "FFPLS stands for Faithful Forever Pet Loss Services",
+          "url": "https://www.matw.com/investors/sec-filings/all-sec-filings/content/0000063296-21-000005/0000063296-21-000005.pdf",
+          "title": "Matthews International Corp SEC Filing (Def 14A)",
+          "date": "2021-01-19"
+        },
+        {
+          "claim": "FFPLS Hedgesville LLC named in Berkeley County civil litigation (2022)",
+          "url": "https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2",
+          "title": "WV Secretary of State Service of Process Search",
+          "date": "2024-02-14"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 718366,
+    "thinking_count": 38
+  }
+}

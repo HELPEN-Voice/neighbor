@@ -2,21 +2,21 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Robert & Susan Shotto",
+      "name": "Shirley Delta Maye",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "19020011000700040000"
+        "02 9G002200000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Robert and Susan Shotto owned a residential property on Summit Point Road in Jefferson County before selling it in September 2024 ([Zillow](https://www.zillow.com/homedetails/7963-Summit-Point-Rd-Charles-Town-WV-25414/22560068_zpid/)). Robert Shotto has been identified as a healthcare professional who has presented on Crew Resource Management principles ([DTIC](https://www.scribd.com/document/131998533/A-560817)). No evidence could be found of the Shottos participating in local meetings or taking public positions on development issues prior to the sale of their property.",
-      "confidence": "high",
+      "claims": "Shirley Delta Maye is listed as a property owner in Berkeley County’s Falling Waters District, per county tax records ([Berkeley County GIS](https://www.berkeleywv.org/334/Address-SearchGIS-Maps)). No public comments or actions by Maye regarding local development or energy projects could be found in news or meeting records.",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private sellers; no public roles found",
+      "influence_justification": "Private landowner; no public role",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Direct engagement is likely unnecessary as the property has been sold and the individuals have left the location."
+        "engage": "Approach personally via a community liaison to learn her views and any concerns, as her positions are not publicly known."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -33,40 +33,36 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Sold property in September 2024",
-          "url": "https://www.zillow.com/homedetails/7963-Summit-Point-Rd-Charles-Town-WV-25414/22560068_zpid/",
-          "title": "7963 Summit Point Rd Property History",
-          "date": "2024-09-05",
-          "note": null
-        },
-        {
-          "claim": "Robert Shotto identified as healthcare professional",
-          "url": "https://www.scribd.com/document/131998533/A-560817",
-          "title": "Healthcare Simulation Conference Program",
-          "date": "2013-01-01",
+          "claim": "Shirley Delta Maye is listed as a property owner in Berkeley County’s Falling Waters District",
+          "url": "https://www.berkeleywv.org/334/Address-SearchGIS-Maps",
+          "title": "Berkeley County Address Search/GIS Maps",
+          "date": "2026-01-16",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "William R. & Janice E. Curtis",
+      "name": "Scott Funkhouser",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "19020011000700060000"
+        "02 9000200020000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "William and Janice Curtis are listed as owners of a parcel in Jefferson County, West Virginia. Public records indicate a William R. Curtis died in 2004 and a Janice E. Curtis died in 2013, suggesting the property may be held in an estate or trust, though this could not be definitively linked to this specific parcel ([Curtis Family Society](https://www.curtis-curtiss.org/document_view.asp?id=253)). There are no recent public statements or documented civic roles for a living William or Janice Curtis in local affairs.",
-      "confidence": "low",
+      "claims": "Scott Funkhouser is a resident of Berkeley County and serves as a Lieutenant with the Martinsburg Police Department, where he commands the Bike Patrol Unit ([Herald-Mail Media](https://ipmba.org/resources/product-detail/argos-cement-company-donates-bikes-to-martinsburg-police-department-bike-pa)). He has also served as the President of the Berkeley County Historical Society ([WV Press](https://wvpress.org/copydesk/wv-press-videos/martinsburg-nixes-permit-confederate-flag-event/)). In 2016, in his capacity as Historical Society President, he denied a request by a Confederate heritage group to use the Belle Boyd House property, stating the Society's goal to be inclusive ([WV Press](https://wvpress.org/copydesk/wv-press-videos/martinsburg-nixes-permit-confederate-flag-event/)). He is listed as a donor to the Eastern West Virginia Community Foundation ([EWVCF Annual Report](https://www.ewvcf.org/wp-content/uploads/2015/05/AnnualReport.pdf)).",
+      "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Likely deceased or inactive; no public profile",
+      "community_influence": "Medium",
+      "influence_justification": "Police Lieutenant and Historical Society President",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Verify current ownership status through tax records or site visit, as listed owners may be deceased. Approach with sensitivity to potential estate or heirship issues."
+        "motivations": [
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Engage Mr. Funkhouser with respect for his civic roles. Given his leadership in the Historical Society, emphasize how the project respects local heritage and history."
       },
-      "entity_classification": "unknown",
+      "entity_classification": "municipal",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -81,40 +77,45 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "William R. Curtis died in 2004",
-          "url": "https://www.curtis-curtiss.org/document_view.asp?id=253",
-          "title": "Curtis Family Society Historical Obituaries",
-          "date": "2004-08-17",
+          "claim": "Serves as a Lieutenant with the Martinsburg Police Department",
+          "url": "https://ipmba.org/resources/product-detail/argos-cement-company-donates-bikes-to-martinsburg-police-department-bike-pa",
+          "title": "Argos Cement Company Donates Bikes to Martinsburg Police Department",
+          "date": "2017-09-13",
           "note": null
         },
         {
-          "claim": "Janice E. Curtis died in 2013",
-          "url": "https://www.curtis-curtiss.org/document_view.asp?id=241",
-          "title": "Curtis Family Society 2013 Obituaries",
-          "date": "2013-01-01",
+          "claim": "Served as President of the Berkeley County Historical Society",
+          "url": "https://wvpress.org/copydesk/wv-press-videos/martinsburg-nixes-permit-confederate-flag-event/",
+          "title": "Martinsburg nixes permit for Confederate flag event",
+          "date": "2016-02-12",
+          "note": null
+        },
+        {
+          "claim": "Listed as a donor to the Eastern West Virginia Community Foundation",
+          "url": "https://www.ewvcf.org/wp-content/uploads/2015/05/AnnualReport.pdf",
+          "title": "Eastern West Virginia Community Foundation Annual Report",
+          "date": "2015-05-01",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Vera H. Reid",
+      "name": "Ronald W. Hardy",
       "entity_category": "Resident",
-      "entity_type": "Estate",
+      "entity_type": "Individual",
       "pins": [
-        "19020011000500000000"
+        "02 9G001600000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Vera H. Reid was a lifelong Jefferson County resident who passed away in August 2024 at the age of 99 ([Legacy.com](https://www.legacy.com/us/obituaries/name/vera-reid-obituary?id=55809922)). She was a longtime 4-H club leader and served on the Jefferson County 4-H Foundation’s Board of Directors, reflecting deep community roots ([Legacy.com](https://www.legacy.com/us/obituaries/name/vera-reid-obituary?id=55809922)). She was also a member of the Charles Town Presbyterian Church and a singing quartet known as The Melodeers ([Legacy.com](https://www.legacy.com/us/obituaries/name/vera-reid-obituary?id=55809922)).",
-      "confidence": "high",
+      "claims": "Ronald W. Hardy is a resident of the Martinsburg/Falling Waters area of Berkeley County ([Brown Funeral Homes](https://www.brownfuneralhomeswv.com/memorials/dorothy-cook/3820790)). He is listed as a plaintiff in a civil lawsuit filed in Berkeley County Circuit Court in 2023 ([West Virginia Judiciary](http://www.courtswv.gov/node/34100)). No documented stance on land development or energy projects by Hardy was found in available public sources.",
+      "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Longtime community matriarch; 4-H Board Member",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
       "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Coordinate with the estate representatives, honoring the family’s legacy in the community and showing respect for the longstanding ties of the property."
+        "motivations": [],
+        "engage": "A one-on-one outreach respecting his privacy is recommended to gauge his perspective, as he has not openly engaged on development issues."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -131,38 +132,38 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Passed away in August 2024 at age 99",
-          "url": "https://www.legacy.com/us/obituaries/name/vera-reid-obituary?id=55809922",
-          "title": "Vera Hammersla Reid Obituary",
-          "date": "2024-08-09",
+          "claim": "Resident of the Martinsburg/Falling Waters area",
+          "url": "https://www.brownfuneralhomeswv.com/memorials/dorothy-cook/3820790",
+          "title": "Obituary for Dorothy Lee Cook",
+          "date": "2019-04-25",
           "note": null
         },
         {
-          "claim": "Served on Jefferson County 4-H Foundation Board",
-          "url": "https://www.legacy.com/us/obituaries/name/vera-reid-obituary?id=55809922",
-          "title": "Vera Hammersla Reid Obituary",
-          "date": "2024-08-09",
+          "claim": "Listed as a plaintiff in a civil lawsuit filed in Berkeley County Circuit Court",
+          "url": "http://www.courtswv.gov/node/34100",
+          "title": "West Virginia Judiciary Court Closures and Cases",
+          "date": "2025-09-23",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-04",
-      "name": "Bonnie L. McDonald & Carroll E. Harder",
+      "name": "Dennis F. Murphy",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "1902011A006800000000"
+        "02 9G002300000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Bonnie McDonald and Carroll Harder are listed as joint owners of a residential lot in Jefferson County. Genealogical records indicate a Carroll Edison Harder of Jefferson County died in 1971, suggesting the deed may reflect an estate or life estate status ([RootsWeb](http://sites.rootsweb.com/~viands/descendants_of_thomas_jefferson.htm)). Bonnie McDonald has not been publicly involved in recent county committees or land use debates according to available records.",
-      "confidence": "medium",
+      "claims": "Dennis F. Murphy (Dennis Finbarr Murphy) is a resident of Hedgesville, WV, and has been employed as an armed security guard at a federal training center in the region ([US District Court Filing](https://holdcbpaccountable.org/wp-content/uploads/2016/08/ds-reply-to-ps-opp-to-ds-mfsj-i.pdf)). He has been a plaintiff in federal litigation regarding employment matters ([Justia](https://law.justia.com/cases/federal/appellate-courts/ca4/19-1742/19-1742-2019-10-21.html)). He has no known public comments on local development or renewable energy projects in the region.",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public involvement; one owner likely deceased",
+      "influence_justification": "Local resident; no civic leadership roles found",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the household with the understanding that ownership records may be outdated or held in trust. Focus on informal, friendly outreach to determine the current decision-maker."
+        "engage": "Since his views are not public, engage Mr. Murphy through personal conversation to identify any concerns or interests."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -179,34 +180,40 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Carroll Edison Harder died in 1971",
-          "url": "http://sites.rootsweb.com/~viands/descendants_of_thomas_jefferson.htm",
-          "title": "Descendants of Thomas Jefferson Viands - Carroll Edison Harder",
-          "date": "2001-01-01",
+          "claim": "Resident of Hedgesville, WV, and employed as an armed security guard",
+          "url": "https://holdcbpaccountable.org/wp-content/uploads/2016/08/ds-reply-to-ps-opp-to-ds-mfsj-i.pdf",
+          "title": "Plaintiff's Response in Murphy v. CBP",
+          "date": "2016-06-20",
+          "note": null
+        },
+        {
+          "claim": "Plaintiff in federal litigation regarding employment matters",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca4/19-1742/19-1742-2019-10-21.html",
+          "title": "Murphy v. Secretary, U.S. Department of Homeland Security",
+          "date": "2019-10-21",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-05",
-      "name": "Stephen T. & Judith R. Smoot",
+      "name": "Trayer T. Rudy",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "1902011A006900000000"
+        "02 9G002600000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Stephen Smoot is the Editor of the Moorefield Examiner and the Pendleton Times, where he actively covers local news and writes opinion pieces ([Moorefield Examiner](https://moorefieldexaminer.com/contact/)). In May 2024, he authored an article titled 'Profiles in Courage: Jefferson County Edition,' which defended local commissioners who took a stand during the heated controversy over solar farm construction in Jefferson County ([Shinnston News](https://shinnstonnews.com/profiles-in-courage-jefferson-county-edition/)). He has also reported on solar development projects in Hardy County, detailing community concerns and developer plans ([Moorefield Examiner](https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/)).",
+      "claims": "Trayer T. Rudy is a real estate agent with Century 21 Sterling Realty in Berkeley County ([Compass](https://www.compass.com/homedetails/43-Charlotte-Ct-Martinsburg-WV-25405/1UH8W7_pid/)). He also serves as a Construction Coordinator for WVU Medicine Spring Mills ([Imagine Screens](https://imaginescreens.com/our-recent-installs/)). Rudy has served as a Co-Chair for the annual Bernie Hutzler Golf Classic, a local charity event ([WVU Medicine](https://hsc.wvu.edu/hub/announcements/story/?headline=wvu-medicine-hospitals-patients-benefit-from-annual-golf-classic_0)). No specific statements by Rudy regarding renewable energy development were found.",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Newspaper Editor; writes on development policy",
+      "community_influence": "Medium",
+      "influence_justification": "Real estate professional and construction coordinator for major health system",
       "approach_recommendations": {
         "motivations": [
-          "local_control",
-          "aesthetics_viewshed"
+          "property_value"
         ],
-        "engage": "Approach with high awareness of his role as a journalist and opinion shaper. He is knowledgeable about solar controversies. Engagement should be transparent, factual, and prepared for public scrutiny."
+        "engage": "Approach via his professional network in real estate or healthcare construction. His background suggests an understanding of development and land use."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -223,39 +230,39 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Editor of Moorefield Examiner and Pendleton Times",
-          "url": "https://moorefieldexaminer.com/contact/",
-          "title": "Moorefield Examiner Staff Directory",
-          "date": "2024-11-05",
+          "claim": "Real estate agent with Century 21 Sterling Realty",
+          "url": "https://www.compass.com/homedetails/43-Charlotte-Ct-Martinsburg-WV-25405/1UH8W7_pid/",
+          "title": "Property Listing Agent Details",
+          "date": "2026-01-16",
           "note": null
         },
         {
-          "claim": "Authored 'Profiles in Courage' defending commissioners in solar controversy",
-          "url": "https://shinnstonnews.com/profiles-in-courage-jefferson-county-edition/",
-          "title": "Profiles In Courage: Jefferson County Edition",
-          "date": "2024-05-28",
+          "claim": "Serves as a Construction Coordinator for WVU Medicine Spring Mills",
+          "url": "https://imaginescreens.com/our-recent-installs/",
+          "title": "Imagine Screens Recent Installs Testimonial",
+          "date": "2026-01-16",
           "note": null
         },
         {
-          "claim": "Reported on Old Fields Solar project",
-          "url": "https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/",
-          "title": "Open House Shares Details of Solar Farm Plan",
-          "date": "2025-10-21",
+          "claim": "Served as a Co-Chair for the annual Bernie Hutzler Golf Classic",
+          "url": "https://hsc.wvu.edu/hub/announcements/story/?headline=wvu-medicine-hospitals-patients-benefit-from-annual-golf-classic_0",
+          "title": "WVU Medicine Hospitals Patients Benefit from Annual Golf Classic",
+          "date": "2023-06-06",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Frank C. Pegues & Tina M. Pegues",
+      "name": "Todd A. Gladfelter & Karen Gladfelter",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "1902011A006400000000"
+        "02 9G001800000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Frank C. Pegues and Tina M. Pegues are residents of Charles Town, WV ([National Public Data](https://nationalpublicdata.com/people/p/frank-pegues/)). There is no public record of their involvement in community planning or development debates, and they do not appear in local farmland preservation rosters.",
-      "confidence": "high",
+      "claims": "Todd A. Gladfelter and Karen Gladfelter are residents of Hedgesville, West Virginia ([Kelso-Cornelius Funeral Home](https://www.kelso-corneliusfuneralhome.com/obituaries/Richard-M-Dick-Johnson-Jr?obId=1771219)). They are listed as owners of a residential property on Michelle Dr in Berkeley County ([Veripages](https://veripages.com/name/Todd/Gladfelter/)). Public records identify them as a married couple living in the Hedgesville area ([Kelso-Cornelius Funeral Home](https://www.kelso-corneliusfuneralhome.com/obituaries/Richard-M-Dick-Johnson-Jr?obId=1771219)). No record of either holding local official positions or speaking at county meetings regarding development was found in available archives.",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
       "influence_justification": "Private residents; no public roles found",
@@ -263,7 +270,7 @@
         "motivations": [
           "privacy_quiet"
         ],
-        "engage": "Use a personal, neighborly approach via a trusted local intermediary. Emphasize listening to any concerns about property or lifestyle impacts."
+        "engage": "Approach via informal, personal outreach to understand any concerns; emphasize respectful communication and community benefits in discussions."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -280,119 +287,40 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Frank C. Pegues and Tina M. Pegues are residents of Charles Town, WV",
-          "url": "https://nationalpublicdata.com/people/p/frank-pegues/",
-          "title": "Frank Pegues - National Public Data",
-          "date": "2024-01-01",
+          "claim": "Todd A. Gladfelter and Karen Gladfelter are residents of Hedgesville, West Virginia",
+          "url": "https://www.kelso-corneliusfuneralhome.com/obituaries/Richard-M-Dick-Johnson-Jr?obId=1771219",
+          "title": "Obituary for Richard M. 'Dick' Johnson Jr.",
+          "date": "2017-04-12",
+          "note": null
+        },
+        {
+          "claim": "They are listed as owners of a residential property on Michelle Dr in Berkeley County",
+          "url": "https://veripages.com/name/Todd/Gladfelter/",
+          "title": "Veripages Public Record Search",
+          "date": "2026-01-16",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Joseph P. Johnson",
+      "name": "Jamie G. Roseman & Dianna L. Roseman",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "1902011A006500000000"
+        "02 9G001900000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Joseph P. Johnson is a property owner in the vicinity. While a prominent former Virginia House of Delegates member shares this name ([E&E News](https://legacy-assets.eenews.net/open_files/assets/2013/10/09/document_gw_02.pdf)), no conclusive evidence links that public figure to this Jefferson County property. No news reports or community records indicate any stance or activism by this Joseph P. Johnson on local land-use proposals.",
+      "claims": "Jamie G. Roseman and Dianna L. Roseman jointly own property in the Falling Waters area of Berkeley County ([Berkeley County Assessor](https://www.berkeleywv.org)). No separate business or organizational affiliations were identified in local public records ([Martinsburg Journal](https://www.journal-news.net)). Neither individual appears in local news or civic documents regarding land use or development debates.",
       "confidence": "low",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No known civic engagement in county",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value"
-        ],
-        "engage": "Initiate a polite, informal conversation to introduce the project. Allow Johnson to voice any questions regarding local property values and community character."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "While a prominent former Virginia House of Delegates member shares this name",
-          "url": "https://legacy-assets.eenews.net/open_files/assets/2013/10/09/document_gw_02.pdf",
-          "title": "CoalBlue Project Letter",
-          "date": "2013-10-09",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Calvin L. Togans & Cynthia C. Togans",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "1902011A008700000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Calvin L. Togans and Cynthia C. Togans are property owners in Jefferson County. Calvin L. Togans is a long-time resident who received a degree from Shepherd College in 1981 ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF06181981P03.php)). Their names do not appear in recent community petitions or farmland preservation rosters, suggesting no active role in local land-use debates.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public presence found",
-      "approach_recommendations": {
-        "motivations": [
-          "local_control"
-        ],
-        "engage": "Approach via a friendly in-person visit. Emphasize respect for local traditions and answer any questions about how the project will address quality-of-life concerns."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Calvin L. Togans is a long-time resident who received a degree from Shepherd College in 1981",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF06181981P03.php",
-          "title": "Spirit of Jefferson Farmers Advocate June 18, 1981",
-          "date": "1981-06-18",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "George E. Newman Jr. & Joyce A. Newman",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "1902011A006600000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Joyce A. Newman is a resident of Charles Town, WV, listed at the property address since 2011 ([National Public Data](https://nationalpublicdata.com/people/n/joyce-newman/)). While a George E. Newman Jr. appears in regional records, including a 1972 graduate in Charleston, WV ([Pike Archive](http://www.pikearchive.org/wp-content/uploads/2017/11/PKA_SD_2003_AUTUMN.pdf)), specific details linking him to this Jefferson County parcel or military service could not be verified. The Newmans have not made any known public comments on local development proposals.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents",
+      "influence_justification": "No evident influence; private landowners",
       "approach_recommendations": {
         "motivations": [
           "privacy_quiet"
         ],
-        "engage": "Have a respected community member reach out to discuss the project informally. Building rapport on common ground and clearly explaining plans can encourage openness."
+        "engage": "Engage through a friendly introduction at their residence; listen to any questions and share clear, factual information about the project."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -409,131 +337,16 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Joyce A. Newman is a resident of Charles Town, WV, listed at the property address since 2011",
-          "url": "https://nationalpublicdata.com/people/n/joyce-newman/",
-          "title": "Joyce Newman - National Public Data",
-          "date": "2024-01-01",
+          "claim": "Jamie G. Roseman and Dianna L. Roseman jointly own property in the Falling Waters area of Berkeley County",
+          "url": "https://www.berkeleywv.org/",
+          "title": "Berkeley County Assessor Records",
+          "date": "2026-01-16",
           "note": null
         },
         {
-          "claim": "including a 1972 graduate in Charleston, WV",
-          "url": "http://www.pikearchive.org/wp-content/uploads/2017/11/PKA_SD_2003_AUTUMN.pdf",
-          "title": "Shield & Diamond Autumn 2003",
-          "date": "2003-09-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Donald K. Mickey & Gail H. Mickey",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "19020011000700030000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Donald K. Mickey and Gail H. Mickey are local landowners. Donald K. Mickey served Jefferson County schools for 30 years, notably as coordinator of guidance and testing ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF10261967P01.php)). In recognition of his service, the county designated June 23, 1989, as \"Donald K. Mickey Day\" ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF06081989P02.php)). Gail H. Mickey is identified as his wife in family obituaries ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/richmond-va/hilda-hindman-6225649)). They have not appeared in recent county farmland program records or land-use advocacy efforts.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Retired school official; honored by county",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage the Mickeys through a neighborly introduction, acknowledging Donald's service to the county schools. Emphasize transparency about the project timeline and assurances regarding maintenance of local roadways and scenery."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Donald K. Mickey served Jefferson County schools for 30 years, notably as coordinator of guidance and testing",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF10261967P01.php",
-          "title": "Spirit of Jefferson Farmers Advocate Oct 26, 1967",
-          "date": "1967-10-26",
-          "note": null
-        },
-        {
-          "claim": "the county designated June 23, 1989, as \"Donald K. Mickey Day\"",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF06081989P02.php",
-          "title": "Spirit of Jefferson Farmers Advocate June 8, 1989",
-          "date": "1989-06-08",
-          "note": null
-        },
-        {
-          "claim": "Gail H. Mickey is identified as his wife in family obituaries",
-          "url": "https://www.dignitymemorial.com/obituaries/richmond-va/hilda-hindman-6225649",
-          "title": "Obituary of Hilda Mitchell Hindman",
-          "date": "2014-12-05",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Henry B. Davenport III & Faye B. Davenport",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "19020011000700000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Henry B. Davenport III is the owner of 'Altona', a historic farm listed on the National Register of Historic Places ([Jefferson County HLC](http://jeffersoncountyhlc.org/wp-content/uploads/2021/02/Altona-Nomination-Packet.pdf)). The Davenport family has a long history in the county; Henry B. Davenport III successfully sued the Jefferson County Planning Commission in 1980 to secure approval for a residential subdivision on his property ([Justia](https://law.justia.com/cases/west-virginia/supreme-court/1980/14199-3.html)). The family has established the Imogene Coleman Davenport Riely Memorial Scholarship at Shepherd University ([Shepherd University Foundation](https://shepherduniversityfoundation.org/search-named-funds/?cpage=20)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Historic landowner; legal history with planning",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "property_value"
-        ],
-        "engage": "Highlight respect for the Davenport family’s generations in the area. Acknowledge their historic property 'Altona' and their past defense of property rights."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Henry B. Davenport III is the owner of 'Altona', a historic farm listed on the National Register of Historic Places",
-          "url": "http://jeffersoncountyhlc.org/wp-content/uploads/2021/02/Altona-Nomination-Packet.pdf",
-          "title": "Altona Nomination Packet",
-          "date": "2021-02-11",
-          "note": null
-        },
-        {
-          "claim": "Henry B. Davenport III successfully sued the Jefferson County Planning Commission in 1980 to secure approval for a residential subdivision on his property",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/1980/14199-3.html",
-          "title": "Davenport v. Jefferson County Planning Commission",
-          "date": "1980-04-04",
-          "note": null
-        },
-        {
-          "claim": "The family has established the Imogene Coleman Davenport Riely Memorial Scholarship at Shepherd University",
-          "url": "https://shepherduniversityfoundation.org/search-named-funds/?cpage=20",
-          "title": "Shepherd University Foundation Named Funds",
+          "claim": "No separate business or organizational affiliations were identified in local public records",
+          "url": "https://www.journal-news.net/",
+          "title": "Martinsburg Journal Search",
           "date": "2026-01-16",
           "note": null
         }
@@ -541,26 +354,25 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Douglas B. Lutman",
+      "name": "Scott Michael Shimel",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "19020011000700050000"
+        "02 9G002000000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Douglas B. Lutman is associated with Lutman Properties LLC, a family business established in 2011 with a stated purpose of crop farming ([WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=303635)). The entity has also engaged in residential development, receiving a Consent Order from the WV DEP in 2018 regarding land disturbance for a subdivision near Mannings ([WV DEP](https://dep.wv.gov/pio/Documents/Lutman%20Properties%2C%20LLC%20Signed%20Order%208741.pdf)). The Lutman family has ties to local governance; a Charles Lutman served on the Jefferson County Planning Commission in the early 1990s ([Justia](https://law.justia.com/cases/federal/appellate-courts/F3/2/48/615844/)).",
-      "confidence": "high",
+      "claims": "Scott Michael Shimel is the listed owner of a parcel in Berkeley County, WV ([Berkeley County Assessor](https://www.berkeleywv.org)). Public records indicate a Scott Shimel attended Hedgesville High School, suggesting long-term ties to the area ([Old Friends](https://old-friends.co/school.php?s=30335)). There are no mentions of Scott M. Shimel in available county meeting minutes or local news reports regarding development.",
+      "confidence": "low",
       "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Developer; planning board ties",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active; private citizen",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
           "local_control"
         ],
-        "engage": "Engage Douglas Lutman via shared agricultural and development interests. Note the family's history with both farming and subdivision development."
+        "engage": "Have a one-on-one conversation to introduce the project and address any concerns; consider a neighborly approach via shared contacts or community events."
       },
-      "entity_classification": "land_investment",
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -575,242 +387,16 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Lutman Properties LLC, a family business established in 2011 with a stated purpose of crop farming",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=303635",
-          "title": "Lutman Properties LLC - WV SOS",
+          "claim": "Scott Michael Shimel is the listed owner of a parcel in Berkeley County, WV",
+          "url": "https://www.berkeleywv.org/",
+          "title": "Berkeley County Assessor Records",
           "date": "2026-01-16",
           "note": null
         },
         {
-          "claim": "The entity has also engaged in residential development, receiving a Consent Order from the WV DEP in 2018 regarding land disturbance for a subdivision near Mannings",
-          "url": "https://dep.wv.gov/pio/Documents/Lutman%20Properties%2C%20LLC%20Signed%20Order%208741.pdf",
-          "title": "WV DEP Consent Order 8741",
-          "date": "2018-02-22",
-          "note": null
-        },
-        {
-          "claim": "a Charles Lutman served on the Jefferson County Planning Commission in the early 1990s",
-          "url": "https://law.justia.com/cases/federal/appellate-courts/F3/2/48/615844/",
-          "title": "L.M. Everhart Construction v. Jefferson County Planning Commission",
-          "date": "1993-07-29",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Brandt G. Turner",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "19020011000700130000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Brandt G. Turner has resided in Jefferson County since at least 1983, when he was recorded participating in local youth events ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF08041983P13.php)). No recent public records regarding development stances or prominent community roles were found.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach privately to learn concerns. Maintain a neighborly one-on-one conversation."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Brandt G. Turner has resided in Jefferson County since at least 1983, when he was recorded participating in local youth events",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF08041983P13.php",
-          "title": "Spirit of Jefferson Farmers Advocate August 4, 1983",
-          "date": "1983-08-04",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Fonnie R. Crawford & Sylvia M. Crawford",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "19020011000700020000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Fonnie R. Crawford has a history of community service in Jefferson County, having served as Treasurer for the local American Red Cross chapter in the 1970s ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF07221971P01.php)). Sylvia M. Crawford has been a donor to the Eastern West Virginia Community Foundation ([EWVCF](https://www.ewvcf.org/wp-content/uploads/2018/05/EWVCF-22nd-Annual-Report.pdf)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Historical community service",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage with a personal, respectful approach. Acknowledge their long-standing presence and past community service."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Fonnie R. Crawford has a history of community service in Jefferson County, having served as Treasurer for the local American Red Cross chapter in the 1970s",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF07221971P01.php",
-          "title": "Spirit of Jefferson Farmers Advocate July 22, 1971",
-          "date": "1971-07-22",
-          "note": null
-        },
-        {
-          "claim": "Sylvia M. Crawford has been a donor to the Eastern West Virginia Community Foundation",
-          "url": "https://www.ewvcf.org/wp-content/uploads/2018/05/EWVCF-22nd-Annual-Report.pdf",
-          "title": "EWVCF 22nd Annual Report",
-          "date": "2018-05-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Donald W. & Carmella M. Balsbaugh",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "1902013A034000000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit ([observerwv.news](https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub)). Could not verify residency or public notice to creditors in Jefferson County records.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "No public record of community influence found",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Conduct standard outreach to verify residency and gauge interest."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit",
-          "url": "https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub",
-          "title": "Planning Commission Prevails Over Sidewinder In Court",
-          "date": "2025-11-13",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "James M. & Susan M. Baird",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "1902011A008600000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit ([observerwv.news](https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub)). Could not verify residency or public involvement in development disputes.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "No public record of community influence found",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Conduct standard outreach to verify residency and gauge interest."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit",
-          "url": "https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub",
-          "title": "Planning Commission Prevails Over Sidewinder In Court",
-          "date": "2025-11-13",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Michael M. & Tara L. Hough",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "19020011000700090000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit ([observerwv.news](https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub)). A Michael Hough is identified as a realtor in Wheeling, WV, outside the immediate project area ([zillow.com](https://www.zillow.com/profile/michaelhoughrealtor)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "No public record of community influence found",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Conduct standard outreach to verify residency and gauge interest."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit",
-          "url": "https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub",
-          "title": "Planning Commission Prevails Over Sidewinder In Court",
-          "date": "2025-11-13",
-          "note": null
-        },
-        {
-          "claim": "A Michael Hough is identified as a realtor in Wheeling, WV",
-          "url": "https://www.zillow.com/profile/michaelhoughrealtor",
-          "title": "Michael Hough - Real Estate Agent",
+          "claim": "Public records indicate a Scott Shimel attended Hedgesville High School",
+          "url": "https://old-friends.co/school.php?s=30335",
+          "title": "Hedgesville High School Alumni List",
           "date": "2026-01-16",
           "note": null
         }
@@ -818,113 +404,23 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Keith M. & Jessica A. Bala",
+      "name": "Tyler James Cloud & Jacob Ashby Cloud",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "1902013A033800000000"
+        "02 9000100040000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Keith Bala is listed as a donor to the Jefferson County Animal Welfare Society (2014) ([awsjc.org](https://www.awsjc.org/wp-content/uploads/2019/10/AWS_Fall_2014.pdf)). Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit ([observerwv.news](https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local donor; no other public record found",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Conduct standard outreach to verify residency and gauge interest."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Keith Bala is listed as a donor to the Jefferson County Animal Welfare Society (2014)",
-          "url": "https://www.awsjc.org/wp-content/uploads/2019/10/AWS_Fall_2014.pdf",
-          "title": "AWS Fall 2014 Newsletter",
-          "date": "2014-10-01",
-          "note": null
-        },
-        {
-          "claim": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit",
-          "url": "https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub",
-          "title": "Planning Commission Prevails Over Sidewinder In Court",
-          "date": "2025-11-13",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Mark A. & Nancy T. Lane",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "1902011A007000000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit ([observerwv.news](https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub)). Could not verify residency or public involvement in development disputes.",
+      "claims": "Tyler James Cloud and Jacob Ashby Cloud are co-owners of a Berkeley County property ([Berkeley County Assessor](https://www.berkeleywv.org)). They are identified in local records as the grandchildren of long-time Berkeley County residents Janice Thomas Cloud and C. James Cloud ([Brown Funeral Home](https://www.brownfuneralhomeswv.com/memorials/Cloud-Janice/1357736/help)). No public profiles or community leadership roles were found for either Tyler or Jacob in relation to land use meetings.",
       "confidence": "low",
       "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "No public record of community influence found",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Conduct standard outreach to verify residency and gauge interest."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Name does not appear on the verified list of landowners who intervened in the Sidewinder/Mountain Pure lawsuit",
-          "url": "https://observerwv.news/posts/sidewinder-loses-in-court-summit-point-rejected-by-ctub",
-          "title": "Planning Commission Prevails Over Sidewinder In Court",
-          "date": "2025-11-13",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Gary L. Irving Sr. and Dolores K. Irving",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "1902013A034100000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Gary L. Irving Sr. and Dolores K. Irving are recorded as landowners in Jefferson County, specifically associated with a parcel in the Bolivar area ([source](https://data.wvgis.wvu.edu/pub/RA/State/BL/Other/House_Tenure/Owner_Tenure_Jefferson.xlsx)). Gary L. Irving Sr. was listed individually in 2016 county tax records for the Bolivar Corporation district ([source](https://wvlegals.com/jefferson-county-wv-delinquent-tax-list-2016/)). A Gary L. Irving was recognized with a Wall Street Journal Award at Shepherd College (now Shepherd University) in Shepherdstown in 1970, suggesting potential long-standing educational ties to the local community ([source](https://archive.org/stream/picket1969-1974shepu/picket1969-1974shepU_djvu.txt)). No public profile of civic engagement, board membership, or stance on development was found for either individual.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public office or civic role",
+      "influence_justification": "No public profile or leadership",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet",
           "heritage_family_legacy"
         ],
-        "engage": "As private individuals with potential long-term local ties, a personal, low-key approach through a mutual neighbor or community contact is recommended to build trust and share information discreetly."
+        "engage": "Reach out through a mutual acquaintance or community gathering if possible; highlight how the project respects local interests and address any questions they may have."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -941,99 +437,42 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Gary L. Irving Sr. and Dolores K. Irving are recorded as landowners in Jefferson County",
-          "url": "https://data.wvgis.wvu.edu/pub/RA/State/BL/Other/House_Tenure/Owner_Tenure_Jefferson.xlsx",
-          "title": "Jefferson County Owner Tenure Data",
-          "date": "2005-01-01",
+          "claim": "Tyler James Cloud and Jacob Ashby Cloud are co-owners of a Berkeley County property",
+          "url": "https://www.berkeleywv.org/",
+          "title": "Berkeley County Assessor Records",
+          "date": "2026-01-16",
           "note": null
         },
         {
-          "claim": "Gary L. Irving Sr. listed in 2016 county tax records",
-          "url": "https://wvlegals.com/jefferson-county-wv-delinquent-tax-list-2016/",
-          "title": "Jefferson County WV Delinquent Tax List 2016",
-          "date": "2017-06-02",
-          "note": null
-        },
-        {
-          "claim": "Gary L. Irving received Wall Street Journal Award at Shepherd College in 1970",
-          "url": "https://archive.org/stream/picket1969-1974shepu/picket1969-1974shepU_djvu.txt",
-          "title": "The Picket (Shepherd College Newspaper) 1969-1974 Archive",
-          "date": "1970-07-14",
+          "claim": "They are identified in local records as the grandchildren of long-time Berkeley County residents Janice Thomas Cloud and C. James Cloud",
+          "url": "https://www.brownfuneralhomeswv.com/memorials/Cloud-Janice/1357736/help",
+          "title": "Obituary for Janice Thomas Cloud",
+          "date": "2010-01-11",
           "note": null
         }
       ]
     },
     {
-      "neighbor_id": "N-04",
-      "name": "Turner B Guilford & Linda S-Tr",
+      "neighbor_id": "N-05",
+      "name": "Michael D. Writt",
       "entity_category": "Resident",
-      "entity_type": "trust",
+      "entity_type": "Individual",
       "pins": [
-        "19020011000700160000"
+        "02 9G001700000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The property is held in trust by B. Guilford Turner and Linda S. Turner. B. Guilford Turner (Rev. B. Guilford Turner) was a local pastor who officiated numerous services in Jefferson County before his passing [Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF05061999P02.php). Linda S. Turner is a licensed real estate broker in West Virginia with Coldwell Banker Stuart and Watts, holding certifications in green building (GREEN) and internet professionalism (ePRO) [Coldwell Banker Agent Profile](https://www.coldwellbanker.com/wv/lewisburg/agents/linda-turner/aid-P00200000FDdtRrOb7CZMGig16uRFFCRUr9KLqMi). The trust structure indicates estate planning for the family assets. Linda Turner's professional background in real estate suggests a high level of sophistication regarding land value and property rights.",
+      "claims": "Michael D. Writt is identified as a property owner in Berkeley County with no accompanying business entity, indicating personal ownership ([Berkeley County Assessor](https://www.berkeleywv.org)). A search of local public records and media did not reveal any notable civic engagement or statements by Writt concerning development or energy projects.",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Linda Turner is a real estate professional with local market knowledge; family has long-standing ties to the community (pastoral history).",
+      "community_influence": "Low",
+      "influence_justification": "Private individual; not publicly active",
       "approach_recommendations": {
         "motivations": [
-          "Property value",
-          "Real estate marketability",
-          "Land rights"
+          "privacy_quiet"
         ],
-        "engage": "Engage Linda Turner as a real estate professional; be prepared for detailed questions regarding property value impacts. Her 'GREEN' certification may indicate openness to renewable energy if presented as value-additive."
+        "engage": "Engage in a respectful, informative manner at his convenience; provide reassurances about the project’s adherence to community standards and invite him to ask questions."
       },
       "entity_classification": "unknown",
-      "profile_summary": "Family trust associated with local real estate agent Linda Turner and the late Rev. B. Guilford Turner.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "B. Guilford Turner was a local pastor who officiated numerous services",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF05061999P02.php",
-          "title": "Spirit of Jefferson - Obituary/Service Records",
-          "date": "1999-05-06",
-          "note": null
-        },
-        {
-          "claim": "Linda S. Turner is a licensed real estate broker in West Virginia with Coldwell Banker",
-          "url": "https://www.coldwellbanker.com/wv/lewisburg/agents/linda-turner/aid-P00200000FDdtRrOb7CZMGig16uRFFCRUr9KLqMi",
-          "title": "Coldwell Banker - Linda Turner Agent Profile",
-          "date": "2026-01-16",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Seventh-day Adventist Church",
-      "entity_category": "Organization",
-      "entity_type": "Religious",
-      "pins": [
-        "19020011000700010000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "This parcel is owned by the Charles Town Seventh-day Adventist Church, located on Summit Point Road in Jefferson County, WV ([Adventist Directory](https://www.adventistdirectory.org/viewEntity.aspx?EntityID=15524)). The congregation has been active in the area for decades, with records of services and events dating back to the 1980s ([Spirit of Jefferson](https://sjf.stparchive.com/Archive/SJF/SJF12241998P18.php)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local church congregation",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage through the church leadership. Coordinate outreach with the pastor to address any concerns respectfully."
-      },
-      "entity_classification": "religious",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -1048,46 +487,37 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "This parcel is owned by the Charles Town Seventh-day Adventist Church, located on Summit Point Road in Jefferson County, WV",
-          "url": "https://www.adventistdirectory.org/viewEntity.aspx?EntityID=15524",
-          "title": "Charles Town SDA Church - Adventist Organizational Directory",
+          "claim": "Michael D. Writt is identified as a property owner in Berkeley County with no accompanying business entity",
+          "url": "https://www.berkeleywv.org/",
+          "title": "Berkeley County Assessor Records",
           "date": "2026-01-16",
-          "note": null
-        },
-        {
-          "claim": "The congregation has been active in the area for decades, with records of services and events dating back to the 1980s",
-          "url": "https://sjf.stparchive.com/Archive/SJF/SJF12241998P18.php",
-          "title": "Spirit of Jefferson Farmers Advocate December 24, 1998",
-          "date": "1998-12-24",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Dr Acquisitions Llc",
+      "name": "FFPLS Hedgesville LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "19030011000200000000",
-        "19030011000100000000"
+        "02   9001000120000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "DR Acquisitions LLC is a West Virginia limited liability company formed on July 29, 2004, with a stated purpose of residential building construction [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=228584). State filings list Dan Ryan of Frederick, Maryland, as the sole managing member, linking the entity to the DRB Group (formerly Dan Ryan Builders), a major regional homebuilder [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=228584). As of late 2025 and early 2026, the entity is actively seeking planning commission approval for Phase 4 of the 'Huntfield' neighborhood, a large mixed-use residential development in Charles Town [WV Legals](https://wvlegals.com/public-hearing-152/). The company has also requested amendments for recreational facilities within the Huntfield development, indicating ongoing active management of their land holdings [Spirit of Jefferson Legal Ads](https://wvlegals.com/legal-ads-feb-13-2025-spirit-of-jefferson/). The entity's property interests are strictly tied to residential expansion and development [Charles Town Planning Commission](https://d3n9y02raazwpg.cloudfront.net/charlestownwv/3a933cec-86e6-11ed-9024-0050569183fa-c3406839-89eb-44b9-8ad4-c6ca2b8d008b-1692890298.pdf).",
-      "confidence": "high",
+      "claims": "FFPLS Hedgesville LLC is a limited liability company associated with the property at 1251 Hammonds Mill Road in Hedgesville ([source](https://nationalpublicdata.com/people/f/diane-fletcher/)). The entity appears to be a subsidiary of Faithful Forever Pet Loss Services ('FFPLS'), a company specializing in pet cremation and memorial services ([source](https://www.matw.com/investors/sec-filings/all-sec-filings/content/0000063296-21-000005/0000063296-21-000005.pdf)). Public records indicate the LLC has been a defendant in civil litigation in Berkeley County, with case filings dating back to 2022 ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2)). Previously, the property was the residence of Diane M. Fletcher ([source](https://nationalpublicdata.com/people/f/diane-fletcher/)). The company does not appear in West Virginia's domestic business registry, consistent with the structure of a foreign limited liability company ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2)).",
+      "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Major regional developer actively expanding the 'Huntfield' subdivision; regularly appears before Planning Commission; significant economic stakeholder in local housing market.",
+      "community_influence": "Low",
+      "influence_justification": "Niche commercial service provider or property holding entity; no documented community leadership or broad influence found.",
       "approach_recommendations": {
         "motivations": [
-          "Property value preservation",
-          "Development compatibility",
-          "Visual aesthetics for future home sales"
+          "Asset monetization",
+          "Operational efficiency"
         ],
-        "engage": "Engage principal Dan Ryan or legal representatives regarding the Huntfield expansion; ensure project buffers align with their residential site plans to prevent opposition based on visual impact to their future home sales."
+        "engage": "Engage via the registered agent or corporate parent (Faithful Forever Pet Loss Services). As a commercial entity, they may be amenable to a financial offer that exceeds the operational or holding value of the asset."
       },
       "entity_classification": "land_investment",
-      "profile_summary": "Holding company for DRB Group (Dan Ryan Builders), currently active in permitting Phase 4 of the Huntfield subdivision.",
+      "profile_summary": "FFPLS Hedgesville LLC is likely a subsidiary of Faithful Forever Pet Loss Services, holding property at 1251 Hammonds Mill Road. The entity has been involved in local civil litigation and succeeded individual resident Diane M. Fletcher at the address.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -1101,275 +531,34 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Formed on July 29, 2004, with a stated purpose of residential building construction",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=228584",
-          "title": "WV Secretary of State - DR ACQUISITIONS, LLC",
-          "date": "2026-01-03",
-          "note": null
-        },
-        {
-          "claim": "State filings list Dan Ryan of Frederick, Maryland, as the sole managing member",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=228584",
-          "title": "WV Secretary of State - DR ACQUISITIONS, LLC",
-          "date": "2026-01-03",
-          "note": null
-        },
-        {
-          "claim": "Actively seeking planning commission approval for Phase 4 of the 'Huntfield' neighborhood",
-          "url": "https://wvlegals.com/public-hearing-152/",
-          "title": "Public Hearing Notice - Charles Town Planning Commission",
-          "date": "2025-12-05",
-          "note": null
-        },
-        {
-          "claim": "Requested amendments for recreational facilities within the Huntfield development",
-          "url": "https://wvlegals.com/legal-ads-feb-13-2025-spirit-of-jefferson/",
-          "title": "Legal Ads - Spirit of Jefferson",
-          "date": "2025-02-06",
-          "note": null
-        },
-        {
-          "claim": "Property interests are strictly tied to residential expansion and development",
-          "url": "https://d3n9y02raazwpg.cloudfront.net/charlestownwv/3a933cec-86e6-11ed-9024-0050569183fa-c3406839-89eb-44b9-8ad4-c6ca2b8d008b-1692890298.pdf",
-          "title": "Charles Town Planning Commission Staff Report",
-          "date": "2023-08-28",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Winchester Cold Storage Co Inc",
-      "entity_category": "Organization",
-      "entity_type": "corporation",
-      "pins": [
-        "19030011000300000000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Winchester Cold Storage Company, Inc. is a Virginia-based cold logistics and orchard company registered in West Virginia since 2002 [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=206926). The company is led by President John Scully IV and Vice-President Harry F. Byrd III, representing prominent regional families involved in real estate and agriculture [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=206926). In June 2023, the Jefferson County Historic Landmarks Commission voted unanimously to designate the Winchester Cold Storage Building as a Jefferson County Historic Landmark, citing its significance to the regional apple industry [JCHLC Minutes June 2023](http://jeffersoncountyhlc.org/wp-content/uploads/2023/09/JCHLC-Minutes-June-7-2023.pdf). The facility, located west of Charles Town, has been operational since the mid-20th century and remains a functional part of the agricultural supply chain [JCHLC Nomination Report](http://jeffersoncountyhlc.org/wp-content/uploads/2023/06/Nomination-report-Winchester-Cold-Storage-Building-.pdf). John Scully IV is also a prominent realtor and former Winchester City Council member, indicating high community connectivity [Colony Realty Agent Profile](https://colonysells.com/agents/john-s-scully-iv/).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Property is a designated Historic Landmark (2023); leadership includes the Byrd family (political dynasty) and John Scully IV (prominent realtor/civic leader).",
-      "approach_recommendations": {
-        "motivations": [
-          "Historic preservation",
-          "Agricultural heritage",
-          "Property value"
-        ],
-        "engage": "Approach with extreme care regarding visual impacts; acknowledge the 2023 Historic Landmark designation immediately. Frame the project as compatible with the working agricultural history of the site rather than industrial intrusion."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": "Historic agricultural logistics company owned by influential Byrd and Scully families; property is a designated County Historic Landmark.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Registered in West Virginia since 2002",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=206926",
-          "title": "WV Secretary of State - WINCHESTER COLD STORAGE COMPANY",
-          "date": "2025-12-20",
-          "note": null
-        },
-        {
-          "claim": "Led by President John Scully IV and Vice-President Harry F. Byrd III",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=206926",
-          "title": "WV Secretary of State - WINCHESTER COLD STORAGE COMPANY",
-          "date": "2025-12-20",
-          "note": null
-        },
-        {
-          "claim": "Designated as a Jefferson County Historic Landmark in June 2023",
-          "url": "http://jeffersoncountyhlc.org/wp-content/uploads/2023/09/JCHLC-Minutes-June-7-2023.pdf",
-          "title": "Jefferson County Historic Landmarks Commission Minutes",
-          "date": "2023-06-07",
-          "note": null
-        },
-        {
-          "claim": "Operational since the mid-20th century and remains a functional part of the agricultural supply chain",
-          "url": "http://jeffersoncountyhlc.org/wp-content/uploads/2023/06/Nomination-report-Winchester-Cold-Storage-Building-.pdf",
-          "title": "Nomination Report - Winchester Cold Storage Building",
-          "date": "2023-06-07",
-          "note": null
-        },
-        {
-          "claim": "John Scully IV is a prominent realtor and former Winchester City Council member",
-          "url": "https://colonysells.com/agents/john-s-scully-iv/",
-          "title": "Colony Realty - John S. Scully IV Profile",
-          "date": "2019-01-11",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Tuscawilla Hills Citizens Association Inc",
-      "entity_category": "Organization",
-      "entity_type": "non-profit",
-      "pins": [
-        "1902011D004000000000",
-        "1902011A006700000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Tuscawilla Hills Citizens Association Inc is the homeowners’ association for the Tuscawilla Hills subdivision, incorporated in West Virginia on January 30, 1976 [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=29509). The community consists of single-family homes built primarily in the 1970s, with amenities including a basketball court and common grounds [Zillow Property Details](https://www.zillow.com/homedetails/51-Packett-Dr-Charles-Town-WV-25414/22562023_zpid/). The HOA has been listed in tax lien notices in the past, specifically regarding a 'Notice to Redeem' in 2019 for delinquent taxes on a lot within the subdivision [Spirit of Jefferson](https://bloximages.newyork1.vip.townnews.com/spiritofjefferson.com/content/tncms/assets/v3/editorial/0/4d/04d5c020-709c-11eb-8ea6-db5cbbaf5b54/602c35eebe254.pdf.pdf). The association is professionally managed, with recent filings listing Clagett Management in Martinsburg as the point of contact [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=132879).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Represents a significant residential block (~500 units); professionally managed; history of tax administrative issues suggests potential disorganization or financial constraints.",
-      "approach_recommendations": {
-        "motivations": [
-          "Neighborhood aesthetics",
-          "Property values",
-          "Common area maintenance"
-        ],
-        "engage": "Contact Clagett Management to reach the board; be aware of potential financial sensitivities given the tax lien history. Focus on how the project will not burden their common resources."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "HOA for Tuscawilla Hills subdivision; professionally managed but has history of tax liens on common parcels.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Incorporated in West Virginia on January 30, 1976",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=29509",
-          "title": "WV Secretary of State - TUSCAWILLA HILLS CITIZENS' ASSOCIATION, INC.",
+          "claim": "FFPLS Hedgesville LLC is associated with 1251 Hammonds Mill Road and Diane M. Fletcher",
+          "url": "https://nationalpublicdata.com/people/f/diane-fletcher/",
+          "title": "Diane Fletcher - NPD People Search",
           "date": "2026-01-16",
           "note": null
         },
         {
-          "claim": "Community consists of single-family homes built primarily in the 1970s with amenities",
-          "url": "https://www.zillow.com/homedetails/51-Packett-Dr-Charles-Town-WV-25414/22562023_zpid/",
-          "title": "Zillow - Tuscawilla Hills Property Details",
-          "date": "2026-01-16",
+          "claim": "FFPLS stands for Faithful Forever Pet Loss Services",
+          "url": "https://www.matw.com/investors/sec-filings/all-sec-filings/content/0000063296-21-000005/0000063296-21-000005.pdf",
+          "title": "Matthews International Corp SEC Filing (Def 14A)",
+          "date": "2021-01-19",
           "note": null
         },
         {
-          "claim": "Listed in 'Notice to Redeem' in 2019 for delinquent taxes",
-          "url": "https://bloximages.newyork1.vip.townnews.com/spiritofjefferson.com/content/tncms/assets/v3/editorial/0/4d/04d5c020-709c-11eb-8ea6-db5cbbaf5b54/602c35eebe254.pdf.pdf",
-          "title": "Spirit of Jefferson - Notice to Redeem",
-          "date": "2021-02-17",
-          "note": null
-        },
-        {
-          "claim": "Recent filings listing Clagett Management in Martinsburg as the point of contact",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=132879",
-          "title": "WV Secretary of State - Management Contact Verification",
-          "date": "2026-01-03",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Locust Hill Unitowner'S Association Inc",
-      "entity_category": "Organization",
-      "entity_type": "non-profit",
-      "pins": [
-        "1902013A000100000000",
-        "1902013A035500000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Locust Hill Unitowner’s Association Inc is the homeowners’ association for the Locust Hill golf-course community, incorporated in West Virginia on October 22, 1990 [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=132879). The community is professionally managed by Clagett Management Services in Martinsburg [WV Secretary of State](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=132879). The HOA is highly active in enforcing community standards, evidenced by a 2024-2025 legal battle (Wilber v. Locust Hill Unit Owner's Association, Inc.) regarding a resident's display of a flag, which resulted in a jury verdict favoring the Association [Justia Law](https://law.justia.com/cases/west-virginia/intermediate-court-of-appeals/2025/24-ica-270.html). The association also maintains active vigilance over the property, recently issuing alerts regarding trespassers in the wooded areas [Locust Hill Community Blog](https://locusthillvt.org/author/locusthillcondo/).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Large, organized community willing to litigate to enforce standards; highly vigilant regarding property boundaries and aesthetics.",
-      "approach_recommendations": {
-        "motivations": [
-          "Covenant enforcement",
-          "Visual aesthetics",
-          "Security/Trespassing"
-        ],
-        "engage": "Engage via Clagett Management; expect strict scrutiny of any visual impacts or boundary encroachments. The HOA has demonstrated willingness to go to court over aesthetic/covenant disputes."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "Active and litigious HOA for a golf course community; recently won a court case regarding covenant enforcement.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Incorporated in West Virginia on October 22, 1990",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=132879",
-          "title": "WV Secretary of State - LOCUST HILL UNITOWNER'S ASSOCIATION, INC.",
-          "date": "2026-01-03",
-          "note": null
-        },
-        {
-          "claim": "Professionally managed by Clagett Management Services",
-          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=132879",
-          "title": "WV Secretary of State - LOCUST HILL UNITOWNER'S ASSOCIATION, INC.",
-          "date": "2026-01-03",
-          "note": null
-        },
-        {
-          "claim": "Legal battle (Wilber v. Locust Hill Unit Owner's Association, Inc.) regarding a resident's display of a flag",
-          "url": "https://law.justia.com/cases/west-virginia/intermediate-court-of-appeals/2025/24-ica-270.html",
-          "title": "Wilber v. Locust Hill Unit Owner's Association, Inc.",
-          "date": "2025-04-29",
-          "note": null
-        },
-        {
-          "claim": "Issuing alerts regarding trespassers in the wooded areas",
-          "url": "https://locusthillvt.org/author/locusthillcondo/",
-          "title": "Locust Hill Community Blog - Security Alert",
-          "date": "2024-02-13",
+          "claim": "FFPLS Hedgesville LLC named in Berkeley County civil litigation (2022)",
+          "url": "https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2",
+          "title": "WV Secretary of State Service of Process Search",
+          "date": "2024-02-14",
           "note": null
         }
       ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 39.273901,-77.893891",
-  "overview_summary": "Screening of 26 neighbors—comprising 21 residents and 5 organizations—reveals that all currently hold an unknown stance regarding the project. The profile includes 4 high-influence and 6 medium-influence entities, notably a regional homebuilder, a historic nonprofit estate, and two large homeowner associations representing approximately 1,000 households. Potential risks center on community mobilization regarding water resources and rural character preservation, particularly among established agricultural interests and mission-driven community groups.",
+  "location_context": "Neighbors within 0.5 mi of 39.56658,-77.941803",
+  "overview_summary": "Screening of 11 neighboring stakeholders within 0.5 miles identified 10 private residents and one organizational entity, FFPLS Hedgesville LLC. While two stakeholders possess medium influence and nine have low or unknown influence, no high-influence individuals or documented opposition risks were identified. All neighbors currently maintain an unknown stance toward the development, with the organizational neighbor operating as a private land investment entity with no known community role.",
   "success": true,
-  "runtime_minutes": 63.64,
+  "runtime_minutes": 39.29,
   "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
     {
       "title": null,
       "url": null
@@ -1412,375 +601,625 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_093045_9310.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_093854_5315.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_092456_6772.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_092447_3771.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_092458_0140.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_100336_5301.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_092538_6141.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_160838_6727.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_160943_2820.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_160845_2391.json"
   ],
   "city": null,
-  "county": "Jefferson County",
+  "county": "Berkeley County",
   "state": "WV",
-  "run_id": "e6fe1578-17c0-435b-9d63-abc1c8d42c83",
-  "target_pin": "19030011000200000000",
+  "run_id": "a243cf3f-8a86-4d24-afa7-b7bf4db025fe",
+  "target_pin": "02   9000300000000",
   "target_parcel_info": {
-    "pin": "19030011000200000000",
+    "pin": "02   9000300000000",
     "geometry": {
-      "type": "Polygon",
+      "type": "MultiPolygon",
       "coordinates": [
         [
           [
-            -77.891138,
-            39.2804495
-          ],
-          [
-            -77.8917285,
-            39.28059
-          ],
-          [
-            -77.891776,
-            39.2806015
-          ],
-          [
-            -77.892596,
-            39.2807965
-          ],
-          [
-            -77.893757,
-            39.2811145
-          ],
-          [
-            -77.8948555,
-            39.281369
-          ],
-          [
-            -77.895008,
-            39.2814125
-          ],
-          [
-            -77.8950805,
-            39.281416
-          ],
-          [
-            -77.8951785,
-            39.2814085
-          ],
-          [
-            -77.895245,
-            39.2813995
-          ],
-          [
-            -77.8953065,
-            39.281391
-          ],
-          [
-            -77.895406,
-            39.2813685
-          ],
-          [
-            -77.8955435,
-            39.2813375
-          ],
-          [
-            -77.895637,
-            39.281299
-          ],
-          [
-            -77.8957285,
-            39.2812575
-          ],
-          [
-            -77.895818,
-            39.281213
-          ],
-          [
-            -77.8967185,
-            39.280774
-          ],
-          [
-            -77.899563,
-            39.279387
-          ],
-          [
-            -77.8999895,
-            39.2791795
-          ],
-          [
-            -77.90116,
-            39.278615
-          ],
-          [
-            -77.902177,
-            39.278129
-          ],
-          [
-            -77.9022515,
-            39.278089
-          ],
-          [
-            -77.902615,
-            39.2779045
-          ],
-          [
-            -77.902793,
-            39.277814
-          ],
-          [
-            -77.902802,
-            39.275971
-          ],
-          [
-            -77.903217,
-            39.2758745
-          ],
-          [
-            -77.9032795,
-            39.2695465
-          ],
-          [
-            -77.9026485,
-            39.2691425
-          ],
-          [
-            -77.902575,
-            39.2687555
-          ],
-          [
-            -77.902565,
-            39.2687005
-          ],
-          [
-            -77.902542,
-            39.2685805
-          ],
-          [
-            -77.902385,
-            39.2677475
-          ],
-          [
-            -77.9011375,
-            39.2675695
-          ],
-          [
-            -77.89909,
-            39.267277
-          ],
-          [
-            -77.899168,
-            39.2661545
-          ],
-          [
-            -77.8991685,
-            39.266152
-          ],
-          [
-            -77.8991685,
-            39.2661505
-          ],
-          [
-            -77.8992945,
-            39.264333
-          ],
-          [
-            -77.900983,
-            39.264203
-          ],
-          [
-            -77.90145,
-            39.2638995
-          ],
-          [
-            -77.9020115,
-            39.2639875
-          ],
-          [
-            -77.902253,
-            39.2635775
-          ],
-          [
-            -77.903264,
-            39.263731
-          ],
-          [
-            -77.9033835,
-            39.2634955
-          ],
-          [
-            -77.904142,
-            39.2620005
-          ],
-          [
-            -77.9017695,
-            39.261167
-          ],
-          [
-            -77.901294,
-            39.261233
-          ],
-          [
-            -77.9001855,
-            39.260307
-          ],
-          [
-            -77.900068,
-            39.2602085
-          ],
-          [
-            -77.899883,
-            39.2603095
-          ],
-          [
-            -77.899219,
-            39.26068
-          ],
-          [
-            -77.899033,
-            39.260786
-          ],
-          [
-            -77.8987365,
-            39.260965
-          ],
-          [
-            -77.8987135,
-            39.2609745
-          ],
-          [
-            -77.8986105,
-            39.261041
-          ],
-          [
-            -77.8983175,
-            39.261243
-          ],
-          [
-            -77.8981955,
-            39.2613275
-          ],
-          [
-            -77.8978655,
-            39.261591
-          ],
-          [
-            -77.8977715,
-            39.2616665
-          ],
-          [
-            -77.897691,
-            39.2617305
-          ],
-          [
-            -77.8975605,
-            39.261846
-          ],
-          [
-            -77.896742,
-            39.2625465
-          ],
-          [
-            -77.896125,
-            39.2630965
-          ],
-          [
-            -77.8955805,
-            39.263569
-          ],
-          [
-            -77.895579,
-            39.263568
-          ],
-          [
-            -77.893912,
-            39.2650075
-          ],
-          [
-            -77.8935795,
-            39.2652875
-          ],
-          [
-            -77.893061,
-            39.2657435
-          ],
-          [
-            -77.8925345,
-            39.266206
-          ],
-          [
-            -77.8916805,
-            39.266959
-          ],
-          [
-            -77.891541,
-            39.267082
-          ],
-          [
-            -77.8914705,
-            39.267144
-          ],
-          [
-            -77.891415,
-            39.267193
-          ],
-          [
-            -77.8903295,
-            39.2683145
-          ],
-          [
-            -77.889601,
-            39.2691865
-          ],
-          [
-            -77.8895515,
-            39.2692385
-          ],
-          [
-            -77.891748,
-            39.2703285
-          ],
-          [
-            -77.8900755,
-            39.2721785
-          ],
-          [
-            -77.890035,
-            39.2722235
-          ],
-          [
-            -77.8894785,
-            39.272839
-          ],
-          [
-            -77.889564,
-            39.274253
-          ],
-          [
-            -77.8895675,
-            39.274308
-          ],
-          [
-            -77.889591,
-            39.274694
-          ],
-          [
-            -77.8909965,
-            39.2746815
-          ],
-          [
-            -77.891045,
-            39.2766635
-          ],
-          [
-            -77.891138,
-            39.2804495
+            [
+              -77.945253,
+              39.5646225
+            ],
+            [
+              -77.94519,
+              39.564591
+            ],
+            [
+              -77.9451645,
+              39.5651855
+            ],
+            [
+              -77.9451575,
+              39.565326
+            ],
+            [
+              -77.945144,
+              39.5654665
+            ],
+            [
+              -77.945124,
+              39.5656065
+            ],
+            [
+              -77.9450975,
+              39.565746
+            ],
+            [
+              -77.9450875,
+              39.565826
+            ],
+            [
+              -77.945084,
+              39.5659065
+            ],
+            [
+              -77.9450865,
+              39.565987
+            ],
+            [
+              -77.9450955,
+              39.566067
+            ],
+            [
+              -77.945111,
+              39.5661465
+            ],
+            [
+              -77.945136,
+              39.56629
+            ],
+            [
+              -77.9451505,
+              39.5663525
+            ],
+            [
+              -77.9451605,
+              39.566416
+            ],
+            [
+              -77.9451655,
+              39.5664795
+            ],
+            [
+              -77.945166,
+              39.566543
+            ],
+            [
+              -77.945161,
+              39.5666065
+            ],
+            [
+              -77.9451605,
+              39.5666425
+            ],
+            [
+              -77.945133,
+              39.5668265
+            ],
+            [
+              -77.945092,
+              39.567
+            ],
+            [
+              -77.9450685,
+              39.5670825
+            ],
+            [
+              -77.9450395,
+              39.5671645
+            ],
+            [
+              -77.9450045,
+              39.5672445
+            ],
+            [
+              -77.944964,
+              39.5673235
+            ],
+            [
+              -77.944918,
+              39.5674005
+            ],
+            [
+              -77.944867,
+              39.567469
+            ],
+            [
+              -77.9447555,
+              39.567622
+            ],
+            [
+              -77.9437185,
+              39.569094
+            ],
+            [
+              -77.942871,
+              39.5702995
+            ],
+            [
+              -77.948721,
+              39.5711735
+            ],
+            [
+              -77.9489895,
+              39.571214
+            ],
+            [
+              -77.9490435,
+              39.5711455
+            ],
+            [
+              -77.950366,
+              39.5694755
+            ],
+            [
+              -77.9509165,
+              39.568767
+            ],
+            [
+              -77.950911,
+              39.5687635
+            ],
+            [
+              -77.9492995,
+              39.567899
+            ],
+            [
+              -77.9499415,
+              39.5669335
+            ],
+            [
+              -77.9453215,
+              39.564656
+            ],
+            [
+              -77.945253,
+              39.5646225
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -77.938338,
+              39.5710415
+            ],
+            [
+              -77.938333,
+              39.5710885
+            ],
+            [
+              -77.9393485,
+              39.5705795
+            ],
+            [
+              -77.9394015,
+              39.5705545
+            ],
+            [
+              -77.9394575,
+              39.5705335
+            ],
+            [
+              -77.939516,
+              39.570517
+            ],
+            [
+              -77.9395765,
+              39.5705045
+            ],
+            [
+              -77.939638,
+              39.5704965
+            ],
+            [
+              -77.9397,
+              39.5704935
+            ],
+            [
+              -77.9397625,
+              39.570495
+            ],
+            [
+              -77.9398245,
+              39.570501
+            ],
+            [
+              -77.939885,
+              39.5705115
+            ],
+            [
+              -77.939944,
+              39.570527
+            ],
+            [
+              -77.9414635,
+              39.5710385
+            ],
+            [
+              -77.941694,
+              39.5711135
+            ],
+            [
+              -77.941834,
+              39.5711505
+            ],
+            [
+              -77.9418825,
+              39.571156
+            ],
+            [
+              -77.9419315,
+              39.571157
+            ],
+            [
+              -77.9419805,
+              39.571153
+            ],
+            [
+              -77.9420285,
+              39.571144
+            ],
+            [
+              -77.9420745,
+              39.5711305
+            ],
+            [
+              -77.9421175,
+              39.5711125
+            ],
+            [
+              -77.9421575,
+              39.5710905
+            ],
+            [
+              -77.9421935,
+              39.5710645
+            ],
+            [
+              -77.942225,
+              39.5710355
+            ],
+            [
+              -77.942251,
+              39.5710035
+            ],
+            [
+              -77.942643,
+              39.5704505
+            ],
+            [
+              -77.943337,
+              39.569464
+            ],
+            [
+              -77.941859,
+              39.5689685
+            ],
+            [
+              -77.942251,
+              39.5684125
+            ],
+            [
+              -77.9426425,
+              39.567856
+            ],
+            [
+              -77.94412,
+              39.5683515
+            ],
+            [
+              -77.9446625,
+              39.567582
+            ],
+            [
+              -77.9447745,
+              39.5674285
+            ],
+            [
+              -77.944824,
+              39.5673615
+            ],
+            [
+              -77.944867,
+              39.567289
+            ],
+            [
+              -77.9449055,
+              39.567215
+            ],
+            [
+              -77.944938,
+              39.5671395
+            ],
+            [
+              -77.9449655,
+              39.5670625
+            ],
+            [
+              -77.944987,
+              39.5669845
+            ],
+            [
+              -77.945028,
+              39.5668145
+            ],
+            [
+              -77.945054,
+              39.566637
+            ],
+            [
+              -77.945055,
+              39.566602
+            ],
+            [
+              -77.9450595,
+              39.5665425
+            ],
+            [
+              -77.9450595,
+              39.5664825
+            ],
+            [
+              -77.9450545,
+              39.5664225
+            ],
+            [
+              -77.945045,
+              39.566363
+            ],
+            [
+              -77.945031,
+              39.566304
+            ],
+            [
+              -77.9450055,
+              39.5661595
+            ],
+            [
+              -77.9449895,
+              39.566075
+            ],
+            [
+              -77.94498,
+              39.56599
+            ],
+            [
+              -77.9449775,
+              39.5659045
+            ],
+            [
+              -77.9449815,
+              39.565819
+            ],
+            [
+              -77.944992,
+              39.565734
+            ],
+            [
+              -77.9450185,
+              39.565597
+            ],
+            [
+              -77.945038,
+              39.5654595
+            ],
+            [
+              -77.9450515,
+              39.5653215
+            ],
+            [
+              -77.945058,
+              39.565183
+            ],
+            [
+              -77.945094,
+              39.5643505
+            ],
+            [
+              -77.945101,
+              39.56428
+            ],
+            [
+              -77.9451135,
+              39.56421
+            ],
+            [
+              -77.9451315,
+              39.5641405
+            ],
+            [
+              -77.945155,
+              39.5640725
+            ],
+            [
+              -77.9451195,
+              39.56405
+            ],
+            [
+              -77.9444505,
+              39.563627
+            ],
+            [
+              -77.9441855,
+              39.564163
+            ],
+            [
+              -77.9440935,
+              39.564321
+            ],
+            [
+              -77.9436995,
+              39.5647605
+            ],
+            [
+              -77.9432195,
+              39.5643155
+            ],
+            [
+              -77.943441,
+              39.563953
+            ],
+            [
+              -77.9442675,
+              39.562959
+            ],
+            [
+              -77.9446895,
+              39.563107
+            ],
+            [
+              -77.9445265,
+              39.5634625
+            ],
+            [
+              -77.945203,
+              39.56389
+            ],
+            [
+              -77.9452055,
+              39.5638915
+            ],
+            [
+              -77.9452345,
+              39.56391
+            ],
+            [
+              -77.9452785,
+              39.563843
+            ],
+            [
+              -77.945328,
+              39.563778
+            ],
+            [
+              -77.9453825,
+              39.563716
+            ],
+            [
+              -77.9462985,
+              39.5626685
+            ],
+            [
+              -77.9465385,
+              39.5623875
+            ],
+            [
+              -77.9475505,
+              39.5611575
+            ],
+            [
+              -77.9477615,
+              39.560915
+            ],
+            [
+              -77.9479955,
+              39.560627
+            ],
+            [
+              -77.9482425,
+              39.5603295
+            ],
+            [
+              -77.9483625,
+              39.5601895
+            ],
+            [
+              -77.9483985,
+              39.560149
+            ],
+            [
+              -77.948437,
+              39.56011
+            ],
+            [
+              -77.9485245,
+              39.5600005
+            ],
+            [
+              -77.948885,
+              39.559549
+            ],
+            [
+              -77.9488585,
+              39.5595325
+            ],
+            [
+              -77.9486275,
+              39.5593905
+            ],
+            [
+              -77.9481105,
+              39.559072
+            ],
+            [
+              -77.948044,
+              39.559079
+            ],
+            [
+              -77.946973,
+              39.5591805
+            ],
+            [
+              -77.945457,
+              39.559328
+            ],
+            [
+              -77.9445175,
+              39.559422
+            ],
+            [
+              -77.9444045,
+              39.5594305
+            ],
+            [
+              -77.944321,
+              39.5594335
+            ],
+            [
+              -77.944255,
+              39.5594365
+            ],
+            [
+              -77.9441885,
+              39.5594365
+            ],
+            [
+              -77.9441225,
+              39.559433
+            ],
+            [
+              -77.9400925,
+              39.567154
+            ],
+            [
+              -77.938926,
+              39.566357
+            ],
+            [
+              -77.938875,
+              39.5667625
+            ],
+            [
+              -77.938874,
+              39.5667715
+            ],
+            [
+              -77.9384095,
+              39.57047
+            ],
+            [
+              -77.938338,
+              39.5710415
+            ]
           ]
         ]
       ]
     },
-    "lat": "39.271773",
-    "lon": "-77.896847",
-    "county_path": "/us/wv/jefferson/kabletown"
+    "lat": "39.566376",
+    "lon": "-77.944570",
+    "county_path": "/us/wv/berkeley/potomac"
   },
   "map_error": "HTTP 404: {\"message\":\"Not Found\"}"
 }

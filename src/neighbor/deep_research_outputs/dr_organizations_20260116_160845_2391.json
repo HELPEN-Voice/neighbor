@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-01-16T16:08:45.239228",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Berkeley County",
+    "state": "WV",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One organizational neighbor identified is FFPLS Hedgesville LLC, a privately-held land investment entity with unclear ownership. It owns a parcel in Berkeley County and has no known community role or stated stance on development, suggesting low local influence but potential speculative motives (e.g., holding out for profit).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "FFPLS Hedgesville LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "02   9001000120000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "FFPLS Hedgesville LLC is a limited liability company that acquired the 1251 Hammonds Mill Road property in Hedgesville in March 2024 for $210,000 [Zillow – 1231-1261 Hammonds Mill Rd Sale](https://www.zillow.com/homedetails/1231-1259-Hammonds-Mill-Rd-1261-Hedgesville-WV-25427/449884198_zpid/). Previously, local resident Diane M. Fletcher was associated with this parcel (she was listed as the owner of a business registered at the same address) [WV Secretary of State – Business Detail (Lightwicks/D. Fletcher)](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=438168). No public filings or listings disclose the principals or operations of FFPLS Hedgesville LLC, and the company does not appear in West Virginia’s domestic business registry (indicating it was formed out-of-state) [WV Secretary of State – Business Search Notice](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=147435).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Minor property holding; no known local leadership or engagement; likely out-of-area owners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via the LLC’s registered agent or mailing address with a financially attractive offer (above-market purchase or partnership). Emphasize mutual profit potential to align with their speculative interest and encourage cooperation rather than opposition."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One organizational neighbor identified is FFPLS Hedgesville LLC, a privately-held land investment entity with unclear ownership. It owns a parcel in Berkeley County and has no known community role or stated stance on development, suggesting low local influence but potential speculative motives (e.g., holding out for profit).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"FFPLS Hedgesville LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"02   9001000120000\"],\n      \"claims\": \"FFPLS Hedgesville LLC is a limited liability company that acquired the 1251 Hammonds Mill Road property in Hedgesville in March 2024 for $210,000 [Zillow – 1231-1261 Hammonds Mill Rd Sale](https://www.zillow.com/homedetails/1231-1259-Hammonds-Mill-Rd-1261-Hedgesville-WV-25427/449884198_zpid/). Previously, local resident Diane M. Fletcher was associated with this parcel (she was listed as the owner of a business registered at the same address) [WV Secretary of State – Business Detail (Lightwicks/D. Fletcher)](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=438168). No public filings or listings disclose the principals or operations of FFPLS Hedgesville LLC, and the company does not appear in West Virginia’s domestic business registry (indicating it was formed out-of-state) [WV Secretary of State – Business Search Notice](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=147435).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Minor property holding; no known local leadership or engagement; likely out-of-area owners\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Profitable resale or buyout\", \"Passive investment income\"],\n      \"approach_recommendations\": \"Engage via the LLC’s registered agent or mailing address with a financially attractive offer (above-market purchase or partnership). Emphasize mutual profit potential to align with their speculative interest and encourage cooperation rather than opposition.\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
