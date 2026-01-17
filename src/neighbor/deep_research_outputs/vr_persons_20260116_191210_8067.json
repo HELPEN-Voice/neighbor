@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-01-16T19:39:59.088267",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191210_8067.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Leslie Wade Armentrout & Shelly Dawn Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003400000000",
+        "16030184003500000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Leslie Wade Armentrout is employed as an Assistant Football Coach at Moorefield High School, a position effective from the 2023-2024 school year ([Hardy County Schools](https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/1883/HCS/2897957/Bd.Agenda__3.20.23.pdf)). Neither Armentrout nor Shelly Dawn Martin appear in available public records regarding local development debates or civic leadership roles.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Public school employee; no political role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Acknowledge his role in the local school community to build rapport; provide transparent project details focusing on minimal disruption to daily life."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Leslie Wade Armentrout is employed as an Assistant Football Coach at Moorefield High School",
+          "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/1883/HCS/2897957/Bd.Agenda__3.20.23.pdf",
+          "title": "Hardy County Board of Education Meeting Agenda March 20, 2023",
+          "date": "2023-03-20"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Steven C. Pendleton",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven C. Pendleton is a contributor to the Moorefield Examiner and a representative of the 'Concerned Citizens of Old Fields' ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+11-18-20.pdf)). He has actively opposed large-scale agricultural development, specifically a poultry complex in Old Fields, citing concerns about property values, health, and water quality ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+8-26-20.pdf)). Pendleton has challenged the Hardy County Planning Commission regarding transparency and adherence to Open Meeting Laws ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+4_14_21.pdf)). He has publicly stated, 'If my property value drops, who wants to buy it? That's a very personal concern to me' ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+8-26-20.pdf)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Medium",
+      "influence_justification": "Leader of citizens group; media contributor",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control",
+          "groundwater_runoff",
+          "privacy_quiet"
+        ],
+        "engage": "Engage early with high transparency; anticipate scrutiny regarding zoning compliance and property value impacts. Demonstrate strict adherence to open meeting regulations."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Representative of the 'Concerned Citizens of Old Fields'",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+11-18-20.pdf",
+          "title": "Moorefield Examiner - Planning Commission to Form Committee",
+          "date": "2020-11-18"
+        },
+        {
+          "claim": "Opposed large-scale agricultural development citing property values and health",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+8-26-20.pdf",
+          "title": "Moorefield Examiner - Residents Voice Concerns",
+          "date": "2020-09-14"
+        },
+        {
+          "claim": "Challenged Planning Commission on Open Meeting Laws",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+4_14_21.pdf",
+          "title": "Moorefield Examiner - Planning Commission Meetings Cancelled",
+          "date": "2021-04-14"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Eric A. Tasker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002300000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Eric A. Tasker is a Hardy County resident who attended the June 23, 2020, Hardy County Planning Commission meeting regarding the controversial Old Fields poultry complex ([Hardy County](http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf)). He has been listed in local legal notices regarding estate administration ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/ME_8_14_19.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Attends planning meetings; no leadership role",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "privacy_quiet"
+        ],
+        "engage": "Approach one-on-one; he monitors local planning activities but does not appear to speak publicly. Address potential concerns about zoning changes."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Attended June 2020 Planning Commission meeting regarding poultry complex",
+          "url": "http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf",
+          "title": "Hardy County Planning Commission Meeting Minutes",
+          "date": "2020-06-23"
+        },
+        {
+          "claim": "Listed in local legal notices regarding estate administration",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/ME_8_14_19.pdf",
+          "title": "Moorefield Examiner Legal Notices",
+          "date": "2019-08-14"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Gerald Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003600000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gerald Johnson is a Hardy County resident who attended the June 23, 2020, Hardy County Planning Commission meeting regarding the Old Fields poultry complex ([Hardy County](http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf)). He does not appear in other available public records for community leadership or activism.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Attends planning meetings; no public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "privacy_quiet"
+        ],
+        "engage": "Engage through friendly, personal outreach; he has shown interest in development issues by attending meetings but has not voiced public opposition."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Attended June 2020 Planning Commission meeting regarding poultry complex",
+          "url": "http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf",
+          "title": "Hardy County Planning Commission Meeting Minutes",
+          "date": "2020-06-23"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 516933,
+    "thinking_count": 23
+  }
+}

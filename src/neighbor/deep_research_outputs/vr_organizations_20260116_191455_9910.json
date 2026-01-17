@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-01-16T19:43:03.095190",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_191455_9910.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "South Branch Enterprises Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "16030184001400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "South Branch Enterprises, Inc. is a West Virginia domestic profit corporation engaged in agriculture, with state filings explicitly noting that \"all the land in the company is farm land\" ([WV SOS](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=349689)). The company is led by President Samuel Williams and Vice-President Kelly Williams ([WV SOS](https://apps.sos.wv.gov/business/corporations/organization.aspx?org=349689)). Samuel Williams is a prominent local business owner who served as a member of the Hardy County Planning Commission in 2020 ([Hardy County](http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf)). He has demonstrated strong support for solar energy development, overseeing a significant solar installation at his separate business, South Branch Inn, which he publicly described as a \"game-changer\" and a method of \"investing in our community\" ([Partner Community Capital](https://partnercap.org/wp-content/uploads/2025/03/PCAP-2024-ImpactReport-v10-250328.pdf)). The Williams family owns a portfolio of local businesses and has deep historical roots in the South Branch Valley ([WV Living](https://wvliving.com/possibilitarians-kelly-and-sam-williams/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "President Samuel Williams is a former member of the Hardy County Planning Commission and a prominent multi-business owner (South Branch Inn, South Branch Cattle & Meat Company) with deep family ties to the area.",
+      "approach_recommendations": {
+        "motivations": [
+          "Community investment",
+          "Energy independence",
+          "Agricultural preservation"
+        ],
+        "engage": "Engage Samuel Williams directly, leveraging his demonstrated interest in solar energy and his role as a community leader. Acknowledge his service on the Planning Commission and his family's agricultural heritage. Frame the project as a community investment that aligns with his previous renewable energy initiatives."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Agricultural corporation owned by prominent local businessman and former Planning Commissioner Samuel Williams, who has previously installed solar on other commercial properties.",
+      "stance": "support",
+      "signal": "positive",
+      "influence_level": "High",
+      "risk_level": "Low",
+      "engagement_recommendation": "Proactive outreach to owner",
+      "social": null,
+      "influence": "High",
+      "behavioral_indicators": [
+        "Installed solar on commercial property",
+        "Served on Planning Commission",
+        "Corrected business purpose to 'farm land'"
+      ],
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "South Branch Enterprises, Inc. is a West Virginia domestic profit corporation engaged in agriculture, with state filings explicitly noting that \"all the land in the company is farm land\"",
+          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=349689",
+          "title": "WV SOS Business Organization Detail: South Branch Enterprises Inc",
+          "date": "2026-01-02"
+        },
+        {
+          "claim": "The company is led by President Samuel Williams and Vice-President Kelly Williams",
+          "url": "https://apps.sos.wv.gov/business/corporations/organization.aspx?org=349689",
+          "title": "WV SOS Business Organization Detail: South Branch Enterprises Inc",
+          "date": "2026-01-02"
+        },
+        {
+          "claim": "Samuel Williams is a prominent local business owner who served as a member of the Hardy County Planning Commission in 2020",
+          "url": "http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf",
+          "title": "Hardy County Planning Commission Minutes June 2020",
+          "date": "2020-06-23"
+        },
+        {
+          "claim": "He has demonstrated strong support for solar energy development, overseeing a significant solar installation at his separate business, South Branch Inn",
+          "url": "https://partnercap.org/wp-content/uploads/2025/03/PCAP-2024-ImpactReport-v10-250328.pdf",
+          "title": "Partner Community Capital 2024 Impact Report",
+          "date": "2025-04-10"
+        },
+        {
+          "claim": "The Williams family owns a portfolio of local businesses and has deep historical roots in the South Branch Valley",
+          "url": "https://wvliving.com/possibilitarians-kelly-and-sam-williams/",
+          "title": "Possibilitarians: Kelly and Sam Williams",
+          "date": "2024-05-21"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 218700,
+    "thinking_count": 16
+  }
+}

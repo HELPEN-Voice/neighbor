@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-01-16T19:31:50.657771",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five neighboring landowners have no recorded public stance on the development (0 support, 0 oppose, 5 unknown). None are high-profile community figures or officials; one family (the Wolfes) has moderate influence from long-standing local landownership, while the others exert low influence in the community.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Evans Ruth E",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "16030184003700000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ruth E. Evans was a lifelong resident of Hardy County and an active member of her local church and civic center in Rig [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/ruth-hardy). She passed away in 2009 at age 79, and was survived by her husband and a son residing in Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/ruth-hardy).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Lifelong local; no formal authority",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate through her surviving family. Any outreach should acknowledge the family’s long local roots and emphasize respect for their legacy in the community."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fittipaldi Joseph E & Carol A Geraci",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph E. Fittipaldi resides in the Old Fields area of Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi). His late mother, Audrey Fittipaldi, was born in Hardy County but spent much of her life in New York City before returning to Moorefield in later years [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Transplanted retiree; no civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Fittipaldis in a friendly, informal manner and reassure them the project will preserve the area’s quiet, rural character and safety—likely priorities for a couple who settled here from an urban environment."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Wolfe Ernest E & Deborah A Life & Lawrence E Wolfe",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184004200000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ernest E. Wolfe (Ernest Eugene Wolfe) and his wife Deborah A. Wolfe live in the Old Fields area of Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). They come from a multi-generational farm family – Ernest’s mother Rama Wolfe was born in Hardy County in 1932 and lived her entire life locally [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). The Wolfe family has deep local roots; for example, Ernest’s aunt Velda V. Wolfe (now in her 80s) also resides in Old Fields, underscoring the family’s long-standing presence in the community [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Established farming family; moderate social capital",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local agricultural figure or trusted neighbor initiate contact. Emphasize how the project will respect their family’s land legacy and address any farm-related concerns to align with their values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Wolfe Velda V Life & Ernest E & Deborah A Life & Lawrence E Wolfe",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184004100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Velda V. Wolfe (Velda Virginia Wolfe) is an elderly Hardy County landowner who continues to reside on her property in Old Fields [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). Having no children of her own, she has effectively arranged for her nephew Ernest Wolfe’s household to inherit and manage her land, reflecting a strong intent to keep the property in the family [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elder landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach through personal channels she trusts (such as a long-time family friend or relative). Communications should be gentle and honor her family’s legacy, assuring her that the project will not undermine the heritage of her land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Bosley Jack W & Susan J",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003800000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jack W. Bosley and Susan J. Bosley are landowners in Hardy County, and the Bosley family name has had a presence in the area for generations [1940 U.S. Census (Hardy County)](https://ldsgenealogy.com/WV/1940-Census-Moorefield-WV.htm). Historical records indicate Bosley family members have lived locally since at least the late 19th century (for instance, the 1940 census lists a Bosley born in 1869 residing in the county) [1940 U.S. Census (Hardy County)](https://ldsgenealogy.com/WV/1940-Census-Moorefield-WV.htm).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Old local family; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out to the Bosleys with a neighborly, face-to-face introduction. Listen to any concerns they raise and reassure them that the project will not negatively impact their daily life, property, or the quiet rural setting they are accustomed to."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five neighboring landowners have no recorded public stance on the development (0 support, 0 oppose, 5 unknown). None are high-profile community figures or officials; one family (the Wolfes) has moderate influence from long-standing local landownership, while the others exert low influence in the community.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Evans Ruth E\",\n      \"entity_category\": \"Estate\",\n      \"entity_type\": \"Estate\",\n      \"pins\": [\"16030184003700000000\"],\n      \"claims\": \"Ruth E. Evans was a lifelong resident of Hardy County and an active member of her local church and civic center in Rig [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/ruth-hardy). She passed away in 2009 at age 79, and was survived by her husband and a son residing in Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/ruth-hardy).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Lifelong local; no formal authority\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Coordinate through her surviving family. Any outreach should acknowledge the family’s long local roots and emphasize respect for their legacy in the community.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Fittipaldi Joseph E & Carol A Geraci\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184002100000000\"],\n      \"claims\": \"Joseph E. Fittipaldi resides in the Old Fields area of Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi). His late mother, Audrey Fittipaldi, was born in Hardy County but spent much of her life in New York City before returning to Moorefield in later years [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Transplanted retiree; no civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the Fittipaldis in a friendly, informal manner and reassure them the project will preserve the area’s quiet, rural character and safety—likely priorities for a couple who settled here from an urban environment.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Wolfe Ernest E & Deborah A Life & Lawrence E Wolfe\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184004200000000\"],\n      \"claims\": \"Ernest E. Wolfe (Ernest Eugene Wolfe) and his wife Deborah A. Wolfe live in the Old Fields area of Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). They come from a multi-generational farm family – Ernest’s mother Rama Wolfe was born in Hardy County in 1932 and lived her entire life locally [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). The Wolfe family has deep local roots; for example, Ernest’s aunt Velda V. Wolfe (now in her 80s) also resides in Old Fields, underscoring the family’s long-standing presence in the community [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Established farming family; moderate social capital\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local agricultural figure or trusted neighbor initiate contact. Emphasize how the project will respect their family’s land legacy and address any farm-related concerns to align with their values.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Wolfe Velda V Life & Ernest E & Deborah A Life & Lawrence E Wolfe\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184004100000000\"],\n      \"claims\": \"Velda V. Wolfe (Velda Virginia Wolfe) is an elderly Hardy County landowner who continues to reside on her property in Old Fields [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). Having no children of her own, she has effectively arranged for her nephew Ernest Wolfe’s household to inherit and manage her land, reflecting a strong intent to keep the property in the family [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Elder landowner; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Approach through personal channels she trusts (such as a long-time family friend or relative). Communications should be gentle and honor her family’s legacy, assuring her that the project will not undermine the heritage of her land.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Bosley Jack W & Susan J\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184003800000000\"],\n      \"claims\": \"Jack W. Bosley and Susan J. Bosley are landowners in Hardy County, and the Bosley family name has had a presence in the area for generations [1940 U.S. Census (Hardy County)](https://ldsgenealogy.com/WV/1940-Census-Moorefield-WV.htm). Historical records indicate Bosley family members have lived locally since at least the late 19th century (for instance, the 1940 census lists a Bosley born in 1869 residing in the county) [1940 U.S. Census (Hardy County)](https://ldsgenealogy.com/WV/1940-Census-Moorefield-WV.htm).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Old local family; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out to the Bosleys with a neighborly, face-to-face introduction. Listen to any concerns they raise and reassure them that the project will not negatively impact their daily life, property, or the quiet rural setting they are accustomed to.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

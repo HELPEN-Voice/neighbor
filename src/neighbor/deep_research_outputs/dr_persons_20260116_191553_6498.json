@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-01-16T19:15:53.649836",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Only one of the four neighboring landowners has voiced a stance on local development, expressing opposition to industrial impacts, while the others have no recorded positions. All appear to wield limited direct influence in the community, with no high-profile local officials among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Lloyd S. Fultz Jr. & Dawn E. Fultz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003100000000",
+        "16030184003200000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lloyd S. Fultz Jr. is a resident of Old Fields in Hardy County [Moorefield Examiner](https://hardylive.com/2024/12/04/letter-to-the-editor-6/). He wrote a letter to the editor arguing that poultry giant Pilgrim’s Pride is a major local polluter causing health problems and should be assessed fees per chicken processed to fund emergency services [Moorefield Examiner](https://hardylive.com/2024/12/04/letter-to-the-editor-6/).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Medium",
+      "influence_justification": "Outspoken on local issues",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff"
+        ],
+        "engage": "Engage him through a community or environmental liaison, emphasizing the project’s strict environmental safeguards and health benefits to address his pollution concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "George Robert Shockey, Maude E. Shockey & Robert Shockey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002600000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George R. Shockey was born in Old Fields, WV in 1946 and lived there his entire life, passing away in November 2024 at age 78 [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey). He is survived by his wife, Maude “Sis” Shockey, and their son, Robert Shockey, who resides in Pennsylvania [Moorefield Examiner](https://hardylive.com/2024/11/26/george-shockey/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime locals; no public offices",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected community member reach out with respect for the Shockey family’s long local legacy and assurances that the project will not disrupt their land or lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cary Joe Turner & Jennifer Turner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003300000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No evidence of Cary or Jennifer Turner holding any public office or participating in local civic matters could be found in Hardy County records [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings). They maintain a low profile in the community, with no references in local news or meetings as of late 2025 [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach privately and neighbor-to-neighbor, focusing on listening to any concerns since they have not voiced opinions publicly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "David Stephens & Shari Stephens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184001000130000",
+        "16030184005100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "David and Shari Stephens have no notable public profile in Hardy County; no records or local news mention them taking part in development discussions [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings). They are simply known as property owners, without any public-facing roles or statements on community issues [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through informal, personal outreach via a mutual acquaintance or neighbor, focusing on building trust since they have not been publicly involved in local issues."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Only one of the four neighboring landowners has voiced a stance on local development, expressing opposition to industrial impacts, while the others have no recorded positions. All appear to wield limited direct influence in the community, with no high-profile local officials among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Lloyd S. Fultz Jr. & Dawn E. Fultz\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184003100000000\", \"16030184003200000000\"],\n      \"claims\": \"Lloyd S. Fultz Jr. is a resident of Old Fields in Hardy County [Moorefield Examiner](https://hardylive.com/2024/12/04/letter-to-the-editor-6/). He wrote a letter to the editor arguing that poultry giant Pilgrim’s Pride is a major local polluter causing health problems and should be assessed fees per chicken processed to fund emergency services [Moorefield Examiner](https://hardylive.com/2024/12/04/letter-to-the-editor-6/).\",\n      \"noted_stance\": \"Oppose\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Outspoken on local issues\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"groundwater_runoff\"],\n        \"engage\": \"Engage him through a community or environmental liaison, emphasizing the project’s strict environmental safeguards and health benefits to address his pollution concerns.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"George Robert Shockey, Maude E. Shockey & Robert Shockey\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184002600000000\"],\n      \"claims\": \"George R. Shockey was born in Old Fields, WV in 1946 and lived there his entire life, passing away in November 2024 at age 78 [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey). He is survived by his wife, Maude “Sis” Shockey, and their son, Robert Shockey, who resides in Pennsylvania [Moorefield Examiner](https://hardylive.com/2024/11/26/george-shockey/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime locals; no public offices\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Have a respected community member reach out with respect for the Shockey family’s long local legacy and assurances that the project will not disrupt their land or lifestyle.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Cary Joe Turner & Jennifer Turner\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184003300000000\"],\n      \"claims\": \"No evidence of Cary or Jennifer Turner holding any public office or participating in local civic matters could be found in Hardy County records [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings). They maintain a low profile in the community, with no references in local news or meetings as of late 2025 [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach privately and neighbor-to-neighbor, focusing on listening to any concerns since they have not voiced opinions publicly.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"David Stephens & Shari Stephens\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184001000130000\", \"16030184005100000000\"],\n      \"claims\": \"David and Shari Stephens have no notable public profile in Hardy County; no records or local news mention them taking part in development discussions [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings). They are simply known as property owners, without any public-facing roles or statements on community issues [Hardy County Clerk Online Records](https://hardycounty.com/public-meetings).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through informal, personal outreach via a mutual acquaintance or neighbor, focusing on building trust since they have not been publicly involved in local issues.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

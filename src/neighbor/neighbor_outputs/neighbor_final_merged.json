@@ -2,21 +2,76 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Shirley Delta Maye",
+      "name": "Lloyd S. Fultz Jr. & Dawn E. Fultz",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9G002200000000"
+        "16030184003100000000",
+        "16030184003200000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Shirley Delta Maye is listed as a property owner in Berkeley County’s Falling Waters District, per county tax records ([Berkeley County GIS](https://www.berkeleywv.org/334/Address-SearchGIS-Maps)). No public comments or actions by Maye regarding local development or energy projects could be found in news or meeting records.",
-      "confidence": "medium",
+      "claims": "Lloyd S. Fultz Jr. is a resident of Old Fields in Hardy County ([Moorefield Examiner](https://moorefieldexaminer.com/2024/12/04/letter-to-the-editor-6/)). He has been publicly outspoken regarding local industrial agriculture impacts, specifically writing a letter to the editor arguing that Pilgrim’s Pride is a major local polluter and should be assessed fees to fund emergency services ([Moorefield Examiner](https://moorefieldexaminer.com/2024/12/04/letter-to-the-editor-6/)). He also spoke at a July 2020 Hardy County Commission meeting regarding a poultry 'mega' house project, stating that approved projects 'take no consideration of the impacts on us' and expressing concern about workers and environmental degradation ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+7-1-20.pdf)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Medium",
+      "influence_justification": "Active in public comment/LTEs",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage regarding environmental safeguards and potential revenue benefits for emergency services, addressing his specific history of advocacy for corporate accountability and pollution control."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Resident of Old Fields; wrote LTE regarding Pilgrim's Pride fees and pollution",
+          "url": "https://moorefieldexaminer.com/2024/12/04/letter-to-the-editor-6/",
+          "title": "Letter to the Editor: Pilgrim's Pride",
+          "date": "2024-12-04",
+          "note": null
+        },
+        {
+          "claim": "Spoke at County Commission meeting opposing poultry project impacts",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+7-1-20.pdf",
+          "title": "Commission lays levy; hears from public on poultry project",
+          "date": "2020-07-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "George Robert Shockey, Maude E. Shockey & Robert Shockey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002600000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George R. Shockey was born in Old Fields, WV in 1946 and lived there his entire life, passing away in November 2024 at age 78 ([Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey)). He is survived by his wife, Maude “Sis” Shockey, and their son, Robert Shockey, who resides in Pennsylvania ([Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey)). George was known for his passion for the outdoors, hunting, and fishing ([Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey)).",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private landowner; no public role",
+      "influence_justification": "Longtime locals; no public offices",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach personally via a community liaison to learn her views and any concerns, as her positions are not publicly known."
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected community member reach out with respect for the Shockey family’s long local legacy and condolences regarding the recent passing of George."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -33,34 +88,401 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Shirley Delta Maye is listed as a property owner in Berkeley County’s Falling Waters District",
-          "url": "https://www.berkeleywv.org/334/Address-SearchGIS-Maps",
-          "title": "Berkeley County Address Search/GIS Maps",
-          "date": "2026-01-16",
+          "claim": "George R. Shockey obituary details and survivors",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/george-shockey",
+          "title": "Obituary: George Robert Shockey",
+          "date": "2024-11-17",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cary Joe Turner & Jennifer Turner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003300000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jennifer Turner serves as Vice President at Grant County Bank and is a Board Member of the Hardy County Chamber of Commerce ([Hardy County Chamber](https://www.hardycountychamber.org/about)). Cary Joe Turner is a resident of Old Fields and son of the late Lysle Glenn Turner ([Giffin Funeral Home](https://www.giffinfuneralhome.com/obituaries/Lysle-G-Turner?obId=2491718)). Jennifer and Joe Turner attended a Hardy County Planning Commission meeting in September 2020 regarding a controversial poultry CAFO project, indicating engagement with local land-use issues ([Hardy County](http://www.hardycounty.com/files/documents/41406a02-4bb9-4f59-a61e-7fa82d700043.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Chamber Board Member; Bank VP",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Approach professionally acknowledging Jennifer's role in the local business community (Chamber/Bank); focus on economic benefits and orderly development."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jennifer Turner is VP at Grant County Bank and Chamber Board Member",
+          "url": "https://www.hardycountychamber.org/about",
+          "title": "Hardy County Chamber of Commerce: About Us",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Cary Joe Turner family connection",
+          "url": "https://www.giffinfuneralhome.com/obituaries/Lysle-G-Turner?obId=2491718",
+          "title": "Obituary: Lysle Glenn Turner",
+          "date": "2017-01-01",
+          "note": null
+        },
+        {
+          "claim": "Attended Planning Commission meeting regarding poultry CAFO",
+          "url": "http://www.hardycounty.com/files/documents/41406a02-4bb9-4f59-a61e-7fa82d700043.pdf",
+          "title": "Hardy County Planning Commission Minutes",
+          "date": "2020-09-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "David Stephens & Shari Stephens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184001000130000",
+        "16030184005100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Shari Stephens is the Director of the Hardy County Family Support Center ([WV Bureau for Family Assistance](https://bfa.wv.gov/media/19456/download?inline)). She is a vocal advocate for social services in the region, frequently quoted in local media regarding the housing crisis, homelessness, and food insecurity in Hardy County ([Mountain State Spotlight](https://mountainstatespotlight.org/2025/04/01/affordable-housing-lawmakers-session/)). In interviews, she has highlighted the lack of affordable housing and shelters in the county ([Mountain State Spotlight](https://mountainstatespotlight.org/2024/10/16/voter-election-2024-potomac-highlands/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Director of Family Support Center",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "local_control"
+        ],
+        "engage": "Engage Shari with a focus on community benefits, specifically how the project might support the local tax base or social services, given her professional focus on housing and family support."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Shari Stephens is Director of Hardy County Family Support Center",
+          "url": "https://bfa.wv.gov/media/19456/download?inline",
+          "title": "2025-2026 Family Support Center Directory",
+          "date": "2025-01-01",
+          "note": null
+        },
+        {
+          "claim": "Quoted regarding housing crisis and homelessness",
+          "url": "https://mountainstatespotlight.org/2025/04/01/affordable-housing-lawmakers-session/",
+          "title": "As lawmakers debate affordable housing, West Virginians struggle to find homes",
+          "date": "2025-04-01",
+          "note": null
+        },
+        {
+          "claim": "Discussed homelessness and lack of shelters",
+          "url": "https://mountainstatespotlight.org/2024/10/16/voter-election-2024-potomac-highlands/",
+          "title": "Voters in the Potomac Highlands want better jobs and housing",
+          "date": "2024-10-16",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Leslie Wade Armentrout & Shelly Dawn Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003400000000",
+        "16030184003500000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Leslie Wade Armentrout is employed as an Assistant Football Coach at Moorefield High School, a position effective from the 2023-2024 school year ([Hardy County Schools](https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/1883/HCS/2897957/Bd.Agenda__3.20.23.pdf)). Neither Armentrout nor Shelly Dawn Martin appear in available public records regarding local development debates or civic leadership roles.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Public school employee; no political role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Acknowledge his role in the local school community to build rapport; provide transparent project details focusing on minimal disruption to daily life."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Leslie Wade Armentrout is employed as an Assistant Football Coach at Moorefield High School",
+          "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/1883/HCS/2897957/Bd.Agenda__3.20.23.pdf",
+          "title": "Hardy County Board of Education Meeting Agenda March 20, 2023",
+          "date": "2023-03-20",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Scott Funkhouser",
+      "name": "Steven C. Pendleton",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9000200020000"
+        "16030184002400000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Scott Funkhouser is a resident of Berkeley County and serves as a Lieutenant with the Martinsburg Police Department, where he commands the Bike Patrol Unit ([Herald-Mail Media](https://ipmba.org/resources/product-detail/argos-cement-company-donates-bikes-to-martinsburg-police-department-bike-pa)). He has also served as the President of the Berkeley County Historical Society ([WV Press](https://wvpress.org/copydesk/wv-press-videos/martinsburg-nixes-permit-confederate-flag-event/)). In 2016, in his capacity as Historical Society President, he denied a request by a Confederate heritage group to use the Belle Boyd House property, stating the Society's goal to be inclusive ([WV Press](https://wvpress.org/copydesk/wv-press-videos/martinsburg-nixes-permit-confederate-flag-event/)). He is listed as a donor to the Eastern West Virginia Community Foundation ([EWVCF Annual Report](https://www.ewvcf.org/wp-content/uploads/2015/05/AnnualReport.pdf)).",
+      "claims": "Steven C. Pendleton is a contributor to the Moorefield Examiner and a representative of the 'Concerned Citizens of Old Fields' ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+11-18-20.pdf)). He has actively opposed large-scale agricultural development, specifically a poultry complex in Old Fields, citing concerns about property values, health, and water quality ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+8-26-20.pdf)). Pendleton has challenged the Hardy County Planning Commission regarding transparency and adherence to Open Meeting Laws ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+4_14_21.pdf)). He has publicly stated, 'If my property value drops, who wants to buy it? That's a very personal concern to me' ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+8-26-20.pdf)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Medium",
+      "influence_justification": "Leader of citizens group; media contributor",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control",
+          "groundwater_runoff",
+          "privacy_quiet"
+        ],
+        "engage": "Engage early with high transparency; anticipate scrutiny regarding zoning compliance and property value impacts. Demonstrate strict adherence to open meeting regulations."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Representative of the 'Concerned Citizens of Old Fields'",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+11-18-20.pdf",
+          "title": "Moorefield Examiner - Planning Commission to Form Committee",
+          "date": "2020-11-18",
+          "note": null
+        },
+        {
+          "claim": "Opposed large-scale agricultural development citing property values and health",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+8-26-20.pdf",
+          "title": "Moorefield Examiner - Residents Voice Concerns",
+          "date": "2020-09-14",
+          "note": null
+        },
+        {
+          "claim": "Challenged Planning Commission on Open Meeting Laws",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+4_14_21.pdf",
+          "title": "Moorefield Examiner - Planning Commission Meetings Cancelled",
+          "date": "2021-04-14",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Eric A. Tasker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002300000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Eric A. Tasker is a Hardy County resident who attended the June 23, 2020, Hardy County Planning Commission meeting regarding the controversial Old Fields poultry complex ([Hardy County](http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf)). He has been listed in local legal notices regarding estate administration ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/ME_8_14_19.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Attends planning meetings; no leadership role",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "privacy_quiet"
+        ],
+        "engage": "Approach one-on-one; he monitors local planning activities but does not appear to speak publicly. Address potential concerns about zoning changes."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Attended June 2020 Planning Commission meeting regarding poultry complex",
+          "url": "http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf",
+          "title": "Hardy County Planning Commission Meeting Minutes",
+          "date": "2020-06-23",
+          "note": null
+        },
+        {
+          "claim": "Listed in local legal notices regarding estate administration",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/ME_8_14_19.pdf",
+          "title": "Moorefield Examiner Legal Notices",
+          "date": "2019-08-14",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Gerald Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003600000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gerald Johnson is a Hardy County resident who attended the June 23, 2020, Hardy County Planning Commission meeting regarding the Old Fields poultry complex ([Hardy County](http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf)). He does not appear in other available public records for community leadership or activism.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Attends planning meetings; no public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "privacy_quiet"
+        ],
+        "engage": "Engage through friendly, personal outreach; he has shown interest in development issues by attending meetings but has not voiced public opposition."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Attended June 2020 Planning Commission meeting regarding poultry complex",
+          "url": "http://hardycounty.com/files/documents/755f9260-7b5a-4bbd-8198-54e2ddbd070a.pdf",
+          "title": "Hardy County Planning Commission Meeting Minutes",
+          "date": "2020-06-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Ernest E. Wolfe & Deborah A. Wolfe",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184001000020000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ernest E. Wolfe and Deborah A. Wolfe are listed as owners of a parcel in Hardy County, WV. Public records indicate an Ernest E. Wolfe with a death date in 1999 ([rootsweb.com](https://sites.rootsweb.com/~armpgs/morning_star_cemetery.htm)), suggesting the property may be held in a life estate or estate trust, though specific details of the current arrangement could not be independently verified. No public records of either Ernest or Deborah holding local office or speaking in recent county meetings regarding the Old Fields Solar project or other developments could be found ([moorefieldexaminer.com](https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/)). They have not been identified in news reports or public debates related to energy projects in the area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No documented public role",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach respectfully through personal outreach, emphasizing how any plans can align with preserving their family land use and quiet rural lifestyle."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records indicate an Ernest E. Wolfe with a death date in 1999",
+          "url": "https://sites.rootsweb.com/~armpgs/morning_star_cemetery.htm",
+          "title": "Morning Star Cemetery Transcriptions",
+          "date": "2018-09-11",
+          "note": null
+        },
+        {
+          "claim": "No public records of either Ernest or Deborah holding local office or speaking in recent county meetings regarding the Old Fields Solar project",
+          "url": "https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/",
+          "title": "Open House Shares Details of Solar Farm Plan in Old Fields",
+          "date": "2025-10-21",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kevin M. Helmick II",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002200000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin M. Helmick II has served as a police officer in Moorefield and was highlighted for his role as a K9 handler and drug recognition expert with the Moorefield Police Department ([wv.ng.mil](https://www.wv.ng.mil/News/Article/2408406/helmick-named-wvng-soldier-spotlight-for-november-2020/)). He is also a member of the West Virginia National Guard, having deployed to Afghanistan ([wv.ng.mil](https://www.wv.ng.mil/News/Article/2408406/helmick-named-wvng-soldier-spotlight-for-november-2020/)). Aside from law enforcement-related news, there is no public record of Helmick taking a stance on development or participating in land use debates in Hardy County.",
       "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Police Lieutenant and Historical Society President",
+      "influence_justification": "Law enforcement officer",
       "approach_recommendations": {
         "motivations": [
-          "heritage_family_legacy",
-          "local_control"
+          "traffic_safety",
+          "privacy_quiet"
         ],
-        "engage": "Engage Mr. Funkhouser with respect for his civic roles. Given his leadership in the Historical Society, emphasize how the project respects local heritage and history."
+        "engage": "Engage via a community safety perspective. Given his law enforcement background, emphasize open communication and how project plans address local safety and traffic concerns."
       },
       "entity_classification": "municipal",
       "profile_summary": null,
@@ -77,45 +499,33 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Serves as a Lieutenant with the Martinsburg Police Department",
-          "url": "https://ipmba.org/resources/product-detail/argos-cement-company-donates-bikes-to-martinsburg-police-department-bike-pa",
-          "title": "Argos Cement Company Donates Bikes to Martinsburg Police Department",
-          "date": "2017-09-13",
-          "note": null
-        },
-        {
-          "claim": "Served as President of the Berkeley County Historical Society",
-          "url": "https://wvpress.org/copydesk/wv-press-videos/martinsburg-nixes-permit-confederate-flag-event/",
-          "title": "Martinsburg nixes permit for Confederate flag event",
-          "date": "2016-02-12",
-          "note": null
-        },
-        {
-          "claim": "Listed as a donor to the Eastern West Virginia Community Foundation",
-          "url": "https://www.ewvcf.org/wp-content/uploads/2015/05/AnnualReport.pdf",
-          "title": "Eastern West Virginia Community Foundation Annual Report",
-          "date": "2015-05-01",
+          "claim": "Kevin M. Helmick II has served as a police officer in Moorefield and was highlighted for his role as a K9 handler",
+          "url": "https://www.wv.ng.mil/News/Article/2408406/helmick-named-wvng-soldier-spotlight-for-november-2020/",
+          "title": "Helmick Named WVNG Soldier Spotlight for November 2020",
+          "date": "2020-11-09",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Ronald W. Hardy",
+      "name": "Wayne A. Hudson & Sharon M. Hudson",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9G001600000000"
+        "16030184005000000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Ronald W. Hardy is a resident of the Martinsburg/Falling Waters area of Berkeley County ([Brown Funeral Homes](https://www.brownfuneralhomeswv.com/memorials/dorothy-cook/3820790)). He is listed as a plaintiff in a civil lawsuit filed in Berkeley County Circuit Court in 2023 ([West Virginia Judiciary](http://www.courtswv.gov/node/34100)). No documented stance on land development or energy projects by Hardy was found in available public sources.",
+      "claims": "Wayne A. Hudson and his spouse Sharon M. Hudson own property in Hardy County but maintain a low public profile. No evidence was found of either holding any public office or speaking out at county meetings or hearings ([moorefieldexaminer.com](https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/)). They have not been mentioned in local news regarding development, indicating no visible involvement in community disputes or advocacy on such issues.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private landowner; not publicly active",
+      "influence_justification": "Private citizens; no public profile",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "A one-on-one outreach respecting his privacy is recommended to gauge his perspective, as he has not openly engaged on development issues."
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Reach out in a neighborly manner through personal contact. Emphasize listening to any concerns they have about property or infrastructure to build trust, since they are not publicly outspoken."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -132,38 +542,33 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Resident of the Martinsburg/Falling Waters area",
-          "url": "https://www.brownfuneralhomeswv.com/memorials/dorothy-cook/3820790",
-          "title": "Obituary for Dorothy Lee Cook",
-          "date": "2019-04-25",
-          "note": null
-        },
-        {
-          "claim": "Listed as a plaintiff in a civil lawsuit filed in Berkeley County Circuit Court",
-          "url": "http://www.courtswv.gov/node/34100",
-          "title": "West Virginia Judiciary Court Closures and Cases",
-          "date": "2025-09-23",
+          "claim": "No evidence was found of either holding any public office or speaking out at county meetings or hearings",
+          "url": "https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/",
+          "title": "Open House Shares Details of Solar Farm Plan in Old Fields",
+          "date": "2025-10-21",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-04",
-      "name": "Dennis F. Murphy",
+      "name": "Raymond Lee Orndorff III (Trustee for Alexis Rae Orndorff)",
       "entity_category": "Resident",
-      "entity_type": "Individual",
+      "entity_type": "Trust",
       "pins": [
-        "02 9G002300000000"
+        "16030184001100010000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Dennis F. Murphy (Dennis Finbarr Murphy) is a resident of Hedgesville, WV, and has been employed as an armed security guard at a federal training center in the region ([US District Court Filing](https://holdcbpaccountable.org/wp-content/uploads/2016/08/ds-reply-to-ps-opp-to-ds-mfsj-i.pdf)). He has been a plaintiff in federal litigation regarding employment matters ([Justia](https://law.justia.com/cases/federal/appellate-courts/ca4/19-1742/19-1742-2019-10-21.html)). He has no known public comments on local development or renewable energy projects in the region.",
-      "confidence": "high",
+      "claims": "This parcel is held in a trust arrangement: Raymond Lee Orndorff III is listed as trustee on behalf of Alexis Rae Orndorff. Alexis Rae (“Lexi”) Orndorff is a younger family member from the area who has pursued nursing at WVU Potomac State College after overcoming a health challenge ([medicine.wvu.edu](https://medicine.wvu.edu/News/Story?headline=first-hand-experience-with-cancer-inspires-keyser-campus-nursing-student-to-help-others)). Neither the trustee nor the beneficiary have any documented involvement in local political or planning matters, and no public comments on development have been found.",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Local resident; no civic leadership roles found",
+      "influence_justification": "Family trust; no civic roles",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Since his views are not public, engage Mr. Murphy through personal conversation to identify any concerns or interests."
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach via personal connection through family networks. Emphasize how any development proposal can respect their family’s long-term legacy and future plans for the land."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -180,40 +585,33 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Resident of Hedgesville, WV, and employed as an armed security guard",
-          "url": "https://holdcbpaccountable.org/wp-content/uploads/2016/08/ds-reply-to-ps-opp-to-ds-mfsj-i.pdf",
-          "title": "Plaintiff's Response in Murphy v. CBP",
-          "date": "2016-06-20",
-          "note": null
-        },
-        {
-          "claim": "Plaintiff in federal litigation regarding employment matters",
-          "url": "https://law.justia.com/cases/federal/appellate-courts/ca4/19-1742/19-1742-2019-10-21.html",
-          "title": "Murphy v. Secretary, U.S. Department of Homeland Security",
-          "date": "2019-10-21",
+          "claim": "Alexis Rae (“Lexi”) Orndorff is a younger family member from the area who has pursued nursing at WVU Potomac State College after overcoming a health challenge",
+          "url": "https://medicine.wvu.edu/News/Story?headline=first-hand-experience-with-cancer-inspires-keyser-campus-nursing-student-to-help-others",
+          "title": "First-hand experience with cancer inspires Keyser Campus nursing student to help others",
+          "date": "2023-01-03",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-05",
-      "name": "Trayer T. Rudy",
+      "name": "Amber N. King, David A. King & Rosemary E. King",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9G002600000000"
+        "16030184001000050000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Trayer T. Rudy is a real estate agent with Century 21 Sterling Realty in Berkeley County ([Compass](https://www.compass.com/homedetails/43-Charlotte-Ct-Martinsburg-WV-25405/1UH8W7_pid/)). He also serves as a Construction Coordinator for WVU Medicine Spring Mills ([Imagine Screens](https://imaginescreens.com/our-recent-installs/)). Rudy has served as a Co-Chair for the annual Bernie Hutzler Golf Classic, a local charity event ([WVU Medicine](https://hsc.wvu.edu/hub/announcements/story/?headline=wvu-medicine-hospitals-patients-benefit-from-annual-golf-classic_0)). No specific statements by Rudy regarding renewable energy development were found.",
-      "confidence": "high",
+      "claims": "Amber N. King, David A. King, and Rosemary E. King jointly own their Hardy County parcel. An Amber N. King has been identified as a student at Glenville State College in West Virginia ([glenville.edu](https://www.glenville.edu/news/students-named-spring-2017-honor-lists-gsc)). There are no public news articles or meeting records that mention the King family with regard to development or civic issues in the county. They have not publicly advocated for or against land development, and none of the Kings appear in local leadership roles or community boards as per available records.",
+      "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Real estate professional and construction coordinator for major health system",
+      "community_influence": "Low",
+      "influence_justification": "Private owners; no public role",
       "approach_recommendations": {
         "motivations": [
-          "property_value"
+          "privacy_quiet"
         ],
-        "engage": "Approach via his professional network in real estate or healthcare construction. His background suggests an understanding of development and land use."
+        "engage": "Engage through a family-oriented approach. Reaching out via a community gathering or introduction by a mutual acquaintance may help, focusing on listening to any family concerns or needs."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -230,47 +628,33 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Real estate agent with Century 21 Sterling Realty",
-          "url": "https://www.compass.com/homedetails/43-Charlotte-Ct-Martinsburg-WV-25405/1UH8W7_pid/",
-          "title": "Property Listing Agent Details",
-          "date": "2026-01-16",
-          "note": null
-        },
-        {
-          "claim": "Serves as a Construction Coordinator for WVU Medicine Spring Mills",
-          "url": "https://imaginescreens.com/our-recent-installs/",
-          "title": "Imagine Screens Recent Installs Testimonial",
-          "date": "2026-01-16",
-          "note": null
-        },
-        {
-          "claim": "Served as a Co-Chair for the annual Bernie Hutzler Golf Classic",
-          "url": "https://hsc.wvu.edu/hub/announcements/story/?headline=wvu-medicine-hospitals-patients-benefit-from-annual-golf-classic_0",
-          "title": "WVU Medicine Hospitals Patients Benefit from Annual Golf Classic",
-          "date": "2023-06-06",
+          "claim": "An Amber N. King has been identified as a student at Glenville State College in West Virginia",
+          "url": "https://www.glenville.edu/news/students-named-spring-2017-honor-lists-gsc",
+          "title": "Students Named to Spring 2017 Honor Lists at GSC",
+          "date": "2017-06-09",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Todd A. Gladfelter & Karen Gladfelter",
+      "name": "Evans Ruth E",
       "entity_category": "Resident",
-      "entity_type": "Individual",
+      "entity_type": "Estate",
       "pins": [
-        "02 9G001800000000"
+        "16030184003700000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Todd A. Gladfelter and Karen Gladfelter are residents of Hedgesville, West Virginia ([Kelso-Cornelius Funeral Home](https://www.kelso-corneliusfuneralhome.com/obituaries/Richard-M-Dick-Johnson-Jr?obId=1771219)). They are listed as owners of a residential property on Michelle Dr in Berkeley County ([Veripages](https://veripages.com/name/Todd/Gladfelter/)). Public records identify them as a married couple living in the Hedgesville area ([Kelso-Cornelius Funeral Home](https://www.kelso-corneliusfuneralhome.com/obituaries/Richard-M-Dick-Johnson-Jr?obId=1771219)). No record of either holding local official positions or speaking at county meetings regarding development was found in available archives.",
-      "confidence": "medium",
+      "claims": "Ruth E. Evans (Ruth Evans Hardy) was a lifelong resident of Hardy County and an active member of the Oak Dale Christian Church and Rig Civic Center [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/ruth-hardy). She passed away in November 2009 at age 79, and was survived by her husband (who passed in 2018) and a son residing in Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/ruth-hardy).",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private residents; no public roles found",
+      "influence_justification": "Deceased resident; estate ownership",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet"
+          "heritage_family_legacy"
         ],
-        "engage": "Approach via informal, personal outreach to understand any concerns; emphasize respectful communication and community benefits in discussions."
+        "engage": "Coordinate through her surviving son or estate administrator. Outreach should acknowledge the family’s long local roots in Rig and their history with the local church and civic center."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -287,40 +671,40 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Todd A. Gladfelter and Karen Gladfelter are residents of Hedgesville, West Virginia",
-          "url": "https://www.kelso-corneliusfuneralhome.com/obituaries/Richard-M-Dick-Johnson-Jr?obId=1771219",
-          "title": "Obituary for Richard M. 'Dick' Johnson Jr.",
-          "date": "2017-04-12",
+          "claim": "Ruth E. Evans (Ruth Evans Hardy) was a lifelong resident of Hardy County and an active member of the Oak Dale Christian Church and Rig Civic Center",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/ruth-hardy",
+          "title": "Obituary for Ruth Evans Hardy",
+          "date": "2009-11-28",
           "note": null
         },
         {
-          "claim": "They are listed as owners of a residential property on Michelle Dr in Berkeley County",
-          "url": "https://veripages.com/name/Todd/Gladfelter/",
-          "title": "Veripages Public Record Search",
-          "date": "2026-01-16",
+          "claim": "She passed away in November 2009 at age 79, and was survived by her husband (who passed in 2018) and a son residing in Hardy County",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/ruth-hardy",
+          "title": "Obituary for Ruth Evans Hardy",
+          "date": "2009-11-28",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Jamie G. Roseman & Dianna L. Roseman",
+      "name": "Fittipaldi Joseph E & Carol A Geraci",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9G001900000000"
+        "16030184002100000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Jamie G. Roseman and Dianna L. Roseman jointly own property in the Falling Waters area of Berkeley County ([Berkeley County Assessor](https://www.berkeleywv.org)). No separate business or organizational affiliations were identified in local public records ([Martinsburg Journal](https://www.journal-news.net)). Neither individual appears in local news or civic documents regarding land use or development debates.",
-      "confidence": "low",
+      "claims": "Joseph E. Fittipaldi resides in the Old Fields area of Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi). His late mother, Audrey Fittipaldi, was born in Hardy County but spent much of her life in New York City before returning to Moorefield in later years [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi).",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No evident influence; private landowners",
+      "influence_justification": "Local resident; no public office found",
       "approach_recommendations": {
         "motivations": [
           "privacy_quiet"
         ],
-        "engage": "Engage through a friendly introduction at their residence; listen to any questions and share clear, factual information about the project."
+        "engage": "Engage Joseph Fittipaldi with a focus on preserving the quiet, rural character of Old Fields, acknowledging his family's return to the area from an urban environment."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -337,40 +721,40 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Jamie G. Roseman and Dianna L. Roseman jointly own property in the Falling Waters area of Berkeley County",
-          "url": "https://www.berkeleywv.org/",
-          "title": "Berkeley County Assessor Records",
-          "date": "2026-01-16",
+          "claim": "Joseph E. Fittipaldi resides in the Old Fields area of Hardy County",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi",
+          "title": "Obituary for Audrey Jane Fittipaldi",
+          "date": "2015-10-17",
           "note": null
         },
         {
-          "claim": "No separate business or organizational affiliations were identified in local public records",
-          "url": "https://www.journal-news.net/",
-          "title": "Martinsburg Journal Search",
-          "date": "2026-01-16",
+          "claim": "His late mother, Audrey Fittipaldi, was born in Hardy County but spent much of her life in New York City before returning to Moorefield in later years",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/audrey-fittipaldi",
+          "title": "Obituary for Audrey Jane Fittipaldi",
+          "date": "2015-10-17",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Scott Michael Shimel",
+      "name": "Wolfe Ernest E & Deborah A Life & Lawrence E Wolfe",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9G002000000000"
+        "16030184004200000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Scott Michael Shimel is the listed owner of a parcel in Berkeley County, WV ([Berkeley County Assessor](https://www.berkeleywv.org)). Public records indicate a Scott Shimel attended Hedgesville High School, suggesting long-term ties to the area ([Old Friends](https://old-friends.co/school.php?s=30335)). There are no mentions of Scott M. Shimel in available county meeting minutes or local news reports regarding development.",
-      "confidence": "low",
+      "claims": "Ernest E. Wolfe and his wife Deborah A. Wolfe reside in the Old Fields area of Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). They are part of a multi-generational local family; Ernest’s mother, Rama Wolfe (1932–2019), lived her entire life in Hardy County [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). Ernest's aunt, Velda V. Wolfe, also resides in Old Fields, indicating a strong family presence in the immediate vicinity [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe).",
+      "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Not publicly active; private citizen",
+      "community_influence": "Medium",
+      "influence_justification": "Established local family with extended ties",
       "approach_recommendations": {
         "motivations": [
-          "local_control"
+          "heritage_family_legacy"
         ],
-        "engage": "Have a one-on-one conversation to introduce the project and address any concerns; consider a neighborly approach via shared contacts or community events."
+        "engage": "Initiate contact through a respected local neighbor. Emphasize the project's alignment with preserving family land legacies, as the Wolfe family has deep multi-generational roots in Old Fields."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -387,40 +771,47 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Scott Michael Shimel is the listed owner of a parcel in Berkeley County, WV",
-          "url": "https://www.berkeleywv.org/",
-          "title": "Berkeley County Assessor Records",
-          "date": "2026-01-16",
+          "claim": "Ernest E. Wolfe and his wife Deborah A. Wolfe reside in the Old Fields area of Hardy County",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/rama-wolfe",
+          "title": "Obituary for Rama Ida Wolfe",
+          "date": "2019-02-07",
           "note": null
         },
         {
-          "claim": "Public records indicate a Scott Shimel attended Hedgesville High School",
-          "url": "https://old-friends.co/school.php?s=30335",
-          "title": "Hedgesville High School Alumni List",
-          "date": "2026-01-16",
+          "claim": "Ernest’s mother, Rama Wolfe (1932–2019), lived her entire life in Hardy County",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/rama-wolfe",
+          "title": "Obituary for Rama Ida Wolfe",
+          "date": "2019-02-07",
+          "note": null
+        },
+        {
+          "claim": "Ernest's aunt, Velda V. Wolfe, also resides in Old Fields",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/rama-wolfe",
+          "title": "Obituary for Rama Ida Wolfe",
+          "date": "2019-02-07",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-04",
-      "name": "Tyler James Cloud & Jacob Ashby Cloud",
+      "name": "Wolfe Velda V Life & Ernest E & Deborah A Life & Lawrence E Wolfe",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9000100040000"
+        "16030184004100000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Tyler James Cloud and Jacob Ashby Cloud are co-owners of a Berkeley County property ([Berkeley County Assessor](https://www.berkeleywv.org)). They are identified in local records as the grandchildren of long-time Berkeley County residents Janice Thomas Cloud and C. James Cloud ([Brown Funeral Home](https://www.brownfuneralhomeswv.com/memorials/Cloud-Janice/1357736/help)). No public profiles or community leadership roles were found for either Tyler or Jacob in relation to land use meetings.",
-      "confidence": "low",
+      "claims": "Velda V. Wolfe is an elderly landowner residing in Old Fields and is the sister of the late Rama Wolfe [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). She has family ties to Ernest E. Wolfe, who resides nearby in Old Fields [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe).",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public profile or leadership",
+      "influence_justification": "Elderly resident; private citizen",
       "approach_recommendations": {
         "motivations": [
           "heritage_family_legacy"
         ],
-        "engage": "Reach out through a mutual acquaintance or community gathering if possible; highlight how the project respects local interests and address any questions they may have."
+        "engage": "Approach with care through family channels, specifically her nephew Ernest Wolfe. Communications should focus on respect for the family's long tenure on the land."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -437,42 +828,43 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Tyler James Cloud and Jacob Ashby Cloud are co-owners of a Berkeley County property",
-          "url": "https://www.berkeleywv.org/",
-          "title": "Berkeley County Assessor Records",
-          "date": "2026-01-16",
+          "claim": "Velda V. Wolfe is an elderly landowner residing in Old Fields and is the sister of the late Rama Wolfe",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/rama-wolfe",
+          "title": "Obituary for Rama Ida Wolfe",
+          "date": "2019-02-07",
           "note": null
         },
         {
-          "claim": "They are identified in local records as the grandchildren of long-time Berkeley County residents Janice Thomas Cloud and C. James Cloud",
-          "url": "https://www.brownfuneralhomeswv.com/memorials/Cloud-Janice/1357736/help",
-          "title": "Obituary for Janice Thomas Cloud",
-          "date": "2010-01-11",
+          "claim": "She has family ties to Ernest E. Wolfe, who resides nearby in Old Fields",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/rama-wolfe",
+          "title": "Obituary for Rama Ida Wolfe",
+          "date": "2019-02-07",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-05",
-      "name": "Michael D. Writt",
+      "name": "Bosley Jack W & Susan J",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9G001700000000"
+        "16030184003800000000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Michael D. Writt is identified as a property owner in Berkeley County with no accompanying business entity, indicating personal ownership ([Berkeley County Assessor](https://www.berkeleywv.org)). A search of local public records and media did not reveal any notable civic engagement or statements by Writt concerning development or energy projects.",
+      "claims": "Jack W. Bosley is a Reverend who has served in the local religious community, evidenced by his pastoral title in local condolences [Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/rama-wolfe). The Bosley family has a multi-generational presence in Hardy County, with records dating back to the 19th century [1940 U.S. Census (Hardy County)](https://ldsgenealogy.com/WV/1940-Census-Moorefield-WV.htm).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private individual; not publicly active",
+      "community_influence": "Medium",
+      "influence_justification": "Religious leader (Reverend); established local family",
       "approach_recommendations": {
         "motivations": [
+          "heritage_family_legacy",
           "privacy_quiet"
         ],
-        "engage": "Engage in a respectful, informative manner at his convenience; provide reassurances about the project’s adherence to community standards and invite him to ask questions."
+        "engage": "Approach Rev. Bosley with high respect for his community role. A face-to-face introduction that emphasizes community values and preservation of the rural landscape is recommended."
       },
-      "entity_classification": "unknown",
+      "entity_classification": "religious",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -487,78 +879,83 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Michael D. Writt is identified as a property owner in Berkeley County with no accompanying business entity",
-          "url": "https://www.berkeleywv.org/",
-          "title": "Berkeley County Assessor Records",
-          "date": "2026-01-16",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "FFPLS Hedgesville LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "02   9001000120000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "FFPLS Hedgesville LLC is a limited liability company associated with the property at 1251 Hammonds Mill Road in Hedgesville ([source](https://nationalpublicdata.com/people/f/diane-fletcher/)). The entity appears to be a subsidiary of Faithful Forever Pet Loss Services ('FFPLS'), a company specializing in pet cremation and memorial services ([source](https://www.matw.com/investors/sec-filings/all-sec-filings/content/0000063296-21-000005/0000063296-21-000005.pdf)). Public records indicate the LLC has been a defendant in civil litigation in Berkeley County, with case filings dating back to 2022 ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2)). Previously, the property was the residence of Diane M. Fletcher ([source](https://nationalpublicdata.com/people/f/diane-fletcher/)). The company does not appear in West Virginia's domestic business registry, consistent with the structure of a foreign limited liability company ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Niche commercial service provider or property holding entity; no documented community leadership or broad influence found.",
-      "approach_recommendations": {
-        "motivations": [
-          "Asset monetization",
-          "Operational efficiency"
-        ],
-        "engage": "Engage via the registered agent or corporate parent (Faithful Forever Pet Loss Services). As a commercial entity, they may be amenable to a financial offer that exceeds the operational or holding value of the asset."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": "FFPLS Hedgesville LLC is likely a subsidiary of Faithful Forever Pet Loss Services, holding property at 1251 Hammonds Mill Road. The entity has been involved in local civil litigation and succeeded individual resident Diane M. Fletcher at the address.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "FFPLS Hedgesville LLC is associated with 1251 Hammonds Mill Road and Diane M. Fletcher",
-          "url": "https://nationalpublicdata.com/people/f/diane-fletcher/",
-          "title": "Diane Fletcher - NPD People Search",
-          "date": "2026-01-16",
+          "claim": "Jack W. Bosley is a Reverend who has served in the local religious community, evidenced by his pastoral title in local condolences",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/rama-wolfe",
+          "title": "Guestbook for Rama Ida Wolfe (Entry by Rev. Jack W. Bosley)",
+          "date": "2019-02-09",
           "note": null
         },
         {
-          "claim": "FFPLS stands for Faithful Forever Pet Loss Services",
-          "url": "https://www.matw.com/investors/sec-filings/all-sec-filings/content/0000063296-21-000005/0000063296-21-000005.pdf",
-          "title": "Matthews International Corp SEC Filing (Def 14A)",
-          "date": "2021-01-19",
-          "note": null
-        },
-        {
-          "claim": "FFPLS Hedgesville LLC named in Berkeley County civil litigation (2022)",
-          "url": "https://apps.sos.wv.gov/business/service-of-process/Home/Search?CivilActionNumber=NTR186&page=2",
-          "title": "WV Secretary of State Service of Process Search",
-          "date": "2024-02-14",
+          "claim": "The Bosley family has a multi-generational presence in Hardy County, with records dating back to the 19th century",
+          "url": "https://ldsgenealogy.com/WV/1940-Census-Moorefield-WV.htm",
+          "title": "1940 U.S. Census (Hardy County)",
+          "date": "1940-01-01",
           "note": null
         }
       ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 39.56658,-77.941803",
-  "overview_summary": "Screening of 11 neighboring stakeholders within 0.5 miles identified 10 private residents and one organizational entity, FFPLS Hedgesville LLC. While two stakeholders possess medium influence and nine have low or unknown influence, no high-influence individuals or documented opposition risks were identified. All neighbors currently maintain an unknown stance toward the development, with the organizational neighbor operating as a private land investment entity with no known community role.",
+  "location_context": "Neighbors within 0.5 mi of 39.159295,-78.965447",
+  "overview_summary": "Of the 19 neighbors profiled, 18 are residents and one is an organization, with 16 stances currently unknown, two in opposition, and one in support. The group includes one high-influence individual and seven medium-influence neighbors, including the Wolfe and Sites families who hold influence through long-standing landownership and generational ties. Identified opposition is focused on industrial impacts, while notable entities include South Branch Enterprises Inc and residents with public profiles in local media and law enforcement.",
   "success": true,
-  "runtime_minutes": 39.29,
+  "runtime_minutes": 38.88,
   "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
     {
       "title": null,
       "url": null
@@ -601,625 +998,504 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_160838_6727.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_160943_2820.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_160845_2391.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191553_6498.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191210_8067.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191355_9558.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_193150_6577.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191507_8782.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260116_191455_9910.json"
   ],
   "city": null,
-  "county": "Berkeley County",
+  "county": "Hardy County",
   "state": "WV",
-  "run_id": "a243cf3f-8a86-4d24-afa7-b7bf4db025fe",
-  "target_pin": "02   9000300000000",
+  "run_id": "1e658ebb-4bb9-4b09-a1ef-d605375d5915",
+  "target_pin": "16030184001100000000",
   "target_parcel_info": {
-    "pin": "02   9000300000000",
+    "pin": "16030184001100000000",
     "geometry": {
-      "type": "MultiPolygon",
+      "type": "Polygon",
       "coordinates": [
         [
           [
-            [
-              -77.945253,
-              39.5646225
-            ],
-            [
-              -77.94519,
-              39.564591
-            ],
-            [
-              -77.9451645,
-              39.5651855
-            ],
-            [
-              -77.9451575,
-              39.565326
-            ],
-            [
-              -77.945144,
-              39.5654665
-            ],
-            [
-              -77.945124,
-              39.5656065
-            ],
-            [
-              -77.9450975,
-              39.565746
-            ],
-            [
-              -77.9450875,
-              39.565826
-            ],
-            [
-              -77.945084,
-              39.5659065
-            ],
-            [
-              -77.9450865,
-              39.565987
-            ],
-            [
-              -77.9450955,
-              39.566067
-            ],
-            [
-              -77.945111,
-              39.5661465
-            ],
-            [
-              -77.945136,
-              39.56629
-            ],
-            [
-              -77.9451505,
-              39.5663525
-            ],
-            [
-              -77.9451605,
-              39.566416
-            ],
-            [
-              -77.9451655,
-              39.5664795
-            ],
-            [
-              -77.945166,
-              39.566543
-            ],
-            [
-              -77.945161,
-              39.5666065
-            ],
-            [
-              -77.9451605,
-              39.5666425
-            ],
-            [
-              -77.945133,
-              39.5668265
-            ],
-            [
-              -77.945092,
-              39.567
-            ],
-            [
-              -77.9450685,
-              39.5670825
-            ],
-            [
-              -77.9450395,
-              39.5671645
-            ],
-            [
-              -77.9450045,
-              39.5672445
-            ],
-            [
-              -77.944964,
-              39.5673235
-            ],
-            [
-              -77.944918,
-              39.5674005
-            ],
-            [
-              -77.944867,
-              39.567469
-            ],
-            [
-              -77.9447555,
-              39.567622
-            ],
-            [
-              -77.9437185,
-              39.569094
-            ],
-            [
-              -77.942871,
-              39.5702995
-            ],
-            [
-              -77.948721,
-              39.5711735
-            ],
-            [
-              -77.9489895,
-              39.571214
-            ],
-            [
-              -77.9490435,
-              39.5711455
-            ],
-            [
-              -77.950366,
-              39.5694755
-            ],
-            [
-              -77.9509165,
-              39.568767
-            ],
-            [
-              -77.950911,
-              39.5687635
-            ],
-            [
-              -77.9492995,
-              39.567899
-            ],
-            [
-              -77.9499415,
-              39.5669335
-            ],
-            [
-              -77.9453215,
-              39.564656
-            ],
-            [
-              -77.945253,
-              39.5646225
-            ]
-          ]
-        ],
-        [
+            -78.9648785,
+            39.1661925
+          ],
           [
-            [
-              -77.938338,
-              39.5710415
-            ],
-            [
-              -77.938333,
-              39.5710885
-            ],
-            [
-              -77.9393485,
-              39.5705795
-            ],
-            [
-              -77.9394015,
-              39.5705545
-            ],
-            [
-              -77.9394575,
-              39.5705335
-            ],
-            [
-              -77.939516,
-              39.570517
-            ],
-            [
-              -77.9395765,
-              39.5705045
-            ],
-            [
-              -77.939638,
-              39.5704965
-            ],
-            [
-              -77.9397,
-              39.5704935
-            ],
-            [
-              -77.9397625,
-              39.570495
-            ],
-            [
-              -77.9398245,
-              39.570501
-            ],
-            [
-              -77.939885,
-              39.5705115
-            ],
-            [
-              -77.939944,
-              39.570527
-            ],
-            [
-              -77.9414635,
-              39.5710385
-            ],
-            [
-              -77.941694,
-              39.5711135
-            ],
-            [
-              -77.941834,
-              39.5711505
-            ],
-            [
-              -77.9418825,
-              39.571156
-            ],
-            [
-              -77.9419315,
-              39.571157
-            ],
-            [
-              -77.9419805,
-              39.571153
-            ],
-            [
-              -77.9420285,
-              39.571144
-            ],
-            [
-              -77.9420745,
-              39.5711305
-            ],
-            [
-              -77.9421175,
-              39.5711125
-            ],
-            [
-              -77.9421575,
-              39.5710905
-            ],
-            [
-              -77.9421935,
-              39.5710645
-            ],
-            [
-              -77.942225,
-              39.5710355
-            ],
-            [
-              -77.942251,
-              39.5710035
-            ],
-            [
-              -77.942643,
-              39.5704505
-            ],
-            [
-              -77.943337,
-              39.569464
-            ],
-            [
-              -77.941859,
-              39.5689685
-            ],
-            [
-              -77.942251,
-              39.5684125
-            ],
-            [
-              -77.9426425,
-              39.567856
-            ],
-            [
-              -77.94412,
-              39.5683515
-            ],
-            [
-              -77.9446625,
-              39.567582
-            ],
-            [
-              -77.9447745,
-              39.5674285
-            ],
-            [
-              -77.944824,
-              39.5673615
-            ],
-            [
-              -77.944867,
-              39.567289
-            ],
-            [
-              -77.9449055,
-              39.567215
-            ],
-            [
-              -77.944938,
-              39.5671395
-            ],
-            [
-              -77.9449655,
-              39.5670625
-            ],
-            [
-              -77.944987,
-              39.5669845
-            ],
-            [
-              -77.945028,
-              39.5668145
-            ],
-            [
-              -77.945054,
-              39.566637
-            ],
-            [
-              -77.945055,
-              39.566602
-            ],
-            [
-              -77.9450595,
-              39.5665425
-            ],
-            [
-              -77.9450595,
-              39.5664825
-            ],
-            [
-              -77.9450545,
-              39.5664225
-            ],
-            [
-              -77.945045,
-              39.566363
-            ],
-            [
-              -77.945031,
-              39.566304
-            ],
-            [
-              -77.9450055,
-              39.5661595
-            ],
-            [
-              -77.9449895,
-              39.566075
-            ],
-            [
-              -77.94498,
-              39.56599
-            ],
-            [
-              -77.9449775,
-              39.5659045
-            ],
-            [
-              -77.9449815,
-              39.565819
-            ],
-            [
-              -77.944992,
-              39.565734
-            ],
-            [
-              -77.9450185,
-              39.565597
-            ],
-            [
-              -77.945038,
-              39.5654595
-            ],
-            [
-              -77.9450515,
-              39.5653215
-            ],
-            [
-              -77.945058,
-              39.565183
-            ],
-            [
-              -77.945094,
-              39.5643505
-            ],
-            [
-              -77.945101,
-              39.56428
-            ],
-            [
-              -77.9451135,
-              39.56421
-            ],
-            [
-              -77.9451315,
-              39.5641405
-            ],
-            [
-              -77.945155,
-              39.5640725
-            ],
-            [
-              -77.9451195,
-              39.56405
-            ],
-            [
-              -77.9444505,
-              39.563627
-            ],
-            [
-              -77.9441855,
-              39.564163
-            ],
-            [
-              -77.9440935,
-              39.564321
-            ],
-            [
-              -77.9436995,
-              39.5647605
-            ],
-            [
-              -77.9432195,
-              39.5643155
-            ],
-            [
-              -77.943441,
-              39.563953
-            ],
-            [
-              -77.9442675,
-              39.562959
-            ],
-            [
-              -77.9446895,
-              39.563107
-            ],
-            [
-              -77.9445265,
-              39.5634625
-            ],
-            [
-              -77.945203,
-              39.56389
-            ],
-            [
-              -77.9452055,
-              39.5638915
-            ],
-            [
-              -77.9452345,
-              39.56391
-            ],
-            [
-              -77.9452785,
-              39.563843
-            ],
-            [
-              -77.945328,
-              39.563778
-            ],
-            [
-              -77.9453825,
-              39.563716
-            ],
-            [
-              -77.9462985,
-              39.5626685
-            ],
-            [
-              -77.9465385,
-              39.5623875
-            ],
-            [
-              -77.9475505,
-              39.5611575
-            ],
-            [
-              -77.9477615,
-              39.560915
-            ],
-            [
-              -77.9479955,
-              39.560627
-            ],
-            [
-              -77.9482425,
-              39.5603295
-            ],
-            [
-              -77.9483625,
-              39.5601895
-            ],
-            [
-              -77.9483985,
-              39.560149
-            ],
-            [
-              -77.948437,
-              39.56011
-            ],
-            [
-              -77.9485245,
-              39.5600005
-            ],
-            [
-              -77.948885,
-              39.559549
-            ],
-            [
-              -77.9488585,
-              39.5595325
-            ],
-            [
-              -77.9486275,
-              39.5593905
-            ],
-            [
-              -77.9481105,
-              39.559072
-            ],
-            [
-              -77.948044,
-              39.559079
-            ],
-            [
-              -77.946973,
-              39.5591805
-            ],
-            [
-              -77.945457,
-              39.559328
-            ],
-            [
-              -77.9445175,
-              39.559422
-            ],
-            [
-              -77.9444045,
-              39.5594305
-            ],
-            [
-              -77.944321,
-              39.5594335
-            ],
-            [
-              -77.944255,
-              39.5594365
-            ],
-            [
-              -77.9441885,
-              39.5594365
-            ],
-            [
-              -77.9441225,
-              39.559433
-            ],
-            [
-              -77.9400925,
-              39.567154
-            ],
-            [
-              -77.938926,
-              39.566357
-            ],
-            [
-              -77.938875,
-              39.5667625
-            ],
-            [
-              -77.938874,
-              39.5667715
-            ],
-            [
-              -77.9384095,
-              39.57047
-            ],
-            [
-              -77.938338,
-              39.5710415
-            ]
+            -78.959127,
+            39.1688825
+          ],
+          [
+            -78.959117,
+            39.168887
+          ],
+          [
+            -78.9624995,
+            39.1720415
+          ],
+          [
+            -78.9715465,
+            39.167185
+          ],
+          [
+            -78.974626,
+            39.1655315
+          ],
+          [
+            -78.975088,
+            39.1652835
+          ],
+          [
+            -78.9748645,
+            39.1652025
+          ],
+          [
+            -78.9746385,
+            39.165127
+          ],
+          [
+            -78.974409,
+            39.165056
+          ],
+          [
+            -78.974292,
+            39.1650245
+          ],
+          [
+            -78.974159,
+            39.1649945
+          ],
+          [
+            -78.974024,
+            39.1649705
+          ],
+          [
+            -78.9738875,
+            39.1649525
+          ],
+          [
+            -78.9737495,
+            39.1649405
+          ],
+          [
+            -78.9735365,
+            39.164924
+          ],
+          [
+            -78.9733245,
+            39.1649
+          ],
+          [
+            -78.9732405,
+            39.164886
+          ],
+          [
+            -78.9731585,
+            39.1648665
+          ],
+          [
+            -78.973079,
+            39.1648415
+          ],
+          [
+            -78.9730025,
+            39.1648115
+          ],
+          [
+            -78.9729295,
+            39.164776
+          ],
+          [
+            -78.972861,
+            39.1647355
+          ],
+          [
+            -78.9727975,
+            39.1646905
+          ],
+          [
+            -78.9727445,
+            39.1646465
+          ],
+          [
+            -78.9726965,
+            39.1645985
+          ],
+          [
+            -78.9726545,
+            39.164548
+          ],
+          [
+            -78.9726175,
+            39.1644945
+          ],
+          [
+            -78.972587,
+            39.164439
+          ],
+          [
+            -78.9725285,
+            39.164325
+          ],
+          [
+            -78.972463,
+            39.164214
+          ],
+          [
+            -78.9723905,
+            39.164105
+          ],
+          [
+            -78.9722205,
+            39.1638575
+          ],
+          [
+            -78.9720545,
+            39.1636085
+          ],
+          [
+            -78.9719915,
+            39.163517
+          ],
+          [
+            -78.971923,
+            39.163428
+          ],
+          [
+            -78.9718495,
+            39.1633415
+          ],
+          [
+            -78.971771,
+            39.1632575
+          ],
+          [
+            -78.9716875,
+            39.1631765
+          ],
+          [
+            -78.971438,
+            39.1629455
+          ],
+          [
+            -78.9712775,
+            39.1627955
+          ],
+          [
+            -78.9711205,
+            39.162643
+          ],
+          [
+            -78.970967,
+            39.1624885
+          ],
+          [
+            -78.970779,
+            39.162294
+          ],
+          [
+            -78.9705945,
+            39.162097
+          ],
+          [
+            -78.9704615,
+            39.161951
+          ],
+          [
+            -78.9698955,
+            39.1613235
+          ],
+          [
+            -78.968776,
+            39.160153
+          ],
+          [
+            -78.967976,
+            39.159332
+          ],
+          [
+            -78.967797,
+            39.159146
+          ],
+          [
+            -78.967301,
+            39.158638
+          ],
+          [
+            -78.967003,
+            39.15833
+          ],
+          [
+            -78.9667105,
+            39.158019
+          ],
+          [
+            -78.966424,
+            39.1577045
+          ],
+          [
+            -78.9661285,
+            39.157372
+          ],
+          [
+            -78.965836,
+            39.1570375
+          ],
+          [
+            -78.965678,
+            39.156859
+          ],
+          [
+            -78.965516,
+            39.156683
+          ],
+          [
+            -78.9653495,
+            39.1565095
+          ],
+          [
+            -78.965262,
+            39.1564225
+          ],
+          [
+            -78.96517,
+            39.1563385
+          ],
+          [
+            -78.964836,
+            39.156042
+          ],
+          [
+            -78.964714,
+            39.155934
+          ],
+          [
+            -78.9645105,
+            39.1557445
+          ],
+          [
+            -78.964311,
+            39.155552
+          ],
+          [
+            -78.9630875,
+            39.1543585
+          ],
+          [
+            -78.9630375,
+            39.1543065
+          ],
+          [
+            -78.962994,
+            39.154251
+          ],
+          [
+            -78.9629575,
+            39.1541925
+          ],
+          [
+            -78.9629275,
+            39.154132
+          ],
+          [
+            -78.9629045,
+            39.154069
+          ],
+          [
+            -78.962889,
+            39.1540055
+          ],
+          [
+            -78.962866,
+            39.1538635
+          ],
+          [
+            -78.9628475,
+            39.153721
+          ],
+          [
+            -78.9628345,
+            39.153578
+          ],
+          [
+            -78.9627765,
+            39.152812
+          ],
+          [
+            -78.9627655,
+            39.1526755
+          ],
+          [
+            -78.962739,
+            39.152398
+          ],
+          [
+            -78.9627045,
+            39.152121
+          ],
+          [
+            -78.962701,
+            39.152096
+          ],
+          [
+            -78.9623385,
+            39.152274
+          ],
+          [
+            -78.959545,
+            39.155628
+          ],
+          [
+            -78.959306,
+            39.155502
+          ],
+          [
+            -78.9575965,
+            39.157525
+          ],
+          [
+            -78.9571045,
+            39.1581015
+          ],
+          [
+            -78.956758,
+            39.158507
+          ],
+          [
+            -78.955944,
+            39.159514
+          ],
+          [
+            -78.954157,
+            39.161641
+          ],
+          [
+            -78.9518215,
+            39.1646205
+          ],
+          [
+            -78.951648,
+            39.1648505
+          ],
+          [
+            -78.9534205,
+            39.165349
+          ],
+          [
+            -78.954861,
+            39.164868
+          ],
+          [
+            -78.9582585,
+            39.1680775
+          ],
+          [
+            -78.961409,
+            39.164657
+          ],
+          [
+            -78.9632315,
+            39.163829
+          ],
+          [
+            -78.964093,
+            39.163596
+          ],
+          [
+            -78.9664625,
+            39.165653
+          ],
+          [
+            -78.9648785,
+            39.1661925
           ]
         ]
       ]
     },
-    "lat": "39.566376",
-    "lon": "-77.944570",
-    "county_path": "/us/wv/berkeley/potomac"
+    "lat": "39.162865",
+    "lon": "-78.962960",
+    "county_path": "/us/wv/hardy/old-fields"
   },
-  "map_error": "HTTP 404: {\"message\":\"Not Found\"}"
+  "map_image_path": "src/neighbor/neighbor_map_outputs/1e658ebb-4bb9-4b09-a1ef-d605375d5915_map_full.png",
+  "map_labels": [
+    {
+      "marker_char": "T",
+      "text": "TARGET",
+      "full_name": "Target Parcel",
+      "color": "FFD700",
+      "influence": null,
+      "stance": null,
+      "is_adjacent": false,
+      "is_target": true
+    },
+    {
+      "marker_char": "1",
+      "text": "FULTZ",
+      "full_name": "Lloyd S. Fultz Jr. & Dawn E. Fultz",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "oppose",
+      "is_adjacent": false,
+      "is_target": false
+    },
+    {
+      "marker_char": "2",
+      "text": "TURNER",
+      "full_name": "Cary Joe Turner & Jennifer Turner",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "unknown",
+      "is_adjacent": false,
+      "is_target": false
+    },
+    {
+      "marker_char": "3",
+      "text": "STEPHENS",
+      "full_name": "David Stephens & Shari Stephens",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "unknown",
+      "is_adjacent": false,
+      "is_target": false
+    },
+    {
+      "marker_char": "4",
+      "text": "PENDLETO",
+      "full_name": "Steven C. Pendleton",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "oppose",
+      "is_adjacent": false,
+      "is_target": false
+    },
+    {
+      "marker_char": "5",
+      "text": "HELMICK",
+      "full_name": "Kevin M. Helmick II",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "unknown",
+      "is_adjacent": false,
+      "is_target": false
+    },
+    {
+      "marker_char": "6",
+      "text": "WOLFE",
+      "full_name": "Wolfe Ernest E & Deborah A Life & Lawrence E Wolfe",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "unknown",
+      "is_adjacent": false,
+      "is_target": false
+    },
+    {
+      "marker_char": "7",
+      "text": "J",
+      "full_name": "Bosley Jack W & Susan J",
+      "color": "FF8C00",
+      "influence": "Medium",
+      "stance": "unknown",
+      "is_adjacent": false,
+      "is_target": false
+    }
+  ]
 }

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-01-16T19:14:55.991102",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The only organizational neighbor identified is South Branch Enterprises Inc, a local corporation holding property in the area. It appears to be a passive landowner with undisclosed ownership and limited community influence, but could oppose development to protect its land value or seek incentives for support.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "South Branch Enterprises Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "16030184001400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "South Branch Enterprises, Inc. is a West Virginia domestic profit corporation listed as active by the state’s Secretary of State [Bizapedia](https://www.bizapedia.com/wv/south-branch-enterprises-inc.html). The company holds a land parcel in Hardy County (PIN 16030184001400000000) but shows no other public business operations or community engagements [West Virginia Property Viewer](https://mapwv.gov/parcel).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Owns a single parcel; no documented economic or political influence in the community",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through the company’s registered agent or official mailing address. Emphasize mitigating any impact on their property value and consider offering mutually beneficial terms to secure their neutrality or support."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The only organizational neighbor identified is South Branch Enterprises Inc, a local corporation holding property in the area. It appears to be a passive landowner with undisclosed ownership and limited community influence, but could oppose development to protect its land value or seek incentives for support.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"South Branch Enterprises Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"16030184001400000000\"],\n      \"claims\": \"South Branch Enterprises, Inc. is a West Virginia domestic profit corporation listed as active by the state’s Secretary of State [Bizapedia](https://www.bizapedia.com/wv/south-branch-enterprises-inc.html). The company holds a land parcel in Hardy County (PIN 16030184001400000000) but shows no other public business operations or community engagements [West Virginia Property Viewer](https://mapwv.gov/parcel).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Owns a single parcel; no documented economic or political influence in the community\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Property value preservation\", \"Potential financial gain (sale or lease)\", \"Maintaining current land use\"],\n      \"approach_recommendations\": \"Engage through the company’s registered agent or official mailing address. Emphasize mitigating any impact on their property value and consider offering mutually beneficial terms to secure their neutrality or support.\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

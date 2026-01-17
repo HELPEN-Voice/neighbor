@@ -1,0 +1,223 @@
+{
+  "timestamp": "2026-01-16T19:37:57.533691",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191553_6498.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Lloyd S. Fultz Jr. & Dawn E. Fultz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003100000000",
+        "16030184003200000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lloyd S. Fultz Jr. is a resident of Old Fields in Hardy County ([Moorefield Examiner](https://moorefieldexaminer.com/2024/12/04/letter-to-the-editor-6/)). He has been publicly outspoken regarding local industrial agriculture impacts, specifically writing a letter to the editor arguing that Pilgrim’s Pride is a major local polluter and should be assessed fees to fund emergency services ([Moorefield Examiner](https://moorefieldexaminer.com/2024/12/04/letter-to-the-editor-6/)). He also spoke at a July 2020 Hardy County Commission meeting regarding a poultry 'mega' house project, stating that approved projects 'take no consideration of the impacts on us' and expressing concern about workers and environmental degradation ([Moorefield Examiner](https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+7-1-20.pdf)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Medium",
+      "influence_justification": "Active in public comment/LTEs",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage regarding environmental safeguards and potential revenue benefits for emergency services, addressing his specific history of advocacy for corporate accountability and pollution control."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Resident of Old Fields; wrote LTE regarding Pilgrim's Pride fees and pollution",
+          "url": "https://moorefieldexaminer.com/2024/12/04/letter-to-the-editor-6/",
+          "title": "Letter to the Editor: Pilgrim's Pride",
+          "date": "2024-12-04"
+        },
+        {
+          "claim": "Spoke at County Commission meeting opposing poultry project impacts",
+          "url": "https://moorefieldexaminer.s3.amazonaws.com/Moorefield+Examiner+7-1-20.pdf",
+          "title": "Commission lays levy; hears from public on poultry project",
+          "date": "2020-07-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "George Robert Shockey, Maude E. Shockey & Robert Shockey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002600000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George R. Shockey was born in Old Fields, WV in 1946 and lived there his entire life, passing away in November 2024 at age 78 ([Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey)). He is survived by his wife, Maude “Sis” Shockey, and their son, Robert Shockey, who resides in Pennsylvania ([Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey)). George was known for his passion for the outdoors, hunting, and fishing ([Fraley Funeral Home](https://www.fraleyfuneralhome.com/obituaries/george-shockey)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime locals; no public offices",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected community member reach out with respect for the Shockey family’s long local legacy and condolences regarding the recent passing of George."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "George R. Shockey obituary details and survivors",
+          "url": "https://www.fraleyfuneralhome.com/obituaries/george-shockey",
+          "title": "Obituary: George Robert Shockey",
+          "date": "2024-11-17"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cary Joe Turner & Jennifer Turner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184003300000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jennifer Turner serves as Vice President at Grant County Bank and is a Board Member of the Hardy County Chamber of Commerce ([Hardy County Chamber](https://www.hardycountychamber.org/about)). Cary Joe Turner is a resident of Old Fields and son of the late Lysle Glenn Turner ([Giffin Funeral Home](https://www.giffinfuneralhome.com/obituaries/Lysle-G-Turner?obId=2491718)). Jennifer and Joe Turner attended a Hardy County Planning Commission meeting in September 2020 regarding a controversial poultry CAFO project, indicating engagement with local land-use issues ([Hardy County](http://www.hardycounty.com/files/documents/41406a02-4bb9-4f59-a61e-7fa82d700043.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Chamber Board Member; Bank VP",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Approach professionally acknowledging Jennifer's role in the local business community (Chamber/Bank); focus on economic benefits and orderly development."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jennifer Turner is VP at Grant County Bank and Chamber Board Member",
+          "url": "https://www.hardycountychamber.org/about",
+          "title": "Hardy County Chamber of Commerce: About Us",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Cary Joe Turner family connection",
+          "url": "https://www.giffinfuneralhome.com/obituaries/Lysle-G-Turner?obId=2491718",
+          "title": "Obituary: Lysle Glenn Turner",
+          "date": "2017-01-01"
+        },
+        {
+          "claim": "Attended Planning Commission meeting regarding poultry CAFO",
+          "url": "http://www.hardycounty.com/files/documents/41406a02-4bb9-4f59-a61e-7fa82d700043.pdf",
+          "title": "Hardy County Planning Commission Minutes",
+          "date": "2020-09-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "David Stephens & Shari Stephens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184001000130000",
+        "16030184005100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Shari Stephens is the Director of the Hardy County Family Support Center ([WV Bureau for Family Assistance](https://bfa.wv.gov/media/19456/download?inline)). She is a vocal advocate for social services in the region, frequently quoted in local media regarding the housing crisis, homelessness, and food insecurity in Hardy County ([Mountain State Spotlight](https://mountainstatespotlight.org/2025/04/01/affordable-housing-lawmakers-session/)). In interviews, she has highlighted the lack of affordable housing and shelters in the county ([Mountain State Spotlight](https://mountainstatespotlight.org/2024/10/16/voter-election-2024-potomac-highlands/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Director of Family Support Center",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "local_control"
+        ],
+        "engage": "Engage Shari with a focus on community benefits, specifically how the project might support the local tax base or social services, given her professional focus on housing and family support."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Shari Stephens is Director of Hardy County Family Support Center",
+          "url": "https://bfa.wv.gov/media/19456/download?inline",
+          "title": "2025-2026 Family Support Center Directory",
+          "date": "2025-01-01"
+        },
+        {
+          "claim": "Quoted regarding housing crisis and homelessness",
+          "url": "https://mountainstatespotlight.org/2025/04/01/affordable-housing-lawmakers-session/",
+          "title": "As lawmakers debate affordable housing, West Virginians struggle to find homes",
+          "date": "2025-04-01"
+        },
+        {
+          "claim": "Discussed homelessness and lack of shelters",
+          "url": "https://mountainstatespotlight.org/2024/10/16/voter-election-2024-potomac-highlands/",
+          "title": "Voters in the Potomac Highlands want better jobs and housing",
+          "date": "2024-10-16"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 562231,
+    "thinking_count": 29
+  }
+}

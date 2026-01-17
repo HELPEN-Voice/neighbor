@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-01-16T19:39:59.110609",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260116_191355_9558.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ernest E. Wolfe & Deborah A. Wolfe",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184001000020000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ernest E. Wolfe and Deborah A. Wolfe are listed as owners of a parcel in Hardy County, WV. Public records indicate an Ernest E. Wolfe with a death date in 1999 ([rootsweb.com](https://sites.rootsweb.com/~armpgs/morning_star_cemetery.htm)), suggesting the property may be held in a life estate or estate trust, though specific details of the current arrangement could not be independently verified. No public records of either Ernest or Deborah holding local office or speaking in recent county meetings regarding the Old Fields Solar project or other developments could be found ([moorefieldexaminer.com](https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/)). They have not been identified in news reports or public debates related to energy projects in the area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No documented public role",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach respectfully through personal outreach, emphasizing how any plans can align with preserving their family land use and quiet rural lifestyle."
+      },
+      "entity_classification": "unknown",
+      "citations": [
+        {
+          "claim": "Public records indicate an Ernest E. Wolfe with a death date in 1999",
+          "url": "https://sites.rootsweb.com/~armpgs/morning_star_cemetery.htm",
+          "title": "Morning Star Cemetery Transcriptions",
+          "date": "2018-09-11"
+        },
+        {
+          "claim": "No public records of either Ernest or Deborah holding local office or speaking in recent county meetings regarding the Old Fields Solar project",
+          "url": "https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/",
+          "title": "Open House Shares Details of Solar Farm Plan in Old Fields",
+          "date": "2025-10-21"
+        }
+      ],
+      "verification_notes": "Could not verify current life estate status. An Ernest E. Wolfe is listed in death records (1999). No recent activity found for Deborah A. Wolfe in Hardy County."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kevin M. Helmick II",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002200000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kevin M. Helmick II has served as a police officer in Moorefield and was highlighted for his role as a K9 handler and drug recognition expert with the Moorefield Police Department ([wv.ng.mil](https://www.wv.ng.mil/News/Article/2408406/helmick-named-wvng-soldier-spotlight-for-november-2020/)). He is also a member of the West Virginia National Guard, having deployed to Afghanistan ([wv.ng.mil](https://www.wv.ng.mil/News/Article/2408406/helmick-named-wvng-soldier-spotlight-for-november-2020/)). Aside from law enforcement-related news, there is no public record of Helmick taking a stance on development or participating in land use debates in Hardy County.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Law enforcement officer",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "privacy_quiet"
+        ],
+        "engage": "Engage via a community safety perspective. Given his law enforcement background, emphasize open communication and how project plans address local safety and traffic concerns."
+      },
+      "entity_classification": "municipal",
+      "citations": [
+        {
+          "claim": "Kevin M. Helmick II has served as a police officer in Moorefield and was highlighted for his role as a K9 handler",
+          "url": "https://www.wv.ng.mil/News/Article/2408406/helmick-named-wvng-soldier-spotlight-for-november-2020/",
+          "title": "Helmick Named WVNG Soldier Spotlight for November 2020",
+          "date": "2020-11-09"
+        }
+      ],
+      "verification_notes": "Removed claim regarding employment termination as it constitutes a personal legal/employment issue not directly related to land use, and could not be independently verified with available sources."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Wayne A. Hudson & Sharon M. Hudson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184005000000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Wayne A. Hudson and his spouse Sharon M. Hudson own property in Hardy County but maintain a low public profile. No evidence was found of either holding any public office or speaking out at county meetings or hearings ([moorefieldexaminer.com](https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/)). They have not been mentioned in local news regarding development, indicating no visible involvement in community disputes or advocacy on such issues.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizens; no public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Reach out in a neighborly manner through personal contact. Emphasize listening to any concerns they have about property or infrastructure to build trust, since they are not publicly outspoken."
+      },
+      "entity_classification": "unknown",
+      "citations": [
+        {
+          "claim": "No evidence was found of either holding any public office or speaking out at county meetings or hearings",
+          "url": "https://moorefieldexaminer.com/2025/10/21/open-house-shares-details-of-solar-farm-plan-in-old-fields/",
+          "title": "Open House Shares Details of Solar Farm Plan in Old Fields",
+          "date": "2025-10-21"
+        }
+      ],
+      "verification_notes": "Could not verify specific residency details or recent activity in Hardy County. A Sharon M. Hudson was identified in obituaries in other states, but no definitive link to Hardy County was found."
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Raymond Lee Orndorff III (Trustee for Alexis Rae Orndorff)",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "16030184001100010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "This parcel is held in a trust arrangement: Raymond Lee Orndorff III is listed as trustee on behalf of Alexis Rae Orndorff. Alexis Rae (“Lexi”) Orndorff is a younger family member from the area who has pursued nursing at WVU Potomac State College after overcoming a health challenge ([medicine.wvu.edu](https://medicine.wvu.edu/News/Story?headline=first-hand-experience-with-cancer-inspires-keyser-campus-nursing-student-to-help-others)). Neither the trustee nor the beneficiary have any documented involvement in local political or planning matters, and no public comments on development have been found.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Family trust; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach via personal connection through family networks. Emphasize how any development proposal can respect their family’s long-term legacy and future plans for the land."
+      },
+      "entity_classification": "unknown",
+      "citations": [
+        {
+          "claim": "Alexis Rae (“Lexi”) Orndorff is a younger family member from the area who has pursued nursing at WVU Potomac State College after overcoming a health challenge",
+          "url": "https://medicine.wvu.edu/News/Story?headline=first-hand-experience-with-cancer-inspires-keyser-campus-nursing-student-to-help-others",
+          "title": "First-hand experience with cancer inspires Keyser Campus nursing student to help others",
+          "date": "2023-01-03"
+        }
+      ],
+      "verification_notes": "Verified Alexis Orndorff's local connection and nursing background. Sanitized specific health condition details."
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Amber N. King, David A. King & Rosemary E. King",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184001000050000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Amber N. King, David A. King, and Rosemary E. King jointly own their Hardy County parcel. An Amber N. King has been identified as a student at Glenville State College in West Virginia ([glenville.edu](https://www.glenville.edu/news/students-named-spring-2017-honor-lists-gsc)). There are no public news articles or meeting records that mention the King family with regard to development or civic issues in the county. They have not publicly advocated for or against land development, and none of the Kings appear in local leadership roles or community boards as per available records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private owners; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Engage through a family-oriented approach. Reaching out via a community gathering or introduction by a mutual acquaintance may help, focusing on listening to any family concerns or needs."
+      },
+      "entity_classification": "unknown",
+      "citations": [
+        {
+          "claim": "An Amber N. King has been identified as a student at Glenville State College in West Virginia",
+          "url": "https://www.glenville.edu/news/students-named-spring-2017-honor-lists-gsc",
+          "title": "Students Named to Spring 2017 Honor Lists at GSC",
+          "date": "2017-06-09"
+        }
+      ],
+      "verification_notes": "Verified Amber N. King's presence in WV education records. Could not verify specific family relationships or recent local activity."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 5,
+    "profiles_output": 5,
+    "total_tokens": 1182126,
+    "thinking_count": 43
+  }
+}

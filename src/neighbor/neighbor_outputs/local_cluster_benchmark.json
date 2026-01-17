@@ -1,37 +1,37 @@
 {
-  "run_id": "a243cf3f-8a86-4d24-afa7-b7bf4db025fe",
-  "coordinates": "39.56658,-77.941803",
+  "run_id": "1e658ebb-4bb9-4b09-a1ef-d605375d5915",
+  "coordinates": "39.159295,-78.965447",
   "state_code": "WV",
   "parcels_analyzed": 30,
   "community_wealth_proxy": {
-    "valid_samples": 20,
-    "median_structure_value": 190150.0,
-    "formatted": "$190,150",
+    "valid_samples": 22,
+    "median_structure_value": 88600.0,
+    "formatted": "$88,600",
     "risk_level": "LOW",
     "risk_class": "risk-low"
   },
   "land_value_proxy": {
-    "valid_samples": 12,
-    "median_value_per_acre": 1133.8452378031216,
-    "formatted": "$1,134/acre",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 28,
+    "median_value_per_acre": 12148.41067928548,
+    "formatted": "$12,148/acre",
+    "risk_level": "MEDIUM",
+    "risk_class": "risk-medium"
   },
-  "total_property_value": 5723300.0,
-  "total_land_value": 2617800.0,
+  "total_property_value": 2043100.0,
+  "total_land_value": 904900.0,
   "final_radius_miles": 0.5,
   "template_variables": {
-    "median_structure_value": "$190,150",
+    "median_structure_value": "$88,600",
     "wealth_risk_level": "LOW",
     "wealth_risk_class": "risk-low",
-    "wealth_valid_samples": "20",
-    "median_land_value_acre": "$1,134/acre",
-    "land_risk_level": "LOW",
-    "land_risk_class": "risk-low",
-    "land_valid_samples": "12",
+    "wealth_valid_samples": "22",
+    "median_land_value_acre": "$12,148/acre",
+    "land_risk_level": "MEDIUM",
+    "land_risk_class": "risk-medium",
+    "land_valid_samples": "28",
     "parcels_analyzed": "30",
-    "total_property_value": "$5,723,300",
-    "total_land_value": "$2,617,800",
+    "total_property_value": "$2,043,100",
+    "total_land_value": "$904,900",
     "final_radius_miles": "0.50"
   }
 }

@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-01-16T19:15:07.878280",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Hardy County",
+    "state": "WV",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these neighbors have taken a public position on local development, so their stances remain unknown. One neighbor (Sites) has deep generational ties and moderate social influence, while the others have low community profiles and limited influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Logan S. Taylor",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184002000000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Logan S. Taylor is listed as the owner of a Hardy County parcel (ID #16030184002000000000) according to local tax records [Hardy County Sheriff](https://hardy.wvsheriff.com/Search.aspx). No mentions of Taylor’s involvement in community or development matters were found in local news sources [Moorefield Examiner](https://hardylive.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate a friendly, informal introduction through a neutral community member. Listen to any concerns and highlight local benefits of the project to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Chester D. Sites Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184004800000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Chester D. Sites Jr. comes from a long-established local farm family – the family’s homestead on Sites Lane includes a house built in 1876 [Funkhouser Real Estate](https://www.funkhousergroup.com/property/108-sites-lane-moorefield-wv-26836/48537533/). A private drive named “Sites Lane” in Moorefield signals the multi-generational presence of the Sites family in the area [Telephone Directory](https://www.telephonedirectories.us/WhitePages/Moorefield-WV).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime farming family",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a trusted local farmer or agricultural extension contact him. Emphasize respect for farmland and explain how the project will not interfere with his family’s land heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jerry Helmick",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16030184005400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jerry G. Helmick owns a 5.0-acre parcel recorded as Lot 5, Section 1 (referred to as “Zirk”) in Hardy County’s property tax records [Moorefield Examiner](https://doczz.net/doc/5060979/section-a-10-20-10-broadsheet#L5981-L5984). He has not been noted in any civic positions or public meetings, suggesting a low-profile community presence [Moorefield Examiner](https://hardylive.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in person via a neighborly visit. Provide reassurances about maintaining property values and neighborhood quiet, and encourage him to share any concerns directly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these neighbors have taken a public position on local development, so their stances remain unknown. One neighbor (Sites) has deep generational ties and moderate social influence, while the others have low community profiles and limited influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Logan S. Taylor\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184002000000000\"],\n      \"claims\": \"Logan S. Taylor is listed as the owner of a Hardy County parcel (ID #16030184002000000000) according to local tax records [Hardy County Sheriff](https://hardy.wvsheriff.com/Search.aspx). No mentions of Taylor’s involvement in community or development matters were found in local news sources [Moorefield Examiner](https://hardylive.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Initiate a friendly, informal introduction through a neutral community member. Listen to any concerns and highlight local benefits of the project to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Chester D. Sites Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184004800000000\"],\n      \"claims\": \"Chester D. Sites Jr. comes from a long-established local farm family – the family’s homestead on Sites Lane includes a house built in 1876 [Funkhouser Real Estate](https://www.funkhousergroup.com/property/108-sites-lane-moorefield-wv-26836/48537533/). A private drive named “Sites Lane” in Moorefield signals the multi-generational presence of the Sites family in the area [Telephone Directory](https://www.telephonedirectories.us/WhitePages/Moorefield-WV).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime farming family\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a trusted local farmer or agricultural extension contact him. Emphasize respect for farmland and explain how the project will not interfere with his family’s land heritage.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Jerry Helmick\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16030184005400000000\"],\n      \"claims\": \"Jerry G. Helmick owns a 5.0-acre parcel recorded as Lot 5, Section 1 (referred to as “Zirk”) in Hardy County’s property tax records [Moorefield Examiner](https://doczz.net/doc/5060979/section-a-10-20-10-broadsheet#L5981-L5984). He has not been noted in any civic positions or public meetings, suggesting a low-profile community presence [Moorefield Examiner](https://hardylive.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out in person via a neighborly visit. Provide reassurances about maintaining property values and neighborhood quiet, and encourage him to share any concerns directly.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
