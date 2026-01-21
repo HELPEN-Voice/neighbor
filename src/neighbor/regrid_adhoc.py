@@ -15,7 +15,6 @@ Usage:
     python regrid_adhoc.py --coords 44.8951,-90.4420 --max-parcels 100 --initial-radius 0.5
 """
 
-import re
 import requests
 import pandas as pd
 import json
@@ -26,12 +25,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 from collections import OrderedDict
 
-
-def normalize_pin(pin: str) -> str:
-    """Normalize PIN by collapsing multiple whitespace to single space."""
-    if not pin:
-        return ""
-    return re.sub(r'\s+', ' ', pin.strip())
+from .utils.pin import normalize_pin
 
 
 def guess_entity_type(name: str) -> str:

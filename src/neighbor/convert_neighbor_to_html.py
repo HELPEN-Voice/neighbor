@@ -1,8 +1,9 @@
-import re
 import json
 from pathlib import Path
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+from .utils.pin import normalize_pin
 
 BASE = Path(__file__).resolve().parent
 TPL = BASE / "templates"
@@ -25,20 +26,6 @@ def _list(v):
     if isinstance(v, str):
         return [v]
     return list(v)
-
-
-def normalize_pin(pin):
-    """Normalize PINs by removing zero-width characters"""
-    if not pin:
-        return pin
-    return (
-        str(pin)
-        .replace("\u200b", "")
-        .replace("\u200c", "")
-        .replace("\u200d", "")
-        .replace("\ufeff", "")
-        .replace("\u2060", "")
-    )
 
 
 def abbreviate_confidence(confidence):

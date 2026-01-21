@@ -1,18 +1,11 @@
 # src/ii_agent/tools/neighbor/agents/neighbor_finder.py
-import re
 import aiohttp
 import os
 import json
 from typing import List, Dict, Any, Optional, Tuple
 from ..utils.entity import guess_entity_type
+from ..utils.pin import normalize_pin
 from ..config.settings import settings
-
-
-def normalize_pin(pin: str) -> str:
-    """Normalize PIN by collapsing multiple whitespace to single space."""
-    if not pin:
-        return ""
-    return re.sub(r'\s+', ' ', pin.strip())
 
 
 class NeighborFinder:
