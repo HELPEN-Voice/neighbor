@@ -1,0 +1,226 @@
+{
+  "timestamp": "2026-01-21T07:55:33.983987",
+  "entity_type": "person",
+  "batch_size": 5,
+  "location_context": {
+    "county": "Berkeley County",
+    "state": "WV",
+    "city": "Potomac",
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All five profiled neighbors have an unknown public stance on the proposed development, as none have made explicit statements supporting or opposing such projects. Only one household (the Oates family) exhibits high community influence through civic leadership, while the other landowners appear to have low public profiles or involvement.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Charles Benjamin Payne",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9000300000000",
+        "02 9000300030000",
+        "02 9000300020000",
+        "02 9000300010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles B. Payne is listed as a longtime resident on Hummingbird Lane in Falling Waters, Berkeley County [Telephone Directory](https://www.telephonedirectories.us/WhitePages/Falling_Waters-WV). He does not serve on the county’s farm protection or conservation boards and has no recorded public involvement in local development issues [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/) ([www.wvca.us](https://www.wvca.us/directory/cds.cfm#:~:text=Nancy%20Lutz%20,Secretary%2025%20Koontztown%20Road)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Have a respected local farmer approach him, emphasizing how the project can co-exist with farming and maintain the rural peace he values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kenneth G. Byers & Ruth M. Byers",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9001300010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kenneth G. Byers and his wife Ruth M. Byers jointly own a parcel in the Falling Waters area of Berkeley County (Potomac District) ([taxinq.berkeleywv.org](https://taxinq.berkeleywv.org/ticket.html?TPSX=&TPTICK=14990&TPTYR=2022#:~:text=District%3A%20%20%7C%2002%20,WATERS%20WV%2025419%20Lending%20Inst)). They are not noted in any public committee or board memberships locally, and no public statements from them on development or energy projects could be found in local records [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired rural residents; low public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Approach through a neighbor or farm community contact who can discuss how the project will protect farmland value and respect their property rights."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daniel Whitacre Folk IV",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9001300000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daniel W. Folk IV is part of a longstanding local family; he served as executor for the Estate of June Whitacre Folk, indicating a multi-generation presence in Berkeley County [The Journal](https://wvlegals.com/public-notice-7434/) ([wvlegals.com](https://wvlegals.com/public-notice-7434/#:~:text=ESTATE%20NAME%3A%20JUNE%20WHITACRE%20FOLK,FOLK%20FIDUCIARY)). Aside from settling a family estate, there is no record of Folk holding public office or speaking in county meetings about development issues [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime family landowner; no official role",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Highlight the project’s provisions for land restoration and long-term stewardship to appeal to his sense of family land legacy and preserving his farm for future generations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "David W. Henry",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9000200030000",
+        "02 9000200010000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "David W. Henry owns multiple parcels in the Potomac District of Berkeley County ([taxinq.berkeleywv.org](https://taxinq.berkeleywv.org/ticket.html?TPSX=&TPTICK=14990&TPTYR=2022#:~:text=District%3A%20%20%7C%2002%20,WATERS%20WV%2025419%20Lending%20Inst)). He has no known public profile in county affairs – he is not listed among any local boards or civic groups, and no statements from him on development have been documented in the media [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landholder; no public involvement",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control"
+        ],
+        "engage": "Engage Mr. Henry via a community meeting with other landowners, stressing that local input will guide the project and that farmland conservation measures will be upheld."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-05",
+      "name": "Max O. Oates Jr.; Theodore K. Oates II; Mary Elizabeth Oates",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "04 22000400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Max O. Oates Jr. is part of a prominent Berkeley County family; his late father, Dr. Max Oates, and mother Evelyn were longtime Martinsburg residents who played a vital leadership role in the local hospital and health services ([www.wvlegislature.gov](https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=scr39+intr.htm&billtype=cr&houseorig=s&i=39&sesstype=RS&yr=2012#:~:text=Whereas%2C%20Dr,of%20Martinsburg%2C%20West%20Virginia%3B%20and)). The Oates family has been extensively involved in community betterment, although none of the current members have publicly taken a stance on energy or development projects ([www.wvlegislature.gov](https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=scr39+intr.htm&billtype=cr&houseorig=s&i=39&sesstype=RS&yr=2012#:~:text=Whereas%2C%20Dr,selfless%20service%20can%20engender%3B%20and)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Respected family; civic and philanthropic ties",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Have a well-respected local official or community leader approach the Oates family, acknowledging their community service and explaining how the project will be locally managed and bring economic benefits to fund community services."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All five profiled neighbors have an unknown public stance on the proposed development, as none have made explicit statements supporting or opposing such projects. Only one household (the Oates family) exhibits high community influence through civic leadership, while the other landowners appear to have low public profiles or involvement.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Charles Benjamin Payne\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"02 9000300000000\", \"02 9000300030000\", \"02 9000300020000\", \"02 9000300010000\"],\n      \"claims\": \"Charles B. Payne is listed as a longtime resident on Hummingbird Lane in Falling Waters, Berkeley County [Telephone Directory](https://www.telephonedirectories.us/WhitePages/Falling_Waters-WV). He does not serve on the county’s farm protection or conservation boards and has no recorded public involvement in local development issues [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/) ([www.wvca.us](https://www.wvca.us/directory/cds.cfm#:~:text=Nancy%20Lutz%20,Secretary%2025%20Koontztown%20Road)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"privacy_quiet\"],\n        \"engage\": \"Have a respected local farmer approach him, emphasizing how the project can co-exist with farming and maintain the rural peace he values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kenneth G. Byers & Ruth M. Byers\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"02 9001300010000\"],\n      \"claims\": \"Kenneth G. Byers and his wife Ruth M. Byers jointly own a parcel in the Falling Waters area of Berkeley County (Potomac District) ([taxinq.berkeleywv.org](https://taxinq.berkeleywv.org/ticket.html?TPSX=&TPTICK=14990&TPTYR=2022#:~:text=District%3A%20%20%7C%2002%20,WATERS%20WV%2025419%20Lending%20Inst)). They are not noted in any public committee or board memberships locally, and no public statements from them on development or energy projects could be found in local records [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Retired rural residents; low public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"property_value\"],\n        \"engage\": \"Approach through a neighbor or farm community contact who can discuss how the project will protect farmland value and respect their property rights.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Daniel Whitacre Folk IV\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"02 9001300000000\"],\n      \"claims\": \"Daniel W. Folk IV is part of a longstanding local family; he served as executor for the Estate of June Whitacre Folk, indicating a multi-generation presence in Berkeley County [The Journal](https://wvlegals.com/public-notice-7434/) ([wvlegals.com](https://wvlegals.com/public-notice-7434/#:~:text=ESTATE%20NAME%3A%20JUNE%20WHITACRE%20FOLK,FOLK%20FIDUCIARY)). Aside from settling a family estate, there is no record of Folk holding public office or speaking in county meetings about development issues [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime family landowner; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"farmland_preservation\"],\n        \"engage\": \"Highlight the project’s provisions for land restoration and long-term stewardship to appeal to his sense of family land legacy and preserving his farm for future generations.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"David W. Henry\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"02 9000200030000\", \"02 9000200010000\"],\n      \"claims\": \"David W. Henry owns multiple parcels in the Potomac District of Berkeley County ([taxinq.berkeleywv.org](https://taxinq.berkeleywv.org/ticket.html?TPSX=&TPTICK=14990&TPTYR=2022#:~:text=District%3A%20%20%7C%2002%20,WATERS%20WV%2025419%20Lending%20Inst)). He has no known public profile in county affairs – he is not listed among any local boards or civic groups, and no statements from him on development have been documented in the media [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Landholder; no public involvement\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"local_control\"],\n        \"engage\": \"Engage Mr. Henry via a community meeting with other landowners, stressing that local input will guide the project and that farmland conservation measures will be upheld.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-05\",\n      \"name\": \"Max O. Oates Jr.; Theodore K. Oates II; Mary Elizabeth Oates\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"04 22000400000000\"],\n      \"claims\": \"Max O. Oates Jr. is part of a prominent Berkeley County family; his late father, Dr. Max Oates, and mother Evelyn were longtime Martinsburg residents who played a vital leadership role in the local hospital and health services ([www.wvlegislature.gov](https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=scr39+intr.htm&billtype=cr&houseorig=s&i=39&sesstype=RS&yr=2012#:~:text=Whereas%2C%20Dr,of%20Martinsburg%2C%20West%20Virginia%3B%20and)). The Oates family has been extensively involved in community betterment, although none of the current members have publicly taken a stance on energy or development projects ([www.wvlegislature.gov](https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=scr39+intr.htm&billtype=cr&houseorig=s&i=39&sesstype=RS&yr=2012#:~:text=Whereas%2C%20Dr,selfless%20service%20can%20engender%3B%20and)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Respected family; civic and philanthropic ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"local_control\", \"tax_revenue_benefit\"],\n        \"engage\": \"Have a well-respected local official or community leader approach the Oates family, acknowledging their community service and explaining how the project will be locally managed and bring economic benefits to fund community services.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

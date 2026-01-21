@@ -15,6 +15,7 @@ Usage:
     python regrid_adhoc.py --coords 44.8951,-90.4420 --max-parcels 100 --initial-radius 0.5
 """
 
+import re
 import requests
 import pandas as pd
 import json
@@ -24,6 +25,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 from collections import OrderedDict
+
+
+def normalize_pin(pin: str) -> str:
+    """Normalize PIN by collapsing multiple whitespace to single space."""
+    if not pin:
+        return ""
+    return re.sub(r'\s+', ' ', pin.strip())
 
 
 def guess_entity_type(name: str) -> str:
@@ -403,8 +411,8 @@ def get_closest_landowners(
         # Get a normalized key for comparison
         name_key = get_name_key(owner_name)
 
-        # Extract PIN
-        pin = (
+        # Extract PIN and normalize whitespace
+        pin = normalize_pin(
             fields.get("parcelnumb")
             or fields.get("parcelnumb_no_formatting")
             or fields.get("ll_uuid")

@@ -1,10 +1,18 @@
 # src/ii_agent/tools/neighbor/agents/neighbor_finder.py
+import re
 import aiohttp
 import os
 import json
 from typing import List, Dict, Any, Optional, Tuple
 from ..utils.entity import guess_entity_type
 from ..config.settings import settings
+
+
+def normalize_pin(pin: str) -> str:
+    """Normalize PIN by collapsing multiple whitespace to single space."""
+    if not pin:
+        return ""
+    return re.sub(r'\s+', ' ', pin.strip())
 
 
 class NeighborFinder:
@@ -69,7 +77,7 @@ class NeighborFinder:
                 context = target.get("properties", {}).get("context", {})
 
                 target_info = {
-                    "pin": fields.get("parcelnumb"),
+                    "pin": normalize_pin(fields.get("parcelnumb")),
                     "geometry": target.get("geometry"),
                     "lat": fields.get("lat"),
                     "lon": fields.get("lon"),
@@ -129,13 +137,14 @@ class NeighborFinder:
                     features = data.get("parcels", {}).get("features", [])
 
                     adjacent_pins = set()
+                    norm_target = normalize_pin(target_pin)
                     for parcel in features:
-                        pin = (
+                        pin = normalize_pin(
                             parcel.get("properties", {})
                             .get("fields", {})
                             .get("parcelnumb")
                         )
-                        if pin and pin != target_pin:
+                        if pin and pin != norm_target:
                             adjacent_pins.add(pin)
 
                     print(f"Found {len(adjacent_pins)} adjacent parcels.")
@@ -213,7 +222,7 @@ class NeighborFinder:
                             for parcel in parcels:
                                 if len(all_parcels) >= max_parcels:
                                     break
-                                pin = (
+                                pin = normalize_pin(
                                     parcel.get("properties", {})
                                     .get("fields", {})
                                     .get("parcelnumb")
@@ -366,12 +375,11 @@ class NeighborFinder:
             # Get a normalized key for comparison
             name_key = self._get_name_key(owner_name)
 
-            # Extract PIN/parcel ID
-            pin = (
+            # Extract PIN/parcel ID and normalize whitespace
+            pin = normalize_pin(
                 fields.get("parcelnumb")
                 or fields.get("parcelnumb_no_formatting")
                 or fields.get("ll_uuid")
-                or ""
             )
 
             # Track name variations for debugging

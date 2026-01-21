@@ -153,6 +153,18 @@ def delete_pdf_outputs(base_dir: Path = None):
     print(f"   🧹 Deleted PDF outputs")
 
 
+def delete_map_outputs(base_dir: Path = None):
+    """Delete all files in neighbor_map_outputs/"""
+    if base_dir is None:
+        base_dir = Path(__file__).parent.parent
+    map_dir = base_dir / "neighbor_map_outputs"
+    if map_dir.exists():
+        for f in map_dir.glob("*"):
+            if f.is_file():
+                f.unlink()
+        print(f"   🧹 Deleted map outputs")
+
+
 def load_verified_profiles(vr_files: List[str]) -> List[Dict]:
     """Load and combine all verified profiles from vr_*.json files."""
     all_profiles = []
@@ -326,6 +338,7 @@ class NeighborOrchestrator:
             # Delete old outputs so caller regenerates them
             delete_html_outputs()
             delete_pdf_outputs()
+            delete_map_outputs()
 
             # Calculate adjacent parcels for cached data
             adjacent_pins = set()

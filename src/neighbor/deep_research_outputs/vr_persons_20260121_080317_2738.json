@@ -1,0 +1,248 @@
+{
+  "timestamp": "2026-01-21T08:12:25.693579",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260121_080317_2738.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Berkeley County",
+    "state": "WV",
+    "city": "Potomac"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jill N Wilkins & Kevin W Wilkins",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9G002100000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jill N. Wilkins is a registered Physician Assistant based in Hagerstown, MD, with a residential address in Hedgesville, WV ([NPI Registry](https://npiregistry.cms.hhs.gov/provider-view/1194280032)). Kevin W. Wilkins is listed as a resident at the same location ([Whitepages](https://www.whitepages.com/name/Kevin-W-Wilkins/WV)). No record of the Wilkins family taking a public stance on local development or holding public office was found in available public sources.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Medical professional; no known civic leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach via a trusted community member. Given Jill's medical background, emphasize health and safety standards of the project, along with assurances that property values and privacy will be maintained."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jill N. Wilkins is a registered Physician Assistant based in Hagerstown, MD, with a residential address in Hedgesville, WV",
+          "url": "https://npiregistry.cms.hhs.gov/provider-view/1194280032",
+          "title": "NPI Registry - Jill N Wilkins",
+          "date": "2024-04-09"
+        },
+        {
+          "claim": "Kevin W. Wilkins is listed as a resident at the same location",
+          "url": "https://www.whitepages.com/name/Kevin-W-Wilkins/WV",
+          "title": "Whitepages Listing",
+          "date": "2024-01-21"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Robert M Cloud & Brenda L Cloud",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9000100000000",
+        "02 9000100030000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert M. Cloud serves as an elected Supervisor for the Eastern Panhandle Conservation District (EPCD), representing Berkeley County ([WVCA Directory](https://www.wvca.us/suDirectory.cfm)). In this capacity, he participates in board meetings regarding agricultural enhancement programs, watershed grants, and conservation planning ([EPCD Minutes](https://www.wvca.us/district/upload/41246.pdf)). The Cloud family is a recipient of agricultural subsidies ([EWG Database](https://farm.ewg.org/addrsearch.php?z=1&zip=25427&page=1)). The EPCD has previously discussed the environmental impact of solar projects on farmland and soil erosion ([Vision Root](https://www.visionroot.org/category/environment/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Elected Supervisor, Eastern Panhandle Conservation District",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "groundwater_runoff",
+          "local_control"
+        ],
+        "engage": "Engage directly acknowledging his role as an EPCD Supervisor. Focus heavily on stormwater management, soil conservation, and pollinator-friendly ground cover, demonstrating how the project aligns with district conservation goals."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Robert M. Cloud serves as an elected Supervisor for the Eastern Panhandle Conservation District (EPCD), representing Berkeley County",
+          "url": "https://www.wvca.us/suDirectory.cfm",
+          "title": "West Virginia Conservation Agency Supervisor Directory",
+          "date": "2024-01-21"
+        },
+        {
+          "claim": "participates in board meetings regarding agricultural enhancement programs, watershed grants, and conservation planning",
+          "url": "https://www.wvca.us/district/upload/41246.pdf",
+          "title": "Eastern Panhandle Conservation District Board Meeting Minutes",
+          "date": "2024-10-16"
+        },
+        {
+          "claim": "The Cloud family is a recipient of agricultural subsidies",
+          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=25427&page=1",
+          "title": "EWG Farm Subsidy Database",
+          "date": "2023-01-01"
+        },
+        {
+          "claim": "The EPCD has previously discussed the environmental impact of solar projects on farmland and soil erosion",
+          "url": "https://www.visionroot.org/category/environment/",
+          "title": "Vision Root Environment Blog - EPCD Solar Discussions",
+          "date": "2023-09-24"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Alexander L Givens & Keri L Givens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9G002500000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Alexander L. Givens is the registered owner of a trucking and transport business, Alexander L Givens (USDOT 1409364), based in Hedgesville, WV ([DOT Profile](https://dcontrol.com/profile/pentoney-brothers-contracting-llc/carriers)). Alexander L. Givens and Keri L. Givens are listed as residents of Berkeley County ([Whitepages](https://www.whitepages.com/name/Alexander-Givens/WV)). No known public comments or leadership roles by the Givens in community development issues have been found.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local business owner (Trucking)",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "traffic_safety"
+        ],
+        "engage": "A friendly personal outreach is recommended. Given his background in transport, address any concerns regarding construction traffic and road use, while reassuring them about property value protections."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Alexander L. Givens is the registered owner of a trucking and transport business, Alexander L Givens (USDOT 1409364), based in Hedgesville, WV",
+          "url": "https://dcontrol.com/profile/pentoney-brothers-contracting-llc/carriers",
+          "title": "DOT Profile - Alexander L Givens",
+          "date": "2024-01-21"
+        },
+        {
+          "claim": "Alexander L. Givens and Keri L. Givens are listed as residents of Berkeley County",
+          "url": "https://www.whitepages.com/name/Alexander-Givens/WV",
+          "title": "Whitepages Listing",
+          "date": "2024-01-21"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Mark Chenoweth & Scarlett Chenoweth",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "02 9G002400000000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark Chenoweth is the President and General Counsel of the New Civil Liberties Alliance (NCLA), a legal organization focused on challenging the administrative state ([NCLA Bio](https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html)). He previously served as the first Chief of Staff to Congressman Mike Pompeo and as legal counsel at the U.S. Consumer Product Safety Commission ([LegiStorm](https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html)). He has testified before the U.S. House Judiciary Committee regarding regulatory reform ([Congress Testimony](https://www.congress.gov/118/meeting/house/116992/witnesses/HHRG-118-JU05-Wstate-ChenowethM-20240320.pdf)). He was named one of Washington DC's 500 Most Influential People of 2025 ([Washingtonian](https://washingtonian.com/2025/05/07/washington-dcs-500-most-influential-people-of-2025/)). Scarlett Chenoweth is listed as a resident of Hedgesville ([Whitepages](https://www.whitepages.com/name/Scarlett-Chenoweth/WV)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "President of NCLA; former Congressional Chief of Staff",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control",
+          "fair_contracting"
+        ],
+        "engage": "Approach with high-level professionalism. Be prepared to discuss regulatory compliance and property rights in detail. Emphasize that the project respects private property rights and avoids government overreach."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Mark Chenoweth is the President and General Counsel of the New Civil Liberties Alliance (NCLA)",
+          "url": "https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html",
+          "title": "LegiStorm Profile - Mark Chenoweth",
+          "date": "2024-01-21"
+        },
+        {
+          "claim": "He previously served as the first Chief of Staff to Congressman Mike Pompeo",
+          "url": "https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html",
+          "title": "LegiStorm Profile - Mark Chenoweth",
+          "date": "2024-01-21"
+        },
+        {
+          "claim": "He has testified before the U.S. House Judiciary Committee regarding regulatory reform",
+          "url": "https://www.congress.gov/118/meeting/house/116992/witnesses/HHRG-118-JU05-Wstate-ChenowethM-20240320.pdf",
+          "title": "Congressional Testimony - Mark Chenoweth",
+          "date": "2024-03-20"
+        },
+        {
+          "claim": "He was named one of Washington DC's 500 Most Influential People of 2025",
+          "url": "https://washingtonian.com/2025/05/07/washington-dcs-500-most-influential-people-of-2025/",
+          "title": "Washingtonian - DC's 500 Most Influential People",
+          "date": "2025-05-07"
+        },
+        {
+          "claim": "Scarlett Chenoweth is listed as a resident of Hedgesville",
+          "url": "https://www.whitepages.com/name/Scarlett-Chenoweth/WV",
+          "title": "Whitepages Listing",
+          "date": "2024-01-21"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 708440,
+    "thinking_count": 31
+  }
+}
