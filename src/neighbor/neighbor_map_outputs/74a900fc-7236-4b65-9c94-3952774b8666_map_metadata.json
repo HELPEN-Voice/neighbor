@@ -1,10 +1,10 @@
 {
   "run_id": "74a900fc-7236-4b65-9c94-3952774b8666",
-  "generated_at": "2026-01-21T09:00:41.090938",
+  "generated_at": "2026-01-21T10:25:07.629694",
   "stats": {
     "total_neighbors": 25,
     "highlighted": 25,
-    "skipped_no_geometry": 20,
+    "skipped_no_geometry": 6,
     "skipped_not_highlighted": 0,
     "by_influence": {
       "High": 4,
@@ -20,9 +20,9 @@
     "target_included": true
   },
   "strategy_used": "polyline",
-  "url_length": 1688,
-  "parcels_rendered": 11,
-  "labels_count": 6,
+  "url_length": 2809,
+  "parcels_rendered": 24,
+  "labels_count": 3,
   "settings": {
     "width": 800,
     "height": 450,
