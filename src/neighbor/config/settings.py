@@ -1,5 +1,6 @@
 # src/ii_agent/tools/neighbor/config/settings.py
 import os
+from pathlib import Path
 
 try:
     from pydantic_settings import BaseSettings
@@ -9,6 +10,10 @@ except ImportError:
 
 from pydantic import Field
 from typing import Literal, Optional
+
+# .env is at repo root ~/neighbor/.env
+# This file: ~/neighbor/src/neighbor/config/settings.py (4 levels deep)
+_ENV_FILE = Path(__file__).parent.parent.parent.parent / ".env"
 
 
 class NeighborSettings(BaseSettings):
@@ -69,7 +74,7 @@ class NeighborSettings(BaseSettings):
     GEMINI_MAX_WAIT_TIME: int = 3600  # Max wait time (60 min) for Gemini response
 
     class Config:
-        env_file = ".env"
+        env_file = _ENV_FILE
         extra = "ignore"  # Ignore extra environment variables
 
 
