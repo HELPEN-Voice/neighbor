@@ -31,7 +31,7 @@ Neighbors can quietly make or break a project. A single influential landowner, a
 ## What it does
 
 - **Pulls a list of neighbors** (people & organizations) from a point/parcel + radius, or you can provide names directly.
-- **Runs OpenAI Deep Research in parallel batches** (default 5 per batch) to build qualitative profiles for each neighbor:
+- **Runs OpenAI Deep Research in parallel batches** (default 4 per batch) to build qualitative profiles for each neighbor:
   - Background & identity (occupation, org type, local tenure indicators)
   - Public stance & history on development (renewables, warehouses, data centers, transmission as proxies)
   - Community influence (formal roles + informal "soft power" signals)
@@ -55,7 +55,7 @@ Neighbors can quietly make or break a project. A single influential landowner, a
 Two-phase pipeline managed by an async orchestrator:
 
 1. **Neighbor identification (optional):** given location + radius, call a parcel API (e.g., ReGrid) to assemble nearby owners (persons + orgs). Or skip this by providing names.
-2. **Deep Research:** split neighbors into person and organization groups; batch by 5 (default) per call; run in parallel; merge results; validate JSON via Pydantic; return citations.
+2. **Deep Research:** split neighbors into person and organization groups; batch by 4 (default) per call; run in parallel; merge results; validate JSON via Pydantic; return citations.
 
 The research call goes through a **ResearchEngine** interface:
 - **DeepResearchResponsesEngine** (default): OpenAI Responses API using a Deep Research model with `web_search_preview`.
@@ -105,7 +105,7 @@ src/neighbor/
 - `REGRID_API_KEY` (optional, for NeighborFinder)
 - `ENGINE_TYPE`: `"responses"` (default) or `"agentsdk"` (future)
 - `DR_MODEL`: `"o4-mini-deep-research-2025-06-26"` (default) or `"o3-deep-research-2025-06-26"`
-- `BATCH_SIZE`: 5 (typ.)
+- `BATCH_SIZE`: 4 (typ.)
 - `MAX_NEIGHBORS`: 20 (cap)
 - `CONCURRENCY_LIMIT`: 8 (semaphore)
 - `STREAMING_ENABLED`, `TRACE_ENABLED`: flags to wire your app instrumentation
@@ -252,7 +252,7 @@ Until the API is wired, pass names in to skip this step.
 
 ## Error handling, batching, rate limits
 
-- **Batching:** default 5 neighbors per model call (`settings.BATCH_SIZE`).
+- **Batching:** default 4 neighbors per model call (`settings.BATCH_SIZE`).
 - **Cap:** limit to 20 neighbors (`settings.MAX_NEIGHBORS`) to prevent runaway cost in dense areas.
 - **Concurrency:** orchestrator uses an async semaphore (`CONCURRENCY_LIMIT`) for parallel batches.
 - **Failures:** a batch exception does not crash the run; results are partial, with events logged to `on_event`.
@@ -267,7 +267,7 @@ Until the API is wired, pass names in to skip this step.
 - Pydantic validation fails closed when fields are missing
 
 **Integration:**
-- 12 names → expect 3 batches (size 5 default → 5/5/2) and events on start/finish
+- 11 names → expect 3 batches (size 4 default → 4/4/3) and events on start/finish
 - Known neighbor ("publicly vocal" case) → stance and citations appear
 - Ambiguous name → disambiguation.candidates populated
 
