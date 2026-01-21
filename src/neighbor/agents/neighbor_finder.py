@@ -77,7 +77,7 @@ class NeighborFinder:
                 context = target.get("properties", {}).get("context", {})
 
                 target_info = {
-                    "pin": normalize_pin(fields.get("parcelnumb") or ""),
+                    "pin": normalize_pin(fields.get("parcelnumb")),
                     "geometry": target.get("geometry"),
                     "lat": fields.get("lat"),
                     "lon": fields.get("lon"),
@@ -137,12 +137,12 @@ class NeighborFinder:
                     features = data.get("parcels", {}).get("features", [])
 
                     adjacent_pins = set()
-                    norm_target = normalize_pin(target_pin or "")
+                    norm_target = normalize_pin(target_pin)
                     for parcel in features:
                         pin = normalize_pin(
                             parcel.get("properties", {})
                             .get("fields", {})
-                            .get("parcelnumb") or ""
+                            .get("parcelnumb")
                         )
                         if pin and pin != norm_target:
                             adjacent_pins.add(pin)
@@ -225,7 +225,7 @@ class NeighborFinder:
                                 pin = normalize_pin(
                                     parcel.get("properties", {})
                                     .get("fields", {})
-                                    .get("parcelnumb") or ""
+                                    .get("parcelnumb")
                                 )
                                 if pin and pin not in all_parcels:
                                     all_parcels[pin] = parcel
@@ -380,7 +380,6 @@ class NeighborFinder:
                 fields.get("parcelnumb")
                 or fields.get("parcelnumb_no_formatting")
                 or fields.get("ll_uuid")
-                or ""
             )
 
             # Track name variations for debugging
