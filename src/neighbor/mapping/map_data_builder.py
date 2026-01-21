@@ -1,10 +1,22 @@
 """Build GeoJSON features for map rendering."""
 
+import re
 from typing import List, Dict, Any, Optional, Tuple, Set
 from dataclasses import dataclass
 
 from ..models.schemas import NeighborProfile
 from .styles import STYLES, get_style_for_neighbor, ParcelStyle
+
+
+def normalize_pin(pin: str) -> str:
+    """Normalize PIN by collapsing multiple whitespace to single space.
+
+    Regrid returns PINs like "04  22000400000000" (2 spaces), but LLMs
+    normalize to "04 22000400000000" (1 space). This ensures lookups match.
+    """
+    if not pin:
+        return ""
+    return re.sub(r'\s+', ' ', pin.strip())
 
 
 @dataclass
@@ -50,7 +62,11 @@ class MapDataBuilder:
         self.pin_to_neighbor = self._build_pin_neighbor_map()
 
     def _build_pin_geometry_map(self) -> Dict[str, Dict[str, Any]]:
-        """Map parcel numbers to their geometries."""
+        """Map parcel numbers to their geometries.
+
+        PINs are normalized to handle whitespace variations between
+        Regrid format and LLM-processed format.
+        """
         result = {}
 
         for parcel in self.raw_parcels:
@@ -68,17 +84,20 @@ class MapDataBuilder:
             geometry = parcel.get("geometry")
 
             if pin and geometry:
-                result[pin] = geometry
+                result[normalize_pin(pin)] = geometry
 
         return result
 
     def _build_pin_neighbor_map(self) -> Dict[str, NeighborProfile]:
-        """Map parcel numbers to neighbor profiles."""
+        """Map parcel numbers to neighbor profiles.
+
+        PINs are normalized to handle whitespace variations.
+        """
         result = {}
 
         for neighbor in self.neighbor_profiles:
             for pin in neighbor.pins:
-                result[pin] = neighbor
+                result[normalize_pin(pin)] = neighbor
 
         return result
 
@@ -170,15 +189,16 @@ class MapDataBuilder:
 
             # Add feature for each PIN owned by this neighbor
             for pin in neighbor.pins:
-                if pin in processed_pins:
+                norm_pin = normalize_pin(pin)
+                if norm_pin in processed_pins:
                     continue
 
-                geometry = self.pin_to_geometry.get(pin)
+                geometry = self.pin_to_geometry.get(norm_pin)
                 if not geometry:
                     stats["skipped_no_geometry"] += 1
                     continue
 
-                processed_pins.add(pin)
+                processed_pins.add(norm_pin)
 
                 features.append(
                     MapFeature(
