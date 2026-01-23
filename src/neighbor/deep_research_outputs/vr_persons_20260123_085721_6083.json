@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-01-23T09:15:24.787456",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260123_085721_6083.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Putnam County",
+    "state": "IN",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Damon Cox & Jannllie Cox",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671333200002000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Damon B. Cox and his spouse Jannllie Cox reside on a property along County Road 900 South in Cloverdale ([source](https://www.dignitymemorial.com/obituaries/greencastle-in/floyd-decker-11410884)). In 2022, Damon Cox appeared before the Putnam County Board of Zoning Appeals to request a variance for a temporary second dwelling while constructing a new home on the property; the variance was approved ([source](https://irp.cdn-website.com/238c8e41/files/uploaded/Approved+March+Minutes.pdf)). No public statements regarding renewable energy development were located in available records.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; petitioner for personal zoning variance",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Address concerns about home resale value and views via visual buffers, acknowledging his recent investment in building a new home on the property."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Damon B. Cox and his spouse Jannllie Cox reside on a property along County Road 900 South in Cloverdale",
+          "url": "https://www.dignitymemorial.com/obituaries/greencastle-in/floyd-decker-11410884",
+          "title": "Obituary for Floyd S. Decker",
+          "date": "2023-08-16"
+        },
+        {
+          "claim": "In 2022, Damon Cox appeared before the Putnam County Board of Zoning Appeals to request a variance for a temporary second dwelling while constructing a new home on the property; the variance was approved",
+          "url": "https://irp.cdn-website.com/238c8e41/files/uploaded/Approved+March+Minutes.pdf",
+          "title": "Putnam County Board of Zoning Appeals Minutes",
+          "date": "2022-03-14"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James P. Payne",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671328300012001010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James P. Payne purchased the residential property at 5453 E County Road 900 S in Cloverdale in May 2019 ([source](https://www.zillow.com/homedetails/5453-E-County-Road-900-S-Cloverdale-IN-46120/110330643_zpid/)). No record of Payne taking a public position on local development issues was found in news or meeting archives ([source](https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Commissioners-set-moratorium-for-solar-farms-and-more/-3/5308/120492)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Newer property owner; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Provide assurances regarding noise and screening to protect the quiet enjoyment of his recently purchased property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "James P. Payne purchased the residential property at 5453 E County Road 900 S in Cloverdale in May 2019",
+          "url": "https://www.zillow.com/homedetails/5453-E-County-Road-900-S-Cloverdale-IN-46120/110330643_zpid/",
+          "title": "5453 E County Road 900 S Property Details",
+          "date": "2026-01-23"
+        },
+        {
+          "claim": "No record of Payne taking a public position on local development issues was found in news or meeting archives",
+          "url": "https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Commissioners-set-moratorium-for-solar-farms-and-more/-3/5308/120492",
+          "title": "Putnam County Commissioners set moratorium for solar farms",
+          "date": "2025-11-23"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Carl D. Grove & Marilyn S. Grove",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671332200002000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carl D. Grove and Marilyn S. Grove are long-time residents of the area; Carl Grove appears in local records as early as 1957 regarding school district consolidation ([source](https://newspapers.library.in.gov/cgi-bin/indiana?a=d&d=TDB19570425-01.1.1)). Marilyn Grove has been active in the local faith community and is a known resident of Cloverdale ([source](https://www.dignitymemorial.com/obituaries/greencastle-in/ellen-cash-8950585)). No evidence was found of the family speaking at public meetings regarding recent solar development proposals ([source](https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Area-Plan-Commission-recommends-denying-solar-rezone-of-1-200-acres/-3/5308/115778)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-time resident; no recent public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach with respect for their long tenure; discuss farmland preservation and drainage to honor their legacy."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Carl Grove appears in local records as early as 1957 regarding school district consolidation",
+          "url": "https://newspapers.library.in.gov/cgi-bin/indiana?a=d&d=TDB19570425-01.1.1",
+          "title": "The Daily Banner 25 April 1957",
+          "date": "1957-04-25"
+        },
+        {
+          "claim": "Marilyn Grove has been active in the local faith community and is a known resident of Cloverdale",
+          "url": "https://www.dignitymemorial.com/obituaries/greencastle-in/ellen-cash-8950585",
+          "title": "Obituary for Ellen Joan Cash",
+          "date": "2019-12-04"
+        },
+        {
+          "claim": "No evidence was found of the family speaking at public meetings regarding recent solar development proposals",
+          "url": "https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Area-Plan-Commission-recommends-denying-solar-rezone-of-1-200-acres/-3/5308/115778",
+          "title": "Putnam County Area Plan Commission recommends denying solar rezone",
+          "date": "2024-02-04"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "State Of Indiana",
+      "entity_category": "Organization",
+      "entity_type": "Government",
+      "pins": [
+        "671329400015000010",
+        "671329400013000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The State of Indiana owns property along County Road 900 S, likely associated with the Department of Natural Resources and the nearby Lieber State Recreation Area/Cagles Mill Lake ([source](https://en.wikipedia.org/wiki/Cagles_Mill_Lake)). The property is classified as exempt/state-owned land ([source](https://www.loopnet.com/property/8407-e-county-road-900-s-cloverdale-in-46120/18133-671325300023000010/)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "State government entity; statutory authority",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Coordinate with IDNR regarding setbacks and environmental impact on nearby state recreation areas."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The State of Indiana owns property along County Road 900 S, likely associated with the Department of Natural Resources and the nearby Lieber State Recreation Area/Cagles Mill Lake",
+          "url": "https://en.wikipedia.org/wiki/Cagles_Mill_Lake",
+          "title": "Cagles Mill Lake",
+          "date": "2026-01-23"
+        },
+        {
+          "claim": "The property is classified as exempt/state-owned land",
+          "url": "https://www.loopnet.com/property/8407-e-county-road-900-s-cloverdale-in-46120/18133-671325300023000010/",
+          "title": "8407 E County Road 900 S Property Detail",
+          "date": "2026-01-23"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 1277611,
+    "thinking_count": 39
+  }
+}

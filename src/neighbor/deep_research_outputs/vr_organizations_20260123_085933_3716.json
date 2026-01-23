@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-01-23T09:19:28.314143",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260123_085933_3716.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Putnam County",
+    "state": "IN",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Buis Farms Eight LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "671328900012000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Buis Farms Eight LLC holds farmland in Putnam County and is associated with the local Buis family farming enterprise (Mike & Jeff Buis Partnership) ([EWG](https://farm.ewg.org/top_recips.php?fips=18133&progcode=total_de&regionname=PutnamCounty,Indiana)). The Buis partnership, based in nearby Martinsville, IN, is a recipient of federal farm subsidies, reflecting the scale of their farm operations ([EWG](https://farm.ewg.org/top_recips.php?fips=18133&progcode=total_de&regionname=PutnamCounty,Indiana)). Mike Buis has served in leadership roles for agricultural organizations like the Indiana Corn Growers Association ([Indiana Soybean Alliance](https://issuu.com/indianasoybeanassociation/docs/icsp_janfeb_2025_012125_web)). No public records indicate Buis Farms Eight LLC taking an active position for or against development projects in the area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-generational farm family with substantial acreage and leadership in state agricultural associations; locally known but not overtly politically active on solar issues.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Buis family principals (e.g., Mike Buis) with respect for their farming legacy; emphasize how any project can coexist with or enhance agricultural use to address their concerns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Associated with Buis family farming enterprise and recipient of subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=18133&progcode=total_de&regionname=PutnamCounty,Indiana",
+          "title": "EWG Farm Subsidy Database - Putnam County, IN",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Mike Buis served in leadership for Indiana Corn Growers Association",
+          "url": "https://issuu.com/indianasoybeanassociation/docs/icsp_janfeb_2025_012125_web",
+          "title": "Indiana Corn & Soybean Post Jan/Feb 2025",
+          "date": "2025-01-27"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fred Mann Farm Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "671333900001000002",
+        "671332800022000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fred Mann Farm Inc is a family-run farm corporation historically led by Fred O. Mann, headquartered in Cloverdale, Indiana ([National Public Data](https://nationalpublicdata.com/people/m/fred-mann/in/)). The company’s address (5008 E State Rd 42) houses multiple Mann family business entities, indicating a large-scale farming operation ([National Public Data](https://nationalpublicdata.com/people/m/fred-mann/in/)). The Mann family controls extensive farmland in the county, with members Robert and Christopher Mann actively engaging in development discussions ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/)). The family partnered with solar developer EnergyRe for the proposed 4Leaf Solar project to diversify their farming operations ([Giant FM](https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Long-established major landowners (~2,000 acres); multiple farm-related entities; prominent in local land-use debates and directly partnered with developers.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with family decision-makers Robert and Christopher Mann; frame proposals as enhancing the farm’s legacy and profitability, given their past openness to new ventures."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Headquartered in Cloverdale, IN at 5008 E State Rd 42",
+          "url": "https://nationalpublicdata.com/people/m/fred-mann/in/",
+          "title": "Public Data Profile - Fred Mann",
+          "date": "2025-01-01"
+        },
+        {
+          "claim": "Robert and Christopher Mann engaged in development discussions",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/",
+          "title": "Putnam County Commissioners set to have final say on proposed solar farm",
+          "date": "2025-10-03"
+        },
+        {
+          "claim": "Partnered with solar developer EnergyRe to diversify farming",
+          "url": "https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mann Family Investments LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "671332500004001002",
+        "671329400012001010",
+        "671329300011002010",
+        "671333600007000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mann Family Investments LLC is a Mann family business entity used to manage land assets ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/)). In 2025, land owned by the Mann family (approximately 2,000 acres) was proposed as the site of the utility-scale 4Leaf Solar project by developer energyRe ([Terre Haute Vice](https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/)). Family members Robert and Christopher Mann publicly supported the project as a means to diversify operations and improve soil quality ([Giant FM](https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)). The rezoning for the project was denied by Putnam County Commissioners in October 2025 following significant community opposition ([Indiana Economic Digest](https://indianaeconomicdigest.net/MobileContent/Most-Recent/Putnam/Article/Putnam-County-Commissioners-vote-to-deny-solar-farm-rezone/31/220/116199)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Controls large land assets; family members spoke publicly in favor of major development; directly involved in local planning decisions.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Robert Mann directly to discuss mutually beneficial development plans; leverage their interest in diversification by offering partnerships or concessions that address past community concerns."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Mann family entity used to manage land assets",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/",
+          "title": "Putnam County Commissioners set to have final say on proposed solar farm",
+          "date": "2025-10-03"
+        },
+        {
+          "claim": "Proposed site of 4Leaf Solar project by energyRe",
+          "url": "https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/",
+          "title": "Putnam Says No: Residents, Commissioners Reject 2,000-Acre Solar Proposal",
+          "date": "2025-10-07"
+        },
+        {
+          "claim": "Robert and Christopher Mann publicly supported the project",
+          "url": "https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12"
+        },
+        {
+          "claim": "Rezoning denied by Commissioners in October 2025",
+          "url": "https://indianaeconomicdigest.net/MobileContent/Most-Recent/Putnam/Article/Putnam-County-Commissioners-vote-to-deny-solar-farm-rezone/31/220/116199",
+          "title": "Putnam County Commissioners vote to deny solar farm rezone",
+          "date": "2024-04-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Crafton Thomas R Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "671328300027000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Crafton Thomas R Trust is associated with the Crafton family; Thomas R. Crafton was a long-time resident of Putnam County (died 2017) ([Ancestry](https://www.ancestry.com/search/collections/60525/?name=Miley+Thomas_Crafton)). The trust holds property in the county, but no public records indicate the trust or its current trustees have taken an active position on local development projects.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Trust associated with an individual landowner; minimal public information available.",
+      "approach_recommendations": null,
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Thomas R. Crafton was a long-time resident of Putnam County (died 2017)",
+          "url": "https://www.ancestry.com/search/collections/60525/?name=Miley+Thomas_Crafton",
+          "title": "Ancestry Record - Thomas R. Crafton",
+          "date": "2017-11-03"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 467798,
+    "thinking_count": 21
+  }
+}

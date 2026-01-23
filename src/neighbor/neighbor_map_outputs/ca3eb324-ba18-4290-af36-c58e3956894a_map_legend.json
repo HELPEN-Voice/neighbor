@@ -1,0 +1,72 @@
+[
+  {
+    "marker_char": "1",
+    "text": "SKIRVIN",
+    "full_name": "Nathan D. & Katrina M. Skirvin",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "oppose",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "STATE",
+    "full_name": "State Of Indiana",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "neutral",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "FRED",
+    "full_name": "Fred Mann Farm Inc",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "4",
+    "text": "MANN",
+    "full_name": "Mann Family Investments LLC",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "5",
+    "text": "CHESTNUT",
+    "full_name": "Johnnie L. Chestnut",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "6",
+    "text": "WINDERS",
+    "full_name": "Tyler K. Lotz & Jessica P. Winders",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "7",
+    "text": "BUIS",
+    "full_name": "Buis Farms Eight LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": true,
+    "is_target": false
+  }
+]

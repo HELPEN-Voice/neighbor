@@ -1,22 +1,25 @@
 {
   "neighbors": [
     {
-      "neighbor_id": "N-02",
-      "name": "Kamala Hollon",
+      "neighbor_id": "N-01",
+      "name": "Anthony J. & Debra A. Hofmann",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "14321005D"
+        "671329400022000010"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Kamala Hollon is a resident of Arizona ([source](https://nationalpublicdata.com/people/h/kamala-hollon/)). She was identified as a close friend of the late Scott Joseph Rogers in a 2024 obituary ([source](https://www.dignitymemorial.com/obituaries/phoenix-az/scott-rogers-11784949)). No public statements regarding renewable energy development were found.",
+      "claims": "Debra A. Hofmann is listed as residing at 4705 E County Road 900 S in rural Cloverdale, Putnam County ([Zillow](https://www.zillow.com/homedetails/4705-E-County-Road-900-S-Cloverdale-IN-46120/85673519_zpid/)). Public records confirm the Hofmanns as local landowners, but no news articles or civic roles were found associated with them ([Putnam County Assessor](https://co.putnam.in.us/assessor)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private citizen; no public offices found.",
+      "influence_justification": "Private landowners; no public roles noted",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Use a friendly, one-on-one introduction by a community liaison to share project information and invite her feedback."
+        "motivations": [
+          "privacy_quiet",
+          "local_control"
+        ],
+        "engage": "Initiate personal outreach to build rapport. Given the intense local opposition to the 4Leaf Solar project in Cloverdale, emphasize listening and transparency. Avoid assuming neutrality despite the lack of public statements."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -33,38 +36,101 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Resident of Arizona",
-          "url": "https://nationalpublicdata.com/people/h/kamala-hollon/",
-          "title": "Kamala Hollon - National Public Data",
-          "date": "2024-01-01",
+          "claim": "Debra A. Hofmann is listed as residing at 4705 E County Road 900 S",
+          "url": "https://www.zillow.com/homedetails/4705-E-County-Road-900-S-Cloverdale-IN-46120/85673519_zpid/",
+          "title": "4705 E County Road 900 S, Cloverdale, IN 46120",
+          "date": "2026-01-23",
           "note": null
         },
         {
-          "claim": "Identified as friend in Scott Rogers obituary",
-          "url": "https://www.dignitymemorial.com/obituaries/phoenix-az/scott-rogers-11784949",
-          "title": "Obituary for Scott Joseph Rogers",
-          "date": "2024-04-22",
+          "claim": "Public records confirm the Hofmanns as local landowners",
+          "url": "https://co.putnam.in.us/assessor",
+          "title": "Putnam County Assessor Property Records",
+          "date": "2026-01-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cynthia L. Ogborn",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400017000010",
+        "671329400021000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cynthia L. “Cindy” Ogborn resides at 4690 E County Road 875 S in Cloverdale, Indiana ([Xome](https://www.xome.com/realestate/IN/Cloverdale/46120/County-Rd-750?page=7)). Her property spans roughly 12.7 acres with a home built in 1994 ([Realtor](https://www.realtor.com/propertyrecord-search/46120/E-County-Road-875-S)). While no direct civic role was found for Cynthia, a Brad Ogborn serves as Director of Transportation for the South Putnam Community School Corporation, suggesting potential family ties to local administration ([South Putnam Schools](https://www.sputnam.k12.in.us/staff)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Rural homeowner; possible school board tie",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach Ms. Ogborn with respect for her long-term residency. Be aware of potential connections to the school district administration. Focus on how the project addresses concerns raised by the Putnam County Rural Preservation Society."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Cynthia L. “Cindy” Ogborn resides at 4690 E County Road 875 S",
+          "url": "https://www.xome.com/realestate/IN/Cloverdale/46120/County-Rd-750?page=7",
+          "title": "Real Estate Records Cloverdale IN",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "Her property spans roughly 12.7 acres with a home built in 1994",
+          "url": "https://www.realtor.com/propertyrecord-search/46120/E-County-Road-875-S",
+          "title": "Property Record 4690 E County Road 875 S",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "Brad Ogborn serves as Director of Transportation",
+          "url": "https://www.sputnam.k12.in.us/staff",
+          "title": "South Putnam Community School Corporation Staff Directory",
+          "date": "2026-01-23",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Keith Ringler",
+      "name": "Jami K. & Richard “Shane” Cox",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "14220119"
+        "671329400018000010",
+        "671329400014000010"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Keith Ringler is a Phoenix-area resident and the brother of the late Charles Ringler ([source](https://www.legacy.com/us/obituaries/azcentral/name/charles-ringler-obituary?id=26641928)). He was the longtime companion of Kimberly Townsend, who passed away in 2015 ([source](https://www.dignitymemorial.com/obituaries/glendale-az/kim-townsend-ringler-6714818)). He has been listed as a donor to St. Vincent de Paul ([source](https://www.stvincentdepaul.net/sites/default/files/Fall-Winter2016_Vincentian_Spreads.pdf)).",
+      "owns_adjacent_parcel": "No",
+      "claims": "Jami K. Cox and her husband Richard “Shane” Cox are identified in county land records as co-owners of parcels in this part of Putnam County ([Putnam County Assessor](https://co.putnam.in.us/assessor)). Jami K. Cox is also listed as an owner of property on E Washington St in Greencastle ([Beacon](http://auditor.putnamcounty67.us/cgi.exe?CALL_PROGRAM=C009INFO&FINDINFO=00000013130&TAXYEAR=2024&ORIGIN=B)). No public commentary on development was found for this specific couple, though the name 'Shane Cox' appears in unrelated regional records.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private citizen; no public offices found.",
+      "influence_justification": "No known public profile",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage via personal outreach by a trusted community member, focusing on listening to his questions and addressing any concerns he may have."
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Engage the Cox family through a direct, informal introduction. Given the high solar opposition in Cloverdale, provide clear facts about setbacks and screening. Clarify if they reside at the rural parcel or the Greencastle address."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -81,50 +147,786 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Brother of Charles Ringler",
-          "url": "https://www.legacy.com/us/obituaries/azcentral/name/charles-ringler-obituary?id=26641928",
-          "title": "Obituary for Charles Ringler",
-          "date": "2005-09-28",
+          "claim": "Identified in county land records as co-owners",
+          "url": "https://co.putnam.in.us/assessor",
+          "title": "Putnam County Assessor Property Search",
+          "date": "2026-01-23",
           "note": null
         },
         {
-          "claim": "Longtime companion of Kimberly Townsend",
-          "url": "https://www.dignitymemorial.com/obituaries/glendale-az/kim-townsend-ringler-6714818",
-          "title": "Obituary for Kim Townsend Ringler",
-          "date": "2015-12-13",
+          "claim": "Jami K. Cox is also listed as an owner of property on E Washington St in Greencastle",
+          "url": "http://auditor.putnamcounty67.us/cgi.exe?CALL_PROGRAM=C009INFO&FINDINFO=00000013130&TAXYEAR=2024&ORIGIN=B",
+          "title": "Putnam County Auditor Property Record 730 E Washington",
+          "date": "2026-01-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Michael E. Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400022003010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael E. Smith is listed as the owner of the parcel at 4655 E County Road 900 S, Cloverdale, per property records ([Zillow](https://www.zillow.com/homedetails/4655-E-County-Road-900-S-Cloverdale-IN-46120/85673521_zpid/)). The property includes a home built in 1999 on approximately 2.5 acres ([Zillow](https://www.zillow.com/homedetails/4655-E-County-Road-900-S-Cloverdale-IN-46120/85673521_zpid/)). No public commentary or civic roles were found associated with this individual in Putnam County development hearings.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Unlisted in public forums",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Conduct low-key, personal outreach. Confirm if he is the primary resident. Be prepared to discuss visual screening, as the property is a smaller residential parcel (2.5 acres) likely sensitive to viewshed changes."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Owner of the parcel at 4655 E County Road 900 S",
+          "url": "https://www.zillow.com/homedetails/4655-E-County-Road-900-S-Cloverdale-IN-46120/85673521_zpid/",
+          "title": "4655 E County Road 900 S Property Details",
+          "date": "2026-01-23",
           "note": null
         },
         {
-          "claim": "Donor to St. Vincent de Paul",
-          "url": "https://www.stvincentdepaul.net/sites/default/files/Fall-Winter2016_Vincentian_Spreads.pdf",
-          "title": "Vincentian Connection Newsletter",
-          "date": "2016-12-01",
+          "claim": "Property includes a home built in 1999 on approximately 2.5 acres",
+          "url": "https://www.zillow.com/homedetails/4655-E-County-Road-900-S-Cloverdale-IN-46120/85673521_zpid/",
+          "title": "4655 E County Road 900 S Facts & Features",
+          "date": "2026-01-23",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Salt River Project Agricultural Improvement And Power District",
-      "entity_category": "Organization",
-      "entity_type": "Political Subdivision",
+      "name": "Clayton D. Cordell Jr. & Alayssa L. Cordell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
       "pins": [
-        "14322006A",
-        "14322006D",
-        "14322006C"
+        "671329400020000010"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The Salt River Project (SRP) is an agricultural improvement district and a political subdivision of the State of Arizona ([source](https://www.srpnet.com/assets/srpnet/pdf/doing-business/SRP-Preliminary-Official-Statement-2025-Series-C.pdf)). As a major utility, SRP has committed to adding 2,025 megawatts of utility-scale solar energy to its power system by 2025 ([source](https://media.srpnet.com/srp-to-more-than-double-its-utility-scale-solar-to-2025-megawatts-by-2025/)). The organization has established sustainability goals to reduce carbon intensity by 82% by 2035 and achieve net-zero carbon emissions by 2050 ([source](https://media.srpnet.com/srp-provides-progress-report-toward-2035-sustainability-goals/)).",
+      "claims": "Clayton D. \"Doug\" Cordell Jr., a U.S. Army veteran, passed away on Feb. 12, 2024, at age 67 ([Owen-Weilert-Duncan](https://www.owenweilertduncan.com/obituaries/Clayton-D-Doug-Cordell?obId=30869044)). The Cordell property is located in an area where the 2,000-acre 4Leaf/EnergyRe solar farm was proposed and subsequently rejected by Putnam County Commissioners in October 2025 ([Terre Haute Vice](https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/)). Alayssa L. Cordell is identified as a family member in related obituaries ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/indianapolis-in/dewayne-chernovsky-9081522)).",
       "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "High",
-      "influence_justification": "Major utility and political subdivision.",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Deceased owner; widow's influence unknown",
       "approach_recommendations": {
         "motivations": [
-          "tax_revenue_benefit",
-          "local_control"
+          "farmland_preservation",
+          "privacy_quiet"
         ],
-        "engage": "Engage via corporate sustainability partnership channels to align project goals with SRP's integrated system planning."
+        "engage": "Have a respected farming peer or local veteran approach Alayssa Cordell, emphasizing how project plans protect farmland use and maintain the area’s quiet rural character."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Clayton D. \"Doug\" Cordell Jr., a U.S. Army veteran, passed away on Feb. 12, 2024, at age 67",
+          "url": "https://www.owenweilertduncan.com/obituaries/Clayton-D-Doug-Cordell?obId=30869044",
+          "title": "Obituary for Clayton D. Cordell",
+          "date": "2024-02-12",
+          "note": null
+        },
+        {
+          "claim": "The Cordell property is located in an area where the 2,000-acre 4Leaf/EnergyRe solar farm was proposed and subsequently rejected by Putnam County Commissioners in October 2025",
+          "url": "https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/",
+          "title": "Putnam Says No: Commissioners Reject 2,000-Acre Solar Proposal",
+          "date": "2025-10-07",
+          "note": null
+        },
+        {
+          "claim": "Alayssa L. Cordell is identified as a family member in related obituaries",
+          "url": "https://www.dignitymemorial.com/obituaries/indianapolis-in/dewayne-chernovsky-9081522",
+          "title": "Obituary for DeWayne Chernovsky",
+          "date": "2020-03-10",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Johnnie L. Chestnut",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400019000010"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Johnnie L. Chestnut is a certified financial planner (CFP) and investment advisor representative based in Cloverdale, Indiana, currently affiliated with Osaic Advisory Services ([AdvisorCheck](https://www.advisorcheck.com/advisor/3262183-johnnie-lee-chestnut-osaic-advisory-services-llc-cloverdale-indiana)). He has worked in the finance industry since 1999 and operates Chestnut Financial Group LLC ([Experience.com](https://www.experience.com/reviews/johnnie-22016068)). No public record of Chestnut taking a formal position on the 4Leaf Solar project or other local development issues was found in county meeting minutes.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local financial advisor and business owner",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach through a fellow business professional or community leader to discuss how the project will safeguard nearby property values and preserve the area’s tranquility, addressing any financial or quality-of-life concerns."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Johnnie L. Chestnut is a certified financial planner (CFP) and investment advisor representative based in Cloverdale, Indiana, currently affiliated with Osaic Advisory Services",
+          "url": "https://www.advisorcheck.com/advisor/3262183-johnnie-lee-chestnut-osaic-advisory-services-llc-cloverdale-indiana",
+          "title": "AdvisorCheck Profile: Johnnie Lee Chestnut",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "He has worked in the finance industry since 1999 and operates Chestnut Financial Group LLC",
+          "url": "https://www.experience.com/reviews/johnnie-22016068",
+          "title": "Experience.com Profile: Johnnie Chestnut",
+          "date": "2024-01-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Tyler K. Lotz & Jessica P. Winders",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671332100003000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Tyler K. Lotz serves as the head football coach at Cloverdale High School, a role he has held since at least 2022 ([GIANT fm](https://www.giant.fm/putnam-county/news/local-news/cloverdale-ready-for-new-season-future-changes/)). Jessica P. Winders is identified as his partner in family obituaries ([Baldwin Cremation](https://baldwincremation.com/obituaries/william-bill-thomas-terrell/)). There is no public record of Lotz or Winders speaking publicly about the 4Leaf Solar project or other energy developments in Putnam County.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "High school head coach; local educator",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Have a trusted educator or coach from the area talk with the couple, highlighting how project plans include visual screening and noise minimization to preserve the peaceful, scenic environment they value."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Tyler K. Lotz serves as the head football coach at Cloverdale High School, a role he has held since at least 2022",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/cloverdale-ready-for-new-season-future-changes/",
+          "title": "Cloverdale Ready for New Season, Future Changes",
+          "date": "2025-05-19",
+          "note": null
+        },
+        {
+          "claim": "Jessica P. Winders is identified as his partner in family obituaries",
+          "url": "https://baldwincremation.com/obituaries/william-bill-thomas-terrell/",
+          "title": "Obituary for William Thomas Terrell",
+          "date": "2022-03-17",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Tyson D. Hillenburg & Jillianne N. Hillenburg",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400023000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Tyson D. Hillenburg has been linked to business operations in Cloverdale, including a local Subway franchise ([Where-Food](https://cloverdale-in.where-food.com/subwayrestaurants-10311/)). Family records indicate the Hillenburgs have ties to the Bedford, Indiana area, where Jillianne is listed as a family member in local obituaries ([Ferguson-Lee](https://www.fergusonlee.com/obituaries/Anna-Mae-Henderson?obId=31679314)). Neither Tyson nor Jillianne have publicly voiced opinions on the recent solar farm proposals in Putnam County.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local business connection; no political role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "groundwater_runoff"
+        ],
+        "engage": "Connect via a local agriculture extension or conservation official who can address how the project will protect farmland integrity and manage water drainage, reassuring the Hillenburgs that their land and crops won’t be adversely affected."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Tyson D. Hillenburg has been linked to business operations in Cloverdale, including a local Subway franchise",
+          "url": "https://cloverdale-in.where-food.com/subwayrestaurants-10311/",
+          "title": "Subway Restaurants Cloverdale - Tyson Hillenburg",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Family records indicate the Hillenburgs have ties to the Bedford, Indiana area, where Jillianne is listed as a family member in local obituaries",
+          "url": "https://www.fergusonlee.com/obituaries/Anna-Mae-Henderson?obId=31679314",
+          "title": "Obituary for Anna Mae Henderson",
+          "date": "2016-08-10",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Damon Cox & Jannllie Cox",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671333200002000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Damon B. Cox and his spouse Jannllie Cox reside on a property along County Road 900 South in Cloverdale ([source](https://www.dignitymemorial.com/obituaries/greencastle-in/floyd-decker-11410884)). In 2022, Damon Cox appeared before the Putnam County Board of Zoning Appeals to request a variance for a temporary second dwelling while constructing a new home on the property; the variance was approved ([source](https://irp.cdn-website.com/238c8e41/files/uploaded/Approved+March+Minutes.pdf)). No public statements regarding renewable energy development were located in available records.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; petitioner for personal zoning variance",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Address concerns about home resale value and views via visual buffers, acknowledging his recent investment in building a new home on the property."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Damon B. Cox and his spouse Jannllie Cox reside on a property along County Road 900 South in Cloverdale",
+          "url": "https://www.dignitymemorial.com/obituaries/greencastle-in/floyd-decker-11410884",
+          "title": "Obituary for Floyd S. Decker",
+          "date": "2023-08-16",
+          "note": null
+        },
+        {
+          "claim": "In 2022, Damon Cox appeared before the Putnam County Board of Zoning Appeals to request a variance for a temporary second dwelling while constructing a new home on the property; the variance was approved",
+          "url": "https://irp.cdn-website.com/238c8e41/files/uploaded/Approved+March+Minutes.pdf",
+          "title": "Putnam County Board of Zoning Appeals Minutes",
+          "date": "2022-03-14",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James P. Payne",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671328300012001010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James P. Payne purchased the residential property at 5453 E County Road 900 S in Cloverdale in May 2019 ([source](https://www.zillow.com/homedetails/5453-E-County-Road-900-S-Cloverdale-IN-46120/110330643_zpid/)). No record of Payne taking a public position on local development issues was found in news or meeting archives ([source](https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Commissioners-set-moratorium-for-solar-farms-and-more/-3/5308/120492)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Newer property owner; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Provide assurances regarding noise and screening to protect the quiet enjoyment of his recently purchased property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "James P. Payne purchased the residential property at 5453 E County Road 900 S in Cloverdale in May 2019",
+          "url": "https://www.zillow.com/homedetails/5453-E-County-Road-900-S-Cloverdale-IN-46120/110330643_zpid/",
+          "title": "5453 E County Road 900 S Property Details",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "No record of Payne taking a public position on local development issues was found in news or meeting archives",
+          "url": "https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Commissioners-set-moratorium-for-solar-farms-and-more/-3/5308/120492",
+          "title": "Putnam County Commissioners set moratorium for solar farms",
+          "date": "2025-11-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Carl D. Grove & Marilyn S. Grove",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671332200002000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carl D. Grove and Marilyn S. Grove are long-time residents of the area; Carl Grove appears in local records as early as 1957 regarding school district consolidation ([source](https://newspapers.library.in.gov/cgi-bin/indiana?a=d&d=TDB19570425-01.1.1)). Marilyn Grove has been active in the local faith community and is a known resident of Cloverdale ([source](https://www.dignitymemorial.com/obituaries/greencastle-in/ellen-cash-8950585)). No evidence was found of the family speaking at public meetings regarding recent solar development proposals ([source](https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Area-Plan-Commission-recommends-denying-solar-rezone-of-1-200-acres/-3/5308/115778)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-time resident; no recent public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach with respect for their long tenure; discuss farmland preservation and drainage to honor their legacy."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Carl Grove appears in local records as early as 1957 regarding school district consolidation",
+          "url": "https://newspapers.library.in.gov/cgi-bin/indiana?a=d&d=TDB19570425-01.1.1",
+          "title": "The Daily Banner 25 April 1957",
+          "date": "1957-04-25",
+          "note": null
+        },
+        {
+          "claim": "Marilyn Grove has been active in the local faith community and is a known resident of Cloverdale",
+          "url": "https://www.dignitymemorial.com/obituaries/greencastle-in/ellen-cash-8950585",
+          "title": "Obituary for Ellen Joan Cash",
+          "date": "2019-12-04",
+          "note": null
+        },
+        {
+          "claim": "No evidence was found of the family speaking at public meetings regarding recent solar development proposals",
+          "url": "https://indianaeconomicdigest.net/MobileContent/Default/Major-Indiana-News/Article/Putnam-County-Area-Plan-Commission-recommends-denying-solar-rezone-of-1-200-acres/-3/5308/115778",
+          "title": "Putnam County Area Plan Commission recommends denying solar rezone",
+          "date": "2024-02-04",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Seth & Rachel Barrier",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400022002010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Seth and Rachel Barrier are residents of the Cloverdale area in Putnam County ([National Public Data](https://nationalpublicdata.com/people/b/seth-barrier/)). Their property is located in the vicinity of the proposed 4Leaf Solar Farm, a project that faced significant community opposition during 2025 hearings. County officials reported that 386 people submitted letters against the development versus only 25 in favor ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)). The project was ultimately rejected by the County Commissioners in October 2025 following a recommendation of denial from the Plan Commission ([Terre Haute Vice](https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local residents; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Have a trusted local farm leader speak with the Barriers about how land stewardship and property values will be protected, highlighting long-term farmland preservation measures."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Seth and Rachel Barrier are residents of the Cloverdale area",
+          "url": "https://nationalpublicdata.com/people/b/seth-barrier/",
+          "title": "Seth Barrier - Cloverdale, IN",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "386 people submitted letters against the development versus only 25 in favor",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12",
+          "note": null
+        },
+        {
+          "claim": "Project rejected by Commissioners in October 2025",
+          "url": "https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/",
+          "title": "Putnam Says No: Residents, Commissioners Reject 2,000-Acre Solar Proposal",
+          "date": "2025-10-07",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Eric B. Kaufman",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400016000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Eric B. Kaufman is listed as a landowner in rural Putnam County. The area was subject to the proposed 300 MW 4Leaf Solar Farm, which was rejected by the County Plan Commission in September 2025 due to overwhelming community opposition ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)). No public statements from Kaufman regarding the project were found in local records. (Note: A prominent 'Eric Kaufman' appears in records for Putnam County, Ohio; verification of this individual's specific presence in Putnam County, Indiana, relies solely on tax roll data not publicly indexed in news snippets).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Address his practical concerns directly – for example, explain drainage plans and road use limits – through a personal visit by a project engineer alongside a respected neighbor to build confidence."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Rejected by the County Plan Commission in September 2025",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Nathan D. & Katrina M. Skirvin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400022001010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Katrina “Kate” Skirvin is a veteran agriculture teacher at North Putnam High School who received a 2022 national award as an Outstanding Agricultural Educator ([North Putnam Schools](https://www.nputnam.k12.in.us/o/nphs/article/930909)). She serves as an appointed member of the Putnam County Plan Commission (2025-2029) ([Putnam County Government](https://co.putnam.in.us/building-and-planning)). In her official capacity, Skirvin voted against the 4Leaf Solar rezone request in September 2025 ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)). Additionally, she presented on the risks of industrial solar projects to agricultural land at a January 2025 community forum organized by the Putnam County Rural Preservation Society ([PCRPS](https://pcrps.carrd.co/)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "Plan Commission member; award-winning teacher",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage her with peer experts in agriculture – for example, invite an agricultural extension specialist to discuss how the solar farm can co-exist with farming and protect land for future generations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Received a 2022 national award as an Outstanding Agricultural Educator",
+          "url": "https://www.nputnam.k12.in.us/o/nphs/article/930909",
+          "title": "Kate Skirvin Selected for National Award",
+          "date": "2022-12-07",
+          "note": null
+        },
+        {
+          "claim": "Appointed member of the Putnam County Plan Commission (2025-2029)",
+          "url": "https://co.putnam.in.us/building-and-planning",
+          "title": "Putnam County Building and Planning - Board Members",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "Voted against the 4Leaf Solar rezone request in September 2025",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12",
+          "note": null
+        },
+        {
+          "claim": "Presented on the risks of industrial solar projects... at a January 2025 community forum",
+          "url": "https://pcrps.carrd.co/",
+          "title": "Putnam County Rural Preservation Society - Events",
+          "date": "2025-01-08",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "J. B. Michael",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "671329400012000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "J. B. Michael is a long-time resident who farms trees in Putnam County and is an alumnus of Wabash College (Class of 1969) ([Wabash College](https://bulletin.wabash.edu/scholarships/restricted-scholarships/)). He owns land in the southern part of the county, near the area of the rejected 4Leaf solar project. While hundreds of residents voiced concerns about the project's impact on rural scenery and noise during 2025 hearings, Michael has no documented public comments on the development ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Tree farmer; Wabash College alumni leader",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Emphasize measures to preserve the quiet, scenic nature of his surroundings – for example, via visual buffers and noise minimization – delivered in a personal conversation by a neighbor he trusts who supports the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Farms trees in Putnam County and is an alumnus of Wabash College",
+          "url": "https://bulletin.wabash.edu/scholarships/restricted-scholarships/",
+          "title": "Wabash College Restricted Scholarships - Michael Scholarship",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "Hundreds of residents voiced concerns... Michael has no documented public comments",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Logan Buis",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "67-13-29-100-009.000-010",
+        "67-13-28-200-011.000-010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Logan Buis is a resident of Putnam County and identified as the grandson of long-time Greencastle resident Doris Jean McMains ([Hopkins-Rector](https://www.dignitymemorial.com/obituaries/greencastle-in/doris-mcmains-11040902)). While the Buis Family Trust appears in county planning documents, no direct references to Logan Buis speaking on development matters were found in local government minutes as of January 2026 ([Putnam County Plan Commission](https://irp.cdn-website.com/238c8e41/files/uploaded/Plan+Commission+Minutes+June+9+2025.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public office found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via informal, one-on-one outreach stressing respect for agricultural land use. Having a fellow local farmer or trusted community member introduce the development plans could help build trust."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Logan Buis is a resident of Putnam County and identified as the grandson of long-time Greencastle resident Doris Jean McMains",
+          "url": "https://www.dignitymemorial.com/obituaries/greencastle-in/doris-mcmains-11040902",
+          "title": "Obituary for Doris Jean McMains",
+          "date": "2022-11-30",
+          "note": null
+        },
+        {
+          "claim": "While the Buis Family Trust appears in county planning documents, no direct references to Logan Buis speaking on development matters were found in local government minutes as of January 2026",
+          "url": "https://irp.cdn-website.com/238c8e41/files/uploaded/Plan+Commission+Minutes+June+9+2025.pdf",
+          "title": "Putnam County Plan Commission Minutes",
+          "date": "2025-06-09",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Mark E. Toebbe & Julie M. Toebbe",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "67-13-32-800-013.902-002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Julie M. Toebbe works as a Human Resources Manager with Pools of Fun in Plainfield, Indiana ([Growjo](https://growjo.com/company/Pools_of_Fun)). Mark and Julie Toebbe are residents of Cloverdale, Indiana, recently participating in local community memorials as of July 2025 ([Whitaker Funeral Home](https://www.whitakerfunerals.net/obituary/Larry-Grounds)). Neither Mark nor Julie Toebbe is mentioned in local public meetings regarding community development ([Putnam County Plan Commission](https://irp.cdn-website.com/238c8e41/files/uploaded/Plan+Commission+Minutes+June+9+2025.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local residents; no public roles found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Toebbes through a neighborly conversation or community open house. Emphasize how the project addresses common resident concerns like property values and traffic safety in order to earn their understanding."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Julie M. Toebbe works as a Human Resources Manager with Pools of Fun in Plainfield, Indiana",
+          "url": "https://growjo.com/company/Pools_of_Fun",
+          "title": "Pools of Fun Company Profile",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Mark and Julie Toebbe are residents of Cloverdale, Indiana, recently participating in local community memorials as of July 2025",
+          "url": "https://www.whitakerfunerals.net/obituary/Larry-Grounds",
+          "title": "Obituary for Larry Dean Grounds",
+          "date": "2025-07-03",
+          "note": null
+        },
+        {
+          "claim": "Neither Mark nor Julie Toebbe is mentioned in local public meetings regarding community development",
+          "url": "https://irp.cdn-website.com/238c8e41/files/uploaded/Plan+Commission+Minutes+June+9+2025.pdf",
+          "title": "Putnam County Plan Commission Minutes",
+          "date": "2025-06-09",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "State Of Indiana",
+      "entity_category": "Organization",
+      "entity_type": "Government",
+      "pins": [
+        "671329400015000010",
+        "671329400013000010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The State of Indiana owns property along County Road 900 S, likely associated with the Department of Natural Resources and the nearby Lieber State Recreation Area/Cagles Mill Lake ([source](https://en.wikipedia.org/wiki/Cagles_Mill_Lake)). The property is classified as exempt/state-owned land ([source](https://www.loopnet.com/property/8407-e-county-road-900-s-cloverdale-in-46120/18133-671325300023000010/)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "State government entity; statutory authority",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Coordinate with IDNR regarding setbacks and environmental impact on nearby state recreation areas."
       },
       "entity_classification": "municipal",
       "profile_summary": null,
@@ -141,277 +943,145 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Political subdivision of the State of Arizona",
-          "url": "https://www.srpnet.com/assets/srpnet/pdf/doing-business/SRP-Preliminary-Official-Statement-2025-Series-C.pdf",
-          "title": "SRP Preliminary Official Statement 2025 Series C",
+          "claim": "The State of Indiana owns property along County Road 900 S, likely associated with the Department of Natural Resources and the nearby Lieber State Recreation Area/Cagles Mill Lake",
+          "url": "https://en.wikipedia.org/wiki/Cagles_Mill_Lake",
+          "title": "Cagles Mill Lake",
+          "date": "2026-01-23",
+          "note": null
+        },
+        {
+          "claim": "The property is classified as exempt/state-owned land",
+          "url": "https://www.loopnet.com/property/8407-e-county-road-900-s-cloverdale-in-46120/18133-671325300023000010/",
+          "title": "8407 E County Road 900 S Property Detail",
+          "date": "2026-01-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Buis Farms Eight LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "671328900012000010"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Buis Farms Eight LLC holds farmland in Putnam County and is associated with the local Buis family farming enterprise (Mike & Jeff Buis Partnership) ([EWG](https://farm.ewg.org/top_recips.php?fips=18133&progcode=total_de&regionname=PutnamCounty,Indiana)). The Buis partnership, based in nearby Martinsville, IN, is a recipient of federal farm subsidies, reflecting the scale of their farm operations ([EWG](https://farm.ewg.org/top_recips.php?fips=18133&progcode=total_de&regionname=PutnamCounty,Indiana)). Mike Buis has served in leadership roles for agricultural organizations like the Indiana Corn Growers Association ([Indiana Soybean Alliance](https://issuu.com/indianasoybeanassociation/docs/icsp_janfeb_2025_012125_web)). No public records indicate Buis Farms Eight LLC taking an active position for or against development projects in the area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-generational farm family with substantial acreage and leadership in state agricultural associations; locally known but not overtly politically active on solar issues.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Buis family principals (e.g., Mike Buis) with respect for their farming legacy; emphasize how any project can coexist with or enhance agricultural use to address their concerns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Associated with Buis family farming enterprise and recipient of subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=18133&progcode=total_de&regionname=PutnamCounty,Indiana",
+          "title": "EWG Farm Subsidy Database - Putnam County, IN",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Mike Buis served in leadership for Indiana Corn Growers Association",
+          "url": "https://issuu.com/indianasoybeanassociation/docs/icsp_janfeb_2025_012125_web",
+          "title": "Indiana Corn & Soybean Post Jan/Feb 2025",
+          "date": "2025-01-27",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fred Mann Farm Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "671333900001000002",
+        "671332800022000002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fred Mann Farm Inc is a family-run farm corporation historically led by Fred O. Mann, headquartered in Cloverdale, Indiana ([National Public Data](https://nationalpublicdata.com/people/m/fred-mann/in/)). The company’s address (5008 E State Rd 42) houses multiple Mann family business entities, indicating a large-scale farming operation ([National Public Data](https://nationalpublicdata.com/people/m/fred-mann/in/)). The Mann family controls extensive farmland in the county, with members Robert and Christopher Mann actively engaging in development discussions ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/)). The family partnered with solar developer EnergyRe for the proposed 4Leaf Solar project to diversify their farming operations ([Giant FM](https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Long-established major landowners (~2,000 acres); multiple farm-related entities; prominent in local land-use debates and directly partnered with developers.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with family decision-makers Robert and Christopher Mann; frame proposals as enhancing the farm’s legacy and profitability, given their past openness to new ventures."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Headquartered in Cloverdale, IN at 5008 E State Rd 42",
+          "url": "https://nationalpublicdata.com/people/m/fred-mann/in/",
+          "title": "Public Data Profile - Fred Mann",
           "date": "2025-01-01",
           "note": null
         },
         {
-          "claim": "Committed to adding 2,025 MW of utility-scale solar by 2025",
-          "url": "https://media.srpnet.com/srp-to-more-than-double-its-utility-scale-solar-to-2025-megawatts-by-2025/",
-          "title": "SRP to more than double its utility-scale solar",
-          "date": "2021-05-03",
+          "claim": "Robert and Christopher Mann engaged in development discussions",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/",
+          "title": "Putnam County Commissioners set to have final say on proposed solar farm",
+          "date": "2025-10-03",
           "note": null
         },
         {
-          "claim": "Sustainability goals to reduce carbon intensity by 82% by 2035",
-          "url": "https://media.srpnet.com/srp-provides-progress-report-toward-2035-sustainability-goals/",
-          "title": "SRP provides progress report toward 2035 Sustainability Goals",
-          "date": "2026-01-15",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Westech Lumber LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14321007A"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Westech Lumber LLC operates a construction materials supply business at 8525 N 75th Ave in Peoria ([hub.biz](https://westech-lumber-llc.hub.biz/)). It is a subsidiary of the Younger Brothers Companies, a major regional construction and development entity ([youngerbrothers.com](https://www.youngerbrothers.com/companies/westech)). The facility serves as a lumber yard and truss plant for the parent company's operations ([youngerbrothers.com](https://www.youngerbrothers.com/about-us)). While Younger Brothers is deeply involved in residential and commercial construction, public records do not indicate a specific stance on third-party renewable energy developments, though the company is a licensed contractor ([roc.az.gov](https://roc.az.gov/sites/default/files/ROC_Posting-List_Dual_2025-08-18.csv)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Established local business and major employer in the construction sector; part of the prominent Younger Brothers group.",
-      "approach_recommendations": {
-        "motivations": [
-          "Construction supply contracts",
-          "Site access"
-        ],
-        "engage": "Maintain open communication about construction schedules; emphasize potential business opportunities for construction materials supply."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "Westech Lumber is the materials supply arm of Younger Brothers Companies, operating a lumber yard and manufacturing facility. They are a significant local industrial stakeholder.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Westech Lumber LLC operates a construction materials supply business at 8525 N 75th Ave in Peoria",
-          "url": "https://westech-lumber-llc.hub.biz/",
-          "title": "Westech Lumber Profile",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "It is a subsidiary of the Younger Brothers Companies",
-          "url": "https://www.youngerbrothers.com/companies/westech",
-          "title": "Younger Brothers Companies - Westech",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "The facility serves as a lumber yard and truss plant",
-          "url": "https://www.youngerbrothers.com/about-us",
-          "title": "Younger Brothers About Us",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "the company is a licensed contractor",
-          "url": "https://roc.az.gov/sites/default/files/ROC_Posting-List_Dual_2025-08-18.csv",
-          "title": "AZ ROC Contractor List",
-          "date": "2025-08-18",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "19 Acres LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14321011A",
-        "14321005E"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "19 Acres LLC is an Arizona limited liability company holding land in the project vicinity. Public filings identify Nicolas Tran as a member/manager of the entity ([bizprofile.net](https://www.bizprofile.net/az/peoria/azul-pressure-washing-llc)). The entity appears to function as a passive landholding vehicle with no visible business operations at the site ([bizprofile.net](https://www.bizprofile.net/az/peoria/105)). No records of development applications or public stances on renewable energy were found for this entity or its principal.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Passive land investor with no identified local political activity or operational footprint.",
-      "approach_recommendations": {
-        "motivations": [
-          "Property value appreciation",
-          "Exit strategy"
-        ],
-        "engage": "Engage with the registered agent/principal regarding land acquisition or partnership; highlight property value enhancement."
-      },
-      "entity_classification": "speculation",
-      "profile_summary": "Speculative landholding entity managed by Nicolas Tran. No active operations found.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Public filings identify Nicolas Tran as a member/manager of the entity",
-          "url": "https://www.bizprofile.net/az/peoria/azul-pressure-washing-llc",
-          "title": "Arizona Corporation Commission Data via BizProfile",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "The entity appears to function as a passive landholding vehicle",
-          "url": "https://www.bizprofile.net/az/peoria/105",
-          "title": "Peoria Business Directory",
-          "date": "2025-01-22",
+          "claim": "Partnered with solar developer EnergyRe to diversify farming",
+          "url": "https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "City of Peoria",
+      "name": "Mann Family Investments LLC",
       "entity_category": "Organization",
-      "entity_type": "municipality",
+      "entity_type": "llc",
       "pins": [
-        "14220120",
-        "14220106"
+        "671332500004001002",
+        "671329400012001010",
+        "671329300011002010",
+        "671333600007000002"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "The City of Peoria owns municipal land in the vicinity. The City has demonstrated a supportive stance toward renewable energy, having unanimously approved a partnership with Ameresco to install solar covered parking canopies at multiple city facilities ([peoriaaz.gov](https://www.peoriaaz.gov/Home/Components/News/News/548/)). The City operates under the 'Sustainable Peoria Plan,' which outlines goals for energy efficiency and resource conservation ([westbrookvillage.org](https://westbrookvillage.org/wp-content/uploads/2023/01/Sustainable-Peoria-Plan-20.pdf)). As a regulator, the City evaluates projects based on zoning and community benefit, but its own operational history indicates a willingness to integrate solar technology ([ameresco.com](https://www.ameresco.com/peoria-embarks-energy-efficiency-partnership-ameresco/)).",
+      "owns_adjacent_parcel": "No",
+      "claims": "Mann Family Investments LLC is a Mann family business entity used to manage land assets ([Giant FM](https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/)). In 2025, land owned by the Mann family (approximately 2,000 acres) was proposed as the site of the utility-scale 4Leaf Solar project by developer energyRe ([Terre Haute Vice](https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/)). Family members Robert and Christopher Mann publicly supported the project as a means to diversify operations and improve soil quality ([Giant FM](https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/)). The rezoning for the project was denied by Putnam County Commissioners in October 2025 following significant community opposition ([Indiana Economic Digest](https://indianaeconomicdigest.net/MobileContent/Most-Recent/Putnam/Article/Putnam-County-Commissioners-vote-to-deny-solar-farm-rezone/31/220/116199)).",
       "confidence": "high",
       "noted_stance": "support",
       "community_influence": "High",
-      "influence_justification": "Regulatory authority and landowner; has established sustainability goals.",
+      "influence_justification": "Controls large land assets; family members spoke publicly in favor of major development; directly involved in local planning decisions.",
       "approach_recommendations": {
-        "motivations": [
-          "Sustainability goals",
-          "Community benefit"
-        ],
-        "engage": "Align project proposals with the Sustainable Peoria Plan; highlight contributions to the city's renewable energy targets."
-      },
-      "entity_classification": "municipal",
-      "profile_summary": "Municipal entity with a documented track record of supporting and investing in solar energy for city operations.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "having unanimously approved a partnership with Ameresco to install solar covered parking canopies",
-          "url": "https://www.peoriaaz.gov/Home/Components/News/News/548/",
-          "title": "Peoria City Council Approves Solar Project",
-          "date": "2017-06-14",
-          "note": null
-        },
-        {
-          "claim": "The City operates under the 'Sustainable Peoria Plan,' which outlines goals for energy efficiency",
-          "url": "https://westbrookvillage.org/wp-content/uploads/2023/01/Sustainable-Peoria-Plan-20.pdf",
-          "title": "Sustainable Peoria Plan",
-          "date": "2023-01-01",
-          "note": null
-        },
-        {
-          "claim": "operational history indicates a willingness to integrate solar technology",
-          "url": "https://www.ameresco.com/peoria-embarks-energy-efficiency-partnership-ameresco/",
-          "title": "Ameresco Press Release",
-          "date": "2017-06-28",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Caretaker West Peoria Parcel LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220118",
-        "14220117",
-        "14220114"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Caretaker West Peoria Parcel LLC is an Arizona limited liability company holding multiple parcels in the area. Public records identify Mary A. Wall as a member/manager of the entity ([bizprofile.net](https://www.bizprofile.net/az/gilbert/o-side-getaway-llc)). The entity appears to function as a real estate holding vehicle. While the name shares a keyword with 'Caretaker Landscape,' a major local firm, the registered principal (Mary A. Wall) differs from the landscape company's owner (Matt White), and no definitive operational link has been confirmed ([caretakerlandscape.com](https://www.caretakerlandscape.com/team/matt-white/)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Significant landholder in the immediate vicinity; influence stems from property rights.",
-      "approach_recommendations": {
-        "motivations": [
-          "Land value",
-          "Development potential"
-        ],
-        "engage": "Contact the registered principal to discuss development plans and potential synergies."
-      },
-      "entity_classification": "speculation",
-      "profile_summary": "Landholding entity managed by Mary A. Wall. Likely speculative investment.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Public records identify Mary A. Wall as a member/manager of the entity",
-          "url": "https://www.bizprofile.net/az/gilbert/o-side-getaway-llc",
-          "title": "Caretaker West Peoria Parcel LLC Profile",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "the landscape company's owner (Matt White)",
-          "url": "https://www.caretakerlandscape.com/team/matt-white/",
-          "title": "Caretaker Landscape Team",
-          "date": "2025-01-22",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Phi Plp 13 Llc",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220158"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Phi PLP 13 LLC is a registered entity in Maricopa County linked to the VanTrust Real Estate development portfolio [Bizprofile](https://www.bizprofile.net/az/scottsdale/helping-hands-rn-services). The entity is associated with the Peoria Logistics Park (Northern & 75th Avenues), a master-planned industrial park where VanTrust Real Estate serves as the developer [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html). In late 2024, the park's developer sold an 80-acre tract to Aligned Data Centers for $43.2 million, marking a significant land disposition to a major industrial user [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/).",
-      "confidence": "high",
-      "noted_stance": "neutral",
-      "community_influence": "Medium",
-      "influence_justification": "As the land-holding entity for a major industrial developer (VanTrust), the entity drives significant local economic activity but functions primarily as a corporate vehicle rather than a community leader.",
-      "approach_recommendations": {
-        "motivations": [
-          "Property value appreciation",
-          "Industrial infrastructure compatibility"
-        ],
-        "engage": "Engage VanTrust Real Estate’s local development representative to emphasize how the new project complements their industrial park plan; coordinate on infrastructure or access improvements that benefit both parties."
+        "motivations": [],
+        "engage": "Engage Robert Mann directly to discuss mutually beneficial development plans; leverage their interest in diversification by offering partnerships or concessions that address past community concerns."
       },
       "entity_classification": "land_investment",
       "profile_summary": null,
@@ -428,49 +1098,50 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Phi PLP 13 LLC is a registered entity in Maricopa County linked to the VanTrust Real Estate development portfolio",
-          "url": "https://www.bizprofile.net/az/scottsdale/helping-hands-rn-services",
-          "title": "Phi Plp 13, LLC Company Profile - Bizprofile",
-          "date": "2023-12-19",
+          "claim": "Mann family entity used to manage land assets",
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-set-to-have-final-say-on-proposed-solar-farm/",
+          "title": "Putnam County Commissioners set to have final say on proposed solar farm",
+          "date": "2025-10-03",
           "note": null
         },
         {
-          "claim": "Associated with the Peoria Logistics Park where VanTrust Real Estate serves as the developer",
-          "url": "https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html",
-          "title": "Aligned Data Centers buys land in Peoria Logistics Park",
-          "date": "2024-10-10",
+          "claim": "Proposed site of 4Leaf Solar project by energyRe",
+          "url": "https://terrehautevice.com/2025/10/07/putnam-says-no-residents-commissioners-reject-2000-acre-solar-proposal/",
+          "title": "Putnam Says No: Residents, Commissioners Reject 2,000-Acre Solar Proposal",
+          "date": "2025-10-07",
           "note": null
         },
         {
-          "claim": "Sold an 80-acre tract to Aligned Data Centers for $43.2 million",
-          "url": "https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/",
-          "title": "Aligned acquires land in Phoenix, Arizona",
-          "date": "2024-11-05",
+          "claim": "Robert and Christopher Mann publicly supported the project",
+          "url": "https://www.giant.fm/parke-county/news/local-news/putnam-county-plan-commission-votes-down-solar-farm-rezone-request/",
+          "title": "Putnam County Plan Commission votes down solar farm rezone request",
+          "date": "2025-09-12",
+          "note": null
+        },
+        {
+          "claim": "Rezoning denied by Commissioners in October 2025",
+          "url": "https://indianaeconomicdigest.net/MobileContent/Most-Recent/Putnam/Article/Putnam-County-Commissioners-vote-to-deny-solar-farm-rezone/31/220/116199",
+          "title": "Putnam County Commissioners vote to deny solar farm rezone",
+          "date": "2024-04-01",
           "note": null
         }
       ]
     },
     {
-      "neighbor_id": "N-02",
-      "name": "Trader Joes Company",
+      "neighbor_id": "N-04",
+      "name": "Crafton Thomas R Trust",
       "entity_category": "Organization",
-      "entity_type": "corporation",
+      "entity_type": "trust",
       "pins": [
-        "14220157"
+        "671328300027000010"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Trader Joe’s Company purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash for the site in 2024 [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/). The facility is part of Trader Joe’s regional supply network and was drawn to the location’s central valley position and build-to-suit opportunity, following the lead of Frito Lay’s nearby facility [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/04/22/trader-joes-peoria-logistics-park.html). The company has demonstrated a corporate commitment to sustainability, including goals to match electricity use with renewable energy and reduce refrigerant emissions [EPA](https://www.epa.gov/enforcement/trader-joes-company-clean-air-act-settlement).",
-      "confidence": "high",
-      "noted_stance": "neutral",
-      "community_influence": "Medium",
-      "influence_justification": "High-profile national brand with local distribution investment; moderate job creator and economic contributor, but limited direct community engagement regarding local development policy.",
-      "approach_recommendations": {
-        "motivations": [
-          "Supply chain efficiency",
-          "Operational continuity"
-        ],
-        "engage": "Coordinate with Trader Joe’s corporate logistics/property management team to ensure the project does not impede trucking access or facility operations; highlight any improvements (e.g., road upgrades) that could benefit their distribution efficiency."
-      },
+      "owns_adjacent_parcel": "No",
+      "claims": "The Crafton Thomas R Trust is associated with the Crafton family; Thomas R. Crafton was a long-time resident of Putnam County (died 2017) ([Ancestry](https://www.ancestry.com/search/collections/60525/?name=Miley+Thomas_Crafton)). The trust holds property in the county, but no public records indicate the trust or its current trustees have taken an active position on local development projects.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Trust associated with an individual landowner; minimal public information available.",
+      "approach_recommendations": null,
       "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
@@ -486,594 +1157,404 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash",
-          "url": "https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/",
-          "title": "New Peoria Logistics Park Fills Up With Tenants",
-          "date": "2024-04-22",
-          "note": null
-        },
-        {
-          "claim": "Drawn to the location’s central valley position and build-to-suit opportunity",
-          "url": "https://www.bizjournals.com/phoenix/news/2024/04/22/trader-joes-peoria-logistics-park.html",
-          "title": "Trader Joe's buys land for distribution center in Peoria",
-          "date": "2024-04-22",
-          "note": null
-        },
-        {
-          "claim": "Corporate commitment to sustainability and renewable energy goals",
-          "url": "https://www.epa.gov/enforcement/trader-joes-company-clean-air-act-settlement",
-          "title": "Trader Joe's Company Clean Air Act Settlement",
-          "date": "2016-06-21",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Aligned Data Centers Peoria Prop Co Llc",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14223012A",
-        "14223006D",
-        "14223012B"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Aligned Data Centers Peoria Prop Co LLC, part of Aligned Data Centers, acquired a substantial land parcel in the Peoria Logistics Park from VanTrust Real Estate for $43.2 million in late 2024 [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). The company plans to develop a data center campus on the site, adding to its existing Phoenix and Glendale presence [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html). Aligned Data Centers has a stated commitment to matching 100% of its annual energy consumption with zero-carbon renewable energy and has previously partnered with local utilities on microgrid projects [Aligned Data Centers](https://aligneddc.com/blog/aligned-data-centers-achieves-2021-milestones-in-growth-sustainability-and-historic-green-financing/).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "High",
-      "influence_justification": "Major technology infrastructure investor with a large landholding; significant capital investment and close ties to municipal infrastructure planning and utility partnerships.",
-      "approach_recommendations": {
-        "motivations": [
-          "Power reliability",
-          "Renewable energy credits",
-          "Infrastructure expansion"
-        ],
-        "engage": "Engage Aligned’s development executives early to align on utility infrastructure and site planning; assure them the project will not compromise (and may even enhance) critical resources like power capacity or fiber connectivity needed for their future data center operations."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Acquired a substantial land parcel in the Peoria Logistics Park for $43.2 million in late 2024",
-          "url": "https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/",
-          "title": "Aligned acquires land in Phoenix, Arizona",
-          "date": "2024-11-05",
-          "note": null
-        },
-        {
-          "claim": "Plans to develop a data center campus on the site, adding to its existing Phoenix and Glendale presence",
-          "url": "https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html",
-          "title": "Aligned Data Centers buys land in Peoria Logistics Park",
-          "date": "2024-10-10",
-          "note": null
-        },
-        {
-          "claim": "Commitment to matching 100% of its annual energy consumption with zero-carbon renewable energy",
-          "url": "https://aligneddc.com/blog/aligned-data-centers-achieves-2021-milestones-in-growth-sustainability-and-historic-green-financing/",
-          "title": "Aligned Data Centers Achieves Milestones in Growth and Sustainability",
-          "date": "2022-02-08",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Westech Lumber Llc",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14321010D",
-        "14321010A"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Westech Lumber LLC is a lumber and hardware retailer located at 8525 N 75th Ave in Peoria, serving professional contractors and DIY customers [MapQuest](https://www.mapquest.com/us/arizona/westech-lumber-459493132). The business is owned by Younger Brothers Companies, a major Arizona construction services firm [Younger Brothers](https://www.youngerbrothers.com/companies/westech). Younger Brothers Companies has publicized a 'Clean Energy Plan' and promotes itself as 'Green Friendly,' utilizing sustainable forest products and solar energy at its facilities [YouTube](https://www.youtube.com/watch?v=7P-m7cAyGjg).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "Low",
-      "influence_justification": "Small independent business unit of a larger regional company; well-regarded locally for trade supply but limited political clout compared to major developers.",
-      "approach_recommendations": {
-        "motivations": [
-          "Business continuity",
-          "Construction growth"
-        ],
-        "engage": "Meet with the manager of Westech Lumber to address any concerns (e.g., road closures) and highlight that the development could drive more building projects; reference the parent company's sustainability goals to build rapport."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Lumber and hardware retailer located at 8525 N 75th Ave in Peoria",
-          "url": "https://www.mapquest.com/us/arizona/westech-lumber-459493132",
-          "title": "Westech Lumber LLC - MapQuest",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "Owned by Younger Brothers Companies",
-          "url": "https://www.youngerbrothers.com/companies/westech",
-          "title": "Westech | Younger Brothers Companies",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "Younger Brothers Companies has publicized a 'Clean Energy Plan' and promotes itself as 'Green Friendly'",
-          "url": "https://www.youtube.com/watch?v=7P-m7cAyGjg",
-          "title": "Younger Brothers Companies are GREEN Friendly!",
-          "date": "2010-10-25",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220156"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC are entities associated with the Peoria Logistics Park development at Northern & 75th Avenues ([Bizprofile](https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2)) ([Bizprofile](https://www.bizprofile.net/ca/manhattan-beach/zevo-partners-llc)). The site is part of a 150-acre industrial infill project developed by VanTrust Real Estate, which broke ground in 2022 ([Peoria AZ](https://www.peoriaaz.gov/Home/Components/News/News/4449/)). The land was historically used for agriculture (Rovey family dairy) before being rezoned and sold for the Legacy Point master plan ([Peoria AZ](https://www.peoriaaz.gov/Home/Components/News/News/4449/)). While VanTrust is the master developer, these specific LLCs appear in business directories linked to the logistics park context, though their specific management structure is not detailed in available public records ([Bizprofile](https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2)). The entities appear to function as special purpose vehicles for land holding or investment within the broader industrial park project.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Associated with a major industrial development project (Peoria Logistics Park); influence stems from significant real estate investment rather than direct community leadership.",
-      "approach_recommendations": {
-        "motivations": [
-          "Investment return",
-          "Industrial development"
-        ],
-        "engage": "Engage through the master developer (VanTrust Real Estate) or project leads for Peoria Logistics Park. The entities likely represent investment interests aligned with the industrial build-out."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": "Investment entities linked to the 150-acre Peoria Logistics Park development.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC are entities associated with the Peoria Logistics Park development",
-          "url": "https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2",
-          "title": "Ci351 Peoria Logistics LLC Company Profile",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Douglas Peoria Logistics LLC listed in business directory",
-          "url": "https://www.bizprofile.net/ca/manhattan-beach/zevo-partners-llc",
-          "title": "Douglas Peoria Logistics LLC Company Profile",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Peoria Logistics Park is a 150-acre industrial infill project developed by VanTrust Real Estate",
-          "url": "https://www.peoriaaz.gov/Home/Components/News/News/4449/",
-          "title": "Construction Starts on Massive Industrial Park in Peoria",
-          "date": "2022-04-13",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "F&J Ruiz Holdings LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220116",
-        "14220107",
-        "14220115",
-        "14220108"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "F&J Ruiz Holdings LLC is an Arizona limited liability company associated with land ownership in the Northern Ave/75th Ave vicinity. The entity was among the landowners in the area assembled for the Legacy Point/Peoria Logistics Park project ([Commercial Search](https://www.commercialsearch.com/news/vantrust-breaks-ground-on-phoenix-area-logistics-project/)). VanTrust Real Estate acquired approximately 108 acres in this area in late 2023 for the industrial park development, a transaction involving a significant multi-million dollar sum ([VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/)). The LLC appears to function as a real estate holding vehicle, with no other active business operations publicly listed beyond this land investment activity.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private investment entity with no documented public community leadership role; influence limited to historical land ownership.",
-      "approach_recommendations": {
-        "motivations": [
-          "Financial ROI"
-        ],
-        "engage": "If the entity retains any remnant parcels, approach with financial offers aligned with the area's industrial transition. The primary motivation appears to be investment return."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": "Land holding entity that sold property for the Peoria Logistics Park development.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "VanTrust Real Estate acquired approximately 108 acres in this area in late 2023",
-          "url": "https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/",
-          "title": "New Peoria Logistics Park Fills Up With Tenants",
-          "date": "2024-04-22",
-          "note": null
-        },
-        {
-          "claim": "Peoria Logistics Park development at Northern and 75th Avenues",
-          "url": "https://www.commercialsearch.com/news/vantrust-breaks-ground-on-phoenix-area-logistics-project/",
-          "title": "VanTrust Breaks Ground on Phoenix-Area Logistics Project",
-          "date": "2022-04-15",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Sharro LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220121",
-        "14220122"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Sharro LLC is an Arizona limited liability company that owns industrial property in Peoria, specifically the parcels at 7773 W Seldon Ln and 7634 W Carol Ave ([Xome](https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990)) ([Xome](https://www.xome.com/realestate/7634-w-carol-ave-peoria-az-85345-4540894)). The property at 7773 W Seldon Ln is a light industrial site (machine shop/office) acquired by Sharro LLC in 2020 ([Xome](https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990)). Public records indicate the site is associated with Cascade Drilling, an environmental and geotechnical drilling service provider, suggesting Sharro LLC may act as the property holding company or landlord ([Kompass](https://us.kompass.com/c/cascade-drilling-l-p/usm07768300/)). The entity was incorporated in 2015 with a principal address in Phoenix ([Bizprofile](https://www.bizprofile.net/az/phoenix/sharro-llc)). There are no public records of Sharro LLC engaging in local political or planning discussions, implying a neutral stance focused on industrial property operations.",
-      "confidence": "high",
-      "noted_stance": "neutral",
-      "community_influence": "Low",
-      "influence_justification": "Industrial property owner with no significant public profile or documented community leadership.",
-      "approach_recommendations": {
-        "motivations": [
-          "Property value",
-          "Business operations"
-        ],
-        "engage": "Approach as a standard industrial neighbor. Address potential impacts on access or operations at the Seldon Ln facility. The owner appears to be a real estate holding entity for industrial operations."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": "Industrial property owner (holding company) for sites on W Seldon Ln and W Carol Ave.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Sharro LLC owns the parcel at 7773 W Seldon Ln",
-          "url": "https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990",
-          "title": "7773 W Seldon Ln Property Details",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Sharro LLC owns the parcel at 7634 W Carol Ave",
-          "url": "https://www.xome.com/realestate/7634-w-carol-ave-peoria-az-85345-4540894",
-          "title": "7634 W Carol Ave Property Details",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Site associated with Cascade Drilling",
-          "url": "https://us.kompass.com/c/cascade-drilling-l-p/usm07768300/",
-          "title": "Cascade Drilling L.P. Company Profile",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Sharro LLC incorporated in 2015",
-          "url": "https://www.bizprofile.net/az/phoenix/sharro-llc",
-          "title": "Sharro LLC Company Profile",
-          "date": "2025-01-22",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Transwestern Pipeline Company LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220109"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Transwestern Pipeline Company, LLC owns and operates a major interstate natural gas pipeline system that transports gas from Texas and the Four Corners area to California ([Energy Transfer](https://twtransfer.energytransfer.com/)). The company is a subsidiary of Energy Transfer Partners ([Energy Transfer](https://twtransfer.energytransfer.com/)). Transwestern maintains the \"Phoenix Lateral\" pipeline segment which runs through Maricopa County, delivering natural gas to the Phoenix area ([Pipeline Safety Info](https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf)). As a regulated utility infrastructure owner, Transwestern’s primary concern is protecting its pipeline easement and ensuring development adheres to safety setbacks; the company typically does not engage in local development debates beyond enforcing safety requirements ([Pipeline Safety Info](https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf)).",
-      "confidence": "high",
-      "noted_stance": "neutral",
-      "community_influence": "Medium",
-      "influence_justification": "Controls critical energy infrastructure and has federal/state regulatory backing for easement enforcement, though lacks direct local political participation.",
-      "approach_recommendations": {
-        "motivations": [
-          "Infrastructure safety",
-          "Easement protection"
-        ],
-        "engage": "Coordinate early with Transwestern’s right-of-way department regarding any crossings or setbacks. Strict adherence to safety regulations will likely secure their non-objection."
-      },
-      "entity_classification": "energy_developer",
-      "profile_summary": "Major interstate pipeline operator with critical infrastructure easements in the area.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Transwestern Pipeline Company owns and operates a major interstate natural gas pipeline system",
-          "url": "https://twtransfer.energytransfer.com/",
-          "title": "Transwestern Pipeline Company Informational Postings",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Maintains the Phoenix Lateral pipeline segment in Maricopa County",
-          "url": "https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf",
-          "title": "Transwestern Pipeline Company Safety Brochure",
-          "date": "2025-01-22",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "DCMS Properties LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14220110"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "DCMS Properties LLC is an Arizona limited liability company recorded as the owner of Maricopa County parcel 142-20-110 (8710 N 77th Dr) ([Elementix](https://elementix.ai/investors/az/jesse-dehorty)). Public records identify Jesse Dehorty as a principal associated with the entity ([Elementix](https://elementix.ai/investors/az/jesse-dehorty)). Jesse Dehorty is the owner of Dehorty Contracting & Management Services LLC, a licensed general contractor in Arizona with a business address at the adjacent property, 8715 N 78th Ave ([The Blue Book](https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/)). The LLC appears to serve as a landholding vehicle for business or investment assets related to Dehorty's construction operations ([The Blue Book](https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Principal Jesse Dehorty owns Dehorty Contracting, an established local construction business.",
-      "approach_recommendations": {
-        "motivations": [
-          "Business Investment",
-          "Property Value"
-        ],
-        "engage": "Engage Jesse Dehorty directly via his contracting business. As a construction professional, he may be receptive to discussions about land value and development potential."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "DCMS Properties LLC is an Arizona limited liability company recorded as the owner of Maricopa County parcel 142-20-110 (8710 N 77th Dr)",
-          "url": "https://elementix.ai/investors/az/jesse-dehorty",
-          "title": "Jesse Dehorty - DCMS Properties LLC",
-          "date": "2026-01-22",
-          "note": null
-        },
-        {
-          "claim": "Public records identify Jesse Dehorty as a principal associated with the entity",
-          "url": "https://elementix.ai/investors/az/jesse-dehorty",
-          "title": "Jesse Dehorty - DCMS Properties LLC",
-          "date": "2026-01-22",
-          "note": null
-        },
-        {
-          "claim": "Jesse Dehorty is the owner of Dehorty Contracting & Management Services LLC, a licensed general contractor in Arizona with a business address at the adjacent property, 8715 N 78th Ave",
-          "url": "https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/",
-          "title": "Dehorty Contracting & Mgmt Services - The Blue Book",
-          "date": "2026-01-22",
-          "note": null
-        },
-        {
-          "claim": "The LLC appears to serve as a landholding vehicle for business or investment assets related to Dehorty's construction operations",
-          "url": "https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/",
-          "title": "Dehorty Contracting & Mgmt Services - The Blue Book",
-          "date": "2026-01-22",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Num 1 Job LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "14321009A"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Num 1 Job LLC is listed in Maricopa County records as the owner of a property at 9819 W Butler Dr (Parcel 143-21-009A) ([Homes.com](https://www.homes.com/property/9819-w-butler-dr-peoria-az/gxt8ghd2wc3km/)). Contrary to the draft, the LLC's formation documents list a member address at 12320 N 71st Dr, Peoria, AZ ([AZCC](https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121)). This address is a residential property, suggesting the LLC serves as a private landholding vehicle ([AZCC](https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121)). No other active business operations or public stances on development were found for this entity ([AZCC](https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=02865348)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private LLC with a residential member address; no evidence of broader community influence.",
-      "approach_recommendations": {
-        "motivations": [
-          "Financial Return"
-        ],
-        "engage": "Reach out via the member address at 12320 N 71st Dr, Peoria, AZ. Frame outreach around the financial upside of the land asset."
-      },
-      "entity_classification": "speculation",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Num 1 Job LLC is listed in Maricopa County records as the owner of a property at 9819 W Butler Dr (Parcel 143-21-009A)",
-          "url": "https://www.homes.com/property/9819-w-butler-dr-peoria-az/gxt8ghd2wc3km/",
-          "title": "9819 W Butler Dr, Peoria, AZ - Property Details",
-          "date": "2026-01-22",
-          "note": null
-        },
-        {
-          "claim": "Contrary to the draft, the LLC's formation documents list a member address at 12320 N 71st Dr, Peoria, AZ",
-          "url": "https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121",
-          "title": "Num 1 Job LLC - AZCC Filing Document",
-          "date": "2026-01-22",
-          "note": null
-        },
-        {
-          "claim": "This address is a residential property, suggesting the LLC serves as a private landholding vehicle",
-          "url": "https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121",
-          "title": "Num 1 Job LLC - AZCC Filing Document",
-          "date": "2026-01-22",
-          "note": null
-        },
-        {
-          "claim": "No other active business operations or public stances on development were found for this entity",
-          "url": "https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=02865348",
-          "title": "Num 1 Job LLC - AZCC Entity Details",
-          "date": "2026-01-22",
+          "claim": "Thomas R. Crafton was a long-time resident of Putnam County (died 2017)",
+          "url": "https://www.ancestry.com/search/collections/60525/?name=Miley+Thomas_Crafton",
+          "title": "Ancestry Record - Thomas R. Crafton",
+          "date": "2017-11-03",
           "note": null
         }
       ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 33.56027,-112.22223",
-  "overview_summary": null,
+  "location_context": "Neighbors within 0.5 mi of 39.5295115,-86.7638922",
+  "overview_summary": "Of the 22 neighbors profiled near the project site, 17 are individual residents and 5 are organizations, with the majority (18) currently maintaining an unknown stance. While most neighbors have low influence, four high-influence figures were identified, including one individual (Skirvin) who actively opposes the project and three medium-influence professionals. Two neighbors support the development, notably the Mann family, who manage 2,000 acres of farmland and have previously explored hosting solar infrastructure. The remaining community consists primarily of multi-generational farming entities and local professionals whose positions may be influenced by agricultural preservation and economic incentives.",
   "success": true,
-  "runtime_minutes": 8.24,
-  "citations_flat": [],
+  "runtime_minutes": 38.03,
+  "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260122_165603_1922.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165513_3990.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165431_9343.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_170942_7985.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165749_4125.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260123_085347_1542.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260123_090145_1467.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260123_090243_0180.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260123_085721_6083.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260123_090416_3374.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260123_085933_3716.json"
   ],
   "city": null,
-  "county": "Maricopa County",
-  "state": "AZ",
-  "run_id": "e2ad2470-f498-40da-83a4-484236cb2149",
-  "target_pin": "14220158",
+  "county": "Putnam County",
+  "state": "IN",
+  "run_id": "ca3eb324-ba18-4290-af36-c58e3956894a",
+  "target_pin": "671329400020000010",
   "target_parcel_info": {
-    "pin": "14220158",
+    "pin": "671329400020000010",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -112.220597,
-            33.559651
+            -86.763233,
+            39.5291965
           ],
           [
-            -112.2205935,
-            33.5609155
+            -86.7626365,
+            39.52919
           ],
           [
-            -112.2206265,
-            33.5609155
+            -86.7626335,
+            39.5322975
           ],
           [
-            -112.2247085,
-            33.5609345
+            -86.7660665,
+            39.5323145
           ],
           [
-            -112.2247085,
-            33.560893
+            -86.766404,
+            39.5316765
           ],
           [
-            -112.224708,
-            33.560432
+            -86.7659785,
+            39.531472
           ],
           [
-            -112.224708,
-            33.56035
+            -86.765917,
+            39.5309275
           ],
           [
-            -112.224708,
-            33.5603405
+            -86.765539,
+            39.5304975
           ],
           [
-            -112.224708,
-            33.5602675
+            -86.7649255,
+            39.530438
           ],
           [
-            -112.2247065,
-            33.5596115
+            -86.764246,
+            39.5299025
           ],
           [
-            -112.224778,
-            33.559553
+            -86.7638295,
+            39.529201
           ],
           [
-            -112.224737,
-            33.559554
-          ],
-          [
-            -112.224707,
-            33.5595545
-          ],
-          [
-            -112.2207445,
-            33.5596475
-          ],
-          [
-            -112.220597,
-            33.559651
+            -86.763233,
+            39.5291965
           ]
         ]
       ]
     },
-    "lat": "33.560263",
-    "lon": "-112.222682",
-    "county_path": "/us/az/maricopa/phoenix"
+    "lat": "39.531035",
+    "lon": "-86.764123",
+    "county_path": "/us/in/putnam/jefferson"
+  },
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/ca3eb324-ba18-4290-af36-c58e3956894a_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/ca3eb324-ba18-4290-af36-c58e3956894a_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Nathan D. & Katrina M. Skirvin</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-oppose\">Oppose</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">State Of Indiana</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">Fred Mann Farm Inc</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">4</td>\n                <td class=\"name\">Mann Family Investments LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Johnnie L. Chestnut</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Tyler K. Lotz & Jessica P. Winders</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Buis Farms Eight LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_labels": [
+    {
+      "text": "CHESTNUT",
+      "full_name": "Johnnie L. Chestnut",
+      "lon": -86.7660149956966,
+      "lat": 39.53048317943763,
+      "marker_char": "5",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "671329400019000010"
+    },
+    {
+      "text": "WINDERS",
+      "full_name": "Tyler K. Lotz & Jessica P. Winders",
+      "lon": -86.76430823634638,
+      "lat": 39.52826788204554,
+      "marker_char": "6",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "671332100003000002"
+    },
+    {
+      "text": "BUIS",
+      "full_name": "Buis Farms Eight LLC",
+      "lon": -86.75833496942705,
+      "lat": 39.53342644600464,
+      "marker_char": "7",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "671328900012000010"
+    },
+    {
+      "text": "SKIRVIN",
+      "full_name": "Nathan D. & Katrina M. Skirvin",
+      "lon": -86.77141724832862,
+      "lat": 39.52966351595787,
+      "marker_char": "1",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "oppose",
+      "pin": "671329400022001010"
+    },
+    {
+      "text": "STATE",
+      "full_name": "State Of Indiana",
+      "lon": -86.76719508376425,
+      "lat": 39.53613627754375,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "neutral",
+      "pin": "671329400015000010"
+    },
+    {
+      "text": "STATE",
+      "full_name": "State Of Indiana",
+      "lon": -86.7674179878931,
+      "lat": 39.536157644465604,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "neutral",
+      "pin": "671329400013000010"
+    },
+    {
+      "text": "FRED",
+      "full_name": "Fred Mann Farm Inc",
+      "lon": -86.75478754102298,
+      "lat": 39.523935974526076,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "671333900001000002"
+    },
+    {
+      "text": "FRED",
+      "full_name": "Fred Mann Farm Inc",
+      "lon": -86.7662267005151,
+      "lat": 39.51922118217893,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "671332800022000002"
+    },
+    {
+      "text": "MANN",
+      "full_name": "Mann Family Investments LLC",
+      "lon": -86.76771487387803,
+      "lat": 39.52621067078316,
+      "marker_char": "4",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "671332500004001002"
+    },
+    {
+      "text": "MANN",
+      "full_name": "Mann Family Investments LLC",
+      "lon": -86.76990518677717,
+      "lat": 39.53425812015829,
+      "marker_char": "4",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "671329400012001010"
+    },
+    {
+      "text": "MANN",
+      "full_name": "Mann Family Investments LLC",
+      "lon": -86.77605795880467,
+      "lat": 39.53309306473604,
+      "marker_char": "4",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "671329300011002010"
+    },
+    {
+      "text": "MANN",
+      "full_name": "Mann Family Investments LLC",
+      "lon": -86.7611454614582,
+      "lat": 39.520796091596274,
+      "marker_char": "4",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "671333600007000002"
+    },
+    {
+      "text": "TARGET",
+      "full_name": "PIN: 671329400020000010",
+      "lon": -86.76412270413417,
+      "lat": 39.531035150609235,
+      "marker_char": "t",
+      "color": "FFD700",
+      "is_target": true,
+      "is_adjacent": false,
+      "influence": null,
+      "stance": null,
+      "pin": "671329400020000010"
+    }
+  ],
+  "map_metadata": {
+    "run_id": "ca3eb324-ba18-4290-af36-c58e3956894a",
+    "generated_at": "2026-01-23T09:19:36.504097",
+    "stats": {
+      "total_neighbors": 22,
+      "highlighted": 21,
+      "skipped_no_geometry": 3,
+      "skipped_not_highlighted": 1,
+      "by_influence": {
+        "High": 4,
+        "Medium": 3,
+        "Low": 14
+      },
+      "by_stance": {
+        "support": 2,
+        "oppose": 1,
+        "neutral": 1
+      },
+      "adjacent_highlighted": 2,
+      "target_included": true
+    },
+    "strategy_used": "polyline",
+    "url_length": 3081,
+    "parcels_rendered": 26,
+    "labels_count": 13,
+    "settings": {
+      "width": 800,
+      "height": 450,
+      "style": "satellite-streets-v12",
+      "retina": true,
+      "padding": 50
+    }
   }
 }
