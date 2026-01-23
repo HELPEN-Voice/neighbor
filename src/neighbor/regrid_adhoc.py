@@ -183,15 +183,15 @@ def get_target_parcel(
 
         response.raise_for_status()
         data = response.json()
-        features = data.get("parcels", {}).get("features", [])
+        features = (data.get("parcels") or {}).get("features") or []
 
         if not features:
             print("❌ Target parcel could not be found with the provided input.")
             return None
 
         target = features[0]
-        fields = target.get("properties", {}).get("fields", {})
-        context = target.get("properties", {}).get("context", {})
+        fields = (target.get("properties") or {}).get("fields") or {}
+        context = (target.get("properties") or {}).get("context") or {}
 
         target_info = {
             "pin": fields.get("parcelnumb"),
@@ -244,11 +244,11 @@ def get_adjacent_parcels(
         response.raise_for_status()
         data = response.json()
 
-        features = data.get("parcels", {}).get("features", [])
+        features = (data.get("parcels") or {}).get("features") or []
         adjacent_pins = set()
 
         for parcel in features:
-            pin = parcel.get("properties", {}).get("fields", {}).get("parcelnumb")
+            pin = ((parcel.get("properties") or {}).get("fields") or {}).get("parcelnumb")
             if pin and pin != target_pin:
                 adjacent_pins.add(pin)
 
@@ -313,7 +313,7 @@ def get_closest_landowners(
             response = requests.get(base_url, params=params)
             response.raise_for_status()
             data = response.json()
-            parcels = data.get("parcels", {}).get("features", [])
+            parcels = (data.get("parcels") or {}).get("features") or []
 
             if not parcels:
                 print(f"      No parcels found, expanding radius...")
@@ -330,7 +330,7 @@ def get_closest_landowners(
             for parcel in parcels:
                 if len(all_parcels) >= max_parcels:
                     break
-                pin = parcel.get("properties", {}).get("fields", {}).get("parcelnumb")
+                pin = ((parcel.get("properties") or {}).get("fields") or {}).get("parcelnumb")
                 if pin and pin not in all_parcels:
                     all_parcels[pin] = parcel
                     new_count += 1

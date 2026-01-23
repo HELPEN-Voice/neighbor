@@ -156,7 +156,7 @@ class LocalValuationService:
         valid_values = []
 
         for parcel in parcels:
-            fields = parcel.get("properties", {}).get("fields", {})
+            fields = (parcel.get("properties") or {}).get("fields") or {}
 
             # Get improvement value and acreage
             improvval = self._safe_float(fields.get("improvval"))
@@ -209,7 +209,7 @@ class LocalValuationService:
         valid_values = []
 
         for parcel in parcels:
-            fields = parcel.get("properties", {}).get("fields", {})
+            fields = (parcel.get("properties") or {}).get("fields") or {}
 
             # Get land value and acreage
             landval = self._safe_float(fields.get("landval"))
@@ -296,7 +296,7 @@ class LocalValuationService:
         land_count = 0
 
         for parcel in parcels:
-            fields = parcel.get("properties", {}).get("fields", {})
+            fields = (parcel.get("properties") or {}).get("fields") or {}
             parvaltype = fields.get("parvaltype", "")
 
             # Sum improvement values (property/structure value)

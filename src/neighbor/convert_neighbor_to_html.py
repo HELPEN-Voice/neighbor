@@ -259,7 +259,7 @@ def generate_neighbor_reports(data: dict):
         "county": data.get("county"),
         "state": data.get("state"),
         "coordinates": data.get("coordinates", "Not provided"),
-        "parcels_shown": data.get("map_metadata", {}).get("parcels_rendered", 0) if data.get("map_metadata") else 0,
+        "parcels_shown": (data.get("map_metadata") or {}).get("parcels_rendered", 0),
         "map_labels": filtered_labels,
     }
     html = env.get_template("neighbor-map-playwright.html").render(**map_ctx)

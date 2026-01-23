@@ -60,14 +60,14 @@ class NeighborFinder:
                     print("Invalid search mode.")
                     return None
 
-                features = data.get("parcels", {}).get("features", [])
+                features = (data.get("parcels") or {}).get("features") or []
                 if not features:
                     print("Target parcel could not be found with the provided input.")
                     return None
 
                 target = features[0]
-                fields = target.get("properties", {}).get("fields", {})
-                context = target.get("properties", {}).get("context", {})
+                fields = (target.get("properties") or {}).get("fields") or {}
+                context = (target.get("properties") or {}).get("context") or {}
 
                 target_info = {
                     "pin": normalize_pin(fields.get("parcelnumb")),
@@ -127,14 +127,14 @@ class NeighborFinder:
                         return set()
 
                     data = await response.json()
-                    features = data.get("parcels", {}).get("features", [])
+                    features = (data.get("parcels") or {}).get("features") or []
 
                     adjacent_pins = set()
                     norm_target = normalize_pin(target_pin)
                     for parcel in features:
                         pin = normalize_pin(
-                            parcel.get("properties", {})
-                            .get("fields", {})
+                            ((parcel.get("properties") or {})
+                            .get("fields") or {})
                             .get("parcelnumb")
                         )
                         if pin and pin != norm_target:
@@ -204,7 +204,7 @@ class NeighborFinder:
                     async with session.get(url, params=params) as response:
                         if response.status == 200:
                             data = await response.json()
-                            parcels = data.get("parcels", {}).get("features", [])
+                            parcels = (data.get("parcels") or {}).get("features") or []
 
                             if not parcels:
                                 print(f"    No parcels found at this radius")
