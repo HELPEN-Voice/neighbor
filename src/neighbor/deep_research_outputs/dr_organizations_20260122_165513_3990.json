@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-01-22T16:55:13.399047",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All the neighboring landowners are organizations involved in industrial or commercial use, rather than individual residents. A VanTrust Real Estate affiliate owns land in the Peoria Logistics Park as a land investment, aiming to attract or develop industrial projects for profit. Major corporate neighbors like Trader Joe’s (a grocery chain with a new distribution center) and Aligned Data Centers (planning a data center campus) are generally pro-development, focusing on expanding their operations and requiring robust infrastructure. A small local business (Westech Lumber) stands to benefit from increased construction activity. None of these entities are known to oppose development; instead, their interests align with economic growth and protecting their operational needs, suggesting low risk of active opposition but a need to keep them informed to avoid any logistical conflicts.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Phi Plp 13 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220158"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Phi PLP 13 LLC is an entity linked to VanTrust Real Estate’s 150-acre Peoria Logistics Park (Northern & 75th Avenues), a master-planned industrial park developed as part of the Van Tuyl family’s real estate portfolio [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). In October 2024, the park’s developer sold a large tract to Aligned Data Centers for $43.2 million, indicating a profitable land disposition to a major industrial user [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Developed 150-acre industrial park attracting national firms; significant economic impact but not a longstanding local institution",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage VanTrust Real Estate’s local development representative (the park’s master developer) to emphasize how the new project complements their industrial park plan; coordinate on infrastructure or access improvements that benefit both parties"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Trader Joes Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14220157"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trader Joe’s Company (California-based grocery chain) purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash for the site in 2024 [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/). The distribution facility is part of Trader Joe’s regional supply network and was drawn to the location’s central valley position and build-to-suit opportunity, following the lead of Frito Lay’s nearby facility [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "High-profile national brand with local distribution investment; moderate job creator and economic contributor, but limited direct community engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Trader Joe’s corporate logistics/property management team to ensure the project does not impede trucking access or facility operations; highlight any improvements (e.g., road upgrades) that could benefit their distribution efficiency"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aligned Data Centers Peoria Prop Co Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14223012A",
+        "14223006D",
+        "14223012B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Aligned Data Centers Peoria Prop Co LLC, part of Plano, TX-based Aligned Data Centers, acquired a substantial land parcel in the Peoria Logistics Park from VanTrust Real Estate for $43.2 million in late 2024 [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). The company indicated plans to develop a large data center campus on the site but had not publicly announced specific development details as of the purchase date [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). Aligned Data Centers already operates at least two other data center campuses in the Phoenix metropolitan area (Phoenix and Glendale), underscoring its growing regional presence and commitment to expansion in Arizona [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Major technology infrastructure investor with a large landholding; significant capital investment and close ties to municipal infrastructure planning",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Aligned’s development executives early to align on utility infrastructure and site planning; assure them the project will not compromise (and may even enhance) critical resources like power capacity or fiber connectivity needed for their future data center operations"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Westech Lumber Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321010D",
+        "14321010A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Westech Lumber LLC is a locally owned lumber and hardware retailer at 8525 N 75th Ave in Peoria, known for supplying a wide range of building materials to area contractors and DIY customers [MapQuest](https://www.mapquest.com/us/arizona/westech-lumber-459493132). The store opens early on weekdays (5:00 AM to 5:00 PM, Monday–Friday), reflecting its focus on serving construction professionals and builders during standard jobsite hours [Do It Best](https://www.doitbest.com/find-a-store/arizona/5391-westech-lumber-llc/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small independent business with a niche customer base; well-regarded locally but minimal political or economic clout beyond supplying materials",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet with the owner or manager of Westech Lumber to address any concerns (e.g., road closures or access issues during construction) and highlight that the development could drive more building projects (and thus more business for them); ensure open communication lines for any support they might need"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All the neighboring landowners are organizations involved in industrial or commercial use, rather than individual residents. A VanTrust Real Estate affiliate owns land in the Peoria Logistics Park as a land investment, aiming to attract or develop industrial projects for profit. Major corporate neighbors like Trader Joe’s (a grocery chain with a new distribution center) and Aligned Data Centers (planning a data center campus) are generally pro-development, focusing on expanding their operations and requiring robust infrastructure. A small local business (Westech Lumber) stands to benefit from increased construction activity. None of these entities are known to oppose development; instead, their interests align with economic growth and protecting their operational needs, suggesting low risk of active opposition but a need to keep them informed to avoid any logistical conflicts.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Phi Plp 13 Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220158\"],\n      \"claims\": \"Phi PLP 13 LLC is an entity linked to VanTrust Real Estate’s 150-acre Peoria Logistics Park (Northern & 75th Avenues), a master-planned industrial park developed as part of the Van Tuyl family’s real estate portfolio [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). In October 2024, the park’s developer sold a large tract to Aligned Data Centers for $43.2 million, indicating a profitable land disposition to a major industrial user [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Developed 150-acre industrial park attracting national firms; significant economic impact but not a longstanding local institution\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value maximization\", \"Attracting industrial buyers/tenants\", \"Infrastructure enhancements to boost property value\"],\n      \"approach_recommendations\": \"Engage VanTrust Real Estate’s local development representative (the park’s master developer) to emphasize how the new project complements their industrial park plan; coordinate on infrastructure or access improvements that benefit both parties\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Trader Joes Company\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"14220157\"],\n      \"claims\": \"Trader Joe’s Company (California-based grocery chain) purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash for the site in 2024 [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/). The distribution facility is part of Trader Joe’s regional supply network and was drawn to the location’s central valley position and build-to-suit opportunity, following the lead of Frito Lay’s nearby facility [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"High-profile national brand with local distribution investment; moderate job creator and economic contributor, but limited direct community engagement\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Efficient regional logistics operations\", \"Protecting distribution routes and timing\", \"Maintaining positive community/municipal relationships\"],\n      \"approach_recommendations\": \"Coordinate with Trader Joe’s corporate logistics/property management team to ensure the project does not impede trucking access or facility operations; highlight any improvements (e.g., road upgrades) that could benefit their distribution efficiency\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Aligned Data Centers Peoria Prop Co Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14223012A\", \"14223006D\", \"14223012B\"],\n      \"claims\": \"Aligned Data Centers Peoria Prop Co LLC, part of Plano, TX-based Aligned Data Centers, acquired a substantial land parcel in the Peoria Logistics Park from VanTrust Real Estate for $43.2 million in late 2024 [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). The company indicated plans to develop a large data center campus on the site but had not publicly announced specific development details as of the purchase date [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). Aligned Data Centers already operates at least two other data center campuses in the Phoenix metropolitan area (Phoenix and Glendale), underscoring its growing regional presence and commitment to expansion in Arizona [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Major technology infrastructure investor with a large landholding; significant capital investment and close ties to municipal infrastructure planning\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Expansion of data center portfolio in Phoenix market\", \"Securing robust power and fiber infrastructure\", \"Utilizing Arizona’s data center tax incentives\"],\n      \"approach_recommendations\": \"Engage Aligned’s development executives early to align on utility infrastructure and site planning; assure them the project will not compromise (and may even enhance) critical resources like power capacity or fiber connectivity needed for their future data center operations\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Westech Lumber Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14321010D\", \"14321010A\"],\n      \"claims\": \"Westech Lumber LLC is a locally owned lumber and hardware retailer at 8525 N 75th Ave in Peoria, known for supplying a wide range of building materials to area contractors and DIY customers [MapQuest](https://www.mapquest.com/us/arizona/westech-lumber-459493132). The store opens early on weekdays (5:00 AM to 5:00 PM, Monday–Friday), reflecting its focus on serving construction professionals and builders during standard jobsite hours [Do It Best](https://www.doitbest.com/find-a-store/arizona/5391-westech-lumber-llc/).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small independent business with a niche customer base; well-regarded locally but minimal political or economic clout beyond supplying materials\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Increased construction activity (boost sales)\", \"Maintaining easy site access and visibility\", \"Preserving goodwill with local builders/community\"],\n      \"approach_recommendations\": \"Meet with the owner or manager of Westech Lumber to address any concerns (e.g., road closures or access issues during construction) and highlight that the development could drive more building projects (and thus more business for them); ensure open communication lines for any support they might need\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

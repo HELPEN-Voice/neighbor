@@ -1,0 +1,202 @@
+{
+  "timestamp": "2026-01-22T17:09:42.798550",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring entities are primarily landholding LLCs that have recently monetized their property through the Legacy Point development in Peoria, plus a major pipeline operator. Most appear inclined toward development – local land investors have sold parcels for a 150-acre industrial park, suggesting support for new projects – while Transwestern Pipeline (a utility company) is mainly concerned with protecting its gas pipeline easement rather than opposing land development.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220156"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC jointly hold a key parcel at the Peoria Logistics Park site (Northern & 75th Avenues), part of a 150-acre industrial infill development ([www.peoriasportscomplex.com](https://www.peoriasportscomplex.com/Home/Components/News/News/4449/88?arch=1&npage=6#:~:text=The%20150,be%20developed%20in%20the%20city)). This land was formerly a long-standing dairy farm (the Rovey family) that was sold in 2022 as part of the Legacy Point mixed-use master plan ([azbex.com](https://azbex.com/planning-development/legacy-point-master-plan-adds-to-area-change/#:~:text=The%20land%E2%80%99s%20current%20owners%2C%20the,rd%7D%20avenues)) ([azbex.com](https://azbex.com/planning-development/legacy-point-master-plan-adds-to-area-change/#:~:text=The%20land%20in%20Peoria%20will,to%20be%20annexed%20into%20Glendale)). The ownership and management of these two LLCs are not disclosed in Arizona public filings (indicative of a private investment partnership with out-of-state or institutional backers) ([azbex.com](https://azbex.com/planning-development/legacy-point-master-plan-adds-to-area-change/#:~:text=The%20land%20in%20Peoria%20will,to%20be%20annexed%20into%20Glendale)). Both entities have no other listed business activities, implying their sole purpose was to facilitate the land entitlement and sale for development (supportive of the project).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Enabled major industrial development via land ownership; significant financial stake but no direct local leadership role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through the development partners (VanTrust/Legacy Point); ensure any new proposal aligns with their exit strategy (they’ve largely divested). Focus on transaction terms rather than community appeals, as beneficial owners remain behind the scenes."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "F&J Ruiz Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220116",
+        "14220107",
+        "14220115",
+        "14220108"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "F&J Ruiz Holdings LLC is an Arizona domestic LLC formed on January 28, 2016 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L20644094#:~:text=Formation%20Date%3A)). The company’s listed manager is Reynaldo Ruiz of Tempe, AZ, and a member Lucia Zuniga Magdaleno of Mesa, AZ ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L20644094#:~:text=Manager%20%20,8%2F16%2F2018)), suggesting a family ownership structure. F&J Ruiz Holdings owned multiple parcels in the Northern Ave/75th Ave vicinity and was among the landowners assembling property for the Legacy Point project; VanTrust Real Estate purchased roughly 108 acres (likely including the Ruiz parcels) in late 2023 for nearly $15 million as part of the industrial park development ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=VanTrust%20acquired%20108%20acres%20of,6%20million)). No active business operations are associated with this LLC beyond holding land, indicating it functioned as a speculative real estate investment vehicle for the Ruiz family.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-area family investors with no public community role; influence limited to ownership of land now sold",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "If still holding any land, appeal to their financial interests—e.g. offer above-market purchase or profit-sharing. Direct contact with Reynaldo Ruiz is key; emphasize certainty of closing since they appear motivated by ROI, not long-term land use concerns."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sharro LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220121",
+        "14220122"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharro LLC is an Arizona LLC (established around 2019) that operates a small metal window and door manufacturing business in Phoenix, with approximately two employees ([naicslist.com](https://naicslist.com/company-profile/sharro-llc-phoenix-az-85009#:~:text=Sharro%2C%20LLC%20is%20a%20specialized,team%20of%20approximately%202%20employees)). In addition to its manufacturing trade, Sharro LLC holds two undeveloped parcels near 75th and Northern Avenues that fell within the planned Peoria Logistics Park industrial area ([www.peoriasportscomplex.com](https://www.peoriasportscomplex.com/Home/Components/News/News/4449/88?arch=1&npage=6#:~:text=The%20150,be%20developed%20in%20the%20city)). The firm appears to be privately held by individuals who have kept a low profile; its land ownership seems to be for investment/speculative purposes rather than for any community or agricultural use. There are no public records of Sharro LLC engaging in local political or planning discussions, implying a neutral stance focused mainly on the property’s value.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small business with minimal local notoriety; landowner but no significant political or social capital in community",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the owner(s) with direct economic incentives (purchase or lease offers) for their parcels. Given their low public profile and small-scale operations, address any concerns about how the development might affect their property value or access, and highlight benefits to their bottom line."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Transwestern Pipeline Company LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220109"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Transwestern Pipeline Company, LLC owns and operates a 2,500-mile interstate natural gas pipeline system that transports gas from Texas and the Four Corners area through New Mexico and Arizona to California ([ir.energytransfer.com](https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-partners-lp-completes-first-step-acquisition#:~:text=ownership%20of%20Transwestern%20Pipeline%20Company%2C,Anadarko%20Basin%20in%20the%20Mid)). The company (now part of Energy Transfer Partners) was acquired in 2006 as a strategic pipeline asset ([ir.energytransfer.com](https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-partners-lp-completes-first-step-acquisition#:~:text=acquisition%20of%20the%20Transwestern%20Pipeline,issuance%20of%20additional%20equity%20interests)). Transwestern maintains a \"Phoenix Lateral\" pipeline segment that runs through this vicinity, holding a dedicated corridor/easement on the parcel in question ([pipelines.energytransfer.com](https://pipelines.energytransfer.com/ipost/TW/main/index#:~:text=Phoenix%20Lateral%20Note%3A%20Pursuant%20to,and%20hourly%20capacity%20is%20available)). As a regulated utility infrastructure owner, Transwestern’s primary concern is protecting its pipeline and ensuring any nearby development adheres to safety setbacks and access requirements; it does not otherwise participate in local land development debates (neither advocating for nor against projects beyond pipeline safety issues).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Controls critical energy infrastructure; can enforce safety constraints on development, but lacks direct involvement in local politics or public opinion",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with Transwestern’s right-of-way and engineering officials to address pipeline crossing, setback, and access plans. Demonstrating rigorous safety measures and compliance with federal pipeline regulations will mitigate any objections; the company is unlikely to oppose the project if its infrastructure is protected."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring entities are primarily landholding LLCs that have recently monetized their property through the Legacy Point development in Peoria, plus a major pipeline operator. Most appear inclined toward development – local land investors have sold parcels for a 150-acre industrial park, suggesting support for new projects – while Transwestern Pipeline (a utility company) is mainly concerned with protecting its gas pipeline easement rather than opposing land development.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220156\"],\n      \"claims\": \"Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC jointly hold a key parcel at the Peoria Logistics Park site (Northern & 75th Avenues), part of a 150-acre industrial infill development ([www.peoriasportscomplex.com](https://www.peoriasportscomplex.com/Home/Components/News/News/4449/88?arch=1&npage=6#:~:text=The%20150,be%20developed%20in%20the%20city)). This land was formerly a long-standing dairy farm (the Rovey family) that was sold in 2022 as part of the Legacy Point mixed-use master plan ([azbex.com](https://azbex.com/planning-development/legacy-point-master-plan-adds-to-area-change/#:~:text=The%20land%E2%80%99s%20current%20owners%2C%20the,rd%7D%20avenues)) ([azbex.com](https://azbex.com/planning-development/legacy-point-master-plan-adds-to-area-change/#:~:text=The%20land%20in%20Peoria%20will,to%20be%20annexed%20into%20Glendale)). The ownership and management of these two LLCs are not disclosed in Arizona public filings (indicative of a private investment partnership with out-of-state or institutional backers) ([azbex.com](https://azbex.com/planning-development/legacy-point-master-plan-adds-to-area-change/#:~:text=The%20land%20in%20Peoria%20will,to%20be%20annexed%20into%20Glendale)). Both entities have no other listed business activities, implying their sole purpose was to facilitate the land entitlement and sale for development (supportive of the project).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Enabled major industrial development via land ownership; significant financial stake but no direct local leadership role\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value realization\", \"Joint-venture development profit\"],\n      \"approach_recommendations\": \"Engage through the development partners (VanTrust/Legacy Point); ensure any new proposal aligns with their exit strategy (they’ve largely divested). Focus on transaction terms rather than community appeals, as beneficial owners remain behind the scenes.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"F&J Ruiz Holdings LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220116\", \"14220107\", \"14220115\", \"14220108\"],\n      \"claims\": \"F&J Ruiz Holdings LLC is an Arizona domestic LLC formed on January 28, 2016 ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L20644094#:~:text=Formation%20Date%3A)). The company’s listed manager is Reynaldo Ruiz of Tempe, AZ, and a member Lucia Zuniga Magdaleno of Mesa, AZ ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L20644094#:~:text=Manager%20%20,8%2F16%2F2018)), suggesting a family ownership structure. F&J Ruiz Holdings owned multiple parcels in the Northern Ave/75th Ave vicinity and was among the landowners assembling property for the Legacy Point project; VanTrust Real Estate purchased roughly 108 acres (likely including the Ruiz parcels) in late 2023 for nearly $15 million as part of the industrial park development ([vantrustrealestate.com](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/#:~:text=VanTrust%20acquired%20108%20acres%20of,6%20million)). No active business operations are associated with this LLC beyond holding land, indicating it functioned as a speculative real estate investment vehicle for the Ruiz family.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-area family investors with no public community role; influence limited to ownership of land now sold\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land sale price\", \"Passive investment returns\"],\n      \"approach_recommendations\": \"If still holding any land, appeal to their financial interests—e.g. offer above-market purchase or profit-sharing. Direct contact with Reynaldo Ruiz is key; emphasize certainty of closing since they appear motivated by ROI, not long-term land use concerns.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Sharro LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220121\", \"14220122\"],\n      \"claims\": \"Sharro LLC is an Arizona LLC (established around 2019) that operates a small metal window and door manufacturing business in Phoenix, with approximately two employees ([naicslist.com](https://naicslist.com/company-profile/sharro-llc-phoenix-az-85009#:~:text=Sharro%2C%20LLC%20is%20a%20specialized,team%20of%20approximately%202%20employees)). In addition to its manufacturing trade, Sharro LLC holds two undeveloped parcels near 75th and Northern Avenues that fell within the planned Peoria Logistics Park industrial area ([www.peoriasportscomplex.com](https://www.peoriasportscomplex.com/Home/Components/News/News/4449/88?arch=1&npage=6#:~:text=The%20150,be%20developed%20in%20the%20city)). The firm appears to be privately held by individuals who have kept a low profile; its land ownership seems to be for investment/speculative purposes rather than for any community or agricultural use. There are no public records of Sharro LLC engaging in local political or planning discussions, implying a neutral stance focused mainly on the property’s value.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small business with minimal local notoriety; landowner but no significant political or social capital in community\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Capital from land appreciation\", \"Business expansion funding\"],\n      \"approach_recommendations\": \"Approach the owner(s) with direct economic incentives (purchase or lease offers) for their parcels. Given their low public profile and small-scale operations, address any concerns about how the development might affect their property value or access, and highlight benefits to their bottom line.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Transwestern Pipeline Company LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"14220109\"],\n      \"claims\": \"Transwestern Pipeline Company, LLC owns and operates a 2,500-mile interstate natural gas pipeline system that transports gas from Texas and the Four Corners area through New Mexico and Arizona to California ([ir.energytransfer.com](https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-partners-lp-completes-first-step-acquisition#:~:text=ownership%20of%20Transwestern%20Pipeline%20Company%2C,Anadarko%20Basin%20in%20the%20Mid)). The company (now part of Energy Transfer Partners) was acquired in 2006 as a strategic pipeline asset ([ir.energytransfer.com](https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-partners-lp-completes-first-step-acquisition#:~:text=acquisition%20of%20the%20Transwestern%20Pipeline,issuance%20of%20additional%20equity%20interests)). Transwestern maintains a \\\"Phoenix Lateral\\\" pipeline segment that runs through this vicinity, holding a dedicated corridor/easement on the parcel in question ([pipelines.energytransfer.com](https://pipelines.energytransfer.com/ipost/TW/main/index#:~:text=Phoenix%20Lateral%20Note%3A%20Pursuant%20to,and%20hourly%20capacity%20is%20available)). As a regulated utility infrastructure owner, Transwestern’s primary concern is protecting its pipeline and ensuring any nearby development adheres to safety setbacks and access requirements; it does not otherwise participate in local land development debates (neither advocating for nor against projects beyond pipeline safety issues).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Controls critical energy infrastructure; can enforce safety constraints on development, but lacks direct involvement in local politics or public opinion\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Pipeline integrity and safety\", \"Regulatory compliance\", \"Avoiding relocation costs\"],\n      \"approach_recommendations\": \"Coordinate early with Transwestern’s right-of-way and engineering officials to address pipeline crossing, setback, and access plans. Demonstrating rigorous safety measures and compliance with federal pipeline regulations will mitigate any objections; the company is unlikely to oppose the project if its infrastructure is protected.\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

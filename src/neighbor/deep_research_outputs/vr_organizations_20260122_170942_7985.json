@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-01-22T17:30:56.755426",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_170942_7985.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220156"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC are entities associated with the Peoria Logistics Park development at Northern & 75th Avenues ([Bizprofile](https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2)) ([Bizprofile](https://www.bizprofile.net/ca/manhattan-beach/zevo-partners-llc)). The site is part of a 150-acre industrial infill project developed by VanTrust Real Estate, which broke ground in 2022 ([Peoria AZ](https://www.peoriaaz.gov/Home/Components/News/News/4449/)). The land was historically used for agriculture (Rovey family dairy) before being rezoned and sold for the Legacy Point master plan ([Peoria AZ](https://www.peoriaaz.gov/Home/Components/News/News/4449/)). While VanTrust is the master developer, these specific LLCs appear in business directories linked to the logistics park context, though their specific management structure is not detailed in available public records ([Bizprofile](https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2)). The entities appear to function as special purpose vehicles for land holding or investment within the broader industrial park project.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Associated with a major industrial development project (Peoria Logistics Park); influence stems from significant real estate investment rather than direct community leadership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Investment return",
+          "Industrial development"
+        ],
+        "engage": "Engage through the master developer (VanTrust Real Estate) or project leads for Peoria Logistics Park. The entities likely represent investment interests aligned with the industrial build-out."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Investment entities linked to the 150-acre Peoria Logistics Park development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC are entities associated with the Peoria Logistics Park development",
+          "url": "https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2",
+          "title": "Ci351 Peoria Logistics LLC Company Profile",
+          "date": "2025-01-22"
+        },
+        {
+          "claim": "Douglas Peoria Logistics LLC listed in business directory",
+          "url": "https://www.bizprofile.net/ca/manhattan-beach/zevo-partners-llc",
+          "title": "Douglas Peoria Logistics LLC Company Profile",
+          "date": "2025-01-22"
+        },
+        {
+          "claim": "Peoria Logistics Park is a 150-acre industrial infill project developed by VanTrust Real Estate",
+          "url": "https://www.peoriaaz.gov/Home/Components/News/News/4449/",
+          "title": "Construction Starts on Massive Industrial Park in Peoria",
+          "date": "2022-04-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "F&J Ruiz Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220116",
+        "14220107",
+        "14220115",
+        "14220108"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "F&J Ruiz Holdings LLC is an Arizona limited liability company associated with land ownership in the Northern Ave/75th Ave vicinity. The entity was among the landowners in the area assembled for the Legacy Point/Peoria Logistics Park project ([Commercial Search](https://www.commercialsearch.com/news/vantrust-breaks-ground-on-phoenix-area-logistics-project/)). VanTrust Real Estate acquired approximately 108 acres in this area in late 2023 for the industrial park development, a transaction involving a significant multi-million dollar sum ([VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/)). The LLC appears to function as a real estate holding vehicle, with no other active business operations publicly listed beyond this land investment activity.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private investment entity with no documented public community leadership role; influence limited to historical land ownership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial ROI"
+        ],
+        "engage": "If the entity retains any remnant parcels, approach with financial offers aligned with the area's industrial transition. The primary motivation appears to be investment return."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Land holding entity that sold property for the Peoria Logistics Park development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "VanTrust Real Estate acquired approximately 108 acres in this area in late 2023",
+          "url": "https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/",
+          "title": "New Peoria Logistics Park Fills Up With Tenants",
+          "date": "2024-04-22"
+        },
+        {
+          "claim": "Peoria Logistics Park development at Northern and 75th Avenues",
+          "url": "https://www.commercialsearch.com/news/vantrust-breaks-ground-on-phoenix-area-logistics-project/",
+          "title": "VanTrust Breaks Ground on Phoenix-Area Logistics Project",
+          "date": "2022-04-15"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sharro LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220121",
+        "14220122"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharro LLC is an Arizona limited liability company that owns industrial property in Peoria, specifically the parcels at 7773 W Seldon Ln and 7634 W Carol Ave ([Xome](https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990)) ([Xome](https://www.xome.com/realestate/7634-w-carol-ave-peoria-az-85345-4540894)). The property at 7773 W Seldon Ln is a light industrial site (machine shop/office) acquired by Sharro LLC in 2020 ([Xome](https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990)). Public records indicate the site is associated with Cascade Drilling, an environmental and geotechnical drilling service provider, suggesting Sharro LLC may act as the property holding company or landlord ([Kompass](https://us.kompass.com/c/cascade-drilling-l-p/usm07768300/)). The entity was incorporated in 2015 with a principal address in Phoenix ([Bizprofile](https://www.bizprofile.net/az/phoenix/sharro-llc)). There are no public records of Sharro LLC engaging in local political or planning discussions, implying a neutral stance focused on industrial property operations.",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Low",
+      "influence_justification": "Industrial property owner with no significant public profile or documented community leadership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value",
+          "Business operations"
+        ],
+        "engage": "Approach as a standard industrial neighbor. Address potential impacts on access or operations at the Seldon Ln facility. The owner appears to be a real estate holding entity for industrial operations."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Industrial property owner (holding company) for sites on W Seldon Ln and W Carol Ave.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Sharro LLC owns the parcel at 7773 W Seldon Ln",
+          "url": "https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990",
+          "title": "7773 W Seldon Ln Property Details",
+          "date": "2025-01-22"
+        },
+        {
+          "claim": "Sharro LLC owns the parcel at 7634 W Carol Ave",
+          "url": "https://www.xome.com/realestate/7634-w-carol-ave-peoria-az-85345-4540894",
+          "title": "7634 W Carol Ave Property Details",
+          "date": "2025-01-22"
+        },
+        {
+          "claim": "Site associated with Cascade Drilling",
+          "url": "https://us.kompass.com/c/cascade-drilling-l-p/usm07768300/",
+          "title": "Cascade Drilling L.P. Company Profile",
+          "date": "2025-01-22"
+        },
+        {
+          "claim": "Sharro LLC incorporated in 2015",
+          "url": "https://www.bizprofile.net/az/phoenix/sharro-llc",
+          "title": "Sharro LLC Company Profile",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Transwestern Pipeline Company LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220109"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Transwestern Pipeline Company, LLC owns and operates a major interstate natural gas pipeline system that transports gas from Texas and the Four Corners area to California ([Energy Transfer](https://twtransfer.energytransfer.com/)). The company is a subsidiary of Energy Transfer Partners ([Energy Transfer](https://twtransfer.energytransfer.com/)). Transwestern maintains the \"Phoenix Lateral\" pipeline segment which runs through Maricopa County, delivering natural gas to the Phoenix area ([Pipeline Safety Info](https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf)). As a regulated utility infrastructure owner, Transwestern’s primary concern is protecting its pipeline easement and ensuring development adheres to safety setbacks; the company typically does not engage in local development debates beyond enforcing safety requirements ([Pipeline Safety Info](https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "Controls critical energy infrastructure and has federal/state regulatory backing for easement enforcement, though lacks direct local political participation.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure safety",
+          "Easement protection"
+        ],
+        "engage": "Coordinate early with Transwestern’s right-of-way department regarding any crossings or setbacks. Strict adherence to safety regulations will likely secure their non-objection."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": "Major interstate pipeline operator with critical infrastructure easements in the area.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Transwestern Pipeline Company owns and operates a major interstate natural gas pipeline system",
+          "url": "https://twtransfer.energytransfer.com/",
+          "title": "Transwestern Pipeline Company Informational Postings",
+          "date": "2025-01-22"
+        },
+        {
+          "claim": "Maintains the Phoenix Lateral pipeline segment in Maricopa County",
+          "url": "https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf",
+          "title": "Transwestern Pipeline Company Safety Brochure",
+          "date": "2025-01-22"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 685012,
+    "thinking_count": 35
+  }
+}

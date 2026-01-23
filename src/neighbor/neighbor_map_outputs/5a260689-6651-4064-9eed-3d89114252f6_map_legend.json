@@ -1,0 +1,42 @@
+[
+  {
+    "marker_char": "1",
+    "text": "SALT",
+    "full_name": "Salt River Project Agricultural Improvement And Power District",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "CITY",
+    "full_name": "City of Peoria",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "WESTECH",
+    "full_name": "Westech Lumber LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "4",
+    "text": "CARETAKE",
+    "full_name": "Caretaker West Peoria Parcel LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": true,
+    "is_target": false
+  }
+]

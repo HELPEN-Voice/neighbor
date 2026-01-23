@@ -1,0 +1,208 @@
+{
+  "batch_idx": 1,
+  "total_batches": 4,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Westech Components Inc",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "14321007A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Westech Components Inc operates a construction materials supply business (Westech Lumber LLC) at 8525 N 75th Ave in Peoria ([www.yellowpages.com](https://www.yellowpages.com/peoria-az/mip/westech-lumber-527876401#:~:text=Map%20%26%20DirectionsDirections8525%20N%2075th,AZ%2085345Write%20a%20ReviewWrite%20Review)). It has been part of the Younger Brothers family of construction companies since 2009, indicating established ties in the regional building industry ([www.youngerbrothers.com](https://www.youngerbrothers.com/companies/westech#:~:text=Westech)). No public records indicate any involvement by Westech in land development disputes; its interest is likely limited to its operating property and customer base ([www.westechrecyclers.com](https://www.westechrecyclers.com/#:~:text=certified%20process%20consists%20of%20accredited,Read%20More)) ([www.yellowpages.com](https://www.yellowpages.com/peoria-az/mip/westech-lumber-527876401#:~:text=Westech%20Lumber%20,More)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Established local business supplying construction trade; networked with regional contractors but limited political activity",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Maintain open communication about construction schedules or road access; emphasize that project could bring construction business to suppliers like Westech"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "19 Acres LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321011A",
+        "14321005E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "19 Acres LLC is an Arizona limited liability company that holds two contiguous parcels totaling approximately 19 acres in the project vicinity (per county parcel records) ([www.loopnet.com](https://www.loopnet.com/property/8525-n-75th-ave-peoria-az-85345/04013-14321007A/#:~:text=8525%20N%2075Th%20Ave%2C%20Peoria%2C,007A)). The company has no observable operations or online presence, functioning solely as a landholding entity with no principals publicly identified in news or corporate filings ([www.city-data.com](https://www.city-data.com/business-entities/Peoria-AZ-P.html#:~:text=Active%20business%20entities%20in%20Peoria%2C,P%20X%20G)). There are no records of past development activity by 19 Acres LLC, suggesting it is a passive investor likely awaiting opportunities for sale or development ([www.city-data.com](https://www.city-data.com/business-entities/Peoria-AZ-R.html#:~:text=Active%20business%20entities%20in%20Peoria%2C,8543%20West%20Canterbury)) ([www.city-data.com](https://www.city-data.com/business-entities/Peoria-AZ-P.html#:~:text=Active%20business%20entities%20in%20Peoria%2C,P%20X%20G)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Passive land investor with no public profile or local enterprise; influence limited to rights as property owner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage with the LLC\u2019s representative about land acquisition or partnership; highlight how the project could enhance their property value or provide an exit opportunity"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Peoria City Of",
+      "entity_category": "Organization",
+      "entity_type": "municipality",
+      "pins": [
+        "14220120",
+        "14220106"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The City of Peoria owns two nearby parcels, indicating municipal land in the vicinity ([peoriail.legistar.com](https://peoriail.legistar.com/MeetingDetail.aspx?From=RSS&GUID=120B313C-A2EB-4090-B64C-BF4642650F15&ID=584387#:~:text=City%20of%20Peoria%20,a%20DONATION%20to%20the%20PEORIA)). As the local government, Peoria will evaluate any development through zoning, infrastructure, and community impact perspectives rather than a profit motive. The city\u2019s stance on specific projects must align with public interest and adopted plans, so its role will be as regulator and potential supporter if the project meets city guidelines ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=P08504391#:~:text=Entity%20Known%20Place%20of%20Business,)) ([peoriaaz.novusagenda.com](https://peoriaaz.novusagenda.com/agendapublic/MeetingView.aspx?MeetingID=1237&MinutesMeetingID=-1&doctype=Agenda#:~:text=Discussion%20and%20possible%20action%20to,the%20exchange%20of%20Central%20Arizona)). No specific city opposition is noted; any position will be determined via formal council and planning processes.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local governing authority with regulatory control and representation of community interests",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with city planning staff and elected officials early; demonstrate how the project conforms to zoning and benefits the community (e.g. tax base, amenities)"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Caretaker West Peoria Parcel LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220118",
+        "14220117",
+        "14220114"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Caretaker West Peoria Parcel LLC is a private entity holding multiple parcels in West Peoria; it does not appear to have any operating business aside from owning this land ([blog.scious.io](https://blog.scious.io/mapping-63-billion-in-commercial-loans/#:~:text=The%20Quest%20to%20Map%20Over,)). Public records on this LLC are minimal\u2014no known corporate website or active business operations\u2014implying it functions as a real estate holding company ([peoriaaz.novusagenda.com](https://peoriaaz.novusagenda.com/agendapublic/MeetingView.aspx?MeetingID=1237&MinutesMeetingID=-1&doctype=Agenda#:~:text=Discussion%20and%20possible%20action%20to,the%20exchange%20of%20Central%20Arizona)) ([blog.scious.io](https://blog.scious.io/mapping-63-billion-in-commercial-loans/#:~:text=The%20Quest%20to%20Map%20Over,)). The ultimate owners and their objectives are not disclosed publicly, but the pattern (multiple adjacent parcels under one LLC) suggests a speculative investment anticipating future development or sale ([www.westland-properties.com](https://www.westland-properties.com/closedtransactions#:~:text=Closed%20Transactions%20%E2%80%94%20WPG%20Home,the%20Southeast%20corner%20of%20163rd)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns a block of land; could partner in or litigate development, but lacks public-facing influence or corporate clout",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the LLC\u2019s decision-maker (through county records or agent) and open a dialogue regarding project plans; offer assurances or incentives that the development will elevate land values and address any concerns"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "The adjacent organizational landowners include a private construction supply company, two passive landholding LLCs likely created for real estate investment, and the City of Peoria. None appears to be an organized opposition group; rather they are property stakeholders (including speculative investors and the municipality) whose interests revolve around land value, development plans, or public use.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165431_9343.json",
+  "cached_at": "2026-01-22T16:54:31.934924"
+}

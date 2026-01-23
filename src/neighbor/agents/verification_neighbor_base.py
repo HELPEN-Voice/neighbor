@@ -221,7 +221,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
                 store=True,  # Required when using background=True
                 agent_config={
                     "type": "deep-research",
-                    "thinking_summaries": "always",
+                    "thinking_summaries": "auto",
                 },
             )
 

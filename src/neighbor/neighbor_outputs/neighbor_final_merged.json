@@ -1,30 +1,24 @@
 {
   "neighbors": [
     {
-      "neighbor_id": "N-01",
-      "name": "Charles Benjamin Payne",
+      "neighbor_id": "N-02",
+      "name": "Kamala Hollon",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9000300000000",
-        "02 9000300030000",
-        "02 9000300020000",
-        "02 9000300010000"
+        "14321005D"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Charles B. Payne is listed as a longtime resident on Hummingbird Lane in Falling Waters, Berkeley County [Telephone Directory](https://www.telephonedirectories.us/WhitePages/Falling_Waters-WV). He does not serve on the county\u2019s farm protection or conservation boards and has no recorded public involvement in local development issues [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/) ([www.wvca.us](https://www.wvca.us/directory/cds.cfm#:~:text=Nancy%20Lutz%20,Secretary%2025%20Koontztown%20Road)).",
+      "owns_adjacent_parcel": "No",
+      "claims": "Kamala Hollon is a resident of Arizona ([source](https://nationalpublicdata.com/people/h/kamala-hollon/)). She was identified as a close friend of the late Scott Joseph Rogers in a 2024 obituary ([source](https://www.dignitymemorial.com/obituaries/phoenix-az/scott-rogers-11784949)). No public statements regarding renewable energy development were found.",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private landowner; no public roles",
+      "influence_justification": "Private citizen; no public offices found.",
       "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "privacy_quiet"
-        ],
-        "engage": "Have a respected local farmer approach him, emphasizing how the project can co-exist with farming and maintain the rural peace he values."
+        "motivations": [],
+        "engage": "Use a friendly, one-on-one introduction by a community liaison to share project information and invite her feedback."
       },
-      "entity_classification": null,
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -37,66 +31,42 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Kenneth G. Byers & Ruth M. Byers",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9001300010000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Kenneth G. Byers and his wife Ruth M. Byers jointly own a parcel in the Falling Waters area of Berkeley County (Potomac District) ([taxinq.berkeleywv.org](https://taxinq.berkeleywv.org/ticket.html?TPSX=&TPTICK=14990&TPTYR=2022#:~:text=District%3A%20%20%7C%2002%20,WATERS%20WV%2025419%20Lending%20Inst)). They are not noted in any public committee or board memberships locally, and no public statements from them on development or energy projects could be found in local records [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Retired rural residents; low public profile",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "property_value"
-        ],
-        "engage": "Approach through a neighbor or farm community contact who can discuss how the project will protect farmland value and respect their property rights."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
+      "citations": [
+        {
+          "claim": "Resident of Arizona",
+          "url": "https://nationalpublicdata.com/people/h/kamala-hollon/",
+          "title": "Kamala Hollon - National Public Data",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Identified as friend in Scott Rogers obituary",
+          "url": "https://www.dignitymemorial.com/obituaries/phoenix-az/scott-rogers-11784949",
+          "title": "Obituary for Scott Joseph Rogers",
+          "date": "2024-04-22",
+          "note": null
+        }
+      ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Daniel Whitacre Folk IV",
+      "name": "Keith Ringler",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "02 9001300000000"
+        "14220119"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Daniel W. Folk IV is part of a longstanding local family; he served as executor for the Estate of June Whitacre Folk, indicating a multi-generation presence in Berkeley County [The Journal](https://wvlegals.com/public-notice-7434/) ([wvlegals.com](https://wvlegals.com/public-notice-7434/#:~:text=ESTATE%20NAME%3A%20JUNE%20WHITACRE%20FOLK,FOLK%20FIDUCIARY)). Aside from settling a family estate, there is no record of Folk holding public office or speaking in county meetings about development issues [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).",
-      "confidence": "high",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Keith Ringler is a Phoenix-area resident and the brother of the late Charles Ringler ([source](https://www.legacy.com/us/obituaries/azcentral/name/charles-ringler-obituary?id=26641928)). He was the longtime companion of Kimberly Townsend, who passed away in 2015 ([source](https://www.dignitymemorial.com/obituaries/glendale-az/kim-townsend-ringler-6714818)). He has been listed as a donor to St. Vincent de Paul ([source](https://www.stvincentdepaul.net/sites/default/files/Fall-Winter2016_Vincentian_Spreads.pdf)).",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Longtime family landowner; no official role",
+      "influence_justification": "Private citizen; no public offices found.",
       "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "farmland_preservation"
-        ],
-        "engage": "Highlight the project\u2019s provisions for land restoration and long-term stewardship to appeal to his sense of family land legacy and preserving his farm for future generations."
+        "motivations": [],
+        "engage": "Engage via personal outreach by a trusted community member, focusing on listening to his questions and addressing any concerns he may have."
       },
-      "entity_classification": null,
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -109,816 +79,52 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": null
+      "citations": [
+        {
+          "claim": "Brother of Charles Ringler",
+          "url": "https://www.legacy.com/us/obituaries/azcentral/name/charles-ringler-obituary?id=26641928",
+          "title": "Obituary for Charles Ringler",
+          "date": "2005-09-28",
+          "note": null
+        },
+        {
+          "claim": "Longtime companion of Kimberly Townsend",
+          "url": "https://www.dignitymemorial.com/obituaries/glendale-az/kim-townsend-ringler-6714818",
+          "title": "Obituary for Kim Townsend Ringler",
+          "date": "2015-12-13",
+          "note": null
+        },
+        {
+          "claim": "Donor to St. Vincent de Paul",
+          "url": "https://www.stvincentdepaul.net/sites/default/files/Fall-Winter2016_Vincentian_Spreads.pdf",
+          "title": "Vincentian Connection Newsletter",
+          "date": "2016-12-01",
+          "note": null
+        }
+      ]
     },
     {
-      "neighbor_id": "N-04",
-      "name": "David W. Henry",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
+      "neighbor_id": "N-01",
+      "name": "Salt River Project Agricultural Improvement And Power District",
+      "entity_category": "Organization",
+      "entity_type": "Political Subdivision",
       "pins": [
-        "02 9000200030000",
-        "02 9000200010000"
+        "14322006A",
+        "14322006D",
+        "14322006C"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "David W. Henry owns multiple parcels in the Potomac District of Berkeley County ([taxinq.berkeleywv.org](https://taxinq.berkeleywv.org/ticket.html?TPSX=&TPTICK=14990&TPTYR=2022#:~:text=District%3A%20%20%7C%2002%20,WATERS%20WV%2025419%20Lending%20Inst)). He has no known public profile in county affairs \u2013 he is not listed among any local boards or civic groups, and no statements from him on development have been documented in the media [Berkeley County Farmland Board](https://wvfp.org/berkeley/board-officers/).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Landholder; no public involvement",
+      "owns_adjacent_parcel": "No",
+      "claims": "The Salt River Project (SRP) is an agricultural improvement district and a political subdivision of the State of Arizona ([source](https://www.srpnet.com/assets/srpnet/pdf/doing-business/SRP-Preliminary-Official-Statement-2025-Series-C.pdf)). As a major utility, SRP has committed to adding 2,025 megawatts of utility-scale solar energy to its power system by 2025 ([source](https://media.srpnet.com/srp-to-more-than-double-its-utility-scale-solar-to-2025-megawatts-by-2025/)). The organization has established sustainability goals to reduce carbon intensity by 82% by 2035 and achieve net-zero carbon emissions by 2050 ([source](https://media.srpnet.com/srp-provides-progress-report-toward-2035-sustainability-goals/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major utility and political subdivision.",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
+          "tax_revenue_benefit",
           "local_control"
         ],
-        "engage": "Engage Mr. Henry via a community meeting with other landowners, stressing that local input will guide the project and that farmland conservation measures will be upheld."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Max O. Oates Jr.; Theodore K. Oates II; Mary Elizabeth Oates",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "04 22000400000000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Max O. Oates Jr. is part of a prominent Berkeley County family; his late father, Dr. Max Oates, and mother Evelyn were longtime Martinsburg residents who played a vital leadership role in the local hospital and health services ([www.wvlegislature.gov](https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=scr39+intr.htm&billtype=cr&houseorig=s&i=39&sesstype=RS&yr=2012#:~:text=Whereas%2C%20Dr,of%20Martinsburg%2C%20West%20Virginia%3B%20and)). The Oates family has been extensively involved in community betterment, although none of the current members have publicly taken a stance on energy or development projects ([www.wvlegislature.gov](https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=scr39+intr.htm&billtype=cr&houseorig=s&i=39&sesstype=RS&yr=2012#:~:text=Whereas%2C%20Dr,selfless%20service%20can%20engender%3B%20and)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Respected family; civic and philanthropic ties",
-      "approach_recommendations": {
-        "motivations": [
-          "local_control",
-          "tax_revenue_benefit"
-        ],
-        "engage": "Have a well-respected local official or community leader approach the Oates family, acknowledging their community service and explaining how the project will be locally managed and bring economic benefits to fund community services."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Todd A. Gladfelter and Karen Gladfelter",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G001800000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Todd A. Gladfelter and Karen Gladfelter are listed as owners of a property at 473 Michelle Drive in the Potomac District of Berkeley County (PIN 02-9G0018-0000-0000) ([Redfin](https://www.redfin.com/WV/Hedgesville/473-Michelle-Dr-25427/home/15850558)). Karen Gladfelter (age 66) is recorded as a resident of Hedgesville, WV ([NationalPublicData](https://nationalpublicdata.com/people/g/karen-gladfelter/)). The property is situated in a rural subdivision of ~1-acre residential lots ([Redfin](https://www.redfin.com/WV/Hedgesville/473-Michelle-Dr-25427/home/15850558)). No references to either Todd or Karen Gladfelter engaging in local government meetings or public commentary on development were found in available Berkeley County Planning Commission records ([Berkeley County](https://berkeleywv.org/AgendaCenter/ViewFile/Minutes/_12022024-1101)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents; no public offices found",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "property_value"
-        ],
-        "engage": "Approach the Gladfelters in a neighborly, face-to-face manner. Emphasize maintaining the quiet rural character of the area and reassure them that their property values and privacy will be respected."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Owners of property at 473 Michelle Drive (PIN 02-9G0018-0000-0000)",
-          "url": "https://www.redfin.com/WV/Hedgesville/473-Michelle-Dr-25427/home/15850558",
-          "title": "473 Michelle Dr, Hedgesville, WV 25427",
-          "date": "2025-01-21"
-        },
-        {
-          "claim": "Karen Gladfelter is a resident of Hedgesville, WV",
-          "url": "https://nationalpublicdata.com/people/g/karen-gladfelter/",
-          "title": "Karen Gladfelter - Hedgesville, WV",
-          "date": "2025-01-21"
-        },
-        {
-          "claim": "No references in local government meetings",
-          "url": "https://berkeleywv.org/AgendaCenter/ViewFile/Minutes/_12022024-1101",
-          "title": "Berkeley County Planning Commission Minutes",
-          "date": "2024-12-02"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Jamie G. Roseman and Dianna L. Roseman",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G001900000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jamie G. Roseman and Dianna L. Roseman reside on Michelle Drive in Hedgesville, WV ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/martinsburg-wv/clay-elliott-10886643)). Jamie Roseman has been active in the local community, volunteering with the Berkeley County Youth Fair and the Hedgesville Little League Baseball Field ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/martinsburg-wv/clay-elliott-10886643)). He is also a long-time member of a hunting club in nearby Romney, WV ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/martinsburg-wv/clay-elliott-10886643)). No record of the Rosemans participating in recent Berkeley County Planning Commission hearings on development issues was found ([Berkeley County](https://www.berkeleywv.org/AgendaCenter/PreviousVersions/_03042024-839)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Active volunteer in youth sports and county fair",
-      "approach_recommendations": {
-        "motivations": [
-          "local_control",
-          "wildlife_habitat"
-        ],
-        "engage": "Engage Mr. Roseman with a friendly visit, acknowledging his community service with the Youth Fair and Little League. Discuss how the project aligns with local interests and wildlife preservation, given his outdoor background."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Volunteered with Berkeley County Youth Fair and Hedgesville Little League",
-          "url": "https://www.dignitymemorial.com/obituaries/martinsburg-wv/clay-elliott-10886643",
-          "title": "Obituary for Clay Elliott",
-          "date": "2022-08-13"
-        },
-        {
-          "claim": "Member of Titus Run Hunting Club in Romney, WV",
-          "url": "https://www.dignitymemorial.com/obituaries/martinsburg-wv/clay-elliott-10886643",
-          "title": "Obituary for Clay Elliott",
-          "date": "2022-08-13"
-        },
-        {
-          "claim": "No record in Planning Commission hearings",
-          "url": "https://www.berkeleywv.org/AgendaCenter/PreviousVersions/_03042024-839",
-          "title": "Berkeley County Planning Commission Minutes",
-          "date": "2024-03-04"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Scott Michael Shimel",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002000000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Scott Michael Shimel is the owner of a property at 506 Michelle Drive in Hedgesville, WV (PIN 02-9G0020-0000-0000) ([Redfin](https://www.redfin.com/WV/Hedgesville/506-Michelle-Dr-25427/home/15850556)). Public records indicate he is 42 years old ([NationalPublicData](https://nationalpublicdata.com/people/s/scott-shimel/)). In August 2022, a Scott Shimel was named General Manager for BlackHawk Industrial in Southern California, having spent over 20 years in the industrial distribution industry in that region ([Industrial Supply Magazine](https://industrialsupplymagazine.com/pages/News-080822-BlackHawk-Industrial-hires-industry-veteran-Shimel.php)). It is unclear if he resides full-time in Berkeley County. No public statements on local development projects were found in Berkeley County records ([Berkeley County](https://www.berkeleywv.org/AgendaCenter/ViewFile/Minutes/_03172025-1199)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Industry professional; unclear local residency status",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "privacy_quiet"
-        ],
-        "engage": "Reach out to Mr. Shimel to introduce the project. Given his industrial business background, he may appreciate a straightforward, data-driven discussion about the project's economic and operational details."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Owner of 506 Michelle Drive (PIN 02-9G0020-0000-0000)",
-          "url": "https://www.redfin.com/WV/Hedgesville/506-Michelle-Dr-25427/home/15850556",
-          "title": "506 Michelle Dr, Hedgesville, WV 25427",
-          "date": "2025-01-21"
-        },
-        {
-          "claim": "Scott M Shimel, 42, Hedgesville, WV",
-          "url": "https://nationalpublicdata.com/people/s/scott-shimel/",
-          "title": "Scott Shimel - Hedgesville, WV",
-          "date": "2025-01-21"
-        },
-        {
-          "claim": "Named General Manager for BlackHawk Industrial in Southern California",
-          "url": "https://industrialsupplymagazine.com/pages/News-080822-BlackHawk-Industrial-hires-industry-veteran-Shimel.php",
-          "title": "BlackHawk Industrial hires industry veteran Shimel",
-          "date": "2022-08-08"
-        },
-        {
-          "claim": "No public statements in Berkeley County records",
-          "url": "https://www.berkeleywv.org/AgendaCenter/ViewFile/Minutes/_03172025-1199",
-          "title": "Berkeley County Planning Commission Minutes",
-          "date": "2025-03-17"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Tyler James Cloud and Jacob Ashby Cloud",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9000100040000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Tyler James Cloud and Jacob Ashby Cloud are identified as the grandchildren of the late Janice Thomas Cloud, a long-time resident of Hedgesville, WV ([Brown Funeral Homes](https://www.brownfuneralhomeswv.com/memorials/Cloud-Janice/1357736/help)). The draft profile associated them with PIN 02-9000-1000-4000; however, county records indicate this PIN corresponds to a property in Jefferson County (Charles Town), not Berkeley County ([Charles Town Annexation Application](https://cms2.revize.com/revize/charlestownwv/Documents/Government/Plans%20and%20Proposals/Application_Submitted_to_County_Commission.pdf)). Consequently, their specific land ownership in Berkeley County could not be verified in this audit. There is no indication that Tyler or Jacob Cloud have publicly expressed views on land development in Berkeley County ([Berkeley County](https://www.berkeleywv.org/554/Planning)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local family ties; no public profile found",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Contact the Cloud brothers via a friendly introduction to clarify their property interest in the project area. Highlight opportunities for young residents and respect for their family's long-standing ties to the Hedgesville community."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Grandchildren of Janice Thomas Cloud of Hedgesville",
-          "url": "https://www.brownfuneralhomeswv.com/memorials/Cloud-Janice/1357736/help",
-          "title": "Obituary for Janice Thomas Cloud",
-          "date": "2010-01-11"
-        },
-        {
-          "claim": "PIN 02-9000-1000-4000 corresponds to Jefferson County property",
-          "url": "https://cms2.revize.com/revize/charlestownwv/Documents/Government/Plans%20and%20Proposals/Application_Submitted_to_County_Commission.pdf",
-          "title": "City of Charles Town Annexation Application",
-          "date": "2017-03-30"
-        },
-        {
-          "claim": "No public expressions on development found",
-          "url": "https://www.berkeleywv.org/554/Planning",
-          "title": "Berkeley County Planning Department",
-          "date": "2026-01-21"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Michael D. Writt",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G001700000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Michael D. Writt is the listed owner of a Potomac District parcel in Berkeley County (PIN 02-9G0017-0000-0000), located in the Michelle Drive subdivision near other verified profiles ([Redfin](https://www.redfin.com/WV/Hedgesville/473-Michelle-Dr-25427/home/15850558)). The Writt surname is associated with local families in the region, though specific connection to the Shepherdstown farm family could not be independently re-verified in this audit. Michael D. Writt has no recorded involvement in county boards or public comments on development in available online records ([Berkeley County](https://www.berkeleywv.org/AgendaCenter/ViewFile/Minutes/_12022024-1101)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public role or visibility found",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "property_value"
-        ],
-        "engage": "Have a respectful conversation with Mr. Writt through a familiar community channel. Emphasize how the project can co-exist with the residential character of the Michelle Drive neighborhood."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Located in Michelle Drive subdivision (context of PIN sequence)",
-          "url": "https://www.redfin.com/WV/Hedgesville/473-Michelle-Dr-25427/home/15850558",
-          "title": "473 Michelle Dr (Neighboring Property Context)",
-          "date": "2025-01-21"
-        },
-        {
-          "claim": "No recorded involvement in county boards",
-          "url": "https://www.berkeleywv.org/AgendaCenter/ViewFile/Minutes/_12022024-1101",
-          "title": "Berkeley County Planning Commission Minutes",
-          "date": "2024-12-02"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Jill N Wilkins & Kevin W Wilkins",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002100000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jill N. Wilkins is a registered Physician Assistant based in Hagerstown, MD, with a residential address in Hedgesville, WV ([NPI Registry](https://npiregistry.cms.hhs.gov/provider-view/1194280032)). Kevin W. Wilkins is listed as a resident at the same location ([Whitepages](https://www.whitepages.com/name/Kevin-W-Wilkins/WV)). No record of the Wilkins family taking a public stance on local development or holding public office was found in available public sources.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Medical professional; no known civic leadership roles",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "privacy_quiet"
-        ],
-        "engage": "Approach via a trusted community member. Given Jill's medical background, emphasize health and safety standards of the project, along with assurances that property values and privacy will be maintained."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Jill N. Wilkins is a registered Physician Assistant based in Hagerstown, MD, with a residential address in Hedgesville, WV",
-          "url": "https://npiregistry.cms.hhs.gov/provider-view/1194280032",
-          "title": "NPI Registry - Jill N Wilkins",
-          "date": "2024-04-09"
-        },
-        {
-          "claim": "Kevin W. Wilkins is listed as a resident at the same location",
-          "url": "https://www.whitepages.com/name/Kevin-W-Wilkins/WV",
-          "title": "Whitepages Listing",
-          "date": "2024-01-21"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Robert M Cloud & Brenda L Cloud",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9000100000000",
-        "02 9000100030000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Robert M. Cloud serves as an elected Supervisor for the Eastern Panhandle Conservation District (EPCD), representing Berkeley County ([WVCA Directory](https://www.wvca.us/suDirectory.cfm)). In this capacity, he participates in board meetings regarding agricultural enhancement programs, watershed grants, and conservation planning ([EPCD Minutes](https://www.wvca.us/district/upload/41246.pdf)). The Cloud family is a recipient of agricultural subsidies ([EWG Database](https://farm.ewg.org/addrsearch.php?z=1&zip=25427&page=1)). The EPCD has previously discussed the environmental impact of solar projects on farmland and soil erosion ([Vision Root](https://www.visionroot.org/category/environment/)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Elected Supervisor, Eastern Panhandle Conservation District",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "groundwater_runoff",
-          "local_control"
-        ],
-        "engage": "Engage directly acknowledging his role as an EPCD Supervisor. Focus heavily on stormwater management, soil conservation, and pollinator-friendly ground cover, demonstrating how the project aligns with district conservation goals."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Robert M. Cloud serves as an elected Supervisor for the Eastern Panhandle Conservation District (EPCD), representing Berkeley County",
-          "url": "https://www.wvca.us/suDirectory.cfm",
-          "title": "West Virginia Conservation Agency Supervisor Directory",
-          "date": "2024-01-21"
-        },
-        {
-          "claim": "participates in board meetings regarding agricultural enhancement programs, watershed grants, and conservation planning",
-          "url": "https://www.wvca.us/district/upload/41246.pdf",
-          "title": "Eastern Panhandle Conservation District Board Meeting Minutes",
-          "date": "2024-10-16"
-        },
-        {
-          "claim": "The Cloud family is a recipient of agricultural subsidies",
-          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=25427&page=1",
-          "title": "EWG Farm Subsidy Database",
-          "date": "2023-01-01"
-        },
-        {
-          "claim": "The EPCD has previously discussed the environmental impact of solar projects on farmland and soil erosion",
-          "url": "https://www.visionroot.org/category/environment/",
-          "title": "Vision Root Environment Blog - EPCD Solar Discussions",
-          "date": "2023-09-24"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Alexander L Givens & Keri L Givens",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002500000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Alexander L. Givens is the registered owner of a trucking and transport business, Alexander L Givens (USDOT 1409364), based in Hedgesville, WV ([DOT Profile](https://dcontrol.com/profile/pentoney-brothers-contracting-llc/carriers)). Alexander L. Givens and Keri L. Givens are listed as residents of Berkeley County ([Whitepages](https://www.whitepages.com/name/Alexander-Givens/WV)). No known public comments or leadership roles by the Givens in community development issues have been found.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local business owner (Trucking)",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "traffic_safety"
-        ],
-        "engage": "A friendly personal outreach is recommended. Given his background in transport, address any concerns regarding construction traffic and road use, while reassuring them about property value protections."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Alexander L. Givens is the registered owner of a trucking and transport business, Alexander L Givens (USDOT 1409364), based in Hedgesville, WV",
-          "url": "https://dcontrol.com/profile/pentoney-brothers-contracting-llc/carriers",
-          "title": "DOT Profile - Alexander L Givens",
-          "date": "2024-01-21"
-        },
-        {
-          "claim": "Alexander L. Givens and Keri L. Givens are listed as residents of Berkeley County",
-          "url": "https://www.whitepages.com/name/Alexander-Givens/WV",
-          "title": "Whitepages Listing",
-          "date": "2024-01-21"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Mark Chenoweth & Scarlett Chenoweth",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002400000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Mark Chenoweth is the President and General Counsel of the New Civil Liberties Alliance (NCLA), a legal organization focused on challenging the administrative state ([NCLA Bio](https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html)). He previously served as the first Chief of Staff to Congressman Mike Pompeo and as legal counsel at the U.S. Consumer Product Safety Commission ([LegiStorm](https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html)). He has testified before the U.S. House Judiciary Committee regarding regulatory reform ([Congress Testimony](https://www.congress.gov/118/meeting/house/116992/witnesses/HHRG-118-JU05-Wstate-ChenowethM-20240320.pdf)). He was named one of Washington DC's 500 Most Influential People of 2025 ([Washingtonian](https://washingtonian.com/2025/05/07/washington-dcs-500-most-influential-people-of-2025/)). Scarlett Chenoweth is listed as a resident of Hedgesville ([Whitepages](https://www.whitepages.com/name/Scarlett-Chenoweth/WV)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "President of NCLA; former Congressional Chief of Staff",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "local_control",
-          "fair_contracting"
-        ],
-        "engage": "Approach with high-level professionalism. Be prepared to discuss regulatory compliance and property rights in detail. Emphasize that the project respects private property rights and avoids government overreach."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Mark Chenoweth is the President and General Counsel of the New Civil Liberties Alliance (NCLA)",
-          "url": "https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html",
-          "title": "LegiStorm Profile - Mark Chenoweth",
-          "date": "2024-01-21"
-        },
-        {
-          "claim": "He previously served as the first Chief of Staff to Congressman Mike Pompeo",
-          "url": "https://www.legistorm.com/person/bio/158982/Markham_Sterling_Chenoweth.html",
-          "title": "LegiStorm Profile - Mark Chenoweth",
-          "date": "2024-01-21"
-        },
-        {
-          "claim": "He has testified before the U.S. House Judiciary Committee regarding regulatory reform",
-          "url": "https://www.congress.gov/118/meeting/house/116992/witnesses/HHRG-118-JU05-Wstate-ChenowethM-20240320.pdf",
-          "title": "Congressional Testimony - Mark Chenoweth",
-          "date": "2024-03-20"
-        },
-        {
-          "claim": "He was named one of Washington DC's 500 Most Influential People of 2025",
-          "url": "https://washingtonian.com/2025/05/07/washington-dcs-500-most-influential-people-of-2025/",
-          "title": "Washingtonian - DC's 500 Most Influential People",
-          "date": "2025-05-07"
-        },
-        {
-          "claim": "Scarlett Chenoweth is listed as a resident of Hedgesville",
-          "url": "https://www.whitepages.com/name/Scarlett-Chenoweth/WV",
-          "title": "Whitepages Listing",
-          "date": "2024-01-21"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Shirley Delta Maye",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02-9G0022-0000-0000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Shirley Delta Maye owns land in the Falling Waters district of northern Berkeley County, WV ([contempo3.blogspot.com](https://contempo3.blogspot.com/2018/03/falling-waters-west-virginia-falling.html#:~:text=Berkeley%20County%2C%20West%20Virginia,has%20a%20population%20of%20876)). No public statements by Maye on local development or energy projects were found in news archives or county records as of this profile ([contempo3.blogspot.com](https://contempo3.blogspot.com/2018/03/falling-waters-west-virginia-falling.html#:~:text=Berkeley%20County%2C%20West%20Virginia,has%20a%20population%20of%20876)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowner; not a public figure",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach personally through a trusted local intermediary to build rapport and learn her concerns, since her views and priorities have not been publicly voiced."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Scott and Linda Funkhouser",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02-9000-2000-2000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Scott and Linda Funkhouser jointly own a residential property at 445 Falcon Drive in Falling Waters, Berkeley County ([www.locatefamily.com](https://www.locatefamily.com/F/FUN/FUNKHOUSER-147.html#:~:text=445%20Falcon%20Drive)). There is no record of the Funkhousers taking a public stance on local development or clean energy issues in the community ([www.locatefamily.com](https://www.locatefamily.com/F/FUN/FUNKHOUSER-147.html#:~:text=445%20Falcon%20Drive)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime residents; no official role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage the Funkhousers via a respectful, in-person conversation (for example, through a neighbor or local farm community contact) to understand any concerns they might have about nearby projects."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Ronald W. Hardy",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02-9G0016-0000-0000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ronald W. Hardy is listed as a landowner in the Potomac/Falling Waters area of Berkeley County ([contempo3.blogspot.com](https://contempo3.blogspot.com/2018/03/falling-waters-west-virginia-falling.html#:~:text=Berkeley%20County%2C%20West%20Virginia,has%20a%20population%20of%20876)). No evidence could be found of Hardy participating in public discussions or filings related to development proposals or energy projects ([contempo3.blogspot.com](https://contempo3.blogspot.com/2018/03/falling-waters-west-virginia-falling.html#:~:text=Berkeley%20County%2C%20West%20Virginia,has%20a%20population%20of%20876)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private citizen; no public profile",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Have a local community liaison reach out one-on-one to Mr. Hardy to build trust and invite him to share any views or questions, given that he has not publicly engaged on development issues."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Dennis F. Murphy",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02-9G0023-0000-0000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Dennis F. Murphy owns property in the Falling Waters area of Berkeley County, West Virginia ([contempo3.blogspot.com](https://contempo3.blogspot.com/2018/03/falling-waters-west-virginia-falling.html#:~:text=Berkeley%20County%2C%20West%20Virginia,has%20a%20population%20of%20876)). Murphy has no recorded public comments or notable civic roles related to local development or energy initiatives in Berkeley County ([contempo3.blogspot.com](https://contempo3.blogspot.com/2018/03/falling-waters-west-virginia-falling.html#:~:text=Berkeley%20County%2C%20West%20Virginia,has%20a%20population%20of%20876)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Property owner; not publicly active",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Project representatives should approach Murphy in an open-ended, neighborly manner to introduce the project and listen to any concerns, since he has not previously voiced opinions on community development."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Trayer T. Rudy",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02-9G0026-0000-0000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Trayer T. Rudy serves as the Facilities Manager at Berkeley Medical Center (City Hospital) in Martinsburg ([wvlegals.com](https://wvlegals.com/public-notice-7125/#:~:text=Dated%20this%20the%204th%20day,of%20December%2C%202020)). He also owns property in the Falling Waters district of Berkeley County, but no public positions by Rudy on development or energy matters have been documented ([wvlegals.com](https://wvlegals.com/public-notice-7125/#:~:text=Dated%20this%20the%204th%20day,of%20December%2C%202020)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Professional community member; no civic role",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Considering his professional background, a factual and pragmatic outreach (possibly via a business or community leader he respects) is recommended to discuss project details and address any infrastructure or community impact questions he may have."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Tommy A. Jerin and Amanda R. Jerin",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002700000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Tommy A. Jerin and Amanda R. Jerin are listed as property owners in Berkeley County, but no verified public records regarding their employment or civic involvement in West Virginia could be confirmed [Berkeley County Assessor](https://www.theassessor.org/). A 'Thomas Jerin' listed in online databases associated with DaVita Kidney Care appears to reside in Arizona, suggesting the draft's previous employment attribution was a mismatch [Consumer Reports Petition](https://advocacy.consumerreports.org/wp-content/uploads/2024/02/Appendix-A-CR-Petition-to-FTC-re-Junk-Fees-merged.pdf).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No verified public profile",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Approach with general courtesy as private residents. Since specific professional background could not be verified locally, avoid assumptions about technical or military experience unless confirmed in conversation."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Tommy A. Jerin and Amanda R. Jerin are listed as property owners in Berkeley County",
-          "url": "https://www.theassessor.org/",
-          "title": "Berkeley County Assessor Records",
-          "date": "2024-01-21"
-        },
-        {
-          "claim": "A 'Thomas Jerin' listed in online databases associated with DaVita Kidney Care appears to reside in Arizona",
-          "url": "https://advocacy.consumerreports.org/wp-content/uploads/2024/02/Appendix-A-CR-Petition-to-FTC-re-Junk-Fees-merged.pdf",
-          "title": "Consumer Reports Petition Signatures (Page 221)",
-          "date": "2024-02-01"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Ann Marie Priddle",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G001500000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ann M. Priddle is employed as a school bus operator for Berkeley County Schools [Berkeley County Schools Staff Directory](https://www.berkeleycountyschools.org/staff?filter_ids=315631&page_no=13). Aside from her occupation, there is no record of Priddle\u2019s involvement in local boards or public commentary on development issues in Berkeley County [Berkeley County Assessor](https://www.theassessor.org/).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "School employee; no civic role",
-      "approach_recommendations": {
-        "motivations": [
-          "traffic_safety"
-        ],
-        "engage": "Highlight traffic safety and roadway plans when communicating with Priddle. Given her role in student transportation, reassure her that construction traffic will be managed to ensure school bus routes remain safe and unobstructed."
+        "engage": "Engage via corporate sustainability partnership channels to align project goals with SRP's integrated system planning."
       },
       "entity_classification": "municipal",
       "profile_summary": null,
@@ -935,198 +141,277 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Ann M. Priddle is employed as a school bus operator for Berkeley County Schools",
-          "url": "https://www.berkeleycountyschools.org/staff?filter_ids=315631&page_no=13",
-          "title": "Berkeley County Schools Staff Directory",
-          "date": "2024-01-21"
+          "claim": "Political subdivision of the State of Arizona",
+          "url": "https://www.srpnet.com/assets/srpnet/pdf/doing-business/SRP-Preliminary-Official-Statement-2025-Series-C.pdf",
+          "title": "SRP Preliminary Official Statement 2025 Series C",
+          "date": "2025-01-01",
+          "note": null
         },
         {
-          "claim": "no record of Priddle\u2019s involvement in local boards or public commentary",
-          "url": "https://www.theassessor.org/",
-          "title": "Berkeley County Assessor",
-          "date": "2024-01-21"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Christopher Graham",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002900000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Christopher Graham is a resident of the Falling Waters area and an active participant in Sports Car Club of America (SCCA) racing events, frequently competing in the Mid-Atlantic Road Racing Series [SCCA Region Status](https://www.scdareg.com/events/CB59B842-9C3C-9066-6B0C5C5B601F36BA/status). He is listed in race results as driving a BMW 328is [MotorsportReg](https://www.motorsportreg.com/events/DE7F39F9-BEFC-29A4-9DDBFBA298D18AB4/status). Note: A 'Christopher Graham' serving as a Fire Captain and Volunteer WV Commissioner is located in Beckley, WV (Raleigh County), not Berkeley County [Volunteer WV Annual Report](https://volunteer.wv.gov/whoweare/SiteAssets/Pages/Annual-Report/2024%20Volunteer%20WV%20Annual%20Report_Web.pdf).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local hobbyist; no civic role",
-      "approach_recommendations": {
-        "motivations": [
-          "traffic_safety",
-          "privacy_quiet"
-        ],
-        "engage": "Approach Graham with general courtesy. Given his interest in automotive performance, he may appreciate technical details regarding the project's logistics or road use, but otherwise appears to be a private resident."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "active participant in Sports Car Club of America (SCCA) racing events, frequently competing in the Mid-Atlantic Road Racing Series",
-          "url": "https://www.scdareg.com/events/CB59B842-9C3C-9066-6B0C5C5B601F36BA/status",
-          "title": "SCCA Region Status - 2024 Road Racing Vehicle Number Reservation",
-          "date": "2024-07-21"
+          "claim": "Committed to adding 2,025 MW of utility-scale solar by 2025",
+          "url": "https://media.srpnet.com/srp-to-more-than-double-its-utility-scale-solar-to-2025-megawatts-by-2025/",
+          "title": "SRP to more than double its utility-scale solar",
+          "date": "2021-05-03",
+          "note": null
         },
         {
-          "claim": "listed in race results as driving a BMW 328is",
-          "url": "https://www.motorsportreg.com/events/DE7F39F9-BEFC-29A4-9DDBFBA298D18AB4/status",
-          "title": "Wash DC Region SCCA July MARRS 2024 Attendees",
-          "date": "2024-07-21"
-        },
-        {
-          "claim": "A 'Christopher Graham' serving as a Fire Captain and Volunteer WV Commissioner is located in Beckley, WV",
-          "url": "https://volunteer.wv.gov/whoweare/SiteAssets/Pages/Annual-Report/2024%20Volunteer%20WV%20Annual%20Report_Web.pdf",
-          "title": "Volunteer West Virginia 2024 Annual Report",
-          "date": "2024-01-01"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Joe Ernest Hronesz and Jessica Frances Hronesz",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G001000000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Joe E. Hronesz is a prominent local banker, currently serving as Senior Vice President and Chief Credit Officer of CNB Bank [CNB Bank Press Release](https://www.cnb.bank/Who-We-Are/News-and-Announcements/entryid/208/cnb-bank-announces-joe-hronesz-as-next-cfo). In October 2024, it was announced that he will become the bank\u2019s Chief Financial Officer effective Spring 2025 [CNB Bank Press Release](https://www.cnb.bank/Who-We-Are/News-and-Announcements/entryid/208/cnb-bank-announces-joe-hronesz-as-next-cfo). The announcement noted his 24+ years of experience in community banking and his residence with wife Jess (Jessica) [CNB Bank Press Release](https://www.cnb.bank/Who-We-Are/News-and-Announcements/entryid/208/cnb-bank-announces-joe-hronesz-as-next-cfo).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Bank CFO; well-connected",
-      "approach_recommendations": {
-        "motivations": [
-          "tax_revenue_benefit",
-          "property_value"
-        ],
-        "engage": "Have the project\u2019s economic or financial representative reach out to Hronesz. A data-rich discussion emphasizing local tax benefits, economic growth, and financial assurances will align with his business perspective and address any fiscal or investment concerns."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "currently serving as Senior Vice President and Chief Credit Officer of CNB Bank",
-          "url": "https://www.cnb.bank/Who-We-Are/News-and-Announcements/entryid/208/cnb-bank-announces-joe-hronesz-as-next-cfo",
-          "title": "CNB Bank Announces Joe Hronesz as Next CFO",
-          "date": "2024-10-18"
-        },
-        {
-          "claim": "will become the bank\u2019s Chief Financial Officer effective Spring 2025",
-          "url": "https://www.cnb.bank/Who-We-Are/News-and-Announcements/entryid/208/cnb-bank-announces-joe-hronesz-as-next-cfo",
-          "title": "CNB Bank Announces Joe Hronesz as Next CFO",
-          "date": "2024-10-18"
-        },
-        {
-          "claim": "residence with wife Jess (Jessica)",
-          "url": "https://www.cnb.bank/Who-We-Are/News-and-Announcements/entryid/208/cnb-bank-announces-joe-hronesz-as-next-cfo",
-          "title": "CNB Bank Announces Joe Hronesz as Next CFO",
-          "date": "2024-10-18"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-05",
-      "name": "Jonathan D. Smith and Tonya R. Smith",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "02 9G002800000000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jonathan D. Smith is a licensed chiropractor operating 'Jonathan D. Smith, DC, PC' in Falling Waters, WV [Wellness.com Provider Listing](https://green.wellness.com/find/chiropractor/wv/rippon/3). No public statements on development were found for the Smiths, who appear to be private residents [Berkeley County Assessor](https://www.theassessor.org/).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local business owner (Chiropractor)",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "local_control"
-        ],
-        "engage": "Engage the Smiths through one-on-one conversation to build trust. As a local healthcare provider, Mr. Smith may have a network of local patients; a professional, transparent approach is recommended."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Jonathan D. Smith is a licensed chiropractor operating 'Jonathan D. Smith, DC, PC' in Falling Waters, WV",
-          "url": "https://green.wellness.com/find/chiropractor/wv/rippon/3",
-          "title": "Wellness.com Chiropractor Listing Falling Waters WV",
-          "date": "2024-01-21"
-        },
-        {
-          "claim": "No public statements on development were found",
-          "url": "https://www.theassessor.org/",
-          "title": "Berkeley County Assessor",
-          "date": "2024-01-21"
+          "claim": "Sustainability goals to reduce carbon intensity by 82% by 2035",
+          "url": "https://media.srpnet.com/srp-provides-progress-report-toward-2035-sustainability-goals/",
+          "title": "SRP provides progress report toward 2035 Sustainability Goals",
+          "date": "2026-01-15",
+          "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "FFPLS Hedgesville LLC",
+      "name": "Westech Lumber LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "02-9001000120000"
+        "14321007A"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "FFPLS Hedgesville LLC is the owner of approximately 58 acres along WV Route 9 (Hedgesville Rd) where a multi-lot commercial development known as \u201cMaple Ridge Station\u201d has been proposed ([source](https://wvlegals.com/public-notice-28467/)). The development plan includes a proposed 33,100 sq. ft. multi-bay vehicle and truck maintenance facility on Lot 1 ([source](https://wvlegals.com/public-notice-28467/)). The LLC has marketed portions of the tract for sale, including a 27.3-acre lot listed at approximately $2.32 million and a 4-acre lot for $400,000 ([source](https://www.crexi.com/properties/WV/Martinsburg)), indicating an intent to develop or sell the land for profit. Listings note that the seller will provide site work for an additional cost ([source](https://www.loopnet.com/Listing/1810-Hedgesville-Road-Martinsburg-WV/35028923/)). The entity is listed as a defendant in multiple civil actions in Berkeley County, including Case Nos. 2022-C-000073 and 2022-C-000074 ([source](https://apps.sos.wv.gov/business/service-of-process/Home/Search?DefendantName=FFPLS%20HEDGESVILLE%20LLC)).",
+      "claims": "Westech Lumber LLC operates a construction materials supply business at 8525 N 75th Ave in Peoria ([hub.biz](https://westech-lumber-llc.hub.biz/)). It is a subsidiary of the Younger Brothers Companies, a major regional construction and development entity ([youngerbrothers.com](https://www.youngerbrothers.com/companies/westech)). The facility serves as a lumber yard and truss plant for the parent company's operations ([youngerbrothers.com](https://www.youngerbrothers.com/about-us)). While Younger Brothers is deeply involved in residential and commercial construction, public records do not indicate a specific stance on third-party renewable energy developments, though the company is a licensed contractor ([roc.az.gov](https://roc.az.gov/sites/default/files/ROC_Posting-List_Dual_2025-08-18.csv)).",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Privately-held land developer with a single identified commercial project; no record of broad community leadership or political office found.",
+      "community_influence": "Medium",
+      "influence_justification": "Established local business and major employer in the construction sector; part of the prominent Younger Brothers group.",
       "approach_recommendations": {
         "motivations": [
-          "Real estate development",
-          "Commercial property sales"
+          "Construction supply contracts",
+          "Site access"
         ],
-        "engage": "Engage the LLC\u2019s managing agent or developer directly; emphasize how the project can coexist or even enhance their site\u2019s value (e.g. infrastructure upgrades). If needed, offer coordination on access or buffers to address any concerns about property value or visibility."
+        "engage": "Maintain open communication about construction schedules; emphasize potential business opportunities for construction materials supply."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Westech Lumber is the materials supply arm of Younger Brothers Companies, operating a lumber yard and manufacturing facility. They are a significant local industrial stakeholder.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Westech Lumber LLC operates a construction materials supply business at 8525 N 75th Ave in Peoria",
+          "url": "https://westech-lumber-llc.hub.biz/",
+          "title": "Westech Lumber Profile",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "It is a subsidiary of the Younger Brothers Companies",
+          "url": "https://www.youngerbrothers.com/companies/westech",
+          "title": "Younger Brothers Companies - Westech",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "The facility serves as a lumber yard and truss plant",
+          "url": "https://www.youngerbrothers.com/about-us",
+          "title": "Younger Brothers About Us",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "the company is a licensed contractor",
+          "url": "https://roc.az.gov/sites/default/files/ROC_Posting-List_Dual_2025-08-18.csv",
+          "title": "AZ ROC Contractor List",
+          "date": "2025-08-18",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "19 Acres LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321011A",
+        "14321005E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "19 Acres LLC is an Arizona limited liability company holding land in the project vicinity. Public filings identify Nicolas Tran as a member/manager of the entity ([bizprofile.net](https://www.bizprofile.net/az/peoria/azul-pressure-washing-llc)). The entity appears to function as a passive landholding vehicle with no visible business operations at the site ([bizprofile.net](https://www.bizprofile.net/az/peoria/105)). No records of development applications or public stances on renewable energy were found for this entity or its principal.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Passive land investor with no identified local political activity or operational footprint.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value appreciation",
+          "Exit strategy"
+        ],
+        "engage": "Engage with the registered agent/principal regarding land acquisition or partnership; highlight property value enhancement."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": "Speculative landholding entity managed by Nicolas Tran. No active operations found.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public filings identify Nicolas Tran as a member/manager of the entity",
+          "url": "https://www.bizprofile.net/az/peoria/azul-pressure-washing-llc",
+          "title": "Arizona Corporation Commission Data via BizProfile",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "The entity appears to function as a passive landholding vehicle",
+          "url": "https://www.bizprofile.net/az/peoria/105",
+          "title": "Peoria Business Directory",
+          "date": "2025-01-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "City of Peoria",
+      "entity_category": "Organization",
+      "entity_type": "municipality",
+      "pins": [
+        "14220120",
+        "14220106"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "The City of Peoria owns municipal land in the vicinity. The City has demonstrated a supportive stance toward renewable energy, having unanimously approved a partnership with Ameresco to install solar covered parking canopies at multiple city facilities ([peoriaaz.gov](https://www.peoriaaz.gov/Home/Components/News/News/548/)). The City operates under the 'Sustainable Peoria Plan,' which outlines goals for energy efficiency and resource conservation ([westbrookvillage.org](https://westbrookvillage.org/wp-content/uploads/2023/01/Sustainable-Peoria-Plan-20.pdf)). As a regulator, the City evaluates projects based on zoning and community benefit, but its own operational history indicates a willingness to integrate solar technology ([ameresco.com](https://www.ameresco.com/peoria-embarks-energy-efficiency-partnership-ameresco/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Regulatory authority and landowner; has established sustainability goals.",
+      "approach_recommendations": {
+        "motivations": [
+          "Sustainability goals",
+          "Community benefit"
+        ],
+        "engage": "Align project proposals with the Sustainable Peoria Plan; highlight contributions to the city's renewable energy targets."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": "Municipal entity with a documented track record of supporting and investing in solar energy for city operations.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "having unanimously approved a partnership with Ameresco to install solar covered parking canopies",
+          "url": "https://www.peoriaaz.gov/Home/Components/News/News/548/",
+          "title": "Peoria City Council Approves Solar Project",
+          "date": "2017-06-14",
+          "note": null
+        },
+        {
+          "claim": "The City operates under the 'Sustainable Peoria Plan,' which outlines goals for energy efficiency",
+          "url": "https://westbrookvillage.org/wp-content/uploads/2023/01/Sustainable-Peoria-Plan-20.pdf",
+          "title": "Sustainable Peoria Plan",
+          "date": "2023-01-01",
+          "note": null
+        },
+        {
+          "claim": "operational history indicates a willingness to integrate solar technology",
+          "url": "https://www.ameresco.com/peoria-embarks-energy-efficiency-partnership-ameresco/",
+          "title": "Ameresco Press Release",
+          "date": "2017-06-28",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Caretaker West Peoria Parcel LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220118",
+        "14220117",
+        "14220114"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Caretaker West Peoria Parcel LLC is an Arizona limited liability company holding multiple parcels in the area. Public records identify Mary A. Wall as a member/manager of the entity ([bizprofile.net](https://www.bizprofile.net/az/gilbert/o-side-getaway-llc)). The entity appears to function as a real estate holding vehicle. While the name shares a keyword with 'Caretaker Landscape,' a major local firm, the registered principal (Mary A. Wall) differs from the landscape company's owner (Matt White), and no definitive operational link has been confirmed ([caretakerlandscape.com](https://www.caretakerlandscape.com/team/matt-white/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Significant landholder in the immediate vicinity; influence stems from property rights.",
+      "approach_recommendations": {
+        "motivations": [
+          "Land value",
+          "Development potential"
+        ],
+        "engage": "Contact the registered principal to discuss development plans and potential synergies."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": "Landholding entity managed by Mary A. Wall. Likely speculative investment.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records identify Mary A. Wall as a member/manager of the entity",
+          "url": "https://www.bizprofile.net/az/gilbert/o-side-getaway-llc",
+          "title": "Caretaker West Peoria Parcel LLC Profile",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "the landscape company's owner (Matt White)",
+          "url": "https://www.caretakerlandscape.com/team/matt-white/",
+          "title": "Caretaker Landscape Team",
+          "date": "2025-01-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Phi Plp 13 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220158"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Phi PLP 13 LLC is a registered entity in Maricopa County linked to the VanTrust Real Estate development portfolio [Bizprofile](https://www.bizprofile.net/az/scottsdale/helping-hands-rn-services). The entity is associated with the Peoria Logistics Park (Northern & 75th Avenues), a master-planned industrial park where VanTrust Real Estate serves as the developer [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html). In late 2024, the park's developer sold an 80-acre tract to Aligned Data Centers for $43.2 million, marking a significant land disposition to a major industrial user [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "As the land-holding entity for a major industrial developer (VanTrust), the entity drives significant local economic activity but functions primarily as a corporate vehicle rather than a community leader.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value appreciation",
+          "Industrial infrastructure compatibility"
+        ],
+        "engage": "Engage VanTrust Real Estate’s local development representative to emphasize how the new project complements their industrial park plan; coordinate on infrastructure or access improvements that benefit both parties."
       },
       "entity_classification": "land_investment",
       "profile_summary": null,
@@ -1143,865 +428,652 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Owner of approximately 58 acres along WV Route 9 (Hedgesville Rd) where a multi-lot commercial development known as \u201cMaple Ridge Station\u201d has been proposed",
-          "url": "https://wvlegals.com/public-notice-28467/",
-          "title": "Public Notice - Maple Ridge Station Concept Plan",
-          "date": "2025-12-17"
+          "claim": "Phi PLP 13 LLC is a registered entity in Maricopa County linked to the VanTrust Real Estate development portfolio",
+          "url": "https://www.bizprofile.net/az/scottsdale/helping-hands-rn-services",
+          "title": "Phi Plp 13, LLC Company Profile - Bizprofile",
+          "date": "2023-12-19",
+          "note": null
         },
         {
-          "claim": "Development plan includes a proposed 33,100 sq. ft. multi-bay vehicle and truck maintenance facility on Lot 1",
-          "url": "https://wvlegals.com/public-notice-28467/",
-          "title": "Public Notice - Maple Ridge Station Concept Plan",
-          "date": "2025-12-17"
+          "claim": "Associated with the Peoria Logistics Park where VanTrust Real Estate serves as the developer",
+          "url": "https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html",
+          "title": "Aligned Data Centers buys land in Peoria Logistics Park",
+          "date": "2024-10-10",
+          "note": null
         },
         {
-          "claim": "Marketed portions of the tract for sale, including a 27.3-acre lot listed at approximately $2.32 million",
-          "url": "https://www.crexi.com/properties/WV/Martinsburg",
-          "title": "Crexi Commercial Real Estate Listings Martinsburg",
-          "date": "2026-01-21"
+          "claim": "Sold an 80-acre tract to Aligned Data Centers for $43.2 million",
+          "url": "https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/",
+          "title": "Aligned acquires land in Phoenix, Arizona",
+          "date": "2024-11-05",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Trader Joes Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14220157"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Trader Joe’s Company purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash for the site in 2024 [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/). The facility is part of Trader Joe’s regional supply network and was drawn to the location’s central valley position and build-to-suit opportunity, following the lead of Frito Lay’s nearby facility [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/04/22/trader-joes-peoria-logistics-park.html). The company has demonstrated a corporate commitment to sustainability, including goals to match electricity use with renewable energy and reduce refrigerant emissions [EPA](https://www.epa.gov/enforcement/trader-joes-company-clean-air-act-settlement).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "High-profile national brand with local distribution investment; moderate job creator and economic contributor, but limited direct community engagement regarding local development policy.",
+      "approach_recommendations": {
+        "motivations": [
+          "Supply chain efficiency",
+          "Operational continuity"
+        ],
+        "engage": "Coordinate with Trader Joe’s corporate logistics/property management team to ensure the project does not impede trucking access or facility operations; highlight any improvements (e.g., road upgrades) that could benefit their distribution efficiency."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash",
+          "url": "https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/",
+          "title": "New Peoria Logistics Park Fills Up With Tenants",
+          "date": "2024-04-22",
+          "note": null
         },
         {
-          "claim": "Marketed a 4-acre lot for $400,000",
-          "url": "https://www.loopnet.com/Listing/1810-Hedgesville-Road-Martinsburg-WV/35028923/",
-          "title": "LoopNet Listing 1810 Hedgesville Road",
-          "date": "2025-12-02"
+          "claim": "Drawn to the location’s central valley position and build-to-suit opportunity",
+          "url": "https://www.bizjournals.com/phoenix/news/2024/04/22/trader-joes-peoria-logistics-park.html",
+          "title": "Trader Joe's buys land for distribution center in Peoria",
+          "date": "2024-04-22",
+          "note": null
         },
         {
-          "claim": "Seller will provide site work for an additional cost",
-          "url": "https://www.loopnet.com/Listing/1810-Hedgesville-Road-Martinsburg-WV/35028923/",
-          "title": "LoopNet Listing 1810 Hedgesville Road",
-          "date": "2025-12-02"
+          "claim": "Corporate commitment to sustainability and renewable energy goals",
+          "url": "https://www.epa.gov/enforcement/trader-joes-company-clean-air-act-settlement",
+          "title": "Trader Joe's Company Clean Air Act Settlement",
+          "date": "2016-06-21",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aligned Data Centers Peoria Prop Co Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14223012A",
+        "14223006D",
+        "14223012B"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Aligned Data Centers Peoria Prop Co LLC, part of Aligned Data Centers, acquired a substantial land parcel in the Peoria Logistics Park from VanTrust Real Estate for $43.2 million in late 2024 [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). The company plans to develop a data center campus on the site, adding to its existing Phoenix and Glendale presence [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html). Aligned Data Centers has a stated commitment to matching 100% of its annual energy consumption with zero-carbon renewable energy and has previously partnered with local utilities on microgrid projects [Aligned Data Centers](https://aligneddc.com/blog/aligned-data-centers-achieves-2021-milestones-in-growth-sustainability-and-historic-green-financing/).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major technology infrastructure investor with a large landholding; significant capital investment and close ties to municipal infrastructure planning and utility partnerships.",
+      "approach_recommendations": {
+        "motivations": [
+          "Power reliability",
+          "Renewable energy credits",
+          "Infrastructure expansion"
+        ],
+        "engage": "Engage Aligned’s development executives early to align on utility infrastructure and site planning; assure them the project will not compromise (and may even enhance) critical resources like power capacity or fiber connectivity needed for their future data center operations."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Acquired a substantial land parcel in the Peoria Logistics Park for $43.2 million in late 2024",
+          "url": "https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/",
+          "title": "Aligned acquires land in Phoenix, Arizona",
+          "date": "2024-11-05",
+          "note": null
         },
         {
-          "claim": "Listed as a defendant in multiple civil actions in Berkeley County",
-          "url": "https://apps.sos.wv.gov/business/service-of-process/Home/Search?DefendantName=FFPLS%20HEDGESVILLE%20LLC",
-          "title": "WV Secretary of State Service of Process Search",
-          "date": "2026-01-21"
+          "claim": "Plans to develop a data center campus on the site, adding to its existing Phoenix and Glendale presence",
+          "url": "https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html",
+          "title": "Aligned Data Centers buys land in Peoria Logistics Park",
+          "date": "2024-10-10",
+          "note": null
+        },
+        {
+          "claim": "Commitment to matching 100% of its annual energy consumption with zero-carbon renewable energy",
+          "url": "https://aligneddc.com/blog/aligned-data-centers-achieves-2021-milestones-in-growth-sustainability-and-historic-green-financing/",
+          "title": "Aligned Data Centers Achieves Milestones in Growth and Sustainability",
+          "date": "2022-02-08",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Westech Lumber Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321010D",
+        "14321010A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Westech Lumber LLC is a lumber and hardware retailer located at 8525 N 75th Ave in Peoria, serving professional contractors and DIY customers [MapQuest](https://www.mapquest.com/us/arizona/westech-lumber-459493132). The business is owned by Younger Brothers Companies, a major Arizona construction services firm [Younger Brothers](https://www.youngerbrothers.com/companies/westech). Younger Brothers Companies has publicized a 'Clean Energy Plan' and promotes itself as 'Green Friendly,' utilizing sustainable forest products and solar energy at its facilities [YouTube](https://www.youtube.com/watch?v=7P-m7cAyGjg).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Low",
+      "influence_justification": "Small independent business unit of a larger regional company; well-regarded locally for trade supply but limited political clout compared to major developers.",
+      "approach_recommendations": {
+        "motivations": [
+          "Business continuity",
+          "Construction growth"
+        ],
+        "engage": "Meet with the manager of Westech Lumber to address any concerns (e.g., road closures) and highlight that the development could drive more building projects; reference the parent company's sustainability goals to build rapport."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Lumber and hardware retailer located at 8525 N 75th Ave in Peoria",
+          "url": "https://www.mapquest.com/us/arizona/westech-lumber-459493132",
+          "title": "Westech Lumber LLC - MapQuest",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Owned by Younger Brothers Companies",
+          "url": "https://www.youngerbrothers.com/companies/westech",
+          "title": "Westech | Younger Brothers Companies",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Younger Brothers Companies has publicized a 'Clean Energy Plan' and promotes itself as 'Green Friendly'",
+          "url": "https://www.youtube.com/watch?v=7P-m7cAyGjg",
+          "title": "Younger Brothers Companies are GREEN Friendly!",
+          "date": "2010-10-25",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Ci351 Peoria Logistics LLC / Douglas Peoria Logistics LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220156"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC are entities associated with the Peoria Logistics Park development at Northern & 75th Avenues ([Bizprofile](https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2)) ([Bizprofile](https://www.bizprofile.net/ca/manhattan-beach/zevo-partners-llc)). The site is part of a 150-acre industrial infill project developed by VanTrust Real Estate, which broke ground in 2022 ([Peoria AZ](https://www.peoriaaz.gov/Home/Components/News/News/4449/)). The land was historically used for agriculture (Rovey family dairy) before being rezoned and sold for the Legacy Point master plan ([Peoria AZ](https://www.peoriaaz.gov/Home/Components/News/News/4449/)). While VanTrust is the master developer, these specific LLCs appear in business directories linked to the logistics park context, though their specific management structure is not detailed in available public records ([Bizprofile](https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2)). The entities appear to function as special purpose vehicles for land holding or investment within the broader industrial park project.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Associated with a major industrial development project (Peoria Logistics Park); influence stems from significant real estate investment rather than direct community leadership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Investment return",
+          "Industrial development"
+        ],
+        "engage": "Engage through the master developer (VanTrust Real Estate) or project leads for Peoria Logistics Park. The entities likely represent investment interests aligned with the industrial build-out."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Investment entities linked to the 150-acre Peoria Logistics Park development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Ci351 Peoria Logistics LLC and Douglas Peoria Logistics LLC are entities associated with the Peoria Logistics Park development",
+          "url": "https://www.bizprofile.net/ca/los-angeles/jib-yuma-llc-2",
+          "title": "Ci351 Peoria Logistics LLC Company Profile",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "Douglas Peoria Logistics LLC listed in business directory",
+          "url": "https://www.bizprofile.net/ca/manhattan-beach/zevo-partners-llc",
+          "title": "Douglas Peoria Logistics LLC Company Profile",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "Peoria Logistics Park is a 150-acre industrial infill project developed by VanTrust Real Estate",
+          "url": "https://www.peoriaaz.gov/Home/Components/News/News/4449/",
+          "title": "Construction Starts on Massive Industrial Park in Peoria",
+          "date": "2022-04-13",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "F&J Ruiz Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220116",
+        "14220107",
+        "14220115",
+        "14220108"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "F&J Ruiz Holdings LLC is an Arizona limited liability company associated with land ownership in the Northern Ave/75th Ave vicinity. The entity was among the landowners in the area assembled for the Legacy Point/Peoria Logistics Park project ([Commercial Search](https://www.commercialsearch.com/news/vantrust-breaks-ground-on-phoenix-area-logistics-project/)). VanTrust Real Estate acquired approximately 108 acres in this area in late 2023 for the industrial park development, a transaction involving a significant multi-million dollar sum ([VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/)). The LLC appears to function as a real estate holding vehicle, with no other active business operations publicly listed beyond this land investment activity.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private investment entity with no documented public community leadership role; influence limited to historical land ownership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial ROI"
+        ],
+        "engage": "If the entity retains any remnant parcels, approach with financial offers aligned with the area's industrial transition. The primary motivation appears to be investment return."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Land holding entity that sold property for the Peoria Logistics Park development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "VanTrust Real Estate acquired approximately 108 acres in this area in late 2023",
+          "url": "https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/",
+          "title": "New Peoria Logistics Park Fills Up With Tenants",
+          "date": "2024-04-22",
+          "note": null
+        },
+        {
+          "claim": "Peoria Logistics Park development at Northern and 75th Avenues",
+          "url": "https://www.commercialsearch.com/news/vantrust-breaks-ground-on-phoenix-area-logistics-project/",
+          "title": "VanTrust Breaks Ground on Phoenix-Area Logistics Project",
+          "date": "2022-04-15",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sharro LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220121",
+        "14220122"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharro LLC is an Arizona limited liability company that owns industrial property in Peoria, specifically the parcels at 7773 W Seldon Ln and 7634 W Carol Ave ([Xome](https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990)) ([Xome](https://www.xome.com/realestate/7634-w-carol-ave-peoria-az-85345-4540894)). The property at 7773 W Seldon Ln is a light industrial site (machine shop/office) acquired by Sharro LLC in 2020 ([Xome](https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990)). Public records indicate the site is associated with Cascade Drilling, an environmental and geotechnical drilling service provider, suggesting Sharro LLC may act as the property holding company or landlord ([Kompass](https://us.kompass.com/c/cascade-drilling-l-p/usm07768300/)). The entity was incorporated in 2015 with a principal address in Phoenix ([Bizprofile](https://www.bizprofile.net/az/phoenix/sharro-llc)). There are no public records of Sharro LLC engaging in local political or planning discussions, implying a neutral stance focused on industrial property operations.",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Low",
+      "influence_justification": "Industrial property owner with no significant public profile or documented community leadership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value",
+          "Business operations"
+        ],
+        "engage": "Approach as a standard industrial neighbor. Address potential impacts on access or operations at the Seldon Ln facility. The owner appears to be a real estate holding entity for industrial operations."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Industrial property owner (holding company) for sites on W Seldon Ln and W Carol Ave.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Sharro LLC owns the parcel at 7773 W Seldon Ln",
+          "url": "https://www.xome.com/realestate/7773-w-seldon-ln-peoria-az-85345-4540990",
+          "title": "7773 W Seldon Ln Property Details",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "Sharro LLC owns the parcel at 7634 W Carol Ave",
+          "url": "https://www.xome.com/realestate/7634-w-carol-ave-peoria-az-85345-4540894",
+          "title": "7634 W Carol Ave Property Details",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "Site associated with Cascade Drilling",
+          "url": "https://us.kompass.com/c/cascade-drilling-l-p/usm07768300/",
+          "title": "Cascade Drilling L.P. Company Profile",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "Sharro LLC incorporated in 2015",
+          "url": "https://www.bizprofile.net/az/phoenix/sharro-llc",
+          "title": "Sharro LLC Company Profile",
+          "date": "2025-01-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Transwestern Pipeline Company LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220109"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Transwestern Pipeline Company, LLC owns and operates a major interstate natural gas pipeline system that transports gas from Texas and the Four Corners area to California ([Energy Transfer](https://twtransfer.energytransfer.com/)). The company is a subsidiary of Energy Transfer Partners ([Energy Transfer](https://twtransfer.energytransfer.com/)). Transwestern maintains the \"Phoenix Lateral\" pipeline segment which runs through Maricopa County, delivering natural gas to the Phoenix area ([Pipeline Safety Info](https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf)). As a regulated utility infrastructure owner, Transwestern’s primary concern is protecting its pipeline easement and ensuring development adheres to safety setbacks; the company typically does not engage in local development debates beyond enforcing safety requirements ([Pipeline Safety Info](https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "Controls critical energy infrastructure and has federal/state regulatory backing for easement enforcement, though lacks direct local political participation.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure safety",
+          "Easement protection"
+        ],
+        "engage": "Coordinate early with Transwestern’s right-of-way department regarding any crossings or setbacks. Strict adherence to safety regulations will likely secure their non-objection."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": "Major interstate pipeline operator with critical infrastructure easements in the area.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Transwestern Pipeline Company owns and operates a major interstate natural gas pipeline system",
+          "url": "https://twtransfer.energytransfer.com/",
+          "title": "Transwestern Pipeline Company Informational Postings",
+          "date": "2025-01-22",
+          "note": null
+        },
+        {
+          "claim": "Maintains the Phoenix Lateral pipeline segment in Maricopa County",
+          "url": "https://www.pipelinesafetyinfo.com/user/file/Arizona/Transwestern%20Pipeline%20Company.pdf",
+          "title": "Transwestern Pipeline Company Safety Brochure",
+          "date": "2025-01-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "DCMS Properties LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220110"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "DCMS Properties LLC is an Arizona limited liability company recorded as the owner of Maricopa County parcel 142-20-110 (8710 N 77th Dr) ([Elementix](https://elementix.ai/investors/az/jesse-dehorty)). Public records identify Jesse Dehorty as a principal associated with the entity ([Elementix](https://elementix.ai/investors/az/jesse-dehorty)). Jesse Dehorty is the owner of Dehorty Contracting & Management Services LLC, a licensed general contractor in Arizona with a business address at the adjacent property, 8715 N 78th Ave ([The Blue Book](https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/)). The LLC appears to serve as a landholding vehicle for business or investment assets related to Dehorty's construction operations ([The Blue Book](https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Principal Jesse Dehorty owns Dehorty Contracting, an established local construction business.",
+      "approach_recommendations": {
+        "motivations": [
+          "Business Investment",
+          "Property Value"
+        ],
+        "engage": "Engage Jesse Dehorty directly via his contracting business. As a construction professional, he may be receptive to discussions about land value and development potential."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "DCMS Properties LLC is an Arizona limited liability company recorded as the owner of Maricopa County parcel 142-20-110 (8710 N 77th Dr)",
+          "url": "https://elementix.ai/investors/az/jesse-dehorty",
+          "title": "Jesse Dehorty - DCMS Properties LLC",
+          "date": "2026-01-22",
+          "note": null
+        },
+        {
+          "claim": "Public records identify Jesse Dehorty as a principal associated with the entity",
+          "url": "https://elementix.ai/investors/az/jesse-dehorty",
+          "title": "Jesse Dehorty - DCMS Properties LLC",
+          "date": "2026-01-22",
+          "note": null
+        },
+        {
+          "claim": "Jesse Dehorty is the owner of Dehorty Contracting & Management Services LLC, a licensed general contractor in Arizona with a business address at the adjacent property, 8715 N 78th Ave",
+          "url": "https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/",
+          "title": "Dehorty Contracting & Mgmt Services - The Blue Book",
+          "date": "2026-01-22",
+          "note": null
+        },
+        {
+          "claim": "The LLC appears to serve as a landholding vehicle for business or investment assets related to Dehorty's construction operations",
+          "url": "https://www.thebluebook.com/iProView/879357/dehorty-contracting-mgmt-services/general-contractors/locations-contacts/",
+          "title": "Dehorty Contracting & Mgmt Services - The Blue Book",
+          "date": "2026-01-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Num 1 Job LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321009A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Num 1 Job LLC is listed in Maricopa County records as the owner of a property at 9819 W Butler Dr (Parcel 143-21-009A) ([Homes.com](https://www.homes.com/property/9819-w-butler-dr-peoria-az/gxt8ghd2wc3km/)). Contrary to the draft, the LLC's formation documents list a member address at 12320 N 71st Dr, Peoria, AZ ([AZCC](https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121)). This address is a residential property, suggesting the LLC serves as a private landholding vehicle ([AZCC](https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121)). No other active business operations or public stances on development were found for this entity ([AZCC](https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=02865348)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private LLC with a residential member address; no evidence of broader community influence.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial Return"
+        ],
+        "engage": "Reach out via the member address at 12320 N 71st Dr, Peoria, AZ. Frame outreach around the financial upside of the land asset."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Num 1 Job LLC is listed in Maricopa County records as the owner of a property at 9819 W Butler Dr (Parcel 143-21-009A)",
+          "url": "https://www.homes.com/property/9819-w-butler-dr-peoria-az/gxt8ghd2wc3km/",
+          "title": "9819 W Butler Dr, Peoria, AZ - Property Details",
+          "date": "2026-01-22",
+          "note": null
+        },
+        {
+          "claim": "Contrary to the draft, the LLC's formation documents list a member address at 12320 N 71st Dr, Peoria, AZ",
+          "url": "https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121",
+          "title": "Num 1 Job LLC - AZCC Filing Document",
+          "date": "2026-01-22",
+          "note": null
+        },
+        {
+          "claim": "This address is a residential property, suggesting the LLC serves as a private landholding vehicle",
+          "url": "https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=03150121",
+          "title": "Num 1 Job LLC - AZCC Filing Document",
+          "date": "2026-01-22",
+          "note": null
+        },
+        {
+          "claim": "No other active business operations or public stances on development were found for this entity",
+          "url": "https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=02865348",
+          "title": "Num 1 Job LLC - AZCC Entity Details",
+          "date": "2026-01-22",
+          "note": null
         }
       ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 39.56658,-77.941803",
-  "overview_summary": "Screening of 15 neighbors\u2014comprising 14 residents and one land development organization\u2014reveals that all currently hold an unknown stance toward the project. While 10 neighbors have low influence, three individuals possess high influence, including a bank executive and the Oates family, who are noted for their civic leadership. The identified organization is a profit-driven LLC focused on commercial conversion, while the residential majority consists of private landowners in the Potomac District whose concerns likely center on rural preservation. No formal opposition has been documented among the five high- and medium-influence neighbors, but their prominent roles suggest they are key stakeholders for initial outreach.",
+  "location_context": "Neighbors within 0.5 mi of 33.56027,-112.22223",
+  "overview_summary": null,
   "success": true,
-  "runtime_minutes": 35.49,
-  "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    }
-  ],
+  "runtime_minutes": 8.24,
+  "citations_flat": [],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260121_075533_9839.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260121_075327_2513.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260121_080317_2738.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260121_075511_1357.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260121_075208_8158.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260121_075335_6908.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260122_165603_1922.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165513_3990.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165431_9343.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_170942_7985.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165749_4125.json"
   ],
-  "city": "Potomac",
-  "county": "Berkeley County",
-  "state": "WV",
-  "run_id": "74a900fc-7236-4b65-9c94-3952774b8666",
-  "target_pin": "02 9000300000000",
+  "city": null,
+  "county": "Maricopa County",
+  "state": "AZ",
+  "run_id": "e2ad2470-f498-40da-83a4-484236cb2149",
+  "target_pin": "14220158",
   "target_parcel_info": {
-    "pin": "02 9000300000000",
+    "pin": "14220158",
     "geometry": {
-      "type": "MultiPolygon",
+      "type": "Polygon",
       "coordinates": [
         [
           [
-            [
-              -77.945253,
-              39.5646225
-            ],
-            [
-              -77.94519,
-              39.564591
-            ],
-            [
-              -77.9451645,
-              39.5651855
-            ],
-            [
-              -77.9451575,
-              39.565326
-            ],
-            [
-              -77.945144,
-              39.5654665
-            ],
-            [
-              -77.945124,
-              39.5656065
-            ],
-            [
-              -77.9450975,
-              39.565746
-            ],
-            [
-              -77.9450875,
-              39.565826
-            ],
-            [
-              -77.945084,
-              39.5659065
-            ],
-            [
-              -77.9450865,
-              39.565987
-            ],
-            [
-              -77.9450955,
-              39.566067
-            ],
-            [
-              -77.945111,
-              39.5661465
-            ],
-            [
-              -77.945136,
-              39.56629
-            ],
-            [
-              -77.9451505,
-              39.5663525
-            ],
-            [
-              -77.9451605,
-              39.566416
-            ],
-            [
-              -77.9451655,
-              39.5664795
-            ],
-            [
-              -77.945166,
-              39.566543
-            ],
-            [
-              -77.945161,
-              39.5666065
-            ],
-            [
-              -77.9451605,
-              39.5666425
-            ],
-            [
-              -77.945133,
-              39.5668265
-            ],
-            [
-              -77.945092,
-              39.567
-            ],
-            [
-              -77.9450685,
-              39.5670825
-            ],
-            [
-              -77.9450395,
-              39.5671645
-            ],
-            [
-              -77.9450045,
-              39.5672445
-            ],
-            [
-              -77.944964,
-              39.5673235
-            ],
-            [
-              -77.944918,
-              39.5674005
-            ],
-            [
-              -77.944867,
-              39.567469
-            ],
-            [
-              -77.9447555,
-              39.567622
-            ],
-            [
-              -77.9437185,
-              39.569094
-            ],
-            [
-              -77.942871,
-              39.5702995
-            ],
-            [
-              -77.948721,
-              39.5711735
-            ],
-            [
-              -77.9489895,
-              39.571214
-            ],
-            [
-              -77.9490435,
-              39.5711455
-            ],
-            [
-              -77.950366,
-              39.5694755
-            ],
-            [
-              -77.9509165,
-              39.568767
-            ],
-            [
-              -77.950911,
-              39.5687635
-            ],
-            [
-              -77.9492995,
-              39.567899
-            ],
-            [
-              -77.9499415,
-              39.5669335
-            ],
-            [
-              -77.9453215,
-              39.564656
-            ],
-            [
-              -77.945253,
-              39.5646225
-            ]
-          ]
-        ],
-        [
+            -112.220597,
+            33.559651
+          ],
           [
-            [
-              -77.938338,
-              39.5710415
-            ],
-            [
-              -77.938333,
-              39.5710885
-            ],
-            [
-              -77.9393485,
-              39.5705795
-            ],
-            [
-              -77.9394015,
-              39.5705545
-            ],
-            [
-              -77.9394575,
-              39.5705335
-            ],
-            [
-              -77.939516,
-              39.570517
-            ],
-            [
-              -77.9395765,
-              39.5705045
-            ],
-            [
-              -77.939638,
-              39.5704965
-            ],
-            [
-              -77.9397,
-              39.5704935
-            ],
-            [
-              -77.9397625,
-              39.570495
-            ],
-            [
-              -77.9398245,
-              39.570501
-            ],
-            [
-              -77.939885,
-              39.5705115
-            ],
-            [
-              -77.939944,
-              39.570527
-            ],
-            [
-              -77.9414635,
-              39.5710385
-            ],
-            [
-              -77.941694,
-              39.5711135
-            ],
-            [
-              -77.941834,
-              39.5711505
-            ],
-            [
-              -77.9418825,
-              39.571156
-            ],
-            [
-              -77.9419315,
-              39.571157
-            ],
-            [
-              -77.9419805,
-              39.571153
-            ],
-            [
-              -77.9420285,
-              39.571144
-            ],
-            [
-              -77.9420745,
-              39.5711305
-            ],
-            [
-              -77.9421175,
-              39.5711125
-            ],
-            [
-              -77.9421575,
-              39.5710905
-            ],
-            [
-              -77.9421935,
-              39.5710645
-            ],
-            [
-              -77.942225,
-              39.5710355
-            ],
-            [
-              -77.942251,
-              39.5710035
-            ],
-            [
-              -77.942643,
-              39.5704505
-            ],
-            [
-              -77.943337,
-              39.569464
-            ],
-            [
-              -77.941859,
-              39.5689685
-            ],
-            [
-              -77.942251,
-              39.5684125
-            ],
-            [
-              -77.9426425,
-              39.567856
-            ],
-            [
-              -77.94412,
-              39.5683515
-            ],
-            [
-              -77.9446625,
-              39.567582
-            ],
-            [
-              -77.9447745,
-              39.5674285
-            ],
-            [
-              -77.944824,
-              39.5673615
-            ],
-            [
-              -77.944867,
-              39.567289
-            ],
-            [
-              -77.9449055,
-              39.567215
-            ],
-            [
-              -77.944938,
-              39.5671395
-            ],
-            [
-              -77.9449655,
-              39.5670625
-            ],
-            [
-              -77.944987,
-              39.5669845
-            ],
-            [
-              -77.945028,
-              39.5668145
-            ],
-            [
-              -77.945054,
-              39.566637
-            ],
-            [
-              -77.945055,
-              39.566602
-            ],
-            [
-              -77.9450595,
-              39.5665425
-            ],
-            [
-              -77.9450595,
-              39.5664825
-            ],
-            [
-              -77.9450545,
-              39.5664225
-            ],
-            [
-              -77.945045,
-              39.566363
-            ],
-            [
-              -77.945031,
-              39.566304
-            ],
-            [
-              -77.9450055,
-              39.5661595
-            ],
-            [
-              -77.9449895,
-              39.566075
-            ],
-            [
-              -77.94498,
-              39.56599
-            ],
-            [
-              -77.9449775,
-              39.5659045
-            ],
-            [
-              -77.9449815,
-              39.565819
-            ],
-            [
-              -77.944992,
-              39.565734
-            ],
-            [
-              -77.9450185,
-              39.565597
-            ],
-            [
-              -77.945038,
-              39.5654595
-            ],
-            [
-              -77.9450515,
-              39.5653215
-            ],
-            [
-              -77.945058,
-              39.565183
-            ],
-            [
-              -77.945094,
-              39.5643505
-            ],
-            [
-              -77.945101,
-              39.56428
-            ],
-            [
-              -77.9451135,
-              39.56421
-            ],
-            [
-              -77.9451315,
-              39.5641405
-            ],
-            [
-              -77.945155,
-              39.5640725
-            ],
-            [
-              -77.9451195,
-              39.56405
-            ],
-            [
-              -77.9444505,
-              39.563627
-            ],
-            [
-              -77.9441855,
-              39.564163
-            ],
-            [
-              -77.9440935,
-              39.564321
-            ],
-            [
-              -77.9436995,
-              39.5647605
-            ],
-            [
-              -77.9432195,
-              39.5643155
-            ],
-            [
-              -77.943441,
-              39.563953
-            ],
-            [
-              -77.9442675,
-              39.562959
-            ],
-            [
-              -77.9446895,
-              39.563107
-            ],
-            [
-              -77.9445265,
-              39.5634625
-            ],
-            [
-              -77.945203,
-              39.56389
-            ],
-            [
-              -77.9452055,
-              39.5638915
-            ],
-            [
-              -77.9452345,
-              39.56391
-            ],
-            [
-              -77.9452785,
-              39.563843
-            ],
-            [
-              -77.945328,
-              39.563778
-            ],
-            [
-              -77.9453825,
-              39.563716
-            ],
-            [
-              -77.9462985,
-              39.5626685
-            ],
-            [
-              -77.9465385,
-              39.5623875
-            ],
-            [
-              -77.9475505,
-              39.5611575
-            ],
-            [
-              -77.9477615,
-              39.560915
-            ],
-            [
-              -77.9479955,
-              39.560627
-            ],
-            [
-              -77.9482425,
-              39.5603295
-            ],
-            [
-              -77.9483625,
-              39.5601895
-            ],
-            [
-              -77.9483985,
-              39.560149
-            ],
-            [
-              -77.948437,
-              39.56011
-            ],
-            [
-              -77.9485245,
-              39.5600005
-            ],
-            [
-              -77.948885,
-              39.559549
-            ],
-            [
-              -77.9488585,
-              39.5595325
-            ],
-            [
-              -77.9486275,
-              39.5593905
-            ],
-            [
-              -77.9481105,
-              39.559072
-            ],
-            [
-              -77.948044,
-              39.559079
-            ],
-            [
-              -77.946973,
-              39.5591805
-            ],
-            [
-              -77.945457,
-              39.559328
-            ],
-            [
-              -77.9445175,
-              39.559422
-            ],
-            [
-              -77.9444045,
-              39.5594305
-            ],
-            [
-              -77.944321,
-              39.5594335
-            ],
-            [
-              -77.944255,
-              39.5594365
-            ],
-            [
-              -77.9441885,
-              39.5594365
-            ],
-            [
-              -77.9441225,
-              39.559433
-            ],
-            [
-              -77.9400925,
-              39.567154
-            ],
-            [
-              -77.938926,
-              39.566357
-            ],
-            [
-              -77.938875,
-              39.5667625
-            ],
-            [
-              -77.938874,
-              39.5667715
-            ],
-            [
-              -77.9384095,
-              39.57047
-            ],
-            [
-              -77.938338,
-              39.5710415
-            ]
+            -112.2205935,
+            33.5609155
+          ],
+          [
+            -112.2206265,
+            33.5609155
+          ],
+          [
+            -112.2247085,
+            33.5609345
+          ],
+          [
+            -112.2247085,
+            33.560893
+          ],
+          [
+            -112.224708,
+            33.560432
+          ],
+          [
+            -112.224708,
+            33.56035
+          ],
+          [
+            -112.224708,
+            33.5603405
+          ],
+          [
+            -112.224708,
+            33.5602675
+          ],
+          [
+            -112.2247065,
+            33.5596115
+          ],
+          [
+            -112.224778,
+            33.559553
+          ],
+          [
+            -112.224737,
+            33.559554
+          ],
+          [
+            -112.224707,
+            33.5595545
+          ],
+          [
+            -112.2207445,
+            33.5596475
+          ],
+          [
+            -112.220597,
+            33.559651
           ]
         ]
       ]
     },
-    "lat": "39.566376",
-    "lon": "-77.944570",
-    "county_path": "/us/wv/berkeley/potomac"
-  },
-  "map_image_path": "src/neighbor/neighbor_outputs/74a900fc-7236-4b65-9c94-3952774b8666_map_full.png",
-  "map_thumbnail_path": "src/neighbor/neighbor_outputs/74a900fc-7236-4b65-9c94-3952774b8666_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Max O. Oates Jr.; Theodore K. Oates II; Mary Elizabeth Oates</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Robert M Cloud & Brenda L Cloud</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">Mark Chenoweth & Scarlett Chenoweth</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">4</td>\n                <td class=\"name\">Joe Ernest Hronesz and Jessica Frances Hronesz</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Jamie G. Roseman and Dianna L. Roseman</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Jonathan D. Smith and Tonya R. Smith</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
-  "map_labels": [
-    {
-      "text": "ROSEMAN",
-      "full_name": "Jamie G. Roseman and Dianna L. Roseman",
-      "lon": -77.9365891,
-      "lat": 39.56730815,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "02 9G001900000000"
-    },
-    {
-      "text": "OATES",
-      "full_name": "Max O. Oates Jr.; Theodore K. Oates II; Mary Elizabeth Oates",
-      "lon": -77.95124925,
-      "lat": 39.558888,
-      "marker_char": "1",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "04 22000400000000"
-    },
-    {
-      "text": "CLOUD",
-      "full_name": "Robert M Cloud & Brenda L Cloud",
-      "lon": -77.9384202,
-      "lat": 39.57343657777778,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "02 9000100000000"
-    },
-    {
-      "text": "CLOUD",
-      "full_name": "Robert M Cloud & Brenda L Cloud",
-      "lon": -77.94183114583333,
-      "lat": 39.57138454166667,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "02 9000100030000"
-    },
-    {
-      "text": "CHENOWET",
-      "full_name": "Mark Chenoweth & Scarlett Chenoweth",
-      "lon": -77.93548865625,
-      "lat": 39.56791228125,
-      "marker_char": "5",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "02 9G002400000000"
-    },
-    {
-      "text": "HRONESZ",
-      "full_name": "Joe Ernest Hronesz and Jessica Frances Hronesz",
-      "lon": -77.93359749999999,
-      "lat": 39.5682642,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "02 9G001000000000"
-    },
-    {
-      "text": "TARGET",
-      "full_name": "PIN: 02 9000300000000",
-      "lon": -77.94594723750001,
-      "lat": 39.5670245875,
-      "marker_char": "t",
-      "color": "FFD700",
-      "is_target": true,
-      "is_adjacent": false,
-      "influence": null,
-      "stance": null,
-      "pin": "02 9000300000000"
-    }
-  ],
-  "map_metadata": {
-    "run_id": "74a900fc-7236-4b65-9c94-3952774b8666",
-    "generated_at": "2026-01-21T10:58:04.392100",
-    "stats": {
-      "total_neighbors": 25,
-      "highlighted": 25,
-      "skipped_no_geometry": 6,
-      "skipped_not_highlighted": 0,
-      "by_influence": {
-        "High": 3,
-        "Medium": 2,
-        "Low": 20
-      },
-      "by_stance": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 0
-      },
-      "adjacent_highlighted": 5,
-      "target_included": true
-    },
-    "strategy_used": "polyline",
-    "url_length": 2957,
-    "parcels_rendered": 24,
-    "labels_count": 7,
-    "settings": {
-      "width": 800,
-      "height": 450,
-      "style": "satellite-streets-v12",
-      "retina": true,
-      "padding": 50
-    }
+    "lat": "33.560263",
+    "lon": "-112.222682",
+    "county_path": "/us/az/maricopa/phoenix"
   }
 }

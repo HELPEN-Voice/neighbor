@@ -1,0 +1,243 @@
+{
+  "timestamp": "2026-01-22T17:29:55.801133",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260122_165513_3990.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Phi Plp 13 Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14220158"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Phi PLP 13 LLC is a registered entity in Maricopa County linked to the VanTrust Real Estate development portfolio [Bizprofile](https://www.bizprofile.net/az/scottsdale/helping-hands-rn-services). The entity is associated with the Peoria Logistics Park (Northern & 75th Avenues), a master-planned industrial park where VanTrust Real Estate serves as the developer [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html). In late 2024, the park's developer sold an 80-acre tract to Aligned Data Centers for $43.2 million, marking a significant land disposition to a major industrial user [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "As the land-holding entity for a major industrial developer (VanTrust), the entity drives significant local economic activity but functions primarily as a corporate vehicle rather than a community leader.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value appreciation",
+          "Industrial infrastructure compatibility"
+        ],
+        "engage": "Engage VanTrust Real Estate’s local development representative to emphasize how the new project complements their industrial park plan; coordinate on infrastructure or access improvements that benefit both parties."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Phi PLP 13 LLC is a registered entity in Maricopa County linked to the VanTrust Real Estate development portfolio",
+          "url": "https://www.bizprofile.net/az/scottsdale/helping-hands-rn-services",
+          "title": "Phi Plp 13, LLC Company Profile - Bizprofile",
+          "date": "2023-12-19"
+        },
+        {
+          "claim": "Associated with the Peoria Logistics Park where VanTrust Real Estate serves as the developer",
+          "url": "https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html",
+          "title": "Aligned Data Centers buys land in Peoria Logistics Park",
+          "date": "2024-10-10"
+        },
+        {
+          "claim": "Sold an 80-acre tract to Aligned Data Centers for $43.2 million",
+          "url": "https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/",
+          "title": "Aligned acquires land in Phoenix, Arizona",
+          "date": "2024-11-05"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Trader Joes Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "14220157"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trader Joe’s Company purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash for the site in 2024 [VanTrust Real Estate](https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/). The facility is part of Trader Joe’s regional supply network and was drawn to the location’s central valley position and build-to-suit opportunity, following the lead of Frito Lay’s nearby facility [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/04/22/trader-joes-peoria-logistics-park.html). The company has demonstrated a corporate commitment to sustainability, including goals to match electricity use with renewable energy and reduce refrigerant emissions [EPA](https://www.epa.gov/enforcement/trader-joes-company-clean-air-act-settlement).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "High-profile national brand with local distribution investment; moderate job creator and economic contributor, but limited direct community engagement regarding local development policy.",
+      "approach_recommendations": {
+        "motivations": [
+          "Supply chain efficiency",
+          "Operational continuity"
+        ],
+        "engage": "Coordinate with Trader Joe’s corporate logistics/property management team to ensure the project does not impede trucking access or facility operations; highlight any improvements (e.g., road upgrades) that could benefit their distribution efficiency."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Purchased 16 acres in the Peoria Logistics Park for a 155,000 sq ft cold-storage distribution center, paying $7.1 million in cash",
+          "url": "https://vantrustrealestate.com/new-peoria-logistics-park-fills-up-with-tenants-including-two-major-food-brands/",
+          "title": "New Peoria Logistics Park Fills Up With Tenants",
+          "date": "2024-04-22"
+        },
+        {
+          "claim": "Drawn to the location’s central valley position and build-to-suit opportunity",
+          "url": "https://www.bizjournals.com/phoenix/news/2024/04/22/trader-joes-peoria-logistics-park.html",
+          "title": "Trader Joe's buys land for distribution center in Peoria",
+          "date": "2024-04-22"
+        },
+        {
+          "claim": "Corporate commitment to sustainability and renewable energy goals",
+          "url": "https://www.epa.gov/enforcement/trader-joes-company-clean-air-act-settlement",
+          "title": "Trader Joe's Company Clean Air Act Settlement",
+          "date": "2016-06-21"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aligned Data Centers Peoria Prop Co Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14223012A",
+        "14223006D",
+        "14223012B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Aligned Data Centers Peoria Prop Co LLC, part of Aligned Data Centers, acquired a substantial land parcel in the Peoria Logistics Park from VanTrust Real Estate for $43.2 million in late 2024 [DatacenterDynamics](https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/). The company plans to develop a data center campus on the site, adding to its existing Phoenix and Glendale presence [Phoenix Business Journal](https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html). Aligned Data Centers has a stated commitment to matching 100% of its annual energy consumption with zero-carbon renewable energy and has previously partnered with local utilities on microgrid projects [Aligned Data Centers](https://aligneddc.com/blog/aligned-data-centers-achieves-2021-milestones-in-growth-sustainability-and-historic-green-financing/).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major technology infrastructure investor with a large landholding; significant capital investment and close ties to municipal infrastructure planning and utility partnerships.",
+      "approach_recommendations": {
+        "motivations": [
+          "Power reliability",
+          "Renewable energy credits",
+          "Infrastructure expansion"
+        ],
+        "engage": "Engage Aligned’s development executives early to align on utility infrastructure and site planning; assure them the project will not compromise (and may even enhance) critical resources like power capacity or fiber connectivity needed for their future data center operations."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Acquired a substantial land parcel in the Peoria Logistics Park for $43.2 million in late 2024",
+          "url": "https://www.datacenterdynamics.com/en/news/aligned-acquires-land-in-phoenix-arizona/",
+          "title": "Aligned acquires land in Phoenix, Arizona",
+          "date": "2024-11-05"
+        },
+        {
+          "claim": "Plans to develop a data center campus on the site, adding to its existing Phoenix and Glendale presence",
+          "url": "https://www.bizjournals.com/phoenix/news/2024/10/10/aligned-data-centers-peoria-logistics-park-deals.html",
+          "title": "Aligned Data Centers buys land in Peoria Logistics Park",
+          "date": "2024-10-10"
+        },
+        {
+          "claim": "Commitment to matching 100% of its annual energy consumption with zero-carbon renewable energy",
+          "url": "https://aligneddc.com/blog/aligned-data-centers-achieves-2021-milestones-in-growth-sustainability-and-historic-green-financing/",
+          "title": "Aligned Data Centers Achieves Milestones in Growth and Sustainability",
+          "date": "2022-02-08"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Westech Lumber Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "14321010D",
+        "14321010A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Westech Lumber LLC is a lumber and hardware retailer located at 8525 N 75th Ave in Peoria, serving professional contractors and DIY customers [MapQuest](https://www.mapquest.com/us/arizona/westech-lumber-459493132). The business is owned by Younger Brothers Companies, a major Arizona construction services firm [Younger Brothers](https://www.youngerbrothers.com/companies/westech). Younger Brothers Companies has publicized a 'Clean Energy Plan' and promotes itself as 'Green Friendly,' utilizing sustainable forest products and solar energy at its facilities [YouTube](https://www.youtube.com/watch?v=7P-m7cAyGjg).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Low",
+      "influence_justification": "Small independent business unit of a larger regional company; well-regarded locally for trade supply but limited political clout compared to major developers.",
+      "approach_recommendations": {
+        "motivations": [
+          "Business continuity",
+          "Construction growth"
+        ],
+        "engage": "Meet with the manager of Westech Lumber to address any concerns (e.g., road closures) and highlight that the development could drive more building projects; reference the parent company's sustainability goals to build rapport."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Lumber and hardware retailer located at 8525 N 75th Ave in Peoria",
+          "url": "https://www.mapquest.com/us/arizona/westech-lumber-459493132",
+          "title": "Westech Lumber LLC - MapQuest",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Owned by Younger Brothers Companies",
+          "url": "https://www.youngerbrothers.com/companies/westech",
+          "title": "Westech | Younger Brothers Companies",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Younger Brothers Companies has publicized a 'Clean Energy Plan' and promotes itself as 'Green Friendly'",
+          "url": "https://www.youtube.com/watch?v=7P-m7cAyGjg",
+          "title": "Younger Brothers Companies are GREEN Friendly!",
+          "date": "2010-10-25"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 480159,
+    "thinking_count": 26
+  }
+}
