@@ -51,6 +51,7 @@ def combine_pdfs(location=None, date=None, run_id=None):
             "neighbor-title-page-playwright.pdf",
             "neighbor-parameters-playwright.pdf",
             "neighbor-map-playwright.pdf",
+            "neighbor-map-fullpage.pdf",
             "neighbor-deep-dive.pdf",
         ]
 

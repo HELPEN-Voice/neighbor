@@ -1,4 +1,6 @@
 import json
+import re
+import shutil
 from pathlib import Path
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -139,8 +141,6 @@ def generate_neighbor_reports(data: dict):
         raise
 
     # Copy logos to output directory
-    import shutil
-
     logo_dark = BASE / "templates" / "Helpen_Logo_Dark_Navy.svg"
     if logo_dark.exists():
         shutil.copy2(logo_dark, OUT / "Helpen_Logo_Dark_Navy.svg")
@@ -225,7 +225,6 @@ def generate_neighbor_reports(data: dict):
     map_generated = False
     if map_image_path:
         # Copy map image to output directory for HTML access
-        import shutil
         map_src = Path(map_image_path)
         if map_src.exists():
             map_dest = OUT / map_src.name
@@ -268,6 +267,45 @@ def generate_neighbor_reports(data: dict):
         f"[generate_neighbor_reports] ✓ Generated neighbor-map-playwright.html"
     )
 
+    # ---------- Full-page map (all neighbors) ----------
+    fullpage_map_image_path = data.get("fullpage_map_image_path")
+    fullpage_map_generated = False
+    if fullpage_map_image_path:
+        fullpage_src = Path(fullpage_map_image_path)
+        if fullpage_src.exists():
+            fullpage_dest = OUT / fullpage_src.name
+            shutil.copy2(fullpage_src, fullpage_dest)
+            fullpage_map_generated = True
+            print(f"[generate_neighbor_reports] Copied fullpage map image to output directory")
+
+    # Get fullpage map labels (includes ALL influence levels)
+    fullpage_map_labels = data.get("fullpage_map_labels", [])
+
+    # Build lookup from neighbor name to marker_char for the table
+    name_to_marker: dict = {}
+    for label in fullpage_map_labels:
+        if not label.get("is_target"):
+            name = label.get("full_name")
+            if name and name not in name_to_marker:
+                marker = label.get("marker_char", "")
+                name_to_marker[name] = marker.upper() if marker else ""
+
+    # Count total parcels (unique names + target)
+    total_parcels = len(name_to_marker) + 1  # +1 for target
+
+    fullpage_ctx = {
+        "fullpage_map_image_path": Path(fullpage_map_image_path).name if fullpage_map_image_path and fullpage_map_generated else None,
+        "county": data.get("county"),
+        "state": data.get("state"),
+        "coordinates": data.get("coordinates", "Not provided"),
+        "total_parcels": total_parcels,
+    }
+    html = env.get_template("neighbor-map-fullpage.html").render(**fullpage_ctx)
+    (OUT / "neighbor-map-fullpage.html").write_text(html, encoding="utf-8")
+    print(
+        f"[generate_neighbor_reports] ✓ Generated neighbor-map-fullpage.html"
+    )
+
     # ---------- Neighbor table ----------
     # New schema: neighbor_id, name, entity_category, entity_type, pins, claims, confidence
     neighbors = []
@@ -293,9 +331,13 @@ def generate_neighbor_reports(data: dict):
             # Handle legacy string format if present
             approach_text = approach if approach else ""
 
+        # Get map marker from fullpage map labels lookup
+        neighbor_name = nb.get("name", "")
+        map_marker = name_to_marker.get(neighbor_name, "")
+
         neighbor_dict = {
             "neighbor_id": nb.get("neighbor_id", ""),
-            "name": nb.get("name", ""),
+            "name": neighbor_name,
             "entity_category": nb.get("entity_category", ""),
             "entity_type": nb.get("entity_type", ""),
             "pins": nb.get("pins", []),  # Already a list in new schema
@@ -309,6 +351,7 @@ def generate_neighbor_reports(data: dict):
             "owns_adjacent_parcel": nb.get(
                 "owns_adjacent_parcel", "No"
             ),  # Added adjacency flag
+            "map_marker": map_marker,  # Map marker number for reference
         }
         neighbors.append(neighbor_dict)
 
@@ -336,6 +379,7 @@ def generate_neighbor_reports(data: dict):
         str(OUT / "neighbor-title-page-playwright.html"),
         str(OUT / "neighbor-parameters-playwright.html"),
         str(OUT / "neighbor-map-playwright.html"),
+        str(OUT / "neighbor-map-fullpage.html"),
         str(OUT / "neighbor-deep-dive.html"),
     ]
 

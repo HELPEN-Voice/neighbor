@@ -310,11 +310,12 @@
                 <table>
                     <thead>
                         <tr>
-                            <th style="width: 10%;">PINs</th>
+                            <th style="width: 3%;">#</th>
+                            <th style="width: 9%;">PINs</th>
                             <th style="width: 4%;">Adj.</th>
-                            <th style="width: 12%;">Name</th>
+                            <th style="width: 11%;">Name</th>
                             <th style="width: 8%;">Type</th>
-                            <th style="width: 32%;">Claims</th>
+                            <th style="width: 31%;">Claims</th>
                             <th style="width: 10%;">Stance</th>
                             <th style="width: 6%;">Influence</th>
                             <th style="width: 14%;">Approach</th>
@@ -324,6 +325,7 @@
                     <tbody>
                         {% for r in residents %}
                         <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">{{ r.map_marker if r.map_marker else '' }}</td>
                             <td style="font-size: 6.5pt;">{{ r.pins|join(', ')|normalize_pin if r.pins else '' }}</td>
                             <td style="text-align: center;">{{ '✓' if r.owns_adjacent_parcel == 'Yes' else '' }}</td>
                             <td><strong>{{ r.name if r.name else '' }}</strong></td>
@@ -356,11 +358,12 @@
                 <table>
                     <thead>
                         <tr>
-                            <th style="width: 10%;">PINs</th>
+                            <th style="width: 3%;">#</th>
+                            <th style="width: 9%;">PINs</th>
                             <th style="width: 4%;">Adj.</th>
-                            <th style="width: 11%;">Name</th>
+                            <th style="width: 10%;">Name</th>
                             <th style="width: 8%;">Type</th>
-                            <th style="width: 32%;">Claims</th>
+                            <th style="width: 31%;">Claims</th>
                             <th style="width: 6%;">Influence</th>
                             <th style="width: 11%;">Classification</th>
                             <th style="width: 14%;">Approach</th>
@@ -370,6 +373,7 @@
                     <tbody>
                         {% for r in organizations %}
                         <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">{{ r.map_marker if r.map_marker else '' }}</td>
                             <td style="font-size: 6.5pt;">{{ r.pins|join(', ')|normalize_pin if r.pins else '' }}</td>
                             <td style="text-align: center;">{{ '✓' if r.owns_adjacent_parcel == 'Yes' else '' }}</td>
                             <td><strong>{{ r.name if r.name else '' }}</strong></td>

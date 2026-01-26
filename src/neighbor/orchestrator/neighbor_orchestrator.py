@@ -22,6 +22,7 @@ from ..utils.db_connector import NeighborDBConnector
 from ..services.local_valuation import LocalValuationService
 from ..agents.verification_manager_neighbor import NeighborVerificationManager
 from ..mapping.map_generator import NeighborMapGenerator
+from ..mapping.fullpage_map_generator import FullPageMapGenerator
 
 # Engines
 from ..engines.base import ResearchEngine, ResearchEvent
@@ -254,6 +255,46 @@ def _engine_factory() -> ResearchEngine:
     if settings.ENGINE_TYPE == "agentsdk":
         return AgentsSDKEngine()
     return DeepResearchResponsesEngine()
+
+
+def generate_fullpage_map(
+    target_parcel: Dict[str, Any],
+    raw_parcels: List[Dict[str, Any]],
+    neighbor_profiles: List,
+    output_dir: Path,
+    run_id: str,
+) -> Optional[Dict[str, Any]]:
+    """
+    Generate a full-page map with all neighbors.
+
+    Returns dict with map paths/metadata on success, None on failure.
+    """
+    print(f"\n🗺️  Generating full-page neighbor map...")
+    fullpage_generator = FullPageMapGenerator(
+        target_parcel=target_parcel,
+        raw_parcels=raw_parcels,
+        neighbor_profiles=neighbor_profiles,
+        mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
+        output_dir=str(output_dir.parent / "neighbor_map_outputs"),
+        style=settings.MAPBOX_STYLE,
+        width=1920,
+        height=1080,
+        padding=80,
+        retina=True,
+    )
+
+    fullpage_result = fullpage_generator.generate(run_id=run_id)
+
+    if fullpage_result.success:
+        print(f"✅ Full-page map generated: {fullpage_result.image_path}")
+        return {
+            "fullpage_map_image_path": fullpage_result.image_path,
+            "fullpage_map_labels": fullpage_result.labels,
+            "fullpage_map_metadata": fullpage_result.metadata,
+        }
+    else:
+        print(f"⚠️ Full-page map generation failed")
+        return None
 
 
 class NeighborOrchestrator:
@@ -504,6 +545,18 @@ class NeighborOrchestrator:
                             print(
                                 f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
                             )
+
+                        # Generate full-page map (includes ALL neighbors regardless of influence)
+                        fullpage_data = generate_fullpage_map(
+                            target_parcel=target_parcel_info,
+                            raw_parcels=raw_parcels,
+                            neighbor_profiles=validated_neighbors,
+                            output_dir=output_dir,
+                            run_id=run_id,
+                        )
+                        if fullpage_data:
+                            cached.update(fullpage_data)
+
                     except Exception as e:
                         print(f"⚠️ Failed to generate map: {e}")
                 elif not raw_parcels_file.exists():
@@ -1245,6 +1298,18 @@ class NeighborOrchestrator:
                         if map_result.generation_result
                         else "Unknown error"
                     )
+
+                # Generate full-page map (includes ALL neighbors regardless of influence)
+                fullpage_data = generate_fullpage_map(
+                    target_parcel=target_parcel_info,
+                    raw_parcels=self.finder.raw_parcels,
+                    neighbor_profiles=validated_neighbors,
+                    output_dir=output_dir,
+                    run_id=run_id,
+                )
+                if fullpage_data:
+                    final.update(fullpage_data)
+
             elif not settings.MAPBOX_ACCESS_TOKEN:
                 print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
             elif not target_parcel_info:
