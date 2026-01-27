@@ -379,9 +379,47 @@ Follow the OUTPUT format and example provided in your instructions above."""
                         f"Webhook timeout and fallback retrieval failed for {entity_type} batch: {str(e)}"
                     )
             else:
-                # Other error cases
+                # Other error cases - check if retryable (WebSocket/connection errors)
+                error_msg = webhook_result.get('error', 'Unknown error')
+                is_connection_error = any(
+                    pattern in error_msg
+                    for pattern in ["WebSocket", "connection", "Connection", "timeout", "network", "Network"]
+                )
+
+                if is_connection_error and _retry_count < max_retries:
+                    print(
+                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ Connection error (attempt {_retry_count + 1}/{max_retries + 1}): {error_msg}"
+                    )
+                    print(
+                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Retrying batch in 30 seconds..."
+                    )
+
+                    if on_event:
+                        on_event(
+                            {
+                                "type": "retry",
+                                "batch_size": len(names),
+                                "entity_type": entity_type,
+                                "message": f"Retrying due to connection error (attempt {_retry_count + 2}/{max_retries + 1})",
+                                "meta": {"error": error_msg},
+                            }
+                        )
+
+                    # Wait before retry to allow connection recovery
+                    await asyncio.sleep(30)
+
+                    # Retry the request
+                    return await self.run_batch(
+                        names=names,
+                        context=context,
+                        entity_type=entity_type,
+                        on_event=on_event,
+                        max_retries=max_retries,
+                        _retry_count=_retry_count + 1,
+                    )
+
                 raise Exception(
-                    f"Webhook failed for {entity_type} batch: {webhook_result.get('error', 'Unknown error')}"
+                    f"Webhook failed for {entity_type} batch: {error_msg}"
                 )
 
         final = resp.output[-1].content[0]

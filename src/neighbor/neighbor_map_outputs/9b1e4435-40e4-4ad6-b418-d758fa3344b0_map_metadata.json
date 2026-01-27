@@ -1,0 +1,33 @@
+{
+  "run_id": "9b1e4435-40e4-4ad6-b418-d758fa3344b0",
+  "generated_at": "2026-01-27T15:16:32.711317",
+  "stats": {
+    "total_neighbors": 0,
+    "highlighted": 0,
+    "skipped_no_geometry": 0,
+    "skipped_not_highlighted": 0,
+    "by_influence": {
+      "High": 0,
+      "Medium": 0,
+      "Low": 0
+    },
+    "by_stance": {
+      "support": 0,
+      "oppose": 0,
+      "neutral": 0
+    },
+    "adjacent_highlighted": 0,
+    "target_included": true
+  },
+  "strategy_used": "geojson",
+  "url_length": 2655,
+  "parcels_rendered": 1,
+  "labels_count": 1,
+  "settings": {
+    "width": 800,
+    "height": 450,
+    "style": "satellite-streets-v12",
+    "retina": true,
+    "padding": 50
+  }
+}
