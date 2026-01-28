@@ -41,7 +41,7 @@ class NeighborFinder:
                     async with session.get(url, params=params) as response:
                         if response.status != 200:
                             error_text = await response.text()
-                            print(f"Error finding target parcel: {error_text}")
+                            print(f"Error finding target parcel (HTTP {response.status}): {error_text}")
                             return None
                         data = await response.json()
 
@@ -53,7 +53,7 @@ class NeighborFinder:
                     async with session.get(url, params=params) as response:
                         if response.status != 200:
                             error_text = await response.text()
-                            print(f"Error finding target parcel: {error_text}")
+                            print(f"Error finding target parcel (HTTP {response.status}): {error_text}")
                             return None
                         data = await response.json()
                 else:
