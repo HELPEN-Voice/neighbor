@@ -739,11 +739,18 @@ class NeighborOrchestrator:
                 target_parcel_info = await self.finder.get_target_parcel(
                     search_mode="COORDS", lat=lat, lon=lon
                 )
-                if target_parcel_info:
-                    # Get adjacent parcels for the target
-                    adjacent_pins = await self.finder.get_adjacent_parcels(
-                        target_parcel_info["geometry"], target_parcel_info["pin"]
-                    )
+                if not target_parcel_info:
+                    print(f"❌ Failed to find target parcel at coordinates ({lat}, {lon})")
+                    print("   Cannot proceed without target parcel. Check coordinates or Regrid coverage.")
+                    return NeighborResult(
+                        neighbors=[],
+                        location_context=f"Target parcel not found at ({lat}, {lon})",
+                        success=False,
+                    ).model_dump()
+                # Get adjacent parcels for the target
+                adjacent_pins = await self.finder.get_adjacent_parcels(
+                    target_parcel_info["geometry"], target_parcel_info["pin"]
+                )
 
             # 2) Resolve neighbors (skip if resuming with cache)
             if resuming_with_cache:
