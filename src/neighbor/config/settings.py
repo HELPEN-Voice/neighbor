@@ -21,8 +21,8 @@ class NeighborSettings(BaseSettings):
     OPENAI_API_KEY: str | None = Field(default=None, env="OPENAI_API_KEY")
     REGRID_API_KEY: str | None = Field(default=None, env="REGRID_API_KEY")
 
-    # Engine selection: start with responses; switch to agentsdk later with no code changes elsewhere
-    ENGINE_TYPE: Literal["responses", "agentsdk"] = "responses"
+    # Engine selection: "responses" (OpenAI), "gemini" (Google), or "agentsdk" (future)
+    ENGINE_TYPE: Literal["responses", "gemini", "agentsdk"] = "responses"
 
     # Deep Research model selection
     DR_MODEL: Literal[

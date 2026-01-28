@@ -101,9 +101,10 @@ src/ii_agent/tools/neighbor/
 - `on_event: Optional[Callable[[ResearchEvent], None]]` – receive streaming/tracing events
 
 **Environment / settings** (`config/settings.py`):
-- `OPENAI_API_KEY` (required)
+- `OPENAI_API_KEY` (required for responses engine)
+- `GEMINI_API_KEY` or `GOOGLE_API_KEY` (required for gemini engine)
 - `REGRID_API_KEY` (optional, for NeighborFinder)
-- `ENGINE_TYPE`: `"responses"` (default) or `"agentsdk"` (future)
+- `ENGINE_TYPE`: `"responses"` (default, OpenAI), `"gemini"` (Google), or `"agentsdk"` (future)
 - `DR_MODEL`: `"o4-mini-deep-research-2025-06-26"` (default) or `"o3-deep-research-2025-06-26"`
 - `BATCH_SIZE`: 4 (typ.)
 - `MAX_NEIGHBORS`: 20 (cap)

@@ -171,9 +171,9 @@ async def test_live_pipeline(lat, lon, skip_clean=False):
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # Check for unparsed DEBUG JSON files before cleanup (pattern: interaction_DEBUG_{entity_type}_*.json)
+    # Check for unparsed DEBUG JSON files before cleanup (verification stage)
     deep_research_dir = Path(__file__).parent / "deep_research_outputs"
-    debug_files = list(deep_research_dir.glob("interaction_DEBUG_*_*.json")) if deep_research_dir.exists() else []
+    debug_files = list(deep_research_dir.glob("verification_DEBUG_*.json")) if deep_research_dir.exists() else []
 
     if debug_files:
         print(f"📂 Found {len(debug_files)} DEBUG JSON file(s) - skipping cleanup to allow re-parsing")

@@ -27,6 +27,7 @@ from ..mapping.map_generator import NeighborMapGenerator
 from ..engines.base import ResearchEngine, ResearchEvent
 from ..engines.responses_engine import DeepResearchResponsesEngine
 from ..engines.agents_sdk_engine import AgentsSDKEngine
+from ..engines.gemini_engine import GeminiDeepResearchEngine
 
 
 # =============================================================================
@@ -253,6 +254,8 @@ def load_unverified_profiles(dr_files: List[str]) -> List[Dict]:
 def _engine_factory() -> ResearchEngine:
     if settings.ENGINE_TYPE == "agentsdk":
         return AgentsSDKEngine()
+    elif settings.ENGINE_TYPE == "gemini":
+        return GeminiDeepResearchEngine()
     return DeepResearchResponsesEngine()
 
 
