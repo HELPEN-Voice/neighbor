@@ -137,7 +137,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
 
         # Check for existing DEBUG JSON files for THIS source file to re-parse
         debug_dir = Path(__file__).parent.parent / "deep_research_outputs"
-        debug_files = sorted(debug_dir.glob("verification_DEBUG_*.json"), reverse=True) if debug_dir.exists() else []
+        debug_files = sorted(debug_dir.glob("interaction_DEBUG_*.json"), reverse=True) if debug_dir.exists() else []
 
         if debug_files and source_file:
             print(f"   📂 Found {len(debug_files)} DEBUG JSON file(s), looking for match to {source_file}...")
@@ -262,7 +262,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
                 time.sleep(self.poll_interval)
 
             # Save full interaction response as debug JSON before extracting
-            debug_json_path = Path(__file__).parent.parent / "deep_research_outputs" / f"verification_DEBUG_{entity_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            debug_json_path = Path(__file__).parent.parent / "deep_research_outputs" / f"interaction_DEBUG_{entity_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
             debug_json_path.parent.mkdir(parents=True, exist_ok=True)
             try:
                 # Serialize full interaction response (use model_dump if available)
