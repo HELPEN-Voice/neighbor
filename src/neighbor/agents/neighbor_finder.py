@@ -1,11 +1,16 @@
 # src/ii_agent/tools/neighbor/agents/neighbor_finder.py
 import aiohttp
+import asyncio
 import os
 import json
 from typing import List, Dict, Any, Optional, Tuple
 from ..utils.entity import guess_entity_type
 from ..utils.pin import normalize_pin
 from ..config.settings import settings
+
+# Timeout constants (seconds)
+REGRID_REQUEST_TIMEOUT = 10  # aiohttp timeout per request
+REGRID_OUTER_TIMEOUT = 15    # asyncio.timeout backup (should never fire if aiohttp works)
 
 
 class NeighborFinder:
@@ -35,32 +40,61 @@ class NeighborFinder:
         print(f"   [DEBUG] API key present: {bool(self.api_key)}, key starts with: {self.api_key[:20] if self.api_key else 'None'}...")
 
         try:
-            print(f"   [DEBUG] Creating aiohttp session...")
-            timeout = aiohttp.ClientTimeout(total=10)
+            # Debug: Show current event loop
+            try:
+                loop = asyncio.get_running_loop()
+                print(f"   [DEBUG] Current event loop: {loop}", flush=True)
+                print(f"   [DEBUG] Loop is running: {loop.is_running()}", flush=True)
+            except RuntimeError as e:
+                print(f"   [DEBUG] No running loop: {e}", flush=True)
+
+            print(f"   [DEBUG] Creating aiohttp session with {REGRID_REQUEST_TIMEOUT}s timeout...")
+            timeout = aiohttp.ClientTimeout(total=REGRID_REQUEST_TIMEOUT)
+
             async with aiohttp.ClientSession(timeout=timeout) as session:
+                print(f"   [DEBUG] Session created: {session}", flush=True)
+                print(f"   [DEBUG] Session connector: {session.connector}", flush=True)
+
                 if search_mode == "COORDS":
                     url = f"{self.base_url}/parcels/point"
                     params = {"token": self.api_key, "lat": lat, "lon": lon, "limit": 1}
                     print(f"   [DEBUG] Calling {url} with lat={lat}, lon={lon}...", flush=True)
-                    async with session.get(url, params=params) as response:
-                        print(f"   [DEBUG] Got response status: {response.status}", flush=True)
-                        if response.status != 200:
-                            error_text = await response.text()
-                            print(f"Error finding target parcel (HTTP {response.status}): {error_text}")
-                            return None
-                        data = await response.json()
+                    print(f"   [DEBUG] Starting HTTP GET (outer timeout: {REGRID_OUTER_TIMEOUT}s)...", flush=True)
+
+                    try:
+                        async with asyncio.timeout(REGRID_OUTER_TIMEOUT):
+                            async with session.get(url, params=params) as response:
+                                print(f"   [DEBUG] Got response status: {response.status}", flush=True)
+                                if response.status != 200:
+                                    error_text = await response.text()
+                                    print(f"Error finding target parcel (HTTP {response.status}): {error_text}")
+                                    return None
+                                data = await response.json()
+                    except asyncio.TimeoutError:
+                        print(f"   [DEBUG] OUTER TIMEOUT FIRED ({REGRID_OUTER_TIMEOUT}s) - aiohttp timeout didn't work!", flush=True)
+                        print(f"   [DEBUG] This indicates aiohttp's timeout mechanism is broken in this context", flush=True)
+                        raise
 
                 elif search_mode == "PIN":
                     url = f"{self.base_url}/parcels/apn"
                     params = {"token": self.api_key, "parcelnumb": pin}
                     if county_path:
                         params["path"] = county_path
-                    async with session.get(url, params=params) as response:
-                        if response.status != 200:
-                            error_text = await response.text()
-                            print(f"Error finding target parcel (HTTP {response.status}): {error_text}")
-                            return None
-                        data = await response.json()
+                    print(f"   [DEBUG] Calling {url} with pin={pin}...", flush=True)
+                    print(f"   [DEBUG] Starting HTTP GET (outer timeout: {REGRID_OUTER_TIMEOUT}s)...", flush=True)
+
+                    try:
+                        async with asyncio.timeout(REGRID_OUTER_TIMEOUT):
+                            async with session.get(url, params=params) as response:
+                                print(f"   [DEBUG] Got response status: {response.status}", flush=True)
+                                if response.status != 200:
+                                    error_text = await response.text()
+                                    print(f"Error finding target parcel (HTTP {response.status}): {error_text}")
+                                    return None
+                                data = await response.json()
+                    except asyncio.TimeoutError:
+                        print(f"   [DEBUG] OUTER TIMEOUT FIRED ({REGRID_OUTER_TIMEOUT}s) - aiohttp timeout didn't work!", flush=True)
+                        raise
                 else:
                     print("Invalid search mode.")
                     return None
@@ -115,38 +149,49 @@ class NeighborFinder:
             raise ValueError("REGRID_API_KEY not found in environment variables")
 
         print(f"Finding neighbors for target PIN: {target_pin}...")
+        print(f"   [DEBUG] get_adjacent_parcels: Starting with timeout {REGRID_REQUEST_TIMEOUT}s...", flush=True)
 
         try:
-            async with aiohttp.ClientSession() as session:
+            timeout = aiohttp.ClientTimeout(total=REGRID_REQUEST_TIMEOUT)
+            async with aiohttp.ClientSession(timeout=timeout) as session:
                 url = f"{self.base_url}/parcels/area"
                 # Use POST to avoid 414 Request-URI Too Large with complex geometries
                 payload = {"geojson": target_geometry}
                 headers = {"Content-Type": "application/json"}
 
-                async with session.post(
-                    url, params={"token": self.api_key}, json=payload, headers=headers
-                ) as response:
-                    if response.status != 200:
-                        error_text = await response.text()
-                        print(f"Error finding adjacent parcels: {error_text}")
-                        return set()
+                print(f"   [DEBUG] Calling {url} (POST) with geometry...", flush=True)
+                print(f"   [DEBUG] Starting HTTP POST (outer timeout: {REGRID_OUTER_TIMEOUT}s)...", flush=True)
 
-                    data = await response.json()
-                    features = (data.get("parcels") or {}).get("features") or []
+                try:
+                    async with asyncio.timeout(REGRID_OUTER_TIMEOUT):
+                        async with session.post(
+                            url, params={"token": self.api_key}, json=payload, headers=headers
+                        ) as response:
+                            print(f"   [DEBUG] Got response status: {response.status}", flush=True)
+                            if response.status != 200:
+                                error_text = await response.text()
+                                print(f"Error finding adjacent parcels: {error_text}")
+                                return set()
 
-                    adjacent_pins = set()
-                    norm_target = normalize_pin(target_pin)
-                    for parcel in features:
-                        pin = normalize_pin(
-                            ((parcel.get("properties") or {})
-                            .get("fields") or {})
-                            .get("parcelnumb")
-                        )
-                        if pin and pin != norm_target:
-                            adjacent_pins.add(pin)
+                            data = await response.json()
+                            features = (data.get("parcels") or {}).get("features") or []
 
-                    print(f"Found {len(adjacent_pins)} adjacent parcels.")
-                    return adjacent_pins
+                            adjacent_pins = set()
+                            norm_target = normalize_pin(target_pin)
+                            for parcel in features:
+                                pin = normalize_pin(
+                                    ((parcel.get("properties") or {})
+                                    .get("fields") or {})
+                                    .get("parcelnumb")
+                                )
+                                if pin and pin != norm_target:
+                                    adjacent_pins.add(pin)
+
+                            print(f"Found {len(adjacent_pins)} adjacent parcels.")
+                            return adjacent_pins
+                except asyncio.TimeoutError:
+                    print(f"   [DEBUG] OUTER TIMEOUT FIRED ({REGRID_OUTER_TIMEOUT}s) in get_adjacent_parcels!", flush=True)
+                    raise
 
         except Exception as e:
             print(f"Error finding adjacent parcels: {e}")
@@ -185,8 +230,12 @@ class NeighborFinder:
         radius_mi = search_radii_mi[0]  # Track current radius for logging
 
         print(f"\nFetching up to {max_parcels} nearest parcels using expanding radii...")
+        print(f"   [DEBUG] find_by_location_with_expansion: Using timeout {REGRID_REQUEST_TIMEOUT}s per request", flush=True)
 
-        async with aiohttp.ClientSession() as session:
+        timeout = aiohttp.ClientTimeout(total=REGRID_REQUEST_TIMEOUT)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            print(f"   [DEBUG] Session created for expansion search", flush=True)
+
             for radius_mi in search_radii_mi:
                 if len(all_parcels) >= max_parcels:
                     break
@@ -204,41 +253,47 @@ class NeighborFinder:
                 }
 
                 print(f"  Searching {radius_mi:.2f} mi radius ({int(radius_meters)}m)...")
+                print(f"   [DEBUG] Starting HTTP GET for radius {radius_mi}...", flush=True)
 
                 try:
-                    async with session.get(url, params=params) as response:
-                        if response.status == 200:
-                            data = await response.json()
-                            parcels = (data.get("parcels") or {}).get("features") or []
+                    async with asyncio.timeout(REGRID_OUTER_TIMEOUT):
+                        async with session.get(url, params=params) as response:
+                            print(f"   [DEBUG] Got response status: {response.status}", flush=True)
+                            if response.status == 200:
+                                data = await response.json()
+                                parcels = (data.get("parcels") or {}).get("features") or []
 
-                            if not parcels:
-                                print(f"    No parcels found at this radius")
-                                continue
+                                if not parcels:
+                                    print(f"    No parcels found at this radius")
+                                    continue
 
-                            # Add new unique parcels (by PIN)
-                            new_count = 0
-                            for parcel in parcels:
+                                # Add new unique parcels (by PIN)
+                                new_count = 0
+                                for parcel in parcels:
+                                    if len(all_parcels) >= max_parcels:
+                                        break
+                                    pin = normalize_pin(
+                                        parcel.get("properties", {})
+                                        .get("fields", {})
+                                        .get("parcelnumb")
+                                    )
+                                    if pin and pin not in all_parcels:
+                                        all_parcels[pin] = parcel
+                                        new_count += 1
+
+                                print(f"    Found {new_count} new parcels (total: {len(all_parcels)})")
+
                                 if len(all_parcels) >= max_parcels:
+                                    print(f"  Reached {max_parcels} parcel limit")
                                     break
-                                pin = normalize_pin(
-                                    parcel.get("properties", {})
-                                    .get("fields", {})
-                                    .get("parcelnumb")
-                                )
-                                if pin and pin not in all_parcels:
-                                    all_parcels[pin] = parcel
-                                    new_count += 1
-
-                            print(f"    Found {new_count} new parcels (total: {len(all_parcels)})")
-
-                            if len(all_parcels) >= max_parcels:
-                                print(f"  Reached {max_parcels} parcel limit")
+                            else:
+                                error_text = await response.text()
+                                print(f"Regrid API error: {error_text[:500]}")
                                 break
-                        else:
-                            error_text = await response.text()
-                            print(f"Regrid API error: {error_text[:500]}")
-                            break
 
+                except asyncio.TimeoutError:
+                    print(f"   [DEBUG] OUTER TIMEOUT FIRED ({REGRID_OUTER_TIMEOUT}s) in find_by_location_with_expansion at radius {radius_mi}!", flush=True)
+                    break
                 except Exception as e:
                     print(f"Error fetching from Regrid: {e}")
                     break
