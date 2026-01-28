@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-01-28T11:03:41.146554",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All four profiled neighbors have no clearly documented stance on the proposed development, with each classified as \"unknown\" in their support or opposition. One neighbor (Loren Sheldon) is a longtime local business owner who holds moderate influence in the community, while the other landowners appear to have low public profiles and minimal direct influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Loren Sheldon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-025F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Loren Sheldon operates a sand and gravel business in the Whetstone area of Cochise County that has been in operation for over two decades [The Tombstone News](https://thetombstonenews.com/the-blame-game-continues-p682-80.htm). He was involved in a local flooding controversy, during which community members noted he followed proper environmental precautions and helped with land improvements[The Tombstone News](https://thetombstonenews.com/the-blame-game-continues-p682-80.htm). Sheldon is known locally as someone who assists neighbors with heavy equipment work (road building, land clearing) when needed[The Tombstone News](https://thetombstonenews.com/the-blame-game-continues-p682-80.htm).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime contractor; known locally",
+      "approach_recommendations": {
+        "motivations": [
+          "drainage_roads",
+          "fair_contracting"
+        ],
+        "engage": "Have a project representative with infrastructure expertise engage him one-on-one. Emphasize how the project will address drainage and road concerns, and discuss opportunities for local contracting or input on site work."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jason Leigh & Meshell Denise Shepherd",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-025D"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason and Meshell Shepherd own rural property in Cochise County, Arizona, but do not feature in local news or public meeting records regarding community development [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). No evidence was found of either being active in civic roles or making public statements about land use or energy projects in the area [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). Their community profile appears low-key, with no identifiable organizational leadership or advocacy noted in available records [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach this couple via a polite, personal outreach—such as an informal visit or phone call—to introduce the project. Invite them to ask questions and express any concerns, reassuring them that their property and quality of life will be respected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Melanie A. Fiorucci",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-03-039F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Melanie A. Fiorucci is listed as a landowner in Cochise County, but she has no public presence in local government or media related to development issues [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). There are no news articles, public comments, or civic roles discovered in her name, suggesting she is a private individual not actively engaged in community disputes or planning debates [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). Her involvement in the community appears limited to property ownership, with no noted advocacy or opposition regarding land use changes [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Ms. Fiorucci through a courteous introductory letter or visit explaining the project. Emphasize transparency and a willingness to listen, as her low-profile suggests she may prefer a respectful, low-pressure communication style."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Peggy A. Stoll",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-03-044"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Peggy A. Stoll owns property in the vicinity but has no documented history of civic engagement or comments on local developments in public records [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). No references to her participating in community meetings or campaigns were found in local news archives, indicating she keeps a low public profile [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). Aside from property ownership, there is no evidence of Stoll holding any official positions or spearheading community initiatives relevant to development or energy projects [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known influence or leadership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in a neighborly manner, perhaps through a community open house or a personal introduction, to inform Ms. Stoll about the project. Given her low-key profile, providing information and assuring her that any of her concerns (e.g., privacy or property values) will be heard may build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All four profiled neighbors have no clearly documented stance on the proposed development, with each classified as \\\"unknown\\\" in their support or opposition. One neighbor (Loren Sheldon) is a longtime local business owner who holds moderate influence in the community, while the other landowners appear to have low public profiles and minimal direct influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Loren Sheldon\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-06-025F\"],\n      \"claims\": \"Loren Sheldon operates a sand and gravel business in the Whetstone area of Cochise County that has been in operation for over two decades [The Tombstone News](https://thetombstonenews.com/the-blame-game-continues-p682-80.htm). He was involved in a local flooding controversy, during which community members noted he followed proper environmental precautions and helped with land improvements【The Tombstone News】(https://thetombstonenews.com/the-blame-game-continues-p682-80.htm). Sheldon is known locally as someone who assists neighbors with heavy equipment work (road building, land clearing) when needed【The Tombstone News】(https://thetombstonenews.com/the-blame-game-continues-p682-80.htm).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime contractor; known locally\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"drainage_roads\", \"fair_contracting\"],\n        \"engage\": \"Have a project representative with infrastructure expertise engage him one-on-one. Emphasize how the project will address drainage and road concerns, and discuss opportunities for local contracting or input on site work.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jason Leigh & Meshell Denise Shepherd\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-06-025D\"],\n      \"claims\": \"Jason and Meshell Shepherd own rural property in Cochise County, Arizona, but do not feature in local news or public meeting records regarding community development [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). No evidence was found of either being active in civic roles or making public statements about land use or energy projects in the area [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). Their community profile appears low-key, with no identifiable organizational leadership or advocacy noted in available records [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach this couple via a polite, personal outreach—such as an informal visit or phone call—to introduce the project. Invite them to ask questions and express any concerns, reassuring them that their property and quality of life will be respected.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Melanie A. Fiorucci\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-03-039F\"],\n      \"claims\": \"Melanie A. Fiorucci is listed as a landowner in Cochise County, but she has no public presence in local government or media related to development issues [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). There are no news articles, public comments, or civic roles discovered in her name, suggesting she is a private individual not actively engaged in community disputes or planning debates [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). Her involvement in the community appears limited to property ownership, with no noted advocacy or opposition regarding land use changes [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage Ms. Fiorucci through a courteous introductory letter or visit explaining the project. Emphasize transparency and a willingness to listen, as her low-profile suggests she may prefer a respectful, low-pressure communication style.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Peggy A. Stoll\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-03-044\"],\n      \"claims\": \"Peggy A. Stoll owns property in the vicinity but has no documented history of civic engagement or comments on local developments in public records [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). No references to her participating in community meetings or campaigns were found in local news archives, indicating she keeps a low public profile [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board). Aside from property ownership, there is no evidence of Stoll holding any official positions or spearheading community initiatives relevant to development or energy projects [Cochise County Clerk of the Board](https://www.cochise.az.gov/106/Clerk-of-the-Board).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known influence or leadership\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out in a neighborly manner, perhaps through a community open house or a personal introduction, to inform Ms. Stoll about the project. Given her low-key profile, providing information and assuring her that any of her concerns (e.g., privacy or property values) will be heard may build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -4,23 +4,25 @@ import re
 
 
 def normalize_pin(pin: str) -> str:
-    """Normalize PIN by removing zero-width characters and collapsing whitespace.
+    """Normalize PIN by removing dashes, zero-width characters, and whitespace.
 
     Args:
         pin: The PIN string to normalize.
 
     Returns:
-        Normalized PIN with zero-width characters removed and multiple
-        whitespace collapsed to single spaces.
+        Normalized PIN with dashes, spaces, and zero-width characters removed.
+        E.g., "106-03-039F" -> "10603039F"
     """
     if not pin:
         return ""
     result = (
         str(pin)
+        .replace("-", "")  # Remove dashes (common in formatted PINs)
+        .replace(" ", "")  # Remove spaces
         .replace("\u200b", "")  # Zero-width space
         .replace("\u200c", "")  # Zero-width non-joiner
         .replace("\u200d", "")  # Zero-width joiner
         .replace("\ufeff", "")  # BOM/zero-width no-break space
         .replace("\u2060", "")  # Word joiner
     )
-    return re.sub(r"\s+", " ", result.strip())
+    return result.strip()

@@ -268,6 +268,7 @@ async def test_live_pipeline(lat, lon, skip_clean=False):
             city=city,
             on_event=on_event,
             save_regrid_json=True,  # This saves the Regrid data to JSON
+            preserve_batch_cache=skip_clean,  # Don't delete batch caches when --no-clean
         )
 
         # Check what was saved

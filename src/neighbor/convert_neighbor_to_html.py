@@ -1,9 +1,17 @@
 import json
+import re
+import sys
 from pathlib import Path
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .utils.pin import normalize_pin
+# Support both module and direct script execution
+try:
+    from .utils.pin import normalize_pin
+except ImportError:
+    # Direct script execution - add parent to path
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from utils.pin import normalize_pin
 
 BASE = Path(__file__).resolve().parent
 TPL = BASE / "templates"

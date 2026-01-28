@@ -25,6 +25,7 @@ class NeighborAgent:
         entity_type_map: dict[str, str] | None = None,
         on_event=None,  # optional streaming/tracing callback
         save_regrid_json: bool = True,  # Save Regrid results to JSON
+        preserve_batch_cache: bool = False,  # Don't delete batch caches (for --no-clean)
     ):
         return await self._orch.screen(
             location=location,
@@ -38,4 +39,5 @@ class NeighborAgent:
             entity_type_map=entity_type_map,
             on_event=on_event,
             save_regrid_json=save_regrid_json,
+            preserve_batch_cache=preserve_batch_cache,
         )

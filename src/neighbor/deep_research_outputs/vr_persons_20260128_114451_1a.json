@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-01-28T12:15:43",
+  "source_file": "src/neighbor/deep_research_outputs/dr_persons_20260128_114451_1a.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kenneth A. Bowen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": ["106-06-029D"],
+      "claims": "Kenneth A. Bowen is a landowner in Cochise County ([cochise.az.gov](https://cochise.az.gov/Archive.aspx#:~:text=Archive%20Center%20%E2%80%A2%20Cochise%20County%2C,Judd%202020%20Financial%20Disclosure%20Statement)). Public records and media searches yield no evidence of Bowen holding public office, civic positions, or taking a public stance on development issues in Cochise County ([cochise.az.gov](https://cochise.az.gov/Archive.aspx#:~:text=Archive%20Center%20%E2%80%A2%20Cochise%20County%2C,Judd%202020%20Financial%20Disclosure%20Statement)).",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or community leadership roles found.",
+      "approach_recommendations": {
+        "motivations": ["privacy_quiet"],
+        "engage": "Approach with a standard neighborly introduction. Given the lack of public profile, prioritize listening to uncover specific concerns regarding privacy or property rights."
+      },
+      "confidence": "low",
+      "entity_classification": "unknown",
+      "owns_adjacent_parcel": "No",
+      "citations": [
+        {
+          "claim": "Kenneth A. Bowen is a landowner in Cochise County",
+          "url": "https://cochise.az.gov/Archive.aspx#:~:text=Archive%20Center%20%E2%80%A2%20Cochise%20County%2C,Judd%202020%20Financial%20Disclosure%20Statement",
+          "title": "Cochise County Archive Center",
+          "date": "2026-01-28"
+        },
+        {
+          "claim": "No recent local news or meeting records mention Bowen taking a public stance",
+          "url": "https://cochise.az.gov/Archive.aspx#:~:text=Archive%20Center%20%E2%80%A2%20Cochise%20County%2C,Judd%202020%20Financial%20Disclosure%20Statement",
+          "title": "Cochise County Archive Center",
+          "date": "2026-01-28"
+        }
+      ],
+      "verification_notes": "Searches for 'Kenneth A. Bowen' in Cochise County returned no relevant results for community involvement or development stance. Multiple individuals with this name exist (e.g., academic author, deceased tenor) but none link to this location."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "John & Gail Christmann",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": ["106-06-018F"],
+      "claims": "John and Gail Christmann moved to the Sonoita area from New Paltz, New York, in 2020 ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/wp-content/uploads/2023/05/PRT-5.23-for-web.pdf)). Gail Christmann is highly active in local planning and preservation efforts; she serves on the Sonoita/Elgin Preservation and Planning Committee, which formed to give the community control over future growth ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/planning-committee-sets-april-29-town-hall-in-sonoita/)). She leads the local Dark Sky certification initiative, advocating for lighting that minimizes pollution to benefit wildlife ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/citizen-committee-maps-new-planning-preservation-priorities-for-sonoita-elgin-area/)). Additionally, she is involved in revitalizing the Sonoita-Elgin Chamber of Commerce ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/revitalization-efforts-underway-for-sonoita-elgin-chamber-of-commerce/)). Gail has identified herself as a \"rancher and cattlewoman\" in a letter to the editor defending the beef industry ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/letters-to-the-editor-4/)). Prior to moving, Gail served as a member of the Zoning Board of Appeals in the Town of New Paltz, NY ([townofnewpaltzny.gov](https://www.townofnewpaltzny.gov/zoning-board/minutes/minutes-17)). John Christmann is the founder of StarCrest Inspections, a home inspection business serving Cochise County ([starcresthomeinspections.com](https://starcresthomeinspections.com/areas/)).",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Gail is a Preservation Committee member, Chamber organizer, and Dark Sky leader.",
+      "approach_recommendations": {
+        "motivations": ["local_control", "wildlife_habitat", "farmland_preservation", "aesthetics_viewshed"],
+        "engage": "Engage Gail as a knowledgeable stakeholder with zoning experience. Frame the project around responsible planning, preservation of rural character, and Dark Sky compliance to align with her established priorities."
+      },
+      "confidence": "high",
+      "entity_classification": "agriculture",
+      "owns_adjacent_parcel": "No",
+      "citations": [
+        {
+          "claim": "John and Gail Christmann moved to the Sonoita area from New Paltz, New York, in 2020",
+          "url": "https://patagoniaregionaltimes.org/wp-content/uploads/2023/05/PRT-5.23-for-web.pdf",
+          "title": "Patagonia Regional Times May 2023",
+          "date": "2023-05-01"
+        },
+        {
+          "claim": "serves on the Sonoita/Elgin Preservation and Planning Committee",
+          "url": "https://patagoniaregionaltimes.org/planning-committee-sets-april-29-town-hall-in-sonoita/",
+          "title": "Planning Committee Sets April 29 Town Hall",
+          "date": "2025-04-03"
+        },
+        {
+          "claim": "leads the local Dark Sky certification initiative",
+          "url": "https://patagoniaregionaltimes.org/citizen-committee-maps-new-planning-preservation-priorities-for-sonoita-elgin-area/",
+          "title": "Citizen Committee Maps New Planning Priorities",
+          "date": "2025-10-02"
+        },
+        {
+          "claim": "involved in revitalizing the Sonoita-Elgin Chamber of Commerce",
+          "url": "https://patagoniaregionaltimes.org/revitalization-efforts-underway-for-sonoita-elgin-chamber-of-commerce/",
+          "title": "Revitalization Efforts Underway for Chamber",
+          "date": "2026-01-21"
+        },
+        {
+          "claim": "identified herself as a 'rancher and cattlewoman'",
+          "url": "https://patagoniaregionaltimes.org/letters-to-the-editor-4/",
+          "title": "Letters to the Editor - PRT",
+          "date": "2021-12-03"
+        },
+        {
+          "claim": "served as a member of the Zoning Board of Appeals in the Town of New Paltz, NY",
+          "url": "https://www.townofnewpaltzny.gov/zoning-board/minutes/minutes-17",
+          "title": "Town of New Paltz ZBA Minutes",
+          "date": "2026-01-28"
+        },
+        {
+          "claim": "John Christmann is the founder of StarCrest Inspections",
+          "url": "https://starcresthomeinspections.com/areas/",
+          "title": "StarCrest Inspections Service Areas",
+          "date": "2026-01-28"
+        }
+      ],
+      "verification_notes": "Draft profile significantly understated influence. Gail Christmann is a key community organizer in Sonoita/Elgin (neighboring Cochise) with specific focus on planning and preservation. Stance on renewables is unknown, but she is active in 'controlled growth' advocacy."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "thinking_count": 0
+  }
+}

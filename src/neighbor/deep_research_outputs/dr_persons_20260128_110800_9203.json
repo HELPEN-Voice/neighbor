@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-01-28T11:08:00.920361",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The sole neighboring landowners profiled have not publicly expressed a stance on development. Darrel D. and Lee Ann Howell show no evident involvement in local civic affairs. Overall influence appears low, with no high-influence neighbors in this group.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Darrel D. Howell & Lee Ann Howell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-03-039E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Darrel D. Howell (age 57) and Lee Ann Howell are listed as co-owners of a parcel in Cochise County ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/darrel-howell/#:~:text=match%20at%20L410%202561%20Calle,Huachuca%20City%2C%20AZ%2C%2085616%20Current)). Available public records show Darrel Howell has lived in the Cochise area (previously in Cochise, AZ, now in Huachuca City) ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/darrel-howell/#:~:text=2561%20Calle%20Noveno%2C%20Huachuca%20City%2C,AZ%2C%2085616%20Current)). No public statements or media reports were found in which either Howell voiced an opinion on local development projects ([saddlebagnotes.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html#:~:text=The%20conflict%20erupted%20recently%20at,trying%20to%20protect%20the%20aquifer)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowners; no known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Maintain a neighborly, informative approach. Reach out personally to share project details and invite their questions, focusing on open communication since they have not taken any public position."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The sole neighboring landowners profiled have not publicly expressed a stance on development. Darrel D. and Lee Ann Howell show no evident involvement in local civic affairs. Overall influence appears low, with no high-influence neighbors in this group.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Darrel D. Howell & Lee Ann Howell\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-03-039E\"],\n      \"claims\": \"Darrel D. Howell (age 57) and Lee Ann Howell are listed as co-owners of a parcel in Cochise County ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/darrel-howell/#:~:text=match%20at%20L410%202561%20Calle,Huachuca%20City%2C%20AZ%2C%2085616%20Current)). Available public records show Darrel Howell has lived in the Cochise area (previously in Cochise, AZ, now in Huachuca City) ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/darrel-howell/#:~:text=2561%20Calle%20Noveno%2C%20Huachuca%20City%2C,AZ%2C%2085616%20Current)). No public statements or media reports were found in which either Howell voiced an opinion on local development projects ([saddlebagnotes.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html#:~:text=The%20conflict%20erupted%20recently%20at,trying%20to%20protect%20the%20aquifer)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Landowners; no known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Maintain a neighborly, informative approach. Reach out personally to share project details and invite their questions, focusing on open communication since they have not taken any public position.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

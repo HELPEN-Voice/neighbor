@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-01-28T12:00:37.440079",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_114451_1.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "R V City Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "10606008A"
+      ],
+      "claims": "RV City, Inc. is a recreational vehicle dealership incorporated in Arizona on August 3, 1987 ([BBB](https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902)). While the business was long operated by President Ronald Hoffman, the company announced it is under new ownership and management as of May 2025 ([RV City](https://www.rvcity.net/about-us)). The company has a history of federal contracting, including supplying travel trailers to FEMA for disaster relief in 2005 ([FEMA](https://disability.law.uiowa.edu/dpn_hi/100.pdf)).",
+      "community_influence": "Medium",
+      "influence_justification": "Long-established local business (since 1987) with history of federal contracts; recently underwent ownership change.",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [
+          "Business continuity",
+          "Local economic stability",
+          "Property value maintenance"
+        ],
+        "engage": "Contact the new management team (post-May 2025 ownership change) to introduce the project. Acknowledge the business's long history in the community and ensure construction logistics do not interfere with dealership access or operations."
+      },
+      "confidence": "high",
+      "citations": [
+        {
+          "claim": "incorporated in Arizona on August 3, 1987",
+          "url": "https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902",
+          "title": "BBB Business Profile – RV City, Inc.",
+          "date": "2024-01-28"
+        },
+        {
+          "claim": "under new ownership and management as of May 2025",
+          "url": "https://www.rvcity.net/about-us",
+          "title": "RV City About Us Page",
+          "date": "2025-05-01"
+        },
+        {
+          "claim": "supplying travel trailers to FEMA for disaster relief in 2005",
+          "url": "https://disability.law.uiowa.edu/dpn_hi/100.pdf",
+          "title": "FEMA Disaster Relief Contracts 2005-2006",
+          "date": "2006-12-31"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Nye James W Revocable Living Trust Agreement",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10615021X"
+      ],
+      "claims": "Registered owner of property in Cochise County. Historical records indicate a James W. Nye served as a Superior Court Judge in Cochise County and died in 1958 ([Phoenix Masonry](https://www.phoenixmasonry.org/10,000_famous_freemasons/volume_4_q_to_z.htm)), though a direct link between the historical figure and the current trust beneficiaries could not be definitively verified.",
+      "community_influence": "Unknown",
+      "influence_justification": "Private landowner with no identified current public profile or recent political activity.",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [
+          "Privacy",
+          "Land value"
+        ],
+        "engage": "Standard neighbor outreach letter to registered address."
+      },
+      "confidence": "low",
+      "citations": [
+        {
+          "claim": "James W. Nye served as a Superior Court Judge in Cochise County and died in 1958",
+          "url": "https://www.phoenixmasonry.org/10,000_famous_freemasons/volume_4_q_to_z.htm",
+          "title": "10,000 Famous Freemasons, Vol 4",
+          "date": "1958-09-03"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bouchikas Family Revocable Lifetime Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10606026C"
+      ],
+      "claims": "Property is associated with the Bouchikas family. Chris Bouchikas has been active in the local astronomy community and has previously met with Cochise County officials to advocate for light pollution controls ([HAC](https://hacastro.groups.io/g/main/topics?page=878&after=1023676515000000000)). The parcel is classified for mobile/manufactured home use ([LoopNet](https://www.loopnet.com/property/2098-n-cougar-pl-douglas-az-85607/04003-10606026C/)).",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner with documented history of engaging county officials on specific local issues (light pollution).",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [
+          "Dark skies preservation",
+          "Rural character"
+        ],
+        "engage": "Address potential concerns regarding night lighting during construction or operation. Emphasize 'dark sky compliant' lighting in project design to align with the family's demonstrated interest in astronomy."
+      },
+      "confidence": "medium",
+      "citations": [
+        {
+          "claim": "met with Cochise County officials to advocate for light pollution controls",
+          "url": "https://hacastro.groups.io/g/main/topics?page=878&after=1023676515000000000",
+          "title": "Huachuca Astronomy Club Group Discussion",
+          "date": "2002-05-08"
+        },
+        {
+          "claim": "classified for mobile/manufactured home use",
+          "url": "https://www.loopnet.com/property/2098-n-cougar-pl-douglas-az-85607/04003-10606026C/",
+          "title": "LoopNet Property Record 106-06-026C",
+          "date": "2024-01-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Lisa E Stansbury Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10603044B"
+      ],
+      "claims": "The Lisa E Stansbury Living Trust has been the registered owner of residential property in Huachuca City since May 2023 ([Homes.com](https://www.homes.com/property/682-w-norraine-ln-huachuca-city-az/8qvmcg5vq2yx8/)). No public records of political engagement or development stance were found.",
+      "community_influence": "Unknown",
+      "influence_justification": "Private residential landowner with no public profile.",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [
+          "Privacy",
+          "Property value"
+        ],
+        "engage": "Standard neighbor outreach."
+      },
+      "confidence": "medium",
+      "citations": [
+        {
+          "claim": "registered owner of residential property in Huachuca City since May 2023",
+          "url": "https://www.homes.com/property/682-w-norraine-ln-huachuca-city-az/8qvmcg5vq2yx8/",
+          "title": "Property Record: 682 W Norraine Ln",
+          "date": "2024-01-28"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 436838,
+    "thinking_count": 30
+  }
+}

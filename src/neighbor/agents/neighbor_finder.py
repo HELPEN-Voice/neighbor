@@ -32,13 +32,18 @@ class NeighborFinder:
             raise ValueError("REGRID_API_KEY not found in environment variables")
 
         print(f"Identifying target parcel using mode: {search_mode}...")
+        print(f"   [DEBUG] API key present: {bool(self.api_key)}, key starts with: {self.api_key[:20] if self.api_key else 'None'}...")
 
         try:
-            async with aiohttp.ClientSession() as session:
+            print(f"   [DEBUG] Creating aiohttp session...")
+            timeout = aiohttp.ClientTimeout(total=10)
+            async with aiohttp.ClientSession(timeout=timeout) as session:
                 if search_mode == "COORDS":
                     url = f"{self.base_url}/parcels/point"
                     params = {"token": self.api_key, "lat": lat, "lon": lon, "limit": 1}
+                    print(f"   [DEBUG] Calling {url} with lat={lat}, lon={lon}...", flush=True)
                     async with session.get(url, params=params) as response:
+                        print(f"   [DEBUG] Got response status: {response.status}", flush=True)
                         if response.status != 200:
                             error_text = await response.text()
                             print(f"Error finding target parcel (HTTP {response.status}): {error_text}")

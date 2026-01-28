@@ -147,6 +147,20 @@ def load_cached_batch(cache_path: Path) -> Optional[Dict[str, Any]]:
             data = json.load(f)
         # Validate it has the expected structure
         if "neighbors" in data and isinstance(data["neighbors"], list):
+            # Normalize approach_recommendations for each neighbor
+            for neighbor in data["neighbors"]:
+                approach = neighbor.get("approach_recommendations")
+                if approach and not isinstance(approach, dict):
+                    # Legacy string format - convert to new structure
+                    neighbor["approach_recommendations"] = {
+                        "motivations": neighbor.pop("potential_motivators", []),
+                        "engage": approach if approach != "N/A" else "",
+                    }
+                elif not approach:
+                    neighbor["approach_recommendations"] = {
+                        "motivations": neighbor.pop("potential_motivators", []),
+                        "engage": "",
+                    }
             return data
     except Exception as e:
         print(f"   ⚠️ Failed to load cached batch {cache_path.name}: {e}")
@@ -174,7 +188,7 @@ def save_batch_result(cache_path: Path, result: Dict[str, Any], batch_idx: int, 
 
 
 def delete_batch_caches(base_dir: Path = None):
-    """Delete all batch cache files in neighbor_outputs/."""
+    """Delete all batch cache files in neighbor_outputs/ (uses trash for recovery)."""
     if base_dir is None:
         base_dir = Path(__file__).parent.parent
     output_dir = base_dir / "neighbor_outputs"
@@ -182,12 +196,12 @@ def delete_batch_caches(base_dir: Path = None):
         deleted = 0
         for f in output_dir.glob("batch_*.json"):
             try:
-                f.unlink()
+                subprocess.run(["trash", str(f)], check=False)
                 deleted += 1
             except OSError:
                 pass
         if deleted:
-            print(f"   🧹 Deleted {deleted} batch cache files")
+            print(f"   🧹 Trashed {deleted} batch cache files")
 
 
 def delete_html_outputs(base_dir: Path = None):
@@ -323,6 +337,7 @@ class NeighborOrchestrator:
         entity_type_map: Dict[str, Literal["person", "organization"]] | None = None,
         on_event: Optional[Callable[[ResearchEvent], None]] = None,
         save_regrid_json: bool = True,  # Save Regrid results to JSON
+        preserve_batch_cache: bool = False,  # Don't delete batch caches (for --no-clean)
     ) -> Dict[str, Any]:
         t0 = time.time()
 
@@ -732,8 +747,9 @@ class NeighborOrchestrator:
 
             # Save Regrid results to JSON files if requested (skip when resuming with cache)
             if save_regrid_json and not resuming_with_cache:
-                # Clear old batch caches since we have new Regrid data
-                delete_batch_caches()
+                # Clear old batch caches since we have new Regrid data (unless preserve flag set)
+                if not preserve_batch_cache:
+                    delete_batch_caches()
 
                 saved_files = self._save_regrid_to_json(resolved)
                 print(

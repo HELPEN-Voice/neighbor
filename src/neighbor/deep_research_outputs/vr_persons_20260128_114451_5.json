@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-01-28T11:59:36.418509",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_114451_5.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Darrel D Howell & Lee Ann Howell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10603039E"
+      ],
+      "claims": "Darrel D. Howell and Lee Ann Howell are residents of Cochise County, Arizona. Lee Ann Howell is a prominent science teacher at Colonel Smith Middle School in the Fort Huachuca Accommodation School District ([source](https://www.schools.pima.gov/media/press-releases/educators-from-southern-arizona-selected-for-the-stemazing-teacher-leader-p)). She holds significant community standing as the 2018 Cochise County Teacher of the Year and a 2019 Arizona Teacher of the Year Ambassador for Excellence ([source](https://cochiseeducationfoundation.org/recognition/)) ([source](https://events.nau.edu/event/tariat/)). Darrel Howell is a federal employee with the USDA Forest Service, serving as a fire and fuels management contact for the Nogales Ranger District of the Coronado National Forest, which manages lands across Cochise, Pima, and Santa Cruz counties ([source](https://www.fs.usda.gov/sopa/components/reports/sopa-110305-2024-01.pdf)). Lee Ann Howell is documented attending meetings for the Sulphur Springs Valley Electric Cooperative (SSVEC) in Willcox, indicating engagement with local utility matters ([source](https://www.ssvec.org/downloads/minutes/Minutes-2016-07.pdf)).",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Award-winning educator and USDA Forest Service official",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage regarding environmental stewardship given Darrel's Forest Service role. Highlight tax revenue benefits for local schools, appealing to Lee Ann's position as a celebrated educator."
+      },
+      "confidence": "high",
+      "citations": [
+        {
+          "claim": "Lee Ann Howell is a science teacher at Colonel Smith Middle School in the Fort Huachuca Accommodation School District",
+          "url": "https://www.schools.pima.gov/media/press-releases/educators-from-southern-arizona-selected-for-the-stemazing-teacher-leader-p",
+          "title": "Educators from Southern Arizona Selected for STEMAZing Teacher Leader Program",
+          "date": "2017-06-21"
+        },
+        {
+          "claim": "She was recognized as the 2018 Cochise County Teacher of the Year",
+          "url": "https://cochiseeducationfoundation.org/recognition/",
+          "title": "Cochise Education Foundation Recognition",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "She was a 2019 Arizona Teacher of the Year Ambassador for Excellence",
+          "url": "https://events.nau.edu/event/tariat/",
+          "title": "NAU TARIAT Conference 2019",
+          "date": "2019-04-12"
+        },
+        {
+          "claim": "Darrel Howell is employed by the USDA Forest Service in fire and fuels management",
+          "url": "https://www.fs.usda.gov/sopa/components/reports/sopa-110305-2024-01.pdf",
+          "title": "Schedule of Proposed Action (SOPA) - Coronado National Forest",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Lee Ann Howell attended SSVEC meetings in Willcox",
+          "url": "https://www.ssvec.org/downloads/minutes/Minutes-2016-07.pdf",
+          "title": "SSVEC Board Meeting Minutes",
+          "date": "2016-07-27"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 419678,
+    "thinking_count": 42
+  }
+}

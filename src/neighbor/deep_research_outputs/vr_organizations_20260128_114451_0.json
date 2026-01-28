@@ -1,0 +1,192 @@
+{
+  "timestamp": "2026-01-28T12:01:37.524604",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_114451_0.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Babacomari Ranch Company",
+      "entity_category": "Organization",
+      "entity_type": "lllp",
+      "pins": [
+        "10603038"
+      ],
+      "claims": "Babacomari Ranch Company is a family-owned cattle ranch (~28,000 acres) spanning from Sonoita into Cochise County, originally acquired in 1935 by Frank Cullen Brophy; today it is held by approximately 65 Brophy descendants and is Arizona’s largest contiguous private land parcel [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/) [Wikipedia](https://en.wikipedia.org/wiki/Sonoita_AVA). In January 2020, the owners partnered with Arizona Land and Water Trust to place 2,488 acres of the ranch under a permanent conservation easement, protecting habitat and the working landscape [Arizona Land and Water Trust](https://alwt.org/babacomari-ranch/) [Patagonia Regional Times](https://patagoniaregionaltimes.org/elgin-ranch-works-to-preserve-watershed/). The family has also pursued new development on the property: in September 2024, they received a Conditional Use Permit to develop a 150-guest \"dude ranch\" resort on a 2,200-acre pasture in Sonoita, an upscale project estimated to cost $40–60 million [Patagonia Regional Times](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/) [Patagonia Regional Times](https://patagoniaregionaltimes.org/wp-content/uploads/2024/10/PRT-10.24-for-web.pdf). The ranch utilizes solar technology for operations, including solar-powered fencing and pumps [Arizona Water Protection Fund](https://www.azwpf.gov/sites/default/files/media/09-164FinalReportBabocomariRiverRiparianProtectioneditedon1-24-14ljk.pdf) [Arizona Land and Water Trust](https://alwt.org/wp-content/uploads/2024/08/ALWT-AR-2024-ToPress_Amended-website.pdf).",
+      "community_influence": "High",
+      "influence_justification": "Controls vast acreage (28,000 acres); Historic family legacy since 1935; Active in conservation and capable of large-scale development projects",
+      "entity_classification": "agriculture",
+      "approach_recommendations": {
+        "motivations": [
+          "Land conservation ethos",
+          "Selective development for tourism revenue"
+        ],
+        "engage": "Engage the Brophy family’s representatives (e.g., their project advisor) early; emphasize alignment with the ranch’s conservation goals and address any wildlife or scenery impacts in the proposal"
+      },
+      "confidence": "high",
+      "citations": [
+        {
+          "claim": "Babacomari Ranch Company is a family-owned cattle ranch (~28,000 acres)... originally acquired in 1935 by Frank Cullen Brophy",
+          "url": "https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/",
+          "title": "County to consider permit for new $40-60 million dude ranch in Sonoita",
+          "date": "2024-09-18"
+        },
+        {
+          "claim": "Arizona’s largest contiguous private land parcel",
+          "url": "https://en.wikipedia.org/wiki/Sonoita_AVA",
+          "title": "Sonoita AVA - Wikipedia",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "In January 2020, the owners partnered with Arizona Land and Water Trust to place 2,488 acres of the ranch under a permanent conservation easement",
+          "url": "https://patagoniaregionaltimes.org/elgin-ranch-works-to-preserve-watershed/",
+          "title": "Elgin ranch works to preserve watershed",
+          "date": "2022-08-23"
+        },
+        {
+          "claim": "In September 2024, they received a Conditional Use Permit to develop a 150-guest 'dude ranch' resort",
+          "url": "https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/",
+          "title": "New $40-60 million dude ranch gets first permit",
+          "date": "2024-10-03"
+        },
+        {
+          "claim": "The ranch utilizes solar technology for operations, including solar-powered fencing and pumps",
+          "url": "https://www.azwpf.gov/sites/default/files/media/09-164FinalReportBabocomariRiverRiparianProtectioneditedon1-24-14ljk.pdf",
+          "title": "Babocomari River Riparian Protection Project Final Report",
+          "date": "2009-11-20"
+        }
+      ],
+      "noted_stance": "neutral",
+      "verification_notes": "The family supports conservation and selective commercial development (dude ranch) but has opposed housing subdivisions. They utilize solar technology for ranch operations."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Mountain View Rv Resort Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10606008",
+        "10606021C"
+      ],
+      "claims": "Mountain View RV Resort LLC is a privately held company that acquired the RV campground at 99 W Vista Lane in Huachuca City in March 2019 [Real Estate Daily News](https://realestatedaily-news.com/park-brokerage-closes-on-rv-park-mhp-in-arizona-california/?print=print). The park spans approximately 15 acres and contains 81 spaces, marketing the area’s open desert skies and mountain views between the Huachuca and Mule Mountains as key attractions [Real Estate Daily News](https://realestatedaily-news.com/park-brokerage-closes-on-rv-park-mhp-in-arizona-california/?print=print) [Mountain View RV Park](https://mountainviewrvpark.com/). The entity is registered in Arizona [Mountain View RV Park](https://mountainviewrvpark.com/terms-and-conditions/).",
+      "community_influence": "Low",
+      "influence_justification": "Local commercial enterprise (15-acre RV park); serves transient snowbird population",
+      "entity_classification": "land_investment",
+      "approach_recommendations": {
+        "motivations": [
+          "Preserving scenic views for business",
+          "Maintaining quiet rural atmosphere"
+        ],
+        "engage": "Reach out privately to the RV park owner; offer measures (landscaping, traffic management) to mitigate any impacts on the park’s ambiance and visibility"
+      },
+      "confidence": "high",
+      "citations": [
+        {
+          "claim": "acquired the RV campground... in March 2019",
+          "url": "https://realestatedaily-news.com/park-brokerage-closes-on-rv-park-mhp-in-arizona-california/?print=print",
+          "title": "Park Brokerage closes on RV Park & MHP in Arizona & California",
+          "date": "2019-03-25"
+        },
+        {
+          "claim": "The park spans approximately 15 acres and contains 81 spaces",
+          "url": "https://realestatedaily-news.com/park-brokerage-closes-on-rv-park-mhp-in-arizona-california/?print=print",
+          "title": "Park Brokerage closes on RV Park & MHP in Arizona & California",
+          "date": "2019-03-25"
+        },
+        {
+          "claim": "markets the area’s open desert skies and mountain views",
+          "url": "https://mountainviewrvpark.com/",
+          "title": "Mountain View RV Park Homepage",
+          "date": "2024-05-01"
+        },
+        {
+          "claim": "The entity is registered in Arizona",
+          "url": "https://mountainviewrvpark.com/terms-and-conditions/",
+          "title": "Mountain View RV Park Terms and Conditions",
+          "date": "2024-05-01"
+        }
+      ],
+      "noted_stance": "unknown",
+      "verification_notes": "Corrected acreage from 3 to 15 acres based on sales record. Corrected opening date to acquisition date (2019)."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Klein Fam Living Trust",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "10606021B"
+      ],
+      "claims": "The Klein Family Living Trust purchased residential property at 182 W Sarah Ln in Huachuca City in August 2024 [Homes.com](https://www.homes.com/property/182-w-sarah-ln-huachuca-city-az/tg13l3rftgew1/). The trust has also been associated with property transactions in Maricopa County, AZ [City of Scottsdale](https://eservices.scottsdaleaz.gov/bldgresources/EDM/Viewer?docId=13129392&docName=CITIZEN%20REVIEW%20%2817382435-v1%29&fileExt=pdf).",
+      "community_influence": "Unknown",
+      "influence_justification": "Personal family trust; recent property acquisition (2024) suggests new presence in the immediate area.",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "medium",
+      "citations": [
+        {
+          "claim": "purchased residential property at 182 W Sarah Ln in Huachuca City in August 2024",
+          "url": "https://www.homes.com/property/182-w-sarah-ln-huachuca-city-az/tg13l3rftgew1/",
+          "title": "182 W Sarah Ln, Huachuca City, AZ 85616",
+          "date": "2024-08-27"
+        },
+        {
+          "claim": "associated with property transactions in Maricopa County, AZ",
+          "url": "https://eservices.scottsdaleaz.gov/bldgresources/EDM/Viewer?docId=13129392&docName=CITIZEN%20REVIEW%20%2817382435-v1%29&fileExt=pdf",
+          "title": "City of Scottsdale Citizen Review",
+          "date": "2019-04-17"
+        }
+      ],
+      "noted_stance": "unknown",
+      "verification_notes": "Verified recent purchase in Cochise County (2024). No public stance on development found."
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Decker Roy F Living Trust",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "10603012G"
+      ],
+      "claims": "The Roy F Decker Living Trust was the former owner of a residential property at 5520 W Desert Mountain Trail in Bisbee (Cochise County), which was sold to private individuals in April 2022 [Homes.com](https://www.homes.com/property/5520-w-desert-mountain-trail-bisbee-az/ej2y0n2f4945j/). Roy F. Decker (individual) is deceased [Ancestry](https://www.ancestry.com/search/categories/bmd_death/?name=Roy_Decker&event=_OR).",
+      "community_influence": "Unknown",
+      "influence_justification": "Trust appears to have divested local property in 2022; current status as a neighbor is doubtful unless other parcels are owned.",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "low",
+      "citations": [
+        {
+          "claim": "sold to private individuals in April 2022",
+          "url": "https://www.homes.com/property/5520-w-desert-mountain-trail-bisbee-az/ej2y0n2f4945j/",
+          "title": "5520 W Desert Mountain Trail, Bisbee, AZ 85603",
+          "date": "2022-04-14"
+        },
+        {
+          "claim": "Roy F. Decker (individual) is deceased",
+          "url": "https://www.ancestry.com/search/categories/bmd_death/?name=Roy_Decker&event=_OR",
+          "title": "Roy F Decker Death Record",
+          "date": "1989-01-01"
+        }
+      ],
+      "noted_stance": "unknown",
+      "verification_notes": "The trust sold the identified property in 2022. It is unclear if they still own the specific parcel associated with the PIN provided in the input, but public records link the trust to the 2022 sale."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 798933,
+    "thinking_count": 25
+  }
+}

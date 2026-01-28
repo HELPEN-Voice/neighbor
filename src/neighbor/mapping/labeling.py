@@ -5,6 +5,7 @@ from typing import Dict, Any, List, Optional, Tuple
 from dataclasses import dataclass, field
 
 from ..models.schemas import NeighborProfile
+from ..utils.pin import normalize_pin
 from .geometry_utils import get_centroid
 from .styles import get_marker_color
 
@@ -348,7 +349,7 @@ class LabelGenerator:
                 continue
 
             pin = props.get("pin", "")
-            neighbor = neighbor_lookup.get(pin) if pin else None
+            neighbor = neighbor_lookup.get(normalize_pin(pin)) if pin else None
 
             # Skip Low influence (no markers for them)
             if neighbor and neighbor.community_influence == "Low":
@@ -376,7 +377,7 @@ class LabelGenerator:
             pin = props.get("pin", "")
             is_adjacent = props.get("is_adjacent", False)
 
-            neighbor = neighbor_lookup.get(pin) if pin else None
+            neighbor = neighbor_lookup.get(normalize_pin(pin)) if pin else None
 
             if is_target:
                 # Target parcel

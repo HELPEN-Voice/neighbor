@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-01-28T12:01:37.855616",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_114451_4.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Michael E. Klein & Peggy Klein",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-021D"
+      ],
+      "claims": "Public records do not confirm Michael E. and Peggy Klein as the current owners of parcel 106-06-021D, and no specific presence in Cochise County could be verified for these individuals. A 'Peggy Klein' appears in obituaries in other states, but no definitive link to this property exists in available records ([legacy.com](https://www.legacy.com/obituaries/search?countryUrl=united-states-of-america&dateRange=Last30Days&lastName=klein%20nee%20motz&page=10)).",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Identity and presence unverified",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Verify current property ownership through county assessor records before outreach."
+      },
+      "confidence": "low",
+      "citations": [
+        {
+          "claim": "A 'Peggy Klein' appears in obituaries in other states, but no definitive link to this property exists in available records",
+          "url": "https://www.legacy.com/obituaries/search?countryUrl=united-states-of-america&dateRange=Last30Days&lastName=klein%20nee%20motz&page=10",
+          "title": "Legacy.com Obituary Search",
+          "date": "2026-01-28"
+        }
+      ],
+      "verification_notes": "Original citations (coyotegulch.blog, citizenportal.ai) did not contain mentions of Michael or Peggy Klein. No Cochise County property records found for these names in public snippets."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Zane Daniel Ritenour & Carina Marie Ritenour",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-018Q"
+      ],
+      "claims": "Zane and Carina Ritenour are associated with the residential property at 2077 W Cougar Place (Parcel 106-06-018Q) in Huachuca City ([homes.com](https://www.homes.com/property/2077-w-cougar-place-huachuca-city-az/k8k492gnrzefc/)). Zane Ritenour is the owner and qualifying party for B-J Drilling Company, Inc., a long-standing water well drilling business in the region ([bjdrilling.com](https://bjdrilling.com/)).",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Owner of local drilling business",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "property_value"
+        ],
+        "engage": "Engage Zane Ritenour with technical competence regarding groundwater impact, acknowledging his professional expertise in local water systems."
+      },
+      "confidence": "high",
+      "citations": [
+        {
+          "claim": "Zane and Carina Ritenour are associated with the residential property at 2077 W Cougar Place (Parcel 106-06-018Q) in Huachuca City",
+          "url": "https://www.homes.com/property/2077-w-cougar-place-huachuca-city-az/k8k492gnrzefc/",
+          "title": "2077 W Cougar Place Property Details",
+          "date": "2026-01-28"
+        },
+        {
+          "claim": "Zane Ritenour is the owner and qualifying party for B-J Drilling Company, Inc.",
+          "url": "https://bjdrilling.com/",
+          "title": "BJ Drilling Company Website",
+          "date": "2026-01-28"
+        }
+      ],
+      "verification_notes": "Verified ownership via address match to PIN. Upgraded influence to Medium due to ownership of 'premier' local drilling company. Removed incorrect citation to coyotegulch.blog."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jason L. Shepherd & Meshell D. Shepherd",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-025C"
+      ],
+      "claims": "Meshell and Jason Shepherd are linked to property holdings in Arizona through investment records ([elementix.ai](https://elementix.ai/investors/az/meshell-shepherd)). While a Jason Shepherd is a prominent political figure in Georgia, no evidence links the Cochise County landowner to that public profile or any local development stance ([judiciary.house.gov](https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/2025-11/FBI-HJC119-AF-000001-000198.pdf)).",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No confirmed local civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Approach with standard landowner outreach protocols, focusing on property value preservation and visual screening."
+      },
+      "confidence": "medium",
+      "citations": [
+        {
+          "claim": "Meshell and Jason Shepherd are linked to property holdings in Arizona through investment records",
+          "url": "https://elementix.ai/investors/az/meshell-shepherd",
+          "title": "Meshell Shepherd Investor Profile",
+          "date": "2026-01-28"
+        },
+        {
+          "claim": "While a Jason Shepherd is a prominent political figure in Georgia, no evidence links the Cochise County landowner to that public profile",
+          "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/2025-11/FBI-HJC119-AF-000001-000198.pdf",
+          "title": "FBI/House Judiciary Document mentioning Jason Shepherd (Georgia)",
+          "date": "2025-11-01"
+        }
+      ],
+      "verification_notes": "Verified existence of Meshell/Jason Shepherd entity in AZ. Disambiguated from Georgia politician Jason Shepherd. Original citations removed as they did not support claims."
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Gale Nellans",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-15-013C"
+      ],
+      "claims": "No public records could be found to verify Gale Nellans as the current owner of parcel 106-15-013C or as a resident of Cochise County. Historical records indicate individuals with this name residing in Virginia and Indiana ([genealogy.fulco.lib.in.us](http://genealogy.fulco.lib.in.us/wp-content/uploads/2018/10/Obituaries_1989.pdf)).",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Identity unverified",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Verify ownership with county assessor before attempting contact."
+      },
+      "confidence": "low",
+      "citations": [
+        {
+          "claim": "Historical records indicate individuals with this name residing in Virginia and Indiana",
+          "url": "http://genealogy.fulco.lib.in.us/wp-content/uploads/2018/10/Obituaries_1989.pdf",
+          "title": "1989 Obituaries mentioning Gale Nellans",
+          "date": "1989-02-14"
+        }
+      ],
+      "verification_notes": "Could not verify existence of Gale Nellans in Cochise County. Original citations did not mention this individual."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 630060,
+    "thinking_count": 39
+  }
+}

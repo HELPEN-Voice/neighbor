@@ -1,0 +1,87 @@
+{
+  "batch_idx": 1,
+  "total_batches": 2,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "R V City Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "10606008A"
+      ],
+      "claims": "RV City, Inc. is a recreational vehicle dealership incorporated in Arizona on August 3, 1987 [BBB Business Profile \u2013 RV City, Inc.](https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902). The company\u2019s president is Ronald Hoffman, reflecting longstanding local ownership [BBB Business Profile \u2013 RV City, Inc.](https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902). RV City, Inc. has an estimated annual revenue between $500,000 and $1,000,000 [Enigma Business Directory \u2013 Huachuca City, AZ](https://enigma.com/directory/az/huachuca-city/).",
+      "community_influence": "Medium",
+      "influence_justification": "Long-established local business and employer; known in community but with limited political engagement",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [
+          "Avoiding business disruptions",
+          "Maintaining property value",
+          "Local economic growth"
+        ],
+        "engage": "Reach out to owner Ronald Hoffman directly to discuss any concerns and how the development can coexist with his dealership. Emphasize that the project will not hinder his operations and could bring broader economic benefits to the area."
+      },
+      "confidence": "medium"
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Nye James W Revocable Living Trust Agreement",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10615021X"
+      ],
+      "claims": "See RESIDENT table.",
+      "community_influence": "Unknown",
+      "influence_justification": "Private individual landowner with no public profile",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "low"
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bouchikas Family Revocable Lifetime Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10606026C"
+      ],
+      "claims": "See RESIDENT table.",
+      "community_influence": "Unknown",
+      "influence_justification": "Private individual landowner with no public profile",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "low"
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Lisa E Stansbury Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10603044B"
+      ],
+      "claims": "See RESIDENT table.",
+      "community_influence": "Unknown",
+      "influence_justification": "Private individual landowner with no public profile",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "low"
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Among the neighboring landowners in Cochise County, one is a longstanding local business (RV City, Inc.) and the others are private family trusts. RV City, Inc. is a 35+ year-old RV dealership with local economic ties but no public stance on development documented, suggesting it may remain neutral or pragmatic about new projects. The three trusts are individual landholders with no discernible public profile or stated development stance, indicating their influence and positions are likely limited or unknown.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_114451_1.json",
+  "cached_at": "2026-01-28T11:38:27.374857"
+}

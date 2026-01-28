@@ -1,0 +1,86 @@
+{
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Babacomari Ranch Company",
+      "entity_category": "Organization",
+      "entity_type": "lllp",
+      "pins": [
+        "10603038"
+      ],
+      "claims": "Babacomari Ranch Company is a family-owned cattle ranch (~28,000 acres) spanning from Sonoita into Cochise County, originally acquired in 1935 by Frank Cullen Brophy; today it is held by 65 Brophy descendants and is Arizona\u2019s largest contiguous private land parcel [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/). In 2023 the owners partnered with Arizona Land and Water Trust to place 2,488 acres of the ranch under a permanent conservation easement, protecting habitat and the working landscape [Arizona Land and Water Trust](https://alwt.org/babacomari-ranch/). The family has also pursued new development on the property: in 2019 they applied for a county permit to develop a 150-guest \"dude ranch\" resort on a 2,200-acre pasture in Sonoita, an upscale project estimated to cost $40\u201360 million [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/).",
+      "community_influence": "High",
+      "influence_justification": "Controls vast acreage; Historic family legacy since 1935; Active in conservation and capable of large-scale development projects",
+      "entity_classification": "agriculture",
+      "approach_recommendations": {
+        "motivations": [
+          "Land conservation ethos",
+          "Selective development for tourism revenue"
+        ],
+        "engage": "Engage the Brophy family\u2019s representatives (e.g., their project advisor) early; emphasize alignment with the ranch\u2019s conservation goals and address any wildlife or scenery impacts in the proposal"
+      },
+      "confidence": "high"
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Mountain View Rv Resort Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10606008",
+        "10606021C"
+      ],
+      "claims": "Mountain View RV Resort LLC is a privately held Arizona company that opened a small RV campground at 99 W Vista Lane in Huachuca City around 2021 [Mountain View RV Park](https://mountainviewrvpark.com/) [Zillow](https://www.zillow.com/homedetails/99-W-Vista-Ln-Huachuca-City-AZ-85616/205145452_zpid/). The park spans roughly 3 acres and markets the area\u2019s open desert skies and mountain views between the Huachuca and Mule Mountains as key attractions for snowbirds and travelers [Mountain View RV Park](https://mountainviewrvpark.com/).",
+      "community_influence": "Low",
+      "influence_justification": "Small local enterprise (3-acre RV park); new to the community with minimal economic or political sway",
+      "entity_classification": "land_investment",
+      "approach_recommendations": {
+        "motivations": [
+          "Preserving scenic views for business",
+          "Maintaining quiet rural atmosphere"
+        ],
+        "engage": "Reach out privately to the RV park owner; offer measures (landscaping, traffic management) to mitigate any impacts on the park\u2019s ambiance and visibility"
+      },
+      "confidence": "medium"
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Klein Fam Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10606021B"
+      ],
+      "claims": "See RESIDENT table.",
+      "community_influence": "Unknown",
+      "influence_justification": "Personal family trust (private landowner); no notable community or political profile",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "low"
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Decker Roy F Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10603012G"
+      ],
+      "claims": "See RESIDENT table.",
+      "community_influence": "Unknown",
+      "influence_justification": "Private individual\u2019s living trust; minimal public presence beyond owning the parcel",
+      "entity_classification": "unknown",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": ""
+      },
+      "confidence": "low"
+    }
+  ],
+  "overview_summary": "Neighbors include the storied Babacomari Ranch Company (a 28,000-acre Brophy family cattle ranch under conservation easement) which holds significant local influence and prioritizes land stewardship. By contrast, Mountain View RV Resort LLC is a much smaller, recently established RV park business with limited reach outside of preserving its quiet, scenic appeal for tourists. The remaining adjacent parcels are held by private family trusts (Klein and Decker) with no organizational clout; none of these neighbors are apparent speculators or direct competitors, but the ranch\u2019s conservation priorities and the RV park\u2019s tourism interests could still spur opposition if a project threatens their land-use values.",
+  "annotations": [],
+  "raw_output": "{\"neighbors\": [{\"neighbor_id\": \"N-01\", \"name\": \"Babacomari Ranch Company\", \"entity_category\": \"Organization\", \"entity_type\": \"lllp\", \"pins\": [\"10603038\"], \"claims\": \"Babacomari Ranch Company is a family-owned cattle ranch (~28,000 acres) spanning from Sonoita into Cochise County, originally acquired in 1935 by Frank Cullen Brophy; today it is held by 65 Brophy descendants and is Arizona\\u2019s largest contiguous private land parcel [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/). In 2023 the owners partnered with Arizona Land and Water Trust to place 2,488 acres of the ranch under a permanent conservation easement, protecting habitat and the working landscape [Arizona Land and Water Trust](https://alwt.org/babacomari-ranch/). The family has also pursued new development on the property: in 2019 they applied for a county permit to develop a 150-guest \\\"dude ranch\\\" resort on a 2,200-acre pasture in Sonoita, an upscale project estimated to cost $40\\u201360 million [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/).\", \"community_influence\": \"High\", \"influence_justification\": \"Controls vast acreage; Historic family legacy since 1935; Active in conservation and capable of large-scale development projects\", \"entity_classification\": \"agriculture\", \"approach_recommendations\": {\"motivations\": [\"Land conservation ethos\", \"Selective development for tourism revenue\"], \"engage\": \"Engage the Brophy family\\u2019s representatives (e.g., their project advisor) early; emphasize alignment with the ranch\\u2019s conservation goals and address any wildlife or scenery impacts in the proposal\"}, \"confidence\": \"high\"}, {\"neighbor_id\": \"N-02\", \"name\": \"Mountain View Rv Resort Llc\", \"entity_category\": \"Organization\", \"entity_type\": \"llc\", \"pins\": [\"10606008\", \"10606021C\"], \"claims\": \"Mountain View RV Resort LLC is a privately held Arizona company that opened a small RV campground at 99 W Vista Lane in Huachuca City around 2021 [Mountain View RV Park](https://mountainviewrvpark.com/) [Zillow](https://www.zillow.com/homedetails/99-W-Vista-Ln-Huachuca-City-AZ-85616/205145452_zpid/). The park spans roughly 3 acres and markets the area\\u2019s open desert skies and mountain views between the Huachuca and Mule Mountains as key attractions for snowbirds and travelers [Mountain View RV Park](https://mountainviewrvpark.com/).\", \"community_influence\": \"Low\", \"influence_justification\": \"Small local enterprise (3-acre RV park); new to the community with minimal economic or political sway\", \"entity_classification\": \"land_investment\", \"approach_recommendations\": {\"motivations\": [\"Preserving scenic views for business\", \"Maintaining quiet rural atmosphere\"], \"engage\": \"Reach out privately to the RV park owner; offer measures (landscaping, traffic management) to mitigate any impacts on the park\\u2019s ambiance and visibility\"}, \"confidence\": \"medium\"}, {\"neighbor_id\": \"N-03\", \"name\": \"Klein Fam Living Trust\", \"entity_category\": \"Organization\", \"entity_type\": \"trust\", \"pins\": [\"10606021B\"], \"claims\": \"See RESIDENT table.\", \"community_influence\": \"Unknown\", \"influence_justification\": \"Personal family trust (private landowner); no notable community or political profile\", \"entity_classification\": \"unknown\", \"approach_recommendations\": {\"motivations\": [], \"engage\": \"\"}, \"confidence\": \"low\"}, {\"neighbor_id\": \"N-04\", \"name\": \"Decker Roy F Living Trust\", \"entity_category\": \"Organization\", \"entity_type\": \"trust\", \"pins\": [\"10603012G\"], \"claims\": \"See RESIDENT table.\", \"community_influence\": \"Unknown\", \"influence_justification\": \"Private individual\\u2019s living trust; minimal public presence beyond owning the parcel\", \"entity_classification\": \"unknown\", \"approach_recommendations\": {\"motivations\": [], \"engage\": \"\"}, \"confidence\": \"low\"}], \"overview_summary\": \"Neighbors include the storied Babacomari Ranch Company (a 28,000-acre Brophy family cattle ranch under conservation easement) which holds significant local influence and prioritizes land stewardship. By contrast, Mountain View RV Resort LLC is a much smaller, recently established RV park business with limited reach outside of preserving its quiet, scenic appeal for tourists. The remaining adjacent parcels are held by private family trusts (Klein and Decker) with no organizational clout; none of these neighbors are apparent speculators or direct competitors, but the ranch\\u2019s conservation priorities and the RV park\\u2019s tourism interests could still spur opposition if a project threatens their land-use values.\"}"
+}

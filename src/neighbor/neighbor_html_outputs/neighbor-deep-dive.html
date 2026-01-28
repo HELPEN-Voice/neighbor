@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbor Screens</title>
+    
+    <!-- Self-hosted fonts for Playwright -->
+    <style>
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+        @font-face { font-family:"Inter"; src:url("fonts/Inter-Variable.woff2") format("woff2"); font-weight:300 700; font-style:normal; font-display:swap; }
+    </style>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 16:9 slide system */
+        @page { size: 10in 5.625in; margin: 0; }
+        html, body { width: 10in; height: 5.625in; margin: 0; }
+
+        body.slides {
+            background: #F1F5F9;
+            font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            counter-reset: link-counter;
+        }
+        
+        /* Brand (adjust to Helpen brand kit) */
+        :root{
+            --hp-navy:#0B1D3A;
+            --hp-accent:#007BFF;
+            --hp-bg:#F1F5F9;
+            --font-main: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            --text-dark: #0B1D3A;
+        }
+        
+        /* One "slide" per page */
+        .slide {
+            width: 10in; height: 5.625in; 
+            display: grid; 
+            grid-template-rows: 0.9in auto 0.5in;  /* header / content / footer */
+            padding: 0.4in 0.25in;
+            box-sizing: border-box;
+            page-break-after: always;
+            background: #fff;
+        }
+        .slide:last-of-type { page-break-after: auto; }
+        
+        /* Safe header/footer bars */
+        .slide .header {
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .slide .footer {
+            display:flex; align-items:center; justify-content:space-between;
+            font-size: 10pt; color:#475569;
+        }
+        
+        /* Fix headings (remove over-tracking; use tight caps) */
+        h1, h2 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;        /* was too large; keep subtle */
+            font-family: 'DM Sans', Inter, sans-serif;
+            color: var(--hp-navy);
+        }
+        .cover h1 { font-size: 40pt; line-height: 1.05; }
+        .cover h2 { font-size: 16pt; font-weight: 500; letter-spacing: 0.01em; }
+        .summary h2, .table h2 { font-size: 18pt; }
+        .table h2 { font-size: 18pt; color: var(--hp-navy); font-family: 'DM Sans', Inter, sans-serif; }
+        
+        /* Tables - exact copy from diligence */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px; /* Reduced from 30px by 50% */
+            margin-bottom: 30px; /* Ensure padding from bottom */
+            page-break-inside: auto;
+            table-layout: fixed; /* Enforce specified column widths */
+        }
+        
+        th {
+            background-color: #F7F9FB;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.08in 0.1in;
+            font-size: 7pt;
+            border-bottom: 2px solid #E2E8F0;
+            font-family: var(--font-main);
+            color: var(--text-dark);
+        }
+        
+        td {
+            padding: 0.06in 0.1in;
+            border-bottom: 1px solid #F1F5F9;
+            vertical-align: top;
+            line-height: 1.4;
+            font-size: 7pt;
+        }
+        
+        /* Page break rules to prevent row splitting */
+        tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+        
+        thead {
+            display: table-header-group; /* Repeat header on new pages */
+        }
+        
+        tfoot {
+            display: table-footer-group;
+        }
+        
+        .table-wrapper {
+            overflow: visible;
+            page-break-inside: auto;
+        }
+        
+        /* Ensure proper page breaking for multi-page tables */
+        .content {
+            padding-bottom: 30px; /* Ensure content doesn't touch bottom */
+        }
+        
+        /* Citation circles */
+        .citation-circle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #E5E7EB;
+            border-radius: 50%;
+            font-size: 6px;
+            color: #6B7280;
+            text-align: center;
+            line-height: 10px;
+            vertical-align: super;
+            text-decoration: none;
+            margin-left: 2px;
+            cursor: pointer;
+        }
+
+        .citation-circle:hover {
+            background-color: #D1D5DB;
+        }
+
+        /* Section grouping to prevent H3+summary+table separation */
+        .section-group {
+            page-break-inside: auto;
+            break-inside: auto;
+        }
+
+        /* Prevent Organizations H3 and summary from separating */
+        .organizations-header-group {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        .section-summary {
+            background: #F7F9FB;
+            padding: 0.1in 0.15in;
+            border-radius: 4px;
+            margin: 10px 0 15px 0;
+            border-left: 2px solid #007BFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 8pt;
+            color: #0B1D3A;
+            line-height: 1.4;
+        }
+
+        /* Print color adjustment and page break rules */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background: #fff !important; /* Ensure white background on all pages */
+            }
+            
+            /* Ensure all pages have white background */
+            @page {
+                background: #fff;
+                margin: 0;
+            }
+            
+            /* Let tables break cleanly */
+            table { page-break-before: auto; page-break-after: auto; page-break-inside: auto; }
+            tr    { page-break-inside: avoid; page-break-after: auto; }
+            
+            /* Repeat headers; don't try to margin them */
+            thead { display: table-header-group; margin-top: 0 !important; }
+            
+            /* ✅ Add 25px only on follow-on pages of this block */
+            .content {
+                padding-top: 25px;                 /* the spacer you want */
+                margin-top: -5px;                  /* small adjustment to not overlap header */
+                -webkit-box-decoration-break: clone;
+                box-decoration-break: clone;       /* clone padding on each page fragment */
+                overflow: visible;                 /* ensure the block can fragment in print */
+                background: #fff !important;       /* Ensure content has white background */
+            }
+            
+            .slide {
+                padding-bottom: 30px !important;
+                background: #fff !important;       /* Force white background on slides */
+            }
+        }
+
+        /* Automatic link numbering for citations */
+        a {
+            font-size: 0;
+            counter-increment: link-counter;
+        }
+
+        a::after {
+            content: counter(link-counter);
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #F7F9FB;
+            color: #0B1D3A;
+            text-align: center;
+            line-height: 10px;
+            font-size: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 1px;
+            vertical-align: super;
+        }
+
+        /* Influence badges */
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 6.5pt;
+            font-weight: 500;
+        }
+        .badge-high {
+            background: rgba(59, 130, 246, 0.15);
+            color: #2563EB;
+        }
+        .badge-medium {
+            background: rgba(249, 115, 22, 0.15);
+            color: #EA580C;
+        }
+        .badge-low {
+            color: #64748B;
+        }
+
+        /* Stance text colors */
+        .stance-support {
+            color: #16A34A;
+        }
+        .stance-opposed {
+            color: #DC2626;
+        }
+        .stance-unknown {
+            color: #64748B;
+        }
+    </style>
+</head>
+<body class="slides">
+    <section class="slide table">
+        
+        <!-- Header area -->
+        <div class="header" style="padding-bottom: 10px;">
+            <div class="header-left">
+                <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.35in; width:auto; display: block;" />
+                <div style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 10pt; color: #007BFF; text-transform: uppercase; letter-spacing: 0.15em; display: flex; align-items: center; gap: 0.1in; margin-top: 30px;">
+                    <div style="width: 0.25in; height: 1px; background: #007BFF; opacity: 0.5;"></div>
+                    NEIGHBOR SCREENS
+                </div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-size: 9pt; color: #0B1D3A; font-weight: 600; margin-bottom: 6px;">Analyzed:</div>
+                <div style="font-size: 8pt; color: #64748B; line-height: 1.3;">
+                    
+                    
+                    <div>21 Residents</div>
+                    <div>6 Entities</div>
+                    <div style="margin-top: 8px; padding: 6px 0; border-top: 1px solid #E2E8F0; font-size: 7pt; color: #94A3B8; line-height: 1.4; background: rgba(255,255,255,0.9); position: relative; z-index: 10;">
+                        <div style="margin-bottom: 2px;">Adj. = Adjacent Parcel</div>
+                        <div>C = Confidence in Sources</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content area - Tables -->
+        <div class="content" style="overflow-x: auto; margin-top: 15px;">
+            
+            
+            
+            
+            
+            <!-- Residents Section -->
+            <div class="section-group">
+                <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Residents</h3>
+                
+                <!--  -->
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 10%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 12%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 32%;">Claims</th>
+                            <th style="width: 10%;">Stance</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606019A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Josue &amp; Diana Flores</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Josue and Diana Flores are associated with a parcel at 375 W Buffalo Ln in Huachuca City, which is also the registered address for "J & D Roll Off & Hauling" (<a href="https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=2345532" target="_blank">FMCSA</a>). The property is classified as industrial or commercial land in some listings (<a href="https://www.loopnet.com/property/375-w-buffalo-ln-huachuca-city-az-85616/04003-10606019A/" target="_blank">LoopNet</a>). No public meeting minutes or news articles were found that mention the couple’s views on area development or community issues.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value.
+
+The Flores family appears to operate a local hauling business from the property. Approach with a focus on how project construction might interact with their business operations and road access.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606020</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Loren J. Sheldon</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Loren J. Sheldon is the operator of the Whetstone Pit, a surface metal mine specializing in sand and gravel (<a href="https://minesdatabase.com/mines/view/203001" target="_blank">MinesDatabase</a>). He has also operated L. Sheldon & Trucking Company, a heavy equipment business, for over 20 years (<a href="https://arizonadailyindependent.com/2021/03/07/four-federal-agents-accused-in-lawsuit-of-fabricating-evidence-and-false-statements/" target="_blank">Arizona Daily Independent</a>). Sheldon has been involved in litigation against federal agents regarding investigations into his business operations, which were ultimately dismissed (<a href="https://arizonadailyindependent.com/2021/03/07/four-federal-agents-accused-in-lawsuit-of-fabricating-evidence-and-false-statements/" target="_blank">Arizona Daily Independent</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">drainage_roads, local_control.
+
+Engage Sheldon via a technical liaison who can address infrastructure and drainage plans. His history as a heavy equipment operator suggests he will have specific technical concerns regarding road use and site grading.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606018P</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Richard E. &amp; Julia Ann Wilson</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Richard E. and Julia Ann Wilson are listed as owners of a residential parcel at 2031 W Cougar Pl, Huachuca City (<a href="https://www.compass.com/homedetails/2031-W-Cougar-Pl-Huachuca-City-AZ-85616/W1LBH_pid/" target="_blank">Compass</a>). As of January 2026, the property is listed for sale and is in 'Pending' status (<a href="https://www.sellmytucsonhome.com/homes-for-sale/AZ/huachuca_city/85616/2031_w_cougar_place/bid-83-22520862" target="_blank">SellMyTucsonHome</a>). They do not appear in local news reports or public meeting records regarding development.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value.
+
+The property appears to be in the process of being sold. Verify current ownership before outreach. If the Wilsons are still the owners, approach with awareness that they may be exiting the community.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606029A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Donald Franz</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Donald Franz is a landowner at 255 W Buffalo Ln, Huachuca City (<a href="https://www.zillow.com/homedetails/255-W-Buffalo-Ln-Huachuca-City-AZ-85616/7398964_zpid/" target="_blank">Zillow</a>). He is a pastor and the founder of 'Fortaleciendo Familias' (Strengthening Families), a non-profit ministry focused on family restoration (<a href="https://www.enfoquealafamilia.com/wp-content/uploads/2024/06/Perfil-Profesional-Donald-Franz.pdf" target="_blank">Enfoque a la Familia</a>). He is also a licensed amateur radio operator (Call sign AA0Y) (<a href="https://www.qrzcq.com/call/AA0Y" target="_blank">QRZCQ</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy, privacy_quiet.
+
+Mr. Franz is a religious leader with a focus on family values. Approach with respect for his community role. His ministry work suggests he may value community stability and family legacy.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606029D</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Kenneth A. Bowen</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Kenneth A. Bowen is a landowner in Cochise County (<a href="https://cochise.az.gov/Archive.aspx#:~:text=Archive%20Center%20%E2%80%A2%20Cochise%20County%2C,Judd%202020%20Financial%20Disclosure%20Statement" target="_blank">cochise.az.gov</a>). Public records and media searches yield no evidence of Bowen holding public office, civic positions, or taking a public stance on development issues in Cochise County (<a href="https://cochise.az.gov/Archive.aspx#:~:text=Archive%20Center%20%E2%80%A2%20Cochise%20County%2C,Judd%202020%20Financial%20Disclosure%20Statement" target="_blank">cochise.az.gov</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Approach with a standard neighborly introduction. Given the lack of public profile, prioritize listening to uncover specific concerns regarding privacy or property rights.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606018F</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>John &amp; Gail Christmann</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">John and Gail Christmann moved to the Sonoita area from New Paltz, New York, in 2020 (<a href="https://patagoniaregionaltimes.org/wp-content/uploads/2023/05/PRT-5.23-for-web.pdf" target="_blank">patagoniaregionaltimes.org</a>). Gail Christmann is highly active in local planning and preservation efforts; she serves on the Sonoita/Elgin Preservation and Planning Committee, which formed to give the community control over future growth (<a href="https://patagoniaregionaltimes.org/planning-committee-sets-april-29-town-hall-in-sonoita/" target="_blank">patagoniaregionaltimes.org</a>). She leads the local Dark Sky certification initiative, advocating for lighting that minimizes pollution to benefit wildlife (<a href="https://patagoniaregionaltimes.org/citizen-committee-maps-new-planning-preservation-priorities-for-sonoita-elgin-area/" target="_blank">patagoniaregionaltimes.org</a>). Additionally, she is involved in revitalizing the Sonoita-Elgin Chamber of Commerce (<a href="https://patagoniaregionaltimes.org/revitalization-efforts-underway-for-sonoita-elgin-chamber-of-commerce/" target="_blank">patagoniaregionaltimes.org</a>). Gail has identified herself as a "rancher and cattlewoman" in a letter to the editor defending the beef industry (<a href="https://patagoniaregionaltimes.org/letters-to-the-editor-4/" target="_blank">patagoniaregionaltimes.org</a>). Prior to moving, Gail served as a member of the Zoning Board of Appeals in the Town of New Paltz, NY (<a href="https://www.townofnewpaltzny.gov/zoning-board/minutes/minutes-17" target="_blank">townofnewpaltzny.gov</a>). John Christmann is the founder of StarCrest Inspections, a home inspection business serving Cochise County (<a href="https://starcresthomeinspections.com/areas/" target="_blank">starcresthomeinspections.com</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">local_control, wildlife_habitat, farmland_preservation, aesthetics_viewshed.
+
+Engage Gail as a knowledgeable stakeholder with zoning experience. Frame the project around responsible planning, preservation of rural character, and Dark Sky compliance to align with her established priorities.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606029B</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Brenden &amp; Amber Linendoll</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Amber Linendoll is employed by the Cochise County Sheriff's Office (<a href="https://www.cochise.az.gov/DocumentCenter/View/10341/County-Phone-Roster-by-Department-PDF" target="_blank">cochise.az.gov</a>). Brenden Linendoll serves as a Deputy Sheriff for Cochise County; he was approved for membership in the Public Safety Personnel Retirement System (PSPRS) as a Deputy Sheriff candidate in 2021 (<a href="https://www.cochise.az.gov/AgendaCenter/ViewFile/Minutes/_07212021-102" target="_blank">cochise.az.gov</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">local_control, traffic_safety.
+
+Engage with respect for their law enforcement roles. Highlight site security measures and traffic management plans to ensure the project does not burden Sheriff's Office resources.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606013Z</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Robert H. Bangle &amp; Pamela J. Bangle</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Robert H. Bangle has been documented as a resident of Whetstone, Cochise County (<a href="https://www.curlingbasics.com/download/gaestebuch_alt.pdf" target="_blank">Curling Basics Guestbook</a>). No references to the Bangle family appear in local news or county meeting archives through 2025, indicating they have not taken public positions on development issues.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">farmland_preservation.
+
+Engage the Bangles with informal, face-to-face outreach emphasizing respect for farmland and how project plans protect their agricultural interests.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603039G</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Anton Tyler &amp; Susan Tyler</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Public records indicate an Anton Tyler, formerly of Grand Rapids, MI, died in Mesa, AZ in 2005 (<a href="https://obits.mlive.com/us/obituaries/grandrapids/name/anton-tyler-obituary?id=14280604" target="_blank">MLive Obituary</a>). Other records list an Anton Tyler in North Las Vegas (<a href="https://www.cfis.state.nm.us/docs/FPReports/0_56334_2018_9_10_161340.pdf" target="_blank">NM Campaign Finance</a>). No current evidence of an Anton Tyler residing in Cochise County was found.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Verify current ownership and residency status before outreach, as records suggest the listed individual may be deceased or absentee.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10615013D</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>James P. Douglass</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">James P. Douglass is a trustee of the James P. Douglass and Jennifer Douglass Family Revocable Trust, based in Sierra Vista (<a href="https://spv.stparchive.com/Archive/SPV/SPV12082021P029.php" target="_blank">Sierra Vista Herald</a>). The Trust is associated with vacant land in Huachuca City (<a href="https://spv.stparchive.com/Archive/SPV/SPV12082021P029.php" target="_blank">Sierra Vista Herald</a>). Douglass has been listed in professional contractor records (<a href="https://anyflip.com/ummia/iuhq/basic" target="_blank">AnyFlip</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">fair_contracting.
+
+Highlight local job creation and contracting opportunities when meeting with Douglass, as his background in construction suggests he may respond positively to fair local hiring and business involvement.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606026B</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Virginia Fleming</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Virginia Fleming was a resident of Huachuca City (<a href="https://www.simplecontacts.com/profile/Joseph-Meyer-14145561" target="_blank">SimpleContacts</a>). Records indicate she died in November 2022 (<a href="https://www.webbmortuary.com/obituaries/virginia-fleming" target="_blank">Webb Mortuary</a>). The property associated with her name was sold in September 2022 (<a href="https://www.redfin.com/AZ/Huachuca-City/2059-W-Cougar-Pl-85616/home/115029799" target="_blank">Redfin</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy.
+
+Identify current property owners as Virginia Fleming is deceased. Approach new owners with general introduction.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606025D</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Jason Leigh &amp; Meshell Denise Shepherd</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Jason and Meshell Shepherd own property in Cochise County (APN 106-06-025D) (<a href="https://www.compass.com/homedetails/334-W-Oak-St-Huachuca-City-AZ-85616/ZSRSN_pid/" target="_blank">Compass</a>). No public records of civic engagement, board memberships, or comments on local development were found for this couple (<a href="https://www.cochise.az.gov/106/Clerk-of-the-Board" target="_blank">Cochise County</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Approach via polite, personal outreach to introduce the project. Invite questions and reassure them regarding property respect and privacy.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603039F</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Melanie A. Fiorucci</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Melanie A. Fiorucci is a real estate professional active in the Phoenix metro area, including Scottsdale and Chandler (<a href="https://www.redfin.com/AZ/Scottsdale/30104-N-166th-Way-85262/home/53473654" target="_blank">Redfin</a>). She is listed as a property owner in Cochise County but appears to be an absentee owner or investor given her primary business activities in Maricopa County (<a href="https://www.cochise.az.gov/106/Clerk-of-the-Board" target="_blank">Cochise County</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value.
+
+Contact via professional channels. Acknowledge her real estate background; emphasize property value protection and transparency regarding the project's impact.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603044</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Peggy A. Stoll</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Peggy A. Stoll is a resident of the Sierra Vista area (<a href="https://ecorp.azcc.gov/CommonHelper/GetFilingDocuments?barcode=00412294" target="_blank">AZCC</a>). She appears to be a retired academic, formerly teaching English at Iowa State University before retiring to Arizona (<a href="https://www.isualum.org/s/565/images/editor_documents/2023/retirees/obituaries_2023__1_.pdf" target="_blank">ISU Alumni</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Reach out with a neighborly introduction. Provide clear project information to address potential concerns of a retiree regarding privacy and quiet enjoyment.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606021D</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Michael E. Klein &amp; Peggy Klein</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Public records do not confirm Michael E. and Peggy Klein as the current owners of parcel 106-06-021D, and no specific presence in Cochise County could be verified for these individuals. A 'Peggy Klein' appears in obituaries in other states, but no definitive link to this property exists in available records (<a href="https://www.legacy.com/obituaries/search?countryUrl=united-states-of-america&dateRange=Last30Days&lastName=klein%20nee%20motz&page=10" target="_blank">legacy.com</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Verify current property ownership through county assessor records before outreach.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606018Q</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Zane Daniel Ritenour &amp; Carina Marie Ritenour</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Zane and Carina Ritenour are associated with the residential property at 2077 W Cougar Place (Parcel 106-06-018Q) in Huachuca City (<a href="https://www.homes.com/property/2077-w-cougar-place-huachuca-city-az/k8k492gnrzefc/" target="_blank">homes.com</a>). Zane Ritenour is the owner and qualifying party for B-J Drilling Company, Inc., a long-standing water well drilling business in the region (<a href="https://bjdrilling.com/" target="_blank">bjdrilling.com</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">groundwater_runoff, property_value.
+
+Engage Zane Ritenour with technical competence regarding groundwater impact, acknowledging his professional expertise in local water systems.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606025C</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Jason L. Shepherd &amp; Meshell D. Shepherd</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Meshell and Jason Shepherd are linked to property holdings in Arizona through investment records (<a href="https://elementix.ai/investors/az/meshell-shepherd" target="_blank">elementix.ai</a>). While a Jason Shepherd is a prominent political figure in Georgia, no evidence links the Cochise County landowner to that public profile or any local development stance (<a href="https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/2025-11/FBI-HJC119-AF-000001-000198.pdf" target="_blank">judiciary.house.gov</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, property_value.
+
+Approach with standard landowner outreach protocols, focusing on property value preservation and visual screening.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10615013C</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Gale Nellans</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">No public records could be found to verify Gale Nellans as the current owner of parcel 106-15-013C or as a resident of Cochise County. Historical records indicate individuals with this name residing in Virginia and Indiana (<a href="http://genealogy.fulco.lib.in.us/wp-content/uploads/2018/10/Obituaries_1989.pdf" target="_blank">genealogy.fulco.lib.in.us</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value.
+
+Verify ownership with county assessor before attempting contact.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603039E</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Darrel D Howell &amp; Lee Ann Howell</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Darrel D. Howell and Lee Ann Howell are residents of Cochise County, Arizona. Lee Ann Howell is a prominent science teacher at Colonel Smith Middle School in the Fort Huachuca Accommodation School District (<a href="https://www.schools.pima.gov/media/press-releases/educators-from-southern-arizona-selected-for-the-stemazing-teacher-leader-p" target="_blank">source</a>). She holds significant community standing as the 2018 Cochise County Teacher of the Year and a 2019 Arizona Teacher of the Year Ambassador for Excellence (<a href="https://cochiseeducationfoundation.org/recognition/" target="_blank">source</a>) (<a href="https://events.nau.edu/event/tariat/" target="_blank">source</a>). Darrel Howell is a federal employee with the USDA Forest Service, serving as a fire and fuels management contact for the Nogales Ranger District of the Coronado National Forest, which manages lands across Cochise, Pima, and Santa Cruz counties (<a href="https://www.fs.usda.gov/sopa/components/reports/sopa-110305-2024-01.pdf" target="_blank">source</a>). Lee Ann Howell is documented attending meetings for the Sulphur Springs Valley Electric Cooperative (SSVEC) in Willcox, indicating engagement with local utility matters (<a href="https://www.ssvec.org/downloads/minutes/Minutes-2016-07.pdf" target="_blank">source</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">wildlife_habitat, tax_revenue_benefit.
+
+Engage regarding environmental stewardship given Darrel's Forest Service role. Highlight tax revenue benefits for local schools, appealing to Lee Ann's position as a celebrated educator.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606021B</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Klein Fam Living Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The Klein Family Living Trust purchased residential property at 182 W Sarah Ln in Huachuca City in August 2024 <a href="https://www.homes.com/property/182-w-sarah-ln-huachuca-city-az/tg13l3rftgew1/" target="_blank">Homes.com</a>. The trust has also been associated with property transactions in Maricopa County, AZ <a href="https://eservices.scottsdaleaz.gov/bldgresources/EDM/Viewer?docId=13129392&docName=CITIZEN%20REVIEW%20%2817382435-v1%29&fileExt=pdf" target="_blank">City of Scottsdale</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;"></td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603012G</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Decker Roy F Living Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The Roy F Decker Living Trust was the former owner of a residential property at 5520 W Desert Mountain Trail in Bisbee (Cochise County), which was sold to private individuals in April 2022 <a href="https://www.homes.com/property/5520-w-desert-mountain-trail-bisbee-az/ej2y0n2f4945j/" target="_blank">Homes.com</a>. Roy F. Decker (individual) is deceased <a href="https://www.ancestry.com/search/categories/bmd_death/?name=Roy_Decker&event=_OR" target="_blank">Ancestry</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;"></td>
+                            <td>L</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+            <!-- Organizations Section -->
+            <div class="section-group" style="page-break-before: always;">
+                <div class="organizations-header-group">
+                    <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Entities</h3>
+                    
+                    <!--  -->
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 10%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 11%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 32%;">Claims</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 11%;">Classification</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603038</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Babacomari Ranch Company</strong></td>
+                            <td>lllp</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Babacomari Ranch Company is a family-owned cattle ranch (~28,000 acres) spanning from Sonoita into Cochise County, originally acquired in 1935 by Frank Cullen Brophy; today it is held by approximately 65 Brophy descendants and is Arizona’s largest contiguous private land parcel <a href="https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/" target="_blank">Patagonia Regional Times</a> <a href="https://en.wikipedia.org/wiki/Sonoita_AVA" target="_blank">Wikipedia</a>. In January 2020, the owners partnered with Arizona Land and Water Trust to place 2,488 acres of the ranch under a permanent conservation easement, protecting habitat and the working landscape <a href="https://alwt.org/babacomari-ranch/" target="_blank">Arizona Land and Water Trust</a> <a href="https://patagoniaregionaltimes.org/elgin-ranch-works-to-preserve-watershed/" target="_blank">Patagonia Regional Times</a>. The family has also pursued new development on the property: in September 2024, they received a Conditional Use Permit to develop a 150-guest "dude ranch" resort on a 2,200-acre pasture in Sonoita, an upscale project estimated to cost $40–60 million <a href="https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/" target="_blank">Patagonia Regional Times</a> <a href="https://patagoniaregionaltimes.org/wp-content/uploads/2024/10/PRT-10.24-for-web.pdf" target="_blank">Patagonia Regional Times</a>. The ranch utilizes solar technology for operations, including solar-powered fencing and pumps <a href="https://www.azwpf.gov/sites/default/files/media/09-164FinalReportBabocomariRiverRiparianProtectioneditedon1-24-14ljk.pdf" target="_blank">Arizona Water Protection Fund</a> <a href="https://alwt.org/wp-content/uploads/2024/08/ALWT-AR-2024-ToPress_Amended-website.pdf" target="_blank">Arizona Land and Water Trust</a>.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt;">agriculture</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Land conservation ethos, Selective development for tourism revenue.
+
+Engage the Brophy family’s representatives (e.g., their project advisor) early; emphasize alignment with the ranch’s conservation goals and address any wildlife or scenery impacts in the proposal</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606008,10606021C</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Mountain View Rv Resort Llc</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Mountain View RV Resort LLC is a privately held company that acquired the RV campground at 99 W Vista Lane in Huachuca City in March 2019 <a href="https://realestatedaily-news.com/park-brokerage-closes-on-rv-park-mhp-in-arizona-california/?print=print" target="_blank">Real Estate Daily News</a>. The park spans approximately 15 acres and contains 81 spaces, marketing the area’s open desert skies and mountain views between the Huachuca and Mule Mountains as key attractions <a href="https://realestatedaily-news.com/park-brokerage-closes-on-rv-park-mhp-in-arizona-california/?print=print" target="_blank">Real Estate Daily News</a> <a href="https://mountainviewrvpark.com/" target="_blank">Mountain View RV Park</a>. The entity is registered in Arizona <a href="https://mountainviewrvpark.com/terms-and-conditions/" target="_blank">Mountain View RV Park</a>.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Preserving scenic views for business, Maintaining quiet rural atmosphere.
+
+Reach out privately to the RV park owner; offer measures (landscaping, traffic management) to mitigate any impacts on the park’s ambiance and visibility</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606008A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>R V City Inc</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">RV City, Inc. is a recreational vehicle dealership incorporated in Arizona on August 3, 1987 (<a href="https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902" target="_blank">BBB</a>). While the business was long operated by President Ronald Hoffman, the company announced it is under new ownership and management as of May 2025 (<a href="https://www.rvcity.net/about-us" target="_blank">RV City</a>). The company has a history of federal contracting, including supplying travel trailers to FEMA for disaster relief in 2005 (<a href="https://disability.law.uiowa.edu/dpn_hi/100.pdf" target="_blank">FEMA</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Business continuity, Local economic stability, Property value maintenance.
+
+Contact the new management team (post-May 2025 ownership change) to introduce the project. Acknowledge the business's long history in the community and ensure construction logistics do not interfere with dealership access or operations.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10615021X</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Nye James W Revocable Living Trust Agreement</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Registered owner of property in Cochise County. Historical records indicate a James W. Nye served as a Superior Court Judge in Cochise County and died in 1958 (<a href="https://www.phoenixmasonry.org/10,000_famous_freemasons/volume_4_q_to_z.htm" target="_blank">Phoenix Masonry</a>), though a direct link between the historical figure and the current trust beneficiaries could not be definitively verified.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Privacy, Land value.
+
+Standard neighbor outreach letter to registered address.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10606026C</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Bouchikas Family Revocable Lifetime Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Property is associated with the Bouchikas family. Chris Bouchikas has been active in the local astronomy community and has previously met with Cochise County officials to advocate for light pollution controls (<a href="https://hacastro.groups.io/g/main/topics?page=878&after=1023676515000000000" target="_blank">HAC</a>). The parcel is classified for mobile/manufactured home use (<a href="https://www.loopnet.com/property/2098-n-cougar-pl-douglas-az-85607/04003-10606026C/" target="_blank">LoopNet</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Dark skies preservation, Rural character.
+
+Address potential concerns regarding night lighting during construction or operation. Emphasize 'dark sky compliant' lighting in project design to align with the family's demonstrated interest in astronomy.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 6.5pt;">10603044B</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Lisa E Stansbury Living Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The Lisa E Stansbury Living Trust has been the registered owner of residential property in Huachuca City since May 2023 (<a href="https://www.homes.com/property/682-w-norraine-ln-huachuca-city-az/8qvmcg5vq2yx8/" target="_blank">Homes.com</a>). No public records of political engagement or development stance were found.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Privacy, Property value.
+
+Standard neighbor outreach.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        
+        <!-- Footer area (empty for cleaner look) -->
+        <div class="footer"></div>
+        
+    </section>
+</body>
+</html>
