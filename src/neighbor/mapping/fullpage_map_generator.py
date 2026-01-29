@@ -215,8 +215,8 @@ class FullPageMapGenerator:
         output_dir: Optional[str] = None,
         style: str = "satellite-streets-v12",
         username: str = "mapbox",
-        width: int = 1920,
-        height: int = 1080,
+        width: int = 1280,
+        height: int = 720,
         padding: int = 80,
         retina: bool = True,
     ):

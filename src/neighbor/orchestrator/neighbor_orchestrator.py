@@ -183,12 +183,12 @@ def delete_batch_caches(base_dir: Path = None):
         deleted = 0
         for f in output_dir.glob("batch_*.json"):
             try:
-                f.unlink()
+                subprocess.run(["trash", str(f)], check=False)
                 deleted += 1
             except OSError:
                 pass
         if deleted:
-            print(f"   🧹 Deleted {deleted} batch cache files")
+            print(f"   🧹 Trashed {deleted} batch cache files")
 
 
 def delete_html_outputs(base_dir: Path = None):
@@ -277,8 +277,8 @@ def generate_fullpage_map(
         mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
         output_dir=str(output_dir.parent / "neighbor_map_outputs"),
         style=settings.MAPBOX_STYLE,
-        width=1920,
-        height=1080,
+        width=1280,
+        height=720,
         padding=80,
         retina=True,
     )
@@ -444,12 +444,10 @@ class NeighborOrchestrator:
 
             if expected_count > 0 and profiled_count < expected_count * completeness_threshold:
                 print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ Cache incomplete: {profiled_count}/{expected_count} profiled ({profiled_count/expected_count*100:.0f}%)")
-                print(f"   🔄 Will rerun neighbor profiling to complete missing profiles")
-                # Fall through to fresh run by not returning here
-                # Reset cache flags so subsequent checks know we're starting fresh
-                cache_coords_match = False
-                has_dr = False
-                has_vr = False
+                print(f"   🔄 Will resume to complete missing profiles using existing batch caches")
+                # Load regrid data so we resume with existing batch caches instead of starting fresh
+                resolved = regrid_data.get("neighbors", [])
+                # Fall through to batch processing which will detect cached vs missing batches
             else:
                 # Cache is complete - use it
                 print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Found complete cached & verified data")
