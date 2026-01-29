@@ -373,11 +373,10 @@ async def test_live_pipeline(lat, lon, skip_clean=False):
             # Generate HTML reports using standalone script
             print(f"\n📄 Step 4: Generating HTML reports...")
             try:
-                # Run the standalone conversion script
-                conv_script = Path(__file__).parent / "convert_neighbor_to_html.py"
+                # Run as module to support relative imports
                 html_result = subprocess.run(
-                    [sys.executable, str(conv_script)],
-                    cwd=str(Path(__file__).parent),
+                    [sys.executable, "-m", "neighbor.convert_neighbor_to_html"],
+                    cwd=str(Path(__file__).parent.parent),  # src/ directory
                     capture_output=True,
                     text=True,
                 )

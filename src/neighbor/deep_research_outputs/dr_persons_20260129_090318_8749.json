@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-01-29T09:03:18.874943",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Of the one neighboring landowning household identified, none have expressed a clear stance for or against development, leaving their position classified as unknown. This neighbor is not known to hold any public office or leadership role, suggesting low community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "John & Shelley Barnes",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-48-003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John and Shelley Barnes are listed as landowners in Cochise County, Arizona property records ([publicrecords.netronline.com](https://publicrecords.netronline.com/state/AZ/county/cochise#:~:text=Go%20to%20Data%20Online)). No references in local meetings or news indicate that either has taken a public position on development or energy projects ([www.cochise.az.gov](https://www.cochise.az.gov/CivicAlerts.aspx?AID=384#:~:text=subscriptions%2C%20save%20form%20progress%20and,COCHISE%20COUNTY%20BOARD)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles or visibility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since their views are not documented, reach out in a friendly, informal way to learn about any concerns or questions they have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Of the one neighboring landowning household identified, none have expressed a clear stance for or against development, leaving their position classified as unknown. This neighbor is not known to hold any public office or leadership role, suggesting low community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"John & Shelley Barnes\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-48-003\"],\n      \"claims\": \"John and Shelley Barnes are listed as landowners in Cochise County, Arizona property records ([publicrecords.netronline.com](https://publicrecords.netronline.com/state/AZ/county/cochise#:~:text=Go%20to%20Data%20Online)). No references in local meetings or news indicate that either has taken a public position on development or energy projects ([www.cochise.az.gov](https://www.cochise.az.gov/CivicAlerts.aspx?AID=384#:~:text=subscriptions%2C%20save%20form%20progress%20and,COCHISE%20COUNTY%20BOARD)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles or visibility\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Since their views are not documented, reach out in a friendly, informal way to learn about any concerns or questions they have.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -1,37 +1,37 @@
 {
-  "run_id": "ca3eb324-ba18-4290-af36-c58e3956894a",
-  "coordinates": "39.5295115,-86.7638922",
-  "state_code": "IN",
-  "parcels_analyzed": 30,
+  "run_id": "7d74537d-0820-49c3-8546-01492342f35c",
+  "coordinates": "31.649194,-110.346861",
+  "state_code": "AZ",
+  "parcels_analyzed": 29,
   "community_wealth_proxy": {
-    "valid_samples": 15,
-    "median_structure_value": 165400.0,
-    "formatted": "$165,400",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 0,
+    "median_structure_value": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
   },
   "land_value_proxy": {
-    "valid_samples": 27,
-    "median_value_per_acre": 2526.6172544761253,
-    "formatted": "$2,527/acre",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 0,
+    "median_value_per_acre": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
   },
-  "total_property_value": 2685800.0,
-  "total_land_value": 2574800.0,
-  "final_radius_miles": 0.5,
+  "total_property_value": null,
+  "total_land_value": null,
+  "final_radius_miles": 1.5,
   "template_variables": {
-    "median_structure_value": "$165,400",
-    "wealth_risk_level": "LOW",
-    "wealth_risk_class": "risk-low",
-    "wealth_valid_samples": "15",
-    "median_land_value_acre": "$2,527/acre",
-    "land_risk_level": "LOW",
-    "land_risk_class": "risk-low",
-    "land_valid_samples": "27",
-    "parcels_analyzed": "30",
-    "total_property_value": "$2,685,800",
-    "total_land_value": "$2,574,800",
-    "final_radius_miles": "0.50"
+    "median_structure_value": "N/A",
+    "wealth_risk_level": "UNKNOWN",
+    "wealth_risk_class": "risk-unknown",
+    "wealth_valid_samples": "0",
+    "median_land_value_acre": "N/A",
+    "land_risk_level": "UNKNOWN",
+    "land_risk_class": "risk-unknown",
+    "land_valid_samples": "0",
+    "parcels_analyzed": "29",
+    "total_property_value": "N/A",
+    "total_land_value": "N/A",
+    "final_radius_miles": "1.50"
   }
 }

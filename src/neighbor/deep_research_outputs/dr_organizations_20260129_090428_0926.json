@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-01-29T09:04:28.092707",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neighboring landowners include a private development LLC, a small single-property LLC, a family trust, and the local municipality. The LLCs appear to be minor land investors (with little public information on ownership), while the family trust represents a longstanding individual landholding (see RESIDENT profile). Huachuca City (pop. ~1,600) owns nearby land and may eye new projects for tax revenue, though its official stance is not publicly stated ([www.biggestuscities.com](https://www.biggestuscities.com/city/huachuca-city-arizona#:~:text=,population%20of%20Huachuca%20City)).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jrl Development Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10647151",
+        "10647153"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JRL Development LLC is listed as owner of two parcels near Huachuca City, but it has no identifiable local business operations or filings in Arizona (likely formed out-of-state) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=Arizona%20Corporation%20Commission%20Entity%20Information,Standing%20Approval%20Date%3A%208%2F17%2F2023%20Status)). No officers or members are publicly disclosed in county or state records (beneficial owner unknown). The entity’s name suggests a land development or investment purpose, and it has not been linked to any active projects or public statements in Cochise County (no media or permit activity found as of 2025) ([projects.propublica.org](https://projects.propublica.org/recovery/locale/arizona/cochise#:~:text=Cochise%20County%2C%20Ariz.%20,include%20assistance%20for%20elementary%20and)) ([www.cochise.az.gov](https://www.cochise.az.gov/811/2025-Tax-Deed-Land-Sale#:~:text=Beginning%20Monday%2C%20November%203%2C%202025,and%20ending%20Friday%2C%20November)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Owns only 2 parcels; no known local ties or political activity; low public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Attempt to identify and contact the LLC’s principal; gauge interest in selling or partnering on development, as they may be primarily profit-motivated absent local attachments"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "381 W Railroad Dr Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10654001L"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "381 W Railroad Dr LLC is a single-purpose entity holding a 4.21-acre residential property (1-bed/1-bath house built 2011) at 381 W Railroad Drive ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)). The property has been offered for rent (advertised at $650/month), indicating the owner’s investment intent as a landlord rather than an owner-occupant ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=,new%20build)). There are no Arizona corporation records revealing the LLC’s managers, suggesting a private individual investor as the beneficial owner (identity not public). The LLC has no known involvement in local civic matters or development projects, aside from owning this rental property.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Owns a single residence; not a major employer or landholder; little public or political presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the property owner diplomatically (via the LLC contact) to address any concerns about project impacts on their rental; emphasize measures to maintain property value and neighborhood quiet"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cormell Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10647027"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Likely a longtime local landowner; approach via personal outreach respecting family’s ties to the land (See RESIDENT profile for details)"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Huachuca City City Of",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "10647065"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Town of Huachuca City (incorporated municipality) owns this parcel, indicating a public or community use for the land (e.g., utilities, right-of-way, or municipal facility). Huachuca City is a small town with about 1,600 residents and a modest tax base ([www.biggestuscities.com](https://www.biggestuscities.com/city/huachuca-city-arizona#:~:text=,population%20of%20Huachuca%20City)), which means town officials typically welcome economic development that can broaden the revenue stream. However, as a public body, the city’s stance on any specific project will depend on official deliberations and community input (no formal position has been announced; see project report). The municipality’s involvement as a landowner signifies that any development will need to address local zoning, infrastructure, and public interest considerations in collaboration with city authorities.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Municipal authority over zoning/permitting; represents community interests; limited budget but holds regulatory power",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Huachuca City’s council and town manager through formal meetings; demonstrate benefits (taxes, jobs) and address municipal concerns (zoning, services) to gain official support"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neighboring landowners include a private development LLC, a small single-property LLC, a family trust, and the local municipality. The LLCs appear to be minor land investors (with little public information on ownership), while the family trust represents a longstanding individual landholding (see RESIDENT profile). Huachuca City (pop. ~1,600) owns nearby land and may eye new projects for tax revenue, though its official stance is not publicly stated ([www.biggestuscities.com](https://www.biggestuscities.com/city/huachuca-city-arizona#:~:text=,population%20of%20Huachuca%20City)).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Jrl Development Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"10647151\", \"10647153\"],\n      \"claims\": \"JRL Development LLC is listed as owner of two parcels near Huachuca City, but it has no identifiable local business operations or filings in Arizona (likely formed out-of-state) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=Arizona%20Corporation%20Commission%20Entity%20Information,Standing%20Approval%20Date%3A%208%2F17%2F2023%20Status)). No officers or members are publicly disclosed in county or state records (beneficial owner unknown). The entity’s name suggests a land development or investment purpose, and it has not been linked to any active projects or public statements in Cochise County (no media or permit activity found as of 2025) ([projects.propublica.org](https://projects.propublica.org/recovery/locale/arizona/cochise#:~:text=Cochise%20County%2C%20Ariz.%20,include%20assistance%20for%20elementary%20and)) ([www.cochise.az.gov](https://www.cochise.az.gov/811/2025-Tax-Deed-Land-Sale#:~:text=Beginning%20Monday%2C%20November%203%2C%202025,and%20ending%20Friday%2C%20November)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Owns only 2 parcels; no known local ties or political activity; low public profile\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Speculative land value gain\", \"Resale or development profit\"],\n      \"approach_recommendations\": \"Attempt to identify and contact the LLC’s principal; gauge interest in selling or partnering on development, as they may be primarily profit-motivated absent local attachments\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"381 W Railroad Dr Llc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"10654001L\"],\n      \"claims\": \"381 W Railroad Dr LLC is a single-purpose entity holding a 4.21-acre residential property (1-bed/1-bath house built 2011) at 381 W Railroad Drive ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)). The property has been offered for rent (advertised at $650/month), indicating the owner’s investment intent as a landlord rather than an owner-occupant ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=,new%20build)). There are no Arizona corporation records revealing the LLC’s managers, suggesting a private individual investor as the beneficial owner (identity not public). The LLC has no known involvement in local civic matters or development projects, aside from owning this rental property.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Owns a single residence; not a major employer or landholder; little public or political presence\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Rental income protection\", \"Property value preservation\"],\n      \"approach_recommendations\": \"Engage the property owner diplomatically (via the LLC contact) to address any concerns about project impacts on their rental; emphasize measures to maintain property value and neighborhood quiet\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Cormell Family Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"10647027\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [],\n      \"approach_recommendations\": \"Likely a longtime local landowner; approach via personal outreach respecting family’s ties to the land (See RESIDENT profile for details)\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Huachuca City City Of\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipal\",\n      \"pins\": [\"10647065\"],\n      \"claims\": \"The Town of Huachuca City (incorporated municipality) owns this parcel, indicating a public or community use for the land (e.g., utilities, right-of-way, or municipal facility). Huachuca City is a small town with about 1,600 residents and a modest tax base ([www.biggestuscities.com](https://www.biggestuscities.com/city/huachuca-city-arizona#:~:text=,population%20of%20Huachuca%20City)), which means town officials typically welcome economic development that can broaden the revenue stream. However, as a public body, the city’s stance on any specific project will depend on official deliberations and community input (no formal position has been announced; see project report). The municipality’s involvement as a landowner signifies that any development will need to address local zoning, infrastructure, and public interest considerations in collaboration with city authorities.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Municipal authority over zoning/permitting; represents community interests; limited budget but holds regulatory power\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Local economic development\", \"Tax revenue growth\", \"Infrastructure impact management\"],\n      \"approach_recommendations\": \"Coordinate with Huachuca City’s council and town manager through formal meetings; demonstrate benefits (taxes, jobs) and address municipal concerns (zoning, services) to gain official support\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

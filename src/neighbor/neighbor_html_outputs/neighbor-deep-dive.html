@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbor Screens</title>
+    
+    <!-- Self-hosted fonts for Playwright -->
+    <style>
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+        @font-face { font-family:"Inter"; src:url("fonts/Inter-Variable.woff2") format("woff2"); font-weight:300 700; font-style:normal; font-display:swap; }
+    </style>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 16:9 slide system */
+        @page { size: 10in 5.625in; margin: 0; }
+        html, body { width: 10in; height: 5.625in; margin: 0; }
+
+        body.slides {
+            background: #F1F5F9;
+            font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            counter-reset: link-counter;
+        }
+        
+        /* Brand (adjust to Helpen brand kit) */
+        :root{
+            --hp-navy:#0B1D3A;
+            --hp-accent:#007BFF;
+            --hp-bg:#F1F5F9;
+            --font-main: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            --text-dark: #0B1D3A;
+        }
+        
+        /* One "slide" per page */
+        .slide {
+            width: 10in; height: 5.625in; 
+            display: grid; 
+            grid-template-rows: 0.9in auto 0.5in;  /* header / content / footer */
+            padding: 0.4in 0.25in;
+            box-sizing: border-box;
+            page-break-after: always;
+            background: #fff;
+        }
+        .slide:last-of-type { page-break-after: auto; }
+        
+        /* Safe header/footer bars */
+        .slide .header {
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .slide .footer {
+            display:flex; align-items:center; justify-content:space-between;
+            font-size: 10pt; color:#475569;
+        }
+        
+        /* Fix headings (remove over-tracking; use tight caps) */
+        h1, h2 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;        /* was too large; keep subtle */
+            font-family: 'DM Sans', Inter, sans-serif;
+            color: var(--hp-navy);
+        }
+        .cover h1 { font-size: 40pt; line-height: 1.05; }
+        .cover h2 { font-size: 16pt; font-weight: 500; letter-spacing: 0.01em; }
+        .summary h2, .table h2 { font-size: 18pt; }
+        .table h2 { font-size: 18pt; color: var(--hp-navy); font-family: 'DM Sans', Inter, sans-serif; }
+        
+        /* Tables - exact copy from diligence */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px; /* Reduced from 30px by 50% */
+            margin-bottom: 30px; /* Ensure padding from bottom */
+            page-break-inside: auto;
+            table-layout: fixed; /* Enforce specified column widths */
+        }
+        
+        th {
+            background-color: #F7F9FB;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.08in 0.1in;
+            font-size: 7pt;
+            border-bottom: 2px solid #E2E8F0;
+            font-family: var(--font-main);
+            color: var(--text-dark);
+        }
+        
+        td {
+            padding: 0.06in 0.1in;
+            border-bottom: 1px solid #F1F5F9;
+            vertical-align: top;
+            line-height: 1.4;
+            font-size: 7pt;
+        }
+        
+        /* Page break rules to prevent row splitting */
+        tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+        
+        thead {
+            display: table-header-group; /* Repeat header on new pages */
+        }
+        
+        tfoot {
+            display: table-footer-group;
+        }
+        
+        .table-wrapper {
+            overflow: visible;
+            page-break-inside: auto;
+        }
+        
+        /* Ensure proper page breaking for multi-page tables */
+        .content {
+            padding-bottom: 30px; /* Ensure content doesn't touch bottom */
+        }
+        
+        /* Citation circles */
+        .citation-circle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #E5E7EB;
+            border-radius: 50%;
+            font-size: 6px;
+            color: #6B7280;
+            text-align: center;
+            line-height: 10px;
+            vertical-align: super;
+            text-decoration: none;
+            margin-left: 2px;
+            cursor: pointer;
+        }
+
+        .citation-circle:hover {
+            background-color: #D1D5DB;
+        }
+
+        /* Section grouping to prevent H3+summary+table separation */
+        .section-group {
+            page-break-inside: auto;
+            break-inside: auto;
+        }
+
+        /* Prevent Organizations H3 and summary from separating */
+        .organizations-header-group {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        .section-summary {
+            background: #F7F9FB;
+            padding: 0.1in 0.15in;
+            border-radius: 4px;
+            margin: 10px 0 15px 0;
+            border-left: 2px solid #007BFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 8pt;
+            color: #0B1D3A;
+            line-height: 1.4;
+        }
+
+        /* Print color adjustment and page break rules */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background: #fff !important; /* Ensure white background on all pages */
+            }
+            
+            /* Ensure all pages have white background */
+            @page {
+                background: #fff;
+                margin: 0;
+            }
+            
+            /* Let tables break cleanly */
+            table { page-break-before: auto; page-break-after: auto; page-break-inside: auto; }
+            tr    { page-break-inside: avoid; page-break-after: auto; }
+            
+            /* Repeat headers; don't try to margin them */
+            thead { display: table-header-group; margin-top: 0 !important; }
+            
+            /* ✅ Add 25px only on follow-on pages of this block */
+            .content {
+                padding-top: 25px;                 /* the spacer you want */
+                margin-top: -5px;                  /* small adjustment to not overlap header */
+                -webkit-box-decoration-break: clone;
+                box-decoration-break: clone;       /* clone padding on each page fragment */
+                overflow: visible;                 /* ensure the block can fragment in print */
+                background: #fff !important;       /* Ensure content has white background */
+            }
+            
+            .slide {
+                padding-bottom: 30px !important;
+                background: #fff !important;       /* Force white background on slides */
+            }
+        }
+
+        /* Automatic link numbering for citations */
+        a {
+            font-size: 0;
+            counter-increment: link-counter;
+        }
+
+        a::after {
+            content: counter(link-counter);
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #F7F9FB;
+            color: #0B1D3A;
+            text-align: center;
+            line-height: 10px;
+            font-size: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 1px;
+            vertical-align: super;
+        }
+
+        /* Influence badges */
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 6.5pt;
+            font-weight: 500;
+        }
+        .badge-high {
+            background: rgba(59, 130, 246, 0.15);
+            color: #2563EB;
+        }
+        .badge-medium {
+            background: rgba(249, 115, 22, 0.15);
+            color: #EA580C;
+        }
+        .badge-low {
+            color: #64748B;
+        }
+
+        /* Stance text colors */
+        .stance-support {
+            color: #16A34A;
+        }
+        .stance-opposed {
+            color: #DC2626;
+        }
+        .stance-unknown {
+            color: #64748B;
+        }
+    </style>
+</head>
+<body class="slides">
+    <section class="slide table">
+        
+        <!-- Header area -->
+        <div class="header" style="padding-bottom: 10px;">
+            <div class="header-left">
+                <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.35in; width:auto; display: block;" />
+                <div style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 10pt; color: #007BFF; text-transform: uppercase; letter-spacing: 0.15em; display: flex; align-items: center; gap: 0.1in; margin-top: 30px;">
+                    <div style="width: 0.25in; height: 1px; background: #007BFF; opacity: 0.5;"></div>
+                    NEIGHBOR SCREENS
+                </div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-size: 9pt; color: #0B1D3A; font-weight: 600; margin-bottom: 6px;">Analyzed:</div>
+                <div style="font-size: 8pt; color: #64748B; line-height: 1.3;">
+                    
+                    
+                    <div>12 Residents</div>
+                    <div>10 Entities</div>
+                    <div style="margin-top: 8px; padding: 6px 0; border-top: 1px solid #E2E8F0; font-size: 7pt; color: #94A3B8; line-height: 1.4; background: rgba(255,255,255,0.9); position: relative; z-index: 10;">
+                        <div style="margin-bottom: 2px;">Adj. = Adjacent Parcel</div>
+                        <div>C = Confidence in Sources</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content area - Tables -->
+        <div class="content" style="overflow-x: auto; margin-top: 15px;">
+            
+            
+            
+            
+            
+            <!-- Residents Section -->
+            <div class="section-group">
+                <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Residents</h3>
+                
+                <!--  -->
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 3%;">#</th>
+                            <th style="width: 9%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 11%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 31%;">Claims</th>
+                            <th style="width: 10%;">Stance</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">4</td>
+                            <td style="font-size: 6.5pt;">10615057A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Steven J. &amp; Francesca Brennan</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Steven J. Brennan and his wife Francesca are listed as owners of a parcel in Cochise County. Public records indicate they also own residential property in Tucson, Arizona, specifically at Mariposa Woods Place, suggesting they are absentee landowners (<a href="https://www.zillow.com/homedetails/1632-N-Mariposa-Woods-Pl-309-Tucson-AZ-85749/455799539_zpid/" target="_blank">Zillow</a>). No record of local civic engagement or publicly stated views on development in Cochise County could be verified.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value.
+
+Contact them via phone or email, emphasizing how the project could maintain or enhance property values and minimize any impact on their land.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">10615012T</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Lodestar Investments LC</strong></td>
+                            <td>Corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Lodestar Investments LC is a limited liability company listed as the owner of parcel 106-15-012T in Cochise County. The entity appears to hold the land for investment purposes, with no identified local operational footprint (<a href="https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23247916" target="_blank">AZCC</a>). While a mining company named Lodestar Minerals has operations in Arizona (Virgin Mountain Project), no direct link to this specific LLC in Cochise County could be verified (<a href="https://www.lodestarminerals.com.au/" target="_blank">Lodestar Minerals</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value.
+
+If needed, reach the company’s representative through formal channels, focusing on business considerations and regulatory compliance.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">5</td>
+                            <td style="font-size: 6.5pt;">10647058A</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>Patsy J. Moriarty</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Patsy J. Moriarty is the owner of the property located at 315 W Railroad Dr, Huachuca City, AZ 85616, which corresponds to parcel 106-47-058A (<a href="https://www.zillow.com/homedetails/315-W-Railroad-Dr-Huachuca-City-AZ-85616/333362026_zpid/" target="_blank">Zillow</a>). The property contains a manufactured home built in 2007 (<a href="https://www.zillow.com/homedetails/315-W-Railroad-Dr-Huachuca-City-AZ-85616/333362026_zpid/" target="_blank">Zillow</a>). No public records of civic engagement or stance on development were found.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, property_value.
+
+Meet with her in person on her property, showing respect for her rural lifestyle and listening to any concerns she may have about changes in the area.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">6</td>
+                            <td style="font-size: 6.5pt;">10647058B</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Adam Chabal</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Adam Chabal is the recorded owner of parcel 106-47-058B, located at 300 W Railroad Dr, Huachuca City, AZ 85616 (<a href="https://www.zillow.com/homedetails/300-W-Railroad-Dr-Huachuca-City-AZ-85616/333362027_zpid/" target="_blank">Zillow</a>). Real estate records indicate the property was sold in December 2025 (<a href="https://www.zillow.com/homedetails/300-W-Railroad-Dr-Huachuca-City-AZ-85616/333362027_zpid/" target="_blank">Zillow</a>). There is no public information on Chabal taking part in local boards or forum discussions.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value, privacy_quiet.
+
+Reach out directly to introduce the project and ask for his input, as he has no known stance. A straightforward, personal approach can help address any questions from this relatively new neighbor.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-54-001K</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Kovan Mountjoy</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Kovan Mountjoy is the listed contact for ABM Development LLC, a general contracting and real estate development firm based in Huachuca City (<a href="https://www.abmdevelopment.com/contact-us" target="_blank">ABM Development</a>). The company describes itself as a family-run business that has operated in the area since 1994, specializing in custom home building, excavation, and land clearing (<a href="https://www.abmdevelopment.com/" target="_blank">ABM Development</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value, fair_contracting.
+
+Engage via a business-oriented approach, acknowledging his role as a local developer. Highlight potential contracting opportunities or how the project aligns with regional economic growth without impeding local real estate values.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-47-152V</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Michelle White</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Public records indicate a Michelle White resides in the county, but no significant civic profile or leadership role is evident in local news or government meeting minutes (<a href="https://cochise.az.gov/CivicAlerts.aspx?CID=1" target="_blank">Cochise County Search</a>). A search of local media and planning documents yielded no results linking this individual to public commentary on development issues.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Approach one-on-one through a neighborly introduction. As a private individual with no public track record, prioritize listening to personal concerns regarding viewshed and construction nuisance.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-47-008</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Frank Cullen Brophy</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Frank Cullen Brophy (deceased) acquired the historic Babacomari Ranch in 1935; the property remains under the stewardship of his descendants through a family partnership (<a href="https://babacomariranch.com/history" target="_blank">Babacomari Ranch History</a>). The family has placed over 2,400 acres under conservation easements to protect grasslands and wetlands (<a href="https://alwt.org/babacomari-ranch/" target="_blank">Arizona Land and Water Trust</a>). In 2024, the family sought county approval for a guest ranch development on the property to generate revenue and maintain the ranch's integrity (<a href="https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/" target="_blank">Patagonia Regional Times</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">farmland_preservation, wildlife_habitat, heritage_family_legacy.
+
+Engage the family leadership (currently Ben Brophy and others) through a conservation-focused dialogue. Acknowledge their dual goals of land stewardship and economic diversification (as seen in their guest ranch proposal).</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-54-003Y</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Ricktor &amp; Tawneen Meldrum</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Ricktor and Tawneen Meldrum are listed as owners of a parcel in Cochise County, but they do not appear in local news reports regarding civic engagement or development disputes (<a href="https://thetombstonenews.com/" target="_blank">Tombstone News Search</a>). No evidence was found of either individual holding public office or submitting public comments on local zoning matters.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet.
+
+Approach discreetly through a mutual acquaintance or community event. As they have no known public stances, building rapport and learning their specific interests is the priority.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">7</td>
+                            <td style="font-size: 6.5pt;">10647148</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Joni E. Mclin</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Joni E. Mclin is a real estate professional associated with West USA Realty, operating primarily in the Mesa and Gilbert areas of Maricopa County, Arizona (<a href="https://www.realtor.com/realestateagents/5683fa1189a68901006bbaf9" target="_blank">Realtor.com</a>). While listed as a property owner in Cochise County, her primary professional footprint is outside the immediate project area (<a href="https://www.zillow.com/profile/jonisellsaz" target="_blank">Zillow</a>). No public records of Mclin taking a formal stance on renewable energy development or serving in local Cochise County office were found as of January 2026 (<a href="https://www.cochise.az.gov/" target="_blank">Cochise County Government</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value, fair_contracting.
+
+As a real estate professional, Mclin likely prioritizes property value. Approach with data on solar's economic impact and ensure professional, transparent communication regarding land use.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">8</td>
+                            <td style="font-size: 6.5pt;">10648001</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Grant D. Miles</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Grant D. Miles is a resident of Cochise County, with records linking him to Huachuca City and Cochise, AZ (<a href="https://www.walbertfuneralhome.com/obituaries/davidc-houck" target="_blank">Walbert Funeral Home</a>). He has been identified in public records as the partner of Debra L. Trate (<a href="https://www.legacy.com/us/obituaries/readingeagle/name/david-houck-obituary?id=15971321" target="_blank">Reading Eagle</a>). The parcel associated with his profile (106-48-001) corresponds to a residential property at 101 E Pinal St in Huachuca City (<a href="https://www.longrealty.com/realestate/details/740423/101-e-pinal-street-huachuca-city-az-85616" target="_blank">Long Realty</a>). No evidence of Miles taking a public stance on development projects was found in local media or government minutes (<a href="https://www.cochise.az.gov/" target="_blank">Cochise County Government</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, local_control.
+
+Approach with a friendly, neighborly outreach. Verify his specific connection to the parcel (owner vs. resident) and listen to any concerns regarding local community changes.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">9</td>
+                            <td style="font-size: 6.5pt;">10648002</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Rebekah Mourfield &amp; Ronald L. Mourfield</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Rebekah and Ronald L. Mourfield are residents of Cochise County, specifically associated with Benson, AZ (<a href="https://arizona.ourstates.org/dan-mourfield" target="_blank">OurStates</a>). The parcel linked to this profile (106-48-002) is a residential property at 103 E Pinal St in Huachuca City, which has a history of recent sale activity in 2024 (<a href="https://www.redfin.com/AZ/Huachuca-City/103-E-Pinal-St-85616/home/114668280" target="_blank">Redfin</a>). No public record of the Mourfields taking a stance on development or serving in local office was found as of January 2026 (<a href="https://www.cochise.az.gov/" target="_blank">Cochise County Government</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, property_value.
+
+Given their residency in Benson and potential property interests in Huachuca City, verify their current ownership status of the specific parcel before deep engagement.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-48-003</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>John &amp; Shelley Barnes</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Cochise County tax lien records list the owner of parcel 106-48-003 as 'Bridget A', not John and Shelley Barnes (<a href="https://parcelinquirytreasurer.cochise.az.gov/Main/TaxLienList" target="_blank">parcelinquirytreasurer.cochise.az.gov</a>). A Shelley Barnes is a resident of Sierra Vista who has reviewed local electrical services (<a href="https://leadsmartinc.com/services/electrical-services/electrician/arizona/sierra-vista/antelope-run-electric/" target="_blank">leadsmartinc.com</a>). A John Barnes has served as a contact for the Tucson Amateur Astronomy Association's Chiricahua Astronomy Complex in Cochise County (<a href="http://tucsonastronomy.org/wp-content/uploads/2015/09/TAAA_Newsletter_201103.pdf" target="_blank">tucsonastronomy.org</a>). No references in local meetings or news indicate that individuals by these names have taken a public position on development or energy projects (<a href="https://www.cochise.az.gov/CivicAlerts.aspx?AID=384#:~:text=subscriptions%2C%20save%20form%20progress%20and,COCHISE%20COUNTY%20BOARD" target="_blank">www.cochise.az.gov</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Due to the discrepancy in property records (parcel owned by 'Bridget A'), verify the correct landowner identity before outreach. If John and Shelley Barnes are the correct contacts, approach informally to clarify their connection to the property.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+            <!-- Organizations Section -->
+            <div class="section-group" style="page-break-before: always;">
+                <div class="organizations-header-group">
+                    <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Entities</h3>
+                    
+                    <!--  -->
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 3%;">#</th>
+                            <th style="width: 9%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 10%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 31%;">Claims</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 11%;">Classification</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">3</td>
+                            <td style="font-size: 6.5pt;">10647151, 10647153</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Jrl Development Llc</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">JRL Development LLC is an Arizona limited liability company (<a href="https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf" target="_blank">biologicaldiversity.org</a>) registered with the Arizona Corporation Commission (<a href="https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf" target="_blank">biologicaldiversity.org</a>). The entity is associated with Dave Groberg, listed as a contact with an address in Sierra Vista, AZ (<a href="https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf" target="_blank">biologicaldiversity.org</a>). JRL Development LLC has historically operated as a developer in Cochise County, specifically identified as the developer for the "Covey Run" subdivision (<a href="https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf" target="_blank">biologicaldiversity.org</a>). The entity owns parcels in the local area (Section 31 T20S R20E) which have been subject to water right adjudications (<a href="http://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/0245ord061219.pdf" target="_blank">superiorcourt.maricopa.gov</a>). While the draft noted a lack of local presence, public records confirm the entity has a local Sierra Vista contact and a history of residential development in the county (<a href="https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf" target="_blank">biologicaldiversity.org</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Investment returns, Land development potential.
+
+Contact Dave Groberg at the Sierra Vista address. As a developer, they may be open to land transactions or partnership opportunities rather than purely residential concerns.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">A</td>
+                            <td style="font-size: 6.5pt;">10654001L</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>381 W Railroad Dr Llc</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">381 W Railroad Dr LLC holds a 4.21-acre residential property at 381 W Railroad Drive, Huachuca City, which includes a home built in 2011 (<a href="https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/" target="_blank">www.zillow.com</a>). The property has been advertised for rent ($650/month), indicating investment use (<a href="https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/" target="_blank">www.zillow.com</a>). Rental listings for the property direct inquiries to Rena or Lane Mountjoy (<a href="https://www.zillow.com/homedetails/2150-N-Coronado-Frontage-Rd-Huachuca-City-AZ-85616/300062940_zpid/" target="_blank">www.zillow.com</a>). Lane Mountjoy is associated with ABM Development LLC, a general contracting and excavation business based in Huachuca City (<a href="https://www.abmdevelopment.com/" target="_blank">www.abmdevelopment.com</a>). This connection suggests the entity is managed by local construction/development professionals rather than an absentee investor.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Property value maintenance, Rental income stability.
+
+Engage via the Mountjoy family/ABM Development contacts. As local contractors, they may have specific technical questions about construction impacts or potential business interest in the project.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">B</td>
+                            <td style="font-size: 6.5pt;">10647027</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Cormell Family Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The Cormell Family Trust holds land in Cochise County, with water rights filings associated with the family name (<a href="https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf" target="_blank">www.azwater.gov</a>). The trust is likely linked to the family of Leland Thomas Cormell (1933-2014), a long-time resident who served at Fort Huachuca and taught in local schools including Buena High School and Palominas Elementary (<a href="https://www.legacy.com/funeral-homes/obituaries/name/leland-cormell-obituary?pid=171728510&v=batesville" target="_blank">www.legacy.com</a>). The family has deep roots in the area, with history dating back to the 1950s (<a href="https://www.legacy.com/funeral-homes/obituaries/name/leland-cormell-obituary?pid=171728510&v=batesville" target="_blank">www.legacy.com</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Preservation of family legacy, Land stewardship.
+
+Approach as a multi-generational local family. Acknowledge their long tenure in the area (since 1950s) and focus on how the project respects local character.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">1</td>
+                            <td style="font-size: 6.5pt;">10647065</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Huachuca City City Of</strong></td>
+                            <td>municipal</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The Town of Huachuca City owns this parcel. The Town's General Plan explicitly identifies renewable energy as a potential future land use, stating that reclaimed landfill parcels could be used for "green energy sources such as a solar panel array" (<a href="https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf" target="_blank">www.huachucacityaz.gov</a>). Additionally, the Town has pursued solar improvements for community facilities, such as a solar cover for the municipal pool (<a href="https://huachucacityaz.gov/community-development-block-grant-cdbg/" target="_blank">huachucacityaz.gov</a>). The municipality has also updated tax codes to include specific provisions for solar photovoltaic energy generating systems (<a href="https://azdor.gov/business/transaction-privilege-tax/model-city-tax-code/rate-and-code-updates" target="_blank">azdor.gov</a>). These documents indicate a supportive policy framework for renewable energy development within the town's jurisdiction.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt;">municipal</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Economic development, Revenue generation, Sustainable land use.
+
+Coordinate directly with Town Council and Manager. Reference the General Plan's vision for solar arrays on town land as a basis for alignment. Highlight potential revenue streams and infrastructure improvements.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-48-155</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Military Brothers Moving LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Military Brothers Moving LLC is a moving services company based in Sierra Vista and Huachuca City, founded in 2014 by brothers and military veterans Kevin and Bryan Hoey (<a href="https://www.militarybrothersmoving.com/" target="_blank">Military Brothers Moving</a>). Business records list the LLC's members as Bryan P. Hoey, Kevin M. Hoey, and Jeffrey T. Hoey (<a href="https://www.bbb.org/us/az/yuma/profile/moving-companies/military-brothers-moving-llc-1126-1000055746" target="_blank">Better Business Bureau</a>). The company actively engages in local community support, co-creating the 'Tips for Vets' fundraising initiative to benefit the Warrior Healing Center (<a href="https://tips4vet.com/" target="_blank">Tips4Vet</a>). There is no public record of the company taking a stance on land use disputes or renewable energy development.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Community support, Veteran causes.
+
+Engage owners Kevin and Bryan Hoey; acknowledge their community work with the Warrior Healing Center to build rapport.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">106-15-023E</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Kendall Family Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The entity is a private family trust. Public records do not explicitly identify the specific trustees or beneficiaries associated with this parcel in Cochise County. While a 'Kendall Family Trust' appears in creditor lists for Arizona-based financial proceedings with a California address (<a href="https://www.pacermonitor.com/public/filings/DI2M4V4A/IMH_Financial_Corporation__debke-20-11858__0068.2.pdf" target="_blank">PacerMonitor</a>), a definitive link to this property cannot be verified. Charles Kendall serves as the Cochise County Public Defender (<a href="https://www.cochise.az.gov/436/Public-Defender" target="_blank">Cochise County</a>), but no public evidence connects him to this trust or property.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Identify trustees through mailers or title search; approach as a standard private landowner.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">10603038</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Babacomari Ranch Company</strong></td>
+                            <td>corporation</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Babacomari Ranch Company is a family-owned enterprise managing the historic Babacomari Ranch, which Frank C. Brophy acquired in 1935 (<a href="https://alwt.org/babacomari-ranch/" target="_blank">alwt.org</a>). The ranch boundaries follow the original 1832 land grant, and the Brophy family has held stewardship for generations (<a href="https://babacomariranch.com/" target="_blank">babacomariranch.com</a>). The entity recently applied for and secured a Conditional Use Permit to develop a $40–60 million guest ranch resort on 2,200 acres of the property, known as the Encino Pasture (<a href="https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/" target="_blank">patagoniaregionaltimes.org</a>). Family representatives stated the development is intended to provide a revenue stream to keep the ranch intact, noting that some parts of the ranch had previously been sold to satisfy family members seeking liquidity (<a href="https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/" target="_blank">patagoniaregionaltimes.org</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt;">agriculture</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Revenue generation, Land conservation, Family legacy preservation.
+
+Engage with the Brophy family leadership regarding their long-term land management goals. Acknowledge their recent resort development permit and frame any potential collaboration as complementary to their stated goal of keeping the ranch intact and economically sustainable.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">C</td>
+                            <td style="font-size: 6.5pt;">10615012U, 10615057</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>San Ignacio Investments LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">San Ignacio Investments LLC is listed as an entity with property interests in the region, though specific beneficial ownership is not publicly disclosed in available records. A solar project named 'Babacomari Solar' (160 MW) is planned for Cochise County with an expected online date of 2026 (<a href="https://www.tep.com/news/teps-largest-battery-system-to-support-customers-through-summer-heat/" target="_blank">tep.com</a>). While the project shares the 'Babacomari' name, a direct property link between San Ignacio Investments LLC and the solar developer Clēnera (or its subsidiary Babacomari Solar North LLC) could not be verified in the available public snippets. The solar project entity, Babacomari Solar North LLC, has recently acquired equipment for the project (<a href="https://www.pv-magazine-india.com/2025/09/19/meyer-burger-gives-up-on-selling-itself-as-a-whole-sells-u-s-solar-production-tools/" target="_blank">pv-magazine-india.com</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Verify property ownership and specific relationship to the Babacomari Solar project before formal engagement. Treat as a potential investment vehicle.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">10654001F</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>Baker Walker Living Trust</strong></td>
+                            <td>trust</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">No public records regarding this specific trust's activities, stance, or beneficial owners were found in Cochise County public datasets.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt;">unknown</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">N/A</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">2</td>
+                            <td style="font-size: 6.5pt;">10615012Y</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Babacomari Ranch Company LLLP</strong></td>
+                            <td>lllp</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Babacomari Ranch Company LLLP is a limited liability limited partnership associated with the Brophy family, holding title to significant portions of the Babacomari Ranch (<a href="https://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/schade-sp605ord030112.pdf" target="_blank">superiorcourt.maricopa.gov</a>). The entity has been an active intervenor in local water rights adjudications, including the San Pedro River Watershed cases (<a href="https://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/schade-sp605ord030112.pdf" target="_blank">superiorcourt.maricopa.gov</a>). The ranch has placed over 6,000 acres under conservation easements with the Arizona Land and Water Trust to protect landscape and wildlife corridors (<a href="https://alwt.org/babacomari-ranch/" target="_blank">alwt.org</a>). Facing economic pressures, the family has pursued development permits for a guest ranch to generate revenue while maintaining the property's integrity (<a href="https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/" target="_blank">patagoniaregionaltimes.org</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt;">agriculture</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Water rights protection, Conservation, Economic sustainability.
+
+Approach as a sophisticated stakeholder with significant legal and environmental interests. Highlight alignment with their conservation easements and water resource management goals.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        
+        <!-- Footer area (empty for cleaner look) -->
+        <div class="footer"></div>
+        
+    </section>
+</body>
+</html>

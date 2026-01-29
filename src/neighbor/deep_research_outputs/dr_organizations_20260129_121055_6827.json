@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-01-29T12:10:55.682755",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The immediate neighbors include a multi-generational ranching enterprise and newer investment interests. The Brophy family’s Babacomari Ranch (via a long-standing ranch company and an LLLP partnership) dominates the area with nearly 28,000 contiguous acres, blending a strong land stewardship ethos with selective development plans to sustain their operations. In contrast, San Ignacio Investments LLC appears to be a land investment vehicle tied to a planned 160 MW solar power project, indicating outside development interests on former ranch land, while the Baker Walker Living Trust is a private individual’s landholding with no public community role. The ranch owners carry significant local influence and conservation commitments, whereas the investment LLC is focused on project ROI and the personal trust remains an unknown factor.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Babacomari Ranch Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "10603038"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Babacomari Ranch Company is the family-owned enterprise managing the historic Babacomari Ranch, which Frank C. Brophy acquired in 1935 ([alwt.org](https://alwt.org/babacomari-ranch/#:~:text=The%20roughly%2028%2C000,western%20landscape%20includes%20rolling%20desert)). The Brophy family (65 descendants strong) has held this land through generations, making them the third owners since the original 1832 land grant ([alwt.org](https://alwt.org/babacomari-ranch/#:~:text=The%20roughly%2028%2C000,western%20landscape%20includes%20rolling%20desert)) ([babacomariranch.com](https://babacomariranch.com/#:~:text=The%20ranch%27s%20boundaries%20follow%20those,to%20riparian%20to%20woodland%20habitats)). This entity recently applied for and secured a county permit to develop a $40–60 million “dude ranch” resort on 2,200 acres of their Sonoita property as a new revenue stream ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=A%20proposed%20dude%20ranch%20in,ayes%2C%20with%20four%20members%20abstaining)). Family representatives acknowledge that some ranch parcels have been sold over time to satisfy heirs wanting cash, which has fragmented ownership and introduced outside stakeholders ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=At%20the%20hearing%20Hampton%20stated,%E2%80%9D)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Longestablished ranch family owning vast acreage; key player in local land use (secured major development permit); extensive conservation ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Brophy family’s decision-makers (e.g., Sallie Brophy) early, framing proposals as supporting the ranch’s long-term viability and conservation goals; demonstrate how development plans can provide financial benefits without compromising their land stewardship"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "San Ignacio Investments LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10615012U",
+        "10615057"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "San Ignacio Investments LLC is an Arizona limited liability company that acquired a portion of the Babacomari Ranch land (Cochise County) for investment purposes; its name references the original land grant “San Ignacio del Babocomari” ([babacomariranch.com](https://babacomariranch.com/#:~:text=The%20ranch%27s%20boundaries%20follow%20those,to%20riparian%20to%20woodland%20habitats)). The company’s principals and beneficial owners are not publicly disclosed (no corporate filings or local profiles identified). This LLC’s holdings overlap with the site of the planned Babacomari Solar North and South projects (2 × 80 MW PV farms) in Cochise County ([azcc.gov](https://azcc.gov/es/news/noticias/2021/09/09/puntos-destacados-de-la-reuni%C3%B3n-abierta-de-septiembre-de-la-comisi%C3%B3n-de-corporaciones-de-arizona#:~:text=Company%20,de%20Servicios%20P%C3%BAblicos%20de%201978)), suggesting it facilitated or partnered in the sale/lease of land for utility-scale solar development. The 160 MW Babacomari solar project is moving forward under developer Clēnera LLC ([www.gem.wiki](https://www.gem.wiki/Babacomari_North_solar_farm#:~:text=Status%20%20,8)), indicating San Ignacio Investments likely profitably transferred its interests to that renewable energy venture.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Unknown owners; no visible local presence or civic engagement; role limited to landholding and transaction",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Treat as a commercial entity; if negotiation is needed, engage through legal/real estate channels focusing on fair market deals, as they appear driven solely by financial outcomes rather than community concerns"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Baker Walker Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10654001F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Personal living trust with no public information; not known to participate in community or political affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A (private individual trust)"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Babacomari Ranch Company LLLP",
+      "entity_category": "Organization",
+      "entity_type": "lllp",
+      "pins": [
+        "10615012Y"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Babacomari Ranch Company LLLP is a limited liability limited partnership formed by the Brophy family to hold and manage their nearly 28,000-acre ranch property ([babacomariranch.com](https://babacomariranch.com/#:~:text=The%20ranch%27s%20boundaries%20follow%20those,to%20riparian%20to%20woodland%20habitats)). It consists of dozens of family members as limited partners (65 descendants of the original owner), reflecting an estate-planning move to keep ownership consolidated ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,to%20outside%20equity%20investors%20who)). The LLLP has placed over 6,000 acres under conservation easements (with plans for 10,000 more) to protect the landscape and wildlife corridors ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=Hampton%20pointed%20out%20that%20the,more%20acres%20in%20the%20future)). Facing financial pressures to avoid partitioning the ranch, this partnership has pursued collaborative development efforts (e.g. leasing land for a guest ranch resort) to generate income while preserving the ranch intact ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=At%20the%20hearing%20Hampton%20stated,%E2%80%9D)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Controls the largest private landholding in the county; prominent family partnership with conservation partnerships (Arizona Land & Water Trust, etc.); able to mobilize resources to influence land-use outcomes",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Open discussions with the managing partners (or their appointed agent) emphasizing joint benefits and respecting the family’s conservation values; consider offering participatory roles or profit-sharing to align with their goal of keeping the ranch whole"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The immediate neighbors include a multi-generational ranching enterprise and newer investment interests. The Brophy family’s Babacomari Ranch (via a long-standing ranch company and an LLLP partnership) dominates the area with nearly 28,000 contiguous acres, blending a strong land stewardship ethos with selective development plans to sustain their operations. In contrast, San Ignacio Investments LLC appears to be a land investment vehicle tied to a planned 160 MW solar power project, indicating outside development interests on former ranch land, while the Baker Walker Living Trust is a private individual’s landholding with no public community role. The ranch owners carry significant local influence and conservation commitments, whereas the investment LLC is focused on project ROI and the personal trust remains an unknown factor.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Babacomari Ranch Company\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"10603038\"],\n      \"claims\": \"Babacomari Ranch Company is the family-owned enterprise managing the historic Babacomari Ranch, which Frank C. Brophy acquired in 1935 ([alwt.org](https://alwt.org/babacomari-ranch/#:~:text=The%20roughly%2028%2C000,western%20landscape%20includes%20rolling%20desert)). The Brophy family (65 descendants strong) has held this land through generations, making them the third owners since the original 1832 land grant ([alwt.org](https://alwt.org/babacomari-ranch/#:~:text=The%20roughly%2028%2C000,western%20landscape%20includes%20rolling%20desert)) ([babacomariranch.com](https://babacomariranch.com/#:~:text=The%20ranch%27s%20boundaries%20follow%20those,to%20riparian%20to%20woodland%20habitats)). This entity recently applied for and secured a county permit to develop a $40–60 million “dude ranch” resort on 2,200 acres of their Sonoita property as a new revenue stream ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=A%20proposed%20dude%20ranch%20in,ayes%2C%20with%20four%20members%20abstaining)). Family representatives acknowledge that some ranch parcels have been sold over time to satisfy heirs wanting cash, which has fragmented ownership and introduced outside stakeholders ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=At%20the%20hearing%20Hampton%20stated,%E2%80%9D)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Longestablished ranch family owning vast acreage; key player in local land use (secured major development permit); extensive conservation ties\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of family ranch legacy\", \"Need for sustainable income\", \"Control over land use\"],\n      \"approach_recommendations\": \"Engage the Brophy family’s decision-makers (e.g., Sallie Brophy) early, framing proposals as supporting the ranch’s long-term viability and conservation goals; demonstrate how development plans can provide financial benefits without compromising their land stewardship\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"San Ignacio Investments LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"10615012U\", \"10615057\"],\n      \"claims\": \"San Ignacio Investments LLC is an Arizona limited liability company that acquired a portion of the Babacomari Ranch land (Cochise County) for investment purposes; its name references the original land grant “San Ignacio del Babocomari” ([babacomariranch.com](https://babacomariranch.com/#:~:text=The%20ranch%27s%20boundaries%20follow%20those,to%20riparian%20to%20woodland%20habitats)). The company’s principals and beneficial owners are not publicly disclosed (no corporate filings or local profiles identified). This LLC’s holdings overlap with the site of the planned Babacomari Solar North and South projects (2 × 80 MW PV farms) in Cochise County ([azcc.gov](https://azcc.gov/es/news/noticias/2021/09/09/puntos-destacados-de-la-reuni%C3%B3n-abierta-de-septiembre-de-la-comisi%C3%B3n-de-corporaciones-de-arizona#:~:text=Company%20,de%20Servicios%20P%C3%BAblicos%20de%201978)), suggesting it facilitated or partnered in the sale/lease of land for utility-scale solar development. The 160 MW Babacomari solar project is moving forward under developer Clēnera LLC ([www.gem.wiki](https://www.gem.wiki/Babacomari_North_solar_farm#:~:text=Status%20%20,8)), indicating San Ignacio Investments likely profitably transferred its interests to that renewable energy venture.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Unknown owners; no visible local presence or civic engagement; role limited to landholding and transaction\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Return on investment from land resale/lease\", \"Capitalizing on renewable project development\"],\n      \"approach_recommendations\": \"Treat as a commercial entity; if negotiation is needed, engage through legal/real estate channels focusing on fair market deals, as they appear driven solely by financial outcomes rather than community concerns\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Baker Walker Living Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"10654001F\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Personal living trust with no public information; not known to participate in community or political affairs\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Unknown\"],\n      \"approach_recommendations\": \"N/A (private individual trust)\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Babacomari Ranch Company LLLP\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"lllp\",\n      \"pins\": [\"10615012Y\"],\n      \"claims\": \"Babacomari Ranch Company LLLP is a limited liability limited partnership formed by the Brophy family to hold and manage their nearly 28,000-acre ranch property ([babacomariranch.com](https://babacomariranch.com/#:~:text=The%20ranch%27s%20boundaries%20follow%20those,to%20riparian%20to%20woodland%20habitats)). It consists of dozens of family members as limited partners (65 descendants of the original owner), reflecting an estate-planning move to keep ownership consolidated ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,to%20outside%20equity%20investors%20who)). The LLLP has placed over 6,000 acres under conservation easements (with plans for 10,000 more) to protect the landscape and wildlife corridors ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=Hampton%20pointed%20out%20that%20the,more%20acres%20in%20the%20future)). Facing financial pressures to avoid partitioning the ranch, this partnership has pursued collaborative development efforts (e.g. leasing land for a guest ranch resort) to generate income while preserving the ranch intact ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=At%20the%20hearing%20Hampton%20stated,%E2%80%9D)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Controls the largest private landholding in the county; prominent family partnership with conservation partnerships (Arizona Land & Water Trust, etc.); able to mobilize resources to influence land-use outcomes\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Protection of ranch’s environmental heritage\", \"Revenue generation to sustain family ownership\", \"Avoiding forced land sales\"],\n      \"approach_recommendations\": \"Open discussions with the managing partners (or their appointed agent) emphasizing joint benefits and respecting the family’s conservation values; consider offering participatory roles or profit-sharing to align with their goal of keeping the ranch whole\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

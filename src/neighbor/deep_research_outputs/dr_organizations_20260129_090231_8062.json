@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-01-29T09:02:31.806328",
+  "entity_type": "organization",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring entities consist of a small local business and a private family trust. Military Brothers Moving LLC is a veteran-owned moving company founded in 2014 by two brothers and based in Sierra Vista, Arizona [Military Brothers Moving (company website)](https://www.militarybrothersmoving.com). Kendall Family Trust is a long-time landholding trust involved in numerous property transactions since the 1990s, indicating a private estate managing family land holdings [RealtyHop](https://www.realtyhop.com/property-records/search/kendall-family-trust-the). Neither organization has a documented public stance on the proposed development, and their direct influence in the community appears limited.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Military Brothers Moving LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "106-48-155"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Military Brothers Moving LLC is a local moving services company founded in 2014 by two military veteran brothers, Kevin and Bryan Hoey[Military Brothers Moving (company website)】, and business records list Bryan P. Hoey, Kevin M. Hoey, and Jeffrey T. Hoey as the LLC’s members [Better Business Bureau](https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490). The company is based in Sierra Vista, AZ and has operated in Cochise County for over a decade with no public record of involvement in land use disputes [MapQuest](https://www.mapquest.com/us/arizona/military-brothers-moving-llc-358420099).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small local business; limited political or land influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage managing member Bryan Hoey directly, highlighting the project’s local economic benefits; consider offering moving or support service contracts to build goodwill and ensure a neutral or positive stance"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kendall Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "106-15-023E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private family land trust; not an active organization in civic affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Work with the trust’s individual decision-makers (trustees or family members) directly; address their personal concerns one-on-one and emphasize how the development can maintain or enhance their property’s value"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring entities consist of a small local business and a private family trust. Military Brothers Moving LLC is a veteran-owned moving company founded in 2014 by two brothers and based in Sierra Vista, Arizona [Military Brothers Moving (company website)](https://www.militarybrothersmoving.com). Kendall Family Trust is a long-time landholding trust involved in numerous property transactions since the 1990s, indicating a private estate managing family land holdings [RealtyHop](https://www.realtyhop.com/property-records/search/kendall-family-trust-the). Neither organization has a documented public stance on the proposed development, and their direct influence in the community appears limited.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Military Brothers Moving LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"106-48-155\"],\n      \"claims\": \"Military Brothers Moving LLC is a local moving services company founded in 2014 by two military veteran brothers, Kevin and Bryan Hoey【Military Brothers Moving (company website)】, and business records list Bryan P. Hoey, Kevin M. Hoey, and Jeffrey T. Hoey as the LLC’s members [Better Business Bureau](https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490). The company is based in Sierra Vista, AZ and has operated in Cochise County for over a decade with no public record of involvement in land use disputes [MapQuest](https://www.mapquest.com/us/arizona/military-brothers-moving-llc-358420099).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small local business; limited political or land influence\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Business opportunities from local growth\", \"Maintaining property value and access\"],\n      \"approach_recommendations\": \"Engage managing member Bryan Hoey directly, highlighting the project’s local economic benefits; consider offering moving or support service contracts to build goodwill and ensure a neutral or positive stance\",\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kendall Family Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"106-15-023E\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private family land trust; not an active organization in civic affairs\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Maximize land value\", \"Preserve family assets\"],\n      \"approach_recommendations\": \"Work with the trust’s individual decision-makers (trustees or family members) directly; address their personal concerns one-on-one and emphasize how the development can maintain or enhance their property’s value\",\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

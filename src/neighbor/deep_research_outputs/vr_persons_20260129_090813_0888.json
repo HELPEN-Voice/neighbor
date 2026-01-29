@@ -1,0 +1,207 @@
+{
+  "timestamp": "2026-01-29T12:45:48.584676",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_090813_0888.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven J. & Francesca Brennan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10615057A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven J. Brennan and his wife Francesca are listed as owners of a parcel in Cochise County. Public records indicate they also own residential property in Tucson, Arizona, specifically at Mariposa Woods Place, suggesting they are absentee landowners ([Zillow](https://www.zillow.com/homedetails/1632-N-Mariposa-Woods-Pl-309-Tucson-AZ-85749/455799539_zpid/)). No record of local civic engagement or publicly stated views on development in Cochise County could be verified.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee owners based in Tucson; no local political footprint found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Contact them via phone or email, emphasizing how the project could maintain or enhance property values and minimize any impact on their land."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records indicate they also own residential property in Tucson, Arizona, specifically at Mariposa Woods Place",
+          "url": "https://www.zillow.com/homedetails/1632-N-Mariposa-Woods-Pl-309-Tucson-AZ-85749/455799539_zpid/",
+          "title": "1632 N Mariposa Woods Pl, Tucson, AZ 85749",
+          "date": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lodestar Investments LC",
+      "entity_category": "Resident",
+      "entity_type": "Corporation",
+      "pins": [
+        "10615012T"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lodestar Investments LC is a limited liability company listed as the owner of parcel 106-15-012T in Cochise County. The entity appears to hold the land for investment purposes, with no identified local operational footprint ([AZCC](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23247916)). While a mining company named Lodestar Minerals has operations in Arizona (Virgin Mountain Project), no direct link to this specific LLC in Cochise County could be verified ([Lodestar Minerals](https://www.lodestarminerals.com.au/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Corporate entity with opaque ownership; no known local representative",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "If needed, reach the company’s representative through formal channels, focusing on business considerations and regulatory compliance."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Lodestar Investments LC is a limited liability company listed as the owner of parcel 106-15-012T",
+          "url": "https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23247916",
+          "title": "Arizona Corporation Commission Entity Search",
+          "date": "2026-01-29"
+        },
+        {
+          "claim": "While a mining company named Lodestar Minerals has operations in Arizona (Virgin Mountain Project), no direct link to this specific LLC in Cochise County could be verified",
+          "url": "https://www.lodestarminerals.com.au/",
+          "title": "Lodestar Minerals Projects",
+          "date": "2026-01-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Patsy J. Moriarty",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10647058A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Patsy J. Moriarty is the owner of the property located at 315 W Railroad Dr, Huachuca City, AZ 85616, which corresponds to parcel 106-47-058A ([Zillow](https://www.zillow.com/homedetails/315-W-Railroad-Dr-Huachuca-City-AZ-85616/333362026_zpid/)). The property contains a manufactured home built in 2007 ([Zillow](https://www.zillow.com/homedetails/315-W-Railroad-Dr-Huachuca-City-AZ-85616/333362026_zpid/)). No public records of civic engagement or stance on development were found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Meet with her in person on her property, showing respect for her rural lifestyle and listening to any concerns she may have about changes in the area."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Patsy J. Moriarty is the owner of the property located at 315 W Railroad Dr, Huachuca City, AZ 85616",
+          "url": "https://www.zillow.com/homedetails/315-W-Railroad-Dr-Huachuca-City-AZ-85616/333362026_zpid/",
+          "title": "315 W Railroad Dr, Huachuca City, AZ 85616",
+          "date": "2026-01-29"
+        },
+        {
+          "claim": "The property contains a manufactured home built in 2007",
+          "url": "https://www.zillow.com/homedetails/315-W-Railroad-Dr-Huachuca-City-AZ-85616/333362026_zpid/",
+          "title": "315 W Railroad Dr, Huachuca City, AZ 85616",
+          "date": "2026-01-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Adam Chabal",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10647058B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Adam Chabal is the recorded owner of parcel 106-47-058B, located at 300 W Railroad Dr, Huachuca City, AZ 85616 ([Zillow](https://www.zillow.com/homedetails/300-W-Railroad-Dr-Huachuca-City-AZ-85616/333362027_zpid/)). Real estate records indicate the property was sold in December 2025 ([Zillow](https://www.zillow.com/homedetails/300-W-Railroad-Dr-Huachuca-City-AZ-85616/333362027_zpid/)). There is no public information on Chabal taking part in local boards or forum discussions.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New resident (2025); no known influence",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out directly to introduce the project and ask for his input, as he has no known stance. A straightforward, personal approach can help address any questions from this relatively new neighbor."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Adam Chabal is the recorded owner of parcel 106-47-058B, located at 300 W Railroad Dr, Huachuca City, AZ 85616",
+          "url": "https://www.zillow.com/homedetails/300-W-Railroad-Dr-Huachuca-City-AZ-85616/333362027_zpid/",
+          "title": "300 W Railroad Dr, Huachuca City, AZ 85616",
+          "date": "2026-01-29"
+        },
+        {
+          "claim": "Real estate records indicate the property was sold in December 2025",
+          "url": "https://www.zillow.com/homedetails/300-W-Railroad-Dr-Huachuca-City-AZ-85616/333362027_zpid/",
+          "title": "300 W Railroad Dr, Huachuca City, AZ 85616",
+          "date": "2026-01-29"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 682427,
+    "thinking_count": 51
+  }
+}

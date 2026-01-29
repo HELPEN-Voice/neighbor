@@ -1,0 +1,208 @@
+{
+  "timestamp": "2026-01-29T12:42:44.178260",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_090546_6474.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kovan Mountjoy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-54-001K"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kovan Mountjoy is the listed contact for ABM Development LLC, a general contracting and real estate development firm based in Huachuca City ([ABM Development](https://www.abmdevelopment.com/contact-us)). The company describes itself as a family-run business that has operated in the area since 1994, specializing in custom home building, excavation, and land clearing ([ABM Development](https://www.abmdevelopment.com/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Owner of established local development firm",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Engage via a business-oriented approach, acknowledging his role as a local developer. Highlight potential contracting opportunities or how the project aligns with regional economic growth without impeding local real estate values."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Kovan Mountjoy is the listed contact for ABM Development LLC",
+          "url": "https://www.abmdevelopment.com/contact-us",
+          "title": "Contact Us - ABM Development LLC",
+          "date": "2025-01-29"
+        },
+        {
+          "claim": "Company has operated since 1994 as a family-run business",
+          "url": "https://www.abmdevelopment.com/",
+          "title": "Home Page - ABM Development LLC",
+          "date": "2025-01-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michelle White",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-152V"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records indicate a Michelle White resides in the county, but no significant civic profile or leadership role is evident in local news or government meeting minutes ([Cochise County Search](https://cochise.az.gov/CivicAlerts.aspx?CID=1)). A search of local media and planning documents yielded no results linking this individual to public commentary on development issues.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Approach one-on-one through a neighborly introduction. As a private individual with no public track record, prioritize listening to personal concerns regarding viewshed and construction nuisance."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "No significant civic profile or leadership role is evident",
+          "url": "https://cochise.az.gov/CivicAlerts.aspx?CID=1",
+          "title": "Cochise County Civic Alerts Search",
+          "date": "2025-01-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Frank Cullen Brophy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Frank Cullen Brophy (deceased) acquired the historic Babacomari Ranch in 1935; the property remains under the stewardship of his descendants through a family partnership ([Babacomari Ranch History](https://babacomariranch.com/history)). The family has placed over 2,400 acres under conservation easements to protect grasslands and wetlands ([Arizona Land and Water Trust](https://alwt.org/babacomari-ranch/)). In 2024, the family sought county approval for a guest ranch development on the property to generate revenue and maintain the ranch's integrity ([Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Historic ranch family; largest private land parcel in AZ",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "wildlife_habitat",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage the family leadership (currently Ben Brophy and others) through a conservation-focused dialogue. Acknowledge their dual goals of land stewardship and economic diversification (as seen in their guest ranch proposal)."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Frank Cullen Brophy acquired the historic Babacomari Ranch in 1935",
+          "url": "https://babacomariranch.com/history",
+          "title": "Babacomari Ranch History",
+          "date": "2025-01-29"
+        },
+        {
+          "claim": "Family has placed over 2,400 acres under conservation easements",
+          "url": "https://alwt.org/babacomari-ranch/",
+          "title": "Arizona Land and Water Trust - Babacomari Ranch",
+          "date": "2025-01-29"
+        },
+        {
+          "claim": "Family sought county approval for a guest ranch development in 2024",
+          "url": "https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/",
+          "title": "County to Consider Permit for New Dude Ranch",
+          "date": "2024-09-18"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Ricktor & Tawneen Meldrum",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-54-003Y"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ricktor and Tawneen Meldrum are listed as owners of a parcel in Cochise County, but they do not appear in local news reports regarding civic engagement or development disputes ([Tombstone News Search](https://thetombstonenews.com/)). No evidence was found of either individual holding public office or submitting public comments on local zoning matters.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence or roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Approach discreetly through a mutual acquaintance or community event. As they have no known public stances, building rapport and learning their specific interests is the priority."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "They do not appear in local news reports regarding civic engagement",
+          "url": "https://thetombstonenews.com/",
+          "title": "The Tombstone News Search Results",
+          "date": "2025-01-29"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 439263,
+    "thinking_count": 24
+  }
+}

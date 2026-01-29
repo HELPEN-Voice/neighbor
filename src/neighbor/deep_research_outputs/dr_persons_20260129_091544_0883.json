@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-01-29T09:15:44.088401",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "There are three individual neighbors identified, and none has a documented stance on development (all classified as 'unknown'). None of these landowners holds a public office or prominent community role, indicating no high-influence neighbors in this group.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Joni E. Mclin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10647148"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joni E. Mclin is listed as a property owner in Cochise County, Arizona [Whitepages](https://www.whitepages.com/name/Joni-Mclin/AZ). No meeting minutes or local news records naming Mclin were found as of January 2026 [Cochise County Government](https://www.cochise.az.gov/)[Willcox Range News](https://www.willcoxrangenews.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no official roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "With no known stance, a respectful one-on-one conversation is recommended to understand any concerns and build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Grant D. Miles",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10648001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Grant D. Miles is listed as a landowner in Cochise County, Arizona [Whitepages](https://www.whitepages.com/name/Grant-Miles/AZ). No references to Miles were found in local government records or media reports regarding development issues as of January 2026 [Cochise County Government](https://www.cochise.az.gov/)[Willcox Range News](https://www.willcoxrangenews.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no official roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Miles’s position is unknown, approach him through a friendly personal outreach by a community liaison or neighbor to learn his views and address any land-use concerns he may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rebekah Mourfield & Ronald L. Mourfield",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10648002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rebekah and Ronald L. Mourfield jointly own property in Cochise County, Arizona [Whitepages](https://www.whitepages.com/name/Ronald-Mourfield/AZ). No public record of the Mourfields taking a stance on development or serving in local office was found as of January 2026 [Cochise County Government](https://www.cochise.az.gov/)[Willcox Range News](https://www.willcoxrangenews.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Joint landowners; no official roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "With the Mourfields’ views unreported, a neighborly visit or call by a trusted local figure can help open dialogue and identify any concerns quietly and respectfully."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"There are three individual neighbors identified, and none has a documented stance on development (all classified as 'unknown'). None of these landowners holds a public office or prominent community role, indicating no high-influence neighbors in this group.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Joni E. Mclin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"10647148\"],\n      \"claims\": \"Joni E. Mclin is listed as a property owner in Cochise County, Arizona [Whitepages](https://www.whitepages.com/name/Joni-Mclin/AZ). No meeting minutes or local news records naming Mclin were found as of January 2026 [Cochise County Government](https://www.cochise.az.gov/)[Willcox Range News](https://www.willcoxrangenews.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no official roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"With no known stance, a respectful one-on-one conversation is recommended to understand any concerns and build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Grant D. Miles\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"10648001\"],\n      \"claims\": \"Grant D. Miles is listed as a landowner in Cochise County, Arizona [Whitepages](https://www.whitepages.com/name/Grant-Miles/AZ). No references to Miles were found in local government records or media reports regarding development issues as of January 2026 [Cochise County Government](https://www.cochise.az.gov/)[Willcox Range News](https://www.willcoxrangenews.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no official roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Since Miles’s position is unknown, approach him through a friendly personal outreach by a community liaison or neighbor to learn his views and address any land-use concerns he may have.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Rebekah Mourfield & Ronald L. Mourfield\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"10648002\"],\n      \"claims\": \"Rebekah and Ronald L. Mourfield jointly own property in Cochise County, Arizona [Whitepages](https://www.whitepages.com/name/Ronald-Mourfield/AZ). No public record of the Mourfields taking a stance on development or serving in local office was found as of January 2026 [Cochise County Government](https://www.cochise.az.gov/)[Willcox Range News](https://www.willcoxrangenews.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Joint landowners; no official roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"With the Mourfields’ views unreported, a neighborly visit or call by a trusted local figure can help open dialogue and identify any concerns quietly and respectfully.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

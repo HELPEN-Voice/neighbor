@@ -1,0 +1,259 @@
+{
+  "timestamp": "2026-01-29T12:50:49.745428",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260129_090428_0926.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jrl Development Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10647151",
+        "10647153"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JRL Development LLC is an Arizona limited liability company ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf)) registered with the Arizona Corporation Commission ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf)). The entity is associated with Dave Groberg, listed as a contact with an address in Sierra Vista, AZ ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf)). JRL Development LLC has historically operated as a developer in Cochise County, specifically identified as the developer for the \"Covey Run\" subdivision ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf)). The entity owns parcels in the local area (Section 31 T20S R20E) which have been subject to water right adjudications ([superiorcourt.maricopa.gov](http://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/0245ord061219.pdf)). While the draft noted a lack of local presence, public records confirm the entity has a local Sierra Vista contact and a history of residential development in the county ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Established local developer history (Covey Run subdivision); local contact (Dave Groberg) implies potential industry connections.",
+      "approach_recommendations": {
+        "motivations": [
+          "Investment returns",
+          "Land development potential"
+        ],
+        "engage": "Contact Dave Groberg at the Sierra Vista address. As a developer, they may be open to land transactions or partnership opportunities rather than purely residential concerns."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "JRL Development LLC is an Arizona limited liability company",
+          "url": "https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf",
+          "title": "Adequate Water Supply Report",
+          "date": "2005-11-14"
+        },
+        {
+          "claim": "registered with the Arizona Corporation Commission",
+          "url": "https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf",
+          "title": "Covey Run Public Report",
+          "date": "2014-05-09"
+        },
+        {
+          "claim": "associated with Dave Groberg, listed as a contact with an address in Sierra Vista, AZ",
+          "url": "https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf",
+          "title": "Adequate Water Supply Report",
+          "date": "2005-11-14"
+        },
+        {
+          "claim": "identified as the developer for the \"Covey Run\" subdivision",
+          "url": "https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf",
+          "title": "Covey Run Public Report",
+          "date": "2014-05-09"
+        },
+        {
+          "claim": "owns parcels in the local area (Section 31 T20S R20E) which have been subject to water right adjudications",
+          "url": "http://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/0245ord061219.pdf",
+          "title": "In re Town of Huachuca City Contested Case",
+          "date": "2019-06-12"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "381 W Railroad Dr Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10654001L"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "381 W Railroad Dr LLC holds a 4.21-acre residential property at 381 W Railroad Drive, Huachuca City, which includes a home built in 2011 ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/)). The property has been advertised for rent ($650/month), indicating investment use ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/)). Rental listings for the property direct inquiries to Rena or Lane Mountjoy ([www.zillow.com](https://www.zillow.com/homedetails/2150-N-Coronado-Frontage-Rd-Huachuca-City-AZ-85616/300062940_zpid/)). Lane Mountjoy is associated with ABM Development LLC, a general contracting and excavation business based in Huachuca City ([www.abmdevelopment.com](https://www.abmdevelopment.com/)). This connection suggests the entity is managed by local construction/development professionals rather than an absentee investor.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Single rental property owner, though connected to local contracting business (ABM Development).",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value maintenance",
+          "Rental income stability"
+        ],
+        "engage": "Engage via the Mountjoy family/ABM Development contacts. As local contractors, they may have specific technical questions about construction impacts or potential business interest in the project."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "holds a 4.21-acre residential property at 381 W Railroad Drive, Huachuca City, which includes a home built in 2011",
+          "url": "https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/",
+          "title": "Zillow Property Details: 381 W Railroad Dr",
+          "date": "2025-01-29"
+        },
+        {
+          "claim": "property has been advertised for rent ($650/month), indicating investment use",
+          "url": "https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/",
+          "title": "Zillow Rental History",
+          "date": "2025-01-29"
+        },
+        {
+          "claim": "Rental listings for the property direct inquiries to Rena or Lane Mountjoy",
+          "url": "https://www.zillow.com/homedetails/2150-N-Coronado-Frontage-Rd-Huachuca-City-AZ-85616/300062940_zpid/",
+          "title": "Zillow Rental Contact Info",
+          "date": "2025-01-29"
+        },
+        {
+          "claim": "Lane Mountjoy is associated with ABM Development LLC, a general contracting and excavation business based in Huachuca City",
+          "url": "https://www.abmdevelopment.com/",
+          "title": "ABM Development LLC Homepage",
+          "date": "2025-01-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cormell Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10647027"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Cormell Family Trust holds land in Cochise County, with water rights filings associated with the family name ([www.azwater.gov](https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf)). The trust is likely linked to the family of Leland Thomas Cormell (1933-2014), a long-time resident who served at Fort Huachuca and taught in local schools including Buena High School and Palominas Elementary ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/leland-cormell-obituary?pid=171728510&v=batesville)). The family has deep roots in the area, with history dating back to the 1950s ([www.legacy.com](https://www.legacy.com/funeral-homes/obituaries/name/leland-cormell-obituary?pid=171728510&v=batesville)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-time local family with historical ties to education and military sectors; likely holds informal respect but no current high-profile political role found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Preservation of family legacy",
+          "Land stewardship"
+        ],
+        "engage": "Approach as a multi-generational local family. Acknowledge their long tenure in the area (since 1950s) and focus on how the project respects local character."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "water rights filings associated with the family name",
+          "url": "https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf",
+          "title": "ADWR Combined Demonstration Project Report",
+          "date": "2017-01-27"
+        },
+        {
+          "claim": "Leland Thomas Cormell (1933-2014), a long-time resident who served at Fort Huachuca and taught in local schools",
+          "url": "https://www.legacy.com/funeral-homes/obituaries/name/leland-cormell-obituary?pid=171728510&v=batesville",
+          "title": "Obituary: Leland Thomas Cormell",
+          "date": "2014-07-11"
+        },
+        {
+          "claim": "family has deep roots in the area, with history dating back to the 1950s",
+          "url": "https://www.legacy.com/funeral-homes/obituaries/name/leland-cormell-obituary?pid=171728510&v=batesville",
+          "title": "Obituary: Leland Thomas Cormell",
+          "date": "2014-07-11"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Huachuca City City Of",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "10647065"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Town of Huachuca City owns this parcel. The Town's General Plan explicitly identifies renewable energy as a potential future land use, stating that reclaimed landfill parcels could be used for \"green energy sources such as a solar panel array\" ([www.huachucacityaz.gov](https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf)). Additionally, the Town has pursued solar improvements for community facilities, such as a solar cover for the municipal pool ([huachucacityaz.gov](https://huachucacityaz.gov/community-development-block-grant-cdbg/)). The municipality has also updated tax codes to include specific provisions for solar photovoltaic energy generating systems ([azdor.gov](https://azdor.gov/business/transaction-privilege-tax/model-city-tax-code/rate-and-code-updates)). These documents indicate a supportive policy framework for renewable energy development within the town's jurisdiction.",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Municipal authority with regulatory control over zoning, permits, and tax codes; General Plan explicitly supports solar land use.",
+      "approach_recommendations": {
+        "motivations": [
+          "Economic development",
+          "Revenue generation",
+          "Sustainable land use"
+        ],
+        "engage": "Coordinate directly with Town Council and Manager. Reference the General Plan's vision for solar arrays on town land as a basis for alignment. Highlight potential revenue streams and infrastructure improvements."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "reclaimed landfill parcels could be used for \"green energy sources such as a solar panel array\"",
+          "url": "https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf",
+          "title": "Huachuca City General Development Plan Update 2017",
+          "date": "2017-05-15"
+        },
+        {
+          "claim": "Town has pursued solar improvements for community facilities, such as a solar cover for the municipal pool",
+          "url": "https://huachucacityaz.gov/community-development-block-grant-cdbg/",
+          "title": "Community Development Block Grant Public Hearing Notice",
+          "date": "2020-05-11"
+        },
+        {
+          "claim": "updated tax codes to include specific provisions for solar photovoltaic energy generating systems",
+          "url": "https://azdor.gov/business/transaction-privilege-tax/model-city-tax-code/rate-and-code-updates",
+          "title": "Model City Tax Code Updates",
+          "date": "2018-09-13"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 824440,
+    "thinking_count": 31
+  }
+}

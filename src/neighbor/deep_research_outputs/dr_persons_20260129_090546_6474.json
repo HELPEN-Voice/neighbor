@@ -1,7 +1,14 @@
 {
-  "batch_idx": 1,
-  "total_batches": 5,
+  "timestamp": "2026-01-29T09:05:46.647455",
   "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these four neighbors has a clearly documented public stance on new development projects. Their community influence varies widely: one (the Brophy family) is a historically significant ranching family with high influence, another is a local developer with moderate influence, and the remaining two appear to have low public profiles.",
   "neighbors": [
     {
       "neighbor_id": "N-01",
@@ -88,7 +95,7 @@
           "farmland_preservation",
           "wildlife_habitat"
         ],
-        "engage": "Enlist a respected local conservation figure to initiate dialogue, emphasizing the project's land stewardship plans and respect for the ranch\u2019s legacy and environment."
+        "engage": "Enlist a respected local conservation figure to initiate dialogue, emphasizing the project's land stewardship plans and respect for the ranch’s legacy and environment."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -121,7 +128,7 @@
       "influence_justification": "No public presence or roles",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach discreetly through a mutual acquaintance or community event, as they have no known stances\u2014building rapport and learning their interests would guide effective engagement."
+        "engage": "Approach discreetly through a mutual acquaintance or community event, as they have no known stances—building rapport and learning their interests would guide effective engagement."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -173,7 +180,6 @@
       "url": null
     }
   ],
-  "overview_summary": "None of these four neighbors has a clearly documented public stance on new development projects. Their community influence varies widely: one (the Brophy family) is a historically significant ranching family with high influence, another is a local developer with moderate influence, and the remaining two appear to have low public profiles.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_090546_6474.json",
-  "cached_at": "2026-01-29T09:05:46.648341"
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these four neighbors has a clearly documented public stance on new development projects. Their community influence varies widely: one (the Brophy family) is a historically significant ranching family with high influence, another is a local developer with moderate influence, and the remaining two appear to have low public profiles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Kovan Mountjoy\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-54-001K\"],\n      \"claims\": \"Kovan Mountjoy is listed as a contact for ABM Development LLC, a locally owned real estate development firm based in Huachuca City ([www.abmdevelopment.com](https://www.abmdevelopment.com/contact-us#:~:text=Kovan%20Mountjoy)). ABM Development has operated in the area for over 20 years as a family-run home builder and land development business ([www.abmdevelopment.com](https://www.abmdevelopment.com/#:~:text=)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local developer; business owner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage via a business-oriented approach through local builders or the chamber, highlighting how the project could align with community growth without harming real estate values.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Michelle White\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-47-152V\"],\n      \"claims\": \"A \\\"White, Michelle\\\" appears in public records databases, but aside from the property ownership, no public profile or civic role for this person is evident ([truepeoplesearch.net](https://truepeoplesearch.net/people/michelle-white#:~:text=Also%20known%20as%3A)). No references to a Michelle White were found in local news, suggesting a private individual with no notable public involvement ([cochise.az.gov](https://cochise.az.gov/CivicAlerts.aspx?CID=1#:~:text=News%20Flash%20%E2%80%A2%20Cochise%20County%2C,Hard%20copies%20are%20also%20available)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach one-on-one through a neighborly introduction, listening to any personal concerns since she has not voiced opinions publicly.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Frank Cullen Brophy\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-47-008\"],\n      \"claims\": \"Frank Cullen Brophy acquired the historic 18,000-acre Babacomari Ranch in 1935, becoming its third owner since Spanish colonial times ([babacomariranch.com](https://babacomariranch.com/history#:~:text=In%201935%2C%20Frank%20Cullen%20Brophy,who%20served%20as%20frontiersmen%20and)). The Brophy family continues to hold the ranch through a family partnership, placing over 3,300 acres under conservation easements to protect its grasslands and wetlands ([babacomariranch.com](https://babacomariranch.com/history#:~:text=Brophy%20now%20numbering%20over%2060%2C,and%20Water%20Trust%2C%20the%20Nature)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Historic ranch family; large acreage\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"wildlife_habitat\"],\n        \"engage\": \"Enlist a respected local conservation figure to initiate dialogue, emphasizing the project's land stewardship plans and respect for the ranch’s legacy and environment.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Ricktor & Tawneen Meldrum\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-54-003Y\"],\n      \"claims\": \"Ricktor and Tawneen Meldrum jointly own a parcel in Cochise County (PIN 106-54-003Y), but they are not mentioned in any local news reports or public records beyond that ownership ([thetombstonenews.com](https://thetombstonenews.com/index46.htm#:~:text=The%20Tombstone%20News%20,Rest%20in%20Peace%20and%20God)). No evidence was found of either having a public-facing role in the community or commenting on local issues ([thetombstonenews.com](https://thetombstonenews.com/index46.htm#:~:text=The%20Tombstone%20News%20,Rest%20in%20Peace%20and%20God)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public presence or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach discreetly through a mutual acquaintance or community event, as they have no known stances—building rapport and learning their interests would guide effective engagement.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
 }

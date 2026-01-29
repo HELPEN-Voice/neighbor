@@ -1,0 +1,77 @@
+{
+  "batch_idx": 2,
+  "total_batches": 3,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Military Brothers Moving LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "106-48-155"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Military Brothers Moving LLC is a local moving services company founded in 2014 by two military veteran brothers, Kevin and Bryan Hoey[Military Brothers Moving (company website)\u3011, and business records list Bryan P. Hoey, Kevin M. Hoey, and Jeffrey T. Hoey as the LLC\u2019s members [Better Business Bureau](https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490). The company is based in Sierra Vista, AZ and has operated in Cochise County for over a decade with no public record of involvement in land use disputes [MapQuest](https://www.mapquest.com/us/arizona/military-brothers-moving-llc-358420099).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small local business; limited political or land influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage managing member Bryan Hoey directly, highlighting the project\u2019s local economic benefits; consider offering moving or support service contracts to build goodwill and ensure a neutral or positive stance"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kendall Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "106-15-023E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private family land trust; not an active organization in civic affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Work with the trust\u2019s individual decision-makers (trustees or family members) directly; address their personal concerns one-on-one and emphasize how the development can maintain or enhance their property\u2019s value"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "The neighboring entities consist of a small local business and a private family trust. Military Brothers Moving LLC is a veteran-owned moving company founded in 2014 by two brothers and based in Sierra Vista, Arizona [Military Brothers Moving (company website)](https://www.militarybrothersmoving.com). Kendall Family Trust is a long-time landholding trust involved in numerous property transactions since the 1990s, indicating a private estate managing family land holdings [RealtyHop](https://www.realtyhop.com/property-records/search/kendall-family-trust-the). Neither organization has a documented public stance on the proposed development, and their direct influence in the community appears limited.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260129_090231_8062.json",
+  "cached_at": "2026-01-29T09:02:31.807392"
+}
