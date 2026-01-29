@@ -109,10 +109,33 @@ class NeighborVerificationManager:
         vr_filepaths = []
         errors = []
 
+        # Check for existing vr_* files and skip already-verified
+        files_to_verify = []
+        for fp in dr_filepaths:
+            vr_path = Path(fp).parent / Path(fp).name.replace("dr_", "vr_")
+            if vr_path.exists():
+                # Load existing verified data
+                try:
+                    with open(vr_path, "r", encoding="utf-8") as f:
+                        vr_data = json.load(f)
+                    all_verified.extend(vr_data.get("neighbors", []))
+                    vr_filepaths.append(str(vr_path))
+                    print(f"   ✅ {vr_path.name}: Already verified (loaded from cache)")
+                except Exception as e:
+                    print(f"   ⚠️ Failed to load {vr_path.name}, will re-verify: {e}")
+                    files_to_verify.append(fp)
+            else:
+                files_to_verify.append(fp)
+
+        if not files_to_verify:
+            print(f"   ✅ All {len(dr_filepaths)} files already verified, skipping verification stage")
+        else:
+            print(f"   📂 {len(dr_filepaths) - len(files_to_verify)} already verified, {len(files_to_verify)} to verify")
+
         with ThreadPoolExecutor(max_workers=concurrency_limit) as executor:
             future_to_file = {
                 executor.submit(self._verify_single_file, fp, context): fp
-                for fp in dr_filepaths
+                for fp in files_to_verify
             }
 
             print(f"   🚀 Launched {len(future_to_file)} parallel verification tasks")
