@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-01-28T17:23:07.053733",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The profiled neighboring landowner has not expressed any public stance regarding new development, with their position remaining unknown. They also do not hold a notable role or influence in the community, indicating a low overall risk from influential opposition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "John Barnes & Shelley Barnes",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-48-003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John and Shelley Barnes jointly own a parcel of land in Cochise County, Arizona, identified as Assessor’s Parcel Number 106-48-003 ([parcelinquirytreasurer.cochise.az.gov](https://parcelinquirytreasurer.cochise.az.gov/Parcel/TaxSummary#:~:text=Welcome%20to%20the%20new%20Cochise,and%20address%2C%20view%20area%20code)). No references to John or Shelley Barnes were found in available local government records or media, and they have not publicly engaged on energy or development issues ([www.cochise.az.gov](https://www.cochise.az.gov/611/Board-of-Adjustment#:~:text=Board%20of%20Adjustment%20,Consider%20zoning%20variances)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage with the Barnes household through a friendly, informal introduction to understand any concerns. Emphasize general community benefits and address common issues (e.g., property values, safety) since they have no stated position."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The profiled neighboring landowner has not expressed any public stance regarding new development, with their position remaining unknown. They also do not hold a notable role or influence in the community, indicating a low overall risk from influential opposition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"John Barnes & Shelley Barnes\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-48-003\"],\n      \"claims\": \"John and Shelley Barnes jointly own a parcel of land in Cochise County, Arizona, identified as Assessor’s Parcel Number 106-48-003 ([parcelinquirytreasurer.cochise.az.gov](https://parcelinquirytreasurer.cochise.az.gov/Parcel/TaxSummary#:~:text=Welcome%20to%20the%20new%20Cochise,and%20address%2C%20view%20area%20code)). No references to John or Shelley Barnes were found in available local government records or media, and they have not publicly engaged on energy or development issues ([www.cochise.az.gov](https://www.cochise.az.gov/611/Board-of-Adjustment#:~:text=Board%20of%20Adjustment%20,Consider%20zoning%20variances)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage with the Barnes household through a friendly, informal introduction to understand any concerns. Emphasize general community benefits and address common issues (e.g., property values, safety) since they have no stated position.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

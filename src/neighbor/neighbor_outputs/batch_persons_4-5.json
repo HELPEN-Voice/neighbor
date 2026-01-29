@@ -1,0 +1,143 @@
+{
+  "batch_idx": 3,
+  "total_batches": 5,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Joni E. McLin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-148"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joni E. McLin is listed as the owner of a parcel in Cochise County (PIN 106-47-148) according to county property records [Cochise County Treasurer](https://parcelinquirytreasurer.cochise.az.gov). No references to her involvement in local government, public meetings, or development issues were found in available public records or news archives (suggesting she has not taken a visible public stance) [Cochise County Board of Supervisors Minutes \u2013 Search](https://cochise.az.gov/AgendaCenter) [Herald/Review Archives \u2013 Search](https://www.myheraldreview.com/search/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Begin with a straightforward, informational outreach, as McLin has no known public positions. A polite introduction emphasizing transparency about the project and addressing common concerns (e.g., property values, privacy) may help engage her interest and build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Grant D. Miles",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-48-001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Grant D. Miles is a long-time Cochise County landowner, approximately 74 years old, who resides in the Cochise, AZ area (Big Draw Road) near his property [Public Records Database](https://www.menstoppingviolence.org/people/grant-miles/). He has no recorded public statements or involvement in local development disputes or energy projects in the county\u2019s available records [Cochise County Board of Supervisors \u2013 Minutes Search](https://cochise.az.gov/AgendaCenter) [Willcox Range News \u2013 Archives Search](https://www.myheraldreview.com/search/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "As an older landowner with deep local ties but no public stance, a peer-to-peer approach is recommended. Having a respected local farmer or rancher introduce the project \u2014 focusing on aspects like land stewardship and minimal impact on agriculture \u2014 could help gain Miles\u2019s receptivity."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rebekah & Ronald L. Mourfield",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-48-002"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rebekah and Ronald L. Mourfield jointly own a parcel in Cochise County (PIN 106-48-002) as listed in county property records [Cochise County Treasurer](https://parcelinquirytreasurer.cochise.az.gov). There is no indication in public sources (county meeting minutes, local news, or community organizations) that either Rebekah or Ronald Mourfield has taken any public position or active role regarding development or energy projects [Cochise County Planning & Zoning Minutes \u2013 Search](https://cochise.az.gov/AgendaCenter) [Herald/Review News \u2013 Search](https://www.myheraldreview.com/search/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "The Mourfields have no known advocacy history, so initial engagement should be neutral and informative. A community open house or an invitation to a site tour could be effective, allowing them to ask questions in a casual setting and reassuring them that their quality of life (quiet, safety, property value) will be respected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Qwest Corporation",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "106-48-152"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Qwest Corporation is a major telecommunications utility (an incumbent local exchange carrier) providing telephone and internet services across Arizona and other states [Grokipedia](https://grokipedia.com/page/Qwest_Corporation). This company holds ownership of parcel PIN 106-48-152, likely for infrastructure purposes, and does not participate in community matters as an individual neighbor would. (**See organizational profile for Qwest Corporation in ORG table for further details**.)",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Utility owner (not an individual neighbor)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate through formal channels with Qwest\u2019s regional liaison or right-of-way department. Ensure any project plans account for existing telecom infrastructure on the parcel and address technical requirements rather than community persuasion."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "All identified neighbors around the site have no publicly documented stance on development or clean energy, with their positions classified as \"unknown.\" None of the profiled individuals holds a high-profile role in local affairs, indicating a low concentration of community influence among these neighbors.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_170812_8788.json",
+  "cached_at": "2026-01-28T17:08:12.879310"
+}

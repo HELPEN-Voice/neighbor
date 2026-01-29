@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-01-28T18:22:30.928561",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_174125_7121.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Military Brothers Moving LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10648155"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Military Brothers Moving, LLC is an Arizona moving services company founded in 2014 by two veteran brothers, Kevin M. Hoey and Bryan P. Hoey ([Military Brothers Moving](https://www.militarybrothersmoving.com/)). The company’s base of operations is located at 1301 N Cochise Ave in Huachuca City, Arizona ([FMCSA](https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&original_query_param=NAME&query_string=2918139&original_query_string=MILITARY20BROTHERS20MOVING20LLC)). Public records categorize the business as a household and commercial moving provider, with no filings indicating involvement in land development or real estate ventures ([BBB](https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490)). No public statements were found linking this LLC to any stance regarding local development projects.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local service business with no identified political leadership roles or significant land holdings.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owners Kevin and Bryan Hoey with friendly outreach emphasizing how the development could bring business (e.g. moving/storage needs). Given their limited stake and lack of opposition history, maintain good relations but intensive engagement is likely unnecessary."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Military Brothers Moving, LLC is an Arizona moving services company founded in 2014 by two veteran brothers, Kevin M. Hoey and Bryan P. Hoey",
+          "url": "https://www.militarybrothersmoving.com/",
+          "title": "Military Brothers Moving - About Us",
+          "date": "2025-06-03"
+        },
+        {
+          "claim": "The company’s base of operations is located at 1301 N Cochise Ave in Huachuca City, Arizona",
+          "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&original_query_param=NAME&query_string=2918139&original_query_string=MILITARY20BROTHERS20MOVING20LLC",
+          "title": "FMCSA Company Snapshot: Military Brothers Moving LLC",
+          "date": "2026-01-05"
+        },
+        {
+          "claim": "Public records categorize the business as a household and commercial moving provider",
+          "url": "https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490",
+          "title": "BBB Profile: Military Brothers Moving LLC",
+          "date": "2026-01-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kendall Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10615023E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ownership of parcel 10615023E is attributed to the Kendall Family Trust. No public records were found identifying specific trustees, beneficiaries, or a documented stance on local development projects ([Cochise County Treasurer](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelSearch)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Private family trust with no identifiable public profile or documented community activity in Cochise County.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Treat as a standard absentee landowner. Monitor for any changes in representation or public comment."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Ownership of parcel 10615023E is attributed to the Kendall Family Trust",
+          "url": "https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelSearch",
+          "title": "Cochise County Treasurer Parcel Search",
+          "date": "2026-01-28"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 392409,
+    "thinking_count": 25
+  }
+}

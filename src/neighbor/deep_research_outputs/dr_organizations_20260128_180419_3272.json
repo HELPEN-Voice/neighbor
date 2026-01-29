@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-01-28T18:04:19.327314",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring entities include a historic family ranch, a speculative land investor, and a private trust. Babacomari Ranch Company (owned by the Brophy family since 1935) controls roughly 28,000 acres and has high local influence, balancing land conservation with plans for a luxury dude ranch development [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/) [Arizona Land and Water Trust](https://alwt.org/babacomari-ranch/). In contrast, San Ignacio Investments LLC is an outside investor parceling and reselling former ranch land for profit, with no evident community ties. While no organized opposition groups were identified, the Brophy family’s emphasis on preserving ranch heritage and the speculator’s financial motives suggest they could oppose projects perceived to threaten land value or character unless their interests are aligned.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Babacomari Ranch Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "10603038"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Babacomari Ranch Company is a family-owned cattle ranch acquired by Frank Cullen Brophy in 1935 and now held by his descendants ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,a%20portion%20of%20the%20ranch)). It encompasses approximately 28,000 acres across Santa Cruz and Cochise counties, reputedly the largest contiguous private land parcel in Arizona ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,a%20portion%20of%20the%20ranch)). The Brophy family placed 2,488 acres of the ranch under a conservation easement in partnership with Arizona Land and Water Trust to protect its habitat and heritage ([alwt.org](https://alwt.org/babacomari-ranch/#:~:text=Arizona%20Land%20and%20Water%20Trust,landscape%20for%20generations%20to%20come)). The family has also sought approvals to develop a high-end “dude ranch” resort on a portion of the property to generate sustainable income ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,a%20portion%20of%20the%20ranch)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Multi-generational local landowner (28,000 acres); longstanding family prominence; can leverage conservation and development partnerships",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage family spokesperson (e.g., Sallie Brophy) with proposals that provide revenue while respecting ranch heritage; highlight how the project can coexist with or support their land stewardship goals"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "San Ignacio Investments LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10615012U",
+        "10615057"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "San Ignacio Investments LLC is a land-holding entity not registered in Arizona (it appears to have been formed in Florida in 2001 under document #L01000007605, now listed as inactive) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResults?inquiryType=EntityName&searchTerm=SANIGLAZE+MIAMI+LLC#:~:text=SAN%20IGNACIO%20FLORIDA%20HOLDINGS%2C%20LLC,INACT)). The company acquired portions of the historic Babacomari Ranch and has no known local operations aside from owning and marketing the land. Recent real estate listings show this entity is subdividing and offering its acreage (formerly part of Babacomari Ranch) for sale as large rural residential parcels, branding it as “San Ignacio Ranch” ([fernandezrealtyllc.com](https://fernandezrealtyllc.com/idx/Arizona-State-Highway-83-Sonoita-AZ-85637-mls_22428032?Limit=9&OrderBy=-ModificationTimestamp&m=20091028173201638455000000&n=y&p=y&pg=546#:~:text=Property%20Description%20Once%20a%20portion,of%20history%2C%20with%20good%20investment)). The actual owners or principals of San Ignacio Investments LLC are not publicly disclosed, indicating that beneficial ownership remains unknown.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-state speculative owner; no local presence or community role beyond land ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact the owner’s representative to discuss purchase or compensation arrangements; emphasize financial upside or mitigate impacts that could lower their property value"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Baker Walker Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10654001F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Private family trust with no public-facing role (individual landowner)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See RESIDENT table."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Babacomari Ranch Company LLLP",
+      "entity_category": "Organization",
+      "entity_type": "lllp",
+      "pins": [
+        "10615012Y"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Babacomari Ranch Company LLLP is the current legal partnership through which the Brophy family operates the Babacomari Ranch. Three generations of the Brophy family actively manage this ranch, which is the largest continuous privately-held tract in Arizona (about 26 miles in length) ([www.environmentalstewardship.org](https://www.environmentalstewardship.org/winner-gallery/inductees/babacorami-ranch-co-llp#:~:text=of%20Spain,to%204%2C000%20feet%20and%20comprises)). The ranch (under the Babacomari Ranch Co. name) was recognized with a national Environmental Stewardship Award in 2008 for its sustainable land management practices ([www.environmentalstewardship.org](https://www.environmentalstewardship.org/winner-gallery/inductees/babacorami-ranch-co-llp#:~:text=The%20Brophy%20families%20of%20Sonoita%2C,effective%20stewardship%20practices)). Family members have publicly stated that new ventures (such as the proposed guest ranch) are needed to provide revenue to keep the ranch intact and financially viable ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=piece%20of%20property%2C%20so%20we,%E2%80%9D)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Controls extensive land and water resources; respected for land stewardship; family network has long-standing regional influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate closely with the Brophy family’s managing partners; offer solutions that address their need for sustainable income (e.g., profit-sharing or lease payments) while minimizing impact on the ranch’s landscape and legacy"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring entities include a historic family ranch, a speculative land investor, and a private trust. Babacomari Ranch Company (owned by the Brophy family since 1935) controls roughly 28,000 acres and has high local influence, balancing land conservation with plans for a luxury dude ranch development [Patagonia Regional Times](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/) [Arizona Land and Water Trust](https://alwt.org/babacomari-ranch/). In contrast, San Ignacio Investments LLC is an outside investor parceling and reselling former ranch land for profit, with no evident community ties. While no organized opposition groups were identified, the Brophy family’s emphasis on preserving ranch heritage and the speculator’s financial motives suggest they could oppose projects perceived to threaten land value or character unless their interests are aligned.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Babacomari Ranch Company\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"10603038\"],\n      \"claims\": \"Babacomari Ranch Company is a family-owned cattle ranch acquired by Frank Cullen Brophy in 1935 and now held by his descendants ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,a%20portion%20of%20the%20ranch)). It encompasses approximately 28,000 acres across Santa Cruz and Cochise counties, reputedly the largest contiguous private land parcel in Arizona ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,a%20portion%20of%20the%20ranch)). The Brophy family placed 2,488 acres of the ranch under a conservation easement in partnership with Arizona Land and Water Trust to protect its habitat and heritage ([alwt.org](https://alwt.org/babacomari-ranch/#:~:text=Arizona%20Land%20and%20Water%20Trust,landscape%20for%20generations%20to%20come)). The family has also sought approvals to develop a high-end “dude ranch” resort on a portion of the property to generate sustainable income ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/county-to-consider-permit-for-new-40-60-million-dude-ranch-in-sonoita/#:~:text=The%2028%2C000,a%20portion%20of%20the%20ranch)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Multi-generational local landowner (28,000 acres); longstanding family prominence; can leverage conservation and development partnerships\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Land preservation\", \"Controlled development (tourism)\", \"Financial sustainability of ranch\"],\n      \"approach_recommendations\": \"Engage family spokesperson (e.g., Sallie Brophy) with proposals that provide revenue while respecting ranch heritage; highlight how the project can coexist with or support their land stewardship goals\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"San Ignacio Investments LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"10615012U\", \"10615057\"],\n      \"claims\": \"San Ignacio Investments LLC is a land-holding entity not registered in Arizona (it appears to have been formed in Florida in 2001 under document #L01000007605, now listed as inactive) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResults?inquiryType=EntityName&searchTerm=SANIGLAZE+MIAMI+LLC#:~:text=SAN%20IGNACIO%20FLORIDA%20HOLDINGS%2C%20LLC,INACT)). The company acquired portions of the historic Babacomari Ranch and has no known local operations aside from owning and marketing the land. Recent real estate listings show this entity is subdividing and offering its acreage (formerly part of Babacomari Ranch) for sale as large rural residential parcels, branding it as “San Ignacio Ranch” ([fernandezrealtyllc.com](https://fernandezrealtyllc.com/idx/Arizona-State-Highway-83-Sonoita-AZ-85637-mls_22428032?Limit=9&OrderBy=-ModificationTimestamp&m=20091028173201638455000000&n=y&p=y&pg=546#:~:text=Property%20Description%20Once%20a%20portion,of%20history%2C%20with%20good%20investment)). The actual owners or principals of San Ignacio Investments LLC are not publicly disclosed, indicating that beneficial ownership remains unknown.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-state speculative owner; no local presence or community role beyond land ownership\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Maximize land resale value\", \"Development profit\"],\n      \"approach_recommendations\": \"Contact the owner’s representative to discuss purchase or compensation arrangements; emphasize financial upside or mitigate impacts that could lower their property value\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Baker Walker Living Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"10654001F\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Private family trust with no public-facing role (individual landowner)\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Unknown\"],\n      \"approach_recommendations\": \"See RESIDENT table.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Babacomari Ranch Company LLLP\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"lllp\",\n      \"pins\": [\"10615012Y\"],\n      \"claims\": \"Babacomari Ranch Company LLLP is the current legal partnership through which the Brophy family operates the Babacomari Ranch. Three generations of the Brophy family actively manage this ranch, which is the largest continuous privately-held tract in Arizona (about 26 miles in length) ([www.environmentalstewardship.org](https://www.environmentalstewardship.org/winner-gallery/inductees/babacorami-ranch-co-llp#:~:text=of%20Spain,to%204%2C000%20feet%20and%20comprises)). The ranch (under the Babacomari Ranch Co. name) was recognized with a national Environmental Stewardship Award in 2008 for its sustainable land management practices ([www.environmentalstewardship.org](https://www.environmentalstewardship.org/winner-gallery/inductees/babacorami-ranch-co-llp#:~:text=The%20Brophy%20families%20of%20Sonoita%2C,effective%20stewardship%20practices)). Family members have publicly stated that new ventures (such as the proposed guest ranch) are needed to provide revenue to keep the ranch intact and financially viable ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/#:~:text=piece%20of%20property%2C%20so%20we,%E2%80%9D)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Controls extensive land and water resources; respected for land stewardship; family network has long-standing regional influence\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Stewardship legacy\", \"Revenue generation to preserve family land\", \"Maintaining control over land use\"],\n      \"approach_recommendations\": \"Coordinate closely with the Brophy family’s managing partners; offer solutions that address their need for sustainable income (e.g., profit-sharing or lease payments) while minimizing impact on the ranch’s landscape and legacy\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,247 @@
+{
+  "timestamp": "2026-01-28T18:23:31.699082",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_174546_0978.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "JRL Development LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "106-47-151",
+        "106-47-153"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JRL Development LLC is an Arizona limited liability company with a documented history of land development in Cochise County dating back to at least 2005 ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf)). The company is the recorded owner of parcels 106-47-151 and 106-47-153, which have been identified in local water right adjudications ([superiorcourt.maricopa.gov](http://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/0245ord061219.pdf)). Unlike a new market entrant, JRL Development LLC has been the developer for the 'Covey Run' subdivision in Hereford, AZ, indicating long-term involvement in local residential development rather than purely speculative land banking ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf)). Historical public filings have listed Dave Groberg as a contact or member, though current beneficial ownership may not be fully disclosed in all public-facing records ([biologicaldiversity.org](https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf)). The entity's activities appear focused on residential subdivision and land holding ([homes.com](https://www.homes.com/property/8665-s-sun-quail-terrace-hereford-az/7fyefe5h8202n/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Established local developer with history of subdivision projects (Covey Run); likely has knowledge of county planning processes but no specific political stance found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value enhancement",
+          "Development potential"
+        ],
+        "engage": "Engage as a peer developer; acknowledge their history with Covey Run and discuss how the project complements future residential or land value goals."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Documented history of land development in Cochise County dating back to at least 2005",
+          "url": "https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf",
+          "title": "Covey Run Adequate Water Supply Report",
+          "date": "2005-11-14"
+        },
+        {
+          "claim": "Recorded owner of parcels 106-47-151 and 106-47-153",
+          "url": "http://www.superiorcourt.maricopa.gov/SuperiorCourt/GeneralStreamAdjudication/docs/0245ord061219.pdf",
+          "title": "In re Town of Huachuca City Contested Case Order",
+          "date": "2019-06-12"
+        },
+        {
+          "claim": "Developer for the 'Covey Run' subdivision in Hereford, AZ",
+          "url": "https://biologicaldiversity.org/programs/public_lands/rivers/pdfs/covey-run-PUBLIC-REPORT-20140509.pdf",
+          "title": "Arizona Department of Real Estate Public Report - Covey Run",
+          "date": "2014-05-09"
+        },
+        {
+          "claim": "Historical public filings have listed Dave Groberg as a contact or member",
+          "url": "https://biologicaldiversity.org/programs/public_lands/pdfs/20051114-COVEY-RUN-ADEQUATE.pdf",
+          "title": "Covey Run Adequate Water Supply Report",
+          "date": "2005-11-14"
+        },
+        {
+          "claim": "Activities appear focused on residential subdivision and land holding",
+          "url": "https://www.homes.com/property/8665-s-sun-quail-terrace-hereford-az/7fyefe5h8202n/",
+          "title": "Property History for Covey Run / JRL Development",
+          "date": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "381 W Railroad Dr LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "106-54-001L"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "381 W Railroad Dr LLC is an Arizona entity named after its property’s address, holding parcel 106-54-001L in Huachuca City ([redfin.com](https://www.redfin.com/AZ/Huachuca-City/381-W-Railroad-Dr-85616/home/114775567)). The property consists of a single-family residence of approximately 900-915 sq ft on 4.21 acres, built in 2011 ([zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/)). The property has a documented history as a rental, having been advertised for lease in 2017, which indicates the owner operates it as an investment property rather than a primary residence ([zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/)). No evidence of political activism or community leadership was found for this entity, suggesting a low-profile absentee owner or small-scale investor ([redfin.com](https://www.redfin.com/AZ/Huachuca-City/381-W-Railroad-Dr-85616/home/114775567)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Single-parcel holding used as a residential rental; no evidence of broader community influence or political activity.",
+      "approach_recommendations": {
+        "motivations": [
+          "Rental income stability",
+          "Property value"
+        ],
+        "engage": "Contact via property management or registered agent; address tenant well-being and property value preservation."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Holding parcel 106-54-001L in Huachuca City",
+          "url": "https://www.redfin.com/AZ/Huachuca-City/381-W-Railroad-Dr-85616/home/114775567",
+          "title": "Redfin Property Details - 381 W Railroad Dr",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "Property consists of a single-family residence of approximately 900-915 sq ft on 4.21 acres, built in 2011",
+          "url": "https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/",
+          "title": "Zillow Property Details - 381 W Railroad Dr",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "Documented history as a rental, having been advertised for lease in 2017",
+          "url": "https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/",
+          "title": "Zillow Rental History - 381 W Railroad Dr",
+          "date": "2025-01-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cormell Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "106-47-027"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Cormell Family Trust is the owner of parcel 106-47-027 in Cochise County and has been listed in Arizona Department of Water Resources adjudications regarding water rights and well ownership ([azwater.gov](https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf)). The trust's involvement in water rights filings suggests a long-term interest in the land, potentially for agricultural or rural estate purposes ([azwater.gov](https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf)). Public records link the trust to specific well claims (e.g., 111-24-CBC-005-DM001), indicating active management of land resources ([azwater.gov](https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf)). No evidence of political donations or public stances on development was found for this specific trust in Cochise County.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Long-term landowner with documented water rights; likely connected to other local agricultural or rural landowners.",
+      "approach_recommendations": {
+        "motivations": [
+          "Water rights preservation",
+          "Land legacy"
+        ],
+        "engage": "Approach trustees with respect for land stewardship; discuss how the project impacts or protects local water resources and rural character."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Listed in Arizona Department of Water Resources adjudications regarding water rights and well ownership",
+          "url": "https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf",
+          "title": "San Pedro I HSR Demonstration Project Report",
+          "date": "2017-01-27"
+        },
+        {
+          "claim": "Public records link the trust to specific well claims (e.g., 111-24-CBC-005-DM001)",
+          "url": "https://www.azwater.gov/sites/default/files/adjudications_documents/2017%2001-27%20CombinedDemonstrationProjectReport.pdf",
+          "title": "San Pedro I HSR Demonstration Project Report",
+          "date": "2017-01-27"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Town of Huachuca City (City of Huachuca City)",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "106-47-065"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Town of Huachuca City is the municipal government holding title to parcel 106-47-065 ([parcelinquiry.azurewebsites.us](https://parcelinquiry.azurewebsites.us/)). The Town has explicitly documented its support for renewable energy in its General Plan, specifically Objective 3.5, which states the Town will 'Work to establish some form of alternative energy for the town... and potentially serve as another revenue stream... such as a solar panel array' ([huachucacityaz.gov](https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf)). This objective identifies potential locations for such projects, including reclaimed landfill sites or other town parcels ([huachucacityaz.gov](https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf)). As a municipality, the Town controls local zoning and land-use decisions, making it a critical stakeholder for any nearby development ([huachucacityaz.gov](https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Municipal entity with zoning authority and explicit General Plan objectives supporting renewable energy development.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue generation",
+          "Sustainability goals",
+          "General Plan compliance"
+        ],
+        "engage": "Engage directly with Town Council and Planning Department; highlight alignment with General Plan Objective 3.5 and potential for municipal revenue or partnership."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Municipal government holding title to parcel 106-47-065",
+          "url": "https://parcelinquiry.azurewebsites.us/",
+          "title": "Cochise County Treasurer Parcel Inquiry",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "General Plan Objective 3.5 states the Town will 'Work to establish some form of alternative energy... such as a solar panel array'",
+          "url": "https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf",
+          "title": "Town of Huachuca City General Plan 2017",
+          "date": "2017-05-15"
+        },
+        {
+          "claim": "Objective identifies potential locations for such projects, including reclaimed landfill sites",
+          "url": "https://www.huachucacityaz.gov/Documents/PublicDownloads/Huachuca%20City%20General%20Plan-05152017.pdf",
+          "title": "Town of Huachuca City General Plan 2017",
+          "date": "2017-05-15"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 1046496,
+    "thinking_count": 40
+  }
+}

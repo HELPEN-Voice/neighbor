@@ -1,8 +1,8 @@
 {
-  "run_id": "18484269-38f7-457c-bffe-d08db9425aed",
-  "coordinates": "31.676472,-110.357806",
+  "run_id": "71edf29a-280c-4814-897f-5c72d3e79f11",
+  "coordinates": "31.649194,-110.346861",
   "state_code": "AZ",
-  "parcels_analyzed": 30,
+  "parcels_analyzed": 29,
   "community_wealth_proxy": {
     "valid_samples": 0,
     "median_structure_value": null,
@@ -19,7 +19,7 @@
   },
   "total_property_value": null,
   "total_land_value": null,
-  "final_radius_miles": 1.0,
+  "final_radius_miles": 1.5,
   "template_variables": {
     "median_structure_value": "N/A",
     "wealth_risk_level": "UNKNOWN",
@@ -29,9 +29,9 @@
     "land_risk_level": "UNKNOWN",
     "land_risk_class": "risk-unknown",
     "land_valid_samples": "0",
-    "parcels_analyzed": "30",
+    "parcels_analyzed": "29",
     "total_property_value": "N/A",
     "total_land_value": "N/A",
-    "final_radius_miles": "1.00"
+    "final_radius_miles": "1.50"
   }
 }

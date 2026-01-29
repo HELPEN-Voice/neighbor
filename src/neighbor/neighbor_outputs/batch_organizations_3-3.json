@@ -1,0 +1,77 @@
+{
+  "batch_idx": 2,
+  "total_batches": 3,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Military Brothers Moving LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10648155"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Military Brothers Moving, LLC is an Arizona moving services company founded in 2014 by two veteran brothers, Kevin and Bryan Hoey [Military Brothers Moving](https://www.militarybrothersmoving.com/) [Better Business Bureau](https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490). The company\u2019s base of operations is at 1301 Cochise Ave in Huachuca City, Arizona, indicating its local presence in the community [MapQuest](https://www.mapquest.com/us/arizona/military-brothers-moving-llc-371175925). Public records show the business categorized purely as a household/commercial moving provider, with no involvement in land development or real estate ventures [Better Business Bureau](https://www.bbb.org/us/az/sierra-vista/profile/moving-companies/military-brothers-moving-llc-1286-20087490). No filings or public statements were found linking this LLC to any stance or activism regarding local development projects (it appears focused on its moving services).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small local service business; no known political ties or large property holdings",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owners Kevin and Bryan Hoey with friendly outreach emphasizing how the development could bring business (e.g. moving/storage needs). Given their limited stake and lack of opposition history, maintain good relations but intensive engagement is likely unnecessary."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kendall Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10615023E"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "Private family land trust; influence and stance not publicly documented",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See RESIDENT table."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "The identified neighboring entities consist of a small veteran-owned moving services LLC and a private family land trust. Neither appears to wield significant influence over local development \u2013 the moving company is a local business with limited political footprint, and the family trust represents an individual landholding. No major corporate developers, speculative investors, or organized opposition groups are evident among these neighbors, suggesting a low risk of well-funded or orchestrated opposition.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_174125_7121.json",
+  "cached_at": "2026-01-28T17:41:25.713035"
+}

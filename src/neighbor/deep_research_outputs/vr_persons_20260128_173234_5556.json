@@ -1,0 +1,210 @@
+{
+  "timestamp": "2026-01-28T18:12:25.133149",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_173234_5556.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kovan Mountjoy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-54-001K"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kovan Mountjoy is listed as a contact and co-owner of ABM Development LLC, a family-run real estate development and general contracting firm based in Huachuca City, Arizona ([ABM Development LLC](https://www.abmdevelopment.com/contact-us)). The company has been operating in the area since 1994, providing custom home building, excavation, and land clearing services ([ABM Development LLC](https://www.abmdevelopment.com/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local business owner; no civic office found",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "property_value"
+        ],
+        "engage": "Engage via an industry peer or local business forum, emphasizing how the project can create local construction jobs and maintain area property values to align with his development interests."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Kovan Mountjoy is listed as a contact and co-owner of ABM Development LLC",
+          "url": "https://www.abmdevelopment.com/contact-us",
+          "title": "ABM Development LLC - Contact Us",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The company has been operating in the area since 1994",
+          "url": "https://www.abmdevelopment.com/",
+          "title": "ABM Development LLC - Home",
+          "date": "2025-01-28"
+        }
+      ],
+      "verification_notes": "Verified business ownership and operational history via company website. Updated 'mid-1990s' to specific '1994' date found in source."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michelle White",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-152V"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records list a Michelle White in Safford, AZ, suggesting she may not reside on her Cochise County property ([Yellowbook](https://www.yellowbook.com/people/michelle-white/arizona/)). No public statements, civic roles, or attendance at local meetings were found for her in Cochise County, indicating a low public profile.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known community roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out by mail or phone to this absentee owner, highlighting assurances (e.g., tax benefits or stable land values) to address any concerns she may have about the development."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records list a Michelle White in Safford, AZ",
+          "url": "https://www.yellowbook.com/people/michelle-white/arizona/",
+          "title": "Yellowbook Listing",
+          "date": "2026-01-28"
+        }
+      ],
+      "verification_notes": "Removed specific age reference for privacy. Could not definitively confirm Safford residency with available snippets, but retained draft citation as plausible absentee owner evidence. No local Cochise footprint found."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Frank Cullen Brophy",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "106-47-008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "In 1935, Frank Cullen Brophy acquired the historic Babacomari Ranch, which remains the largest contiguous private land parcel in Arizona ([Babacomari Ranch History](https://babacomariranch.com/history)). The Brophy family has placed over 3,300 acres of the ranch under conservation easements to protect grasslands and wetlands ([Arizona Land and Water Trust](https://alwt.org/trust-protects-historic-babacomari-ranch/)). In 2024, the family obtained a conditional use permit to develop a guest ranch on 2,200 acres of the property, a project estimated to cost between $40-60 million ([Patagonia Regional Times](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Prominent ranching family; largest private land parcel in AZ",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "heritage_family_legacy",
+          "property_value"
+        ],
+        "engage": "Approach through a respected local rancher or conservation contact, emphasizing the project’s environmental stewardship and any legacy benefits (e.g., land conservation measures) to align with the Brophy family’s preservation values."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "In 1935, Frank Cullen Brophy acquired the historic Babacomari Ranch",
+          "url": "https://babacomariranch.com/history",
+          "title": "Babacomari Ranch History",
+          "date": "2026-01-28"
+        },
+        {
+          "claim": "The Brophy family has placed over 3,300 acres of the ranch under conservation easements",
+          "url": "https://alwt.org/trust-protects-historic-babacomari-ranch/",
+          "title": "Trust Protects Historic Babacomari Ranch",
+          "date": "2020-01-30"
+        },
+        {
+          "claim": "In 2024, the family obtained a conditional use permit to develop a guest ranch on 2,200 acres",
+          "url": "https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/",
+          "title": "New $40-60 Million Dude Ranch Gets First Permit",
+          "date": "2024-10-03"
+        }
+      ],
+      "verification_notes": "Added details regarding the 2024 guest ranch permit to demonstrate active development interests. While 'Babacomari Solar North LLC' exists as a developer entity, no direct evidence of the family's stance on *that* specific project was found in the text, though the name implies a relationship."
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Ricktor and Tawneen Meldrum",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-54-003Y"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ricktor K. Meldrum is a licensed aircraft mechanic who previously lived in Logan, Utah, before acquiring land in Cochise County ([AirportGuide](https://airportguide.com/airmen/A2209738/RICKTOR-K-MELDRUM)). A search of local records found no mention of Ricktor or Tawneen Meldrum in Cochise County news or meetings, suggesting they keep a low public profile.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New to area; no civic presence",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Make a personal, neighborly outreach (through a trusted community member if possible), and emphasize that the project will respect their rural lifestyle and peace and quiet on their property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Ricktor K. Meldrum is a licensed aircraft mechanic",
+          "url": "https://airportguide.com/airmen/A2209738/RICKTOR-K-MELDRUM",
+          "title": "Ricktor K Meldrum - Airman Profile",
+          "date": "2026-01-28"
+        }
+      ],
+      "verification_notes": "Retained draft citation for professional license. Confirmed lack of local news presence via negative search results."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 651247,
+    "thinking_count": 28
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "timestamp": "2026-01-28T18:16:26.833658",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_171604_2100.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven J. Brennan & Francesca Brennan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-15-057A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven J. Brennan is a licensed real estate broker and attorney based in Tucson, Arizona ([Martindale](https://www.martindale.com/attorney/steven-brennan-410873/)). He has a background in law enforcement and is associated with Cambridge Investment Research ([BrokerCheck](https://brokercheck.finra.org/individual/summary/2739189)). Francesca Brennan is the owner of La Mariposa Resort in Tucson ([BBB](https://www.bbb.org/us/az/tucson/profile/health-club/la-mariposa-resort-1286-1305)). The Brennans are non-resident landowners in Cochise County, with their primary professional and residential ties located in Pima County ([Zillow](https://www.zillow.com/homedetails/1632-N-Mariposa-Woods-Pl-309-Tucson-AZ-85749/455799539_zpid/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Non-resident owners; primary influence is in Pima County",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach via formal communication. Given Steven's legal and real estate background, ensure all project documentation is precise and emphasizes property value protection."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Steven J. Brennan is a licensed real estate broker and attorney based in Tucson, Arizona",
+          "url": "https://www.martindale.com/attorney/steven-brennan-410873/",
+          "title": "Steven J. Brennan Attorney Profile",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "He has a background in law enforcement and is associated with Cambridge Investment Research",
+          "url": "https://brokercheck.finra.org/individual/summary/2739189",
+          "title": "Steven James Brennan BrokerCheck",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "Francesca Brennan is the owner of La Mariposa Resort in Tucson",
+          "url": "https://www.bbb.org/us/az/tucson/profile/health-club/la-mariposa-resort-1286-1305",
+          "title": "La Mariposa Resort BBB Profile",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The Brennans are non-resident landowners in Cochise County, with their primary professional and residential ties located in Pima County",
+          "url": "https://www.zillow.com/homedetails/1632-N-Mariposa-Woods-Pl-309-Tucson-AZ-85749/455799539_zpid/",
+          "title": "1632 N Mariposa Woods Pl Property Details",
+          "date": "2025-09-15"
+        }
+      ],
+      "verification_notes": "Confirmed Steven J. Brennan's professional status as a broker/attorney and Francesca Brennan's ownership of La Mariposa Resort in Tucson. No specific stance on renewable energy development in Cochise County was found."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lodestar Investments L.C.",
+      "entity_category": "Organization",
+      "entity_type": "Corporate",
+      "pins": [
+        "106-15-012T"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lodestar Investments L.C. is a corporate landowner with an address listed on Highway 83 in Sonoita, Arizona ([Labyrinth Locator](https://labyrinthlocator.org/labyrinth/boulder-crest-foundation-2/187/)). The entity appears linked to the Lodestar Gardens Learning Center, which operates in the Sonoita area ([Lodestar Gardens](http://lodestargardens.com/?page_id=2)). Commercial land listings on Highway 83 in Sonoita indicate activity in the area, though specific ownership by Lodestar Investments L.C. is not explicitly detailed in public web listings ([LoopNet](https://www.loopnet.com/Listing/3123-Highway-83-Sonoita-AZ/28519036/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Corporate entity with unclear local operational footprint",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Engage via business channels. Clarify if the entity is related to Lodestar Gardens (agricultural/educational) or a separate investment vehicle."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Lodestar Investments L.C. is a corporate landowner with an address listed on Highway 83 in Sonoita, Arizona",
+          "url": "https://labyrinthlocator.org/labyrinth/boulder-crest-foundation-2/187/",
+          "title": "Labyrinth Locator - Lodestar Gardens Learning Center",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The entity appears linked to the Lodestar Gardens Learning Center, which operates in the Sonoita area",
+          "url": "http://lodestargardens.com/?page_id=2",
+          "title": "Lodestar Gardens About Page",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "Commercial land listings on Highway 83 in Sonoita indicate activity in the area",
+          "url": "https://www.loopnet.com/Listing/3123-Highway-83-Sonoita-AZ/28519036/",
+          "title": "3123 Highway 83, Sonoita, AZ Land Listing",
+          "date": "2025-01-28"
+        }
+      ],
+      "verification_notes": "While 'Lodestar Investments L.C.' is the listed owner, public records strongly suggest a connection to 'Lodestar Gardens' or 'Lodestar Gardens Learning Center' which has a verified presence in Sonoita/Elgin. Exact corporate structure could not be fully disambiguated from web sources."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Patsy J. Moriarty",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-058A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Patsy J. Moriarty is an individual landowner in Cochise County with no evident public profile or documented participation in local development meetings ([Cochise County Agenda Center](https://www.cochise.az.gov/AgendaCenter)). No records of letters to the editor or social media activity regarding renewable energy were found for a person of this name in the county ([Cochise County](https://www.cochise.az.gov/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public role found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Reach out through a personal, respectful conversation to understand any concerns, as she has not voiced any public stance."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Patsy J. Moriarty is an individual landowner in Cochise County with no evident public profile or documented participation in local development meetings",
+          "url": "https://www.cochise.az.gov/AgendaCenter",
+          "title": "Cochise County Agenda Center Search",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "No records of letters to the editor or social media activity regarding renewable energy were found for a person of this name in the county",
+          "url": "https://www.cochise.az.gov/",
+          "title": "Cochise County Website",
+          "date": "2025-01-28"
+        }
+      ],
+      "verification_notes": "Could not verify local residency or stance. Name matches exist in other states (NM, AR, MA) but no definitive link to Cochise County beyond the provided property record claim."
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Adam Chabal",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-058B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Adam Chabal is a landowner with no identified public presence in Cochise County media or government records ([Cochise County Agenda Center](https://www.cochise.az.gov/AgendaCenter)). An individual named Adam Chabal is associated with the Regis High School Class of 2004 and resides in South Jersey as of 2024, suggesting potential absentee ownership, though this link is not definitively confirmed for the Cochise County parcel ([Regis Magazine](https://www.regis.org/communications/documents/Regis%20Magazine%20-%20Fall%202024.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence; likely absentee",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Engage quietly one-on-one to introduce the project. Assume absentee status and provide comprehensive information packages."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Adam Chabal is a landowner with no identified public presence in Cochise County media or government records",
+          "url": "https://www.cochise.az.gov/AgendaCenter",
+          "title": "Cochise County Agenda Center Search",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "An individual named Adam Chabal is associated with the Regis High School Class of 2004 and resides in South Jersey as of 2024",
+          "url": "https://www.regis.org/communications/documents/Regis%20Magazine%20-%20Fall%202024.pdf",
+          "title": "Regis Alumni Magazine Fall 2024",
+          "date": "2024-10-01"
+        }
+      ],
+      "verification_notes": "No local footprint found. The only significant public record for 'Adam Chabal' in the US is the NJ resident/Regis alumni, indicating a high probability of absentee ownership."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 1129086,
+    "thinking_count": 56
+  }
+}

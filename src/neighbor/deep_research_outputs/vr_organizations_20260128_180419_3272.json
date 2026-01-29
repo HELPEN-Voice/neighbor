@@ -1,0 +1,237 @@
+{
+  "timestamp": "2026-01-28T18:32:36.183834",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260128_180419_3272.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Babacomari Ranch Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "10603038"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Babacomari Ranch Company is a family-owned cattle ranch acquired by Frank Cullen Brophy in 1935 and now held by his descendants ([babacomariranch.com](https://babacomariranch.com/)). It encompasses approximately 28,000 acres across Santa Cruz and Cochise counties, recognized as the largest contiguous private land parcel in Arizona ([babacomariranch.com](https://babacomariranch.com/)). The Brophy family placed 2,488 acres of the ranch under a conservation easement in partnership with Arizona Land and Water Trust to protect its habitat and heritage ([alwt.org](https://alwt.org/babacomari-ranch/)). The family has secured a Conditional Use Permit to develop a guest ranch (dude ranch) on a portion of the property to generate sustainable income ([patagoniaregionaltimes.org](https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/)). Additionally, the ranch is the site of the planned 160 MW Babacomari Solar project, which is expected to come online in 2026 under an agreement with Tucson Electric Power ([tep.com](https://www.tep.com/data-center-esa/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Largest contiguous private landowner in Arizona (28,000 acres); active partner with Tucson Electric Power for 160MW solar project; recipient of national Environmental Stewardship Award.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue diversification",
+          "Land stewardship",
+          "Legacy preservation"
+        ],
+        "engage": "Engage family leadership regarding the integration of the 160 MW solar project with their conservation goals; acknowledge their dual role as conservationists and renewable energy hosts."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Historic ranching entity actively diversifying revenue through renewable energy hosting (160 MW solar project) and hospitality development.",
+      "stance": "support",
+      "signal": "participating_landowner",
+      "influence_level": "High",
+      "risk_level": "Low",
+      "engagement_recommendation": "Partner",
+      "social": null,
+      "influence": "High",
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Babacomari Ranch Company is a family-owned cattle ranch acquired by Frank Cullen Brophy in 1935 and now held by his descendants",
+          "url": "https://babacomariranch.com/",
+          "title": "Babacomari Ranch History",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "It encompasses approximately 28,000 acres across Santa Cruz and Cochise counties, recognized as the largest contiguous private land parcel in Arizona",
+          "url": "https://babacomariranch.com/",
+          "title": "Babacomari Ranch Home Page",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The Brophy family placed 2,488 acres of the ranch under a conservation easement in partnership with Arizona Land and Water Trust",
+          "url": "https://alwt.org/babacomari-ranch/",
+          "title": "Arizona Land and Water Trust - Babacomari Ranch",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The family has secured a Conditional Use Permit to develop a guest ranch (dude ranch) on a portion of the property",
+          "url": "https://patagoniaregionaltimes.org/new-40-60-million-dude-ranch-gets-first-permit/",
+          "title": "New $40-60 Million Dude Ranch Gets First Permit",
+          "date": "2024-10-03"
+        },
+        {
+          "claim": "The ranch is the site of the planned 160 MW Babacomari Solar project, which is expected to come online in 2026 under an agreement with Tucson Electric Power",
+          "url": "https://www.tep.com/data-center-esa/",
+          "title": "Tucson Electric Power Data Center ESA",
+          "date": "2025-01-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "San Ignacio Investments LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "10615012U",
+        "10615057"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "San Ignacio Investments LLC is a land-holding entity; a Florida LLC by this name is listed as inactive ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&searchTerm=SAN%20IGNACIO%20LLC)). The entity is associated with the 'San Ignacio Ranch' subdivision in Elgin/Sonoita, where parcels are marketed for rural residential use ([landsearch.com](https://www.landsearch.com/properties/elgin-az-85611/4701859)). Real estate listings indicate the entity has subdivided land formerly part of the Babacomari Ranch for sale as residential homesites ([redfin.com](https://www.redfin.com/city/19459/AZ/Tucson/amenity/4+acres)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Speculative land holding entity with no identified local leadership or public engagement on energy issues; focused on residential subdivision sales.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value preservation",
+          "Real estate sales"
+        ],
+        "engage": "Contact via registered agent or real estate listing agents; address potential concerns regarding visual impact on their residential lots for sale."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Land investment entity subdividing rural acreage for residential sale; likely sensitive to visual impacts on property values.",
+      "stance": "unknown",
+      "signal": "speculative_holder",
+      "influence_level": "Low",
+      "risk_level": "Low",
+      "engagement_recommendation": "Monitor",
+      "social": null,
+      "influence": "Low",
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "A Florida LLC by this name is listed as inactive",
+          "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&searchTerm=SAN%20IGNACIO%20LLC",
+          "title": "Florida Division of Corporations - Sunbiz Search",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The entity is associated with the 'San Ignacio Ranch' subdivision in Elgin/Sonoita, where parcels are marketed for rural residential use",
+          "url": "https://www.landsearch.com/properties/elgin-az-85611/4701859",
+          "title": "San Ignacio Ranch Land for Sale",
+          "date": "2025-08-12"
+        },
+        {
+          "claim": "Real estate listings indicate the entity has subdivided land formerly part of the Babacomari Ranch for sale as residential homesites",
+          "url": "https://www.redfin.com/city/19459/AZ/Tucson/amenity/4+acres",
+          "title": "Redfin - San Ignacio Ranch Listings",
+          "date": "2025-01-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Baker Walker Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10654001F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public record searches yielded no specific digital footprint, political statements, or development activity for this trust in Cochise County.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Private family trust with no public-facing role or identifiable leadership in search results.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Treat as standard private landowner; verify contact details via tax assessor rolls."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Private trust with no public profile.",
+      "stance": "unknown",
+      "signal": "unknown",
+      "influence_level": "Unknown",
+      "risk_level": "Unknown",
+      "engagement_recommendation": "Monitor",
+      "social": null,
+      "influence": "Unknown",
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": []
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Babacomari Ranch Company LLLP",
+      "entity_category": "Organization",
+      "entity_type": "lllp",
+      "pins": [
+        "10615012Y"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Babacomari Ranch Company LLLP is the legal partnership managing the Babacomari Ranch, the largest continuous privately-held tract in Arizona ([babacomariranch.com](https://babacomariranch.com/)). The ranch was recognized with a national Environmental Stewardship Award in 2008 for sustainable land management ([environmentalstewardship.org](https://www.environmentalstewardship.org/winner-gallery/inductees/babacorami-ranch-co-llp)). The entity is actively participating in renewable energy development; Tucson Electric Power (TEP) lists 'Babacomari Solar' as a 160 MW solar project in Cochise County coming online in 2026 ([tep.com](https://www.tep.com/data-center-esa/)). Additionally, 'Babacomari Solar North LLC' has executed mitigation agreements with the Department of Defense regarding the project ([dodclearinghouse.osd.mil](https://www.dodclearinghouse.osd.mil/Portals/134/Mitigation%20Agreements/Babacomari%20Solar%20Project%20Mitigation%20Agreement.pdf?ver=k2iSolJUqdJl1O-J-eczfQ%3D%3D&timestamp=1712776087551)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major regional landowner hosting a 160 MW utility-scale solar project; holds significant sway in land use and conservation circles.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue generation",
+          "Sustainability"
+        ],
+        "engage": "Coordinate with the Brophy family management; acknowledge their existing partnership with TEP and their established role as a renewable energy host."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Primary operating entity for the Babacomari Ranch; actively hosting utility-scale solar development.",
+      "stance": "support",
+      "signal": "participating_landowner",
+      "influence_level": "High",
+      "risk_level": "Low",
+      "engagement_recommendation": "Partner",
+      "social": null,
+      "influence": "High",
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Babacomari Ranch Company LLLP is the legal partnership managing the Babacomari Ranch, the largest continuous privately-held tract in Arizona",
+          "url": "https://babacomariranch.com/",
+          "title": "Babacomari Ranch Home",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "The ranch was recognized with a national Environmental Stewardship Award in 2008 for sustainable land management",
+          "url": "https://www.environmentalstewardship.org/winner-gallery/inductees/babacorami-ranch-co-llp",
+          "title": "Environmental Stewardship Award Winner",
+          "date": "2008-01-01"
+        },
+        {
+          "claim": "Tucson Electric Power (TEP) lists 'Babacomari Solar' as a 160 MW solar project in Cochise County coming online in 2026",
+          "url": "https://www.tep.com/data-center-esa/",
+          "title": "TEP Data Center Energy Supply Agreement",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "'Babacomari Solar North LLC' has executed mitigation agreements with the Department of Defense regarding the project",
+          "url": "https://www.dodclearinghouse.osd.mil/Portals/134/Mitigation%20Agreements/Babacomari%20Solar%20Project%20Mitigation%20Agreement.pdf?ver=k2iSolJUqdJl1O-J-eczfQ%3D%3D&timestamp=1712776087551",
+          "title": "Babacomari Solar Project Mitigation Agreement",
+          "date": "2024-01-18"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 999922,
+    "thinking_count": 33
+  }
+}

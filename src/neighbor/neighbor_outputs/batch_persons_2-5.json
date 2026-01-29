@@ -1,0 +1,149 @@
+{
+  "batch_idx": 1,
+  "total_batches": 5,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kovan Mountjoy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-54-001K"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kovan Mountjoy is co-owner of ABM Development LLC, a family-run real estate development firm based in Huachuca City, Arizona [ABM Development LLC (Contact)](https://www.abmdevelopment.com/contact-us). The company has been building and selling homes locally since the mid-1990s, highlighting over 20 years of experience in the area [ABM Development LLC](https://www.abmdevelopment.com/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local builder; no civic office",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "property_value"
+        ],
+        "engage": "Engage via an industry peer or local business forum, emphasizing how the project can create local construction jobs and maintain area property values to align with his development interests."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michelle White",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-152V"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records list a Michelle White (age ~41) in Safford, AZ, which suggests she may not reside on her Cochise County property [Yellowbook](https://www.yellowbook.com/people/michelle-white/arizona/). No public statements or civic roles for her in Cochise County were found in news or official records (indicating an absence of local public profile).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known community roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out by mail or phone to this absentee owner, highlighting assurances (e.g., tax benefits or stable land values) to address any concerns she may have about the development."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Frank Cullen Brophy",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "106-47-008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "In 1935, Frank Cullen Brophy acquired the historic Babacomari Ranch in southern Arizona, becoming its third owner since Spanish colonial times [Babacomari Ranch](https://babacomariranch.com/history). He initiated range conservation practices to combat overgrazing, and the Brophy family has since placed over 3,300 acres of the ranch under conservation easements to protect its grasslands and wetlands for future generations [Babacomari Ranch](https://babacomariranch.com/history).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Prominent ranching family",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach through a respected local rancher or conservation contact, emphasizing the project\u2019s environmental stewardship and any legacy benefits (e.g., land conservation measures) to align with the Brophy family\u2019s preservation values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Ricktor and Tawneen Meldrum",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-54-003Y"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ricktor K. Meldrum is a licensed aircraft mechanic who previously lived in Logan, Utah, before acquiring land in Cochise County [AirportGuide](https://airportguide.com/airmen/A2209738/RICKTOR-K-MELDRUM). A search of local records found no mention of Ricktor or Tawneen Meldrum in Cochise County news or meetings, suggesting they keep a low public profile [Google Search](https://www.google.com/search?q=Ricktor+Meldrum+Cochise).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "New to area; no civic presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Make a personal, neighborly outreach (through a trusted community member if possible), and emphasize that the project will respect their rural lifestyle and peace and quiet on their property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "None of the four neighbors have a documented stance (0 support, 0 oppose, 4 unknown). One neighbor (the Brophy family) wields high influence in the area, while the others have low public profiles and influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_173234_5556.json",
+  "cached_at": "2026-01-28T17:32:34.556680"
+}

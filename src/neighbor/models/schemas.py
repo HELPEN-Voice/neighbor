@@ -1,5 +1,5 @@
 # src/ii_agent/tools/neighbor/models/schemas.py
-from pydantic import BaseModel, HttpUrl, field_validator
+from pydantic import BaseModel, HttpUrl, field_validator, model_validator
 from typing import List, Optional, Literal, Dict, Any
 
 
@@ -136,10 +136,44 @@ class NeighborProfile(BaseModel):
     risk_level: Optional[Literal["high", "medium", "low", "unknown"]] = None
     engagement_recommendation: Optional[str] = None
 
+    @field_validator("influence_level", mode="before")
+    @classmethod
+    def lowercase_influence_level(cls, v):
+        """Normalize influence_level to lowercase"""
+        if isinstance(v, str) and v:
+            return v.lower()
+        return v
+
+    @field_validator("risk_level", mode="before")
+    @classmethod
+    def lowercase_risk_level(cls, v):
+        """Normalize risk_level to lowercase"""
+        if isinstance(v, str) and v:
+            return v.lower()
+        return v
+
     # Legacy nested structures (optional, will be empty in new format)
     social: Optional[SocialFootprint] = None
     influence: Optional[InfluenceSignals] = None
     behavioral_indicators: Optional[List[str]] = None
+
+    @model_validator(mode="before")
+    @classmethod
+    def remap_influence_string_to_influence_level(cls, data):
+        """Remap 'influence' string values to 'influence_level'.
+
+        Gemini sometimes outputs 'influence': 'High' when it should be
+        'influence_level': 'high'. This validator remaps the key.
+        """
+        if isinstance(data, dict):
+            influence_val = data.get("influence")
+            if isinstance(influence_val, str):
+                # Move string value to influence_level (lowercase)
+                if not data.get("influence_level"):
+                    data["influence_level"] = influence_val.lower()
+                # Clear influence so it doesn't fail dict validation
+                data["influence"] = None
+        return data
     financial_stress_signals: Optional[List[str]] = None
     coalition_predictors: Optional[List[str]] = None
     disambiguation: Optional[Disambiguation] = None

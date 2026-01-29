@@ -1,0 +1,219 @@
+{
+  "timestamp": "2026-01-28T17:45:46.097920",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent landowners include a private development LLC, a small holding LLC, a family trust, and the local municipality. JRL Development LLC appears to be a recently formed land investment entity with multiple parcels, suggesting speculative or development interests. Another neighbor is an individual’s property held via an LLC (likely for liability or tax purposes), indicating a small-scale investor or landlord. A family trust owns one parcel, implying a long-term family holding potentially focused on agricultural or legacy purposes. Finally, the Town of Huachuca City itself owns nearby land, adding a municipal stakeholder that will weigh public interest and regulatory factors. None of these entities are known organized opposition groups, but their diverse interests—from profit-driven development to personal and community concerns—could influence their stance on the project.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "JRL Development LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "106-47-151",
+        "106-47-153"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "JRL Development LLC is an Arizona limited liability company formed in August 2023, with its statutory agent Lucila Rueda of LR Financial Solutions LLC in Douglas, AZ ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). The company acquired at least two parcels (APNs 106-47-151 and 106-47-153) in Cochise County, indicating a recent entry into local landownership (no prior records of ownership before 2023 were found) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). Public filings do not disclose the ultimate members or owners of JRL Development LLC, suggesting the beneficial owner is not readily identifiable in state records ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23570747#:~:text=Arizona%20Corporation%20Commission%20,mail%3A%20Attention%3A%20LUCILA%20RUEDA%20Mailing)). No evidence of JRL Development LLC’s direct involvement in prior community projects or public stances was found; its activities appear limited to holding land, implying a potentially speculative or development-driven motive (e.g., waiting for property values to rise or for project opportunities) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "New land investor with multiple parcels but no known local reputation; financial resources unknown, and no public political ties identified",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via their registered agent or manager to understand intentions; highlight how project could increase land value or offer partnership, since they appear investment-oriented"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "381 W Railroad Dr LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "106-54-001L"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "381 W Railroad Dr LLC is an Arizona LLC named after its property’s address, indicating it was created to hold a specific real estate asset ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)). The parcel at 381 W Railroad Drive includes a 900 sq ft single-family residence on about 4.21 acres, built in 2011 ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)). The property has been used as a rental or investment property in the past (advertised for lease), suggesting the LLC’s owner is a small-scale real estate investor rather than an owner-occupier ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=,new%20build)). There are no listed principals or public profiles for this LLC beyond the property record, and no evidence of political or community activism, implying a low-profile presence focused on managing the one parcel ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Holds a single residential parcel; likely an absentee investor or landlord with minimal local engagement or clout",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the individual behind the LLC (from county records or lease contacts) and address any concerns about property value or tenant impacts; emphasize how project buffers or benefits could maintain neighborhood quality"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cormell Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "106-47-027"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Cormell Family Trust is listed as the owner of parcel 106-47-027 in Cochise County (suggesting a family-held property), but little public information is available about its trustees or beneficiaries (no recorded corporate filings, as it is a private trust) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). The trust’s ownership implies a long-term family interest in the land, possibly for ranching, farming, or estate purposes, given that family trusts commonly hold such assets for successive generations ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). No recorded political donations, court cases, or news mentions were found tied to the Cormell name in Cochise County, indicating the family has maintained a low public profile ([genealogytrails.com](https://genealogytrails.com/ariz/cochise/deaths.html#:~:text=Death%20Records%20of%20Cochise%20County%2C,1904%20Dec%2019%20CORNICLE)). There is no evidence of the Cormell Family Trust taking any public stance on development projects; its priorities are presumed to be preserving family land value and legacy usage, absent explicit statements ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Long-standing landowning family (social ties likely, though not prominent in public records); may informally influence neighbors or local sentiment even if not politically active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through personal outreach to trustees or family representatives; emphasize respect for their land legacy and offer assurances (or benefits like conservation easements or revenue sharing) that align the project with their values"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Town of Huachuca City (City of Huachuca City)",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "106-47-065"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Town of Huachuca City is the municipal government holding title to parcel 106-47-065 (city-owned land) ([www.worldcitydb.com](https://www.worldcitydb.com/huachuca_city_98294692_city#:~:text=Huachuca%20City%2C%20Arizona%2C%20United%20States,Huachuca%20City%20FULL_NAME_ND)). As a local government entity, Huachuca City’s interests in nearby development center on community impact, zoning compliance, and public benefit rather than profit ([citizenportal.ai](https://citizenportal.ai/articles/7254792/Cochise-County/Arizona/Cochise-supervisors-approve-multiple-rezones-health-contracts-and-taxdeed-sales#:~:text=contracts%20and%20tax%E2%80%91deed%20sales%20citizenportal,created%20by%20AI%20summarizing%20key)). The town has an elected council and is responsible for land-use decisions in its jurisdiction; any project on adjacent land would likely be reviewed for alignment with the town’s general plan and ordinances ([citizenportal.ai](https://citizenportal.ai/articles/7254792/Cochise-County/Arizona/Cochise-supervisors-approve-multiple-rezones-health-contracts-and-taxdeed-sales#:~:text=contracts%20and%20tax%E2%80%91deed%20sales%20citizenportal,created%20by%20AI%20summarizing%20key)). Huachuca City has not taken a published official stance for or against this specific development at the time of research (municipalities typically evaluate projects through formal hearings), and any position would be determined through its planning and council processes rather than preemptive opposition or support ([citizenportal.ai](https://citizenportal.ai/articles/7254792/Cochise-County/Arizona/Cochise-supervisors-approve-multiple-rezones-health-contracts-and-taxdeed-sales#:~:text=contracts%20and%20tax%E2%80%91deed%20sales%20citizenportal,created%20by%20AI%20summarizing%20key)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Controls local zoning and permitting; its approval or requirements can make or break the project; represents the interests of the broader community officially",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Work closely with town officials through formal channels; address the city’s comprehensive plan goals and community benefits; maintain transparency to build trust with civic leaders and residents"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent landowners include a private development LLC, a small holding LLC, a family trust, and the local municipality. JRL Development LLC appears to be a recently formed land investment entity with multiple parcels, suggesting speculative or development interests. Another neighbor is an individual’s property held via an LLC (likely for liability or tax purposes), indicating a small-scale investor or landlord. A family trust owns one parcel, implying a long-term family holding potentially focused on agricultural or legacy purposes. Finally, the Town of Huachuca City itself owns nearby land, adding a municipal stakeholder that will weigh public interest and regulatory factors. None of these entities are known organized opposition groups, but their diverse interests—from profit-driven development to personal and community concerns—could influence their stance on the project.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"JRL Development LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"106-47-151\", \"106-47-153\"],\n      \"claims\": \"JRL Development LLC is an Arizona limited liability company formed in August 2023, with its statutory agent Lucila Rueda of LR Financial Solutions LLC in Douglas, AZ ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). The company acquired at least two parcels (APNs 106-47-151 and 106-47-153) in Cochise County, indicating a recent entry into local landownership (no prior records of ownership before 2023 were found) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). Public filings do not disclose the ultimate members or owners of JRL Development LLC, suggesting the beneficial owner is not readily identifiable in state records ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)) ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23570747#:~:text=Arizona%20Corporation%20Commission%20,mail%3A%20Attention%3A%20LUCILA%20RUEDA%20Mailing)). No evidence of JRL Development LLC’s direct involvement in prior community projects or public stances was found; its activities appear limited to holding land, implying a potentially speculative or development-driven motive (e.g., waiting for property values to rise or for project opportunities) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"New land investor with multiple parcels but no known local reputation; financial resources unknown, and no public political ties identified\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Potential development partnership\", \"Speculative resale profit\"],\n      \"approach_recommendations\": \"Engage via their registered agent or manager to understand intentions; highlight how project could increase land value or offer partnership, since they appear investment-oriented\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"381 W Railroad Dr LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"106-54-001L\"],\n      \"claims\": \"381 W Railroad Dr LLC is an Arizona LLC named after its property’s address, indicating it was created to hold a specific real estate asset ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)). The parcel at 381 W Railroad Drive includes a 900 sq ft single-family residence on about 4.21 acres, built in 2011 ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)). The property has been used as a rental or investment property in the past (advertised for lease), suggesting the LLC’s owner is a small-scale real estate investor rather than an owner-occupier ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=,new%20build)). There are no listed principals or public profiles for this LLC beyond the property record, and no evidence of political or community activism, implying a low-profile presence focused on managing the one parcel ([www.zillow.com](https://www.zillow.com/homedetails/381-W-Railroad-Dr-Huachuca-City-AZ-85616/109585217_zpid/#:~:text=Skip%20main%20navigation%20Back%20to,%C2%AE%7D%20%24192%2Fsqft%20%241%2C062)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Holds a single residential parcel; likely an absentee investor or landlord with minimal local engagement or clout\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Property value preservation\", \"Rental income stability\", \"Future resale potential\"],\n      \"approach_recommendations\": \"Identify the individual behind the LLC (from county records or lease contacts) and address any concerns about property value or tenant impacts; emphasize how project buffers or benefits could maintain neighborhood quality\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Cormell Family Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"106-47-027\"],\n      \"claims\": \"The Cormell Family Trust is listed as the owner of parcel 106-47-027 in Cochise County (suggesting a family-held property), but little public information is available about its trustees or beneficiaries (no recorded corporate filings, as it is a private trust) ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). The trust’s ownership implies a long-term family interest in the land, possibly for ranching, farming, or estate purposes, given that family trusts commonly hold such assets for successive generations ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)). No recorded political donations, court cases, or news mentions were found tied to the Cormell name in Cochise County, indicating the family has maintained a low public profile ([genealogytrails.com](https://genealogytrails.com/ariz/cochise/deaths.html#:~:text=Death%20Records%20of%20Cochise%20County%2C,1904%20Dec%2019%20CORNICLE)). There is no evidence of the Cormell Family Trust taking any public stance on development projects; its priorities are presumed to be preserving family land value and legacy usage, absent explicit statements ([ecorp.azcc.gov](https://ecorp.azcc.gov/PublicBusinessSearch/PublicBusinessInfo?entityNumber=23570747#:~:text=,mail%3A%20Attention%3A%20LUCILA%20RUEDA)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Long-standing landowning family (social ties likely, though not prominent in public records); may informally influence neighbors or local sentiment even if not politically active\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preservation of land heritage\", \"Future generations’ land use options\", \"Fair compensation for any impacts\"],\n      \"approach_recommendations\": \"Approach through personal outreach to trustees or family representatives; emphasize respect for their land legacy and offer assurances (or benefits like conservation easements or revenue sharing) that align the project with their values\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Town of Huachuca City (City of Huachuca City)\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipal\",\n      \"pins\": [\"106-47-065\"],\n      \"claims\": \"The Town of Huachuca City is the municipal government holding title to parcel 106-47-065 (city-owned land) ([www.worldcitydb.com](https://www.worldcitydb.com/huachuca_city_98294692_city#:~:text=Huachuca%20City%2C%20Arizona%2C%20United%20States,Huachuca%20City%20FULL_NAME_ND)). As a local government entity, Huachuca City’s interests in nearby development center on community impact, zoning compliance, and public benefit rather than profit ([citizenportal.ai](https://citizenportal.ai/articles/7254792/Cochise-County/Arizona/Cochise-supervisors-approve-multiple-rezones-health-contracts-and-taxdeed-sales#:~:text=contracts%20and%20tax%E2%80%91deed%20sales%20citizenportal,created%20by%20AI%20summarizing%20key)). The town has an elected council and is responsible for land-use decisions in its jurisdiction; any project on adjacent land would likely be reviewed for alignment with the town’s general plan and ordinances ([citizenportal.ai](https://citizenportal.ai/articles/7254792/Cochise-County/Arizona/Cochise-supervisors-approve-multiple-rezones-health-contracts-and-taxdeed-sales#:~:text=contracts%20and%20tax%E2%80%91deed%20sales%20citizenportal,created%20by%20AI%20summarizing%20key)). Huachuca City has not taken a published official stance for or against this specific development at the time of research (municipalities typically evaluate projects through formal hearings), and any position would be determined through its planning and council processes rather than preemptive opposition or support ([citizenportal.ai](https://citizenportal.ai/articles/7254792/Cochise-County/Arizona/Cochise-supervisors-approve-multiple-rezones-health-contracts-and-taxdeed-sales#:~:text=contracts%20and%20tax%E2%80%91deed%20sales%20citizenportal,created%20by%20AI%20summarizing%20key)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Controls local zoning and permitting; its approval or requirements can make or break the project; represents the interests of the broader community officially\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Economic development (tax base growth)\", \"Infrastructure and services impact\", \"Public opinion and political accountability\"],\n      \"approach_recommendations\": \"Work closely with town officials through formal channels; address the city’s comprehensive plan goals and community benefits; maintain transparency to build trust with civic leaders and residents\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-01-28T18:16:28.270989",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_172307_0536.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "John Barnes & Shelley Barnes",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-48-003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records indicate that Assessor’s Parcel Number 106-48-003 is located in Yavapai County, Arizona (specifically Prescott), not Cochise County ([Realtor.com](https://www.realtor.com/realestateandhomes-detail/1684-St-Andrews-Way_Prescott_AZ_86301_M13449-05598)). No property records or public engagement history could be verified for a \"John and Shelley Barnes\" in Cochise County. A John Barnes previously served as Chief Investigator for the Cochise County Attorney's Office in the 1980s ([NCJRS](https://www.ojp.gov/pdffiles1/Digitization/85737NCJRS.pdf)), but no current evidence links this individual to a Shelley Barnes or recent land ownership in the county.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No verified presence in county",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Verify the correct identity and location of this stakeholder, as the provided parcel number corresponds to a property in Yavapai County, not Cochise."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records indicate that Assessor’s Parcel Number 106-48-003 is located in Yavapai County, Arizona (specifically Prescott), not Cochise County",
+          "url": "https://www.realtor.com/realestateandhomes-detail/1684-St-Andrews-Way_Prescott_AZ_86301_M13449-05598",
+          "title": "1684 St Andrews Way, Prescott, AZ 86301",
+          "date": "2025-01-28"
+        },
+        {
+          "claim": "A John Barnes previously served as Chief Investigator for the Cochise County Attorney's Office in the 1980s",
+          "url": "https://www.ojp.gov/pdffiles1/Digitization/85737NCJRS.pdf",
+          "title": "Directory of Law Enforcement and Criminal Justice Associations and Research Centers",
+          "date": "1986-01-01"
+        }
+      ],
+      "verification_notes": "CRITICAL DATA MISMATCH: The provided parcel number (106-48-003) exists in Yavapai County (Prescott), not Cochise County. No record of 'John and Shelley Barnes' found in Cochise County property or voter records. A 'John Barnes' appears in older county employment records (Investigator), but no spouse named Shelley was found. Profile likely contains incorrect geographic data."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 661171,
+    "thinking_count": 38
+  }
+}

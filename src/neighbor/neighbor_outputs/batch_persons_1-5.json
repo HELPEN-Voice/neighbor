@@ -1,0 +1,176 @@
+{
+  "batch_idx": 0,
+  "total_batches": 5,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven J. Brennan & Francesca Brennan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-15-057A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven J. Brennan is a licensed real estate broker based in Tucson, Arizona ([services.azre.gov](https://services.azre.gov/PublicDatabase/DetailEntity.aspx?Id=35135#:~:text=Business%20Address%201501%20N%20HOUGHTON,HOUGHTON%20DR%20TUCSON%20AZ%2085749)) ([services.azre.gov](https://services.azre.gov/PublicDatabase/DetailEntity.aspx?Id=35135#:~:text=BR565567000%20Name%20BRENNAN%2C%20STEVEN%20J,License%20Type%20Real%20Estate%20Broker)). The Brennans jointly own land in Cochise County but are non-resident landowners (their mailing address is in Pima County) ([services.azre.gov](https://services.azre.gov/PublicDatabase/DetailEntity.aspx?Id=35135#:~:text=Business%20Address%201501%20N%20HOUGHTON,HOUGHTON%20DR%20TUCSON%20AZ%2085749)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Out-of-area; no local office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via formal communication and provide factual project information, as they live outside the community and have no known position."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lodestar Investments L.C.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-15-012T"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lodestar Investments L.C. is a corporate landowner (LLC) with its official address on Highway 83 in Sonoita, Arizona ([www.city-data.com](https://www.city-data.com/business-entities/Sonoita-AZ.html#:~:text=)). (This organization\u2019s profile is handled separately; see ORG table for details.)",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Non-resident corporate owner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Not applicable \u2013 corporate entity (engage via business channels as needed)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Patsy J. Moriarty",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-058A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Patsy J. Moriarty is listed as an individual landowner in Cochise County with no evident public profile ([www.cochise.az.gov](https://www.cochise.az.gov/AgendaCenter/PreviousVersions/_12052025-317#:~:text=Tools)). No references to Moriarty were found in local meeting records or news regarding development issues ([www.cochise.az.gov](https://www.cochise.az.gov/AgendaCenter/PreviousVersions/_12052025-317#:~:text=Tools)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out through a personal, respectful conversation to understand any concerns, as she has not voiced any public stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Adam Chabal",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-47-058B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Adam Chabal co-owns property adjacent to Moriarty\u2019s, but no public information beyond ownership records is available ([www.cochise.az.gov](https://www.cochise.az.gov/AgendaCenter/PreviousVersions/_12052025-317#:~:text=Tools)). He has not been identified in local forums or media, indicating no known community leadership or stated position on development ([www.cochise.az.gov](https://www.cochise.az.gov/AgendaCenter/PreviousVersions/_12052025-317#:~:text=Tools)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage quietly one-on-one to introduce the project and listen to his views, since he has maintained a low profile publicly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "None of the four neighboring landowners have an explicitly documented stance on development, leaving all stances classified as unknown. All four also appear to have low community influence, with no high-profile positions or public leadership roles identified among them.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_171604_2100.json",
+  "cached_at": "2026-01-28T17:16:04.211176"
+}

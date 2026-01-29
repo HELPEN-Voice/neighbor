@@ -1,0 +1,164 @@
+{
+  "batch_idx": 2,
+  "total_batches": 5,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Robert N. Jones et al.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10647031"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert N. Jones (with unspecified co-owners, noted as \"et al.\") appears as a landowner in Cochise County\u2019s parcel records [Cochise County Treasurer \u2013 Parcel Inquiry](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelEntry) ([parcelinquirytreasurer.cochise.az.gov](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelEntry#:~:text=application,the%20left%20and%20click%20Submit)). No evidence was found of Jones participating in local civic affairs or making public comments on development issues in Cochise County [Cochise County Records Archive](https://cochise.az.gov/Archive.aspx) ([cochise.az.gov](https://cochise.az.gov/Archive.aspx#:~:text=No%20,jones)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private owner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use direct, personal outreach (e.g., a friendly in-person visit or letter), as he has no known affiliations or public stance to leverage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ricktor K. Meldrum & Tawneen M. Meldrum",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10654001Z"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ricktor K. Meldrum and Tawneen M. Meldrum are listed as co-owners of a Cochise County parcel, but their mailing address is outside the area (Logan, Utah, per FAA records) [AirportGuide](https://airportguide.com/airmen/A2209738/RICKTOR-K-MELDRUM) ([airportguide.com](https://airportguide.com/airmen/A2209738/RICKTOR-K-MELDRUM#:~:text=City%3A%C2%A0%20%20,6239%20Country%3A%C2%A0%20%20%7C%20USA)). There are no public records or local news reports indicating the Meldrums\u2019 involvement in Cochise County community matters or any stated position on development (their presence appears to be purely as absentee landowners).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee owners; no local involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out via phone or email with clear project information, as they reside out-of-state. Emphasize straightforward facts and any financial or land-use details that might concern an absentee owner."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "State of Arizona",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10647028"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "This parcel is owned by the State of Arizona, likely as part of the State Trust Land portfolio managed by the Arizona State Land Department [Arizona State Land Dept.](https://land.az.gov/our-agency-mission/history-trust-land) ([land.az.gov](https://land.az.gov/our-agency-mission/history-trust-land#:~:text=After%20all%20congressional%20actions%20were,Land%20is%20a%20dedicated%20revenue)). As public land, it is not associated with a private resident and has no individual neighbor stance.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Public (state) land",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Not applicable for private outreach\u2014coordinate with the appropriate state agency through formal channels if required."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Military Brothers Moving LLC",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10648154A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Military Brothers Moving LLC is a moving services company based in Cochise County, with its office in Huachuca City, Arizona [FMCSA Safety Records](https://safer.fmcsa.dot.gov/query.asp?query_type=queryCarrierSnapshot&query_param=USDOT&query_string=2918139) ([safer.fmcsa.dot.gov](https://safer.fmcsa.dot.gov/query.asp?original_query_param=NAME&original_query_string=MILITARY20BROTHERS20MOVING20LLC&query_param=USDOT&query_string=2918139&query_type=queryCarrierSnapshot&searchtype=ANY#:~:text=Legal%20Name%3A%20%20MILITARY%20BROTHERS,HUACHUCA%20CITY%2C%20AZ%20%C2%A0%2085616)). The property is a commercial enterprise, and no public statements by its owners regarding local development have been documented.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small local business",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Schedule a meeting with the business owners to discuss the project and ensure it won\u2019t disrupt their operations, addressing any concerns about traffic or access."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All four neighboring landowners have no publicly documented stance on development, with no clear supporters or opponents identified. Two neighbors are private individuals with limited community profiles, while the other two are an LLC and state-owned land, indicating no high-influence private neighbors in this group.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260128_171043_9677.json",
+  "cached_at": "2026-01-28T17:10:43.968860"
+}
