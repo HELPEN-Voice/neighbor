@@ -275,9 +275,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
                 f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏳ Waiting for webhook callback for {len(names)} {entity_type}s..."
             )
 
-            # Wait for webhook (40 minutes timeout for Deep Research)
+            # Wait for webhook (60 minutes timeout for Deep Research)
             webhook_result = await webhook_manager.wait_for_webhook(
-                response_id, timeout=2400
+                response_id, timeout=3600
             )
 
             if webhook_result.get("status") == "completed":
@@ -369,7 +369,7 @@ Follow the OUTPUT format and example provided in your instructions above."""
                     else:
                         status = final_result.get("status", "unknown") if final_result else "no response"
                         raise Exception(
-                            f"Response still {status} after 40min timeout - OpenAI deep research taking too long for {entity_type} batch"
+                            f"Response still {status} after 60min timeout - OpenAI deep research taking too long for {entity_type} batch"
                         )
                 except Exception as e:
                     print(
