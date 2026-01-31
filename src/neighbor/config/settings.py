@@ -72,6 +72,8 @@ class NeighborSettings(BaseSettings):
     VERIFICATION_CONCURRENCY: int = 4  # Max parallel Gemini requests
     GEMINI_POLL_INTERVAL: int = 60  # Seconds between status checks
     GEMINI_MAX_WAIT_TIME: int = 3600  # Max wait time (60 min) for Gemini response
+    VERIFICATION_MAX_RETRIES: int = 2  # Max retries on verification failure
+    VERIFICATION_RETRY_DELAY: int = 30  # Seconds to wait between retries
 
     class Config:
         env_file = _ENV_FILE

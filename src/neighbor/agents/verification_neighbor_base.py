@@ -9,6 +9,7 @@ import os
 import re
 import json
 import time
+import subprocess
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Any, List, Optional
@@ -179,7 +180,6 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
                         verified_profiles = self._parse_json_output(verified_content, profiles)
 
                         # Success - delete the DEBUG file since it's been parsed
-                        import subprocess
                         subprocess.run(["trash", str(debug_file)], check=True)
                         print(f"   🗑️ Trashed parsed DEBUG file: {debug_file.name}")
 
@@ -210,166 +210,235 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
         full_input = self._build_verification_input(profiles, context, entity_type)
         print(f"   📄 Input size: {len(full_input)} characters")
 
-        try:
-            # Start Deep Research task
-            print(f"   🚀 Sending to Gemini Deep Research API...")
+        # Retry loop for verification
+        max_retries = settings.VERIFICATION_MAX_RETRIES
+        retry_delay = settings.VERIFICATION_RETRY_DELAY
+        last_error = None
+        debug_json_path = None  # Track for cleanup on retry
 
-            interaction = self.client.interactions.create(
-                input=full_input,
-                agent=self.agent,
-                background=True,
-                store=True,  # Required when using background=True
-                agent_config={
-                    "type": "deep-research",
-                    "thinking_summaries": "auto",
-                },
-            )
+        for attempt in range(max_retries + 1):
+            is_final_attempt = (attempt == max_retries)
 
-            interaction_id = interaction.id
-            print(f"   📡 Interaction started with ID: {interaction_id}")
-            print(f"   ⏳ Polling for completion (max {self.max_wait_time // 60} minutes)...")
+            if attempt > 0:
+                print(f"   🔄 Retry {attempt}/{max_retries} after {retry_delay}s (reason: {last_error})")
+                time.sleep(retry_delay)
 
-            # Poll for completion
-            start_time = time.time()
-            last_status = None
-
-            while True:
-                elapsed = time.time() - start_time
-                if elapsed > self.max_wait_time:
-                    return {
-                        "status": "failed",
-                        "error": f"Timeout after {self.max_wait_time // 60} minutes",
-                        "neighbors": profiles,  # Return original on timeout
-                    }
-
-                interaction = self.client.interactions.get(interaction_id)
-                status = interaction.status
-
-                if status != last_status:
-                    print(f"   📊 Status: {status} ({int(elapsed)}s elapsed)")
-                    last_status = status
-
-                if status == "completed":
-                    break
-                elif status in ["failed", "cancelled"]:
-                    error_msg = getattr(interaction, "error", None) or f"Status: {status}"
-                    return {
-                        "status": "failed",
-                        "error": str(error_msg),
-                        "neighbors": profiles,  # Return original on failure
-                    }
-
-                time.sleep(self.poll_interval)
-
-            # Save full interaction response as debug JSON before extracting
-            debug_json_path = Path(__file__).parent.parent / "deep_research_outputs" / f"interaction_DEBUG_{entity_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-            debug_json_path.parent.mkdir(parents=True, exist_ok=True)
             try:
-                # Serialize full interaction response (use model_dump if available)
-                if hasattr(interaction, 'model_dump'):
-                    debug_data = interaction.model_dump()
-                else:
-                    debug_data = {attr: getattr(interaction, attr) for attr in dir(interaction)
-                                  if not attr.startswith('_') and not callable(getattr(interaction, attr))}
+                # Clean up any DEBUG file from previous failed attempt
+                if debug_json_path and debug_json_path.exists():
+                    subprocess.run(["trash", str(debug_json_path)], check=False)
+                    print(f"   🗑️ Cleaned up DEBUG file from failed attempt: {debug_json_path.name}")
+                    debug_json_path = None
 
-                # Add our tracking fields
-                debug_data["source_file"] = source_file
-                debug_data["entity_type"] = entity_type
+                # Start Deep Research task
+                print(f"   🚀 Sending to Gemini Deep Research API...")
 
-                with open(debug_json_path, "w", encoding="utf-8") as f:
-                    json.dump(debug_data, f, indent=2, ensure_ascii=False, default=str)
-                print(f"   📄 Saved interaction debug to: {debug_json_path.name}")
+                interaction = self.client.interactions.create(
+                    input=full_input,
+                    agent=self.agent,
+                    background=True,
+                    store=True,  # Required when using background=True
+                    agent_config={
+                        "type": "deep-research",
+                        "thinking_summaries": "auto",
+                    },
+                )
+
+                interaction_id = interaction.id
+                print(f"   📡 Interaction started with ID: {interaction_id}")
+                print(f"   ⏳ Polling for completion (max {self.max_wait_time // 60} minutes)...")
+
+                # Poll for completion
+                start_time = time.time()
+                last_status = None
+
+                while True:
+                    elapsed = time.time() - start_time
+                    if elapsed > self.max_wait_time:
+                        last_error = f"Timeout after {self.max_wait_time // 60} minutes"
+                        if is_final_attempt:
+                            return {
+                                "status": "failed",
+                                "error": last_error,
+                                "neighbors": profiles,
+                            }
+                        break  # Exit polling loop to retry
+
+                    interaction = self.client.interactions.get(interaction_id)
+                    status = interaction.status
+
+                    if status != last_status:
+                        print(f"   📊 Status: {status} ({int(elapsed)}s elapsed)")
+                        last_status = status
+
+                    if status == "completed":
+                        break
+                    elif status in ["failed", "cancelled"]:
+                        error_msg = getattr(interaction, "error", None) or f"Status: {status}"
+                        last_error = str(error_msg)
+                        if is_final_attempt:
+                            return {
+                                "status": "failed",
+                                "error": last_error,
+                                "neighbors": profiles,
+                            }
+                        break  # Exit polling loop to retry
+
+                    time.sleep(self.poll_interval)
+
+                # If we broke out of polling due to error, continue to next retry attempt
+                if last_error and status != "completed":
+                    continue
+
+                # Save full interaction response as debug JSON before extracting
+                debug_json_path = Path(__file__).parent.parent / "deep_research_outputs" / f"interaction_DEBUG_{entity_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+                debug_json_path.parent.mkdir(parents=True, exist_ok=True)
+                try:
+                    # Serialize full interaction response (use model_dump if available)
+                    if hasattr(interaction, 'model_dump'):
+                        debug_data = interaction.model_dump()
+                    else:
+                        debug_data = {attr: getattr(interaction, attr) for attr in dir(interaction)
+                                      if not attr.startswith('_') and not callable(getattr(interaction, attr))}
+
+                    # Add our tracking fields
+                    debug_data["source_file"] = source_file
+                    debug_data["entity_type"] = entity_type
+
+                    with open(debug_json_path, "w", encoding="utf-8") as f:
+                        json.dump(debug_data, f, indent=2, ensure_ascii=False, default=str)
+                    print(f"   📄 Saved interaction debug to: {debug_json_path.name}")
+                except Exception as e:
+                    print(f"   ⚠️ Failed to save interaction debug: {e}")
+                    last_error = f"Failed to save interaction debug: {e}"
+                    if is_final_attempt:
+                        return {
+                            "status": "failed",
+                            "error": last_error,
+                            "neighbors": profiles,
+                        }
+                    continue
+
+                # Extract output ONLY from the saved debug JSON file
+                with open(debug_json_path, "r", encoding="utf-8") as f:
+                    debug_data = json.load(f)
+
+                if not debug_data.get("outputs"):
+                    last_error = "No outputs in completed interaction"
+                    if is_final_attempt:
+                        return {
+                            "status": "failed",
+                            "error": last_error,
+                            "neighbors": profiles,
+                        }
+                    continue
+
+                # Separate thinking summaries from text output (from debug JSON)
+                thinking_summaries = []
+                verified_content = None
+
+                for output in debug_data.get("outputs", []):
+                    output_type = output.get("type")
+                    if output_type == 'thought' and output.get("summary"):
+                        summary = output["summary"]
+                        if isinstance(summary, list):
+                            for item in summary:
+                                # Handle both string and text content object formats
+                                if isinstance(item, dict) and item.get("text"):
+                                    thinking_summaries.append(item["text"])
+                                elif isinstance(item, str):
+                                    thinking_summaries.append(item)
+                        elif isinstance(summary, str):
+                            thinking_summaries.append(summary)
+                    elif output_type == 'text' and output.get("text"):
+                        verified_content = output["text"]
+
+                # Fallback to last output if no text type found
+                if not verified_content and debug_data["outputs"]:
+                    verified_content = debug_data["outputs"][-1].get("text")
+
+                if not verified_content:
+                    last_error = "Empty output from Gemini Deep Research"
+                    if is_final_attempt:
+                        return {
+                            "status": "failed",
+                            "error": last_error,
+                            "neighbors": profiles,
+                        }
+                    continue
+
+                # Log what we're about to parse (should match debug JSON exactly)
+                print(f"   📊 Parsing content from debug JSON: {len(verified_content)} chars")
+                print(f"   📄 Source: {debug_json_path.name}")
+
+                # Parse verified profiles from output
+                try:
+                    verified_profiles = self._parse_json_output(verified_content, profiles)
+                except ValueError as e:
+                    # JSON parse failure - only save raw .txt on final failure
+                    last_error = f"Parse error: {e}"
+                    if is_final_attempt:
+                        self._save_raw_debug(verified_content, str(e))
+                        return {
+                            "status": "failed",
+                            "error": last_error,
+                            "neighbors": profiles,
+                        }
+                    # Non-final attempt: just retry (no .txt created, nothing to clean up)
+                    continue
+
+                # Success - trash the DEBUG file (no longer needed, vr_* will be created)
+                if debug_json_path and debug_json_path.exists():
+                    subprocess.run(["trash", str(debug_json_path)], check=False)
+                    print(f"   🗑️ Trashed DEBUG file after successful parse: {debug_json_path.name}")
+
+                # Get usage info if available
+                total_tokens = 0
+                if hasattr(interaction, "usage") and interaction.usage:
+                    total_tokens = getattr(interaction.usage, "total_tokens", 0)
+
+                print(f"\n{'=' * 70}")
+                print("✅ NEIGHBOR VERIFICATION COMPLETE")
+                print(f"{'=' * 70}")
+                print(f"   Profiles verified: {len(verified_profiles)}")
+                print(f"   Thinking summaries: {len(thinking_summaries)}")
+                if total_tokens:
+                    print(f"   Total tokens: {total_tokens}")
+                if attempt > 0:
+                    print(f"   ✓ Succeeded after {attempt} retry(ies)")
+
+                return {
+                    "status": "completed",
+                    "neighbors": verified_profiles,
+                    "metadata": {
+                        "thinking_summaries": thinking_summaries,
+                        "total_tokens": total_tokens,
+                        "entity_type": entity_type,
+                        "profiles_input": len(profiles),
+                        "profiles_output": len(verified_profiles),
+                        "retry_count": attempt,
+                    },
+                }
+
             except Exception as e:
-                print(f"   ⚠️ Failed to save interaction debug: {e}")
-                return {
-                    "status": "failed",
-                    "error": f"Failed to save interaction debug: {e}",
-                    "neighbors": profiles,
-                }
+                last_error = str(e)
+                print(f"   ❌ Attempt {attempt + 1} failed: {e}")
+                if is_final_attempt:
+                    import traceback
+                    traceback.print_exc()
+                    return {
+                        "status": "failed",
+                        "error": last_error,
+                        "neighbors": profiles,
+                    }
+                continue
 
-            # Extract output ONLY from the saved debug JSON file
-            with open(debug_json_path, "r", encoding="utf-8") as f:
-                debug_data = json.load(f)
-
-            if not debug_data.get("outputs"):
-                return {
-                    "status": "failed",
-                    "error": "No outputs in completed interaction",
-                    "neighbors": profiles,
-                }
-
-            # Separate thinking summaries from text output (from debug JSON)
-            thinking_summaries = []
-            verified_content = None
-
-            for output in debug_data.get("outputs", []):
-                output_type = output.get("type")
-                if output_type == 'thought' and output.get("summary"):
-                    summary = output["summary"]
-                    if isinstance(summary, list):
-                        for item in summary:
-                            # Handle both string and text content object formats
-                            if isinstance(item, dict) and item.get("text"):
-                                thinking_summaries.append(item["text"])
-                            elif isinstance(item, str):
-                                thinking_summaries.append(item)
-                    elif isinstance(summary, str):
-                        thinking_summaries.append(summary)
-                elif output_type == 'text' and output.get("text"):
-                    verified_content = output["text"]
-
-            # Fallback to last output if no text type found
-            if not verified_content and debug_data["outputs"]:
-                verified_content = debug_data["outputs"][-1].get("text")
-
-            if not verified_content:
-                return {
-                    "status": "failed",
-                    "error": "Empty output from Gemini Deep Research",
-                    "neighbors": profiles,
-                }
-
-            # Log what we're about to parse (should match debug JSON exactly)
-            print(f"   📊 Parsing content from debug JSON: {len(verified_content)} chars")
-            print(f"   📄 Source: {debug_json_path.name}")
-
-            # Parse verified profiles from output
-            verified_profiles = self._parse_json_output(verified_content, profiles)
-
-            # Get usage info if available
-            total_tokens = 0
-            if hasattr(interaction, "usage") and interaction.usage:
-                total_tokens = getattr(interaction.usage, "total_tokens", 0)
-
-            print(f"\n{'=' * 70}")
-            print("✅ NEIGHBOR VERIFICATION COMPLETE")
-            print(f"{'=' * 70}")
-            print(f"   Profiles verified: {len(verified_profiles)}")
-            print(f"   Thinking summaries: {len(thinking_summaries)}")
-            if total_tokens:
-                print(f"   Total tokens: {total_tokens}")
-
-            return {
-                "status": "completed",
-                "neighbors": verified_profiles,
-                "metadata": {
-                    "thinking_summaries": thinking_summaries,
-                    "total_tokens": total_tokens,
-                    "entity_type": entity_type,
-                    "profiles_input": len(profiles),
-                    "profiles_output": len(verified_profiles),
-                },
-            }
-
-        except Exception as e:
-            print(f"❌ Verification failed: {e}")
-            import traceback
-            traceback.print_exc()
-            return {
-                "status": "failed",
-                "error": str(e),
-                "neighbors": profiles,  # Return original on exception
-            }
+        # Should not reach here, but safety return
+        return {
+            "status": "failed",
+            "error": f"Failed after {max_retries} retries: {last_error}",
+            "neighbors": profiles,
+        }
 
     def _parse_json_output(
         self,
@@ -447,19 +516,35 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
         except json.JSONDecodeError:
             pass
 
-        # FAIL LOUDLY - save raw output for debugging and raise error
-        debug_path = Path(__file__).parent.parent / "deep_research_outputs" / f"gemini_raw_output_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        # FAIL - raise error (caller decides whether to save debug file)
+        print(f"   ❌ Could not parse JSON from Gemini output!")
+        print(f"   Content length: {len(content)} chars")
+        print(f"   First 200 chars: {content[:200]}...")
+
+        raise ValueError(f"Failed to parse JSON from Gemini output ({len(content)} chars)")
+
+    def _save_raw_debug(self, content: str, error: str) -> Path:
+        """Save raw output for debugging parse failures.
+
+        Args:
+            content: The raw content that failed to parse
+            error: The error message
+
+        Returns:
+            Path to the saved debug file
+        """
+        debug_path = (
+            Path(__file__).parent.parent
+            / "deep_research_outputs"
+            / f"gemini_raw_output_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        )
         debug_path.parent.mkdir(parents=True, exist_ok=True)
         with open(debug_path, "w", encoding="utf-8") as f:
             f.write(f"=== GEMINI RAW OUTPUT ===\n")
+            f.write(f"Parse error: {error}\n")
             f.write(f"Length: {len(content)} chars\n")
             f.write(f"First 500 chars:\n{content[:500]}\n\n")
             f.write(f"Last 500 chars:\n{content[-500:]}\n\n")
             f.write(f"=== FULL CONTENT ===\n{content}")
-
-        print(f"   ❌ Could not parse JSON from Gemini output!")
         print(f"   📄 Raw output saved to: {debug_path.name}")
-        print(f"   Content length: {len(content)} chars")
-        print(f"   First 200 chars: {content[:200]}...")
-
-        raise ValueError(f"Failed to parse JSON from Gemini output. Raw output saved to {debug_path}")
+        return debug_path
