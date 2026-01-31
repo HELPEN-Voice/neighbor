@@ -237,107 +237,61 @@ Follow the OUTPUT format and example provided in your instructions above."""
         print("-" * 60)
 
         # Start the Deep Research task in background mode with webhooks
+        # Wrap in try/except for retry on API errors, timeouts, etc.
         try:
-            resp = await self.client.responses.create(
-                model=self.model,
-                input=[
-                    {
-                        "role": "developer",
-                        "content": [{"type": "input_text", "text": system_prompt}],
-                    },
-                    {
-                        "role": "user",
-                        "content": [{"type": "input_text", "text": user_query}],
-                    },
-                ],
-                reasoning={"summary": "detailed"},
-                tools=[{"type": "web_search_preview"}],
-                background=True,  # Enable async/background mode for webhooks
-            )
-        except Exception as e:
-            print(
-                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ❌ OpenAI API call failed: {e}"
-            )
-            raise
-
-        # Handle background mode with webhooks
-        if getattr(resp, "status", None) == "queued":
-            response_id = resp.id
-            print(
-                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📡 Neighbor research queued with response ID: {response_id}"
-            )
-
-            # Register with webhook manager and wait
-            await webhook_manager.register_callback(
-                response_id, f"neighbor_{entity_type}"
-            )
-            print(
-                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏳ Waiting for webhook callback for {len(names)} {entity_type}s..."
-            )
-
-            # Wait for webhook (50 minutes timeout for Deep Research)
-            webhook_result = await webhook_manager.wait_for_webhook(
-                response_id, timeout=3000
-            )
-
-            if webhook_result.get("status") == "completed":
-                print(
-                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Webhook completed for {len(names)} {entity_type}s (ID: {response_id[:20]}...)"
-                )
-                # Retrieve the full response
-                final_result = await webhook_manager.retrieve_response(response_id)
-
-                # Extract the content from the webhook response (check it's not still pending)
-                if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
-                    # Create a mock response object with the webhook data
-                    resp = type(
-                        "Response",
-                        (),
+            try:
+                resp = await self.client.responses.create(
+                    model=self.model,
+                    input=[
                         {
-                            "output": [
-                                type(
-                                    "Output",
-                                    (),
-                                    {
-                                        "content": [
-                                            type(
-                                                "Content",
-                                                (),
-                                                {
-                                                    "text": final_result["raw_output"],
-                                                    "annotations": final_result.get(
-                                                        "citations", []
-                                                    ),
-                                                },
-                                            )()
-                                        ]
-                                    },
-                                )()
-                            ]
+                            "role": "developer",
+                            "content": [{"type": "input_text", "text": system_prompt}],
                         },
-                    )()
-                else:
-                    status = final_result.get("status", "unknown") if final_result else "no response"
-                    raise Exception(
-                        f"Webhook completed but response still {status}: {final_result}"
-                    )
-            elif webhook_result.get("status") == "timeout":
-                # Webhook timed out - try direct retrieval as fallback
+                        {
+                            "role": "user",
+                            "content": [{"type": "input_text", "text": user_query}],
+                        },
+                    ],
+                    reasoning={"summary": "detailed"},
+                    tools=[{"type": "web_search_preview"}],
+                    background=True,  # Enable async/background mode for webhooks
+                )
+            except Exception as e:
                 print(
-                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏱️ Webhook timeout for {len(names)} {entity_type}s - attempting direct retrieval"
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ❌ OpenAI API call failed: {e}"
+                )
+                raise
+
+            # Handle background mode with webhooks
+            if getattr(resp, "status", None) == "queued":
+                response_id = resp.id
+                print(
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📡 Neighbor research queued with response ID: {response_id}"
                 )
 
-                # Try to retrieve the response directly since OpenAI has a webhook bug
-                try:
+                # Register with webhook manager and wait
+                await webhook_manager.register_callback(
+                    response_id, f"neighbor_{entity_type}"
+                )
+                print(
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏳ Waiting for webhook callback for {len(names)} {entity_type}s..."
+                )
+
+                # Wait for webhook (50 minutes timeout for Deep Research)
+                webhook_result = await webhook_manager.wait_for_webhook(
+                    response_id, timeout=3000
+                )
+
+                if webhook_result.get("status") == "completed":
+                    print(
+                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Webhook completed for {len(names)} {entity_type}s (ID: {response_id[:20]}...)"
+                    )
+                    # Retrieve the full response
                     final_result = await webhook_manager.retrieve_response(response_id)
 
-                    # Check if we got a valid, completed response (not still pending)
+                    # Extract the content from the webhook response (check it's not still pending)
                     if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
-                        print(
-                            f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Successfully retrieved response via polling for {len(names)} {entity_type}s (ID: {response_id})"
-                        )
-
-                        # Create a mock response object with the retrieved data
+                        # Create a mock response object with the webhook data
                         resp = type(
                             "Response",
                             (),
@@ -352,37 +306,120 @@ Follow the OUTPUT format and example provided in your instructions above."""
                                                     "Content",
                                                     (),
                                                     {
-                                                        "text": final_result[
-                                                            "raw_output"
-                                                        ],
+                                                        "text": final_result["raw_output"],
                                                         "annotations": final_result.get(
                                                             "citations", []
                                                         ),
                                                     },
-                                                )
+                                                )()
                                             ]
                                         },
-                                    )
+                                    )()
                                 ]
                             },
-                        )
+                        )()
                     else:
                         status = final_result.get("status", "unknown") if final_result else "no response"
                         raise Exception(
-                            f"Response still {status} after 50min timeout - OpenAI deep research taking too long for {entity_type} batch"
+                            f"Webhook completed but response still {status}: {final_result}"
                         )
-                except Exception as e:
+                elif webhook_result.get("status") == "timeout":
+                    # Webhook timed out - try direct retrieval as fallback
                     print(
-                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ❌ Failed to retrieve response after timeout: {str(e)}"
+                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏱️ Webhook timeout for {len(names)} {entity_type}s - attempting direct retrieval"
                     )
+
+                    # Try to retrieve the response directly since OpenAI has a webhook bug
+                    try:
+                        final_result = await webhook_manager.retrieve_response(response_id)
+
+                        # Check if we got a valid, completed response (not still pending)
+                        if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
+                            print(
+                                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Successfully retrieved response via polling for {len(names)} {entity_type}s (ID: {response_id})"
+                            )
+
+                            # Create a mock response object with the retrieved data
+                            resp = type(
+                                "Response",
+                                (),
+                                {
+                                    "output": [
+                                        type(
+                                            "Output",
+                                            (),
+                                            {
+                                                "content": [
+                                                    type(
+                                                        "Content",
+                                                        (),
+                                                        {
+                                                            "text": final_result[
+                                                                "raw_output"
+                                                            ],
+                                                            "annotations": final_result.get(
+                                                                "citations", []
+                                                            ),
+                                                        },
+                                                    )
+                                                ]
+                                            },
+                                        )
+                                    ]
+                                },
+                            )
+                        else:
+                            status = final_result.get("status", "unknown") if final_result else "no response"
+                            raise Exception(
+                                f"Response still {status} after 50min timeout - OpenAI deep research taking too long for {entity_type} batch"
+                            )
+                    except Exception as e:
+                        print(
+                            f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ❌ Failed to retrieve response after timeout: {str(e)}"
+                        )
+                        raise Exception(
+                            f"Webhook timeout and fallback retrieval failed for {entity_type} batch: {str(e)}"
+                        )
+                else:
+                    # Other error cases
                     raise Exception(
-                        f"Webhook timeout and fallback retrieval failed for {entity_type} batch: {str(e)}"
+                        f"Webhook failed for {entity_type} batch: {webhook_result.get('error', 'Unknown error')}"
                     )
-            else:
-                # Other error cases
-                raise Exception(
-                    f"Webhook failed for {entity_type} batch: {webhook_result.get('error', 'Unknown error')}"
+
+        except Exception as api_error:
+            # Retry on API errors, timeouts, webhook failures
+            if _retry_count < max_retries:
+                print(
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ API/webhook error (attempt {_retry_count + 1}/{max_retries + 1}): {api_error}"
                 )
+                print(
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Retrying {entity_type} batch..."
+                )
+                if on_event:
+                    on_event(
+                        {
+                            "type": "retry",
+                            "batch_size": len(names),
+                            "entity_type": entity_type,
+                            "message": f"Retrying due to API error (attempt {_retry_count + 2}/{max_retries + 1})",
+                            "meta": {"error": str(api_error)},
+                        }
+                    )
+                # Wait a bit before retrying
+                await asyncio.sleep(5)
+                return await self.run_batch(
+                    names=names,
+                    context=context,
+                    entity_type=entity_type,
+                    on_event=on_event,
+                    max_retries=max_retries,
+                    _retry_count=_retry_count + 1,
+                )
+            else:
+                print(
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ❌ API/webhook error persisted after {max_retries + 1} attempts: {api_error}"
+                )
+                raise
 
         final = resp.output[-1].content[0]
         text = final.text
