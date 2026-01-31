@@ -30,7 +30,7 @@ class NeighborSettings(BaseSettings):
     ] = "o3-deep-research-2025-06-26"
 
     # Concurrency & batching
-    BATCH_SIZE: int = 4
+    BATCH_SIZE: int = 3
     MAX_NEIGHBORS: int = 30  # Max owners to return
     MAX_PARCELS: int = 30  # Hard cap on parcels fetched from Regrid API (billing optimization)
     DEFAULT_RADIUS_MILES: float = 0.25  # Starting radius for expansion (doubles each iteration)

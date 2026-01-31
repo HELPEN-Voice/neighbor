@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-01-29T15:01:43.720388",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260129_142731_5569.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Mayes County",
+    "state": "OK",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Miller, J T Rev Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "490014867",
+        "490014868"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Property is registered to the J T Miller Revocable Trust, with a mailing address in Chouteau, OK ([source](https://oktaxrolls.com/print-tax/Mayes/184520)). Tax records indicate active property tax payments made by the trust as of 2021 ([source](https://oktaxrolls.com/print-tax/Mayes/184520)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private trust entity with no documented public leadership roles or media presence in Mayes County regarding development.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Treat as an absentee or private landowner; initial outreach should be directed to the trustee at the registered Chouteau address."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "The J T Miller Revocable Trust is a private landholding entity based in Chouteau, OK. Public tax records confirm ownership and active tax status, but no specific individuals or trustees are publicly listed in available online records beyond the trust name.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Property is registered to the J T Miller Revocable Trust, with a mailing address in Chouteau, OK",
+          "url": "https://oktaxrolls.com/print-tax/Mayes/184520",
+          "title": "Mayes County Tax Roll Inquiry - Miller J T Rev Trust",
+          "date": "2021-01-19"
+        },
+        {
+          "claim": "Tax records indicate active property tax payments made by the trust as of 2021",
+          "url": "https://oktaxrolls.com/print-tax/Mayes/184520",
+          "title": "Mayes County Tax Roll Inquiry - Miller J T Rev Trust",
+          "date": "2021-01-19"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fowler, Kay Louise Revo Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "490014862"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The trust is named for Katherine 'Kay' Louise Fowler, a resident of Chouteau who passed away on June 8, 2020 ([source](https://www.shipmansfuneralhome.com/obituaries?page=74)). The property remains held in the trust's name following her passing ([source](https://www.shipmansfuneralhome.com/obituaries?page=74)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "The primary beneficiary is deceased; the trust is likely managed by surviving family members or a successor trustee with no known public influence.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify and contact the successor trustee or heirs; acknowledge the passing of the original grantor during outreach."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "This trust holds property formerly associated with Kay Louise Fowler (1938-2020), a long-time Chouteau resident. Management of the land is likely currently handled by her estate or heirs.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Katherine 'Kay' Louise Fowler, a resident of Chouteau who passed away on June 8, 2020",
+          "url": "https://www.shipmansfuneralhome.com/obituaries?page=74",
+          "title": "Obituary for Katherine 'Kay' Louise Fowler",
+          "date": "2020-06-08"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Gaiche Family Revoc Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "490014879"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The trust is associated with Bill D. and Janet M. Gaiche, who are listed as property owners in the Chouteau/Locust Grove area ([source](https://www.homes.com/property/7750-e-575-rd-locust-grove-ok/zbp0kew35yeyh/)). Janet Gaiche is a long-term resident of Mayes County and has family ties to the area ([source](https://www.shipmansfuneralhome.com/obituaries/nancy-starks)). Bill Gaiche has participated in regional fishing tournaments ([source](https://majorleaguefishing.com/anglers/bill-gaiche-101602/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local residents with established family presence but no documented political office or leadership roles in development matters.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Bill and Janet Gaiche directly as the likely trustees; they are long-term residents with deep local family connections."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "The Gaiche Family Revocable Trust represents the interests of Bill and Janet Gaiche. They are established residents of the Chouteau area with local family connections but no public record of involvement in land-use advocacy.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The trust is associated with Bill D. and Janet M. Gaiche, who are listed as property owners",
+          "url": "https://www.homes.com/property/7750-e-575-rd-locust-grove-ok/zbp0kew35yeyh/",
+          "title": "Property Record: 7750 E 575 Rd, Locust Grove, OK",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Janet Gaiche is a long-term resident of Mayes County and has family ties to the area",
+          "url": "https://www.shipmansfuneralhome.com/obituaries/nancy-starks",
+          "title": "Obituary for Nancy Adaleen Starks (Sister of Janet Gaiche)",
+          "date": "2022-12-08"
+        },
+        {
+          "claim": "Bill Gaiche has participated in regional fishing tournaments",
+          "url": "https://majorleaguefishing.com/anglers/bill-gaiche-101602/",
+          "title": "Major League Fishing Angler Profile: Bill Gaiche",
+          "date": "2024-01-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 721838,
+    "thinking_count": 34
+  }
+}

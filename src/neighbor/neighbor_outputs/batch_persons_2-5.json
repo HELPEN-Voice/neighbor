@@ -5,21 +5,22 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Kovan Mountjoy",
+      "name": "E. B. Stuckey Jr.",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "106-54-001K"
+        "024-00-00-134-000",
+        "024-00-00-059-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Kovan Mountjoy is listed as a contact for ABM Development LLC, a locally owned real estate development firm based in Huachuca City ([www.abmdevelopment.com](https://www.abmdevelopment.com/contact-us#:~:text=Kovan%20Mountjoy)). ABM Development has operated in the area for over 20 years as a family-run home builder and land development business ([www.abmdevelopment.com](https://www.abmdevelopment.com/#:~:text=)).",
+      "claims": "E. B. Stuckey Jr. is listed as the owner of two parcels in Lee County, South Carolina[Lee County GIS (ArcGIS) Service](https://services8.arcgis.com/GcPtFFAsQfUqzpLm/ArcGIS/rest/services/BBCA_resident_layers_v1_020725/FeatureServer/6)[Whitepages](https://www.whitepages.com/name/E-B-Stuckey/Bishopville-SC). No record of Stuckey making public comments on local development or energy projects was found in news archives or county meeting minutes[The Sumter Item](https://www.theitem.com/stories/lee-county-council-minutes,31510)[SC Press Association Archives](http://scpress.org/sclivesearch).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Local developer; business owner",
+      "influence_justification": "Multi-parcel landowner; well-known local surname",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage via a business-oriented approach through local builders or the chamber, highlighting how the project could align with community growth without harming real estate values."
+        "engage": "Engage via a respected local farming community member to acknowledge his family\u2019s ties to the land and address any concerns about land use or legacy."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -38,90 +39,21 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Michelle White",
+      "name": "James C. Tolbert & Ruth W. Tolbert",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "106-47-152V"
+        "024-00-00-098-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "A \"White, Michelle\" appears in public records databases, but aside from the property ownership, no public profile or civic role for this person is evident ([truepeoplesearch.net](https://truepeoplesearch.net/people/michelle-white#:~:text=Also%20known%20as%3A)). No references to a Michelle White were found in local news, suggesting a private individual with no notable public involvement ([cochise.az.gov](https://cochise.az.gov/CivicAlerts.aspx?CID=1#:~:text=News%20Flash%20%E2%80%A2%20Cochise%20County%2C,Hard%20copies%20are%20also%20available)).",
-      "confidence": "low",
+      "claims": "James C. Tolbert and his wife Ruth W. Tolbert jointly own a rural parcel in Lee County[Lee County GIS (ArcGIS) Service](https://services8.arcgis.com/GcPtFFAsQfUqzpLm/ArcGIS/rest/services/BBCA_resident_layers_v1_020725/FeatureServer/6). They are listed as residents of the Bishopville area in public directory records[Whitepages](https://www.whitepages.com/name/James-Tolbert/Bishopville-SC). No public statements or civic roles for the Tolberts were found in available local records[SC Press Association Archives](http://scpress.org/sclivesearch).",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private citizen; no public roles",
+      "influence_justification": "Small landowner; no public offices",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach one-on-one through a neighborly introduction, listening to any personal concerns since she has not voiced opinions publicly."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Frank Cullen Brophy",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "106-47-008"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Frank Cullen Brophy acquired the historic 18,000-acre Babacomari Ranch in 1935, becoming its third owner since Spanish colonial times ([babacomariranch.com](https://babacomariranch.com/history#:~:text=In%201935%2C%20Frank%20Cullen%20Brophy,who%20served%20as%20frontiersmen%20and)). The Brophy family continues to hold the ranch through a family partnership, placing over 3,300 acres under conservation easements to protect its grasslands and wetlands ([babacomariranch.com](https://babacomariranch.com/history#:~:text=Brophy%20now%20numbering%20over%2060%2C,and%20Water%20Trust%2C%20the%20Nature)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "Historic ranch family; large acreage",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "wildlife_habitat"
-        ],
-        "engage": "Enlist a respected local conservation figure to initiate dialogue, emphasizing the project's land stewardship plans and respect for the ranch\u2019s legacy and environment."
-      },
-      "entity_classification": null,
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Ricktor & Tawneen Meldrum",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "106-54-003Y"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Ricktor and Tawneen Meldrum jointly own a parcel in Cochise County (PIN 106-54-003Y), but they are not mentioned in any local news reports or public records beyond that ownership ([thetombstonenews.com](https://thetombstonenews.com/index46.htm#:~:text=The%20Tombstone%20News%20,Rest%20in%20Peace%20and%20God)). No evidence was found of either having a public-facing role in the community or commenting on local issues ([thetombstonenews.com](https://thetombstonenews.com/index46.htm#:~:text=The%20Tombstone%20News%20,Rest%20in%20Peace%20and%20God)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public presence or roles",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach discreetly through a mutual acquaintance or community event, as they have no known stances\u2014building rapport and learning their interests would guide effective engagement."
+        "engage": "Use a neighborly, personal approach (perhaps via a mutual acquaintance) emphasizing respect for their property and maintaining the quiet rural character they value."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -139,41 +71,8 @@
       "citations": null
     }
   ],
-  "annotations": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    }
-  ],
-  "overview_summary": "None of these four neighbors has a clearly documented public stance on new development projects. Their community influence varies widely: one (the Brophy family) is a historically significant ranching family with high influence, another is a local developer with moderate influence, and the remaining two appear to have low public profiles.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_090546_6474.json",
-  "cached_at": "2026-01-29T09:05:46.648341"
+  "annotations": [],
+  "overview_summary": "Neither neighbor has a documented public stance on the proposed development (0 support, 0 oppose, 2 unknown). Their community influence ranges from low to moderate, with no high-influence neighbors identified in this group.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_124306_5105.json",
+  "cached_at": "2026-01-30T12:43:06.738771"
 }

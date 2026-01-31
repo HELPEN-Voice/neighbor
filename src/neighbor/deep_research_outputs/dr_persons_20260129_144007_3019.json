@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-01-29T14:40:07.301976",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Mayes County",
+    "state": "OK",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Of the four neighboring landowners, only one – a public trust – has an evident pro-development stance, while none have been publicly opposed; the other three have no recorded stance. Community influence is concentrated in that trust (high influence), as the remaining neighbors are private individuals with low public influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Oowa",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "490002448",
+        "490002355",
+        "490002449",
+        "490031231",
+        "490002447"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Oklahoma Ordnance Works Authority (OOWA) – a public trust formed in 1960 – acquired over 10,000 acres of the former ordnance plant in Mayes County ([www.okhistory.org](https://www.okhistory.org/publications/enc/entry?entry=OK069#:~:text=Created%20in%20December%201960%2C%20the,computer%2C%20and%20aviation%20industries%2C%20among)). OOWA operates MidAmerica Industrial Park and its mission is to promote industrial development on that land ([www.okhistory.org](https://www.okhistory.org/publications/enc/entry?entry=OK069#:~:text=million,OOWA%20retains%20its%20administrative%20functions)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Industrial park trust; 10k+ acres",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "local_control"
+        ],
+        "engage": "Engage OOWA leadership through formal channels; emphasize how the project aligns with MidAmerica Industrial Park’s economic development goals."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "United States Of America",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "490031235",
+        "490031232",
+        "490031233",
+        "490031236",
+        "490002354"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Federal landowner; no local role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Not applicable; federal government ownership with no individual neighbor to engage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Harris, Ila F & Lillian Tucker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014874",
+        "490014873"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ila F. Harris and Lillian Tucker jointly own two parcels in a rural, agricultural part of Mayes County ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=Whether%20you%E2%80%99re%20researching%20lakeview%20property,a%20trip%20to%20the%20courthouse)). No mention of Harris or Tucker was found in local meetings or news archives, indicating they have not publicly taken a stance on development issues ([mayes.okcounties.org](https://mayes.okcounties.org/meetings#:~:text=The%20Board%20is%20required%20by,Source)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally (or via a trusted local farm community contact) to build rapport and listen to any concerns, emphasizing respect for their land and openness to dialogue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Stoner, Larry Allen & Sarah Opdycke & Larry Opdycke",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014872"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Larry Allen Stoner appears as a co-owner alongside Larry Opdycke and Sarah Opdycke on at least one Mayes County property, according to assessor records ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=,ID%20or%20legal%20description%20with)). No evidence of any of these family members speaking at public meetings or holding civic roles could be found in available records ([mayes.okcounties.org](https://mayes.okcounties.org/meetings#:~:text=The%20Board%20is%20required%20by,Source)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Family landowners; no known influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Arrange a meeting with all co-owners present to ensure everyone’s questions are addressed; emphasize transparency about the project and a willingness to accommodate reasonable concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Of the four neighboring landowners, only one – a public trust – has an evident pro-development stance, while none have been publicly opposed; the other three have no recorded stance. Community influence is concentrated in that trust (high influence), as the remaining neighbors are private individuals with low public influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Oowa\",\n      \"entity_category\": \"Trust\",\n      \"entity_type\": \"Trust\",\n      \"pins\": [\"490002448\", \"490002355\", \"490002449\", \"490031231\", \"490002447\"],\n      \"claims\": \"The Oklahoma Ordnance Works Authority (OOWA) – a public trust formed in 1960 – acquired over 10,000 acres of the former ordnance plant in Mayes County ([www.okhistory.org](https://www.okhistory.org/publications/enc/entry?entry=OK069#:~:text=Created%20in%20December%201960%2C%20the,computer%2C%20and%20aviation%20industries%2C%20among)). OOWA operates MidAmerica Industrial Park and its mission is to promote industrial development on that land ([www.okhistory.org](https://www.okhistory.org/publications/enc/entry?entry=OK069#:~:text=million,OOWA%20retains%20its%20administrative%20functions)).\",\n      \"noted_stance\": \"Support\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Industrial park trust; 10k+ acres\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"tax_revenue_benefit\", \"local_control\"],\n        \"engage\": \"Engage OOWA leadership through formal channels; emphasize how the project aligns with MidAmerica Industrial Park’s economic development goals.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"United States Of America\",\n      \"entity_category\": \"Trust\",\n      \"entity_type\": \"Trust\",\n      \"pins\": [\"490031235\", \"490031232\", \"490031233\", \"490031236\", \"490002354\"],\n      \"claims\": \"See ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Federal landowner; no local role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Not applicable; federal government ownership with no individual neighbor to engage.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Harris, Ila F & Lillian Tucker\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"490014874\", \"490014873\"],\n      \"claims\": \"Ila F. Harris and Lillian Tucker jointly own two parcels in a rural, agricultural part of Mayes County ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=Whether%20you%E2%80%99re%20researching%20lakeview%20property,a%20trip%20to%20the%20courthouse)). No mention of Harris or Tucker was found in local meetings or news archives, indicating they have not publicly taken a stance on development issues ([mayes.okcounties.org](https://mayes.okcounties.org/meetings#:~:text=The%20Board%20is%20required%20by,Source)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out personally (or via a trusted local farm community contact) to build rapport and listen to any concerns, emphasizing respect for their land and openness to dialogue.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Stoner, Larry Allen & Sarah Opdycke & Larry Opdycke\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"490014872\"],\n      \"claims\": \"Larry Allen Stoner appears as a co-owner alongside Larry Opdycke and Sarah Opdycke on at least one Mayes County property, according to assessor records ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=,ID%20or%20legal%20description%20with)). No evidence of any of these family members speaking at public meetings or holding civic roles could be found in available records ([mayes.okcounties.org](https://mayes.okcounties.org/meetings#:~:text=The%20Board%20is%20required%20by,Source)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family landowners; no known influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Arrange a meeting with all co-owners present to ensure everyone’s questions are addressed; emphasize transparency about the project and a willingness to accommodate reasonable concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-01-30T12:50:44.070107",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_124306_5105.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Lee County",
+    "state": "SC",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "E. B. Stuckey Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "024-00-00-134-000",
+        "024-00-00-059-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "E. B. Stuckey Jr. is a recipient of USDA agricultural subsidies in Bishopville, SC ([EWG](https://farm.ewg.org/top_recips.php?fips=45061&progcode=total_cr&page=17)). The Stuckey family is a historically prominent surname in Lee County, with genealogical records and a family cemetery in the area ([SC History](https://schistory.org/wp-content/uploads/2015/06/Stuckey-genealogical-collection-418.00.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Agricultural subsidy recipient; historically prominent local family name",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage via a respected local farming community member to acknowledge his family’s ties to the land and address any concerns about land use or legacy."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "E. B. Stuckey Jr. is a recipient of USDA agricultural subsidies in Bishopville, SC",
+          "url": "https://farm.ewg.org/top_recips.php?fips=45061&progcode=total_cr&page=17",
+          "title": "EWG Conservation Reserve Program Recipients",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "The Stuckey family is a historically prominent surname in Lee County, with genealogical records and a family cemetery in the area",
+          "url": "https://schistory.org/wp-content/uploads/2015/06/Stuckey-genealogical-collection-418.00.pdf",
+          "title": "Stuckey Genealogical Collection",
+          "date": "2015-06-01"
+        }
+      ],
+      "verification_notes": "Confirmed existence and agricultural ties via USDA records. No public statements on development found in news archives or council minutes."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James C. Tolbert & Ruth W. Tolbert",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "024-00-00-098-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Tolbert is listed in public directories with residential ties to Bishopville, SC ([NPD](https://nationalpublicdata.com/people/t/jimmy-tolbert/)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public offices or significant community roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Use a neighborly, personal approach emphasizing respect for their property and maintaining the quiet rural character they value."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "James Tolbert is listed in public directories with residential ties to Bishopville, SC",
+          "url": "https://nationalpublicdata.com/people/t/jimmy-tolbert/",
+          "title": "Public Data Directory - Jimmy Tolbert",
+          "date": "2024-01-01"
+        }
+      ],
+      "verification_notes": "Could not verify 'Ruth W. Tolbert' or the middle initial 'C' for James in current Lee County records; found 'Jimmy Tolbert' and 'Jimmy F. Tolbert' associated with Bishopville/Camden. No public stance found."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 494277,
+    "thinking_count": 32
+  }
+}

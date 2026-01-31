@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-01-30T12:37:37.122089",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Lee County",
+    "state": "SC",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the four profiled neighbors have publicly stated positions on the development, so their stances remain unknown. Two neighbors (the Wilkes and the Cravens) hold moderate community influence through local roles (police/coach and major farming, respectively), while the others are low-profile landowners with limited public engagement.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Okelley Helen C et al",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-026-000",
+        "024-00-00-136-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Helen C. Okelley (and family, \"et al\") is listed as the owner of multiple rural parcels in Lee County [Lee County Assessor](https://www.qpublic.net/sc/lee/). No public statements or media reports were found in which Okelley has taken any position on local development or energy projects (indicating no evident advocacy or opposition) [The Sumter Item](https://www.theitem.com/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Aging landowner; low public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Emphasize respect for her family’s long-held land and reassure that the project will preserve the agricultural legacy of the area. A local farmer or trusted community elder could help introduce discussions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kelley L. Wilkes & Chad E. Wilkes",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-191-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Chad E. Wilkes is a local law enforcement and education figure, having served as interim police chief of Lamar, SC in 2017 [News and Press](https://www.newsandpress.net/wilkes-named-interim-lamar-police-chief/) and later as head football coach at Lamar High School until resigning in 2022 [News and Press](https://www.newsandpress.net/lamar-high-school-football-coach-resigns/). The Wilkes family owns a residential parcel in the area, but they have not made any recorded public comments for or against development or clean energy proposals in Lee County (no such remarks appear in local news archives) [News and Press](https://www.newsandpress.net).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local coach; former police chief",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "local_control"
+        ],
+        "engage": "Approach via a law enforcement or school community contact who knows them. Emphasize plans for roadway safety during construction and the project’s alignment with community decisions and oversight."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Craven Walby C & Frank C",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-025-000",
+        "025-00-00-023-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Walby C. Craven and Frank C. Craven are co-owners of a farming enterprise in the county; Frank C. Craven is listed as the principal of “Craven Farms,” a local crop (cotton) farming business based in Bishopville [Dun & Bradstreet](https://www.dnb.com/business-directory/company-profiles.craven_farms.14823a1a7d3478a8f9ca0915d6022692.html). Despite their prominent role in agriculture, there is no record of either Craven making public statements about area developments or energy projects in news or county meeting records (they have stayed out of the public spotlight on such issues) [News and Press](https://www.newsandpress.net).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major farm owners; long-time locals",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Engage through an agricultural extension or farm bureau connection. Discuss how the project will protect productive farmland (e.g., minimal impact on soil/drainage) and address any concerns about infrastructure like local roads used during construction."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Woodham Carol Jane",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-183-000",
+        "025-00-00-184-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Carol Jane Woodham is an elderly long-time resident; her family name is notably tied to “Woodham Road” in the area, reflecting a longstanding local presence [Zillow](https://www.zillow.com/homedetails/1605-Woodham-Rd-Bishopville-SC-29010). She has no known participation in public forums or media regarding development issues, and there are no reported instances of her voicing support or opposition to projects (her profile in the community is quiet and private) [The Sumter Item](https://www.theitem.com/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident; minimal public role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a neighbor she trusts reach out in person. Stress that the project will maintain the peace and quiet of the area and respect the long-time family ownership of surrounding lands."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the four profiled neighbors have publicly stated positions on the development, so their stances remain unknown. Two neighbors (the Wilkes and the Cravens) hold moderate community influence through local roles (police/coach and major farming, respectively), while the others are low-profile landowners with limited public engagement.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Okelley Helen C et al\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"025-00-00-026-000\", \"024-00-00-136-000\"],\n      \"claims\": \"Helen C. Okelley (and family, \\\"et al\\\") is listed as the owner of multiple rural parcels in Lee County [Lee County Assessor](https://www.qpublic.net/sc/lee/). No public statements or media reports were found in which Okelley has taken any position on local development or energy projects (indicating no evident advocacy or opposition) [The Sumter Item](https://www.theitem.com/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Aging landowner; low public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Emphasize respect for her family’s long-held land and reassure that the project will preserve the agricultural legacy of the area. A local farmer or trusted community elder could help introduce discussions.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kelley L. Wilkes & Chad E. Wilkes\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"025-00-00-191-000\"],\n      \"claims\": \"Chad E. Wilkes is a local law enforcement and education figure, having served as interim police chief of Lamar, SC in 2017 [News and Press](https://www.newsandpress.net/wilkes-named-interim-lamar-police-chief/) and later as head football coach at Lamar High School until resigning in 2022 [News and Press](https://www.newsandpress.net/lamar-high-school-football-coach-resigns/). The Wilkes family owns a residential parcel in the area, but they have not made any recorded public comments for or against development or clean energy proposals in Lee County (no such remarks appear in local news archives) [News and Press](https://www.newsandpress.net).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Local coach; former police chief\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"traffic_safety\", \"local_control\"],\n        \"engage\": \"Approach via a law enforcement or school community contact who knows them. Emphasize plans for roadway safety during construction and the project’s alignment with community decisions and oversight.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Craven Walby C & Frank C\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"025-00-00-025-000\", \"025-00-00-023-000\"],\n      \"claims\": \"Walby C. Craven and Frank C. Craven are co-owners of a farming enterprise in the county; Frank C. Craven is listed as the principal of “Craven Farms,” a local crop (cotton) farming business based in Bishopville [Dun & Bradstreet](https://www.dnb.com/business-directory/company-profiles.craven_farms.14823a1a7d3478a8f9ca0915d6022692.html). Despite their prominent role in agriculture, there is no record of either Craven making public statements about area developments or energy projects in news or county meeting records (they have stayed out of the public spotlight on such issues) [News and Press](https://www.newsandpress.net).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major farm owners; long-time locals\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"drainage_roads\"],\n        \"engage\": \"Engage through an agricultural extension or farm bureau connection. Discuss how the project will protect productive farmland (e.g., minimal impact on soil/drainage) and address any concerns about infrastructure like local roads used during construction.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Woodham Carol Jane\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"025-00-00-183-000\", \"025-00-00-184-000\"],\n      \"claims\": \"Carol Jane Woodham is an elderly long-time resident; her family name is notably tied to “Woodham Road” in the area, reflecting a longstanding local presence [Zillow](https://www.zillow.com/homedetails/1605-Woodham-Rd-Bishopville-SC-29010). She has no known participation in public forums or media regarding development issues, and there are no reported instances of her voicing support or opposition to projects (her profile in the community is quiet and private) [The Sumter Item](https://www.theitem.com/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime resident; minimal public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a neighbor she trusts reach out in person. Stress that the project will maintain the peace and quiet of the area and respect the long-time family ownership of surrounding lands.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

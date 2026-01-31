@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-01-29T14:28:10.087253",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Mayes County",
+    "state": "OK",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One neighboring household was profiled. Their stance on development is undetermined, and no clear advocacy for or against projects was found. Community influence appears low, with no high-profile roles or public statements identified.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Daniel A. Smith & Katiann Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014865"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "According to Mayes County assessor records, Daniel A. Smith and Katiann Smith jointly own a parcel of land in the county (PIN 490014865) [DataCrosspoint – Mayes Assessor](https://www.datacrosspoint.com/mayes-county-property-search/). No evidence was found of the Smiths taking any public stance on local development or serving in visible community positions [Mayes County Public Meetings](https://mayes.okcounties.org/meetings).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public civic roles found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally via a mutual acquaintance or local community figure. Emphasize listening to their questions and openly addressing any concerns since their stance is unknown."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One neighboring household was profiled. Their stance on development is undetermined, and no clear advocacy for or against projects was found. Community influence appears low, with no high-profile roles or public statements identified.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Daniel A. Smith & Katiann Smith\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"490014865\"],\n      \"claims\": \"According to Mayes County assessor records, Daniel A. Smith and Katiann Smith jointly own a parcel of land in the county (PIN 490014865) [DataCrosspoint – Mayes Assessor](https://www.datacrosspoint.com/mayes-county-property-search/). No evidence was found of the Smiths taking any public stance on local development or serving in visible community positions [Mayes County Public Meetings](https://mayes.okcounties.org/meetings).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public civic roles found\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out personally via a mutual acquaintance or local community figure. Emphasize listening to their questions and openly addressing any concerns since their stance is unknown.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

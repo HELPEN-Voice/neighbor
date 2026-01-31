@@ -5,23 +5,25 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Steven J. & Francesca Brennan",
+      "name": "Okelley Helen C et al",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "10615057A"
+        "025-00-00-026-000",
+        "024-00-00-136-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Steven J. Brennan and his wife Francesca live in Tucson, Arizona, and own a parcel in Cochise County ([veripages.com](https://veripages.com/name/Francesca/Brennan/#:~:text=Lives%20in%201593%20N%20Mariposa,6070)). They are absentee landowners with no record of local civic engagement or publicly stated views on development ([veripages.com](https://veripages.com/name/Francesca/Brennan/#:~:text=Lives%20in%201593%20N%20Mariposa,6070)).",
-      "confidence": "medium",
+      "claims": "Helen C. Okelley (and family, \"et al\") is listed as the owner of multiple rural parcels in Lee County [Lee County Assessor](https://www.qpublic.net/sc/lee/). No public statements or media reports were found in which Okelley has taken any position on local development or energy projects (indicating no evident advocacy or opposition) [The Sumter Item](https://www.theitem.com/).",
+      "confidence": "low",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Out-of-area owners; not civically active",
+      "influence_justification": "Aging landowner; low public profile",
       "approach_recommendations": {
         "motivations": [
-          "property_value"
+          "farmland_preservation",
+          "heritage_family_legacy"
         ],
-        "engage": "Contact them via phone or email, emphasizing how the project could maintain or enhance property values and minimize any impact on their land."
+        "engage": "Emphasize respect for her family\u2019s long-held land and reassure that the project will preserve the agricultural legacy of the area. A local farmer or trusted community elder could help introduce discussions."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -40,21 +42,24 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Lodestar Investments LC",
+      "name": "Kelley L. Wilkes & Chad E. Wilkes",
       "entity_category": "Resident",
-      "entity_type": "Corporation",
+      "entity_type": "Individual",
       "pins": [
-        "10615012T"
+        "025-00-00-191-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Lodestar Investments LC is a limited liability company listed as owner of parcel 106-15-012T in Cochise County. The company\u2019s principals are not identified in local records, indicating the land is held as an investment by an outside party ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=23247916#:~:text=Title%20%20,7%2F16%2F2021)).",
+      "claims": "Chad E. Wilkes is a local law enforcement and education figure, having served as interim police chief of Lamar, SC in 2017 [News and Press](https://www.newsandpress.net/wilkes-named-interim-lamar-police-chief/) and later as head football coach at Lamar High School until resigning in 2022 [News and Press](https://www.newsandpress.net/lamar-high-school-football-coach-resigns/). The Wilkes family owns a residential parcel in the area, but they have not made any recorded public comments for or against development or clean energy proposals in Lee County (no such remarks appear in local news archives) [News and Press](https://www.newsandpress.net).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "",
+      "community_influence": "Medium",
+      "influence_justification": "Local coach; former police chief",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "If needed, reach the company\u2019s representative through formal channels, focusing on business considerations and regulatory compliance."
+        "motivations": [
+          "traffic_safety",
+          "local_control"
+        ],
+        "engage": "Approach via a law enforcement or school community contact who knows them. Emphasize plans for roadway safety during construction and the project\u2019s alignment with community decisions and oversight."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -73,21 +78,25 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Patsy J. Moriarty",
+      "name": "Craven Walby C & Frank C",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "10647058A"
+        "025-00-00-025-000",
+        "025-00-00-023-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Patsy J. Moriarty is listed as the owner of Cochise County parcel 106-47-058A ([parcelinquirytreasurer.cochise.az.gov](https://parcelinquirytreasurer.cochise.az.gov/?ra=GISMap&rc=Parcel#:~:text=Cochise%20County%20Treasurer%20,Center)). No references to her in news articles or public meetings could be found, suggesting she has not voiced a position on local development issues ([www.cochise.az.gov](https://www.cochise.az.gov/174/Clerk-of-the-Board#:~:text=Clerk%20of%20the%20Board%20,Public%20%26%20Legal%20Notices)).",
+      "claims": "Walby C. Craven and Frank C. Craven are co-owners of a farming enterprise in the county; Frank C. Craven is listed as the principal of \u201cCraven Farms,\u201d a local crop (cotton) farming business based in Bishopville [Dun & Bradstreet](https://www.dnb.com/business-directory/company-profiles.craven_farms.14823a1a7d3478a8f9ca0915d6022692.html). Despite their prominent role in agriculture, there is no record of either Craven making public statements about area developments or energy projects in news or county meeting records (they have stayed out of the public spotlight on such issues) [News and Press](https://www.newsandpress.net).",
       "confidence": "medium",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private citizen; no public role",
+      "community_influence": "Medium",
+      "influence_justification": "Major farm owners; long-time locals",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Meet with her in person on her property, showing respect for her rural lifestyle and listening to any concerns she may have about changes in the area."
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Engage through an agricultural extension or farm bureau connection. Discuss how the project will protect productive farmland (e.g., minimal impact on soil/drainage) and address any concerns about infrastructure like local roads used during construction."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -106,21 +115,25 @@
     },
     {
       "neighbor_id": "N-04",
-      "name": "Adam Chabal",
+      "name": "Woodham Carol Jane",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "10647058B"
+        "025-00-00-183-000",
+        "025-00-00-184-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Adam Chabal owns parcel 106-47-058B in Cochise County ([parcelinquirytreasurer.cochise.az.gov](https://parcelinquirytreasurer.cochise.az.gov/?ra=GISMap&rc=Parcel#:~:text=Cochise%20County%20Treasurer%20,Center)). There is no public information on Chabal taking part in local boards or forum discussions, and no stated opinions on development were found ([www.cochise.az.gov](https://www.cochise.az.gov/174/Clerk-of-the-Board#:~:text=Clerk%20of%20the%20Board%20,Public%20%26%20Legal%20Notices)).",
-      "confidence": "medium",
+      "claims": "Carol Jane Woodham is an elderly long-time resident; her family name is notably tied to \u201cWoodham Road\u201d in the area, reflecting a longstanding local presence [Zillow](https://www.zillow.com/homedetails/1605-Woodham-Rd-Bishopville-SC-29010). She has no known participation in public forums or media regarding development issues, and there are no reported instances of her voicing support or opposition to projects (her profile in the community is quiet and private) [The Sumter Item](https://www.theitem.com/).",
+      "confidence": "low",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "New/unknown resident; no known influence",
+      "influence_justification": "Longtime resident; minimal public role",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Reach out directly to introduce the project and ask for his input, as he has no known stance. A straightforward, personal approach can help address any questions from this relatively new neighbor."
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a neighbor she trusts reach out in person. Stress that the project will maintain the peace and quiet of the area and respect the long-time family ownership of surrounding lands."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -138,37 +151,8 @@
       "citations": null
     }
   ],
-  "annotations": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    }
-  ],
-  "overview_summary": "All four neighboring landowners have no documented public stance on development (all noted_stance are Unknown). None are known community leaders or officials, so high-influence neighbors are absent \u2013 most appear to have low individual influence locally.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_090813_0888.json",
-  "cached_at": "2026-01-29T09:08:13.089664"
+  "annotations": [],
+  "overview_summary": "None of the four profiled neighbors have publicly stated positions on the development, so their stances remain unknown. Two neighbors (the Wilkes and the Cravens) hold moderate community influence through local roles (police/coach and major farming, respectively), while the others are low-profile landowners with limited public engagement.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_123737_1220.json",
+  "cached_at": "2026-01-30T12:37:37.122967"
 }

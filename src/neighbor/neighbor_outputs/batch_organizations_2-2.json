@@ -1,0 +1,86 @@
+{
+  "batch_idx": 1,
+  "total_batches": 2,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kelley-Hill Properties LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "024-00-00-167-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kelley-Hill Properties LLC is a South Carolina limited liability company that holds at least one rural parcel in Lee County (PIN 024-00-00-167-000) [Lee County Assessor](https://www.qpublic.net/sc/lee/). The company\u2019s name suggests it may be owned by members of the Kelley and Hill families, though no beneficial owners are publicly disclosed (South Carolina LLC filings do not list members by name) [SC Secretary of State](https://businessfilings.sc.gov). There is no record of Kelley-Hill Properties LLC engaging in other business operations or any public statements regarding local development; it appears to exist solely for holding land assets [South Carolina Energy Office](https://solar.sc.gov/news/2018-02/southern-current-launching-new-solar-projects-lee-county). No legal disputes, liens, or political contributions involving this LLC were found in available public records, indicating a low-profile entity ([www.wistv.com](https://www.wistv.com/2023/03/23/county-budgets-expected-reap-massive-revenue-gains-solar-farms-if-projects-are-completed/#:~:text=County%20budgets%20expected%20to%20reap,Midlands%20county%20officials)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Owns one known parcel; no significant business or political activity; primarily a private landholder",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the principal owners directly (likely local family members) with a respectful, value-focused proposal. Emphasize mutually beneficial options, such as fair purchase or lease terms, to align the project with their financial interests and family legacy."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "McLeod Woodham Property LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "025-00-00-057-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McLeod Woodham Property LLC is a South Carolina-registered LLC that owns a tract of land in Lee County (tax parcel 025-00-00-057-000) [Lee County Assessor](https://www.qpublic.net/sc/lee/). The entity\u2019s name indicates it likely represents a partnership between individuals or families with the surnames McLeod and Woodham, although specific ownership details are not publicly available (South Carolina does not mandate disclosure of LLC members in its online records) [SC Secretary of State](https://businessfilings.sc.gov). The LLC has no other visible business ventures or public presence beyond holding the property, and it has not been referenced in local news or county filings taking any position on development ([www.wistv.com](https://www.wistv.com/2023/03/23/county-budgets-expected-reap-massive-revenue-gains-solar-farms-if-projects-are-completed/#:~:text=County%20budgets%20expected%20to%20reap,Midlands%20county%20officials)). Like similar local land LLCs, there are no recorded political donations or litigation involving McLeod Woodham Property LLC, suggesting it operates quietly as a landholder without active community engagement [WIS News](https://www.wistv.com/2023/03/23/county-budgets-expected-reap-massive-revenue-gains-solar-farms-if-projects-are-completed/).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Single-parcel owner; no public profile or known community roles; influence limited to land ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the likely family owners (McLeod/Woodham) personally to build trust and discuss mutual benefits. Highlight opportunities for financial gain (e.g. lease income or purchase at premium) while addressing any concerns about land stewardship to prevent adversarial positions."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "The identified neighboring entities are privately-held landholding LLCs with minimal public profiles. These organizations appear to represent local family land interests rather than active development companies, with no documented stance on the proposed project in public records. Their influence in the community is likely limited to their property ownership and any personal relationships of their owners, presenting low direct opposition risk but potentially open to negotiation for project participation.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260130_124141_9790.json",
+  "cached_at": "2026-01-30T12:41:41.981452"
+}

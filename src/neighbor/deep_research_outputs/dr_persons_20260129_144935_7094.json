@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-01-29T14:49:35.709489",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Mayes County",
+    "state": "OK",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the profiled neighbors has a clear public stance on the proposed development, as no evidence of support or opposition could be found. All are categorized with an \"unknown\" stance, and their community influence appears limited (mostly low), with no current officeholders or prominent local leaders among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Aron R Peace & Crystal Monique Peace",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014871",
+        "490014842"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "County assessor records list Aron R and Crystal M. Peace as owners of multiple agricultural parcels south of Locust Grove ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=for%20properties%20in%20Pryor%2C%20Locust,Lake%20Hudson%20in%20northeastern%20Oklahoma)). No references were found of the Peace family voicing opinions on local development in public meetings or media.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Multiple-parcel landowners; local farming family",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Have a respected local farm leader reach out to discuss how the project will protect farmland and honor land stewardship, addressing any concerns about preserving their agricultural property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michael B. Lewis Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014841"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael B. Lewis Jr. is recorded as the owner of a rural Mayes County property near Locust Grove, according to county land records ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=Whether%20you%E2%80%99re%20researching%20lakeview%20property,a%20trip%20to%20the%20courthouse)). There is no record of Lewis Jr. making public comments about local development or energy projects in available county meetings or news archives.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowner family",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Engage him through a trusted local agricultural figure to reassure that the development will respect farmland and could bring benefits without harming property interests or the land’s future value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sandra Vaughn",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014876"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sandra Vaughn appears in county assessor records as the owner of a parcel in Mayes County’s rural area ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=for%20properties%20in%20Pryor%2C%20Locust,Lake%20Hudson%20in%20northeastern%20Oklahoma)). No evidence was found of Vaughn taking any public stance or speaking at local meetings regarding development or renewable energy issues.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Reach out in person or via a community gathering, emphasizing respect for the rural character and explaining how the project will co-exist with farming and preserve the quiet countryside she values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the profiled neighbors has a clear public stance on the proposed development, as no evidence of support or opposition could be found. All are categorized with an \\\"unknown\\\" stance, and their community influence appears limited (mostly low), with no current officeholders or prominent local leaders among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Aron R Peace & Crystal Monique Peace\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"490014871\", \"490014842\"],\n      \"claims\": \"County assessor records list Aron R and Crystal M. Peace as owners of multiple agricultural parcels south of Locust Grove ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=for%20properties%20in%20Pryor%2C%20Locust,Lake%20Hudson%20in%20northeastern%20Oklahoma)). No references were found of the Peace family voicing opinions on local development in public meetings or media【48】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Multiple-parcel landowners; local farming family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Have a respected local farm leader reach out to discuss how the project will protect farmland and honor land stewardship, addressing any concerns about preserving their agricultural property.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Michael B. Lewis Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"490014841\"],\n      \"claims\": \"Michael B. Lewis Jr. is recorded as the owner of a rural Mayes County property near Locust Grove, according to county land records ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=Whether%20you%E2%80%99re%20researching%20lakeview%20property,a%20trip%20to%20the%20courthouse)). There is no record of Lewis Jr. making public comments about local development or energy projects in available county meetings or news archives【116】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local landowner family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Engage him through a trusted local agricultural figure to reassure that the development will respect farmland and could bring benefits without harming property interests or the land’s future value.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Sandra Vaughn\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"490014876\"],\n      \"claims\": \"Sandra Vaughn appears in county assessor records as the owner of a parcel in Mayes County’s rural area ([www.datacrosspoint.com](https://www.datacrosspoint.com/mayes-county-property-search/#:~:text=for%20properties%20in%20Pryor%2C%20Locust,Lake%20Hudson%20in%20northeastern%20Oklahoma)). No evidence was found of Vaughn taking any public stance or speaking at local meetings regarding development or renewable energy issues【117】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Reach out in person or via a community gathering, emphasizing respect for the rural character and explaining how the project will co-exist with farming and preserve the quiet countryside she values.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-01-30T12:37:04.931963",
+  "entity_type": "organization",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Lee County",
+    "state": "SC",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring parcels are owned by a mix of local agricultural LLCs and a corporate landholding entity. Two LLCs (including “Jugs Chicken House Farm” and “Wateree Holdings”) appear tied to farming operations and family land, suggesting their primary interest is in agriculture rather than development. Another (McLeod-McQuilla Property LLC) is a private property holding with no public business activities. The remaining owner (LCSWF Real Estate LLC) is likely linked to the county’s solid waste landfill. None of these organizations show obvious involvement in organized development opposition, but the farm-related owners may be inclined toward preserving agricultural land.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jugs Chicken House Farm LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "025-00-00-086-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jugs Chicken House Farm LLC is a South Carolina limited liability company, evidently established as a poultry farming operation (multiple chicken houses) on rural land in Lee County [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/). The company has no known profile beyond its farm business and holds one parcel (PIN 025-00-00-086-000) with agricultural use; no public filings or news reports indicate any other ventures or political activity by this entity [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/). Poultry farming is a common and economically significant land use in South Carolina’s rural counties, and this LLC fits that pattern, focusing on livestock production rather than real estate development [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small family-run agricultural business; no broad political or economic influence beyond poultry farming",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the farm owner directly and address any concerns about construction impacts on their poultry operation (noise, dust, biosecurity). Emphasize measures to protect their farm’s environment and consider offering buffer zones or other incentives to gain their neutrality or support."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "McLeod-McQuilla Property LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "025-00-00-055-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McLeod-McQuilla Property LLC is registered in South Carolina, likely representing a joint landholding by the McLeod and McQuilla families (as reflected in its name) for a parcel in Lee County [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/). There is little public information about this LLC aside from county land records; it does not appear in business news or farm subsidy rolls, implying it has no active commercial farming or development projects on record [EWG Farm Subsidy Database](https://farm.ewg.org). The LLC seems to function purely as a private real estate holding entity for family land, with no indications of political donations or community initiatives attributable to it [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private family landholding with no public-facing activities; minimal economic or political footprint",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify and reach out to the family representatives behind the LLC (likely the McLeod/McQuilla family members). Emphasize respect for their property rights and any generational ties to the land; offer assurances (or even compensation) that the development will not diminish their land’s value or usability."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "LCSWF Real Estate LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "025-00-00-012-000",
+        "025-00-00-006-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "LCSWF Real Estate LLC owns two significant parcels in the area and its name suggests an affiliation with the “Lee County Solid Waste Facility” (the county landfill) [Lee County Solid Waste Disposal Facility](https://doczz.net/doc/7876512/lee-county-solid-waste-disposal-facility). The acronym “LCSWF” corresponds to the landfill, indicating this LLC likely serves as the real estate holding entity for that waste management operation [Lee County Solid Waste Disposal Facility](https://doczz.net/doc/7876512/lee-county-solid-waste-disposal-facility). No other business operations or public initiatives are noted for LCSWF Real Estate LLC outside of managing the landfill property; it is not involved in local politics or known development projects beyond the waste facility context [Lee County Solid Waste Disposal Facility](https://doczz.net/doc/7876512/lee-county-solid-waste-disposal-facility). Given its ties to a large corporate waste utility (Republic Services or similar), its role is specific to that industry and unrelated to renewable energy or land speculation in the community.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Controls a major county infrastructure site (landfill); backed by a large waste management company; regular interface with county officials",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the corporate owner’s local management to ensure the project does not impede landfill operations or future expansion. Address any concerns regarding traffic or infrastructure overlap; maintain open communication to keep them neutral. If appropriate, highlight potential benefits (like infrastructure improvements) that could aid their facility."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Wateree Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "025-00-00-076-000",
+        "025-00-00-054-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Wateree Holdings LLC is a South Carolina LLC that holds at least two parcels of land in the vicinity, with evidence pointing to agricultural use. The company has participated in federal farm programs, receiving a total of $38,925 in USDA farm subsidies (primarily conservation and commodity payments) from 2005 through 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A12767556). This indicates that Wateree Holdings LLC’s land is used for farming or kept in conservation, rather than actively developed for other purposes. The beneficial owners are not publicly disclosed, and there are no known corporate affiliations or political contributions linked to this LLC; it appears to be a private farmland investment vehicle with a low public profile [EWG Farm Subsidy Database](https://farm.ewg.org).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns multiple parcels and has longstanding participation in agricultural programs; moderate local presence as a landowner, but no known political activity",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the individual or family behind Wateree Holdings and engage them through a shared agricultural perspective. Emphasize how the development will respect environmental and land conservation values; for example, outline steps to protect soil and water quality on adjacent farmland, and consider offering leases or buyout options if they show interest in a transaction instead of opposition."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring parcels are owned by a mix of local agricultural LLCs and a corporate landholding entity. Two LLCs (including “Jugs Chicken House Farm” and “Wateree Holdings”) appear tied to farming operations and family land, suggesting their primary interest is in agriculture rather than development. Another (McLeod-McQuilla Property LLC) is a private property holding with no public business activities. The remaining owner (LCSWF Real Estate LLC) is likely linked to the county’s solid waste landfill. None of these organizations show obvious involvement in organized development opposition, but the farm-related owners may be inclined toward preserving agricultural land.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Jugs Chicken House Farm LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"025-00-00-086-000\"],\n      \"claims\": \"Jugs Chicken House Farm LLC is a South Carolina limited liability company, evidently established as a poultry farming operation (multiple chicken houses) on rural land in Lee County [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/). The company has no known profile beyond its farm business and holds one parcel (PIN 025-00-00-086-000) with agricultural use; no public filings or news reports indicate any other ventures or political activity by this entity [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/). Poultry farming is a common and economically significant land use in South Carolina’s rural counties, and this LLC fits that pattern, focusing on livestock production rather than real estate development [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small family-run agricultural business; no broad political or economic influence beyond poultry farming\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Farmland preservation\", \"Biosecurity concerns (livestock health)\", \"Local rural lifestyle maintenance\"],\n      \"approach_recommendations\": \"Engage the farm owner directly and address any concerns about construction impacts on their poultry operation (noise, dust, biosecurity). Emphasize measures to protect their farm’s environment and consider offering buffer zones or other incentives to gain their neutrality or support.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"McLeod-McQuilla Property LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"025-00-00-055-000\"],\n      \"claims\": \"McLeod-McQuilla Property LLC is registered in South Carolina, likely representing a joint landholding by the McLeod and McQuilla families (as reflected in its name) for a parcel in Lee County [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/). There is little public information about this LLC aside from county land records; it does not appear in business news or farm subsidy rolls, implying it has no active commercial farming or development projects on record [EWG Farm Subsidy Database](https://farm.ewg.org). The LLC seems to function purely as a private real estate holding entity for family land, with no indications of political donations or community initiatives attributable to it [Blue Book Services](https://www.bluebookservices.com/south-carolina-is-saving-farmland-and-heres-how/).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private family landholding with no public-facing activities; minimal economic or political footprint\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Family land legacy\", \"Property value preservation\", \"Privacy and autonomy over land use\"],\n      \"approach_recommendations\": \"Identify and reach out to the family representatives behind the LLC (likely the McLeod/McQuilla family members). Emphasize respect for their property rights and any generational ties to the land; offer assurances (or even compensation) that the development will not diminish their land’s value or usability.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"LCSWF Real Estate LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"025-00-00-012-000\", \"025-00-00-006-000\"],\n      \"claims\": \"LCSWF Real Estate LLC owns two significant parcels in the area and its name suggests an affiliation with the “Lee County Solid Waste Facility” (the county landfill) [Lee County Solid Waste Disposal Facility](https://doczz.net/doc/7876512/lee-county-solid-waste-disposal-facility). The acronym “LCSWF” corresponds to the landfill, indicating this LLC likely serves as the real estate holding entity for that waste management operation [Lee County Solid Waste Disposal Facility](https://doczz.net/doc/7876512/lee-county-solid-waste-disposal-facility). No other business operations or public initiatives are noted for LCSWF Real Estate LLC outside of managing the landfill property; it is not involved in local politics or known development projects beyond the waste facility context [Lee County Solid Waste Disposal Facility](https://doczz.net/doc/7876512/lee-county-solid-waste-disposal-facility). Given its ties to a large corporate waste utility (Republic Services or similar), its role is specific to that industry and unrelated to renewable energy or land speculation in the community.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Controls a major county infrastructure site (landfill); backed by a large waste management company; regular interface with county officials\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Protecting landfill operations (regulatory compliance, expansion plans)\", \"Avoiding any development conflicts (traffic, road access)\", \"Corporate public relations (community goodwill)\"],\n      \"approach_recommendations\": \"Coordinate with the corporate owner’s local management to ensure the project does not impede landfill operations or future expansion. Address any concerns regarding traffic or infrastructure overlap; maintain open communication to keep them neutral. If appropriate, highlight potential benefits (like infrastructure improvements) that could aid their facility.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-04\",\n      \"name\": \"Wateree Holdings LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"025-00-00-076-000\", \"025-00-00-054-000\"],\n      \"claims\": \"Wateree Holdings LLC is a South Carolina LLC that holds at least two parcels of land in the vicinity, with evidence pointing to agricultural use. The company has participated in federal farm programs, receiving a total of $38,925 in USDA farm subsidies (primarily conservation and commodity payments) from 2005 through 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A12767556). This indicates that Wateree Holdings LLC’s land is used for farming or kept in conservation, rather than actively developed for other purposes. The beneficial owners are not publicly disclosed, and there are no known corporate affiliations or political contributions linked to this LLC; it appears to be a private farmland investment vehicle with a low public profile [EWG Farm Subsidy Database](https://farm.ewg.org).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Owns multiple parcels and has longstanding participation in agricultural programs; moderate local presence as a landowner, but no known political activity\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Land value and return on investment (farm income or land appreciation)\", \"Conservation program incentives\", \"Maintaining agricultural land use tradition\"],\n      \"approach_recommendations\": \"Identify the individual or family behind Wateree Holdings and engage them through a shared agricultural perspective. Emphasize how the development will respect environmental and land conservation values; for example, outline steps to protect soil and water quality on adjacent farmland, and consider offering leases or buyout options if they show interest in a transaction instead of opposition.\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

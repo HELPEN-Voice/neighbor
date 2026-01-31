@@ -5,21 +5,95 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "John & Shelley Barnes",
+      "name": "Cecil W. Watkins Jr.",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "106-48-003"
+        "024-00-00-047-000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "John and Shelley Barnes are listed as landowners in Cochise County, Arizona property records ([publicrecords.netronline.com](https://publicrecords.netronline.com/state/AZ/county/cochise#:~:text=Go%20to%20Data%20Online)). No references in local meetings or news indicate that either has taken a public position on development or energy projects ([www.cochise.az.gov](https://www.cochise.az.gov/CivicAlerts.aspx?AID=384#:~:text=subscriptions%2C%20save%20form%20progress%20and,COCHISE%20COUNTY%20BOARD)).",
+      "claims": "Cecil W. Watkins Jr. is listed as the owner of a rural Lee County parcel (PIN 024-00-00-047-000) in an area where farming is a dominant land use [WIS News](https://www.wistv.com/2023/03/23/county-budgets-expected-reap-massive-revenue-gains-solar-farms-if-projects-are-completed/). The Watkins family has longstanding local ties; for example, a Ben E. Watkins served on the Lee County Council in the early 1990s [Justia](https://law.justia.com/cases/south-carolina/supreme-court/1992/23652-2.html).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime local family",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a well-known local farmer or community leader approach him, emphasizing respect for his family\u2019s land legacy and explaining how the project can support farmland preservation."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Guy C. Smith et al.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-021-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Guy C. Smith (with other co-owners) is associated with a Lee County property (PIN 025-00-00-021-000), and his name appears in numerous property records for the area [RealtyHop](https://www.realtyhop.com/property-records/search/guy-c-smith). There are no indications in available public sources that Smith has taken any public position or spoken out on local development issues (searches yielded only unrelated references) [Yahoo News](https://news.yahoo.com/solar-farms-spark-tension-between-100000229.html).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public roles or visibility",
+      "influence_justification": "Private landowner; no public role",
       "approach_recommendations": {
-        "motivations": [],
-        "engage": "Since their views are not documented, reach out in a friendly, informal way to learn about any concerns or questions they have."
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage through a neighborly introduction or local farming network, focusing on how the project can coexist with and even benefit long-term farm use of the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "James Edward Tolbert",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "024-00-00-133-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Edward Tolbert is listed as the owner of a parcel in Lee County (PIN 024-00-00-133-000), likely agricultural land given the county\u2019s farming profile [WIS News](https://www.wistv.com/2023/03/23/county-budgets-expected-reap-massive-revenue-gains-solar-farms-if-projects-are-completed/). No public statements or documented views on development by Tolbert were found in local records (name searches returned no relevant results) [Yahoo News](https://news.yahoo.com/solar-farms-spark-tension-between-100000229.html).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Approach him in a one-on-one conversation via a mutual local acquaintance, addressing any concerns about protecting his farmland and ensuring minimal disruption to his quiet rural lifestyle."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -37,17 +111,8 @@
       "citations": null
     }
   ],
-  "annotations": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    }
-  ],
-  "overview_summary": "Of the one neighboring landowning household identified, none have expressed a clear stance for or against development, leaving their position classified as unknown. This neighbor is not known to hold any public office or leadership role, suggesting low community influence.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_090318_8749.json",
-  "cached_at": "2026-01-29T09:03:18.875551"
+  "annotations": [],
+  "overview_summary": "None of these three neighboring landowners have a documented public stance on the proposed development (all noted stances are unknown). All own rural land in Lee County, and while one family has a history of local civic roles, the others have low public profiles and influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_124409_5747.json",
+  "cached_at": "2026-01-30T12:44:09.575677"
 }

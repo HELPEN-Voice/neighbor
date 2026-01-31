@@ -1,0 +1,221 @@
+{
+  "timestamp": "2026-01-29T14:55:39.685972",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_144007_3019.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Mayes County",
+    "state": "OK",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Oowa",
+      "entity_category": "Organization",
+      "entity_type": "Trust",
+      "pins": [
+        "490002448",
+        "490002355",
+        "490002449",
+        "490031231",
+        "490002447"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Oklahoma Ordnance Works Authority (OOWA) is a public trust formed in 1960 that acquired the former ordnance plant land in Mayes County ([MidAmerica History](https://maip.com/about-midamerica/history/)). OOWA operates the MidAmerica Industrial Park (MAIP), the largest industrial park in Oklahoma, with a mission to promote industrial development and economic growth ([Wikipedia](https://en.wikipedia.org/wiki/MidAmerica_Industrial_Park)). The Authority actively recruits advanced manufacturing and renewable energy partners, including electric vehicle manufacturer Canoo, and utilizes hydroelectric power from the Grand River Dam Authority ([InsideEVs](https://insideevs.com/news/620010/canoo-build-battery-module-manufacturing-facility-in-oklahoma/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Manages 9,000-acre industrial park; major economic driver",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "local_control"
+        ],
+        "engage": "Engage OOWA leadership through formal channels; emphasize how the project aligns with MidAmerica Industrial Park’s economic development goals and renewable energy initiatives."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Oklahoma Ordnance Works Authority (OOWA) is a public trust formed in 1960 that acquired the former ordnance plant land in Mayes County",
+          "url": "https://maip.com/about-midamerica/history/",
+          "title": "MidAmerica Industrial Park History",
+          "date": "2024-01-29"
+        },
+        {
+          "claim": "OOWA operates the MidAmerica Industrial Park (MAIP), the largest industrial park in Oklahoma",
+          "url": "https://en.wikipedia.org/wiki/MidAmerica_Industrial_Park",
+          "title": "Wikipedia: MidAmerica Industrial Park",
+          "date": "2024-01-29"
+        },
+        {
+          "claim": "The Authority actively recruits advanced manufacturing and renewable energy partners... and utilizes hydroelectric power",
+          "url": "https://insideevs.com/news/620010/canoo-build-battery-module-manufacturing-facility-in-oklahoma/",
+          "title": "Canoo to Build Battery Module Manufacturing Facility in Oklahoma",
+          "date": "2022-11-03"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "United States Of America",
+      "entity_category": "Organization",
+      "entity_type": "Trust",
+      "pins": [
+        "490031235",
+        "490031232",
+        "490031233",
+        "490031236",
+        "490002354"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parcels designated as 'United States of America' in Mayes County typically correspond to lands managed by the U.S. Army Corps of Engineers (USACE), specifically around reservoir boundaries such as Lake Hudson and the Grand River ([USACE Survey Plat](https://www.swt.usace.army.mil/Portals/41/docs/lakes/ftgibson/surveyplats/t19nr18e/SEC2T19NR18E.pdf)). The federal government previously owned the entirety of the Oklahoma Ordnance Works site before transferring portions to the OOWA in 1960 ([Grokipedia](https://grokipedia.com/page/oklahoma_ordnance_works)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "Low",
+      "influence_justification": "Federal land management; limited local political engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the U.S. Army Corps of Engineers Tulsa District office regarding any easement or boundary issues; standard federal land use protocols apply."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Parcels designated as 'United States of America' in Mayes County typically correspond to lands managed by the U.S. Army Corps of Engineers",
+          "url": "https://www.swt.usace.army.mil/Portals/41/docs/lakes/ftgibson/surveyplats/t19nr18e/SEC2T19NR18E.pdf",
+          "title": "USACE Survey Plat Mayes County",
+          "date": "1988-12-01"
+        },
+        {
+          "claim": "The federal government previously owned the entirety of the Oklahoma Ordnance Works site before transferring portions to the OOWA in 1960",
+          "url": "https://grokipedia.com/page/oklahoma_ordnance_works",
+          "title": "Oklahoma Ordnance Works History",
+          "date": "2024-01-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Harris, Ila F & Lillian Tucker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014874",
+        "490014873"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lillian Tucker is a resident of Mayes County who has served as a Library Assistant at the Thomas J. Harrison Pryor Public Library, receiving a promotion to full-time status in December 2020 ([City of Pryor Creek Minutes](https://www.pryorcreek.org/sites/g/files/vyhlif4896/f/agendas/cca_packet_20210105_1.pdf)). No public records were found regarding Ila F. Harris in local news or meeting minutes. Neither individual has a documented public stance on renewable energy development.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Library staff member; no known political leadership role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "local_control"
+        ],
+        "engage": "Reach out personally to build rapport; acknowledge their long-standing presence in the community and emphasize respect for their land and privacy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Lillian Tucker... served as a Library Assistant at the Thomas J. Harrison Pryor Public Library, receiving a promotion to full-time status in December 2020",
+          "url": "https://www.pryorcreek.org/sites/g/files/vyhlif4896/f/agendas/cca_packet_20210105_1.pdf",
+          "title": "Minutes of City Council Meeting Pryor Creek",
+          "date": "2021-01-05"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "Stoner, Larry Allen & Sarah Opdycke & Larry Opdycke",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014872"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Larry Allen Stoner is a resident of Chouteau, Oklahoma, and the widower of Susan Katheleen Stoner, who passed away in February 2023 ([Shipman's Funeral Home](https://www.shipmansfuneralhome.com/obituaries/susan-stoner)). Sarah Opdycke is the daughter of Larry and Susan Stoner; she and her husband, Larry Opdycke, reside in Seneca, South Carolina ([Obituary](https://www.shipmansfuneralhome.com/obituaries/susan-stoner)). The property ownership structure likely reflects this family relationship. No evidence of public participation in zoning or development meetings was found for any of the owners.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private family landowners; partial out-of-state ownership",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "property_value"
+        ],
+        "engage": "Arrange a meeting that accommodates the out-of-state owners (Sarah and Larry Opdycke) if possible, or coordinate through Larry Stoner in Chouteau; acknowledge the family legacy and recent loss."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Larry Allen Stoner is a resident of Chouteau, Oklahoma, and the widower of Susan Katheleen Stoner, who passed away in February 2023",
+          "url": "https://www.shipmansfuneralhome.com/obituaries/susan-stoner",
+          "title": "Obituary for Susan Katheleen Stoner",
+          "date": "2023-02-01"
+        },
+        {
+          "claim": "Sarah Opdycke is the daughter of Larry and Susan Stoner; she and her husband, Larry Opdycke, reside in Seneca, South Carolina",
+          "url": "https://www.shipmansfuneralhome.com/obituaries/susan-stoner",
+          "title": "Obituary for Susan Katheleen Stoner",
+          "date": "2023-02-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 620337,
+    "thinking_count": 27
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-01-30T18:43:02.766427",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Lee County",
+    "state": "SC",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both profiled neighbors have no documented stance on the development (2 unknown out of 2). Neither individual holds a public office or notable leadership role, indicating no high-influence neighbors; both appear to be private landowners with limited formal community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Douglas Watson Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-153-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Douglas Watson Jr. is a private landowner residing in Bishopville, Lee County, South Carolina [Whitepages](https://www.whitepages.com/name/Douglas-Watson/Bishopville-SC). He is not documented as holding any local public office or as having made any public statements on development issues [Whitepages](https://www.whitepages.com/name/Douglas-Watson/Bishopville-SC).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No official role; private landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or community elder initiate contact, emphasizing how any project plans respect farmland heritage and the long-term legacy of the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Francine Robinson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-066-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Francine Robinson, 80, is a long-time landowner residing on Dampier Road near Lamar in rural Lee County [Public Records Directory](https://www.menstoppingviolence.org/people/francine-robinson/). She has not been noted in any public forums or news reports voicing opinions on development, nor does she hold any known civic positions [Whitepages](https://www.whitepages.com/name/Francine-Robinson/Lamar-SC).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elderly resident; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage her through a friendly personal visit by a community member she trusts, focusing on preserving the quiet rural character of her land and family legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both profiled neighbors have no documented stance on the development (2 unknown out of 2). Neither individual holds a public office or notable leadership role, indicating no high-influence neighbors; both appear to be private landowners with limited formal community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Douglas Watson Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"025-00-00-153-000\"],\n      \"claims\": \"Douglas Watson Jr. is a private landowner residing in Bishopville, Lee County, South Carolina [Whitepages](https://www.whitepages.com/name/Douglas-Watson/Bishopville-SC). He is not documented as holding any local public office or as having made any public statements on development issues [Whitepages](https://www.whitepages.com/name/Douglas-Watson/Bishopville-SC).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No official role; private landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local farmer or community elder initiate contact, emphasizing how any project plans respect farmland heritage and the long-term legacy of the land.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Francine Robinson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"025-00-00-066-000\"],\n      \"claims\": \"Francine Robinson, 80, is a long-time landowner residing on Dampier Road near Lamar in rural Lee County [Public Records Directory](https://www.menstoppingviolence.org/people/francine-robinson/). She has not been noted in any public forums or news reports voicing opinions on development, nor does she hold any known civic positions [Whitepages](https://www.whitepages.com/name/Francine-Robinson/Lamar-SC).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Elderly resident; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Engage her through a friendly personal visit by a community member she trusts, focusing on preserving the quiet rural character of her land and family legacy.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

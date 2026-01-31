@@ -1,37 +1,37 @@
 {
-  "run_id": "7d74537d-0820-49c3-8546-01492342f35c",
-  "coordinates": "31.649194,-110.346861",
-  "state_code": "AZ",
-  "parcels_analyzed": 29,
+  "run_id": "d694c0c0-9a48-427f-be46-f10dad8a5bec",
+  "coordinates": "34.247731,-80.157798",
+  "state_code": "SC",
+  "parcels_analyzed": 30,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 4,
+    "median_structure_value": 998750.0,
+    "formatted": "$998,750",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
   },
   "land_value_proxy": {
-    "valid_samples": 0,
-    "median_value_per_acre": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 27,
+    "median_value_per_acre": 44102.5045944478,
+    "formatted": "$44,103/acre",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
   },
-  "total_property_value": null,
-  "total_land_value": null,
-  "final_radius_miles": 1.5,
+  "total_property_value": 10137250.0,
+  "total_land_value": 130592950.0,
+  "final_radius_miles": 1.0,
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "N/A",
-    "land_risk_level": "UNKNOWN",
-    "land_risk_class": "risk-unknown",
-    "land_valid_samples": "0",
-    "parcels_analyzed": "29",
-    "total_property_value": "N/A",
-    "total_land_value": "N/A",
-    "final_radius_miles": "1.50"
+    "median_structure_value": "$998,750",
+    "wealth_risk_level": "HIGH",
+    "wealth_risk_class": "risk-high",
+    "wealth_valid_samples": "4",
+    "median_land_value_acre": "$44,103/acre",
+    "land_risk_level": "HIGH",
+    "land_risk_class": "risk-high",
+    "land_valid_samples": "27",
+    "parcels_analyzed": "30",
+    "total_property_value": "$10,137,250",
+    "total_land_value": "$130,592,950",
+    "final_radius_miles": "1.00"
   }
 }

@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-01-29T15:00:42.071580",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260129_143155_6354.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Mayes County",
+    "state": "OK",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Robert Bennett",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014875"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert Bennett is identified as a local landowner. A prominent local figure, R. Wade Bennett (Robert Wade Bennett) of Bennett Surveying in Chouteau, passed away in May 2023 ([Oklahoma Board of Licensure](https://oklahoma.gov/content/dam/ok/en/pes/documents/bulletin/2023%20FINAL.pdf)). It is unconfirmed if the subject property belongs to his estate or a different Robert Bennett. No evidence of a living Robert Bennett taking a public stance on development in Mayes County was found.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Prominent local surveyor of same name is deceased (2023)",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Verify if the property is held by the estate of R. Wade Bennett. If so, approach the executor or surviving family members with condolences and respect for the family's long-standing professional role in local land surveying."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "A prominent local figure, R. Wade Bennett (Robert Wade Bennett) of Bennett Surveying in Chouteau, passed away in May 2023",
+          "url": "https://oklahoma.gov/content/dam/ok/en/pes/documents/bulletin/2023%20FINAL.pdf",
+          "title": "Oklahoma State Board of Licensure for Professional Engineers and Land Surveyors Bulletin",
+          "date": "2023-06-29"
+        }
+      ],
+      "verification_notes": "Identified R. Wade Bennett (Surveyor) of Chouteau as deceased (2023). Draft citation 'mayesrwd5.com' was generic and did not support specific claims. Stance remains unknown."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Stephen W & Marsha E Spencer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014877"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Stephen and Marsha Spencer reside at 392 Pryor Creek Rd in Chouteau ([National Public Data](https://nationalpublicdata.com/people/s/steve-spencer/ok/)). Records indicate they relocated to Chouteau from Mound Valley, Kansas, rather than North Carolina ([National Public Data](https://nationalpublicdata.com/people/s/steve-spencer/ok/)). They have no recorded history of involvement in local boards or development debates since moving to Oklahoma.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Relocated from Kansas; no public roles found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Welcome the Spencers with a one-on-one meeting. As they relocated from Kansas relatively recently, focus on transparency and education about the project's local impact."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Stephen and Marsha Spencer reside at 392 Pryor Creek Rd in Chouteau",
+          "url": "https://nationalpublicdata.com/people/s/steve-spencer/ok/",
+          "title": "Steve Spencer Profile - National Public Data",
+          "date": "2025-01-01"
+        },
+        {
+          "claim": "Records indicate they relocated to Chouteau from Mound Valley, Kansas, rather than North Carolina",
+          "url": "https://nationalpublicdata.com/people/s/steve-spencer/ok/",
+          "title": "Steve Spencer Profile - National Public Data",
+          "date": "2025-01-01"
+        }
+      ],
+      "verification_notes": "Corrected relocation origin from Raleigh, NC to Mound Valley, KS based on address history records. Verified address match."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Patrick J & Donna L Bannister",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014856"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The address 600 Pryor Creek Loop is a valid residential property in Chouteau built in 1980 ([Zillow](https://www.zillow.com/homedetails/600-Pryor-Creek-Loop-Chouteau-OK-74337/93312863_zpid/)). However, the specific residency of Patrick J. Bannister could not be verified in available public search results, and no public record of advocacy or board membership was found for this name.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public positions found; identity unverified",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Verify the current occupant of 600 Pryor Creek Loop before formal engagement. If the Bannisters are confirmed residents, approach via a trusted neighbor to establish a connection."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The address 600 Pryor Creek Loop is a valid residential property in Chouteau built in 1980",
+          "url": "https://www.zillow.com/homedetails/600-Pryor-Creek-Loop-Chouteau-OK-74337/93312863_zpid/",
+          "title": "600 Pryor Creek Loop Property Details",
+          "date": "2024-01-01"
+        }
+      ],
+      "verification_notes": "Could not verify 'Patrick J Bannister' at this address in available datasets. Removed unverified biographical details (age, birth year) to protect privacy and ensure accuracy. Address is valid."
+    },
+    {
+      "neighbor_id": "N-04",
+      "name": "William T Keirsey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "490014864"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William T. “Tommy” Keirsey (1936–2018) was a Pryor native and 20-year U.S. Air Force veteran who owned the Windsong Buffalo Ranch in Adair ([Moore Funeral Home](https://www.moorefuneral.com/m/obituaries/William-Keirsey/)). He passed away in September 2018, leaving survivors including his son Dub Keirsey of Chouteau ([Moore Funeral Home](https://www.moorefuneral.com/m/obituaries/William-Keirsey/)). The property is likely held by his estate or heirs.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Deceased; family holds legacy land",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Coordinate with Keirsey’s son, Dub Keirsey of Chouteau, or the estate representative. Emphasize respect for the family’s long legacy with the land and discuss how the development plans can align with preserving that heritage."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "William T. “Tommy” Keirsey (1936–2018) was a Pryor native and 20-year U.S. Air Force veteran who owned the Windsong Buffalo Ranch in Adair",
+          "url": "https://www.moorefuneral.com/m/obituaries/William-Keirsey/",
+          "title": "Obituary for William T. Keirsey",
+          "date": "2018-09-04"
+        },
+        {
+          "claim": "He passed away in September 2018, leaving survivors including his son Dub Keirsey of Chouteau",
+          "url": "https://www.moorefuneral.com/m/obituaries/William-Keirsey/",
+          "title": "Obituary for William T. Keirsey",
+          "date": "2018-09-04"
+        }
+      ],
+      "verification_notes": "Confirmed death and identified heir (Dub Keirsey) via obituary. Updated engagement strategy to target heirs."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 538633,
+    "thinking_count": 36
+  }
+}

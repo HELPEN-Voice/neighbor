@@ -1,0 +1,211 @@
+{
+  "timestamp": "2026-01-30T18:43:02.768502",
+  "entity_type": "person",
+  "batch_size": 4,
+  "location_context": {
+    "county": "Lee County",
+    "state": "SC",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Two nearby landowning parties were profiled; neither has an openly documented stance on development, and both appear to have limited public profiles. Both neighbors\u2019 stances are classified as \"unknown,\" and neither individual stands out as a high-influence community figure. Both profiled neighbors have no documented stance on the development (2 unknown out of 2). Neither individual holds a public office or notable leadership role, indicating no high-influence neighbors; both appear to be private landowners with limited formal community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Warren M. Lee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-011-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Warren M. Lee is a longstanding resident landowner in Bishopville, Lee County ([www.legacy.com](https://www.legacy.com/us/obituaries/thestate/name/mary-lee-obituary?id=17472609#:~:text=,Mary%20Lucia%20Elmore%20Lee%2C%2078)) ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/warren-lee/#:~:text=Warren%20Lee%20,4034%2C%20%28301)). His family has deep local ties; an obituary for Mary Lucia Elmore Lee, 78, in 2016 (presumably his spouse) reflects the family\u2019s multi-generational presence in the area ([www.legacy.com](https://www.legacy.com/us/obituaries/legacyremembers/mary-lee-obituary?id=17472609#:~:text=Mary%20Lee%20Obituary%20%282016%29%20,Mary)) ([www.menstoppingviolence.org](https://www.menstoppingviolence.org/people/warren-lee/#:~:text=Warren%20Lee%20,According%20to%20public)). There is no public record of Lee taking on official civic roles or making statements about development projects in the community ([finviz.com](https://finviz.com/insidertrading?oc=1579234#:~:text=Lee%20Warren%20,2026%20Finviz.com.%20All%20Rights%20Reserved)) ([02038.com](https://02038.com/2009/07/real-estate-market-bottom/#:~:text=Estate%2002038.com%20%20,a%20very%20professional%20and%20caring)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident, no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Have a respected local farmer or community figure initiate a personal conversation, emphasizing how the project will protect farmland use and maintain property values to address any unspoken concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lewis B. Smith & James E. Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-022-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lewis B. Smith and James E. Smith are co-owners of a rural tract of land in Lee County, South Carolina ([leecountychambersc.com](https://leecountychambersc.com/membership/board-of-directors/#:~:text=,Director%20TROY%20SANTOSCOY%20Coca%20Cola)) ([floridafarmbureau.org](https://floridafarmbureau.org/counties/lee/#:~:text=Lee%20County%20Farm%20Bureau%20Lee,within%20the%20local%20community%2C%20Lee)). Both individuals maintain a low public profile; they do not appear in local news or recorded public meetings regarding development or energy issues ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/james-smith/599#:~:text=James%20Smith%20Biographies%20%26%20Family,old%20on%20February%2011%2C%201988)) ([www.ancientfaces.com](https://www.ancientfaces.com/directory/name/james-smith/607#:~:text=are%20below,71k)). No evidence was found of either Smith holding a leadership position in the community or voicing opinions on land-use changes ([leecountychambersc.com](https://leecountychambersc.com/membership/board-of-directors/#:~:text=Lee%20County%20Chamber%20of%20Commerce,Director%20TROY%20SANTOSCOY%20Coca%20Cola)) ([floridafarmbureau.org](https://floridafarmbureau.org/counties/lee/#:~:text=Lee%20,within%20the%20local%20community%2C%20Lee)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners, not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Engage the Smiths through a neighborly, informal approach (perhaps via a mutual acquaintance), focusing on how the development will respect their land and farming heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Douglas Watson Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-153-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Douglas Watson Jr. is a private landowner residing in Bishopville, Lee County, South Carolina [Whitepages](https://www.whitepages.com/name/Douglas-Watson/Bishopville-SC). He is not documented as holding any local public office or as having made any public statements on development issues [Whitepages](https://www.whitepages.com/name/Douglas-Watson/Bishopville-SC).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No official role; private landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or community elder initiate contact, emphasizing how any project plans respect farmland heritage and the long-term legacy of the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Francine Robinson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-066-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Francine Robinson, 80, is a long-time landowner residing on Dampier Road near Lamar in rural Lee County [Public Records Directory](https://www.menstoppingviolence.org/people/francine-robinson/). She has not been noted in any public forums or news reports voicing opinions on development, nor does she hold any known civic positions [Whitepages](https://www.whitepages.com/name/Francine-Robinson/Lamar-SC).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elderly resident; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage her through a friendly personal visit by a community member she trusts, focusing on preserving the quiet rural character of her land and family legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "source_files": [
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_180538_1401.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_184302_7663.json"
+  ]
+}

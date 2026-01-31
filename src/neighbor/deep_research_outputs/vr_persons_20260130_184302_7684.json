@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-01-30T19:18:07.549672",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_184302_7684.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Lee County",
+    "state": "SC",
+    "city": "Bishopville"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Warren M. Lee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-011-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Warren M. Lee is a resident of Lee County and the son of Mary Lucia Lee, a long-time local landowner ([SC DHEC Enforcement Report](https://www.des.sc.gov/sites/des/files/docs/Environment/docs/Enforcement/2011/SeptemberReport.pdf)). In 2011, Lee was the subject of a South Carolina DHEC enforcement order regarding the open dumping of solid waste on family property ([SC DHEC Enforcement Report](https://www.des.sc.gov/sites/des/files/docs/Environment/docs/Enforcement/2011/SeptemberReport.pdf)). There is no public record of him holding elected office or taking a public stance on renewable energy development.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public office; history of environmental non-compliance",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Approach with caution given past regulatory history; emphasize how the project ensures professional land management and compliance with all environmental standards."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Warren M. Lee is the son of Mary Lucia Lee and was subject to a 2011 DHEC enforcement order for open dumping.",
+          "url": "https://www.des.sc.gov/sites/des/files/docs/Environment/docs/Enforcement/2011/SeptemberReport.pdf",
+          "title": "SC DHEC Environmental Enforcement Report September 2011",
+          "date": "2011-09-08"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lewis B. Smith & James E. Smith",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-022-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lewis B. Smith and James E. Smith are brothers and landowners in the region, identified as the sons of the late Thelma Smith of the Mt. Elon Baptist Church community ([The State Obituary](https://www.legacy.com/us/obituaries/thestate/name/thelma-smith-obituary?id=12577517)). Lewis B. Smith has been associated with an address in Florence, SC ([The State Obituary](https://www.legacy.com/us/obituaries/thestate/name/thelma-smith-obituary?id=12577517)). They maintain a low public profile with no documented leadership roles or public statements regarding development.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners, not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage the Smiths through a neighborly, informal approach (perhaps via a mutual acquaintance at Mt. Elon Baptist Church), focusing on how the development will respect their land and farming heritage."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified as sons of Thelma Smith with ties to Mt. Elon Baptist Church.",
+          "url": "https://www.legacy.com/us/obituaries/thestate/name/thelma-smith-obituary?id=12577517",
+          "title": "Obituary for Thelma Smith",
+          "date": "2010-08-11"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Douglas Watson Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-153-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Douglas Watson Jr. is a private landowner residing in the Bishopville area ([Star-News Obituary](https://www.ncgenweb.us/newhanover/obits/sept2008obits.htm)). He appears in local records as a family member of long-time residents, such as Elma Tharp Rooks ([Star-News Obituary](https://www.ncgenweb.us/newhanover/obits/sept2008obits.htm)). No public record exists of him holding civic office or expressing views on land-use planning.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No official role; private landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or community elder initiate contact, emphasizing how any project plans respect farmland heritage and the long-term legacy of the land."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Listed as a survivor in the obituary of Elma Tharp Rooks in Bishopville.",
+          "url": "https://www.ncgenweb.us/newhanover/obits/sept2008obits.htm",
+          "title": "Obituary for Elma Tharp Rooks",
+          "date": "2008-09-14"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Francine Robinson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "025-00-00-066-000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Francine Robinson (born approx. 1958) is a landowner residing on Dampier Road in Lamar, Lee County ([National Public Data](https://nationalpublicdata.com/people/r/francine-robinson/)). She is a member of the local Robinson family, with ties to the Hartsville and Lamar communities ([Hines Funeral Home Obituary](https://www.hinesfuneralhome.com/obituaries/Shirley-Thomas?obId=4282437)). There is no evidence of her participation in public zoning hearings or development opposition.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy",
+          "privacy_quiet"
+        ],
+        "engage": "Engage her through a friendly personal visit by a community member she trusts, focusing on preserving the quiet rural character of her land and family legacy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Francine Robinson resides on Dampier Road in Lamar, SC.",
+          "url": "https://nationalpublicdata.com/people/r/francine-robinson/",
+          "title": "Public Record Profile for Francine Robinson",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Identified as a family member in the obituary of Shirley Thomas.",
+          "url": "https://www.hinesfuneralhome.com/obituaries/Shirley-Thomas?obId=4282437",
+          "title": "Obituary for Shirley Thomas",
+          "date": "2010-08-11"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 4,
+    "profiles_output": 4,
+    "total_tokens": 713566,
+    "thinking_count": 30
+  }
+}

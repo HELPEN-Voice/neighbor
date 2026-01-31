@@ -1,0 +1,32 @@
+[
+  {
+    "marker_char": "1",
+    "text": "OOWA",
+    "full_name": "Oowa",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "CARNES",
+    "full_name": "Teresa & Michael Carnes",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "SMITH",
+    "full_name": "Daniel A. Smith & Katiann Smith",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  }
+]
