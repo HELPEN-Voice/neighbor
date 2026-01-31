@@ -635,6 +635,15 @@ class NeighborOrchestrator:
             else:
                 lat, lon = None, None
 
+            # Load raw parcels from cache for map generation
+            raw_parcels_file = output_dir / "raw_parcels.json"
+            if raw_parcels_file.exists():
+                try:
+                    with open(raw_parcels_file, "r") as f:
+                        self.finder.raw_parcels = json.load(f)
+                except Exception:
+                    pass
+
             stats = verified_result["stats"]
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Verification complete:")
             print(f"   Files processed: {stats['files_processed']}")
