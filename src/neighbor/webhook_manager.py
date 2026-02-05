@@ -21,13 +21,13 @@ class WebhookManagerClient:
     """Client for interacting with the webhook server."""
 
     _instance = None
-    _events: Dict[str, asyncio.Event] = {}
-    _results: Dict[str, Any] = {}
 
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
             cls._instance._initialized = False
+            cls._instance._events: Dict[str, asyncio.Event] = {}
+            cls._instance._results: Dict[str, Any] = {}
         return cls._instance
 
     def __init__(self):
@@ -257,6 +257,12 @@ class WebhookManagerClient:
                 "citations": [],
                 "research_steps": [],
             }
+
+    def clear(self):
+        """Clear all cached events and results."""
+        self._events.clear()
+        self._results.clear()
+        logger.info("🧹 Cleared webhook manager client cache")
 
     def is_webhook_configured(self) -> bool:
         """Check if webhook URL is properly configured."""

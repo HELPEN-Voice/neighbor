@@ -180,8 +180,30 @@ class WebhookManager:
 
     def cleanup_old_responses(self, max_age_seconds: int = 3600) -> int:
         """Clean up old responses to prevent memory buildup."""
-        # TODO: Implement cleanup based on timestamp
-        return 0
+        now = datetime.now()
+        to_remove = []
+        for rid, resp in self.responses.items():
+            ts = resp.get("timestamp")
+            if ts:
+                try:
+                    resp_time = datetime.fromisoformat(ts)
+                    if (now - resp_time).total_seconds() > max_age_seconds:
+                        to_remove.append(rid)
+                except Exception:
+                    pass
+        for rid in to_remove:
+            self.responses.pop(rid, None)
+            self.callbacks.pop(rid, None)
+            self.data.pop(rid, None)
+        return len(to_remove)
+
+    def clear_all(self) -> int:
+        """Clear all stored responses, callbacks, and data."""
+        count = len(self.responses)
+        self.responses.clear()
+        self.callbacks.clear()
+        self.data.clear()
+        return count
 
 
 # Create singleton instance
@@ -197,6 +219,14 @@ async def root():
         "pending_callbacks": len(webhook_manager.callbacks),
         "stored_responses": len(webhook_manager.responses),
     }
+
+
+@app.post("/clear")
+async def clear_state():
+    """Clear all cached responses and state for a fresh run."""
+    count = webhook_manager.clear_all()
+    logger.info(f"🧹 Cleared {count} cached responses via /clear endpoint")
+    return {"status": "ok", "cleared": count}
 
 
 @app.get("/webhooks/status/{response_id}")

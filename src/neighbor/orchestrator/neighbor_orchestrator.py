@@ -198,8 +198,8 @@ def delete_html_outputs(base_dir: Path = None):
     html_dir = base_dir / "neighbor_html_outputs"
     if html_dir.exists():
         for f in html_dir.glob("*.html"):
-            f.unlink()
-        print(f"   🧹 Deleted HTML outputs")
+            subprocess.run(["trash", str(f)], check=False)
+        print(f"   🧹 Trashed HTML outputs")
 
 
 def delete_pdf_outputs(base_dir: Path = None):
@@ -209,8 +209,8 @@ def delete_pdf_outputs(base_dir: Path = None):
     for pdf_dir in [base_dir / "individual_pdf_reports", base_dir / "combined_pdf_reports"]:
         if pdf_dir.exists():
             for f in pdf_dir.glob("*.pdf"):
-                f.unlink()
-    print(f"   🧹 Deleted PDF outputs")
+                subprocess.run(["trash", str(f)], check=False)
+    print(f"   🧹 Trashed PDF outputs")
 
 
 def delete_map_outputs(base_dir: Path = None):
@@ -221,8 +221,98 @@ def delete_map_outputs(base_dir: Path = None):
     if map_dir.exists():
         for f in map_dir.glob("*"):
             if f.is_file():
-                f.unlink()
-        print(f"   🧹 Deleted map outputs")
+                subprocess.run(["trash", str(f)], check=False)
+        print(f"   🧹 Trashed map outputs")
+
+
+def _read_last_location(output_dir: Path) -> Optional[Dict[str, Any]]:
+    """Read the location from the last run for cache invalidation."""
+    loc_file = output_dir / ".last_location"
+    if loc_file.exists():
+        try:
+            with open(loc_file, "r") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return None
+
+
+def _write_last_location(output_dir: Path, lat: float = None, lon: float = None, pin: str = None):
+    """Save current location for cache comparison on next run."""
+    loc_file = output_dir / ".last_location"
+    data = {}
+    if lat is not None and lon is not None:
+        data["lat"] = lat
+        data["lon"] = lon
+    if pin:
+        data["pin"] = pin
+    with open(loc_file, "w") as f:
+        json.dump(data, f)
+
+
+def _location_matches_last(output_dir: Path, lat: float = None, lon: float = None, pin: str = None) -> bool:
+    """Check if current location matches the last run.
+
+    Returns True (no cleanup needed) when there is no previous run data.
+    Returns False if stale caches exist but no tracking file is present
+    (handles migration from before this tracking was added).
+    """
+    last = _read_last_location(output_dir)
+    if not last:
+        # No tracking file. If existing caches are present they're from before
+        # tracking was added — treat as location change to force cleanup.
+        has_existing_caches = (
+            (output_dir / "neighbor_final_merged.json").exists()
+            or bool(list(output_dir.glob("batch_*.json")))
+        )
+        return not has_existing_caches
+
+    if pin and last.get("pin"):
+        return pin == last["pin"]
+
+    if (
+        lat is not None
+        and lon is not None
+        and last.get("lat") is not None
+        and last.get("lon") is not None
+    ):
+        return abs(lat - last["lat"]) < 1e-6 and abs(lon - last["lon"]) < 1e-6
+
+    # Different search types (coords vs PIN) — treat as location change
+    return False
+
+
+def clean_all_outputs(base_dir: Path = None):
+    """Full cleanup for a fresh run at a new location."""
+    if base_dir is None:
+        base_dir = Path(__file__).parent.parent
+
+    output_dir = base_dir / "neighbor_outputs"
+    dr_output_dir = base_dir / "deep_research_outputs"
+
+    delete_batch_caches(base_dir)
+    delete_html_outputs(base_dir)
+    delete_pdf_outputs(base_dir)
+    delete_map_outputs(base_dir)
+
+    # Trash cached JSON files
+    if output_dir.exists():
+        for pattern in [
+            "neighbor_final_merged.json",
+            "regrid_*.json",
+            "raw_parcels.json",
+            "location.json",
+            "local_cluster_benchmark.json",
+        ]:
+            for f in output_dir.glob(pattern):
+                subprocess.run(["trash", str(f)], check=False)
+
+    # Trash deep research outputs
+    if dr_output_dir.exists():
+        for f in dr_output_dir.glob("*.json"):
+            subprocess.run(["trash", str(f)], check=False)
+
+    print(f"   🧹 Cleaned all outputs for fresh run at new location")
 
 
 def load_verified_profiles(vr_files: List[str]) -> List[Dict]:
@@ -370,6 +460,35 @@ class NeighborOrchestrator:
         # Check cache - smart caching / resume behavior
         output_dir = Path(__file__).parent.parent / "neighbor_outputs"
         dr_output_dir = Path(__file__).parent.parent / "deep_research_outputs"
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        # ── Location change detection ──
+        # If coordinates changed since last run, clean all stale caches so
+        # we don't accidentally reuse another location's research data.
+        if location:
+            _req_lat, _req_lon = [float(x.strip()) for x in location.split(",")]
+            if not _location_matches_last(output_dir, lat=_req_lat, lon=_req_lon):
+                last = _read_last_location(output_dir)
+                if last:
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 New location detected, cleaning stale caches...")
+                    print(f"   Last: ({last.get('lat')}, {last.get('lon')}, pin={last.get('pin')})")
+                    print(f"   Current: ({_req_lat}, {_req_lon})")
+                else:
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Stale caches detected without location tracking, cleaning...")
+                clean_all_outputs()
+            _write_last_location(output_dir, lat=_req_lat, lon=_req_lon)
+        elif pin:
+            if not _location_matches_last(output_dir, pin=pin):
+                last = _read_last_location(output_dir)
+                if last:
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 New location detected, cleaning stale caches...")
+                    print(f"   Last PIN: {last.get('pin')}, coords: ({last.get('lat')}, {last.get('lon')})")
+                    print(f"   Current PIN: {pin}")
+                else:
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Stale caches detected without location tracking, cleaning...")
+                clean_all_outputs()
+            _write_last_location(output_dir, pin=pin)
+
         cache_file = output_dir / "neighbor_final_merged.json"
 
         # Cache detection: check what files exist for these coordinates
