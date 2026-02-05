@@ -681,6 +681,24 @@ class NeighborOrchestrator:
             )
 
             # Check if we're resuming with cached regrid data (resolved was set in Scenario 2 check)
+            # Also check regrid_all.json directly — Scenario 2 only triggers when
+            # neighbor_final_merged.json exists, but on partial runs (some batches failed)
+            # that file is never created. We still want to reuse batch caches.
+            if resolved is None and location:
+                regrid_file = output_dir / "regrid_all.json"
+                if regrid_file.exists():
+                    try:
+                        with open(regrid_file, "r") as f:
+                            regrid_data = json.load(f)
+                        regrid_neighbors = regrid_data.get("neighbors", [])
+                        # Check if any batch caches exist for this regrid data
+                        existing_caches = list(output_dir.glob("batch_*.json"))
+                        if regrid_neighbors and existing_caches:
+                            resolved = regrid_neighbors
+                            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📂 Found regrid_all.json + {len(existing_caches)} batch caches, resuming partial run")
+                    except Exception as e:
+                        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ Failed to load regrid_all.json: {e}")
+
             resuming_with_cache = resolved is not None and len(resolved) > 0
 
             # 1) Determine target parcel and get adjacent parcels
