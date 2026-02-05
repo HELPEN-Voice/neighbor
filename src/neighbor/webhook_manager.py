@@ -105,7 +105,7 @@ class WebhookManagerClient:
 
         try:
             # Connect to WebSocket endpoint
-            async with websockets.connect(ws_url) as websocket:
+            async with websockets.connect(ws_url, ping_interval=30, ping_timeout=10) as websocket:
                 logger.info(f"🔌 Connected to WebSocket: {ws_url}")
 
                 # Set up timeout
