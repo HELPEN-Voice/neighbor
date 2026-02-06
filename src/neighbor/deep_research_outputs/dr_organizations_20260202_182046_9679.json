@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-02-02T18:20:46.967999",
+  "entity_type": "organization",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The adjacent landowners are private revocable living trusts, indicating family-held property with no evident corporate or organizational backing ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,flexibility%20in%20managing%20your%20estate)). These entities show no public business registrations or community leadership roles, suggesting limited influence and an unclear stance on the development (likely driven by personal land use interests).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bouchikas Family Revocable Lifetime Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10606026C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bouchikas Family Revocable Lifetime Trust appears to be a private estate-planning trust holding land in Cochise County ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,flexibility%20in%20managing%20your%20estate)). No records of this trust were found in Arizona’s corporate registries or political contribution databases, indicating it is not an active business or political entity (likely a passive landowner) ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,flexibility%20in%20managing%20your%20estate)). No public statements or filings were identified regarding the trust’s position on local developments (beneficial owners and stance remain undisclosed).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family trust with no public profile or institutional affiliations; no significant economic or political activity detected",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify the individual trustee or family representative and engage them informally; emphasize respect for their land legacy and address any concerns about project impacts on their property"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lisa E Stansbury Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10603044B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lisa E. Stansbury Living Trust is a personal living trust holding title to property in Cochise County, serving an estate planning function ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,at%20any%20time%20before%20your)). The trust has no identifiable corporate filings or business operations in Arizona, and there are no noted political donations or public positions associated with its trustee or beneficiaries. The ownership and decision-making are presumed to lie with Lisa E. Stansbury (or her trustee), but no public information clarifies the trust’s view on new development projects.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Individual living trust with no public or economic influence; not linked to any community or business leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the trust’s grantor or trustee (likely Lisa E. Stansbury) with community-focused dialogue; address any personal impact concerns and offer assurances or benefits that align with the trust’s long-term property interests"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The adjacent landowners are private revocable living trusts, indicating family-held property with no evident corporate or organizational backing ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,flexibility%20in%20managing%20your%20estate)). These entities show no public business registrations or community leadership roles, suggesting limited influence and an unclear stance on the development (likely driven by personal land use interests).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Bouchikas Family Revocable Lifetime Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"10606026C\"],\n      \"claims\": \"Bouchikas Family Revocable Lifetime Trust appears to be a private estate-planning trust holding land in Cochise County ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,flexibility%20in%20managing%20your%20estate)). No records of this trust were found in Arizona’s corporate registries or political contribution databases, indicating it is not an active business or political entity (likely a passive landowner) ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,flexibility%20in%20managing%20your%20estate)). No public statements or filings were identified regarding the trust’s position on local developments (beneficial owners and stance remain undisclosed).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family trust with no public profile or institutional affiliations; no significant economic or political activity detected\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Preserve property value and rural character\", \"Avoid potential nuisances or risks to their land\"],\n      \"approach_recommendations\": \"Identify the individual trustee or family representative and engage them informally; emphasize respect for their land legacy and address any concerns about project impacts on their property\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Lisa E Stansbury Living Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"10603044B\"],\n      \"claims\": \"Lisa E. Stansbury Living Trust is a personal living trust holding title to property in Cochise County, serving an estate planning function ([cardislawgroup.com](https://cardislawgroup.com/arizona/cochise-county/bisbee/estate-planning/revocable-living-trust/#:~:text=A%20revocable%20living%20trust%20is,at%20any%20time%20before%20your)). The trust has no identifiable corporate filings or business operations in Arizona, and there are no noted political donations or public positions associated with its trustee or beneficiaries. The ownership and decision-making are presumed to lie with Lisa E. Stansbury (or her trustee), but no public information clarifies the trust’s view on new development projects.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Individual living trust with no public or economic influence; not linked to any community or business leadership roles\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Personal privacy and property enjoyment\", \"Concerns over development affecting land value or use\"],\n      \"approach_recommendations\": \"Approach the trust’s grantor or trustee (likely Lisa E. Stansbury) with community-focused dialogue; address any personal impact concerns and offer assurances or benefits that align with the trust’s long-term property interests\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,169 @@
+{
+  "timestamp": "2026-02-02T18:45:03.597624",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260202_182046_0460.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Decker Roy F Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10603012G"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Roy F. Decker Living Trust has been associated with residential property ownership in Cochise County. Records indicate the Trust sold a residential property on West Desert Mountain Trail in Bisbee in April 2022 ([Homes.com](https://www.homes.com/property/5520-w-desert-mountain-trail-bisbee-az/ej2y0n2f4945j/)). Additionally, the Trust was listed as the seller of a property on East Ramsey Road in Hereford to the Mountain Vista Baptist Church ([Homes.com](https://www.homes.com/property/7044-e-ramsey-rd-hereford-az/nmwhy242ydbpk/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner trust with no known broader community influence or leadership.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Sold property on West Desert Mountain Trail in Bisbee in April 2022",
+          "url": "https://www.homes.com/property/5520-w-desert-mountain-trail-bisbee-az/ej2y0n2f4945j/",
+          "title": "5520 W Desert Mountain Trail Property History",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Seller of property on East Ramsey Road in Hereford to Mountain Vista Baptist Church",
+          "url": "https://www.homes.com/property/7044-e-ramsey-rd-hereford-az/nmwhy242ydbpk/",
+          "title": "7044 E Ramsey Rd Property History",
+          "date": "2026-02-02"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "R V City Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "10606008A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "R V City, Inc. was incorporated in Arizona on August 3, 1987, and has operated in Cochise County for over three decades ([Better Business Bureau](https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902)). The company specializes in recreational vehicle sales and is located at 2095 N Highway 90 in Huachuca City, AZ ([RV City Website](https://www.rvcity.net/)). It is led by Mr. Ronald Hoffman, who serves as the President of R V City, Inc. ([Better Business Bureau](https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902)). Ronald Hoffman and his wife Susan have been documented as donors to the Empire Ranch Foundation, a local organization dedicated to preserving the history and landscape of the Empire Ranch ([Empire Ranch Foundation Newsletter](https://www.empireranchfoundation.org/wp-content/uploads/2017/12/Dec2017-Final.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Established local business (over 35 years in operation); leadership supports local heritage conservation efforts via the Empire Ranch Foundation.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate dialogue with President Ronald Hoffman. Highlight how the proposed development aligns with regional economic stability. Note his interest in local heritage (Empire Ranch) and ensure the project design respects landscape character."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Incorporated in Arizona on August 3, 1987",
+          "url": "https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902",
+          "title": "BBB Profile: RV City Inc",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Located at 2095 N Highway 90 in Huachuca City, AZ",
+          "url": "https://www.rvcity.net/",
+          "title": "RV City Official Website",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Ronald Hoffman serves as President",
+          "url": "https://www.bbb.org/us/az/huachuca-city/profile/rv-dealers/rv-city-inc-1286-16902",
+          "title": "BBB Profile: RV City Inc",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Documented donors to the Empire Ranch Foundation",
+          "url": "https://www.empireranchfoundation.org/wp-content/uploads/2017/12/Dec2017-Final.pdf",
+          "title": "Empire Ranch Foundation News Dec 2017",
+          "date": "2017-12-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Nye James W Revocable Living Trust Agreement",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10615021X"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The James W. Nye Revocable Living Trust is associated with residential properties in Huachuca City. The Trust sold a residential property on 2nd Street in Huachuca City in April 2021 ([Homes.com](https://www.homes.com/property/307-2nd-st-huachuca-city-az/29zr9sb13zjv6/)). In May 2022, James W. Nye, as Trustee, was listed in public filings with an address on North Eagle Crest Lane in Huachuca City ([PacerMonitor](https://www.pacermonitor.com/view/V6GEDCY/Aphex_BioCleanse_Systems_Inc__flmbke-22-01917__0001.0.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Individual’s revocable trust with no public profile; influence likely limited to personal property interests.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Sold residential property on 2nd Street in Huachuca City in April 2021",
+          "url": "https://www.homes.com/property/307-2nd-st-huachuca-city-az/29zr9sb13zjv6/",
+          "title": "307 2nd St Property History",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Listed with address on North Eagle Crest Lane in May 2022 filings",
+          "url": "https://www.pacermonitor.com/view/V6GEDCY/Aphex_BioCleanse_Systems_Inc__flmbke-22-01917__0001.0.pdf",
+          "title": "Aphex BioCleanse Systems Inc Bankruptcy Filing",
+          "date": "2022-05-12"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 383185,
+    "thinking_count": 24
+  }
+}

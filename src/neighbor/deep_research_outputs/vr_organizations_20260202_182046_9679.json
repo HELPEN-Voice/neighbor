@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-02-02T18:47:04.407874",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260202_182046_9679.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bouchikas Family Revocable Lifetime Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10606026C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Bouchikas Family Revocable Lifetime Trust is the recorded owner of property in Cochise County, specifically a 3.99-acre parcel with a mobile/manufactured home ([loopnet.com](https://www.loopnet.com/property/2098-n-cougar-pl-douglas-az-85607/04003-10606026C/)). Family members associated with the name in the region include Chris Bouchikas, a farrier based in Elgin/Huachuca City who serves the southern Arizona equine community ([americanfarriers.com](https://www.americanfarriers.com/articles/10308-farriers-week-farriers-spotlight?page=3)). No corporate filings, political contributions, or public statements regarding development were found for the trust.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local resident family with professional ties to the equine community (farrier work); no evidence of broad political or economic influence.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the family informally, acknowledging their local roots and equine interests; Chris Bouchikas is a known local professional."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Bouchikas Family Revocable Lifetime Trust is the recorded owner of property in Cochise County, specifically a 3.99-acre parcel with a mobile/manufactured home",
+          "url": "https://www.loopnet.com/property/2098-n-cougar-pl-douglas-az-85607/04003-10606026C/",
+          "title": "2098 N Cougar Pl Property Details",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Family members associated with the name in the region include Chris Bouchikas, a farrier based in Elgin/Huachuca City who serves the southern Arizona equine community",
+          "url": "https://www.americanfarriers.com/articles/10308-farriers-week-farriers-spotlight?page=3",
+          "title": "2018 Farriers Week Spotlight: Chris Bouchikas",
+          "date": "2018-07-08"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Lisa E Stansbury Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "10603044B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Lisa E. Stansbury Living Trust holds title to a residential property at 682 W Norraine Ln in Huachuca City, acquired in May 2023 ([homes.com](https://www.homes.com/property/682-w-norraine-ln-huachuca-city-az/8qvmcg5vq2yx8/)). Lisa E. Stansbury is a glass artist operating 'Lisa E. Stansbury Glass Art Studio' and is listed in the Veterans In Business (VIB) Network directory ([vibnetwork.org](https://www.vibnetwork.org/wp-content/uploads/2023/11/VIBProgram2023R-1.pdf)). She is the widow of Douglas Stansbury, a former telecommunications executive ([echovita.com](https://www.echovita.com/us/obituaries/az/sierra-vista/douglas-stansbury-11036116)). No public statements regarding local development projects were identified.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local artist and small business owner listed in veteran business directories; likely holds limited influence primarily within personal and veteran business networks.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Lisa E. Stansbury with respect for her artistic business and veteran connections; inquiry should be personal and community-oriented."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Lisa E. Stansbury Living Trust holds title to a residential property at 682 W Norraine Ln in Huachuca City, acquired in May 2023",
+          "url": "https://www.homes.com/property/682-w-norraine-ln-huachuca-city-az/8qvmcg5vq2yx8/",
+          "title": "682 W Norraine Ln Property History",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Lisa E. Stansbury is a glass artist operating 'Lisa E. Stansbury Glass Art Studio' and is listed in the Veterans In Business (VIB) Network directory",
+          "url": "https://www.vibnetwork.org/wp-content/uploads/2023/11/VIBProgram2023R-1.pdf",
+          "title": "Veterans In Business Network Conference Program 2023",
+          "date": "2023-11-13"
+        },
+        {
+          "claim": "She is the widow of Douglas Stansbury, a former telecommunications executive",
+          "url": "https://www.echovita.com/us/obituaries/az/sierra-vista/douglas-stansbury-11036116",
+          "title": "Obituary of Douglas Stansbury",
+          "date": "2026-02-02"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 374616,
+    "thinking_count": 33
+  }
+}

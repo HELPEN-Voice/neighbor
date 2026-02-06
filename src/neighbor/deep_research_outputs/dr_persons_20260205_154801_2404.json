@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-02-05T15:48:01.240500",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All neighboring landowners identified have an **unknown** position on the development, with no public statements or records indicating support or opposition. None hold prominent public offices or high-profile roles – most are private landholders (including one small cemetery organization) – suggesting a generally **low** level of direct community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Thomas Elliott",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-24",
+        "16.-1-1.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas Elliott is the listed owner of two land parcels (Tax Map IDs 16.-1-24 and 16.-1-1.2) in Genesee County’s property records, indicating agricultural land ownership in the area [Genesee County PROS](https://www.geneseeny.gov/Services/Property). No references to Thomas Elliott in local news or civic minutes were found, suggesting he has not publicly voiced opinions on development proposals [The Batavian](https://www.thebatavian.com/search?query=%22Thomas+Elliott%22).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private farmer; no public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Have a respected local agriculture figure reach out personally, emphasizing that project plans will respect existing farm operations and soil/drainage needs to address Elliott’s likely concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Gardiner Cemetery",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-32"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Organizational landowner – see ORG table for detailed profile. The Gardiner Cemetery parcel is owned by a local cemetery association (nonprofit); no individual resident is attached to this entry. **See ORG table.**",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small nonprofit landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the cemetery’s managing board or caretaker through the town to ensure any development plans do not disturb cemetery grounds or access."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Glenda Bloom",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-1.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Glenda Bloom appears as the owner of a rural Genesee County parcel (Tax ID 16.-1-1.12), suggesting she owns open land or a rural residence in the project vicinity [Genesee County PROS](https://www.geneseeny.gov/Services/Property). No public statements or media references by Bloom regarding development or energy projects were found in local records, indicating she has not taken a visible stance on such issues [The Batavian](https://www.thebatavian.com/search?query=%22Glenda+Bloom%22).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Approach via a neighborly introduction (through a mutual acquaintance or town event), stressing measures to minimize noise, preserve the rural character, and address any property value concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All neighboring landowners identified have an **unknown** position on the development, with no public statements or records indicating support or opposition. None hold prominent public offices or high-profile roles – most are private landholders (including one small cemetery organization) – suggesting a generally **low** level of direct community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Thomas Elliott\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-24\", \"16.-1-1.2\"],\n      \"claims\": \"Thomas Elliott is the listed owner of two land parcels (Tax Map IDs 16.-1-24 and 16.-1-1.2) in Genesee County’s property records, indicating agricultural land ownership in the area [Genesee County PROS](https://www.geneseeny.gov/Services/Property). No references to Thomas Elliott in local news or civic minutes were found, suggesting he has not publicly voiced opinions on development proposals [The Batavian](https://www.thebatavian.com/search?query=%22Thomas+Elliott%22).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private farmer; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"drainage_roads\"],\n        \"engage\": \"Have a respected local agriculture figure reach out personally, emphasizing that project plans will respect existing farm operations and soil/drainage needs to address Elliott’s likely concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Gardiner Cemetery\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-32\"],\n      \"claims\": \"Organizational landowner – see ORG table for detailed profile. The Gardiner Cemetery parcel is owned by a local cemetery association (nonprofit); no individual resident is attached to this entry. **See ORG table.**\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small nonprofit landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Coordinate with the cemetery’s managing board or caretaker through the town to ensure any development plans do not disturb cemetery grounds or access.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Glenda Bloom\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-1.12\"],\n      \"claims\": \"Glenda Bloom appears as the owner of a rural Genesee County parcel (Tax ID 16.-1-1.12), suggesting she owns open land or a rural residence in the project vicinity [Genesee County PROS](https://www.geneseeny.gov/Services/Property). No public statements or media references by Bloom regarding development or energy projects were found in local records, indicating she has not taken a visible stance on such issues [The Batavian](https://www.thebatavian.com/search?query=%22Glenda+Bloom%22).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"property_value\"],\n        \"engage\": \"Approach via a neighborly introduction (through a mutual acquaintance or town event), stressing measures to minimize noise, preserve the rural character, and address any property value concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

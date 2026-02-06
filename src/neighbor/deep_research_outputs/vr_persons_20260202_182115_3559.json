@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-02-02T18:31:52.683016",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260202_182115_3559.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Brenden & Amber Linendoll",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10606029B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brenden Linendoll is a Deputy Sheriff with the Cochise County Sheriff's Office, having joined the department's public safety personnel retirement system in 2021 ([Cochise County Minutes](https://www.cochise.az.gov/AgendaCenter/ViewFile/Minutes/_07212021-102)). Amber Linendoll is also listed as an employee of the Cochise County Sheriff's Office ([Cochise County Roster](https://www.cochise.az.gov/DocumentCenter/View/10340/County-Phone-Roster-by-Last-Name-PDF)). The draft's previous claim regarding opposition to a commercial pet breeding facility could not be re-verified with available public records during this audit and has been removed to avoid inferring an energy stance from unrelated issues.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Employees of Cochise County Sheriff's Office",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "privacy_quiet"
+        ],
+        "engage": "Connect via standard community channels, acknowledging their roles in law enforcement/public safety. Emphasize project commitments to traffic safety and security, ensuring the project poses no burden to local emergency services."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Brenden Linendoll is a Deputy Sheriff with the Cochise County Sheriff's Office...",
+          "url": "https://www.cochise.az.gov/AgendaCenter/ViewFile/Minutes/_07212021-102",
+          "title": "Cochise County PSPRS Board Minutes",
+          "date": "2021-07-21"
+        },
+        {
+          "claim": "Amber Linendoll is also listed as an employee of the Cochise County Sheriff's Office",
+          "url": "https://www.cochise.az.gov/DocumentCenter/View/10340/County-Phone-Roster-by-Last-Name-PDF",
+          "title": "Cochise County Phone Roster",
+          "date": "2026-01-21"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Zane Daniel Ritenour",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10606018R"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Zane Ritenour is the owner and qualifying party of B-J Drilling Company, Inc., a local water well drilling and pump service business based in Huachuca City and Benson ([BJ Drilling](https://bjdrilling.com/)). The business has operated in the area for over 45 years and holds a special use permit for its yard operations ([Letter to Neighbors](https://keepskylinerural.com/pdfs/BJ-Drilling-Letter.pdf)). He holds an active contractor's license for drilling and well services ([AZ ROC](https://roc.az.gov/sites/default/files/ROC_Posting-List_Residential_2025-12-11.csv)). While the draft noted a potential connection to 'ZR Cattle Company,' his primary verified commercial presence is the drilling company.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Owner of established local drilling business",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff",
+          "fair_contracting"
+        ],
+        "engage": "Approach as a local business owner with deep knowledge of local water and land conditions. Emphasize groundwater protection and potential contracting opportunities for local service providers."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Zane Ritenour is the owner and qualifying party of B-J Drilling Company, Inc...",
+          "url": "https://bjdrilling.com/",
+          "title": "BJ Drilling Company Website",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "...holds a special use permit for its yard operations",
+          "url": "https://keepskylinerural.com/pdfs/BJ-Drilling-Letter.pdf",
+          "title": "BJ Drilling Letter to Neighbors",
+          "date": "2024-09-25"
+        },
+        {
+          "claim": "He holds an active contractor's license...",
+          "url": "https://roc.az.gov/sites/default/files/ROC_Posting-List_Residential_2025-12-11.csv",
+          "title": "Arizona Registrar of Contractors Posting List",
+          "date": "2025-12-11"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Robert H. & Pamela J. Bangle",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10606013Z"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert H. Bangle is the owner of residential property at 557 W Oak St in Huachuca City, matching the provided parcel ID ([LoopNet](https://www.loopnet.com/property/557-w-oak-st-huachuca-city-az-85616/04003-10606013Z/)). Public records confirm his residency in the area ([National Public Data](https://nationalpublicdata.com/people/b/robert-bangle/)). No public statements regarding land use or development projects were found for the Bangle family.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Minimal public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Proactively provide them with project information through a friendly, informal introduction. Since they have not been publicly active, ensure their questions or concerns are heard privately and addressed respectfully."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Robert H. Bangle is the owner of residential property at 557 W Oak St...",
+          "url": "https://www.loopnet.com/property/557-w-oak-st-huachuca-city-az-85616/04003-10606013Z/",
+          "title": "LoopNet Property Record 106-06-013Z",
+          "date": "2026-02-02"
+        },
+        {
+          "claim": "Public records confirm his residency in the area",
+          "url": "https://nationalpublicdata.com/people/b/robert-bangle/",
+          "title": "Public Data Record: Robert Bangle",
+          "date": "2026-02-02"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 544123,
+    "thinking_count": 32
+  }
+}

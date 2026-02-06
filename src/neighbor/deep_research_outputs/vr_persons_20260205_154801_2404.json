@@ -1,0 +1,185 @@
+{
+  "timestamp": "2026-02-05T15:58:51.198860",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154801_2404.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Thomas Elliott",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-24",
+        "16.-1-1.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas Elliott is a resident of Elba, NY, listed as a member of the St. Teresa's Pastoral Council (2023-2024) [St. Teresa's Directory](https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf). He receives mail at a PO Box in Elba [St. Teresa's Directory](https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf). While the parcels 16.-1-24 and 16.-1-1.2 appear on Cider Solar project maps, specific ownership by Elliott could not be independently verified in available public exhibits, though his residency in the town is confirmed [Cider Solar Exhibit 4](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf) [St. Teresa's Directory](https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf). No public statements regarding development projects were found.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Church council member; no other public roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "local_control"
+        ],
+        "engage": "Engage through local parish connections or direct mail to his PO Box; focus on respecting community character and addressing any potential impacts to his residence or property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Thomas Elliott is a resident of Elba, NY, listed as a member of the St. Teresa's Pastoral Council (2023-2024)",
+          "url": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf",
+          "title": "St. Teresa's Pastoral Council Directory 2023-2024",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "He receives mail at a PO Box in Elba",
+          "url": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf",
+          "title": "St. Teresa's Pastoral Council Directory 2023-2024",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Parcels 16.-1-24 and 16.-1-1.2 appear on Cider Solar project maps",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Exhibit 4: Project Area Tax Parcels",
+          "date": "2021-04-23"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Gardiner Cemetery",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-32"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gardiner Cemetery is a historic burial ground located within the private property at 3815 Lockport Road in Elba (Tax Map ID 16.-1-32) [Cider Solar CRAMMP](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted) [Cider Solar Exhibit 7](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_07_1of2.pdf). The project has developed specific Screen Planting Plans to install vegetative buffers along the southern border of the solar farm and near the cemetery to mitigate visual impacts [Cider Solar CRAMMP](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local cemetery; protected cultural resource",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed",
+          "heritage_family_legacy"
+        ],
+        "engage": "Coordinate with the property owner of 3815 Lockport Road and town officials to ensure approved vegetative screening is installed and cemetery access is maintained."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Gardiner Cemetery is a historic burial ground located within the private property at 3815 Lockport Road in Elba (Tax Map ID 16.-1-32)",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted",
+          "title": "Cider Solar Cultural Resources Avoidance, Minimization and Mitigation Plan",
+          "date": "2024-11-13"
+        },
+        {
+          "claim": "Tax Map ID 16.-1-32 is listed in project exhibits",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_07_1of2.pdf",
+          "title": "Cider Solar Exhibit 7: Noise",
+          "date": "2021-06-04"
+        },
+        {
+          "claim": "The project has developed specific Screen Planting Plans to install vegetative buffers along the southern border",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted",
+          "title": "Cider Solar Cultural Resources Avoidance, Minimization and Mitigation Plan",
+          "date": "2024-11-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Glennda Boyce",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-1.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Glennda Boyce is the listed owner of parcel 16.-1-1.12 in the Town of Elba, as confirmed by Cider Solar project filings [Cider Solar Exhibit 4](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf) [Cider Solar Exhibit 3](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_03.pdf). Public records corroborate her residency in Elba, NY [National Public Data](https://nationalpublicdata.com/people/b/glenda-boyce/). No public comments or media references regarding renewable energy development were found for this individual.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Approach via neighborly introduction; confirm correct name (Glennda Boyce vs Glenda Bloom) and address standard residential concerns regarding viewshed and noise."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": "Original draft name 'Glenda Bloom' was incorrect; official project documents list 'Glennda Boyce' for parcel 16.-1-1.12.",
+      "citations": [
+        {
+          "claim": "Glennda Boyce is the listed owner of parcel 16.-1-1.12 in the Town of Elba",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Exhibit 4: Real Property",
+          "date": "2021-04-23"
+        },
+        {
+          "claim": "Confirmed by Cider Solar Exhibit 3",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_03.pdf",
+          "title": "Cider Solar Exhibit 3: Location of Facilities",
+          "date": "2021-04-23"
+        },
+        {
+          "claim": "Public records corroborate her residency in Elba, NY",
+          "url": "https://nationalpublicdata.com/people/b/glenda-boyce/",
+          "title": "National Public Data: Glenda Boyce",
+          "date": "2024-01-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 574204,
+    "thinking_count": 35
+  }
+}

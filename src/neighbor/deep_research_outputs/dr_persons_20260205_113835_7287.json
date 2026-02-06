@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-05T11:38:35.728777",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighboring landowners have not publicly taken a stance on the proposed development, so their positions remain classified as unknown. None of them hold any prominent public offices or leadership roles locally, indicating that this group has low individual influence within the community.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Brett Jasinski",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brett Jasinski owns property in the Town of Byron, part of roughly 1,600 acres of farmland designated for a 280 MW solar project in Genesee County. He is not listed as a public official and no statements by him about local development were found in news or civic records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public role; private landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through a personal, informal conversation (possibly via a mutual farming community contact) to learn his concerns. Emphasize listening and understanding his perspective on land use changes."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Makayla Friedl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-6.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Makayla Friedl owns a rural parcel in Genesee County, within the Oakfield–Elba area where a 500 MW solar facility has been approved. She holds no public office and has not been cited in local news or meetings for any position on development proposals.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile; private citizen",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via a neighborly outreach highlighting community benefits and addressing any questions she may have. Reinforce how local leaders have framed the project as beneficial to the town’s future to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Scott Mabon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-6.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Scott Mabon is a landowner in Genesee County’s agricultural region, located in the vicinity of New York’s largest approved solar farm (500 MW across Oakfield and Elba). He has not publicly expressed any stance on the project, and there is no indication of him holding a civic leadership role in the community.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not in civic leadership; private landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use one-on-one outreach through a trusted local figure to open dialogue with Mabon. Focus on how the project plans address land use and future land restoration to connect with any stewardship values he might hold."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighboring landowners have not publicly taken a stance on the proposed development, so their positions remain classified as unknown. None of them hold any prominent public offices or leadership roles locally, indicating that this group has low individual influence within the community.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Brett Jasinski\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-23\"],\n      \"claims\": \"Brett Jasinski owns property in the Town of Byron, part of roughly 1,600 acres of farmland designated for a 280 MW solar project in Genesee County【28】. He is not listed as a public official and no statements by him about local development were found in news or civic records【82】【51】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public role; private landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through a personal, informal conversation (possibly via a mutual farming community contact) to learn his concerns. Emphasize listening and understanding his perspective on land use changes.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Makayla Friedl\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"12.-1-6.2\"],\n      \"claims\": \"Makayla Friedl owns a rural parcel in Genesee County, within the Oakfield–Elba area where a 500 MW solar facility has been approved【108】. She holds no public office and has not been cited in local news or meetings for any position on development proposals【82】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile; private citizen\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via a neighborly outreach highlighting community benefits and addressing any questions she may have. Reinforce how local leaders have framed the project as beneficial to the town’s future to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Scott Mabon\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"12.-1-6.12\"],\n      \"claims\": \"Scott Mabon is a landowner in Genesee County’s agricultural region, located in the vicinity of New York’s largest approved solar farm (500 MW across Oakfield and Elba)【108】. He has not publicly expressed any stance on the project, and there is no indication of him holding a civic leadership role in the community【82】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Not in civic leadership; private landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use one-on-one outreach through a trusted local figure to open dialogue with Mabon. Focus on how the project plans address land use and future land restoration to connect with any stewardship values he might hold.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

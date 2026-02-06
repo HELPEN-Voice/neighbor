@@ -1,0 +1,52 @@
+[
+  {
+    "marker_char": "1",
+    "text": "CALL",
+    "full_name": "Call Farms, Inc.",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "NORTON",
+    "full_name": "Norton Farms Inc",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "JOHNSON",
+    "full_name": "Brice Johnson",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "4",
+    "text": "BEZON",
+    "full_name": "Anne Bezon",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "5",
+    "text": "PRITCHET",
+    "full_name": "Brian Pritchett",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  }
+]

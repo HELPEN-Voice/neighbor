@@ -1,0 +1,33 @@
+{
+  "run_id": "e7574e0c-e806-4337-9cac-66ad860780bc",
+  "generated_at": "2026-02-05T16:36:44.923771",
+  "stats": {
+    "total_neighbors": 17,
+    "highlighted": 17,
+    "skipped_no_geometry": 0,
+    "skipped_not_highlighted": 0,
+    "by_influence": {
+      "High": 2,
+      "Medium": 3,
+      "Low": 12
+    },
+    "by_stance": {
+      "support": 4,
+      "oppose": 0,
+      "neutral": 0
+    },
+    "adjacent_highlighted": 0,
+    "target_included": true
+  },
+  "strategy_used": "polyline",
+  "url_length": 2544,
+  "parcels_rendered": 26,
+  "labels_count": 12,
+  "settings": {
+    "width": 800,
+    "height": 450,
+    "style": "satellite-streets-v12",
+    "retina": true,
+    "padding": 50
+  }
+}

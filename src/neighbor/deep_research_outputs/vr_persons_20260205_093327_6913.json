@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-02-05T11:47:42.361984",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_093327_6913.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "George Shamblin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-58"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George Shamblin is identified as the owner of parcel 12.-1-58 on Lockport Road in Genesee County ([dps.ny.gov](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}&DocTitle=AttC_CSF_ALTAIndex)). Public records suggest the George Shamblin associated with this property may be deceased or the property is held by his estate, as obituaries note a George Shamblin of Oakfield passed away prior to 2025 ([bataviafuneralhomes.com](https://www.bataviafuneralhomes.com/obituaries/lorene-shamblin)). The property is directly involved in the Cider Solar Farm project, with land survey documents listing a \"Proposed Easement\" on the parcel ([dps.ny.gov](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}&DocTitle=AttC_CSF_ALTAIndex)).",
+      "confidence": "medium",
+      "noted_stance": "support",
+      "community_influence": "Low",
+      "influence_justification": "No current public roles found; likely estate ownership",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "heritage_family_legacy"
+        ],
+        "engage": "Coordinate with the estate executor or heirs regarding the existing proposed easement status, ensuring terms are clear for the successors."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "George Shamblin is identified as the owner of parcel 12.-1-58 on Lockport Road",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}&DocTitle=AttC_CSF_ALTAIndex",
+          "title": "Cider Solar Farm ALTA Index",
+          "date": "2024-07-19"
+        },
+        {
+          "claim": "George Shamblin passed away prior to 2025",
+          "url": "https://www.bataviafuneralhomes.com/obituaries/lorene-shamblin",
+          "title": "Obituary of Lorene May Shamblin",
+          "date": "2025-01-16"
+        },
+        {
+          "claim": "Land survey documents list a Proposed Easement on the parcel",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}&DocTitle=AttC_CSF_ALTAIndex",
+          "title": "Cider Solar Farm ALTA Survey Index",
+          "date": "2024-07-19"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Anne Bezon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-29.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anne M. Bezon serves as the Coordinator for the Justice for Children Advocacy Center in Genesee County ([nysenate.gov](https://www.nysenate.gov/sites/default/files/articles/attachments/NYS%20Childrens%20Alliance.pdf)). She is the registered owner of parcel 16.-1-29.12 on Lockport Road, which is classified as residential property ([geneseeny.gov](https://www.geneseeny.gov/files/sharedassets/county/v/1/treasurer/assessment-rolls/elba-2025-tentative-roll.pdf)). The Bezon family is associated with 'Joseph Bezon & Sons', a prominent agricultural entity in the region that receives agricultural subsidies ([farm.ewg.org](https://farm.ewg.org/top_recips.php?fips=36037&progcode=total&page=6)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "County Coordinator role and prominent farm family ties",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy",
+          "privacy_quiet"
+        ],
+        "engage": "Engage via trusted agricultural community members, acknowledging her family's farming history and her public service role in the county."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Serves as Coordinator for the Justice for Children Advocacy Center",
+          "url": "https://www.nysenate.gov/sites/default/files/articles/attachments/NYS%20Childrens%20Alliance.pdf",
+          "title": "NYS Children's Alliance Member List",
+          "date": "2014-01-01"
+        },
+        {
+          "claim": "Owner of parcel 16.-1-29.12 on Lockport Road",
+          "url": "https://www.geneseeny.gov/files/sharedassets/county/v/1/treasurer/assessment-rolls/elba-2025-tentative-roll.pdf",
+          "title": "Town of Elba 2025 Tentative Assessment Roll",
+          "date": "2025-07-01"
+        },
+        {
+          "claim": "Joseph Bezon & Sons is a prominent agricultural entity receiving subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=36037&progcode=total&page=6",
+          "title": "EWG Farm Subsidy Database - Genesee County",
+          "date": "2023-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Brian Pritchett",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brian Pritchett is the owner of parcel 16.-1-6 in Genesee County ([geneseeny.gov](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). He has demonstrated support for renewable energy development by executing a Right-of-Way (ROW) Easement with the Cider Solar Farm project in July 2023 ([dps.ny.gov](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1})). His property is also enrolled in an agricultural district review ([geneseeny.gov](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Low",
+      "influence_justification": "No known public office; influence limited to property rights",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Maintain relationship as a participating landowner; ensure he is satisfied with the easement process to serve as a positive reference."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Owner of parcel 16.-1-6 in Genesee County",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18"
+        },
+        {
+          "claim": "Executed a Right-of-Way (ROW) Easement with Cider Solar Farm in July 2023",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1}",
+          "title": "Cider Solar Farm Status of Land Interests",
+          "date": "2024-07-31"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 523126,
+    "thinking_count": 30
+  }
+}

@@ -1,7 +1,14 @@
 {
-  "batch_idx": 1,
-  "total_batches": 5,
+  "timestamp": "2026-02-05T15:49:44.231796",
   "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three neighboring landowners have not publicly expressed a clear stance on the proposed development, leaving their positions classified as unknown. None of these individuals holds a notable public office or leadership role, indicating a low level of community influence among the nearby residents.",
   "neighbors": [
     {
       "neighbor_id": "N-01",
@@ -93,7 +100,7 @@
           "farmland_preservation",
           "privacy_quiet"
         ],
-        "engage": "Have a respectful, face-to-face discussion focusing on the project\u2019s minimal intrusion and assurances that rural peace and farmland value will be maintained."
+        "engage": "Have a respectful, face-to-face discussion focusing on the project’s minimal intrusion and assurances that rural peace and farmland value will be maintained."
       },
       "entity_classification": null,
       "profile_summary": null,
@@ -137,7 +144,6 @@
       "url": null
     }
   ],
-  "overview_summary": "All three neighboring landowners have not publicly expressed a clear stance on the proposed development, leaving their positions classified as unknown. None of these individuals holds a notable public office or leadership role, indicating a low level of community influence among the nearby residents.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154944_2317.json",
-  "cached_at": "2026-02-05T15:49:44.232542"
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three neighboring landowners have not publicly expressed a clear stance on the proposed development, leaving their positions classified as unknown. None of these individuals holds a notable public office or leadership role, indicating a low level of community influence among the nearby residents.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Jeffrey Boyce\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-1.112\"],\n      \"claims\": \"Jeffrey Boyce is a Genesee County landowner and holds no local government position ([townofoakfieldny.gov](https://townofoakfieldny.gov/town-officials/#:~:text=Melissa%20M,5835%20ext.%20101%20Email%3A%20mhaacke%40townofoakfieldny.com)). He has not been noted in public meetings or local media for any stance on development issues ([townofoakfieldny.gov](https://townofoakfieldny.gov/town-officials/#:~:text=Melissa%20M,5835%20ext.%20101%20Email%3A%20mhaacke%40townofoakfieldny.com)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"privacy_quiet\"],\n        \"engage\": \"Reach out with a personal, one-on-one approach at his property, emphasizing respect for farmland use and how the project will preserve rural character.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Brice Johnson\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-2.1\"],\n      \"claims\": \"Brice Johnson owns a rural parcel in Genesee County and is not known to serve in any public capacity ([townofoakfieldny.gov](https://townofoakfieldny.gov/town-officials/#:~:text=Melissa%20M,5835%20ext.%20101%20Email%3A%20mhaacke%40townofoakfieldny.com)). There are no public statements or civic activities on record from Johnson regarding local development or energy projects ([townofoakfieldny.gov](https://townofoakfieldny.gov/town-officials/#:~:text=Melissa%20M,5835%20ext.%20101%20Email%3A%20mhaacke%40townofoakfieldny.com)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public office or visibility\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Initiate contact through informal, neighborly conversation, highlighting how the project plans align with preserving farmland and local autonomy.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Ellen Hersee\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"12.-1-9\"],\n      \"claims\": \"Ellen Hersee is part of a longstanding farm family in the community ([www.thebatavian.com](https://www.thebatavian.com/obituaries/645939/anne-l-hersee#:~:text=death%20in%20July%202014,more%20than%20thirty%20Elderhostel%20programs)). She holds no local office and has not been publicly involved in development debates ([townofoakfieldny.gov](https://townofoakfieldny.gov/town-officials/#:~:text=Melissa%20M,5835%20ext.%20101%20Email%3A%20mhaacke%40townofoakfieldny.com)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime resident; no formal influence\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"privacy_quiet\"],\n        \"engage\": \"Have a respectful, face-to-face discussion focusing on the project’s minimal intrusion and assurances that rural peace and farmland value will be maintained.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
 }

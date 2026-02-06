@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-02-05T15:57:50.560604",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154837_4679.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Richard A. Jasinski",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Richard A. Jasinski is the recorded owner of parcel 16.-1-23 in Genesee County ([Cider Solar Farm Project Area Tax Parcels Map](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)). The property is located within the Project Area for the 500-MW Cider Solar Farm in the towns of Elba and Oakfield ([Cider Solar Farm Project Area Tax Parcels Map](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)). There is no record of Jasinski holding any public office or speaking in local meetings on development issues.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public roles identified",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "decommissioning_assurance"
+        ],
+        "engage": "Have a respected farming community figure (e.g. Farm Bureau rep) reach out to reassure him about fair lease terms and end-of-project land restoration plans. Emphasize that after the solar project’s lifespan, the land can be returned to agricultural use with minimal lasting impact."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Richard A. Jasinski is the recorded owner of parcel 16.-1-23 in Genesee County",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Project Area Tax Parcels Map",
+          "date": "2021-04-23"
+        },
+        {
+          "claim": "The property is located within the Project Area for the 500-MW Cider Solar Farm",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Project Area Tax Parcels Map",
+          "date": "2021-04-23"
+        }
+      ],
+      "verification_notes": "Corrected name from 'Brett Jasinski' to 'Richard A. Jasinski' based on official project tax parcel maps (Source: Cider Solar Exhibit 04). Brett appears to be a relative (grandson) based on local obituaries, but Richard is the legal owner of the PIN."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Makayla Friedl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-6.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Makayla Friedl is listed as the owner of parcel 12.-1-6.2 in Oakfield, Genesee County, which is classified as 1.97 acres of agricultural land ([Genesee County Agricultural and Farmland Protection Board Packet](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). Her name does not appear in local news archives or public meeting records on development, suggesting she has not taken a visible stance on the proposed project. She holds no known civic or leadership positions in the community.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage her in a neighborly conversation highlighting how the project will address farmland preservation and protect property values in the area. Explain the developer’s efforts to minimize long-term impacts and note that nearby residents may be eligible for compensation or benefit programs to ensure fairness."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Makayla Friedl is listed as the owner of parcel 12.-1-6.2 in Oakfield, Genesee County",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18"
+        }
+      ],
+      "verification_notes": "Ownership confirmed via Genesee County Farmland Protection Board 2025 meeting packet."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Scott Mabon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-6.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Scott M. Mabon is the recorded owner of parcel 12.-1-6.12 in Oakfield, Genesee County, comprising 3.10 acres ([Genesee County Agricultural and Farmland Protection Board Packet](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). This parcel is located in the vicinity of Friedl’s parcel (12.-1-6.2) ([Genesee County Agricultural and Farmland Protection Board Packet](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). No public information links Mabon to any official positions or statements on the project; he has not been noted in media or town minutes regarding local development debates.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile; private owner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Arrange a one-on-one discussion (through a trusted local official or neighbor) to listen to any concerns he has about losing productive farmland or property impacts. Emphasize plans to minimize disruption and ensure the land’s long-term viability after the project, addressing any questions about how the solar farm will be decommissioned and the land restored."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Scott M. Mabon is the recorded owner of parcel 12.-1-6.12 in Oakfield, Genesee County",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18"
+        }
+      ],
+      "verification_notes": "Ownership confirmed via Genesee County Farmland Protection Board 2025 meeting packet."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 434850,
+    "thinking_count": 30
+  }
+}

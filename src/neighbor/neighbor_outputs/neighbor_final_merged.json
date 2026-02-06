@@ -2,25 +2,24 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Okelley Helen C et al",
+      "name": "Richard A. Jasinski",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "025-00-00-026-000",
-        "024-00-00-136-000"
+        "16.-1-23"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Helen C. Okelley (and family, \"et al\") is listed as the owner of multiple rural parcels in Lee County ([Lee County Assessor](https://www.qpublic.net/sc/lee/)). Public records indicate a Helen C. Okelley with a registered address in Bishopville ([National Public Data](https://nationalpublicdata.com/people/o/helen-okelley/sc/bishopville/)). No public statements or media reports were found in which Okelley has taken any position on local development or energy projects, indicating no evident advocacy or opposition ([Lee County Planning](https://leecountyplanning.com/)).",
-      "confidence": "low",
+      "claims": "Richard A. Jasinski is the recorded owner of parcel 16.-1-23 in Genesee County ([Cider Solar Farm Project Area Tax Parcels Map](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)). The property is located within the Project Area for the 500-MW Cider Solar Farm in the towns of Elba and Oakfield ([Cider Solar Farm Project Area Tax Parcels Map](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)). There is no record of Jasinski holding any public office or speaking in local meetings on development issues.",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Aging landowner; low public profile",
+      "influence_justification": "Private landowner; no public roles identified",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
+          "fair_contracting",
+          "decommissioning_assurance"
         ],
-        "engage": "Emphasize respect for her family’s long-held land and reassure that the project will preserve the agricultural legacy of the area. A local farmer or trusted community elder could help introduce discussions."
+        "engage": "Have a respected farming community figure (e.g. Farm Bureau rep) reach out to reassure him about fair lease terms and end-of-project land restoration plans. Emphasize that after the solar project’s lifespan, the land can be returned to agricultural use with minimal lasting impact."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -37,45 +36,188 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Helen C. Okelley (and family, \"et al\") is listed as the owner of multiple rural parcels in Lee County",
-          "url": "https://www.qpublic.net/sc/lee/",
-          "title": "Lee County Assessor Public Records",
-          "date": "2026-01-30"
+          "claim": "Richard A. Jasinski is the recorded owner of parcel 16.-1-23 in Genesee County",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Project Area Tax Parcels Map",
+          "date": "2021-04-23",
+          "note": null
         },
         {
-          "claim": "Public records indicate a Helen C. Okelley with a registered address in Bishopville",
-          "url": "https://nationalpublicdata.com/people/o/helen-okelley/sc/bishopville/",
-          "title": "Public Data Directory - Helen Okelley",
-          "date": "2026-01-30"
-        },
-        {
-          "claim": "No public statements or media reports were found in which Okelley has taken any position on local development or energy projects",
-          "url": "https://leecountyplanning.com/",
-          "title": "Lee County Planning Commission Minutes Archive",
-          "date": "2026-01-30"
+          "claim": "The property is located within the Project Area for the 500-MW Cider Solar Farm",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Project Area Tax Parcels Map",
+          "date": "2021-04-23",
+          "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Kelley L. Wilkes & Chad E. Wilkes",
+      "name": "Makayla Friedl",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "025-00-00-191-000"
+        "12.-1-6.2"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Chad E. Wilkes is a prominent local figure in education and athletics. He served as the head football coach at Lamar High School until 2022 and subsequently led Oceanside Collegiate Academy to a state championship in 2023 ([SI High School](https://www.si.com/high-school/south-carolina/west-florence-hires-a-state-championship-winning-head-coach-01jhv5c94vya)). In January 2025, he was hired as the head football coach at West Florence High School ([West Florence HS News](https://westflorence.f1s.org/our-school/archived-news/news-details/~board/west-florence-high-school-news/post/west-florence-high-school-welcomes-chad-wilkes-as-new-varsity-head-football-coach)). He has also been identified as having served as interim police chief of Lamar, SC in 2017 ([News and Press](https://www.newsandpress.net)). The Wilkes family owns a residential parcel in the area, but they have not made any recorded public comments for or against development or clean energy proposals in Lee County ([Lee County Planning](https://leecountyplanning.com/)).",
+      "owns_adjacent_parcel": "No",
+      "claims": "Makayla Friedl is listed as the owner of parcel 12.-1-6.2 in Oakfield, Genesee County, which is classified as 1.97 acres of agricultural land ([Genesee County Agricultural and Farmland Protection Board Packet](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). Her name does not appear in local news archives or public meeting records on development, suggesting she has not taken a visible stance on the proposed project. She holds no known civic or leadership positions in the community.",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "State championship winning coach; former police chief",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
       "approach_recommendations": {
         "motivations": [
-          "traffic_safety",
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Engage her in a neighborly conversation highlighting how the project will address farmland preservation and protect property values in the area. Explain the developer’s efforts to minimize long-term impacts and note that nearby residents may be eligible for compensation or benefit programs to ensure fairness."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Makayla Friedl is listed as the owner of parcel 12.-1-6.2 in Oakfield, Genesee County",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Scott Mabon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-6.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Scott M. Mabon is the recorded owner of parcel 12.-1-6.12 in Oakfield, Genesee County, comprising 3.10 acres ([Genesee County Agricultural and Farmland Protection Board Packet](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). This parcel is located in the vicinity of Friedl’s parcel (12.-1-6.2) ([Genesee County Agricultural and Farmland Protection Board Packet](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). No public information links Mabon to any official positions or statements on the project; he has not been noted in media or town minutes regarding local development debates.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile; private owner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value"
+        ],
+        "engage": "Arrange a one-on-one discussion (through a trusted local official or neighbor) to listen to any concerns he has about losing productive farmland or property impacts. Emphasize plans to minimize disruption and ensure the land’s long-term viability after the project, addressing any questions about how the solar farm will be decommissioned and the land restored."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Scott M. Mabon is the recorded owner of parcel 12.-1-6.12 in Oakfield, Genesee County",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Thomas Elliott",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-24",
+        "16.-1-1.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas Elliott is a resident of Elba, NY, listed as a member of the St. Teresa's Pastoral Council (2023-2024) [St. Teresa's Directory](https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf). He receives mail at a PO Box in Elba [St. Teresa's Directory](https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf). While the parcels 16.-1-24 and 16.-1-1.2 appear on Cider Solar project maps, specific ownership by Elliott could not be independently verified in available public exhibits, though his residency in the town is confirmed [Cider Solar Exhibit 4](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf) [St. Teresa's Directory](https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf). No public statements regarding development projects were found.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Church council member; no other public roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
           "local_control"
         ],
-        "engage": "Approach via a law enforcement or school community contact who knows them. Emphasize plans for roadway safety during construction and the project’s alignment with community decisions and oversight."
+        "engage": "Engage through local parish connections or direct mail to his PO Box; focus on respecting community character and addressing any potential impacts to his residence or property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Thomas Elliott is a resident of Elba, NY, listed as a member of the St. Teresa's Pastoral Council (2023-2024)",
+          "url": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf",
+          "title": "St. Teresa's Pastoral Council Directory 2023-2024",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "He receives mail at a PO Box in Elba",
+          "url": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3524/stteresasofakron/4554402/2024_Parish_Council_Directory.pdf",
+          "title": "St. Teresa's Pastoral Council Directory 2023-2024",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Parcels 16.-1-24 and 16.-1-1.2 appear on Cider Solar project maps",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Exhibit 4: Project Area Tax Parcels",
+          "date": "2021-04-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Gardiner Cemetery",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-32"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gardiner Cemetery is a historic burial ground located within the private property at 3815 Lockport Road in Elba (Tax Map ID 16.-1-32) [Cider Solar CRAMMP](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted) [Cider Solar Exhibit 7](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_07_1of2.pdf). The project has developed specific Screen Planting Plans to install vegetative buffers along the southern border of the solar farm and near the cemetery to mitigate visual impacts [Cider Solar CRAMMP](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local cemetery; protected cultural resource",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed",
+          "heritage_family_legacy"
+        ],
+        "engage": "Coordinate with the property owner of 3815 Lockport Road and town officials to ensure approved vegetative screening is installed and cemetery access is maintained."
       },
       "entity_classification": "municipal",
       "profile_summary": null,
@@ -92,215 +234,51 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "led Oceanside Collegiate Academy to a state championship in 2023",
-          "url": "https://www.si.com/high-school/south-carolina/west-florence-hires-a-state-championship-winning-head-coach-01jhv5c94vya",
-          "title": "West Florence hires a state championship-winning head coach",
-          "date": "2025-01-17"
+          "claim": "Gardiner Cemetery is a historic burial ground located within the private property at 3815 Lockport Road in Elba (Tax Map ID 16.-1-32)",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted",
+          "title": "Cider Solar Cultural Resources Avoidance, Minimization and Mitigation Plan",
+          "date": "2024-11-13",
+          "note": null
         },
         {
-          "claim": "In January 2025, he was hired as the head football coach at West Florence High School",
-          "url": "https://westflorence.f1s.org/our-school/archived-news/news-details/~board/west-florence-high-school-news/post/west-florence-high-school-welcomes-chad-wilkes-as-new-varsity-head-football-coach",
-          "title": "West Florence High School Welcomes Chad Wilkes",
-          "date": "2025-01-17"
+          "claim": "Tax Map ID 16.-1-32 is listed in project exhibits",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_07_1of2.pdf",
+          "title": "Cider Solar Exhibit 7: Noise",
+          "date": "2021-06-04",
+          "note": null
         },
         {
-          "claim": "identified as having served as interim police chief of Lamar, SC in 2017",
-          "url": "https://www.newsandpress.net",
-          "title": "News and Press Archives (Headline Verification)",
-          "date": "2017-01-01"
-        },
-        {
-          "claim": "they have not made any recorded public comments for or against development or clean energy proposals in Lee County",
-          "url": "https://leecountyplanning.com/",
-          "title": "Lee County Planning Commission Minutes Archive",
-          "date": "2026-01-30"
+          "claim": "The project has developed specific Screen Planting Plans to install vegetative buffers along the southern border",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C07B4093-0000-CF97-987A-11531759BCF5}&DocTitle=Cider%20Solar_CRAMMP_Rev2%20-%20Redacted",
+          "title": "Cider Solar Cultural Resources Avoidance, Minimization and Mitigation Plan",
+          "date": "2024-11-13",
+          "note": null
         }
       ]
     },
     {
-      "neighbor_id": "N-03",
-      "name": "Craven Walby C & Frank C",
+      "neighbor_id": "N-01",
+      "name": "Jeffrey Boyce",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "025-00-00-025-000",
-        "025-00-00-023-000"
+        "16.-1-1.112"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Walby C. Craven and Frank C. Craven are co-owners of a farming enterprise in the county; Frank C. Craven is listed as the principal of “Craven Farms,” a local crop farming business based in Bishopville ([Dun & Bradstreet](https://www.dnb.com/business-directory/company-profiles.craven_farms.14823a1a7d3478a8f9ca0915d6022692.html)). The farm is an active agricultural operation and a recipient of USDA agricultural subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=45061&progcode=total&regionname=LeeCounty,SouthCarolina)). Despite their prominent role in agriculture, there is no record of either Craven making public statements about area developments or energy projects in news or county meeting records ([News and Press](https://www.newsandpress.net)).",
-      "confidence": "medium",
+      "owns_adjacent_parcel": "No",
+      "claims": "Jeffrey Boyce is identified as the owner of parcel 16.-1-1.112 in the Town of Elba, Genesee County ([Genesee County Planning Dept](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). Public records and meeting minutes do not indicate any active role in local government or public statements regarding development projects ([Town of Oakfield](https://townofoakfieldny.gov/town-officials/)).",
+      "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Major farm owners; long-time locals",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role identified",
       "approach_recommendations": {
         "motivations": [
           "farmland_preservation",
-          "drainage_roads"
-        ],
-        "engage": "Engage through an agricultural extension or farm bureau connection. Discuss how the project will protect productive farmland (e.g., minimal impact on soil/drainage) and address any concerns about infrastructure like local roads used during construction."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Frank C. Craven is listed as the principal of “Craven Farms,” a local crop farming business based in Bishopville",
-          "url": "https://www.dnb.com/business-directory/company-profiles.craven_farms.14823a1a7d3478a8f9ca0915d6022692.html",
-          "title": "Dun & Bradstreet Business Directory",
-          "date": "2026-01-30"
-        },
-        {
-          "claim": "The farm is an active agricultural operation and a recipient of USDA agricultural subsidies",
-          "url": "https://farm.ewg.org/top_recips.php?fips=45061&progcode=total&regionname=LeeCounty,SouthCarolina",
-          "title": "EWG Farm Subsidy Database - Lee County SC",
-          "date": "2026-01-30"
-        },
-        {
-          "claim": "there is no record of either Craven making public statements about area developments or energy projects",
-          "url": "https://www.newsandpress.net",
-          "title": "News and Press Archives",
-          "date": "2026-01-30"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Woodham Carol Jane",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "025-00-00-183-000",
-        "025-00-00-184-000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Carol Jane Woodham is a long-time resident; her family name is notably tied to “Woodham Road” in the area, reflecting a longstanding local presence ([Zillow](https://www.zillow.com/homedetails/1605-Woodham-Rd-Bishopville-SC-29010)). Records indicate she is an alumna of Clemson University, class of 1975 ([Clemson Taps 1975](https://archive.org/stream/taps1975clem/taps1975clem_djvu.txt)). She has no known participation in public forums or media regarding development issues, and there are no reported instances of her voicing support or opposition to projects ([The Sumter Item](https://www.theitem.com/)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime resident; minimal public role",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Have a neighbor she trusts reach out in person. Stress that the project will maintain the peace and quiet of the area and respect the long-time family ownership of surrounding lands."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "her family name is notably tied to “Woodham Road” in the area, reflecting a longstanding local presence",
-          "url": "https://www.zillow.com/homedetails/1605-Woodham-Rd-Bishopville-SC-29010",
-          "title": "Property Record 1605 Woodham Rd",
-          "date": "2026-01-30"
-        },
-        {
-          "claim": "Records indicate she is an alumna of Clemson University, class of 1975",
-          "url": "https://archive.org/stream/taps1975clem/taps1975clem_djvu.txt",
-          "title": "Clemson University Taps Yearbook 1975",
-          "date": "1975-01-01"
-        },
-        {
-          "claim": "there are no reported instances of her voicing support or opposition to projects",
-          "url": "https://www.theitem.com/",
-          "title": "The Sumter Item Archives",
-          "date": "2026-01-30"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "E. B. Stuckey Jr.",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "024-00-00-134-000",
-        "024-00-00-059-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "E. B. Stuckey Jr. is a recipient of USDA agricultural subsidies in Bishopville, SC ([EWG](https://farm.ewg.org/top_recips.php?fips=45061&progcode=total_cr&page=17)). The Stuckey family is a historically prominent surname in Lee County, with genealogical records and a family cemetery in the area ([SC History](https://schistory.org/wp-content/uploads/2015/06/Stuckey-genealogical-collection-418.00.pdf)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Agricultural subsidy recipient; historically prominent local family name",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage via a respected local farming community member to acknowledge his family’s ties to the land and address any concerns about land use or legacy."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "E. B. Stuckey Jr. is a recipient of USDA agricultural subsidies in Bishopville, SC",
-          "url": "https://farm.ewg.org/top_recips.php?fips=45061&progcode=total_cr&page=17",
-          "title": "EWG Conservation Reserve Program Recipients",
-          "date": "2024-01-01"
-        },
-        {
-          "claim": "The Stuckey family is a historically prominent surname in Lee County, with genealogical records and a family cemetery in the area",
-          "url": "https://schistory.org/wp-content/uploads/2015/06/Stuckey-genealogical-collection-418.00.pdf",
-          "title": "Stuckey Genealogical Collection",
-          "date": "2015-06-01"
-        }
-      ],
-      "verification_notes": "Confirmed existence and agricultural ties via USDA records. No public statements on development found in news archives or council minutes."
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "James C. Tolbert & Ruth W. Tolbert",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "024-00-00-098-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "James Tolbert is listed in public directories with residential ties to Bishopville, SC ([NPD](https://nationalpublicdata.com/people/t/jimmy-tolbert/)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public offices or significant community roles found",
-      "approach_recommendations": {
-        "motivations": [
           "privacy_quiet"
         ],
-        "engage": "Use a neighborly, personal approach emphasizing respect for their property and maintaining the quiet rural character they value."
+        "engage": "Reach out with a personal, one-on-one approach at his property, emphasizing respect for farmland use and how the project will preserve rural character."
       },
-      "entity_classification": "unknown",
-      "profile_summary": null,
+      "entity_classification": "agriculture",
+      "profile_summary": "Jeffrey Boyce is a private landowner in Genesee County with no documented public stance on development.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -314,80 +292,44 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "James Tolbert is listed in public directories with residential ties to Bishopville, SC",
-          "url": "https://nationalpublicdata.com/people/t/jimmy-tolbert/",
-          "title": "Public Data Directory - Jimmy Tolbert",
-          "date": "2024-01-01"
-        }
-      ],
-      "verification_notes": "Could not verify 'Ruth W. Tolbert' or the middle initial 'C' for James in current Lee County records; found 'Jimmy Tolbert' and 'Jimmy F. Tolbert' associated with Bishopville/Camden. No public stance found."
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Alexander A. Petrovets",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "024-00-00-278-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Alexander A. Petrovets is the recorded landowner, but public records show no significant digital footprint or community history for him in Lee County ([Google Search](https://www.google.com/search?q=Alexander+A.+Petrovets+Lee+County+SC)). No evidence was found of Petrovets holding local office or voicing opinions on development projects.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public profile found",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation"
-        ],
-        "engage": "Attempt to contact the owner to verify residency status and introduce the project, as no public profile exists to guide specific engagement strategies."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
+          "claim": "Identified as owner of parcel 16.-1-1.112 in the Town of Elba",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
+        },
         {
-          "claim": "Public records show no significant digital footprint or community history for him in Lee County",
-          "url": "https://www.google.com/search?q=Alexander+A.+Petrovets+Lee+County+SC",
-          "title": "Search Results for Alexander A. Petrovets Lee County SC",
-          "date": "2026-01-30"
+          "claim": "No active role in local government found",
+          "url": "https://townofoakfieldny.gov/town-officials/",
+          "title": "Town of Oakfield Officials",
+          "date": "2024-01-01",
+          "note": null
         }
-      ],
-      "verification_notes": "Could not verify specific residency or bio. Name appears in Ukrainian mining contexts (Pokrovsk Mining) but no definitive link to SC land."
+      ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "John Michael McConnell",
+      "name": "Brice Johnson",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "024-00-00-135-000"
+        "16.-1-2.1"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "John Michael McConnell is identified as a resident of Hartsville, SC in the 2025 obituary of his mother, Jacqueline Keys Welborn McConnell ([Legacy.com](https://www.legacy.com/us/obituaries/name/jackie-mcconnell-obituary?id=59323947)). This location and familial context align with J. Michael McConnell, the former U.S. Director of National Intelligence (DNI) and retired Vice Admiral, who is a South Carolina native and Furman University graduate ([EduRank](https://edurank.org/uni/furman/alumni/)). A subdivision in Hartsville is also named 'John Michael McConnell' ([Redfin](https://www.redfin.com/SC/Hartsville/3625-N-Center-Rd-29550/home/121979130)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
+      "claims": "Brice Johnson is a participating landowner in the Cider Solar Farm project, having signed a lease agreement with Hecate Energy Cider Solar LLC in January 2023 ([NYS DPS](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1})). He serves as a Board Member for the Genesee SnoPackers, a local snowmobile club ([Genesee SnoPackers](https://geneseesnopackers.com/index.php/club-information/boardofdirectors/)). He is the son of the late Esther Johnson, a long-time resident of Oakfield ([The Daily News](https://www.bataviafuneralhomes.com/obituaries/esther-johnson-22)).",
+      "confidence": "high",
+      "noted_stance": "support",
       "community_influence": "Medium",
-      "influence_justification": "Likely former US Director of National Intelligence",
+      "influence_justification": "Board member of local recreational club; participating landowner in major energy project",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
+          "farmland_preservation",
+          "tax_revenue_benefit"
         ],
-        "engage": "Engage with the assumption that this is a highly prominent individual (former DNI). Use a senior project leader for outreach. Frame the conversation around national security, energy independence, and land stewardship."
+        "engage": "Engage as a project participant and community leader; leverage his role in the SnoPackers to understand recreational land use concerns."
       },
-      "entity_classification": "unknown",
-      "profile_summary": null,
+      "entity_classification": "agriculture",
+      "profile_summary": "Brice Johnson is a participating landowner in the Cider Solar project and serves on the board of a local snowmobile club.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -401,99 +343,51 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Identified as a resident of Hartsville, SC in the 2025 obituary of his mother",
-          "url": "https://www.legacy.com/us/obituaries/name/jackie-mcconnell-obituary?id=59323947",
-          "title": "Obituary for Jackie McConnell",
-          "date": "2025-08-31"
+          "claim": "Signed a lease agreement with Hecate Energy Cider Solar LLC in January 2023",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1}",
+          "title": "Cider Solar Farm Project Parcels Agreement Summary",
+          "date": "2024-07-31",
+          "note": null
         },
         {
-          "claim": "Former U.S. Director of National Intelligence and Furman graduate",
-          "url": "https://edurank.org/uni/furman/alumni/",
-          "title": "Furman University Notable Alumni",
-          "date": "2025-03-02"
+          "claim": "Serves as a Board Member for the Genesee SnoPackers",
+          "url": "https://geneseesnopackers.com/index.php/club-information/boardofdirectors/",
+          "title": "Genesee SnoPackers Board of Directors",
+          "date": "2024-02-05",
+          "note": null
         },
         {
-          "claim": "Subdivision in Hartsville named 'John Michael McConnell'",
-          "url": "https://www.redfin.com/SC/Hartsville/3625-N-Center-Rd-29550/home/121979130",
-          "title": "Property Record Hartsville SC",
-          "date": "2026-01-30"
+          "claim": "Son of the late Esther Johnson, long-time resident",
+          "url": "https://www.bataviafuneralhomes.com/obituaries/esther-johnson-22",
+          "title": "Obituary of Esther Johnson",
+          "date": "2022-12-22",
+          "note": null
         }
-      ],
-      "verification_notes": "Strong circumstantial evidence (Obituary, Age, Location, Subdivision Name) links this landowner to the former DNI Mike McConnell."
+      ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Benjamin J. & Mona S. Chua",
+      "name": "Ellen Hersee",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "024-00-00-279-000"
+        "12.-1-9"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Benjamin J. Chua passed away on August 1, 2019; he was a U.S. Air Force veteran and employee of Eaton Corporation ([ECS Funeral Home](https://ecsfuneralhome.com/memorials/Chua-Benjamin/3936290)). The property is likely held by his widow, Mona S. Chua. In 2018, the Chuas obtained a permit for a residential roof-mount solar panel system at their Sumter residence, demonstrating a supportive action toward renewable energy technology ([Sumter Item](https://eta.creativecirclecdn.com/sumter/files/20181110-213433-111118.pdf)).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "Low",
-      "influence_justification": "Private residents; no leadership roles found",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "fair_contracting"
-        ],
-        "engage": "Acknowledge Mona Chua's prior investment in solar technology as a point of alignment. Ensure outreach is respectful of her widow status and focuses on the project's responsible integration with the local landscape."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Benjamin J. Chua passed away on August 1, 2019",
-          "url": "https://ecsfuneralhome.com/memorials/Chua-Benjamin/3936290",
-          "title": "Obituary for Benjamin J. Chua",
-          "date": "2019-08-01"
-        },
-        {
-          "claim": "Obtained a permit for a residential roof-mount solar panel system",
-          "url": "https://eta.creativecirclecdn.com/sumter/files/20181110-213433-111118.pdf",
-          "title": "Sumter Item Building Permits",
-          "date": "2018-11-10"
-        }
-      ],
-      "verification_notes": "Benjamin is deceased. Mona installed solar in 2018 (Permit records)."
-    },
-    {
-      "neighbor_id": "N-04",
-      "name": "Lottie Mae Williams",
-      "entity_category": "Resident",
-      "entity_type": "Estate",
-      "pins": [
-        "025-00-00-075-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Lottie Mae Williams (1941–2025) was a resident of Bishopville who passed away on September 6, 2025 ([JP Holley](https://www.jpholley.com/obituaries/lottie-williams)). Public records do not indicate she held public office or was active in development debates prior to her death ([JP Holley](https://www.jpholley.com/obituaries/lottie-williams)).",
-      "confidence": "high",
+      "claims": "Ellen Hersee is a resident of Oakfield, NY, residing at 3718 Lockport Road ([National Public Data](https://nationalpublicdata.com/people/h/ellen-hersee/)). She holds no known local government position and has not been publicly noted in development debates ([Town of Oakfield](https://townofoakfieldny.gov/town-officials/)).",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Elder resident; no public office",
+      "influence_justification": "Resident with no identified public leadership role",
       "approach_recommendations": {
         "motivations": [
-          "heritage_family_legacy",
-          "farmland_preservation"
+          "farmland_preservation",
+          "privacy_quiet"
         ],
-        "engage": "Coordinate with the estate executor or heirs. Focus on heritage and family legacy, as the property is in transition following Ms. Williams' recent passing."
+        "engage": "Have a respectful, face-to-face discussion focusing on the project’s minimal intrusion and assurances that rural peace will be maintained."
       },
       "entity_classification": "unknown",
-      "profile_summary": null,
+      "profile_summary": "Ellen Hersee is an Oakfield resident with no documented public stance on development.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -507,34 +401,207 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Passed away on September 6, 2025",
-          "url": "https://www.jpholley.com/obituaries/lottie-williams",
-          "title": "Obituary for Lottie Mae Williams",
-          "date": "2025-09-06"
+          "claim": "Resident of Oakfield, NY, residing at 3718 Lockport Road",
+          "url": "https://nationalpublicdata.com/people/h/ellen-hersee/",
+          "title": "Ellen Hersee Public Record",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Holds no known local government position",
+          "url": "https://townofoakfieldny.gov/town-officials/",
+          "title": "Town of Oakfield Officials",
+          "date": "2024-01-01",
+          "note": null
         }
-      ],
-      "verification_notes": "Confirmed deceased Sept 2025."
+      ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Cecil W. Watkins Jr.",
+      "name": "George Shamblin Estate",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "024-00-00-047-000"
+        "12.-1-58"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Cecil W. Watkins Jr. is listed as the owner of a rural Lee County parcel (PIN 024-00-00-047-000) [Lee County GIS](https://www.leecountysc.org/directory/departments___elected_officials/mapping_office.php). The Watkins family has significant local influence; a Ben E. Watkins served on the Lee County Council in the 1990s [Justia](https://law.justia.com/cases/south-carolina/supreme-court/1993/23903-2.html), and Alan Watkins currently serves as the Lee County Administrator [Lee County Council Minutes](https://cms9files.revize.com/leecountysc//cc%20min.071123.pdf). Cecil W. Watkins Sr. was a long-time resident and community leader (Jaycee President) prior to his passing [Norton Funeral Home](https://www.nortonfh.net/obituaries/cecil-watkins-sr).",
+      "claims": "Records indicate George Shamblin is deceased (died circa 2012), and the property is currently listed under the George Shamblin Estate [Genesee County Prosgar](https://geneseecounty.prosgar.com/PROSParcel/Parcel/494?swis=183801). His widow, Lorene May Shamblin, recently passed away in January 2025, leaving the estate to surviving family members [Batavia Funeral Homes](https://www.bataviafuneralhomes.com/obituaries/lorene-shamblin). Parcel 12.-1-58 is explicitly identified as lands of the George Shamblin Estate in project surveys [DPS NY](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Deceased; property in estate",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Direct outreach to the estate executor or surviving adult heirs (children) identified in recent obituaries to determine decision-making authority for the property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "George Shamblin is deceased and property is listed under George Shamblin Estate",
+          "url": "https://geneseecounty.prosgar.com/PROSParcel/Parcel/494?swis=183801",
+          "title": "Genesee County Property Data - 23 Drake St",
+          "date": "2025-02-05",
+          "note": null
+        },
+        {
+          "claim": "Lorene May Shamblin passed away in January 2025",
+          "url": "https://www.bataviafuneralhomes.com/obituaries/lorene-shamblin",
+          "title": "Obituary for Lorene May Shamblin",
+          "date": "2025-01-16",
+          "note": null
+        },
+        {
+          "claim": "Parcel 12.-1-58 identified as George Shamblin Estate in survey",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}",
+          "title": "Cider Solar Farm ALTA Survey Index",
+          "date": "2021-04-23",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Anne Bezon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-29.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anne M. Bezon is the designated owner of parcel 16.-1-29.12 (3948 Lockport Rd) in the Town of Elba/Oakfield [Genesee County Real Property](https://www.geneseeny.gov/files/sharedassets/county/v/1/treasurer/assessment-rolls/elba-2025-tentative-roll.pdf). She serves as the Coordinator for the Justice for Children Advocacy Center under Genesee County, a role confirming her involvement in local social services [NYS Senate](https://www.nysenate.gov/sites/default/files/articles/attachments/NYS%20Childrens%20Alliance.pdf). While active in county service, no public records were found regarding her specific stance on renewable energy development.",
       "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Medium",
-      "influence_justification": "Family includes County Administrator and former Councilman",
+      "influence_justification": "County Coordinator; social services",
       "approach_recommendations": {
         "motivations": [
-          "heritage_family_legacy",
-          "local_control"
+          "tax_revenue_benefit"
         ],
-        "engage": "Leverage family political ties; approach via County Administrator's office or mutual contacts to discuss land legacy and community benefit."
+        "engage": "Highlight local benefits to community services and youth programs, leveraging her background in county social work and emphasizing how development revenues could support social initiatives."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Owner of parcel 16.-1-29.12",
+          "url": "https://www.geneseeny.gov/files/sharedassets/county/v/1/treasurer/assessment-rolls/elba-2025-tentative-roll.pdf",
+          "title": "Town of Elba 2025 Tentative Assessment Roll",
+          "date": "2025-05-01",
+          "note": null
+        },
+        {
+          "claim": "Coordinator for Justice for Children Advocacy Center",
+          "url": "https://www.nysenate.gov/sites/default/files/articles/attachments/NYS%20Childrens%20Alliance.pdf",
+          "title": "NYS Children's Alliance Member List",
+          "date": "2015-02-04",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Brian Pritchett",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brian Pritchett is a New York State Police Trooper active in the Genesee County area [WBTA](https://wbtai.com/morning-news-brief-530/). He has demonstrated support for renewable development by signing a Right-of-Way (ROW) Easement with Hecate Energy Cider Solar LLC in July 2023 for parcel 16.-1-6 [DPS NY](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1}). He is listed as the owner of said parcel in project tax agreements [GCEDC](https://www.gcedc.com/file-library/100229/HecateEnergyCiderSolarLLC.TaxAgreement.9.13.24.pdf).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "State Trooper; participating landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "property_value"
+        ],
+        "engage": "Maintain relationship as a participating landowner; utilize his law enforcement background to discuss traffic safety plans during construction phases."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Active NY State Trooper in Genesee County",
+          "url": "https://wbtai.com/morning-news-brief-530/",
+          "title": "WBTA Morning News Brief",
+          "date": "2023-12-10",
+          "note": null
+        },
+        {
+          "claim": "Signed ROW Easement with Hecate Energy Cider Solar LLC",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1}",
+          "title": "Cider Solar Farm Project Parcels & Agreements",
+          "date": "2024-07-31",
+          "note": null
+        },
+        {
+          "claim": "Owner of parcel 16.-1-6",
+          "url": "https://www.gcedc.com/file-library/100229/HecateEnergyCiderSolarLLC.TaxAgreement.9.13.24.pdf",
+          "title": "Hecate Energy Cider Solar LLC Tax Agreement",
+          "date": "2024-09-13",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Daniel Dart",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-5.1",
+        "12.-1-5.2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Project survey documents identify Daniel Dart (also listed as Daniel C. Dart) as the owner of parcels 12.-1-5.1 and 12.-1-5.2 in Genesee County, located along Lockport Road ([source](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}&DocTitle=AttC_CSF_ALTAIndex)). County planning records from March 2025 list these parcels in a review of agricultural district modifications, specifically noting them under 'removals' ([source](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). No evidence was found of Dart holding public office or providing public testimony in Genesee County planning meeting minutes as of early 2025 ([source](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "farmland_preservation"
+        ],
+        "engage": "Engage one-on-one to build rapport. Given the agricultural district administrative review of his land, he may have specific questions regarding land classification and property value. Emphasize respectful dialogue."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -551,54 +618,50 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Cecil W. Watkins Jr. is listed as the owner of a rural Lee County parcel (PIN 024-00-00-047-000)",
-          "url": "https://www.leecountysc.org/directory/departments___elected_officials/mapping_office.php",
-          "title": "Lee County GIS & Addressing Office",
-          "date": "2026-01-30"
+          "claim": "Project survey documents identify Daniel Dart (also listed as Daniel C. Dart) as the owner of parcels 12.-1-5.1 and 12.-1-5.2...",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C847-993C-A63F1E4E967C}&DocTitle=AttC_CSF_ALTAIndex",
+          "title": "Cider Solar Farm ALTA Survey Index (Attachment C)",
+          "date": "2024-07-19",
+          "note": null
         },
         {
-          "claim": "Ben E. Watkins served on the Lee County Council in the 1990s",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/1993/23903-2.html",
-          "title": "Bramlette v. County Council for Lee County",
-          "date": "1993-07-12"
+          "claim": "County planning records from March 2025 list these parcels in a review of agricultural district modifications...",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
         },
         {
-          "claim": "Alan Watkins currently serves as the Lee County Administrator",
-          "url": "https://cms9files.revize.com/leecountysc//cc%20min.071123.pdf",
-          "title": "Lee County Council Minutes",
-          "date": "2023-07-11"
-        },
-        {
-          "claim": "Cecil W. Watkins Sr. was a long-time resident and community leader (Jaycee President) prior to his passing",
-          "url": "https://www.nortonfh.net/obituaries/cecil-watkins-sr",
-          "title": "Obituary for Cecil William Watkins, Sr.",
-          "date": "2022-11-21"
+          "claim": "No evidence was found of Dart holding public office or providing public testimony...",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
         }
-      ],
-      "verification_notes": "Confirmed family prominence via County Administrator Alan Watkins and former Councilman Ben E. Watkins. Specific stance of Cecil Jr. remains unknown."
+      ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Guy C. Smith et al.",
+      "name": "Laura Winn",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "025-00-00-021-000"
+        "16.-1-25"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Guy C. Smith (with other co-owners) is associated with a Lee County property (PIN 025-00-00-021-000) [Lee County GIS](https://www.leecountysc.org/directory/departments___elected_officials/mapping_office.php). A 'Guy C. Smith Construction Co.' has operated in the region (Augusta/Aiken area), suggesting potential corporate or heirs' ownership rather than a primary residence [Augusta GA Gov](https://forms.augustaga.gov/WebLink/0/doc/18351/Page2.aspx). No indications of public positioning on local development issues were found.",
-      "confidence": "medium",
+      "claims": "Laural L. Winn is identified in county assessment records and solar project exhibits as the owner of parcel 16.-1-25 in the Town of Elba, Genesee County ([source](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)) ([source](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)). The property consists of approximately 10.3 acres ([source](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). There are no public records of Winn taking a position on local development or appearing in town meeting minutes in Genesee County; records of a 'Laura Winn' involved in politics in Michigan or arts in Vermont are for different individuals ([source](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)).",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Likely absentee or corporate owner; no local roles",
+      "influence_justification": "No known civic roles",
       "approach_recommendations": {
         "motivations": [
-          "property_value",
-          "fair_contracting"
+          "privacy_quiet",
+          "aesthetics_viewshed"
         ],
-        "engage": "Treat as corporate/absentee owner. Contact via registered agent or mail. Focus on financial stability and low-maintenance land use."
+        "engage": "Approach her in a neighborly manner to introduce the project and invite her feedback. Listen to any concerns she raises, particularly regarding privacy given her residential acreage."
       },
-      "entity_classification": "land_investment",
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -613,40 +676,48 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Guy C. Smith (with other co-owners) is associated with a Lee County property (PIN 025-00-00-021-000)",
-          "url": "https://www.leecountysc.org/directory/departments___elected_officials/mapping_office.php",
-          "title": "Lee County GIS & Addressing Office",
-          "date": "2026-01-30"
+          "claim": "Laural L. Winn is identified in county assessment records and solar project exhibits as the owner of parcel 16.-1-25...",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
         },
         {
-          "claim": "A 'Guy C. Smith Construction Co.' has operated in the region (Augusta/Aiken area)",
-          "url": "https://forms.augustaga.gov/WebLink/0/doc/18351/Page2.aspx",
-          "title": "City of Augusta Contract Records",
-          "date": "1986-03-27"
+          "claim": "The property consists of approximately 10.3 acres...",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
+        },
+        {
+          "claim": "identified in solar project exhibits...",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Exhibit 4: Real Property",
+          "date": "2021-04-09",
+          "note": null
         }
-      ],
-      "verification_notes": "Could not verify 'Guy C. Smith' as a living resident; name matches a regional construction firm and a historic architect. Likely heirs property or corporate holding."
+      ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "James Edward Tolbert",
+      "name": "Joshua Wilder",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "024-00-00-133-000"
+        "16.-1-29.2"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "James Edward Tolbert is listed as the owner of a parcel in Lee County (PIN 024-00-00-133-000) [Lee County GIS](https://www.leecountysc.org/directory/departments___elected_officials/mapping_office.php). A James Edward Tolbert (1957-2024) recently passed away in neighboring Georgia, raising the possibility that this is now heirs' property [Legacy](https://www.legacy.com/us/obituaries/name/james-tolbert-obituary?id=55144598). No public statements or documented views on development by a living James Tolbert in Lee County were found.",
-      "confidence": "medium",
+      "claims": "Joshua Wilder is listed as the owner of parcel 16.-1-29.2 (3962 Lockport Rd) in Genesee County’s property roll ([source](https://townofelba.prosgar.com/PROSParcel/Parcel/1566?swis=183489)). The property is classified as a single-family residence ([source](https://townofelba.prosgar.com/PROSParcel/Parcel/1566?swis=183489)). No references to this Joshua Wilder have been found in local government records or news reports regarding development participation ([source](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). He does not hold any known public office or leadership position in the community.",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public roles; possible absentee or heirs property",
+      "influence_justification": "Not publicly active",
       "approach_recommendations": {
         "motivations": [
-          "heritage_family_legacy",
+          "privacy_quiet",
           "property_value"
         ],
-        "engage": "Verify current ownership status (possible estate). Approach heirs with sensitivity, focusing on property value retention and minimal disturbance."
+        "engage": "Reach out informally to explain the project and ask for his perspective. Emphasize that his input is valued and that the project team will address any personal or property concerns he may have."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -663,129 +734,117 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "James Edward Tolbert is listed as the owner of a parcel in Lee County (PIN 024-00-00-133-000)",
-          "url": "https://www.leecountysc.org/directory/departments___elected_officials/mapping_office.php",
-          "title": "Lee County GIS & Addressing Office",
-          "date": "2026-01-30"
+          "claim": "Joshua Wilder is listed as the owner of parcel 16.-1-29.2 (3962 Lockport Rd) in Genesee County’s property roll...",
+          "url": "https://townofelba.prosgar.com/PROSParcel/Parcel/1566?swis=183489",
+          "title": "Town of Elba Property Record: 16.-1-29.2",
+          "date": "2025-01-01",
+          "note": null
         },
         {
-          "claim": "A James Edward Tolbert (1957-2024) recently passed away in neighboring Georgia",
-          "url": "https://www.legacy.com/us/obituaries/name/james-tolbert-obituary?id=55144598",
-          "title": "Obituary for James Edward Tolbert",
-          "date": "2024-05-20"
-        }
-      ],
-      "verification_notes": "High probability of recent decease (James Edward Tolbert, d. 2024, or James Daniel Tolbert, d. 2025 in nearby Winnsboro). Ownership likely in transition."
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Jugs Chicken House Farm LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "025-00-00-086-000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Could not verify the existence of 'Jugs Chicken House Farm LLC' in Lee County, SC public records or business filings. The Parcel Identification Number (PIN) 025-00-00-086-000 appears to correspond to a residential property in Cherokee County, SC, rather than Lee County [Zillow](https://www.zillow.com/homedetails/258-Daniel-Morgan-School-Rd-Gaffney-SC-29341/70183287_zpid/). No evidence of a poultry operation under this specific name was found in Lee County agricultural listings or news reports.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Entity could not be verified in the target geography; likely a data error or misidentified parcel.",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Verify the correct landowner name and parcel number through a physical deed search at the Lee County Assessor's office before attempting contact."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
+          "claim": "The property is classified as a single-family residence...",
+          "url": "https://townofelba.prosgar.com/PROSParcel/Parcel/1566?swis=183489",
+          "title": "Town of Elba Property Record: 16.-1-29.2",
+          "date": "2025-01-01",
+          "note": null
+        },
         {
-          "claim": "PIN 025-00-00-086-000 appears to correspond to a residential property in Cherokee County, SC",
-          "url": "https://www.zillow.com/homedetails/258-Daniel-Morgan-School-Rd-Gaffney-SC-29341/70183287_zpid/",
-          "title": "258 Daniel Morgan School Rd, Gaffney, SC 29341",
-          "date": "2024-01-30"
+          "claim": "No references to this Joshua Wilder have been found in local government records...",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18",
+          "note": null
         }
-      ],
-      "verification_notes": "Could not verify entity existence. The name does not appear in SC Secretary of State filings or local news. The provided PIN matches a record in Cherokee County, SC (Gaffney), suggesting a geographic mismatch in the input data."
+      ]
     },
     {
-      "neighbor_id": "N-02",
-      "name": "McLeod-McQuilla Property LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
+      "neighbor_id": "N-15",
+      "name": "Glennda Boyce",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
       "pins": [
-        "025-00-00-055-000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Could not verify the existence of 'McLeod-McQuilla Property LLC' in Lee County public records. The Parcel Identification Number (PIN) 025-00-00-055-000 is associated with a property in Marion County, SC, listed in delinquent tax sale records under a different owner [Marion County Tax Collector](https://ctldd.com/listing_pdf/SC-Marion_County-RedeemableDeed-2015-11-02-Raw.pdf). While the McLeod and McQuilla families are established residents in the Sumter/Lee region, no specific LLC matching this hyphenated name was found in state business filings.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Entity could not be verified; PIN matches a different county.",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Re-verify the parcel number and owner name via official county tax maps. The current data appears to reference a Marion County parcel."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "PIN 025-00-00-055-000 is associated with a property in Marion County, SC",
-          "url": "https://ctldd.com/listing_pdf/SC-Marion_County-RedeemableDeed-2015-11-02-Raw.pdf",
-          "title": "Marion County Delinquent Tax Sale 2015",
-          "date": "2015-11-02"
-        }
-      ],
-      "verification_notes": "Could not verify entity. PIN 025-00-00-055-000 is explicitly listed in Marion County tax records (owned by Page Marvin/Sarah). No record of 'McLeod-McQuilla Property LLC' found in SC business search."
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Lee County Landfill SC, LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "025-00-00-012-000",
-        "025-00-00-006-000"
+        "16.-1-1.12"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Lee County Landfill SC, LLC is a subsidiary of Republic Services, a major waste management corporation, and owns the Lee County Landfill located at 1431 Sumter Hwy [Lee County Public Works](https://www.leecountysc.org/directory/departments___elected_officials/public_works.php). The entity has demonstrated a supportive stance toward renewable energy; in 2017, the Lee County Council approved a zoning reclassification for the landfill property to facilitate a solar farm investment, a motion supported by the landfill's management [Lee County Council Minutes](https://www.leecountysc.org/county_council/council_minutes/2017_minutes.php). Furthermore, the facility hosts a renewable natural gas (RNG) plant developed in partnership with Ameresco, which began commercial operations in 2025, converting landfill gas into pipeline-quality energy [Ameresco](https://www.ameresco.com/ameresco-and-republic-services-launch-another-renewable-natural-gas-facility-at-lee-county-landfill/). The site is a significant industrial operation with established ties to county infrastructure and energy development.",
+      "claims": "Glennda Boyce is the listed owner of parcel 16.-1-1.12 in the Town of Elba, as confirmed by Cider Solar project filings [Cider Solar Exhibit 4](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf) [Cider Solar Exhibit 3](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_03.pdf). Public records corroborate her residency in Elba, NY [National Public Data](https://nationalpublicdata.com/people/b/glenda-boyce/). No public comments or media references regarding renewable energy development were found for this individual.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Approach via neighborly introduction; confirm correct name (Glennda Boyce vs Glenda Bloom) and address standard residential concerns regarding viewshed and noise."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": {
+        "candidates": [],
+        "method": ["Original draft name 'Glenda Bloom' was incorrect; official project documents list 'Glennda Boyce' for parcel 16.-1-1.12."]
+      },
+      "citations": [
+        {
+          "claim": "Glennda Boyce is the listed owner of parcel 16.-1-1.12 in the Town of Elba",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Exhibit 4: Real Property",
+          "date": "2021-04-23"
+        },
+        {
+          "claim": "Confirmed by Cider Solar Exhibit 3",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_03.pdf",
+          "title": "Cider Solar Exhibit 3: Location of Facilities",
+          "date": "2021-04-23"
+        },
+        {
+          "claim": "Public records corroborate her residency in Elba, NY",
+          "url": "https://nationalpublicdata.com/people/b/glenda-boyce/",
+          "title": "National Public Data: Glenda Boyce",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-16",
+      "name": "Call Farms, Inc.",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "16.-1-22",
+        "16.-1-30.11",
+        "16.-1-30.12",
+        "16.-1-29.11",
+        "12.-1-8",
+        "12.-1-10.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Call Farms, Inc. (dba Call Lands/My-T Acres) is a major agricultural enterprise in Genesee County, established and operated by the Call family for multiple generations ([Genesee County Chamber of Commerce](https://members.geneseeny.com/list/member/call-lands-my-t-acres-inc-53)). The farm spans approximately 8,500 acres across Genesee, Orleans, and Livingston Counties, producing chip potatoes, sweet corn, snap beans, and other crops ([Genesee County Chamber of Commerce](https://members.geneseeny.com/list/member/call-lands-my-t-acres-inc-53)). It employs roughly 30 full-time staff and utilizes extensive irrigation infrastructure to ensure consistent production ([Genesee County Chamber of Commerce](https://members.geneseeny.com/list/member/call-lands-my-t-acres-inc-53)). Call Farms, Inc. was honored as Genesee County's 2019 Agricultural Business of the Year, recognizing its sustained growth and contribution to the local agricultural economy ([Genesee County Chamber of Commerce](https://www.youtube.com/watch?v=8FxV7oumUHU)). The company is a participating landowner in the Cider Solar Farm project, having signed agreements to include its parcels in the 500 MW development ([Hecate Energy Cider Solar](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)).",
       "confidence": "high",
       "noted_stance": "support",
       "community_influence": "High",
-      "influence_justification": "Major industrial landowner and taxpayer (Republic Services); active partner in county-level energy and infrastructure projects.",
+      "influence_justification": "High \u2013 Operates one of the largest farms in the region (8,500 acres); recognized as 2019 Agricultural Business of the Year; major employer and landowner participating in the Cider Solar project.",
       "approach_recommendations": {
         "motivations": [
-          "revenue_generation",
-          "sustainability_goals"
+          "Financial diversification through solar lease",
+          "Long-term farm stability"
         ],
-        "engage": "Engage as a strategic partner. Republic Services has a proven track record of co-locating renewable energy projects (solar and RNG) on this specific site. Highlight synergies with their existing Ameresco RNG plant and 2017 solar zoning approval."
+        "engage": "Maintain close communication with the Call family leadership (e.g., Peter Call), emphasizing the project's benefits to their farm's long-term stability. Acknowledge their stature in the community and address any concerns collaboratively, while avoiding pressuring them into a public spotlight given their preference for low-profile support."
       },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
+      "entity_classification": "agriculture",
+      "profile_summary": "Call Farms, Inc. (My-T Acres) is a prominent, large-scale agricultural operation in Genesee County controlling over 8,500 acres. The entity is a participating landowner in the Cider Solar Farm project and holds significant influence as a major local employer and award-winning business.",
+      "stance": "support",
       "signal": null,
-      "influence_level": null,
+      "influence_level": "high",
       "risk_level": null,
       "engagement_recommendation": null,
       "social": null,
@@ -796,109 +855,65 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "owns the Lee County Landfill located at 1431 Sumter Hwy",
-          "url": "https://www.leecountysc.org/directory/departments___elected_officials/public_works.php",
-          "title": "Lee County Public Works Directory",
-          "date": "2024-01-30"
+          "claim": "Call Farms, Inc. (dba Call Lands/My-T Acres) is a major agricultural enterprise... established and operated by the Call family for multiple generations",
+          "url": "https://members.geneseeny.com/list/member/call-lands-my-t-acres-inc-53",
+          "title": "Call Lands/My-T Acres, Inc. Member Profile",
+          "date": "2024-02-05"
         },
         {
-          "claim": "Lee County Council approved a zoning reclassification for the landfill property to facilitate a solar farm investment",
-          "url": "https://www.leecountysc.org/county_council/council_minutes/2017_minutes.php",
-          "title": "Lee County Council Regular Meeting Minutes August 8, 2017",
-          "date": "2017-08-08"
+          "claim": "The farm spans approximately 8,500 acres... producing chip potatoes, sweet corn, snap beans, and other crops",
+          "url": "https://members.geneseeny.com/list/member/call-lands-my-t-acres-inc-53",
+          "title": "Call Lands/My-T Acres, Inc. Member Profile",
+          "date": "2024-02-05"
         },
         {
-          "claim": "hosts a renewable natural gas (RNG) plant developed in partnership with Ameresco, which began commercial operations in 2025",
-          "url": "https://www.ameresco.com/ameresco-and-republic-services-launch-another-renewable-natural-gas-facility-at-lee-county-landfill/",
-          "title": "Ameresco and Republic Services Launch Another Renewable Natural Gas Facility at Lee County Landfill",
-          "date": "2025-07-29"
+          "claim": "It employs roughly 30 full-time staff and utilizes extensive irrigation infrastructure",
+          "url": "https://members.geneseeny.com/list/member/call-lands-my-t-acres-inc-53",
+          "title": "Call Lands/My-T Acres, Inc. Member Profile",
+          "date": "2024-02-05"
+        },
+        {
+          "claim": "honored as Genesee County's 2019 Agricultural Business of the Year",
+          "url": "https://www.youtube.com/watch?v=8FxV7oumUHU",
+          "title": "2019 Agricultural Business of The Year: My-T Acres",
+          "date": "2020-03-09"
+        },
+        {
+          "claim": "participating landowner in the Cider Solar Farm project, having signed agreements",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Exhibit 4: Real Property",
+          "date": "2021-05-28"
         }
-      ],
-      "verification_notes": "Corrected name from 'LCSWF Real Estate LLC' to 'Lee County Landfill SC, LLC' (Republic Services) based on the draft's description of the 'county landfill' and 'Republic Services' ties. Note: 'LCSWF' is also an acronym used by Terra Nova Solutions for a separate waste facility in the county, but the draft's context (Republic Services, landfill) points to the Republic entity. Verified supportive stance via 2017 solar zoning request and 2025 RNG plant launch."
+      ]
     },
     {
-      "neighbor_id": "N-04",
-      "name": "Wateree Holdings LLC",
+      "neighbor_id": "N-17",
+      "name": "Norton Farms Inc",
       "entity_category": "Organization",
-      "entity_type": "llc",
+      "entity_type": "corporation",
       "pins": [
-        "025-00-00-076-000",
-        "025-00-00-054-000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Wateree Holdings LLC is a landholding entity managed by Forest Investment Associates (FIA), a major timberland investment management organization [York County Deeds](https://search.yorkdeeds.com/view_image.php?file=L2ltZy9zYy95b3JrLzIwMTQvMDcyNC8yMDE0MDAyNjQzNTUudGlm&type=pdf). The company holds significant timberland assets across South Carolina, including parcels in Fairfield, Dillon, and York counties, often acquired from major forestry firms like Weyerhaeuser [Fairfield County Council](https://www.fairfieldsc.com/uploads/uploads/1052015125835PM.pdf). Wateree Holdings LLC has been a recipient of USDA agricultural subsidies for conservation and commodity programs [EWG Farm Subsidy Database](https://farm.ewg.org/persondetail.php?custnumber=A12767556). The entity functions as an institutional timber investment vehicle rather than a traditional family farm.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Institutional landowner (Forest Investment Associates) with significant acreage across the state; likely transactional approach to land use.",
-      "approach_recommendations": {
-        "motivations": [
-          "financial_return",
-          "land_management"
-        ],
-        "engage": "Contact Forest Investment Associates (FIA) in Atlanta, GA, who manages this entity. As an institutional timber investor, they are likely familiar with solar lease structures and may be open to development if it aligns with their portfolio strategy."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "managed by Forest Investment Associates (FIA), a major timberland investment management organization",
-          "url": "https://search.yorkdeeds.com/view_image.php?file=L2ltZy9zYy95b3JrLzIwMTQvMDcyNC8yMDE0MDAyNjQzNTUudGlm&type=pdf",
-          "title": "York County Deed Book 14260 Page 224",
-          "date": "2014-07-21"
-        },
-        {
-          "claim": "holds significant timberland assets across South Carolina, including parcels in Fairfield, Dillon, and York counties",
-          "url": "https://www.fairfieldsc.com/uploads/uploads/1052015125835PM.pdf",
-          "title": "Fairfield County Council Agenda",
-          "date": "2015-10-05"
-        },
-        {
-          "claim": "recipient of USDA agricultural subsidies for conservation and commodity programs",
-          "url": "https://farm.ewg.org/persondetail.php?custnumber=A12767556",
-          "title": "EWG Farm Subsidy Database: Wateree Holdings LLC",
-          "date": "2023-01-01"
-        }
-      ],
-      "verification_notes": "Verified entity as a Forest Investment Associates (FIA) subsidiary. Note: The specific PINs provided in the draft (025-00-00-076-000) could not be verified in Lee County and resemble PIN formats in Marion/Dillon counties where Wateree also owns land. However, the entity is a valid SC landowner. Removed specific subsidy dollar amounts per privacy policy."
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Kelley-Hill Properties LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "024-00-00-167-000"
+        "16.-1-1.111",
+        "12.-1-7",
+        "12.-1-6.11"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Kelley-Hill Properties LLC is a limited liability company identified as a donor to the McLeod Health Foundation in South Carolina ([McLeod Health](https://www.mcleodhealth.org/wp-content/uploads/2017/06/McLeod_Foundation_2016_AR.pdf)). Public records associate the entity with individuals Amber Kelly and Tammy R. Kelly ([McLeod Health](https://www.mcleodhealth.org/wp-content/uploads/2017/06/McLeod_Foundation_2016_AR.pdf)). The entity has been identified as the holder of the \"Cypress Road Tract,\" a 64.59-acre timberland parcel in Lee County (PIN 024-00-00-167-000) ([AFM Real Estate](https://www.afmrealestate.com/properties/64.59-acres-land-for-sale-in-lee-county-south-carolina/cypress-road-tract)). Real estate listings indicate this specific tract was sold on December 1, 2025, suggesting a recent transaction of the asset ([LandWatch](https://www.landwatch.com/south-carolina-land-for-sale/lee-county/available/under-contract/sold)). The entity appears to function as a land investment vehicle or holding company.",
+      "claims": "Norton Farms Inc is a multi-generational family dairy farm based in Elba, NY ([Orleans Hub](https://orleanshub.com/ny-farm-bureau-elects-new-president/)). The farm's principal, Dean Norton, is a prominent agricultural leader who served as President of the New York Farm Bureau for eight years (2008\u20132016) ([Orleans Hub](https://orleanshub.com/ny-farm-bureau-elects-new-president/)). He has also served on the American Farm Bureau Board of Directors, highlighting significant influence in state and national agricultural policy ([Orleans Hub](https://orleanshub.com/dean-norton-of-elba-president-of-ny-farm-bureau-seeks-national-post/)). Norton Farms Inc is a participating landowner in the Cider Solar Farm project, having signed option agreements to lease land for the 500 MW development ([Hecate Energy Cider Solar](http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf)). The entity represents a substantial local agribusiness operation with deep ties to the agricultural community ([Orleans Hub](https://orleanshub.com/ny-farm-bureau-elects-new-president/)).",
       "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Entity is a donor to local health foundations but shows no evidence of political office or public advocacy.",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "High \u2013 Led by Dean Norton, former President of the New York Farm Bureau (8-year tenure) and American Farm Bureau Board member; deeply embedded in local and state agricultural policy networks.",
       "approach_recommendations": {
         "motivations": [
-          "Asset liquidity",
-          "Philanthropy"
+          "Lease revenue",
+          "Agricultural leadership"
         ],
-        "engage": "Engage the associated individuals (Amber/Tammy Kelly) acknowledging their support of local health initiatives. Given the recent sale of the Cypress Road Tract, verify current landholdings before making a formal offer."
+        "engage": "Engage Dean Norton directly, respecting his expertise and leadership in the farm community. Provide transparent, fact-based updates on project impacts and benefits to farming; gaining his continued confidence is key, as his tacit support and credibility will help prevent or defuse local opposition."
       },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
+      "entity_classification": "agriculture",
+      "profile_summary": "Norton Farms Inc is a long-standing dairy operation in Elba, NY, led by former New York Farm Bureau President Dean Norton. The farm is a participating lessor in the Cider Solar Farm project and holds high community influence due to its leadership's extensive political and agricultural connections.",
+      "stance": "support",
       "signal": null,
-      "influence_level": null,
+      "influence_level": "high",
       "risk_level": null,
       "engagement_recommendation": null,
       "social": null,
@@ -909,1449 +924,262 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Identified as a donor to the McLeod Health Foundation",
-          "url": "https://www.mcleodhealth.org/wp-content/uploads/2017/06/McLeod_Foundation_2016_AR.pdf",
-          "title": "McLeod Foundation 2016 Annual Report",
-          "date": "2017-06-01"
+          "claim": "Norton Farms Inc is a multi-generational family dairy farm based in Elba, NY",
+          "url": "https://orleanshub.com/ny-farm-bureau-elects-new-president/",
+          "title": "NY Farm Bureau elects new president",
+          "date": "2016-12-09"
         },
         {
-          "claim": "Associated with individuals Amber Kelly and Tammy R. Kelly",
-          "url": "https://www.mcleodhealth.org/wp-content/uploads/2017/06/McLeod_Foundation_2016_AR.pdf",
-          "title": "McLeod Foundation 2016 Annual Report",
-          "date": "2017-06-01"
+          "claim": "Dean Norton... served as President of the New York Farm Bureau for eight years (2008\u20132016)",
+          "url": "https://orleanshub.com/ny-farm-bureau-elects-new-president/",
+          "title": "NY Farm Bureau elects new president",
+          "date": "2016-12-09"
         },
         {
-          "claim": "Holder of the Cypress Road Tract (PIN 024-00-00-167-000)",
-          "url": "https://www.afmrealestate.com/properties/64.59-acres-land-for-sale-in-lee-county-south-carolina/cypress-road-tract",
-          "title": "64.59 Acres Land for Sale in Lee County, South Carolina",
-          "date": "2025-06-26"
+          "claim": "served on the American Farm Bureau Board of Directors",
+          "url": "https://orleanshub.com/dean-norton-of-elba-president-of-ny-farm-bureau-seeks-national-post/",
+          "title": "Dean Norton of Elba, president of NY Farm Bureau, seeks national post",
+          "date": "2015-08-03"
         },
         {
-          "claim": "Tract was sold on December 1, 2025",
-          "url": "https://www.landwatch.com/south-carolina-land-for-sale/lee-county/available/under-contract/sold",
-          "title": "Lee County, South Carolina Land for Sale - Sold Listings",
-          "date": "2026-01-30"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "McLeod Woodham Property LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "025-00-00-057-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The existence of a specific entity named 'McLeod Woodham Property LLC' could not be verified in South Carolina public records. The surname 'Woodham' is historically significant in Lee County, associated with the Thomas Fraser House (also known as the Woodham House) ([Wikipedia](https://en.wikipedia.org/wiki/Thomas_Fraser_House)). The name 'McLeod' is also prominent in the region, appearing in local graduations and church records ([The Miscellany](https://archives.themiscellany.org/2020/07/02/the-class-of-2020-graduates-in-style/)). The tax parcel identifier provided in the draft (025-00-00-057-000) resolves to a property in Portage County, Ohio in open datasets ([Redfin](https://www.redfin.com/OH/Streetsboro/1126-Gaynelle-Ave-44241/home/75392715)), indicating a probable data match error in the original draft.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Entity existence cannot be confirmed; influence level is indeterminate.",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Do not engage until entity existence and property ownership are verified against internal county tax rolls. The current data appears to be a mismatch or hallucination."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Woodham House is a historic location in Lee County",
-          "url": "https://en.wikipedia.org/wiki/Thomas_Fraser_House",
-          "title": "Thomas Fraser House - Wikipedia",
-          "date": "2024-06-14"
-        },
-        {
-          "claim": "McLeod is a prominent local surname",
-          "url": "https://archives.themiscellany.org/2020/07/02/the-class-of-2020-graduates-in-style/",
-          "title": "The Class of 2020 Graduates in Style",
-          "date": "2020-07-02"
-        },
-        {
-          "claim": "PIN 025-00-00-057-000 resolves to a property in Ohio",
-          "url": "https://www.redfin.com/OH/Streetsboro/1126-Gaynelle-Ave-44241/home/75392715",
-          "title": "1126 Gaynelle Ave, Streetsboro, OH 44241",
-          "date": "2026-01-30"
-        }
-      ],
-      "verification_notes": "Could not verify entity. Search for 'McLeod Woodham Property LLC' returned no exact matches in SC. The provided PIN returns a valid address in Ohio, suggesting a clerical error in the draft. While 'McLeod' and 'Woodham' are valid local families, this specific LLC appears unverified."
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Warren M. Lee",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "025-00-00-011-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Warren M. Lee is a resident of Lee County and the son of Mary Lucia Lee, a long-time local landowner ([SC DHEC Enforcement Report](https://www.des.sc.gov/sites/des/files/docs/Environment/docs/Enforcement/2011/SeptemberReport.pdf)). In 2011, Lee was the subject of a South Carolina DHEC enforcement order regarding the open dumping of solid waste on family property ([SC DHEC Enforcement Report](https://www.des.sc.gov/sites/des/files/docs/Environment/docs/Enforcement/2011/SeptemberReport.pdf)). There is no public record of him holding elected office or taking a public stance on renewable energy development.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public office; history of environmental non-compliance",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "property_value",
-          "local_control"
-        ],
-        "engage": "Approach with caution given past regulatory history; emphasize how the project ensures professional land management and compliance with all environmental standards."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Warren M. Lee is the son of Mary Lucia Lee and was subject to a 2011 DHEC enforcement order for open dumping.",
-          "url": "https://www.des.sc.gov/sites/des/files/docs/Environment/docs/Enforcement/2011/SeptemberReport.pdf",
-          "title": "SC DHEC Environmental Enforcement Report September 2011",
-          "date": "2011-09-08"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Lewis B. Smith & James E. Smith",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "025-00-00-022-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Lewis B. Smith and James E. Smith are brothers and landowners in the region, identified as the sons of the late Thelma Smith of the Mt. Elon Baptist Church community ([The State Obituary](https://www.legacy.com/us/obituaries/thestate/name/thelma-smith-obituary?id=12577517)). Lewis B. Smith has been associated with an address in Florence, SC ([The State Obituary](https://www.legacy.com/us/obituaries/thestate/name/thelma-smith-obituary?id=12577517)). They maintain a low public profile with no documented leadership roles or public statements regarding development.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowners, not publicly active",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage the Smiths through a neighborly, informal approach (perhaps via a mutual acquaintance at Mt. Elon Baptist Church), focusing on how the development will respect their land and farming heritage."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Identified as sons of Thelma Smith with ties to Mt. Elon Baptist Church.",
-          "url": "https://www.legacy.com/us/obituaries/thestate/name/thelma-smith-obituary?id=12577517",
-          "title": "Obituary for Thelma Smith",
-          "date": "2010-08-11"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Douglas Watson Jr.",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "025-00-00-153-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Douglas Watson Jr. is a private landowner residing in the Bishopville area ([Star-News Obituary](https://www.ncgenweb.us/newhanover/obits/sept2008obits.htm)). He appears in local records as a family member of long-time residents, such as Elma Tharp Rooks ([Star-News Obituary](https://www.ncgenweb.us/newhanover/obits/sept2008obits.htm)). No public record exists of him holding civic office or expressing views on land-use planning.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No official role; private landowner",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
-        ],
-        "engage": "Have a respected local farmer or community elder initiate contact, emphasizing how any project plans respect farmland heritage and the long-term legacy of the land."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Listed as a survivor in the obituary of Elma Tharp Rooks in Bishopville.",
-          "url": "https://www.ncgenweb.us/newhanover/obits/sept2008obits.htm",
-          "title": "Obituary for Elma Tharp Rooks",
-          "date": "2008-09-14"
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Francine Robinson",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "025-00-00-066-000"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Francine Robinson (born approx. 1958) is a landowner residing on Dampier Road in Lamar, Lee County ([National Public Data](https://nationalpublicdata.com/people/r/francine-robinson/)). She is a member of the local Robinson family, with ties to the Hartsville and Lamar communities ([Hines Funeral Home Obituary](https://www.hinesfuneralhome.com/obituaries/Shirley-Thomas?obId=4282437)). There is no evidence of her participation in public zoning hearings or development opposition.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private resident; not publicly active",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy",
-          "privacy_quiet"
-        ],
-        "engage": "Engage her through a friendly personal visit by a community member she trusts, focusing on preserving the quiet rural character of her land and family legacy."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Francine Robinson resides on Dampier Road in Lamar, SC.",
-          "url": "https://nationalpublicdata.com/people/r/francine-robinson/",
-          "title": "Public Record Profile for Francine Robinson",
-          "date": "2024-01-01"
-        },
-        {
-          "claim": "Identified as a family member in the obituary of Shirley Thomas.",
-          "url": "https://www.hinesfuneralhome.com/obituaries/Shirley-Thomas?obId=4282437",
-          "title": "Obituary for Shirley Thomas",
-          "date": "2010-08-11"
+          "claim": "participating landowner in the Cider Solar Farm project, having signed option agreements",
+          "url": "http://cidersolarfarm.com/assets/pdfs/public_exhibits/Exh_04.pdf",
+          "title": "Cider Solar Farm Exhibit 4: Real Property",
+          "date": "2021-05-28"
         }
       ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 34.247731,-80.157798",
-  "overview_summary": null,
+  "location_context": "Neighbors within 0.5 mi of 43.097336,-78.23041",
+  "overview_summary": "Of the 17 neighbors profiled, 15 are individual residents and two are high-influence agricultural organizations—Call Farms and Norton Farms—that support the project through land lease agreements. While 13 neighbors maintain an unknown stance and 12 have low or unknown influence, the support of four neighbors and the presence of three medium-influence individuals help mitigate the risk of local opposition. Currently, there are zero documented opponents among the identified private landowners and entities in this rural agricultural area.",
   "success": true,
-  "runtime_minutes": 7.12,
-  "citations_flat": [],
-  "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_123737_1220.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_124306_5105.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_124418_0999.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_124409_5747.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260130_123704_9319.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260130_124141_9790.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260130_184302_7684.json"
+  "runtime_minutes": 42.89,
+  "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
   ],
-  "city": "Bishopville",
-  "county": "Lee County",
-  "state": "SC",
-  "run_id": "e193b7bf-e556-4511-85f1-a9327226ea81",
-  "target_pin": "025-00-00-026-000",
+  "deep_research_files": [
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154801_2404.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154944_2317.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154837_4679.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_155045_5517.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154816_8659.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260205_154747_0401.json"
+  ],
+  "city": null,
+  "county": "Genesee County",
+  "state": "NY",
+  "run_id": "e7574e0c-e806-4337-9cac-66ad860780bc",
+  "target_pin": "16.-1-22",
   "target_parcel_info": {
-    "pin": "025-00-00-026-000",
+    "pin": "16.-1-22",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -80.154349,
-            34.2557625
+            -78.2319955,
+            43.087439
           ],
           [
-            -80.1545965,
-            34.25573
+            -78.2319945,
+            43.087413
           ],
           [
-            -80.154617,
-            34.2557425
+            -78.231986,
+            43.087413
           ],
           [
-            -80.1546375,
-            34.2557545
+            -78.2280325,
+            43.087438
           ],
           [
-            -80.154658,
-            34.2557665
+            -78.2280275,
+            43.087438
           ],
           [
-            -80.154679,
-            34.255778
+            -78.225591,
+            43.0874875
           ],
           [
-            -80.1547,
-            34.255789
+            -78.225423,
+            43.087491
           ],
           [
-            -80.1547215,
-            34.2558
+            -78.225423,
+            43.087505
           ],
           [
-            -80.154743,
-            34.2558105
+            -78.225742,
+            43.0984775
           ],
           [
-            -80.154765,
-            34.255821
+            -78.2280745,
+            43.0984055
           ],
           [
-            -80.154787,
-            34.255831
+            -78.228084,
+            43.0984055
           ],
           [
-            -80.154809,
-            34.2558405
+            -78.232471,
+            43.0983305
           ],
           [
-            -80.1548315,
-            34.25585
+            -78.2324715,
+            43.0983305
           ],
           [
-            -80.1548545,
-            34.255859
-          ],
-          [
-            -80.154877,
-            34.2558675
-          ],
-          [
-            -80.1549,
-            34.255876
-          ],
-          [
-            -80.154923,
-            34.255884
-          ],
-          [
-            -80.1549465,
-            34.2558915
-          ],
-          [
-            -80.1549735,
-            34.2558985
-          ],
-          [
-            -80.1549965,
-            34.255904
-          ],
-          [
-            -80.1550195,
-            34.255909
-          ],
-          [
-            -80.155043,
-            34.255914
-          ],
-          [
-            -80.1550665,
-            34.2559185
-          ],
-          [
-            -80.15509,
-            34.2559225
-          ],
-          [
-            -80.1551135,
-            34.2559265
-          ],
-          [
-            -80.1551375,
-            34.25593
-          ],
-          [
-            -80.155161,
-            34.255933
-          ],
-          [
-            -80.155262,
-            34.2559475
-          ],
-          [
-            -80.155326,
-            34.255956
-          ],
-          [
-            -80.15539,
-            34.255963
-          ],
-          [
-            -80.155454,
-            34.255969
-          ],
-          [
-            -80.155499,
-            34.2559765
-          ],
-          [
-            -80.155521,
-            34.2559815
-          ],
-          [
-            -80.1555365,
-            34.255985
-          ],
-          [
-            -80.1555515,
-            34.255989
-          ],
-          [
-            -80.1555665,
-            34.255993
-          ],
-          [
-            -80.155581,
-            34.255997
-          ],
-          [
-            -80.155596,
-            34.2560015
-          ],
-          [
-            -80.155611,
-            34.256006
-          ],
-          [
-            -80.1556255,
-            34.256011
-          ],
-          [
-            -80.15564,
-            34.256016
-          ],
-          [
-            -80.1556545,
-            34.2560215
-          ],
-          [
-            -80.1556685,
-            34.256027
-          ],
-          [
-            -80.155695,
-            34.256037
-          ],
-          [
-            -80.155718,
-            34.2560465
-          ],
-          [
-            -80.1557405,
-            34.256056
-          ],
-          [
-            -80.155763,
-            34.256066
-          ],
-          [
-            -80.155785,
-            34.2560765
-          ],
-          [
-            -80.155807,
-            34.256087
-          ],
-          [
-            -80.1558285,
-            34.256098
-          ],
-          [
-            -80.15585,
-            34.256109
-          ],
-          [
-            -80.155871,
-            34.256121
-          ],
-          [
-            -80.1559765,
-            34.2561805
-          ],
-          [
-            -80.156276,
-            34.256358
-          ],
-          [
-            -80.1562895,
-            34.2563655
-          ],
-          [
-            -80.156299,
-            34.256371
-          ],
-          [
-            -80.156308,
-            34.2563755
-          ],
-          [
-            -80.156318,
-            34.2563805
-          ],
-          [
-            -80.1563275,
-            34.256385
-          ],
-          [
-            -80.156337,
-            34.2563895
-          ],
-          [
-            -80.156347,
-            34.256394
-          ],
-          [
-            -80.156357,
-            34.2563985
-          ],
-          [
-            -80.156367,
-            34.2564025
-          ],
-          [
-            -80.156377,
-            34.2564065
-          ],
-          [
-            -80.156387,
-            34.25641
-          ],
-          [
-            -80.1563955,
-            34.256413
-          ],
-          [
-            -80.1564005,
-            34.2564145
-          ],
-          [
-            -80.1564055,
-            34.256416
-          ],
-          [
-            -80.1564105,
-            34.2564175
-          ],
-          [
-            -80.1564155,
-            34.2564185
-          ],
-          [
-            -80.156421,
-            34.25642
-          ],
-          [
-            -80.156426,
-            34.256421
-          ],
-          [
-            -80.156431,
-            34.256422
-          ],
-          [
-            -80.156436,
-            34.256423
-          ],
-          [
-            -80.1564415,
-            34.256424
-          ],
-          [
-            -80.1564465,
-            34.256425
-          ],
-          [
-            -80.156452,
-            34.2564255
-          ],
-          [
-            -80.156457,
-            34.2564265
-          ],
-          [
-            -80.1566265,
-            34.25644
-          ],
-          [
-            -80.1567315,
-            34.256458
-          ],
-          [
-            -80.156744,
-            34.256461
-          ],
-          [
-            -80.156751,
-            34.2564625
-          ],
-          [
-            -80.1567575,
-            34.2564635
-          ],
-          [
-            -80.1567645,
-            34.256465
-          ],
-          [
-            -80.1567715,
-            34.256466
-          ],
-          [
-            -80.1567785,
-            34.2564675
-          ],
-          [
-            -80.1567855,
-            34.2564685
-          ],
-          [
-            -80.1567925,
-            34.256469
-          ],
-          [
-            -80.1567995,
-            34.25647
-          ],
-          [
-            -80.1568065,
-            34.2564705
-          ],
-          [
-            -80.156814,
-            34.256471
-          ],
-          [
-            -80.156821,
-            34.2564715
-          ],
-          [
-            -80.156828,
-            34.256472
-          ],
-          [
-            -80.156835,
-            34.2564725
-          ],
-          [
-            -80.156842,
-            34.2564725
-          ],
-          [
-            -80.156849,
-            34.2564725
-          ],
-          [
-            -80.1568565,
-            34.2564725
-          ],
-          [
-            -80.1568635,
-            34.2564725
-          ],
-          [
-            -80.1568705,
-            34.256472
-          ],
-          [
-            -80.1568775,
-            34.256472
-          ],
-          [
-            -80.1568845,
-            34.2564715
-          ],
-          [
-            -80.1568915,
-            34.256471
-          ],
-          [
-            -80.1572755,
-            34.256399
-          ],
-          [
-            -80.1573335,
-            34.2563865
-          ],
-          [
-            -80.1573665,
-            34.2563785
-          ],
-          [
-            -80.1573995,
-            34.2563705
-          ],
-          [
-            -80.157432,
-            34.2563615
-          ],
-          [
-            -80.1574645,
-            34.2563525
-          ],
-          [
-            -80.157497,
-            34.256343
-          ],
-          [
-            -80.157529,
-            34.2563325
-          ],
-          [
-            -80.157561,
-            34.256322
-          ],
-          [
-            -80.1575925,
-            34.256311
-          ],
-          [
-            -80.157624,
-            34.2562995
-          ],
-          [
-            -80.157655,
-            34.2562875
-          ],
-          [
-            -80.157686,
-            34.256275
-          ],
-          [
-            -80.157717,
-            34.256262
-          ],
-          [
-            -80.1577445,
-            34.25625
-          ],
-          [
-            -80.157771,
-            34.256238
-          ],
-          [
-            -80.157798,
-            34.2562255
-          ],
-          [
-            -80.157824,
-            34.2562125
-          ],
-          [
-            -80.15785,
-            34.256199
-          ],
-          [
-            -80.157876,
-            34.2561855
-          ],
-          [
-            -80.1579015,
-            34.2561715
-          ],
-          [
-            -80.1579265,
-            34.256157
-          ],
-          [
-            -80.1579515,
-            34.2561425
-          ],
-          [
-            -80.157976,
-            34.256127
-          ],
-          [
-            -80.1580005,
-            34.2561115
-          ],
-          [
-            -80.1580245,
-            34.256096
-          ],
-          [
-            -80.158048,
-            34.2560795
-          ],
-          [
-            -80.158071,
-            34.256063
-          ],
-          [
-            -80.158094,
-            34.2560465
-          ],
-          [
-            -80.1581165,
-            34.256029
-          ],
-          [
-            -80.158137,
-            34.2560135
-          ],
-          [
-            -80.158154,
-            34.2559995
-          ],
-          [
-            -80.158171,
-            34.255986
-          ],
-          [
-            -80.1581875,
-            34.2559715
-          ],
-          [
-            -80.158204,
-            34.255957
-          ],
-          [
-            -80.15822,
-            34.2559425
-          ],
-          [
-            -80.158236,
-            34.2559275
-          ],
-          [
-            -80.1582515,
-            34.2559125
-          ],
-          [
-            -80.1582665,
-            34.255897
-          ],
-          [
-            -80.158377,
-            34.2557625
-          ],
-          [
-            -80.158591,
-            34.255477
-          ],
-          [
-            -80.158958,
-            34.254966
-          ],
-          [
-            -80.1595295,
-            34.2541565
-          ],
-          [
-            -80.1614845,
-            34.2513465
-          ],
-          [
-            -80.166626,
-            34.2437115
-          ],
-          [
-            -80.1665665,
-            34.2436645
-          ],
-          [
-            -80.1665075,
-            34.243616
-          ],
-          [
-            -80.16645,
-            34.2435675
-          ],
-          [
-            -80.1663935,
-            34.2435175
-          ],
-          [
-            -80.166338,
-            34.243467
-          ],
-          [
-            -80.1662835,
-            34.2434155
-          ],
-          [
-            -80.16623,
-            34.2433635
-          ],
-          [
-            -80.1661775,
-            34.2433105
-          ],
-          [
-            -80.166162,
-            34.2432935
-          ],
-          [
-            -80.1661265,
-            34.2432565
-          ],
-          [
-            -80.1660765,
-            34.243202
-          ],
-          [
-            -80.166006,
-            34.243122
-          ],
-          [
-            -80.163959,
-            34.2406065
-          ],
-          [
-            -80.163124,
-            34.239509
-          ],
-          [
-            -80.1626825,
-            34.238803
-          ],
-          [
-            -80.162023,
-            34.2391245
-          ],
-          [
-            -80.1616575,
-            34.23864
-          ],
-          [
-            -80.1576345,
-            34.2409325
-          ],
-          [
-            -80.151471,
-            34.244514
-          ],
-          [
-            -80.149167,
-            34.2418505
-          ],
-          [
-            -80.144858,
-            34.245546
-          ],
-          [
-            -80.145173,
-            34.246026
-          ],
-          [
-            -80.146687,
-            34.246416
-          ],
-          [
-            -80.145462,
-            34.24807
-          ],
-          [
-            -80.1456005,
-            34.248122
-          ],
-          [
-            -80.14574,
-            34.2481715
-          ],
-          [
-            -80.1458805,
-            34.2482195
-          ],
-          [
-            -80.1461045,
-            34.248291
-          ],
-          [
-            -80.146309,
-            34.2483475
-          ],
-          [
-            -80.1465745,
-            34.2484165
-          ],
-          [
-            -80.147939,
-            34.2487555
-          ],
-          [
-            -80.1479835,
-            34.248769
-          ],
-          [
-            -80.1480275,
-            34.2487825
-          ],
-          [
-            -80.1480715,
-            34.248797
-          ],
-          [
-            -80.148115,
-            34.248812
-          ],
-          [
-            -80.148158,
-            34.2488275
-          ],
-          [
-            -80.148201,
-            34.2488435
-          ],
-          [
-            -80.1482435,
-            34.2488605
-          ],
-          [
-            -80.1482855,
-            34.248878
-          ],
-          [
-            -80.148334,
-            34.248899
-          ],
-          [
-            -80.1517955,
-            34.2484935
-          ],
-          [
-            -80.153911,
-            34.2509065
-          ],
-          [
-            -80.153394,
-            34.251226
-          ],
-          [
-            -80.153702,
-            34.25159
-          ],
-          [
-            -80.1509245,
-            34.2552045
-          ],
-          [
-            -80.1511665,
-            34.2552595
-          ],
-          [
-            -80.151408,
-            34.2553
-          ],
-          [
-            -80.151445,
-            34.2553115
-          ],
-          [
-            -80.1515275,
-            34.2553445
-          ],
-          [
-            -80.1516585,
-            34.255383
-          ],
-          [
-            -80.151682,
-            34.255389
-          ],
-          [
-            -80.1516955,
-            34.2553925
-          ],
-          [
-            -80.151709,
-            34.2553955
-          ],
-          [
-            -80.1517225,
-            34.2553985
-          ],
-          [
-            -80.151736,
-            34.2554015
-          ],
-          [
-            -80.15175,
-            34.255404
-          ],
-          [
-            -80.1517635,
-            34.2554065
-          ],
-          [
-            -80.1517775,
-            34.2554085
-          ],
-          [
-            -80.151791,
-            34.2554105
-          ],
-          [
-            -80.151805,
-            34.2554125
-          ],
-          [
-            -80.151819,
-            34.255414
-          ],
-          [
-            -80.151833,
-            34.2554155
-          ],
-          [
-            -80.151847,
-            34.2554165
-          ],
-          [
-            -80.151931,
-            34.2554205
-          ],
-          [
-            -80.15204,
-            34.2554375
-          ],
-          [
-            -80.1522735,
-            34.255442
-          ],
-          [
-            -80.1524485,
-            34.2554435
-          ],
-          [
-            -80.152688,
-            34.2554275
-          ],
-          [
-            -80.1527735,
-            34.2554525
-          ],
-          [
-            -80.1528195,
-            34.2554645
-          ],
-          [
-            -80.1528655,
-            34.2554765
-          ],
-          [
-            -80.152912,
-            34.2554875
-          ],
-          [
-            -80.1529585,
-            34.255498
-          ],
-          [
-            -80.1530055,
-            34.2555075
-          ],
-          [
-            -80.153089,
-            34.2555245
-          ],
-          [
-            -80.153142,
-            34.255534
-          ],
-          [
-            -80.153195,
-            34.255543
-          ],
-          [
-            -80.1532485,
-            34.255551
-          ],
-          [
-            -80.153622,
-            34.2556395
-          ],
-          [
-            -80.1537365,
-            34.2556595
-          ],
-          [
-            -80.153843,
-            34.2556675
-          ],
-          [
-            -80.15391,
-            34.255674
-          ],
-          [
-            -80.153977,
-            34.255681
-          ],
-          [
-            -80.154044,
-            34.255689
-          ],
-          [
-            -80.154246,
-            34.2557505
-          ],
-          [
-            -80.154349,
-            34.2557625
-          ]
-        ],
-        [
-          [
-            -80.161626,
-            34.245579
-          ],
-          [
-            -80.162168,
-            34.245223
-          ],
-          [
-            -80.1623355,
-            34.245399
-          ],
-          [
-            -80.162381,
-            34.2454465
-          ],
-          [
-            -80.162489,
-            34.2455515
-          ],
-          [
-            -80.1625965,
-            34.245673
-          ],
-          [
-            -80.162055,
-            34.246029
-          ],
-          [
-            -80.161626,
-            34.245579
+            -78.2319955,
+            43.087439
           ]
         ]
       ]
     },
-    "lat": "34.247132",
-    "lon": "-80.156715",
-    "county_path": "/us/sc/lee/stokes-bridge-cypress-crossroads"
+    "lat": "43.092939",
+    "lon": "-78.228905",
+    "county_path": "/us/ny/genesee/elba"
   },
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/e193b7bf-e556-4511-85f1-a9327226ea81_map_full.png",
-  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/e193b7bf-e556-4511-85f1-a9327226ea81_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Kelley L. Wilkes & Chad E. Wilkes</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Lee County Landfill SC, LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Craven Walby C & Frank C</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">E. B. Stuckey Jr.</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">John Michael McConnell</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Cecil W. Watkins Jr.</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Wateree Holdings LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/e7574e0c-e806-4337-9cac-66ad860780bc_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/e7574e0c-e806-4337-9cac-66ad860780bc_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">1</td>\n                <td class=\"name\">Brice Johnson</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">2</td>\n                <td class=\"name\">Anne Bezon</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Brian Pritchett</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
   "map_labels": [
     {
-      "text": "C",
-      "full_name": "Craven Walby C & Frank C",
-      "lon": -80.16049844615385,
-      "lat": 34.25351440769231,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-025-000"
-    },
-    {
-      "text": "C",
-      "full_name": "Craven Walby C & Frank C",
-      "lon": -80.14388830526316,
-      "lat": 34.25507503157895,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-023-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "E. B. Stuckey Jr.",
-      "lon": -80.16729607575758,
-      "lat": 34.239306393939394,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-134-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "E. B. Stuckey Jr.",
-      "lon": -80.16877653333333,
-      "lat": 34.254830866666666,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-059-000"
-    },
-    {
-      "text": "MCCONNEL",
-      "full_name": "John Michael McConnell",
-      "lon": -80.16524358333334,
-      "lat": 34.23235954166667,
-      "marker_char": "5",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-135-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "Cecil W. Watkins Jr.",
-      "lon": -80.17311836956522,
-      "lat": 34.25647417391304,
-      "marker_char": "6",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-047-000"
-    },
-    {
-      "text": "WATEREE",
-      "full_name": "Wateree Holdings LLC",
-      "lon": -80.1423248105263,
-      "lat": 34.240851594736846,
-      "marker_char": "7",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-076-000"
-    },
-    {
-      "text": "WATEREE",
-      "full_name": "Wateree Holdings LLC",
-      "lon": -80.142810875,
-      "lat": 34.236225000000005,
-      "marker_char": "7",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-054-000"
-    },
-    {
-      "text": "WILKES",
-      "full_name": "Kelley L. Wilkes & Chad E. Wilkes",
-      "lon": -80.162159625,
-      "lat": 34.24556,
+      "text": "JOHNSON",
+      "full_name": "Brice Johnson",
+      "lon": -78.22413913502115,
+      "lat": 43.10502079785712,
       "marker_char": "1",
-      "color": "007BFF",
+      "color": "FF8C00",
       "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "support",
+      "pin": "16.-1-2.1"
+    },
+    {
+      "text": "BEZON",
+      "full_name": "Anne Bezon",
+      "lon": -78.221775821416,
+      "lat": 43.09761718729882,
+      "marker_char": "2",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
       "stance": "unknown",
-      "pin": "025-00-00-191-000"
+      "pin": "16.-1-29.12"
     },
     {
-      "text": "LEE",
-      "full_name": "Lee County Landfill SC, LLC",
-      "lon": -80.15619288235294,
-      "lat": 34.258316509803926,
-      "marker_char": "2",
-      "color": "007BFF",
+      "text": "PRITCHET",
+      "full_name": "Brian Pritchett",
+      "lon": -78.22179989648858,
+      "lat": 43.1027948909162,
+      "marker_char": "3",
+      "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
-      "influence": "High",
+      "influence": "Medium",
       "stance": "support",
-      "pin": "025-00-00-012-000"
-    },
-    {
-      "text": "LEE",
-      "full_name": "Lee County Landfill SC, LLC",
-      "lon": -80.155882,
-      "lat": 34.26092275,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "support",
-      "pin": "025-00-00-006-000"
+      "pin": "16.-1-6"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 025-00-00-026-000",
-      "lon": -80.15555213948498,
-      "lat": 34.25397700429185,
+      "full_name": "PIN: 16.-1-22",
+      "lon": -78.22890477699566,
+      "lat": 43.09293926923141,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "025-00-00-026-000"
+      "pin": "16.-1-22"
     }
   ],
   "map_metadata": {
-    "run_id": "e193b7bf-e556-4511-85f1-a9327226ea81",
-    "generated_at": "2026-01-30T19:42:09.488044",
+    "run_id": "e7574e0c-e806-4337-9cac-66ad860780bc",
+    "generated_at": "2026-02-05T16:22:18.718010",
     "stats": {
-      "total_neighbors": 23,
-      "highlighted": 20,
+      "total_neighbors": 14,
+      "highlighted": 14,
       "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 3,
+      "skipped_not_highlighted": 0,
       "by_influence": {
-        "High": 2,
-        "Medium": 5,
-        "Low": 13
+        "High": 0,
+        "Medium": 3,
+        "Low": 11
       },
       "by_stance": {
         "support": 2,
         "oppose": 0,
         "neutral": 0
       },
-      "adjacent_highlighted": 4,
+      "adjacent_highlighted": 0,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "url_length": 4695,
-    "parcels_rendered": 26,
-    "labels_count": 12,
+    "url_length": 1441,
+    "parcels_rendered": 17,
+    "labels_count": 4,
     "settings": {
       "width": 800,
       "height": 450,
@@ -2360,370 +1188,253 @@
       "padding": 50
     }
   },
-  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/e193b7bf-e556-4511-85f1-a9327226ea81_map_fullpage.png",
+  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/e7574e0c-e806-4337-9cac-66ad860780bc_map_fullpage.png",
   "fullpage_map_labels": [
     {
-      "text": "AL",
-      "full_name": "Okelley Helen C et al",
-      "lon": -80.16370225,
-      "lat": 34.2264185,
+      "text": "JASINSKI",
+      "full_name": "Richard A. Jasinski",
+      "lon": -78.2236500334449,
+      "lat": 43.09704718862517,
+      "marker_char": "4",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "16.-1-23"
+    },
+    {
+      "text": "FRIEDL",
+      "full_name": "Makayla Friedl",
+      "lon": -78.23685964901168,
+      "lat": 43.098962621818835,
+      "marker_char": "5",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "12.-1-6.2"
+    },
+    {
+      "text": "MABON",
+      "full_name": "Scott Mabon",
+      "lon": -78.23791287253064,
+      "lat": 43.098950046916165,
+      "marker_char": "6",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "12.-1-6.12"
+    },
+    {
+      "text": "ELLIOTT",
+      "full_name": "Thomas Elliott",
+      "lon": -78.22910648882653,
+      "lat": 43.09950675894084,
+      "marker_char": "7",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "16.-1-24"
+    },
+    {
+      "text": "ELLIOTT",
+      "full_name": "Thomas Elliott",
+      "lon": -78.22843373069924,
+      "lat": 43.10017887278446,
+      "marker_char": "7",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "16.-1-1.2"
+    },
+    {
+      "text": "CEMETERY",
+      "full_name": "Gardiner Cemetery",
+      "lon": -78.23019219574034,
+      "lat": 43.0993209374629,
       "marker_char": "8",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "024-00-00-136-000"
+      "pin": "16.-1-32"
     },
     {
-      "text": "JANE",
-      "full_name": "Woodham Carol Jane",
-      "lon": -80.15790033050848,
-      "lat": 34.25726599152542,
+      "text": "BOYCE",
+      "full_name": "Jeffrey Boyce",
+      "lon": -78.22657485029546,
+      "lat": 43.09886706126136,
       "marker_char": "9",
       "color": "808080",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "025-00-00-183-000"
+      "pin": "16.-1-1.112"
     },
     {
-      "text": "JANE",
-      "full_name": "Woodham Carol Jane",
-      "lon": -80.16024825,
-      "lat": 34.261030999999996,
-      "marker_char": "9",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "025-00-00-184-000"
-    },
-    {
-      "text": "TOLBERT",
-      "full_name": "James C. Tolbert & Ruth W. Tolbert",
-      "lon": -80.17366740625,
-      "lat": 34.24772753125,
+      "text": "HERSEE",
+      "full_name": "Ellen Hersee",
+      "lon": -78.2354498120299,
+      "lat": 43.09789276622992,
       "marker_char": "a",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "024-00-00-098-000"
+      "pin": "12.-1-9"
     },
     {
-      "text": "PETROVET",
-      "full_name": "Alexander A. Petrovets",
-      "lon": -80.16815419999999,
-      "lat": 34.2396108,
+      "text": "ESTATE",
+      "full_name": "George Shamblin Estate",
+      "lon": -78.23775375575435,
+      "lat": 43.09568944000286,
       "marker_char": "b",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "024-00-00-278-000"
+      "pin": "12.-1-58"
     },
     {
-      "text": "CHUA",
-      "full_name": "Benjamin J. & Mona S. Chua",
-      "lon": -80.16696207142857,
-      "lat": 34.23894821428571,
+      "text": "DART",
+      "full_name": "Daniel Dart",
+      "lon": -78.24036444585322,
+      "lat": 43.099052025033856,
       "marker_char": "c",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
-      "stance": "support",
-      "pin": "024-00-00-279-000"
+      "stance": "unknown",
+      "pin": "12.-1-5.1"
     },
     {
-      "text": "WILLIAMS",
-      "full_name": "Lottie Mae Williams",
-      "lon": -80.1439015,
-      "lat": 34.247701,
+      "text": "DART",
+      "full_name": "Daniel Dart",
+      "lon": -78.24085715108042,
+      "lat": 43.10434461839777,
+      "marker_char": "c",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "12.-1-5.2"
+    },
+    {
+      "text": "WINN",
+      "full_name": "Laura Winn",
+      "lon": -78.22101129596993,
+      "lat": 43.101144556477635,
       "marker_char": "d",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "025-00-00-075-000"
+      "pin": "16.-1-25"
     },
     {
-      "text": "AL.",
-      "full_name": "Guy C. Smith et al.",
-      "lon": -80.1462234,
-      "lat": 34.258137899999994,
+      "text": "WILDER",
+      "full_name": "Joshua Wilder",
+      "lon": -78.22086799929812,
+      "lat": 43.0982945041095,
       "marker_char": "e",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "025-00-00-021-000"
+      "pin": "16.-1-29.2"
     },
     {
-      "text": "TOLBERT",
-      "full_name": "James Edward Tolbert",
-      "lon": -80.17525236842106,
-      "lat": 34.24621842105263,
-      "marker_char": "f",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "024-00-00-133-000"
-    },
-    {
-      "text": "KELLEY-H",
-      "full_name": "Kelley-Hill Properties LLC",
-      "lon": -80.17235528571429,
-      "lat": 34.240793714285715,
-      "marker_char": "g",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "024-00-00-167-000"
-    },
-    {
-      "text": "LEE",
-      "full_name": "Warren M. Lee",
-      "lon": -80.15430465,
-      "lat": 34.2661356,
-      "marker_char": "h",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "025-00-00-011-000"
-    },
-    {
-      "text": "SMITH",
-      "full_name": "Lewis B. Smith & James E. Smith",
-      "lon": -80.14814907692309,
-      "lat": 34.259545,
-      "marker_char": "i",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "025-00-00-022-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "Douglas Watson Jr.",
-      "lon": -80.1456966,
-      "lat": 34.2575078,
-      "marker_char": "j",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "025-00-00-153-000"
-    },
-    {
-      "text": "ROBINSON",
-      "full_name": "Francine Robinson",
-      "lon": -80.142678,
-      "lat": 34.246998000000005,
-      "marker_char": "k",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "025-00-00-066-000"
-    },
-    {
-      "text": "C",
-      "full_name": "Craven Walby C & Frank C",
-      "lon": -80.16049844615385,
-      "lat": 34.25351440769231,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-025-000"
-    },
-    {
-      "text": "C",
-      "full_name": "Craven Walby C & Frank C",
-      "lon": -80.14388830526316,
-      "lat": 34.25507503157895,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-023-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "E. B. Stuckey Jr.",
-      "lon": -80.16729607575758,
-      "lat": 34.239306393939394,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-134-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "E. B. Stuckey Jr.",
-      "lon": -80.16877653333333,
-      "lat": 34.254830866666666,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-059-000"
-    },
-    {
-      "text": "MCCONNEL",
-      "full_name": "John Michael McConnell",
-      "lon": -80.16524358333334,
-      "lat": 34.23235954166667,
-      "marker_char": "5",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-135-000"
-    },
-    {
-      "text": "JR.",
-      "full_name": "Cecil W. Watkins Jr.",
-      "lon": -80.17311836956522,
-      "lat": 34.25647417391304,
-      "marker_char": "6",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "024-00-00-047-000"
-    },
-    {
-      "text": "WATEREE",
-      "full_name": "Wateree Holdings LLC",
-      "lon": -80.1423248105263,
-      "lat": 34.240851594736846,
-      "marker_char": "7",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-076-000"
-    },
-    {
-      "text": "WATEREE",
-      "full_name": "Wateree Holdings LLC",
-      "lon": -80.142810875,
-      "lat": 34.236225000000005,
-      "marker_char": "7",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "025-00-00-054-000"
-    },
-    {
-      "text": "WILKES",
-      "full_name": "Kelley L. Wilkes & Chad E. Wilkes",
-      "lon": -80.162159625,
-      "lat": 34.24556,
+      "text": "JOHNSON",
+      "full_name": "Brice Johnson",
+      "lon": -78.22413913502115,
+      "lat": 43.10502079785712,
       "marker_char": "1",
-      "color": "007BFF",
+      "color": "FF8C00",
       "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "support",
+      "pin": "16.-1-2.1"
+    },
+    {
+      "text": "BEZON",
+      "full_name": "Anne Bezon",
+      "lon": -78.221775821416,
+      "lat": 43.09761718729882,
+      "marker_char": "2",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
       "stance": "unknown",
-      "pin": "025-00-00-191-000"
+      "pin": "16.-1-29.12"
     },
     {
-      "text": "LEE",
-      "full_name": "Lee County Landfill SC, LLC",
-      "lon": -80.15619288235294,
-      "lat": 34.258316509803926,
-      "marker_char": "2",
-      "color": "007BFF",
+      "text": "PRITCHET",
+      "full_name": "Brian Pritchett",
+      "lon": -78.22179989648858,
+      "lat": 43.1027948909162,
+      "marker_char": "3",
+      "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
-      "influence": "High",
+      "influence": "Medium",
       "stance": "support",
-      "pin": "025-00-00-012-000"
-    },
-    {
-      "text": "LEE",
-      "full_name": "Lee County Landfill SC, LLC",
-      "lon": -80.155882,
-      "lat": 34.26092275,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "support",
-      "pin": "025-00-00-006-000"
+      "pin": "16.-1-6"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 025-00-00-026-000",
-      "lon": -80.15555213948498,
-      "lat": 34.25397700429185,
+      "full_name": "PIN: 16.-1-22",
+      "lon": -78.22890477699566,
+      "lat": 43.09293926923141,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "025-00-00-026-000"
+      "pin": "16.-1-22"
     }
   ],
   "fullpage_map_metadata": {
-    "run_id": "e193b7bf-e556-4511-85f1-a9327226ea81",
-    "generated_at": "2026-01-30T19:42:11.542278",
+    "run_id": "e7574e0c-e806-4337-9cac-66ad860780bc",
+    "generated_at": "2026-02-05T16:22:20.305203",
     "stats": {
-      "total_neighbors": 23,
-      "highlighted": 20,
+      "total_neighbors": 14,
+      "highlighted": 14,
       "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 3,
+      "skipped_not_highlighted": 0,
       "by_influence": {
-        "High": 2,
-        "Medium": 5,
-        "Low": 13
+        "High": 0,
+        "Medium": 3,
+        "Low": 11
       },
       "by_stance": {
         "support": 2,
         "oppose": 0,
         "neutral": 0
       },
-      "adjacent_highlighted": 4,
+      "adjacent_highlighted": 0,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "labels_count": 26,
+    "labels_count": 17,
     "settings": {
       "width": 1280,
       "height": 720,

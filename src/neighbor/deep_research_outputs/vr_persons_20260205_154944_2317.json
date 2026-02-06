@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-02-05T16:00:51.938371",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260205_154944_2317.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jeffrey Boyce",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-1.112"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jeffrey Boyce is identified as the owner of parcel 16.-1-1.112 in the Town of Elba, Genesee County ([Genesee County Planning Dept](https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf)). Public records and meeting minutes do not indicate any active role in local government or public statements regarding development projects ([Town of Oakfield](https://townofoakfieldny.gov/town-officials/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role identified",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out with a personal, one-on-one approach at his property, emphasizing respect for farmland use and how the project will preserve rural character."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Jeffrey Boyce is a private landowner in Genesee County with no documented public stance on development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified as owner of parcel 16.-1-1.112 in the Town of Elba",
+          "url": "https://www.geneseeny.gov/files/content/county/v/12/department-content/planning/agricultural-and-farmland-protection/2025-03-18-meeting-packet.pdf",
+          "title": "Genesee County Agricultural and Farmland Protection Board Meeting Packet",
+          "date": "2025-03-18"
+        },
+        {
+          "claim": "No active role in local government found",
+          "url": "https://townofoakfieldny.gov/town-officials/",
+          "title": "Town of Oakfield Officials",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Brice Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-2.1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brice Johnson is a participating landowner in the Cider Solar Farm project, having signed a lease agreement with Hecate Energy Cider Solar LLC in January 2023 ([NYS DPS](https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1})). He serves as a Board Member for the Genesee SnoPackers, a local snowmobile club ([Genesee SnoPackers](https://geneseesnopackers.com/index.php/club-information/boardofdirectors/)). He is the son of the late Esther Johnson, a long-time resident of Oakfield ([The Daily News](https://www.bataviafuneralhomes.com/obituaries/esther-johnson-22)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Board member of local recreational club; participating landowner in major energy project",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage as a project participant and community leader; leverage his role in the SnoPackers to understand recreational land use concerns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Brice Johnson is a participating landowner in the Cider Solar project and serves on the board of a local snowmobile club.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Signed a lease agreement with Hecate Energy Cider Solar LLC in January 2023",
+          "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C04B4D91-0000-C72D-923C-C58FC173D7D1}",
+          "title": "Cider Solar Farm Project Parcels Agreement Summary",
+          "date": "2024-07-31"
+        },
+        {
+          "claim": "Serves as a Board Member for the Genesee SnoPackers",
+          "url": "https://geneseesnopackers.com/index.php/club-information/boardofdirectors/",
+          "title": "Genesee SnoPackers Board of Directors",
+          "date": "2024-02-05"
+        },
+        {
+          "claim": "Son of the late Esther Johnson, long-time resident",
+          "url": "https://www.bataviafuneralhomes.com/obituaries/esther-johnson-22",
+          "title": "Obituary of Esther Johnson",
+          "date": "2022-12-22"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Ellen Hersee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-9"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ellen Hersee is a resident of Oakfield, NY, residing at 3718 Lockport Road ([National Public Data](https://nationalpublicdata.com/people/h/ellen-hersee/)). She holds no known local government position and has not been publicly noted in development debates ([Town of Oakfield](https://townofoakfieldny.gov/town-officials/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Resident with no identified public leadership role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Have a respectful, face-to-face discussion focusing on the project’s minimal intrusion and assurances that rural peace will be maintained."
+      },
+      "entity_classification": "Resident",
+      "profile_summary": "Ellen Hersee is an Oakfield resident with no documented public stance on development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Resident of Oakfield, NY, residing at 3718 Lockport Road",
+          "url": "https://nationalpublicdata.com/people/h/ellen-hersee/",
+          "title": "Ellen Hersee Public Record",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Holds no known local government position",
+          "url": "https://townofoakfieldny.gov/town-officials/",
+          "title": "Town of Oakfield Officials",
+          "date": "2024-01-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 953608,
+    "thinking_count": 42
+  }
+}

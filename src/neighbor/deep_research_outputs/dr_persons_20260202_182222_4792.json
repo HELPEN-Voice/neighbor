@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-02-02T18:22:22.479268",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Of the three profiled neighbors, none have a clearly documented stance on the proposed development or clean energy (0 support, 0 oppose, 3 unknown). All appear to be private residents with low public profiles, and no high-influence community figures are present among these neighbors.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Anton & Susan Tyler",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10603039G"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anton and Susan Tyler are private landowners in Cochise County, Arizona. They are not mentioned in accessible local government records or media reports related to community or development issues.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles or leadership",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Engage them through a personal, neighborly approach via another respected local landowner. Emphasize preserving rural tranquility and reassure that the project will not infringe on their land use or privacy, addressing any concerns about farmland or open-space impacts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "James P. Douglass",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10615013D"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James P. Douglass operates Painting by James Douglass, a painting contractor business based in Sierra Vista, AZ. He holds an Arizona specialty contractor license (ROC #322424) for painting services, though it is currently listed as inactive. There is no indication that Douglass has been involved in local civic meetings or public debates on development.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local contractor; no known civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting"
+        ],
+        "engage": "Approach him with a business-focused perspective. Highlight potential opportunities for local contractors within the project (e.g., subcontracting or maintenance work) to demonstrate that the development could directly benefit his painting business and the local economy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Virginia Fleming",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "10606026B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Virginia Fleming is a private property owner in Cochise County with no public profile in civic matters. Her name does not appear in local news archives or county records concerning development, indicating she has not taken any public stance on such issues.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Build rapport in a neighborly manner and address any concerns about preserving the scenic landscape and her property’s value. Explain how project plans include measures (like visual buffers or low profiles) to minimize impacts on views and maintain neighborhood character."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Of the three profiled neighbors, none have a clearly documented stance on the proposed development or clean energy (0 support, 0 oppose, 3 unknown). All appear to be private residents with low public profiles, and no high-influence community figures are present among these neighbors.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Anton & Susan Tyler\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"10603039G\"],\n      \"claims\": \"Anton and Susan Tyler are private landowners in Cochise County, Arizona【37】. They are not mentioned in accessible local government records or media reports related to community or development issues【37】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic roles or leadership\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"privacy_quiet\"],\n        \"engage\": \"Engage them through a personal, neighborly approach via another respected local landowner. Emphasize preserving rural tranquility and reassure that the project will not infringe on their land use or privacy, addressing any concerns about farmland or open-space impacts.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"James P. Douglass\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"10615013D\"],\n      \"claims\": \"James P. Douglass operates Painting by James Douglass, a painting contractor business based in Sierra Vista, AZ【30】. He holds an Arizona specialty contractor license (ROC #322424) for painting services, though it is currently listed as inactive【36】. There is no indication that Douglass has been involved in local civic meetings or public debates on development【62】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local contractor; no known civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"fair_contracting\"],\n        \"engage\": \"Approach him with a business-focused perspective. Highlight potential opportunities for local contractors within the project (e.g., subcontracting or maintenance work) to demonstrate that the development could directly benefit his painting business and the local economy.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Virginia Fleming\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"10606026B\"],\n      \"claims\": \"Virginia Fleming is a private property owner in Cochise County with no public profile in civic matters【8】. Her name does not appear in local news archives or county records concerning development, indicating she has not taken any public stance on such issues【8】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; no public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"property_value\", \"aesthetics_viewshed\"],\n        \"engage\": \"Build rapport in a neighborly manner and address any concerns about preserving the scenic landscape and her property’s value. Explain how project plans include measures (like visual buffers or low profiles) to minimize impacts on views and maintain neighborhood character.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

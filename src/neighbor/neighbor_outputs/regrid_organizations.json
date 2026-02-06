@@ -2,54 +2,34 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Jugs Chicken House Farm Llc",
+      "name": "Call Farms, Inc.",
       "entity_type": "organization",
       "pins": [
-        "025-00-00-086-000"
+        "16.-1-22",
+        "16.-1-30.11",
+        "16.-1-30.12",
+        "16.-1-29.11"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Mcleod-Mcquilla Property Llc",
+      "name": "Norton Farms Inc",
       "entity_type": "organization",
       "pins": [
-        "025-00-00-055-000"
+        "16.-1-1.111",
+        "12.-1-7",
+        "12.-1-6.11"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Call Farms Inc",
+      "entity_type": "organization",
+      "pins": [
+        "12.-1-8",
+        "12.-1-10.1"
       ],
       "owns_adjacent_parcel": "Yes"
-    },
-    {
-      "name": "Lcswf Real Estate Llc",
-      "entity_type": "organization",
-      "pins": [
-        "025-00-00-012-000",
-        "025-00-00-006-000"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Wateree Holdings Llc",
-      "entity_type": "organization",
-      "pins": [
-        "025-00-00-076-000",
-        "025-00-00-054-000"
-      ],
-      "owns_adjacent_parcel": "Yes"
-    },
-    {
-      "name": "Kelley-Hill Properties Llc",
-      "entity_type": "organization",
-      "pins": [
-        "024-00-00-167-000"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Mcleod Woodham Property Llc",
-      "entity_type": "organization",
-      "pins": [
-        "025-00-00-057-000"
-      ],
-      "owns_adjacent_parcel": "No"
     }
   ]
 }

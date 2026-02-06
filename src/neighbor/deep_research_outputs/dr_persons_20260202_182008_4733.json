@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-02T18:20:08.473355",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Cochise County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these adjacent landowners have a documented stance on local development or energy projects, so their positions remain unknown. They do not hold any prominent public offices or leadership roles in Cochise County, indicating limited direct influence in community decisions. All three neighbors are private landowners with low public profiles in the area.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Donald Franz",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-029A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donald Franz is listed as the owner of a rural Cochise County parcel (APN 106-06-029A) according to the county’s property records [Cochise County Treasurer Application Center](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelEntry). He has no evident history of public comments or activism regarding development or land-use issues in local news or county meetings [Tucson.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage one-on-one to learn his views. Emphasize respect for his property and address any concerns quietly and factually, since he’s not publicly active."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kenneth A. Bowen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-029D"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kenneth A. Bowen is identified in county property records as the owner of parcel 106-06-029D in Cochise County [Cochise County Assessor](https://www.cochise.az.gov/254/Assessor). There are no reports of Bowen taking a public stance on development or clean energy projects in the local media or public forums reviewed [Tucson.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via informal outreach (e.g., a neighbor introduction or community event). Provide clear information and listen to any concerns, as he has no known prior positions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "John & Gail Christmann",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "106-06-018F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John and Gail Christmann jointly own a parcel in Cochise County (APN 106-06-018F) per the county’s property records [Cochise County Treasurer Application Center](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelEntry). No public record was found of the Christmanns speaking for or against local development or renewable energy proposals in county meetings or news sources [Tucson.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No evident civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage them through a personable, neighborly approach. Highlight how any project plans will respect their property and lifestyle, as they have no known agenda and value their quiet rural living."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these adjacent landowners have a documented stance on local development or energy projects, so their positions remain unknown. They do not hold any prominent public offices or leadership roles in Cochise County, indicating limited direct influence in community decisions. All three neighbors are private landowners with low public profiles in the area.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Donald Franz\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-06-029A\"],\n      \"claims\": \"Donald Franz is listed as the owner of a rural Cochise County parcel (APN 106-06-029A) according to the county’s property records [Cochise County Treasurer Application Center](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelEntry). He has no evident history of public comments or activism regarding development or land-use issues in local news or county meetings [Tucson.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage one-on-one to learn his views. Emphasize respect for his property and address any concerns quietly and factually, since he’s not publicly active.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kenneth A. Bowen\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-06-029D\"],\n      \"claims\": \"Kenneth A. Bowen is identified in county property records as the owner of parcel 106-06-029D in Cochise County [Cochise County Assessor](https://www.cochise.az.gov/254/Assessor). There are no reports of Bowen taking a public stance on development or clean energy projects in the local media or public forums reviewed [Tucson.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or office\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via informal outreach (e.g., a neighbor introduction or community event). Provide clear information and listen to any concerns, as he has no known prior positions.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"John & Gail Christmann\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"106-06-018F\"],\n      \"claims\": \"John and Gail Christmann jointly own a parcel in Cochise County (APN 106-06-018F) per the county’s property records [Cochise County Treasurer Application Center](https://parcelinquirytreasurer.cochise.az.gov/Main/ParcelEntry). No public record was found of the Christmanns speaking for or against local development or renewable energy proposals in county meetings or news sources [Tucson.com](https://saddlebagnotes.com/news/local/article_3030c105-5b22-5ceb-83af-8ea985fd6dc0.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No evident civic involvement\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage them through a personable, neighborly approach. Highlight how any project plans will respect their property and lifestyle, as they have no known agenda and value their quiet rural living.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

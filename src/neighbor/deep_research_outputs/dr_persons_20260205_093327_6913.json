@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-02-05T09:33:27.691418",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Genesee County",
+    "state": "NY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the three neighboring landowners have publicly expressed a stance on the development or clean energy projects. All are categorized as unknown in their support or opposition, with no direct statements found. None holds an elected office; one (Bezon) has moderate influence through a county role and farm family ties, while the others have low community profiles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "George Shamblin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12.-1-58"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George Shamblin is identified as an owner of local property (tax parcel 12.-1-58) in Genesee County assessment records ([townofoakfieldny.gov](https://townofoakfieldny.gov/#:~:text=Town%20of%20Oakfield%202024%20Final,%E2%80%93%20Click%20here%20to%20download)). No town board minutes or local news reports were found that mention Shamblin, and he does not hold any public office (the Alabama/Oakfield area is represented by other officials) ([www.geneseeny.gov](https://www.geneseeny.gov/Department-Content/Legislature/Legislative-Members#:~:text=Home%20%2F%20Legislature%2FLegislative%20Members%20,3%2C%20Towns)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; quiet profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach personally via a trusted fellow farmer, emphasizing that the project will not disrupt his land or daily life."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Anne Bezon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-29.12"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Anne M. Bezon was hired in 2012 by the Genesee County Sheriff’s Office to supervise the Justice for Children Advocacy Center, bringing years of social work experience ([www.thebatavian.com](https://www.thebatavian.com/howard-owens/anne-bezon-named-supervisor-child-advocacy-center/33598#:~:text=The%20Genesee%20County%20Sheriff%E2%80%99s%20Office,Services%20counselor%20at%20the%20center)). She is a local native who graduated from Oakfield-Alabama Central School in 2004 and earned a master’s degree in social work by 2010 ([www.thebatavian.com](https://www.thebatavian.com/howard-owens/anne-bezon-named-supervisor-child-advocacy-center/33598#:~:text=The%202004%20high%20school%20alumna,2012%20class%20of%20Leadership%20Genesee)). The Bezon family is among Genesee County’s last muckland farming families, operating a 383-acre muck and upland farm (Bezon & Sons) that has persisted for three generations ([www.thebatavian.com](https://www.thebatavian.com/howard-owens/joe-bezon-has-spent-lifetime-mucking-and-he-wouldnt-have-it-any-other-way/37511#:~:text=Still%2C%20Bezon%2C%20in%20his%2075th,is%20quite%20happy%20doing%20it)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "County advocate; farm family ties",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farm community member reach out, highlighting how the project honors her family’s farming legacy and provides long-term community benefits."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Brian Pritchett",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16.-1-6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brian Pritchett appears as the owner of parcel 16.-1-6 in county tax records ([townofoakfieldny.gov](https://townofoakfieldny.gov/#:~:text=Town%20of%20Oakfield%202024%20Final,%E2%80%93%20Click%20here%20to%20download)). Like Shamblin, his name does not appear in available local government listings or media archives, and he holds no known public position in the community ([www.geneseeny.gov](https://www.geneseeny.gov/Department-Content/Legislature/Legislative-Members#:~:text=Home%20%2F%20Legislature%2FLegislative%20Members%20,3%2C%20Towns)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through mutual acquaintances in an informal setting, listening to any concerns since he has no visible public stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the three neighboring landowners have publicly expressed a stance on the development or clean energy projects. All are categorized as unknown in their support or opposition, with no direct statements found. None holds an elected office; one (Bezon) has moderate influence through a county role and farm family ties, while the others have low community profiles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"George Shamblin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"12.-1-58\"],\n      \"claims\": \"George Shamblin is identified as an owner of local property (tax parcel 12.-1-58) in Genesee County assessment records ([townofoakfieldny.gov](https://townofoakfieldny.gov/#:~:text=Town%20of%20Oakfield%202024%20Final,%E2%80%93%20Click%20here%20to%20download)). No town board minutes or local news reports were found that mention Shamblin, and he does not hold any public office (the Alabama/Oakfield area is represented by other officials) ([www.geneseeny.gov](https://www.geneseeny.gov/Department-Content/Legislature/Legislative-Members#:~:text=Home%20%2F%20Legislature%2FLegislative%20Members%20,3%2C%20Towns)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles; quiet profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach personally via a trusted fellow farmer, emphasizing that the project will not disrupt his land or daily life.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Anne Bezon\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-29.12\"],\n      \"claims\": \"Anne M. Bezon was hired in 2012 by the Genesee County Sheriff’s Office to supervise the Justice for Children Advocacy Center, bringing years of social work experience ([www.thebatavian.com](https://www.thebatavian.com/howard-owens/anne-bezon-named-supervisor-child-advocacy-center/33598#:~:text=The%20Genesee%20County%20Sheriff%E2%80%99s%20Office,Services%20counselor%20at%20the%20center)). She is a local native who graduated from Oakfield-Alabama Central School in 2004 and earned a master’s degree in social work by 2010 ([www.thebatavian.com](https://www.thebatavian.com/howard-owens/anne-bezon-named-supervisor-child-advocacy-center/33598#:~:text=The%202004%20high%20school%20alumna,2012%20class%20of%20Leadership%20Genesee)). The Bezon family is among Genesee County’s last muckland farming families, operating a 383-acre muck and upland farm (Bezon & Sons) that has persisted for three generations ([www.thebatavian.com](https://www.thebatavian.com/howard-owens/joe-bezon-has-spent-lifetime-mucking-and-he-wouldnt-have-it-any-other-way/37511#:~:text=Still%2C%20Bezon%2C%20in%20his%2075th,is%20quite%20happy%20doing%20it)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"County advocate; farm family ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local farm community member reach out, highlighting how the project honors her family’s farming legacy and provides long-term community benefits.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Brian Pritchett\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"16.-1-6\"],\n      \"claims\": \"Brian Pritchett appears as the owner of parcel 16.-1-6 in county tax records ([townofoakfieldny.gov](https://townofoakfieldny.gov/#:~:text=Town%20of%20Oakfield%202024%20Final,%E2%80%93%20Click%20here%20to%20download)). Like Shamblin, his name does not appear in available local government listings or media archives, and he holds no known public position in the community ([www.geneseeny.gov](https://www.geneseeny.gov/Department-Content/Legislature/Legislative-Members#:~:text=Home%20%2F%20Legislature%2FLegislative%20Members%20,3%2C%20Towns)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through mutual acquaintances in an informal setting, listening to any concerns since he has no visible public stance.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
