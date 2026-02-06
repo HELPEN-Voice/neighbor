@@ -133,7 +133,24 @@ class NeighborProfile(BaseModel):
     stance: Optional[str] = None  # Extracted from claims if needed
     signal: Optional[str] = None  # Extracted from claims if needed
     influence_level: Optional[Literal["high", "medium", "low", "unknown"]] = None
+
+    @field_validator("influence_level", mode="before")
+    @classmethod
+    def lowercase_influence_level(cls, v):
+        """Normalize influence_level to lowercase."""
+        if isinstance(v, str) and v:
+            return v.lower()
+        return v
+
     risk_level: Optional[Literal["high", "medium", "low", "unknown"]] = None
+
+    @field_validator("risk_level", mode="before")
+    @classmethod
+    def lowercase_risk_level(cls, v):
+        """Normalize risk_level to lowercase."""
+        if isinstance(v, str) and v:
+            return v.lower()
+        return v
     engagement_recommendation: Optional[str] = None
 
     # Legacy nested structures (optional, will be empty in new format)
@@ -143,6 +160,14 @@ class NeighborProfile(BaseModel):
     financial_stress_signals: Optional[List[str]] = None
     coalition_predictors: Optional[List[str]] = None
     disambiguation: Optional[Disambiguation] = None
+
+    @field_validator("disambiguation", mode="before")
+    @classmethod
+    def coerce_disambiguation(cls, v):
+        """Convert plain string to Disambiguation object."""
+        if isinstance(v, str):
+            return Disambiguation(method=[v]) if v.strip() else None
+        return v
     citations: Optional[List[Evidence]] = None  # Citations are now inline in claims
 
 
