@@ -319,10 +319,7 @@ CRITICAL: Your output MUST be a valid JSON array of neighbor profiles wrapped in
                         }
                     continue
 
-                # Extract output ONLY from the saved debug JSON file
-                with open(debug_json_path, "r", encoding="utf-8") as f:
-                    debug_data = json.load(f)
-
+                # Use in-memory debug_data directly (already populated above)
                 if not debug_data.get("outputs"):
                     last_error = "No outputs in completed interaction"
                     if is_final_attempt:
