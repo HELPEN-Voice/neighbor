@@ -146,6 +146,13 @@ def validate_citations(result: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def _mock_response(text: str, citations: list):
+    """Build a mock response object from retrieved Deep Research output."""
+    content = type("Content", (), {"text": text, "annotations": citations})()
+    output = type("Output", (), {"content": [content]})()
+    return type("Response", (), {"output": [output]})()
+
+
 class DeepResearchResponsesEngine(ResearchEngine):
     def __init__(
         self, client: Optional[AsyncOpenAI] = None, model: Optional[str] = None
@@ -289,35 +296,8 @@ Follow the OUTPUT format and example provided in your instructions above."""
                     # Retrieve the full response
                     final_result = await webhook_manager.retrieve_response(response_id)
 
-                    # Extract the content from the webhook response (check it's not still pending)
                     if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
-                        # Create a mock response object with the webhook data
-                        resp = type(
-                            "Response",
-                            (),
-                            {
-                                "output": [
-                                    type(
-                                        "Output",
-                                        (),
-                                        {
-                                            "content": [
-                                                type(
-                                                    "Content",
-                                                    (),
-                                                    {
-                                                        "text": final_result["raw_output"],
-                                                        "annotations": final_result.get(
-                                                            "citations", []
-                                                        ),
-                                                    },
-                                                )()
-                                            ]
-                                        },
-                                    )()
-                                ]
-                            },
-                        )()
+                        resp = _mock_response(final_result["raw_output"], final_result.get("citations", []))
                     else:
                         status = final_result.get("status", "unknown") if final_result else "no response"
                         raise Exception(
@@ -336,38 +316,9 @@ Follow the OUTPUT format and example provided in your instructions above."""
                         # Check if we got a valid, completed response (not still pending)
                         if final_result and "raw_output" in final_result and final_result.get("status") != "pending":
                             print(
-                                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Successfully retrieved response via polling for {len(names)} {entity_type}s (ID: {response_id})"
+                                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Retrieved response via polling for {len(names)} {entity_type}s (ID: {response_id})"
                             )
-
-                            # Create a mock response object with the retrieved data
-                            resp = type(
-                                "Response",
-                                (),
-                                {
-                                    "output": [
-                                        type(
-                                            "Output",
-                                            (),
-                                            {
-                                                "content": [
-                                                    type(
-                                                        "Content",
-                                                        (),
-                                                        {
-                                                            "text": final_result[
-                                                                "raw_output"
-                                                            ],
-                                                            "annotations": final_result.get(
-                                                                "citations", []
-                                                            ),
-                                                        },
-                                                    )
-                                                ]
-                                            },
-                                        )
-                                    ]
-                                },
-                            )
+                            resp = _mock_response(final_result["raw_output"], final_result.get("citations", []))
                         else:
                             status = final_result.get("status", "unknown") if final_result else "no response"
                             raise Exception(
@@ -381,10 +332,53 @@ Follow the OUTPUT format and example provided in your instructions above."""
                             f"Webhook timeout and fallback retrieval failed for {entity_type} batch: {str(e)}"
                         )
                 else:
-                    # Other error cases
-                    raise Exception(
-                        f"Webhook failed for {entity_type} batch: {webhook_result.get('error', 'Unknown error')}"
+                    # WebSocket error (connection lost, etc.) — poll for completion
+                    error_msg = webhook_result.get('error', 'Unknown error')
+                    print(
+                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ WebSocket lost for {entity_type} batch: {error_msg}"
                     )
+                    print(
+                        f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Falling back to polling for {response_id[:20]}..."
+                    )
+
+                    poll_interval = 30  # seconds between polls
+                    poll_timeout = 2700  # 45 minutes
+                    poll_start = time.time()
+
+                    while time.time() - poll_start < poll_timeout:
+                        try:
+                            final_result = await webhook_manager.retrieve_response(response_id)
+                            status = final_result.get("status", "unknown") if final_result else "no response"
+
+                            if status == "completed" and "raw_output" in final_result:
+                                elapsed = int(time.time() - poll_start)
+                                print(
+                                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✅ Poll succeeded after {elapsed}s for {len(names)} {entity_type}s (ID: {response_id[:20]}...)"
+                                )
+                                resp = _mock_response(final_result["raw_output"], final_result.get("citations", []))
+                                break
+                            elif status in ["queued", "in_progress", "pending"]:
+                                elapsed = int(time.time() - poll_start)
+                                print(
+                                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⏳ Still {status}... ({elapsed}s elapsed, polling every {poll_interval}s)"
+                                )
+                                await asyncio.sleep(poll_interval)
+                            else:
+                                raise Exception(
+                                    f"Unexpected status '{status}' polling {entity_type} batch (response {response_id})"
+                                )
+                        except Exception as poll_err:
+                            if "Unexpected status" in str(poll_err):
+                                raise
+                            elapsed = int(time.time() - poll_start)
+                            print(
+                                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️ Poll error ({elapsed}s): {poll_err}, retrying..."
+                            )
+                            await asyncio.sleep(poll_interval)
+                    else:
+                        raise Exception(
+                            f"Polling timeout after {poll_timeout}s for {entity_type} batch (response {response_id})"
+                        )
 
         except Exception as api_error:
             # Retry on API errors, timeouts, webhook failures

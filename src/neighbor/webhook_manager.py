@@ -93,77 +93,89 @@ class WebhookManagerClient:
             self._events[response_id].set()
 
     async def wait_for_webhook(
-        self, response_id: str, timeout: int = 2700
+        self, response_id: str, timeout: int = 2700, max_reconnects: int = 5
     ) -> Dict[str, Any]:
         """
         Wait for a webhook response using WebSocket connection.
+        Automatically reconnects on connection drops with exponential backoff.
         """
         logger.info(f"⏳ Waiting for webhook for response_id: {response_id}")
         logger.info(f"📡 Webhook URL configured: {self.webhook_url}")
 
         ws_url = f"{self.ws_base_url}/ws/{response_id}"
+        deadline = asyncio.get_event_loop().time() + timeout
+        attempt = 0
 
-        try:
-            # Connect to WebSocket endpoint
-            async with websockets.connect(ws_url, ping_interval=30, ping_timeout=10) as websocket:
-                logger.info(f"🔌 Connected to WebSocket: {ws_url}")
+        while True:
+            remaining = deadline - asyncio.get_event_loop().time()
+            if remaining <= 0:
+                logger.error(f"⏰ Timeout waiting for webhook {response_id}")
+                return {
+                    "status": "timeout",
+                    "error": f"Timeout after {timeout} seconds waiting for webhook",
+                }
 
-                # Set up timeout
-                async def wait_for_completion():
+            try:
+                async with websockets.connect(ws_url, ping_interval=30, ping_timeout=10) as websocket:
+                    if attempt > 0:
+                        logger.info(f"🔌 Reconnected to WebSocket (attempt {attempt + 1}): {ws_url}")
+                    else:
+                        logger.info(f"🔌 Connected to WebSocket: {ws_url}")
+                    attempt = 0  # reset on successful connect
+
                     while True:
                         try:
-                            message = await websocket.recv()
+                            message = await asyncio.wait_for(
+                                websocket.recv(), timeout=remaining
+                            )
                             data = json.loads(message)
 
-                            # Handle different message types
                             if data.get("type") == "heartbeat":
                                 logger.debug(f"💓 Heartbeat received for {response_id}")
+                                remaining = deadline - asyncio.get_event_loop().time()
                                 continue
                             elif data.get("type") == "webhook_received":
-                                logger.info(
-                                    f"✅ Webhook received notification for {response_id}"
-                                )
-                                # Add a small delay to handle race condition between webhook and API update
-                                # OpenAI sends the webhook before their API is fully updated
-                                await asyncio.sleep(
-                                    10.0
-                                )  # 10 second delay to ensure API consistency
-                                logger.debug(
-                                    f"⏱️ Waited 10s after webhook for API consistency ({response_id})"
-                                )
+                                logger.info(f"✅ Webhook received notification for {response_id}")
+                                await asyncio.sleep(10.0)
                                 return {
                                     "status": "completed",
                                     "response_id": response_id,
                                     "webhook_received": True,
                                     "data": data.get("data"),
                                 }
+                        except asyncio.TimeoutError:
+                            logger.error(f"⏰ Timeout waiting for webhook {response_id}")
+                            return {
+                                "status": "timeout",
+                                "error": f"Timeout after {timeout} seconds waiting for webhook",
+                            }
                         except websockets.exceptions.ConnectionClosed:
-                            logger.error(
-                                f"WebSocket connection closed for {response_id}"
-                            )
-                            break
+                            logger.warning(f"WebSocket connection closed for {response_id}, will reconnect...")
+                            break  # break inner loop, reconnect in outer loop
                         except Exception as e:
-                            logger.error(f"Error receiving WebSocket message: {e}")
+                            logger.warning(f"Error receiving WebSocket message: {e}, will reconnect...")
                             break
 
-                    return {"status": "error", "error": "WebSocket connection lost"}
+            except asyncio.TimeoutError:
+                logger.error(f"⏰ Timeout waiting for webhook {response_id}")
+                return {
+                    "status": "timeout",
+                    "error": f"Timeout after {timeout} seconds waiting for webhook",
+                }
+            except Exception as e:
+                logger.warning(f"WebSocket connection failed: {e}")
 
-                # Wait with timeout
-                result = await asyncio.wait_for(wait_for_completion(), timeout=timeout)
-                return result
-
-        except asyncio.TimeoutError:
-            logger.error(f"⏰ Timeout waiting for webhook {response_id}")
-            return {
-                "status": "timeout",
-                "error": f"Timeout after {timeout} seconds waiting for webhook",
-            }
-        except Exception as e:
-            logger.error(f"❌ WebSocket connection failed: {e}")
-            return {
-                "status": "error",
-                "error": f"WebSocket connection failed: {str(e)}",
-            }
+            # Reconnect with exponential backoff
+            attempt += 1
+            if attempt > max_reconnects:
+                logger.error(f"❌ Exhausted {max_reconnects} reconnect attempts for {response_id}")
+                return {
+                    "status": "error",
+                    "error": f"WebSocket failed after {max_reconnects} reconnect attempts",
+                }
+            backoff = min(2 ** attempt, 30)
+            logger.info(f"🔄 Reconnecting in {backoff}s (attempt {attempt}/{max_reconnects})...")
+            await asyncio.sleep(backoff)
 
     async def retrieve_response(self, response_id: str) -> Dict[str, Any]:
         """
