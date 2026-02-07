@@ -1,37 +1,37 @@
 {
-  "run_id": "e7574e0c-e806-4337-9cac-66ad860780bc",
-  "coordinates": "43.097336,-78.23041",
-  "state_code": "NY",
-  "parcels_analyzed": 26,
+  "run_id": "42374349-0229-4e7c-bd37-3bf2bde51ac3",
+  "coordinates": "34.211925,-85.065168",
+  "state_code": "GA",
+  "parcels_analyzed": 30,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 14,
+    "median_structure_value": 606042.5,
+    "formatted": "$606,042",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
   },
   "land_value_proxy": {
-    "valid_samples": 19,
-    "median_value_per_acre": 3919.11881173405,
-    "formatted": "$3,919/acre",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 23,
+    "median_value_per_acre": 16928.181238348272,
+    "formatted": "$16,928/acre",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
   },
-  "total_property_value": null,
-  "total_land_value": 3899500.0,
-  "final_radius_miles": 1.5,
+  "total_property_value": 14098302.5,
+  "total_land_value": 64291207.5,
+  "final_radius_miles": 1.0,
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "$3,919/acre",
-    "land_risk_level": "LOW",
-    "land_risk_class": "risk-low",
-    "land_valid_samples": "19",
-    "parcels_analyzed": "26",
-    "total_property_value": "N/A",
-    "total_land_value": "$3,899,500",
-    "final_radius_miles": "1.50"
+    "median_structure_value": "$606,042",
+    "wealth_risk_level": "HIGH",
+    "wealth_risk_class": "risk-high",
+    "wealth_valid_samples": "14",
+    "median_land_value_acre": "$16,928/acre",
+    "land_risk_level": "HIGH",
+    "land_risk_class": "risk-high",
+    "land_valid_samples": "23",
+    "parcels_analyzed": "30",
+    "total_property_value": "$14,098,302",
+    "total_land_value": "$64,291,208",
+    "final_radius_miles": "1.00"
   }
 }

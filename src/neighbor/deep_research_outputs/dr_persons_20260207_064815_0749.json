@@ -1,0 +1,165 @@
+{
+  "timestamp": "2026-02-07T06:48:15.074964",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these three neighboring landowners has a documented public stance on development or energy projects, and all appear to be private residents without known civic leadership. All three are local property owners with no clear public positions, meaning the group includes 0 identified supporters or opponents of development. Community influence among them is low, as none hold high-profile roles in local affairs.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bruce Randall Litton & Nell Litton",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M16112"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bruce R. Litton and his wife, Nell Litton, are listed as owners of a rural parcel in Floyd County according to county property records ([www.qpublic.net](https://www.qpublic.net/ga/floyd/search.html#:~:text=Image%20,The%20assessment%20information%20is)). No references could be found in local news archives or public meeting minutes indicating that the Littons have taken any public position on development or energy issues (extensive searches yielded no relevant mentions in Floyd County records) ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=78&doc_id=9c8c0775-49c0-11ef-8c72-005056a89546&view_id=1#:~:text=No%20,litton)). They are not noted as serving in any elected or appointed community roles in Floyd County ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=Boards%2C%20Commissions%2C%20Committees)) ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=No%20,litton)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Littons through informal, relationship-building contact via local agricultural or community channels. Emphasize respect for their property and rural lifestyle, and listen to any concerns quietly to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jerry Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15019"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jerry Martin appears in the Floyd County property tax roll, confirming his status as a local landowner ([doczz.net](https://doczz.net/doc/655038/2014-floyd-county-tax#:~:text=MARTIN%20GEORGIE%20MARTIN%20JEFFERY%20%26,R%20MARTIN%20KENNITH%20MARTIN%20KENNY)). There are no documented public statements or letters by Martin regarding land development or renewable energy in local media or meeting transcripts (searches of county commission records did not reveal his name in any public comments) ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=78&doc_id=9c8c0775-49c0-11ef-8c72-005056a89546&view_id=1#:~:text=property,Gass%20continued%20with%20the)). Martin does not hold any prominent public positions in Floyd County and has not been identified in civic roles or leadership posts ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=Board%2C%20Committee%2C%20Commission)) ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=No%20,martin)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Martin via a mutual community contact or neighborly introduction. Since his views are not public, a one-on-one conversation focusing on listening to his questions and assuring respect for his property rights can help establish a positive rapport."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Herbert David Litton",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M16111"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Herbert David Litton (often going by David Litton) and a family member (Betty Lou Litton) are recorded in Floyd County’s tax records as property owners ([doczz.net](https://doczz.net/doc/655038/2014-floyd-county-tax#:~:text=LITTLE%20DAVID%20%26%20BETTY%20LOU,D%20LITTLE%20ELLIS%20LITTLE%20ELLIS)). No evidence was found of Herbert Litton speaking at public hearings or in local news on development issues, suggesting he has not publicly engaged on such matters ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=78&doc_id=9c8c0775-49c0-11ef-8c72-005056a89546&view_id=1#:~:text=No%20,litton)). He holds no public office in the county and is not listed among local officials or board members ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=Boards%2C%20Commissions%2C%20Committees)) ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=No%20,litton)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public position",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out to Herbert (David) Litton through a neighborly visit or via local farming networks. Emphasize the continuity of the landscape and address any concerns about land use changes with assurances of open communication and respect for his long-term investment in the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these three neighboring landowners has a documented public stance on development or energy projects, and all appear to be private residents without known civic leadership. All three are local property owners with no clear public positions, meaning the group includes 0 identified supporters or opponents of development. Community influence among them is low, as none hold high-profile roles in local affairs.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Bruce Randall Litton & Nell Litton\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M16112\"],\n      \"claims\": \"Bruce R. Litton and his wife, Nell Litton, are listed as owners of a rural parcel in Floyd County according to county property records ([www.qpublic.net](https://www.qpublic.net/ga/floyd/search.html#:~:text=Image%20,The%20assessment%20information%20is)). No references could be found in local news archives or public meeting minutes indicating that the Littons have taken any public position on development or energy issues (extensive searches yielded no relevant mentions in Floyd County records) ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=78&doc_id=9c8c0775-49c0-11ef-8c72-005056a89546&view_id=1#:~:text=No%20,litton)). They are not noted as serving in any elected or appointed community roles in Floyd County ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=Boards%2C%20Commissions%2C%20Committees)) ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=No%20,litton)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the Littons through informal, relationship-building contact via local agricultural or community channels. Emphasize respect for their property and rural lifestyle, and listen to any concerns quietly to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jerry Martin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M15019\"],\n      \"claims\": \"Jerry Martin appears in the Floyd County property tax roll, confirming his status as a local landowner ([doczz.net](https://doczz.net/doc/655038/2014-floyd-county-tax#:~:text=MARTIN%20GEORGIE%20MARTIN%20JEFFERY%20%26,R%20MARTIN%20KENNITH%20MARTIN%20KENNY)). There are no documented public statements or letters by Martin regarding land development or renewable energy in local media or meeting transcripts (searches of county commission records did not reveal his name in any public comments) ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=78&doc_id=9c8c0775-49c0-11ef-8c72-005056a89546&view_id=1#:~:text=property,Gass%20continued%20with%20the)). Martin does not hold any prominent public positions in Floyd County and has not been identified in civic roles or leadership posts ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=Board%2C%20Committee%2C%20Commission)) ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=No%20,martin)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Martin via a mutual community contact or neighborly introduction. Since his views are not public, a one-on-one conversation focusing on listening to his questions and assuring respect for his property rights can help establish a positive rapport.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Herbert David Litton\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M16111\"],\n      \"claims\": \"Herbert David Litton (often going by David Litton) and a family member (Betty Lou Litton) are recorded in Floyd County’s tax records as property owners ([doczz.net](https://doczz.net/doc/655038/2014-floyd-county-tax#:~:text=LITTLE%20DAVID%20%26%20BETTY%20LOU,D%20LITTLE%20ELLIS%20LITTLE%20ELLIS)). No evidence was found of Herbert Litton speaking at public hearings or in local news on development issues, suggesting he has not publicly engaged on such matters ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=78&doc_id=9c8c0775-49c0-11ef-8c72-005056a89546&view_id=1#:~:text=No%20,litton)). He holds no public office in the county and is not listed among local officials or board members ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=Boards%2C%20Commissions%2C%20Committees)) ([www.floydcountyga.gov](https://www.floydcountyga.gov/bc/directory#:~:text=No%20,litton)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public position\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out to Herbert (David) Litton through a neighborly visit or via local farming networks. Emphasize the continuity of the landscape and address any concerns about land use changes with assurances of open communication and respect for his long-term investment in the land.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

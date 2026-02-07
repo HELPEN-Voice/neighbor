@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-02-07T06:45:37.821384",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these three Floyd County neighbors have a documented stance on the development, as no public comments or actions were found from them. Two are part of a longstanding local farm family (the Braden family) and carry moderate social capital in the community, whereas the third appears to be a low-profile landowner with minimal public involvement.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mark Braden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15015"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark Braden is associated with B.H. Braden & Son Ltd., a Rome-based farming enterprise that received approximately $43,743 in federal farm program subsidies from 1995 through 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=13115&page=2&progcode=totalfarm). He comes from a family with deep local roots – his late mother Norma Braden was a founding member of a Rome church and served as president of several Floyd County clubs [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Farm family; multi-generation local ties",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "He may respond well to outreach via a fellow farmer or respected community figure. Emphasize commitments to protecting farmland and honoring his family’s legacy during conversations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Pamela B. McAbee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15016"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pamela B. McAbee (née Braden) is the daughter of longtime Floyd County residents Biddy and Norma Braden, and she continues to reside in Rome, Georgia with her husband [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/). She holds no known public offices or leadership roles, as her name is absent from Floyd County’s board appointments and local civic listings [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Lifelong local resident; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Connect through family or church networks, focusing on maintaining the peaceful rural lifestyle. Reassure her that any development plans will respect her family’s legacy and privacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Martha Jane Gaines Montgomery",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Martha Jane Gaines Montgomery is a local landowner in Floyd County, but no further public information or community involvement is evident beyond her property ownership. She does not serve on any county boards or committees, and no public statements from her on development issues were found [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no civic positions",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a respectful, personal approach (perhaps through a neighbor she knows) and listen to any concerns she may have. Given her low profile, reaching out one-on-one with reassurances that her property and way of life will be respected is advisable."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these three Floyd County neighbors have a documented stance on the development, as no public comments or actions were found from them. Two are part of a longstanding local farm family (the Braden family) and carry moderate social capital in the community, whereas the third appears to be a low-profile landowner with minimal public involvement.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Mark Braden\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M15015\"],\n      \"claims\": \"Mark Braden is associated with B.H. Braden & Son Ltd., a Rome-based farming enterprise that received approximately $43,743 in federal farm program subsidies from 1995 through 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=13115&page=2&progcode=totalfarm). He comes from a family with deep local roots – his late mother Norma Braden was a founding member of a Rome church and served as president of several Floyd County clubs [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Farm family; multi-generation local ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"He may respond well to outreach via a fellow farmer or respected community figure. Emphasize commitments to protecting farmland and honoring his family’s legacy during conversations.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Pamela B. McAbee\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M15016\"],\n      \"claims\": \"Pamela B. McAbee (née Braden) is the daughter of longtime Floyd County residents Biddy and Norma Braden, and she continues to reside in Rome, Georgia with her husband [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/). She holds no known public offices or leadership roles, as her name is absent from Floyd County’s board appointments and local civic listings [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Lifelong local resident; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"heritage_family_legacy\"],\n        \"engage\": \"Connect through family or church networks, focusing on maintaining the peaceful rural lifestyle. Reassure her that any development plans will respect her family’s legacy and privacy.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Martha Jane Gaines Montgomery\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M15014\"],\n      \"claims\": \"Martha Jane Gaines Montgomery is a local landowner in Floyd County, but no further public information or community involvement is evident beyond her property ownership. She does not serve on any county boards or committees, and no public statements from her on development issues were found [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; no civic positions\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a respectful, personal approach (perhaps through a neighbor she knows) and listen to any concerns she may have. Given her low profile, reaching out one-on-one with reassurances that her property and way of life will be respected is advisable.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

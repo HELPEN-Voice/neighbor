@@ -2,34 +2,37 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Call Farms, Inc.",
+      "name": "Floyd County Georgia",
       "entity_type": "organization",
       "pins": [
-        "16.-1-22",
-        "16.-1-30.11",
-        "16.-1-30.12",
-        "16.-1-29.11"
+        "M15006",
+        "M15017A"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Norton Farms Inc",
+      "name": "Stenanista Llc",
       "entity_type": "organization",
       "pins": [
-        "16.-1-1.111",
-        "12.-1-7",
-        "12.-1-6.11"
+        "N15008"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Call Farms Inc",
+      "name": "Johnson Farm Property Llc",
       "entity_type": "organization",
       "pins": [
-        "12.-1-8",
-        "12.-1-10.1"
+        "L15013"
       ],
-      "owns_adjacent_parcel": "Yes"
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "New Hope Chapel Trustees Of",
+      "entity_type": "organization",
+      "pins": [
+        "M15011"
+      ],
+      "owns_adjacent_parcel": "No"
     }
   ]
 }

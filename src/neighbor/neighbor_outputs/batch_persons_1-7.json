@@ -1,0 +1,117 @@
+{
+  "batch_idx": 0,
+  "total_batches": 7,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Braden B H & Son Limited Partnership",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15022",
+        "M15025",
+        "M15013"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table for engagement information."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Norma S. Braden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15022A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Norma S. Braden (1931\u20132026) was a longtime Rome resident who was a founding member of Woodlawn Baptist Church and served as President of multiple local clubs such as the Spade and Trowel Garden Club [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/). She passed away on January 8, 2026, at the age of 94 [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Club president; farm family matriarch",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Work through her surviving family (especially her son Mark Braden) since she is now deceased. Emphasize respect for the Braden family\u2019s long history and contributions in Floyd County."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mark H. Braden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15024"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark H. Braden resides in Rome, Georgia, and is a son of the late Norma S. Braden [Coosa Valley News](https://coosavalleynews.com/2026/01/mrs-norma-sheffield-braden-age-94-rome/). In 2021, the Braden family sold over 202 acres of their land along Highway 411 to local authorities for an industrial development corridor [WRGA](https://www.wrganews.com/2021/08/10/rome-floyd-county-announces-highway-411-land-purchase/).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Major landowner; enabled industrial expansion",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Leverage a local development official who worked with Mark on the Highway 411 project to reach out. Emphasize how the new project\u2019s community benefits and local oversight align with the economic progress his family has supported."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Among the three neighbors, one (Mark Braden) has actively supported development, while the others have no recorded stance. None hold public office, but the Braden family\u2019s long-standing presence as landowners and community members gives them moderate influence locally.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_064613_4134.json",
+  "cached_at": "2026-02-07T06:46:13.414478"
+}

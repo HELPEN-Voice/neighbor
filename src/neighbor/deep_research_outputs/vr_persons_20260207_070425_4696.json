@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-02-07T07:26:57.621155",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_070425_4696.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Wade Wendall Johnson & Max Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "L15014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Max Johnson and Gail Johnson were documented as present at the Rome-Floyd Planning Commission meeting on August 1, 2024, where the Rome Speedway industrial rezoning was discussed ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). While the minutes record significant neighborhood opposition to the project, there is no specific record of Max Johnson providing public testimony or a quote during the hearing ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). Parcel L15014 is associated with 2774 Chulio Rd SE, a 76.58-acre tract in the vicinity of the speedway ([Zillow](https://www.zillow.com/homedetails/2774-Chulio-Rd-SE-Rome-GA-30161/217351800_zpid/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; attended local zoning hearing",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "property_value",
+          "traffic_safety"
+        ],
+        "engage": "Have a respected Farm Bureau member or fellow farmer reach out, focusing on commitments to preserve agricultural land and maintain local property values. Address truck route planning to alleviate their traffic concerns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Max Johnson and Gail Johnson were documented as present at the Rome-Floyd Planning Commission meeting on August 1, 2024",
+          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807",
+          "title": "Rome-Floyd Planning Commission Minutes",
+          "date": "2024-08-01"
+        },
+        {
+          "claim": "Parcel L15014 is associated with 2774 Chulio Rd SE, a 76.58-acre tract",
+          "url": "https://www.zillow.com/homedetails/2774-Chulio-Rd-SE-Rome-GA-30161/217351800_zpid/",
+          "title": "2774 Chulio Rd SE Property Details",
+          "date": "2024-08-27"
+        }
+      ],
+      "verification_notes": "Changed stance to 'unknown' as Max Johnson is listed as 'Public present' in the minutes but is not recorded as a speaker. Removed specific opposition quotes that could not be verified in the transcript."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michael Todd Waters",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M16110"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael Todd Waters was a previous owner of property in the area, having sold a residence on Trillium Trail in 2004 ([Homes.com](https://www.homes.com/property/61-trillium-trail-ne-rome-ga/5fqyldxx21mbl/)). He was not listed as an attendee or speaker in the official minutes of the August 1, 2024, Planning Commission meeting regarding the Rome Speedway rezoning ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). The Planning Commission does include a member named Gary Waters, and the County Ex-Officio is Allison Waters, but no participation by Michael Todd Waters could be verified ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Could not verify current residency or community roles",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Verify current residency status before engagement. If confirmed resident, meet personally through a local community group to discuss project measures to safeguard property values."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Michael Todd Waters sold a residence on Trillium Trail in 2004",
+          "url": "https://www.homes.com/property/61-trillium-trail-ne-rome-ga/5fqyldxx21mbl/",
+          "title": "Property Sales History Rome GA",
+          "date": "2024-02-07"
+        },
+        {
+          "claim": "He was not listed as an attendee or speaker in the official minutes of the August 1, 2024, Planning Commission meeting",
+          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807",
+          "title": "Rome-Floyd Planning Commission Minutes",
+          "date": "2024-08-01"
+        }
+      ],
+      "verification_notes": "Removed claims of opposition and meeting attendance as name does not appear in official minutes. Flagged potential confusion with Planning Commissioner Gary Waters."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Johnette T. Chambers",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M16108"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Johnette Chambers serves as the Office Manager for the Georgia's Rome Office of Tourism ([City of Rome Directory](https://www.romega.us/directory.aspx?EID=122)). While drafted as an opponent to the Rome Speedway rezoning, her name does not appear on the list of public attendees or speakers in the official minutes for the August 1, 2024 hearing ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). She has familial ties to the area, listed as the daughter of the late Dorothy Terhune of Floyd County ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/rome-ga/dorothy-terhune-11267865)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "City employee; Office Manager for Rome Office of Tourism",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "property_value"
+        ],
+        "engage": "Engage via a familiar community figure to discuss how the development can coexist with local traditions. Highlight any commitments to mitigate traffic and noise impacts."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Johnette Chambers serves as the Office Manager for the Georgia's Rome Office of Tourism",
+          "url": "https://www.romega.us/directory.aspx?EID=122",
+          "title": "City of Rome Staff Directory",
+          "date": "2024-02-07"
+        },
+        {
+          "claim": "Her name does not appear on the list of public attendees or speakers in the official minutes",
+          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807",
+          "title": "Rome-Floyd Planning Commission Minutes",
+          "date": "2024-08-01"
+        },
+        {
+          "claim": "She has familial ties to the area, listed as the daughter of the late Dorothy Terhune",
+          "url": "https://www.dignitymemorial.com/obituaries/rome-ga/dorothy-terhune-11267865",
+          "title": "Obituary for Dorothy Jean Terhune",
+          "date": "2023-04-27"
+        }
+      ],
+      "verification_notes": "Changed stance to 'unknown' as presence at the opposition hearing could not be verified in minutes. Updated influence based on role with Tourism Office."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 719048,
+    "thinking_count": 43
+  }
+}

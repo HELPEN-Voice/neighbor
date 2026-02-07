@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-02-07T06:48:12.549616",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neighboring landowners include the Floyd County government and two private LLCs. The county generally supports development that brings jobs and tax base, while one LLC (Stenanista) is tied to the Bouckaert family’s Kingston Downs preserve – a well-connected landowner likely to insist on concessions to protect its property. The other LLC (Johnson Farm Property) is a local family farm holding with minimal public profile and an unclear development stance, probably focused on preserving its land value.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Floyd County Georgia",
+      "entity_category": "Organization",
+      "entity_type": "county government",
+      "pins": [
+        "M15006",
+        "M15017A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Floyd County’s Board of Commissioners (with its Rome-Floyd Development Authority) actively pursues economic development; in 2022 the county used special sales tax funds to purchase ~202 acres for a new industrial park aimed at attracting capital investment and jobs [Floyd County BOC Minutes](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1). Officials emphasized being “good neighbors” to adjoining landowners – they met with the Bouckaert family (owners of a large nature preserve) and agreed to add buffer berms between the industrial park site and the Kingston Downs preserve ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1#:~:text=marketing%20purposes%20as%20well%3B%20we,doing%20at%20the%20preserve%2C%20to)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "High – County government controls zoning/permitting, owns land (industrial park projects), and wields significant political and regulatory power in local development decisions",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage county economic development officials and Commission leadership early, emphasizing the project’s alignment with job creation and tax-base growth goals; address any community or environmental concerns upfront (the county strives to balance growth with being a “good neighbor” to locals)"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Stenanista LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "N15008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Stenanista, LLC was formed in Georgia on January 18, 2006 and is registered at 502 Bass Ferry Rd in Rome, with Stan Bouckaert listed as its registered agent [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=412401). The Bouckaert family also owns the adjacent Kingston Downs estate – a large private preserve in Floyd County – and county records show they negotiated for protective berms to shield their preserve from a planned industrial park nearby [Floyd County BOC Minutes](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1). This suggests the Bouckaerts are vigilant about nearby development and have the influence to prompt concessions on projects impacting their land ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1#:~:text=marketing%20purposes%20as%20well%3B%20we,doing%20at%20the%20preserve%2C%20to)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "High – Controls a vast property (Kingston Downs preserve), has substantial resources; county officials have directly engaged them and adjusted development plans to address their concerns",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet with Stan Bouckaert (managing member) to understand his concerns and offer meaningful buffers or conservation measures protecting Kingston Downs; given the family’s clout and resources, securing their goodwill through respectful negotiation and mitigation commitments is crucial to avoid opposition"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Johnson Farm Property LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "L15013"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Johnson Farm Property LLC is a Georgia domestic LLC formed on March 5, 2012, listing 11 River Pine Dr SW, Rome as its principal address and Linda Owens as the registered agent [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic%20Limited%20Liability%20Company). State filings show no listed members or managers beyond the agent, and the company’s stated business purpose is “None,” indicating it functions as a private holding for the Johnson family farm land ([ecorp.sos.ga.gov](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic+Limited+Liability+Company&fromSearch=True#:~:text=Business%20Name%3A%20JOHNSON%20FARM%20PROPERTY,Registered%20Agent%20Name%3A%20Linda%20Owens)) ([ecorp.sos.ga.gov](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic+Limited+Liability+Company&fromSearch=True#:~:text=Registered%20Agent%20Information%20Registered%20Agent,GA%2C%2030165%2C%20USA%20County%3A%20Floyd)). There are no public records of this LLC engaging in any business or political activity, and its stance on nearby development has not been documented (likely focused on preserving property value).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Low – Small family farm holding with no known broader economic impact or political connections; limited public presence aside from owning its parcel",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Proactively reach out to Linda Owens (agent) or the Johnson family to hear any concerns about the project’s impact on their farm. Emphasize measures to protect their property’s rural character and value (such as visual screening or land buffers) and consider mutually beneficial arrangements (e.g. lease payments or improvements) to gain their support or neutrality"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neighboring landowners include the Floyd County government and two private LLCs. The county generally supports development that brings jobs and tax base, while one LLC (Stenanista) is tied to the Bouckaert family’s Kingston Downs preserve – a well-connected landowner likely to insist on concessions to protect its property. The other LLC (Johnson Farm Property) is a local family farm holding with minimal public profile and an unclear development stance, probably focused on preserving its land value.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Floyd County Georgia\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"county government\",\n      \"pins\": [\"M15006\", \"M15017A\"],\n      \"claims\": \"Floyd County’s Board of Commissioners (with its Rome-Floyd Development Authority) actively pursues economic development; in 2022 the county used special sales tax funds to purchase ~202 acres for a new industrial park aimed at attracting capital investment and jobs [Floyd County BOC Minutes](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1). Officials emphasized being “good neighbors” to adjoining landowners – they met with the Bouckaert family (owners of a large nature preserve) and agreed to add buffer berms between the industrial park site and the Kingston Downs preserve ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1#:~:text=marketing%20purposes%20as%20well%3B%20we,doing%20at%20the%20preserve%2C%20to)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"High – County government controls zoning/permitting, owns land (industrial park projects), and wields significant political and regulatory power in local development decisions\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Economic development (jobs & tax revenue)\", \"Alignment with county land-use plans\", \"Public/community support\"],\n      \"approach_recommendations\": \"Engage county economic development officials and Commission leadership early, emphasizing the project’s alignment with job creation and tax-base growth goals; address any community or environmental concerns upfront (the county strives to balance growth with being a “good neighbor” to locals)\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Stenanista LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"N15008\"],\n      \"claims\": \"Stenanista, LLC was formed in Georgia on January 18, 2006 and is registered at 502 Bass Ferry Rd in Rome, with Stan Bouckaert listed as its registered agent [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=412401). The Bouckaert family also owns the adjacent Kingston Downs estate – a large private preserve in Floyd County – and county records show they negotiated for protective berms to shield their preserve from a planned industrial park nearby [Floyd County BOC Minutes](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1). This suggests the Bouckaerts are vigilant about nearby development and have the influence to prompt concessions on projects impacting their land ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1#:~:text=marketing%20purposes%20as%20well%3B%20we,doing%20at%20the%20preserve%2C%20to)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"High – Controls a vast property (Kingston Downs preserve), has substantial resources; county officials have directly engaged them and adjusted development plans to address their concerns\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Land preservation (Kingston Downs)\", \"Estate privacy and value\", \"Control over adjacent development\"],\n      \"approach_recommendations\": \"Meet with Stan Bouckaert (managing member) to understand his concerns and offer meaningful buffers or conservation measures protecting Kingston Downs; given the family’s clout and resources, securing their goodwill through respectful negotiation and mitigation commitments is crucial to avoid opposition\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Johnson Farm Property LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"L15013\"],\n      \"claims\": \"Johnson Farm Property LLC is a Georgia domestic LLC formed on March 5, 2012, listing 11 River Pine Dr SW, Rome as its principal address and Linda Owens as the registered agent [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic%20Limited%20Liability%20Company). State filings show no listed members or managers beyond the agent, and the company’s stated business purpose is “None,” indicating it functions as a private holding for the Johnson family farm land ([ecorp.sos.ga.gov](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic+Limited+Liability+Company&fromSearch=True#:~:text=Business%20Name%3A%20JOHNSON%20FARM%20PROPERTY,Registered%20Agent%20Name%3A%20Linda%20Owens)) ([ecorp.sos.ga.gov](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic+Limited+Liability+Company&fromSearch=True#:~:text=Registered%20Agent%20Information%20Registered%20Agent,GA%2C%2030165%2C%20USA%20County%3A%20Floyd)). There are no public records of this LLC engaging in any business or political activity, and its stance on nearby development has not been documented (likely focused on preserving property value).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Low – Small family farm holding with no known broader economic impact or political connections; limited public presence aside from owning its parcel\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Farmland preservation\", \"Property value protection\"],\n      \"approach_recommendations\": \"Proactively reach out to Linda Owens (agent) or the Johnson family to hear any concerns about the project’s impact on their farm. Emphasize measures to protect their property’s rural character and value (such as visual screening or land buffers) and consider mutually beneficial arrangements (e.g. lease payments or improvements) to gain their support or neutrality\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

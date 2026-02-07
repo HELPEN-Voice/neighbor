@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-02-07T07:10:47.108327",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neither of the two profiled neighbors has a documented stance on the development (0 support, 0 oppose, 2 unknown). Both are private landowners with no known public office or activism, so there are no high-influence neighbors identified among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Biddy Hill Braden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15021"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Biddy Hill Braden (listed in county records as Biddy H. Braden) owned an approximately 8.66-acre tract on Biddy Road in Floyd County [Trulia](https://www.trulia.com/home/biddy-rd-se-rome-ga-30161-248200177). An obituary for Braden was published by a Rome funeral home in 2023, indicating that she has passed away [Henderson & Sons Funeral Home](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime landowner; no official role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Mrs. Braden is deceased, outreach should be directed through her family or estate representatives. Emphasize respect for the family’s long legacy on the land and ensure any plans honor the property’s heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Pam McAbee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15013A",
+        "M15013B",
+        "M15013B1"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pam McAbee (identified in records as Pamela D. McAbee) is the owner of three contiguous parcels along Biddy Road in Floyd County ([www.idcrawl.com](https://www.idcrawl.com/pamela-mcabee#:~:text=T%2A%2A%2A%2A%2A%40aol.com%20%E2%80%94%20%28706%29%20235)). Public property data show that one of these parcels is a roughly 3.91-acre residential lot on Biddy Road, indicating her homestead on the property [Zillow](https://www.zillow.com/homedetails/1204-Biddy-Rd-SE-Rome-GA-30161/76436749_zpid/). There are no news reports or local meeting records showing McAbee taking public positions on area developments ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=61&doc_id=12797b71-8eee-11ee-a93d-0050569183fa&view_id=1#:~:text=No%20,mcabee)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowner; no civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Mrs. McAbee in a personal, neighborly manner — ideally via a mutual acquaintance in the community — to discuss the project. Reassure her that the development will not disrupt the rural privacy of her property or diminish its value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neither of the two profiled neighbors has a documented stance on the development (0 support, 0 oppose, 2 unknown). Both are private landowners with no known public office or activism, so there are no high-influence neighbors identified among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Biddy Hill Braden\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M15021\"],\n      \"claims\": \"Biddy Hill Braden (listed in county records as Biddy H. Braden) owned an approximately 8.66-acre tract on Biddy Road in Floyd County [Trulia](https://www.trulia.com/home/biddy-rd-se-rome-ga-30161-248200177). An obituary for Braden was published by a Rome funeral home in 2023, indicating that she has passed away [Henderson & Sons Funeral Home](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime landowner; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Since Mrs. Braden is deceased, outreach should be directed through her family or estate representatives. Emphasize respect for the family’s long legacy on the land and ensure any plans honor the property’s heritage.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Pam McAbee\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"M15013A\", \"M15013B\", \"M15013B1\"],\n      \"claims\": \"Pam McAbee (identified in records as Pamela D. McAbee) is the owner of three contiguous parcels along Biddy Road in Floyd County ([www.idcrawl.com](https://www.idcrawl.com/pamela-mcabee#:~:text=T%2A%2A%2A%2A%2A%40aol.com%20%E2%80%94%20%28706%29%20235)). Public property data show that one of these parcels is a roughly 3.91-acre residential lot on Biddy Road, indicating her homestead on the property [Zillow](https://www.zillow.com/homedetails/1204-Biddy-Rd-SE-Rome-GA-30161/76436749_zpid/). There are no news reports or local meeting records showing McAbee taking public positions on area developments ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=61&doc_id=12797b71-8eee-11ee-a93d-0050569183fa&view_id=1#:~:text=No%20,mcabee)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local landowner; no civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Mrs. McAbee in a personal, neighborly manner — ideally via a mutual acquaintance in the community — to discuss the project. Reassure her that the development will not disrupt the rural privacy of her property or diminish its value.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-02-07T07:29:00.392847",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260207_064829_4091.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "New Hope Chapel Trustees Of",
+      "entity_category": "Organization",
+      "entity_type": "church",
+      "pins": [
+        "M15011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "New Hope Chapel Baptist Church is a self-described \"small church\" located at 3194 Cartersville Highway (US-411) in Rome, Georgia ([New Hope Chapel](https://newhopechapelbaptistchurches.com/)). The congregation was founded in April 1997 by its current senior pastor, Dr. Drew Brown, who initially held services in his home before the church renovated a former manufacturing facility for its sanctuary ([New Hope Chapel](https://newhopechapelbaptistchurches.com/)). The church's mission emphasizes evangelism and youth ministry, with profits from its \"He-Brews\" coffee bar dedicated to funding the youth program ([New Hope Chapel](https://newhopechapelbaptistchurches.com/)). Public searches of Rome and Floyd County planning minutes did not identify any participation by the church or its trustees in recent zoning or development hearings ([City of Rome](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_03252024-758)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "The entity is a small, independent congregation with no documented evidence of broad political influence or participation in county-level planning boards.",
+      "approach_recommendations": {
+        "motivations": [
+          "Community peace",
+          "Youth ministry funding",
+          "Evangelism"
+        ],
+        "engage": "Engage founding pastor Dr. Drew Brown. Acknowledge the church's long-standing presence since 1997 and its focus on youth ministry. Confirm that development activities will not interfere with Sunday services or the peaceful operation of the sanctuary."
+      },
+      "entity_classification": "religious",
+      "profile_summary": "Small Baptist congregation established in 1997; led by founding pastor Dr. Drew Brown; focused on evangelism and youth ministry.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "New Hope Chapel Baptist Church is a self-described \"small church\" located at 3194 Cartersville Highway (US-411) in Rome, Georgia",
+          "url": "https://newhopechapelbaptistchurches.com/",
+          "title": "New Hope Chapel Baptist Church - Home",
+          "date": "2025-02-07"
+        },
+        {
+          "claim": "The congregation was founded in April 1997 by its current senior pastor, Dr. Drew Brown",
+          "url": "https://newhopechapelbaptistchurches.com/",
+          "title": "New Hope Chapel Baptist Church - History",
+          "date": "2025-02-07"
+        },
+        {
+          "claim": "Profits from its \"He-Brews\" coffee bar are dedicated to funding the youth program",
+          "url": "https://newhopechapelbaptistchurches.com/",
+          "title": "New Hope Chapel Baptist Church - Ministries",
+          "date": "2025-02-07"
+        },
+        {
+          "claim": "Public searches of Rome and Floyd County planning minutes did not identify any participation by the church",
+          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_03252024-758",
+          "title": "Rome City Commission Minutes March 2024",
+          "date": "2024-03-25"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 349237,
+    "thinking_count": 21
+  }
+}

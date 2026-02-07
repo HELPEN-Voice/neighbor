@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-02-07T07:18:52.472613",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_064537_8213.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Floyd County",
+    "state": "GA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mark Braden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15015"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mark Braden is associated with B.H. Braden & Son Ltd., a Rome-based farming enterprise that is a recipient of federal farm program subsidies [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=13115&progcode=total_dp&regionname=FloydCounty,Georgia). He is an active farmer and rancher in the county, having been involved in litigation regarding farm employment operations [Matheson v. Braden](https://law.justia.com/cases/georgia/court-of-appeals/2011/a11a0712.html). He comes from a family with deep local roots – his late mother Norma Braden was a founding member of a Rome church and served as president of several Floyd County clubs [Echovita Obituary](https://www.echovita.com/us/obituaries/ga/rome/norma-braden-20901186).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Active local farmer; established family history",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "He may respond well to outreach via a fellow farmer or respected community figure. Emphasize commitments to protecting farmland and honoring his family’s legacy during conversations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Mark Braden is associated with B.H. Braden & Son Ltd., a Rome-based farming enterprise that is a recipient of federal farm program subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=13115&progcode=total_dp&regionname=FloydCounty,Georgia",
+          "title": "EWG Farm Subsidy Database",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "He is an active farmer and rancher in the county, having been involved in litigation regarding farm employment operations",
+          "url": "https://law.justia.com/cases/georgia/court-of-appeals/2011/a11a0712.html",
+          "title": "Matheson v. Braden, 310 Ga. App. 585",
+          "date": "2011-07-06"
+        },
+        {
+          "claim": "his late mother Norma Braden was a founding member of a Rome church and served as president of several Floyd County clubs",
+          "url": "https://www.echovita.com/us/obituaries/ga/rome/norma-braden-20901186",
+          "title": "Norma Sheffield Braden Obituary",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Pamela B. McAbee",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15016"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Pamela B. McAbee (née Braden) is the daughter of longtime Floyd County residents Biddy and Norma Braden, and she continues to reside in Rome, Georgia with her husband Terry [Henderson & Sons Funeral Home](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793). She holds no known public offices or leadership roles, as her name is absent from Floyd County’s board appointments and local civic listings [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Lifelong local resident; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Connect through family or church networks, focusing on maintaining the peaceful rural lifestyle. Reassure her that any development plans will respect her family’s legacy and privacy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Pamela B. McAbee (née Braden) is the daughter of longtime Floyd County residents Biddy and Norma Braden, and she continues to reside in Rome, Georgia with her husband Terry",
+          "url": "https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793",
+          "title": "Obituary for Norma Sheffield Braden",
+          "date": "2026-01-08"
+        },
+        {
+          "claim": "She holds no known public offices or leadership roles, as her name is absent from Floyd County’s board appointments and local civic listings",
+          "url": "https://www.floydcountyga.gov/bc/directory",
+          "title": "Floyd County Boards & Commissions Directory",
+          "date": "2026-02-07"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Martha Jane Gaines Montgomery",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "M15014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Martha Jane Gaines Montgomery is a documented landowner in the Cave Spring area of Floyd County [National Register of Historic Places](https://npgallery.nps.gov/NRHP/GetAsset/NRHP/80001028_text). Historical records indicate a Martha Jane Gaines attended local schools in the 1960s, suggesting long-term residency in the area [1960 Dragon Yearbook](https://issuu.com/dragonyearbook/docs/1960_dragons/s/14715222). She does not serve on any county boards or committees, and no public statements from her on development issues were found [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no civic positions",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Use a respectful, personal approach (perhaps through a neighbor she knows) and listen to any concerns she may have. Given her low profile, reaching out one-on-one with reassurances that her property and way of life will be respected is advisable."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Martha Jane Gaines Montgomery is a documented landowner in the Cave Spring area of Floyd County",
+          "url": "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/80001028_text",
+          "title": "National Register of Historic Places Inventory - Cave Spring Commercial Historic District",
+          "date": "1980-01-01"
+        },
+        {
+          "claim": "Historical records indicate a Martha Jane Gaines attended local schools in the 1960s, suggesting long-term residency in the area",
+          "url": "https://issuu.com/dragonyearbook/docs/1960_dragons/s/14715222",
+          "title": "Pepperell High School 'Dragon' Yearbook 1960",
+          "date": "1960-01-01"
+        },
+        {
+          "claim": "She does not serve on any county boards or committees, and no public statements from her on development issues were found",
+          "url": "https://www.floydcountyga.gov/bc/directory",
+          "title": "Floyd County Boards & Commissions Directory",
+          "date": "2026-02-07"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 727324,
+    "thinking_count": 30
+  }
+}

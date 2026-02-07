@@ -1,0 +1,102 @@
+[
+  {
+    "marker_char": "1",
+    "text": "FLOYD",
+    "full_name": "Floyd County Georgia",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "neutral",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "STENANIS",
+    "full_name": "Stenanista LLC",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "BRADEN",
+    "full_name": "Biddy Hill Braden",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "4",
+    "text": "MCABEE",
+    "full_name": "Pam McAbee",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "5",
+    "text": "BRADEN",
+    "full_name": "Norma S. Braden",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "6",
+    "text": "BRADEN",
+    "full_name": "Mark H. Braden",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "7",
+    "text": "BRADEN",
+    "full_name": "Mark Braden",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "8",
+    "text": "JACOBS",
+    "full_name": "Rick Jacobs",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "9",
+    "text": "CHAMBERS",
+    "full_name": "Johnette T. Chambers",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "A",
+    "text": "BRADEN",
+    "full_name": "Braden B H & Son Limited Partnership",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": true,
+    "is_target": false
+  }
+]
