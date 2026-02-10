@@ -5,24 +5,23 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Floyd County Georgia",
+      "name": "Carolyn Serpas Sub-Trust Of The Joseph P Ruppel Family Trust",
       "entity_category": "Organization",
-      "entity_type": "county government",
+      "entity_type": "trust",
       "pins": [
-        "M15006",
-        "M15017A"
+        "39W948010"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Floyd County\u2019s Board of Commissioners (with its Rome-Floyd Development Authority) actively pursues economic development; in 2022 the county used special sales tax funds to purchase ~202 acres for a new industrial park aimed at attracting capital investment and jobs [Floyd County BOC Minutes](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1). Officials emphasized being \u201cgood neighbors\u201d to adjoining landowners \u2013 they met with the Bouckaert family (owners of a large nature preserve) and agreed to add buffer berms between the industrial park site and the Kingston Downs preserve ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1#:~:text=marketing%20purposes%20as%20well%3B%20we,doing%20at%20the%20preserve%2C%20to)).",
-      "confidence": "high",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
       "noted_stance": null,
-      "community_influence": "High",
-      "influence_justification": "High \u2013 County government controls zoning/permitting, owns land (industrial park projects), and wields significant political and regulatory power in local development decisions",
+      "community_influence": "Low",
+      "influence_justification": "Family-held property trust with no public profile or community role",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage county economic development officials and Commission leadership early, emphasizing the project\u2019s alignment with job creation and tax-base growth goals; address any community or environmental concerns upfront (the county strives to balance growth with being a \u201cgood neighbor\u201d to locals)"
+        "engage": "See RESIDENT table."
       },
-      "entity_classification": "municipal",
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -39,23 +38,23 @@
     },
     {
       "neighbor_id": "N-02",
-      "name": "Stenanista LLC",
+      "name": "McConnell Enterprises Inc",
       "entity_category": "Organization",
-      "entity_type": "llc",
+      "entity_type": "corp",
       "pins": [
-        "N15008"
+        "39W933312"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Stenanista, LLC was formed in Georgia on January 18, 2006 and is registered at 502 Bass Ferry Rd in Rome, with Stan Bouckaert listed as its registered agent [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=412401). The Bouckaert family also owns the adjacent Kingston Downs estate \u2013 a large private preserve in Floyd County \u2013 and county records show they negotiated for protective berms to shield their preserve from a planned industrial park nearby [Floyd County BOC Minutes](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1). This suggests the Bouckaerts are vigilant about nearby development and have the influence to prompt concessions on projects impacting their land ([floydcountyga.granicus.com](https://floydcountyga.granicus.com/MinutesViewer.php?clip_id=35&doc_id=3391df48-552a-11ed-95a3-0050569183fa&view_id=1#:~:text=marketing%20purposes%20as%20well%3B%20we,doing%20at%20the%20preserve%2C%20to)).",
-      "confidence": "high",
+      "claims": "McConnell Enterprises, Inc. was incorporated in Texas on July 28, 1975 ([www.corporationwiki.com](https://www.corporationwiki.com/p/io43s/mcconnell-enterprises-inc#:~:text=State%20ID%3A%20%20,Monday%2C%20July%2028%2C%201975)) ([www.corporationwiki.com](https://www.corporationwiki.com/p/io43s/mcconnell-enterprises-inc#:~:text=Image)). It is described as a heavy construction general contractor in industry profiles ([www.bloomberg.com](https://www.bloomberg.com/profile/company/1992868D%3AUS#:~:text=Mcconnell%20Enterprises%20Inc)).",
+      "confidence": "low",
       "noted_stance": null,
-      "community_influence": "High",
-      "influence_justification": "High \u2013 Controls a vast property (Kingston Downs preserve), has substantial resources; county officials have directly engaged them and adjusted development plans to address their concerns",
+      "community_influence": "Low",
+      "influence_justification": "Small private company; no notable local influence beyond owning land",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Meet with Stan Bouckaert (managing member) to understand his concerns and offer meaningful buffers or conservation measures protecting Kingston Downs; given the family\u2019s clout and resources, securing their goodwill through respectful negotiation and mitigation commitments is crucial to avoid opposition"
+        "engage": "Approach via company principal; highlight potential contracts or buyout value to align with their business interests"
       },
-      "entity_classification": "land_investment",
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -72,23 +71,27 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Johnson Farm Property LLC",
+      "name": "Frost Investments LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "L15013"
+        "39W933323",
+        "39W933324",
+        "39W933328",
+        "39W933335",
+        "39W933311"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Johnson Farm Property LLC is a Georgia domestic LLC formed on March 5, 2012, listing 11 River Pine Dr SW, Rome as its principal address and Linda Owens as the registered agent [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic%20Limited%20Liability%20Company). State filings show no listed members or managers beyond the agent, and the company\u2019s stated business purpose is \u201cNone,\u201d indicating it functions as a private holding for the Johnson family farm land ([ecorp.sos.ga.gov](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic+Limited+Liability+Company&fromSearch=True#:~:text=Business%20Name%3A%20JOHNSON%20FARM%20PROPERTY,Registered%20Agent%20Name%3A%20Linda%20Owens)) ([ecorp.sos.ga.gov](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic+Limited+Liability+Company&fromSearch=True#:~:text=Registered%20Agent%20Information%20Registered%20Agent,GA%2C%2030165%2C%20USA%20County%3A%20Floyd)). There are no public records of this LLC engaging in any business or political activity, and its stance on nearby development has not been documented (likely focused on preserving property value).",
+      "claims": "Frost Investments, LLC (Florida Document #L08000080461) was filed on Aug. 22, 2008 and remains an active entity ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)). Its registered agent and managing member is Julie B. Frost, located at a Fort Myers, Florida address ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)). This company\u2019s activity is focused on holding real estate, with no operational business presence in Louisiana (no local offices or employees identified) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)).",
       "confidence": "medium",
       "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Low \u2013 Small family farm holding with no known broader economic impact or political connections; limited public presence aside from owning its parcel",
+      "influence_justification": "Out-of-state speculator; no local employment or community engagement",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Proactively reach out to Linda Owens (agent) or the Johnson family to hear any concerns about the project\u2019s impact on their farm. Emphasize measures to protect their property\u2019s rural character and value (such as visual screening or land buffers) and consider mutually beneficial arrangements (e.g. lease payments or improvements) to gain their support or neutrality"
+        "engage": "Engage owner (Julie Frost) with a buyout or partnership offer emphasizing financial gain; expect decisions driven solely by ROI"
       },
-      "entity_classification": "agriculture",
+      "entity_classification": "land_investment",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -120,9 +123,37 @@
     {
       "title": null,
       "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
     }
   ],
-  "overview_summary": "Neighboring landowners include the Floyd County government and two private LLCs. The county generally supports development that brings jobs and tax base, while one LLC (Stenanista) is tied to the Bouckaert family\u2019s Kingston Downs preserve \u2013 a well-connected landowner likely to insist on concessions to protect its property. The other LLC (Johnson Farm Property) is a local family farm holding with minimal public profile and an unclear development stance, probably focused on preserving its land value.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260207_064812_5495.json",
-  "cached_at": "2026-02-07T06:48:12.550402"
+  "overview_summary": "Adjacent landowners include a private Ruppel family trust ([www.legacy.com](https://www.legacy.com/us/obituaries/nola/name/joseph-ruppel-obituary?id=10423995#:~:text=Lucille%20Ruppel%2C%20his%20loving%20daughter,law%2C%20Joseph)), a heavy-construction contracting company (McConnell Enterprises) ([www.bloomberg.com](https://www.bloomberg.com/profile/company/1992868D%3AUS#:~:text=Mcconnell%20Enterprises%20Inc%20was%20founded,as%20constructing%20heavy%20construction%20projects)), and a Florida-based land investor (Frost Investments LLC) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)). None have obvious community or political affiliations; their interests appear primarily financial, suggesting low risk of organized opposition.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260209_160746_1088.json",
+  "cached_at": "2026-02-09T16:07:46.110246"
 }

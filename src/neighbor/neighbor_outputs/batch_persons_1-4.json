@@ -1,0 +1,129 @@
+{
+  "batch_idx": 0,
+  "total_batches": 4,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "The United States Of America Washington DC",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W909549",
+        "39W910001",
+        "39W933309"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Federal landowner; regulatory role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate through official agency channels (e.g., Army Corps or NASA)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Zelim Antonio Palada Flores",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W948005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Zelim Antonio Palada Flores is identified only through property tax records and has no evident role in local news or civic affairs ([taxbills.nola.gov](https://taxbills.nola.gov/#:~:text=,use%20the%20%27Location%20Address%27%20as)). No evidence of public statements or community leadership by Flores was found in available records ([taxbills.nola.gov](https://taxbills.nola.gov/#:~:text=,present%20under%20the%20%27Summary%27%20section)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private individual; no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally with project details and invite questions to understand any concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Holly Freas",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W948012"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Holly Freas appears only in land ownership records and does not feature in local media or civic documents ([taxbills.nola.gov](https://taxbills.nola.gov/#:~:text=,use%20the%20%27Location%20Address%27%20as)). There are no reported public comments or positions by Freas regarding development or community issues ([taxbills.nola.gov](https://taxbills.nola.gov/#:~:text=,present%20under%20the%20%27Summary%27%20section)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage one-on-one in a neighborly manner, providing information and listening to any personal concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three neighbors have an undetermined stance on development, with no clear public record of support or opposition. One high-influence neighbor is the federal government, while the individual landowners appear to have low public influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_165405_7977.json",
+  "cached_at": "2026-02-09T16:54:05.798985"
+}

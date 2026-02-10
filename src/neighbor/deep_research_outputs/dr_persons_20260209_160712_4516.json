@@ -1,0 +1,146 @@
+{
+  "timestamp": "2026-02-09T16:07:12.451755",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Orleans Parish",
+    "state": "LA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both profiled neighbors have no documented stance on development or energy projects, and neither holds a notable public role in Orleans Parish. None are high-influence community leaders, suggesting limited impact on local development decisions.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Truong Hung Q",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W948009",
+        "39W948007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hung Q. Truong is listed as the owner of two parcels in Orleans Parish, residing in New Orleans East – a community known for its predominantly Vietnamese-American population ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=At%20the%20same%20time%2C%20the,Reverend%20Gregory%20Manning%2C%20pastor%20of)). No references to Truong engaging in public meetings or local development debates were found in available news or civic records ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=At%20two%20city%20council%20meetings%2C,by%20Hurricane%20Katrina%20in%202005)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Initiate contact through neutral, informative outreach (e.g., a community meeting invite) to build trust and gauge his views."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Brockhoeft Tetiana",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W948011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Tetiana Brockhoeft appears as a private landowner in Orleans Parish with no discernible public profile or civic involvement ([www.ecowatch.com](https://www.ecowatch.com/entergy-gas-plant-lawsuits-2630271823.html#:~:text=Members%20of%20a%20coalition%20against,needed%20in%20the%20first%20place)). She has not made any publicly reported statements about local development or energy projects, and her engagement in community issues is not evident in official records ([www.ecowatch.com](https://www.ecowatch.com/entergy-gas-plant-lawsuits-2630271823.html#:~:text=Members%20of%20a%20coalition%20against,needed%20in%20the%20first%20place)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with general project information and an open offer for dialogue, as her interests and concerns are not publicly known."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "United States Of America",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "39W933322",
+        "39W933334",
+        "39W933321",
+        "39W933307",
+        "39W933326"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "These parcels are federally owned land managed by the U.S. government ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=At%20the%20same%20time%2C%20the,Reverend%20Gregory%20Manning%2C%20pastor%20of)). As a governmental entity owner, it does not take a personal stance on local development; any project considerations would involve formal regulatory processes rather than individual advocacy ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=The%20New%20Orleans%20City%20Council,judge%20ruled%20on%20June%2014)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Federal government landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Not applicable – federal stakeholder; coordinate through official regulatory channels."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both profiled neighbors have no documented stance on development or energy projects, and neither holds a notable public role in Orleans Parish. None are high-influence community leaders, suggesting limited impact on local development decisions.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Truong Hung Q\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"39W948009\", \"39W948007\"],\n      \"claims\": \"Hung Q. Truong is listed as the owner of two parcels in Orleans Parish, residing in New Orleans East – a community known for its predominantly Vietnamese-American population ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=At%20the%20same%20time%2C%20the,Reverend%20Gregory%20Manning%2C%20pastor%20of)). No references to Truong engaging in public meetings or local development debates were found in available news or civic records ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=At%20two%20city%20council%20meetings%2C,by%20Hurricane%20Katrina%20in%202005)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Initiate contact through neutral, informative outreach (e.g., a community meeting invite) to build trust and gauge his views.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Brockhoeft Tetiana\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"39W948011\"],\n      \"claims\": \"Tetiana Brockhoeft appears as a private landowner in Orleans Parish with no discernible public profile or civic involvement ([www.ecowatch.com](https://www.ecowatch.com/entergy-gas-plant-lawsuits-2630271823.html#:~:text=Members%20of%20a%20coalition%20against,needed%20in%20the%20first%20place)). She has not made any publicly reported statements about local development or energy projects, and her engagement in community issues is not evident in official records ([www.ecowatch.com](https://www.ecowatch.com/entergy-gas-plant-lawsuits-2630271823.html#:~:text=Members%20of%20a%20coalition%20against,needed%20in%20the%20first%20place)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic involvement\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach with general project information and an open offer for dialogue, as her interests and concerns are not publicly known.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"United States Of America\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"Organization\",\n      \"pins\": [\"39W933322\", \"39W933334\", \"39W933321\", \"39W933307\", \"39W933326\"],\n      \"claims\": \"These parcels are federally owned land managed by the U.S. government ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=At%20the%20same%20time%2C%20the,Reverend%20Gregory%20Manning%2C%20pastor%20of)). As a governmental entity owner, it does not take a personal stance on local development; any project considerations would involve formal regulatory processes rather than individual advocacy ([earthjustice.org](https://earthjustice.org/article/a-polluter-lies-to-new-orleans-city-council-still-gets-to-build-gas-plant#:~:text=The%20New%20Orleans%20City%20Council,judge%20ruled%20on%20June%2014)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"Federal government landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Not applicable – federal stakeholder; coordinate through official regulatory channels.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

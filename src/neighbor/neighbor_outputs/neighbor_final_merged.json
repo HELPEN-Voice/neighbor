@@ -1,1288 +1,30 @@
 {
-  "neighbors": [
-    {
-      "neighbor_id": "N-01",
-      "name": "Biddy Hill Braden",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15021"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Biddy Hill Braden passed away in July 2016; he was a male resident, not female as originally drafted ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810)). He was a highly influential figure in the local agricultural community, serving as President of the Floyd County Farm Bureau and the Floyd County Cattleman's Association ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810)). He also served on the Rome-Floyd County Industrial Development Commission ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810)). His wife, Norma Sheffield Braden, passed away recently in January 2026 ([Rome News-Tribune](https://www.legacy.com/us/obituaries/rome/name/norma-braden-obituary?id=60494785)). The property is likely currently held by their estate or heirs, including their daughter Pam McAbee ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Deceased; high historical influence via Farm Bureau/Industrial Commission",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "farmland_preservation"
-        ],
-        "engage": "Mr. and Mrs. Braden are deceased (2016 and 2026). Approach heirs (daughter Pam McAbee) with extreme respect for Mr. Braden's legacy as a Farm Bureau President and Industrial Development Commissioner. Position the project as compatible with his history of agricultural and industrial support."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Biddy Hill Braden passed away in July 2016; he was a male resident, not female as originally drafted",
-          "url": "https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810",
-          "title": "Obituary for Biddy Hill Braden",
-          "date": "2016-07-23",
-          "note": null
-        },
-        {
-          "claim": "He was a highly influential figure in the local agricultural community, serving as President of the Floyd County Farm Bureau and the Floyd County Cattleman's Association",
-          "url": "https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810",
-          "title": "Obituary for Biddy Hill Braden",
-          "date": "2016-07-23",
-          "note": null
-        },
-        {
-          "claim": "He also served on the Rome-Floyd County Industrial Development Commission",
-          "url": "https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810",
-          "title": "Obituary for Biddy Hill Braden",
-          "date": "2016-07-23",
-          "note": null
-        },
-        {
-          "claim": "His wife, Norma Sheffield Braden, passed away recently in January 2026",
-          "url": "https://www.legacy.com/us/obituaries/rome/name/norma-braden-obituary?id=60494785",
-          "title": "Norma Sheffield Braden Obituary",
-          "date": "2026-01-08",
-          "note": null
-        },
-        {
-          "claim": "The property is likely currently held by their estate or heirs, including their daughter Pam McAbee",
-          "url": "https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793",
-          "title": "Obituary for Norma Sheffield Braden",
-          "date": "2026-01-08",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Pam McAbee",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15013A",
-        "M15013B",
-        "M15013B1"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Pam McAbee (identified as Pamela D. McAbee/Pam Braden) is the daughter of the late Biddy Hill Braden, a prominent local agricultural leader ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810)). She is married to Terry McAbee, who has operated a local business, Top Hat Formal Wear, in Rome ([Floyd County Minutes](https://mcclibraryfunctions.azurewebsites.us/api/munidocDownload/30049/BOCM30242003_03_25PDF/pdf?forcedownload=false)). She is an alumna of the Darlington School, a private preparatory school in Rome ([Darlington School](https://www.darlingtonschool.org/Today/GalleryView/2521853)). Public records do not show McAbee speaking in favor or opposition to recent zoning or solar requests in Floyd County, such as the 2024 hearing for a solar farm on Alabama Road where no opposition was recorded ([Rome City Minutes](https://www.romega.us/AgendaCenter/ViewFile/Minutes/_06272024-786)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Daughter of prominent agricultural leader (Biddy Braden); husband is local business owner",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "local_control",
-          "property_value"
-        ],
-        "engage": "Approach Mrs. McAbee as the steward of the Braden family legacy. Leverage the connection to her late father's role on the Industrial Development Commission to suggest open-mindedness toward development. Reference local business ties via her husband."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Pam McAbee (identified as Pamela D. McAbee/Pam Braden) is the daughter of the late Biddy Hill Braden, a prominent local agricultural leader",
-          "url": "https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810",
-          "title": "Obituary for Biddy Hill Braden",
-          "date": "2016-07-23",
-          "note": null
-        },
-        {
-          "claim": "She is married to Terry McAbee, who has operated a local business, Top Hat Formal Wear, in Rome",
-          "url": "https://mcclibraryfunctions.azurewebsites.us/api/munidocDownload/30049/BOCM30242003_03_25PDF/pdf?forcedownload=false",
-          "title": "Floyd County Board of Commissioners Minutes",
-          "date": "2003-03-25",
-          "note": null
-        },
-        {
-          "claim": "She is an alumna of the Darlington School, a private preparatory school in Rome",
-          "url": "https://www.darlingtonschool.org/Today/GalleryView/2521853",
-          "title": "Darlington School Alumni Gallery",
-          "date": "2009-11-14",
-          "note": null
-        },
-        {
-          "claim": "no opposition was recorded at the 2024 hearing for a solar farm on Alabama Road",
-          "url": "https://www.romega.us/AgendaCenter/ViewFile/Minutes/_06272024-786",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-06-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Norma S. Braden",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15022A"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Norma S. Braden (1931–2026) was a longtime Rome resident and a founding member of Woodlawn Baptist Church ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793)). She served as President of the Spade and Trowel Garden Club and the Rome Christian Women’s Club ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793)). She was the widow of Biddy Hill Braden, who served on the Rome-Floyd County Industrial Development Commission ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810)). She passed away on January 8, 2026 ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Deceased; historical leadership in local civic clubs",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Address the estate executors or heirs. Acknowledge the Braden family's long history of civic service and leadership in Floyd County when discussing the property."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Founding member of Woodlawn Baptist Church and President of Spade and Trowel Garden Club",
-          "url": "https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793",
-          "title": "Obituary: Norma Sheffield Braden",
-          "date": "2026-01-08",
-          "note": null
-        },
-        {
-          "claim": "Widow of Biddy Hill Braden who served on Rome-Floyd County Industrial Development Commission",
-          "url": "https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810",
-          "title": "Obituary: Biddy Hill Braden",
-          "date": "2016-07-23",
-          "note": null
-        },
-        {
-          "claim": "Passed away on January 8, 2026",
-          "url": "https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793",
-          "title": "Obituary: Norma Sheffield Braden",
-          "date": "2026-01-08",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Mark H. Braden",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15024"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Mark H. Braden resides in Rome, Georgia, and is the son of the late Biddy and Norma S. Braden ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793)). He is an alumnus of the Darlington School ([Darlington School](https://issuu.com/darlingtonschool/docs/darlington_magazine_fall_2025)). In 2021, the Rome-Floyd County Development Authority purchased part of the 'Braden Farm' on Highway 411 to develop the 'Enterprise Corner' industrial park ([Floyd County Finance](https://www.floydcountyga.gov/sites/default/files/fileattachments/finance/page/18064/2021_acfr_final.092622.pdf)). His father, Biddy Braden, previously served on the Rome-Floyd County Industrial Development Commission ([Henderson & Sons](https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810)).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "Medium",
-      "influence_justification": "Family sold land for industrial park; longstanding local ties",
-      "approach_recommendations": {
-        "motivations": [
-          "local_control",
-          "tax_revenue_benefit"
-        ],
-        "engage": "Leverage the family's established relationship with the Rome-Floyd County Development Authority. Emphasize how the project aligns with the economic progress facilitated by the family's previous sale of land for Enterprise Corner."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Son of the late Biddy and Norma S. Braden",
-          "url": "https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793",
-          "title": "Obituary: Norma Sheffield Braden",
-          "date": "2026-01-08",
-          "note": null
-        },
-        {
-          "claim": "Alumnus of the Darlington School",
-          "url": "https://issuu.com/darlingtonschool/docs/darlington_magazine_fall_2025",
-          "title": "Darlington Magazine Fall 2025",
-          "date": "2025-09-19",
-          "note": null
-        },
-        {
-          "claim": "Rome-Floyd County Development Authority purchased part of Braden Farm for Enterprise Corner industrial park",
-          "url": "https://www.floydcountyga.gov/sites/default/files/fileattachments/finance/page/18064/2021_acfr_final.092622.pdf",
-          "title": "Floyd County 2021 Annual Comprehensive Financial Report",
-          "date": "2022-09-26",
-          "note": null
-        },
-        {
-          "claim": "Father Biddy Braden served on Rome-Floyd County Industrial Development Commission",
-          "url": "https://www.hendersonandsons.com/obituaries/Biddy-Hill-Braden?obId=32563810",
-          "title": "Obituary: Biddy Hill Braden",
-          "date": "2016-07-23",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Mark Braden",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15015"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Mark Braden is associated with B.H. Braden & Son Ltd., a Rome-based farming enterprise that is a recipient of federal farm program subsidies [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=13115&progcode=total_dp&regionname=FloydCounty,Georgia). He is an active farmer and rancher in the county, having been involved in litigation regarding farm employment operations [Matheson v. Braden](https://law.justia.com/cases/georgia/court-of-appeals/2011/a11a0712.html). He comes from a family with deep local roots – his late mother Norma Braden was a founding member of a Rome church and served as president of several Floyd County clubs [Echovita Obituary](https://www.echovita.com/us/obituaries/ga/rome/norma-braden-20901186).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Active local farmer; established family history",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
-        ],
-        "engage": "He may respond well to outreach via a fellow farmer or respected community figure. Emphasize commitments to protecting farmland and honoring his family’s legacy during conversations."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Mark Braden is associated with B.H. Braden & Son Ltd., a Rome-based farming enterprise that is a recipient of federal farm program subsidies",
-          "url": "https://farm.ewg.org/top_recips.php?fips=13115&progcode=total_dp&regionname=FloydCounty,Georgia",
-          "title": "EWG Farm Subsidy Database",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "He is an active farmer and rancher in the county, having been involved in litigation regarding farm employment operations",
-          "url": "https://law.justia.com/cases/georgia/court-of-appeals/2011/a11a0712.html",
-          "title": "Matheson v. Braden, 310 Ga. App. 585",
-          "date": "2011-07-06",
-          "note": null
-        },
-        {
-          "claim": "his late mother Norma Braden was a founding member of a Rome church and served as president of several Floyd County clubs",
-          "url": "https://www.echovita.com/us/obituaries/ga/rome/norma-braden-20901186",
-          "title": "Norma Sheffield Braden Obituary",
-          "date": "2026-01-15",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Pamela B. McAbee",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15016"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Pamela B. McAbee (née Braden) is the daughter of longtime Floyd County residents Biddy and Norma Braden, and she continues to reside in Rome, Georgia with her husband Terry [Henderson & Sons Funeral Home](https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793). She holds no known public offices or leadership roles, as her name is absent from Floyd County’s board appointments and local civic listings [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Lifelong local resident; no public role",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Connect through family or church networks, focusing on maintaining the peaceful rural lifestyle. Reassure her that any development plans will respect her family’s legacy and privacy."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Pamela B. McAbee (née Braden) is the daughter of longtime Floyd County residents Biddy and Norma Braden, and she continues to reside in Rome, Georgia with her husband Terry",
-          "url": "https://www.hendersonandsons.com/obituaries/Norma-Sheffield-Braden?obId=46889793",
-          "title": "Obituary for Norma Sheffield Braden",
-          "date": "2026-01-08",
-          "note": null
-        },
-        {
-          "claim": "She holds no known public offices or leadership roles, as her name is absent from Floyd County’s board appointments and local civic listings",
-          "url": "https://www.floydcountyga.gov/bc/directory",
-          "title": "Floyd County Boards & Commissions Directory",
-          "date": "2026-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Martha Jane Gaines Montgomery",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15014"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Martha Jane Gaines Montgomery is a documented landowner in the Cave Spring area of Floyd County [National Register of Historic Places](https://npgallery.nps.gov/NRHP/GetAsset/NRHP/80001028_text). Historical records indicate a Martha Jane Gaines attended local schools in the 1960s, suggesting long-term residency in the area [1960 Dragon Yearbook](https://issuu.com/dragonyearbook/docs/1960_dragons/s/14715222). She does not serve on any county boards or committees, and no public statements from her on development issues were found [FloydCountyGa.gov](https://www.floydcountyga.gov/bc/directory).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowner; no civic positions",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Use a respectful, personal approach (perhaps through a neighbor she knows) and listen to any concerns she may have. Given her low profile, reaching out one-on-one with reassurances that her property and way of life will be respected is advisable."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Martha Jane Gaines Montgomery is a documented landowner in the Cave Spring area of Floyd County",
-          "url": "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/80001028_text",
-          "title": "National Register of Historic Places Inventory - Cave Spring Commercial Historic District",
-          "date": "1980-01-01",
-          "note": null
-        },
-        {
-          "claim": "Historical records indicate a Martha Jane Gaines attended local schools in the 1960s, suggesting long-term residency in the area",
-          "url": "https://issuu.com/dragonyearbook/docs/1960_dragons/s/14715222",
-          "title": "Pepperell High School 'Dragon' Yearbook 1960",
-          "date": "1960-01-01",
-          "note": null
-        },
-        {
-          "claim": "She does not serve on any county boards or committees, and no public statements from her on development issues were found",
-          "url": "https://www.floydcountyga.gov/bc/directory",
-          "title": "Floyd County Boards & Commissions Directory",
-          "date": "2026-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Kenneth Nathaniel Ritchie",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15017",
-        "M15017B",
-        "M15017C"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Kenneth Ritchie is the registered agent for PMC Real Estate, LLC, a domestic limited liability company active in Georgia [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/DownloadFile?filingNo=20329949). Public records list his address at 397 Biddy Road in Rome, GA, which aligns with the location of PMC Real Estate, LLC [Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/DownloadFile?filingNo=20329949). He has been associated with multiple real estate transactions in the area [RealtyHop](https://www.realtyhop.com/property-records/search/kenneth-ritchie). No evidence was found of Ritchie speaking in local planning meetings or taking public positions on development projects as of 2026.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local business owner (PMC Real Estate); no elected roles found",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "fair_contracting"
-        ],
-        "engage": "Approach with a business-focused mindset. As a registered agent for a real estate entity, he likely understands land valuation and contracts. Focus on the economic specifics of the project and how it impacts property stability."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Kenneth Ritchie is the registered agent for PMC Real Estate, LLC",
-          "url": "https://ecorp.sos.ga.gov/BusinessSearch/DownloadFile?filingNo=20329949",
-          "title": "Georgia Corporations Division - PMC Real Estate LLC",
-          "date": "2021-02-24",
-          "note": null
-        },
-        {
-          "claim": "Public records list his address at 397 Biddy Road in Rome, GA",
-          "url": "https://ecorp.sos.ga.gov/BusinessSearch/DownloadFile?filingNo=20329949",
-          "title": "Georgia Corporations Division - PMC Real Estate LLC",
-          "date": "2021-02-24",
-          "note": null
-        },
-        {
-          "claim": "He has been associated with multiple real estate transactions in the area",
-          "url": "https://www.realtyhop.com/property-records/search/kenneth-ritchie",
-          "title": "RealtyHop Property Records - Kenneth Ritchie",
-          "date": "2026-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Margaret Foy",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15008"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Margaret Foy is linked to parcel M15008, located at 50 Bass Ferry Road SE in Rome, GA, which comprises approximately 8.39 acres [Zillow](https://www.zillow.com/homedetails/50-Bass-Ferry-Rd-SE-Rome-GA-30161/76437310_zpid/). A residential subdivision named \"Margaret Foy\" exists in Floyd County, suggesting a potential family legacy in local land development [Berkshire Hathaway HomeServices](https://www.bhhsgeorgia.com/realestate/details/18195521/990-nichols-road-se-rome-ga-30161). Despite this connection, she maintains a low public profile with no recorded speeches at zoning or planning commission meetings [Floyd County Board of Assessors](https://www.floydcountyga.gov/assessor).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Landowner with potential legacy ties; no active public office",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Use a respectful, neighborly approach. Given the large lot size (8+ acres) and potential family name on local subdivisions, emphasize how the project respects land heritage and preserves privacy/viewsheds."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Margaret Foy is linked to parcel M15008, located at 50 Bass Ferry Road SE in Rome, GA",
-          "url": "https://www.zillow.com/homedetails/50-Bass-Ferry-Rd-SE-Rome-GA-30161/76437310_zpid/",
-          "title": "50 Bass Ferry Rd SE, Rome, GA 30161 | Zillow",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Property comprises approximately 8.39 acres",
-          "url": "https://www.zillow.com/homedetails/50-Bass-Ferry-Rd-SE-Rome-GA-30161/76437310_zpid/",
-          "title": "50 Bass Ferry Rd SE, Rome, GA 30161 | Zillow",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "A residential subdivision named \"Margaret Foy\" exists in Floyd County",
-          "url": "https://www.bhhsgeorgia.com/realestate/details/18195521/990-nichols-road-se-rome-ga-30161",
-          "title": "990 Nichols Road SE Rome, GA 30161 - Berkshire Hathaway",
-          "date": "2026-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Rick Jacobs",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M16109",
-        "M16109A"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Rick Jacobs resides at 290 Biddy Rd SE with his wife, Tammy Jacobs ([source](https://georgia.ourstates.org/tammy-jacobs)). He is a local minister, frequently referred to as Rev. Rick Jacobs, who officiates services at area churches including Fellowship Baptist and Pleasant Valley South Baptist ([source](https://www.hendersonandsons.com/obituaries/Timothy-James-Timmy-Obenlander?obId=32563721)). Public records indicate he has previously advertised tractor work, fencing services, and fertile eggs for sale in Floyd County ([source](https://dlg.usg.edu/record/dlg_ggpd_i-ga-ba400-b-pp1-bf2-b96-s3)). The draft incorrectly identified him as the owner of L. Jacobs Farm (Wagyu cattle), which is located in Upson County, GA and owned by a different Rick Jacobs ([source](https://www.homes.com/property/0-mulberry-rd-molena-ga-unit-7513226/d0l19psyjstqb/)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Local pastor; officiates community funerals; small-scale agriculture",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Connect via shared community values, acknowledging his service as a pastor. Emphasize respect for property rights and the project's low impact on the quiet, rural character of the neighborhood."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Rick Jacobs resides at 290 Biddy Rd SE with his wife, Tammy Jacobs",
-          "url": "https://georgia.ourstates.org/tammy-jacobs",
-          "title": "Tammy Jacobs Voter/Resident Record",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "He is a local minister, frequently referred to as Rev. Rick Jacobs, who officiates services at area churches",
-          "url": "https://www.hendersonandsons.com/obituaries/Timothy-James-Timmy-Obenlander?obId=32563721",
-          "title": "Obituary for Timothy Obenlander (Officiated by Rev. Rick Jacobs)",
-          "date": "2024-05-08",
-          "note": null
-        },
-        {
-          "claim": "Public records indicate he has previously advertised tractor work, fencing services, and fertile eggs for sale",
-          "url": "https://dlg.usg.edu/record/dlg_ggpd_i-ga-ba400-b-pp1-bf2-b96-s3",
-          "title": "Farmers and Consumers Market Bulletin",
-          "date": "2009-04-08",
-          "note": null
-        },
-        {
-          "claim": "L. Jacobs Farm (Wagyu cattle) is located in Upson County, GA and owned by a different Rick Jacobs",
-          "url": "https://www.homes.com/property/0-mulberry-rd-molena-ga-unit-7513226/d0l19psyjstqb/",
-          "title": "L. Jacobs Farm Property Listing (Upson County)",
-          "date": "2025-04-09",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Wade Wendall Johnson & Max Johnson",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "L15014"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Max Johnson and Gail Johnson were documented as present at the Rome-Floyd Planning Commission meeting on August 1, 2024, where the Rome Speedway industrial rezoning was discussed ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). While the minutes record significant neighborhood opposition to the project, there is no specific record of Max Johnson providing public testimony or a quote during the hearing ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). Parcel L15014 is associated with 2774 Chulio Rd SE, a 76.58-acre tract in the vicinity of the speedway ([Zillow](https://www.zillow.com/homedetails/2774-Chulio-Rd-SE-Rome-GA-30161/217351800_zpid/)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowners; attended local zoning hearing",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "property_value",
-          "traffic_safety"
-        ],
-        "engage": "Have a respected Farm Bureau member or fellow farmer reach out, focusing on commitments to preserve agricultural land and maintain local property values. Address truck route planning to alleviate their traffic concerns."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Max Johnson and Gail Johnson were documented as present at the Rome-Floyd Planning Commission meeting on August 1, 2024",
-          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-08-01",
-          "note": null
-        },
-        {
-          "claim": "Parcel L15014 is associated with 2774 Chulio Rd SE, a 76.58-acre tract",
-          "url": "https://www.zillow.com/homedetails/2774-Chulio-Rd-SE-Rome-GA-30161/217351800_zpid/",
-          "title": "2774 Chulio Rd SE Property Details",
-          "date": "2024-08-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Michael Todd Waters",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M16110"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Michael Todd Waters was a previous owner of property in the area, having sold a residence on Trillium Trail in 2004 ([Homes.com](https://www.homes.com/property/61-trillium-trail-ne-rome-ga/5fqyldxx21mbl/)). He was not listed as an attendee or speaker in the official minutes of the August 1, 2024, Planning Commission meeting regarding the Rome Speedway rezoning ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). The Planning Commission does include a member named Gary Waters, and the County Ex-Officio is Allison Waters, but no participation by Michael Todd Waters could be verified ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)).",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Could not verify current residency or community roles",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value"
-        ],
-        "engage": "Verify current residency status before engagement. If confirmed resident, meet personally through a local community group to discuss project measures to safeguard property values."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Michael Todd Waters sold a residence on Trillium Trail in 2004",
-          "url": "https://www.homes.com/property/61-trillium-trail-ne-rome-ga/5fqyldxx21mbl/",
-          "title": "Property Sales History Rome GA",
-          "date": "2024-02-07",
-          "note": null
-        },
-        {
-          "claim": "He was not listed as an attendee or speaker in the official minutes of the August 1, 2024, Planning Commission meeting",
-          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-08-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Johnette T. Chambers",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M16108"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Johnette Chambers serves as the Office Manager for the Georgia's Rome Office of Tourism ([City of Rome Directory](https://www.romega.us/directory.aspx?EID=122)). While drafted as an opponent to the Rome Speedway rezoning, her name does not appear on the list of public attendees or speakers in the official minutes for the August 1, 2024 hearing ([Rome-Floyd Planning Commission Minutes](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807)). She has familial ties to the area, listed as the daughter of the late Dorothy Terhune of Floyd County ([Dignity Memorial](https://www.dignitymemorial.com/obituaries/rome-ga/dorothy-terhune-11267865)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "City employee; Office Manager for Rome Office of Tourism",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "property_value"
-        ],
-        "engage": "Engage via a familiar community figure to discuss how the development can coexist with local traditions. Highlight any commitments to mitigate traffic and noise impacts."
-      },
-      "entity_classification": "municipal",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Johnette Chambers serves as the Office Manager for the Georgia's Rome Office of Tourism",
-          "url": "https://www.romega.us/directory.aspx?EID=122",
-          "title": "City of Rome Staff Directory",
-          "date": "2024-02-07",
-          "note": null
-        },
-        {
-          "claim": "Her name does not appear on the list of public attendees or speakers in the official minutes",
-          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_08012024-807",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-08-01",
-          "note": null
-        },
-        {
-          "claim": "She has familial ties to the area, listed as the daughter of the late Dorothy Terhune",
-          "url": "https://www.dignitymemorial.com/obituaries/rome-ga/dorothy-terhune-11267865",
-          "title": "Obituary for Dorothy Jean Terhune",
-          "date": "2023-04-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Bruce Randall Litton & Nell Litton",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M16112"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Bruce R. Litton and Nell Litton are associated with the ownership of a rural parcel in Floyd County (Parcel M16112), specifically located at 410 Biddy Rd SE, Rome, GA ([Zillow](https://www.zillow.com/homedetails/410-Biddy-Rd-SE-Rome-GA-30161/91051335_zpid/)). Public records indicate Bruce Litton has been a resident of Rome, GA ([National Public Data](https://nationalpublicdata.com/people/l/bruce-litton/)). No references were found in local news archives or public meeting minutes indicating that the Littons have taken any public position on development or energy issues in Floyd County ([Floyd County Minutes](https://romega.gov/AgendaCenter/ViewFile/Minutes/_02012024-691)). They are not noted as serving in any elected or appointed community roles in Floyd County ([Floyd County Directory](https://www.floydcountyga.gov/bc/directory)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private landowners; no known public roles",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage via local agricultural channels. Emphasize respect for property and rural lifestyle; listen to concerns to build trust."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Bruce R. Litton and Nell Litton are associated with the ownership of a rural parcel in Floyd County (Parcel M16112), specifically located at 410 Biddy Rd SE, Rome, GA",
-          "url": "https://www.zillow.com/homedetails/410-Biddy-Rd-SE-Rome-GA-30161/91051335_zpid/",
-          "title": "410 Biddy Rd SE, Rome, GA 30161",
-          "date": "2024-02-07",
-          "note": null
-        },
-        {
-          "claim": "Public records indicate Bruce Litton has been a resident of Rome, GA",
-          "url": "https://nationalpublicdata.com/people/l/bruce-litton/",
-          "title": "Bruce Litton - Rome, GA",
-          "date": "2024-02-07",
-          "note": null
-        },
-        {
-          "claim": "No references were found in local news archives or public meeting minutes indicating that the Littons have taken any public position on development or energy issues in Floyd County",
-          "url": "https://romega.gov/AgendaCenter/ViewFile/Minutes/_02012024-691",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-02-01",
-          "note": null
-        },
-        {
-          "claim": "They are not noted as serving in any elected or appointed community roles in Floyd County",
-          "url": "https://www.floydcountyga.gov/bc/directory",
-          "title": "Floyd County Boards & Commissions Directory",
-          "date": "2024-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Jerry Martin",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M15019"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jerry Martin is confirmed as the owner of Parcel M15019, located at 277 Gaines Biddy Rd in Rome, GA ([Zillow](https://www.zillow.com/homedetails/277-Gaines-Biddy-Rd-Rome-GA-30161/114272241_zpid/)). There are no documented public statements by this specific Jerry Martin regarding land development or renewable energy in local media or meeting transcripts ([Floyd County Minutes](https://romega.gov/AgendaCenter/ViewFile/Minutes/_02012024-691)). While individuals with the name Jerry Martin appear in other regional records (including a photographer in Pell City and a former public works employee in Chattanooga), this individual does not hold any prominent public positions in Floyd County ([Floyd County Directory](https://www.floydcountyga.gov/bc/directory)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known civic role",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Approach via mutual contact. Since views are private, focus on one-on-one listening and assurance of property rights respect."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Jerry Martin is confirmed as the owner of Parcel M15019, located at 277 Gaines Biddy Rd in Rome, GA",
-          "url": "https://www.zillow.com/homedetails/277-Gaines-Biddy-Rd-Rome-GA-30161/114272241_zpid/",
-          "title": "277 Gaines Biddy Rd, Rome, GA 30161",
-          "date": "2024-02-07",
-          "note": null
-        },
-        {
-          "claim": "There are no documented public statements by this specific Jerry Martin regarding land development or renewable energy in local media or meeting transcripts",
-          "url": "https://romega.gov/AgendaCenter/ViewFile/Minutes/_02012024-691",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-02-01",
-          "note": null
-        },
-        {
-          "claim": "this individual does not hold any prominent public positions in Floyd County",
-          "url": "https://www.floydcountyga.gov/bc/directory",
-          "title": "Floyd County Boards & Commissions Directory",
-          "date": "2024-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Herbert David Litton",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "M16111"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Herbert David Litton (often going by David Litton) is recorded in Floyd County as associated with properties on Biddy Road ([National Public Data](https://nationalpublicdata.com/people/l/bruce-litton/)). Public records link the name David Litton to the address 410 Biddy Rd and 315 Biddy Rd SE ([Zillow](https://www.zillow.com/homedetails/315-Biddy-Rd-SE-Rome-GA-30161/295435156_zpid/)). No evidence was found of Herbert David Litton personally speaking at public hearings or in local news on development issues ([Floyd County Minutes](https://romega.gov/AgendaCenter/ViewFile/Minutes/_02012024-691)). He holds no public office in the county and is not listed among local officials or board members ([Floyd County Directory](https://www.floydcountyga.gov/bc/directory)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known public position",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy",
-          "land_preservation"
-        ],
-        "engage": "Reach out via farming networks. Emphasize landscape continuity and address land use concerns with assurances of open communication."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Herbert David Litton (often going by David Litton) is recorded in Floyd County as associated with properties on Biddy Road",
-          "url": "https://nationalpublicdata.com/people/l/bruce-litton/",
-          "title": "David Litton / Bruce Litton Association - Rome, GA",
-          "date": "2024-02-07",
-          "note": null
-        },
-        {
-          "claim": "Public records link the name David Litton to the address 410 Biddy Rd and 315 Biddy Rd SE",
-          "url": "https://www.zillow.com/homedetails/315-Biddy-Rd-SE-Rome-GA-30161/295435156_zpid/",
-          "title": "315 Biddy Rd SE Sales History",
-          "date": "2023-11-16",
-          "note": null
-        },
-        {
-          "claim": "No evidence was found of Herbert David Litton personally speaking at public hearings or in local news on development issues",
-          "url": "https://romega.gov/AgendaCenter/ViewFile/Minutes/_02012024-691",
-          "title": "Rome-Floyd Planning Commission Minutes",
-          "date": "2024-02-01",
-          "note": null
-        },
-        {
-          "claim": "He holds no public office in the county and is not listed among local officials or board members",
-          "url": "https://www.floydcountyga.gov/bc/directory",
-          "title": "Floyd County Boards & Commissions Directory",
-          "date": "2024-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Braden B H & Son Limited Partnership",
-      "entity_category": "Organization",
-      "entity_type": "Business",
-      "pins": [
-        "M15022",
-        "M15025",
-        "M15013"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "The entity has received agricultural subsidies from the USDA ([EWG](https://farm.ewg.org/top_recips.php?fips=13115&progcode=total_dp&regionname=FloydCounty,Georgia)). A portion of the Braden Farm property associated with the family partnership was sold to the Rome-Floyd County Development Authority to establish 'Enterprise Corner,' a new industrial park along Highway 411 ([Floyd County Finance](https://www.floydcountyga.gov/sites/default/files/fileattachments/finance/page/18064/2021_acfr_final.092622.pdf)).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "Medium",
-      "influence_justification": "Significant land holdings; history of supplying land for industrial development",
-      "approach_recommendations": {
-        "motivations": [
-          "tax_revenue_benefit",
-          "property_value"
-        ],
-        "engage": "Acknowledge the partnership's role in enabling local economic growth through the Enterprise Corner transaction. Discuss how this project aligns with the industrial corridor established by previous family land sales."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "The entity has received agricultural subsidies from the USDA",
-          "url": "https://farm.ewg.org/top_recips.php?fips=13115&progcode=total_dp&regionname=FloydCounty,Georgia",
-          "title": "EWG Farm Subsidies: Floyd County, GA",
-          "date": "2023-01-01",
-          "note": null
-        },
-        {
-          "claim": "Part of the Braden Farm was sold to the Rome-Floyd County Development Authority for an industrial park",
-          "url": "https://www.floydcountyga.gov/sites/default/files/fileattachments/finance/page/18064/2021_acfr_final.092622.pdf",
-          "title": "Floyd County 2021 Annual Comprehensive Financial Report",
-          "date": "2022-09-26",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "New Hope Chapel Trustees Of",
-      "entity_category": "Organization",
-      "entity_type": "church",
-      "pins": [
-        "M15011"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "New Hope Chapel Baptist Church is a self-described \"small church\" located at 3194 Cartersville Highway (US-411) in Rome, Georgia ([New Hope Chapel](https://newhopechapelbaptistchurches.com/)). The congregation was founded in April 1997 by its current senior pastor, Dr. Drew Brown, who initially held services in his home before the church renovated a former manufacturing facility for its sanctuary ([New Hope Chapel](https://newhopechapelbaptistchurches.com/)). The church's mission emphasizes evangelism and youth ministry, with profits from its \"He-Brews\" coffee bar dedicated to funding the youth program ([New Hope Chapel](https://newhopechapelbaptistchurches.com/)). Public searches of Rome and Floyd County planning minutes did not identify any participation by the church or its trustees in recent zoning or development hearings ([City of Rome](http://www.romega.us/AgendaCenter/ViewFile/Minutes/_03252024-758)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "The entity is a small, independent congregation with no documented evidence of broad political influence or participation in county-level planning boards.",
-      "approach_recommendations": {
-        "motivations": [
-          "Community peace",
-          "Youth ministry funding",
-          "Evangelism"
-        ],
-        "engage": "Engage founding pastor Dr. Drew Brown. Acknowledge the church's long-standing presence since 1997 and its focus on youth ministry. Confirm that development activities will not interfere with Sunday services or the peaceful operation of the sanctuary."
-      },
-      "entity_classification": "religious",
-      "profile_summary": "Small Baptist congregation established in 1997; led by founding pastor Dr. Drew Brown; focused on evangelism and youth ministry.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "New Hope Chapel Baptist Church is a self-described \"small church\" located at 3194 Cartersville Highway (US-411) in Rome, Georgia",
-          "url": "https://newhopechapelbaptistchurches.com/",
-          "title": "New Hope Chapel Baptist Church - Home",
-          "date": "2025-02-07",
-          "note": null
-        },
-        {
-          "claim": "The congregation was founded in April 1997 by its current senior pastor, Dr. Drew Brown",
-          "url": "https://newhopechapelbaptistchurches.com/",
-          "title": "New Hope Chapel Baptist Church - History",
-          "date": "2025-02-07",
-          "note": null
-        },
-        {
-          "claim": "Profits from its \"He-Brews\" coffee bar are dedicated to funding the youth program",
-          "url": "https://newhopechapelbaptistchurches.com/",
-          "title": "New Hope Chapel Baptist Church - Ministries",
-          "date": "2025-02-07",
-          "note": null
-        },
-        {
-          "claim": "Public searches of Rome and Floyd County planning minutes did not identify any participation by the church",
-          "url": "http://www.romega.us/AgendaCenter/ViewFile/Minutes/_03252024-758",
-          "title": "Rome City Commission Minutes March 2024",
-          "date": "2024-03-25",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Floyd County Georgia",
-      "entity_category": "Organization",
-      "entity_type": "county government",
-      "pins": [
-        "M15006",
-        "M15017A"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "The Floyd County Board of Commissioners is the governing body responsible for zoning and land use policies in the county ([Floyd County Government](https://www.floydcountyga.gov/bc-board-commissioners)). In 2022, the county approved the purchase of approximately 44 acres of land (20 acres and 24 acres parcels) using 2017 SPLOST funds for a new Agriculture Center, rather than a 202-acre industrial park as originally drafted ([Floyd County SPLOST](https://www.floydcountyga.gov/splost/project/agriculture-center)). The Rome-Floyd Development Authority actively markets the 214-acre North Floyd Industrial Park for economic development ([Rome-Floyd Development Authority](https://developromefloyd.com/property/north-floyd-industrial-park/)). As of February 2025, the Board has placed an indefinite hold on commercial solar energy development and extended a moratorium on battery energy storage systems (BESS) while updating zoning ordinances ([KCHA News](https://kchanews.com/2025/02/05/floyd-co-supervisors-put-indefinite-hold-on-utility-scale-solar-development/)) ([KCHA News](https://kchanews.com/2026/01/23/floyd-county-supervisors-extend-bess-moratorium-in-place/)).",
-      "confidence": "high",
-      "noted_stance": "neutral",
-      "community_influence": "High",
-      "influence_justification": "High – County government maintains absolute regulatory authority over zoning, permitting, and moratoriums; currently enforcing holds on renewable energy projects.",
-      "approach_recommendations": {
-        "motivations": [
-          "Economic development",
-          "Regulatory control",
-          "Public welfare"
-        ],
-        "engage": "Engage directly with the Board of Commissioners and Planning Department regarding the current status of solar and BESS moratoriums. Highlight alignment with the updated ordinance requirements once finalized."
-      },
-      "entity_classification": "municipal",
-      "profile_summary": "Floyd County government is the primary regulatory body, currently enforcing moratoriums on solar and battery storage development while pursuing agricultural and industrial economic development elsewhere.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Governing body responsible for zoning and land use policies",
-          "url": "https://www.floydcountyga.gov/bc-board-commissioners",
-          "title": "Floyd County Board of Commissioners",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Approved purchase of ~44 acres for Agriculture Center using SPLOST funds",
-          "url": "https://www.floydcountyga.gov/splost/project/agriculture-center",
-          "title": "Floyd County SPLOST Projects: Agriculture Center",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Markets 214-acre North Floyd Industrial Park",
-          "url": "https://developromefloyd.com/property/north-floyd-industrial-park/",
-          "title": "North Floyd Industrial Park Property Profile",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Placed indefinite hold on commercial solar energy development",
-          "url": "https://kchanews.com/2025/02/05/floyd-co-supervisors-put-indefinite-hold-on-utility-scale-solar-development/",
-          "title": "Floyd Co Supervisors Put Indefinite Hold on Utility Scale Solar Development",
-          "date": "2025-02-05",
-          "note": null
-        },
-        {
-          "claim": "Extended moratorium on battery energy storage systems",
-          "url": "https://kchanews.com/2026/01/23/floyd-county-supervisors-extend-bess-moratorium-in-place/",
-          "title": "Floyd County Supervisors Extend BESS Moratorium",
-          "date": "2026-01-23",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Stenanista LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "N15008"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Stenanista, LLC is a Georgia limited liability company registered at 502 Bass Ferry Rd, Rome, with Stan Bouckaert listed as the registered agent ([Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=412401)). The entity is associated with the Bouckaert family, who own and operate Kingston Downs, a 5,000-acre property used for equestrian events, glamping, and outdoor recreation ([Kingston Downs History](https://www.kingstondowns.com/history)). In 2022, Stan Bouckaert successfully petitioned the Floyd County Commission (approved 7-0) for a Special Use Permit to develop a recreational camp and farm retreat on the property ([Floyd County Minutes](https://www.romega.us/AgendaCenter/ViewFile/Minutes/_04072022-337)). The family has actively developed the land for tourism, including adding hiking trails and cottages ([Kingston Downs History](https://www.kingstondowns.com/history)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "High – Controls 5,000+ acres (Kingston Downs); successfully navigates local zoning processes with unanimous Commission support; prominent local business owner.",
-      "approach_recommendations": {
-        "motivations": [
-          "Property value preservation",
-          "Tourism/Recreation business",
-          "Land conservation"
-        ],
-        "engage": "Approach Stan Bouckaert to discuss visual impacts on Kingston Downs. The entity is a distinct 'agri-tourism' developer. Ensure project does not conflict with their glamping/retreat viewsheds."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": "Stenanista LLC (Bouckaert family) controls the massive Kingston Downs estate. They are active developers of high-end outdoor tourism/recreation and have successfully engaged the county for their own zoning permits.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Registered as GA LLC with Stan Bouckaert as agent",
-          "url": "https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=412401",
-          "title": "Georgia Secretary of State Business Search: Stenanista LLC",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Family owns/operates Kingston Downs 5,000-acre property",
-          "url": "https://www.kingstondowns.com/history",
-          "title": "Kingston Downs History & Ownership",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Successfully petitioned for Special Use Permit in 2022 (7-0 vote)",
-          "url": "https://www.romega.us/AgendaCenter/ViewFile/Minutes/_04072022-337",
-          "title": "Rome City Commission / Floyd County Minutes April 2022",
-          "date": "2022-04-07",
-          "note": null
-        },
-        {
-          "claim": "Developed land for tourism/trails/cottages",
-          "url": "https://www.kingstondowns.com/history",
-          "title": "Kingston Downs History: Transforming into Outdoor Destination",
-          "date": "2026-02-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Johnson Farm Property LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "L15013"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Johnson Farm Property LLC is a Georgia domestic LLC formed on March 5, 2012, listing 11 River Pine Dr SW, Rome as its principal address and Linda Owens as the registered agent ([Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic%20Limited%20Liability%20Company&fromSearch=True)). State filings indicate the business purpose is 'None,' typical of a holding company ([Georgia Secretary of State](https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic%20Limited%20Liability%20Company&fromSearch=True)). The entity is a recipient of USDA agricultural conservation subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=13115&progcode=totalcons&page=6)). The principal address is also associated with 'Johnson Farms' ([EWG Recipient Detail](https://farm.ewg.org/persondetail.php?custnumber=A09180048&summlevel=address)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Low – Family farm holding entity; no evidence of public office, board seats, or significant political activity found for the entity or registered agent.",
-      "approach_recommendations": {
-        "motivations": [
-          "Agricultural operations",
-          "Property rights"
-        ],
-        "engage": "Reach out to Linda Owens (registered agent) to discuss potential impacts on agricultural operations. As a recipient of conservation subsidies, the owner may be interested in land stewardship or conservation-compatible designs."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": "Private family farm holding company receiving USDA conservation subsidies. No documented political activity or stance on development.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Formed in 2012 with Linda Owens as agent",
-          "url": "https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=1703349&businessType=Domestic%20Limited%20Liability%20Company&fromSearch=True",
-          "title": "Georgia Secretary of State: Johnson Farm Property LLC",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Recipient of USDA agricultural conservation subsidies",
-          "url": "https://farm.ewg.org/top_recips.php?fips=13115&progcode=totalcons&page=6",
-          "title": "EWG Farm Subsidy Database: Floyd County Conservation Recipients",
-          "date": "2026-02-07",
-          "note": null
-        },
-        {
-          "claim": "Address associated with Johnson Farms",
-          "url": "https://farm.ewg.org/persondetail.php?custnumber=A09180048&summlevel=address",
-          "title": "EWG Recipient Detail: Johnson Farms",
-          "date": "2026-02-07",
-          "note": null
-        }
-      ]
-    }
-  ],
-  "location_context": "Neighbors within 0.5 mi of 34.211925,-85.065168",
-  "overview_summary": "Of the 21 neighbors profiled, 16 are residents and five are organizations, including two high-influence entities and eight with medium influence. While 18 stances remain unknown, two neighbors have expressed support and one is neutral, with no documented opposition to the project. High-influence stakeholders include the Floyd County government and Stenanista LLC (Kingston Downs), while the Braden family represents a significant medium-influence presence with a history of supporting local development. Although no current opposition is recorded, qualitative research suggests that well-connected landowners and local farm families may prioritize farmland preservation and property value protections.",
+  "neighbors": [],
+  "location_context": "Neighbors within 0.5 mi of 30.0595,-89.88047",
+  "overview_summary": "While zero neighbors were officially profiled for this location, research identified nearby stakeholders including the federal government, private family trusts, and out-of-state investment and construction firms. These entities appear to maintain primarily passive or financial interests in their land holdings, with no documented history of opposition to local development or energy projects. Given the lack of high-influence community leaders or active organizations among those researched, the risk of organized opposition remains low.",
   "success": true,
-  "runtime_minutes": 58.93,
+  "runtime_minutes": 14.92,
   "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
     {
       "title": null,
       "url": null
@@ -1381,832 +123,813 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_064613_4134.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_071047_1082.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_064537_8213.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_065933_0084.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_064815_0749.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_070425_4696.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260207_064314_0441.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260207_064812_5495.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260207_064829_4091.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_160712_4516.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_160453_2088.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260209_160746_1088.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260209_160646_4844.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_165405_7977.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_165119_3051.json"
   ],
   "city": null,
-  "county": "Floyd County",
-  "state": "GA",
-  "run_id": "42374349-0229-4e7c-bd37-3bf2bde51ac3",
-  "target_pin": "M15022",
+  "county": "Orleans Parish",
+  "state": "LA",
+  "run_id": "374485b0-6bd2-4829-b2c6-88590d78c3e1",
+  "target_pin": "39W909549",
   "target_parcel_info": {
-    "pin": "M15022",
+    "pin": "39W909549",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -85.062967,
-            34.2076065
+            -89.865143,
+            30.1039005
           ],
           [
-            -85.062633,
-            34.2076645
+            -89.864393,
+            30.1053275
           ],
           [
-            -85.0627605,
-            34.217296
+            -89.8641525,
+            30.106196
           ],
           [
-            -85.0639395,
-            34.2173815
+            -89.864049,
+            30.1070465
           ],
           [
-            -85.0639835,
-            34.2172445
+            -89.864107,
+            30.10774
           ],
           [
-            -85.0640345,
-            34.2171095
+            -89.8641895,
+            30.1083155
           ],
           [
-            -85.064094,
-            34.2169765
+            -89.865035,
+            30.1112355
           ],
           [
-            -85.064161,
-            34.2168465
+            -89.8652495,
+            30.112109
           ],
           [
-            -85.064235,
-            34.216719
+            -89.865568,
+            30.113687
           ],
           [
-            -85.0643165,
-            34.216595
+            -89.8658335,
+            30.115749
           ],
           [
-            -85.0644055,
-            34.216474
+            -89.866086,
+            30.1178655
           ],
           [
-            -85.064501,
-            34.2163565
+            -89.873737,
+            30.118948
           ],
           [
-            -85.0646035,
-            34.2162435
+            -89.876747,
+            30.127657
           ],
           [
-            -85.064712,
-            34.2161345
+            -89.880342,
+            30.123186
           ],
           [
-            -85.064827,
-            34.21603
+            -89.886107,
+            30.1167845
           ],
           [
-            -85.064948,
-            34.21593
+            -89.886182,
+            30.1166755
           ],
           [
-            -85.0650745,
-            34.2158355
+            -89.8882215,
+            30.1143935
           ],
           [
-            -85.0652065,
-            34.2157455
+            -89.889039,
+            30.1134735
           ],
           [
-            -85.065343,
-            34.2156615
+            -89.8901325,
+            30.112243
           ],
           [
-            -85.065485,
-            34.2155825
+            -89.8904475,
+            30.1116395
           ],
           [
-            -85.065631,
-            34.2155095
+            -89.8909135,
+            30.110749
           ],
           [
-            -85.066067,
-            34.215401
+            -89.8908375,
+            30.1100545
           ],
           [
-            -85.066505,
-            34.2152985
+            -89.890482,
+            30.1093345
           ],
           [
-            -85.066945,
-            34.215202
+            -89.889981,
+            30.1083215
           ],
           [
-            -85.066944,
-            34.2137915
+            -89.890387,
+            30.106933
           ],
           [
-            -85.067936,
-            34.213802
+            -89.8901235,
+            30.1066495
           ],
           [
-            -85.067937,
-            34.213782
+            -89.8901755,
+            30.1062515
           ],
           [
-            -85.0681795,
-            34.2068145
+            -89.8903435,
+            30.1060525
           ],
           [
-            -85.068107,
-            34.2068115
+            -89.8905075,
+            30.106163
           ],
           [
-            -85.0673085,
-            34.2068955
+            -89.8909265,
+            30.1056655
           ],
           [
-            -85.0672885,
-            34.2076775
+            -89.8916215,
+            30.1060955
           ],
           [
-            -85.066548,
-            34.2077375
+            -89.8918115,
+            30.1059495
           ],
           [
-            -85.066568,
-            34.2069735
+            -89.8923255,
+            30.1048835
           ],
           [
-            -85.065627,
-            34.207074
+            -89.894256,
+            30.1054665
           ],
           [
-            -85.066538,
-            34.210262
+            -89.896396,
+            30.1047745
           ],
           [
-            -85.064929,
-            34.210579
+            -89.8968795,
+            30.1042495
           ],
           [
-            -85.0640055,
-            34.2073475
+            -89.8998455,
+            30.10102
           ],
           [
-            -85.0639175,
-            34.2073655
+            -89.9000005,
+            30.100843
           ],
           [
-            -85.062967,
-            34.2076065
+            -89.9020735,
+            30.098472
+          ],
+          [
+            -89.904207,
+            30.09602
+          ],
+          [
+            -89.9048585,
+            30.095263
+          ],
+          [
+            -89.9055375,
+            30.093754
+          ],
+          [
+            -89.905358,
+            30.09303
+          ],
+          [
+            -89.904239,
+            30.091159
+          ],
+          [
+            -89.9045345,
+            30.0895495
+          ],
+          [
+            -89.904327,
+            30.0891355
+          ],
+          [
+            -89.903971,
+            30.0888725
+          ],
+          [
+            -89.9041535,
+            30.088646
+          ],
+          [
+            -89.9042345,
+            30.088549
+          ],
+          [
+            -89.9045085,
+            30.088221
+          ],
+          [
+            -89.9050655,
+            30.08863
+          ],
+          [
+            -89.9053915,
+            30.088873
+          ],
+          [
+            -89.906419,
+            30.088187
+          ],
+          [
+            -89.9084355,
+            30.0886165
+          ],
+          [
+            -89.9089985,
+            30.088799
+          ],
+          [
+            -89.9093735,
+            30.0889205
+          ],
+          [
+            -89.9115545,
+            30.0882635
+          ],
+          [
+            -89.912375,
+            30.0873305
+          ],
+          [
+            -89.913149,
+            30.08645
+          ],
+          [
+            -89.917966,
+            30.080978
+          ],
+          [
+            -89.9127855,
+            30.077525
+          ],
+          [
+            -89.906629,
+            30.073377
+          ],
+          [
+            -89.906445,
+            30.0732565
+          ],
+          [
+            -89.9062575,
+            30.073141
+          ],
+          [
+            -89.9060665,
+            30.0730295
+          ],
+          [
+            -89.905872,
+            30.072922
+          ],
+          [
+            -89.9056745,
+            30.07282
+          ],
+          [
+            -89.9054735,
+            30.072722
+          ],
+          [
+            -89.9052695,
+            30.0726285
+          ],
+          [
+            -89.9017675,
+            30.0710745
+          ],
+          [
+            -89.901481,
+            30.070944
+          ],
+          [
+            -89.9011985,
+            30.070808
+          ],
+          [
+            -89.9009195,
+            30.070667
+          ],
+          [
+            -89.900644,
+            30.0705205
+          ],
+          [
+            -89.900372,
+            30.070369
+          ],
+          [
+            -89.9001045,
+            30.070212
+          ],
+          [
+            -89.8998405,
+            30.0700505
+          ],
+          [
+            -89.8995805,
+            30.0698835
+          ],
+          [
+            -89.8993255,
+            30.069712
+          ],
+          [
+            -89.899074,
+            30.0695355
+          ],
+          [
+            -89.8988275,
+            30.0693545
+          ],
+          [
+            -89.898586,
+            30.069169
+          ],
+          [
+            -89.8983485,
+            30.0689785
+          ],
+          [
+            -89.8981165,
+            30.068784
+          ],
+          [
+            -89.897889,
+            30.068585
+          ],
+          [
+            -89.8976665,
+            30.0683815
+          ],
+          [
+            -89.8974495,
+            30.068174
+          ],
+          [
+            -89.897238,
+            30.0679625
+          ],
+          [
+            -89.8970315,
+            30.0677475
+          ],
+          [
+            -89.8968305,
+            30.067528
+          ],
+          [
+            -89.896635,
+            30.067305
+          ],
+          [
+            -89.8964455,
+            30.0670785
+          ],
+          [
+            -89.8962615,
+            30.066848
+          ],
+          [
+            -89.8960835,
+            30.0666145
+          ],
+          [
+            -89.8959115,
+            30.0663775
+          ],
+          [
+            -89.8957455,
+            30.0661375
+          ],
+          [
+            -89.8955855,
+            30.065894
+          ],
+          [
+            -89.8954315,
+            30.065648
+          ],
+          [
+            -89.895284,
+            30.065399
+          ],
+          [
+            -89.89248,
+            30.0605395
+          ],
+          [
+            -89.892353,
+            30.0603265
+          ],
+          [
+            -89.89222,
+            30.060116
+          ],
+          [
+            -89.892081,
+            30.059909
+          ],
+          [
+            -89.8919365,
+            30.0597045
+          ],
+          [
+            -89.8917855,
+            30.059503
+          ],
+          [
+            -89.891629,
+            30.0593055
+          ],
+          [
+            -89.8914675,
+            30.059111
+          ],
+          [
+            -89.8913,
+            30.05892
+          ],
+          [
+            -89.891127,
+            30.0587325
+          ],
+          [
+            -89.8909485,
+            30.058549
+          ],
+          [
+            -89.8907655,
+            30.058369
+          ],
+          [
+            -89.8907,
+            30.0583115
+          ],
+          [
+            -89.890631,
+            30.0582575
+          ],
+          [
+            -89.8905575,
+            30.058208
+          ],
+          [
+            -89.8904805,
+            30.0581625
+          ],
+          [
+            -89.8904005,
+            30.0581215
+          ],
+          [
+            -89.890317,
+            30.058085
+          ],
+          [
+            -89.8902315,
+            30.0580535
+          ],
+          [
+            -89.8901435,
+            30.0580265
+          ],
+          [
+            -89.8900535,
+            30.058005
+          ],
+          [
+            -89.8899625,
+            30.0579885
+          ],
+          [
+            -89.8898705,
+            30.0579775
+          ],
+          [
+            -89.889865,
+            30.0579795
+          ],
+          [
+            -89.889675,
+            30.057595
+          ],
+          [
+            -89.887932,
+            30.058395
+          ],
+          [
+            -89.886966,
+            30.058695
+          ],
+          [
+            -89.8858205,
+            30.0585475
+          ],
+          [
+            -89.8851335,
+            30.0583105
+          ],
+          [
+            -89.884505,
+            30.057818
+          ],
+          [
+            -89.8840785,
+            30.057287
+          ],
+          [
+            -89.8834305,
+            30.0559575
+          ],
+          [
+            -89.882747,
+            30.054965
+          ],
+          [
+            -89.881955,
+            30.053985
+          ],
+          [
+            -89.8807695,
+            30.0528385
+          ],
+          [
+            -89.8803255,
+            30.052249
+          ],
+          [
+            -89.8751895,
+            30.0553125
+          ],
+          [
+            -89.8749335,
+            30.055471
+          ],
+          [
+            -89.874788,
+            30.0555615
+          ],
+          [
+            -89.8751505,
+            30.0560035
+          ],
+          [
+            -89.874888,
+            30.0561565
+          ],
+          [
+            -89.874634,
+            30.0563205
+          ],
+          [
+            -89.8742685,
+            30.055893
+          ],
+          [
+            -89.874175,
+            30.0559535
+          ],
+          [
+            -89.874016,
+            30.0560575
+          ],
+          [
+            -89.874402,
+            30.0564785
+          ],
+          [
+            -89.8741545,
+            30.05665
+          ],
+          [
+            -89.873767,
+            30.056227
+          ],
+          [
+            -89.8736765,
+            30.05629
+          ],
+          [
+            -89.8735175,
+            30.056396
+          ],
+          [
+            -89.873894,
+            30.0568405
+          ],
+          [
+            -89.873818,
+            30.056893
+          ],
+          [
+            -89.873666,
+            30.056992
+          ],
+          [
+            -89.8735725,
+            30.0570535
+          ],
+          [
+            -89.873417,
+            30.057166
+          ],
+          [
+            -89.873174,
+            30.0573415
+          ],
+          [
+            -89.8729305,
+            30.057517
+          ],
+          [
+            -89.8725375,
+            30.0570905
+          ],
+          [
+            -89.8723895,
+            30.0571945
+          ],
+          [
+            -89.8718025,
+            30.057616
+          ],
+          [
+            -89.868935,
+            30.0597265
+          ],
+          [
+            -89.8679445,
+            30.0605075
+          ],
+          [
+            -89.8675065,
+            30.060879
+          ],
+          [
+            -89.8671135,
+            30.06131
+          ],
+          [
+            -89.8666275,
+            30.0618395
+          ],
+          [
+            -89.866325,
+            30.0622715
+          ],
+          [
+            -89.8659075,
+            30.0628215
+          ],
+          [
+            -89.8656025,
+            30.063442
+          ],
+          [
+            -89.8651785,
+            30.0644075
+          ],
+          [
+            -89.864872,
+            30.065097
+          ],
+          [
+            -89.8646555,
+            30.0658865
+          ],
+          [
+            -89.8645085,
+            30.066598
+          ],
+          [
+            -89.864182,
+            30.070218
+          ],
+          [
+            -89.864173,
+            30.0702635
+          ],
+          [
+            -89.864608,
+            30.070323
+          ],
+          [
+            -89.864558,
+            30.070646
+          ],
+          [
+            -89.864113,
+            30.0705735
+          ],
+          [
+            -89.863911,
+            30.071611
+          ],
+          [
+            -89.863393,
+            30.0727735
+          ],
+          [
+            -89.862718,
+            30.0737755
+          ],
+          [
+            -89.862071,
+            30.0744415
+          ],
+          [
+            -89.8616595,
+            30.0761005
+          ],
+          [
+            -89.8615355,
+            30.076782
+          ],
+          [
+            -89.861577,
+            30.07704
+          ],
+          [
+            -89.8616405,
+            30.0773575
+          ],
+          [
+            -89.8627265,
+            30.080934
+          ],
+          [
+            -89.8639235,
+            30.08467
+          ],
+          [
+            -89.8660985,
+            30.091575
+          ],
+          [
+            -89.8681845,
+            30.0984
+          ],
+          [
+            -89.868284,
+            30.0993615
+          ],
+          [
+            -89.868157,
+            30.1002705
+          ],
+          [
+            -89.868078,
+            30.100492
+          ],
+          [
+            -89.867848,
+            30.1011385
+          ],
+          [
+            -89.867453,
+            30.101669
+          ],
+          [
+            -89.8667585,
+            30.1024335
+          ],
+          [
+            -89.865861,
+            30.103077
+          ],
+          [
+            -89.865143,
+            30.1039005
           ]
         ]
       ]
     },
-    "lat": "34.211925",
-    "lon": "-85.065168",
-    "county_path": "/us/ga/floyd/rome"
-  },
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/42374349-0229-4e7c-bd37-3bf2bde51ac3_map_full.png",
-  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/42374349-0229-4e7c-bd37-3bf2bde51ac3_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Floyd County Georgia</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Stenanista LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Biddy Hill Braden</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Pam McAbee</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Norma S. Braden</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Mark H. Braden</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Mark Braden</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">8</td>\n                <td class=\"name\">Rick Jacobs</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">9</td>\n                <td class=\"name\">Johnette T. Chambers</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">A</td>\n                <td class=\"name\">Braden B H & Son Limited Partnership</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
-  "map_labels": [
-    {
-      "text": "BRADEN",
-      "full_name": "Biddy Hill Braden",
-      "lon": -85.06692968935592,
-      "lat": 34.207320906393576,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15021"
-    },
-    {
-      "text": "MCABEE",
-      "full_name": "Pam McAbee",
-      "lon": -85.06575893244751,
-      "lat": 34.203339482180056,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15013A"
-    },
-    {
-      "text": "MCABEE",
-      "full_name": "Pam McAbee",
-      "lon": -85.06549195417087,
-      "lat": 34.20437047568297,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15013B"
-    },
-    {
-      "text": "MCABEE",
-      "full_name": "Pam McAbee",
-      "lon": -85.06674802940488,
-      "lat": 34.20450928491137,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15013B1"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Norma S. Braden",
-      "lon": -85.06527139870207,
-      "lat": 34.20881034147191,
-      "marker_char": "5",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15022A"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Mark H. Braden",
-      "lon": -85.06929330235519,
-      "lat": 34.21399803925266,
-      "marker_char": "6",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "support",
-      "pin": "M15024"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Mark Braden",
-      "lon": -85.05909809092357,
-      "lat": 34.20513139163134,
-      "marker_char": "7",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15015"
-    },
-    {
-      "text": "JACOBS",
-      "full_name": "Rick Jacobs",
-      "lon": -85.07406073221632,
-      "lat": 34.2004620024501,
-      "marker_char": "8",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M16109"
-    },
-    {
-      "text": "JACOBS",
-      "full_name": "Rick Jacobs",
-      "lon": -85.07472241112981,
-      "lat": 34.201748944896735,
-      "marker_char": "8",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M16109A"
-    },
-    {
-      "text": "CHAMBERS",
-      "full_name": "Johnette T. Chambers",
-      "lon": -85.0767280772796,
-      "lat": 34.201320584090176,
-      "marker_char": "9",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M16108"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Braden B H & Son Limited Partnership",
-      "lon": -85.07221002802507,
-      "lat": 34.21051939552968,
-      "marker_char": "a",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "support",
-      "pin": "M15025"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Braden B H & Son Limited Partnership",
-      "lon": -85.05841301212186,
-      "lat": 34.20260219054473,
-      "marker_char": "a",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "support",
-      "pin": "M15013"
-    },
-    {
-      "text": "FLOYD",
-      "full_name": "Floyd County Georgia",
-      "lon": -85.05776861953426,
-      "lat": 34.213175799587006,
-      "marker_char": "1",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "neutral",
-      "pin": "M15006"
-    },
-    {
-      "text": "FLOYD",
-      "full_name": "Floyd County Georgia",
-      "lon": -85.06879294544676,
-      "lat": 34.20416826461779,
-      "marker_char": "1",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "neutral",
-      "pin": "M15017A"
-    },
-    {
-      "text": "STENANIS",
-      "full_name": "Stenanista LLC",
-      "lon": -85.04628179902478,
-      "lat": 34.22158264222294,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "N15008"
-    },
-    {
-      "text": "TARGET",
-      "full_name": "PIN: M15022",
-      "lon": -85.0651684299703,
-      "lat": 34.21192520865049,
-      "marker_char": "t",
-      "color": "FFD700",
-      "is_target": true,
-      "is_adjacent": false,
-      "influence": null,
-      "stance": null,
-      "pin": "M15022"
-    }
-  ],
-  "map_metadata": {
-    "run_id": "42374349-0229-4e7c-bd37-3bf2bde51ac3",
-    "generated_at": "2026-02-07T07:35:44.898351",
-    "stats": {
-      "total_neighbors": 21,
-      "highlighted": 20,
-      "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 1,
-      "by_influence": {
-        "High": 2,
-        "Medium": 8,
-        "Low": 10
-      },
-      "by_stance": {
-        "support": 2,
-        "oppose": 0,
-        "neutral": 1
-      },
-      "adjacent_highlighted": 3,
-      "target_included": true
-    },
-    "strategy_used": "polyline",
-    "url_length": 4581,
-    "parcels_rendered": 28,
-    "labels_count": 16,
-    "settings": {
-      "width": 800,
-      "height": 450,
-      "style": "satellite-streets-v12",
-      "retina": true,
-      "padding": 50
-    }
-  },
-  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/42374349-0229-4e7c-bd37-3bf2bde51ac3_map_fullpage.png",
-  "fullpage_map_labels": [
-    {
-      "text": "MCABEE",
-      "full_name": "Pamela B. McAbee",
-      "lon": -85.06433490512606,
-      "lat": 34.20344306627011,
-      "marker_char": "b",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15016"
-    },
-    {
-      "text": "MONTGOME",
-      "full_name": "Martha Jane Gaines Montgomery",
-      "lon": -85.05771096123075,
-      "lat": 34.207349037949676,
-      "marker_char": "c",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15014"
-    },
-    {
-      "text": "RITCHIE",
-      "full_name": "Kenneth Nathaniel Ritchie",
-      "lon": -85.07161745623158,
-      "lat": 34.20369318521364,
-      "marker_char": "d",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15017"
-    },
-    {
-      "text": "RITCHIE",
-      "full_name": "Kenneth Nathaniel Ritchie",
-      "lon": -85.07151287413811,
-      "lat": 34.20496224294301,
-      "marker_char": "d",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15017B"
-    },
-    {
-      "text": "RITCHIE",
-      "full_name": "Kenneth Nathaniel Ritchie",
-      "lon": -85.07353419536902,
-      "lat": 34.20326396621315,
-      "marker_char": "d",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15017C"
-    },
-    {
-      "text": "FOY",
-      "full_name": "Margaret Foy",
-      "lon": -85.05568043522622,
-      "lat": 34.20952350285809,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15008"
-    },
-    {
-      "text": "JOHNSON",
-      "full_name": "Wade Wendall Johnson & Max Johnson",
-      "lon": -85.0813822304941,
-      "lat": 34.203251453165024,
-      "marker_char": "f",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "L15014"
-    },
-    {
-      "text": "LITTON",
-      "full_name": "Bruce Randall Litton & Nell Litton",
-      "lon": -85.069195297977,
-      "lat": 34.200058873795655,
-      "marker_char": "g",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M16112"
-    },
-    {
-      "text": "MARTIN",
-      "full_name": "Jerry Martin",
-      "lon": -85.07434578661923,
-      "lat": 34.20427906069389,
-      "marker_char": "h",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15019"
-    },
-    {
-      "text": "LITTON",
-      "full_name": "Herbert David Litton",
-      "lon": -85.07135895539228,
-      "lat": 34.20077105703515,
-      "marker_char": "i",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M16111"
-    },
-    {
-      "text": "NEW",
-      "full_name": "New Hope Chapel Trustees Of",
-      "lon": -85.05467566687754,
-      "lat": 34.20791698734602,
-      "marker_char": "j",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "M15011"
-    },
-    {
-      "text": "JOHNSON",
-      "full_name": "Johnson Farm Property LLC",
-      "lon": -85.0852017547549,
-      "lat": 34.22199142705097,
-      "marker_char": "k",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "L15013"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Biddy Hill Braden",
-      "lon": -85.06692968935592,
-      "lat": 34.207320906393576,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15021"
-    },
-    {
-      "text": "MCABEE",
-      "full_name": "Pam McAbee",
-      "lon": -85.06575893244751,
-      "lat": 34.203339482180056,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15013A"
-    },
-    {
-      "text": "MCABEE",
-      "full_name": "Pam McAbee",
-      "lon": -85.06549195417087,
-      "lat": 34.20437047568297,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15013B"
-    },
-    {
-      "text": "MCABEE",
-      "full_name": "Pam McAbee",
-      "lon": -85.06674802940488,
-      "lat": 34.20450928491137,
-      "marker_char": "4",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15013B1"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Norma S. Braden",
-      "lon": -85.06527139870207,
-      "lat": 34.20881034147191,
-      "marker_char": "5",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15022A"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Mark H. Braden",
-      "lon": -85.06929330235519,
-      "lat": 34.21399803925266,
-      "marker_char": "6",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "support",
-      "pin": "M15024"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Mark Braden",
-      "lon": -85.05909809092357,
-      "lat": 34.20513139163134,
-      "marker_char": "7",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M15015"
-    },
-    {
-      "text": "JACOBS",
-      "full_name": "Rick Jacobs",
-      "lon": -85.07406073221632,
-      "lat": 34.2004620024501,
-      "marker_char": "8",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M16109"
-    },
-    {
-      "text": "JACOBS",
-      "full_name": "Rick Jacobs",
-      "lon": -85.07472241112981,
-      "lat": 34.201748944896735,
-      "marker_char": "8",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M16109A"
-    },
-    {
-      "text": "CHAMBERS",
-      "full_name": "Johnette T. Chambers",
-      "lon": -85.0767280772796,
-      "lat": 34.201320584090176,
-      "marker_char": "9",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "M16108"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Braden B H & Son Limited Partnership",
-      "lon": -85.07221002802507,
-      "lat": 34.21051939552968,
-      "marker_char": "a",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "support",
-      "pin": "M15025"
-    },
-    {
-      "text": "BRADEN",
-      "full_name": "Braden B H & Son Limited Partnership",
-      "lon": -85.05841301212186,
-      "lat": 34.20260219054473,
-      "marker_char": "a",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "support",
-      "pin": "M15013"
-    },
-    {
-      "text": "FLOYD",
-      "full_name": "Floyd County Georgia",
-      "lon": -85.05776861953426,
-      "lat": 34.213175799587006,
-      "marker_char": "1",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "neutral",
-      "pin": "M15006"
-    },
-    {
-      "text": "FLOYD",
-      "full_name": "Floyd County Georgia",
-      "lon": -85.06879294544676,
-      "lat": 34.20416826461779,
-      "marker_char": "1",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "neutral",
-      "pin": "M15017A"
-    },
-    {
-      "text": "STENANIS",
-      "full_name": "Stenanista LLC",
-      "lon": -85.04628179902478,
-      "lat": 34.22158264222294,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "N15008"
-    },
-    {
-      "text": "TARGET",
-      "full_name": "PIN: M15022",
-      "lon": -85.0651684299703,
-      "lat": 34.21192520865049,
-      "marker_char": "t",
-      "color": "FFD700",
-      "is_target": true,
-      "is_adjacent": false,
-      "influence": null,
-      "stance": null,
-      "pin": "M15022"
-    }
-  ],
-  "fullpage_map_metadata": {
-    "run_id": "42374349-0229-4e7c-bd37-3bf2bde51ac3",
-    "generated_at": "2026-02-07T07:35:46.176048",
-    "stats": {
-      "total_neighbors": 21,
-      "highlighted": 20,
-      "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 1,
-      "by_influence": {
-        "High": 2,
-        "Medium": 8,
-        "Low": 10
-      },
-      "by_stance": {
-        "support": 2,
-        "oppose": 0,
-        "neutral": 1
-      },
-      "adjacent_highlighted": 3,
-      "target_included": true
-    },
-    "strategy_used": "polyline",
-    "labels_count": 28,
-    "settings": {
-      "width": 1280,
-      "height": 720,
-      "style": "satellite-streets-v12",
-      "retina": true,
-      "padding": 80
-    }
+    "lat": "30.086818",
+    "lon": "-89.883867",
+    "county_path": "/us/la/orleans/new-orleans"
   }
 }

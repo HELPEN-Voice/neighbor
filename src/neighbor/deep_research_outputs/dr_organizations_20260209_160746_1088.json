@@ -1,0 +1,165 @@
+{
+  "timestamp": "2026-02-09T16:07:46.108905",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Orleans Parish",
+    "state": "LA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Adjacent landowners include a private Ruppel family trust ([www.legacy.com](https://www.legacy.com/us/obituaries/nola/name/joseph-ruppel-obituary?id=10423995#:~:text=Lucille%20Ruppel%2C%20his%20loving%20daughter,law%2C%20Joseph)), a heavy-construction contracting company (McConnell Enterprises) ([www.bloomberg.com](https://www.bloomberg.com/profile/company/1992868D%3AUS#:~:text=Mcconnell%20Enterprises%20Inc%20was%20founded,as%20constructing%20heavy%20construction%20projects)), and a Florida-based land investor (Frost Investments LLC) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)). None have obvious community or political affiliations; their interests appear primarily financial, suggesting low risk of organized opposition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Carolyn Serpas Sub-Trust Of The Joseph P Ruppel Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "39W948010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family-held property trust with no public profile or community role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See RESIDENT table."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "McConnell Enterprises Inc",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "39W933312"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McConnell Enterprises, Inc. was incorporated in Texas on July 28, 1975 ([www.corporationwiki.com](https://www.corporationwiki.com/p/io43s/mcconnell-enterprises-inc#:~:text=State%20ID%3A%20%20,Monday%2C%20July%2028%2C%201975)) ([www.corporationwiki.com](https://www.corporationwiki.com/p/io43s/mcconnell-enterprises-inc#:~:text=Image)). It is described as a heavy construction general contractor in industry profiles ([www.bloomberg.com](https://www.bloomberg.com/profile/company/1992868D%3AUS#:~:text=Mcconnell%20Enterprises%20Inc)).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private company; no notable local influence beyond owning land",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via company principal; highlight potential contracts or buyout value to align with their business interests"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Frost Investments LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "39W933323",
+        "39W933324",
+        "39W933328",
+        "39W933335",
+        "39W933311"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Frost Investments, LLC (Florida Document #L08000080461) was filed on Aug. 22, 2008 and remains an active entity ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)). Its registered agent and managing member is Julie B. Frost, located at a Fort Myers, Florida address ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)). This company’s activity is focused on holding real estate, with no operational business presence in Louisiana (no local offices or employees identified) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-state speculator; no local employment or community engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage owner (Julie Frost) with a buyout or partnership offer emphasizing financial gain; expect decisions driven solely by ROI"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Adjacent landowners include a private Ruppel family trust ([www.legacy.com](https://www.legacy.com/us/obituaries/nola/name/joseph-ruppel-obituary?id=10423995#:~:text=Lucille%20Ruppel%2C%20his%20loving%20daughter,law%2C%20Joseph)), a heavy-construction contracting company (McConnell Enterprises) ([www.bloomberg.com](https://www.bloomberg.com/profile/company/1992868D%3AUS#:~:text=Mcconnell%20Enterprises%20Inc%20was%20founded,as%20constructing%20heavy%20construction%20projects)), and a Florida-based land investor (Frost Investments LLC) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)). None have obvious community or political affiliations; their interests appear primarily financial, suggesting low risk of organized opposition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Carolyn Serpas Sub-Trust Of The Joseph P Ruppel Family Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"39W948010\"],\n      \"claims\": \"See RESIDENT table.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family-held property trust with no public profile or community role\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Estate legacy preservation\", \"Maximize sale value\"],\n      \"approach_recommendations\": \"See RESIDENT table.\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"McConnell Enterprises Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corp\",\n      \"pins\": [\"39W933312\"],\n      \"claims\": \"McConnell Enterprises, Inc. was incorporated in Texas on July 28, 1975 ([www.corporationwiki.com](https://www.corporationwiki.com/p/io43s/mcconnell-enterprises-inc#:~:text=State%20ID%3A%20%20,Monday%2C%20July%2028%2C%201975)) ([www.corporationwiki.com](https://www.corporationwiki.com/p/io43s/mcconnell-enterprises-inc#:~:text=Image)). It is described as a heavy construction general contractor in industry profiles ([www.bloomberg.com](https://www.bloomberg.com/profile/company/1992868D%3AUS#:~:text=Mcconnell%20Enterprises%20Inc)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small private company; no notable local influence beyond owning land\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Construction contract opportunities\", \"Property value increase\"],\n      \"approach_recommendations\": \"Approach via company principal; highlight potential contracts or buyout value to align with their business interests\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Frost Investments LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"39W933323\", \"39W933324\", \"39W933328\", \"39W933335\", \"39W933311\"],\n      \"claims\": \"Frost Investments, LLC (Florida Document #L08000080461) was filed on Aug. 22, 2008 and remains an active entity ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)). Its registered agent and managing member is Julie B. Frost, located at a Fort Myers, Florida address ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)). This company’s activity is focused on holding real estate, with no operational business presence in Louisiana (no local offices or employees identified) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Document%20Number%20L08000080461%20FEI%2FEIN%20Number,10%2F27%2F2021%20Event%20Effective%20Date%20NONE)) ([search.sunbiz.org](https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=flal-l08000080461-298df489-48fa-457c-a721-96614b43bbd7&directionType=ForwardList&inquirytype=EntityName&listNameOrder=FROSTINK+L150000608500&searchNameOrder=FROSTINVESTMENTS+L080000804610&searchTerm=FROST+METAL+FRAMING+#:~:text=Registered%20Agent%20Name%20%26%20Address,FROST%2C%20JULIE%20BLOCKER)).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Out-of-state speculator; no local employment or community engagement\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Future resale profit\", \"Land value appreciation\"],\n      \"approach_recommendations\": \"Engage owner (Julie Frost) with a buyout or partnership offer emphasizing financial gain; expect decisions driven solely by ROI\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

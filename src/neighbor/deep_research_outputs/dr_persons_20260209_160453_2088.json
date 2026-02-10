@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-02-09T16:04:53.208941",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Orleans Parish",
+    "state": "LA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Neither neighbor has a documented stance for or against development or clean energy projects. Both individuals are private citizens with relatively low influence in local affairs, as neither holds any public or leadership position in the community.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Glen R Bynum",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W933332"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Glen Bynum has operated more than 20 clubs in Baton Rouge dating back to the 1970s [Baton Rouge Business Report](https://www.businessreport.com/article/glens-returns-to-baton-rouge). Bynum, 80, resides in Baton Rouge and is not a local Orleans Parish resident [MenStoppingViolence](https://www.menstoppingviolence.org/people/glen-bynum/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Baton Rouge entrepreneur; non-local landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a business-savvy local contact reach out, emphasizing the project’s positive economic impact and reassuring him that his property value will be protected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Richard Stevens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "39W933325"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Richard “Richie” Stevens Sr., 79, was a lifelong resident of the New Orleans area and spent 42 years working for The Times-Picayune newspaper [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-stevens-obituary?id=60517272). He held no public office or civic leadership roles; his obituary highlights family life and personal hobbies rather than any community positions [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-stevens-obituary?id=60517272).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired local newspaperman; no official roles",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Involve a trusted neighbor or community leader to reassure him that the development will not disrupt the quiet, family-oriented community he cherishes."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Neither neighbor has a documented stance for or against development or clean energy projects. Both individuals are private citizens with relatively low influence in local affairs, as neither holds any public or leadership position in the community.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Glen R Bynum\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"39W933332\"],\n      \"claims\": \"Glen Bynum has operated more than 20 clubs in Baton Rouge dating back to the 1970s [Baton Rouge Business Report](https://www.businessreport.com/article/glens-returns-to-baton-rouge). Bynum, 80, resides in Baton Rouge and is not a local Orleans Parish resident [MenStoppingViolence](https://www.menstoppingviolence.org/people/glen-bynum/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Baton Rouge entrepreneur; non-local landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a business-savvy local contact reach out, emphasizing the project’s positive economic impact and reassuring him that his property value will be protected.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Richard Stevens\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"39W933325\"],\n      \"claims\": \"Richard “Richie” Stevens Sr., 79, was a lifelong resident of the New Orleans area and spent 42 years working for The Times-Picayune newspaper [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-stevens-obituary?id=60517272). He held no public office or civic leadership roles; his obituary highlights family life and personal hobbies rather than any community positions [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-stevens-obituary?id=60517272).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Retired local newspaperman; no official roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\"],\n        \"engage\": \"Involve a trusted neighbor or community leader to reassure him that the development will not disrupt the quiet, family-oriented community he cherishes.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
