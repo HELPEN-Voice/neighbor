@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbor Screens</title>
+    
+    <!-- Self-hosted fonts for Playwright -->
+    <style>
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+        @font-face { font-family:"Inter"; src:url("fonts/Inter-Variable.woff2") format("woff2"); font-weight:300 700; font-style:normal; font-display:swap; }
+    </style>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 16:9 slide system */
+        @page { size: 10in 5.625in; margin: 0; }
+        html, body { width: 10in; height: 5.625in; margin: 0; }
+
+        body.slides {
+            background: #F1F5F9;
+            font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            counter-reset: link-counter;
+        }
+        
+        /* Brand (adjust to Helpen brand kit) */
+        :root{
+            --hp-navy:#0B1D3A;
+            --hp-accent:#007BFF;
+            --hp-bg:#F1F5F9;
+            --font-main: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            --text-dark: #0B1D3A;
+        }
+        
+        /* One "slide" per page */
+        .slide {
+            width: 10in; height: 5.625in; 
+            display: grid; 
+            grid-template-rows: 0.9in auto 0.5in;  /* header / content / footer */
+            padding: 0.4in 0.25in;
+            box-sizing: border-box;
+            page-break-after: always;
+            background: #fff;
+        }
+        .slide:last-of-type { page-break-after: auto; }
+        
+        /* Safe header/footer bars */
+        .slide .header {
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .slide .footer {
+            display:flex; align-items:center; justify-content:space-between;
+            font-size: 10pt; color:#475569;
+        }
+        
+        /* Fix headings (remove over-tracking; use tight caps) */
+        h1, h2 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;        /* was too large; keep subtle */
+            font-family: 'DM Sans', Inter, sans-serif;
+            color: var(--hp-navy);
+        }
+        .cover h1 { font-size: 40pt; line-height: 1.05; }
+        .cover h2 { font-size: 16pt; font-weight: 500; letter-spacing: 0.01em; }
+        .summary h2, .table h2 { font-size: 18pt; }
+        .table h2 { font-size: 18pt; color: var(--hp-navy); font-family: 'DM Sans', Inter, sans-serif; }
+        
+        /* Tables - exact copy from diligence */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px; /* Reduced from 30px by 50% */
+            margin-bottom: 30px; /* Ensure padding from bottom */
+            page-break-inside: auto;
+            table-layout: fixed; /* Enforce specified column widths */
+        }
+        
+        th {
+            background-color: #F7F9FB;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.08in 0.1in;
+            font-size: 7pt;
+            border-bottom: 2px solid #E2E8F0;
+            font-family: var(--font-main);
+            color: var(--text-dark);
+        }
+        
+        td {
+            padding: 0.06in 0.1in;
+            border-bottom: 1px solid #F1F5F9;
+            vertical-align: top;
+            line-height: 1.4;
+            font-size: 7pt;
+        }
+        
+        /* Page break rules to prevent row splitting */
+        tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+        
+        thead {
+            display: table-header-group; /* Repeat header on new pages */
+        }
+        
+        tfoot {
+            display: table-footer-group;
+        }
+        
+        .table-wrapper {
+            overflow: visible;
+            page-break-inside: auto;
+        }
+        
+        /* Ensure proper page breaking for multi-page tables */
+        .content {
+            padding-bottom: 30px; /* Ensure content doesn't touch bottom */
+        }
+        
+        /* Citation circles */
+        .citation-circle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #E5E7EB;
+            border-radius: 50%;
+            font-size: 6px;
+            color: #6B7280;
+            text-align: center;
+            line-height: 10px;
+            vertical-align: super;
+            text-decoration: none;
+            margin-left: 2px;
+            cursor: pointer;
+        }
+
+        .citation-circle:hover {
+            background-color: #D1D5DB;
+        }
+
+        /* Section grouping to prevent H3+summary+table separation */
+        .section-group {
+            page-break-inside: auto;
+            break-inside: auto;
+        }
+
+        /* Prevent Organizations H3 and summary from separating */
+        .organizations-header-group {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        .section-summary {
+            background: #F7F9FB;
+            padding: 0.1in 0.15in;
+            border-radius: 4px;
+            margin: 10px 0 15px 0;
+            border-left: 2px solid #007BFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 8pt;
+            color: #0B1D3A;
+            line-height: 1.4;
+        }
+
+        /* Print color adjustment and page break rules */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background: #fff !important; /* Ensure white background on all pages */
+            }
+            
+            /* Ensure all pages have white background */
+            @page {
+                background: #fff;
+                margin: 0;
+            }
+            
+            /* Let tables break cleanly */
+            table { page-break-before: auto; page-break-after: auto; page-break-inside: auto; }
+            tr    { page-break-inside: avoid; page-break-after: auto; }
+            
+            /* Repeat headers; don't try to margin them */
+            thead { display: table-header-group; margin-top: 0 !important; }
+            
+            /* ✅ Add 25px only on follow-on pages of this block */
+            .content {
+                padding-top: 25px;                 /* the spacer you want */
+                margin-top: -5px;                  /* small adjustment to not overlap header */
+                -webkit-box-decoration-break: clone;
+                box-decoration-break: clone;       /* clone padding on each page fragment */
+                overflow: visible;                 /* ensure the block can fragment in print */
+                background: #fff !important;       /* Ensure content has white background */
+            }
+            
+            .slide {
+                padding-bottom: 30px !important;
+                background: #fff !important;       /* Force white background on slides */
+            }
+        }
+
+        /* Automatic link numbering for citations */
+        a {
+            font-size: 0;
+            counter-increment: link-counter;
+        }
+
+        a::after {
+            content: counter(link-counter);
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #F7F9FB;
+            color: #0B1D3A;
+            text-align: center;
+            line-height: 10px;
+            font-size: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 1px;
+            vertical-align: super;
+        }
+
+        /* Influence badges */
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 6.5pt;
+            font-weight: 500;
+        }
+        .badge-high {
+            background: rgba(59, 130, 246, 0.15);
+            color: #2563EB;
+        }
+        .badge-medium {
+            background: rgba(249, 115, 22, 0.15);
+            color: #EA580C;
+        }
+        .badge-low {
+            color: #64748B;
+        }
+
+        /* Stance text colors */
+        .stance-support {
+            color: #16A34A;
+        }
+        .stance-opposed {
+            color: #DC2626;
+        }
+        .stance-unknown {
+            color: #64748B;
+        }
+    </style>
+</head>
+<body class="slides">
+    <section class="slide table">
+        
+        <!-- Header area -->
+        <div class="header" style="padding-bottom: 10px;">
+            <div class="header-left">
+                <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" style="height:0.35in; width:auto; display: block;" />
+                <div style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 10pt; color: #007BFF; text-transform: uppercase; letter-spacing: 0.15em; display: flex; align-items: center; gap: 0.1in; margin-top: 30px;">
+                    <div style="width: 0.25in; height: 1px; background: #007BFF; opacity: 0.5;"></div>
+                    NEIGHBOR SCREENS
+                </div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-size: 9pt; color: #0B1D3A; font-weight: 600; margin-bottom: 6px;">Analyzed:</div>
+                <div style="font-size: 8pt; color: #64748B; line-height: 1.3;">
+                    
+                    
+                    <div>16 Residents</div>
+                    <div>4 Entities</div>
+                    <div style="margin-top: 8px; padding: 6px 0; border-top: 1px solid #E2E8F0; font-size: 7pt; color: #94A3B8; line-height: 1.4; background: rgba(255,255,255,0.9); position: relative; z-index: 10;">
+                        <div style="margin-bottom: 2px;">Adj. = Adjacent Parcel</div>
+                        <div>C = Confidence in Sources</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content area - Tables -->
+        <div class="content" style="overflow-x: auto; margin-top: 15px;">
+            
+            
+            
+            
+            
+            <!-- Residents Section -->
+            <div class="section-group">
+                <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Residents</h3>
+                
+                <!--  -->
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 3%;">#</th>
+                            <th style="width: 9%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 11%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 31%;">Claims</th>
+                            <th style="width: 10%;">Stance</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">52-7</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Mildred R Tandy</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Mildred Rodgers Tandy was a resident of Princeton, Caldwell County, who passed away on June 22, 2023, in Marietta, Georgia <a href="https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642" target="_blank">Carmichael Funeral Homes</a>. She is buried at Eddy Creek Church Cemetery in Caldwell County <a href="https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642" target="_blank">Carmichael Funeral Homes</a>. The property is likely currently held by her estate; she was survived by her daughter, Karen Tandy Priest, and son-in-law Michael Joseph Quilling <a href="https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642" target="_blank">Carmichael Funeral Homes</a>. The Tandy family name has longstanding roots in the area, evidenced by local geography such as Tandy Road <a href="https://www.zillow.com/homedetails/Tandy-Rd-Princeton-KY-42445/306506788_zpid/" target="_blank">Zillow</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy.
+
+Contact the estate executor or next of kin (Karen Tandy Priest). Approach with condolences and respect for the family's historical connection to the land.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">52-8, 53-6</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>Dana K Hartigan</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Dana K. Hartigan is a member of a long-standing agricultural family in Caldwell County; he is the son of the late Earl H. Hartigan (died 2011) and Leta Hartigan <a href="https://www.lakelandchapel.com/obituaries/Earl-H-Hartigan?obId=1104125" target="_blank">Lakeland Funeral Home</a>. The Hartigan family has a multigenerational farming presence in the Princeton area, and Dana's uncle, Robert Hartigan, was also a prominent local farmer until his passing in 2014 <a href="https://www.lakelandchapel.com/obituaries/Robert-Hartigan?obId=1104047" target="_blank">Morgan's Funeral Home</a>. Dana Hartigan is listed as a resident of Caldwell County alongside his wife, Denice <a href="https://www.lakelandchapel.com/obituaries/Earl-H-Hartigan?obId=1104125" target="_blank">Lakeland Funeral Home</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy, farmland_preservation.
+
+Engage via trusted agricultural community members (e.g., Farm Bureau) familiar to the family. Acknowledge the family's farming history established by his father Earl and uncle Robert.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">52-4B, 66-23</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Trevor G Gilkey</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Trevor G. Gilkey is the owner of Hillview Farms and a prominent agricultural leader in Caldwell County (<a href="https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful" target="_blank">UK Research News</a>). As of July 2025, he serves as the Chairman of the Caldwell County Agricultural Development Council (<a href="https://www.kyagr.com/agpolicy/documents/ADF_Councils_Plans_CALDWELL.pdf" target="_blank">KY Dept of Agriculture</a>). He collaborates directly with the University of Kentucky on crop research projects conducted on his land (<a href="https://static1.squarespace.com/static/5978fe84e6f2e1988eea3db9/t/5a05c8b341920264153b6f35/1510328501390/Fall+Research+2017-w.pdf" target="_blank">UK Grain Science</a>). Following the 2021 tornado, Gilkey used his equipment to assist the UK Research and Education Center with debris clearing and water hauling (<a href="https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful" target="_blank">UK Research News</a>). He is a recipient of federal farm commodity subsidies (<a href="https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky" target="_blank">EWG Farm Subsidy Database</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">farmland_preservation, heritage_family_legacy, local_control.
+
+Engage him as a peer and community leader; acknowledge his role as Ag Council Chairman and his research partnerships. Frame the project as compatible with the county's agricultural development goals.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;"></td>
+                            <td style="font-size: 6.5pt;">52-7B</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Misty Browning</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Misty Browning has a minimal digital footprint in Caldwell County. Her only documented local interaction is a personal condolence message left for a Princeton resident in 2016 (<a href="https://www.lakelandchapel.com/obituaries/Bob-Stephenson?obId=1104021" target="_blank">Lakeland Funeral Home</a>). She does not appear in current county agricultural leadership roles or civic board listings. A Misty Lynn Browning of Kentucky passed away in 2021, though it is unverified if this is the same individual or a different party (<a href="https://www.dignitymemorial.com/en-ca/obituaries/lagrange-ky/misty-browning-10025394" target="_blank">Dignity Memorial</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Unknown</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Verify current ownership status of the parcel immediately, as public records are inconclusive or suggest the owner may be deceased. Approach with standard project information.</td>
+                            <td>L</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">9</td>
+                            <td style="font-size: 6.5pt;">52-16, 52-7A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Charles Wesley Prince</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Charles Wesley 'Chuck' Prince (1937–2025) was a lifelong Caldwell County machinist and farmer known for his work ethic and community involvement (<a href="https://www.morgansfuneralhome.com/obituaries/Charles-Wesley-Prince?obId=45788939" target="_blank">Morgan's Funeral Home</a>). He served as a military policeman in the U.S. Army and was a longtime member of Eddy Creek Baptist Church (<a href="https://www.legacy.com/us/obituaries/times-leader/name/charles-prince-obituary?id=59675178" target="_blank">Legacy</a>). He passed away in October 2025, leaving his estate to his widow, Wanda Sue Prince (<a href="https://www.morgansfuneralhome.com/obituaries/Charles-Wesley-Prince?obId=45788939" target="_blank">Morgan's Funeral Home</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy, farmland_preservation.
+
+Coordinate outreach via Prince’s widow, Wanda, acknowledging their family’s deep local roots. Emphasize how the development will respect the land and honor the Prince family’s legacy in the community.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">4</td>
+                            <td style="font-size: 6.5pt;">52-10</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Joe Oden</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Joe Glendal Oden (1940–2025) was a Caldwell County native and U.S. Army veteran who returned home to farm tobacco and served two terms as a deputy sheriff (<a href="https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964" target="_blank">Morgan's Funeral Home</a>). He owned a local auto body shop for many years and was of the Pentecostal faith (<a href="https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964" target="_blank">Morgan's Funeral Home</a>). He passed away in January 2025; his heirs include daughters Kim Futrell and Faith Kell (<a href="https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964" target="_blank">Morgan's Funeral Home</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">farmland_preservation, traffic_safety.
+
+Engage the Oden family (daughters Kim Futrell or Faith Kell) through a mutual community contact who knew Joe. Underscore the project’s commitment to caring for the land and ensuring public safety, reflecting the values he stood for.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">A</td>
+                            <td style="font-size: 6.5pt;">52-4C</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>George Stopplecamp</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">George Earl Stopplecamp is a retired U.S. Army Lieutenant Colonel (LTC) residing in Princeton, KY (<a href="https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412" target="_blank">Lakeland Funeral Chapel</a>). He is the son of the late Carol Anne Higgins Stopplecamp, whose 2018 obituary identified him as a resident of Caldwell County (<a href="https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412" target="_blank">Lakeland Funeral Chapel</a>). No public records of participation in local zoning or development hearings were found.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, aesthetics_viewshed.
+
+Introduce yourself to Mr. Stopplecamp in a respectful, formal manner (acknowledging his military service as a retired LTC). Focus on listening to any concerns he may raise regarding viewsheds or privacy.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">B</td>
+                            <td style="font-size: 6.5pt;">51-23</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Kenneth R. Cortner</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Kenneth R. Cortner is a resident of Caldwell County with family ties to the area; he is the son of the late Mellodean Cortner, a former nurse and member of Trinity United Methodist Church <a href="https://www.lakelandchapel.com/obituaries/Mellodean-Cortner?obId=1103070" target="_blank">Morgan's Funeral Home</a>. He has been active in the local religious community, listed as a member of the Central Presbyterian Church in Princeton as of 2023 <a href="https://s3.amazonaws.com/media.cloversites.com/53/53a08227-5c4e-446a-8b55-0d0d4b995a8e/documents/Newsletter_9-1-23.pdf" target="_blank">Central Presbyterian Church</a>. He holds no known public office or high-profile civic role in Caldwell County, and his name is absent from lists of county officials <a href="https://caldwellcounty.ky.gov/elected-officials/Pages/magistrates.aspx" target="_blank">Caldwell County Gov</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">farmland_preservation, heritage_family_legacy.
+
+Have a respected local farmer or extension agent acknowledge the Cortner family’s long history in the area and discuss how any project plans will respect his farmland and family legacy.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">1</td>
+                            <td style="font-size: 6.5pt;">52-3A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Rickie W. Williams</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Rickie W. Williams is a certified public accountant in Princeton, Kentucky, with the firm Williams Faughn & Associates PLLC <a href="https://projects.propublica.org/nonprofits/organizations/611266893/202342849349201014/full" target="_blank">ProPublica</a>. He holds significant influence in the municipal power sector as the Vice Chairman of the Kentucky Municipal Power Agency (KMPA) and the representative for the Princeton Electric Plant Board <a href="https://www.kmpa.us/about/" target="_blank">KMPA</a>. In his capacity at KMPA, he was part of the leadership team during the execution of a power purchase agreement with the Ashwood Solar I project <a href="https://electricwater.squarespace.com/news-and-updates?offset=1541516352114" target="_blank">Electric Water</a>. Additionally, he serves as a director for First Southern National Bank in Princeton <a href="http://www.kmpa.us/wp-content/uploads/2020/12/KMPA-2019A-O.S..pdf" target="_blank">KMPA</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-support">support</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">property_value, tax_revenue_benefit, local_control.
+
+Engage him with a project representative who can discuss economic impacts. Emphasize local tax revenue benefits and address any concerns about property values or financial details to appeal to his professional perspective.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">5</td>
+                            <td style="font-size: 6.5pt;">52-10A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Holly Michelle Greene</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Holly Michelle Greene is a local property owner and Certified Public Accountant (CPA) based in Princeton <a href="https://advisor-registry.org/certified-public-accountants/kentucky/princeton-ky/holly-greene/824870" target="_blank">CPADirectory</a>. She serves as the Chief Financial Officer (CFO) for Trigg County Public Schools in the neighboring county <a href="https://www.trigg.kyschools.us/departments" target="_blank">Trigg County Schools</a>. In her official role, she regularly presents financial reports and tax rate recommendations to the Board of Education, demonstrating expertise in local tax revenue and budgeting <a href="https://www.wkdzradio.com/2025/08/15/taxes-board-spots-and-construction-a-focus-for-trigg-schools/news-edge/" target="_blank">WKDZ Radio</a>. She has also been listed as a contact for the Lyon County Water District <a href="https://kydlgweb.ky.gov/entities/SPGE_Reports.cfm?Report=DLG-FMA-D01&Entity_ID=2203&FY=2016" target="_blank">DLG Report</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">tax_revenue_benefit, property_value.
+
+Approach via a friendly community liaison or neighbor to build trust. Emphasize measures to preserve the area’s quiet rural character and minimize visual impact, addressing her likely concerns about privacy and views.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">C</td>
+                            <td style="font-size: 6.5pt;">52-13</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Julian Gene Littlepage</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Littlepage is a long-term resident of Princeton, Kentucky, residing at a property on State Route 126 <a href="https://kentucky.ourstates.org/julian-littlepage" target="_blank">Public Record</a>. He recently became a widower following the passing of his wife of 66 years, Patty Littlepage, in August 2024 <a href="https://www.tributearchive.com/obituaries/32612652/patty-littlepage" target="_blank">Obituary</a>. His property is situated near the proposed project area, and historical records indicate he served as President of the Princeton Rotary Club in the 1950s, suggesting deep multi-generational roots in the community <a href="https://files01.core.ac.uk/download/pdf/227566964.pdf" target="_blank">Murray State Archive</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy, privacy_quiet.
+
+Approach with extreme care and empathy regarding the recent loss of his wife (Aug 2024). Frame the conversation around preserving the family legacy and minimizing disturbance to his home.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">6</td>
+                            <td style="font-size: 6.5pt;">52-17A</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Kyle Noffsinger</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Kyle Noffsinger serves as the Senior Pastor of Southside Baptist Church in Princeton, a role he has held since early 2020 <a href="https://www.wkdzradio.com/2020/01/28/cadiz-resident-named-new-pastor-at-princetons-southside-baptist/news-edge/" target="_blank">WKDZ Radio</a>. He is an influential community voice who has publicly expressed strong views on government mandates and religious liberty, notably criticizing state restrictions on churches in 2020 <a href="https://christianindex.org/stories/reactions-vary-from-kentucky-pastors-over-governors-request,5000" target="_blank">Christian Index</a>. He is active in missionary work, organizing pastoral conferences in Haiti <a href="https://www.baptistpress.com/resource-library/news/haitian-churches-not-all-that-different-from-churches-anywhere-kentucky-pastor-says/" target="_blank">Baptist Press</a>. He shares a surname with prominent local business owner Charles 'Mike' Noffsinger (1939–2024), who recently passed away <a href="https://www.legacy.com/us/obituaries/times-leader/name/charles-noffsinger-obituary?id=56319661" target="_blank">Legacy.com</a>.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">local_control, fair_contracting.
+
+Engage as a community leader. Respect his role as a pastor; focus on how the project aligns with community values, local autonomy, and brings tangible benefits to the area without government overreach.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">D</td>
+                            <td style="font-size: 6.5pt;">52-18</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Cody McBride</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">McBride resides at a property on Cadiz Road in Princeton, KY <a href="https://nationalpublicdata.com/people/m/cody-mcbride/" target="_blank">Public Record</a>. His property is situated near the proposed Caldwell Solar project area, and he was included in the notification list for adjacent landowners <a href="https://psc.ky.gov/case/viewcasefilings/2020-00244" target="_blank">Kentucky PSC</a>. There is no public record of him holding civic office or taking a public stance on development projects in Caldwell County.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">privacy_quiet, aesthetics_viewshed.
+
+Invite him to an informal on-site meeting to hear any concerns about construction traffic or visual impacts. Offer solutions like screening vegetation and clear construction schedules.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">7</td>
+                            <td style="font-size: 6.5pt;">52-5</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Steven E. Currier</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Steven E. Currier is the owner of Lusby Heating & Air Conditioning, a business located in Princeton, KY (<a href="https://www.bbb.org/us/ky/princeton/profile/heating-and-air-conditioning/lusby-heating-air-conditioning-0402-6007821" target="_blank">BBB</a>). The business serves Caldwell County and surrounding areas (<a href="https://www.bbb.org/us/ky/princeton/profile/heating-and-air-conditioning/lusby-heating-air-conditioning-0402-6007821" target="_blank">BBB</a>). No public records were found indicating his stance on renewable energy development.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">local_control, fair_contracting.
+
+Acknowledge his role as a local business owner. Approach with respect for his time and commercial ties to the community, focusing on how the project supports the local economy.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">8</td>
+                            <td style="font-size: 6.5pt;">52-4</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Michael S. Wasielewski</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Michael S. Wasielewski is a resident of Princeton, KY, and serves as the Store Manager for Conrad's Food Store in neighboring Marion, KY (<a href="https://the-press.com/ConradsHome.html" target="_blank">The Press</a>). He has managed the store since 2002 and is described as an integral part of the management team (<a href="https://the-press.com/ConradsHome.html" target="_blank">The Press</a>). He is married to Barbara Crump Wasielewski and is the father of the late Katelyn Lauren Wasielewski (<a href="https://www.lakelandchapel.com/obituaries/Katelyn-Lauren-Wasielewski?obId=4487882" target="_blank">Lakeland Chapel</a>). No public statements regarding solar development were found.</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-medium">Medium</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">community_values, local_economy.
+
+Recognize his long-standing role in the regional business community. Approach via a mutual contact if possible, emphasizing the project's alignment with community stability.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">E</td>
+                            <td style="font-size: 6.5pt;">52-9</td>
+                            <td style="text-align: center;">✓</td>
+                            <td><strong>James Carver Bell</strong></td>
+                            <td>Individual</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">James Carver Bell passed away on July 1, 2012 (<a href="https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870" target="_blank">Lakeland Chapel</a>). He was a retired maintenance worker at Ft. Campbell and a member of Southside Baptist Church (<a href="https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870" target="_blank">Lakeland Chapel</a>). The property interest is likely held by his surviving wife, Sue Atwood Bell, who resides in Caldwell County (<a href="https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870" target="_blank">Lakeland Chapel</a>).</td>
+                            <td style="font-size: 6.5pt;" class="stance-unknown">unknown</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">heritage_family_legacy, property_value.
+
+Address correspondence to Sue Atwood Bell. Approach with sensitivity regarding the estate, focusing on legacy and property value preservation.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+            <!-- Organizations Section -->
+            <div class="section-group" style="page-break-before: always;">
+                <div class="organizations-header-group">
+                    <h3 style="font-family: 'DM Sans', sans-serif; font-size: 14pt; color: var(--hp-navy); margin-top: 30px; margin-bottom: 7.5px; font-weight: 600;">Entities</h3>
+                    
+                    <!--  -->
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 3%;">#</th>
+                            <th style="width: 9%;">PINs</th>
+                            <th style="width: 4%;">Adj.</th>
+                            <th style="width: 10%;">Name</th>
+                            <th style="width: 8%;">Type</th>
+                            <th style="width: 31%;">Claims</th>
+                            <th style="width: 6%;">Influence</th>
+                            <th style="width: 11%;">Classification</th>
+                            <th style="width: 14%;">Approach</th>
+                            <th style="width: 4%;">C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">2</td>
+                            <td style="font-size: 6.5pt;">52-6</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Pennyrile Rural Electric Cooperative (R.E.A.)</strong></td>
+                            <td>Utility</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The owner listed as 'R E A' refers to the Rural Electric Administration, known locally as the Pennyrile Rural Electric Cooperative Corporation <a href="https://www.precc.com/https-www-precc-com-wp-content-uploads-2025-11-bylaws-october-2025-pdf/" target="_blank">Pennyrile Electric</a>. Pennyrile Rural Electric has served Caldwell County since the 1940s, with electrical lines extended to the area in 1945 <a href="https://trigghistory.org/highway-markers/" target="_blank">Historical Marker Database</a>. The cooperative maintains active infrastructure easements and construction projects in the region <a href="https://transportation.ky.gov/Construction-Procurement/Proposals/200-CHRISTIAN-11-1024.pdf" target="_blank">KY Transportation Cabinet</a>. This parcel is likely a utility substation or easement rather than a residential property.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt;">municipal</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">traffic_safety, fair_contracting.
+
+Coordinate via technical utility interconnection channels rather than community outreach. This is an infrastructure partner, not a residential stakeholder.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">F</td>
+                            <td style="font-size: 6.5pt;">52-2</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Woodlot Farms LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Woodlot Farms LLC is a Kentucky limited liability company that acquired property at 706 Varmintrace Rd (Parcel 52-2 context) in Caldwell County in October 2022 from the Wallace family (<a href="https://www.homes.com/property/706-varmintrace-rd-princeton-ky/pmk29t3llz18f/" target="_blank">Homes.com</a>). The entity does not appear among top recipients of USDA farm subsidies in the county, consistent with its recent acquisition of the land (<a href="https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky" target="_blank">EWG Farm Subsidy Database</a>). There is no record of political contributions, public statements, or litigation involving Woodlot Farms LLC in Caldwell County, implying a low public profile and no evident stance on local development issues (<a href="https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky" target="_blank">EWG Farm Subsidy Database</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Asset appreciation, Privacy.
+
+Approach as a private land investor; the entity acquired the property recently (2022), suggesting an investment or holding focus rather than long-term historical farming ties.</td>
+                            <td>M</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">3</td>
+                            <td style="font-size: 6.5pt;">52-17</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Gilkey Family (Hillview Farms)</strong></td>
+                            <td>family_farm</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">The Gilkey family, primarily operating as Hillview Farms (Donnie & Trevor Gilkey), is a prominent multigenerational farming entity in Caldwell County (<a href="https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=659013" target="_blank">FMCSA SAFER</a>). Trevor Gilkey is a major row-crop producer (corn, wheat, soybeans, tobacco, hemp) and cattle rancher who has received substantial USDA commodity subsidies over the last three decades (<a href="https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky" target="_blank">EWG Farm Subsidy Database</a>). The family is highly influential and collaborative within the agricultural community; Trevor Gilkey received the University of Kentucky Wheat Science Group Service Award and collaborates extensively with the UK Research and Education Center (UKREC) on irrigation and soil studies (<a href="https://uknow.uky.edu/campus-news/gilkey-receives-uk-wheat-science-group-service-award" target="_blank">UK News</a>). Following the 2021 tornado, Trevor Gilkey used his own heavy equipment to assist in clearing debris at the UKREC facility, demonstrating strong community support and neighborly engagement (<a href="https://news.mgcafe.uky.edu/article/so-special-and-so-effective-uk-research-and-education-center-surrounding-community" target="_blank">University of Kentucky</a>). A family principal, Ronald Gilkey, received a Paycheck Protection Program loan in 2020 to support farm payroll, indicating engagement with federal economic support programs (<a href="https://projects.propublica.org/coronavirus/bailouts/loans/ronald-gilkey-9422258802" target="_blank">ProPublica</a>).</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-high">High</span></td>
+                            <td style="font-size: 6.5pt;">agriculture</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Agricultural preservation, Community welfare, Research/Innovation.
+
+Engage Trevor Gilkey directly; he is a 'good neighbor' with a history of supporting community infrastructure (UKREC cleanup). Frame the project as compatible with advanced land management, similar to his interest in variable rate irrigation and soil conservation.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 7pt; font-weight: 700; text-align: center; color: #0B1D3A;">G</td>
+                            <td style="font-size: 6.5pt;">52-3</td>
+                            <td style="text-align: center;"></td>
+                            <td><strong>Saddle Ridge Farm LLC</strong></td>
+                            <td>llc</td>
+                            <td style="font-size: 6.5pt; line-height: 1.3;">Saddle Ridge Farm LLC is a limited liability company owning parcel 52-3 (3475 Cadiz Rd) in Caldwell County (<a href="https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf" target="_blank">SEC Investment Adviser Public Disclosure</a>). The entity is explicitly disclosed as an investment-related real estate rental business owned by Rickie Wayne Williams, a registered investment adviser based in Princeton, KY (<a href="https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf" target="_blank">SEC Investment Adviser Public Disclosure</a>). Unlike a traditional family farm, this entity functions as a holding vehicle for the owner's real estate investments (<a href="https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf" target="_blank">SEC Investment Adviser Public Disclosure</a>). The organization has not been involved in any notable public disputes or development debates based on available records, implying it has not taken a public stance on local development proposals.</td>
+                            <td style="font-size: 6.5pt;"><span class="badge badge-low">Low</span></td>
+                            <td style="font-size: 6.5pt;">land_investment</td>
+                            <td style="font-size: 6.5pt; white-space: pre-wrap;">Investment return, Property value, Liability protection.
+
+Engage the owner, Rickie Wayne Williams, as a financial professional. Focus discussions on the financial stability of the project and the preservation of land value.</td>
+                            <td>H</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        
+        <!-- Footer area (empty for cleaner look) -->
+        <div class="footer"></div>
+        
+    </section>
+</body>
+</html>

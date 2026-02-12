@@ -156,11 +156,17 @@ class NeighborVerificationManager:
                         print(f"   ✅ {filename}: Verified ({len(result.get('neighbors', []))} profiles)")
                     else:
                         errors.append({"file": filepath, "error": result.get("error", "Unknown")})
-                        print(f"   ❌ {filename}: {result.get('error', 'Failed')}")
+                        # Fall back to original DR profiles
+                        fallback = self._load_dr_profiles(filepath)
+                        all_verified.extend(fallback)
+                        print(f"   ⚠️ {filename}: Verification failed, falling back to DR profiles ({len(fallback)} profiles)")
 
                 except Exception as e:
                     errors.append({"file": filepath, "error": str(e)})
-                    print(f"   ❌ {filename}: Exception - {e}")
+                    # Fall back to original DR profiles
+                    fallback = self._load_dr_profiles(filepath)
+                    all_verified.extend(fallback)
+                    print(f"   ⚠️ {filename}: Exception, falling back to DR profiles ({len(fallback)} profiles) - {e}")
 
         elapsed = (datetime.now() - start_time).total_seconds() / 60
 
@@ -185,6 +191,16 @@ class NeighborVerificationManager:
             },
             "errors": errors,
         }
+
+    @staticmethod
+    def _load_dr_profiles(filepath: str) -> List[Dict[str, Any]]:
+        """Load original DR profiles as fallback when verification fails."""
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            return data.get("neighbors", [])
+        except Exception:
+            return []
 
     def _verify_single_file(
         self,

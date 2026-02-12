@@ -1,0 +1,201 @@
+{
+  "timestamp": "2026-02-11T16:03:25.024263",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260211_154307_3728.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Caldwell County",
+    "state": "KY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Woodlot Farms LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "52-2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Woodlot Farms LLC is a Kentucky limited liability company that acquired property at 706 Varmintrace Rd (Parcel 52-2 context) in Caldwell County in October 2022 from the Wallace family ([Homes.com](https://www.homes.com/property/706-varmintrace-rd-princeton-ky/pmk29t3llz18f/)). The entity does not appear among top recipients of USDA farm subsidies in the county, consistent with its recent acquisition of the land ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)). There is no record of political contributions, public statements, or litigation involving Woodlot Farms LLC in Caldwell County, implying a low public profile and no evident stance on local development issues ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Recent property owner (2022) with no visible business operations or political activity found in county records.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset appreciation",
+          "Privacy"
+        ],
+        "engage": "Approach as a private land investor; the entity acquired the property recently (2022), suggesting an investment or holding focus rather than long-term historical farming ties."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Woodlot Farms LLC is a private landholding entity that acquired property in Caldwell County in 2022. It shows no evidence of active agricultural subsidies or community political involvement.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "acquired property at 706 Varmintrace Rd (Parcel 52-2 context) in Caldwell County in October 2022 from the Wallace family",
+          "url": "https://www.homes.com/property/706-varmintrace-rd-princeton-ky/pmk29t3llz18f/",
+          "title": "706 Varmintrace Rd, Princeton, KY 42445 Property History",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "The entity does not appear among top recipients of USDA farm subsidies in the county",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database - Caldwell County, KY",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "no evident stance on local development issues",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database",
+          "date": "2026-02-11"
+        }
+      ],
+      "verification_notes": "The draft's claim that beneficial owners are unknown remains largely true in public web searches, though the purchase record links to a 2022 transaction. No connection to the 'Woodall Agency' mentioned in some search snippets could be verified. Stance remains unknown."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Gilkey Family (Hillview Farms)",
+      "entity_category": "Organization",
+      "entity_type": "family_farm",
+      "pins": [
+        "52-17"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Gilkey family, primarily operating as Hillview Farms (Donnie & Trevor Gilkey), is a prominent multigenerational farming entity in Caldwell County ([FMCSA SAFER](https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=659013)). Trevor Gilkey is a major row-crop producer (corn, wheat, soybeans, tobacco, hemp) and cattle rancher who has received substantial USDA commodity subsidies over the last three decades ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)). The family is highly influential and collaborative within the agricultural community; Trevor Gilkey received the University of Kentucky Wheat Science Group Service Award and collaborates extensively with the UK Research and Education Center (UKREC) on irrigation and soil studies ([UK News](https://uknow.uky.edu/campus-news/gilkey-receives-uk-wheat-science-group-service-award)). Following the 2021 tornado, Trevor Gilkey used his own heavy equipment to assist in clearing debris at the UKREC facility, demonstrating strong community support and neighborly engagement ([University of Kentucky](https://news.mgcafe.uky.edu/article/so-special-and-so-effective-uk-research-and-education-center-surrounding-community)). A family principal, Ronald Gilkey, received a Paycheck Protection Program loan in 2020 to support farm payroll, indicating engagement with federal economic support programs ([ProPublica](https://projects.propublica.org/coronavirus/bailouts/loans/ronald-gilkey-9422258802)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Trevor Gilkey is a recognized leader in local agriculture, actively partners with the University of Kentucky for research, and provided significant disaster relief support to the community.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural preservation",
+          "Community welfare",
+          "Research/Innovation"
+        ],
+        "engage": "Engage Trevor Gilkey directly; he is a 'good neighbor' with a history of supporting community infrastructure (UKREC cleanup). Frame the project as compatible with advanced land management, similar to his interest in variable rate irrigation and soil conservation."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The Gilkey family (Hillview Farms) are major agricultural operators and community leaders in Princeton. Trevor Gilkey is noted for his collaboration with university researchers and community service following local natural disasters.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": "Renamed from 'Gilkey Farms Inc' to 'Gilkey Family (Hillview Farms)' to avoid confusion with an unrelated cotton farming corporation of the same name in Corcoran, California.",
+      "citations": [
+        {
+          "claim": "primarily operating as Hillview Farms (Donnie & Trevor Gilkey)",
+          "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=659013",
+          "title": "FMCSA SAFER Snapshot: Donnie & Trevor Gilkey / Hillview Farms",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "received substantial USDA commodity subsidies over the last three decades",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database - Caldwell County",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "Trevor Gilkey received the University of Kentucky Wheat Science Group Service Award and collaborates extensively with the UK Research and Education Center (UKREC)",
+          "url": "https://uknow.uky.edu/campus-news/gilkey-receives-uk-wheat-science-group-service-award",
+          "title": "Gilkey receives UK Wheat Science Group Service Award",
+          "date": "2018-01-26"
+        },
+        {
+          "claim": "Trevor Gilkey used his own heavy equipment to assist in clearing debris at the UKREC facility",
+          "url": "https://news.mgcafe.uky.edu/article/so-special-and-so-effective-uk-research-and-education-center-surrounding-community",
+          "title": "UK Research and Education Center Community Impact",
+          "date": "2025-07-25"
+        },
+        {
+          "claim": "received a Paycheck Protection Program loan in 2020",
+          "url": "https://projects.propublica.org/coronavirus/bailouts/loans/ronald-gilkey-9422258802",
+          "title": "ProPublica Tracking PPP: Ronald Gilkey",
+          "date": "2020-04-01"
+        }
+      ],
+      "verification_notes": "The draft identified 'Gilkey Farms Inc' (1959 incorporation) which appears to be a California cotton farm based on research. The correct local entity is 'Hillview Farms' or 'Donnie & Trevor Gilkey'. Financials redacted to qualitative terms."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Saddle Ridge Farm LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "52-3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Saddle Ridge Farm LLC is a limited liability company owning parcel 52-3 (3475 Cadiz Rd) in Caldwell County ([SEC Investment Adviser Public Disclosure](https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf)). The entity is explicitly disclosed as an investment-related real estate rental business owned by Rickie Wayne Williams, a registered investment adviser based in Princeton, KY ([SEC Investment Adviser Public Disclosure](https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf)). Unlike a traditional family farm, this entity functions as a holding vehicle for the owner's real estate investments ([SEC Investment Adviser Public Disclosure](https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf)). The organization has not been involved in any notable public disputes or development debates based on available records, implying it has not taken a public stance on local development proposals.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Entity functions as a private real estate holding vehicle for a financial professional; no evidence of broad community political sway or agricultural operations.",
+      "approach_recommendations": {
+        "motivations": [
+          "Investment return",
+          "Property value",
+          "Liability protection"
+        ],
+        "engage": "Engage the owner, Rickie Wayne Williams, as a financial professional. Focus discussions on the financial stability of the project and the preservation of land value."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Saddle Ridge Farm LLC is a real estate investment holding company owned by a local financial adviser. It is listed as a rental business in regulatory filings.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "owning parcel 52-3 (3475 Cadiz Rd) in Caldwell County",
+          "url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf",
+          "title": "SEC Form ADV Part 2B - Rickie Wayne Williams",
+          "date": "2024-01-16"
+        },
+        {
+          "claim": "investment-related real estate rental business owned by Rickie Wayne Williams",
+          "url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf",
+          "title": "SEC Form ADV Part 2B - Rickie Wayne Williams",
+          "date": "2024-01-16"
+        },
+        {
+          "claim": "functions as a holding vehicle for the owner's real estate investments",
+          "url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf",
+          "title": "SEC Form ADV Part 2B - Rickie Wayne Williams",
+          "date": "2024-01-16"
+        }
+      ],
+      "verification_notes": "Corrected the draft's claim that principals are 'scarce'. SEC filings confirm ownership by Rickie Wayne Williams. Entity reclassified from 'agriculture' to 'land_investment' based on 'Real Estate Rental' disclosure."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 871113,
+    "thinking_count": 35
+  }
+}

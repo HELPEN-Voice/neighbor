@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-02-11T15:40:30.657372",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Caldwell County",
+    "state": "KY",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the three neighboring landowners have taken a public stance on the project, so all are classified as \"unknown\" in outlook. Likewise, none holds an official position or notable influence; there are no high-influence neighbors among this group.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Julian Gene Littlepage",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-13"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Littlepage owns about 80 acres of farmland along Kentucky Route 126 near Princeton [Zillow](https://www.zillow.com/homedetails/2506-State-Highway-126-Princeton-KY-42445/105762183_zpid/) ([www.trulia.com](https://www.trulia.com/home/2506-state-highway-126-princeton-ky-42445-105762183#:~:text=match%20at%20L69%20property%20has,and%20was%20built%20in%201966)). He has been listed at that address since at least 2001 [LocateFamily](https://www.locatefamily.com/L/LIT/LITTLEPAGE-36.html) ([www.locatefamily.com](https://www.locatefamily.com/L/LIT/LITTLEPAGE-36.html#:~:text=Information%20acquired%3A%202001)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime farmer; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farm leader or neighbor meet him in person to discuss how the project can preserve his land’s agricultural legacy while addressing any concerns about the farm’s future."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kyle A. Noffsinger",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-17A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Noffsinger’s land borders the proposed Caldwell Solar site, and he was formally notified as an adjacent property owner during the project’s public outreach [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244) ([psc.ky.gov](https://psc.ky.gov/case/viewcasefilings/2020-00244#:~:text=that%20will%20notify%20the%20public,to%20adjacent%20property%20owners%2C%20Caldwell)). He is part of a longstanding local family; for example, Charles “Mike” Noffsinger (1939–2024) was a lifelong Princeton resident [Times Leader](https://www.legacy.com/us/obituaries/times-leader/name/charles-noffsinger-obituary?id=56319661) ([www.goodmanfuneral.com](https://www.goodmanfuneral.com/obituaries/charles-noffsinger-mike#:~:text=Charles%20Michael%20Noffsinger%20of%20Princeton,with%20love%2C%20creativity%2C%20and%20passion)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident; no civic role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Engage one-on-one at his residence to acknowledge his privacy and property value concerns. Emphasize planned buffers and noise mitigation around his property and offer assurances that the project will not diminish his home’s peace or value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cody McBride",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-18"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McBride’s property is immediately adjacent to the Caldwell Solar project area, meaning he received official notice as a neighboring landowner [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244) ([psc.ky.gov](https://psc.ky.gov/case/viewcasefilings/2020-00244#:~:text=that%20will%20notify%20the%20public,to%20adjacent%20property%20owners%2C%20Caldwell)). No local news or civic records were found that mention McBride’s involvement or views on development ([khsaa.org](https://khsaa.org/wrestling/2008/state/khs2008pr003.htm#:~:text=Consolation%20,10)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed",
+          "traffic_safety"
+        ],
+        "engage": "Invite him to an informal on-site meeting to hear any concerns about construction traffic or visual impacts. Offer solutions like screening vegetation and clear construction schedules to address his worries and build trust through transparency."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the three neighboring landowners have taken a public stance on the project, so all are classified as \\\"unknown\\\" in outlook. Likewise, none holds an official position or notable influence; there are no high-influence neighbors among this group.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Julian Gene Littlepage\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"52-13\"],\n      \"claims\": \"Littlepage owns about 80 acres of farmland along Kentucky Route 126 near Princeton [Zillow](https://www.zillow.com/homedetails/2506-State-Highway-126-Princeton-KY-42445/105762183_zpid/) ([www.trulia.com](https://www.trulia.com/home/2506-state-highway-126-princeton-ky-42445-105762183#:~:text=match%20at%20L69%20property%20has,and%20was%20built%20in%201966)). He has been listed at that address since at least 2001 [LocateFamily](https://www.locatefamily.com/L/LIT/LITTLEPAGE-36.html) ([www.locatefamily.com](https://www.locatefamily.com/L/LIT/LITTLEPAGE-36.html#:~:text=Information%20acquired%3A%202001)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime farmer; no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"heritage_family_legacy\"],\n        \"engage\": \"Have a respected local farm leader or neighbor meet him in person to discuss how the project can preserve his land’s agricultural legacy while addressing any concerns about the farm’s future.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kyle A. Noffsinger\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"52-17A\"],\n      \"claims\": \"Noffsinger’s land borders the proposed Caldwell Solar site, and he was formally notified as an adjacent property owner during the project’s public outreach [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244) ([psc.ky.gov](https://psc.ky.gov/case/viewcasefilings/2020-00244#:~:text=that%20will%20notify%20the%20public,to%20adjacent%20property%20owners%2C%20Caldwell)). He is part of a longstanding local family; for example, Charles “Mike” Noffsinger (1939–2024) was a lifelong Princeton resident [Times Leader](https://www.legacy.com/us/obituaries/times-leader/name/charles-noffsinger-obituary?id=56319661) ([www.goodmanfuneral.com](https://www.goodmanfuneral.com/obituaries/charles-noffsinger-mike#:~:text=Charles%20Michael%20Noffsinger%20of%20Princeton,with%20love%2C%20creativity%2C%20and%20passion)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime resident; no civic role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"property_value\"],\n        \"engage\": \"Engage one-on-one at his residence to acknowledge his privacy and property value concerns. Emphasize planned buffers and noise mitigation around his property and offer assurances that the project will not diminish his home’s peace or value.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Cody McBride\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"52-18\"],\n      \"claims\": \"McBride’s property is immediately adjacent to the Caldwell Solar project area, meaning he received official notice as a neighboring landowner [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244) ([psc.ky.gov](https://psc.ky.gov/case/viewcasefilings/2020-00244#:~:text=that%20will%20notify%20the%20public,to%20adjacent%20property%20owners%2C%20Caldwell)). No local news or civic records were found that mention McBride’s involvement or views on development ([khsaa.org](https://khsaa.org/wrestling/2008/state/khs2008pr003.htm#:~:text=Consolation%20,10)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowner; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"aesthetics_viewshed\", \"traffic_safety\"],\n        \"engage\": \"Invite him to an informal on-site meeting to hear any concerns about construction traffic or visual impacts. Offer solutions like screening vegetation and clear construction schedules to address his worries and build trust through transparency.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

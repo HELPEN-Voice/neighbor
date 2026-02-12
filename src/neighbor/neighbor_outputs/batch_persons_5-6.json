@@ -1,0 +1,119 @@
+{
+  "batch_idx": 4,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Kenneth R. Cortner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "51-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kenneth R. Cortner\u2019s family has longstanding ties to Princeton in Caldwell County (e.g., a relative\u2019s obituary was handled by a local Princeton funeral home) [Morgan\u2019s Funeral Home](https://www.morgansfuneralhome.com/obituaries/Billy-Joe-Cortner?obId=1102543). He holds no known public office or high-profile civic role in Caldwell County, and his name is absent from lists of county officials [Caldwell County Gov](https://caldwellcounty.ky.gov/elected-officials/Pages/magistrates.aspx).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime local landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or extension agent acknowledge the Cortner family\u2019s long history in the area and discuss how any project plans will respect his farmland and family legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Rickie W. Williams",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-3A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rickie W. Williams is a certified public accountant in Princeton, Kentucky, running an accounting practice that serves local individuals and businesses [DoTax Directory](https://www.dotax.com/accountant/kentucky/princeton/rickie-w-williams-cpa/390188). He has years of experience as an IRS-registered tax preparer handling personal and small-business filings in the community [DoTax Directory](https://www.dotax.com/accountant/kentucky/princeton/rickie-w-williams-cpa/390188).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local CPA; business community ties",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Engage him with a project representative who can discuss economic impacts. Emphasize local tax revenue benefits and address any concerns about property values or financial details to appeal to his professional perspective."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Holly Michelle Greene",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-10A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Holly Michelle Greene is identified as a local property owner in Caldwell County, but little information about her background or occupation is publicly documented [Caldwell County Gov](https://caldwellcounty.ky.gov/elected-officials/Pages/magistrates.aspx). She does not hold any known public positions; for example, her name is not found among local board or committee rosters [Caldwell Co. Extension Board](https://caldwellcounty.ky.gov/boards/Pages/county-extension-office-board.aspx).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Approach via a friendly community liaison or neighbor to build trust. Emphasize measures to preserve the area\u2019s quiet rural character and minimize visual impact, addressing her likely concerns about privacy and views."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "All three profiled neighbors have not publicly stated a clear stance on the development, so their positions remain unknown. Community influence among them appears limited \u2013 one neighbor (Rickie W. Williams) has moderate influence as a long-time local CPA, while the others have low public profiles. Their backgrounds range from a long-time local landowner to a tax professional, suggesting varied perspectives and concerns.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153819_7547.json",
+  "cached_at": "2026-02-11T15:38:19.982452"
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "b0e49f41-a6aa-48f1-86ac-052c9af24824",
+  "coordinates": "37.0408,-87.8765",
+  "state_code": "KY",
+  "parcels_analyzed": 29,
+  "community_wealth_proxy": {
+    "valid_samples": 0,
+    "median_structure_value": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
+  },
+  "land_value_proxy": {
+    "valid_samples": 0,
+    "median_value_per_acre": null,
+    "formatted": "N/A",
+    "risk_level": "UNKNOWN",
+    "risk_class": "risk-unknown"
+  },
+  "total_property_value": null,
+  "total_land_value": null,
+  "final_radius_miles": null,
+  "template_variables": {
+    "median_structure_value": "N/A",
+    "wealth_risk_level": "UNKNOWN",
+    "wealth_risk_class": "risk-unknown",
+    "wealth_valid_samples": "0",
+    "median_land_value_acre": "N/A",
+    "land_risk_level": "UNKNOWN",
+    "land_risk_class": "risk-unknown",
+    "land_valid_samples": "0",
+    "parcels_analyzed": "29",
+    "total_property_value": "N/A",
+    "total_land_value": "N/A",
+    "final_radius_miles": "N/A"
+  }
+}

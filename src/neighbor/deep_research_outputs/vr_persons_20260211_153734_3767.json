@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-02-11T15:49:12.926360",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153734_3767.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Caldwell County",
+    "state": "KY",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Trevor G Gilkey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4B",
+        "66-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trevor G. Gilkey is the owner of Hillview Farms and a prominent agricultural leader in Caldwell County ([UK Research News](https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful)). As of July 2025, he serves as the Chairman of the Caldwell County Agricultural Development Council ([KY Dept of Agriculture](https://www.kyagr.com/agpolicy/documents/ADF_Councils_Plans_CALDWELL.pdf)). He collaborates directly with the University of Kentucky on crop research projects conducted on his land ([UK Grain Science](https://static1.squarespace.com/static/5978fe84e6f2e1988eea3db9/t/5a05c8b341920264153b6f35/1510328501390/Fall+Research+2017-w.pdf)). Following the 2021 tornado, Gilkey used his equipment to assist the UK Research and Education Center with debris clearing and water hauling ([UK Research News](https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful)). He is a recipient of federal farm commodity subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Ag Council Chairman; University research partner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Engage him as a peer and community leader; acknowledge his role as Ag Council Chairman and his research partnerships. Frame the project as compatible with the county's agricultural development goals."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Chairman of the Caldwell County Agricultural Development Council as of July 2025",
+          "url": "https://www.kyagr.com/agpolicy/documents/ADF_Councils_Plans_CALDWELL.pdf",
+          "title": "Caldwell County Comprehensive Plan Update July 2025",
+          "date": "2025-07-01"
+        },
+        {
+          "claim": "Collaborates with University of Kentucky on crop research at Hillview Farms",
+          "url": "https://static1.squarespace.com/static/5978fe84e6f2e1988eea3db9/t/5a05c8b341920264153b6f35/1510328501390/Fall+Research+2017-w.pdf",
+          "title": "UK Grain and Forage Center of Excellence Fall Research Report",
+          "date": "2018-01-04"
+        },
+        {
+          "claim": "Assisted UKREC with debris clearing after 2021 tornado",
+          "url": "https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful",
+          "title": "‘So special and so effective’: UK Research and Education Center, community continue impactful partnership",
+          "date": "2025-07-25"
+        },
+        {
+          "claim": "Recipient of federal farm commodity subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database - Caldwell County KY",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Misty Browning",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-7B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Misty Browning has a minimal digital footprint in Caldwell County. Her only documented local interaction is a personal condolence message left for a Princeton resident in 2016 ([Lakeland Funeral Home](https://www.lakelandchapel.com/obituaries/Bob-Stephenson?obId=1104021)). She does not appear in current county agricultural leadership roles or civic board listings. A Misty Lynn Browning of Kentucky passed away in 2021, though it is unverified if this is the same individual or a different party ([Dignity Memorial](https://www.dignitymemorial.com/en-ca/obituaries/lagrange-ky/misty-browning-10025394)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No verifiable public presence found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Verify current ownership status of the parcel immediately, as public records are inconclusive or suggest the owner may be deceased. Approach with standard project information."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Left a condolence message for a Princeton resident in 2016",
+          "url": "https://www.lakelandchapel.com/obituaries/Bob-Stephenson?obId=1104021",
+          "title": "Obituary for Bob Stephenson - Tribute Wall",
+          "date": "2016-07-08"
+        },
+        {
+          "claim": "Misty Lynn Browning of Kentucky passed away in 2021",
+          "url": "https://www.dignitymemorial.com/en-ca/obituaries/lagrange-ky/misty-browning-10025394",
+          "title": "Obituary for Misty Lynn Browning",
+          "date": "2021-01-25"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 419705,
+    "thinking_count": 27
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "batch_idx": 1,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Trevor G Gilkey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4B",
+        "66-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trevor G. Gilkey is a prominent row-crop farmer in Caldwell County, having received about $1.58 million in federal farm commodity subsidies from 1995 through 2024 [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky). He does not hold any known public office or board position locally, as his name is absent from county agricultural or civic leadership listings [Kentucky Farm Bureau \u2013 Caldwell County](https://www.kyfb.com/caldwell/about-us/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Major landowner farmer",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local agriculture figure or extension agent approach him directly, emphasizing how the project can coexist with farming and respect his family\u2019s land legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Misty Browning",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-7B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Misty Browning is a private landowner in Caldwell County with no evident public or civic roles; her name does not appear in county official directories or on local boards [Caldwell County Directory](https://caldwellcounty.ky.gov/phone-directory/Pages/default.aspx). A search of local news and records found no references to her involvement in community or development issues as of 2026 [Kentucky Farm Bureau \u2013 Caldwell County](https://www.kyfb.com/caldwell/about-us/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Minimal public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out with a personal, neighborly visit by a project representative to hear her concerns one-on-one and address any questions, given her low public profile."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "None of the profiled neighbors have made a documented public stance on the proposed development, with both categorized as \"unknown\" in their views. One neighbor is a prominent large-scale farmer in the community, indicating moderate local influence, while the other has a minimal public profile or influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153734_3767.json",
+  "cached_at": "2026-02-11T15:37:34.377827"
+}

@@ -1,0 +1,144 @@
+{
+  "batch_idx": 5,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Julian Gene Littlepage",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-13"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Littlepage owns about 80 acres of farmland along Kentucky Route 126 near Princeton [Zillow](https://www.zillow.com/homedetails/2506-State-Highway-126-Princeton-KY-42445/105762183_zpid/) ([www.trulia.com](https://www.trulia.com/home/2506-state-highway-126-princeton-ky-42445-105762183#:~:text=match%20at%20L69%20property%20has,and%20was%20built%20in%201966)). He has been listed at that address since at least 2001 [LocateFamily](https://www.locatefamily.com/L/LIT/LITTLEPAGE-36.html) ([www.locatefamily.com](https://www.locatefamily.com/L/LIT/LITTLEPAGE-36.html#:~:text=Information%20acquired%3A%202001)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime farmer; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farm leader or neighbor meet him in person to discuss how the project can preserve his land\u2019s agricultural legacy while addressing any concerns about the farm\u2019s future."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kyle A. Noffsinger",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-17A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Noffsinger\u2019s land borders the proposed Caldwell Solar site, and he was formally notified as an adjacent property owner during the project\u2019s public outreach [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244) ([psc.ky.gov](https://psc.ky.gov/case/viewcasefilings/2020-00244#:~:text=that%20will%20notify%20the%20public,to%20adjacent%20property%20owners%2C%20Caldwell)). He is part of a longstanding local family; for example, Charles \u201cMike\u201d Noffsinger (1939\u20132024) was a lifelong Princeton resident [Times Leader](https://www.legacy.com/us/obituaries/times-leader/name/charles-noffsinger-obituary?id=56319661) ([www.goodmanfuneral.com](https://www.goodmanfuneral.com/obituaries/charles-noffsinger-mike#:~:text=Charles%20Michael%20Noffsinger%20of%20Princeton,with%20love%2C%20creativity%2C%20and%20passion)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime resident; no civic role",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Engage one-on-one at his residence to acknowledge his privacy and property value concerns. Emphasize planned buffers and noise mitigation around his property and offer assurances that the project will not diminish his home\u2019s peace or value."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cody McBride",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-18"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McBride\u2019s property is immediately adjacent to the Caldwell Solar project area, meaning he received official notice as a neighboring landowner [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244) ([psc.ky.gov](https://psc.ky.gov/case/viewcasefilings/2020-00244#:~:text=that%20will%20notify%20the%20public,to%20adjacent%20property%20owners%2C%20Caldwell)). No local news or civic records were found that mention McBride\u2019s involvement or views on development ([khsaa.org](https://khsaa.org/wrestling/2008/state/khs2008pr003.htm#:~:text=Consolation%20,10)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; not publicly active",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed",
+          "traffic_safety"
+        ],
+        "engage": "Invite him to an informal on-site meeting to hear any concerns about construction traffic or visual impacts. Offer solutions like screening vegetation and clear construction schedules to address his worries and build trust through transparency."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "None of the three neighboring landowners have taken a public stance on the project, so all are classified as \"unknown\" in outlook. Likewise, none holds an official position or notable influence; there are no high-influence neighbors among this group.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_154030_6573.json",
+  "cached_at": "2026-02-11T15:40:30.658643"
+}

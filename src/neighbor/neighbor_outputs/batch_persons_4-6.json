@@ -1,0 +1,134 @@
+{
+  "batch_idx": 3,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Charles Wesley Prince",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-16",
+        "52-7A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles Wesley 'Chuck' Prince (b. 1937) was a lifelong Caldwell County machinist and farmer, admired for his strong work ethic and sense of community [Times Leader](https://www.legacy.com/us/obituaries/times-leader/name/charles-prince-obituary?id=59675178). He passed away at age 88 in October 2025, ending his long tenure as a local landowner [Times Leader](https://www.legacy.com/us/obituaries/times-leader/name/charles-prince-obituary?id=59675178).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Respected longtime farmer",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Coordinate outreach via Prince\u2019s widow, Wanda, acknowledging their family\u2019s deep local roots. Emphasize how the development will respect the land and honor the Prince family\u2019s legacy in the community."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Joe Oden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-10"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joe Glendal Oden (1940\u20132025) was a Caldwell County native and U.S. Army veteran who returned home to farm tobacco and served two terms as a deputy sheriff ([www.tributearchive.com](https://www.tributearchive.com/obituaries/34543964/joe-glendal-oden#:~:text=in%20Caldwell%20County%2C%20Kentucky,was%20of%20the%20Pentecostal%20Faith)). He also owned a local auto body shop for many years, merging a strong work ethic with his passion for cars ([www.tributearchive.com](https://www.tributearchive.com/obituaries/34543964/joe-glendal-oden#:~:text=tobacco%2C%20volunteering%20on%20the%20rescue,was%20of%20the%20Pentecostal%20Faith)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Ex-deputy sheriff; local businessman",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "traffic_safety"
+        ],
+        "engage": "Engage the Oden family through a mutual community contact (e.g. a fellow farmer or veteran) who knew Joe. Underscore the project\u2019s commitment to caring for the land and ensuring public safety, reflecting the values he stood for."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "George Stopplecamp",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No local records or news accounts place George Stopplecamp in any civic roles or public discussions ([www.lakelandchapel.com](https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412#:~:text=Stopplecamp%20www,Accessibility)). His late wife, Carol, was noted in a Princeton, KY obituary \u2013 indicating the family\u2019s presence in Caldwell County \u2013 but no information on George\u2019s views or activities has been found ([www.lakelandchapel.com](https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412#:~:text=Stopplecamp%20www,Accessibility)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; low profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Introduce yourself to Mr. Stopplecamp in a low-key, personal way (possibly via a neighborly referral). Because his priorities are not publicly known, focus on listening to any concerns he may raise and addressing them one-on-one."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three profiled neighbors have no documented stance on the development, as none have been publicly quoted or recorded on the issue (their positions remain unknown). In terms of community influence, none are current officials; one neighbor (a former deputy sheriff and businessman) held moderate local influence through past service, while the others are known mainly as longstanding residents with low public profiles.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153723_4559.json",
+  "cached_at": "2026-02-11T15:37:23.456786"
+}

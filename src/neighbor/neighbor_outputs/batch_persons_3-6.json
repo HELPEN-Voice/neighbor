@@ -1,0 +1,139 @@
+{
+  "batch_idx": 2,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven E. Currier",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-5"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven E. Currier is identified as a Caldwell County landowner (parcel #52-5), but there are no public reports of him serving in any county boards or speaking at local meetings ([caldwellcounty.ky.gov](https://caldwellcounty.ky.gov/departments/fiscal-court/Pages/fiscal-court-minutes.aspx#:~:text=Download%20,Court%20Minutes%20October%2024%2C%202023)). No mentions of Currier were found in available local media or records, indicating he maintains a low public profile ([caldwellcounty.ky.gov](https://caldwellcounty.ky.gov/departments/fiscal-court/Pages/fiscal-court-minutes.aspx#:~:text=Fiscal%20Court%20Minutes%20February%2027%2C,2024)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with a neighborly, low-key introduction and listen to any concerns he may have, emphasizing respect for his property and privacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Michael S. Wasielewski",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael S. Wasielewski owns parcel #52-4 in Caldwell County, Kentucky ([caldwellcounty.ky.gov](https://caldwellcounty.ky.gov/elected-officials/Pages/property-valuation-administrator.aspx#:~:text=The%20mission%20of%20the%20Caldwell,so%20that%20the%20statutes%20of)). There is no record of Wasielewski participating in local government or media coverage in Caldwell County, suggesting he keeps a very low public profile ([www.wkdzradio.com](https://www.wkdzradio.com/2020/09/08/caldwell-county-reporting-three-new-covid-19-cases/news-edge/#:~:text=Caldwell%20County%20Reporting%20Four%20New,through%2090th%20cases%20since%20the)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or offices",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage one-on-one in a respectful manner, perhaps through a mutual acquaintance or community event, to build trust and understand his perspective quietly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "James Carver Bell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-9"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "James Carver Bell was the owner of parcel #52-9 in Caldwell County ([www.lakelandchapel.com](https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870#:~:text=James%20Carver%20Bell%20Obituary)). A local funeral home obituary for Bell was posted in Princeton, indicating he is deceased ([www.lakelandchapel.com](https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870#:~:text=James%20Carver%20Bell%20Obituary)). There is no evidence that Bell ever made any public statements about development prior to his passing ([caldwellcounty.ky.gov](https://caldwellcounty.ky.gov/departments/fiscal-court/Pages/fiscal-court-minutes.aspx#:~:text=Fiscal%20Court%20Minutes%20December%2028%2C,Court%20Minutes%20October%2024%2C%202023)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Deceased; no recorded stance",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with his estate or surviving family, approaching with condolences and sensitivity. Any engagement should respect the family\u2019s privacy and focus on understanding any legacy concerns for the property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "None of these three adjacent landowners have an openly documented position on development projects, making their stances unknown. All appear to be private residents with no evident public roles, suggesting a generally low level of community influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153819_1017.json",
+  "cached_at": "2026-02-11T15:38:19.102540"
+}

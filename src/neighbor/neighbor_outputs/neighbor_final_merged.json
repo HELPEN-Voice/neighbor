@@ -1,935 +1,1721 @@
 {
-  "neighbors": [],
-  "location_context": "Neighbors within 0.5 mi of 30.0595,-89.88047",
-  "overview_summary": "While zero neighbors were officially profiled for this location, research identified nearby stakeholders including the federal government, private family trusts, and out-of-state investment and construction firms. These entities appear to maintain primarily passive or financial interests in their land holdings, with no documented history of opposition to local development or energy projects. Given the lack of high-influence community leaders or active organizations among those researched, the risk of organized opposition remains low.",
-  "success": true,
-  "runtime_minutes": 14.92,
-  "citations_flat": [
+  "neighbors": [
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Mildred R Tandy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-7"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mildred Rodgers Tandy was a resident of Princeton, Caldwell County, who passed away on June 22, 2023, in Marietta, Georgia [Carmichael Funeral Homes](https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642). She is buried at Eddy Creek Church Cemetery in Caldwell County [Carmichael Funeral Homes](https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642). The property is likely currently held by her estate; she was survived by her daughter, Karen Tandy Priest, and son-in-law Michael Joseph Quilling [Carmichael Funeral Homes](https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642). The Tandy family name has longstanding roots in the area, evidenced by local geography such as Tandy Road [Zillow](https://www.zillow.com/homedetails/Tandy-Rd-Princeton-KY-42445/306506788_zpid/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Owner is deceased (2023); property likely in estate",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Contact the estate executor or next of kin (Karen Tandy Priest). Approach with condolences and respect for the family's historical connection to the land."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Mildred Rodgers Tandy was a resident of Princeton, Caldwell County, who passed away on June 22, 2023, in Marietta, Georgia",
+          "url": "https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642",
+          "title": "Mildred Tandy Obituary",
+          "date": "2023-06-22",
+          "note": null
+        },
+        {
+          "claim": "She is buried at Eddy Creek Church Cemetery in Caldwell County",
+          "url": "https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642",
+          "title": "Mildred Tandy Obituary",
+          "date": "2023-06-22",
+          "note": null
+        },
+        {
+          "claim": "she was survived by her daughter, Karen Tandy Priest, and son-in-law Michael Joseph Quilling",
+          "url": "https://www.carmichaelfuneralhomes.com/obituaries/Mildred-Tandy?obId=28299642",
+          "title": "Mildred Tandy Obituary",
+          "date": "2023-06-22",
+          "note": null
+        },
+        {
+          "claim": "The Tandy family name has longstanding roots in the area, evidenced by local geography such as Tandy Road",
+          "url": "https://www.zillow.com/homedetails/Tandy-Rd-Princeton-KY-42445/306506788_zpid/",
+          "title": "Tandy Rd, Princeton, KY",
+          "date": "2024-01-01",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-03",
+      "name": "Dana K Hartigan",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-8",
+        "53-6"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Dana K. Hartigan is a member of a long-standing agricultural family in Caldwell County; he is the son of the late Earl H. Hartigan (died 2011) and Leta Hartigan [Lakeland Funeral Home](https://www.lakelandchapel.com/obituaries/Earl-H-Hartigan?obId=1104125). The Hartigan family has a multigenerational farming presence in the Princeton area, and Dana's uncle, Robert Hartigan, was also a prominent local farmer until his passing in 2014 [Morgan's Funeral Home](https://www.lakelandchapel.com/obituaries/Robert-Hartigan?obId=1104047). Dana Hartigan is listed as a resident of Caldwell County alongside his wife, Denice [Lakeland Funeral Home](https://www.lakelandchapel.com/obituaries/Earl-H-Hartigan?obId=1104125).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Multigenerational farming family",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Engage via trusted agricultural community members (e.g., Farm Bureau) familiar to the family. Acknowledge the family's farming history established by his father Earl and uncle Robert."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Dana K. Hartigan is a member of a long-standing agricultural family in Caldwell County; he is the son of the late Earl H. Hartigan (died 2011) and Leta Hartigan",
+          "url": "https://www.lakelandchapel.com/obituaries/Earl-H-Hartigan?obId=1104125",
+          "title": "Earl H. Hartigan Obituary",
+          "date": "2011-11-02",
+          "note": null
+        },
+        {
+          "claim": "Dana's uncle, Robert Hartigan, was also a prominent local farmer until his passing in 2014",
+          "url": "https://www.lakelandchapel.com/obituaries/Robert-Hartigan?obId=1104047",
+          "title": "Robert Hartigan Obituary",
+          "date": "2014-01-30",
+          "note": null
+        },
+        {
+          "claim": "Dana Hartigan is listed as a resident of Caldwell County alongside his wife, Denice",
+          "url": "https://www.lakelandchapel.com/obituaries/Earl-H-Hartigan?obId=1104125",
+          "title": "Earl H. Hartigan Obituary",
+          "date": "2011-11-02",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Trevor G Gilkey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4B",
+        "66-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Trevor G. Gilkey is the owner of Hillview Farms and a prominent agricultural leader in Caldwell County ([UK Research News](https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful)). As of July 2025, he serves as the Chairman of the Caldwell County Agricultural Development Council ([KY Dept of Agriculture](https://www.kyagr.com/agpolicy/documents/ADF_Councils_Plans_CALDWELL.pdf)). He collaborates directly with the University of Kentucky on crop research projects conducted on his land ([UK Grain Science](https://static1.squarespace.com/static/5978fe84e6f2e1988eea3db9/t/5a05c8b341920264153b6f35/1510328501390/Fall+Research+2017-w.pdf)). Following the 2021 tornado, Gilkey used his equipment to assist the UK Research and Education Center with debris clearing and water hauling ([UK Research News](https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful)). He is a recipient of federal farm commodity subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Ag Council Chairman; University research partner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Engage him as a peer and community leader; acknowledge his role as Ag Council Chairman and his research partnerships. Frame the project as compatible with the county's agricultural development goals."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Chairman of the Caldwell County Agricultural Development Council as of July 2025",
+          "url": "https://www.kyagr.com/agpolicy/documents/ADF_Councils_Plans_CALDWELL.pdf",
+          "title": "Caldwell County Comprehensive Plan Update July 2025",
+          "date": "2025-07-01",
+          "note": null
+        },
+        {
+          "claim": "Collaborates with University of Kentucky on crop research at Hillview Farms",
+          "url": "https://static1.squarespace.com/static/5978fe84e6f2e1988eea3db9/t/5a05c8b341920264153b6f35/1510328501390/Fall+Research+2017-w.pdf",
+          "title": "UK Grain and Forage Center of Excellence Fall Research Report",
+          "date": "2018-01-04",
+          "note": null
+        },
+        {
+          "claim": "Assisted UKREC with debris clearing after 2021 tornado",
+          "url": "https://research.uky.edu/news/so-special-and-so-effective-uk-research-and-education-center-community-continue-impactful",
+          "title": "‘So special and so effective’: UK Research and Education Center, community continue impactful partnership",
+          "date": "2025-07-25",
+          "note": null
+        },
+        {
+          "claim": "Recipient of federal farm commodity subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database - Caldwell County KY",
+          "date": "2024-01-01",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Misty Browning",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-7B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Misty Browning has a minimal digital footprint in Caldwell County. Her only documented local interaction is a personal condolence message left for a Princeton resident in 2016 ([Lakeland Funeral Home](https://www.lakelandchapel.com/obituaries/Bob-Stephenson?obId=1104021)). She does not appear in current county agricultural leadership roles or civic board listings. A Misty Lynn Browning of Kentucky passed away in 2021, though it is unverified if this is the same individual or a different party ([Dignity Memorial](https://www.dignitymemorial.com/en-ca/obituaries/lagrange-ky/misty-browning-10025394)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No verifiable public presence found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Verify current ownership status of the parcel immediately, as public records are inconclusive or suggest the owner may be deceased. Approach with standard project information."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Left a condolence message for a Princeton resident in 2016",
+          "url": "https://www.lakelandchapel.com/obituaries/Bob-Stephenson?obId=1104021",
+          "title": "Obituary for Bob Stephenson - Tribute Wall",
+          "date": "2016-07-08",
+          "note": null
+        },
+        {
+          "claim": "Misty Lynn Browning of Kentucky passed away in 2021",
+          "url": "https://www.dignitymemorial.com/en-ca/obituaries/lagrange-ky/misty-browning-10025394",
+          "title": "Obituary for Misty Lynn Browning",
+          "date": "2021-01-25",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Charles Wesley Prince",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-16",
+        "52-7A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Charles Wesley 'Chuck' Prince (1937–2025) was a lifelong Caldwell County machinist and farmer known for his work ethic and community involvement ([Morgan's Funeral Home](https://www.morgansfuneralhome.com/obituaries/Charles-Wesley-Prince?obId=45788939)). He served as a military policeman in the U.S. Army and was a longtime member of Eddy Creek Baptist Church ([Legacy](https://www.legacy.com/us/obituaries/times-leader/name/charles-prince-obituary?id=59675178)). He passed away in October 2025, leaving his estate to his widow, Wanda Sue Prince ([Morgan's Funeral Home](https://www.morgansfuneralhome.com/obituaries/Charles-Wesley-Prince?obId=45788939)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Respected local farmer; no political office held",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Coordinate outreach via Prince’s widow, Wanda, acknowledging their family’s deep local roots. Emphasize how the development will respect the land and honor the Prince family’s legacy in the community."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Charles Wesley 'Chuck' Prince (1937–2025) was a lifelong Caldwell County machinist and farmer known for his work ethic and community involvement",
+          "url": "https://www.morgansfuneralhome.com/obituaries/Charles-Wesley-Prince?obId=45788939",
+          "title": "Obituary of Charles Wesley Prince",
+          "date": "2025-10-01",
+          "note": null
+        },
+        {
+          "claim": "He served as a military policeman in the U.S. Army and was a longtime member of Eddy Creek Baptist Church",
+          "url": "https://www.legacy.com/us/obituaries/times-leader/name/charles-prince-obituary?id=59675178",
+          "title": "Charles Prince Obituary - Times Leader",
+          "date": "2025-10-08",
+          "note": null
+        },
+        {
+          "claim": "He passed away in October 2025, leaving his estate to his widow, Wanda Sue Prince",
+          "url": "https://www.morgansfuneralhome.com/obituaries/Charles-Wesley-Prince?obId=45788939",
+          "title": "Obituary of Charles Wesley Prince",
+          "date": "2025-10-01",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Joe Oden",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-10"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joe Glendal Oden (1940–2025) was a Caldwell County native and U.S. Army veteran who returned home to farm tobacco and served two terms as a deputy sheriff ([Morgan's Funeral Home](https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964)). He owned a local auto body shop for many years and was of the Pentecostal faith ([Morgan's Funeral Home](https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964)). He passed away in January 2025; his heirs include daughters Kim Futrell and Faith Kell ([Morgan's Funeral Home](https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Former deputy sheriff; local business owner",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "traffic_safety"
+        ],
+        "engage": "Engage the Oden family (daughters Kim Futrell or Faith Kell) through a mutual community contact who knew Joe. Underscore the project’s commitment to caring for the land and ensuring public safety, reflecting the values he stood for."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Joe Glendal Oden (1940–2025) was a Caldwell County native and U.S. Army veteran who returned home to farm tobacco and served two terms as a deputy sheriff",
+          "url": "https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964",
+          "title": "Obituary of Joe Glendal Oden",
+          "date": "2025-01-15",
+          "note": null
+        },
+        {
+          "claim": "He owned a local auto body shop for many years and was of the Pentecostal faith",
+          "url": "https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964",
+          "title": "Obituary of Joe Glendal Oden",
+          "date": "2025-01-15",
+          "note": null
+        },
+        {
+          "claim": "He passed away in January 2025; his heirs include daughters Kim Futrell and Faith Kell",
+          "url": "https://www.morgansfuneralhome.com/obituaries/Joe-Glendal-Oden?obId=34543964",
+          "title": "Obituary of Joe Glendal Oden",
+          "date": "2025-01-15",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-03",
+      "name": "George Stopplecamp",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "George Earl Stopplecamp is a retired U.S. Army Lieutenant Colonel (LTC) residing in Princeton, KY ([Lakeland Funeral Chapel](https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412)). He is the son of the late Carol Anne Higgins Stopplecamp, whose 2018 obituary identified him as a resident of Caldwell County ([Lakeland Funeral Chapel](https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412)). No public records of participation in local zoning or development hearings were found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired military officer; no civic record found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Introduce yourself to Mr. Stopplecamp in a respectful, formal manner (acknowledging his military service as a retired LTC). Focus on listening to any concerns he may raise regarding viewsheds or privacy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "George Earl Stopplecamp is a retired U.S. Army Lieutenant Colonel (LTC) residing in Princeton, KY",
+          "url": "https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412",
+          "title": "Obituary of Carol Anne Higgins Stopplecamp",
+          "date": "2018-12-04",
+          "note": null
+        },
+        {
+          "claim": "He is the son of the late Carol Anne Higgins Stopplecamp, whose 2018 obituary identified him as a resident of Caldwell County",
+          "url": "https://www.lakelandchapel.com/obituaries/Carol-Anne-Higgins-Stopplecamp?obId=3920412",
+          "title": "Obituary of Carol Anne Higgins Stopplecamp",
+          "date": "2018-12-04",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Kenneth R. Cortner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "51-23"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kenneth R. Cortner is a resident of Caldwell County with family ties to the area; he is the son of the late Mellodean Cortner, a former nurse and member of Trinity United Methodist Church [Morgan's Funeral Home](https://www.lakelandchapel.com/obituaries/Mellodean-Cortner?obId=1103070). He has been active in the local religious community, listed as a member of the Central Presbyterian Church in Princeton as of 2023 [Central Presbyterian Church](https://s3.amazonaws.com/media.cloversites.com/53/53a08227-5c4e-446a-8b55-0d0d4b995a8e/documents/Newsletter_9-1-23.pdf). He holds no known public office or high-profile civic role in Caldwell County, and his name is absent from lists of county officials [Caldwell County Gov](https://caldwellcounty.ky.gov/elected-officials/Pages/magistrates.aspx).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; church member",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected local farmer or extension agent acknowledge the Cortner family’s long history in the area and discuss how any project plans will respect his farmland and family legacy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Kenneth R. Cortner is a resident of Caldwell County... son of the late Mellodean Cortner",
+          "url": "https://www.lakelandchapel.com/obituaries/Mellodean-Cortner?obId=1103070",
+          "title": "Obituary for Mellodean Cortner",
+          "date": "2013-06-30",
+          "note": null
+        },
+        {
+          "claim": "He has been active in the local religious community, listed as a member of the Central Presbyterian Church",
+          "url": "https://s3.amazonaws.com/media.cloversites.com/53/53a08227-5c4e-446a-8b55-0d0d4b995a8e/documents/Newsletter_9-1-23.pdf",
+          "title": "Central Presbyterian Church Newsletter",
+          "date": "2023-08-31",
+          "note": null
+        },
+        {
+          "claim": "his name is absent from lists of county officials",
+          "url": "https://caldwellcounty.ky.gov/elected-officials/Pages/magistrates.aspx",
+          "title": "Caldwell County Elected Officials",
+          "date": "2024-02-11",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Rickie W. Williams",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-3A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rickie W. Williams is a certified public accountant in Princeton, Kentucky, with the firm Williams Faughn & Associates PLLC [ProPublica](https://projects.propublica.org/nonprofits/organizations/611266893/202342849349201014/full). He holds significant influence in the municipal power sector as the Vice Chairman of the Kentucky Municipal Power Agency (KMPA) and the representative for the Princeton Electric Plant Board [KMPA](https://www.kmpa.us/about/). In his capacity at KMPA, he was part of the leadership team during the execution of a power purchase agreement with the Ashwood Solar I project [Electric Water](https://electricwater.squarespace.com/news-and-updates?offset=1541516352114). Additionally, he serves as a director for First Southern National Bank in Princeton [KMPA](http://www.kmpa.us/wp-content/uploads/2020/12/KMPA-2019A-O.S..pdf).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Vice Chair of KMPA; Bank Director",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "tax_revenue_benefit",
+          "local_control"
+        ],
+        "engage": "Engage him with a project representative who can discuss economic impacts. Emphasize local tax revenue benefits and address any concerns about property values or financial details to appeal to his professional perspective."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Rickie W. Williams is a certified public accountant... with the firm Williams Faughn & Associates PLLC",
+          "url": "https://projects.propublica.org/nonprofits/organizations/611266893/202342849349201014/full",
+          "title": "ProPublica Nonprofit Explorer - Form 990",
+          "date": "2023-08-23",
+          "note": null
+        },
+        {
+          "claim": "Vice Chairman of the Kentucky Municipal Power Agency (KMPA) and the representative for the Princeton Electric Plant Board",
+          "url": "https://www.kmpa.us/about/",
+          "title": "KMPA About Us - Board of Directors",
+          "date": "2024-02-11",
+          "note": null
+        },
+        {
+          "claim": "part of the leadership team during the execution of a power purchase agreement with the Ashwood Solar I project",
+          "url": "https://electricwater.squarespace.com/news-and-updates?offset=1541516352114",
+          "title": "KyMEA Board of Directors Approves Solar Project",
+          "date": "2018-08-23",
+          "note": null
+        },
+        {
+          "claim": "serves as a director for First Southern National Bank in Princeton",
+          "url": "http://www.kmpa.us/wp-content/uploads/2020/12/KMPA-2019A-O.S..pdf",
+          "title": "KMPA Series 2019A Official Statement",
+          "date": "2019-09-11",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-03",
+      "name": "Holly Michelle Greene",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-10A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Holly Michelle Greene is a local property owner and Certified Public Accountant (CPA) based in Princeton [CPADirectory](https://advisor-registry.org/certified-public-accountants/kentucky/princeton-ky/holly-greene/824870). She serves as the Chief Financial Officer (CFO) for Trigg County Public Schools in the neighboring county [Trigg County Schools](https://www.trigg.kyschools.us/departments). In her official role, she regularly presents financial reports and tax rate recommendations to the Board of Education, demonstrating expertise in local tax revenue and budgeting [WKDZ Radio](https://www.wkdzradio.com/2025/08/15/taxes-board-spots-and-construction-a-focus-for-trigg-schools/news-edge/). She has also been listed as a contact for the Lyon County Water District [DLG Report](https://kydlgweb.ky.gov/entities/SPGE_Reports.cfm?Report=DLG-FMA-D01&Entity_ID=2203&FY=2016).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "School CFO; CPA; Water District contact",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "property_value"
+        ],
+        "engage": "Approach via a friendly community liaison or neighbor to build trust. Emphasize measures to preserve the area’s quiet rural character and minimize visual impact, addressing her likely concerns about privacy and views."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Certified Public Accountant (CPA) based in Princeton",
+          "url": "https://advisor-registry.org/certified-public-accountants/kentucky/princeton-ky/holly-greene/824870",
+          "title": "CPA Directory - Holly Greene",
+          "date": "2024-02-11",
+          "note": null
+        },
+        {
+          "claim": "serves as the Chief Financial Officer (CFO) for Trigg County Public Schools",
+          "url": "https://www.trigg.kyschools.us/departments",
+          "title": "Trigg County Schools Departments",
+          "date": "2024-02-11",
+          "note": null
+        },
+        {
+          "claim": "presents financial reports and tax rate recommendations to the Board of Education",
+          "url": "https://www.wkdzradio.com/2025/08/15/taxes-board-spots-and-construction-a-focus-for-trigg-schools/news-edge/",
+          "title": "Taxes, Board Spots And Construction A Focus For Trigg Schools",
+          "date": "2025-08-15",
+          "note": null
+        },
+        {
+          "claim": "listed as a contact for the Lyon County Water District",
+          "url": "https://kydlgweb.ky.gov/entities/SPGE_Reports.cfm?Report=DLG-FMA-D01&Entity_ID=2203&FY=2016",
+          "title": "Department for Local Government SPGE Report",
+          "date": "2016-01-15",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Julian Gene Littlepage",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-13"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Littlepage is a long-term resident of Princeton, Kentucky, residing at a property on State Route 126 [Public Record](https://kentucky.ourstates.org/julian-littlepage). He recently became a widower following the passing of his wife of 66 years, Patty Littlepage, in August 2024 [Obituary](https://www.tributearchive.com/obituaries/32612652/patty-littlepage). His property is situated near the proposed project area, and historical records indicate he served as President of the Princeton Rotary Club in the 1950s, suggesting deep multi-generational roots in the community [Murray State Archive](https://files01.core.ac.uk/download/pdf/227566964.pdf).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Elderly resident; historical leadership roles (Rotary) but no current active civic leadership found.",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "privacy_quiet"
+        ],
+        "engage": "Approach with extreme care and empathy regarding the recent loss of his wife (Aug 2024). Frame the conversation around preserving the family legacy and minimizing disturbance to his home."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Elderly widower and long-time resident with deep historical ties to Princeton civic organizations.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Littlepage is a long-term resident of Princeton, Kentucky, residing at a property on State Route 126",
+          "url": "https://kentucky.ourstates.org/julian-littlepage",
+          "title": "Julian Gene Littlepage Public Record",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "He recently became a widower following the passing of his wife of 66 years, Patty Littlepage, in August 2024",
+          "url": "https://www.tributearchive.com/obituaries/32612652/patty-littlepage",
+          "title": "Patty Littlepage Obituary",
+          "date": "2024-08-06",
+          "note": null
+        },
+        {
+          "claim": "historical records indicate he served as President of the Princeton Rotary Club in the 1950s",
+          "url": "https://files01.core.ac.uk/download/pdf/227566964.pdf",
+          "title": "Princeton Leader Archives",
+          "date": "1950-07-01",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Kyle Noffsinger",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-17A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kyle Noffsinger serves as the Senior Pastor of Southside Baptist Church in Princeton, a role he has held since early 2020 [WKDZ Radio](https://www.wkdzradio.com/2020/01/28/cadiz-resident-named-new-pastor-at-princetons-southside-baptist/news-edge/). He is an influential community voice who has publicly expressed strong views on government mandates and religious liberty, notably criticizing state restrictions on churches in 2020 [Christian Index](https://christianindex.org/stories/reactions-vary-from-kentucky-pastors-over-governors-request,5000). He is active in missionary work, organizing pastoral conferences in Haiti [Baptist Press](https://www.baptistpress.com/resource-library/news/haitian-churches-not-all-that-different-from-churches-anywhere-kentucky-pastor-says/). He shares a surname with prominent local business owner Charles 'Mike' Noffsinger (1939–2024), who recently passed away [Legacy.com](https://www.legacy.com/us/obituaries/times-leader/name/charles-noffsinger-obituary?id=56319661).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Senior Pastor of a local church; vocal on public policy/religious freedom issues.",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "fair_contracting"
+        ],
+        "engage": "Engage as a community leader. Respect his role as a pastor; focus on how the project aligns with community values, local autonomy, and brings tangible benefits to the area without government overreach."
+      },
+      "entity_classification": "religious",
+      "profile_summary": "Prominent local pastor with a history of vocal advocacy for local control and religious liberty.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": {
+        "candidates": [],
+        "method": [
+          "Differentiated from Kyle A. Noffsinger, an attorney in Indiana. The subject is the Pastor of Southside Baptist in Princeton, KY."
+        ]
+      },
+      "citations": [
+        {
+          "claim": "Kyle Noffsinger serves as the Senior Pastor of Southside Baptist Church in Princeton, a role he has held since early 2020",
+          "url": "https://www.wkdzradio.com/2020/01/28/cadiz-resident-named-new-pastor-at-princetons-southside-baptist/news-edge/",
+          "title": "Cadiz Resident Named New Pastor At Princeton's Southside Baptist",
+          "date": "2020-01-28",
+          "note": null
+        },
+        {
+          "claim": "He is an influential community voice who has publicly expressed strong views on government mandates and religious liberty",
+          "url": "https://christianindex.org/stories/reactions-vary-from-kentucky-pastors-over-governors-request,5000",
+          "title": "Reactions vary from Kentucky pastors over governor's request",
+          "date": "2020-12-02",
+          "note": null
+        },
+        {
+          "claim": "He is active in missionary work, organizing pastoral conferences in Haiti",
+          "url": "https://www.baptistpress.com/resource-library/news/haitian-churches-not-all-that-different-from-churches-anywhere-kentucky-pastor-says/",
+          "title": "Haitian churches not all that different from churches anywhere, Kentucky pastor says",
+          "date": "2024-08-14",
+          "note": null
+        },
+        {
+          "claim": "He shares a surname with prominent local business owner Charles 'Mike' Noffsinger (1939–2024), who recently passed away",
+          "url": "https://www.legacy.com/us/obituaries/times-leader/name/charles-noffsinger-obituary?id=56319661",
+          "title": "Charles Noffsinger Obituary",
+          "date": "2024-09-18",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-03",
+      "name": "Cody McBride",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-18"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "McBride resides at a property on Cadiz Road in Princeton, KY [Public Record](https://nationalpublicdata.com/people/m/cody-mcbride/). His property is situated near the proposed Caldwell Solar project area, and he was included in the notification list for adjacent landowners [Kentucky PSC](https://psc.ky.gov/case/viewcasefilings/2020-00244). There is no public record of him holding civic office or taking a public stance on development projects in Caldwell County.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no public leadership roles identified.",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Invite him to an informal on-site meeting to hear any concerns about construction traffic or visual impacts. Offer solutions like screening vegetation and clear construction schedules."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Private resident living adjacent to the project area with no documented public engagement history.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "McBride resides at a property on Cadiz Road in Princeton, KY",
+          "url": "https://nationalpublicdata.com/people/m/cody-mcbride/",
+          "title": "Cody McBride Public Record",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "he was included in the notification list for adjacent landowners",
+          "url": "https://psc.ky.gov/case/viewcasefilings/2020-00244",
+          "title": "Kentucky PSC Case Filings 2020-00244",
+          "date": "2022-04-08",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Steven E. Currier",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-5"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven E. Currier is the owner of Lusby Heating & Air Conditioning, a business located in Princeton, KY ([BBB](https://www.bbb.org/us/ky/princeton/profile/heating-and-air-conditioning/lusby-heating-air-conditioning-0402-6007821)). The business serves Caldwell County and surrounding areas ([BBB](https://www.bbb.org/us/ky/princeton/profile/heating-and-air-conditioning/lusby-heating-air-conditioning-0402-6007821)). No public records were found indicating his stance on renewable energy development.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local business owner (Lusby Heating & Air)",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "fair_contracting"
+        ],
+        "engage": "Acknowledge his role as a local business owner. Approach with respect for his time and commercial ties to the community, focusing on how the project supports the local economy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Steven E. Currier is the owner of Lusby Heating & Air Conditioning, a business located in Princeton, KY",
+          "url": "https://www.bbb.org/us/ky/princeton/profile/heating-and-air-conditioning/lusby-heating-air-conditioning-0402-6007821",
+          "title": "Lusby Heating & Air Conditioning BBB Profile",
+          "date": "2024-05-15",
+          "note": null
+        },
+        {
+          "claim": "The business serves Caldwell County and surrounding areas",
+          "url": "https://www.bbb.org/us/ky/princeton/profile/heating-and-air-conditioning/lusby-heating-air-conditioning-0402-6007821",
+          "title": "Lusby Heating & Air Conditioning BBB Profile",
+          "date": "2024-05-15",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Michael S. Wasielewski",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-4"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael S. Wasielewski is a resident of Princeton, KY, and serves as the Store Manager for Conrad's Food Store in neighboring Marion, KY ([The Press](https://the-press.com/ConradsHome.html)). He has managed the store since 2002 and is described as an integral part of the management team ([The Press](https://the-press.com/ConradsHome.html)). He is married to Barbara Crump Wasielewski and is the father of the late Katelyn Lauren Wasielewski ([Lakeland Chapel](https://www.lakelandchapel.com/obituaries/Katelyn-Lauren-Wasielewski?obId=4487882)). No public statements regarding solar development were found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Manager of prominent local grocery store",
+      "approach_recommendations": {
+        "motivations": [
+          "community_values",
+          "local_economy"
+        ],
+        "engage": "Recognize his long-standing role in the regional business community. Approach via a mutual contact if possible, emphasizing the project's alignment with community stability."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Serves as the Store Manager for Conrad's Food Store in neighboring Marion, KY",
+          "url": "https://the-press.com/ConradsHome.html",
+          "title": "Conrad's Food Store History",
+          "date": "2024-05-15",
+          "note": null
+        },
+        {
+          "claim": "He has managed the store since 2002",
+          "url": "https://the-press.com/ConradsHome.html",
+          "title": "Conrad's Food Store History",
+          "date": "2024-05-15",
+          "note": null
+        },
+        {
+          "claim": "He is married to Barbara Crump Wasielewski and is the father of the late Katelyn Lauren Wasielewski",
+          "url": "https://www.lakelandchapel.com/obituaries/Katelyn-Lauren-Wasielewski?obId=4487882",
+          "title": "Obituary of Katelyn Lauren Wasielewski",
+          "date": "2019-06-14",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-03",
+      "name": "James Carver Bell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "52-9"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "James Carver Bell passed away on July 1, 2012 ([Lakeland Chapel](https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870)). He was a retired maintenance worker at Ft. Campbell and a member of Southside Baptist Church ([Lakeland Chapel](https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870)). The property interest is likely held by his surviving wife, Sue Atwood Bell, who resides in Caldwell County ([Lakeland Chapel](https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Deceased; estate/spouse holds interest",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "property_value"
+        ],
+        "engage": "Address correspondence to Sue Atwood Bell. Approach with sensitivity regarding the estate, focusing on legacy and property value preservation."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "James Carver Bell passed away on July 1, 2012",
+          "url": "https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870",
+          "title": "Obituary of James Carver Bell",
+          "date": "2012-07-01",
+          "note": null
+        },
+        {
+          "claim": "He was a retired maintenance worker at Ft. Campbell and a member of Southside Baptist Church",
+          "url": "https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870",
+          "title": "Obituary of James Carver Bell",
+          "date": "2012-07-01",
+          "note": null
+        },
+        {
+          "claim": "The property interest is likely held by his surviving wife, Sue Atwood Bell, who resides in Caldwell County",
+          "url": "https://www.lakelandchapel.com/obituaries/James-Carver-Bell?obId=1102870",
+          "title": "Obituary of James Carver Bell",
+          "date": "2012-07-01",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Pennyrile Rural Electric Cooperative (R.E.A.)",
+      "entity_category": "Organization",
+      "entity_type": "Utility",
+      "pins": [
+        "52-6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The owner listed as 'R E A' refers to the Rural Electric Administration, known locally as the Pennyrile Rural Electric Cooperative Corporation [Pennyrile Electric](https://www.precc.com/https-www-precc-com-wp-content-uploads-2025-11-bylaws-october-2025-pdf/). Pennyrile Rural Electric has served Caldwell County since the 1940s, with electrical lines extended to the area in 1945 [Historical Marker Database](https://trigghistory.org/highway-markers/). The cooperative maintains active infrastructure easements and construction projects in the region [KY Transportation Cabinet](https://transportation.ky.gov/Construction-Procurement/Proposals/200-CHRISTIAN-11-1024.pdf). This parcel is likely a utility substation or easement rather than a residential property.",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Regional utility infrastructure owner",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "fair_contracting"
+        ],
+        "engage": "Coordinate via technical utility interconnection channels rather than community outreach. This is an infrastructure partner, not a residential stakeholder."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The owner listed as 'R E A' refers to the Rural Electric Administration, known locally as the Pennyrile Rural Electric Cooperative Corporation",
+          "url": "https://www.precc.com/https-www-precc-com-wp-content-uploads-2025-11-bylaws-october-2025-pdf/",
+          "title": "Pennyrile Rural Electric Cooperative Bylaws",
+          "date": "2025-10-01",
+          "note": null
+        },
+        {
+          "claim": "Pennyrile Rural Electric has served Caldwell County since the 1940s, with electrical lines extended to the area in 1945",
+          "url": "https://trigghistory.org/highway-markers/",
+          "title": "Historical Markers - Pennyrile REA",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "The cooperative maintains active infrastructure easements and construction projects in the region",
+          "url": "https://transportation.ky.gov/Construction-Procurement/Proposals/200-CHRISTIAN-11-1024.pdf",
+          "title": "KY Transportation Cabinet Proposal - Pennyrile Rural Electric",
+          "date": "2011-05-20",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-01",
+      "name": "Woodlot Farms LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "52-2"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Woodlot Farms LLC is a Kentucky limited liability company that acquired property at 706 Varmintrace Rd (Parcel 52-2 context) in Caldwell County in October 2022 from the Wallace family ([Homes.com](https://www.homes.com/property/706-varmintrace-rd-princeton-ky/pmk29t3llz18f/)). The entity does not appear among top recipients of USDA farm subsidies in the county, consistent with its recent acquisition of the land ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)). There is no record of political contributions, public statements, or litigation involving Woodlot Farms LLC in Caldwell County, implying a low public profile and no evident stance on local development issues ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Recent property owner (2022) with no visible business operations or political activity found in county records.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset appreciation",
+          "Privacy"
+        ],
+        "engage": "Approach as a private land investor; the entity acquired the property recently (2022), suggesting an investment or holding focus rather than long-term historical farming ties."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Woodlot Farms LLC is a private landholding entity that acquired property in Caldwell County in 2022. It shows no evidence of active agricultural subsidies or community political involvement.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "acquired property at 706 Varmintrace Rd (Parcel 52-2 context) in Caldwell County in October 2022 from the Wallace family",
+          "url": "https://www.homes.com/property/706-varmintrace-rd-princeton-ky/pmk29t3llz18f/",
+          "title": "706 Varmintrace Rd, Princeton, KY 42445 Property History",
+          "date": "2026-02-11",
+          "note": null
+        },
+        {
+          "claim": "The entity does not appear among top recipients of USDA farm subsidies in the county",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database - Caldwell County, KY",
+          "date": "2026-02-11",
+          "note": null
+        },
+        {
+          "claim": "no evident stance on local development issues",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database",
+          "date": "2026-02-11",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-02",
+      "name": "Gilkey Family (Hillview Farms)",
+      "entity_category": "Organization",
+      "entity_type": "family_farm",
+      "pins": [
+        "52-17"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Gilkey family, primarily operating as Hillview Farms (Donnie & Trevor Gilkey), is a prominent multigenerational farming entity in Caldwell County ([FMCSA SAFER](https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=659013)). Trevor Gilkey is a major row-crop producer (corn, wheat, soybeans, tobacco, hemp) and cattle rancher who has received substantial USDA commodity subsidies over the last three decades ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky)). The family is highly influential and collaborative within the agricultural community; Trevor Gilkey received the University of Kentucky Wheat Science Group Service Award and collaborates extensively with the UK Research and Education Center (UKREC) on irrigation and soil studies ([UK News](https://uknow.uky.edu/campus-news/gilkey-receives-uk-wheat-science-group-service-award)). Following the 2021 tornado, Trevor Gilkey used his own heavy equipment to assist in clearing debris at the UKREC facility, demonstrating strong community support and neighborly engagement ([University of Kentucky](https://news.mgcafe.uky.edu/article/so-special-and-so-effective-uk-research-and-education-center-surrounding-community)). A family principal, Ronald Gilkey, received a Paycheck Protection Program loan in 2020 to support farm payroll, indicating engagement with federal economic support programs ([ProPublica](https://projects.propublica.org/coronavirus/bailouts/loans/ronald-gilkey-9422258802)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Trevor Gilkey is a recognized leader in local agriculture, actively partners with the University of Kentucky for research, and provided significant disaster relief support to the community.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural preservation",
+          "Community welfare",
+          "Research/Innovation"
+        ],
+        "engage": "Engage Trevor Gilkey directly; he is a 'good neighbor' with a history of supporting community infrastructure (UKREC cleanup). Frame the project as compatible with advanced land management, similar to his interest in variable rate irrigation and soil conservation."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The Gilkey family (Hillview Farms) are major agricultural operators and community leaders in Princeton. Trevor Gilkey is noted for his collaboration with university researchers and community service following local natural disasters.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": {
+        "candidates": [],
+        "method": [
+          "Renamed from 'Gilkey Farms Inc' to 'Gilkey Family (Hillview Farms)' to avoid confusion with an unrelated cotton farming corporation of the same name in Corcoran, California."
+        ]
+      },
+      "citations": [
+        {
+          "claim": "primarily operating as Hillview Farms (Donnie & Trevor Gilkey)",
+          "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=659013",
+          "title": "FMCSA SAFER Snapshot: Donnie & Trevor Gilkey / Hillview Farms",
+          "date": "2026-02-11",
+          "note": null
+        },
+        {
+          "claim": "received substantial USDA commodity subsidies over the last three decades",
+          "url": "https://farm.ewg.org/top_recips.php?fips=21033&progcode=totalfarm&regionname=CaldwellCounty,Kentucky",
+          "title": "EWG Farm Subsidy Database - Caldwell County",
+          "date": "2026-02-11",
+          "note": null
+        },
+        {
+          "claim": "Trevor Gilkey received the University of Kentucky Wheat Science Group Service Award and collaborates extensively with the UK Research and Education Center (UKREC)",
+          "url": "https://uknow.uky.edu/campus-news/gilkey-receives-uk-wheat-science-group-service-award",
+          "title": "Gilkey receives UK Wheat Science Group Service Award",
+          "date": "2018-01-26",
+          "note": null
+        },
+        {
+          "claim": "Trevor Gilkey used his own heavy equipment to assist in clearing debris at the UKREC facility",
+          "url": "https://news.mgcafe.uky.edu/article/so-special-and-so-effective-uk-research-and-education-center-surrounding-community",
+          "title": "UK Research and Education Center Community Impact",
+          "date": "2025-07-25",
+          "note": null
+        },
+        {
+          "claim": "received a Paycheck Protection Program loan in 2020",
+          "url": "https://projects.propublica.org/coronavirus/bailouts/loans/ronald-gilkey-9422258802",
+          "title": "ProPublica Tracking PPP: Ronald Gilkey",
+          "date": "2020-04-01",
+          "note": null
+        }
+      ]
     },
     {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
+      "neighbor_id": "N-03",
+      "name": "Saddle Ridge Farm LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "52-3"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Saddle Ridge Farm LLC is a limited liability company owning parcel 52-3 (3475 Cadiz Rd) in Caldwell County ([SEC Investment Adviser Public Disclosure](https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf)). The entity is explicitly disclosed as an investment-related real estate rental business owned by Rickie Wayne Williams, a registered investment adviser based in Princeton, KY ([SEC Investment Adviser Public Disclosure](https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf)). Unlike a traditional family farm, this entity functions as a holding vehicle for the owner's real estate investments ([SEC Investment Adviser Public Disclosure](https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf)). The organization has not been involved in any notable public disputes or development debates based on available records, implying it has not taken a public stance on local development proposals.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Entity functions as a private real estate holding vehicle for a financial professional; no evidence of broad community political sway or agricultural operations.",
+      "approach_recommendations": {
+        "motivations": [
+          "Investment return",
+          "Property value",
+          "Liability protection"
+        ],
+        "engage": "Engage the owner, Rickie Wayne Williams, as a financial professional. Focus discussions on the financial stability of the project and the preservation of land value."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Saddle Ridge Farm LLC is a real estate investment holding company owned by a local financial adviser. It is listed as a rental business in regulatory filings.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "owning parcel 52-3 (3475 Cadiz Rd) in Caldwell County",
+          "url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf",
+          "title": "SEC Form ADV Part 2B - Rickie Wayne Williams",
+          "date": "2024-01-16",
+          "note": null
+        },
+        {
+          "claim": "investment-related real estate rental business owned by Rickie Wayne Williams",
+          "url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf",
+          "title": "SEC Form ADV Part 2B - Rickie Wayne Williams",
+          "date": "2024-01-16",
+          "note": null
+        },
+        {
+          "claim": "functions as a holding vehicle for the owner's real estate investments",
+          "url": "https://reports.adviserinfo.sec.gov/reports/individual/individual_2989433.pdf",
+          "title": "SEC Form ADV Part 2B - Rickie Wayne Williams",
+          "date": "2024-01-16",
+          "note": null
+        }
+      ]
     }
   ],
+  "location_context": "Neighbors within 0.5 mi of 37.0408,-87.8765",
+  "overview_summary": null,
+  "success": true,
+  "runtime_minutes": 10.15,
+  "citations_flat": [],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_160712_4516.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_160453_2088.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260209_160746_1088.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260209_160646_4844.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_165405_7977.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260209_165119_3051.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153816_9688.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153734_3767.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153819_1017.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153723_4559.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_153819_7547.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_154030_6573.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260211_154307_3728.json"
   ],
   "city": null,
-  "county": "Orleans Parish",
-  "state": "LA",
-  "run_id": "374485b0-6bd2-4829-b2c6-88590d78c3e1",
-  "target_pin": "39W909549",
+  "county": "Caldwell County",
+  "state": "KY",
+  "run_id": "b0e49f41-a6aa-48f1-86ac-052c9af24824",
+  "target_pin": "52-7",
   "target_parcel_info": {
-    "pin": "39W909549",
+    "pin": "52-7",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -89.865143,
-            30.1039005
+            -87.87958,
+            37.0413885
           ],
           [
-            -89.864393,
-            30.1053275
+            -87.879673,
+            37.0407265
           ],
           [
-            -89.8641525,
-            30.106196
+            -87.8805715,
+            37.04082
           ],
           [
-            -89.864049,
-            30.1070465
+            -87.880866,
+            37.04081
           ],
           [
-            -89.864107,
-            30.10774
+            -87.880773,
+            37.0388685
           ],
           [
-            -89.8641895,
-            30.1083155
+            -87.8805445,
+            37.037405
           ],
           [
-            -89.865035,
-            30.1112355
+            -87.880366,
+            37.0364625
           ],
           [
-            -89.8652495,
-            30.112109
+            -87.879938,
+            37.0349135
           ],
           [
-            -89.865568,
-            30.113687
+            -87.879725,
+            37.0349715
           ],
           [
-            -89.8658335,
-            30.115749
+            -87.878835,
+            37.035043
           ],
           [
-            -89.866086,
-            30.1178655
+            -87.8781305,
+            37.039269
           ],
           [
-            -89.873737,
-            30.118948
+            -87.8742805,
+            37.03902
           ],
           [
-            -89.876747,
-            30.127657
+            -87.873864,
+            37.0417085
           ],
           [
-            -89.880342,
-            30.123186
+            -87.8809195,
+            37.0432055
           ],
           [
-            -89.886107,
-            30.1167845
+            -87.8809015,
+            37.042663
           ],
           [
-            -89.886182,
-            30.1166755
+            -87.879435,
+            37.042416
           ],
           [
-            -89.8882215,
-            30.1143935
-          ],
-          [
-            -89.889039,
-            30.1134735
-          ],
-          [
-            -89.8901325,
-            30.112243
-          ],
-          [
-            -89.8904475,
-            30.1116395
-          ],
-          [
-            -89.8909135,
-            30.110749
-          ],
-          [
-            -89.8908375,
-            30.1100545
-          ],
-          [
-            -89.890482,
-            30.1093345
-          ],
-          [
-            -89.889981,
-            30.1083215
-          ],
-          [
-            -89.890387,
-            30.106933
-          ],
-          [
-            -89.8901235,
-            30.1066495
-          ],
-          [
-            -89.8901755,
-            30.1062515
-          ],
-          [
-            -89.8903435,
-            30.1060525
-          ],
-          [
-            -89.8905075,
-            30.106163
-          ],
-          [
-            -89.8909265,
-            30.1056655
-          ],
-          [
-            -89.8916215,
-            30.1060955
-          ],
-          [
-            -89.8918115,
-            30.1059495
-          ],
-          [
-            -89.8923255,
-            30.1048835
-          ],
-          [
-            -89.894256,
-            30.1054665
-          ],
-          [
-            -89.896396,
-            30.1047745
-          ],
-          [
-            -89.8968795,
-            30.1042495
-          ],
-          [
-            -89.8998455,
-            30.10102
-          ],
-          [
-            -89.9000005,
-            30.100843
-          ],
-          [
-            -89.9020735,
-            30.098472
-          ],
-          [
-            -89.904207,
-            30.09602
-          ],
-          [
-            -89.9048585,
-            30.095263
-          ],
-          [
-            -89.9055375,
-            30.093754
-          ],
-          [
-            -89.905358,
-            30.09303
-          ],
-          [
-            -89.904239,
-            30.091159
-          ],
-          [
-            -89.9045345,
-            30.0895495
-          ],
-          [
-            -89.904327,
-            30.0891355
-          ],
-          [
-            -89.903971,
-            30.0888725
-          ],
-          [
-            -89.9041535,
-            30.088646
-          ],
-          [
-            -89.9042345,
-            30.088549
-          ],
-          [
-            -89.9045085,
-            30.088221
-          ],
-          [
-            -89.9050655,
-            30.08863
-          ],
-          [
-            -89.9053915,
-            30.088873
-          ],
-          [
-            -89.906419,
-            30.088187
-          ],
-          [
-            -89.9084355,
-            30.0886165
-          ],
-          [
-            -89.9089985,
-            30.088799
-          ],
-          [
-            -89.9093735,
-            30.0889205
-          ],
-          [
-            -89.9115545,
-            30.0882635
-          ],
-          [
-            -89.912375,
-            30.0873305
-          ],
-          [
-            -89.913149,
-            30.08645
-          ],
-          [
-            -89.917966,
-            30.080978
-          ],
-          [
-            -89.9127855,
-            30.077525
-          ],
-          [
-            -89.906629,
-            30.073377
-          ],
-          [
-            -89.906445,
-            30.0732565
-          ],
-          [
-            -89.9062575,
-            30.073141
-          ],
-          [
-            -89.9060665,
-            30.0730295
-          ],
-          [
-            -89.905872,
-            30.072922
-          ],
-          [
-            -89.9056745,
-            30.07282
-          ],
-          [
-            -89.9054735,
-            30.072722
-          ],
-          [
-            -89.9052695,
-            30.0726285
-          ],
-          [
-            -89.9017675,
-            30.0710745
-          ],
-          [
-            -89.901481,
-            30.070944
-          ],
-          [
-            -89.9011985,
-            30.070808
-          ],
-          [
-            -89.9009195,
-            30.070667
-          ],
-          [
-            -89.900644,
-            30.0705205
-          ],
-          [
-            -89.900372,
-            30.070369
-          ],
-          [
-            -89.9001045,
-            30.070212
-          ],
-          [
-            -89.8998405,
-            30.0700505
-          ],
-          [
-            -89.8995805,
-            30.0698835
-          ],
-          [
-            -89.8993255,
-            30.069712
-          ],
-          [
-            -89.899074,
-            30.0695355
-          ],
-          [
-            -89.8988275,
-            30.0693545
-          ],
-          [
-            -89.898586,
-            30.069169
-          ],
-          [
-            -89.8983485,
-            30.0689785
-          ],
-          [
-            -89.8981165,
-            30.068784
-          ],
-          [
-            -89.897889,
-            30.068585
-          ],
-          [
-            -89.8976665,
-            30.0683815
-          ],
-          [
-            -89.8974495,
-            30.068174
-          ],
-          [
-            -89.897238,
-            30.0679625
-          ],
-          [
-            -89.8970315,
-            30.0677475
-          ],
-          [
-            -89.8968305,
-            30.067528
-          ],
-          [
-            -89.896635,
-            30.067305
-          ],
-          [
-            -89.8964455,
-            30.0670785
-          ],
-          [
-            -89.8962615,
-            30.066848
-          ],
-          [
-            -89.8960835,
-            30.0666145
-          ],
-          [
-            -89.8959115,
-            30.0663775
-          ],
-          [
-            -89.8957455,
-            30.0661375
-          ],
-          [
-            -89.8955855,
-            30.065894
-          ],
-          [
-            -89.8954315,
-            30.065648
-          ],
-          [
-            -89.895284,
-            30.065399
-          ],
-          [
-            -89.89248,
-            30.0605395
-          ],
-          [
-            -89.892353,
-            30.0603265
-          ],
-          [
-            -89.89222,
-            30.060116
-          ],
-          [
-            -89.892081,
-            30.059909
-          ],
-          [
-            -89.8919365,
-            30.0597045
-          ],
-          [
-            -89.8917855,
-            30.059503
-          ],
-          [
-            -89.891629,
-            30.0593055
-          ],
-          [
-            -89.8914675,
-            30.059111
-          ],
-          [
-            -89.8913,
-            30.05892
-          ],
-          [
-            -89.891127,
-            30.0587325
-          ],
-          [
-            -89.8909485,
-            30.058549
-          ],
-          [
-            -89.8907655,
-            30.058369
-          ],
-          [
-            -89.8907,
-            30.0583115
-          ],
-          [
-            -89.890631,
-            30.0582575
-          ],
-          [
-            -89.8905575,
-            30.058208
-          ],
-          [
-            -89.8904805,
-            30.0581625
-          ],
-          [
-            -89.8904005,
-            30.0581215
-          ],
-          [
-            -89.890317,
-            30.058085
-          ],
-          [
-            -89.8902315,
-            30.0580535
-          ],
-          [
-            -89.8901435,
-            30.0580265
-          ],
-          [
-            -89.8900535,
-            30.058005
-          ],
-          [
-            -89.8899625,
-            30.0579885
-          ],
-          [
-            -89.8898705,
-            30.0579775
-          ],
-          [
-            -89.889865,
-            30.0579795
-          ],
-          [
-            -89.889675,
-            30.057595
-          ],
-          [
-            -89.887932,
-            30.058395
-          ],
-          [
-            -89.886966,
-            30.058695
-          ],
-          [
-            -89.8858205,
-            30.0585475
-          ],
-          [
-            -89.8851335,
-            30.0583105
-          ],
-          [
-            -89.884505,
-            30.057818
-          ],
-          [
-            -89.8840785,
-            30.057287
-          ],
-          [
-            -89.8834305,
-            30.0559575
-          ],
-          [
-            -89.882747,
-            30.054965
-          ],
-          [
-            -89.881955,
-            30.053985
-          ],
-          [
-            -89.8807695,
-            30.0528385
-          ],
-          [
-            -89.8803255,
-            30.052249
-          ],
-          [
-            -89.8751895,
-            30.0553125
-          ],
-          [
-            -89.8749335,
-            30.055471
-          ],
-          [
-            -89.874788,
-            30.0555615
-          ],
-          [
-            -89.8751505,
-            30.0560035
-          ],
-          [
-            -89.874888,
-            30.0561565
-          ],
-          [
-            -89.874634,
-            30.0563205
-          ],
-          [
-            -89.8742685,
-            30.055893
-          ],
-          [
-            -89.874175,
-            30.0559535
-          ],
-          [
-            -89.874016,
-            30.0560575
-          ],
-          [
-            -89.874402,
-            30.0564785
-          ],
-          [
-            -89.8741545,
-            30.05665
-          ],
-          [
-            -89.873767,
-            30.056227
-          ],
-          [
-            -89.8736765,
-            30.05629
-          ],
-          [
-            -89.8735175,
-            30.056396
-          ],
-          [
-            -89.873894,
-            30.0568405
-          ],
-          [
-            -89.873818,
-            30.056893
-          ],
-          [
-            -89.873666,
-            30.056992
-          ],
-          [
-            -89.8735725,
-            30.0570535
-          ],
-          [
-            -89.873417,
-            30.057166
-          ],
-          [
-            -89.873174,
-            30.0573415
-          ],
-          [
-            -89.8729305,
-            30.057517
-          ],
-          [
-            -89.8725375,
-            30.0570905
-          ],
-          [
-            -89.8723895,
-            30.0571945
-          ],
-          [
-            -89.8718025,
-            30.057616
-          ],
-          [
-            -89.868935,
-            30.0597265
-          ],
-          [
-            -89.8679445,
-            30.0605075
-          ],
-          [
-            -89.8675065,
-            30.060879
-          ],
-          [
-            -89.8671135,
-            30.06131
-          ],
-          [
-            -89.8666275,
-            30.0618395
-          ],
-          [
-            -89.866325,
-            30.0622715
-          ],
-          [
-            -89.8659075,
-            30.0628215
-          ],
-          [
-            -89.8656025,
-            30.063442
-          ],
-          [
-            -89.8651785,
-            30.0644075
-          ],
-          [
-            -89.864872,
-            30.065097
-          ],
-          [
-            -89.8646555,
-            30.0658865
-          ],
-          [
-            -89.8645085,
-            30.066598
-          ],
-          [
-            -89.864182,
-            30.070218
-          ],
-          [
-            -89.864173,
-            30.0702635
-          ],
-          [
-            -89.864608,
-            30.070323
-          ],
-          [
-            -89.864558,
-            30.070646
-          ],
-          [
-            -89.864113,
-            30.0705735
-          ],
-          [
-            -89.863911,
-            30.071611
-          ],
-          [
-            -89.863393,
-            30.0727735
-          ],
-          [
-            -89.862718,
-            30.0737755
-          ],
-          [
-            -89.862071,
-            30.0744415
-          ],
-          [
-            -89.8616595,
-            30.0761005
-          ],
-          [
-            -89.8615355,
-            30.076782
-          ],
-          [
-            -89.861577,
-            30.07704
-          ],
-          [
-            -89.8616405,
-            30.0773575
-          ],
-          [
-            -89.8627265,
-            30.080934
-          ],
-          [
-            -89.8639235,
-            30.08467
-          ],
-          [
-            -89.8660985,
-            30.091575
-          ],
-          [
-            -89.8681845,
-            30.0984
-          ],
-          [
-            -89.868284,
-            30.0993615
-          ],
-          [
-            -89.868157,
-            30.1002705
-          ],
-          [
-            -89.868078,
-            30.100492
-          ],
-          [
-            -89.867848,
-            30.1011385
-          ],
-          [
-            -89.867453,
-            30.101669
-          ],
-          [
-            -89.8667585,
-            30.1024335
-          ],
-          [
-            -89.865861,
-            30.103077
-          ],
-          [
-            -89.865143,
-            30.1039005
+            -87.87958,
+            37.0413885
           ]
         ]
       ]
     },
-    "lat": "30.086818",
-    "lon": "-89.883867",
-    "county_path": "/us/la/orleans/new-orleans"
+    "lat": "37.039780",
+    "lon": "-87.877992",
+    "county_path": "/us/ky/caldwell/princeton"
+  },
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b0e49f41-a6aa-48f1-86ac-052c9af24824_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b0e49f41-a6aa-48f1-86ac-052c9af24824_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Rickie W. Williams</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Pennyrile Rural Electric Cooperative (R.E.A.)</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">Gilkey Family (Hillview Farms)</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Joe Oden</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Holly Michelle Greene</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Kyle Noffsinger</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Steven E. Currier</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">8</td>\n                <td class=\"name\">Michael S. Wasielewski</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_labels": [
+    {
+      "text": "ODEN",
+      "full_name": "Joe Oden",
+      "lon": -87.87852514285714,
+      "lat": 37.033444714285714,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-10"
+    },
+    {
+      "text": "GREENE",
+      "full_name": "Holly Michelle Greene",
+      "lon": -87.87818999999999,
+      "lat": 37.03200555555556,
+      "marker_char": "5",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-10A"
+    },
+    {
+      "text": "NOFFSING",
+      "full_name": "Kyle Noffsinger",
+      "lon": -87.88142930000001,
+      "lat": 37.031158399999995,
+      "marker_char": "6",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-17A"
+    },
+    {
+      "text": "CURRIER",
+      "full_name": "Steven E. Currier",
+      "lon": -87.88248875,
+      "lat": 37.04450166666667,
+      "marker_char": "7",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-5"
+    },
+    {
+      "text": "WASIELEW",
+      "full_name": "Michael S. Wasielewski",
+      "lon": -87.879009475,
+      "lat": 37.0471096,
+      "marker_char": "8",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-4"
+    },
+    {
+      "text": "WILLIAMS",
+      "full_name": "Rickie W. Williams",
+      "lon": -87.88022341666665,
+      "lat": 37.05196491666667,
+      "marker_char": "1",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "52-3A"
+    },
+    {
+      "text": "PENNYRIL",
+      "full_name": "Pennyrile Rural Electric Cooperative (R.E.A.)",
+      "lon": -87.88030825,
+      "lat": 37.041789916666666,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "neutral",
+      "pin": "52-6"
+    },
+    {
+      "text": "GILKEY",
+      "full_name": "Gilkey Family (Hillview Farms)",
+      "lon": -87.8819284090909,
+      "lat": 37.03156831818182,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "52-17"
+    },
+    {
+      "text": "TARGET",
+      "full_name": "PIN: 52-7",
+      "lon": -87.87929311764707,
+      "lat": 37.039475264705885,
+      "marker_char": "t",
+      "color": "FFD700",
+      "is_target": true,
+      "is_adjacent": false,
+      "influence": null,
+      "stance": null,
+      "pin": "52-7"
+    }
+  ],
+  "map_metadata": {
+    "run_id": "b0e49f41-a6aa-48f1-86ac-052c9af24824",
+    "generated_at": "2026-02-11T16:27:44.918058",
+    "stats": {
+      "total_neighbors": 20,
+      "highlighted": 19,
+      "skipped_no_geometry": 4,
+      "skipped_not_highlighted": 1,
+      "by_influence": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 9
+      },
+      "by_stance": {
+        "support": 1,
+        "oppose": 0,
+        "neutral": 1
+      },
+      "adjacent_highlighted": 2,
+      "target_included": true
+    },
+    "strategy_used": "polyline",
+    "url_length": 1876,
+    "parcels_rendered": 18,
+    "labels_count": 9,
+    "settings": {
+      "width": 800,
+      "height": 450,
+      "style": "satellite-streets-v12",
+      "retina": true,
+      "padding": 50
+    }
+  },
+  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b0e49f41-a6aa-48f1-86ac-052c9af24824_map_fullpage.png",
+  "fullpage_map_labels": [
+    {
+      "text": "PRINCE",
+      "full_name": "Charles Wesley Prince",
+      "lon": -87.88263545833333,
+      "lat": 37.03521979166667,
+      "marker_char": "9",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-16"
+    },
+    {
+      "text": "PRINCE",
+      "full_name": "Charles Wesley Prince",
+      "lon": -87.8861353125,
+      "lat": 37.034818,
+      "marker_char": "9",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-7A"
+    },
+    {
+      "text": "STOPPLEC",
+      "full_name": "George Stopplecamp",
+      "lon": -87.8798317,
+      "lat": 37.0486691,
+      "marker_char": "a",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-4C"
+    },
+    {
+      "text": "CORTNER",
+      "full_name": "Kenneth R. Cortner",
+      "lon": -87.88538084,
+      "lat": 37.05329088,
+      "marker_char": "b",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "51-23"
+    },
+    {
+      "text": "LITTLEPA",
+      "full_name": "Julian Gene Littlepage",
+      "lon": -87.86203530769231,
+      "lat": 37.03657726923077,
+      "marker_char": "c",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-13"
+    },
+    {
+      "text": "MCBRIDE",
+      "full_name": "Cody McBride",
+      "lon": -87.87859639999999,
+      "lat": 37.02787135,
+      "marker_char": "d",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-18"
+    },
+    {
+      "text": "BELL",
+      "full_name": "James Carver Bell",
+      "lon": -87.87862305555556,
+      "lat": 37.034602888888884,
+      "marker_char": "e",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-9"
+    },
+    {
+      "text": "WOODLOT",
+      "full_name": "Woodlot Farms LLC",
+      "lon": -87.8818874375,
+      "lat": 37.0474365,
+      "marker_char": "f",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-2"
+    },
+    {
+      "text": "SADDLE",
+      "full_name": "Saddle Ridge Farm LLC",
+      "lon": -87.876457,
+      "lat": 37.0519936875,
+      "marker_char": "g",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "52-3"
+    },
+    {
+      "text": "ODEN",
+      "full_name": "Joe Oden",
+      "lon": -87.87852514285714,
+      "lat": 37.033444714285714,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-10"
+    },
+    {
+      "text": "GREENE",
+      "full_name": "Holly Michelle Greene",
+      "lon": -87.87818999999999,
+      "lat": 37.03200555555556,
+      "marker_char": "5",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-10A"
+    },
+    {
+      "text": "NOFFSING",
+      "full_name": "Kyle Noffsinger",
+      "lon": -87.88142930000001,
+      "lat": 37.031158399999995,
+      "marker_char": "6",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-17A"
+    },
+    {
+      "text": "CURRIER",
+      "full_name": "Steven E. Currier",
+      "lon": -87.88248875,
+      "lat": 37.04450166666667,
+      "marker_char": "7",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-5"
+    },
+    {
+      "text": "WASIELEW",
+      "full_name": "Michael S. Wasielewski",
+      "lon": -87.879009475,
+      "lat": 37.0471096,
+      "marker_char": "8",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "52-4"
+    },
+    {
+      "text": "WILLIAMS",
+      "full_name": "Rickie W. Williams",
+      "lon": -87.88022341666665,
+      "lat": 37.05196491666667,
+      "marker_char": "1",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "support",
+      "pin": "52-3A"
+    },
+    {
+      "text": "PENNYRIL",
+      "full_name": "Pennyrile Rural Electric Cooperative (R.E.A.)",
+      "lon": -87.88030825,
+      "lat": 37.041789916666666,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "neutral",
+      "pin": "52-6"
+    },
+    {
+      "text": "GILKEY",
+      "full_name": "Gilkey Family (Hillview Farms)",
+      "lon": -87.8819284090909,
+      "lat": 37.03156831818182,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "52-17"
+    },
+    {
+      "text": "TARGET",
+      "full_name": "PIN: 52-7",
+      "lon": -87.87929311764707,
+      "lat": 37.039475264705885,
+      "marker_char": "t",
+      "color": "FFD700",
+      "is_target": true,
+      "is_adjacent": false,
+      "influence": null,
+      "stance": null,
+      "pin": "52-7"
+    }
+  ],
+  "fullpage_map_metadata": {
+    "run_id": "b0e49f41-a6aa-48f1-86ac-052c9af24824",
+    "generated_at": "2026-02-11T16:27:45.999250",
+    "stats": {
+      "total_neighbors": 20,
+      "highlighted": 19,
+      "skipped_no_geometry": 4,
+      "skipped_not_highlighted": 1,
+      "by_influence": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 9
+      },
+      "by_stance": {
+        "support": 1,
+        "oppose": 0,
+        "neutral": 1
+      },
+      "adjacent_highlighted": 2,
+      "target_included": true
+    },
+    "strategy_used": "polyline",
+    "labels_count": 18,
+    "settings": {
+      "width": 1280,
+      "height": 720,
+      "style": "satellite-streets-v12",
+      "retina": true,
+      "padding": 80
+    }
   }
 }

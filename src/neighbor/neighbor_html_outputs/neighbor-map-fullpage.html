@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbor Map - Full Page</title>
+
+    <!-- Self-hosted fonts for Playwright -->
+    <style>
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }
+        @font-face { font-family:"DM Sans"; src:url("fonts/DMSans-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+        @font-face { font-family:"Inter"; src:url("fonts/Inter-Variable.woff2") format("woff2"); font-weight:300 700; font-style:normal; font-display:swap; }
+    </style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 16:9 slide system */
+        @page { size: 10in 5.625in; margin: 0; }
+        html, body { width: 10in; height: 5.625in; margin: 0; overflow: hidden; }
+
+        body {
+            background: #F1F5F9;
+            font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        }
+
+        :root {
+            --hp-navy: #0B1D3A;
+            --hp-accent: #007BFF;
+            --hp-bg: #F1F5F9;
+        }
+
+        .slide {
+            width: 10in;
+            height: 5.625in;
+            position: relative;
+            background: var(--hp-bg);
+            overflow: hidden;
+        }
+
+        /* Full-page map image */
+        .map-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.15in;
+        }
+
+        .map-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 4px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Header overlay */
+        .header-overlay {
+            position: absolute;
+            top: 0.2in;
+            left: 0.25in;
+            display: flex;
+            align-items: center;
+            gap: 0.15in;
+            background: rgba(255,255,255,0.95);
+            padding: 0.1in 0.18in;
+            border-radius: 4px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+        }
+
+        .header-overlay img {
+            height: 0.28in;
+            width: auto;
+        }
+
+        .header-title {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 9pt;
+            font-weight: 600;
+            color: var(--hp-navy);
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
+        .header-location {
+            font-size: 7pt;
+            color: #64748B;
+            margin-left: 0.1in;
+            padding-left: 0.1in;
+            border-left: 1px solid #E2E8F0;
+        }
+
+        /* Legend overlay in corner */
+        .legend-overlay {
+            position: absolute;
+            bottom: 0.2in;
+            left: 0.25in;
+            background: rgba(255,255,255,0.95);
+            padding: 0.1in 0.15in;
+            border-radius: 4px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+            display: flex;
+            align-items: center;
+            gap: 0.18in;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.05in;
+            font-size: 6.5pt;
+            color: #475569;
+        }
+
+        .legend-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .legend-divider {
+            width: 1px;
+            height: 12px;
+            background: #E2E8F0;
+        }
+
+        .parcel-count {
+            font-size: 6.5pt;
+            color: #64748B;
+            font-weight: 500;
+        }
+
+        /* Note about table reference */
+        .table-note {
+            position: absolute;
+            bottom: 0.2in;
+            right: 0.25in;
+            background: rgba(255,255,255,0.95);
+            padding: 0.08in 0.12in;
+            border-radius: 4px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+            font-size: 6pt;
+            color: #64748B;
+            font-style: italic;
+        }
+
+        /* Print color adjustment */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="slide">
+        <!-- Full-page map -->
+        <div class="map-container">
+            
+            <img src="b0e49f41-a6aa-48f1-86ac-052c9af24824_map_fullpage.png" alt="Neighbor Map" class="map-image" />
+            
+        </div>
+
+        <!-- Header overlay -->
+        <div class="header-overlay">
+            <img src="Helpen_Logo_Dark_Navy.svg" alt="Helpen Logo" />
+            <span class="header-title">Parcel Map</span>
+            <span class="header-location">Caldwell County, KY &bull; 37.0408,-87.8765</span>
+        </div>
+
+        <!-- Legend overlay -->
+        <div class="legend-overlay">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #FFD700; border: 2px solid #B8860B;"></div>
+                <span>Target</span>
+            </div>
+            <div class="legend-divider"></div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(0, 123, 255, 0.6); border: 1px solid #007BFF;"></div>
+                <span>High</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(249, 115, 22, 0.6); border: 1px solid #F97316;"></div>
+                <span>Medium</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(148, 163, 184, 0.4); border: 1px solid #94A3B8;"></div>
+                <span>Low</span>
+            </div>
+            <div class="legend-divider"></div>
+            <div class="parcel-count">17 parcels</div>
+        </div>
+
+        <!-- Note about table -->
+        <div class="table-note">
+            See # column in neighbor table for parcel reference
+        </div>
+    </section>
+</body>
+</html>
