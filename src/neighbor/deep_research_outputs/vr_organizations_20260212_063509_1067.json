@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-02-12T08:46:16.370250",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_063509_1067.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Farms Holdings LP / Genus LP / Resource Holdings Trust",
+      "entity_category": "Organization",
+      "entity_type": "partnership/trust",
+      "pins": [
+        "40037002A",
+        "40037002B",
+        "40037004A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Genus, L.P. is a California limited partnership formed on October 15, 2002, with a principal address in San Diego and Devcal Corporation (Temecula, CA) listed as its General Partner ([BizProfile](https://www.bizprofile.net/ca/san-diego/genus-l-p)). While the entity holds agricultural parcels in Buckeye, it has demonstrated active engagement in renewable energy markets; Genus LP sold 2,004 acres in Eloy to EDF Renewables Development Inc. for $22.6 million in December (Year TBD based on context, likely recent), indicating a willingness to transact with energy developers ([Rose Law Group](https://www.roselawgroup.com/huge-acreage-assembled-for-renewable-projects-in-pinal-county-court-rich-director-of-rose-law-groups-energy-utility-infrastructure-department-comments-in-pbj-on-the-state-of-energy-in-ar/)). This transaction suggests the entity is not merely a passive holder but actively rotates capital into and out of development-ready land ([Rose Law Group](https://www.roselawgroup.com/areas-of-practice/renewable-energy/)). Beneficial ownership remains obscured through the corporate structure, but the sale to a major renewable developer provides a strong signal of their commercial alignment.",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Low",
+      "influence_justification": "Low – Out-of-state investment entity. While they control significant acreage, their influence is transactional rather than community-based.",
+      "approach_recommendations": {
+        "motivations": [
+          "Return on Investment",
+          "Land Liquidity"
+        ],
+        "engage": "Engage as a commercial partner. The entity has a documented history of selling large tracts to renewable energy developers (EDF Renewables). Approach with a competitive acquisition or option offer, as they are likely motivated by price and deal certainty rather than local community preservation."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Genus, L.P. is a California limited partnership formed on October 15, 2002, with a principal address in San Diego and Devcal Corporation (Temecula, CA) listed as its General Partner",
+          "url": "https://www.bizprofile.net/ca/san-diego/genus-l-p",
+          "title": "Genus L.P. Company Profile - San Diego, CA",
+          "date": "2025-07-15"
+        },
+        {
+          "claim": "Genus LP sold 2,004 acres in Eloy to EDF Renewables Development Inc. for $22.6 million",
+          "url": "https://www.roselawgroup.com/huge-acreage-assembled-for-renewable-projects-in-pinal-county-court-rich-director-of-rose-law-groups-energy-utility-infrastructure-department-comments-in-pbj-on-the-state-of-energy-in-ar/",
+          "title": "Huge acreage assembled for renewable projects in Pinal County",
+          "date": "2026-01-08"
+        },
+        {
+          "claim": "suggests the entity is not merely a passive holder but actively rotates capital",
+          "url": "https://www.roselawgroup.com/areas-of-practice/renewable-energy/",
+          "title": "Rose Law Group Renewable Energy Practice",
+          "date": "2026-01-08"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Hazen Rd Nominee LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40037005H"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hazen Rd Nominee LLC is the deeded owner of land associated with \"Hazen Rentals,\" a 178-unit build-to-rent (BTR) community developed by Fifth Avenue Properties ([Fifth Avenue Properties](https://fifthaveproperties.com/portfolio/hazen-road-buckeye-arizona)). The site plan for this development, located at the NWC of Miller and Hazen roads, was approved by the Buckeye Planning and Zoning Commission in February 2025 ([AZBEX](https://azbex.com/planning-development/buckeye-pz-advances-multiple-projects/)). The property was originally acquired in April 2021 for $7.05 million ([Zillow](https://www.zillow.com/homedetails/26101-W-Hazen-Rd-Buckeye-AZ-85326/92351166_zpid/)). Fifth Avenue Properties, which maintains offices in Canada and Glendale, AZ, describes the project as featuring Spanish-inspired duplex villas and significant community amenities ([Fifth Avenue Properties](https://fifthaveproperties.com/properties/hazen-rentals)). As an active developer of high-density residential housing, this entity is firmly pro-development.",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Medium – Controls a substantial housing project (178 units) approved by the city. As a developer, they have a stake in local infrastructure but may view industrial/energy projects as conflicting with residential appeal.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property Value Protection",
+          "Tenant Appeal"
+        ],
+        "engage": "Coordinate directly with Fifth Avenue Properties. Ensure our project does not negatively impact the visual or noise amenity of their 'Hazen Rentals' community. Framing our project as complementary (e.g., grid stability for their residents) is crucial."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Hazen Rentals,\" a 178-unit build-to-rent (BTR) community developed by Fifth Avenue Properties",
+          "url": "https://fifthaveproperties.com/properties/hazen-rentals",
+          "title": "Hazen Rentals - Fifth Avenue Properties",
+          "date": "2026-02-12"
+        },
+        {
+          "claim": "approved by the Buckeye Planning and Zoning Commission in February 2025",
+          "url": "https://azbex.com/planning-development/buckeye-pz-advances-multiple-projects/",
+          "title": "Buckeye P&Z Advances Multiple Projects",
+          "date": "2025-02-14"
+        },
+        {
+          "claim": "property was originally acquired in April 2021 for $7.05 million",
+          "url": "https://www.zillow.com/homedetails/26101-W-Hazen-Rd-Buckeye-AZ-85326/92351166_zpid/",
+          "title": "26101 W Hazen Rd Price History",
+          "date": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Deancurt Buckeye LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40037005G"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Deancurt Buckeye LLC is linked to Deancurt Realty Group, an investment firm based in Agawam, Massachusetts (21 Ramah Circle) ([Manta](https://www.manta.com/c/mb4mdpf/deancurt-realty-group-inc)). The entity has engaged in active management of its Buckeye assets, including filing civil lawsuits (listed as \"Deancua Buckeye LLC\") for eviction and utility disputes in Maricopa County Justice Courts between 2022 and 2025 ([Maricopa County Justice Courts](https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo?casenumber=CC2022219452000)). In February 2023, the LLC sold a 7.3-acre residential portion of its holdings for $750,000 ([Zillow](https://www.zillow.com/homedetails/27239-W-Hazen-Rd-Buckeye-AZ-85326/92352103_zpid/)). This pattern of acquiring, litigating for management, and selling subdivided parcels characterizes a speculative or active landlord strategy. There is no evidence of opposition to development; rather, the entity appears focused on asset appreciation and liquidation.",
+      "confidence": "medium",
+      "noted_stance": "neutral",
+      "community_influence": "Low",
+      "influence_justification": "Low – Out-of-state speculative owner. Influence is limited to their immediate property rights and legal actions regarding tenancy.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset Liquidation",
+          "Profit Maximization"
+        ],
+        "engage": "Contact the Massachusetts principals (Deancurt Realty Group) with a financial proposal. They are demonstrated sellers (recent 2023 sale) and appear to be managing the property as a remote investment portfolio. They are likely amenable to a buyout or easement if the price is right."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "linked to Deancurt Realty Group, an investment firm based in Agawam, Massachusetts (21 Ramah Circle)",
+          "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0625%5C00154325.Tif&documentNumber=M15000004914",
+          "title": "Deancurt Realty Group Corporate Filing",
+          "date": "2015-06-25"
+        },
+        {
+          "claim": "filing civil lawsuits (listed as \"Deancua Buckeye LLC\") for eviction and utility disputes... between 2022 and 2025",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo?casenumber=CC2022219452000",
+          "title": "Maricopa County Justice Courts Case CC2022219452",
+          "date": "2022-12-15"
+        },
+        {
+          "claim": "In February 2023, the LLC sold a 7.3-acre residential portion of its holdings for $750,000",
+          "url": "https://www.zillow.com/homedetails/27239-W-Hazen-Rd-Buckeye-AZ-85326/92352103_zpid/",
+          "title": "27239 W Hazen Rd Price History",
+          "date": "2026-02-12"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 789566,
+    "thinking_count": 33
+  }
+}

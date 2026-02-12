@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-02-12T08:43:14.718315",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_063815_5685.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Novotny Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "40035009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Novotny Revocable Trust holds title to the property at 25263 W Parkside Ln S in Buckeye, AZ ([LoopNet](https://www.loopnet.com/property/25263-w-parkside-ln-s-buckeye-az-85326/04013-40035009/)). While the trust functions as a private estate planning vehicle, public records indicate an Erin Novotny serves as a Management Assistant for the Buckeye Planning and Zoning Commission ([Maricopa County Minutes](https://www.maricopa.gov/AgendaCenter/ViewFile/Minutes/_07222021-2460)). A definitive legal link between the staff member and this specific trust property could not be confirmed in the available dataset, but the shared surname in the local municipality is noted for context.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "While the trust itself appears private, the potential familial link to Erin Novotny, a Management Assistant for the Buckeye Planning and Zoning Commission, suggests a possible medium level of connection to local municipal processes.",
+      "approach_recommendations": {
+        "motivations": [
+          "Estate planning",
+          "Property value retention"
+        ],
+        "engage": "Engage the trustees with deference to potential municipal connections; verify if the Planning Commission staff member is a beneficiary or trustee to ensure appropriate conflict-of-interest protocols are followed."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Private family trust potentially linked to local municipal planning staff.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Property located at 25263 W Parkside Ln S in Buckeye, AZ",
+          "url": "https://www.loopnet.com/property/25263-w-parkside-ln-s-buckeye-az-85326/04013-40035009/",
+          "title": "LoopNet Property Record 400-35-009",
+          "date": "2024-01-09"
+        },
+        {
+          "claim": "Erin Novotny listed as Management Assistant for Buckeye Planning and Zoning",
+          "url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Minutes/_07222021-2460",
+          "title": "Maricopa County Planning and Zoning Commission Minutes",
+          "date": "2021-07-22"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "LJA SDIRA LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40035008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "LJA SDIRA LLC is an Arizona limited liability company holding parcel 400-35-008 at 25255 W Parkside Ln S ([Redfin](https://www.redfin.com/AZ/Buckeye/25255-W-Parkside-Ln-S-85326/home/27723875)). The entity name suggests a Self-Directed IRA structure. Real estate records link the property to Brad Wood and High Profile Luxury Properties, LLC, suggesting the property is managed or owned by real estate professionals ([Redfin](https://www.redfin.com/AZ/Buckeye/25255-W-Parkside-Ln-S-85326/home/27723875)). Brad Wood is an active real estate agent and investor in the region ([Redfin Agent](https://www.redfin.com/AZ/Buckeye/26163-W-Tonto-Ln-85396/home/27843615)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Real estate investor/agent with transactional interest but no evidence of broad political community leadership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Return on Investment",
+          "Property Management"
+        ],
+        "engage": "Approach via Brad Wood or High Profile Luxury Properties LLC; focus on financial value propositions and compatibility with their investment portfolio."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Investment vehicle linked to local real estate professional Brad Wood.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Property linked to Brad Wood and High Profile Luxury Properties, LLC",
+          "url": "https://www.redfin.com/AZ/Buckeye/25255-W-Parkside-Ln-S-85326/home/27723875",
+          "title": "Redfin Property History 25255 W Parkside Ln S",
+          "date": "2025-12-12"
+        },
+        {
+          "claim": "Brad Wood identified as real estate agent in Buckeye",
+          "url": "https://www.redfin.com/AZ/Buckeye/26163-W-Tonto-Ln-85396/home/27843615",
+          "title": "Redfin Listing Agent Info",
+          "date": "2025-10-30"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mastronardi Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "40035432"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Mastronardi Family Trust owns the property at 25377 W Yanez Ave in Buckeye ([LoopNet](https://www.loopnet.com/property/25377-w-yanez-ave-buckeye-az-85326/04013-40035432/)). The family is deeply integrated into large-scale agriculture, specifically serving as owners and directors of Golden Jem Produce and Red Sun Farms, major greenhouse operators ([Auglaize County Court](https://www2.auglaizecounty.org/sites/default/files/documents/CLAIM%2047%20SUPPLEMENTAL%20SUBMISSION%20OF%20617885%20ONTARIO%20LIMITED.pdf)). The trust has also been listed on permits for other residential construction projects in Buckeye, indicating active development interests ([Maricopa County Permits](https://www.maricopa.gov/Archive.aspx?ADID=4793)). Jamie Mastronardi is a known industry voice in agricultural produce marketing ([Produce Business](https://cdn.producebusiness.com/2016/09/pb-feb-2009.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Significant agricultural business owners with active construction permits in the county; likely have sophisticated understanding of land use.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural Operations",
+          "Development ROI"
+        ],
+        "engage": "Approach as sophisticated commercial operators; discuss potential for agrivoltaics or how the project aligns with their broader agricultural and development interests."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Trust associated with major international greenhouse produce operators (Red Sun Farms/Golden Jem).",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Parcel 400-35-432 located at 25377 W Yanez Ave",
+          "url": "https://www.loopnet.com/property/25377-w-yanez-ave-buckeye-az-85326/04013-40035432/",
+          "title": "LoopNet Property Details",
+          "date": "2025-04-21"
+        },
+        {
+          "claim": "Family owns Golden Jem Produce and Red Sun Farms",
+          "url": "https://www2.auglaizecounty.org/sites/default/files/documents/CLAIM%2047%20SUPPLEMENTAL%20SUBMISSION%20OF%20617885%20ONTARIO%20LIMITED.pdf",
+          "title": "Auglaize County Court Filings - Golden Jem Produce",
+          "date": "2018-11-14"
+        },
+        {
+          "claim": "Trust listed on Buckeye construction permits",
+          "url": "https://www.maricopa.gov/Archive.aspx?ADID=4793",
+          "title": "Maricopa County Permit Archive B201906966",
+          "date": "2019-09-27"
+        },
+        {
+          "claim": "Jamie Mastronardi quoted as VP of Golden Jem Produce",
+          "url": "https://cdn.producebusiness.com/2016/09/pb-feb-2009.pdf",
+          "title": "Produce Business Magazine",
+          "date": "2009-02-02"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 843702,
+    "thinking_count": 48
+  }
+}

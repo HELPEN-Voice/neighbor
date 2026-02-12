@@ -1,0 +1,188 @@
+{
+  "timestamp": "2026-02-12T06:55:29.058121",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_063214_4268.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Parkside At Buckeye Homeowners Association",
+      "entity_category": "Organization",
+      "entity_type": "nonprofit corporation",
+      "pins": [
+        "40035242"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parkside at Buckeye Homeowners Association is an Arizona nonprofit corporation established to govern the Parkside at Buckeye residential subdivision. The HOA is led by an elected board of homeowners, with Anjali Hans currently serving as President, alongside Vice-President Julio Soto and Treasurer Paul Valuch [HOA Parkside Board](https://hoaparkside.com/board/). The association utilizes Associated Asset Management (AAM) as its professional property management company, replacing previous management by Morrison Group [AAM Parkside Portal](https://www.associatedasset.com/update-contact-info/). The association’s activities center on enforcing community rules and maintaining property values, and it has not taken any publicly reported stance on outside development projects.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Represents a single residential subdivision; primary influence is limited to internal community governance and local aesthetics.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the HOA board via President Anjali Hans and the management company (AAM); address residents’ concerns about noise, aesthetics, and property values."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Current Board President is Anjali Hans",
+          "url": "https://hoaparkside.com/board/",
+          "title": "Parkside HOA Board Members",
+          "date": "2025-02-12"
+        },
+        {
+          "claim": "Managed by Associated Asset Management (AAM)",
+          "url": "https://www.associatedasset.com/update-contact-info/",
+          "title": "AAM Community List",
+          "date": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Arizona Public Service Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "40037004B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arizona Public Service Company (APS) is the largest electric utility in Arizona, serving approximately 1.4 million customers statewide [APS About](https://www.aps.com/en/About/Our-Company/About-us). APS is the principal subsidiary of Pinnacle West Capital Corp. and actively develops energy infrastructure in Maricopa County. The utility owns and operates the 10 MW Desert Star Solar Plant on 118 acres in Buckeye, a project developed on the City of Phoenix landfill [Dibble Engineering](https://www.dibblecorp.com/projects/arizona-public-service-city-of-phoenix-desert-star-solar-plant/). In late 2024, APS secured agreements to add nearly 7,300 MW of renewable power, battery storage, and natural gas to its portfolio [APS Newsroom](https://www.aps.com/en/About/Our-Company/Newsroom/Articles/APS_Secures_its_Largest-Ever_Energy_Supply_to_Reliably_Serve_Customers). Additionally, APS has proposed the 'Desert Sun' natural gas plant near Gila Bend to support data center load growth [Fox 10 Phoenix](https://www.youtube.com/watch?v=OMbNjWEny-4). The company is heavily engaged in political advocacy regarding energy policy, having historically spent millions on regulator elections to protect business interests [Energy and Policy Institute](https://energyandpolicy.org/aps-ramps-up-spending-to-10-million-to-prevent-clean-energy-ballot/).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Dominant regional utility provider with massive infrastructure footprint, active development projects (Desert Star, Desert Sun), and significant political spending power.",
+      "approach_recommendations": {
+        "motivations": [
+          "Grid reliability",
+          "Renewable energy procurement",
+          "Infrastructure expansion"
+        ],
+        "engage": "Coordinate with APS’s resource acquisition team; emphasize project alignment with their 2024/2025 All Source RFP goals for renewable integration."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Operates 10 MW Desert Star Solar Plant in Buckeye",
+          "url": "https://www.dibblecorp.com/projects/arizona-public-service-city-of-phoenix-desert-star-solar-plant/",
+          "title": "Desert Star Solar Plant Project Profile",
+          "date": "2024-02-12"
+        },
+        {
+          "claim": "Secured agreements for 7,300 MW of new energy supplies",
+          "url": "https://www.aps.com/en/About/Our-Company/Newsroom/Articles/APS_Secures_its_Largest-Ever_Energy_Supply_to_Reliably_Serve_Customers",
+          "title": "APS Secures Largest-Ever Energy Supply",
+          "date": "2024-11-20"
+        },
+        {
+          "claim": "Proposed Desert Sun natural gas plant for data centers",
+          "url": "https://www.youtube.com/watch?v=OMbNjWEny-4",
+          "title": "APS announces plans for new natural gas facility",
+          "date": "2025-10-31"
+        },
+        {
+          "claim": "Political spending on regulator elections",
+          "url": "https://energyandpolicy.org/aps-ramps-up-spending-to-10-million-to-prevent-clean-energy-ballot/",
+          "title": "APS Ramps Up Spending To $10 Million",
+          "date": "2018-07-17"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mile High Borrower 1 Value LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40035011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mile High Borrower 1 (Value) LLC is a Delaware-formed limited liability company registered to do business in Arizona and Florida [Florida Division of Corporations](https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&SearchNameOrder=MILEHIGHBORROWER1INCOME%20M210000042190&Detail=FL.DOS.Corporations.Shared.Contracts.FilingRecord). The entity shares a principal address with Progress Residential in Scottsdale, AZ, and is identified in disclosure documents as an affiliate of Progress Residential, one of the nation's largest single-family rental (SFR) operators [Progress Residential Disclosure](https://photos.harstatic.com/413153436/supplement/pdf-4.pdf?ts=2025-04-18T17:15:49.177). Public records indicate this entity serves as a special purpose vehicle for holding securitized single-family rental assets [FHCCI Report](https://www.fhcci.org/wp-content/uploads/2023/08/Who-Owns-Indy-Homes-8-9-23-3.pdf). The entity has been active in filing landlord-tenant actions in Maricopa County courts, consistent with high-volume rental operations [Maricopa Justice Courts](https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo?casenumber=CC2022164221000).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Out-of-state corporate investment vehicle; influence is financial rather than community-based. No record of participation in local zoning or development hearings.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset value preservation",
+          "Rental income stability"
+        ],
+        "engage": "Engage via the parent company (Progress Residential) asset management team in Scottsdale; assure them that construction will not disrupt tenant retention."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Registered as foreign LLC in Florida and Arizona",
+          "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&SearchNameOrder=MILEHIGHBORROWER1INCOME%20M210000042190&Detail=FL.DOS.Corporations.Shared.Contracts.FilingRecord",
+          "title": "Florida Division of Corporations Filing",
+          "date": "2025-02-01"
+        },
+        {
+          "claim": "Affiliated with Progress Residential",
+          "url": "https://photos.harstatic.com/413153436/supplement/pdf-4.pdf?ts=2025-04-18T17:15:49.177",
+          "title": "Affiliated Business Arrangement Disclosure Statement",
+          "date": "2025-04-18"
+        },
+        {
+          "claim": "Vehicle for securitized single-family rental assets",
+          "url": "https://www.fhcci.org/wp-content/uploads/2023/08/Who-Owns-Indy-Homes-8-9-23-3.pdf",
+          "title": "Who Owns Indy Homes Report",
+          "date": "2023-08-09"
+        },
+        {
+          "claim": "Active in filing landlord-tenant actions",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo?casenumber=CC2022164221000",
+          "title": "Maricopa County Justice Courts Case History",
+          "date": "2022-09-21"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 598535,
+    "thinking_count": 30
+  }
+}

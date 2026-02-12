@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-12T06:38:15.568589",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighboring landowners consist of two private family trusts and one self-directed IRA LLC, indicating mostly individual holdings rather than corporate developers. These trusts (Novotny and Mastronardi) are personal estate vehicles with no public business profile, while LJA SDIRA LLC appears to be an investment-oriented entity holding land for retirement fund gains. None of these entities have significant influence or organized stance publicly, suggesting any opposition or support would be driven by personal or financial interests rather than institutional agendas.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Novotny Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "40035009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Novotny Revocable Trust appears to be a personal revocable living trust used for estate planning, where a grantor transfers assets to a trustee while retaining control. It has no registered corporate status or business filings (being an estate arrangement rather than a company), so its details are handled under individual ownership in the resident profile.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Private family landowner with no known broader community or political influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the trust’s trustee(s) personally and respectfully; emphasize any aspects of the project that protect or enhance their property’s value, aligning the proposal with their personal interests"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "LJA SDIRA LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40035008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "LJA SDIRA LLC is an Arizona limited liability company whose name indicates a self-directed IRA structure designed to invest retirement funds into real estate assets. It holds parcel 400-35-008 in Maricopa County and functions as a passive land investment vehicle with no evident operational business or local presence beyond property ownership.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Passive investment LLC with no local employment or community role; essentially an absentee owner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out via the LLC’s registered agent or custodian with a clear financial incentive; the owner is likely motivated by ROI, so proposing a profitable lease or buyout could resonate"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mastronardi Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "40035432"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mastronardi Family Trust is a revocable living trust under a family name, intended to hold and manage assets without forming a separate corporate entity. There is no indication of any business or development activities tied to this trust (it serves as private property ownership), so further analysis falls under the resident/individual context.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family trust landowner with no institutional or high-profile community activities",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the family’s trustees on a personal level; build trust by discussing how the project can coexist with or benefit their long-term interest in the land, keeping communications community-oriented"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighboring landowners consist of two private family trusts and one self-directed IRA LLC, indicating mostly individual holdings rather than corporate developers. These trusts (Novotny and Mastronardi) are personal estate vehicles with no public business profile, while LJA SDIRA LLC appears to be an investment-oriented entity holding land for retirement fund gains. None of these entities have significant influence or organized stance publicly, suggesting any opposition or support would be driven by personal or financial interests rather than institutional agendas.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Novotny Revocable Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"40035009\"],\n      \"claims\": \"Novotny Revocable Trust appears to be a personal revocable living trust used for estate planning, where a grantor transfers assets to a trustee while retaining control【55】. It has no registered corporate status or business filings (being an estate arrangement rather than a company), so its details are handled under individual ownership in the resident profile【53】.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private family landowner with no known broader community or political influence\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Preserve family land\", \"Maintain property value\"],\n      \"approach_recommendations\": \"Engage the trust’s trustee(s) personally and respectfully; emphasize any aspects of the project that protect or enhance their property’s value, aligning the proposal with their personal interests\",\n      \"confidence\": \"low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"LJA SDIRA LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"40035008\"],\n      \"claims\": \"LJA SDIRA LLC is an Arizona limited liability company whose name indicates a self-directed IRA structure designed to invest retirement funds into real estate assets【50】. It holds parcel 400-35-008 in Maricopa County and functions as a passive land investment vehicle with no evident operational business or local presence beyond property ownership【50】.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Passive investment LLC with no local employment or community role; essentially an absentee owner\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Retirement asset growth\", \"Future land sale profit\"],\n      \"approach_recommendations\": \"Reach out via the LLC’s registered agent or custodian with a clear financial incentive; the owner is likely motivated by ROI, so proposing a profitable lease or buyout could resonate\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Mastronardi Family Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"40035432\"],\n      \"claims\": \"Mastronardi Family Trust is a revocable living trust under a family name, intended to hold and manage assets without forming a separate corporate entity【53】. There is no indication of any business or development activities tied to this trust (it serves as private property ownership), so further analysis falls under the resident/individual context【55】.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family trust landowner with no institutional or high-profile community activities\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Legacy land holding\", \"Financial security\"],\n      \"approach_recommendations\": \"Approach the family’s trustees on a personal level; build trust by discussing how the project can coexist with or benefit their long-term interest in the land, keeping communications community-oriented\",\n      \"confidence\": \"low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,28 +1,28 @@
 {
-  "run_id": "2b067f98-147f-4146-9a03-ff7e3034cbed",
-  "generated_at": "2026-02-11T19:12:07.824096",
+  "run_id": "78a0c5ba-13f9-4d12-9452-6fbd66c15a8c",
+  "generated_at": "2026-02-12T12:20:58.705123",
   "stats": {
-    "total_neighbors": 12,
-    "highlighted": 11,
+    "total_neighbors": 26,
+    "highlighted": 26,
     "skipped_no_geometry": 0,
-    "skipped_not_highlighted": 1,
+    "skipped_not_highlighted": 0,
     "by_influence": {
       "High": 2,
-      "Medium": 7,
-      "Low": 2
+      "Medium": 3,
+      "Low": 21
     },
     "by_stance": {
       "support": 4,
       "oppose": 0,
-      "neutral": 0
+      "neutral": 1
     },
     "adjacent_highlighted": 3,
     "target_included": true
   },
   "strategy_used": "polyline",
-  "url_length": 2018,
-  "parcels_rendered": 19,
-  "labels_count": 15,
+  "url_length": 3266,
+  "parcels_rendered": 30,
+  "labels_count": 6,
   "settings": {
     "width": 800,
     "height": 450,

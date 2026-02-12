@@ -1,0 +1,133 @@
+{
+  "batch_idx": 0,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Parkside At Buckeye HOA",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "40035515",
+        "40035516",
+        "40035531"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parkside at Buckeye HOA is the homeowners association of a residential community in Buckeye, Arizona ([hoa-resource.com](https://hoa-resource.com/parkside-at-buckeye-homeowners-association-buckeye-az/#:~:text=Parkside%20at%20Buckeye%20HOA%20in,Buckeye%2C%20AZ)). *(Neighbor is an organization; see ORG table for detailed profile.)*",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "N/A \u2013 organizational neighbor (see ORG strategy)."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Enrique Rodriguez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035013"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Enrique Rodriguez is listed as the owner of a land parcel in the Buckeye area of Maricopa County, Arizona ([www.mcassessor.maricopa.gov](https://www.mcassessor.maricopa.gov/#:~:text=%EF%BB%BF%20Maricopa%20County%20Assessor%27s%20Office)). He holds no known public office or civic position in Buckeye, and no public statements or records were found of him engaging on local development issues ([www.city-data.com](https://www.city-data.com/elec2/20/elec-BUCKEYE-AZ-20-part5.html#:~:text=2019%20%2F%202020%20Contributions%20Part,5)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, respectful outreach (e.g., a face-to-face meeting) to explain the project and invite Rodriguez to share any concerns or questions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Morakod Aphaisuwan & Pimpaporn Tientanawat",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035012"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Morakod Aphaisuwan and Pimpaporn Tientanawat are co-owners of a residential parcel in Buckeye, Arizona, according to Maricopa County property records ([www.mcassessor.maricopa.gov](https://www.mcassessor.maricopa.gov/#:~:text=%EF%BB%BF%20Maricopa%20County%20Assessor%27s%20Office)). They have no public profile in local civic affairs; there is no record of either individual taking a public stance on area development or energy projects ([www.city-data.com](https://www.city-data.com/elec2/20/elec-BUCKEYE-AZ-20-part5.html#:~:text=2019%20%2F%202020%20Contributions%20Part,5)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; private residents",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage this household through a neighborly approach\u2014introduce the project in simple terms and encourage them to voice any general concerns, building trust through personal communication."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three neighboring entities have no clearly documented stance on development, with none found to have publicly supported or opposed projects. Community influence appears limited: none of the profiled neighbors hold known leadership roles in the area, and only one (the HOA) represents a broader group.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_063201_1909.json",
+  "cached_at": "2026-02-12T06:32:01.192113"
+}

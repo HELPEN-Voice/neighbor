@@ -1,0 +1,57 @@
+{
+  "batch_idx": 5,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Juan G. Salas",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035431"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Juan G. Salas is listed as the owner of a parcel in Maricopa County, Arizona ([treasurer.maricopa.gov](https://treasurer.maricopa.gov/Parcel/ParcelSearch.aspx#:~:text=for,the%20Maricopa%20County%20Assessor%27s%20website)). Historical records suggest a Juan G. Salas (likely this landowner or a family member) has been part of the local community for decades, appearing in a 1954 Glendale city directory ([azmemory.azlibrary.gov](https://azmemory.azlibrary.gov/nodes/view/161326?highlights=WyJnbGVuZGFsZSJd&keywords=Glendale&type=all#:~:text=1954%20Official%20Glendale,7555)). No public statements or documented positions on local development by Salas were found in available county news or records ([www.axios.com](https://www.axios.com/local/phoenix/2022/12/15/chandler-city-council-residents-oppose-affordable-apartment-complex#:~:text=2022,for%20seniors%20aged%2055%2B%2C%20on)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public offices; private landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Salas has a low public profile and no known stance, a one-on-one, neighborly outreach is recommended, focusing on sharing project information and listening to any personal concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "One neighboring landowner was profiled. No clear stance on development was identified (support/oppose unknown). Community influence appears low with no public leadership roles noted.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_063102_2348.json",
+  "cached_at": "2026-02-12T06:31:02.235848"
+}

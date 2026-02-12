@@ -820,6 +820,17 @@ class NeighborOrchestrator:
 
             resuming_with_cache = resolved is not None and len(resolved) > 0
 
+            # Load raw parcels from cache when resuming (needed for map + valuation benchmark)
+            if resuming_with_cache:
+                raw_parcels_file = output_dir / "raw_parcels.json"
+                if raw_parcels_file.exists():
+                    try:
+                        with open(raw_parcels_file, "r") as f:
+                            self.finder.raw_parcels = json.load(f)
+                        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 📂 Loaded {len(self.finder.raw_parcels)} raw parcels from cache")
+                    except Exception:
+                        pass
+
             # 1) Determine target parcel and get adjacent parcels
             target_parcel_info = None
             adjacent_pins = set()

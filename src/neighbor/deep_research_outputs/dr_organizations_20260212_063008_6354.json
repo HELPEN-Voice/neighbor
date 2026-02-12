@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-02-12T06:30:08.635530",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighbor profiled is a corporate real estate investment entity with out-of-state ownership and minimal community ties. Its ownership pattern (an Invitation Homes affiliate) implies significant financial capacity but limited local influence. No competing developments or opposition group ties were identified, indicating low risk of organized resistance; however, their focus on property values suggests they could be swayed by financial incentives or a buyout offer.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "2018-3 IH Borrower LP",
+      "entity_category": "Organization",
+      "entity_type": "lp",
+      "pins": [
+        "40035014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "2018-3 IH Borrower LP is a Delaware limited partnership formed in 2018 as an indirect special-purpose subsidiary of Invitation Homes Inc., one of the largest U.S. single-family rental landlords [SEC 8-K — gov, retrieved 2026-02-12; \"special purpose subsidiary\"](https://www.sec.gov/Archives/edgar/data/1687229/000168722918000050/a8-k070218ih2018x3.htm). The partnership’s registered agent is in Wilmington, Delaware, and its general partner (2018-3 IH Borrower GP LLC) operates from Invitation Homes’ headquarters in Dallas, Texas, indicating no local Arizona management [Bloomberg LEI — other, retrieved 2026-02-12; \"Delaware (US-DE); Dallas, TX HQ\"](https://lei.bloomberg.com/leis/view/549300P8LU85T0HG5D74). This entity and related IH Borrower affiliates hold tens of thousands of single-family rental properties; by 2020 Invitation Homes’ portfolio was ~80,000 homes nationwide [PESP — other, retrieved 2026-02-12; \"owns 80,000 rental homes\"](https://pestakeholder.org/news/single-family-rental-giant-invitation-homes-restarts-eviction-filings-2/), with nearly 9,200 in the Phoenix area as of 2024 [AZFamily — news, retrieved 2026-02-12; \"company has nearly 9,200 rental properties in Phoenix\"](https://www.azfamily.com/2024/10/17/arizona-residents-share-experiences-with-invitation-homes-amid-48m-settlement/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Medium - Holds ~9,200 homes locally; significant financial resources; minimal local presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through Invitation Homes’ Dallas headquarters (asset management team) to address any property value concerns or explore buying their parcel; coalition risk is low given passive, out-of-state ownership."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighbor profiled is a corporate real estate investment entity with out-of-state ownership and minimal community ties. Its ownership pattern (an Invitation Homes affiliate) implies significant financial capacity but limited local influence. No competing developments or opposition group ties were identified, indicating low risk of organized resistance; however, their focus on property values suggests they could be swayed by financial incentives or a buyout offer.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"2018-3 IH Borrower LP\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"lp\",\n      \"pins\": [\"40035014\"],\n      \"claims\": \"2018-3 IH Borrower LP is a Delaware limited partnership formed in 2018 as an indirect special-purpose subsidiary of Invitation Homes Inc., one of the largest U.S. single-family rental landlords [SEC 8-K — gov, retrieved 2026-02-12; \\\"special purpose subsidiary\\\"](https://www.sec.gov/Archives/edgar/data/1687229/000168722918000050/a8-k070218ih2018x3.htm). The partnership’s registered agent is in Wilmington, Delaware, and its general partner (2018-3 IH Borrower GP LLC) operates from Invitation Homes’ headquarters in Dallas, Texas, indicating no local Arizona management [Bloomberg LEI — other, retrieved 2026-02-12; \\\"Delaware (US-DE); Dallas, TX HQ\\\"](https://lei.bloomberg.com/leis/view/549300P8LU85T0HG5D74). This entity and related IH Borrower affiliates hold tens of thousands of single-family rental properties; by 2020 Invitation Homes’ portfolio was ~80,000 homes nationwide [PESP — other, retrieved 2026-02-12; \\\"owns 80,000 rental homes\\\"](https://pestakeholder.org/news/single-family-rental-giant-invitation-homes-restarts-eviction-filings-2/), with nearly 9,200 in the Phoenix area as of 2024 [AZFamily — news, retrieved 2026-02-12; \\\"company has nearly 9,200 rental properties in Phoenix\\\"](https://www.azfamily.com/2024/10/17/arizona-residents-share-experiences-with-invitation-homes-amid-48m-settlement/).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Medium - Holds ~9,200 homes locally; significant financial resources; minimal local presence\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\n        \"Rental income maximization\",\n        \"Property value appreciation\",\n        \"Neighborhood stability\"\n      ],\n      \"approach_recommendations\": \"Engage through Invitation Homes’ Dallas headquarters (asset management team) to address any property value concerns or explore buying their parcel; coalition risk is low given passive, out-of-state ownership.\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

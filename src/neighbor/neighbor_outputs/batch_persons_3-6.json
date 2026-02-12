@@ -1,0 +1,144 @@
+{
+  "batch_idx": 2,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ames Andrew Manuel Cesar",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035398"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Andrew Manuel Cesar Ames is listed as an owner of a parcel in Maricopa County, but no public profiles or leadership roles for him were identified ([cityofmaricopa.granicus.com](https://cityofmaricopa.granicus.com/MinutesViewer.php?clip_id=214&view_id=6#:~:text=City%20Council%20Regular%20Meeting%20Maricopa,)). No references to Ames in local government meetings or news archives could be found, indicating he has not voiced a clear position on development issues in any public forum ([cityofmaricopa.granicus.com](https://cityofmaricopa.granicus.com/MinutesViewer.php?clip_id=214&view_id=6#:~:text=City%20Council%20Regular%20Meeting%20Maricopa,)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Have a local agricultural extension officer reach out personally, emphasizing respect for his land privacy and how the project can coexist with preserving the rural character."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ayala Jose Luis Jr / De Ayala Victoria Moreno / Esquivel Jose Luis Ayala",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035433"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Property records show this parcel is held by the Ayala family (Jose Luis Ayala Jr., Victoria Moreno de Ayala, and Jose Luis Ayala Esquivel) ([www.gilabendaz.org](https://www.gilabendaz.org/CivicAlerts.asp?AID=51&ARC=125#:~:text=...AM.%20,a%20public%20hearing%20during%20the)). There is no indication any family members have participated in local hearings or made public comments on development proposals ([www.gilabendaz.org](https://www.gilabendaz.org/CivicAlerts.asp?AID=51&ARC=125#:~:text=...AM.%20,a%20public%20hearing%20during%20the)). The family appears to maintain a private profile, with no noted involvement in community leadership or activism related to land use.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private family landowners",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage through a trusted community figure who knows the family, highlighting how project plans honor farmland heritage and can be structured to protect their family\u2019s legacy on the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Morales Victor Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Victor Martin Morales owns property in the area, but he has no public presence in local committees or media regarding development ([cityofmaricopa.granicus.com](https://cityofmaricopa.granicus.com/MinutesViewer.php?clip_id=214&view_id=6#:~:text=City%20Council%20Regular%20Meeting%20Maricopa,)). A search of county and town records did not uncover any statements or official roles held by Morales, suggesting he remains a private citizen without a recorded position on development projects ([cityofmaricopa.granicus.com](https://cityofmaricopa.granicus.com/MinutesViewer.php?clip_id=214&view_id=6#:~:text=City%20Council%20Regular%20Meeting%20Maricopa,)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic profile",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control"
+        ],
+        "engage": "Approach him via one-on-one meetings facilitated by a known local agricultural or county figure, stressing community input and assurances that the development will respect his land use concerns and maintain local control aspects."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "None of the three profiled neighbors have a documented public stance on development, with all noted as \"unknown\" due to a lack of statements or actions on record. Their community influence appears limited \u2013 none hold prominent civic positions or lead local organizations, suggesting primarily low influence roles in the area.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_063509_3585.json",
+  "cached_at": "2026-02-12T06:35:09.359973"
+}

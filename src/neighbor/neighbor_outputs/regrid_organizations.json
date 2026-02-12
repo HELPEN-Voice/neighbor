@@ -2,72 +2,84 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Milligan Energy Center Llc",
+      "name": "Farms Holdings Lp/Genus Lp/Resource Holdings Trust",
       "entity_type": "organization",
       "pins": [
-        "41138001E",
-        "41138004B"
+        "40037002A",
+        "40037002B",
+        "40037004A"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Eloy 170 Llc",
+      "name": "Hazen Rd Nominee Llc",
       "entity_type": "organization",
       "pins": [
-        "41138004F",
-        "41138001D",
-        "41107001K"
+        "40037005H"
       ],
       "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Deancurt Buckeye Llc",
+      "entity_type": "organization",
+      "pins": [
+        "40037005G"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Parkside At Buckeye Homeowners Association",
+      "entity_type": "organization",
+      "pins": [
+        "40035242"
+      ],
+      "owns_adjacent_parcel": "No"
     },
     {
       "name": "Arizona Public Service Company",
       "entity_type": "organization",
       "pins": [
-        "41138004G",
-        "41138004E"
+        "40037004B"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Mile High Borrower 1 Value Llc",
+      "entity_type": "organization",
+      "pins": [
+        "40035011"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Mdt Investments Ltd Pship",
+      "name": "Novotny Revocable Trust",
       "entity_type": "organization",
       "pins": [
-        "40801022B",
-        "40801022C"
+        "40035009"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Dye Equities Llc Etal",
+      "name": "Lja Sdira Llc",
       "entity_type": "organization",
       "pins": [
-        "41107005C"
+        "40035008"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Torino Holdings Llc",
+      "name": "Mastronardi Family Trust",
       "entity_type": "organization",
       "pins": [
-        "41107001J"
+        "40035432"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "New Sunshine Fund Llc",
+      "name": "2018-3 Ih Borrower Lp",
       "entity_type": "organization",
       "pins": [
-        "41138001L"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Blue Beacon International Inc",
-      "entity_type": "organization",
-      "pins": [
-        "41138001J",
-        "41138001F"
+        "40035014"
       ],
       "owns_adjacent_parcel": "No"
     }

@@ -1,118 +1,215 @@
 {
-  "total": 13,
+  "total": 26,
   "neighbors": [
     {
-      "name": "Milligan Energy Center Llc",
+      "name": "Farms Holdings Lp/Genus Lp/Resource Holdings Trust",
       "entity_type": "organization",
       "pins": [
-        "41138001E",
-        "41138004B"
+        "40037002A",
+        "40037002B",
+        "40037004A"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Casa Grande West Etal",
+      "name": "Hazen Rd Nominee Llc",
+      "entity_type": "organization",
+      "pins": [
+        "40037005H"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Deancurt Buckeye Llc",
+      "entity_type": "organization",
+      "pins": [
+        "40037005G"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Parkside At Buckeye Hoa",
       "entity_type": "person",
       "pins": [
-        "41138001K",
-        "41138002A"
+        "40035515",
+        "40035516",
+        "40035531"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Eloy 170 Llc",
+      "name": "Parkside At Buckeye Homeowners Association",
       "entity_type": "organization",
       "pins": [
-        "41138004F",
-        "41138001D",
-        "41107001K"
+        "40035242"
       ],
-      "owns_adjacent_parcel": "Yes"
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Rodriguez Enrique",
+      "entity_type": "person",
+      "pins": [
+        "40035013"
+      ],
+      "owns_adjacent_parcel": "No"
     },
     {
       "name": "Arizona Public Service Company",
       "entity_type": "organization",
       "pins": [
-        "41138004G",
-        "41138004E"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Robinson Timothy A & Evelyn P",
-      "entity_type": "person",
-      "pins": [
-        "41107001H"
+        "40037004B"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "Mdt Investments Ltd Pship",
-      "entity_type": "organization",
-      "pins": [
-        "40801022B",
-        "40801022C"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Electrical District No 4",
+      "name": "Aphaisuwan Morakod/Tientanawat Pimpaporn",
       "entity_type": "person",
       "pins": [
-        "411070030"
+        "40035012"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Gfp Investments Lllp",
+      "name": "Mile High Borrower 1 Value Llc",
+      "entity_type": "organization",
+      "pins": [
+        "40035011"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Secrest Brianna/Shawn",
       "entity_type": "person",
       "pins": [
-        "408260250",
-        "408260210",
-        "408260240",
-        "408260200"
+        "40035010"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Dye Equities Llc Etal",
+      "name": "Novotny Revocable Trust",
       "entity_type": "organization",
       "pins": [
-        "41107005C"
+        "40035009"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Torino Holdings Llc",
+      "name": "Lja Sdira Llc",
       "entity_type": "organization",
       "pins": [
-        "41107001J"
+        "40035008"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "New Sunshine Fund Llc",
-      "entity_type": "organization",
-      "pins": [
-        "41138001L"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Blue Beacon International Inc",
-      "entity_type": "organization",
-      "pins": [
-        "41138001J",
-        "41138001F"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "State Of Arizona",
+      "name": "Covarrubias Maria/Jaime Javier",
       "entity_type": "person",
       "pins": [
-        "411081720",
-        "411081710"
+        "40035397"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Andrade Raul/Bertha G",
+      "entity_type": "person",
+      "pins": [
+        "40035007"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Ames Andrew Manuel Cesar",
+      "entity_type": "person",
+      "pins": [
+        "40035398"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Mastronardi Family Trust",
+      "entity_type": "organization",
+      "pins": [
+        "40035432"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Ayala Jose Luis Jr/De Ayala Victoria Moreno/Esquivel Jose Luis Ayala",
+      "entity_type": "person",
+      "pins": [
+        "40035433"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "2018-3 Ih Borrower Lp",
+      "entity_type": "organization",
+      "pins": [
+        "40035014"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Morales Victor Martin",
+      "entity_type": "person",
+      "pins": [
+        "40035006"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Torres Steven",
+      "entity_type": "person",
+      "pins": [
+        "40035434"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Moreno Cecil/Veronica Rodriguez",
+      "entity_type": "person",
+      "pins": [
+        "40035435"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Stephenson Joseph",
+      "entity_type": "person",
+      "pins": [
+        "40035396"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Lopez Jose Luis",
+      "entity_type": "person",
+      "pins": [
+        "40035005"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Munoz Christian J",
+      "entity_type": "person",
+      "pins": [
+        "40035436"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Tuncap Brian Vaughn Santos Jr/Rodriguez Nicole Marie",
+      "entity_type": "person",
+      "pins": [
+        "40035399"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Salas Juan G",
+      "entity_type": "person",
+      "pins": [
+        "40035431"
       ],
       "owns_adjacent_parcel": "No"
     }

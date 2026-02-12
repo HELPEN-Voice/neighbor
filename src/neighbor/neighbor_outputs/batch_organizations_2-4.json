@@ -1,0 +1,110 @@
+{
+  "batch_idx": 1,
+  "total_batches": 4,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Parkside At Buckeye Homeowners Association",
+      "entity_category": "Organization",
+      "entity_type": "nonprofit corporation",
+      "pins": [
+        "40035242"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parkside at Buckeye Homeowners Association is an Arizona nonprofit corporation established on October 30, 2002, to govern the Parkside at Buckeye residential subdivision [Arizona HOA Directory](https://www.arizona-hoa.com/azhoa_list.php?masterkey1=10511695&mastertable=aztitle). The HOA is led by an elected board of homeowners (current president: Jeff Garrett) and uses Morrison Group Inc. of Phoenix as its professional property management company [Arizona Homeowners Associations](https://www.arizona-homeowners-associations.com/azboard_list.php?masterkey1=-1051169-5&mastertable=arizona-hoa-p). The association\u2019s activities center on enforcing community rules and maintaining property values, and it has not taken any publicly reported stance on outside development projects.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Represents a single neighborhood; limited financial resources or political connections beyond local community issues",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the HOA board (via President Jeff Garrett) early; address residents\u2019 concerns about noise, aesthetics, and property values; consider offering community benefits or assurances to gain goodwill."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Arizona Public Service Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "40037004B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Arizona Public Service Company (APS) is the largest electric utility in Arizona, serving approximately 1.4 million customers statewide [APS](https://www.aps.com/en/About/Our-Company/About-us). APS is the principal subsidiary of Pinnacle West Capital Corp., a publicly traded S&P 500 company [SourceWatch](https://www.sourcewatch.org/index.php/Arizona_Public_Service_Company). The utility and its parent are known for heavy political engagement, spending over $10 million in the 2016 election cycle (including $4.1 million backing friendly regulator candidates) to protect their business interests [Utility Dive](https://www.utilitydive.com/news/report-aps-parent-company-spent-41m-on-arizonas-2016-political-race/438574/). APS has also pursued local energy projects \u2013 for example, it built and operates the 10 MW Desert Star Solar Plant on 118 acres in Buckeye (a partnership with the City of Phoenix landfill) to supply renewable power to its grid [Dibble Engineering](https://www.dibblecorp.com/projects/arizona-public-service-city-of-phoenix-desert-star-solar-plant/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Dominant regional utility provider; significant economic footprint; well-connected through lobbying and campaign contributions",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with APS\u2019s government and community affairs representatives; emphasize how the development can align with APS\u2019s energy and infrastructure goals; explore partnership opportunities or grid improvements to secure their support."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Mile High Borrower 1 Value LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40035011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mile High Borrower 1 (Value) LLC was formed in Delaware in April 2021 and is registered as a foreign LLC in other states (e.g. Florida) [Florida Dept. of State](https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&SearchNameOrder=MILEHIGHBORROWER1INCOME%20M210000042190&Detail=FL.DOS.Corporations.Shared.Contracts.FilingRecord). It serves as an investment vehicle for a large single-family rental portfolio, holding roughly 1,226 homes with an estimated total value of $182 million [SFR Analytics](https://app.sfranalytics.com/buyers/mile-high-borrower-i-value-llc-co). The company\u2019s principal office is located in Scottsdale, Arizona at the same address as Progress Residential\u2019s headquarters, indicating an affiliation with one of the nation\u2019s largest single-family home rental firms [LoopNet](https://www.loopnet.com/company/progress-residential/scottsdale-az/j5st7j5l/). Beneficial ownership is through a private investment platform (Progress Residential/Pretium), and the LLC itself does not have a public community presence or known local advocacy record.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-state corporate landlord; owns scattered houses but not socially or politically active locally",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via the parent company\u2019s asset management team (Progress Residential); reassure them that the project will not negatively impact their rental properties or tenants; likely low engagement needed as they seldom intervene in local developments."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "The neighboring organizations include a residential homeowners association, a major electric utility, and a real estate investment LLC. Parkside at Buckeye HOA is a local community group focused on protecting neighborhood interests. Arizona Public Service (APS) is the state\u2019s dominant power utility with significant political and economic influence. Mile High Borrower 1 Value LLC appears to be an out-of-state corporate landlord (tied to Progress Residential) driven by property investment goals.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_063214_4268.json",
+  "cached_at": "2026-02-12T06:32:14.428198"
+}

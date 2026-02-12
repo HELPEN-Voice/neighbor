@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-02-12T06:35:09.106826",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Maricopa County neighbors include a cluster of passive land investment entities (limited partnerships and a trust) with opaque ownership, a special-purpose LLC driving a planned 179-home rental housing project, and an out-of-state real estate investor that has been acquiring and subdividing farmland. These organizations are motivated primarily by financial interests rather than local concerns. They hold significant acreage but have limited grassroots influence, suggesting they are more inclined to profit from development opportunities than to mobilize community opposition.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Farms Holdings LP / Genus LP / Resource Holdings Trust",
+      "entity_category": "Organization",
+      "entity_type": "partnership/trust",
+      "pins": [
+        "40037002A",
+        "40037002B",
+        "40037004A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Genus, L.P., a California limited partnership, was formed on October 15, 2002 and lists a San Diego office address [California Business Registry](https://b2bhint.com/en/company/us-ca/genus-lp--200228800006). Together with Farms Holdings L.P. and Resource Holdings Trust, it owns several agricultural parcels in Buckeye with no known active operations; the land appears to be held for future development or sale [Axios](https://www.axios.com/local/phoenix/2025/03/03/buckeye-farming-heritage-land-development-growth). Beneficial ownership of these entities is not publicly disclosed, and they have not taken any public stance on local projects (indicating a passive investment posture).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Low – Out-of-state speculative owners with no local business presence or political ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "No direct engagement necessary; these owners remain passive and are likely to sell when conditions are favorable. Monitor their land sale activities, as an attractive buyout offer or partnership on future development could align with their financial interests."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Hazen Rd Nominee LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40037005H"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hazen Rd Nominee LLC was created as a special-purpose entity to acquire approximately 153 acres near West Hazen Road, which sold for $7.05 million in April 2021 [Zillow](https://www.zillow.com/homedetails/26101-W-Hazen-Rd-Buckeye-AZ-85326/92351166_zpid/). This LLC is backing a new build-to-rent development in Buckeye featuring 179 single-family homes (the “Hazen Road” or Belvedere rental community) complete with a clubhouse, pool, and other amenities [Fifth Avenue Properties](https://www.fifthaveproperties.com/portfolio/hazen-road-buckeye-arizona). The use of a “Nominee” entity suggests the real investor/developer remains behind the scenes; no managers or members are publicly listed. Hazen Rd Nominee LLC’s stance is pro-development, focused on successfully completing and filling its housing project rather than opposing other initiatives.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Medium – Controls a major housing project (179 homes) and has financial resources, but as a new entrant it has limited established local networks or political capital",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via the development partner (Fifth Avenue Properties) to ensure the planned community and our project can coexist. Emphasize mitigation measures or mutual benefits that preserve the appeal of their rental development, addressing any concerns about proximity or impact."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Deancurt Buckeye LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "40037005G"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Deancurt Buckeye LLC is linked to Deancurt Realty Group, a real estate investment firm based in Agawam, Massachusetts (21 Ramah Circle North) [Manta](https://www.manta.com/c/mb4mdpf/deancurt-realty-group-inc). The LLC purchased roughly 153 acres of Buckeye farmland in April 2021 for $7.05 million [Zillow](https://www.zillow.com/homedetails/26101-W-Hazen-Rd-Buckeye-AZ-85326/92351166_zpid/). It filed a civil lawsuit in late 2022 related to the property (listed as “Deancua Buckeye LLC” in court records), indicating active management and an intent to secure its interests [Maricopa County Justice Courts](https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo?casenumber=CC2022219452000). In February 2023, Deancurt Buckeye LLC sold a 7.3-acre residential portion of the tract (with a home) for $750,000, while retaining the remaining land for future opportunities [Zillow](https://www.zillow.com/homedetails/27239-W-Hazen-Rd-Buckeye-AZ-85326/92352103_zpid/). This entity’s behavior suggests a short- to mid-term speculative strategy, and it has not publicly opposed development—in fact profiting from incremental sales as values rise.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Low – Single-project land investor from out of state; holds valuable land but has no local constituency or community role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the principals of Deancurt (Massachusetts owners) with a mutually beneficial proposal (e.g. land purchase or joint venture) to capitalize on their profit motive. Given their focus on returns, a strong financial incentive can secure their cooperation or neutralize any opposition."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Maricopa County neighbors include a cluster of passive land investment entities (limited partnerships and a trust) with opaque ownership, a special-purpose LLC driving a planned 179-home rental housing project, and an out-of-state real estate investor that has been acquiring and subdividing farmland. These organizations are motivated primarily by financial interests rather than local concerns. They hold significant acreage but have limited grassroots influence, suggesting they are more inclined to profit from development opportunities than to mobilize community opposition.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Farms Holdings LP / Genus LP / Resource Holdings Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"partnership/trust\",\n      \"pins\": [\"40037002A\", \"40037002B\", \"40037004A\"],\n      \"claims\": \"Genus, L.P., a California limited partnership, was formed on October 15, 2002 and lists a San Diego office address [California Business Registry](https://b2bhint.com/en/company/us-ca/genus-lp--200228800006). Together with Farms Holdings L.P. and Resource Holdings Trust, it owns several agricultural parcels in Buckeye with no known active operations; the land appears to be held for future development or sale [Axios](https://www.axios.com/local/phoenix/2025/03/03/buckeye-farming-heritage-land-development-growth). Beneficial ownership of these entities is not publicly disclosed, and they have not taken any public stance on local projects (indicating a passive investment posture).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Low – Out-of-state speculative owners with no local business presence or political ties\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Eventual sale profit\", \"Minimal carrying costs (agricultural tax status)\"],\n      \"approach_recommendations\": \"No direct engagement necessary; these owners remain passive and are likely to sell when conditions are favorable. Monitor their land sale activities, as an attractive buyout offer or partnership on future development could align with their financial interests.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Hazen Rd Nominee LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"40037005H\"],\n      \"claims\": \"Hazen Rd Nominee LLC was created as a special-purpose entity to acquire approximately 153 acres near West Hazen Road, which sold for $7.05 million in April 2021 [Zillow](https://www.zillow.com/homedetails/26101-W-Hazen-Rd-Buckeye-AZ-85326/92351166_zpid/). This LLC is backing a new build-to-rent development in Buckeye featuring 179 single-family homes (the “Hazen Road” or Belvedere rental community) complete with a clubhouse, pool, and other amenities [Fifth Avenue Properties](https://www.fifthaveproperties.com/portfolio/hazen-road-buckeye-arizona). The use of a “Nominee” entity suggests the real investor/developer remains behind the scenes; no managers or members are publicly listed. Hazen Rd Nominee LLC’s stance is pro-development, focused on successfully completing and filling its housing project rather than opposing other initiatives.\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Medium – Controls a major housing project (179 homes) and has financial resources, but as a new entrant it has limited established local networks or political capital\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Project ROI (rental income)\", \"Property value protection for its development\", \"Smooth regulatory approvals\"],\n      \"approach_recommendations\": \"Engage via the development partner (Fifth Avenue Properties) to ensure the planned community and our project can coexist. Emphasize mitigation measures or mutual benefits that preserve the appeal of their rental development, addressing any concerns about proximity or impact.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Deancurt Buckeye LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"40037005G\"],\n      \"claims\": \"Deancurt Buckeye LLC is linked to Deancurt Realty Group, a real estate investment firm based in Agawam, Massachusetts (21 Ramah Circle North) [Manta](https://www.manta.com/c/mb4mdpf/deancurt-realty-group-inc). The LLC purchased roughly 153 acres of Buckeye farmland in April 2021 for $7.05 million [Zillow](https://www.zillow.com/homedetails/26101-W-Hazen-Rd-Buckeye-AZ-85326/92351166_zpid/). It filed a civil lawsuit in late 2022 related to the property (listed as “Deancua Buckeye LLC” in court records), indicating active management and an intent to secure its interests [Maricopa County Justice Courts](https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo?casenumber=CC2022219452000). In February 2023, Deancurt Buckeye LLC sold a 7.3-acre residential portion of the tract (with a home) for $750,000, while retaining the remaining land for future opportunities [Zillow](https://www.zillow.com/homedetails/27239-W-Hazen-Rd-Buckeye-AZ-85326/92352103_zpid/). This entity’s behavior suggests a short- to mid-term speculative strategy, and it has not publicly opposed development—in fact profiting from incremental sales as values rise.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Low – Single-project land investor from out of state; holds valuable land but has no local constituency or community role\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Maximize resale value\", \"Short-term investment returns\", \"Exit opportunities (selling to developers)\"],\n      \"approach_recommendations\": \"Approach the principals of Deancurt (Massachusetts owners) with a mutually beneficial proposal (e.g. land purchase or joint venture) to capitalize on their profit motive. Given their focus on returns, a strong financial incentive can secure their cooperation or neutralize any opposition.\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,135 @@
+{
+  "batch_idx": 1,
+  "total_batches": 6,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Brianna & Shawn Secrest",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035010"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brianna and Shawn Secrest are listed as landowners in Maricopa County with no apparent involvement in local government committees or civic groups ([www.inmaricopa.com](https://www.inmaricopa.com/38662/#:~:text=A%20total%20of%2018%20applications,two%20alternates%20were%20randomly%20chosen)). No mentions of the Secrests were found in local news reports or public meeting records on development issues ([inmaricopa.com](https://inmaricopa.com/maricopa-city-council-tabling-action-items/#:~:text=a,of%20the%20Cobblestone%20Farms%20subdivision)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; low profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, trust-building outreach. A project representative should meet the Secrests one-on-one to listen to any concerns and emphasize measures that protect their property and lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Maria & Jaime Javier Covarrubias",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035397"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Maria and Jaime Javier Covarrubias own property in Maricopa County but do not hold any known public positions or offices ([www.inmaricopa.com](https://www.inmaricopa.com/38662/#:~:text=A%20total%20of%2018%20applications,two%20alternates%20were%20randomly%20chosen)). They have not been identified in any local media coverage or county meeting minutes related to development or energy projects ([inmaricopa.com](https://inmaricopa.com/maricopa-city-council-tabling-action-items/#:~:text=a,of%20the%20Cobblestone%20Farms%20subdivision)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in a respectful, informal setting to build rapport. Highlight community benefits and address any questions to help the Covarrubias family feel heard and informed."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Raul & Bertha G. Andrade",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Raul and Bertha G. Andrade are local landowners with no record of public commentary or leadership roles regarding development plans ([www.inmaricopa.com](https://www.inmaricopa.com/38662/#:~:text=A%20total%20of%2018%20applications,two%20alternates%20were%20randomly%20chosen)). There is no evidence in local news archives or public hearings that the Andrades have taken a stance on energy or development projects ([inmaricopa.com](https://inmaricopa.com/maricopa-city-council-tabling-action-items/#:~:text=a,of%20the%20Cobblestone%20Farms%20subdivision)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Meet with the Andrade family in person through a trusted community liaison. Emphasize open communication and reassure them on key issues like safety and property values to encourage a constructive dialogue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "None of the three profiled neighbors have a publicly documented stance on development, as no statements or actions indicating support, opposition or neutrality were found. All appear to exercise low community influence, with no evidence of any holding public office or prominent civic leadership roles.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_063603_3600.json",
+  "cached_at": "2026-02-12T06:36:03.361320"
+}

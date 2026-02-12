@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-12T06:31:02.234908",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One neighboring landowner was profiled. No clear stance on development was identified (support/oppose unknown). Community influence appears low with no public leadership roles noted.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Juan G. Salas",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "40035431"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Juan G. Salas is listed as the owner of a parcel in Maricopa County, Arizona ([treasurer.maricopa.gov](https://treasurer.maricopa.gov/Parcel/ParcelSearch.aspx#:~:text=for,the%20Maricopa%20County%20Assessor%27s%20website)). Historical records suggest a Juan G. Salas (likely this landowner or a family member) has been part of the local community for decades, appearing in a 1954 Glendale city directory ([azmemory.azlibrary.gov](https://azmemory.azlibrary.gov/nodes/view/161326?highlights=WyJnbGVuZGFsZSJd&keywords=Glendale&type=all#:~:text=1954%20Official%20Glendale,7555)). No public statements or documented positions on local development by Salas were found in available county news or records ([www.axios.com](https://www.axios.com/local/phoenix/2022/12/15/chandler-city-council-residents-oppose-affordable-apartment-complex#:~:text=2022,for%20seniors%20aged%2055%2B%2C%20on)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public offices; private landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Salas has a low public profile and no known stance, a one-on-one, neighborly outreach is recommended, focusing on sharing project information and listening to any personal concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One neighboring landowner was profiled. No clear stance on development was identified (support/oppose unknown). Community influence appears low with no public leadership roles noted.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Juan G. Salas\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"40035431\"],\n      \"claims\": \"Juan G. Salas is listed as the owner of a parcel in Maricopa County, Arizona ([treasurer.maricopa.gov](https://treasurer.maricopa.gov/Parcel/ParcelSearch.aspx#:~:text=for,the%20Maricopa%20County%20Assessor%27s%20website)). Historical records suggest a Juan G. Salas (likely this landowner or a family member) has been part of the local community for decades, appearing in a 1954 Glendale city directory ([azmemory.azlibrary.gov](https://azmemory.azlibrary.gov/nodes/view/161326?highlights=WyJnbGVuZGFsZSJd&keywords=Glendale&type=all#:~:text=1954%20Official%20Glendale,7555)). No public statements or documented positions on local development by Salas were found in available county news or records ([www.axios.com](https://www.axios.com/local/phoenix/2022/12/15/chandler-city-council-residents-oppose-affordable-apartment-complex#:~:text=2022,for%20seniors%20aged%2055%2B%2C%20on)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public offices; private landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Since Salas has a low public profile and no known stance, a one-on-one, neighborly outreach is recommended, focusing on sharing project information and listening to any personal concerns.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}
