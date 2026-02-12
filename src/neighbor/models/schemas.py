@@ -70,6 +70,14 @@ class NeighborProfile(BaseModel):
         None  # Structured engagement strategy
     )
 
+    @field_validator("claims", mode="before")
+    @classmethod
+    def coerce_claims_to_str(cls, v):
+        """Join list of strings into single string if Gemini returns a list."""
+        if isinstance(v, list):
+            return " ".join(str(item) for item in v)
+        return v
+
     @field_validator("noted_stance", mode="before")
     @classmethod
     def lowercase_noted_stance(cls, v):

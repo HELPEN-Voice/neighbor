@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-02-11T18:17:15.661265",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_180607_5290.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Rancho Del Sol Brillante Owners",
+      "entity_category": "Organization",
+      "entity_type": "Investment Group",
+      "pins": [
+        "411-38-001K",
+        "411-38-002A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The identified parcels (411-38-001K, 411-38-002A) correspond to the \"Rancho Del Sol Brillante\" project, a proposed 1,600-acre master-planned community and agricultural site in Eloy, AZ, rather than the \"Casa Grande West\" subdivision ([Nathan & Associates](https://nathanlandaz.com/wp-content/uploads/2019/10/1612-Rancho-Del-Sol-Brilliante-Email-1.pdf)). The property has been listed as \"Currently Farmed\" with future zoning designated for a master-planned community ([Nathan & Associates](https://nathanlandaz.com/wp-content/uploads/2019/10/1612-Rancho-Del-Sol-Brilliante-Email-1.pdf)). Previous development agreements regarding this project were terminated by the City of Eloy due to lack of progress ([Rose Law Group](https://roselawgroupreporter.com/2020/01/eloy-ends-agreement-with-development-that-never-progressed/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee investment group; project history indicates stalled development.",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Contact the brokerage representing the land (Nathan & Associates) or the registered owners to discuss land use compatibility, as the site has been marketed for master-planned development."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The identified parcels (411-38-001K, 411-38-002A) correspond to the \"Rancho Del Sol Brillante\" project, a proposed 1,600-acre master-planned community and agricultural site in Eloy, AZ, rather than the \"Casa Grande West\" subdivision",
+          "url": "https://nathanlandaz.com/wp-content/uploads/2019/10/1612-Rancho-Del-Sol-Brilliante-Email-1.pdf",
+          "title": "Rancho Del Sol Brillante Marketing Flyer",
+          "date": "2019-10-01"
+        },
+        {
+          "claim": "The property has been listed as \"Currently Farmed\" with future zoning designated for a master-planned community",
+          "url": "https://nathanlandaz.com/wp-content/uploads/2019/10/1612-Rancho-Del-Sol-Brilliante-Email-1.pdf",
+          "title": "Rancho Del Sol Brillante Marketing Flyer",
+          "date": "2019-10-01"
+        },
+        {
+          "claim": "Previous development agreements regarding this project were terminated by the City of Eloy due to lack of progress",
+          "url": "https://roselawgroupreporter.com/2020/01/eloy-ends-agreement-with-development-that-never-progressed/",
+          "title": "Eloy ends agreement with development that never progressed",
+          "date": "2020-01-01"
+        }
+      ],
+      "verification_notes": "CORRECTION: The PINs provided (411-38-xxx) belong to the 'Rancho Del Sol Brillante' project in Eloy, NOT the 'Casa Grande West' subdivision (which has 503-xx PINs). The profile name and claims were updated to match the PINs, which are the primary identifier."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Timothy A. & Evelyn P. Robinson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "411-07-001H"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Timothy A. Robinson and Evelyn P. Robinson are associated with property ownership in Pinal County ([Elementix](https://elementix.ai/investors/az/timothy-robinson)). Timothy A. Robinson serves as the President of Arizona Machinery & Supply, Inc. and has previously served on the board of directors for Capitol Bancorp Limited ([SEC](https://www.sec.gov/Archives/edgar/data/840264/000084026409000030/exhibit13.htm)). He was recently appointed as a Personal Representative for a local estate in Pinal County Superior Court ([Copper Area News](https://copperarea.com/wp-content/uploads/11_13_24-Superior-Sun.pdf)). The property in the area is zoned \"General Rural\" (GR), which allows for low-density residential and agricultural uses ([Zoneomics](https://www.zoneomics.com/code/pinal-county-unincorporated-AZ)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "President of local machinery company; former bank board member; court-appointed representative.",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet",
+          "local_control"
+        ],
+        "engage": "Engage Timothy Robinson as a business professional and community stakeholder. Given his leadership role at Arizona Machinery & Supply, approach with a focus on technical competence and economic impacts."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Timothy A. Robinson and Evelyn P. Robinson are associated with property ownership in Pinal County",
+          "url": "https://elementix.ai/investors/az/timothy-robinson",
+          "title": "Timothy Robinson Investor Profile",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Timothy A. Robinson serves as the President of Arizona Machinery & Supply, Inc. and has previously served on the board of directors for Capitol Bancorp Limited",
+          "url": "https://www.sec.gov/Archives/edgar/data/840264/000084026409000030/exhibit13.htm",
+          "title": "Capitol Bancorp Ltd Annual Report",
+          "date": "2009-12-31"
+        },
+        {
+          "claim": "He was recently appointed as a Personal Representative for a local estate in Pinal County Superior Court",
+          "url": "https://copperarea.com/wp-content/uploads/11_13_24-Superior-Sun.pdf",
+          "title": "Superior Sun Public Notices",
+          "date": "2024-11-13"
+        },
+        {
+          "claim": "The property in the area is zoned \"General Rural\" (GR), which allows for low-density residential and agricultural uses",
+          "url": "https://www.zoneomics.com/code/pinal-county-unincorporated-AZ",
+          "title": "Pinal County Zoning Code",
+          "date": "2024-01-01"
+        }
+      ],
+      "verification_notes": "Confirmed identity via business records and recent legal notices in Pinal County. Stance on renewable development remains unknown (no direct LTEs or meeting minutes found)."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 748333,
+    "thinking_count": 45
+  }
+}

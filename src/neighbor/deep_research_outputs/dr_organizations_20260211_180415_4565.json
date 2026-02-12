@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-02-11T18:04:15.456573",
+  "entity_type": "organization",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both neighboring landowners are non-local corporations. New Sunshine Fund LLC appears to be a renewable energy investment entity that recently bought a large tract of industrial land in Eloy, indicating potential plans for a major energy project or land speculation. Blue Beacon International, Inc. is a Kansas-based truck wash chain operating at the I-10/Sunshine Blvd interchange; it has a limited local presence and is unlikely to actively oppose new development.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "New Sunshine Fund LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "41138001L"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "New Sunshine Fund LLC is linked to an energy investment initiative that focuses on utility-scale solar and battery storage projects [Sunshine Fund — other, retrieved 2026-02-12; \"We invest in utility-scale solar and battery storage\"](https://www.sunshine.fund). In mid-2022, Walton Global sold approximately 277 acres in Eloy’s Sunshine Industrial Park to an undisclosed buyer for a major development (the purchasing company’s identity was withheld for market reasons) [Walton Global — news, 2022-07-15; \"company that purchased the land was not announced\"](https://walton.com/walton-global-sells-land-in-sunshine-industrial-park/). The site was described as “prime real estate” with access to two interstates and a Union Pacific rail line, intended to attract businesses and jobs to the area [Walton Global — news, 2022-07-15; \"prime real estate, with access to two major interstates\"](https://walton.com/walton-global-sells-land-in-sunshine-industrial-park/). The fund’s beneficial ownership and decision-makers have not been publicly disclosed, reflecting a deliberately low profile during the land acquisition [Walton Global — news, 2022-07-15; \"purchased the land was not announced\"](https://walton.com/walton-global-sells-land-in-sunshine-industrial-park/).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Controls a large strategic land parcel; significant capital for development but no established local ties or public presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the fund’s representatives (via listed contacts or local officials) to discuss mutual benefits; explore partnering or co-development to avoid competition, highlighting how collaboration can advance both parties’ goals"
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Blue Beacon International Inc",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "41138001J",
+        "41138001F"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Blue Beacon International, Inc. was incorporated in Oklahoma on November 7, 1979, and is a privately held truck wash corporation headquartered in Salina, Kansas [B2BHint — other, retrieved 2026-02-12; \"Oklahoma (United States) • 07 Nov 1979\"](https://b2bhint.com/en/company/us-ok/blue-beacon-international-incorporated--2300342387). It registered as a foreign corporation in Arizona on June 25, 1982 (Arizona File F00284892) [BusinessProfiles — other, retrieved 2026-02-12; \"was formed on 1982-06-25 in Arizona\"](https://businessprofiles.com/details/blue-beacon-international-incorporated/AZ-F00284892). The company’s leadership includes President Trace E. Walker and Director Michael B. Walker [BusinessProfiles — other, retrieved 2026-02-12; \"TRACE E WALKER president\"](https://businessprofiles.com/details/blue-beacon-international-incorporated/AZ-F00284892). Blue Beacon owns and operates a truck wash at 1172 S. Sunshine Blvd in Eloy (I-10 interchange), on the parcels adjacent to the project site [Blue Beacon — company site, retrieved 2026-02-12; \"1172 S Sunshine Blvd, Eloy, AZ\"](https://bluebeacon.com/locations). The firm has no known involvement in local land-use disputes and typically focuses solely on its commercial operations.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small business presence; out-of-state ownership with minimal local economic or political influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the local Blue Beacon manager to address any construction or traffic concerns; keep communication open to ensure the project does not impede their access or operations, which should prevent any opposition from this neighbor"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both neighboring landowners are non-local corporations. New Sunshine Fund LLC appears to be a renewable energy investment entity that recently bought a large tract of industrial land in Eloy, indicating potential plans for a major energy project or land speculation. Blue Beacon International, Inc. is a Kansas-based truck wash chain operating at the I-10/Sunshine Blvd interchange; it has a limited local presence and is unlikely to actively oppose new development.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"New Sunshine Fund LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"41138001L\"],\n      \"claims\": \"New Sunshine Fund LLC is linked to an energy investment initiative that focuses on utility-scale solar and battery storage projects [Sunshine Fund — other, retrieved 2026-02-12; \\\"We invest in utility-scale solar and battery storage\\\"](https://www.sunshine.fund). In mid-2022, Walton Global sold approximately 277 acres in Eloy’s Sunshine Industrial Park to an undisclosed buyer for a major development (the purchasing company’s identity was withheld for market reasons) [Walton Global — news, 2022-07-15; \\\"company that purchased the land was not announced\\\"](https://walton.com/walton-global-sells-land-in-sunshine-industrial-park/). The site was described as “prime real estate” with access to two interstates and a Union Pacific rail line, intended to attract businesses and jobs to the area [Walton Global — news, 2022-07-15; \\\"prime real estate, with access to two major interstates\\\"](https://walton.com/walton-global-sells-land-in-sunshine-industrial-park/). The fund’s beneficial ownership and decision-makers have not been publicly disclosed, reflecting a deliberately low profile during the land acquisition [Walton Global — news, 2022-07-15; \\\"purchased the land was not announced\\\"](https://walton.com/walton-global-sells-land-in-sunshine-industrial-park/).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Controls a large strategic land parcel; significant capital for development but no established local ties or public presence\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Major energy project development\", \"Maximize investment ROI\", \"Secure strategic site for power infrastructure\"],\n      \"approach_recommendations\": \"Engage the fund’s representatives (via listed contacts or local officials) to discuss mutual benefits; explore partnering or co-development to avoid competition, highlighting how collaboration can advance both parties’ goals\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Blue Beacon International Inc\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"inc\",\n      \"pins\": [\"41138001J\", \"41138001F\"],\n      \"claims\": \"Blue Beacon International, Inc. was incorporated in Oklahoma on November 7, 1979, and is a privately held truck wash corporation headquartered in Salina, Kansas [B2BHint — other, retrieved 2026-02-12; \\\"Oklahoma (United States) • 07 Nov 1979\\\"](https://b2bhint.com/en/company/us-ok/blue-beacon-international-incorporated--2300342387). It registered as a foreign corporation in Arizona on June 25, 1982 (Arizona File F00284892) [BusinessProfiles — other, retrieved 2026-02-12; \\\"was formed on 1982-06-25 in Arizona\\\"](https://businessprofiles.com/details/blue-beacon-international-incorporated/AZ-F00284892). The company’s leadership includes President Trace E. Walker and Director Michael B. Walker [BusinessProfiles — other, retrieved 2026-02-12; \\\"TRACE E WALKER president\\\"](https://businessprofiles.com/details/blue-beacon-international-incorporated/AZ-F00284892). Blue Beacon owns and operates a truck wash at 1172 S. Sunshine Blvd in Eloy (I-10 interchange), on the parcels adjacent to the project site [Blue Beacon — company site, retrieved 2026-02-12; \\\"1172 S Sunshine Blvd, Eloy, AZ\\\"](https://bluebeacon.com/locations). The firm has no known involvement in local land-use disputes and typically focuses solely on its commercial operations.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small business presence; out-of-state ownership with minimal local economic or political influence\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Uninterrupted business operations\", \"Maintain customer traffic/access\", \"Local economic activity (truck traffic)\"],\n      \"approach_recommendations\": \"Coordinate with the local Blue Beacon manager to address any construction or traffic concerns; keep communication open to ensure the project does not impede their access or operations, which should prevent any opposition from this neighbor\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

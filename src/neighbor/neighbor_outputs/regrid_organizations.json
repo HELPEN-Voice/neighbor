@@ -2,26 +2,72 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Woodlot Farms Llc",
+      "name": "Milligan Energy Center Llc",
       "entity_type": "organization",
       "pins": [
-        "52-2"
+        "41138001E",
+        "41138004B"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Eloy 170 Llc",
+      "entity_type": "organization",
+      "pins": [
+        "41138004F",
+        "41138001D",
+        "41107001K"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Arizona Public Service Company",
+      "entity_type": "organization",
+      "pins": [
+        "41138004G",
+        "41138004E"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Gilkey Farms Inc",
+      "name": "Mdt Investments Ltd Pship",
       "entity_type": "organization",
       "pins": [
-        "52-17"
+        "40801022B",
+        "40801022C"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Saddle Ridge Farm Llc",
+      "name": "Dye Equities Llc Etal",
       "entity_type": "organization",
       "pins": [
-        "52-3"
+        "41107005C"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Torino Holdings Llc",
+      "entity_type": "organization",
+      "pins": [
+        "41107001J"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "New Sunshine Fund Llc",
+      "entity_type": "organization",
+      "pins": [
+        "41138001L"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Blue Beacon International Inc",
+      "entity_type": "organization",
+      "pins": [
+        "41138001J",
+        "41138001F"
       ],
       "owns_adjacent_parcel": "No"
     }

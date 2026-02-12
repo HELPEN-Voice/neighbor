@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-02-11T18:16:15.449542",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260211_180311_6925.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "MDT Investments Ltd Pship",
+      "entity_category": "Organization",
+      "entity_type": "limited_partnership",
+      "pins": [
+        "40801022B",
+        "40801022C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "MDT Investments Ltd Partnership is a private landholding entity with a registered address in Phoenix, Arizona ([Homes.com](https://www.homes.com/property/2929-n-47th-ave-phoenix-az/z0z9mcv61f42r/)). The Arizona Corporation Commission database contains no active domestic corporate registration for this exact name, suggesting it may be a legacy limited partnership or registered via the Secretary of State ([ecorp.azcc.gov](https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=01077022)). Public records link the entity to property transactions involving Malcolm D. Taylor in the mid-1990s, indicating a potential family trust or legacy ownership structure ([Homes.com](https://www.homes.com/property/2929-n-47th-ave-phoenix-az/z0z9mcv61f42r/)). No active business operations, websites, or public notices were found for the partnership in Pinal County, consistent with a passive land-holding strategy. Pinal County farmers face significant water cutbacks, a regional issue that typically makes agricultural landholders sensitive to development impacts on water resources ([Fox 10 Phoenix](https://www.fox10phoenix.com/news/some-pinal-county-farmers-facing-stark-choice-as-drought-persists)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Passive entity with no visible leadership or recent political activity in the county.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset appreciation",
+          "Water rights preservation"
+        ],
+        "engage": "Contact via the Phoenix mailing address associated with tax records; treat as a passive investor; emphasize low water usage of the proposed project compared to agriculture."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Private limited partnership with legacy holdings; appears to be a passive investment vehicle with no active local footprint.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Registered address in Phoenix, Arizona",
+          "url": "https://www.homes.com/property/2929-n-47th-ave-phoenix-az/z0z9mcv61f42r/",
+          "title": "Property History: 2929 N 47th Ave",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "No active domestic corporate registration found",
+          "url": "https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=01077022",
+          "title": "Arizona Corporation Commission Entity Search",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "Pinal County farmers face significant water cutbacks",
+          "url": "https://www.fox10phoenix.com/news/some-pinal-county-farmers-facing-stark-choice-as-drought-persists",
+          "title": "Some Pinal County farmers facing stark choice as drought persists",
+          "date": "2023-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Dye Equities LLC et al",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "41107005C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dye Equities LLC is an Arizona limited liability company associated with the Dye family, prominent in the region's industrial gas and welding supply industry (Phoenix Welding Supply) ([Phoenix Welding Supply History](https://phxwelding.com/history/)). The entity has appeared in Arizona Corporation Commission dockets related to water utility regulation, specifically filing comments in Global Water Resources cases, indicating active engagement in land-use and utility infrastructure matters ([ACC eDocket](https://edocket.azcc.gov/search/docket-search/item-detail/13404)). The LLC is also linked to equine investments, with records listing \"Dye Equities and Gil Dye\" as buyers in thoroughbred transactions ([Equibase](https://www.equibase.com/profiles/Results.cfm?type=Horse&refno=4469244&registry=T&rbt=TB)). While the entity itself functions as a land-holding vehicle, the principals have deep local business roots and established regulatory awareness ([Phoenix Welding Supply History](https://phxwelding.com/history/)). General regional concerns regarding water availability likely apply to their agricultural land holdings ([Fox 10 Phoenix](https://www.fox10phoenix.com/news/some-pinal-county-farmers-facing-stark-choice-as-drought-persists)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Principals are established business owners (Phoenix Welding Supply) with a history of engagement in utility regulatory dockets.",
+      "approach_recommendations": {
+        "motivations": [
+          "Utility access/infrastructure",
+          "Land value preservation",
+          "Business stability"
+        ],
+        "engage": "Leverage the family's business background; approach with technical competence regarding utility infrastructure; acknowledge their sophistication in regulatory matters."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Land-holding entity for the Dye family (Phoenix Welding Supply); actively engaged in regional water utility regulation.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Associated with the Dye family (Phoenix Welding Supply)",
+          "url": "https://phxwelding.com/history/",
+          "title": "Phoenix Welding Supply History",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "Appeared in Arizona Corporation Commission dockets related to water utility regulation",
+          "url": "https://edocket.azcc.gov/search/docket-search/item-detail/13404",
+          "title": "ACC eDocket - Global Water Resources Case",
+          "date": "2020-08-19"
+        },
+        {
+          "claim": "Linked to equine investments and Gil Dye",
+          "url": "https://www.equibase.com/profiles/Results.cfm?type=Horse&refno=4469244&registry=T&rbt=TB",
+          "title": "Equibase Profile: Dye Equities",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "Regional drought impacts on Pinal County agriculture",
+          "url": "https://www.fox10phoenix.com/news/some-pinal-county-farmers-facing-stark-choice-as-drought-persists",
+          "title": "Some Pinal County farmers facing stark choice as drought persists",
+          "date": "2023-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Torino Holdings LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "41107001J"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Torino Holdings LLC is an affiliate of Torino Group, Inc., a real estate development and management firm based in Carlsbad, California, with active operations in Arizona ([Torino Group About Us](https://www.torinogroupinc.com/about-us/)). The firm is led by President Cole C.P. Torino and specializes in multi-family residential development and property repositioning ([Torino Group About Us](https://www.torinogroupinc.com/about-us/)). Corporate filings link Torino Holdings LLC to the same management structure, confirming it serves as a holding vehicle for the group's real estate assets ([BizProfile](https://www.bizprofile.net/principal-address/1497-sw-martin-downs-blvd-palm-city-fl-34990)). The company explicitly lists Arizona as a key market for its construction and development activities ([Torino Group Construction](https://www.torinogroupinc.com/construction/)). Given their developer profile, their interest in the parcel is likely strategic investment or future development potential rather than long-term passive holding ([Torino Group About Us](https://www.torinogroupinc.com/about-us/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Professional real estate developer with cross-state operations; holds significant capital resources but leadership is out-of-state.",
+      "approach_recommendations": {
+        "motivations": [
+          "Development ROI",
+          "Land value appreciation",
+          "Strategic partnerships"
+        ],
+        "engage": "Engage directly with Cole C.P. Torino or corporate leadership; frame proposals in terms of development synergies or exit strategies; appeal to their developer mindset."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Affiliate of Torino Group Inc., a California-based developer with Arizona operations; parcel is likely held for future development or investment.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Affiliate of Torino Group, Inc., based in Carlsbad, California",
+          "url": "https://www.torinogroupinc.com/about-us/",
+          "title": "Torino Group Inc. - About Us",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "Led by President Cole C.P. Torino",
+          "url": "https://www.torinogroupinc.com/about-us/",
+          "title": "Torino Group Inc. - Leadership",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "Active operations in Arizona",
+          "url": "https://www.torinogroupinc.com/construction/",
+          "title": "Torino Group Inc. - Construction",
+          "date": "2024-02-11"
+        },
+        {
+          "claim": "Linked to Torino Holdings via corporate records",
+          "url": "https://www.bizprofile.net/principal-address/1497-sw-martin-downs-blvd-palm-city-fl-34990",
+          "title": "BizProfile - Entity Registration Data",
+          "date": "2024-02-11"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 727410,
+    "thinking_count": 50
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-02-11T17:59:09.579417",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Of the two neighboring landowners identified, none have expressed a stance on the project (0 support, 0 oppose, 2 unknown). Neither is considered a high-influence community member (0 high-influence neighbors), as both neighbors are institutional entities (one state-owned parcel, one private investment firm).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gfp Investments Lllp",
+      "entity_category": "Resident",
+      "entity_type": "See ORG table",
+      "pins": [
+        "408260250",
+        "408260210",
+        "408260240",
+        "408260200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table"
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "State Of Arizona",
+      "entity_category": "Resident",
+      "entity_type": "See ORG table",
+      "pins": [
+        "411081720",
+        "411081710"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See ORG table",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table"
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Of the two neighboring landowners identified, none have expressed a stance on the project (0 support, 0 oppose, 2 unknown). Neither is considered a high-influence community member (0 high-influence neighbors), as both neighbors are institutional entities (one state-owned parcel, one private investment firm).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Gfp Investments Lllp\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"See ORG table\",\n      \"pins\": [\"408260250\", \"408260210\", \"408260240\", \"408260200\"],\n      \"claims\": \"See ORG table\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"See ORG table\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"State Of Arizona\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"See ORG table\",\n      \"pins\": [\"411081720\", \"411081710\"],\n      \"claims\": \"See ORG table\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"See ORG table\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

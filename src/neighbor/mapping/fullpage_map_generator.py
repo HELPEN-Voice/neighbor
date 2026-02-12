@@ -14,6 +14,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from ..models.schemas import NeighborProfile
+from ..utils.pin import normalize_pin
 from .map_data_builder import MapDataBuilder
 from .mapbox_client import MapboxClient, MapGenerationResult
 from .geometry_utils import get_centroid
@@ -121,7 +122,7 @@ class FullPageLabelGenerator:
                 continue
 
             pin = props.get("pin", "")
-            neighbor = neighbor_lookup.get(pin) if pin else None
+            neighbor = neighbor_lookup.get(normalize_pin(pin)) if pin else None
 
             # Include ALL neighbors (no influence filtering)
             if neighbor and neighbor.name not in owner_to_neighbor:
@@ -146,7 +147,7 @@ class FullPageLabelGenerator:
             pin = props.get("pin", "")
             is_adjacent = props.get("is_adjacent", False)
 
-            neighbor = neighbor_lookup.get(pin) if pin else None
+            neighbor = neighbor_lookup.get(normalize_pin(pin)) if pin else None
 
             if not geometry:
                 continue

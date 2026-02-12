@@ -1,0 +1,92 @@
+[
+  {
+    "marker_char": "1",
+    "text": "ARIZONA",
+    "full_name": "Arizona Public Service Company",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "STATE",
+    "full_name": "State Of Arizona",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "support",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "ROBINSON",
+    "full_name": "Timothy A. & Evelyn P. Robinson",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "4",
+    "text": "MILLIGAN",
+    "full_name": "Milligan Energy Center LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "5",
+    "text": "ELOY",
+    "full_name": "Eloy 170 LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "support",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "6",
+    "text": "DYE",
+    "full_name": "Dye Equities LLC et al",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "7",
+    "text": "TORINO",
+    "full_name": "Torino Holdings LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "8",
+    "text": "NEW",
+    "full_name": "New Sunshine Fund LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "9",
+    "text": "BLUE",
+    "full_name": "Blue Beacon International Inc",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  }
+]

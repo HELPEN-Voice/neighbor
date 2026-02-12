@@ -22,5 +22,6 @@ def normalize_pin(pin: str) -> str:
         .replace("\u200d", "")  # Zero-width joiner
         .replace("\ufeff", "")  # BOM/zero-width no-break space
         .replace("\u2060", "")  # Word joiner
+        .replace("-", "")  # Dashes (Gemini reformats PINs)
     )
     return re.sub(r"\s+", " ", result.strip())

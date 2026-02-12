@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-02-11T18:13:13.354424",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260211_175909_5793.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Pinal County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gfp Investments Lllp",
+      "entity_category": "Organization",
+      "entity_type": "Investment Entity",
+      "pins": [
+        "408260250",
+        "408260210",
+        "408260240",
+        "408260200"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": [
+        "No public record of an entity named 'Gfp Investments Lllp' active in Pinal County renewable energy matters was found in available sources ([source](https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&inquiryDirectionType=CurrentList&searchNameOrder=GFPINVESTMENTS%20L050001162350&ListNameOrder=GFPINVESTMENTS%20L050001162350))",
+        "Multiple entities with similar names exist in other jurisdictions (e.g., GFP Investments LLC in Florida), but none were definitively linked to these Pinal County parcels ([source](https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&inquiryDirectionType=CurrentList&searchNameOrder=GFPINVESTMENTS%20L050001162350&ListNameOrder=GFPINVESTMENTS%20L050001162350))"
+      ],
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No identified presence or activity in local records.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Conduct title search to confirm exact legal entity name."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Unable to verify the existence or activities of 'Gfp Investments Lllp' in Pinal County using public web sources. While similarly named entities exist in other states (Florida, Kentucky), no direct link to Pinal County development or land ownership was found.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "No public record of an entity named 'Gfp Investments Lllp' active in Pinal County renewable energy matters was found in available sources",
+          "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&inquiryDirectionType=CurrentList&searchNameOrder=GFPINVESTMENTS%20L050001162350&ListNameOrder=GFPINVESTMENTS%20L050001162350",
+          "title": "Florida Division of Corporations Search Results",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "Multiple entities with similar names exist in other jurisdictions (e.g., GFP Investments LLC in Florida), but none were definitively linked to these Pinal County parcels",
+          "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=EntityName&inquiryDirectionType=CurrentList&searchNameOrder=GFPINVESTMENTS%20L050001162350&ListNameOrder=GFPINVESTMENTS%20L050001162350",
+          "title": "Florida Division of Corporations Search Results",
+          "date": "2026-02-11"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "State Of Arizona",
+      "entity_category": "Organization",
+      "entity_type": "Government",
+      "pins": [
+        "411081720",
+        "411081710"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": [
+        "The Arizona State Land Department (ASLD) actively manages State Trust Land in Pinal County and has a 'strong commitment to facilitate utility scale solar energy projects' ([source](https://land.az.gov/solar-applications))",
+        "Leased land for the 300MW Box Canyon Solar Project near Florence, which began operations in 2025 ([source](https://brightnightpower.com/what-we-do/our-projects/box-canyon/))",
+        "The Box Canyon project is expected to generate over $65 million in land lease payments to the State Land Trust over its lifetime ([source](https://www.power-technology.com/news/box-canyon-solar-project-operation/))",
+        "Processing application for the Silver King Solar project, which proposes to redesignate 8,891 acres of State Trust Land for energy production ([source](https://pinalpost.com/countys-largest-solar-farm-proposal-highlights-rush-of-renewable-energy-applications/))"
+      ],
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major landowner and regulatory authority for solar leases.",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "fair_contracting"
+        ],
+        "engage": "Engage via Arizona State Land Department commercial leasing process."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": "The State of Arizona, through the State Land Department (ASLD), is a major proponent of renewable energy development in Pinal County. They actively lease State Trust Land for large-scale solar projects, including the operational Box Canyon Solar Project and the proposed Silver King Solar project. Their primary motivation is revenue generation for State Trust beneficiaries (schools, hospitals).",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Arizona State Land Department (ASLD) actively manages State Trust Land in Pinal County and has a 'strong commitment to facilitate utility scale solar energy projects'",
+          "url": "https://land.az.gov/solar-applications",
+          "title": "Solar Applications | Arizona State Land Department",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "Leased land for the 300MW Box Canyon Solar Project near Florence, which began operations in 2025",
+          "url": "https://brightnightpower.com/what-we-do/our-projects/box-canyon/",
+          "title": "Box Canyon Solar Project | BrightNight",
+          "date": "2026-02-11"
+        },
+        {
+          "claim": "The Box Canyon project is expected to generate over $65 million in land lease payments to the State Land Trust over its lifetime",
+          "url": "https://www.power-technology.com/news/box-canyon-solar-project-operation/",
+          "title": "Box Canyon solar project in Arizona begins operation",
+          "date": "2025-06-25"
+        },
+        {
+          "claim": "Processing application for the Silver King Solar project, which proposes to redesignate 8,891 acres of State Trust Land for energy production",
+          "url": "https://pinalpost.com/countys-largest-solar-farm-proposal-highlights-rush-of-renewable-energy-applications/",
+          "title": "County’s Largest Solar Farm Proposal Highlights Rush of Renewable Energy Applications",
+          "date": "2025-07-21"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 407681,
+    "thinking_count": 33
+  }
+}
