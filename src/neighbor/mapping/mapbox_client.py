@@ -97,36 +97,25 @@ class MapboxClient:
                 url_length=0,
             )
 
-        # Strategy A: Try GeoJSON overlay first
-        url = self._build_geojson_url(
-            geojson_features, marker_overlay, width, height, padding, retina
-        )
-        logger.debug(f"GeoJSON URL length: {len(url)}")
-
-        if len(url) <= self.SAFE_URL_LENGTH:
-            return self._fetch_and_save(
-                url, output_path, "geojson", len(geojson_features)
-            )
-
-        # Try simplification
-        logger.info("URL too long, trying geometry simplification...")
-        simplified_features = self._simplify_features(geojson_features)
-        url = self._build_geojson_url(
-            simplified_features, marker_overlay, width, height, padding, retina
-        )
-        logger.debug(f"Simplified URL length: {len(url)}")
-
-        if len(url) <= self.SAFE_URL_LENGTH:
-            return self._fetch_and_save(
-                url, output_path, "geojson", len(geojson_features)
-            )
-
-        # Strategy B: Fall back to polyline encoding (no fill, outline only)
-        logger.info("Simplification insufficient, trying polyline strategy...")
+        # Always use polyline encoding (no fill, outline only)
+        logger.info("Using polyline strategy for map rendering...")
         url = self._build_polyline_url(
             geojson_features, marker_overlay, width, height, padding, retina
         )
         logger.debug(f"Polyline URL length: {len(url)}")
+
+        if len(url) <= self.MAX_URL_LENGTH:
+            return self._fetch_and_save(
+                url, output_path, "polyline", len(geojson_features)
+            )
+
+        # Try simplification for polyline if URL is still too long
+        logger.info("Polyline URL too long, trying geometry simplification...")
+        simplified_features = self._simplify_features(geojson_features)
+        url = self._build_polyline_url(
+            simplified_features, marker_overlay, width, height, padding, retina
+        )
+        logger.debug(f"Simplified polyline URL length: {len(url)}")
 
         if len(url) <= self.MAX_URL_LENGTH:
             return self._fetch_and_save(
