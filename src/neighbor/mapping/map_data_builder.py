@@ -95,7 +95,7 @@ class MapDataBuilder:
         Determine if a neighbor should be highlighted on the map.
 
         Criteria:
-        - High, Medium, or Low community influence
+        - High or Medium community influence
 
         Args:
             neighbor: NeighborProfile to check
@@ -103,7 +103,7 @@ class MapDataBuilder:
         Returns:
             True if neighbor should be highlighted
         """
-        return neighbor.community_influence in ["High", "Medium", "Low"]
+        return neighbor.community_influence in ["High", "Medium"]
 
     def build_map_features(self) -> Tuple[List[MapFeature], Dict[str, Any]]:
         """
