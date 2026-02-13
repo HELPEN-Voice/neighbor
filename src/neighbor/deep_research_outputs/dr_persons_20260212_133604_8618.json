@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-12T13:36:04.861895",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Spotsylvania County",
+    "state": "VA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The only adjacent landowner identified is a state agency with no public stance on local development (0 support, 0 oppose, 1 unknown). This government entity wields high influence as a major landowner and wildlife regulatory authority in the community.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Commonwealth of Virginia Board of Game & Inland Fisheries",
+      "entity_category": "Resident",
+      "entity_type": "See ORG table",
+      "pins": [
+        "30A6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Commonwealth of Virginia’s Board of Game & Inland Fisheries is the state agency responsible for managing inland wildlife and fisheries (now the Department of Wildlife Resources) [Virginia DWR](https://dwr.virginia.gov/about/). In 2017, this agency paid $9 million for roughly 2,900 acres in western Spotsylvania (Oakley Forest WMA) to conserve it as a new Wildlife Management Area [Outdoors Rambler](https://www.outdoorsrambler.com/post/2017/11/29/virginia-opening-wildlife-management-area-in-spotsylvania-county-needed-access).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "State agency; major landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat"
+        ],
+        "engage": "Coordinate through formal agency channels, emphasizing wildlife habitat protections and regulatory compliance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The only adjacent landowner identified is a state agency with no public stance on local development (0 support, 0 oppose, 1 unknown). This government entity wields high influence as a major landowner and wildlife regulatory authority in the community.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Commonwealth of Virginia Board of Game & Inland Fisheries\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"See ORG table\",\n      \"pins\": [\"30A6\"],\n      \"claims\": \"The Commonwealth of Virginia’s Board of Game & Inland Fisheries is the state agency responsible for managing inland wildlife and fisheries (now the Department of Wildlife Resources) [Virginia DWR](https://dwr.virginia.gov/about/). In 2017, this agency paid $9 million for roughly 2,900 acres in western Spotsylvania (Oakley Forest WMA) to conserve it as a new Wildlife Management Area [Outdoors Rambler](https://www.outdoorsrambler.com/post/2017/11/29/virginia-opening-wildlife-management-area-in-spotsylvania-county-needed-access).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"State agency; major landowner\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"wildlife_habitat\"],\n        \"engage\": \"Coordinate through formal agency channels, emphasizing wildlife habitat protections and regulatory compliance.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

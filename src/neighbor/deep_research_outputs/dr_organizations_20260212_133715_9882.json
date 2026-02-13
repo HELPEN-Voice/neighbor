@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-12T13:37:15.988263",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Spotsylvania County",
+    "state": "VA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The only neighboring entity identified is a private family living trust rather than a commercial organization. This trust represents an individual landowner holding several rural parcels, with no indications of corporate development interests or external backing. Any opposition or support from this neighbor would likely stem from personal concerns (property, lifestyle) rather than organized or well-funded campaigns.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Merlin Bailey Trustee Merlin M Bailey Living Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "44A10D",
+        "44A10C",
+        "44A10B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Merlin M. Bailey Living Trust is a private revocable trust managed by Merlin M. Bailey, an 80+ year-old Spotsylvania County resident (mailing address 8850 Pamunkey Road, Spotsylvania, VA 22551) [Information.com](https://information.com/people/merlin-bailey/). The trust holds at least three adjacent parcels in a rural part of Spotsylvania (PINs 44A-10B, 44A-10C, 44A-10D), and there is no record of any commercial business or development project associated with these properties [Spotsylvania County Assessment Office](https://www.spotsylvania.va.us/505/2025-Assessment-Search). No public filings or news reports indicate the Merlin M. Bailey Trust taking an active stance in local development disputes; it appears to function solely as a family landholding without involvement in advocacy or commercial ventures [Fredericksburg Free Lance–Star](https://fredericksburg.com).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Personal family trust with a few rural parcels; no significant economic or political influence observed",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage trustee Merlin Bailey with personal outreach to respectfully address any concerns about project impacts (e.g., visual buffers, noise mitigation), emphasizing how his property’s rural character and value will be protected."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The only neighboring entity identified is a private family living trust rather than a commercial organization. This trust represents an individual landowner holding several rural parcels, with no indications of corporate development interests or external backing. Any opposition or support from this neighbor would likely stem from personal concerns (property, lifestyle) rather than organized or well-funded campaigns.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Merlin Bailey Trustee Merlin M Bailey Living Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"44A10D\", \"44A10C\", \"44A10B\"],\n      \"claims\": \"Merlin M. Bailey Living Trust is a private revocable trust managed by Merlin M. Bailey, an 80+ year-old Spotsylvania County resident (mailing address 8850 Pamunkey Road, Spotsylvania, VA 22551) [Information.com](https://information.com/people/merlin-bailey/). The trust holds at least three adjacent parcels in a rural part of Spotsylvania (PINs 44A-10B, 44A-10C, 44A-10D), and there is no record of any commercial business or development project associated with these properties [Spotsylvania County Assessment Office](https://www.spotsylvania.va.us/505/2025-Assessment-Search). No public filings or news reports indicate the Merlin M. Bailey Trust taking an active stance in local development disputes; it appears to function solely as a family landholding without involvement in advocacy or commercial ventures [Fredericksburg Free Lance–Star](https://fredericksburg.com).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Personal family trust with a few rural parcels; no significant economic or political influence observed\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Preservation of rural character\", \"Property value and privacy concerns\"],\n      \"approach_recommendations\": \"Engage trustee Merlin Bailey with personal outreach to respectfully address any concerns about project impacts (e.g., visual buffers, noise mitigation), emphasizing how his property’s rural character and value will be protected.\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

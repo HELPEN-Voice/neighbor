@@ -1,0 +1,170 @@
+{
+  "timestamp": "2026-02-12T13:49:19.562529",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_133956_5933.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Spotsylvania County",
+    "state": "VA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Everett Jones Lumber Corporation",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "43A51"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Everett Jones Lumber Corp is a local timber company and sawmill operation based in Spotsylvania, VA ([SAFER Web](https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=118987)). The company has been historically led by the Jones family, including Everett \"Burt\" Jones Jr. (husband of the late Shirley B. Jones, former secretary/treasurer) ([Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/shirley-jones-obituary?id=33142722)). In 2004, the corporation was the plaintiff in a Virginia Supreme Court case (`Amstutz v. Everett Jones Lumber Corp`) regarding a prescriptive easement dispute to ensure logging access to their properties via Brightwell Road ([FindLaw](https://caselaw.findlaw.com/court/va-supreme-court/1050575.html)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Established local business with history of defending property access rights",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "drainage_roads"
+        ],
+        "engage": "Engage via corporate leadership. Given the 2004 litigation regarding road access, prioritize discussions about road maintenance, easement protections, and hauling routes. Address commercial forestry interests directly."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Everett Jones Lumber Corp is a local timber company and sawmill operation",
+          "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=118987",
+          "title": "SAFER Web - Company Snapshot EVERETT JONES LUMBER CORP",
+          "date": "2026-02-03"
+        },
+        {
+          "claim": "Company led by Jones family including Everett 'Burt' Jones Jr.",
+          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/shirley-jones-obituary?id=33142722",
+          "title": "Shirley Jones Obituary - Fredericksburg, VA",
+          "date": "2014-07-07"
+        },
+        {
+          "claim": "Plaintiff in 2004 Supreme Court case regarding prescriptive easement",
+          "url": "https://caselaw.findlaw.com/court/va-supreme-court/1050575.html",
+          "title": "Amstutz v. Everett Jones Lumber Corp.",
+          "date": "2004-11-05"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Carrie W. Atkins",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "44A9"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The property is associated with the Atkins family, though Carrie W. (Ann) Atkins passed away in May 2012 ([Johnson Funeral Home](https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230)). Her late husband, Harry Atkins Sr., was a lifelong Spotsylvania resident who died in 2001 and was buried in the Atkins family private cemetery located in Spotsylvania ([Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/harry-atkins-obituary?id=13096203)). Surviving family members include her son, Harry Atkins Jr., and daughters Tammy and Doris, who have resided in the county ([Johnson Funeral Home](https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Deceased landowner; property likely held by estate/heirs",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Carrie Atkins is deceased (2012). Direct outreach to her son, Harry Atkins Jr., or the estate executor. Acknowledge the family cemetery on the premises and assure protections for this sensitive cultural feature."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Carrie W. (Ann) Atkins passed away in May 2012",
+          "url": "https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230",
+          "title": "Obituary for Carrie Ann Atkins",
+          "date": "2012-05-13"
+        },
+        {
+          "claim": "Harry Atkins Sr. died in 2001 and was buried in private family cemetery",
+          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/harry-atkins-obituary?id=13096203",
+          "title": "Harry Atkins Obituary (2001)",
+          "date": "2001-06-20"
+        },
+        {
+          "claim": "Surviving children include Harry Atkins Jr., Tammy, and Doris",
+          "url": "https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230",
+          "title": "Obituary for Carrie Ann Atkins",
+          "date": "2012-05-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Lenora Burke Gummel",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "44A6"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lenora Burke Gummel is a Spotsylvania landowner with limited public profile regarding development. While other large-scale solar projects in the county (e.g., sPower) have generated significant public comment from neighbors, there is no public record of Gummel taking a vocal stance in media reports surrounding those events ([Virginia Mercury](https://virginiamercury.com/2019/02/25/virginias-biggest-proposed-solar-project-is-also-among-the-most-contentious-local-land-use-fights/)). Public records searches yield no evidence of elected office or board membership in Spotsylvania County.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles or documented advocacy",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Approach as a low-information stakeholder. Use standard introductory materials. Lack of prior public comment suggests a preference for privacy; avoid aggressive solicitation."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Context of local solar opposition (sPower) where owner was not named as a participant",
+          "url": "https://virginiamercury.com/2019/02/25/virginias-biggest-proposed-solar-project-is-also-among-the-most-contentious-local-land-use-fights/",
+          "title": "Virginia’s biggest proposed solar project is also among the most contentious local land-use fights",
+          "date": "2019-02-25"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 695072,
+    "thinking_count": 31
+  }
+}

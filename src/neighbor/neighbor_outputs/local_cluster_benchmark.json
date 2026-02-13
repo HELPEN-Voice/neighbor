@@ -1,0 +1,37 @@
+{
+  "run_id": "3067d04a-7120-4493-83e8-ba12e252f6e6",
+  "coordinates": "38.193287,-77.744904",
+  "state_code": "VA",
+  "parcels_analyzed": 30,
+  "community_wealth_proxy": {
+    "valid_samples": 12,
+    "median_structure_value": 126850.0,
+    "formatted": "$126,850",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
+  },
+  "land_value_proxy": {
+    "valid_samples": 27,
+    "median_value_per_acre": 6931.393985555148,
+    "formatted": "$6,931/acre",
+    "risk_level": "MEDIUM",
+    "risk_class": "risk-medium"
+  },
+  "total_property_value": 1548300.0,
+  "total_land_value": 15588900.0,
+  "final_radius_miles": 1.0,
+  "template_variables": {
+    "median_structure_value": "$126,850",
+    "wealth_risk_level": "LOW",
+    "wealth_risk_class": "risk-low",
+    "wealth_valid_samples": "12",
+    "median_land_value_acre": "$6,931/acre",
+    "land_risk_level": "MEDIUM",
+    "land_risk_class": "risk-medium",
+    "land_valid_samples": "27",
+    "parcels_analyzed": "30",
+    "total_property_value": "$1,548,300",
+    "total_land_value": "$15,588,900",
+    "final_radius_miles": "1.00"
+  }
+}

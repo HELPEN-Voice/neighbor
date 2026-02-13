@@ -1,0 +1,135 @@
+{
+  "batch_idx": 2,
+  "total_batches": 5,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Garet Meyer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "444B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Garet Meyer is a Spotsylvania County property owner, appearing in local address listings as a resident of the area ([veripages.com](https://veripages.com/name/Phil/Scarbrough/#:~:text=Also%20known%20as)). There are no public records or news reports of Meyer taking any position or speaking out on local development or energy issues in Spotsylvania ([vadogwood.com](https://vadogwood.com/2019/04/03/17-million-on-the-line-in-battle-over-spotsylvania-solar-farm/#:~:text=On%20the%20ground%2C%20the%20backlash,their%20property%20values%20to%20plummet)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles or influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a personal, one-on-one outreach by a neutral community liaison to build rapport and hear any concerns, since Meyer has not expressed views publicly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Phillip Jerome & Shelby Noel Scarbro",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "444C"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Phillip and Shelby Scarbro are listed as residents and landowners in Spotsylvania County ([veripages.com](https://veripages.com/name/Phil/Scarbrough/#:~:text=Also%20known%20as)). Neither has been identified in local government minutes or media as voicing opinions on development or clean energy projects, and they were not among the residents leading opposition to recent projects ([vadogwood.com](https://vadogwood.com/2019/04/03/17-million-on-the-line-in-battle-over-spotsylvania-solar-farm/#:~:text=On%20the%20ground%2C%20the%20backlash,their%20property%20values%20to%20plummet)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Scarbro household through direct, friendly outreach by the project\u2019s community liaison to inform them and invite feedback, as they have no public stance yet."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jerry Joan Hughes & Julian Gonzalez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "44A16"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jerry J. Hughes and Julian Gonzalez jointly own a parcel in Spotsylvania County (per local property records) ([veripages.com](https://veripages.com/name/Phil/Scarbrough/#:~:text=Also%20known%20as)). They have not made any known public comments on development issues, and their names do not appear in coverage of community debates on recent projects ([vadogwood.com](https://vadogwood.com/2019/04/03/17-million-on-the-line-in-battle-over-spotsylvania-solar-farm/#:~:text=On%20the%20ground%2C%20the%20backlash,their%20property%20values%20to%20plummet)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents, no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Hughes and Gonzalez with a personal visit or call by a neutral community representative to share project information and listen to any concerns, given their lack of public involvement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three profiled neighbors have no documented stance on local development or clean energy projects, with each classified as Unknown in stance. None hold any known public office or high-profile role in the community; all are considered to have low community influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_134113_5617.json",
+  "cached_at": "2026-02-12T13:41:13.562915"
+}
