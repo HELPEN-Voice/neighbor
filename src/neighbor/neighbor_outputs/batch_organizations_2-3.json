@@ -1,0 +1,111 @@
+{
+  "batch_idx": 1,
+  "total_batches": 3,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Big Willow Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N03W070000",
+        "08N03W180001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Big Willow Ranch LLC was established in 2011 and is incorporated in Idaho, operating as a livestock ranch business in Payette County [Manta](https://www.manta.com/c/mb5zhgz/big-willow-ranch-llc). The company runs a farm and feedlot (approx. 889 acres) along Big Willow Creek, with an existing 4,000-head cattle feedlot and a CAFO permit allowing expansion up to about 14,534 head [Intermountain MLS Listing](https://idaholife.com/sold-listing/detail/1177983088/6075-Big-Willow-Rd-Payette-ID). The ranch also features a private hunting lodge (Butte Lodge) offering guided elk hunts to fee-paying members on the property [Ultimate Elk Hunting Directory](https://www.ultimateelkhunting.com/business/butte-lodge/). Big Willow Ranch LLC has actively defended its resource rights, including a 2024 lawsuit against the Idaho Department of Water Resources over water matters [Idaho Dept. of Water Resources](https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/) and a 2025 contract dispute filed against a water equipment provider (Rain for Rent) in federal court [Justia](https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Owns a large feedlot operation and hundreds of acres; long-time local agricultural presence; has shown willingness to pursue legal action to protect its interests",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the ranch owners directly and assure them that their water rights and hunting habitat will be safeguarded; consider offering incentives (e.g., improved irrigation infrastructure) to address concerns, and be prepared for potential legal challenges given their history of defending resources"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Willows Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W020000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Willows Ranch LLC is the holding entity that acquired the approximately 12,900-acre Little Willow Creek Ranch in Payette County, which was listed for sale at around $9.5 million and sold in 2025 [Land and Farm](https://www.landandfarm.com/property/little-willow-creek-ranch-3195332/). The ranch was historically a family-run cattle operation (with 12,900\u00b1 deeded acres plus a 640-acre state grazing lease and a 2,000-acre BLM allotment) before transfer to this LLC, indicating a new investor ownership of the property [Hall and Hall](https://hallhall.com/property-for-sale/idaho/little-willow-creek-ranch/a09i000001NxeoS/). The identities of the LLC\u2019s members or ultimate owners are not disclosed in public records (beneficial owner unknown). Since the purchase, the ranch continues to be used for cattle grazing on a modest scale \u2013 for example, a 2023 employment ad sought a single ranch hand to manage a 75-head cow-calf operation on the property, reflecting ongoing ranching activity under the new ownership [RanchWorldAds](https://www.ranchworldads.com/classified.php?listing=139076).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Controls one of the largest landholdings in the county (~13,000 acres); significant financial resources behind purchase, but owners are absentee with limited direct local ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the LLC\u2019s representatives (or appointed ranch manager) with proposals that preserve the ranch\u2019s open space and value (e.g., conservation easements or financial compensation); emphasize mutually beneficial arrangements to appeal to the absentee owners\u2019 investment interests and lessen any incentive to oppose the project"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Peterson Richard M 2016 Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "08N04W100000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "See RESIDENT table.",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Unknown",
+      "influence_justification": "This entity is a private family trust (individual landowner); not treated as an organization for analysis here",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See RESIDENT table."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "The neighboring entities are large private landowners, primarily focused on agriculture and ranching, with one being a family trust. Two LLCs (Big Willow Ranch LLC and Willows Ranch LLC) control thousands of acres of ranchland in Payette County \u2013 including a 12,900\u00b1 acre ranch that recently changed hands \u2013 indicating significant land investments. They have no publicly stated positions on development, but their operations (irrigated feedlot, cattle grazing, and private hunting) suggest they could be protective of water resources, agricultural use, and the rural landscape. These landholders possess substantial acreage and resources, making them potentially influential if they choose to support or oppose new development in the area.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_162414_3548.json",
+  "cached_at": "2026-02-12T16:24:14.356030"
+}

@@ -1,0 +1,203 @@
+{
+  "timestamp": "2026-02-12T16:57:14.860576",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_164133_3789.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Payette County",
+    "state": "ID",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "DJS Properties L.P.",
+      "entity_category": "Organization",
+      "entity_type": "lp",
+      "pins": [
+        "08N04W120000",
+        "08N04W130000",
+        "08N04W110000",
+        "08N04W140000",
+        "08N03W072400",
+        "08N03W182400",
+        "08N04W014800",
+        "08N04W024801",
+        "08N04W243000",
+        "08N03W066000",
+        "08N04W230000",
+        "08N04W100600",
+        "08N04W150000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "DJS Properties, L.P. is a Simplot family limited partnership formed in 1997 by Don J. Simplot, initially holding significant family assets including stock and real estate([Justia](https://law.justia.com/cases/federal/district-courts/idaho/iddce/1:2007cv00484/21493/14/)). The partnership holds title to agricultural properties in Payette County, as confirmed by Idaho Department of Water Resources service lists and oil/gas permitting records from the Idaho Oil and Gas Conservation Commission([IDWR](https://idwr.idaho.gov/wp-content/uploads/sites/2/districts/Declaration-of-Proof-of-Service.pdf)). Historically, the entity was central to litigation during Don Simplot's 2007 bankruptcy, where family members successfully opposed the liquidation of DJS assets, arguing it would violate the partnership agreement([US Courts](https://www.id.uscourts.gov/content_fetcher/decision.cfml/In_re_Simplot_1786.pdf?Decision_ID=1786)). The entity has also engaged in land use applications in other Idaho counties, such as a record of survey application in Valley County to adjust lot lines for family trust properties([Valley County](https://evogov.s3.amazonaws.com/media/141/media/147325.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Entity is a primary land-holding vehicle for the prominent Simplot agribusiness family, which holds immense economic and political sway in Idaho.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset preservation",
+          "Family legacy"
+        ],
+        "engage": "Engage via Simplot family representatives or legal counsel; acknowledge the entity's history of protecting family assets and structure proposals to align with long-term holding strategies."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Simplot family limited partnership with verified agricultural holdings in Payette County. History of aggressive legal defense to protect partnership assets from liquidation.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Formed in 1997 by Don J. Simplot",
+          "url": "https://law.justia.com/cases/federal/district-courts/idaho/iddce/1:2007cv00484/21493/14/",
+          "title": "In Re Don J. Simplot - Memorandum Decision",
+          "date": "2007-03-12"
+        },
+        {
+          "claim": "Owner of Payette County agricultural parcels",
+          "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/districts/Declaration-of-Proof-of-Service.pdf",
+          "title": "IDWR Declaration of Proof of Service",
+          "date": "2024-05-10"
+        },
+        {
+          "claim": "Bankruptcy litigation regarding asset liquidation",
+          "url": "https://www.id.uscourts.gov/content_fetcher/decision.cfml/In_re_Simplot_1786.pdf?Decision_ID=1786",
+          "title": "US Bankruptcy Court Decision - Don J. Simplot",
+          "date": "2007-03-12"
+        },
+        {
+          "claim": "Land use applications in Valley County",
+          "url": "https://evogov.s3.amazonaws.com/media/141/media/147325.pdf",
+          "title": "McCall Area Planning and Zoning Commission Minutes",
+          "date": "2015-03-03"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "B Humble Farms LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W137200",
+        "08N04W139000",
+        "08N03W186450",
+        "08N04W240600",
+        "08N04W240011",
+        "08N03W193020"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "B Humble Farms LLC is an Idaho limited liability company associated with the Boschma family and Lone Pine Dairy operations([Canyon County](https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf)). Public records indicate recent financial litigation; the entity was named as a co-defendant alongside Lone Pine Dairy in a 2025 foreclosure action and Sheriff's Sale notice involving agricultural real property in neighboring Canyon County([Canyon County](https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf)). This legal activity suggests the entity functions as part of a broader family agricultural enterprise rather than a standalone small holding. No specific public stance on renewable energy development has been documented for this entity.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Entity is involved in active foreclosure litigation, potentially limiting community leverage; influence is tied to the Boschma family dairy operations which are facing financial challenges.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial solvency",
+          "Operational continuity"
+        ],
+        "engage": "Approach with extreme sensitivity regarding current legal challenges; any lease offers may be viewed as a welcome financial opportunity, but title/ownership stability must be verified immediately."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Boschma family agricultural entity currently navigating foreclosure litigation as of early 2025. Closely tied to Lone Pine Dairy operations.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Named co-defendant in foreclosure/Sheriff's sale 2025",
+          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf",
+          "title": "Amended Notice of Sheriff's Sale - Rooster Capital IV LLC vs Lone Pine Dairy et al",
+          "date": "2025-02-28"
+        },
+        {
+          "claim": "Association with Boschma family",
+          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
+          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
+          "date": "2025-02-25"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Horst Land LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W010000",
+        "08N03W066600",
+        "08N03W060000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Horst Land LLC is an Idaho agricultural entity managed by Bruce Horst, with a registered mailing address in Payette([Elementix](https://elementix.ai/investors/id/bruce-horst)). The entity actively manages crop production, evidenced by multiple crop residue burning permits issued by the Idaho Department of Environmental Quality for corn and bean fields in Payette County between 2020 and 2025([Idaho DEQ](https://www2.deq.idaho.gov/air/CRB/BurnApprovals/FinalBurnApprovalPdf/8568)). Bruce Horst is also listed in state financial records as a vendor or recipient of state funds([Idaho SCO](https://www.sco.idaho.gov/SiteAssets/Pages/Luma-Projects-&-Grants/AR%20Customer%20List%20-%2010.21.2021.xlsx)). There is no record of the entity taking a public position on zoning or development matters in county hearing minutes.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Active local agricultural operator focused on crop production (corn/beans); no evidence of broader political leadership or board roles.",
+      "approach_recommendations": {
+        "motivations": [
+          "Operational efficiency",
+          "Crop yield"
+        ],
+        "engage": "Engage Bruce Horst directly as an active operator; discussions should focus on minimizing impact to active planting/harvesting schedules and residue management practices."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Active agricultural operation managed by Bruce Horst. Verified production of corn and beans with recent state permits.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Managed by Bruce Horst",
+          "url": "https://elementix.ai/investors/id/bruce-horst",
+          "title": "Horst Land LLC Entity Details",
+          "date": "2026-02-12"
+        },
+        {
+          "claim": "DEQ Crop Residue Burning Permits (Corn/Beans)",
+          "url": "https://www2.deq.idaho.gov/air/CRB/BurnApprovals/FinalBurnApprovalPdf/8568",
+          "title": "Idaho DEQ Burn Permit 2025-59-1",
+          "date": "2025-04-22"
+        },
+        {
+          "claim": "State financial records listing",
+          "url": "https://www.sco.idaho.gov/SiteAssets/Pages/Luma-Projects-&-Grants/AR%20Customer%20List%20-%2010.21.2021.xlsx",
+          "title": "Idaho State Controller AR Customer List",
+          "date": "2021-10-21"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 529897,
+    "thinking_count": 33
+  }
+}

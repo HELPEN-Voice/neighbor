@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-12T16:24:43.811523",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Payette County",
+    "state": "ID",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The organization identified is a long-standing dairy farming LLC that has been a major agricultural landowner in the area. It operated a 2,170-head dairy on roughly 100 acres and appears to be a family-run enterprise. The company recently sold its main farm in Canyon County, suggesting the owners may be repositioning or exiting, and their motivations likely center on farmland value and future agricultural use. No obvious ties to external developers or activist groups were found, indicating its interests lie primarily in farming and land preservation.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Lone Pine Farms Canyon County LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W240201",
+        "08N04W241800",
+        "08N03W190001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lone Pine Farms Canyon County LLC is the corporate entity behind Lone Pine Dairy, a large dairy farm established in 1989 and incorporated in Idaho, with an estimated annual revenue of $1.8 million and about 9 employees [Manta](https://www.manta.com/c/mm4b9vv/lone-pine-dairy). The business registered “Lone Pine Dairy” as an assumed business name in 1999 with the Idaho Secretary of State [B2BHint](https://b2bhint.com/en/company/us-id/lone-pine-dairy--82993). The company operated a 104-acre dairy facility in Canyon County with approximately 2,170 head of cattle (CAFO) and extensive on-site infrastructure [Homes.com](https://www.homes.com/property/5592-w-kuna-rd-kuna-id/yc655hgrg7xj7/). That dairy property was listed at $3.25 million and sold in May 2025, though the owners retained their Darigold milk shipping rights, suggesting an intent to continue dairy operations elsewhere [Redfin](https://www.redfin.com/ID/Kuna/5592-W-Kuna-Rd-83634/home/117406212) [Homes.com](https://www.homes.com/property/5592-w-kuna-rd-kuna-id/yc655hgrg7xj7/). No public filings disclose the individual members or managers of the LLC (beneficial ownership remains unknown) [B2BHint](https://b2bhint.com/en/company/us-id/lone-pine-dairy--82993).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Long-standing local dairy operation (over 30 years) with significant land holdings and economic presence; known in farming community but not a top statewide agribusiness or political donor",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the principal farm owners directly (likely a family partnership) to address their agricultural concerns. Emphasize how the development can coexist with or even benefit local farming, and consider offering above-market lease or purchase terms if they are amenable to parting with additional land"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The organization identified is a long-standing dairy farming LLC that has been a major agricultural landowner in the area. It operated a 2,170-head dairy on roughly 100 acres and appears to be a family-run enterprise. The company recently sold its main farm in Canyon County, suggesting the owners may be repositioning or exiting, and their motivations likely center on farmland value and future agricultural use. No obvious ties to external developers or activist groups were found, indicating its interests lie primarily in farming and land preservation.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Lone Pine Farms Canyon County LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"08N04W240201\", \"08N04W241800\", \"08N03W190001\"],\n      \"claims\": \"Lone Pine Farms Canyon County LLC is the corporate entity behind Lone Pine Dairy, a large dairy farm established in 1989 and incorporated in Idaho, with an estimated annual revenue of $1.8 million and about 9 employees [Manta](https://www.manta.com/c/mm4b9vv/lone-pine-dairy). The business registered “Lone Pine Dairy” as an assumed business name in 1999 with the Idaho Secretary of State [B2BHint](https://b2bhint.com/en/company/us-id/lone-pine-dairy--82993). The company operated a 104-acre dairy facility in Canyon County with approximately 2,170 head of cattle (CAFO) and extensive on-site infrastructure [Homes.com](https://www.homes.com/property/5592-w-kuna-rd-kuna-id/yc655hgrg7xj7/). That dairy property was listed at $3.25 million and sold in May 2025, though the owners retained their Darigold milk shipping rights, suggesting an intent to continue dairy operations elsewhere [Redfin](https://www.redfin.com/ID/Kuna/5592-W-Kuna-Rd-83634/home/117406212) [Homes.com](https://www.homes.com/property/5592-w-kuna-rd-kuna-id/yc655hgrg7xj7/). No public filings disclose the individual members or managers of the LLC (beneficial ownership remains unknown) [B2BHint](https://b2bhint.com/en/company/us-id/lone-pine-dairy--82993).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Long-standing local dairy operation (over 30 years) with significant land holdings and economic presence; known in farming community but not a top statewide agribusiness or political donor\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Farmland preservation for future agriculture use\", \"Maximizing land sale or lease value\", \"Avoiding land-use conflicts that could affect livestock operations\"],\n      \"approach_recommendations\": \"Engage the principal farm owners directly (likely a family partnership) to address their agricultural concerns. Emphasize how the development can coexist with or even benefit local farming, and consider offering above-market lease or purchase terms if they are amenable to parting with additional land\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

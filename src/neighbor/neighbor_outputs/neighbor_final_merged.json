@@ -2,673 +2,24 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Everett Jones Lumber Corporation",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
+      "name": "Bureau Of Land Management",
+      "entity_category": "Organization",
+      "entity_type": "Organization",
       "pins": [
-        "43A51"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Everett Jones Lumber Corp is a local timber company and sawmill operation based in Spotsylvania, VA ([SAFER Web](https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=118987)). The company has been historically led by the Jones family, including Everett \"Burt\" Jones Jr. (husband of the late Shirley B. Jones, former secretary/treasurer) ([Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/shirley-jones-obituary?id=33142722)). In 2004, the corporation was the plaintiff in a Virginia Supreme Court case (`Amstutz v. Everett Jones Lumber Corp`) regarding a prescriptive easement dispute to ensure logging access to their properties via Brightwell Road ([FindLaw](https://caselaw.findlaw.com/court/va-supreme-court/1050575.html)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Established local business with history of defending property access rights",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "drainage_roads"
-        ],
-        "engage": "Engage via corporate leadership. Given the 2004 litigation regarding road access, prioritize discussions about road maintenance, easement protections, and hauling routes. Address commercial forestry interests directly."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Everett Jones Lumber Corp is a local timber company and sawmill operation",
-          "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=118987",
-          "title": "SAFER Web - Company Snapshot EVERETT JONES LUMBER CORP",
-          "date": "2026-02-03",
-          "note": null
-        },
-        {
-          "claim": "Company led by Jones family including Everett 'Burt' Jones Jr.",
-          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/shirley-jones-obituary?id=33142722",
-          "title": "Shirley Jones Obituary - Fredericksburg, VA",
-          "date": "2014-07-07",
-          "note": null
-        },
-        {
-          "claim": "Plaintiff in 2004 Supreme Court case regarding prescriptive easement",
-          "url": "https://caselaw.findlaw.com/court/va-supreme-court/1050575.html",
-          "title": "Amstutz v. Everett Jones Lumber Corp.",
-          "date": "2004-11-05",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Carrie W. Atkins",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "44A9"
+        "08N04W012400"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The property is associated with the Atkins family, though Carrie W. (Ann) Atkins passed away in May 2012 ([Johnson Funeral Home](https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230)). Her late husband, Harry Atkins Sr., was a lifelong Spotsylvania resident who died in 2001 and was buried in the Atkins family private cemetery located in Spotsylvania ([Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/harry-atkins-obituary?id=13096203)). Surviving family members include her son, Harry Atkins Jr., and daughters Tammy and Doris, who have resided in the county ([Johnson Funeral Home](https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230)).",
+      "claims": "The Bureau of Land Management (BLM) is a federal agency managing public lands; its Four Rivers Field Office oversees approximately 1.3 million acres in southwest Idaho [Bureau of Land Management](https://www.blm.gov/office/four-rivers-field-office). Federal BLM lands are exempt from local property taxes, but the agency provides Payment in Lieu of Taxes (PILT) to Payette County to support local services [DOI](https://www.doi.gov/pilt). The field office actively processes renewable energy applications under a 2023 Renewable Energy Strategy and the 2023 Resource Management Plan [BLM](https://www.blm.gov/sites/default/files/docs/2023-09/BLM_Idaho_RenewableEnergyReport_FINAL.pdf).",
       "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Deceased landowner; property likely held by estate/heirs",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Carrie Atkins is deceased (2012). Direct outreach to her son, Harry Atkins Jr., or the estate executor. Acknowledge the family cemetery on the premises and assure protections for this sensitive cultural feature."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Carrie W. (Ann) Atkins passed away in May 2012",
-          "url": "https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230",
-          "title": "Obituary for Carrie Ann Atkins",
-          "date": "2012-05-13",
-          "note": null
-        },
-        {
-          "claim": "Harry Atkins Sr. died in 2001 and was buried in private family cemetery",
-          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/harry-atkins-obituary?id=13096203",
-          "title": "Harry Atkins Obituary (2001)",
-          "date": "2001-06-20",
-          "note": null
-        },
-        {
-          "claim": "Surviving children include Harry Atkins Jr., Tammy, and Doris",
-          "url": "https://www.johnsonfuneralhomeandcrematory.com/obituaries/Carrie-Ann-Atkins?obId=1996230",
-          "title": "Obituary for Carrie Ann Atkins",
-          "date": "2012-05-13",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Lenora Burke Gummel",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "44A6"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Lenora Burke Gummel is a Spotsylvania landowner with limited public profile regarding development. While other large-scale solar projects in the county (e.g., sPower) have generated significant public comment from neighbors, there is no public record of Gummel taking a vocal stance in media reports surrounding those events ([Virginia Mercury](https://virginiamercury.com/2019/02/25/virginias-biggest-proposed-solar-project-is-also-among-the-most-contentious-local-land-use-fights/)). Public records searches yield no evidence of elected office or board membership in Spotsylvania County.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known public roles or documented advocacy",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Approach as a low-information stakeholder. Use standard introductory materials. Lack of prior public comment suggests a preference for privacy; avoid aggressive solicitation."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Context of local solar opposition (sPower) where owner was not named as a participant",
-          "url": "https://virginiamercury.com/2019/02/25/virginias-biggest-proposed-solar-project-is-also-among-the-most-contentious-local-land-use-fights/",
-          "title": "Virginia’s biggest proposed solar project is also among the most contentious local land-use fights",
-          "date": "2019-02-25",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Rettie J. Harding",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "44A9A"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Rettie J. Harding is a long-time resident of Spotsylvania County, listed as the owner of the property at 8853 Pamunkey Rd ([National Public Data](https://nationalpublicdata.com/people/h/rettie-harding/)). This address corresponds with parcel data in the surrounding Pamunkey Road area ([Realtor.com](https://www.realtor.com/realestateandhomes-detail/8853-Pamunkey-Rd_Spotsylvania_VA_22551_M52979-45893)). Public records indicate she is part of the local Atkins family, being the sister of the late Harry Atkins, a lifelong Spotsylvania resident ([Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/harry-atkins-obituary?id=13096203)). No evidence of public participation in zoning hearings or development comments was found.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private resident with local family ties but no documented public leadership roles.",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage by acknowledging her long-standing family roots in the county. Focus on visual buffers and maintaining the quiet rural character of her property, as she appears to be a private resident without commercial interests."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Rettie J. Harding is a long-time resident of Spotsylvania County, listed as the owner of the property at 8853 Pamunkey Rd",
-          "url": "https://nationalpublicdata.com/people/h/rettie-harding/",
-          "title": "Rettie Harding - Spotsylvania, VA Public Record",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "This address corresponds with parcel data in the surrounding Pamunkey Road area",
-          "url": "https://www.realtor.com/realestateandhomes-detail/8853-Pamunkey-Rd_Spotsylvania_VA_22551_M52979-45893",
-          "title": "Property Details: 8853 Pamunkey Rd, Spotsylvania, VA",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "Public records indicate she is part of the local Atkins family, being the sister of the late Harry Atkins",
-          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/harry-atkins-obituary?id=13096203",
-          "title": "Obituary: Harry Atkins",
-          "date": "2001-06-20",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Rose Lee Gilbert",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "444A"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Rose Lee Gilbert (also listed as Rose L. Gilbert) is a resident of Spotsylvania County associated with the property at 8885 Pamunkey Rd ([National Public Data](https://nationalpublicdata.com/people/g/rose-gilbert/)). She is the wife of Jack Gilbert; the Gilbert family has a presence in the area, with relatives owning adjacent or nearby properties ([Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/sylvia-gilbert-obituary?id=12533611)). There is no record of her speaking publicly on solar or land use development in available county minutes.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Long-term resident with extended family in the area; no public office found.",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "heritage_family_legacy"
-        ],
-        "engage": "Approach with respect for family legacy, noting that other Gilbert family members live nearby. Assure her that the project will not disrupt family property cohesion or degrade the inheritance value of the land."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Rose Lee Gilbert is a resident of Spotsylvania County associated with the property at 8885 Pamunkey Rd",
-          "url": "https://nationalpublicdata.com/people/g/rose-gilbert/",
-          "title": "Rose Gilbert - Spotsylvania, VA Public Record",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "She is the wife of Jack Gilbert; the Gilbert family has a presence in the area",
-          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/sylvia-gilbert-obituary?id=12533611",
-          "title": "Obituary: Sylvia A. Gilbert (Granddaughter)",
-          "date": "2009-04-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Sharon Crabtree",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "44A10",
-        "44A10E"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Sharon Crabtree is the recorded owner of the property at 8834 Pamunkey Rd (Parcel 44-A-10E), which she purchased in June 2025 ([Redfin](https://www.redfin.com/VA/Spotsylvania/8834-Pamunkey-Rd-22551/home/15585215)) ([Homes.com](https://www.homes.com/property/8834-pamunkey-rd-spotsylvania-va/n8kzx0mxp4cjm/)). She is a prominent local educator who founded the 'Learn 'n Play' Preschool in Spotsylvania in 1988, a business that emphasizes nature-based learning and outdoor play on wooded acreage ([Learn 'n Play](https://www.learnnplay.com/about-us)). While she has not taken a documented public stance on solar development, her professional philosophy highlights a connection to nature and wooded environments.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Founder of long-standing local preschool serving 100+ families; respected educator.",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Federal land manager controlling 1.3M acres and permitting rights-of-way",
       "approach_recommendations": {
         "motivations": [
           "wildlife_habitat",
-          "aesthetics_viewshed"
+          "fair_contracting"
         ],
-        "engage": "Leverage her background in education and nature. Frame the project's landscaping plan as a way to support local biodiversity (pollinators) and maintain the 'wooded' aesthetic she values. Avoid technical jargon; focus on environmental stewardship."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Sharon Crabtree is the recorded owner of the property at 8834 Pamunkey Rd (Parcel 44-A-10E), which she purchased in June 2025",
-          "url": "https://www.redfin.com/VA/Spotsylvania/8834-Pamunkey-Rd-22551/home/15585215",
-          "title": "Property History: 8834 Pamunkey Rd",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "She is a prominent local educator who founded the 'Learn 'n Play' Preschool in Spotsylvania in 1988",
-          "url": "https://www.learnnplay.com/about-us",
-          "title": "About Us - Learn 'n Play Preschool",
-          "date": "2026-02-12",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Garet Meyer",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "444B"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Garet Meyer (also spelled Garrett Meyer) is identified as a resident of Spotsylvania County in public records ([National Public Data](https://nationalpublicdata.com/people/m/beverly-meyer/)). No public records were found indicating Meyer has taken a position on local development or energy projects in Spotsylvania County.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No public roles or civic leadership positions found.",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "property_value"
-        ],
-        "engage": "Conduct personal outreach to establish contact, as Meyer has no documented public stance. Verify preferred name spelling (Garet vs. Garrett) during initial interaction."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Identified as a resident of Spotsylvania County",
-          "url": "https://nationalpublicdata.com/people/m/beverly-meyer/",
-          "title": "Beverly Meyer - National Public Data",
-          "date": "2026-02-12",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Phillip Jerome & Shelby Noel Scarbro",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "444C"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Phillip and Shelby Scarbro are residents of Spotsylvania County, associated with the property at 8873 Pamunkey Rd, which corresponds to tax parcel 44-4-C ([Homes.com](https://www.homes.com/property/8873-pamunkey-rd-spotsylvania-va/hvv0hbldlpmr6/)). Phillip Scarbro has a documented address history at this location ([National Public Data](https://nationalpublicdata.com/people/s/phillip-scarbro/)). Family obituaries confirm the relationship between Phillip Jerome Scarbro and Shelby Noel Scarbro ([Covenant Funeral Service](https://www.covenantfuneralservice.com/obituaries/Stuart-Edward-Payne-Jr?obId=32468394)). Neither has been identified in local government minutes or media as voicing opinions on development or clean energy projects.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents with no identified public offices.",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Engage the Scarbro household through direct, friendly outreach. They have deep family ties in the region but no known history of opposing development."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Property associated with 8873 Pamunkey Rd and parcel 44-4-C",
-          "url": "https://www.homes.com/property/8873-pamunkey-rd-spotsylvania-va/hvv0hbldlpmr6/",
-          "title": "8873 Pamunkey Rd Property Details",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "Phillip Scarbro address history in Spotsylvania",
-          "url": "https://nationalpublicdata.com/people/s/phillip-scarbro/",
-          "title": "Phillip Scarbro - National Public Data",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "Family relationship confirmed via obituary",
-          "url": "https://www.covenantfuneralservice.com/obituaries/Stuart-Edward-Payne-Jr?obId=32468394",
-          "title": "Obituary for Stuart Edward Payne, Jr.",
-          "date": "2023-02-28",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Jerry Joan Hughes & Julian Gonzalez",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "44A16"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jerry Hughes and Julian Gonzalez are identified as associated with Spotsylvania County. A Julian Gonzalez is listed as the President of Career Central in Spotsylvania, VA ([SlideShare](https://www.slideshare.net/slideshow/enet-recruiter-whos-who-in-high-tech-recruiting-guidebook-spring-2014/31685301)). Jerry Hughes is a registered real estate agent operating in Spotsylvania ([Realtor.com](https://www.realtor.com/realestateagents/5673970bbb954c010067c2d2)). They have not made any known public comments on development issues, and their names do not appear in coverage of community debates on recent projects.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Local business owner and real estate professional.",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "local_control"
-        ],
-        "engage": "Approach with professional courtesy given their likely familiarity with local real estate and business sectors. Focus on property value protection and community benefits."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Julian Gonzalez listed as President of Career Central in Spotsylvania",
-          "url": "https://www.slideshare.net/slideshow/enet-recruiter-whos-who-in-high-tech-recruiting-guidebook-spring-2014/31685301",
-          "title": "Who's Who in High Tech Recruiting",
-          "date": "2014-01-01",
-          "note": null
-        },
-        {
-          "claim": "Jerry Hughes is a real estate agent in Spotsylvania",
-          "url": "https://www.realtor.com/realestateagents/5673970bbb954c010067c2d2",
-          "title": "Jerry Hughes - Realtor",
-          "date": "2024-11-29",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Della Lu Brooks, Megan Lee Brooks & Morgan Marie Brooks",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "43A39A"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The Brooks family co-owns property on Alva Brooks Lane, a road named after their ancestor, Alva Brooks [The Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/elnora-brooks-obituary?id=16415611). The family property contains a residential dwelling built circa 2011 on a lot exceeding 1 acre [Zillow](https://www.zillow.com/homedetails/13328-Alva-Brooks-Ln-Spotsylvania-VA-22551/64536987_zpid/). Public records indicate the property is part of a legacy holding, with family members (such as Meagan) mentioned in local obituaries as long-time area residents [The Free Lance-Star](https://www.legacy.com/us/obituaries/fredericksburg/name/elnora-brooks-obituary?id=16415611). No references were found of these specific Brooks family members speaking in local hearings or media about development issues [Virginia Mercury](https://virginiamercury.com/2019/02/27/hundreds-pack-into-contentious-spotsylvania-meeting-on-solar-project-supervisors-delay-decision/).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime local landowners with family road naming rights",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Have a respected community member acknowledge their family’s long local history and emphasize how any project plans respect their land legacy and continuity."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Alva Brooks Lane named after ancestor Alva Brooks",
-          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/elnora-brooks-obituary?id=16415611",
-          "title": "Elnora Brooks Obituary - The Free Lance-Star",
-          "date": "2007-01-03",
-          "note": null
-        },
-        {
-          "claim": "Property details (1.17 acres, built 2011)",
-          "url": "https://www.zillow.com/homedetails/13328-Alva-Brooks-Ln-Spotsylvania-VA-22551/64536987_zpid/",
-          "title": "13328 Alva Brooks Ln Property Details",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "No public stance found in local hearings",
-          "url": "https://virginiamercury.com/2019/02/27/hundreds-pack-into-contentious-spotsylvania-meeting-on-solar-project-supervisors-delay-decision/",
-          "title": "Spotsylvania Solar Hearing Coverage",
-          "date": "2019-02-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Anthony Gaudet & Brenda G. Gaudet",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "44-54"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Anthony and Brenda G. Gaudet are the recorded owners of a 5.28-acre residential property at 8861 Pamunkey Road in Spotsylvania, which they acquired in 2017 [Homes.com](https://www.homes.com/property/8861-pamunkey-rd-spotsylvania-va/60fhqdebjy3w3/). The property features a 3-bedroom, 2-bath house built in 2000 [Zillow](https://www.zillow.com/homedetails/8861-Pamunkey-Rd-Spotsylvania-VA-22551/64813243_zpid/). While there are records of Gaudet family members in Louisiana, definitive migration details for this specific couple could not be verified in the current scope; however, their ownership of the Spotsylvania property is confirmed via tax records [Homes.com](https://www.homes.com/property/8861-pamunkey-rd-spotsylvania-va/60fhqdebjy3w3/). They have not been identified in local news or meeting minutes as speaking out on development or energy projects [Virginia Mercury](https://virginiamercury.com/2019/02/27/hundreds-pack-into-contentious-spotsylvania-meeting-on-solar-project-supervisors-delay-decision/).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents; no public roles found",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Engage the Gaudets one-on-one with factual information, emphasizing that their rural peace and property value will be maintained. Personal outreach respecting their desire for a quiet environment is likely to resonate."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Owners of 5.28-acre property at 8861 Pamunkey Road",
-          "url": "https://www.homes.com/property/8861-pamunkey-rd-spotsylvania-va/60fhqdebjy3w3/",
-          "title": "8861 Pamunkey Rd Property History",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "House details (built 2000)",
-          "url": "https://www.zillow.com/homedetails/8861-Pamunkey-Rd-Spotsylvania-VA-22551/64813243_zpid/",
-          "title": "Zillow Property Details",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "No public stance found",
-          "url": "https://virginiamercury.com/2019/02/27/hundreds-pack-into-contentious-spotsylvania-meeting-on-solar-project-supervisors-delay-decision/",
-          "title": "Virginia Mercury Solar Hearing Coverage",
-          "date": "2019-02-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Tammy Newton Pavey",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "43A39B"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Tammy Newton Pavey is associated with a residential parcel on Alva Brooks Lane in Spotsylvania, featuring a 1,256 sq ft home [Redfin](https://www.redfin.com/VA/Spotsylvania/5128-Ridge-Rd-22551/home/22886049). Local obituaries confirm she is part of the Newton family, long-time residents of Spotsylvania [Legacy.com](https://www.legacy.com/us/obituaries/fredericksburg/name/donna-newton-obituary?id=12477439). While family members (Steve Pavey) have petitioned the county regarding utility infrastructure (broadband) [DHCD VA](https://www.dhcd.virginia.gov/sites/default/files/Docx/vati/archives/1-fiberlync-vati-application.pdf), there is no public record of Ms. Pavey herself taking a visible stance on local development or energy projects [Virginia Mercury](https://virginiamercury.com/2019/02/27/hundreds-pack-into-contentious-spotsylvania-meeting-on-solar-project-supervisors-delay-decision/).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local resident; family has engaged on utility issues",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Connect with Ms. Pavey through a neighborly conversation, acknowledging her family's tenure in the community. Emphasize that plans will not disrupt the quiet character of the area."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Associated with 1,256 sq ft home on Alva Brooks Lane",
-          "url": "https://www.redfin.com/VA/Spotsylvania/5128-Ridge-Rd-22551/home/22886049",
-          "title": "Redfin Property Details (13321 Alva Brooks Ln)",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "Family relationship (Newton/Pavey)",
-          "url": "https://www.legacy.com/us/obituaries/fredericksburg/name/donna-newton-obituary?id=12477439",
-          "title": "Donna Newton Obituary",
-          "date": "2010-04-17",
-          "note": null
-        },
-        {
-          "claim": "Steve Pavey broadband petition",
-          "url": "https://www.dhcd.virginia.gov/sites/default/files/Docx/vati/archives/1-fiberlync-vati-application.pdf",
-          "title": "VATI Application FY2022",
-          "date": "2021-09-15",
-          "note": null
-        },
-        {
-          "claim": "No public stance on solar",
-          "url": "https://virginiamercury.com/2019/02/27/hundreds-pack-into-contentious-spotsylvania-meeting-on-solar-project-supervisors-delay-decision/",
-          "title": "Virginia Mercury Solar Meeting Report",
-          "date": "2019-02-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Commonwealth of Virginia Board of Game & Inland Fisheries (now Department of Wildlife Resources)",
-      "entity_category": "Organization",
-      "entity_type": "See ORG table",
-      "pins": [
-        "30A6"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "The Commonwealth of Virginia’s Board of Game & Inland Fisheries (renamed the Department of Wildlife Resources or DWR in 2020) is the state agency responsible for managing inland wildlife and fisheries ([Virginia DWR](https://www.virginia.gov/agencies/department-of-game-and-inland-fisheries/)). In 2017, the agency paid $9 million for roughly 2,900 acres in western Spotsylvania County to establish the Oakley Forest Wildlife Management Area (WMA) ([Outdoors Rambler](https://www.outdoorsrambler.com/post/2017/11/29/virginia-opening-wildlife-management-area-in-spotsylvania-county-needed-access)). By 2023, the Oakley Forest WMA had expanded to approximately 4,459 acres ([Virginia DWR](https://dwr.virginia.gov/wma/oakley-forest/)). The DWR provides regulatory guidance for solar energy facilities, recommending specific wildlife protection measures such as perimeter fencing standards (maximum 61 inches or minimum 96 inches) to prevent deer entrapment and the preservation of native vegetative buffers ([Virginia DWR](https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "State regulatory agency and owner of ~4,459 acres (Oakley Forest WMA) in county.",
-      "approach_recommendations": {
-        "motivations": [
-          "wildlife_habitat"
-        ],
-        "engage": "Coordinate through DWR Environmental Services staff regarding wildlife corridor mapping, pollinator plantings, and fencing specifications to ensure regulatory compliance."
+        "engage": "Submit SF-299 application to the Four Rivers Field Office. Early engagement must address the 2023 Resource Management Plan and sage-grouse habitat conservation."
       },
       "entity_classification": "municipal",
       "profile_summary": null,
@@ -685,69 +36,53 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Renamed to Department of Wildlife Resources in 2020",
-          "url": "https://www.virginia.gov/agencies/department-of-game-and-inland-fisheries/",
-          "title": "Virginia Department of Wildlife Resources Agency Overview",
-          "date": "2025-02-12",
+          "claim": "Four Rivers Field Office oversees approximately 1.3 million acres in southwest Idaho",
+          "url": "https://www.blm.gov/office/four-rivers-field-office",
+          "title": "Four Rivers Field Office | Bureau of Land Management",
+          "date": "2023-07-08",
           "note": null
         },
         {
-          "claim": "Paid $9 million for 2,900 acres in 2017",
-          "url": "https://www.outdoorsrambler.com/post/2017/11/29/virginia-opening-wildlife-management-area-in-spotsylvania-county-needed-access",
-          "title": "Virginia Opening Wildlife Management Area in Spotsylvania County",
-          "date": "2017-11-29",
+          "claim": "Federal BLM lands are exempt from local property taxes, with counties instead receiving Payment in Lieu of Taxes (PILT) funds",
+          "url": "https://www.doi.gov/pilt",
+          "title": "Payment in Lieu of Taxes",
+          "date": "2023-06-15",
           "note": null
         },
         {
-          "claim": "Oakley Forest WMA expanded to 4,459 acres",
-          "url": "https://dwr.virginia.gov/wma/oakley-forest/",
-          "title": "Oakley Forest Wildlife Management Area",
-          "date": "2023-04-01",
-          "note": null
-        },
-        {
-          "claim": "Issues solar facility guidance on fencing and buffers",
-          "url": "https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf",
-          "title": "Solar Energy Facility Construction and Operation Recommendations",
-          "date": "2025-02-13",
+          "claim": "The field office actively processes renewable energy applications under a 2023 Renewable Energy Strategy",
+          "url": "https://www.blm.gov/sites/default/files/docs/2023-09/BLM_Idaho_RenewableEnergyReport_FINAL.pdf",
+          "title": "BLM Idaho Renewable Energy Strategy",
+          "date": "2023-09-01",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Cherry Tree Timber LLC C/O Property Tax Administration",
+      "name": "Lone Pine Farms Canyon County LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "44A12",
-        "44A4",
-        "43A6",
-        "44A15",
-        "44A14",
-        "44A13",
-        "43A50",
-        "43A49",
-        "43A48",
-        "43A39",
-        "43A47"
+        "08N04W240201",
+        "08N04W241800",
+        "08N03W190001"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Cherry Tree Timber LLC is a foreign-owned land holding entity (United Kingdom) [VDACS](https://www.vdacs.virginia.gov/pdf/annual-report-on-foreign-owned-land.pdf) managed by the Molpus Woodlands Group, a major timber investment management organization [Molpus](https://www.molpus.com/wp-content/uploads/2020/08/ValueAdded_LandSale_Img_PEN_CTTVALS0001.pdf). The company's mailing address in Jackson, MS corresponds to the Molpus headquarters, confirming its status as an investment vehicle rather than a local operator [King William County](https://www.kwc.gov/DocumentCenter/View/1106/2021LandUseCounty). While the entity has not publicly commented on the Spotsylvania solar project, it has demonstrated active engagement in land-use zoning in other Virginia counties (e.g., Nottoway County) to secure special exceptions for revenue-generating activities like hunting leases [Nottoway County](https://cms8.revize.com/revize/nottowaycountyva/03192024%20Staff%20Packet.pdf). This behavior indicates a rational economic approach to land asset management rather than ideological opposition to development.",
+      "owns_adjacent_parcel": "No",
+      "claims": "Lone Pine Farms Canyon County LLC is an agricultural entity governed by members of the Boschma family, specifically Joel S., Deborah L., Lisa M., and Stephen T. Boschma, who are also associated with the general partnership Lone Pine Dairy ([Canyon County Sheriff](https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf)). In Payette County, the entity developed a major livestock facility along Big Willow Creek, described in real estate records as a 14,534-head Confined Animal Feeding Operation (CAFO) and feedlot situated on approximately 890 acres ([RJ Realty](https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661)). The operation faced significant financial restructuring; in early 2025, the entity and its principals were defendants in a lawsuit brought by Rooster Capital IV LLC, resulting in a Judgment, Decree of Foreclosure, and a Sheriff's Sale of their associated real property in neighboring Canyon County ([Canyon County Sheriff](https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf)). Property records indicate the entity's primary Payette County holdings (6075 Big Willow Rd) were sold to Rown Investments LLC, a separate investment entity ([Homes.com](https://www.homes.com/property/6075-big-willow-rd-payette-id/beswyvfcm8vfe/)).",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Absentee commercial owner managed by a third-party investment firm (Molpus); no evidence of local political leadership or community organizing in Spotsylvania.",
+      "community_influence": "Medium",
+      "influence_justification": "Historical operator of one of the largest feedlots in the county (14,000+ head capacity), giving them significant past influence in the local agricultural sector, though recent foreclosure proceedings and property sales indicate a loss of operational control.",
       "approach_recommendations": {
         "motivations": [
-          "Asset monetization",
-          "Land value preservation",
-          "Lease revenue"
+          "Financial liquidity",
+          "Asset liquidation"
         ],
-        "engage": "Contact Molpus Woodlands Group directly, as they manage the asset. Position the solar development as a compatible land use or a divestment opportunity that aligns with their timber investment cycle. They are sophisticated financial actors likely to respond to ROI arguments rather than community sentiment."
+        "engage": "Do not engage the LLC for long-term agreements as they appear to have liquidated key assets. Direct outreach should be pivoted to the new owners of the Big Willow Road assemblage (Rown Investments LLC) or legal representatives handling the receivership/foreclosure estate if any parcels remain under the Boschma family's control."
       },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
+      "entity_classification": "agriculture",
+      "profile_summary": "Family-run agricultural entity that operated a large-scale CAFO in Payette County. The entity has recently undergone foreclosure proceedings and asset liquidation, selling major holdings to an investment firm.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -761,58 +96,132 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Cherry Tree Timber LLC is a foreign-owned land holding entity (United Kingdom)",
-          "url": "https://www.vdacs.virginia.gov/pdf/annual-report-on-foreign-owned-land.pdf",
-          "title": "Annual Report on Foreign Ownership of Agricultural Land",
-          "date": "2023-07-01",
+          "claim": "Governed by members of the Boschma family (Joel S., Deborah L., Lisa M., Stephen T.) and associated with Lone Pine Dairy",
+          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
+          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
+          "date": "2025-02-25",
           "note": null
         },
         {
-          "claim": "managed by the Molpus Woodlands Group, a major timber investment management organization",
-          "url": "https://www.molpus.com/wp-content/uploads/2020/08/ValueAdded_LandSale_Img_PEN_CTTVALS0001.pdf",
-          "title": "Molpus Woodlands Group Property Flyer",
-          "date": "2020-08-01",
+          "claim": "Developed a 14,534-head Confined Animal Feeding Operation (CAFO) on ~890 acres in Payette County",
+          "url": "https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661",
+          "title": "6075 Big Willow Rd Listing Details",
+          "date": "2025-01-22",
           "note": null
         },
         {
-          "claim": "mailing address in Jackson, MS corresponds to the Molpus headquarters",
-          "url": "https://www.kwc.gov/DocumentCenter/View/1106/2021LandUseCounty",
-          "title": "King William County Land Use Assessment",
-          "date": "2021-01-01",
+          "claim": "Defendants in foreclosure lawsuit by Rooster Capital IV LLC resulting in Sheriff's Sale",
+          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
+          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
+          "date": "2025-02-25",
           "note": null
         },
         {
-          "claim": "demonstrated active engagement in land-use zoning in other Virginia counties (e.g., Nottoway County) to secure special exceptions",
-          "url": "https://cms8.revize.com/revize/nottowaycountyva/03192024%20Staff%20Packet.pdf",
-          "title": "Nottoway County Board of Supervisors Staff Packet",
-          "date": "2024-03-19",
+          "claim": "Payette County holdings sold to Rown Investments LLC",
+          "url": "https://www.homes.com/property/6075-big-willow-rd-payette-id/beswyvfcm8vfe/",
+          "title": "Property History: 6075 Big Willow Rd",
+          "date": "2025-02-08",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Big Willow Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N03W070000",
+        "08N03W180001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Big Willow Ranch LLC operates a significant agricultural enterprise in Payette County, centered around a farm and feedlot operation along Big Willow Creek [Clearwater Properties](https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661). The property covers approximately 889 acres and includes an existing 4,000-head feedlot, with a CAFO permit authorizing expansion up to 14,534 head [Zillow](https://www.zillow.com/homedetails/6075-Big-Willow-Rd-Payette-ID-83661/96906304_zpid/). In addition to livestock, the ranch operates 'Butte Lodge,' a private facility offering guided elk hunts on the property [Ultimate Elk Hunting Directory](https://www.ultimateelkhunting.com/business/butte-lodge/). The entity has a documented history of legal litigation regarding its resources and operations. In 2024, Big Willow Ranch LLC filed a petition for judicial review against the Idaho Department of Water Resources regarding the forfeiture of water rights [Idaho Dept. of Water Resources](https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/). Furthermore, in April 2025, the company filed a contract dispute lawsuit in federal court against Western Oilfields Supply Company (dba Rain for Rent) [Justia](https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "The entity controls a substantial agricultural operation with significant permitted expansion capacity (14,534 head CAFO) and demonstrates high legal sophistication and willingness to litigate to protect resource rights.",
+      "approach_recommendations": {
+        "motivations": [
+          "Resource protection (water rights)",
+          "Operational expansion",
+          "Recreational land value"
+        ],
+        "engage": "Engage leadership directly with a focus on resource preservation. Given their active litigation against IDWR regarding water rights, any discussion must explicitly guarantee no impact on their water availability or quality. The existence of the hunting lodge suggests the need to address visual/construction impacts on wildlife patterns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Big Willow Ranch LLC is a major agricultural and recreational operator in the county, managing a large feedlot with significant expansion permits and a commercial hunting lodge. They are legally active and protective of their water and property rights.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The property covers approximately 889 acres and includes an existing 4,000-head feedlot, with a CAFO permit authorizing expansion up to 14,534 head",
+          "url": "https://www.zillow.com/homedetails/6075-Big-Willow-Rd-Payette-ID-83661/96906304_zpid/",
+          "title": "6075 Big Willow Rd Property Details",
+          "date": "2025-02-08",
+          "note": null
+        },
+        {
+          "claim": "Big Willow Ranch LLC operates a significant agricultural enterprise... centered around a farm and feedlot operation",
+          "url": "https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661",
+          "title": "Listing for 6075 Big Willow Rd",
+          "date": "2025-02-12",
+          "note": null
+        },
+        {
+          "claim": "In addition to livestock, the ranch operates 'Butte Lodge,' a private facility offering guided elk hunts",
+          "url": "https://www.ultimateelkhunting.com/business/butte-lodge/",
+          "title": "Butte Lodge Business Listing",
+          "date": "2026-02-12",
+          "note": null
+        },
+        {
+          "claim": "In 2024, Big Willow Ranch LLC filed a petition for judicial review against the Idaho Department of Water Resources",
+          "url": "https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/",
+          "title": "Big Willow Ranch LLC v. IDWR Case Summary",
+          "date": "2024-07-29",
+          "note": null
+        },
+        {
+          "claim": "in April 2025, the company filed a contract dispute lawsuit in federal court against Western Oilfields Supply Company",
+          "url": "https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784",
+          "title": "Big Willow Ranch, LLC v. Western Oilfields Supply Company",
+          "date": "2025-04-11",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "GTP Acquisition Partners II LLC C/O Property Tax Dept",
+      "name": "Willows Ranch LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
-        "44A11"
+        "08N04W020000"
       ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "GTP Acquisition Partners II, LLC is a subsidiary of American Tower Corporation, a major global telecommunications real estate investment trust [GovTribe](https://govtribe.com/vendors/gtp-acquisition-partners-ii-llc-g-t-p-4kl25). The entity functions as a holding company for tower assets and is listed as a subsidiary in American Tower's SEC filings [SEC](https://www.sec.gov/Archives/edgar/data/1053507/000105350721000026/exhibit21fy2020.htm). Its primary business activity involves leasing antenna space to government agencies and wireless carriers [GovTribe](https://govtribe.com/vendors/gtp-acquisition-partners-ii-llc-g-t-p-4kl25). There is no record of this entity engaging in local land use advocacy in Spotsylvania; its interests are likely strictly limited to the technical non-interference of its tower infrastructure.",
-      "confidence": "high",
-      "noted_stance": "neutral",
+      "owns_adjacent_parcel": "No",
+      "claims": "Willows Ranch LLC is a property owning entity in Payette County, with records linking it to a parcel on Little Willow Road [Homes.com](https://www.homes.com/property/5415-little-willow-rd-payette-id/j3666sp06537z/). Public records indicate the LLC is associated with an address in Steamboat Springs, Colorado, suggesting absentee ownership [Routt County Permits](https://cityview2.iharriscomputer.com/RouttCountyPortal/Permit/GetFile/118128). The entity appears to be distinct from the local 'Big Willow Ranch' operation. While the entity controls property in the Little Willow Creek area, specific details regarding the scale of agricultural operations under this specific LLC are limited in available public records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Corporate subsidiary with no local personnel or community presence; influence is limited to federal/technical telecommunications rights.",
+      "influence_justification": "Appears to be an absentee owner (Colorado address) with limited visible presence or political activity in local Payette County records compared to other large ranching entities.",
       "approach_recommendations": {
         "motivations": [
-          "Infrastructure protection",
-          "Technical non-interference"
+          "Asset appreciation",
+          "Passive income"
         ],
-        "engage": "Coordinate with American Tower’s site management team regarding technical specifications (setbacks, glare analysis) to ensure the solar array does not impact tower operations. Confirming non-interference will likely secure a neutral position."
+        "engage": "Treat as an absentee landowner/investor. Initial outreach should be directed to the registered address in Steamboat Springs, CO. Focus on property value protection and minimal disturbance, as they likely do not reside on-site."
       },
       "entity_classification": "land_investment",
-      "profile_summary": null,
+      "profile_summary": "Willows Ranch LLC appears to be a land-holding entity with ties to Steamboat Springs, Colorado, indicating absentee ownership. They own property on Little Willow Road but do not show the same level of local operational footprint as neighboring ranches.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -826,86 +235,44 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "subsidiary of American Tower Corporation, a major global telecommunications real estate investment trust",
-          "url": "https://govtribe.com/vendors/gtp-acquisition-partners-ii-llc-g-t-p-4kl25",
-          "title": "GovTribe Vendor Profile: GTP Acquisition Partners II LLC",
-          "date": "2024-02-12",
+          "claim": "Willows Ranch LLC is a property owning entity in Payette County, with records linking it to a parcel on Little Willow Road",
+          "url": "https://www.homes.com/property/5415-little-willow-rd-payette-id/j3666sp06537z/",
+          "title": "Property Record for 5415 Little Willow Rd",
+          "date": "2023-06-01",
           "note": null
         },
         {
-          "claim": "listed as a subsidiary in American Tower's SEC filings",
-          "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350721000026/exhibit21fy2020.htm",
-          "title": "American Tower Corp SEC Exhibit 21",
-          "date": "2021-02-25",
-          "note": null
-        },
-        {
-          "claim": "leasing antenna space to government agencies and wireless carriers",
-          "url": "https://govtribe.com/vendors/gtp-acquisition-partners-ii-llc-g-t-p-4kl25",
-          "title": "GovTribe Federal Contract Awards",
-          "date": "2024-02-12",
+          "claim": "Public records indicate the LLC is associated with an address in Steamboat Springs, Colorado",
+          "url": "https://cityview2.iharriscomputer.com/RouttCountyPortal/Permit/GetFile/118128",
+          "title": "Routt County Permit Record listing Willows Ranch LLC",
+          "date": "2024-04-05",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "George A Sr & Kathryn B Reina Co-Tr George A Reina Sr Living Trust",
+      "name": "Peterson Richard M 2016 Family Trust",
       "entity_category": "Organization",
       "entity_type": "trust",
       "pins": [
-        "44A5"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "This entity appears to be a private family trust holding residential or agricultural property. Comprehensive searches of Spotsylvania County Board of Supervisors minutes, planning commission records, and local media letters to the editor yielded no public statements, testimony, or positions regarding solar development associated with this trust or the named trustees.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Private family trust; no public record of community leadership or political involvement found.",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage via standard resident outreach protocols (mailers/open house invitations). No specific data suggests high risk or specific leverage points."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": []
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Merlin Bailey Trustee Merlin M Bailey Living Trust",
-      "entity_category": "Organization",
-      "entity_type": "trust",
-      "pins": [
-        "44A10D",
-        "44A10C",
-        "44A10B"
+        "08N04W100000"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The Merlin M. Bailey Living Trust is the recorded owner of multiple parcels in Spotsylvania County, including PINs 44A-10B, 44A-10C, and 44A-10D [Spotsylvania County Assessment Office](https://www.spotsylvania.va.us/505/2025-Assessment-Search). Parcel 44A-10D corresponds to the property at 8840 Pamunkey Road, which consists of approximately 11.13 acres [Zillow](https://www.zillow.com/homedetails/8840-Pamunkey-Rd-Spotsylvania-VA-22551/64428468_zpid/). Public records associate the Bailey Living Trust with a Spotsylvania mailing address in the 22551 zip code area [King William County Land Book 2020](https://www.kwc.gov/DocumentCenter/View/1116/2020LandBookCounty). There is no record of commercial development projects or active business operations associated with these specific tax parcels [Spotsylvania County Assessment Office](https://www.spotsylvania.va.us/505/2025-Assessment-Search). Searches of local news archives and public meeting minutes yielded no results indicating the trust or its trustee has taken a public stance on renewable energy or land use development in the county [Fredericksburg Free Lance–Star](https://fredericksburg.com).",
+      "claims": "This parcel is held by the Richard M. Peterson 2016 Family Trust. Richard M. Peterson, a long-time resident of Payette, passed away in March 2025 at the age of 93 [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-peterson-obituary?id=57999117). Control of the trust assets, including this property, has likely passed to successor trustees or heirs. No specific stance on renewable development is recorded for the trust or the late Mr. Peterson.",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Entity appears to be a private family landholding trust with no documented political involvement, board memberships, or public advocacy roles in Spotsylvania County.",
+      "community_influence": "Unknown",
+      "influence_justification": "Original landowner is deceased (2025); current decision-making authority is in transition or held by successor trustees whose influence is currently unknown.",
       "approach_recommendations": {
         "motivations": [
-          "Privacy",
-          "Rural preservation"
+          "Estate settlement",
+          "Asset liquidity"
         ],
-        "engage": "Engage the trustee via mail at the registered address, focusing on the preservation of the rural character of the Pamunkey Road area and providing assurances regarding visual buffers."
+        "engage": "Identify the successor trustee or executor of the Richard M. Peterson estate. The property may be in a period of transition following the owner's 2025 passing, which could present opportunities for lease or purchase if the heirs are looking to liquidate or monetize assets."
       },
       "entity_classification": "unknown",
-      "profile_summary": "Private landholding trust owning multiple parcels on Pamunkey Road; no evidence of commercial activity or political advocacy.",
+      "profile_summary": "The property is held by a family trust associated with Richard M. Peterson, who died in 2025. The land is likely in a probate or transitional management phase.",
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -919,411 +286,598 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "The Merlin M. Bailey Living Trust is the recorded owner of multiple parcels in Spotsylvania County, including PINs 44A-10B, 44A-10C, and 44A-10D",
-          "url": "https://www.spotsylvania.va.us/505/2025-Assessment-Search",
-          "title": "Spotsylvania County Assessment Search",
-          "date": "2025-01-01",
+          "claim": "Richard M. Peterson, a long-time resident of Payette, passed away in March 2025 at the age of 93",
+          "url": "https://www.legacy.com/us/obituaries/name/richard-peterson-obituary?id=57999117",
+          "title": "Obituary for Richard Peterson",
+          "date": "2025-03-27",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "DJS Properties L.P.",
+      "entity_category": "Organization",
+      "entity_type": "lp",
+      "pins": [
+        "08N04W120000",
+        "08N04W130000",
+        "08N04W110000",
+        "08N04W140000",
+        "08N03W072400",
+        "08N03W182400",
+        "08N04W014800",
+        "08N04W024801",
+        "08N04W243000",
+        "08N03W066000",
+        "08N04W230000",
+        "08N04W100600",
+        "08N04W150000"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "DJS Properties, L.P. is a Simplot family limited partnership formed in 1997 by Don J. Simplot, initially holding significant family assets including stock and real estate([Justia](https://law.justia.com/cases/federal/district-courts/idaho/iddce/1:2007cv00484/21493/14/)). The partnership holds title to agricultural properties in Payette County, as confirmed by Idaho Department of Water Resources service lists and oil/gas permitting records from the Idaho Oil and Gas Conservation Commission([IDWR](https://idwr.idaho.gov/wp-content/uploads/sites/2/districts/Declaration-of-Proof-of-Service.pdf)). Historically, the entity was central to litigation during Don Simplot's 2007 bankruptcy, where family members successfully opposed the liquidation of DJS assets, arguing it would violate the partnership agreement([US Courts](https://www.id.uscourts.gov/content_fetcher/decision.cfml/In_re_Simplot_1786.pdf?Decision_ID=1786)). The entity has also engaged in land use applications in other Idaho counties, such as a record of survey application in Valley County to adjust lot lines for family trust properties([Valley County](https://evogov.s3.amazonaws.com/media/141/media/147325.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Entity is a primary land-holding vehicle for the prominent Simplot agribusiness family, which holds immense economic and political sway in Idaho.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset preservation",
+          "Family legacy"
+        ],
+        "engage": "Engage via Simplot family representatives or legal counsel; acknowledge the entity's history of protecting family assets and structure proposals to align with long-term holding strategies."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Simplot family limited partnership with verified agricultural holdings in Payette County. History of aggressive legal defense to protect partnership assets from liquidation.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Formed in 1997 by Don J. Simplot",
+          "url": "https://law.justia.com/cases/federal/district-courts/idaho/iddce/1:2007cv00484/21493/14/",
+          "title": "In Re Don J. Simplot - Memorandum Decision",
+          "date": "2007-03-12",
           "note": null
         },
         {
-          "claim": "Parcel 44A-10D corresponds to the property at 8840 Pamunkey Road, which consists of approximately 11.13 acres",
-          "url": "https://www.zillow.com/homedetails/8840-Pamunkey-Rd-Spotsylvania-VA-22551/64428468_zpid/",
-          "title": "8840 Pamunkey Rd, Spotsylvania, VA 22551",
-          "date": "2025-02-12",
+          "claim": "Owner of Payette County agricultural parcels",
+          "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/districts/Declaration-of-Proof-of-Service.pdf",
+          "title": "IDWR Declaration of Proof of Service",
+          "date": "2024-05-10",
           "note": null
         },
         {
-          "claim": "Public records associate the Bailey Living Trust with a Spotsylvania mailing address in the 22551 zip code area",
-          "url": "https://www.kwc.gov/DocumentCenter/View/1116/2020LandBookCounty",
-          "title": "2020 Land Book King William County (Referencing Spotsylvania Address)",
-          "date": "2020-01-01",
+          "claim": "Bankruptcy litigation regarding asset liquidation",
+          "url": "https://www.id.uscourts.gov/content_fetcher/decision.cfml/In_re_Simplot_1786.pdf?Decision_ID=1786",
+          "title": "US Bankruptcy Court Decision - Don J. Simplot",
+          "date": "2007-03-12",
           "note": null
         },
         {
-          "claim": "Searches of local news archives and public meeting minutes yielded no results indicating the trust or its trustee has taken a public stance",
-          "url": "https://fredericksburg.com/",
-          "title": "Fredericksburg Free Lance-Star Archives (Negative Search Result)",
+          "claim": "Land use applications in Valley County",
+          "url": "https://evogov.s3.amazonaws.com/media/141/media/147325.pdf",
+          "title": "McCall Area Planning and Zoning Commission Minutes",
+          "date": "2015-03-03",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "B Humble Farms LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W137200",
+        "08N04W139000",
+        "08N03W186450",
+        "08N04W240600",
+        "08N04W240011",
+        "08N03W193020"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "B Humble Farms LLC is an Idaho limited liability company associated with the Boschma family and Lone Pine Dairy operations([Canyon County](https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf)). Public records indicate recent financial litigation; the entity was named as a co-defendant alongside Lone Pine Dairy in a 2025 foreclosure action and Sheriff's Sale notice involving agricultural real property in neighboring Canyon County([Canyon County](https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf)). This legal activity suggests the entity functions as part of a broader family agricultural enterprise rather than a standalone small holding. No specific public stance on renewable energy development has been documented for this entity.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Entity is involved in active foreclosure litigation, potentially limiting community leverage; influence is tied to the Boschma family dairy operations which are facing financial challenges.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial solvency",
+          "Operational continuity"
+        ],
+        "engage": "Approach with extreme sensitivity regarding current legal challenges; any lease offers may be viewed as a welcome financial opportunity, but title/ownership stability must be verified immediately."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Boschma family agricultural entity currently navigating foreclosure litigation as of early 2025. Closely tied to Lone Pine Dairy operations.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Named co-defendant in foreclosure/Sheriff's sale 2025",
+          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf",
+          "title": "Amended Notice of Sheriff's Sale - Rooster Capital IV LLC vs Lone Pine Dairy et al",
+          "date": "2025-02-28",
+          "note": null
+        },
+        {
+          "claim": "Association with Boschma family",
+          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
+          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
+          "date": "2025-02-25",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Horst Land LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W010000",
+        "08N03W066600",
+        "08N03W060000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Horst Land LLC is an Idaho agricultural entity managed by Bruce Horst, with a registered mailing address in Payette([Elementix](https://elementix.ai/investors/id/bruce-horst)). The entity actively manages crop production, evidenced by multiple crop residue burning permits issued by the Idaho Department of Environmental Quality for corn and bean fields in Payette County between 2020 and 2025([Idaho DEQ](https://www2.deq.idaho.gov/air/CRB/BurnApprovals/FinalBurnApprovalPdf/8568)). Bruce Horst is also listed in state financial records as a vendor or recipient of state funds([Idaho SCO](https://www.sco.idaho.gov/SiteAssets/Pages/Luma-Projects-&-Grants/AR%20Customer%20List%20-%2010.21.2021.xlsx)). There is no record of the entity taking a public position on zoning or development matters in county hearing minutes.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Active local agricultural operator focused on crop production (corn/beans); no evidence of broader political leadership or board roles.",
+      "approach_recommendations": {
+        "motivations": [
+          "Operational efficiency",
+          "Crop yield"
+        ],
+        "engage": "Engage Bruce Horst directly as an active operator; discussions should focus on minimizing impact to active planting/harvesting schedules and residue management practices."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Active agricultural operation managed by Bruce Horst. Verified production of corn and beans with recent state permits.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Managed by Bruce Horst",
+          "url": "https://elementix.ai/investors/id/bruce-horst",
+          "title": "Horst Land LLC Entity Details",
           "date": "2026-02-12",
+          "note": null
+        },
+        {
+          "claim": "DEQ Crop Residue Burning Permits (Corn/Beans)",
+          "url": "https://www2.deq.idaho.gov/air/CRB/BurnApprovals/FinalBurnApprovalPdf/8568",
+          "title": "Idaho DEQ Burn Permit 2025-59-1",
+          "date": "2025-04-22",
+          "note": null
+        },
+        {
+          "claim": "State financial records listing",
+          "url": "https://www.sco.idaho.gov/SiteAssets/Pages/Luma-Projects-&-Grants/AR%20Customer%20List%20-%2010.21.2021.xlsx",
+          "title": "Idaho State Controller AR Customer List",
+          "date": "2021-10-21",
           "note": null
         }
       ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 38.193287,-77.744904",
-  "overview_summary": "Screening of 17 neighbors—comprising 12 residents and 5 organizations—reveals a landscape with 16 unknown stances and one neutral party. The profile includes one high-influence state agency with wildlife regulatory authority and three medium-influence entities, including timber companies and a telecommunications firm focused on asset value. While most individual landowners maintain low public profiles, the presence of established family trusts and commercial interests suggests that engagement should prioritize property value and operational continuity. No documented opposition exists among the profiled neighbors, as stakeholders appear driven by personal land use or financial interests rather than political advocacy.",
+  "location_context": "Neighbors within 0.5 mi of 44.040807,-116.766404",
+  "overview_summary": "Screening identified eight organizational entities and zero individual residents, including three high-influence and one medium-influence neighbor. These stakeholders are primarily large-scale agricultural and ranching operations, such as a federal agency and major landholders like Big Willow Ranch LLC and DJS Properties LP, which is tied to the prominent Simplot family. While one entity is neutral and seven remain unknown, their interests center on land preservation and water resources, with no current recorded opposition to development.",
   "success": true,
-  "runtime_minutes": 32.61,
-  "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    }
-  ],
+  "runtime_minutes": 26.04,
+  "citations_flat": [],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_133956_5933.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_133939_9382.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_134113_5617.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_133931_8624.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_133604_8618.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_134049_3228.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_133715_9882.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_162128_1091.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_162414_3548.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_162443_8114.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_164133_3789.json"
   ],
   "city": null,
-  "county": "Spotsylvania County",
-  "state": "VA",
-  "run_id": "3067d04a-7120-4493-83e8-ba12e252f6e6",
-  "target_pin": "44A12",
+  "county": "Payette County",
+  "state": "ID",
+  "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
+  "target_pin": "08N04W120000",
   "target_parcel_info": {
-    "pin": "44A12",
+    "pin": "08N04W120000",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -77.7415655,
-            38.1998755
+            -116.757325,
+            44.0534115
           ],
           [
-            -77.744115,
-            38.2004625
+            -116.762289,
+            44.053423
           ],
           [
-            -77.744138,
-            38.2004415
+            -116.7672525,
+            44.0534345
           ],
           [
-            -77.7448935,
-            38.2006325
+            -116.7722165,
+            44.053446
           ],
           [
-            -77.7497165,
-            38.196962
+            -116.772203,
+            44.049864
           ],
           [
-            -77.7498225,
-            38.1968815
+            -116.77219,
+            44.046282
           ],
           [
-            -77.749969,
-            38.196767
+            -116.772177,
+            44.0426995
           ],
           [
-            -77.756746,
-            38.19103
+            -116.772164,
+            44.0391175
           ],
           [
-            -77.756681,
-            38.1910475
+            -116.767208,
+            44.039084
           ],
           [
-            -77.7566035,
-            38.1910675
+            -116.762252,
+            44.0390505
           ],
           [
-            -77.7562795,
-            38.1911665
+            -116.7572965,
+            44.039017
           ],
           [
-            -77.7527855,
-            38.189536
+            -116.7523405,
+            44.0389835
           ],
           [
-            -77.75084,
-            38.188734
+            -116.7523405,
+            44.0393675
           ],
           [
-            -77.7499895,
-            38.1895925
+            -116.7523455,
+            44.0425875
           ],
           [
-            -77.749762,
-            38.189508
+            -116.752346,
+            44.0429735
           ],
           [
-            -77.7497165,
-            38.1894925
+            -116.752351,
+            44.0461915
           ],
           [
-            -77.7495885,
-            38.1894495
+            -116.752351,
+            44.0465795
           ],
           [
-            -77.747367,
-            38.1886955
+            -116.752356,
+            44.049796
           ],
           [
-            -77.7463535,
-            38.1883085
+            -116.752356,
+            44.050186
           ],
           [
-            -77.7438245,
-            38.1877495
+            -116.7523615,
+            44.0534
           ],
           [
-            -77.7434825,
-            38.1865755
-          ],
-          [
-            -77.742576,
-            38.187622
-          ],
-          [
-            -77.7387395,
-            38.185635
-          ],
-          [
-            -77.736518,
-            38.1842265
-          ],
-          [
-            -77.7361825,
-            38.1839075
-          ],
-          [
-            -77.7357085,
-            38.184407
-          ],
-          [
-            -77.734536,
-            38.186541
-          ],
-          [
-            -77.734534,
-            38.187245
-          ],
-          [
-            -77.7357715,
-            38.188766
-          ],
-          [
-            -77.7369015,
-            38.1909735
-          ],
-          [
-            -77.7369165,
-            38.191001
-          ],
-          [
-            -77.7370185,
-            38.1909695
-          ],
-          [
-            -77.7403635,
-            38.1899415
-          ],
-          [
-            -77.7415595,
-            38.192642
-          ],
-          [
-            -77.740958,
-            38.192605
-          ],
-          [
-            -77.7346265,
-            38.192213
-          ],
-          [
-            -77.7358075,
-            38.19471
-          ],
-          [
-            -77.7362405,
-            38.195741
-          ],
-          [
-            -77.736561,
-            38.1964585
-          ],
-          [
-            -77.737248,
-            38.19903
-          ],
-          [
-            -77.74098,
-            38.199741
-          ],
-          [
-            -77.7415655,
-            38.1998755
-          ]
-        ],
-        [
-          [
-            -77.7467795,
-            38.1970715
-          ],
-          [
-            -77.747365,
-            38.197379
-          ],
-          [
-            -77.747162,
-            38.1975845
-          ],
-          [
-            -77.746866,
-            38.197883
-          ],
-          [
-            -77.7463045,
-            38.197532
-          ],
-          [
-            -77.7467795,
-            38.1970715
+            -116.757325,
+            44.0534115
           ]
         ]
       ]
     },
-    "lat": "38.192915",
-    "lon": "-77.743827",
-    "county_path": "/us/va/spotsylvania/livingston"
+    "lat": "44.046239",
+    "lon": "-116.762260",
+    "county_path": "/us/id/payette/payette"
   },
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3067d04a-7120-4493-83e8-ba12e252f6e6_map_full.png",
-  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3067d04a-7120-4493-83e8-ba12e252f6e6_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Commonwealth of Virginia Board of Game & Inland Fisheries (now Department of Wildlife Resources)</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">2</td>\n                <td class=\"name\">Everett Jones Lumber Corporation</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">3</td>\n                <td class=\"name\">Sharon Crabtree</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Jerry Joan Hughes & Julian Gonzalez</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fa97bbb2-6215-46d8-8046-79689eeebacd_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fa97bbb2-6215-46d8-8046-79689eeebacd_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Bureau Of Land Management</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Big Willow Ranch LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">DJS Properties L.P.</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Lone Pine Farms Canyon County LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
   "map_labels": [
     {
-      "text": "CORPORAT",
-      "full_name": "Everett Jones Lumber Corporation",
-      "lon": -77.75032452473128,
-      "lat": 38.18637360775065,
-      "marker_char": "2",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "43A51"
-    },
-    {
-      "text": "CRABTREE",
-      "full_name": "Sharon Crabtree",
-      "lon": -77.74725991735788,
-      "lat": 38.201585322770065,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "44A10"
-    },
-    {
-      "text": "CRABTREE",
-      "full_name": "Sharon Crabtree",
-      "lon": -77.74523901335525,
-      "lat": 38.20119936296265,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "44A10E"
-    },
-    {
-      "text": "GONZALEZ",
-      "full_name": "Jerry Joan Hughes & Julian Gonzalez",
-      "lon": -77.74870270595822,
-      "lat": 38.18110708529215,
+      "text": "LONE",
+      "full_name": "Lone Pine Farms Canyon County LLC",
+      "lon": -116.75395239787372,
+      "lat": 44.02146309284723,
       "marker_char": "4",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "44A16"
+      "pin": "08N04W240201"
     },
     {
-      "text": "COMMONWE",
-      "full_name": "Commonwealth of Virginia Board of Game & Inland Fisheries (now Department of Wildlife Resources)",
-      "lon": -77.7445463416379,
-      "lat": 38.21234316247329,
+      "text": "LONE",
+      "full_name": "Lone Pine Farms Canyon County LLC",
+      "lon": -116.75690536340277,
+      "lat": 44.01517293200712,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "08N04W241800"
+    },
+    {
+      "text": "LONE",
+      "full_name": "Lone Pine Farms Canyon County LLC",
+      "lon": -116.74503965662022,
+      "lat": 44.01825854828562,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "08N03W190001"
+    },
+    {
+      "text": "BUREAU",
+      "full_name": "Bureau Of Land Management",
+      "lon": -116.76723308073902,
+      "lat": 44.06390171801602,
       "marker_char": "1",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": false,
       "influence": "High",
+      "stance": "neutral",
+      "pin": "08N04W012400"
+    },
+    {
+      "text": "BIG",
+      "full_name": "Big Willow Ranch LLC",
+      "lon": -116.73755629369634,
+      "lat": 44.04655262313688,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
       "stance": "unknown",
-      "pin": "30A6"
+      "pin": "08N03W070000"
+    },
+    {
+      "text": "BIG",
+      "full_name": "Big Willow Ranch LLC",
+      "lon": -116.7373676382059,
+      "lat": 44.032304945305185,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W180001"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.76377794755342,
+      "lat": 44.033652682232244,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W130000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.78215910820985,
+      "lat": 44.046296442045445,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W110000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.78212905299233,
+      "lat": 44.03200202939833,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W140000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.74745920162967,
+      "lat": 44.046559648833444,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W072400"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.74791565941725,
+      "lat": 44.03469333668451,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W182400"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.76397220028915,
+      "lat": 44.05641602556758,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W014800"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.7811208023229,
+      "lat": 44.056797319396374,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W024801"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.76963274339847,
+      "lat": 44.02117603891629,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W243000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.75000516647843,
+      "lat": 44.05559097637145,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W066000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.78208596683325,
+      "lat": 44.021270639121155,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W230000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.80191982410093,
+      "lat": 44.04641779923968,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W100600"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.80213885374924,
+      "lat": 44.03211816329296,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W150000"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 44A12",
-      "lon": -77.74382672571735,
-      "lat": 38.19291542066328,
+      "full_name": "PIN: 08N04W120000",
+      "lon": -116.76226022432353,
+      "lat": 44.046238609160625,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "44A12"
+      "pin": "08N04W120000"
     }
   ],
   "map_metadata": {
-    "run_id": "3067d04a-7120-4493-83e8-ba12e252f6e6",
-    "generated_at": "2026-02-12T14:02:37.108751",
+    "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
+    "generated_at": "2026-02-12T16:57:26.267845",
     "stats": {
-      "total_neighbors": 17,
-      "highlighted": 16,
+      "total_neighbors": 8,
+      "highlighted": 7,
       "skipped_no_geometry": 0,
       "skipped_not_highlighted": 1,
       "by_influence": {
-        "High": 1,
-        "Medium": 3,
-        "Low": 12
+        "High": 3,
+        "Medium": 1,
+        "Low": 3
       },
       "by_stance": {
         "support": 0,
         "oppose": 0,
         "neutral": 1
       },
-      "adjacent_highlighted": 6,
+      "adjacent_highlighted": 1,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "url_length": 5279,
+    "url_length": 4487,
     "parcels_rendered": 29,
-    "labels_count": 6,
+    "labels_count": 19,
     "settings": {
       "width": 800,
       "height": 450,
@@ -1332,405 +886,405 @@
       "padding": 50
     }
   },
-  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3067d04a-7120-4493-83e8-ba12e252f6e6_map_fullpage.png",
+  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fa97bbb2-6215-46d8-8046-79689eeebacd_map_fullpage.png",
   "fullpage_map_labels": [
     {
-      "text": "ATKINS",
-      "full_name": "Carrie W. Atkins",
-      "lon": -77.74258687320071,
-      "lat": 38.2005742040777,
+      "text": "WILLOWS",
+      "full_name": "Willows Ranch LLC",
+      "lon": -116.77719703903477,
+      "lat": 44.06398690115443,
       "marker_char": "5",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "44A9"
+      "pin": "08N04W020000"
     },
     {
-      "text": "GUMMEL",
-      "full_name": "Lenora Burke Gummel",
-      "lon": -77.7345470777762,
-      "lat": 38.19941037049518,
+      "text": "B",
+      "full_name": "B Humble Farms LLC",
+      "lon": -116.75968457820017,
+      "lat": 44.02816956327093,
       "marker_char": "6",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "44A6"
+      "pin": "08N04W137200"
     },
     {
-      "text": "HARDING",
-      "full_name": "Rettie J. Harding",
-      "lon": -77.74139954903295,
-      "lat": 38.200604273221984,
+      "text": "B",
+      "full_name": "B Humble Farms LLC",
+      "lon": -116.7547951238451,
+      "lat": 44.02649551823791,
+      "marker_char": "6",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "08N04W139000"
+    },
+    {
+      "text": "B",
+      "full_name": "B Humble Farms LLC",
+      "lon": -116.74649512874763,
+      "lat": 44.02802046720058,
+      "marker_char": "6",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "08N03W186450"
+    },
+    {
+      "text": "B",
+      "full_name": "B Humble Farms LLC",
+      "lon": -116.76277083231929,
+      "lat": 44.02041698649127,
+      "marker_char": "6",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "08N04W240600"
+    },
+    {
+      "text": "B",
+      "full_name": "B Humble Farms LLC",
+      "lon": -116.75491687826423,
+      "lat": 44.023141550159686,
+      "marker_char": "6",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "08N04W240011"
+    },
+    {
+      "text": "B",
+      "full_name": "B Humble Farms LLC",
+      "lon": -116.74950443323796,
+      "lat": 44.023861895360156,
+      "marker_char": "6",
+      "color": "808080",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Low",
+      "stance": "unknown",
+      "pin": "08N03W193020"
+    },
+    {
+      "text": "HORST",
+      "full_name": "Horst Land LLC",
+      "lon": -116.75731539226626,
+      "lat": 44.06200573682067,
       "marker_char": "7",
       "color": "808080",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "44A9A"
+      "pin": "08N04W010000"
     },
     {
-      "text": "GILBERT",
-      "full_name": "Rose Lee Gilbert",
-      "lon": -77.73828200770589,
-      "lat": 38.19978027444393,
-      "marker_char": "8",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "444A"
-    },
-    {
-      "text": "MEYER",
-      "full_name": "Garet Meyer",
-      "lon": -77.7389872389006,
-      "lat": 38.19994514356829,
-      "marker_char": "9",
+      "text": "HORST",
+      "full_name": "Horst Land LLC",
+      "lon": -116.74011257065258,
+      "lat": 44.05557037080551,
+      "marker_char": "7",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "444B"
+      "pin": "08N03W066600"
     },
     {
-      "text": "SCARBRO",
-      "full_name": "Phillip Jerome & Shelby Noel Scarbro",
-      "lon": -77.73985317173793,
-      "lat": 38.200141205226615,
-      "marker_char": "a",
+      "text": "HORST",
+      "full_name": "Horst Land LLC",
+      "lon": -116.74249749831827,
+      "lat": 44.062198209013054,
+      "marker_char": "7",
       "color": "808080",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Low",
       "stance": "unknown",
-      "pin": "444C"
+      "pin": "08N03W060000"
     },
     {
-      "text": "DELLA",
-      "full_name": "Della Lu Brooks, Megan Lee Brooks & Morgan Marie Brooks",
-      "lon": -77.7498188158225,
-      "lat": 38.182165419720285,
-      "marker_char": "b",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A39A"
-    },
-    {
-      "text": "GAUDET",
-      "full_name": "Anthony Gaudet & Brenda G. Gaudet",
-      "lon": -77.74004482155127,
-      "lat": 38.20107077593495,
-      "marker_char": "c",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44-54"
-    },
-    {
-      "text": "PAVEY",
-      "full_name": "Tammy Newton Pavey",
-      "lon": -77.74994277164963,
-      "lat": 38.18144964029491,
-      "marker_char": "d",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A39B"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.72416105642164,
-      "lat": 38.194525359596994,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A4"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.76567630987458,
-      "lat": 38.19662884838857,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A6"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.746994082244,
-      "lat": 38.18511394297178,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A15"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.74150077049056,
-      "lat": 38.18160648200947,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A14"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.7291911891975,
-      "lat": 38.18371413084266,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A13"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.75344677907471,
-      "lat": 38.18685172393159,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A50"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.7557390923648,
-      "lat": 38.18832582817554,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A49"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.76119758587598,
-      "lat": 38.18850348665359,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A48"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.75826968988703,
-      "lat": 38.184782471966074,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A39"
-    },
-    {
-      "text": "CHERRY",
-      "full_name": "Cherry Tree Timber LLC C/O Property Tax Administration",
-      "lon": -77.76186534154654,
-      "lat": 38.19059834660833,
-      "marker_char": "e",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "43A47"
-    },
-    {
-      "text": "GTP",
-      "full_name": "GTP Acquisition Partners II LLC C/O Property Tax Dept",
-      "lon": -77.74683153019134,
-      "lat": 38.1974693607331,
-      "marker_char": "f",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Low",
-      "stance": "neutral",
-      "pin": "44A11"
-    },
-    {
-      "text": "MERLIN",
-      "full_name": "Merlin Bailey Trustee Merlin M Bailey Living Trust",
-      "lon": -77.74596443622573,
-      "lat": 38.20202990124819,
-      "marker_char": "g",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A10D"
-    },
-    {
-      "text": "MERLIN",
-      "full_name": "Merlin Bailey Trustee Merlin M Bailey Living Trust",
-      "lon": -77.74336634572428,
-      "lat": 38.20136288279903,
-      "marker_char": "g",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A10C"
-    },
-    {
-      "text": "MERLIN",
-      "full_name": "Merlin Bailey Trustee Merlin M Bailey Living Trust",
-      "lon": -77.74259175920112,
-      "lat": 38.20142613520457,
-      "marker_char": "g",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "44A10B"
-    },
-    {
-      "text": "CORPORAT",
-      "full_name": "Everett Jones Lumber Corporation",
-      "lon": -77.75032452473128,
-      "lat": 38.18637360775065,
-      "marker_char": "2",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "43A51"
-    },
-    {
-      "text": "CRABTREE",
-      "full_name": "Sharon Crabtree",
-      "lon": -77.74725991735788,
-      "lat": 38.201585322770065,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "44A10"
-    },
-    {
-      "text": "CRABTREE",
-      "full_name": "Sharon Crabtree",
-      "lon": -77.74523901335525,
-      "lat": 38.20119936296265,
-      "marker_char": "3",
-      "color": "FF8C00",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "Medium",
-      "stance": "unknown",
-      "pin": "44A10E"
-    },
-    {
-      "text": "GONZALEZ",
-      "full_name": "Jerry Joan Hughes & Julian Gonzalez",
-      "lon": -77.74870270595822,
-      "lat": 38.18110708529215,
+      "text": "LONE",
+      "full_name": "Lone Pine Farms Canyon County LLC",
+      "lon": -116.75395239787372,
+      "lat": 44.02146309284723,
       "marker_char": "4",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "44A16"
+      "pin": "08N04W240201"
     },
     {
-      "text": "COMMONWE",
-      "full_name": "Commonwealth of Virginia Board of Game & Inland Fisheries (now Department of Wildlife Resources)",
-      "lon": -77.7445463416379,
-      "lat": 38.21234316247329,
+      "text": "LONE",
+      "full_name": "Lone Pine Farms Canyon County LLC",
+      "lon": -116.75690536340277,
+      "lat": 44.01517293200712,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "08N04W241800"
+    },
+    {
+      "text": "LONE",
+      "full_name": "Lone Pine Farms Canyon County LLC",
+      "lon": -116.74503965662022,
+      "lat": 44.01825854828562,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "08N03W190001"
+    },
+    {
+      "text": "BUREAU",
+      "full_name": "Bureau Of Land Management",
+      "lon": -116.76723308073902,
+      "lat": 44.06390171801602,
       "marker_char": "1",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": false,
       "influence": "High",
+      "stance": "neutral",
+      "pin": "08N04W012400"
+    },
+    {
+      "text": "BIG",
+      "full_name": "Big Willow Ranch LLC",
+      "lon": -116.73755629369634,
+      "lat": 44.04655262313688,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
       "stance": "unknown",
-      "pin": "30A6"
+      "pin": "08N03W070000"
+    },
+    {
+      "text": "BIG",
+      "full_name": "Big Willow Ranch LLC",
+      "lon": -116.7373676382059,
+      "lat": 44.032304945305185,
+      "marker_char": "2",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W180001"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.76377794755342,
+      "lat": 44.033652682232244,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W130000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.78215910820985,
+      "lat": 44.046296442045445,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W110000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.78212905299233,
+      "lat": 44.03200202939833,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W140000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.74745920162967,
+      "lat": 44.046559648833444,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W072400"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.74791565941725,
+      "lat": 44.03469333668451,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W182400"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.76397220028915,
+      "lat": 44.05641602556758,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W014800"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.7811208023229,
+      "lat": 44.056797319396374,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W024801"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.76963274339847,
+      "lat": 44.02117603891629,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W243000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.75000516647843,
+      "lat": 44.05559097637145,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N03W066000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.78208596683325,
+      "lat": 44.021270639121155,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W230000"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.80191982410093,
+      "lat": 44.04641779923968,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W100600"
+    },
+    {
+      "text": "DJS",
+      "full_name": "DJS Properties L.P.",
+      "lon": -116.80213885374924,
+      "lat": 44.03211816329296,
+      "marker_char": "3",
+      "color": "007BFF",
+      "is_target": false,
+      "is_adjacent": true,
+      "influence": "High",
+      "stance": "unknown",
+      "pin": "08N04W150000"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 44A12",
-      "lon": -77.74382672571735,
-      "lat": 38.19291542066328,
+      "full_name": "PIN: 08N04W120000",
+      "lon": -116.76226022432353,
+      "lat": 44.046238609160625,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "44A12"
+      "pin": "08N04W120000"
     }
   ],
   "fullpage_map_metadata": {
-    "run_id": "3067d04a-7120-4493-83e8-ba12e252f6e6",
-    "generated_at": "2026-02-12T14:02:38.297308",
+    "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
+    "generated_at": "2026-02-12T16:57:27.323501",
     "stats": {
-      "total_neighbors": 17,
-      "highlighted": 16,
+      "total_neighbors": 8,
+      "highlighted": 7,
       "skipped_no_geometry": 0,
       "skipped_not_highlighted": 1,
       "by_influence": {
-        "High": 1,
-        "Medium": 3,
-        "Low": 12
+        "High": 3,
+        "Medium": 1,
+        "Low": 3
       },
       "by_stance": {
         "support": 0,
         "oppose": 0,
         "neutral": 1
       },
-      "adjacent_highlighted": 6,
+      "adjacent_highlighted": 1,
       "target_included": true
     },
     "strategy_used": "polyline",

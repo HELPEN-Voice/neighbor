@@ -1,0 +1,44 @@
+{
+  "batch_idx": 0,
+  "total_batches": 1,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bureau Of Land Management",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "08N04W012400"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Bureau of Land Management (BLM) is a federal agency that manages public lands; its Four Rivers Field Office oversees about 1.3 million acres in southwest Idaho [Bureau of Land Management](https://www.blm.gov/office/four-rivers-field-office). Federal BLM lands are exempt from local property taxes, with counties instead receiving Payment in Lieu of Taxes (PILT) funds from the government [U.S. Department of the Interior](https://www.doi.gov/pilt).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Federal landowner; no local civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with the appropriate BLM field office via official channels."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Of the neighbors identified, none have an explicitly stated stance on development (0 support, 0 oppose, 1 unknown). The sole neighbor is a federal agency rather than a local individual, so there are no high-influence community members in this list.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_162128_1091.json",
+  "cached_at": "2026-02-12T16:21:28.109815"
+}

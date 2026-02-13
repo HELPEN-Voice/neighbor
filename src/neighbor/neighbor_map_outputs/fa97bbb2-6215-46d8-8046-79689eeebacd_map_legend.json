@@ -1,0 +1,42 @@
+[
+  {
+    "marker_char": "1",
+    "text": "BUREAU",
+    "full_name": "Bureau Of Land Management",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "neutral",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "2",
+    "text": "BIG",
+    "full_name": "Big Willow Ranch LLC",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  },
+  {
+    "marker_char": "3",
+    "text": "DJS",
+    "full_name": "DJS Properties L.P.",
+    "color": "007BFF",
+    "influence": "High",
+    "stance": "unknown",
+    "is_adjacent": true,
+    "is_target": false
+  },
+  {
+    "marker_char": "4",
+    "text": "LONE",
+    "full_name": "Lone Pine Farms Canyon County LLC",
+    "color": "FF8C00",
+    "influence": "Medium",
+    "stance": "unknown",
+    "is_adjacent": false,
+    "is_target": false
+  }
+]

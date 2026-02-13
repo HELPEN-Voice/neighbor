@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-02-12T16:46:37.956823",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_162128_1091.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Payette County",
+    "state": "ID",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bureau Of Land Management",
+      "entity_category": "Organization",
+      "entity_type": "Organization",
+      "pins": [
+        "08N04W012400"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Bureau of Land Management (BLM) is a federal agency managing public lands; its Four Rivers Field Office oversees approximately 1.3 million acres in southwest Idaho [Bureau of Land Management](https://www.blm.gov/office/four-rivers-field-office). Federal BLM lands are exempt from local property taxes, but the agency provides Payment in Lieu of Taxes (PILT) to Payette County to support local services [DOI](https://www.doi.gov/pilt). The field office actively processes renewable energy applications under a 2023 Renewable Energy Strategy and the 2023 Resource Management Plan [BLM](https://www.blm.gov/sites/default/files/docs/2023-09/BLM_Idaho_RenewableEnergyReport_FINAL.pdf).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Federal land manager controlling 1.3M acres and permitting rights-of-way",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat",
+          "fair_contracting"
+        ],
+        "engage": "Submit SF-299 application to the Four Rivers Field Office. Early engagement must address the 2023 Resource Management Plan and sage-grouse habitat conservation."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Four Rivers Field Office oversees approximately 1.3 million acres in southwest Idaho",
+          "url": "https://www.blm.gov/office/four-rivers-field-office",
+          "title": "Four Rivers Field Office | Bureau of Land Management",
+          "date": "2023-07-08"
+        },
+        {
+          "claim": "Federal BLM lands are exempt from local property taxes, with counties instead receiving Payment in Lieu of Taxes (PILT) funds",
+          "url": "https://www.doi.gov/pilt",
+          "title": "Payment in Lieu of Taxes",
+          "date": "2023-06-15"
+        },
+        {
+          "claim": "The field office actively processes renewable energy applications under a 2023 Renewable Energy Strategy",
+          "url": "https://www.blm.gov/sites/default/files/docs/2023-09/BLM_Idaho_RenewableEnergyReport_FINAL.pdf",
+          "title": "BLM Idaho Renewable Energy Strategy",
+          "date": "2023-09-01"
+        }
+      ],
+      "verification_notes": "Entity verified as the BLM Four Rivers Field Office. Stance set to 'neutral' as the agency acts as a regulator/facilitator for renewable projects rather than an advocate or opponent, though it operates under a federal mandate to permit renewables. Influence upgraded to High due to vast land ownership and regulatory authority over rights-of-way."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 357919,
+    "thinking_count": 21
+  }
+}

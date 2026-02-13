@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-02-12T16:51:40.421320",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_162414_3548.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Payette County",
+    "state": "ID",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Big Willow Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N03W070000",
+        "08N03W180001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Big Willow Ranch LLC operates a significant agricultural enterprise in Payette County, centered around a farm and feedlot operation along Big Willow Creek [Clearwater Properties](https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661). The property covers approximately 889 acres and includes an existing 4,000-head feedlot, with a CAFO permit authorizing expansion up to 14,534 head [Zillow](https://www.zillow.com/homedetails/6075-Big-Willow-Rd-Payette-ID-83661/96906304_zpid/). In addition to livestock, the ranch operates 'Butte Lodge,' a private facility offering guided elk hunts on the property [Ultimate Elk Hunting Directory](https://www.ultimateelkhunting.com/business/butte-lodge/). The entity has a documented history of legal litigation regarding its resources and operations. In 2024, Big Willow Ranch LLC filed a petition for judicial review against the Idaho Department of Water Resources regarding the forfeiture of water rights [Idaho Dept. of Water Resources](https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/). Furthermore, in April 2025, the company filed a contract dispute lawsuit in federal court against Western Oilfields Supply Company (dba Rain for Rent) [Justia](https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "The entity controls a substantial agricultural operation with significant permitted expansion capacity (14,534 head CAFO) and demonstrates high legal sophistication and willingness to litigate to protect resource rights.",
+      "approach_recommendations": {
+        "motivations": [
+          "Resource protection (water rights)",
+          "Operational expansion",
+          "Recreational land value"
+        ],
+        "engage": "Engage leadership directly with a focus on resource preservation. Given their active litigation against IDWR regarding water rights, any discussion must explicitly guarantee no impact on their water availability or quality. The existence of the hunting lodge suggests the need to address visual/construction impacts on wildlife patterns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Big Willow Ranch LLC is a major agricultural and recreational operator in the county, managing a large feedlot with significant expansion permits and a commercial hunting lodge. They are legally active and protective of their water and property rights.",
+      "citations": [
+        {
+          "claim": "The property covers approximately 889 acres and includes an existing 4,000-head feedlot, with a CAFO permit authorizing expansion up to 14,534 head",
+          "url": "https://www.zillow.com/homedetails/6075-Big-Willow-Rd-Payette-ID-83661/96906304_zpid/",
+          "title": "6075 Big Willow Rd Property Details",
+          "date": "2025-02-08"
+        },
+        {
+          "claim": "Big Willow Ranch LLC operates a significant agricultural enterprise... centered around a farm and feedlot operation",
+          "url": "https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661",
+          "title": "Listing for 6075 Big Willow Rd",
+          "date": "2025-02-12"
+        },
+        {
+          "claim": "In addition to livestock, the ranch operates 'Butte Lodge,' a private facility offering guided elk hunts",
+          "url": "https://www.ultimateelkhunting.com/business/butte-lodge/",
+          "title": "Butte Lodge Business Listing",
+          "date": "2026-02-12"
+        },
+        {
+          "claim": "In 2024, Big Willow Ranch LLC filed a petition for judicial review against the Idaho Department of Water Resources",
+          "url": "https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/",
+          "title": "Big Willow Ranch LLC v. IDWR Case Summary",
+          "date": "2024-07-29"
+        },
+        {
+          "claim": "in April 2025, the company filed a contract dispute lawsuit in federal court against Western Oilfields Supply Company",
+          "url": "https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784",
+          "title": "Big Willow Ranch, LLC v. Western Oilfields Supply Company",
+          "date": "2025-04-11"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Willows Ranch LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "08N04W020000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Willows Ranch LLC is a property owning entity in Payette County, with records linking it to a parcel on Little Willow Road [Homes.com](https://www.homes.com/property/5415-little-willow-rd-payette-id/j3666sp06537z/). Public records indicate the LLC is associated with an address in Steamboat Springs, Colorado, suggesting absentee ownership [Routt County Permits](https://cityview2.iharriscomputer.com/RouttCountyPortal/Permit/GetFile/118128). The entity appears to be distinct from the local 'Big Willow Ranch' operation. While the entity controls property in the Little Willow Creek area, specific details regarding the scale of agricultural operations under this specific LLC are limited in available public records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Appears to be an absentee owner (Colorado address) with limited visible presence or political activity in local Payette County records compared to other large ranching entities.",
+      "approach_recommendations": {
+        "motivations": [
+          "Asset appreciation",
+          "Passive income"
+        ],
+        "engage": "Treat as an absentee landowner/investor. Initial outreach should be directed to the registered address in Steamboat Springs, CO. Focus on property value protection and minimal disturbance, as they likely do not reside on-site."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Willows Ranch LLC appears to be a land-holding entity with ties to Steamboat Springs, Colorado, indicating absentee ownership. They own property on Little Willow Road but do not show the same level of local operational footprint as neighboring ranches.",
+      "citations": [
+        {
+          "claim": "Willows Ranch LLC is a property owning entity in Payette County, with records linking it to a parcel on Little Willow Road",
+          "url": "https://www.homes.com/property/5415-little-willow-rd-payette-id/j3666sp06537z/",
+          "title": "Property Record for 5415 Little Willow Rd",
+          "date": "2023-06-01"
+        },
+        {
+          "claim": "Public records indicate the LLC is associated with an address in Steamboat Springs, Colorado",
+          "url": "https://cityview2.iharriscomputer.com/RouttCountyPortal/Permit/GetFile/118128",
+          "title": "Routt County Permit Record listing Willows Ranch LLC",
+          "date": "2024-04-05"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Peterson Richard M 2016 Family Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "08N04W100000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "This parcel is held by the Richard M. Peterson 2016 Family Trust. Richard M. Peterson, a long-time resident of Payette, passed away in March 2025 at the age of 93 [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-peterson-obituary?id=57999117). Control of the trust assets, including this property, has likely passed to successor trustees or heirs. No specific stance on renewable development is recorded for the trust or the late Mr. Peterson.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Original landowner is deceased (2025); current decision-making authority is in transition or held by successor trustees whose influence is currently unknown.",
+      "approach_recommendations": {
+        "motivations": [
+          "Estate settlement",
+          "Asset liquidity"
+        ],
+        "engage": "Identify the successor trustee or executor of the Richard M. Peterson estate. The property may be in a period of transition following the owner's 2025 passing, which could present opportunities for lease or purchase if the heirs are looking to liquidate or monetize assets."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "The property is held by a family trust associated with Richard M. Peterson, who died in 2025. The land is likely in a probate or transitional management phase.",
+      "citations": [
+        {
+          "claim": "Richard M. Peterson, a long-time resident of Payette, passed away in March 2025 at the age of 93",
+          "url": "https://www.legacy.com/us/obituaries/name/richard-peterson-obituary?id=57999117",
+          "title": "Obituary for Richard Peterson",
+          "date": "2025-03-27"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 888161,
+    "thinking_count": 24
+  }
+}
