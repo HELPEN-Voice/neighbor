@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-02-17T11:28:30.485340",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101827_0988.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Guy B. Tiner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "937902"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Guy B. Tiner is a longtime resident of Bonner Springs and a veteran local developer [Bonner Springs City Council](https://www.bonnersprings.org/Archive.aspx?ADID=230). He operates **Tiner Construction** and has been involved in residential developments such as \"The Villages at Deerfield\" and \"Lei Valley\" [Bonner Springs Planning Commission](https://www.bonnersprings.org/Archive.aspx?ADID=414). He is the registered agent for **LER Properties II LLC**, which holds land interests in the county [Wyandotte Echo](https://wyandotteecho.com/wp-content/uploads/2021/10/Echo100721A.pdf). In public hearings, he has self-identified as a \"baby boomer\" and noted his service on a regional committee guiding Kansas City's World Cup hosting activities [Wyandotte County UGTV](https://www.youtube.com/watch?v=Uq185bchZSs).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Active developer; served on regional World Cup committee",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "local_control"
+        ],
+        "engage": "Engage regarding his development experience and regional committee work. Acknowledge his role in local housing projects like Lei Valley to build professional rapport."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified as resident and developer of \"The Villages at Deerfield\"",
+          "url": "https://www.bonnersprings.org/Archive.aspx?ADID=230",
+          "title": "Bonner Springs Planning Commission Minutes Jan 2012",
+          "date": "2012-01-24"
+        },
+        {
+          "claim": "Operates Tiner Construction and developed Lei Valley",
+          "url": "https://www.bonnersprings.org/Archive.aspx?ADID=414",
+          "title": "Bonner Springs Planning Commission Minutes Dec 2013",
+          "date": "2013-12-17"
+        },
+        {
+          "claim": "Registered agent for LER Properties II LLC",
+          "url": "https://wyandotteecho.com/wp-content/uploads/2021/10/Echo100721A.pdf",
+          "title": "The Wyandotte Echo Legal Notices",
+          "date": "2021-10-07"
+        },
+        {
+          "claim": "Serves on regional World Cup committee and identifies as baby boomer",
+          "url": "https://www.youtube.com/watch?v=Uq185bchZSs",
+          "title": "Unified Government Commission Meeting",
+          "date": "2025-06-27"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Martha E. Gonzalez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941219"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "In January 2021, Martha E. Gonzalez (residing at 1032 S. 25th St) applied to acquire a Unified Government Land Bank lot to construct a building for storing and maintaining trucks [Wyandotte Daily](https://wyandotteonline.com/tag/unified-government-commission/page/5/). This application suggests involvement in a logistics or vehicle maintenance enterprise [Wyandotte Daily](https://wyandotteonline.com/tag/unified-government-commission/page/5/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local small business applicant; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff"
+        ],
+        "engage": "Focus on site utility and drainage, as her interest in vehicle maintenance facilities suggests a practical concern for site accessibility and stormwater management."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Applied for Land Bank lot to store and maintain trucks",
+          "url": "https://wyandotteonline.com/tag/unified-government-commission/page/5/",
+          "title": "Wyandotte Daily News - UG Commission Agenda",
+          "date": "2021-01-07"
+        }
+      ],
+      "verification_notes": "Removed Richard S. Crystal from profile. No recent records link him to this address or Martha E. Gonzalez in Wyandotte County. Historical records show a Richard S. Crystal in the 19th century or different states, suggesting a data error in the draft. Confirmed Martha Gonzalez's truck facility application."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daniel J. Poolman & Karen A. Poolman (Deceased)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146827"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daniel J. Poolman and Karen A. Poolman were married in 1966 and raised three children in the community [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736). Karen Ann Poolman passed away in May 2020 at the age of 72, leaving Daniel as the surviving spouse [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime residents; no public leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Use a neighborly, respectful approach honoring their decades of residence. Be mindful of the household's status as a widower's residence."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Married 1966, Karen passed 2020, Daniel surviving spouse",
+          "url": "https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736",
+          "title": "Obituary for Karen Ann Poolman",
+          "date": "2020-05-22"
+        }
+      ],
+      "verification_notes": "Redacted children's names for privacy per Phase 3 instructions. Confirmed death and marriage details via obituary."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 801941,
+    "thinking_count": 33
+  }
+}

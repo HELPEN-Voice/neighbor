@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-02-17T11:04:10.902948",
+  "entity_type": "person",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both profiled neighbors have no clearly documented stance on local development or energy projects, with neither openly supporting nor opposing such initiatives. Each appears to have a limited public profile and low community influence, as neither holds formal leadership roles or has a history of civic activism in Wyandotte County.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Brenda Sue Kendrick",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146817"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Brenda Sue Kendrick is listed as an owner of property in Kansas City, Kansas, according to county land records ([appr.wycokck.org](https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670/PartyQuickRefID/crc32#:~:text=Ref%20ID%20Parcel%20ID%20Owner,AVE%2C%20Kansas%20City%2C%20KS%2066105)). She has not been identified in any local news or public meeting records taking a stance on development or energy issues ([wyandotteonline.com](https://wyandotteonline.com/category/opinions/page/71/#:~:text=Opinions%20%E2%80%93%20Page%2071%20%E2%80%93,50%20persons%20crowded%20into%20a)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; private citizen",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with respect for her privacy and property rights. Emphasize listening to any concerns she has about her land and reassure that her interests will be taken into account."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jessica L. Mazur & Austin Mazur",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jessica and Austin Mazur are a young couple residing in Kansas City, Kansas ([my.babylist.com](https://my.babylist.com/baby-registry-jessica-mazur#:~:text=Jessica%20%26%20Austin%20Mazur)). Austin Mazur operates a local home remodeling business, Mazur Renovation, serving the Kansas City metro area ([mazurrenovationjoc.wixsite.com](https://mazurrenovationjoc.wixsite.com/home#:~:text=Mazur%20Renovation%20is%20a%20modest,finishing%20details%20in%20the%20home)) ([mazurrenovationjoc.wixsite.com](https://mazurrenovationjoc.wixsite.com/home#:~:text=%E2%80%9CMAZUR%20RENOVATION%20HAS%20DONE%20SEVERAL,WITH%20KNOWLEDGE%2C%20EXCELLENCE%20AND%20PROFESSIONALISM)). They have no public record of statements or activism regarding development or energy projects in Wyandotte County ([wyandotteonline.com](https://wyandotteonline.com/category/news-stories/page/214/#:~:text=UG%20Commission%20overrides%20mayor%E2%80%99s%20veto,resolution%20to%20exceed%20the%20revenue)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small business owners; no civic posts",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Connect through community pride and home value interests. A fellow community member or local business peer could discuss how the project might enhance the neighborhood and address any quality-of-life questions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both profiled neighbors have no clearly documented stance on local development or energy projects, with neither openly supporting nor opposing such initiatives. Each appears to have a limited public profile and low community influence, as neither holds formal leadership roles or has a history of civic activism in Wyandotte County.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Brenda Sue Kendrick\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"146817\"],\n      \"claims\": \"Brenda Sue Kendrick is listed as an owner of property in Kansas City, Kansas, according to county land records ([appr.wycokck.org](https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670/PartyQuickRefID/crc32#:~:text=Ref%20ID%20Parcel%20ID%20Owner,AVE%2C%20Kansas%20City%2C%20KS%2066105)). She has not been identified in any local news or public meeting records taking a stance on development or energy issues ([wyandotteonline.com](https://wyandotteonline.com/category/opinions/page/71/#:~:text=Opinions%20%E2%80%93%20Page%2071%20%E2%80%93,50%20persons%20crowded%20into%20a)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles; private citizen\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach with respect for her privacy and property rights. Emphasize listening to any concerns she has about her land and reassure that her interests will be taken into account.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jessica L. Mazur & Austin Mazur\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"259100\"],\n      \"claims\": \"Jessica and Austin Mazur are a young couple residing in Kansas City, Kansas ([my.babylist.com](https://my.babylist.com/baby-registry-jessica-mazur#:~:text=Jessica%20%26%20Austin%20Mazur)). Austin Mazur operates a local home remodeling business, Mazur Renovation, serving the Kansas City metro area ([mazurrenovationjoc.wixsite.com](https://mazurrenovationjoc.wixsite.com/home#:~:text=Mazur%20Renovation%20is%20a%20modest,finishing%20details%20in%20the%20home)) ([mazurrenovationjoc.wixsite.com](https://mazurrenovationjoc.wixsite.com/home#:~:text=%E2%80%9CMAZUR%20RENOVATION%20HAS%20DONE%20SEVERAL,WITH%20KNOWLEDGE%2C%20EXCELLENCE%20AND%20PROFESSIONALISM)). They have no public record of statements or activism regarding development or energy projects in Wyandotte County ([wyandotteonline.com](https://wyandotteonline.com/category/news-stories/page/214/#:~:text=UG%20Commission%20overrides%20mayor%E2%80%99s%20veto,resolution%20to%20exceed%20the%20revenue)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small business owners; no civic posts\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Connect through community pride and home value interests. A fellow community member or local business peer could discuss how the project might enhance the neighborhood and address any quality-of-life questions.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

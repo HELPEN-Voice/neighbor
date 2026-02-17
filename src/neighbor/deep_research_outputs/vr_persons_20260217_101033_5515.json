@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-02-17T11:25:29.346757",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101033_5515.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bradley Alan Appl, Cory M. Appl, Travis W. Sanders & Tom Crandon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "416601"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006 ([NPPES Registry](https://npiregistry.cms.hhs.gov/provider-view/1770559494)). Cory M. Appl is a recipient of USDA agricultural subsidies in Wyandotte County ([EWG Farm Subsidies](https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1)) and served as a co-executor for the estate of Helen Ann Henderson in 2021 alongside John F. Sanders ([Wyandotte Echo](https://wyandotteecho.com/wp-content/uploads/2021/06/Echo062421A.pdf)). A Tom Crandon appears in public records as a resident of Derby, KS, rather than Wyandotte County ([Downing & Lahey Mortuary](https://downingandlahey.com/obits/susan-kay-crandon/)). No public statements by the group regarding the East Side Energy Storage project or other developments have been identified.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local physician and agricultural connections; no elected roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Reach out through a trusted agricultural community contact to acknowledge the family’s farming legacy. Discuss how the project can accommodate farmland use, emphasizing respect for their land and livelihood given the mixed medical and agricultural background."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006",
+          "url": "https://npiregistry.cms.hhs.gov/provider-view/1770559494",
+          "title": "NPPES NPI Registry - Bradley Alan Appl",
+          "date": "2025-10-02"
+        },
+        {
+          "claim": "Cory M. Appl is a recipient of USDA agricultural subsidies in Wyandotte County",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1",
+          "title": "EWG Farm Subsidy Database - Wyandotte County",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "served as a co-executor for the estate of Helen Ann Henderson in 2021 alongside John F. Sanders",
+          "url": "https://wyandotteecho.com/wp-content/uploads/2021/06/Echo062421A.pdf",
+          "title": "The Wyandotte Echo Legal Notices",
+          "date": "2021-06-24"
+        },
+        {
+          "claim": "A Tom Crandon appears in public records as a resident of Derby, KS",
+          "url": "https://downingandlahey.com/obits/susan-kay-crandon/",
+          "title": "Obituary for Susan Kay Crandon",
+          "date": "2013-03-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Danny P. Bruch & Mary P. Bruch",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146828"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Danny P. Bruch is a resident of Kansas City, KS (Wyandotte County) ([Best History Sites](https://besthistorysites.net/name/danny-bruch/ks/kansas-city)). The Bruch family does not appear among the top recipients of USDA farm subsidies in Wyandotte County for recent years ([EWG Farm Subsidies](https://farm.ewg.org/top_recips.php?fips=20209&progcode=total_dis&page=2)). No public records were found indicating the Bruchs have taken a stance on the East Side Energy Storage project or other local development hearings.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public roles or media presence found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Use a personal, respectful approach via an in-person visit by a known local figure to listen to their concerns. Emphasize that the project will respect their property rights, rural peace, and the value of their land."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Danny P. Bruch is a resident of Kansas City, KS",
+          "url": "https://besthistorysites.net/name/danny-bruch/ks/kansas-city",
+          "title": "Danny P Bruch - Kansas City, KS Public Records",
+          "date": "2026-02-17"
+        },
+        {
+          "claim": "The Bruch family does not appear among the top recipients of USDA farm subsidies in Wyandotte County",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=total_dis&page=2",
+          "title": "EWG Farm Subsidy Database - Wyandotte County Recipients",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jonathan Allwardt",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146816"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records searches yielded no verifiable information regarding a 'Jonathan Allwardt' in Wyandotte County, KS. No property deeds, voter registrations, or legal notices matching this name and location were found in available databases. Consequently, no stance on development can be verified.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Identity could not be verified in public records",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Attempt to verify property ownership through county tax assessor records before engagement. If confirmed, approach with a general introduction letter to establish contact and gauge interest."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": []
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 716040,
+    "thinking_count": 37
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-02-17T10:18:27.098924",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Of the three neighbors profiled, none have openly supported or opposed the development (all noted stances are unknown). Likewise, none hold high-profile community positions – no high-influence neighbors were identified among this group.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Guy B. Tiner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "937902"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Guy B. Tiner, born in 1951, is a 75-year-old Bonner Springs resident [National Public Data](https://nationalpublicdata.com/people/t/guy-tiner/). He founded **Guy Tiner Co.**, a home-building business in Bonner Springs, in 1983 [Manta](https://www.manta.com/c/mmnykv0/guy-tiner-co), and he remains active in local development via entities like **Tiner – 134th Street LLC** (registered under his name) [City-Data](https://www.city-data.com/business-entities/KS/TINER-134TH-STREET-LLC-7818883-KS.html).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Veteran local homebuilder",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting"
+        ],
+        "engage": "Have the project’s construction team highlight opportunities for local contractors, leveraging Tiner’s decades of homebuilding experience to build rapport."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Richard S. Crystal & Martha E. Gonzalez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941219"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "In 2020, Martha E. Gonzalez applied to acquire a Unified Government Land Bank lot in Kansas City, KS to build a facility for storing and servicing trucks [Wyandotte Daily](https://wyandotteonline.com/2020/12/page/28/). This suggests that she (and co-owner Richard S. Crystal) are involved in a local small trucking or maintenance business venture [Wyandotte Daily](https://wyandotteonline.com/2020/12/page/28/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public offices; small-scale enterprise",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff"
+        ],
+        "engage": "Emphasize the project’s strong stormwater management plan to prevent any increased runoff or flooding, as this reassurance will likely resonate with their priorities."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daniel J. Poolman & Karen A. Poolman",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146827"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daniel J. Poolman and his wife Karen were married in 1966 and raised three children together in the community [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736). Karen Ann Poolman passed away in 2020 at age 72, leaving Daniel as the surviving property owner [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime residents; no public leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Use a neighborly, respectful approach through a familiar community member or local gathering, honoring their decades of local ties and family legacy in the area."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Of the three neighbors profiled, none have openly supported or opposed the development (all noted stances are unknown). Likewise, none hold high-profile community positions – no high-influence neighbors were identified among this group.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Guy B. Tiner\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"937902\"],\n      \"claims\": \"Guy B. Tiner, born in 1951, is a 75-year-old Bonner Springs resident [National Public Data](https://nationalpublicdata.com/people/t/guy-tiner/). He founded **Guy Tiner Co.**, a home-building business in Bonner Springs, in 1983 [Manta](https://www.manta.com/c/mmnykv0/guy-tiner-co), and he remains active in local development via entities like **Tiner – 134th Street LLC** (registered under his name) [City-Data](https://www.city-data.com/business-entities/KS/TINER-134TH-STREET-LLC-7818883-KS.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Veteran local homebuilder\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"fair_contracting\"],\n        \"engage\": \"Have the project’s construction team highlight opportunities for local contractors, leveraging Tiner’s decades of homebuilding experience to build rapport.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Richard S. Crystal & Martha E. Gonzalez\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"941219\"],\n      \"claims\": \"In 2020, Martha E. Gonzalez applied to acquire a Unified Government Land Bank lot in Kansas City, KS to build a facility for storing and servicing trucks [Wyandotte Daily](https://wyandotteonline.com/2020/12/page/28/). This suggests that she (and co-owner Richard S. Crystal) are involved in a local small trucking or maintenance business venture [Wyandotte Daily](https://wyandotteonline.com/2020/12/page/28/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public offices; small-scale enterprise\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"groundwater_runoff\"],\n        \"engage\": \"Emphasize the project’s strong stormwater management plan to prevent any increased runoff or flooding, as this reassurance will likely resonate with their priorities.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Daniel J. Poolman & Karen A. Poolman\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"146827\"],\n      \"claims\": \"Daniel J. Poolman and his wife Karen were married in 1966 and raised three children together in the community [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736). Karen Ann Poolman passed away in 2020 at age 72, leaving Daniel as the surviving property owner [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime residents; no public leadership roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Use a neighborly, respectful approach through a familiar community member or local gathering, honoring their decades of local ties and family legacy in the area.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,7 +1,7 @@
 {
-  "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
-  "coordinates": "44.040807,-116.766404",
-  "state_code": "ID",
+  "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
+  "coordinates": "39.152855,-94.801836",
+  "state_code": "KS",
   "parcels_analyzed": 30,
   "community_wealth_proxy": {
     "valid_samples": 0,
@@ -19,7 +19,7 @@
   },
   "total_property_value": null,
   "total_land_value": null,
-  "final_radius_miles": null,
+  "final_radius_miles": 0.5,
   "template_variables": {
     "median_structure_value": "N/A",
     "wealth_risk_level": "UNKNOWN",
@@ -32,6 +32,6 @@
     "parcels_analyzed": "30",
     "total_property_value": "N/A",
     "total_land_value": "N/A",
-    "final_radius_miles": "N/A"
+    "final_radius_miles": "0.50"
   }
 }

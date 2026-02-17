@@ -1,0 +1,113 @@
+{
+  "batch_idx": 2,
+  "total_batches": 8,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Lawrence D. Meyer & Mary Y. Meyer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209902"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Lawrence D. and Mary Y. Meyer own a large farm holding in Wyandotte County, with appraisal records indicating it has been assessed as agricultural land for over five decades [Wyandotte County Appraiser](https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R63045). They have not been noted in local civic roles or public discussions on development in available records [Wyandotte County Extension](https://www.wyandotte.k-state.edu/about/extension_council/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime landowner; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via a trusted local figure who can acknowledge their long tenure. Emphasize respect for their family\u2019s land legacy and listen to any concerns about preserving their farm use or heritage."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cory M. Appl & Stefanie L. Appl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "416600"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cory Appl has lived in the Piper area of Wyandotte County for approximately 19 years and works as a home health care administrator [Wyandotte Daily](https://wyandotteonline.com/tag/election-2015/). In 2015, he ran for a seat on the Piper School Board, emphasizing the need for adequate school facilities and fiscally responsible budgets to keep the community attractive to families [Wyandotte Daily](https://wyandotteonline.com/tag/election-2015/). Appl has volunteered as a youth basketball coach and his wife, Stefanie, has served as an on-call school nurse in the district, reflecting their active involvement in local community and schools [Wyandotte Daily](https://wyandotteonline.com/tag/election-2015/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "School board candidate; community volunteer",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Engage through school or community meetings, highlighting how development plans support local services and property values. Connect on shared community goals (e.g., quality schools) to address any concerns within a collaborative, locally-driven dialogue."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jennifer Masters",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209901"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jennifer Masters is listed as the owner of a large agricultural tract in the county (approximately 152 acres), with historical appraisal data (circa 1974) reflecting longstanding farm use of the property [Wyandotte County Appraiser](https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670). There are no public records of Masters holding any local office or voicing opinions on development issues in the community as of this report [Wyandotte County Extension](https://www.wyandotte.k-state.edu/about/extension_council/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Large landowner; low public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally to understand her perspective since she has not been publicly active. A one-on-one approach via a mutual acquaintance or local community leader may help build trust and uncover any private concerns she might have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Three neighboring landowners were reviewed; none have a clear public stance on development, and all are long-time local residents. One neighbor (Appl) has moderate community influence through school and civic involvement, while the others appear to have low public profiles or influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101013_8492.json",
+  "cached_at": "2026-02-17T10:10:13.849990"
+}

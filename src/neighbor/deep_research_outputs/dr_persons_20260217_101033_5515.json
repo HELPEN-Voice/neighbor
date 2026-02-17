@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-02-17T10:10:33.551589",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these neighbors have made a documented public stance on local development or clean energy, so all are categorized with an unknown stance. They appear to be private landowners or family farmers with low public profiles, and none were identified as having high community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Bradley Alan Appl, Cory M. Appl, Travis W. Sanders & Tom Crandon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "416601"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006 [NPI Profile](https://npiprofile.com/npi/1770559494). Cory M. Appl received a total of $1,031 in USDA COVID-19 farm relief payments in 2021, indicating involvement in local farming operations [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). No statements or actions by the Appl/Sanders/Crandon ownership group regarding development projects have been found in public records or news reports as of this date [Kansas Reflector](https://kansasreflector.com/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice-concerns/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Doctor and family farmers; no public roles",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Reach out through a trusted agricultural community contact (e.g., a county extension agent) to acknowledge their family’s farming legacy and discuss how the project can accommodate or compensate for farmland use, emphasizing respect for their land and livelihood."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Danny P. Bruch & Mary P. Bruch",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146828"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Danny and Mary Bruch own land in Wyandotte County but have not been publicly mentioned in recent local agricultural or development news [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). Their names do not appear among Wyandotte County’s farm subsidy recipients for 2021, suggesting they were not actively participating in federal farm programs that year [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). No record of the Bruchs taking a public position on development or energy projects could be found in available county records or media reports [Kansas Press Association](https://kspress.com/news/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; low public profile",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Use a personal, respectful approach via an in-person visit by a known local figure (such as a community or agricultural representative) to listen to their concerns. Emphasize that the project will respect their property rights, rural peace, and the value of their land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jonathan Allwardt",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146816"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jonathan Allwardt is listed as a property owner in rural Wyandotte County, but he has no evident presence in local news or civic records [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). His name was not found in reports on recent community debates or petitions concerning development in the county [Kansas Reflector](https://kansasreflector.com/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice-concerns/). There are no public indications of Allwardt’s stance on land development or energy projects as of now [Kansas Reflector](https://kansasreflector.com/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice-concerns/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not publicly active; no official role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "privacy_quiet"
+        ],
+        "engage": "Have a one-on-one conversation in a casual setting (e.g., at his property) to build rapport. Show understanding of his attachment to the land and reassure him that the project will be handled in a way that minimizes impact on the local rural environment."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these neighbors have made a documented public stance on local development or clean energy, so all are categorized with an unknown stance. They appear to be private landowners or family farmers with low public profiles, and none were identified as having high community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Bradley Alan Appl, Cory M. Appl, Travis W. Sanders & Tom Crandon\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"416601\"],\n      \"claims\": \"Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006 [NPI Profile](https://npiprofile.com/npi/1770559494). Cory M. Appl received a total of $1,031 in USDA COVID-19 farm relief payments in 2021, indicating involvement in local farming operations [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). No statements or actions by the Appl/Sanders/Crandon ownership group regarding development projects have been found in public records or news reports as of this date [Kansas Reflector](https://kansasreflector.com/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice-concerns/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Doctor and family farmers; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Reach out through a trusted agricultural community contact (e.g., a county extension agent) to acknowledge their family’s farming legacy and discuss how the project can accommodate or compensate for farmland use, emphasizing respect for their land and livelihood.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Danny P. Bruch & Mary P. Bruch\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"146828\"],\n      \"claims\": \"Danny and Mary Bruch own land in Wyandotte County but have not been publicly mentioned in recent local agricultural or development news [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). Their names do not appear among Wyandotte County’s farm subsidy recipients for 2021, suggesting they were not actively participating in federal farm programs that year [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). No record of the Bruchs taking a public position on development or energy projects could be found in available county records or media reports [Kansas Press Association](https://kspress.com/news/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; low public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"privacy_quiet\"],\n        \"engage\": \"Use a personal, respectful approach via an in-person visit by a known local figure (such as a community or agricultural representative) to listen to their concerns. Emphasize that the project will respect their property rights, rural peace, and the value of their land.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Jonathan Allwardt\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"146816\"],\n      \"claims\": \"Jonathan Allwardt is listed as a property owner in rural Wyandotte County, but he has no evident presence in local news or civic records [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). His name was not found in reports on recent community debates or petitions concerning development in the county [Kansas Reflector](https://kansasreflector.com/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice-concerns/). There are no public indications of Allwardt’s stance on land development or energy projects as of now [Kansas Reflector](https://kansasreflector.com/2025/11/07/lawsuit-delays-12b-data-center-in-kansas-city-as-community-environmental-group-voice-concerns/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Not publicly active; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"privacy_quiet\"],\n        \"engage\": \"Have a one-on-one conversation in a casual setting (e.g., at his property) to build rapport. Show understanding of his attachment to the land and reassure him that the project will be handled in a way that minimizes impact on the local rural environment.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

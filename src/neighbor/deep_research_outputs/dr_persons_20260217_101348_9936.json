@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-02-17T10:13:48.993704",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these three landowners has taken a public stance on local development (all are classified as Unknown stance). They are private citizens without notable public roles, so there are no high-influence stakeholders among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Justin K. Shepler",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209904"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin K. Shepler is the listed owner of a Wyandotte County parcel (PIN 209904) in Kansas City, Kansas, but he holds no known public position or record of advocacy in local affairs [Wyandotte Daily](https://wyandotteonline.com). No recent news or meeting minutes mention his involvement in community or development issues [Wyandotte Daily](https://wyandotteonline.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; low profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach him one-on-one with a respectful, informative conversation, since he has no known affiliations. Listen to any personal concerns he raises about property impacts and address them directly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209903"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Morganne M. Appl-Culp is an occupational therapist with Alphapointe in Kansas City, Missouri, and she completed her professional training in 2018 [Healthcare4PPL](https://www.healthcare4ppl.com/physician/missouri/kansas-city/morganne-m-appl-culp-1235742271.html). Her brother and co-owner, Cory M. Appl, engages in small-scale farming and received about $1,031 in federal farm relief subsidies in 2021, indicating active agricultural use of their land [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). None of the Appl-Culp family members have been cited in local news or public meetings speaking about development proposals, suggesting they have stayed out of public disputes [Wyandotte Daily](https://wyandotteonline.com).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No official role; small farm",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "livestock_safety"
+        ],
+        "engage": "Engage this family through a farm-friendly dialogue. Involve an agricultural liaison to discuss how the project will protect their farmland and livestock, emphasizing that local farming operations and rural tranquility will be respected."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Joseph A. & Joyce L. Green",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259102"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph A. Green and Joyce L. Green own a parcel in Wyandotte County (PIN 259102) but maintain a very low public profile. They have not appeared in local media reports or civic records regarding development or community issues as of the latest searches [Wyandotte Daily](https://wyandotteonline.com). There is no indication of them holding any public office or taking an active role in local planning meetings or debates on land use [Wyandotte Daily](https://wyandotteonline.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Use a neighborly, informal approach to build trust with the Greens. Emphasize that the project will not disrupt the peace or privacy of their property and will respect the quiet character of the community."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these three landowners has taken a public stance on local development (all are classified as Unknown stance). They are private citizens without notable public roles, so there are no high-influence stakeholders among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Justin K. Shepler\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"209904\"],\n      \"claims\": \"Justin K. Shepler is the listed owner of a Wyandotte County parcel (PIN 209904) in Kansas City, Kansas, but he holds no known public position or record of advocacy in local affairs [Wyandotte Daily](https://wyandotteonline.com). No recent news or meeting minutes mention his involvement in community or development issues [Wyandotte Daily](https://wyandotteonline.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public roles; low profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach him one-on-one with a respectful, informative conversation, since he has no known affiliations. Listen to any personal concerns he raises about property impacts and address them directly.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"209903\"],\n      \"claims\": \"Morganne M. Appl-Culp is an occupational therapist with Alphapointe in Kansas City, Missouri, and she completed her professional training in 2018 [Healthcare4PPL](https://www.healthcare4ppl.com/physician/missouri/kansas-city/morganne-m-appl-culp-1235742271.html). Her brother and co-owner, Cory M. Appl, engages in small-scale farming and received about $1,031 in federal farm relief subsidies in 2021, indicating active agricultural use of their land [Wyandotte Times](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021). None of the Appl-Culp family members have been cited in local news or public meetings speaking about development proposals, suggesting they have stayed out of public disputes [Wyandotte Daily](https://wyandotteonline.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No official role; small farm\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\", \"livestock_safety\"],\n        \"engage\": \"Engage this family through a farm-friendly dialogue. Involve an agricultural liaison to discuss how the project will protect their farmland and livestock, emphasizing that local farming operations and rural tranquility will be respected.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Joseph A. & Joyce L. Green\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"259102\"],\n      \"claims\": \"Joseph A. Green and Joyce L. Green own a parcel in Wyandotte County (PIN 259102) but maintain a very low public profile. They have not appeared in local media reports or civic records regarding development or community issues as of the latest searches [Wyandotte Daily](https://wyandotteonline.com). There is no indication of them holding any public office or taking an active role in local planning meetings or debates on land use [Wyandotte Daily](https://wyandotteonline.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public presence\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\"],\n        \"engage\": \"Use a neighborly, informal approach to build trust with the Greens. Emphasize that the project will not disrupt the peace or privacy of their property and will respect the quiet character of the community.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,145 @@
+{
+  "batch_idx": 3,
+  "total_batches": 8,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jessica and Evan Blomeyer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259103"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jessica and Evan Blomeyer reside in the suburban Piper area of Kansas City, KS, a community known for newer residential developments ([www.emetropolitan.com](https://www.emetropolitan.com/local-market-reports/wyandotte-county-housing-market/#:~:text=Encompassing%20cities%20like%20Kansas%20City%2C,to%20January%20of%20last%20year)). They do not hold any known public offices or leadership roles, and their names are absent from local civic or agricultural records ([wyandottetimes.com](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021#:~:text=Farms%20in%20Wyandotte%20County%20received,Department%20of%20Agriculture)) ([www.wyandotte.k-state.edu](https://www.wyandotte.k-state.edu/about/extension_council/#:~:text=2025)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; no public role",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out with a neighborly approach, emphasizing that the project will respect their property values and quiet lifestyle."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Robert K. and Donna L. Creten",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert and Donna Creten are part of a long-established farming family; public business records show \"Creten Farms\" at their Leavenworth County address was founded in 1966 ([www.manta.com](https://www.manta.com/c/mm7p7vp/creten-farms#:~:text=About)). They own agricultural land in Wyandotte County, but no record was found of them speaking out on development or clean energy issues in local news or meetings ([wyandottetimes.com](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021#:~:text=Farms%20in%20Wyandotte%20County%20received,Department%20of%20Agriculture)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime landowners (farming family)",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected agriculture peer or extension agent initiate dialogue, highlighting how project plans will preserve farmland integrity and honor the land\u2019s legacy."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Stuart Hunter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146830"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Stuart Hunter is listed as a Wyandotte County landowner, but he has a very low public profile. His name does not appear in local media reports or public records of community discussions on land use or development ([wyandotteonline.com](https://wyandotteonline.com/72-percent-of-properties-see-increases-in-valuations-in-wyandotte-county/#:~:text=About%2072%20percent%20of%20properties,they%20are%20planning%20to%20appeal)) ([wyandottetimes.com](https://wyandottetimes.com/stories/655139418-how-much-in-taxpayer-funded-subsidies-did-farmers-in-wyandotte-county-receive-in-2021#:~:text=Farms%20in%20Wyandotte%20County%20received,Department%20of%20Agriculture)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Little to no public presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage him through a personal visit by a community liaison, listening to any concerns and assuring him the project will address local needs."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three profiled neighbors have an **unknown** stance on the proposed development, as none have made any public statements for or against it. In terms of influence, none are high-profile community figures; one longtime farm couple has moderate local standing, while the others are lower-profile residents.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_110717_1446.json",
+  "cached_at": "2026-02-17T11:07:17.145598"
+}

@@ -1,0 +1,184 @@
+{
+  "timestamp": "2026-02-17T11:17:23.848671",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_100922_8941.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Dylan M. Alexander & Cali D. Alexander",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941106"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dylan M. Alexander is employed as a Firefighter/EMT with the Kansas City, Kansas Fire Department (KCKFD) ([Kansas OpenGov](https://kansasopengov.org/wp-content/uploads/2023/07/county_ot_2020-2024.csv)). In May 2023, he was recognized by the VFW as the National & State Firefighter of the Year for heroic life-saving actions during a November 2022 apartment complex fire ([Wyandotte County UG](https://www.wycokck.org/Engage-With-Us/News-articles/2023-KCKFD-Awards-Ceremony)). Cali Alexander is a graduate of Fort Hays State University, having completed a Bachelor of General Studies in Human Services in 2018 ([FHSU News](https://www.fhsu.edu/news/2019/03/fort-hays-state-university-announces-fall-2018-graduates)). Family obituaries confirm the couple's marriage and long-standing ties to the region ([Amos Family Funeral Home](https://www.amosfamily.com/obituaries/kermalene-skahan)). No public statements regarding renewable energy development were found for either individual.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Award-winning public servant (National Firefighter of the Year)",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "heritage_family_legacy"
+        ],
+        "engage": "Acknowledge Dylan's public service record. Approach via a trusted community liaison or fellow first responder. Focus on safety protocols, emergency access, and how the project supports local infrastructure/services relevant to public safety."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Dylan Alexander is a highly decorated local firefighter, elevating his community standing. The household appears to be younger/active workforce. No evidence of anti-development sentiment.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Employed as Firefighter/EMT with KCKFD",
+          "url": "https://kansasopengov.org/wp-content/uploads/2023/07/county_ot_2020-2024.csv",
+          "title": "Wyandotte County Overtime and Payroll Data 2020-2024",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Awarded National & State Firefighter of the Year in 2023",
+          "url": "https://www.wycokck.org/Engage-With-Us/News-articles/2023-KCKFD-Awards-Ceremony",
+          "title": "VFW Honors Three KCKFD Firefighters with National & State Awards",
+          "date": "2023-05-02"
+        },
+        {
+          "claim": "Cali Alexander graduated FHSU 2018",
+          "url": "https://www.fhsu.edu/news/2019/03/fort-hays-state-university-announces-fall-2018-graduates",
+          "title": "Fort Hays State University Announces Fall 2018 Graduates",
+          "date": "2019-03-07"
+        },
+        {
+          "claim": "Family ties and marriage confirmation",
+          "url": "https://www.amosfamily.com/obituaries/kermalene-skahan",
+          "title": "Obituary for Kermalene Skahan",
+          "date": "2022-01-26"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Terry H. Mertens & Charlotte L. Mertens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941105"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Terry and Charlotte Mertens are private residents of Wyandotte County. Family records identify Charlotte (née Bolander) as the wife of Terry Mertens and step-daughter of long-time area resident George Andervich ([Terrace Park Funeral Home](https://www.terraceparkfuneralhome.com/obituaries/george-andervich)). Comprehensive searches of Wyandotte County Planning Commission minutes and local news archives yield no record of the Mertens speaking publicly on zoning, development, or renewable energy matters ([Wyandotte County Planning Minutes](https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-september-planning-zoning-full-commission-minutes.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; no identified civic leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach as private landowners with deep family roots in the area. Focus on low-impact design, visual buffering to maintain privacy, and respect for the rural character of their property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Private landowners with extended family history in the region. No digital footprint suggests active opposition, but family legacy implies potential sensitivity to land use changes.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Charlotte Mertens identified as wife of Terry and step-daughter of George Andervich",
+          "url": "https://www.terraceparkfuneralhome.com/obituaries/george-andervich",
+          "title": "Obituary: George E. Andervich",
+          "date": "2017-07-21"
+        },
+        {
+          "claim": "No appearance in Planning & Zoning minutes",
+          "url": "https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-september-planning-zoning-full-commission-minutes.pdf",
+          "title": "Unified Government Commission Planning & Zoning Minutes",
+          "date": "2016-09-29"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rebecca Tanney & Jason Huston",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason Huston is a Project Manager for Stevenson Company, Inc., a stainless steel manufacturing firm in the region ([Stevenson Company News](https://stevensoncompanyinc.com/news/jason-huston-named-project-manager-for-growing-clientele)). Corporate biographies confirm he resides in the Kansas City area with his wife, Becky ([Stevenson Company Staff](https://www.stevensoncompanyinc.com/contact/staff-bios)). No evidence was found of Tanney or Huston voicing opinions on local development or renewable energy in news or public records, nor do they appear in local planning commission minutes ([Wyandotte County Planning Minutes](https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-may-planning-zoning-full-commission-minutes.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private sector employee; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Jason works in industrial project management/manufacturing; technical competence and professional project planning may appeal to him. Focus on the engineering integrity and low nuisance profile of the project."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Professional household. Jason is a Project Manager in manufacturing/industrial sector. Likely amenable to logical, well-planned engineering discussions. No history of opposition.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jason Huston named Project Manager at Stevenson Company",
+          "url": "https://stevensoncompanyinc.com/news/jason-huston-named-project-manager-for-growing-clientele",
+          "title": "Jason Huston Named Project Manager for Growing Clientele",
+          "date": "2021-01-01"
+        },
+        {
+          "claim": "Resides in KC with wife Becky",
+          "url": "https://www.stevensoncompanyinc.com/contact/staff-bios",
+          "title": "Stevenson Company Staff Bios",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "No appearance in Planning & Zoning minutes",
+          "url": "https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-may-planning-zoning-full-commission-minutes.pdf",
+          "title": "Unified Government Commission Planning & Zoning Minutes",
+          "date": "2016-05-26"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 837622,
+    "thinking_count": 39
+  }
+}

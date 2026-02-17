@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-02-17T11:15:22.832994",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101348_9936.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Justin K. Shepler",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209904"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin K. Shepler is the listed resident and owner of the property at 4204 N 126th St in Wyandotte County (PIN 209904) ([Realtor](https://www.realtor.com/propertyrecord-search/66109/N-126th-St)). Public record searches reveal no evidence of him holding elected office, board seats, or engaging in advocacy regarding local development or renewable energy projects as of February 2026 ([Wyandotte Daily](https://wyandotteonline.com)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles or advocacy found",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach him one-on-one with a respectful, informative conversation, since he has no known affiliations. Listen to any personal concerns he raises about property impacts and address them directly."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Justin K. Shepler is the listed resident and owner of the property at 4204 N 126th St in Wyandotte County (PIN 209904)",
+          "url": "https://www.realtor.com/propertyrecord-search/66109/N-126th-St",
+          "title": "Property records & home values in N 126th St, 66109 KS",
+          "date": "2026-02-17"
+        },
+        {
+          "claim": "Public record searches reveal no evidence of him holding elected office, board seats, or engaging in advocacy regarding local development",
+          "url": "https://wyandotteonline.com",
+          "title": "Wyandotte Daily News Search Verification",
+          "date": "2026-02-17"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209903"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Morganne M. Appl-Culp is an occupational therapist who received her Master of Occupational Therapy from Rockhurst University ([Rockhurst University](https://wyandotteonline.com/kck-residents-receive-degrees-from-rockhurst/)). Tyler Culp serves as the Vice President of Sales for Empower Brokerage ([Empower Brokerage](https://theorg.com/org/empower-brokerage/org-chart/tyler-culp)). Cory M. Appl serves as the Administrator and Treasurer for Spectrum Home Health and the Spectrum Health Foundation ([ProPublica](https://projects.propublica.org/nonprofits/organizations/481160123)). Cory M. Appl is a recipient of USDA agricultural subsidies for farming operations in Wyandotte County ([EWG](https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Corporate leadership roles (VP Sales, Foundation Treasurer)",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "livestock_safety",
+          "property_value"
+        ],
+        "engage": "Engage the family with a professional approach, acknowledging their roles in healthcare administration and business. Involve an agricultural liaison to discuss how the project will protect their farming interests, while being prepared to discuss economic benefits given their business backgrounds."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Morganne M. Appl-Culp is an occupational therapist who received her Master of Occupational Therapy from Rockhurst University",
+          "url": "https://wyandotteonline.com/kck-residents-receive-degrees-from-rockhurst/",
+          "title": "KCK residents receive degrees from Rockhurst",
+          "date": "2018-10-10"
+        },
+        {
+          "claim": "Tyler Culp serves as the Vice President of Sales for Empower Brokerage",
+          "url": "https://theorg.com/org/empower-brokerage/org-chart/tyler-culp",
+          "title": "Tyler Culp - Vice President Of Sales at Empower Brokerage",
+          "date": "2026-02-17"
+        },
+        {
+          "claim": "Cory M. Appl serves as the Administrator and Treasurer for Spectrum Home Health and the Spectrum Health Foundation",
+          "url": "https://projects.propublica.org/nonprofits/organizations/481160123",
+          "title": "Spectrum Health Foundation Inc - Nonprofit Explorer",
+          "date": "2024-12-31"
+        },
+        {
+          "claim": "Cory M. Appl is a recipient of USDA agricultural subsidies for farming operations in Wyandotte County",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1",
+          "title": "EWG Farm Subsidy Database - Wyandotte County",
+          "date": "2024-12-31"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Joseph A. & Joyce L. Green",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259102"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph A. Green is the listed owner of property on Hurrelbrink Road in Kansas City, KS ([Realtor](https://www.realtor.com/realestateandhomes-detail/9716-Hurrelbrink-Rd_Kansas-City_KS_66109_M87399-14759)). There is no indication of the Greens holding public office or taking an active role in local planning meetings or debates on land use ([Wyandotte Daily](https://wyandotteonline.com)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence in development",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Use a neighborly, informal approach to build trust with the Greens. Emphasize that the project will not disrupt the peace or privacy of their property and will respect the quiet character of the community."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Joseph A. Green is the listed owner of property on Hurrelbrink Road in Kansas City, KS",
+          "url": "https://www.realtor.com/realestateandhomes-detail/9716-Hurrelbrink-Rd_Kansas-City_KS_66109_M87399-14759",
+          "title": "9716 Hurrelbrink Rd, Kansas City, KS 66109 Property Details",
+          "date": "2026-02-17"
+        },
+        {
+          "claim": "There is no indication of the Greens holding public office or taking an active role in local planning meetings or debates on land use",
+          "url": "https://wyandotteonline.com",
+          "title": "Wyandotte Daily News Search Verification",
+          "date": "2026-02-17"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 579982,
+    "thinking_count": 30
+  }
+}

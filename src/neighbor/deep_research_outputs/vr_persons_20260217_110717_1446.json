@@ -1,0 +1,161 @@
+{
+  "timestamp": "2026-02-17T11:25:32.820620",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_110717_1446.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jessica and Evan Blomeyer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259103"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jessica and Evan Blomeyer are residents of Kansas City, KS ([Way-Watson Funeral Home](https://www.waywatson.com/obituaries/helen-blomeyer)). Evan Blomeyer is the step-son of the late Helen Owens Blomeyer, a registered nurse and Army veteran ([Way-Watson Funeral Home](https://www.waywatson.com/obituaries/helen-blomeyer)). The Blomeyer surname appears in historical Kansas business records in connection with Stuart Hunter (Neighbor N-03) through the professional association \"Blomeyer & Hunter, Chartered,\" registered in Kansas City, KS in 1984, suggesting a potential multi-generational or professional link between these neighbors ([Kansas Register](https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf)). No specific public records were found regarding their stance on renewable energy development.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; no current public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out with a neighborly approach, emphasizing that the project will respect their property values and quiet lifestyle. Note potential familial or professional connection to Neighbor N-03 (Stuart Hunter)."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jessica and Evan Blomeyer are residents of Kansas City, KS",
+          "url": "https://www.waywatson.com/obituaries/helen-blomeyer",
+          "title": "Obituary for Helen Owens Blomeyer",
+          "date": "2023-03-30"
+        },
+        {
+          "claim": "Professional association 'Blomeyer & Hunter, Chartered' registered in Kansas City, KS",
+          "url": "https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf",
+          "title": "Kansas Register Vol 3 No 27",
+          "date": "1984-07-05"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Robert K. and Donna L. Creten",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert and Donna Creten are associated with a long-established farming family in the region; \"Creten Farms\" has been a registered entity in the area since 1966 ([Manta](https://www.manta.com/c/mm7p7vp/creten-farms)). The Creten family has a documented history of challenging county land-use decisions; in the case *Creten v. Board of County Commissioners* (1970), the family litigated a denial of a special use permit for a mobile home park, demonstrating a willingness to engage legally regarding property rights and zoning ([Justia](https://law.justia.com/cases/kansas/supreme-court/1986/57-559-1.html)). No specific record was found of the current owners speaking out on renewable energy issues in recent local news.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime farming family with history of land-use litigation",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Engage via a respected agricultural peer. Be aware of the family's history of land-use litigation (*Creten v. Bd. of County Comm'rs*); emphasize fair contracting and respect for property rights."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Creten Farms has been a registered entity in the area since 1966",
+          "url": "https://www.manta.com/c/mm7p7vp/creten-farms",
+          "title": "Creten Farms Business Listing",
+          "date": "2024-02-17"
+        },
+        {
+          "claim": "Creten family litigated denial of special use permit in Creten v. Board of County Commissioners",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/1986/57-559-1.html",
+          "title": "Creten v. Board of County Commissioners Case Reference",
+          "date": "1970-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Stuart Hunter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146830"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Stuart Hunter is a Wyandotte County landowner who shares a historical professional link with the Blomeyer family (Neighbor N-01). State records from 1984 list a professional association titled \"Blomeyer & Hunter, Chartered\" in Kansas City, KS, indicating a likely background in law or professional services ([Kansas Register](https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf)). Despite this historical professional footprint, he does not appear in recent local media reports or public records regarding community discussions on land use or development.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Historical professional status (Chartered association); linked to N-01",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach with professional courtesy suitable for a likely retired professional. Leverage the connection to the Blomeyer family (N-01) if appropriate."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Professional association 'Blomeyer & Hunter, Chartered' registered in Kansas City, KS",
+          "url": "https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf",
+          "title": "Kansas Register Vol 3 No 27",
+          "date": "1984-07-05"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 1098773,
+    "thinking_count": 30
+  }
+}

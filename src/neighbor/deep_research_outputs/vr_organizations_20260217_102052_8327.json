@@ -1,0 +1,161 @@
+{
+  "timestamp": "2026-02-17T11:34:35.063579",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260217_102052_8327.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Wyandotte County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "SP Bennet Lake Development, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "423100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "SP Bennet Lake Development, LLC is a special-purpose entity associated with Scannell Properties, a national real estate development firm based in Indianapolis ([leinumber.com](https://www.leinumber.com/leicert/2549006A3TMOUDEKUK90/)). The entity is developing the Scannell 435 Logistics Center, a 400-acre master-planned logistics park at 9822 Leavenworth Road in Wyandotte County, Kansas City, KS ([loopnet.com](https://www.loopnet.com/Listing/9700-Leavenworth-Rd-Kansas-City-KS/30042694/)) ([ttnews.com](https://www.ttnews.com/articles/kansas-marvin-logistics-hub)). Earthwork for the project began circa late 2023 to early 2024, securing Marvin Lumber and Cedar Company as an anchor tenant for a 400,000 sq. ft. manufacturing facility ([windowanddoor.com](https://www.windowanddoor.com/news/marvin-selects-kansas-city-new-manufacturing-facility)). Scannell Properties has a documented history of integrating renewable energy into its industrial developments, including installing extensive solar arrays and battery energy storage systems at other logistics facilities ([arconational.com](https://www.arconational.com/arco-partners-with-scannell-properties-on-manufacturing-facility-for-plant-prefab/)) ([energy.gov](https://www.energy.gov/sites/prod/files/2019/06/f63/101482.pdf)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Controls a major 400-acre industrial development (Scannell 435 Logistics Center); backed by national developer Scannell Properties; secured high-profile tenant (Marvin) with state government backing.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure alignment",
+          "Tenant stability",
+          "Renewable energy integration"
+        ],
+        "engage": "Coordinate with Scannell Properties’ project leads regarding the 435 Logistics Center timeline. Highlight Helpen’s ability to provide complementary renewable energy infrastructure, referencing Scannell's past inclusion of solar arrays and battery storage in their industrial projects."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "SP Bennet Lake Development, LLC is the local holding entity for Scannell Properties' major industrial project, the Scannell 435 Logistics Center. They are actively developing the site for high-value tenants like Marvin Windows. The parent company, Scannell Properties, has a demonstrated track record of supporting and integrating solar and battery storage into their logistics parks.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "SP Bennet Lake Development, LLC is associated with Scannell Properties and registered in Indianapolis",
+          "url": "https://www.leinumber.com/leicert/2549006A3TMOUDEKUK90/",
+          "title": "SP Bennet Lake Development, LLC LEI Registration",
+          "date": "2024-02-17"
+        },
+        {
+          "claim": "Developing the Scannell 435 Logistics Center at 9822 Leavenworth Road",
+          "url": "https://www.loopnet.com/Listing/9700-Leavenworth-Rd-Kansas-City-KS/30042694/",
+          "title": "Scannell 435 Logistics Center Listing",
+          "date": "2026-02-10"
+        },
+        {
+          "claim": "Project includes a 400-acre master planned logistics park",
+          "url": "https://www.ttnews.com/articles/kansas-marvin-logistics-hub",
+          "title": "Kansas Logistics Hub to Host Marvin Manufacturing",
+          "date": "2024-04-29"
+        },
+        {
+          "claim": "Marvin has begun earthwork for the 400,000-square-foot facility",
+          "url": "https://www.windowanddoor.com/news/marvin-selects-kansas-city-new-manufacturing-facility",
+          "title": "Marvin Selects Kansas City for New Manufacturing Facility",
+          "date": "2024-03-22"
+        },
+        {
+          "claim": "Scannell Properties integrates solar arrays and battery storage in projects",
+          "url": "https://www.arconational.com/arco-partners-with-scannell-properties-on-manufacturing-facility-for-plant-prefab/",
+          "title": "ARCO Partners with Scannell Properties on Plant Prefab Facility",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Scannell Properties installed solar PV and battery systems in DOE project",
+          "url": "https://www.energy.gov/sites/prod/files/2019/06/f63/101482.pdf",
+          "title": "DOE Categorical Exclusion Determination: Scannell Properties",
+          "date": "2019-06-06"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Marvin Lumber and Cedar Company, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "428700"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Marvin Lumber and Cedar Company, LLC (Marvin) is a family-owned window and door manufacturing firm founded in 1912 and based in Warroad, Minnesota ([pestel-analysis.com](https://pestel-analysis.com/blogs/brief-history/marvin)). In 2024, Marvin began earthwork on a 400,000 sq. ft. production facility in the Scannell 435 Logistics Center in Kansas City, KS, representing a capital investment of approximately $76.5 million ([kansascommerce.gov](https://www.kansascommerce.gov/2024/03/marvin-investing-76-5m-creating-600-jobs-in-kansas-city-kansas/)). The project is actively supported by Governor Laura Kelly and local officials, who cited the creation of 100 initial jobs and up to 600 jobs by 2028 ([ingrams.com](https://ingrams.com/article/window-door-manufacturer-selects-kck-for-76m-facility-600-new-jobs/)). Marvin has a corporate commitment to sustainability, with manufacturing operations that incorporate renewable energy sources and environmental standards ([mags.constructioninfocus.com](https://mags.constructioninfocus.com/mag/_Backups/CIFDec2024-old11/flipbook.pdf)). The company chose Wyandotte County after a multi-state search due to the region's workforce and collaborative economic development approach ([woodworkingnetwork.com](https://www.woodworkingnetwork.com/management/fdmc-300/marvin-selects-site-new-76-million-manufacturing-facility)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major new regional employer (600 planned jobs); secured $76.5M+ investment; heavily backed by Governor Kelly and Wyandotte County Economic Development Council.",
+      "approach_recommendations": {
+        "motivations": [
+          "Workforce development",
+          "Corporate sustainability goals",
+          "Operational stability"
+        ],
+        "engage": "Engage Marvin's Kansas City operations director regarding shared sustainability goals. Highlight how Helpen's development aligns with Marvin's corporate commitment to renewable energy sources and environmental manufacturing standards."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Marvin is a significant new industrial stakeholder in Wyandotte County, currently constructing a major manufacturing hub. They have strong political capital via state incentives and job creation promises. Their corporate stance actively supports sustainable operations and renewable energy integration, making them a likely ally for responsible development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Founded in 1912 and based in Warroad, Minnesota",
+          "url": "https://pestel-analysis.com/blogs/brief-history/marvin",
+          "title": "Brief History of Marvin",
+          "date": "2025-11-06"
+        },
+        {
+          "claim": "Investing $76.5 million in 400,000 sq ft Kansas City facility",
+          "url": "https://www.kansascommerce.gov/2024/03/marvin-investing-76-5m-creating-600-jobs-in-kansas-city-kansas/",
+          "title": "Marvin Investing $76.5M in Kansas City",
+          "date": "2024-03-21"
+        },
+        {
+          "claim": "Project supported by Governor Kelly with 600 jobs planned by 2028",
+          "url": "https://ingrams.com/article/window-door-manufacturer-selects-kck-for-76m-facility-600-new-jobs/",
+          "title": "Window & Door Manufacturer Selects KCK for $76M Facility",
+          "date": "2024-03-21"
+        },
+        {
+          "claim": "Corporate commitment to renewable energy sources in manufacturing",
+          "url": "https://mags.constructioninfocus.com/mag/_Backups/CIFDec2024-old11/flipbook.pdf",
+          "title": "Construction in Focus: Marvin Lumber",
+          "date": "2024-12-01"
+        },
+        {
+          "claim": "Selected site after multi-state search due to workforce and economic development collaboration",
+          "url": "https://www.woodworkingnetwork.com/management/fdmc-300/marvin-selects-site-new-76-million-manufacturing-facility",
+          "title": "Marvin Selects Site for New Facility",
+          "date": "2024-04-05"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 665887,
+    "thinking_count": 36
+  }
+}

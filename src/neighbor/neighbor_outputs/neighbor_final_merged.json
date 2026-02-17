@@ -2,26 +2,23 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Bureau Of Land Management",
-      "entity_category": "Organization",
-      "entity_type": "Organization",
+      "name": "Justin K. Shepler",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
       "pins": [
-        "08N04W012400"
+        "209904"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "The Bureau of Land Management (BLM) is a federal agency managing public lands; its Four Rivers Field Office oversees approximately 1.3 million acres in southwest Idaho [Bureau of Land Management](https://www.blm.gov/office/four-rivers-field-office). Federal BLM lands are exempt from local property taxes, but the agency provides Payment in Lieu of Taxes (PILT) to Payette County to support local services [DOI](https://www.doi.gov/pilt). The field office actively processes renewable energy applications under a 2023 Renewable Energy Strategy and the 2023 Resource Management Plan [BLM](https://www.blm.gov/sites/default/files/docs/2023-09/BLM_Idaho_RenewableEnergyReport_FINAL.pdf).",
+      "claims": "Justin K. Shepler is the listed resident and owner of the property at 4204 N 126th St in Wyandotte County (PIN 209904) ([Realtor](https://www.realtor.com/propertyrecord-search/66109/N-126th-St)). Public record searches reveal no evidence of him holding elected office, board seats, or engaging in advocacy regarding local development or renewable energy projects as of February 2026 ([Wyandotte Daily](https://wyandotteonline.com)).",
       "confidence": "high",
-      "noted_stance": "neutral",
-      "community_influence": "High",
-      "influence_justification": "Federal land manager controlling 1.3M acres and permitting rights-of-way",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles or advocacy found",
       "approach_recommendations": {
-        "motivations": [
-          "wildlife_habitat",
-          "fair_contracting"
-        ],
-        "engage": "Submit SF-299 application to the Four Rivers Field Office. Early engagement must address the 2023 Resource Management Plan and sage-grouse habitat conservation."
+        "motivations": [],
+        "engage": "Approach him one-on-one with a respectful, informative conversation, since he has no known affiliations. Listen to any personal concerns he raises about property impacts and address them directly."
       },
-      "entity_classification": "municipal",
+      "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -36,192 +33,45 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Four Rivers Field Office oversees approximately 1.3 million acres in southwest Idaho",
-          "url": "https://www.blm.gov/office/four-rivers-field-office",
-          "title": "Four Rivers Field Office | Bureau of Land Management",
-          "date": "2023-07-08",
+          "claim": "Justin K. Shepler is the listed resident and owner of the property at 4204 N 126th St in Wyandotte County (PIN 209904)",
+          "url": "https://www.realtor.com/propertyrecord-search/66109/N-126th-St",
+          "title": "Property records & home values in N 126th St, 66109 KS",
+          "date": "2026-02-17",
           "note": null
         },
         {
-          "claim": "Federal BLM lands are exempt from local property taxes, with counties instead receiving Payment in Lieu of Taxes (PILT) funds",
-          "url": "https://www.doi.gov/pilt",
-          "title": "Payment in Lieu of Taxes",
-          "date": "2023-06-15",
-          "note": null
-        },
-        {
-          "claim": "The field office actively processes renewable energy applications under a 2023 Renewable Energy Strategy",
-          "url": "https://www.blm.gov/sites/default/files/docs/2023-09/BLM_Idaho_RenewableEnergyReport_FINAL.pdf",
-          "title": "BLM Idaho Renewable Energy Strategy",
-          "date": "2023-09-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Lone Pine Farms Canyon County LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "08N04W240201",
-        "08N04W241800",
-        "08N03W190001"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Lone Pine Farms Canyon County LLC is an agricultural entity governed by members of the Boschma family, specifically Joel S., Deborah L., Lisa M., and Stephen T. Boschma, who are also associated with the general partnership Lone Pine Dairy ([Canyon County Sheriff](https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf)). In Payette County, the entity developed a major livestock facility along Big Willow Creek, described in real estate records as a 14,534-head Confined Animal Feeding Operation (CAFO) and feedlot situated on approximately 890 acres ([RJ Realty](https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661)). The operation faced significant financial restructuring; in early 2025, the entity and its principals were defendants in a lawsuit brought by Rooster Capital IV LLC, resulting in a Judgment, Decree of Foreclosure, and a Sheriff's Sale of their associated real property in neighboring Canyon County ([Canyon County Sheriff](https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf)). Property records indicate the entity's primary Payette County holdings (6075 Big Willow Rd) were sold to Rown Investments LLC, a separate investment entity ([Homes.com](https://www.homes.com/property/6075-big-willow-rd-payette-id/beswyvfcm8vfe/)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Historical operator of one of the largest feedlots in the county (14,000+ head capacity), giving them significant past influence in the local agricultural sector, though recent foreclosure proceedings and property sales indicate a loss of operational control.",
-      "approach_recommendations": {
-        "motivations": [
-          "Financial liquidity",
-          "Asset liquidation"
-        ],
-        "engage": "Do not engage the LLC for long-term agreements as they appear to have liquidated key assets. Direct outreach should be pivoted to the new owners of the Big Willow Road assemblage (Rown Investments LLC) or legal representatives handling the receivership/foreclosure estate if any parcels remain under the Boschma family's control."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": "Family-run agricultural entity that operated a large-scale CAFO in Payette County. The entity has recently undergone foreclosure proceedings and asset liquidation, selling major holdings to an investment firm.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Governed by members of the Boschma family (Joel S., Deborah L., Lisa M., Stephen T.) and associated with Lone Pine Dairy",
-          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
-          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
-          "date": "2025-02-25",
-          "note": null
-        },
-        {
-          "claim": "Developed a 14,534-head Confined Animal Feeding Operation (CAFO) on ~890 acres in Payette County",
-          "url": "https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661",
-          "title": "6075 Big Willow Rd Listing Details",
-          "date": "2025-01-22",
-          "note": null
-        },
-        {
-          "claim": "Defendants in foreclosure lawsuit by Rooster Capital IV LLC resulting in Sheriff's Sale",
-          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
-          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
-          "date": "2025-02-25",
-          "note": null
-        },
-        {
-          "claim": "Payette County holdings sold to Rown Investments LLC",
-          "url": "https://www.homes.com/property/6075-big-willow-rd-payette-id/beswyvfcm8vfe/",
-          "title": "Property History: 6075 Big Willow Rd",
-          "date": "2025-02-08",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Big Willow Ranch LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "08N03W070000",
-        "08N03W180001"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Big Willow Ranch LLC operates a significant agricultural enterprise in Payette County, centered around a farm and feedlot operation along Big Willow Creek [Clearwater Properties](https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661). The property covers approximately 889 acres and includes an existing 4,000-head feedlot, with a CAFO permit authorizing expansion up to 14,534 head [Zillow](https://www.zillow.com/homedetails/6075-Big-Willow-Rd-Payette-ID-83661/96906304_zpid/). In addition to livestock, the ranch operates 'Butte Lodge,' a private facility offering guided elk hunts on the property [Ultimate Elk Hunting Directory](https://www.ultimateelkhunting.com/business/butte-lodge/). The entity has a documented history of legal litigation regarding its resources and operations. In 2024, Big Willow Ranch LLC filed a petition for judicial review against the Idaho Department of Water Resources regarding the forfeiture of water rights [Idaho Dept. of Water Resources](https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/). Furthermore, in April 2025, the company filed a contract dispute lawsuit in federal court against Western Oilfields Supply Company (dba Rain for Rent) [Justia](https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "High",
-      "influence_justification": "The entity controls a substantial agricultural operation with significant permitted expansion capacity (14,534 head CAFO) and demonstrates high legal sophistication and willingness to litigate to protect resource rights.",
-      "approach_recommendations": {
-        "motivations": [
-          "Resource protection (water rights)",
-          "Operational expansion",
-          "Recreational land value"
-        ],
-        "engage": "Engage leadership directly with a focus on resource preservation. Given their active litigation against IDWR regarding water rights, any discussion must explicitly guarantee no impact on their water availability or quality. The existence of the hunting lodge suggests the need to address visual/construction impacts on wildlife patterns."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": "Big Willow Ranch LLC is a major agricultural and recreational operator in the county, managing a large feedlot with significant expansion permits and a commercial hunting lodge. They are legally active and protective of their water and property rights.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "The property covers approximately 889 acres and includes an existing 4,000-head feedlot, with a CAFO permit authorizing expansion up to 14,534 head",
-          "url": "https://www.zillow.com/homedetails/6075-Big-Willow-Rd-Payette-ID-83661/96906304_zpid/",
-          "title": "6075 Big Willow Rd Property Details",
-          "date": "2025-02-08",
-          "note": null
-        },
-        {
-          "claim": "Big Willow Ranch LLC operates a significant agricultural enterprise... centered around a farm and feedlot operation",
-          "url": "https://www.rjrealty.com/-/listing/ID-SIRMLS/98916193/6075-Big-Willow-Rd-Payette-ID-83661",
-          "title": "Listing for 6075 Big Willow Rd",
-          "date": "2025-02-12",
-          "note": null
-        },
-        {
-          "claim": "In addition to livestock, the ranch operates 'Butte Lodge,' a private facility offering guided elk hunts",
-          "url": "https://www.ultimateelkhunting.com/business/butte-lodge/",
-          "title": "Butte Lodge Business Listing",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "In 2024, Big Willow Ranch LLC filed a petition for judicial review against the Idaho Department of Water Resources",
-          "url": "https://idwr.idaho.gov/legal-actions/district-court-actions/big-willow-v-idwr/",
-          "title": "Big Willow Ranch LLC v. IDWR Case Summary",
-          "date": "2024-07-29",
-          "note": null
-        },
-        {
-          "claim": "in April 2025, the company filed a contract dispute lawsuit in federal court against Western Oilfields Supply Company",
-          "url": "https://dockets.justia.com/docket/idaho/iddce/1:2025cv00209/56784",
-          "title": "Big Willow Ranch, LLC v. Western Oilfields Supply Company",
-          "date": "2025-04-11",
+          "claim": "Public record searches reveal no evidence of him holding elected office, board seats, or engaging in advocacy regarding local development",
+          "url": "https://wyandotteonline.com/",
+          "title": "Wyandotte Daily News Search Verification",
+          "date": "2026-02-17",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Willows Ranch LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
+      "name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
       "pins": [
-        "08N04W020000"
+        "209903"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Willows Ranch LLC is a property owning entity in Payette County, with records linking it to a parcel on Little Willow Road [Homes.com](https://www.homes.com/property/5415-little-willow-rd-payette-id/j3666sp06537z/). Public records indicate the LLC is associated with an address in Steamboat Springs, Colorado, suggesting absentee ownership [Routt County Permits](https://cityview2.iharriscomputer.com/RouttCountyPortal/Permit/GetFile/118128). The entity appears to be distinct from the local 'Big Willow Ranch' operation. While the entity controls property in the Little Willow Creek area, specific details regarding the scale of agricultural operations under this specific LLC are limited in available public records.",
-      "confidence": "medium",
+      "claims": "Morganne M. Appl-Culp is an occupational therapist who received her Master of Occupational Therapy from Rockhurst University ([Rockhurst University](https://wyandotteonline.com/kck-residents-receive-degrees-from-rockhurst/)). Tyler Culp serves as the Vice President of Sales for Empower Brokerage ([Empower Brokerage](https://theorg.com/org/empower-brokerage/org-chart/tyler-culp)). Cory M. Appl serves as the Administrator and Treasurer for Spectrum Home Health and the Spectrum Health Foundation ([ProPublica](https://projects.propublica.org/nonprofits/organizations/481160123)). Cory M. Appl is a recipient of USDA agricultural subsidies for farming operations in Wyandotte County ([EWG](https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1)).",
+      "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Appears to be an absentee owner (Colorado address) with limited visible presence or political activity in local Payette County records compared to other large ranching entities.",
+      "community_influence": "Medium",
+      "influence_justification": "Corporate leadership roles (VP Sales, Foundation Treasurer)",
       "approach_recommendations": {
         "motivations": [
-          "Asset appreciation",
-          "Passive income"
+          "farmland_preservation",
+          "livestock_safety",
+          "property_value"
         ],
-        "engage": "Treat as an absentee landowner/investor. Initial outreach should be directed to the registered address in Steamboat Springs, CO. Focus on property value protection and minimal disturbance, as they likely do not reside on-site."
+        "engage": "Engage the family with a professional approach, acknowledging their roles in healthcare administration and business. Involve an agricultural liaison to discuss how the project will protect their farming interests, while being prepared to discuss economic benefits given their business backgrounds."
       },
-      "entity_classification": "land_investment",
-      "profile_summary": "Willows Ranch LLC appears to be a land-holding entity with ties to Steamboat Springs, Colorado, indicating absentee ownership. They own property on Little Willow Road but do not show the same level of local operational footprint as neighboring ranches.",
+      "entity_classification": "agriculture",
+      "profile_summary": null,
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -235,100 +85,1292 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Willows Ranch LLC is a property owning entity in Payette County, with records linking it to a parcel on Little Willow Road",
-          "url": "https://www.homes.com/property/5415-little-willow-rd-payette-id/j3666sp06537z/",
-          "title": "Property Record for 5415 Little Willow Rd",
-          "date": "2023-06-01",
+          "claim": "Morganne M. Appl-Culp is an occupational therapist who received her Master of Occupational Therapy from Rockhurst University",
+          "url": "https://wyandotteonline.com/kck-residents-receive-degrees-from-rockhurst/",
+          "title": "KCK residents receive degrees from Rockhurst",
+          "date": "2018-10-10",
           "note": null
         },
         {
-          "claim": "Public records indicate the LLC is associated with an address in Steamboat Springs, Colorado",
-          "url": "https://cityview2.iharriscomputer.com/RouttCountyPortal/Permit/GetFile/118128",
-          "title": "Routt County Permit Record listing Willows Ranch LLC",
+          "claim": "Tyler Culp serves as the Vice President of Sales for Empower Brokerage",
+          "url": "https://theorg.com/org/empower-brokerage/org-chart/tyler-culp",
+          "title": "Tyler Culp - Vice President Of Sales at Empower Brokerage",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "Cory M. Appl serves as the Administrator and Treasurer for Spectrum Home Health and the Spectrum Health Foundation",
+          "url": "https://projects.propublica.org/nonprofits/organizations/481160123",
+          "title": "Spectrum Health Foundation Inc - Nonprofit Explorer",
+          "date": "2024-12-31",
+          "note": null
+        },
+        {
+          "claim": "Cory M. Appl is a recipient of USDA agricultural subsidies for farming operations in Wyandotte County",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1",
+          "title": "EWG Farm Subsidy Database - Wyandotte County",
+          "date": "2024-12-31",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Joseph A. & Joyce L. Green",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259102"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Joseph A. Green is the listed owner of property on Hurrelbrink Road in Kansas City, KS ([Realtor](https://www.realtor.com/realestateandhomes-detail/9716-Hurrelbrink-Rd_Kansas-City_KS_66109_M87399-14759)). There is no indication of the Greens holding public office or taking an active role in local planning meetings or debates on land use ([Wyandotte Daily](https://wyandotteonline.com)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public presence in development",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Use a neighborly, informal approach to build trust with the Greens. Emphasize that the project will not disrupt the peace or privacy of their property and will respect the quiet character of the community."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Joseph A. Green is the listed owner of property on Hurrelbrink Road in Kansas City, KS",
+          "url": "https://www.realtor.com/realestateandhomes-detail/9716-Hurrelbrink-Rd_Kansas-City_KS_66109_M87399-14759",
+          "title": "9716 Hurrelbrink Rd, Kansas City, KS 66109 Property Details",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "There is no indication of the Greens holding public office or taking an active role in local planning meetings or debates on land use",
+          "url": "https://wyandotteonline.com/",
+          "title": "Wyandotte Daily News Search Verification",
+          "date": "2026-02-17",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Dylan M. Alexander & Cali D. Alexander",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941106"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dylan M. Alexander is employed as a Firefighter/EMT with the Kansas City, Kansas Fire Department (KCKFD) ([Kansas OpenGov](https://kansasopengov.org/wp-content/uploads/2023/07/county_ot_2020-2024.csv)). In May 2023, he was recognized by the VFW as the National & State Firefighter of the Year for heroic life-saving actions during a November 2022 apartment complex fire ([Wyandotte County UG](https://www.wycokck.org/Engage-With-Us/News-articles/2023-KCKFD-Awards-Ceremony)). Cali Alexander is a graduate of Fort Hays State University, having completed a Bachelor of General Studies in Human Services in 2018 ([FHSU News](https://www.fhsu.edu/news/2019/03/fort-hays-state-university-announces-fall-2018-graduates)). Family obituaries confirm the couple's marriage and long-standing ties to the region ([Amos Family Funeral Home](https://www.amosfamily.com/obituaries/kermalene-skahan)). No public statements regarding renewable energy development were found for either individual.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Award-winning public servant (National Firefighter of the Year)",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "heritage_family_legacy"
+        ],
+        "engage": "Acknowledge Dylan's public service record. Approach via a trusted community liaison or fellow first responder. Focus on safety protocols, emergency access, and how the project supports local infrastructure/services relevant to public safety."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Dylan Alexander is a highly decorated local firefighter, elevating his community standing. The household appears to be younger/active workforce. No evidence of anti-development sentiment.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Employed as Firefighter/EMT with KCKFD",
+          "url": "https://kansasopengov.org/wp-content/uploads/2023/07/county_ot_2020-2024.csv",
+          "title": "Wyandotte County Overtime and Payroll Data 2020-2024",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Awarded National & State Firefighter of the Year in 2023",
+          "url": "https://www.wycokck.org/Engage-With-Us/News-articles/2023-KCKFD-Awards-Ceremony",
+          "title": "VFW Honors Three KCKFD Firefighters with National & State Awards",
+          "date": "2023-05-02",
+          "note": null
+        },
+        {
+          "claim": "Cali Alexander graduated FHSU 2018",
+          "url": "https://www.fhsu.edu/news/2019/03/fort-hays-state-university-announces-fall-2018-graduates",
+          "title": "Fort Hays State University Announces Fall 2018 Graduates",
+          "date": "2019-03-07",
+          "note": null
+        },
+        {
+          "claim": "Family ties and marriage confirmation",
+          "url": "https://www.amosfamily.com/obituaries/kermalene-skahan",
+          "title": "Obituary for Kermalene Skahan",
+          "date": "2022-01-26",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Terry H. Mertens & Charlotte L. Mertens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941105"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Terry and Charlotte Mertens are private residents of Wyandotte County. Family records identify Charlotte (née Bolander) as the wife of Terry Mertens and step-daughter of long-time area resident George Andervich ([Terrace Park Funeral Home](https://www.terraceparkfuneralhome.com/obituaries/george-andervich)). Comprehensive searches of Wyandotte County Planning Commission minutes and local news archives yield no record of the Mertens speaking publicly on zoning, development, or renewable energy matters ([Wyandotte County Planning Minutes](https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-september-planning-zoning-full-commission-minutes.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; no identified civic leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach as private landowners with deep family roots in the area. Focus on low-impact design, visual buffering to maintain privacy, and respect for the rural character of their property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Private landowners with extended family history in the region. No digital footprint suggests active opposition, but family legacy implies potential sensitivity to land use changes.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Charlotte Mertens identified as wife of Terry and step-daughter of George Andervich",
+          "url": "https://www.terraceparkfuneralhome.com/obituaries/george-andervich",
+          "title": "Obituary: George E. Andervich",
+          "date": "2017-07-21",
+          "note": null
+        },
+        {
+          "claim": "No appearance in Planning & Zoning minutes",
+          "url": "https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-september-planning-zoning-full-commission-minutes.pdf",
+          "title": "Unified Government Commission Planning & Zoning Minutes",
+          "date": "2016-09-29",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rebecca Tanney & Jason Huston",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason Huston is a Project Manager for Stevenson Company, Inc., a stainless steel manufacturing firm in the region ([Stevenson Company News](https://stevensoncompanyinc.com/news/jason-huston-named-project-manager-for-growing-clientele)). Corporate biographies confirm he resides in the Kansas City area with his wife, Becky ([Stevenson Company Staff](https://www.stevensoncompanyinc.com/contact/staff-bios)). No evidence was found of Tanney or Huston voicing opinions on local development or renewable energy in news or public records, nor do they appear in local planning commission minutes ([Wyandotte County Planning Minutes](https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-may-planning-zoning-full-commission-minutes.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private sector employee; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Jason works in industrial project management/manufacturing; technical competence and professional project planning may appeal to him. Focus on the engineering integrity and low nuisance profile of the project."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Professional household. Jason is a Project Manager in manufacturing/industrial sector. Likely amenable to logical, well-planned engineering discussions. No history of opposition.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jason Huston named Project Manager at Stevenson Company",
+          "url": "https://stevensoncompanyinc.com/news/jason-huston-named-project-manager-for-growing-clientele",
+          "title": "Jason Huston Named Project Manager for Growing Clientele",
+          "date": "2021-01-01",
+          "note": null
+        },
+        {
+          "claim": "Resides in KC with wife Becky",
+          "url": "https://www.stevensoncompanyinc.com/contact/staff-bios",
+          "title": "Stevenson Company Staff Bios",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "No appearance in Planning & Zoning minutes",
+          "url": "https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-may-planning-zoning-full-commission-minutes.pdf",
+          "title": "Unified Government Commission Planning & Zoning Minutes",
+          "date": "2016-05-26",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Lawrence D. Meyer & Mary Y. Meyer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209902"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public property records associate the PIN 209902 with a single-family residential home (built 1978) on approximately 0.37 acres at 9718 Hurrelbrink Rd, rather than a large agricultural holding [Zillow](https://www.zillow.com/homedetails/9718-Hurrelbrink-Rd-Kansas-City-KS-66109/75717299_zpid/). A Lawrence D. Meyer was historically listed as an amateur radio operator in the Kansas City area [Internet Archive](https://archive.org/stream/Winter_1991_Radio_Amateur_Callbook/Winter_1991_Radio_Amateur_Callbook_District_0_djvu.txt).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No significant civic leadership found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach as a residential neighbor rather than a farm operator. Focus on visual screening and property value protection, as the property appears to be a single-family home in a subdivision rather than a large agricultural tract."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "PIN 209902 is a single-family residential home on ~0.37 acres",
+          "url": "https://www.zillow.com/homedetails/9718-Hurrelbrink-Rd-Kansas-City-KS-66109/75717299_zpid/",
+          "title": "9718 Hurrelbrink Rd Property Details",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "Lawrence D. Meyer listed as amateur radio operator",
+          "url": "https://archive.org/stream/Winter_1991_Radio_Amateur_Callbook/Winter_1991_Radio_Amateur_Callbook_District_0_djvu.txt",
+          "title": "Winter 1991 Radio Amateur Callbook",
+          "date": "1991-01-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cory M. Appl & Stefanie L. Appl",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "416600"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cory Appl is the Administrator of Spectrum Home Health, Inc., a healthcare agency based in Independence, MO, which serves the Kansas City area [ProPublica](https://projects.propublica.org/nonprofits/organizations/481160123). In 2015, he ran for a seat on the Piper School Board (USD 203), participating in a field of candidates focused on school facilities and finance [Wyandotte Daily](https://wyandotteonline.com/voters-to-go-to-polls-tuesday/). He has been identified as a resident of the Piper area [Wyandotte Daily](https://wyandotteonline.com/voters-to-go-to-polls-tuesday/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Healthcare administrator; former school board candidate",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Engage through school or community meetings, highlighting how development plans support local services and property values. Connect on shared community goals (e.g., quality schools) to address any concerns within a collaborative, locally-driven dialogue."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Cory Appl is Administrator of Spectrum Home Health, Inc.",
+          "url": "https://projects.propublica.org/nonprofits/organizations/481160123",
+          "title": "Spectrum Health Foundation Inc - Nonprofit Explorer",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Ran for Piper School Board in 2015",
+          "url": "https://wyandotteonline.com/voters-to-go-to-polls-tuesday/",
+          "title": "Voters to go to polls Tuesday - Wyandotte Daily",
+          "date": "2015-04-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jennifer Masters",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209901"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jennifer Masters is listed as a resident of 9724 Hurrelbrink Rd, which corresponds to PIN 209901 [National Public Data](https://nationalpublicdata.com/people/m/jennifer-masters/ks/). Property records describe this parcel as a single-family residential home on approximately 0.37 acres, built in 1978, rather than a large agricultural tract [Zillow](https://www.zillow.com/homedetails/9724-Hurrelbrink-Rd-Kansas-City-KS-66109/75717283_zpid/). She has no documented public stance on development in Wyandotte County records accessible at this time.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Residential homeowner; no public profile found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out personally to understand her perspective. Since the property is residential and not agricultural, focus discussions on visual screening, construction setbacks, and maintaining the quiet character of the subdivision."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jennifer Masters listed as resident at 9724 Hurrelbrink Rd (PIN 209901)",
+          "url": "https://nationalpublicdata.com/people/m/jennifer-masters/ks/",
+          "title": "Jennifer Masters - Kansas Public Records",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "Property is a single-family home on 0.37 acres",
+          "url": "https://www.zillow.com/homedetails/9724-Hurrelbrink-Rd-Kansas-City-KS-66109/75717283_zpid/",
+          "title": "9724 Hurrelbrink Rd Property Details",
+          "date": "2026-02-17",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Bradley Alan Appl, Cory M. Appl, Travis W. Sanders & Tom Crandon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "416601"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006 ([NPPES Registry](https://npiregistry.cms.hhs.gov/provider-view/1770559494)). Cory M. Appl is a recipient of USDA agricultural subsidies in Wyandotte County ([EWG Farm Subsidies](https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1)) and served as a co-executor for the estate of Helen Ann Henderson in 2021 alongside John F. Sanders ([Wyandotte Echo](https://wyandotteecho.com/wp-content/uploads/2021/06/Echo062421A.pdf)). A Tom Crandon appears in public records as a resident of Derby, KS, rather than Wyandotte County ([Downing & Lahey Mortuary](https://downingandlahey.com/obits/susan-kay-crandon/)). No public statements by the group regarding the East Side Energy Storage project or other developments have been identified.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local physician and agricultural connections; no elected roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Reach out through a trusted agricultural community contact to acknowledge the family’s farming legacy. Discuss how the project can accommodate farmland use, emphasizing respect for their land and livelihood given the mixed medical and agricultural background."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006",
+          "url": "https://npiregistry.cms.hhs.gov/provider-view/1770559494",
+          "title": "NPPES NPI Registry - Bradley Alan Appl",
+          "date": "2025-10-02",
+          "note": null
+        },
+        {
+          "claim": "Cory M. Appl is a recipient of USDA agricultural subsidies in Wyandotte County",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1",
+          "title": "EWG Farm Subsidy Database - Wyandotte County",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "served as a co-executor for the estate of Helen Ann Henderson in 2021 alongside John F. Sanders",
+          "url": "https://wyandotteecho.com/wp-content/uploads/2021/06/Echo062421A.pdf",
+          "title": "The Wyandotte Echo Legal Notices",
+          "date": "2021-06-24",
+          "note": null
+        },
+        {
+          "claim": "A Tom Crandon appears in public records as a resident of Derby, KS",
+          "url": "https://downingandlahey.com/obits/susan-kay-crandon/",
+          "title": "Obituary for Susan Kay Crandon",
+          "date": "2013-03-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Danny P. Bruch & Mary P. Bruch",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146828"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Danny P. Bruch is a resident of Kansas City, KS (Wyandotte County) ([Best History Sites](https://besthistorysites.net/name/danny-bruch/ks/kansas-city)). The Bruch family does not appear among the top recipients of USDA farm subsidies in Wyandotte County for recent years ([EWG Farm Subsidies](https://farm.ewg.org/top_recips.php?fips=20209&progcode=total_dis&page=2)). No public records were found indicating the Bruchs have taken a stance on the East Side Energy Storage project or other local development hearings.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public roles or media presence found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Use a personal, respectful approach via an in-person visit by a known local figure to listen to their concerns. Emphasize that the project will respect their property rights, rural peace, and the value of their land."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Danny P. Bruch is a resident of Kansas City, KS",
+          "url": "https://besthistorysites.net/name/danny-bruch/ks/kansas-city",
+          "title": "Danny P Bruch - Kansas City, KS Public Records",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "The Bruch family does not appear among the top recipients of USDA farm subsidies in Wyandotte County",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=total_dis&page=2",
+          "title": "EWG Farm Subsidy Database - Wyandotte County Recipients",
+          "date": "2024-01-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jonathan Allwardt",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146816"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records searches yielded no verifiable information regarding a 'Jonathan Allwardt' in Wyandotte County, KS. No property deeds, voter registrations, or legal notices matching this name and location were found in available databases. Consequently, no stance on development can be verified.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Identity could not be verified in public records",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Attempt to verify property ownership through county tax assessor records before engagement. If confirmed, approach with a general introduction letter to establish contact and gauge interest."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": []
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Jessica and Evan Blomeyer",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259103"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jessica and Evan Blomeyer are residents of Kansas City, KS ([Way-Watson Funeral Home](https://www.waywatson.com/obituaries/helen-blomeyer)). Evan Blomeyer is the step-son of the late Helen Owens Blomeyer, a registered nurse and Army veteran ([Way-Watson Funeral Home](https://www.waywatson.com/obituaries/helen-blomeyer)). The Blomeyer surname appears in historical Kansas business records in connection with Stuart Hunter (Neighbor N-03) through the professional association \"Blomeyer & Hunter, Chartered,\" registered in Kansas City, KS in 1984, suggesting a potential multi-generational or professional link between these neighbors ([Kansas Register](https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf)). No specific public records were found regarding their stance on renewable energy development.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; no current public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out with a neighborly approach, emphasizing that the project will respect their property values and quiet lifestyle. Note potential familial or professional connection to Neighbor N-03 (Stuart Hunter)."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jessica and Evan Blomeyer are residents of Kansas City, KS",
+          "url": "https://www.waywatson.com/obituaries/helen-blomeyer",
+          "title": "Obituary for Helen Owens Blomeyer",
+          "date": "2023-03-30",
+          "note": null
+        },
+        {
+          "claim": "Professional association 'Blomeyer & Hunter, Chartered' registered in Kansas City, KS",
+          "url": "https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf",
+          "title": "Kansas Register Vol 3 No 27",
+          "date": "1984-07-05",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Robert K. and Donna L. Creten",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "209900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Robert and Donna Creten are associated with a long-established farming family in the region; \"Creten Farms\" has been a registered entity in the area since 1966 ([Manta](https://www.manta.com/c/mm7p7vp/creten-farms)). The Creten family has a documented history of challenging county land-use decisions; in the case *Creten v. Board of County Commissioners* (1970), the family litigated a denial of a special use permit for a mobile home park, demonstrating a willingness to engage legally regarding property rights and zoning ([Justia](https://law.justia.com/cases/kansas/supreme-court/1986/57-559-1.html)). No specific record was found of the current owners speaking out on renewable energy issues in recent local news.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime farming family with history of land-use litigation",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy",
+          "local_control"
+        ],
+        "engage": "Engage via a respected agricultural peer. Be aware of the family's history of land-use litigation (*Creten v. Bd. of County Comm'rs*); emphasize fair contracting and respect for property rights."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Creten Farms has been a registered entity in the area since 1966",
+          "url": "https://www.manta.com/c/mm7p7vp/creten-farms",
+          "title": "Creten Farms Business Listing",
+          "date": "2024-02-17",
+          "note": null
+        },
+        {
+          "claim": "Creten family litigated denial of special use permit in Creten v. Board of County Commissioners",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/1986/57-559-1.html",
+          "title": "Creten v. Board of County Commissioners Case Reference",
+          "date": "1970-01-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Stuart Hunter",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146830"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Stuart Hunter is a Wyandotte County landowner who shares a historical professional link with the Blomeyer family (Neighbor N-01). State records from 1984 list a professional association titled \"Blomeyer & Hunter, Chartered\" in Kansas City, KS, indicating a likely background in law or professional services ([Kansas Register](https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf)). Despite this historical professional footprint, he does not appear in recent local media reports or public records regarding community discussions on land use or development.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Historical professional status (Chartered association); linked to N-01",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Approach with professional courtesy suitable for a likely retired professional. Leverage the connection to the Blomeyer family (N-01) if appropriate."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Professional association 'Blomeyer & Hunter, Chartered' registered in Kansas City, KS",
+          "url": "https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf",
+          "title": "Kansas Register Vol 3 No 27",
+          "date": "1984-07-05",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Herbert L. & Joyce K. Dickens",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259101"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Herbert L. and Joyce K. Dickens are listed as residents at 9723 Donahoo Road in Kansas City, KS ([SimpleContacts](https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road)). The property includes a single-family home built in 1979 situated on approximately 1.29 acres ([Redfin](https://www.redfin.com/KS/Kansas-City/9725-Donahoo-Rd-66109/home/83391793)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime residents; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Have a trusted longtime community member reach out personally, emphasizing that the development will not disrupt the quiet rural atmosphere or scenic views they have enjoyed on their property."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Herbert L. and Joyce K. Dickens are listed as residents at 9723 Donahoo Road in Kansas City, KS",
+          "url": "https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road",
+          "title": "Donahoo Road Residents List",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "The property includes a single-family home built in 1979 situated on approximately 1.29 acres",
+          "url": "https://www.redfin.com/KS/Kansas-City/9725-Donahoo-Rd-66109/home/83391793",
+          "title": "9723 Donahoo Rd Property Details",
+          "date": "2026-01-15",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "William L. & Kelli A. Carmack",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146829"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William L. and Kelli A. Carmack reside at 9810 Hurrelbrink Road in the Piper area of Kansas City, KS ([PublicRecords](https://www.menstoppingviolence.org/people/kelli-carmack/)). Records indicate Kelli Carmack previously lived in Clovis, California, before moving to Kansas City ([PublicRecords](https://www.menstoppingviolence.org/people/kelli-carmack/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles; private residents",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Engage the Carmacks with a straightforward, factual discussion addressing how their property values and peace and quiet will be protected. A small neighborhood Q&A session could help answer their questions and build trust."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "William L. and Kelli A. Carmack reside at 9810 Hurrelbrink Road in the Piper area of Kansas City, KS",
+          "url": "https://www.menstoppingviolence.org/people/kelli-carmack/",
+          "title": "Kelli A Carmack Public Record",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "Records indicate Kelli Carmack previously lived in Clovis, California, before moving to Kansas City",
+          "url": "https://www.menstoppingviolence.org/people/kelli-carmack/",
+          "title": "Kelli A Carmack Public Record",
+          "date": "2026-02-17",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Neal P. & Nicole M. Edwards",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146815"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Neal P. and Nicole M. Edwards are the owners of a residence at 9805 McGurk Road in Kansas City, KS ([Redfin](https://www.redfin.com/KS/Kansas-City/9804-McGurk-Rd-66109/home/97210679)). Public records list Nicole M. Edwards as a resident at this address ([FreeBackgroundChecks](https://freebackgroundchecks.com/people-search/nicole-edwards/)). Family obituaries link Neal and his wife Nicki (Nicole) to the Kansas City area ([Obituary](https://www.alleeholmanhowe.com/obituaries/carol-ruth-elena-beaman)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizens; no public roles confirmed for this specific individual",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "traffic_safety"
+        ],
+        "engage": "Highlight any community benefits from the project (like improved roads or tax revenue for local services) and proactively address potential traffic or safety concerns in person, perhaps with a local official available to answer their questions."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Neal P. and Nicole M. Edwards are the owners of a residence at 9805 McGurk Road in Kansas City, KS",
+          "url": "https://www.redfin.com/KS/Kansas-City/9804-McGurk-Rd-66109/home/97210679",
+          "title": "9805 McGurk Road Property Overview",
+          "date": "2025-11-15",
+          "note": null
+        },
+        {
+          "claim": "Public records list Nicole M. Edwards as a resident at this address",
+          "url": "https://freebackgroundchecks.com/people-search/nicole-edwards/",
+          "title": "Nicole Edwards Public Record",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "Family obituaries link Neal and his wife Nicki (Nicole) to the Kansas City area",
+          "url": "https://www.alleeholmanhowe.com/obituaries/carol-ruth-elena-beaman",
+          "title": "Obituary for Carol Ruth Elena Beaman",
+          "date": "2016-04-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Guy B. Tiner",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "937902"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Guy B. Tiner is a longtime resident of Bonner Springs and a veteran local developer [Bonner Springs City Council](https://www.bonnersprings.org/Archive.aspx?ADID=230). He operates **Tiner Construction** and has been involved in residential developments such as \"The Villages at Deerfield\" and \"Lei Valley\" [Bonner Springs Planning Commission](https://www.bonnersprings.org/Archive.aspx?ADID=414). He is the registered agent for **LER Properties II LLC**, which holds land interests in the county [Wyandotte Echo](https://wyandotteecho.com/wp-content/uploads/2021/10/Echo100721A.pdf). In public hearings, he has self-identified as a \"baby boomer\" and noted his service on a regional committee guiding Kansas City's World Cup hosting activities [Wyandotte County UGTV](https://www.youtube.com/watch?v=Uq185bchZSs).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Active developer; served on regional World Cup committee",
+      "approach_recommendations": {
+        "motivations": [
+          "fair_contracting",
+          "local_control"
+        ],
+        "engage": "Engage regarding his development experience and regional committee work. Acknowledge his role in local housing projects like Lei Valley to build professional rapport."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified as resident and developer of \"The Villages at Deerfield\"",
+          "url": "https://www.bonnersprings.org/Archive.aspx?ADID=230",
+          "title": "Bonner Springs Planning Commission Minutes Jan 2012",
+          "date": "2012-01-24",
+          "note": null
+        },
+        {
+          "claim": "Operates Tiner Construction and developed Lei Valley",
+          "url": "https://www.bonnersprings.org/Archive.aspx?ADID=414",
+          "title": "Bonner Springs Planning Commission Minutes Dec 2013",
+          "date": "2013-12-17",
+          "note": null
+        },
+        {
+          "claim": "Registered agent for LER Properties II LLC",
+          "url": "https://wyandotteecho.com/wp-content/uploads/2021/10/Echo100721A.pdf",
+          "title": "The Wyandotte Echo Legal Notices",
+          "date": "2021-10-07",
+          "note": null
+        },
+        {
+          "claim": "Serves on regional World Cup committee and identifies as baby boomer",
+          "url": "https://www.youtube.com/watch?v=Uq185bchZSs",
+          "title": "Unified Government Commission Meeting",
+          "date": "2025-06-27",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Martha E. Gonzalez",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "941219"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "In January 2021, Martha E. Gonzalez (residing at 1032 S. 25th St) applied to acquire a Unified Government Land Bank lot to construct a building for storing and maintaining trucks [Wyandotte Daily](https://wyandotteonline.com/tag/unified-government-commission/page/5/). This application suggests involvement in a logistics or vehicle maintenance enterprise [Wyandotte Daily](https://wyandotteonline.com/tag/unified-government-commission/page/5/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local small business applicant; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "groundwater_runoff"
+        ],
+        "engage": "Focus on site utility and drainage, as her interest in vehicle maintenance facilities suggests a practical concern for site accessibility and stormwater management."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Applied for Land Bank lot to store and maintain trucks",
+          "url": "https://wyandotteonline.com/tag/unified-government-commission/page/5/",
+          "title": "Wyandotte Daily News - UG Commission Agenda",
+          "date": "2021-01-07",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Daniel J. Poolman & Karen A. Poolman (Deceased)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146827"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Daniel J. Poolman and Karen A. Poolman were married in 1966 and raised three children in the community [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736). Karen Ann Poolman passed away in May 2020 at the age of 72, leaving Daniel as the surviving spouse [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime residents; no public leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Use a neighborly, respectful approach honoring their decades of residence. Be mindful of the household's status as a widower's residence."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Married 1966, Karen passed 2020, Daniel surviving spouse",
+          "url": "https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736",
+          "title": "Obituary for Karen Ann Poolman",
+          "date": "2020-05-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Brenda Sue Kendrick",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "146817"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "County assessment records for the parcel linked in the draft (R59670) list the owner as Matthew Michael Mussatti, not Brenda Sue Kendrick ([appr.wycokck.org](https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670/utils/trees)). Extensive searches of Wyandotte County property and public records did not verify a resident or landowner by this name; the draft PIN likely refers to a financial figure found in unrelated county documents rather than a valid parcel ID ([budget.kansas.gov](https://budget.kansas.gov/wp-content/uploads/fy2006-gov-bdg-rpt-vol-1.pdf)). Consequently, no stance or community influence could be verified for this profile.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Residency and property ownership could not be verified",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Verify identity and property ownership before attempting engagement, as public records do not link this individual to the cited location."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "County assessment records for the parcel linked in the draft (R59670) list the owner as Matthew Michael Mussatti, not Brenda Sue Kendrick",
+          "url": "https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670/utils/trees",
+          "title": "Wyandotte County Property Detail: R59670",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "the draft PIN likely refers to a financial figure found in unrelated county documents rather than a valid parcel ID",
+          "url": "https://budget.kansas.gov/wp-content/uploads/fy2006-gov-bdg-rpt-vol-1.pdf",
+          "title": "Kansas Governor's Budget Report Vol 1 (Reference to 146,817)",
+          "date": "2005-01-10",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jessica L. Mazur & Austin Mazur",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "259100"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jessica and Austin Mazur reside at a property on Donahoo Road in Kansas City, Kansas ([simplecontacts.com](https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road)). Austin Mazur operates a local business, Mazur Renovation, which provides residential remodeling services in the Kansas City metropolitan area ([mazurrenovationjoc.wixsite.com](https://mazurrenovationjoc.wixsite.com/home)). There are no available public records indicating their stance on renewable energy or development projects in Wyandotte County.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Small business owner; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Connect through community pride and home value interests. A fellow community member or local business peer could discuss how the project might enhance the neighborhood and address any quality-of-life questions."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Jessica and Austin Mazur reside at a property on Donahoo Road in Kansas City, Kansas",
+          "url": "https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road",
+          "title": "Residents of Donahoo Road, Kansas City KS",
+          "date": "2026-02-17",
+          "note": null
+        },
+        {
+          "claim": "Austin Mazur operates a local business, Mazur Renovation, which provides residential remodeling services in the Kansas City metropolitan area",
+          "url": "https://mazurrenovationjoc.wixsite.com/home",
+          "title": "Mazur Renovation Home Page",
+          "date": "2026-02-17",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "SP Bennet Lake Development, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "423100"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "SP Bennet Lake Development, LLC is a special-purpose entity associated with Scannell Properties, a national real estate development firm based in Indianapolis ([leinumber.com](https://www.leinumber.com/leicert/2549006A3TMOUDEKUK90/)). The entity is developing the Scannell 435 Logistics Center, a 400-acre master-planned logistics park at 9822 Leavenworth Road in Wyandotte County, Kansas City, KS ([loopnet.com](https://www.loopnet.com/Listing/9700-Leavenworth-Rd-Kansas-City-KS/30042694/)) ([ttnews.com](https://www.ttnews.com/articles/kansas-marvin-logistics-hub)). Earthwork for the project began circa late 2023 to early 2024, securing Marvin Lumber and Cedar Company as an anchor tenant for a 400,000 sq. ft. manufacturing facility ([windowanddoor.com](https://www.windowanddoor.com/news/marvin-selects-kansas-city-new-manufacturing-facility)). Scannell Properties has a documented history of integrating renewable energy into its industrial developments, including installing extensive solar arrays and battery energy storage systems at other logistics facilities ([arconational.com](https://www.arconational.com/arco-partners-with-scannell-properties-on-manufacturing-facility-for-plant-prefab/)) ([energy.gov](https://www.energy.gov/sites/prod/files/2019/06/f63/101482.pdf)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Controls a major 400-acre industrial development (Scannell 435 Logistics Center); backed by national developer Scannell Properties; secured high-profile tenant (Marvin) with state government backing.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure alignment",
+          "Tenant stability",
+          "Renewable energy integration"
+        ],
+        "engage": "Coordinate with Scannell Properties’ project leads regarding the 435 Logistics Center timeline. Highlight Helpen’s ability to provide complementary renewable energy infrastructure, referencing Scannell's past inclusion of solar arrays and battery storage in their industrial projects."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "SP Bennet Lake Development, LLC is the local holding entity for Scannell Properties' major industrial project, the Scannell 435 Logistics Center. They are actively developing the site for high-value tenants like Marvin Windows. The parent company, Scannell Properties, has a demonstrated track record of supporting and integrating solar and battery storage into their logistics parks.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "SP Bennet Lake Development, LLC is associated with Scannell Properties and registered in Indianapolis",
+          "url": "https://www.leinumber.com/leicert/2549006A3TMOUDEKUK90/",
+          "title": "SP Bennet Lake Development, LLC LEI Registration",
+          "date": "2024-02-17",
+          "note": null
+        },
+        {
+          "claim": "Developing the Scannell 435 Logistics Center at 9822 Leavenworth Road",
+          "url": "https://www.loopnet.com/Listing/9700-Leavenworth-Rd-Kansas-City-KS/30042694/",
+          "title": "Scannell 435 Logistics Center Listing",
+          "date": "2026-02-10",
+          "note": null
+        },
+        {
+          "claim": "Project includes a 400-acre master planned logistics park",
+          "url": "https://www.ttnews.com/articles/kansas-marvin-logistics-hub",
+          "title": "Kansas Logistics Hub to Host Marvin Manufacturing",
+          "date": "2024-04-29",
+          "note": null
+        },
+        {
+          "claim": "Marvin has begun earthwork for the 400,000-square-foot facility",
+          "url": "https://www.windowanddoor.com/news/marvin-selects-kansas-city-new-manufacturing-facility",
+          "title": "Marvin Selects Kansas City for New Manufacturing Facility",
+          "date": "2024-03-22",
+          "note": null
+        },
+        {
+          "claim": "Scannell Properties integrates solar arrays and battery storage in projects",
+          "url": "https://www.arconational.com/arco-partners-with-scannell-properties-on-manufacturing-facility-for-plant-prefab/",
+          "title": "ARCO Partners with Scannell Properties on Plant Prefab Facility",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Scannell Properties installed solar PV and battery systems in DOE project",
+          "url": "https://www.energy.gov/sites/prod/files/2019/06/f63/101482.pdf",
+          "title": "DOE Categorical Exclusion Determination: Scannell Properties",
+          "date": "2019-06-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Marvin Lumber and Cedar Company, LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "428700"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Marvin Lumber and Cedar Company, LLC (Marvin) is a family-owned window and door manufacturing firm founded in 1912 and based in Warroad, Minnesota ([pestel-analysis.com](https://pestel-analysis.com/blogs/brief-history/marvin)). In 2024, Marvin began earthwork on a 400,000 sq. ft. production facility in the Scannell 435 Logistics Center in Kansas City, KS, representing a capital investment of approximately $76.5 million ([kansascommerce.gov](https://www.kansascommerce.gov/2024/03/marvin-investing-76-5m-creating-600-jobs-in-kansas-city-kansas/)). The project is actively supported by Governor Laura Kelly and local officials, who cited the creation of 100 initial jobs and up to 600 jobs by 2028 ([ingrams.com](https://ingrams.com/article/window-door-manufacturer-selects-kck-for-76m-facility-600-new-jobs/)). Marvin has a corporate commitment to sustainability, with manufacturing operations that incorporate renewable energy sources and environmental standards ([mags.constructioninfocus.com](https://mags.constructioninfocus.com/mag/_Backups/CIFDec2024-old11/flipbook.pdf)). The company chose Wyandotte County after a multi-state search due to the region's workforce and collaborative economic development approach ([woodworkingnetwork.com](https://www.woodworkingnetwork.com/management/fdmc-300/marvin-selects-site-new-76-million-manufacturing-facility)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major new regional employer (600 planned jobs); secured $76.5M+ investment; heavily backed by Governor Kelly and Wyandotte County Economic Development Council.",
+      "approach_recommendations": {
+        "motivations": [
+          "Workforce development",
+          "Corporate sustainability goals",
+          "Operational stability"
+        ],
+        "engage": "Engage Marvin's Kansas City operations director regarding shared sustainability goals. Highlight how Helpen's development aligns with Marvin's corporate commitment to renewable energy sources and environmental manufacturing standards."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Marvin is a significant new industrial stakeholder in Wyandotte County, currently constructing a major manufacturing hub. They have strong political capital via state incentives and job creation promises. Their corporate stance actively supports sustainable operations and renewable energy integration, making them a likely ally for responsible development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Founded in 1912 and based in Warroad, Minnesota",
+          "url": "https://pestel-analysis.com/blogs/brief-history/marvin",
+          "title": "Brief History of Marvin",
+          "date": "2025-11-06",
+          "note": null
+        },
+        {
+          "claim": "Investing $76.5 million in 400,000 sq ft Kansas City facility",
+          "url": "https://www.kansascommerce.gov/2024/03/marvin-investing-76-5m-creating-600-jobs-in-kansas-city-kansas/",
+          "title": "Marvin Investing $76.5M in Kansas City",
+          "date": "2024-03-21",
+          "note": null
+        },
+        {
+          "claim": "Project supported by Governor Kelly with 600 jobs planned by 2028",
+          "url": "https://ingrams.com/article/window-door-manufacturer-selects-kck-for-76m-facility-600-new-jobs/",
+          "title": "Window & Door Manufacturer Selects KCK for $76M Facility",
+          "date": "2024-03-21",
+          "note": null
+        },
+        {
+          "claim": "Corporate commitment to renewable energy sources in manufacturing",
+          "url": "https://mags.constructioninfocus.com/mag/_Backups/CIFDec2024-old11/flipbook.pdf",
+          "title": "Construction in Focus: Marvin Lumber",
+          "date": "2024-12-01",
+          "note": null
+        },
+        {
+          "claim": "Selected site after multi-state search due to workforce and economic development collaboration",
+          "url": "https://www.woodworkingnetwork.com/management/fdmc-300/marvin-selects-site-new-76-million-manufacturing-facility",
+          "title": "Marvin Selects Site for New Facility",
           "date": "2024-04-05",
           "note": null
         }
       ]
     },
     {
-      "neighbor_id": "N-03",
-      "name": "Peterson Richard M 2016 Family Trust",
+      "neighbor_id": "N-01",
+      "name": "Scannell Properties #459, LLC",
       "entity_category": "Organization",
-      "entity_type": "trust",
+      "entity_type": "llc",
       "pins": [
-        "08N04W100000"
+        "941107"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "This parcel is held by the Richard M. Peterson 2016 Family Trust. Richard M. Peterson, a long-time resident of Payette, passed away in March 2025 at the age of 93 [Legacy.com](https://www.legacy.com/us/obituaries/name/richard-peterson-obituary?id=57999117). Control of the trust assets, including this property, has likely passed to successor trustees or heirs. No specific stance on renewable development is recorded for the trust or the late Mr. Peterson.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Original landowner is deceased (2025); current decision-making authority is in transition or held by successor trustees whose influence is currently unknown.",
-      "approach_recommendations": {
-        "motivations": [
-          "Estate settlement",
-          "Asset liquidity"
-        ],
-        "engage": "Identify the successor trustee or executor of the Richard M. Peterson estate. The property may be in a period of transition following the owner's 2025 passing, which could present opportunities for lease or purchase if the heirs are looking to liquidate or monetize assets."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "The property is held by a family trust associated with Richard M. Peterson, who died in 2025. The land is likely in a probate or transitional management phase.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Richard M. Peterson, a long-time resident of Payette, passed away in March 2025 at the age of 93",
-          "url": "https://www.legacy.com/us/obituaries/name/richard-peterson-obituary?id=57999117",
-          "title": "Obituary for Richard Peterson",
-          "date": "2025-03-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "DJS Properties L.P.",
-      "entity_category": "Organization",
-      "entity_type": "lp",
-      "pins": [
-        "08N04W120000",
-        "08N04W130000",
-        "08N04W110000",
-        "08N04W140000",
-        "08N03W072400",
-        "08N03W182400",
-        "08N04W014800",
-        "08N04W024801",
-        "08N04W243000",
-        "08N03W066000",
-        "08N04W230000",
-        "08N04W100600",
-        "08N04W150000"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "DJS Properties, L.P. is a Simplot family limited partnership formed in 1997 by Don J. Simplot, initially holding significant family assets including stock and real estate([Justia](https://law.justia.com/cases/federal/district-courts/idaho/iddce/1:2007cv00484/21493/14/)). The partnership holds title to agricultural properties in Payette County, as confirmed by Idaho Department of Water Resources service lists and oil/gas permitting records from the Idaho Oil and Gas Conservation Commission([IDWR](https://idwr.idaho.gov/wp-content/uploads/sites/2/districts/Declaration-of-Proof-of-Service.pdf)). Historically, the entity was central to litigation during Don Simplot's 2007 bankruptcy, where family members successfully opposed the liquidation of DJS assets, arguing it would violate the partnership agreement([US Courts](https://www.id.uscourts.gov/content_fetcher/decision.cfml/In_re_Simplot_1786.pdf?Decision_ID=1786)). The entity has also engaged in land use applications in other Idaho counties, such as a record of survey application in Valley County to adjust lot lines for family trust properties([Valley County](https://evogov.s3.amazonaws.com/media/141/media/147325.pdf)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
+      "claims": "Scannell Properties #459, LLC is a special-purpose entity of Indianapolis-based Scannell Properties, a private real estate developer with over 300 projects across 44 U.S. states [Mid-America Contractors](https://midamericacontractors.com/planning-has-started-for-the-woodlands-racetrack-property/). In 2020, this LLC acquired the former Woodlands racetrack site in Kansas City, KS and constructed an Amazon distribution facility as the first phase of redevelopment [MetroWire Media](https://www.metrowiremedia.com/news/scannell-properties-targets-kc-as-prime-industrial-market). The property, now called I-435 Logistics Park, encompasses roughly 381 acres on which Scannell plans to build six industrial warehouse buildings totaling about 3.55 million square feet [MetroWire Media](https://www.metrowiremedia.com/news/scannell-properties-targets-kc-as-prime-industrial-market).",
+      "confidence": "medium",
+      "noted_stance": null,
       "community_influence": "High",
-      "influence_justification": "Entity is a primary land-holding vehicle for the prominent Simplot agribusiness family, which holds immense economic and political sway in Idaho.",
+      "influence_justification": "National development firm with major local landholding and capital (381-acre project; Amazon as tenant)",
       "approach_recommendations": {
-        "motivations": [
-          "Asset preservation",
-          "Family legacy"
-        ],
-        "engage": "Engage via Simplot family representatives or legal counsel; acknowledge the entity's history of protecting family assets and structure proposals to align with long-term holding strategies."
+        "motivations": [],
+        "engage": "Engage the company’s local development director (e.g. Cameron Duff) to explore coordination; emphasize how the new project can complement their logistics park and address any operational concerns (traffic, infrastructure) to prevent opposition"
       },
-      "entity_classification": "agriculture",
-      "profile_summary": "Simplot family limited partnership with verified agricultural holdings in Payette County. History of aggressive legal defense to protect partnership assets from liquidation.",
+      "entity_classification": "land_investment",
+      "profile_summary": null,
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -340,65 +1382,30 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Formed in 1997 by Don J. Simplot",
-          "url": "https://law.justia.com/cases/federal/district-courts/idaho/iddce/1:2007cv00484/21493/14/",
-          "title": "In Re Don J. Simplot - Memorandum Decision",
-          "date": "2007-03-12",
-          "note": null
-        },
-        {
-          "claim": "Owner of Payette County agricultural parcels",
-          "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/districts/Declaration-of-Proof-of-Service.pdf",
-          "title": "IDWR Declaration of Proof of Service",
-          "date": "2024-05-10",
-          "note": null
-        },
-        {
-          "claim": "Bankruptcy litigation regarding asset liquidation",
-          "url": "https://www.id.uscourts.gov/content_fetcher/decision.cfml/In_re_Simplot_1786.pdf?Decision_ID=1786",
-          "title": "US Bankruptcy Court Decision - Don J. Simplot",
-          "date": "2007-03-12",
-          "note": null
-        },
-        {
-          "claim": "Land use applications in Valley County",
-          "url": "https://evogov.s3.amazonaws.com/media/141/media/147325.pdf",
-          "title": "McCall Area Planning and Zoning Commission Minutes",
-          "date": "2015-03-03",
-          "note": null
-        }
-      ]
+      "citations": null
     },
     {
       "neighbor_id": "N-02",
-      "name": "B Humble Farms LLC",
+      "name": "Unified Government Wy Co/KCK",
       "entity_category": "Organization",
-      "entity_type": "llc",
+      "entity_type": "municipal",
       "pins": [
-        "08N04W137200",
-        "08N04W139000",
-        "08N03W186450",
-        "08N04W240600",
-        "08N04W240011",
-        "08N03W193020"
+        "892382",
+        "892293",
+        "892389"
       ],
-      "owns_adjacent_parcel": "No",
-      "claims": "B Humble Farms LLC is an Idaho limited liability company associated with the Boschma family and Lone Pine Dairy operations([Canyon County](https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf)). Public records indicate recent financial litigation; the entity was named as a co-defendant alongside Lone Pine Dairy in a 2025 foreclosure action and Sheriff's Sale notice involving agricultural real property in neighboring Canyon County([Canyon County](https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf)). This legal activity suggests the entity functions as part of a broader family agricultural enterprise rather than a standalone small holding. No specific public stance on renewable energy development has been documented for this entity.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Entity is involved in active foreclosure litigation, potentially limiting community leverage; influence is tied to the Boschma family dairy operations which are facing financial challenges.",
+      "owns_adjacent_parcel": "Yes",
+      "claims": "The Unified Government of Wyandotte County/Kansas City, KS (UG) is the consolidated city-county government, which often holds title to land via its land bank or public projects and oversees all zoning and development approvals [RealtyHop](https://www.realtyhop.com/property-records/search/unified-government-of-wyandotte-county-k). UG officials supported Scannell Properties’ plan to redevelop the long-vacant Woodlands racetrack site, citing the creation of 1,000 new jobs and dedicating 70 acres of the area for public green space and trails as part of the project [Mid-America Contractors](https://midamericacontractors.com/planning-has-started-for-the-woodlands-racetrack-property/). In 2020, the UG Commission approved an industrial park proposal of over 3 million square feet of warehouse space on that site as a key economic development initiative for the county [Mid-America Contractors](https://midamericacontractors.com/planning-has-started-for-the-woodlands-racetrack-property/).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local government authority; controls zoning, incentives, and holds adjacent land; central to approval process",
       "approach_recommendations": {
-        "motivations": [
-          "Financial solvency",
-          "Operational continuity"
-        ],
-        "engage": "Approach with extreme sensitivity regarding current legal challenges; any lease offers may be viewed as a welcome financial opportunity, but title/ownership stability must be verified immediately."
+        "motivations": [],
+        "engage": "Coordinate early with UG’s economic development officials and county commissioners; frame the project as aligned with community benefits (employment, tax base) and ensure compliance with local plans to secure their support"
       },
-      "entity_classification": "agriculture",
-      "profile_summary": "Boschma family agricultural entity currently navigating foreclosure litigation as of early 2025. Closely tied to Lone Pine Dairy operations.",
+      "entity_classification": "municipal",
+      "profile_summary": null,
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -410,48 +1417,25 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Named co-defendant in foreclosure/Sheriff's sale 2025",
-          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/03/25-000794-NOSS-LONE-PINE-DAIRY-002.pdf",
-          "title": "Amended Notice of Sheriff's Sale - Rooster Capital IV LLC vs Lone Pine Dairy et al",
-          "date": "2025-02-28",
-          "note": null
-        },
-        {
-          "claim": "Association with Boschma family",
-          "url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/02/25-000795-NOSS-LONE-PINE-DAIRY.pdf",
-          "title": "Notice of Sheriff's Sale Case No. CV14-24-08163",
-          "date": "2025-02-25",
-          "note": null
-        }
-      ]
+      "citations": null
     },
     {
       "neighbor_id": "N-03",
-      "name": "Horst Land LLC",
+      "name": "Anita Andrews Revocable Trust",
       "entity_category": "Organization",
-      "entity_type": "llc",
+      "entity_type": "trust",
       "pins": [
-        "08N04W010000",
-        "08N03W066600",
-        "08N03W060000"
+        "941101"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Horst Land LLC is an Idaho agricultural entity managed by Bruce Horst, with a registered mailing address in Payette([Elementix](https://elementix.ai/investors/id/bruce-horst)). The entity actively manages crop production, evidenced by multiple crop residue burning permits issued by the Idaho Department of Environmental Quality for corn and bean fields in Payette County between 2020 and 2025([Idaho DEQ](https://www2.deq.idaho.gov/air/CRB/BurnApprovals/FinalBurnApprovalPdf/8568)). Bruce Horst is also listed in state financial records as a vendor or recipient of state funds([Idaho SCO](https://www.sco.idaho.gov/SiteAssets/Pages/Luma-Projects-&-Grants/AR%20Customer%20List%20-%2010.21.2021.xlsx)). There is no record of the entity taking a public position on zoning or development matters in county hearing minutes.",
-      "confidence": "high",
-      "noted_stance": "unknown",
+      "claims": "See RESIDENT table.",
+      "confidence": "medium",
+      "noted_stance": null,
       "community_influence": "Low",
-      "influence_justification": "Active local agricultural operator focused on crop production (corn/beans); no evidence of broader political leadership or board roles.",
-      "approach_recommendations": {
-        "motivations": [
-          "Operational efficiency",
-          "Crop yield"
-        ],
-        "engage": "Engage Bruce Horst directly as an active operator; discussions should focus on minimizing impact to active planting/harvesting schedules and residue management practices."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": "Active agricultural operation managed by Bruce Horst. Verified production of corn and beans with recent state permits.",
+      "influence_justification": "Private individual landowner with no known public or economic influence",
+      "approach_recommendations": null,
+      "entity_classification": "unknown",
+      "profile_summary": null,
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -463,421 +1447,395 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Managed by Bruce Horst",
-          "url": "https://elementix.ai/investors/id/bruce-horst",
-          "title": "Horst Land LLC Entity Details",
-          "date": "2026-02-12",
-          "note": null
-        },
-        {
-          "claim": "DEQ Crop Residue Burning Permits (Corn/Beans)",
-          "url": "https://www2.deq.idaho.gov/air/CRB/BurnApprovals/FinalBurnApprovalPdf/8568",
-          "title": "Idaho DEQ Burn Permit 2025-59-1",
-          "date": "2025-04-22",
-          "note": null
-        },
-        {
-          "claim": "State financial records listing",
-          "url": "https://www.sco.idaho.gov/SiteAssets/Pages/Luma-Projects-&-Grants/AR%20Customer%20List%20-%2010.21.2021.xlsx",
-          "title": "Idaho State Controller AR Customer List",
-          "date": "2021-10-21",
-          "note": null
-        }
-      ]
+      "citations": null
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 44.040807,-116.766404",
-  "overview_summary": "Screening identified eight organizational entities and zero individual residents, including three high-influence and one medium-influence neighbor. These stakeholders are primarily large-scale agricultural and ranching operations, such as a federal agency and major landholders like Big Willow Ranch LLC and DJS Properties LP, which is tied to the prominent Simplot family. While one entity is neutral and seven remain unknown, their interests center on land preservation and water resources, with no current recorded opposition to development.",
+  "location_context": "Neighbors within 0.5 mi of 39.152855,-94.801836",
+  "overview_summary": "Of the 28 neighbors profiled, 23 are private residents and five are organizations, with two entities currently expressing support and 26 remaining unknown. The four high-influence and six medium-influence stakeholders include the Unified Government of Wyandotte County/KCK and industrial entities like Scannell Properties and Marvin, whose existing large-scale manufacturing and logistics projects align with regional growth. While no opposition has been documented, the high number of low-influence residents and long-time farming families suggests a need for personalized engagement to address localized concerns.",
   "success": true,
-  "runtime_minutes": 26.04,
-  "citations_flat": [],
+  "runtime_minutes": 115.38,
+  "citations_flat": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260212_162128_1091.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_162414_3548.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_162443_8114.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260212_164133_3789.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_100922_8941.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101348_9936.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101013_8492.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_110717_1446.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101954_9820.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101033_5515.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101827_0988.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_110410_9028.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260217_100905_7305.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260217_102052_8327.json"
   ],
   "city": null,
-  "county": "Payette County",
-  "state": "ID",
-  "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
-  "target_pin": "08N04W120000",
+  "county": "Wyandotte County",
+  "state": "KS",
+  "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
+  "target_pin": "941107",
   "target_parcel_info": {
-    "pin": "08N04W120000",
+    "pin": "941107",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -116.757325,
-            44.0534115
+            -94.800292,
+            39.150068
           ],
           [
-            -116.762289,
-            44.053423
+            -94.8001175,
+            39.150032
           ],
           [
-            -116.7672525,
-            44.0534345
+            -94.7988235,
+            39.153853
           ],
           [
-            -116.7722165,
-            44.053446
+            -94.798824,
+            39.154744
           ],
           [
-            -116.772203,
-            44.049864
+            -94.8079695,
+            39.1547395
           ],
           [
-            -116.77219,
-            44.046282
+            -94.8080225,
+            39.1514925
           ],
           [
-            -116.772177,
-            44.0426995
+            -94.8079875,
+            39.151492
           ],
           [
-            -116.772164,
-            44.0391175
+            -94.801496,
+            39.150163
           ],
           [
-            -116.767208,
-            44.039084
+            -94.8013935,
+            39.1501445
           ],
           [
-            -116.762252,
-            44.0390505
+            -94.8012895,
+            39.150131
           ],
           [
-            -116.7572965,
-            44.039017
+            -94.801185,
+            39.150122
           ],
           [
-            -116.7523405,
-            44.0389835
+            -94.80108,
+            39.1501185
           ],
           [
-            -116.7523405,
-            44.0393675
+            -94.800709,
+            39.150113
           ],
           [
-            -116.7523455,
-            44.0425875
+            -94.8006035,
+            39.150109
           ],
           [
-            -116.752346,
-            44.0429735
+            -94.800499,
+            39.1501
           ],
           [
-            -116.752351,
-            44.0461915
+            -94.800395,
+            39.1500865
           ],
           [
-            -116.752351,
-            44.0465795
-          ],
-          [
-            -116.752356,
-            44.049796
-          ],
-          [
-            -116.752356,
-            44.050186
-          ],
-          [
-            -116.7523615,
-            44.0534
-          ],
-          [
-            -116.757325,
-            44.0534115
+            -94.800292,
+            39.150068
           ]
         ]
       ]
     },
-    "lat": "44.046239",
-    "lon": "-116.762260",
-    "county_path": "/us/id/payette/payette"
+    "lat": "39.152740",
+    "lon": "-94.803379",
+    "county_path": "/us/ks/wyandotte/kansas-city"
   },
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fa97bbb2-6215-46d8-8046-79689eeebacd_map_full.png",
-  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fa97bbb2-6215-46d8-8046-79689eeebacd_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Bureau Of Land Management</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Big Willow Ranch LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">DJS Properties L.P.</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Lone Pine Farms Canyon County LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3be1cb19-9ff8-4f9c-a9de-c448d7f47bed_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3be1cb19-9ff8-4f9c-a9de-c448d7f47bed_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">SP Bennet Lake Development, LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Marvin Lumber and Cedar Company, LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">Unified Government Wy Co/KCK</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Dylan M. Alexander & Cali D. Alexander</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Cory M. Appl & Stefanie L. Appl</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Robert K. and Donna L. Creten</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">8</td>\n                <td class=\"name\">Stuart Hunter</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">9</td>\n                <td class=\"name\">Guy B. Tiner</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
   "map_labels": [
     {
-      "text": "LONE",
-      "full_name": "Lone Pine Farms Canyon County LLC",
-      "lon": -116.75395239787372,
-      "lat": 44.02146309284723,
+      "text": "APPL",
+      "full_name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
+      "lon": -94.80441024534831,
+      "lat": 39.15519051054117,
       "marker_char": "4",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "08N04W240201"
+      "pin": "209903"
     },
     {
-      "text": "LONE",
-      "full_name": "Lone Pine Farms Canyon County LLC",
-      "lon": -116.75690536340277,
-      "lat": 44.01517293200712,
-      "marker_char": "4",
+      "text": "ALEXANDE",
+      "full_name": "Dylan M. Alexander & Cali D. Alexander",
+      "lon": -94.8019694246962,
+      "lat": 39.15656342840533,
+      "marker_char": "5",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "08N04W241800"
+      "pin": "941106"
     },
     {
-      "text": "LONE",
-      "full_name": "Lone Pine Farms Canyon County LLC",
-      "lon": -116.74503965662022,
-      "lat": 44.01825854828562,
-      "marker_char": "4",
+      "text": "APPL",
+      "full_name": "Cory M. Appl & Stefanie L. Appl",
+      "lon": -94.79788813400992,
+      "lat": 39.15612702345765,
+      "marker_char": "6",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "08N03W190001"
+      "pin": "416600"
     },
     {
-      "text": "BUREAU",
-      "full_name": "Bureau Of Land Management",
-      "lon": -116.76723308073902,
-      "lat": 44.06390171801602,
+      "text": "CRETEN",
+      "full_name": "Robert K. and Donna L. Creten",
+      "lon": -94.80554130400382,
+      "lat": 39.155254581164485,
+      "marker_char": "7",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "209900"
+    },
+    {
+      "text": "HUNTER",
+      "full_name": "Stuart Hunter",
+      "lon": -94.80584537356789,
+      "lat": 39.155255092259466,
+      "marker_char": "8",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "146830"
+    },
+    {
+      "text": "TINER",
+      "full_name": "Guy B. Tiner",
+      "lon": -94.79901125165075,
+      "lat": 39.158953191756204,
+      "marker_char": "9",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "937902"
+    },
+    {
+      "text": "SP",
+      "full_name": "SP Bennet Lake Development, LLC",
+      "lon": -94.79788530297355,
+      "lat": 39.14899985329186,
       "marker_char": "1",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
-      "stance": "neutral",
-      "pin": "08N04W012400"
+      "stance": "support",
+      "pin": "423100"
     },
     {
-      "text": "BIG",
-      "full_name": "Big Willow Ranch LLC",
-      "lon": -116.73755629369634,
-      "lat": 44.04655262313688,
+      "text": "MARVIN",
+      "full_name": "Marvin Lumber and Cedar Company, LLC",
+      "lon": -94.80429098134549,
+      "lat": 39.14933337504587,
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W070000"
+      "stance": "support",
+      "pin": "428700"
     },
     {
-      "text": "BIG",
-      "full_name": "Big Willow Ranch LLC",
-      "lon": -116.7373676382059,
-      "lat": 44.032304945305185,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W180001"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.76377794755342,
-      "lat": 44.033652682232244,
+      "text": "UNIFIED",
+      "full_name": "Unified Government Wy Co/KCK",
+      "lon": -94.8000136840012,
+      "lat": 39.15414713354217,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W130000"
+      "stance": null,
+      "pin": "892382"
     },
     {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.78215910820985,
-      "lat": 44.046296442045445,
+      "text": "UNIFIED",
+      "full_name": "Unified Government Wy Co/KCK",
+      "lon": -94.7973356962669,
+      "lat": 39.154161593169775,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W110000"
+      "stance": null,
+      "pin": "892293"
     },
     {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.78212905299233,
-      "lat": 44.03200202939833,
+      "text": "UNIFIED",
+      "full_name": "Unified Government Wy Co/KCK",
+      "lon": -94.80560127182672,
+      "lat": 39.15626025221569,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W140000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.74745920162967,
-      "lat": 44.046559648833444,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W072400"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.74791565941725,
-      "lat": 44.03469333668451,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W182400"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.76397220028915,
-      "lat": 44.05641602556758,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W014800"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.7811208023229,
-      "lat": 44.056797319396374,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W024801"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.76963274339847,
-      "lat": 44.02117603891629,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W243000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.75000516647843,
-      "lat": 44.05559097637145,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W066000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.78208596683325,
-      "lat": 44.021270639121155,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W230000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.80191982410093,
-      "lat": 44.04641779923968,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W100600"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.80213885374924,
-      "lat": 44.03211816329296,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W150000"
+      "stance": null,
+      "pin": "892389"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 08N04W120000",
-      "lon": -116.76226022432353,
-      "lat": 44.046238609160625,
+      "full_name": "PIN: 941107",
+      "lon": -94.80337857254307,
+      "lat": 39.1527399234337,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "08N04W120000"
+      "pin": "941107"
     }
   ],
   "map_metadata": {
-    "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
-    "generated_at": "2026-02-12T16:57:26.267845",
+    "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
+    "generated_at": "2026-02-17T11:48:59.548999",
     "stats": {
-      "total_neighbors": 8,
-      "highlighted": 7,
+      "total_neighbors": 28,
+      "highlighted": 10,
       "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 1,
+      "skipped_not_highlighted": 18,
       "by_influence": {
-        "High": 3,
-        "Medium": 1,
-        "Low": 3
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
       },
       "by_stance": {
-        "support": 0,
+        "support": 2,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 0
       },
-      "adjacent_highlighted": 1,
+      "adjacent_highlighted": 3,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "url_length": 4487,
-    "parcels_rendered": 29,
-    "labels_count": 19,
+    "url_length": 1754,
+    "parcels_rendered": 12,
+    "labels_count": 12,
     "settings": {
       "width": 800,
       "height": 450,
@@ -886,409 +1844,188 @@
       "padding": 50
     }
   },
-  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fa97bbb2-6215-46d8-8046-79689eeebacd_map_fullpage.png",
+  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3be1cb19-9ff8-4f9c-a9de-c448d7f47bed_map_fullpage.png",
   "fullpage_map_labels": [
     {
-      "text": "WILLOWS",
-      "full_name": "Willows Ranch LLC",
-      "lon": -116.77719703903477,
-      "lat": 44.06398690115443,
+      "text": "APPL",
+      "full_name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
+      "lon": -94.80441024534831,
+      "lat": 39.15519051054117,
+      "marker_char": "4",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "209903"
+    },
+    {
+      "text": "ALEXANDE",
+      "full_name": "Dylan M. Alexander & Cali D. Alexander",
+      "lon": -94.8019694246962,
+      "lat": 39.15656342840533,
       "marker_char": "5",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N04W020000"
-    },
-    {
-      "text": "B",
-      "full_name": "B Humble Farms LLC",
-      "lon": -116.75968457820017,
-      "lat": 44.02816956327093,
-      "marker_char": "6",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N04W137200"
-    },
-    {
-      "text": "B",
-      "full_name": "B Humble Farms LLC",
-      "lon": -116.7547951238451,
-      "lat": 44.02649551823791,
-      "marker_char": "6",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N04W139000"
-    },
-    {
-      "text": "B",
-      "full_name": "B Humble Farms LLC",
-      "lon": -116.74649512874763,
-      "lat": 44.02802046720058,
-      "marker_char": "6",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N03W186450"
-    },
-    {
-      "text": "B",
-      "full_name": "B Humble Farms LLC",
-      "lon": -116.76277083231929,
-      "lat": 44.02041698649127,
-      "marker_char": "6",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N04W240600"
-    },
-    {
-      "text": "B",
-      "full_name": "B Humble Farms LLC",
-      "lon": -116.75491687826423,
-      "lat": 44.023141550159686,
-      "marker_char": "6",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N04W240011"
-    },
-    {
-      "text": "B",
-      "full_name": "B Humble Farms LLC",
-      "lon": -116.74950443323796,
-      "lat": 44.023861895360156,
-      "marker_char": "6",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N03W193020"
-    },
-    {
-      "text": "HORST",
-      "full_name": "Horst Land LLC",
-      "lon": -116.75731539226626,
-      "lat": 44.06200573682067,
-      "marker_char": "7",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N04W010000"
-    },
-    {
-      "text": "HORST",
-      "full_name": "Horst Land LLC",
-      "lon": -116.74011257065258,
-      "lat": 44.05557037080551,
-      "marker_char": "7",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N03W066600"
-    },
-    {
-      "text": "HORST",
-      "full_name": "Horst Land LLC",
-      "lon": -116.74249749831827,
-      "lat": 44.062198209013054,
-      "marker_char": "7",
-      "color": "808080",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "Low",
-      "stance": "unknown",
-      "pin": "08N03W060000"
-    },
-    {
-      "text": "LONE",
-      "full_name": "Lone Pine Farms Canyon County LLC",
-      "lon": -116.75395239787372,
-      "lat": 44.02146309284723,
-      "marker_char": "4",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "08N04W240201"
+      "pin": "941106"
     },
     {
-      "text": "LONE",
-      "full_name": "Lone Pine Farms Canyon County LLC",
-      "lon": -116.75690536340277,
-      "lat": 44.01517293200712,
-      "marker_char": "4",
+      "text": "APPL",
+      "full_name": "Cory M. Appl & Stefanie L. Appl",
+      "lon": -94.79788813400992,
+      "lat": 39.15612702345765,
+      "marker_char": "6",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "08N04W241800"
+      "pin": "416600"
     },
     {
-      "text": "LONE",
-      "full_name": "Lone Pine Farms Canyon County LLC",
-      "lon": -116.74503965662022,
-      "lat": 44.01825854828562,
-      "marker_char": "4",
+      "text": "CRETEN",
+      "full_name": "Robert K. and Donna L. Creten",
+      "lon": -94.80554130400382,
+      "lat": 39.155254581164485,
+      "marker_char": "7",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "08N03W190001"
+      "pin": "209900"
     },
     {
-      "text": "BUREAU",
-      "full_name": "Bureau Of Land Management",
-      "lon": -116.76723308073902,
-      "lat": 44.06390171801602,
+      "text": "HUNTER",
+      "full_name": "Stuart Hunter",
+      "lon": -94.80584537356789,
+      "lat": 39.155255092259466,
+      "marker_char": "8",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "146830"
+    },
+    {
+      "text": "TINER",
+      "full_name": "Guy B. Tiner",
+      "lon": -94.79901125165075,
+      "lat": 39.158953191756204,
+      "marker_char": "9",
+      "color": "FF8C00",
+      "is_target": false,
+      "is_adjacent": false,
+      "influence": "Medium",
+      "stance": "unknown",
+      "pin": "937902"
+    },
+    {
+      "text": "SP",
+      "full_name": "SP Bennet Lake Development, LLC",
+      "lon": -94.79788530297355,
+      "lat": 39.14899985329186,
       "marker_char": "1",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
-      "stance": "neutral",
-      "pin": "08N04W012400"
+      "stance": "support",
+      "pin": "423100"
     },
     {
-      "text": "BIG",
-      "full_name": "Big Willow Ranch LLC",
-      "lon": -116.73755629369634,
-      "lat": 44.04655262313688,
+      "text": "MARVIN",
+      "full_name": "Marvin Lumber and Cedar Company, LLC",
+      "lon": -94.80429098134549,
+      "lat": 39.14933337504587,
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": false,
+      "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W070000"
+      "stance": "support",
+      "pin": "428700"
     },
     {
-      "text": "BIG",
-      "full_name": "Big Willow Ranch LLC",
-      "lon": -116.7373676382059,
-      "lat": 44.032304945305185,
-      "marker_char": "2",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": false,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W180001"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.76377794755342,
-      "lat": 44.033652682232244,
+      "text": "UNIFIED",
+      "full_name": "Unified Government Wy Co/KCK",
+      "lon": -94.8000136840012,
+      "lat": 39.15414713354217,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W130000"
+      "stance": null,
+      "pin": "892382"
     },
     {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.78215910820985,
-      "lat": 44.046296442045445,
+      "text": "UNIFIED",
+      "full_name": "Unified Government Wy Co/KCK",
+      "lon": -94.7973356962669,
+      "lat": 39.154161593169775,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W110000"
+      "stance": null,
+      "pin": "892293"
     },
     {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.78212905299233,
-      "lat": 44.03200202939833,
+      "text": "UNIFIED",
+      "full_name": "Unified Government Wy Co/KCK",
+      "lon": -94.80560127182672,
+      "lat": 39.15626025221569,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W140000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.74745920162967,
-      "lat": 44.046559648833444,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W072400"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.74791565941725,
-      "lat": 44.03469333668451,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W182400"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.76397220028915,
-      "lat": 44.05641602556758,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W014800"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.7811208023229,
-      "lat": 44.056797319396374,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W024801"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.76963274339847,
-      "lat": 44.02117603891629,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W243000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.75000516647843,
-      "lat": 44.05559097637145,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N03W066000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.78208596683325,
-      "lat": 44.021270639121155,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W230000"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.80191982410093,
-      "lat": 44.04641779923968,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W100600"
-    },
-    {
-      "text": "DJS",
-      "full_name": "DJS Properties L.P.",
-      "lon": -116.80213885374924,
-      "lat": 44.03211816329296,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": "unknown",
-      "pin": "08N04W150000"
+      "stance": null,
+      "pin": "892389"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 08N04W120000",
-      "lon": -116.76226022432353,
-      "lat": 44.046238609160625,
+      "full_name": "PIN: 941107",
+      "lon": -94.80337857254307,
+      "lat": 39.1527399234337,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "08N04W120000"
+      "pin": "941107"
     }
   ],
   "fullpage_map_metadata": {
-    "run_id": "fa97bbb2-6215-46d8-8046-79689eeebacd",
-    "generated_at": "2026-02-12T16:57:27.323501",
+    "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
+    "generated_at": "2026-02-17T11:49:01.009407",
     "stats": {
-      "total_neighbors": 8,
-      "highlighted": 7,
+      "total_neighbors": 28,
+      "highlighted": 10,
       "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 1,
+      "skipped_not_highlighted": 18,
       "by_influence": {
-        "High": 3,
-        "Medium": 1,
-        "Low": 3
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
       },
       "by_stance": {
-        "support": 0,
+        "support": 2,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 0
       },
-      "adjacent_highlighted": 1,
+      "adjacent_highlighted": 3,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "labels_count": 29,
+    "labels_count": 12,
     "settings": {
       "width": 1280,
       "height": 720,

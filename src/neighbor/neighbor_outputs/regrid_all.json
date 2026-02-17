@@ -1,89 +1,229 @@
 {
-  "total": 8,
+  "total": 28,
   "neighbors": [
     {
-      "name": "Djs Properties Lp",
+      "name": "Scannell Properties #459, Llc",
       "entity_type": "organization",
       "pins": [
-        "08N04W120000",
-        "08N04W130000",
-        "08N04W110000",
-        "08N04W140000",
-        "08N03W072400",
-        "08N03W182400",
-        "08N04W014800",
-        "08N04W024801",
-        "08N04W243000",
-        "08N03W066000",
-        "08N04W230000",
-        "08N04W100600",
-        "08N04W150000"
+        "941107"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Unified Government Wy Co/Kck",
+      "entity_type": "organization",
+      "pins": [
+        "892382",
+        "892293",
+        "892389"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "B Humble Farms Llc",
-      "entity_type": "organization",
-      "pins": [
-        "08N04W137200",
-        "08N04W139000",
-        "08N03W186450",
-        "08N04W240600",
-        "08N04W240011",
-        "08N03W193020"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Horst Land Llc",
-      "entity_type": "organization",
-      "pins": [
-        "08N04W010000",
-        "08N03W066600",
-        "08N03W060000"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Big Willow Ranch Llc",
-      "entity_type": "organization",
-      "pins": [
-        "08N03W070000",
-        "08N03W180001"
-      ],
-      "owns_adjacent_parcel": "No"
-    },
-    {
-      "name": "Bureau Of Land Management",
+      "name": "Alexander, Dylan M. & Cali D.",
       "entity_type": "person",
       "pins": [
-        "08N04W012400"
+        "941106"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Willows Ranch Llc",
-      "entity_type": "organization",
+      "name": "Mertens, Terry H & Charlotte L",
+      "entity_type": "person",
       "pins": [
-        "08N04W020000"
+        "941105"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Peterson Richard M 2016 Family Trust",
+      "name": "Anita Andrews Revocable Trust",
       "entity_type": "organization",
       "pins": [
-        "08N04W100000"
+        "941101"
       ],
       "owns_adjacent_parcel": "No"
     },
     {
-      "name": "Lone Pine Farms Canyon County Llc",
+      "name": "Tanney; Rebecca & Huston; Jason",
+      "entity_type": "person",
+      "pins": [
+        "941100"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Shepler, Justin K",
+      "entity_type": "person",
+      "pins": [
+        "209904"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Sp Bennet Lake Development, Llc",
       "entity_type": "organization",
       "pins": [
-        "08N04W240201",
-        "08N04W241800",
-        "08N03W190001"
+        "423100"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Appl-Culp, Morganne & Culp, Tyler; Appl, Cory & Stefanie",
+      "entity_type": "person",
+      "pins": [
+        "209903"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Green, Joseph A & Joyce L",
+      "entity_type": "person",
+      "pins": [
+        "259102"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Meyer, Lawrence D & Mary Y",
+      "entity_type": "person",
+      "pins": [
+        "209902"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Appl, Cory M & Stefanie L",
+      "entity_type": "person",
+      "pins": [
+        "416600"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Masters, Jennifer",
+      "entity_type": "person",
+      "pins": [
+        "209901"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Blomeyer, Jessica & Evan",
+      "entity_type": "person",
+      "pins": [
+        "259103"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Creten, Robert K&Donna L",
+      "entity_type": "person",
+      "pins": [
+        "209900"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Hunter, Stuart",
+      "entity_type": "person",
+      "pins": [
+        "146830"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Dickens, Herbert L & Joyce K",
+      "entity_type": "person",
+      "pins": [
+        "259101"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Marvin Lumber And Cedar Company Llc",
+      "entity_type": "organization",
+      "pins": [
+        "428700"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Carmack, William L & Kelli A",
+      "entity_type": "person",
+      "pins": [
+        "146829"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Edwards, Neal P & Nicole M",
+      "entity_type": "person",
+      "pins": [
+        "146815"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Appl, Bradleyappl, Corysanders, Travis Wcrandon, Tom",
+      "entity_type": "person",
+      "pins": [
+        "416601"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Bruch, Danny P&Mary P",
+      "entity_type": "person",
+      "pins": [
+        "146828"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Allwardt, Jonathan",
+      "entity_type": "person",
+      "pins": [
+        "146816"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Tiner, Guy B",
+      "entity_type": "person",
+      "pins": [
+        "937902"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Crystal, Richard Sgonzalez, Martha E.",
+      "entity_type": "person",
+      "pins": [
+        "941219"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Poolman, Daniel J Poolman, Karen A",
+      "entity_type": "person",
+      "pins": [
+        "146827"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Kendrick, Brenda Sue",
+      "entity_type": "person",
+      "pins": [
+        "146817"
+      ],
+      "owns_adjacent_parcel": "No"
+    },
+    {
+      "name": "Mazur, Jessica L. & Austin",
+      "entity_type": "person",
+      "pins": [
+        "259100"
       ],
       "owns_adjacent_parcel": "No"
     }
