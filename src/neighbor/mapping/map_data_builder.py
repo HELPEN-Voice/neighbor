@@ -189,11 +189,15 @@ class MapDataBuilder:
 
                 processed_pins.add(norm_pin)
 
+                # Use anonymous label instead of name
+                influence_str = (neighbor.community_influence or "Low").capitalize()
+                anon_label = f"{influence_str[0]}{neighbor.neighbor_id.replace('N-', '')}"
+
                 features.append(
                     MapFeature(
                         geometry=geometry,
                         style=style,
-                        label=neighbor.name,
+                        label=anon_label,
                         neighbor_id=neighbor.neighbor_id,
                         pin=pin,
                         is_target=False,
@@ -229,14 +233,13 @@ class MapDataBuilder:
             # Get SimpleStyle properties from style
             style_props = feat.style.to_simplestyle()
 
-            # Add custom properties for labeling and reference
+            # Add custom properties for labeling and reference (no PII)
             style_props.update(
                 {
                     "label": feat.label,
                     "is_target": feat.is_target,
                     "is_adjacent": feat.is_adjacent,
                     "neighbor_id": feat.neighbor_id,
-                    "pin": feat.pin,
                     "influence": feat.influence,
                     "stance": feat.stance,
                 }

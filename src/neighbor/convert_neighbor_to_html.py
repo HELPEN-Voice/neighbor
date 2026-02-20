@@ -306,64 +306,22 @@ def generate_neighbor_reports(data: dict):
         f"[generate_neighbor_reports] ✓ Generated neighbor-map-fullpage.html"
     )
 
-    # ---------- Neighbor table ----------
-    # New schema: neighbor_id, name, entity_category, entity_type, pins, claims, confidence
-    neighbors = []
-    for nb in data.get("neighbors", []):
-        # Claims is now a string
-        claims = nb.get("claims", "")
-
-        # Handle approach_recommendations - format motivations + engage text
-        approach = nb.get("approach_recommendations", {})
-        if isinstance(approach, dict):
-            motivations = approach.get("motivations", [])
-            engage = approach.get("engage", "")
-
-            # Format: "motivation_1, motivation_2, motivation_3. \n\n[engage text]"
-            if motivations:
-                motivations_text = ", ".join(motivations)
-                approach_text = (
-                    f"{motivations_text}.\n\n{engage}" if engage else motivations_text
-                )
-            else:
-                approach_text = engage
-        else:
-            # Handle legacy string format if present
-            approach_text = approach if approach else ""
-
-        # Get map marker from fullpage map labels lookup
-        neighbor_name = nb.get("name", "")
-        map_marker = name_to_marker.get(neighbor_name, "")
-
-        neighbor_dict = {
-            "neighbor_id": nb.get("neighbor_id", ""),
-            "name": neighbor_name,
-            "entity_category": nb.get("entity_category", ""),
-            "entity_type": nb.get("entity_type", ""),
-            "pins": nb.get("pins", []),  # Already a list in new schema
-            "claims": claims,
-            "noted_stance": nb.get("noted_stance", ""),
-            "community_influence": nb.get("community_influence", ""),
-            "influence_justification": nb.get("influence_justification", ""),
-            "entity_classification": nb.get("entity_classification", ""),
-            "approach_recommendations": approach_text,
-            "confidence": abbreviate_confidence(nb.get("confidence", "")),
-            "owns_adjacent_parcel": nb.get(
-                "owns_adjacent_parcel", "No"
-            ),  # Added adjacency flag
-            "map_marker": map_marker,  # Map marker number for reference
-        }
-        neighbors.append(neighbor_dict)
-
+    # ---------- Aggregate summary (replaces individual neighbor table) ----------
+    # Data is now an aggregate result — no individual PII
     table_ctx = {
-        "neighbors": neighbors,
-        "overview_summary": data.get("overview_summary"),  # The 2-3 sentence summary
-        "residents_summary": data.get(
-            "residents_summary"
-        ),  # Summary specifically for residents
-        "organizations_summary": data.get(
-            "organizations_summary"
-        ),  # Summary specifically for organizations
+        "total_screened": data.get("total_screened", 0),
+        "residents_count": data.get("residents_count", 0),
+        "organizations_count": data.get("organizations_count", 0),
+        "adjacent_count": data.get("adjacent_count", 0),
+        "influence_distribution": data.get("influence_distribution", {}),
+        "stance_distribution": data.get("stance_distribution", {}),
+        "entity_type_breakdown": data.get("entity_type_breakdown", {}),
+        "risk_score": data.get("risk_score", 2),
+        "risk_level": data.get("risk_level", "low"),
+        "themes": data.get("themes", []),
+        "opposition_summary": data.get("opposition_summary"),
+        "support_summary": data.get("support_summary"),
+        "overview_summary": data.get("overview_summary"),
         "location_context": data.get("location_context"),
         "request_date": data.get("request_date", datetime.now().strftime("%Y-%m-%d")),
     }
@@ -436,7 +394,7 @@ if __name__ == "__main__":
     with open(merged_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    print(f"  ✓ Loaded {len(data.get('neighbors', []))} neighbors")
+    print(f"  ✓ Loaded aggregate data for {data.get('total_screened', 0)} neighbors")
     print(f"  ✓ Location: {data.get('location_context', 'Unknown')}")
 
     # Generate HTML reports

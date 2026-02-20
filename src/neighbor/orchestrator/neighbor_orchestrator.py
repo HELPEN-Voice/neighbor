@@ -20,6 +20,7 @@ from ..agents.neighbor_finder import NeighborFinder
 from ..utils.entity import guess_entity_type
 from ..utils.db_connector import NeighborDBConnector
 from ..services.local_valuation import LocalValuationService
+from ..utils.aggregator import aggregate_neighbors
 from ..agents.verification_manager_neighbor import NeighborVerificationManager
 from ..mapping.map_generator import NeighborMapGenerator
 from ..mapping.fullpage_map_generator import FullPageMapGenerator
@@ -96,6 +97,7 @@ Write a 2-4 sentence overview that:
 2. Synthesizes the qualitative insights from the batch summaries (types of neighbors, key concerns, notable entities)
 3. Highlights any high-influence neighbors or opposition risks
 4. Is factual and concise - no speculation
+5. DO NOT mention any individual neighbor by name, parcel ID, or address - use only aggregate descriptions
 
 Return ONLY the overview text, no preamble or explanation."""
 
@@ -1364,38 +1366,24 @@ class NeighborOrchestrator:
         else:
             combined_overview = None
 
-        # Validate neighbors and skip invalid ones
+        # Validate neighbors in memory (still has PII — not persisted)
         validated_neighbors = []
         for p in merged:
             try:
                 validated_neighbors.append(NeighborProfile(**p))
             except Exception as e:
                 print(
-                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️  Skipping invalid neighbor: {p.get('name', 'unknown')} - {str(e)}"
+                    f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ⚠️  Skipping invalid neighbor: {p.get('neighbor_id', '?')} - {str(e)}"
                 )
                 continue
 
-        final = NeighborResult(
-            neighbors=validated_neighbors,
-            location_context=f"Neighbors within {radius_mi} mi of {location or (county + ', ' + state if county and state else 'unknown')}",
-            overview_summary=combined_overview,
-            success=True,
-        ).dict()
-
-        final["runtime_minutes"] = round((time.time() - t0) / 60.0, 2)
-        final["citations_flat"] = flat_citations
-        # Only save dr_* files (not vr_*) to avoid re-verification on resume
-        final["deep_research_files"] = [f for f in saved_filepaths if "/dr_" in f or "\\dr_" in f]
-        final["city"] = city  # Include city for HTML generation
-        final["county"] = county  # Include county for HTML generation
-        final["state"] = state  # Include state for HTML generation
-        final["run_id"] = run_id  # Include unique run_id for this screening
-        final["target_pin"] = target_parcel_info.get("pin") if target_parcel_info else None
-        final["target_parcel_info"] = target_parcel_info  # Include for map generation
-
-        # Generate neighbor map visualization BEFORE saving final output
+        # Generate neighbor map visualization BEFORE aggregation
+        # (map needs validated_neighbors for parcel coloring, but labels are anonymized)
         output_dir = Path(__file__).parent.parent / "neighbor_outputs"
         output_dir.mkdir(parents=True, exist_ok=True)
+        map_image_path = None
+        map_thumbnail_path = None
+        map_metadata = None
         try:
             if (
                 settings.GENERATE_MAP
@@ -1425,31 +1413,22 @@ class NeighborOrchestrator:
                         f"   Strategy: {map_result.generation_result.strategy_used}, "
                         f"Parcels: {map_result.generation_result.parcels_rendered}"
                     )
-                    final["map_image_path"] = map_result.image_path
-                    final["map_thumbnail_path"] = map_result.thumbnail_path
-                    final["map_legend_html"] = map_result.legend_html
-                    final["map_labels"] = map_result.labels
-                    final["map_metadata"] = map_result.metadata
+                    map_image_path = map_result.image_path
+                    map_thumbnail_path = map_result.thumbnail_path
+                    map_metadata = map_result.metadata
                 else:
                     print(
                         f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
                     )
-                    final["map_error"] = (
-                        map_result.generation_result.error_message
-                        if map_result.generation_result
-                        else "Unknown error"
-                    )
 
                 # Generate full-page map (includes ALL neighbors regardless of influence)
-                fullpage_data = generate_fullpage_map(
+                generate_fullpage_map(
                     target_parcel=target_parcel_info,
                     raw_parcels=self.finder.raw_parcels,
                     neighbor_profiles=validated_neighbors,
                     output_dir=output_dir,
                     run_id=run_id,
                 )
-                if fullpage_data:
-                    final.update(fullpage_data)
 
             elif not settings.MAPBOX_ACCESS_TOKEN:
                 print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
@@ -1457,17 +1436,35 @@ class NeighborOrchestrator:
                 print("⚠️ Skipping map generation - no target parcel info available")
         except Exception as e:
             print(f"⚠️ Failed to generate map: {e}")
-            # Don't fail the entire operation if map generation fails
-            final["map_error"] = str(e)
 
-        # Save the final merged result with adjacency data
+        # =====================================================================
+        # AGGREGATION BOUNDARY — Convert PII-bearing profiles to aggregate stats
+        # After this point, no individual names/PINs/claims are persisted.
+        # =====================================================================
+        merged_dicts = [
+            n.dict() if hasattr(n, "dict") else n for n in validated_neighbors
+        ]
+        final = await aggregate_neighbors(
+            profiles=merged_dicts,
+            location_context=location_ctx,
+            overview_summary=combined_overview,
+            city=city,
+            county=county,
+            state=state,
+            run_id=run_id,
+            runtime_minutes=round((time.time() - t0) / 60.0, 2),
+            map_image_path=map_image_path,
+            map_thumbnail_path=map_thumbnail_path,
+            map_metadata=map_metadata,
+        )
+
+        # Save the PII-free aggregate result
         final_output_path = output_dir / "neighbor_final_merged.json"
-
         with open(final_output_path, "w", encoding="utf-8") as f:
             json.dump(final, f, indent=2, ensure_ascii=False, default=str)
 
         print(
-            f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 💾 Saved final merged output to: {final_output_path.name}"
+            f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 💾 Saved aggregate output to: {final_output_path.name}"
         )
 
         # Save location information separately for HTML generation
@@ -1487,18 +1484,13 @@ class NeighborOrchestrator:
             f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 💾 Saved location data to: {location_file.name}"
         )
 
-        # Save neighbor stakeholders to database
+        # Save aggregate data to database (no individual PII)
         try:
             db = NeighborDBConnector()
             if db.conn:
-                # Convert NeighborProfile objects to dicts for database insertion
-                neighbors_for_db = [
-                    n.dict() if hasattr(n, "dict") else n for n in validated_neighbors
-                ]
-                db.save_neighbor_stakeholders(
+                db.save_neighbor_aggregate(
                     run_id=run_id,
-                    neighbors=neighbors_for_db,
-                    location_context=final.get("location_context"),
+                    aggregate_data=final,
                     location=location,
                     pin=pin
                     or (target_parcel_info.get("pin") if target_parcel_info else None),
@@ -1506,14 +1498,12 @@ class NeighborOrchestrator:
                     state=state,
                     city=city,
                     county_path=county_path,
-                    adjacent_pins=adjacent_pins,
                 )
                 db.close()
             else:
-                print("⚠️ Database connection not available, skipping stakeholder save")
+                print("⚠️ Database connection not available, skipping aggregate save")
         except Exception as e:
-            print(f"⚠️ Failed to save neighbors to database: {e}")
-            # Don't fail the entire operation if database save fails
+            print(f"⚠️ Failed to save aggregate to database: {e}")
 
         # Calculate and save local cluster valuation benchmark
         try:
@@ -1552,6 +1542,47 @@ class NeighborOrchestrator:
                 print("⚠️ Skipping valuation benchmark - no raw parcels or state available")
         except Exception as e:
             print(f"⚠️ Failed to calculate valuation benchmark: {e}")
-            # Don't fail the entire operation if valuation fails
+
+        # =====================================================================
+        # PII CLEANUP — Delete all intermediate files containing personal data
+        # =====================================================================
+        self._cleanup_pii_files()
 
         return final
+
+    def _cleanup_pii_files(self):
+        """Delete all intermediate files containing PII.
+
+        Called after aggregation to ensure no names, PINs, claims,
+        or other personally identifiable information remains on disk.
+        """
+        output_dir = Path(__file__).parent.parent / "neighbor_outputs"
+        dr_dir = Path(__file__).parent.parent / "deep_research_outputs"
+
+        patterns_to_delete = [
+            (output_dir, "regrid_people.json"),
+            (output_dir, "regrid_organizations.json"),
+            (output_dir, "regrid_all.json"),
+            (output_dir, "raw_parcels.json"),
+            (output_dir, "batch_*.json"),
+            (dr_dir, "dr_*.json"),
+            (dr_dir, "vr_*.json"),
+            (dr_dir, "*.thinking.md"),
+            (dr_dir, "*_debug*.md"),
+            (dr_dir, "*_DEBUG_*.json"),
+            (dr_dir, "gemini_raw_*.txt"),
+        ]
+
+        deleted_count = 0
+        for directory, pattern in patterns_to_delete:
+            if not directory.exists():
+                continue
+            for f in directory.glob(pattern):
+                try:
+                    f.unlink()
+                    deleted_count += 1
+                except OSError as e:
+                    print(f"⚠️  Failed to delete {f.name}: {e}")
+
+        if deleted_count:
+            print(f"🧹 PII cleanup: deleted {deleted_count} intermediate files")

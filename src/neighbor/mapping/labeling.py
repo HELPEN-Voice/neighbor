@@ -65,13 +65,9 @@ class LabelGenerator:
         is_target: bool = False,
     ) -> str:
         """
-        Generate label text for a parcel.
+        Generate anonymized label text for a parcel.
 
-        Priority:
-        1. "TARGET" for target site
-        2. Last name for individuals
-        3. Organization abbreviation
-        4. PIN suffix as fallback
+        Uses influence-based identifiers instead of names to avoid PII.
 
         Args:
             neighbor: NeighborProfile or None
@@ -85,16 +81,12 @@ class LabelGenerator:
             return "TARGET"
 
         if not neighbor:
-            return self._format_pin(pin)
+            return "PARCEL"
 
-        name = neighbor.name
-
-        # Extract last name for individuals
-        if neighbor.entity_category == "Resident":
-            return self._extract_last_name(name)
-
-        # Abbreviate organization names
-        return self._abbreviate_org(name)
+        # Use influence-based label prefix
+        influence = (neighbor.community_influence or "Low").capitalize()
+        prefix = influence[0]  # H, M, or L
+        return f"{prefix}{neighbor.neighbor_id.replace('N-', '')}" if neighbor.neighbor_id else prefix
 
     def _extract_last_name(self, name: str) -> str:
         """
@@ -195,7 +187,7 @@ class LabelGenerator:
 
         return ParcelLabel(
             text="TARGET",
-            full_name=f"PIN: {pin}",
+            full_name="Target Site",
             lon=lon,
             lat=lat,
             marker_number=0,
@@ -205,7 +197,7 @@ class LabelGenerator:
             is_adjacent=False,
             influence=None,
             stance=None,
-            pin=pin,
+            pin="",
         )
 
     def _generate_neighbor_label(
@@ -229,9 +221,14 @@ class LabelGenerator:
         marker_char = self._get_marker_char(marker_num)
         color = get_marker_color(neighbor.community_influence, neighbor.noted_stance)
 
+        # Build anonymous label from influence + stance
+        influence_str = (neighbor.community_influence or "Low").capitalize()
+        stance_str = (neighbor.noted_stance or "Unknown").capitalize()
+        anonymous_label = f"{influence_str} Influence — {stance_str}"
+
         return ParcelLabel(
             text=label_text,
-            full_name=neighbor.name,
+            full_name=anonymous_label,
             lon=lon,
             lat=lat,
             marker_number=marker_num,
@@ -241,7 +238,7 @@ class LabelGenerator:
             is_adjacent=is_adjacent,
             influence=neighbor.community_influence,
             stance=neighbor.noted_stance,
-            pin=pin,
+            pin="",
         )
 
     def generate_label(
@@ -302,9 +299,19 @@ class LabelGenerator:
         influence = neighbor.community_influence if neighbor else None
         stance = neighbor.noted_stance if neighbor else None
 
+        # Build anonymous label
+        if is_target:
+            anonymous_label = "Target Site"
+        elif neighbor:
+            inf_str = (neighbor.community_influence or "Low").capitalize()
+            st_str = (neighbor.noted_stance or "Unknown").capitalize()
+            anonymous_label = f"{inf_str} Influence — {st_str}"
+        else:
+            anonymous_label = "Parcel"
+
         return ParcelLabel(
             text=label_text,
-            full_name=neighbor.name if neighbor else f"PIN: {pin}",
+            full_name=anonymous_label,
             lon=lon,
             lat=lat,
             marker_number=marker_num,
@@ -314,7 +321,7 @@ class LabelGenerator:
             is_adjacent=is_adjacent,
             influence=influence,
             stance=stance,
-            pin=pin,
+            pin="",
         )
 
     def generate_labels_for_features(
@@ -339,7 +346,7 @@ class LabelGenerator:
         labels = []
         legend = []
 
-        # First pass: collect unique owners (excluding target and Low influence)
+        # First pass: collect unique owners by neighbor_id (excluding target and Low influence)
         owner_to_neighbor: Dict[str, NeighborProfile] = {}
 
         for feat in features:
@@ -355,8 +362,9 @@ class LabelGenerator:
             if neighbor and neighbor.community_influence == "Low":
                 continue
 
-            if neighbor and neighbor.name not in owner_to_neighbor:
-                owner_to_neighbor[neighbor.name] = neighbor
+            nid = neighbor.neighbor_id if neighbor else None
+            if neighbor and nid and nid not in owner_to_neighbor:
+                owner_to_neighbor[nid] = neighbor
 
         # Sort owners by influence (High first, then Medium) and assign numbers
         influence_order = {"High": 0, "Medium": 1}
@@ -365,8 +373,11 @@ class LabelGenerator:
             key=lambda x: influence_order.get(x[1].community_influence, 2)
         )
         owner_to_number: Dict[str, int] = {}
-        for i, (name, _) in enumerate(sorted_owners, start=1):
-            owner_to_number[name] = i
+        for i, (nid, _) in enumerate(sorted_owners, start=1):
+            owner_to_number[nid] = i
+
+        # Build reverse lookup: neighbor name -> neighbor_id for matching
+        name_to_nid = {n.name: nid for nid, n in owner_to_neighbor.items()}
 
         # Second pass: generate labels using assigned numbers
         for feat in features:
@@ -386,7 +397,8 @@ class LabelGenerator:
                     labels.append(label)
             elif neighbor and neighbor.community_influence != "Low":
                 # Get assigned number for this owner
-                marker_num = owner_to_number.get(neighbor.name, 0)
+                nid = neighbor.neighbor_id
+                marker_num = owner_to_number.get(nid, 0)
                 label = self._generate_neighbor_label(
                     geometry=geometry,
                     neighbor=neighbor,
@@ -397,17 +409,21 @@ class LabelGenerator:
                 if label:
                     labels.append(label)
 
-        # Generate legend entries (one per unique owner)
-        for name, marker_num in owner_to_number.items():
-            neighbor = owner_to_neighbor[name]
+        # Generate legend entries (one per unique owner — anonymous labels)
+        for nid, marker_num in owner_to_number.items():
+            neighbor = owner_to_neighbor[nid]
             marker_char = self._get_marker_char(marker_num)
             color = get_marker_color(neighbor.community_influence, neighbor.noted_stance)
+
+            influence_str = (neighbor.community_influence or "Low").capitalize()
+            stance_str = (neighbor.noted_stance or "Unknown").capitalize()
+            entity_str = "Resident" if neighbor.entity_category == "Resident" else "Entity"
 
             legend.append(
                 LegendEntry(
                     marker_char=marker_char.upper(),
-                    label_text=self._abbreviate_org(name) if neighbor.entity_category != "Resident" else self._extract_last_name(name),
-                    full_name=name,
+                    label_text=f"{entity_str} ({influence_str})",
+                    full_name=f"{entity_str} — {influence_str} Influence — {stance_str}",
                     color=color,
                     influence=neighbor.community_influence,
                     stance=neighbor.noted_stance,
@@ -527,7 +543,7 @@ class LabelGenerator:
             row = f"""
             <tr>
                 <td class="marker" style="color: #{entry.color}; font-weight: bold;">{entry.marker_char}</td>
-                <td class="name">{entry.full_name}</td>
+                <td class="description">{entry.full_name}</td>
                 <td class="badges">{influence_badge} {stance_badge} {adjacent_badge}</td>
             </tr>
             """
@@ -538,7 +554,7 @@ class LabelGenerator:
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Name</th>
+                    <th>Description</th>
                     <th>Status</th>
                 </tr>
             </thead>

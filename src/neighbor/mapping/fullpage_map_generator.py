@@ -92,13 +92,12 @@ class FullPageLabelGenerator:
         return name.upper()[:self.max_label_length]
 
     def _get_label_text(self, neighbor: Optional[NeighborProfile], pin: str) -> str:
-        """Generate label text for a neighbor parcel."""
+        """Generate anonymized label text for a neighbor parcel."""
         if not neighbor:
-            clean = pin.replace("-", "").replace(".", "").replace(" ", "")
-            return clean[-6:] if len(clean) > 6 else clean
-        if neighbor.entity_category == "Resident":
-            return self._extract_last_name(neighbor.name)
-        return self._abbreviate_org(neighbor.name)
+            return "PARCEL"
+        influence = (neighbor.community_influence or "Low").capitalize()
+        prefix = influence[0]  # H, M, or L
+        return f"{prefix}{neighbor.neighbor_id.replace('N-', '')}" if neighbor.neighbor_id else prefix
 
     def generate_labels_for_features(
         self,
@@ -112,7 +111,7 @@ class FullPageLabelGenerator:
         """
         labels = []
 
-        # First pass: collect unique owners (ALL influence levels)
+        # First pass: collect unique owners by neighbor_id (ALL influence levels)
         owner_to_neighbor: Dict[str, NeighborProfile] = {}
 
         for feat in features:
@@ -125,8 +124,9 @@ class FullPageLabelGenerator:
             neighbor = neighbor_lookup.get(normalize_pin(pin)) if pin else None
 
             # Include ALL neighbors (no influence filtering)
-            if neighbor and neighbor.name not in owner_to_neighbor:
-                owner_to_neighbor[neighbor.name] = neighbor
+            nid = neighbor.neighbor_id if neighbor else None
+            if neighbor and nid and nid not in owner_to_neighbor:
+                owner_to_neighbor[nid] = neighbor
 
         # Sort owners by influence (High first, then Medium, then Low)
         influence_order = {"High": 0, "Medium": 1, "Low": 2, "Unknown": 3}
@@ -135,8 +135,8 @@ class FullPageLabelGenerator:
             key=lambda x: influence_order.get(x[1].community_influence, 3)
         )
         owner_to_number: Dict[str, int] = {}
-        for i, (name, _) in enumerate(sorted_owners, start=1):
-            owner_to_number[name] = i
+        for i, (nid, _) in enumerate(sorted_owners, start=1):
+            owner_to_number[nid] = i
 
         # Second pass: generate labels
         for feat in features:
@@ -160,7 +160,7 @@ class FullPageLabelGenerator:
             if is_target:
                 labels.append(FullPageLabel(
                     text="TARGET",
-                    full_name=f"PIN: {pin}",
+                    full_name="Target Site",
                     lon=lon,
                     lat=lat,
                     marker_number=0,
@@ -170,17 +170,24 @@ class FullPageLabelGenerator:
                     is_adjacent=False,
                     influence=None,
                     stance=None,
-                    pin=pin,
+                    pin="",
                 ))
             elif neighbor:
-                marker_num = owner_to_number.get(neighbor.name, 0)
+                nid = neighbor.neighbor_id
+                marker_num = owner_to_number.get(nid, 0)
                 marker_char = self._get_marker_char(marker_num)
                 color = get_marker_color(neighbor.community_influence, neighbor.noted_stance)
                 label_text = self._get_label_text(neighbor, pin)
 
+                # Build anonymous label
+                influence_str = (neighbor.community_influence or "Low").capitalize()
+                stance_str = (neighbor.noted_stance or "Unknown").capitalize()
+                entity_str = "Resident" if neighbor.entity_category == "Resident" else "Entity"
+                anonymous_label = f"{entity_str} — {influence_str} Influence — {stance_str}"
+
                 labels.append(FullPageLabel(
                     text=label_text,
-                    full_name=neighbor.name,
+                    full_name=anonymous_label,
                     lon=lon,
                     lat=lat,
                     marker_number=marker_num,
@@ -190,7 +197,7 @@ class FullPageLabelGenerator:
                     is_adjacent=is_adjacent,
                     influence=neighbor.community_influence,
                     stance=neighbor.noted_stance,
-                    pin=pin,
+                    pin="",
                 ))
 
         return labels

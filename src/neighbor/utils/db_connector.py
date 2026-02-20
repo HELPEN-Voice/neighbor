@@ -180,6 +180,76 @@ class NeighborDBConnector:
                 f"💾 Saved {len(neighbors)} neighbor stakeholders to the database (run_id: {run_id})"
             )
 
+    def save_neighbor_aggregate(
+        self,
+        run_id: str,
+        aggregate_data: dict,
+        location: str = None,
+        pin: str = None,
+        county: str = None,
+        state: str = None,
+        city: str = None,
+        county_path: str = None,
+    ):
+        """Save PII-free aggregate neighbor data to the database.
+
+        Replaces save_neighbor_stakeholders — stores only aggregate statistics,
+        themes, and risk scores. No individual names, PINs, or claims.
+
+        Args:
+            run_id: Unique identifier for this pipeline run
+            aggregate_data: NeighborAggregateResult dict (no PII)
+            location: Coordinates string
+            pin: Target parcel PIN
+            county, state, city: Location metadata
+            county_path: Regrid county path
+        """
+        if not self.conn:
+            print("⚠️ No database connection for saving aggregate")
+            return
+
+        # Save run metadata + aggregate JSON to neighbor_screen_runs
+        run_sql = """
+            INSERT INTO neighbor_screen_runs (
+                run_id, location, county, state, city, pin, coordinates, county_path, aggregate_json
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (run_id) DO UPDATE SET
+                location = EXCLUDED.location,
+                county = EXCLUDED.county,
+                state = EXCLUDED.state,
+                city = EXCLUDED.city,
+                pin = EXCLUDED.pin,
+                coordinates = EXCLUDED.coordinates,
+                county_path = EXCLUDED.county_path,
+                aggregate_json = EXCLUDED.aggregate_json,
+                created_at = CURRENT_TIMESTAMP;
+        """
+
+        try:
+            with self.conn.cursor() as cur:
+                cur.execute(
+                    run_sql,
+                    (
+                        run_id,
+                        f"{city}, {state}" if city and state else None,
+                        county,
+                        state,
+                        city,
+                        pin,
+                        location,
+                        county_path,
+                        json.dumps(aggregate_data, default=str),
+                    ),
+                )
+                self.conn.commit()
+                print(f"💾 Saved aggregate neighbor data to database (run_id: {run_id})")
+        except Exception as e:
+            print(f"⚠️ Failed to save aggregate to database: {e}")
+            # If aggregate_json column doesn't exist yet, fall back silently
+            if "aggregate_json" in str(e):
+                print("   ℹ️  Column 'aggregate_json' may not exist yet — run migration to add it")
+
     def save_local_cluster_benchmark(
         self,
         run_id: str,
