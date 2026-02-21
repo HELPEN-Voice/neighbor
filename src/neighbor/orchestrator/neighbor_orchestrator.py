@@ -681,6 +681,16 @@ class NeighborOrchestrator:
                 map_metadata=cached.get("map_metadata"),
             )
 
+            # Carry through fields the HTML converter needs but aggregator doesn't include
+            for key in (
+                "map_labels", "map_legend_html",
+                "target_parcel_info",
+                "fullpage_map_image_path", "fullpage_map_labels", "fullpage_map_metadata",
+                "deep_research_files",
+            ):
+                if key in cached and key not in final:
+                    final[key] = cached[key]
+
             # Save the PII-free aggregate result
             final_output_path = output_dir / "neighbor_final_merged.json"
             with open(final_output_path, "w", encoding="utf-8") as f:
@@ -1402,6 +1412,7 @@ class NeighborOrchestrator:
         map_image_path = None
         map_thumbnail_path = None
         map_metadata = None
+        map_result = None
         try:
             if (
                 settings.GENERATE_MAP
@@ -1475,6 +1486,15 @@ class NeighborOrchestrator:
             map_thumbnail_path=map_thumbnail_path,
             map_metadata=map_metadata,
         )
+
+        # Carry through fields the HTML converter needs but aggregator doesn't include
+        if map_result and hasattr(map_result, "labels"):
+            final["map_labels"] = map_result.labels
+            final["map_legend_html"] = getattr(map_result, "legend_html", None)
+        if target_parcel_info:
+            final["target_parcel_info"] = target_parcel_info
+        if saved_filepaths:
+            final["deep_research_files"] = saved_filepaths
 
         # Save the PII-free aggregate result
         final_output_path = output_dir / "neighbor_final_merged.json"
@@ -1597,10 +1617,11 @@ class NeighborOrchestrator:
                 continue
             for f in directory.glob(pattern):
                 try:
-                    f.unlink()
+                    subprocess.run(["trash", str(f)], check=True,
+                                   capture_output=True, timeout=10)
                     deleted_count += 1
-                except OSError as e:
-                    print(f"⚠️  Failed to delete {f.name}: {e}")
+                except (subprocess.CalledProcessError, FileNotFoundError, subprocess.TimeoutExpired) as e:
+                    print(f"⚠️  Failed to trash {f.name}: {e}")
 
         if deleted_count:
             print(f"🧹 PII cleanup: deleted {deleted_count} intermediate files")
