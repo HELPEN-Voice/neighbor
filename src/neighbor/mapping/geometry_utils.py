@@ -1,6 +1,7 @@
 """Geometry processing utilities for map generation."""
 
 import json
+import math
 from typing import List, Tuple, Dict, Any
 
 try:
@@ -17,6 +18,73 @@ try:
     POLYLINE_AVAILABLE = True
 except ImportError:
     POLYLINE_AVAILABLE = False
+
+
+_EARTH_RADIUS_MI = 3958.8  # Mean Earth radius in miles
+
+
+def haversine_distance(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
+    """
+    Great-circle distance between two points in miles.
+
+    Args:
+        lon1, lat1: First point (degrees)
+        lon2, lat2: Second point (degrees)
+
+    Returns:
+        Distance in miles
+    """
+    lat1_r, lat2_r = math.radians(lat1), math.radians(lat2)
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = (
+        math.sin(dlat / 2) ** 2
+        + math.cos(lat1_r) * math.cos(lat2_r) * math.sin(dlon / 2) ** 2
+    )
+    return 2 * _EARTH_RADIUS_MI * math.asin(math.sqrt(a))
+
+
+def create_circle_polygon(
+    center_lon: float,
+    center_lat: float,
+    radius_miles: float,
+    num_points: int = 32,
+) -> List[List[float]]:
+    """
+    Create a circle polygon as a closed coordinate ring using haversine projection.
+
+    Handles latitude-dependent longitude scaling so circles don't distort at
+    higher latitudes.
+
+    Args:
+        center_lon: Center longitude (degrees)
+        center_lat: Center latitude (degrees)
+        radius_miles: Circle radius in miles
+        num_points: Number of vertices (excluding closure point)
+
+    Returns:
+        List of [lon, lat] pairs forming a closed ring (first == last)
+    """
+    coords = []
+    lat_r = math.radians(center_lat)
+    # Angular radius in radians on the sphere
+    angular_radius = radius_miles / _EARTH_RADIUS_MI
+
+    for i in range(num_points):
+        angle = 2 * math.pi * i / num_points
+        # Offset in radians of latitude / longitude
+        dlat = angular_radius * math.cos(angle)
+        # Scale longitude offset by cos(latitude)
+        dlon = angular_radius * math.sin(angle) / max(math.cos(lat_r), 1e-10)
+
+        coords.append([
+            round(center_lon + math.degrees(dlon), 6),
+            round(center_lat + math.degrees(dlat), 6),
+        ])
+
+    # Close the ring
+    coords.append(coords[0])
+    return coords
 
 
 def simplify_geometry(

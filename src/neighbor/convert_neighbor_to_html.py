@@ -220,90 +220,29 @@ def generate_neighbor_reports(data: dict):
         f"[generate_neighbor_reports] ✓ Generated neighbor-parameters-playwright.html"
     )
 
-    # ---------- Map page ----------
+    # ---------- Sentiment Ring Map ----------
     map_image_path = data.get("map_image_path")
+    map_ring_stats = data.get("map_ring_stats", [])
     map_generated = False
     if map_image_path:
-        # Copy map image to output directory for HTML access
         map_src = Path(map_image_path)
         if map_src.exists():
             map_dest = OUT / map_src.name
             shutil.copy2(map_src, map_dest)
             map_generated = True
-            print(f"[generate_neighbor_reports] Copied map image to output directory")
-
-    # Get map labels and filter to High/Medium influence only (no markers for Low)
-    # Also deduplicate by owner name (keep first occurrence of each unique owner)
-    map_labels = data.get("map_labels", [])
-    seen_names = set()
-    filtered_labels = []
-    for label in map_labels:
-        if label.get("is_target"):
-            filtered_labels.append(label)
-        elif label.get("influence") in ["High", "Medium"]:
-            name = label.get("full_name")
-            if name not in seen_names:
-                seen_names.add(name)
-                filtered_labels.append(label)
-
-    # Sort: Target first, then High influence, then Medium
-    influence_order = {"High": 0, "Medium": 1}
-    filtered_labels.sort(key=lambda x: (
-        0 if x.get("is_target") else 1,  # Target first
-        influence_order.get(x.get("influence"), 2)  # Then by influence
-    ))
+            print(f"[generate_neighbor_reports] Copied ring map image to output directory")
 
     map_ctx = {
         "map_image_path": Path(map_image_path).name if map_image_path and map_generated else None,
         "county": data.get("county"),
         "state": data.get("state"),
         "coordinates": data.get("coordinates", "Not provided"),
-        "parcels_shown": (data.get("map_metadata") or {}).get("parcels_rendered", 0),
-        "map_labels": filtered_labels,
+        "map_ring_stats": map_ring_stats,
     }
-    html = env.get_template("neighbor-map-playwright.html").render(**map_ctx)
-    (OUT / "neighbor-map-playwright.html").write_text(html, encoding="utf-8")
+    html = env.get_template("neighbor-sentiment-map.html").render(**map_ctx)
+    (OUT / "neighbor-sentiment-map.html").write_text(html, encoding="utf-8")
     print(
-        f"[generate_neighbor_reports] ✓ Generated neighbor-map-playwright.html"
-    )
-
-    # ---------- Full-page map (all neighbors) ----------
-    fullpage_map_image_path = data.get("fullpage_map_image_path")
-    fullpage_map_generated = False
-    if fullpage_map_image_path:
-        fullpage_src = Path(fullpage_map_image_path)
-        if fullpage_src.exists():
-            fullpage_dest = OUT / fullpage_src.name
-            shutil.copy2(fullpage_src, fullpage_dest)
-            fullpage_map_generated = True
-            print(f"[generate_neighbor_reports] Copied fullpage map image to output directory")
-
-    # Get fullpage map labels (includes ALL influence levels)
-    fullpage_map_labels = data.get("fullpage_map_labels", [])
-
-    # Build lookup from neighbor name to marker_char for the table
-    name_to_marker: dict = {}
-    for label in fullpage_map_labels:
-        if not label.get("is_target"):
-            name = label.get("full_name")
-            if name and name not in name_to_marker:
-                marker = label.get("marker_char", "")
-                name_to_marker[name] = marker.upper() if marker else ""
-
-    # Count total parcels (unique names + target)
-    total_parcels = len(name_to_marker) + 1  # +1 for target
-
-    fullpage_ctx = {
-        "fullpage_map_image_path": Path(fullpage_map_image_path).name if fullpage_map_image_path and fullpage_map_generated else None,
-        "county": data.get("county"),
-        "state": data.get("state"),
-        "coordinates": data.get("coordinates", "Not provided"),
-        "total_parcels": total_parcels,
-    }
-    html = env.get_template("neighbor-map-fullpage.html").render(**fullpage_ctx)
-    (OUT / "neighbor-map-fullpage.html").write_text(html, encoding="utf-8")
-    print(
-        f"[generate_neighbor_reports] ✓ Generated neighbor-map-fullpage.html"
+        f"[generate_neighbor_reports] ✓ Generated neighbor-sentiment-map.html"
     )
 
     # ---------- Aggregate summary (replaces individual neighbor table) ----------
@@ -336,8 +275,7 @@ def generate_neighbor_reports(data: dict):
     return [
         str(OUT / "neighbor-title-page-playwright.html"),
         str(OUT / "neighbor-parameters-playwright.html"),
-        str(OUT / "neighbor-map-playwright.html"),
-        str(OUT / "neighbor-map-fullpage.html"),
+        str(OUT / "neighbor-sentiment-map.html"),
         str(OUT / "neighbor-deep-dive.html"),
     ]
 

@@ -22,8 +22,7 @@ from ..utils.db_connector import NeighborDBConnector
 from ..services.local_valuation import LocalValuationService
 from ..utils.aggregator import aggregate_neighbors
 from ..agents.verification_manager_neighbor import NeighborVerificationManager
-from ..mapping.map_generator import NeighborMapGenerator
-from ..mapping.fullpage_map_generator import FullPageMapGenerator
+from ..mapping.sentiment_ring_generator import SentimentRingGenerator
 
 # Engines
 from ..engines.base import ResearchEngine, ResearchEvent
@@ -349,46 +348,6 @@ def _engine_factory() -> ResearchEngine:
     return DeepResearchResponsesEngine()
 
 
-def generate_fullpage_map(
-    target_parcel: Dict[str, Any],
-    raw_parcels: List[Dict[str, Any]],
-    neighbor_profiles: List,
-    output_dir: Path,
-    run_id: str,
-) -> Optional[Dict[str, Any]]:
-    """
-    Generate a full-page map with all neighbors.
-
-    Returns dict with map paths/metadata on success, None on failure.
-    """
-    print(f"\n🗺️  Generating full-page neighbor map...")
-    fullpage_generator = FullPageMapGenerator(
-        target_parcel=target_parcel,
-        raw_parcels=raw_parcels,
-        neighbor_profiles=neighbor_profiles,
-        mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
-        output_dir=str(output_dir.parent / "neighbor_map_outputs"),
-        style=settings.MAPBOX_STYLE,
-        width=1280,
-        height=720,
-        padding=80,
-        retina=True,
-    )
-
-    fullpage_result = fullpage_generator.generate(run_id=run_id)
-
-    if fullpage_result.success:
-        print(f"✅ Full-page map generated: {fullpage_result.image_path}")
-        return {
-            "fullpage_map_image_path": fullpage_result.image_path,
-            "fullpage_map_labels": fullpage_result.labels,
-            "fullpage_map_metadata": fullpage_result.metadata,
-        }
-    else:
-        print(f"⚠️ Full-page map generation failed")
-        return None
-
-
 class NeighborOrchestrator:
     def __init__(self, engine: ResearchEngine | None = None):
         self.finder = NeighborFinder()
@@ -596,7 +555,7 @@ class NeighborOrchestrator:
                 and target_parcel_info
                 and raw_parcels_file.exists()
             ):
-                print(f"\n🗺️  Generating neighbor map visualization...")
+                print(f"\n🗺️  Generating sentiment ring map...")
                 try:
                     # Load raw parcels from cache (use finder's loaded data)
                     raw_parcels = self.finder.raw_parcels or []
@@ -612,10 +571,11 @@ class NeighborOrchestrator:
                         except Exception:
                             pass
 
-                    map_generator = NeighborMapGenerator(
+                    run_id = cached.get("run_id", datetime.now().strftime("%Y%m%d_%H%M%S"))
+                    ring_gen = SentimentRingGenerator(
                         target_parcel=target_parcel_info,
-                        raw_parcels=raw_parcels,
                         neighbor_profiles=validated_neighbors,
+                        raw_parcels=raw_parcels,
                         mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
                         output_dir=str(output_dir.parent / "neighbor_map_outputs"),
                         style=settings.MAPBOX_STYLE,
@@ -624,39 +584,18 @@ class NeighborOrchestrator:
                         padding=settings.MAP_PADDING,
                         retina=settings.MAP_RETINA,
                     )
+                    ring_result = ring_gen.generate(run_id=run_id)
 
-                    run_id = cached.get("run_id", datetime.now().strftime("%Y%m%d_%H%M%S"))
-                    map_result = map_generator.generate(run_id=run_id)
-
-                    if map_result.success:
-                        print(f"✅ Map generated: {map_result.image_path}")
-                        print(
-                            f"   Strategy: {map_result.generation_result.strategy_used}, "
-                            f"Parcels: {map_result.generation_result.parcels_rendered}"
-                        )
-                        cached["map_image_path"] = map_result.image_path
-                        cached["map_thumbnail_path"] = map_result.thumbnail_path
-                        cached["map_legend_html"] = map_result.legend_html
-                        cached["map_labels"] = map_result.labels
-                        cached["map_metadata"] = map_result.metadata
+                    if ring_result.success:
+                        print(f"✅ Sentiment ring map generated: {ring_result.image_path}")
+                        cached["map_image_path"] = ring_result.image_path
+                        cached["map_ring_stats"] = ring_result.ring_stats
+                        cached["map_metadata"] = ring_result.metadata
                     else:
-                        print(
-                            f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
-                        )
-
-                    # Generate full-page map (includes ALL neighbors regardless of influence)
-                    fullpage_data = generate_fullpage_map(
-                        target_parcel=target_parcel_info,
-                        raw_parcels=raw_parcels,
-                        neighbor_profiles=validated_neighbors,
-                        output_dir=output_dir,
-                        run_id=run_id,
-                    )
-                    if fullpage_data:
-                        cached.update(fullpage_data)
+                        print(f"⚠️ Ring map generation failed: {ring_result.metadata.get('error', 'Unknown')}")
 
                 except Exception as e:
-                    print(f"⚠️ Failed to generate map: {e}")
+                    print(f"⚠️ Failed to generate ring map: {e}")
             elif not raw_parcels_file.exists():
                 print("⚠️ Skipping map generation - raw_parcels.json not found (run without --no-clean first)")
             elif not settings.MAPBOX_ACCESS_TOKEN:
@@ -1405,12 +1344,11 @@ class NeighborOrchestrator:
                 )
                 continue
 
-        # Generate neighbor map visualization BEFORE aggregation
-        # (map needs validated_neighbors for parcel coloring, but labels are anonymized)
+        # Generate sentiment ring map BEFORE aggregation
         output_dir = Path(__file__).parent.parent / "neighbor_outputs"
         output_dir.mkdir(parents=True, exist_ok=True)
         map_image_path = None
-        map_thumbnail_path = None
+        map_ring_stats = None
         map_metadata = None
         map_result = None
         try:
@@ -1420,11 +1358,11 @@ class NeighborOrchestrator:
                 and target_parcel_info
                 and self.finder.raw_parcels
             ):
-                print(f"\n🗺️  Generating neighbor map visualization...")
-                map_generator = NeighborMapGenerator(
+                print(f"\n🗺️  Generating sentiment ring map...")
+                ring_gen = SentimentRingGenerator(
                     target_parcel=target_parcel_info,
-                    raw_parcels=self.finder.raw_parcels,
                     neighbor_profiles=validated_neighbors,
+                    raw_parcels=self.finder.raw_parcels,
                     mapbox_token=settings.MAPBOX_ACCESS_TOKEN,
                     output_dir=str(output_dir.parent / "neighbor_map_outputs"),
                     style=settings.MAPBOX_STYLE,
@@ -1433,38 +1371,22 @@ class NeighborOrchestrator:
                     padding=settings.MAP_PADDING,
                     retina=settings.MAP_RETINA,
                 )
+                ring_result = ring_gen.generate(run_id=run_id)
 
-                map_result = map_generator.generate(run_id=run_id)
-
-                if map_result.success:
-                    print(f"✅ Map generated: {map_result.image_path}")
-                    print(
-                        f"   Strategy: {map_result.generation_result.strategy_used}, "
-                        f"Parcels: {map_result.generation_result.parcels_rendered}"
-                    )
-                    map_image_path = map_result.image_path
-                    map_thumbnail_path = map_result.thumbnail_path
-                    map_metadata = map_result.metadata
+                if ring_result.success:
+                    print(f"✅ Sentiment ring map generated: {ring_result.image_path}")
+                    map_image_path = ring_result.image_path
+                    map_ring_stats = ring_result.ring_stats
+                    map_metadata = ring_result.metadata
                 else:
-                    print(
-                        f"⚠️ Map generation failed: {map_result.generation_result.error_message if map_result.generation_result else 'Unknown error'}"
-                    )
-
-                # Generate full-page map (includes ALL neighbors regardless of influence)
-                generate_fullpage_map(
-                    target_parcel=target_parcel_info,
-                    raw_parcels=self.finder.raw_parcels,
-                    neighbor_profiles=validated_neighbors,
-                    output_dir=output_dir,
-                    run_id=run_id,
-                )
+                    print(f"⚠️ Ring map generation failed: {ring_result.metadata.get('error', 'Unknown')}")
 
             elif not settings.MAPBOX_ACCESS_TOKEN:
                 print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
             elif not target_parcel_info:
                 print("⚠️ Skipping map generation - no target parcel info available")
         except Exception as e:
-            print(f"⚠️ Failed to generate map: {e}")
+            print(f"⚠️ Failed to generate ring map: {e}")
 
         # =====================================================================
         # AGGREGATION BOUNDARY — Convert PII-bearing profiles to aggregate stats
@@ -1483,7 +1405,7 @@ class NeighborOrchestrator:
             run_id=run_id,
             runtime_minutes=round((time.time() - t0) / 60.0, 2),
             map_image_path=map_image_path,
-            map_thumbnail_path=map_thumbnail_path,
+            map_ring_stats=map_ring_stats,
             map_metadata=map_metadata,
         )
 

@@ -70,6 +70,7 @@ class MapboxClient:
         padding: int = 50,
         retina: bool = True,
         output_path: Optional[str] = None,
+        strategy: Literal["auto", "geojson", "polyline"] = "auto",
     ) -> MapGenerationResult:
         """
         Generate static map image with automatic strategy selection.
@@ -82,6 +83,8 @@ class MapboxClient:
             padding: Padding around features in pixels
             retina: Whether to generate @2x retina image
             output_path: Where to save the image (optional)
+            strategy: Rendering strategy — "geojson" for filled polygons,
+                      "polyline" for outline-only, "auto" tries geojson then polyline
 
         Returns:
             MapGenerationResult with success status and details
@@ -97,7 +100,46 @@ class MapboxClient:
                 url_length=0,
             )
 
-        # Always use polyline encoding (no fill, outline only)
+        # --- GeoJSON strategy (supports fill) ---
+        if strategy in ("geojson", "auto"):
+            logger.info("Trying GeoJSON strategy for map rendering...")
+            url = self._build_geojson_url(
+                geojson_features, marker_overlay, width, height, padding, retina
+            )
+            logger.debug(f"GeoJSON URL length: {len(url)}")
+
+            if len(url) <= self.MAX_URL_LENGTH:
+                return self._fetch_and_save(
+                    url, output_path, "geojson", len(geojson_features)
+                )
+
+            # Try with simplified features
+            logger.info("GeoJSON URL too long, trying simplified...")
+            simplified_features = self._simplify_features(geojson_features)
+            url = self._build_geojson_url(
+                simplified_features, marker_overlay, width, height, padding, retina
+            )
+            logger.debug(f"Simplified GeoJSON URL length: {len(url)}")
+
+            if len(url) <= self.MAX_URL_LENGTH:
+                return self._fetch_and_save(
+                    url, output_path, "geojson", len(geojson_features)
+                )
+
+            if strategy == "geojson":
+                return MapGenerationResult(
+                    success=False,
+                    image_path=None,
+                    image_url=None,
+                    strategy_used="none",
+                    error_message=f"GeoJSON URL too long ({len(url)} chars).",
+                    parcels_rendered=0,
+                    url_length=len(url),
+                )
+
+            logger.info("GeoJSON too large, falling back to polyline...")
+
+        # --- Polyline strategy (outline only) ---
         logger.info("Using polyline strategy for map rendering...")
         url = self._build_polyline_url(
             geojson_features, marker_overlay, width, height, padding, retina

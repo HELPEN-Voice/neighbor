@@ -237,7 +237,7 @@ async def aggregate_neighbors(
     run_id: Optional[str] = None,
     runtime_minutes: Optional[float] = None,
     map_image_path: Optional[str] = None,
-    map_thumbnail_path: Optional[str] = None,
+    map_ring_stats: Optional[list] = None,
     map_metadata: Optional[dict] = None,
 ) -> dict:
     """Convert individual neighbor profiles into an aggregate PII-free result.
@@ -254,8 +254,8 @@ async def aggregate_neighbors(
         city, county, state: Location metadata
         run_id: Pipeline run identifier
         runtime_minutes: Total pipeline runtime
-        map_image_path: Path to generated map image (parcels without name labels)
-        map_thumbnail_path: Path to thumbnail
+        map_image_path: Path to generated ring map image
+        map_ring_stats: List of ring stat dicts from SentimentRingGenerator
         map_metadata: Map generation metadata
 
     Returns:
@@ -298,7 +298,7 @@ async def aggregate_neighbors(
         run_id=run_id,
         runtime_minutes=runtime_minutes,
         map_image_path=map_image_path,
-        map_thumbnail_path=map_thumbnail_path,
+        map_ring_stats=map_ring_stats,
         map_metadata=map_metadata,
     )
 

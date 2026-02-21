@@ -73,7 +73,7 @@ class NeighborAggregateResult(BaseModel):
     runtime_minutes: Optional[float] = None
     success: bool = True
 
-    # Map (parcels rendered without names)
+    # Map (sentiment rings — no individual parcels)
     map_image_path: Optional[str] = None
-    map_thumbnail_path: Optional[str] = None
+    map_ring_stats: Optional[List[dict]] = None
     map_metadata: Optional[dict] = None
