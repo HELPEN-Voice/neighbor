@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-20T17:46:31.460171",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three neighboring entities are personal family trusts holding farmland in Saline County. They are not commercial developers or investment firms, and their community influence is limited, but as adjacent landowners their support or opposition could sway local sentiment. None shows evidence of organized opposition funding or competing development interests; their concerns likely center on preserving agricultural land versus benefiting from lease income.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Dye Elan Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000800001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dye Elan Revocable Trust is a private living trust presumably used by a local landowner to hold farmland in Saline County; such revocable trusts are commonly used by farmers for managing and transferring land assets [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). The trust’s parcel is adjacent to a proposed 1,000-acre solar farm on county land, and the developer has been negotiating contracts with surrounding landowners in that area [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Individual farm owner; no known broader political or economic influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the trust’s landowner (trustee) directly with transparency; emphasize how the project can provide steady income while respecting the farm’s legacy. Be prepared to address concerns about farmland preservation and involve them in planning to build trust."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fulton Ruby A Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fulton Ruby A Trust appears to be a personal trust for Ruby A. Fulton, holding family land with no corporate operations; like many farm trusts, it likely serves as an estate planning tool to manage and eventually transfer farmland assets [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). This trust’s property lies near the county-owned farmland slated for a large solar project, and the solar developer has interacted with nearby landowners about participation agreements [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small-scale landholder; minimal public profile or community sway beyond immediate neighbors",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the trust’s representative (family landowner) personally and respectfully; underscore the mutual benefits of the project, such as supplemental income, while assuring that agricultural use and land value will be protected. Address any concerns about losing farmland productivity to gain their support."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085125220000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cossette Jerrold E Jr Tr & Cossette J E Sr represents a family trust involving two generations (Jr. and Sr.), indicating a multi-generational farmland holding structured for estate succession and continuity [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). The trust’s Saline County land is in the vicinity of the proposed solar farm site, and the project developer has been working with neighboring landowners on potential lease contracts [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family farm trust; no significant influence outside their property ownership, though long local tenure may give them some neighborly credibility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Cossette family trustees directly, acknowledging their long-term stake in the land. Emphasize how a solar lease can provide secure income for the family while still preserving the land for future generations, and offer assurances about minimal disruption to their farming legacy."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three neighboring entities are personal family trusts holding farmland in Saline County. They are not commercial developers or investment firms, and their community influence is limited, but as adjacent landowners their support or opposition could sway local sentiment. None shows evidence of organized opposition funding or competing development interests; their concerns likely center on preserving agricultural land versus benefiting from lease income.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Dye Elan Revocable Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"085128270000000800001\"],\n      \"claims\": \"Dye Elan Revocable Trust is a private living trust presumably used by a local landowner to hold farmland in Saline County; such revocable trusts are commonly used by farmers for managing and transferring land assets [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). The trust’s parcel is adjacent to a proposed 1,000-acre solar farm on county land, and the developer has been negotiating contracts with surrounding landowners in that area [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Individual farm owner; no known broader political or economic influence\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preserve family farmland\", \"Lease revenue opportunity\", \"Maintain rural character\"],\n      \"approach_recommendations\": \"Engage the trust’s landowner (trustee) directly with transparency; emphasize how the project can provide steady income while respecting the farm’s legacy. Be prepared to address concerns about farmland preservation and involve them in planning to build trust.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Fulton Ruby A Trust\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"085128270000000200001\"],\n      \"claims\": \"Fulton Ruby A Trust appears to be a personal trust for Ruby A. Fulton, holding family land with no corporate operations; like many farm trusts, it likely serves as an estate planning tool to manage and eventually transfer farmland assets [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). This trust’s property lies near the county-owned farmland slated for a large solar project, and the solar developer has interacted with nearby landowners about participation agreements [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Small-scale landholder; minimal public profile or community sway beyond immediate neighbors\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preserve family farmland\", \"Lease revenue opportunity\", \"Maintain rural character\"],\n      \"approach_recommendations\": \"Approach the trust’s representative (family landowner) personally and respectfully; underscore the mutual benefits of the project, such as supplemental income, while assuring that agricultural use and land value will be protected. Address any concerns about losing farmland productivity to gain their support.\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Cossette Jerrold E Jr Tr & Cossette J E Sr\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"trust\",\n      \"pins\": [\"085125220000000200001\"],\n      \"claims\": \"Cossette Jerrold E Jr Tr & Cossette J E Sr represents a family trust involving two generations (Jr. and Sr.), indicating a multi-generational farmland holding structured for estate succession and continuity [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). The trust’s Saline County land is in the vicinity of the proposed solar farm site, and the project developer has been working with neighboring landowners on potential lease contracts [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Family farm trust; no significant influence outside their property ownership, though long local tenure may give them some neighborly credibility\",\n      \"entity_classification\": \"agriculture\",\n      \"potential_motivators\": [\"Preserve family farmland\", \"Lease revenue opportunity\", \"Maintain rural character\"],\n      \"approach_recommendations\": \"Engage the Cossette family trustees directly, acknowledging their long-term stake in the land. Emphasize how a solar lease can provide secure income for the family while still preserving the land for future generations, and offer assurances about minimal disruption to their farming legacy.\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

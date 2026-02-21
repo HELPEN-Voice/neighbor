@@ -1,8 +1,38 @@
 {
-  "batch_idx": 4,
-  "total_batches": 5,
-  "entity_type": "organization",
   "neighbors": [
+    {
+      "neighbor_id": "N-03",
+      "name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085125220000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cossette Jerrold E Jr Tr & Cossette J E Sr represents a family trust involving two generations (Jr. and Sr.), indicating a multi-generational farmland holding structured for estate succession and continuity [Farmland Access Legal Toolkit](https://farmlandaccess.org/trusts/). The trust\u2019s Saline County land is in the vicinity of the proposed solar farm site, and the project developer has been working with neighboring landowners on potential lease contracts [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family farm trust; no significant influence outside their property ownership, though long local tenure may give them some neighborly credibility",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Cossette family trustees directly, acknowledging their long-term stake in the land. Emphasize how a solar lease can provide secure income for the family while still preserving the land for future generations, and offer assurances about minimal disruption to their farming legacy."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
     {
       "neighbor_id": "N-01",
       "name": "Forsberg Farm Trust",
@@ -36,9 +66,5 @@
       "disambiguation": null,
       "citations": null
     }
-  ],
-  "annotations": [],
-  "overview_summary": "The landowner identified is a private family farm trust rather than a formal company. It appears to be an estate-planning vehicle holding farmland, with no public corporate filings or obvious community leadership role. This suggests low-profile ownership focused on family asset management rather than organized development activism.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_174730_7973.json",
-  "cached_at": "2026-02-20T17:47:30.798245"
+  ]
 }

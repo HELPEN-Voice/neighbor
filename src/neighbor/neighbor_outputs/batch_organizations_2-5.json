@@ -5,21 +5,21 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Harbin Farm Enterprises Llc",
+      "name": "Harbin Farm Enterprises LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
         "085128280000000200001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Harbin Farm Enterprises Llc is registered in Kansas as a domestic limited liability company with no known active business operations beyond holding farmland [Kansas Secretary of State](https://www.kansas.gov/bess). The Harbin name is established locally (e.g., Harbin Construction, L.L.C. is a Salina-based firm), suggesting the LLC is tied to a local family farming enterprise [CorporationWiki](https://www.corporationwiki.com/Kansas/Salina/harbin-construction-llc/48471426.aspx). There are no public records of commercial transactions, liens, or projects involving Harbin Farm Enterprises Llc apart from land ownership, and it has no online presence or listed executives (implying a family-run entity) [Kansas Secretary of State](https://www.kansas.gov/bess).",
-      "confidence": "medium",
+      "claims": "Harbin Farm Enterprises, L.L.C. is registered at 2900 East Water Well Road in Salina, Kansas, alongside related Harbin entities (Investments, Partners) at the same address [City-Data Business Directory](https://www.city-data.com/business-entities/Salina-KS-H.html). The Harbin family\u2019s farm enterprise has received about $59,600 in federal farm subsidies from 1995\u20132024, confirming active agricultural operations [EWG Farm Subsidies](https://farm.ewg.org/addrsearch.php?page=21&z=1&zip=67401). Nearby landowners (including Harbin\u2019s property) filed a formal protest petition against a proposed battery storage facility at a neighboring site, reflecting this entity\u2019s opposition to industrial energy development on local farmland [KSAL](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/).",
+      "confidence": "high",
       "noted_stance": null,
-      "community_influence": "Medium",
-      "influence_justification": "Local family business presence (Harbin construction firm) and significant farmland ownership in area",
+      "community_influence": "High",
+      "influence_justification": "Multi-generational local family with diversified businesses (farming, construction) and extensive land holdings; able to mobilize community opposition",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Engage the Harbin family personally, emphasizing respect for their farming legacy and offering roles or benefits (e.g., contracting opportunities) that align with their economic interests to foster support."
+        "engage": "Engage the Harbin family leadership directly, acknowledging their heritage and addressing safety/aesthetic concerns; consider involving their construction business in project benefits to build goodwill"
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -49,8 +49,11 @@
       "confidence": "low",
       "noted_stance": null,
       "community_influence": "Unknown",
-      "influence_justification": "",
-      "approach_recommendations": null,
+      "influence_justification": "See RESIDENT table",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See Report/Resident outreach (individual landowner trust)"
+      },
       "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
@@ -68,21 +71,21 @@
     },
     {
       "neighbor_id": "N-03",
-      "name": "Bradshaw Business Properties Llc",
+      "name": "Bradshaw Business Properties LLC",
       "entity_category": "Organization",
       "entity_type": "llc",
       "pins": [
         "085128280000000500001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Bradshaw Business Properties Llc is a Kansas-registered LLC that appears to function solely as a property holding entity without any operating business or local storefront [Kansas Secretary of State](https://www.kansas.gov/bess). The company\u2019s only public footprint is in land records; it is listed as the owner of at least one parcel in Saline County, and no other business activities or community engagements are evident [Saline County GIS](https://www.salinecountyks.gov/gis-mapping). No online presence, employees, or industry filings are associated with this LLC, indicating it serves as a passive investment vehicle for real estate assets (likely managed by an individual or family named Bradshaw) [Kansas Secretary of State](https://www.kansas.gov/bess).",
-      "confidence": "low",
+      "claims": "Bradshaw Business Properties, L.L.C. is a landholding entity that owns a tract adjoining the proposed energy project area near S. Simpson and E. McReynolds Roads and was identified as a notified property owner during project proceedings [KSAL](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/). This LLC has no reported farming activity or local business operations, indicating it functions as a passive real-estate investment vehicle (no state subsidies or local industry listings found).",
+      "confidence": "medium",
       "noted_stance": null,
-      "community_influence": "Low",
-      "influence_justification": "Out-of-town/absentee investor with no local operations; influence limited to property ownership",
+      "community_influence": "Medium",
+      "influence_justification": "Owns strategic parcel in project area; financial resources not publicly known, but as an investment LLC it can hire legal counsel or sell strategically",
       "approach_recommendations": {
         "motivations": [],
-        "engage": "Approach the LLC\u2019s principal (the Bradshaw owner) with a proposal that highlights substantial financial gains (e.g., premium buyout or lease terms) to align their profit motive with the project and preempt any opposition."
+        "engage": "Deal directly with the LLC\u2019s owner/representative with a strong financial offer; emphasize the return on investment and offer above-market lease or buyout terms to gain cooperation"
       },
       "entity_classification": "land_investment",
       "profile_summary": null,
@@ -101,7 +104,7 @@
     }
   ],
   "annotations": [],
-  "overview_summary": "The neighboring entities consist mainly of small private agricultural interests and one landholding investor. Harbin Farm Enterprises LLC and the Tillberg trust indicate family farm operations with a focus on farming continuity, while Bradshaw Business Properties LLC appears to be a speculative land investment vehicle. None of these landowners have publicly declared a stance, but their motivations likely range from preserving agricultural use to maximizing land value.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_113940_2340.json",
-  "cached_at": "2026-02-20T11:39:40.234989"
+  "overview_summary": "The neighboring landowners include a diversified local farming enterprise (Harbin Farm Enterprises LLC), a private family trust (Arnold E. Tillberg Trust), and a land-holding LLC (Bradshaw Business Properties LLC). The Harbin family operates multiple businesses and holds extensive acreage, indicating significant local influence. The trust represents an individual\u2019s farmland estate, while Bradshaw Business Properties appears to be a passive investor with no active farming, suggesting a speculative interest in land value. These entities could present opposition to new development, rooted in preserving agricultural use and property values, though financial incentives might sway the investment-focused owner.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_174715_4425.json",
+  "cached_at": "2026-02-20T17:47:15.443539"
 }

@@ -1,8 +1,77 @@
 {
-  "batch_idx": 4,
-  "total_batches": 5,
-  "entity_type": "person",
   "neighbors": [
+    {
+      "neighbor_id": "N-02",
+      "name": "Bebe Davis Tucker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085125210000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bebe Davis Tucker is a Saline County landowner in the vicinity of the proposed battery storage site; local residents in her area filed a protest petition to block that project in late 2025 [KWCH](https://www.kwch.com/2026/01/06/saline-county-commission-rejects-proposed-battery-storage-facility-after-resident-petition/). Neighbors, reflecting views she likely shares, argued that such industrial development \u201cdid not fit the landscape or their rural lifestyle\u201d in the community [KSAL](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/).",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Low-profile rural resident",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "farmland_preservation"
+        ],
+        "engage": "Reach out in person through a familiar neighbor or community member she trusts. Emphasize respect for her rural lifestyle and explain what will be done to maintain the peace, quiet, and agricultural character of the area."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rodney A. Bradshaw",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000201001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rodney A. Bradshaw and his wife (Arzella) have operated a Kansas farm made up of five land parcels, indicating a substantial stake in local agriculture [FindLaw](https://caselaw.findlaw.com/court/us-10th-circuit/2009267.html). He joined other Saline County landowners in formally protesting a 2025 plan to site a battery storage facility near his property, citing safety and incompatibility with the rural community\u2019s character [KWCH](https://www.kwch.com/2026/01/06/saline-county-commission-rejects-proposed-battery-storage-facility-after-resident-petition/).",
+      "confidence": "medium",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Small farm owner; not in office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control"
+        ],
+        "engage": "Have a trusted agricultural advisor or local official initiate dialogue. Acknowledge his concerns about safety and property rights, and highlight any community oversight measures or land-use protections that give him a sense of control over the project\u2019s impacts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
     {
       "neighbor_id": "N-01",
       "name": "Steven G. Dunning & Cynthia D. Dunning",
@@ -75,9 +144,5 @@
       "disambiguation": null,
       "citations": null
     }
-  ],
-  "annotations": [],
-  "overview_summary": "Neither Saline County neighbor has a clearly documented stance on the proposed development. Both appear to be private landowners with limited public roles, and no high-influence community figures were identified among them.",
-  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_174717_6368.json",
-  "cached_at": "2026-02-20T17:47:17.637413"
+  ]
 }

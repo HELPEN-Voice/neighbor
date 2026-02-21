@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-20T17:46:46.783064",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three neighboring landowners have no recorded public stance on the development or clean energy (all are classified as \"unknown\" stance). Each appears to have a low community profile with no evident official roles, indicating limited direct influence locally.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Wade Waddle & Tiffany Waddle",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000600001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Waddle surname has deep roots in Saline County, with historical records noting a Samuel Waddle as a pioneering settler in the late 1800s [Kansas GenWeb Archives](https://www.ksgenweb.org/archives/1918ks/biow/waddlesh.html). Public records list Wade and Tiffany Waddle as landowners in Saline County, but they do not appear to hold any public office or participate in local civic boards [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13). No public statements or petition signatories regarding development or energy projects were found under the Waddles’ names in available county news and meeting archives [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic roles or public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Given their low public profile, a respectful, neighborly outreach by a local peer (such as a fellow farmer or community liaison) is advised, focusing on listening to any concerns they may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Justin D. Jensen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085125220000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin D. Jensen is identified as a Saline County property owner, with no evidence of prominent community positions or public commentary on development issues [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13). He appears to be one of many local farmers (over 420 in the county received USDA subsidies in 2021) and does not stand out in local news or civic discussions [SE Illinois News](https://seillinoisnews.com/stories/655164698-farm-subsidies-plummet-in-2021-across-cities-in-saline-county). No mentions of Jensen’s involvement in any development-related meetings or petitions were found in Saline County media archives [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic roles or public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Justin Jensen has not been publicly active on local issues, an informal one-on-one approach through a mutual acquaintance or neighbor is recommended, with transparent information about the project to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Ronald A. Kinkelaar & Sandra K. Kinkelaar",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000601001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ronald and Sandra Kinkelaar own property in Saline County, according to county parcel records, but have a minimal public profile (no social or civic leadership roles found) [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13). Their names do not appear among prominent farm program recipients or local civic leaders, suggesting they are private landowners without public-facing activities [SE Illinois News](https://seillinoisnews.com/stories/655164698-farm-subsidies-plummet-in-2021-across-cities-in-saline-county). No evidence was found of the Kinkelaars taking any public stance or attending meetings related to development or clean energy in the area [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No civic roles or public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A friendly introduction via a trusted community member would be suitable for the Kinkelaars. Given their low-key presence, approaching them privately and addressing any questions openly and patiently can help in understanding their perspective."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three neighboring landowners have no recorded public stance on the development or clean energy (all are classified as \\\"unknown\\\" stance). Each appears to have a low community profile with no evident official roles, indicating limited direct influence locally.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Wade Waddle & Tiffany Waddle\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128270000000600001\"],\n      \"claims\": \"The Waddle surname has deep roots in Saline County, with historical records noting a Samuel Waddle as a pioneering settler in the late 1800s [Kansas GenWeb Archives](https://www.ksgenweb.org/archives/1918ks/biow/waddlesh.html). Public records list Wade and Tiffany Waddle as landowners in Saline County, but they do not appear to hold any public office or participate in local civic boards [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13). No public statements or petition signatories regarding development or energy projects were found under the Waddles’ names in available county news and meeting archives [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic roles or public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Given their low public profile, a respectful, neighborly outreach by a local peer (such as a fellow farmer or community liaison) is advised, focusing on listening to any concerns they may have.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Justin D. Jensen\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085125220000000400001\"],\n      \"claims\": \"Justin D. Jensen is identified as a Saline County property owner, with no evidence of prominent community positions or public commentary on development issues [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13). He appears to be one of many local farmers (over 420 in the county received USDA subsidies in 2021) and does not stand out in local news or civic discussions [SE Illinois News](https://seillinoisnews.com/stories/655164698-farm-subsidies-plummet-in-2021-across-cities-in-saline-county). No mentions of Jensen’s involvement in any development-related meetings or petitions were found in Saline County media archives [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic roles or public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Since Justin Jensen has not been publicly active on local issues, an informal one-on-one approach through a mutual acquaintance or neighbor is recommended, with transparent information about the project to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Ronald A. Kinkelaar & Sandra K. Kinkelaar\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128280000000601001\"],\n      \"claims\": \"Ronald and Sandra Kinkelaar own property in Saline County, according to county parcel records, but have a minimal public profile (no social or civic leadership roles found) [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13). Their names do not appear among prominent farm program recipients or local civic leaders, suggesting they are private landowners without public-facing activities [SE Illinois News](https://seillinoisnews.com/stories/655164698-farm-subsidies-plummet-in-2021-across-cities-in-saline-county). No evidence was found of the Kinkelaars taking any public stance or attending meetings related to development or clean energy in the area [Saline County Board Records](https://bm-public-salinecounty.escribemeetings.com/BoardDetails/BoardInformation/13).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No civic roles or public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"A friendly introduction via a trusted community member would be suitable for the Kinkelaars. Given their low-key presence, approaching them privately and addressing any questions openly and patiently can help in understanding their perspective.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
