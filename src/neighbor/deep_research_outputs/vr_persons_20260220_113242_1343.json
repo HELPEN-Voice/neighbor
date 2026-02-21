@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-02-20T12:46:19.117792",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_113242_1343.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven G Dunning & Cynthia D Dunning",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven G. Dunning and Cynthia D. Dunning are associated with a property on Holmes Road in Assaria, Kansas, which is situated in the vicinity of a proposed solar project described as being east of South Holmes Road [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81) [Men Stopping Violence](https://www.menstoppingviolence.org/people/cynthia-dunning/). Steven Dunning serves as the President of Salina Planing Mill, Inc., a role he has held for over 14 years, and is involved in the Architectural Woodwork Institute [Miller Wood Trade Pub](https://millerwoodtradepub.com/whos-who-march-2024/) [AWI](https://awinet.org/about-awi/chapters/). He has also made local political contributions using a Salina business address [Kansas Ethics](http://ethics.ks.gov/CFAScanned/StWide/2018ElecCycle/201801/SW01MH_201801.pdf). As of early 2026, neither individual has been noted making public statements regarding renewable development in county meeting minutes.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local business president; industry chapter leader",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Approach Steven with a professional tone, acknowledging his leadership at Salina Planing Mill. Focus discussion on the Holmes Road property's proximity to the project, emphasizing property value protection and fair contracting terms suitable for a business-minded landowner."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Property described as east of South Holmes Road",
+          "url": "https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81",
+          "title": "Saline County Commission: Proposal for possible 1,000 acre solar farm",
+          "date": "2023-06-23"
+        },
+        {
+          "claim": "Cynthia Dunning associated with property on Holmes Road",
+          "url": "https://www.menstoppingviolence.org/people/cynthia-dunning/",
+          "title": "Cynthia Dunning Address History",
+          "date": "2026-02-20"
+        },
+        {
+          "claim": "Steven Dunning serves as President of Salina Planing Mill",
+          "url": "https://millerwoodtradepub.com/whos-who-march-2024/",
+          "title": "Who's Who in Hardwood Purchasing",
+          "date": "2024-03-01"
+        },
+        {
+          "claim": "Involved in the Architectural Woodwork Institute",
+          "url": "https://awinet.org/about-awi/chapters/",
+          "title": "AWI Chapters: Heart of America",
+          "date": "2026-02-20"
+        },
+        {
+          "claim": "Made local political contributions using business address",
+          "url": "http://ethics.ks.gov/CFAScanned/StWide/2018ElecCycle/201801/SW01MH_201801.pdf",
+          "title": "Kansas Ethics Commission Receipts and Expenditures Report",
+          "date": "2018-01-11"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ellen Kay Ward",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085124200000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ellen Kay Ward is an absentee landowner residing in Tahlequah, Oklahoma, who receives agricultural subsidies for property in Saline County, Kansas [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=20169&progcode=total_dis&page=4&yr=2024). She is the daughter of the late Kurtiss Forsberg, a distinguished local dairy farmer in the Mentor area, indicating the property is likely a family legacy asset [Crick-Christians Funeral Home](https://www.crick-christiansfuneralhome.com/obituaries/Kurtiss-Forsberg?obId=30920719). She has not spoken publicly about the project in local hearings, likely due to her out-of-state residency.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee landowner; daughter of local dairy farmer",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Contact via mail in Tahlequah, OK. Reference her father's (Kurtiss Forsberg) agricultural legacy in the Mentor area to build trust. Position the project as a way to retain family land ownership through passive income while preserving the farm's history."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Resides in Tahlequah, Oklahoma and receives agricultural subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=total_dis&page=4&yr=2024",
+          "title": "EWG Farm Subsidy Database: Saline County, KS",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Daughter of the late Kurtiss Forsberg, a distinguished local dairy farmer",
+          "url": "https://www.crick-christiansfuneralhome.com/obituaries/Kurtiss-Forsberg?obId=30920719",
+          "title": "Obituary for Kurtiss Forsberg",
+          "date": "2011-01-27"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 548025,
+    "thinking_count": 30
+  }
+}

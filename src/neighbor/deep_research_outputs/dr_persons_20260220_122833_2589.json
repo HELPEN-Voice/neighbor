@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-02-20T12:28:33.259000",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighbors have an **unknown stance** on the development, as none has made public statements for or against it. In terms of community influence, only one (a multi-generation farm family) is rated **Medium** influence, while the others are considered **Low** influence due to lack of public roles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Wade & Tiffany Waddle",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000600001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Waddle family name has deep roots in Saline County farming, with records of a Waddle homesteader settling here in 1866 [Access Genealogy](https://accessgenealogy.com/iowa/biography-of-samuel-h-waddle.htm). Wade and Tiffany Waddle represent this long-standing local family; they farm in the area today but have not been prominent in any public development debates [Access Genealogy](https://accessgenealogy.com/iowa/biography-of-samuel-h-waddle.htm).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime local farming family",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Connect via a trusted fellow farmer or community leader. Emphasize respect for their family’s long farming heritage and explain how any project would align with preserving their land for future generations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Justin D. Jensen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085125220000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin D. Jensen works as a sales agronomist with Nutrien Ag Solutions, advising local farmers on crop production [LinkedIn](https://clay.earth/profile/justin-jensen). His family’s Saline County land was involved in a notable 2004 property valuation dispute (filed under Richard R. Jensen and Sandra L. Jensen) against the county appraiser [FindLaw](https://caselaw.findlaw.com/ks-court-of-appeals/1418887.html).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Agronomy advisor; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach with a data-driven discussion through an agricultural peer or extension agent. Providing clear technical and economic information about the project’s impacts will resonate given his agronomy background."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Ronald A. & Sandra K. Kinkelaar",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000601001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ronald A. and Sandra K. Kinkelaar are longtime Saline County landowners residing in the rural Gypsum area (ZIP code 67448) [LocateFamily](https://www.locatefamily.com/Street-Lists/USA/KS/67448/index3.html). They have maintained a low public profile, with no record of involvement in local development controversies [LocateFamily](https://www.locatefamily.com/Street-Lists/USA/KS/67448/index3.html).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime owners; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally through a mutual community contact. Emphasize that any project plans will respect their property rights and quiet rural lifestyle, addressing potential concerns while showing respect for their long-term stake in the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighbors have an **unknown stance** on the development, as none has made public statements for or against it. In terms of community influence, only one (a multi-generation farm family) is rated **Medium** influence, while the others are considered **Low** influence due to lack of public roles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Wade & Tiffany Waddle\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128270000000600001\"],\n      \"claims\": \"The Waddle family name has deep roots in Saline County farming, with records of a Waddle homesteader settling here in 1866 [Access Genealogy](https://accessgenealogy.com/iowa/biography-of-samuel-h-waddle.htm). Wade and Tiffany Waddle represent this long-standing local family; they farm in the area today but have not been prominent in any public development debates [Access Genealogy](https://accessgenealogy.com/iowa/biography-of-samuel-h-waddle.htm).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Longtime local farming family\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"heritage_family_legacy\", \"farmland_preservation\"],\n        \"engage\": \"Connect via a trusted fellow farmer or community leader. Emphasize respect for their family’s long farming heritage and explain how any project would align with preserving their land for future generations.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Justin D. Jensen\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085125220000000400001\"],\n      \"claims\": \"Justin D. Jensen works as a sales agronomist with Nutrien Ag Solutions, advising local farmers on crop production [LinkedIn](https://clay.earth/profile/justin-jensen). His family’s Saline County land was involved in a notable 2004 property valuation dispute (filed under Richard R. Jensen and Sandra L. Jensen) against the county appraiser [FindLaw](https://caselaw.findlaw.com/ks-court-of-appeals/1418887.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Agronomy advisor; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach with a data-driven discussion through an agricultural peer or extension agent. Providing clear technical and economic information about the project’s impacts will resonate given his agronomy background.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Ronald A. & Sandra K. Kinkelaar\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128280000000601001\"],\n      \"claims\": \"Ronald A. and Sandra K. Kinkelaar are longtime Saline County landowners residing in the rural Gypsum area (ZIP code 67448) [LocateFamily](https://www.locatefamily.com/Street-Lists/USA/KS/67448/index3.html). They have maintained a low public profile, with no record of involvement in local development controversies [LocateFamily](https://www.locatefamily.com/Street-Lists/USA/KS/67448/index3.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime owners; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out personally through a mutual community contact. Emphasize that any project plans will respect their property rights and quiet rural lifestyle, addressing potential concerns while showing respect for their long-term stake in the land.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

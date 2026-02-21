@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-02-20T12:56:25.063725",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_121819_0281.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Spare Bernard T & Debra E Living Tr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085129290000000100001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025 ([source](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). Bernard T. Spare served as the elected Township Treasurer for St. John Township in Stafford County, Kansas ([source](https://www.staffordcounty.org/uploads/1/3/3/6/133660997/st_john_2024.pdf)). The entity is a recipient of USDA agricultural subsidies ([source](https://farm.ewg.org/addrsearch.php?z=1&zip=67576&page=18)). Bernard and Debra Spare are listed as Water Use Correspondents for agricultural operations in Kansas ([source](https://sftp.kda.ks.gov:4443/Notices/Stafford_Field_Office/2025/11559.20250604.Apv.Chg.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Bernard Spare has held elected public office as Township Treasurer (Stafford County) and the family maintains long-standing agricultural water rights.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural land preservation",
+          "Property rights"
+        ],
+        "engage": "Acknowledge Bernard Spare's public service experience and the family's agricultural history. Address land stewardship and potential impacts of the nearby battery storage project, as they were legally notified of the development."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The Spare Living Trust represents a multigenerational farming family based in St. John, KS, with land interests in Saline County. Bernard T. Spare has served as an elected township official (Treasurer) and manages water rights for the family's agricultural operations. They were identified as notified parties for the Mountain Peak Energy Storage project.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Saline County Conditional Use Permit Application Appendix L-R",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Bernard T. Spare served as the elected Township Treasurer for St. John Township in Stafford County, Kansas",
+          "url": "https://www.staffordcounty.org/uploads/1/3/3/6/133660997/st_john_2024.pdf",
+          "title": "St. John Township Financial Report 2024",
+          "date": "2025-01-24"
+        },
+        {
+          "claim": "The entity is a recipient of USDA agricultural subsidies",
+          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=67576&page=18",
+          "title": "EWG Farm Subsidy Database - Debra E Spare",
+          "date": "2023-12-31"
+        },
+        {
+          "claim": "Bernard and Debra Spare are listed as Water Use Correspondents for agricultural operations in Kansas",
+          "url": "https://sftp.kda.ks.gov:4443/Notices/Stafford_Field_Office/2025/11559.20250604.Apv.Chg.pdf",
+          "title": "Kansas Department of Agriculture Water Use Correspondent Notice",
+          "date": "2025-06-04"
+        }
+      ],
+      "verification_notes": "Confirmed identity via water use records and subsidy data. Confirmed public office role in Stafford County. Stance on Saline County development is unknown, though they are within the notification radius for the Mountain Peak BESS project."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Myers Warren David & Vickie Diane Rev Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085129290000000601001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025 ([source](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). Warren Myers formerly served as a School Board Member for Southeast of Saline Schools (USD 306) ([source](https://www.ksde.gov/Portals/0/School%20Finance/budget/Budget_at_a_Glance/07-08_Summary/ProfileInformation306.pdf)). Warren also worked as a bus driver and sponsor for district activities ([source](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/1737f255-5c3c-4209-a2f0-251589002c80/April_2_.pdf?disposition=inline)). Vickie Myers has operated locally as a cake designer ([source](https://www.labrisaphotography.com/2015/02/16/lindsay-nolan-wedding-photography-salina-ks-chris-hsieh-emma-york/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Warren Myers is a former elected School Board Member for the local district (Southeast of Saline) and a long-time community volunteer.",
+      "approach_recommendations": {
+        "motivations": [
+          "Community welfare",
+          "Educational support",
+          "Local property impact"
+        ],
+        "engage": "Engage Warren and Vickie Myers directly. Acknowledge Warren's past service on the School Board. Be prepared to discuss visual and property impacts, as they were notified of the nearby battery storage project."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The Myers Revocable Trust is controlled by Warren and Vickie Myers, long-time residents of Assaria. Warren is a former Southeast of Saline School Board member and school employee. The family owns property near the proposed Mountain Peak Energy Storage facility and was included in the formal notification list for that project.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Saline County Conditional Use Permit Application Appendix L-R",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Warren Myers formerly served as a School Board Member for Southeast of Saline Schools (USD 306)",
+          "url": "https://www.ksde.gov/Portals/0/School%20Finance/budget/Budget_at_a_Glance/07-08_Summary/ProfileInformation306.pdf",
+          "title": "USD 306 Budget Profile Information 2007-2008",
+          "date": "2007-07-01"
+        },
+        {
+          "claim": "Warren also worked as a bus driver and sponsor for district activities",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/1737f255-5c3c-4209-a2f0-251589002c80/April_2_.pdf?disposition=inline",
+          "title": "Southeast of Saline Trojournal",
+          "date": "2001-04-20"
+        },
+        {
+          "claim": "Vickie Myers has operated locally as a cake designer",
+          "url": "https://www.labrisaphotography.com/2015/02/16/lindsay-nolan-wedding-photography-salina-ks-chris-hsieh-emma-york/",
+          "title": "La Brisa Photography Blog",
+          "date": "2015-02-16"
+        }
+      ],
+      "verification_notes": "Verified Warren Myers' past role on USD 306 School Board. Confirmed residence in Assaria/Saline County. Entity is listed on the notification radius for the contentious Mountain Peak battery project."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "J And M Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085129290000000602001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Likely associated with Jason and Matthew Myers, sons of Warren and Vickie Myers (N-02), who are listed as relatives in public records ([source](https://www.menstoppingviolence.org/people/vickie-myers/)). Jason Myers was a student-athlete at Southeast of Saline High School in the late 1990s ([source](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/38b8fa0d-5f21-4858-9290-c77419454576/April_4_.pdf?disposition=inline)). Matthew Myers is listed as a resident of Assaria, KS ([source](https://nationalpublicdata.com/people/m/matthew-myers/)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Beneficiaries appear to be the adult children of the Myers family (N-02). No independent community leadership roles found for this specific trust entity.",
+      "approach_recommendations": {
+        "motivations": [
+          "Family legacy",
+          "Land value"
+        ],
+        "engage": "Approach via Warren and Vickie Myers (N-02) to confirm the point of contact. The trust is likely a family estate planning vehicle for their sons, Jason and Matthew."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The J And M Trust is likely a family trust established for Jason and Matthew Myers, the adult sons of neighbors Warren and Vickie Myers. The parcel PIN sequence suggests a subdivision or relation to the Myers Revocable Trust (N-02).",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Likely associated with Jason and Matthew Myers, sons of Warren and Vickie Myers (N-02), who are listed as relatives in public records",
+          "url": "https://www.menstoppingviolence.org/people/vickie-myers/",
+          "title": "Public Record Profile: Vickie Myers",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Jason Myers was a student-athlete at Southeast of Saline High School in the late 1990s",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/38b8fa0d-5f21-4858-9290-c77419454576/April_4_.pdf?disposition=inline",
+          "title": "Southeast of Saline Trojournal Archives",
+          "date": "1999-04-01"
+        },
+        {
+          "claim": "Matthew Myers is listed as a resident of Assaria, KS",
+          "url": "https://nationalpublicdata.com/people/m/matthew-myers/",
+          "title": "Public Record Directory: Matthew Myers",
+          "date": "2024-01-01"
+        }
+      ],
+      "verification_notes": "Explicit trust registration documents for 'J And M Trust' in Saline County were not found in available snippets, but public record family trees link Warren/Vickie Myers to sons Jason and Matthew, strongly implying the naming convention 'J and M'. PIN sequence is adjacent to Myers Trust."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 767241,
+    "thinking_count": 36
+  }
+}

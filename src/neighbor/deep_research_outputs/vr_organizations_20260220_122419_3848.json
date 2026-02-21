@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-02-20T12:54:24.000845",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_122419_3848.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Forsberg Farm Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085124200000000901001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Forsberg Farm Trust is a private landholding entity with a mailing address in Clinton, Illinois, care of Roger E. Forsberg ([Saline County Planning Notice](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). The entity was explicitly listed as a notified property owner for the Mountain Peak Energy Storage (Plus Power) project, a battery energy storage system proposed near Assaria, Kansas ([Saline County Planning Notice](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). While the Trust itself did not submit public comments, related family member Doug Forsberg (residing at 2652 E Mentor Rd) testified at a Planning Commission meeting in August 2023 regarding the project, expressing concerns about road conditions, blind spots, and traffic safety on Mattison Road ([Planning Commission Minutes](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338)). Related family entities, such as 'Forsberg Bros,' have been recipients of USDA agricultural subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_dairy&regionname=SalineCounty,Kansas)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "The Trust is an absentee owner (Illinois-based) and has not taken a public stance itself, though local family members are active in zoning hearings regarding infrastructure.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure maintenance",
+          "Road safety",
+          "Property value preservation"
+        ],
+        "engage": "Contact Trustee Roger E. Forsberg in Illinois for formal permissions. Simultaneously, engage local family member Doug Forsberg regarding road use agreements (RUMA) and traffic management plans, as he has a documented history of concern regarding industrial traffic on local roads."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Absentee farm trust based in Illinois (Roger E. Forsberg). The Trust was a notified neighbor for the Mountain Peak Battery Storage project. Local family member Doug Forsberg is vocal about road safety and infrastructure impacts from energy/industrial development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Mailing address is Clinton, Illinois, care of Roger E. Forsberg; listed as notified owner for Mountain Peak Energy Storage",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage Conditional Use Permit Application - Appendix L-R",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Doug Forsberg testified regarding road conditions and traffic safety at Planning Commission meeting",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning and Zoning Board Commission Meeting Minutes",
+          "date": "2023-08-22"
+        },
+        {
+          "claim": "Forsberg Bros recipient of USDA subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_dairy&regionname=SalineCounty,Kansas",
+          "title": "EWG Farm Subsidy Database - Saline County, KS",
+          "date": "2024-01-01"
+        }
+      ],
+      "verification_notes": "Corrected the draft's claim that no development link exists; found specific evidence of involvement in the Mountain Peak Energy Storage notification list. Clarified that while the Trust (Roger) is in IL, the local family (Doug) is vocal about infrastructure. Stance remains 'unknown' for the Trust entity itself as no letter from Roger was found, but the family sentiment leans toward scrutiny of infrastructure impacts."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 432139,
+    "thinking_count": 24
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "batch_idx": 2,
+  "total_batches": 5,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Dye Elan Revocable Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000800001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dye Elan Revocable Trust is a private revocable trust listed as a landowner in Saline County, Kansas [Saline County Appraiser](https://www.salinecountyks.gov/Appraiser/parcelsearch). It is not registered as a business entity in Kansas, and no public record links it to any development position [Kansas Secretary of State](https://www.sos.ks.gov/businesses/businesses.html).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Privately held by an individual with no known larger holdings or public leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Elan Dye (trustee/landowner) directly to hear any concerns and highlight project features that protect the value and use of their land"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fulton Ruby A Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Fulton Ruby A Trust is a personal trust associated with landowner Ruby A. Fulton in Saline County [Saline County Appraiser](https://www.salinecountyks.gov/Appraiser/parcelsearch). This trust has no listing in Kansas business entity records and no documented involvement in local development issues [Kansas Secretary of State](https://www.sos.ks.gov/businesses/businesses.html).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family trust of a private landowner; minimal visibility or authority in broader community affairs",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact Ruby A. Fulton personally to discuss any concerns; offer reassurances on minimal impact and potential benefits to her property"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085125220000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jerrold E. Cossette Jr (as trustee) and Jerrold E. Cossette Sr are listed as co-owners of a Saline County parcel under a family trust arrangement [Saline County Appraiser](https://www.salinecountyks.gov/Appraiser/parcelsearch). This family-held property is not associated with any registered business and has no public stance on development recorded in Kansas [Kansas Secretary of State](https://www.sos.ks.gov/businesses/businesses.html).",
+      "confidence": "low",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Family-owned land with no significant influence beyond immediate property ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Jerrold E. Cossette Jr (trustee) as the primary contact; acknowledge the family\u2019s long-term land interest and address any issues collaboratively"
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "All identified neighboring landowners are personal trusts of private individuals in Saline County. None of these trusts operates as a company or public organization, and there is no record of them taking any active stance on development. Their community influence is likely limited to their role as local landowners rather than any broader political or economic influence.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_121647_8624.json",
+  "cached_at": "2026-02-20T12:16:47.863138"
+}

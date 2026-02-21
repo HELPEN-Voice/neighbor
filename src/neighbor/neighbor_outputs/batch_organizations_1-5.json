@@ -1,0 +1,170 @@
+{
+  "batch_idx": 0,
+  "total_batches": 5,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "S&S Hammond LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000101001",
+        "085128270000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "S&S Hammond LLC is a Kansas domestic limited liability company that serves as a landholding entity for farmland in Saline County ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)). According to county property records, this LLC owns at least two adjacent agricultural parcels near the proposed development site (identified by the given PINs) ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)). The identities of its members are not publicly available, as Kansas law only requires LLC filings to list an official name and registered agent (not the owners\u2019 names) ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)). There is no public record of S&S Hammond LLC engaging in any business activity beyond passive land ownership, and no filings indicating involvement in energy or commercial development (no relevant UCC financing statements or cross-registrations found) ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Small private farmland holding; no known public profile or significant political connections",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Hammond family members behind S&S Hammond LLC through informal, respectful dialogue about the project\u2019s impact on farming operations. Emphasize measures to protect their remaining farmland (e.g., buffer zones, soil conservation) and consider offering agreements or compensation that address their concerns to prevent active opposition."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Hammond Family LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000100001",
+        "085128280000000103001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hammond Family LLC is another Kansas-registered limited liability company holding farmland in the same vicinity ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)). It owns multiple parcels adjacent to the project area \u2013 the entity\u2019s name and property locations indicate it represents the broader Hammond family\u2019s land interests in Saline County ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)). Like the related S&S entity, its beneficial owners are not listed in public filings (Kansas does not mandate disclosure of LLC members) ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)). No separate business operations or political activities are documented for Hammond Family LLC; it appears to function solely as a vehicle for owning and managing the family\u2019s agricultural land ([www.ksrevisor.gov](https://www.ksrevisor.gov/statutes/chapters/ch17/017_076_0073.html#:~:text=,limited%20liability%20company)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Local farming family with modest land acreage; no public leadership roles or major economic sway beyond property ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach the Hammond Family LLC via its senior family representatives in a community setting; validate their values of rural lifestyle and address any misconceptions about the development. Highlight potential benefits (improved infrastructure, tax revenue for local services) and offer to collaborate on solutions (such as drainage or traffic plans) that safeguard their farming operations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Saline County",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "085125210000000100001",
+        "085125220000000500001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Saline County\u2019s government itself owns two small parcels in the vicinity of the project (likely public right-of-way or other exempt land), as reflected in county land records ([www.salinecountyks.gov](https://www.salinecountyks.gov/planningandzoning#:~:text=SERVICES%20Building%20Permits%20Zoning%20Applications,County%2C%20issues%20building%20permits%20for)). Being the governing authority for unincorporated areas, the county (through its Board of Commissioners and Planning & Zoning Department) will oversee zoning approvals and permits for the development ([www.salinecountyks.gov](https://www.salinecountyks.gov/planningandzoning#:~:text=SERVICES%20Building%20Permits%20Zoning%20Applications,County%2C%20issues%20building%20permits%20for)). The county has not expressed an official stance outside of the formal review process; its role is to weigh the project\u2019s economic benefits (such as increased tax base or job creation) against any adverse impacts on the local community in accordance with the county\u2019s comprehensive plan ([www.salinecountyks.gov](https://www.salinecountyks.gov/comprehensive-plan-maps#:~:text=Comprehensive%20Plan%20%26%20Maps%20The,construct%20buildings%20and%20infrastructure%2C%20what)) ([www.salinecountyks.gov](https://www.salinecountyks.gov/planningandzoning#:~:text=SERVICES%20Building%20Permits%20Zoning%20Applications,County%2C%20issues%20building%20permits%20for)). Any decision from Saline County will be driven by legal compliance and public input rather than a predetermined support or opposition, as the county must act in the broader public interest under Kansas law.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local government with permitting authority; controls zoning and project approval; represents public interest",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage county officials early through the formal planning process \u2013 for example, by briefing the Planning & Zoning staff and addressing any comprehensive plan considerations. Emphasize the project\u2019s benefits to the county (infrastructure improvements, tax base growth) and demonstrate willingness to comply with all regulations and mitigate community concerns, as this will facilitate a smoother review by the County Commission."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "The adjacent landowners consist of two limited liability companies affiliated with the local Hammond family and the Saline County government itself. These LLCs hold agricultural parcels around the project site and have no obvious ties to outside developers or companies. Their interests likely center on preserving farmland value and autonomy, whereas Saline County will focus on regulatory compliance and potential economic benefits. No evident large-scale speculators or direct competitors are present among these neighbors, suggesting that community sentiment and local governance will drive their stance on the development ([www.salinecountyks.gov](https://www.salinecountyks.gov/comprehensive-plan-maps#:~:text=Comprehensive%20Plan%20%26%20Maps%20The,construct%20buildings%20and%20infrastructure%2C%20what)) ([www.salinecountyks.gov](https://www.salinecountyks.gov/planningandzoning#:~:text=SERVICES%20Building%20Permits%20Zoning%20Applications,County%2C%20issues%20building%20permits%20for)).",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_123310_5212.json",
+  "cached_at": "2026-02-20T12:33:10.522902"
+}

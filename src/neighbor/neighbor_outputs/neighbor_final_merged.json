@@ -2,73 +2,24 @@
   "neighbors": [
     {
       "neighbor_id": "N-01",
-      "name": "Justin K. Shepler",
+      "name": "Abram P. Dye & Carrie N. Dye",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "209904"
+        "085128270000000700001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Justin K. Shepler is the listed resident and owner of the property at 4204 N 126th St in Wyandotte County (PIN 209904) ([Realtor](https://www.realtor.com/propertyrecord-search/66109/N-126th-St)). Public record searches reveal no evidence of him holding elected office, board seats, or engaging in advocacy regarding local development or renewable energy projects as of February 2026 ([Wyandotte Daily](https://wyandotteonline.com)).",
+      "claims": "Abram P. Dye and Carrie N. Dye are listed as owners of a rural parcel in Saline County, Kansas (parcel ID 085128270000000700001) [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). Local records indicate long-term residency in Salina, with family ties noted in local obituaries [Salina Journal Obituary](https://www.tributearchive.com/obituaries/20245282/Carol-Marie-Corey/wall). A search of the Saline County Planning Commission minutes from key renewable energy hearings (August 2023) shows no record of their attendance or public comment regarding development projects [Planning Commission Minutes](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338). There is no record of either holding a public office or leadership position in the county [Saline County Commission](https://www.salinecountyks.gov/Government/County).",
       "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public roles or advocacy found",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Approach him one-on-one with a respectful, informative conversation, since he has no known affiliations. Listen to any personal concerns he raises about property impacts and address them directly."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Justin K. Shepler is the listed resident and owner of the property at 4204 N 126th St in Wyandotte County (PIN 209904)",
-          "url": "https://www.realtor.com/propertyrecord-search/66109/N-126th-St",
-          "title": "Property records & home values in N 126th St, 66109 KS",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "Public record searches reveal no evidence of him holding elected office, board seats, or engaging in advocacy regarding local development",
-          "url": "https://wyandotteonline.com/",
-          "title": "Wyandotte Daily News Search Verification",
-          "date": "2026-02-17",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "209903"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Morganne M. Appl-Culp is an occupational therapist who received her Master of Occupational Therapy from Rockhurst University ([Rockhurst University](https://wyandotteonline.com/kck-residents-receive-degrees-from-rockhurst/)). Tyler Culp serves as the Vice President of Sales for Empower Brokerage ([Empower Brokerage](https://theorg.com/org/empower-brokerage/org-chart/tyler-culp)). Cory M. Appl serves as the Administrator and Treasurer for Spectrum Home Health and the Spectrum Health Foundation ([ProPublica](https://projects.propublica.org/nonprofits/organizations/481160123)). Cory M. Appl is a recipient of USDA agricultural subsidies for farming operations in Wyandotte County ([EWG](https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Corporate leadership roles (VP Sales, Foundation Treasurer)",
+      "influence_justification": "No public role; private landowners",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
-          "livestock_safety",
-          "property_value"
+          "privacy_quiet",
+          "heritage_family_legacy"
         ],
-        "engage": "Engage the family with a professional approach, acknowledging their roles in healthcare administration and business. Involve an agricultural liaison to discuss how the project will protect their farming interests, while being prepared to discuss economic benefits given their business backgrounds."
+        "engage": "Have a trusted local farmer or community member start a personal conversation, emphasizing respect for their farmland and assuring that any project impact on their land and roads will be minimized."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -85,56 +36,57 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Morganne M. Appl-Culp is an occupational therapist who received her Master of Occupational Therapy from Rockhurst University",
-          "url": "https://wyandotteonline.com/kck-residents-receive-degrees-from-rockhurst/",
-          "title": "KCK residents receive degrees from Rockhurst",
-          "date": "2018-10-10",
+          "claim": "Abram P. Dye and Carrie N. Dye are listed as owners of a rural parcel in Saline County, Kansas",
+          "url": "https://www.salinecountyks.gov/Appraiser/parcelsearch",
+          "title": "Saline County Parcel Search",
+          "date": "2024-02-20",
           "note": null
         },
         {
-          "claim": "Tyler Culp serves as the Vice President of Sales for Empower Brokerage",
-          "url": "https://theorg.com/org/empower-brokerage/org-chart/tyler-culp",
-          "title": "Tyler Culp - Vice President Of Sales at Empower Brokerage",
-          "date": "2026-02-17",
+          "claim": "Local records indicate long-term residency in Salina, with family ties noted in local obituaries",
+          "url": "https://www.tributearchive.com/obituaries/20245282/Carol-Marie-Corey/wall",
+          "title": "Obituary for Carol Marie Corey - Tribute Archive",
+          "date": "2012-11-22",
           "note": null
         },
         {
-          "claim": "Cory M. Appl serves as the Administrator and Treasurer for Spectrum Home Health and the Spectrum Health Foundation",
-          "url": "https://projects.propublica.org/nonprofits/organizations/481160123",
-          "title": "Spectrum Health Foundation Inc - Nonprofit Explorer",
-          "date": "2024-12-31",
+          "claim": "A search of the Saline County Planning Commission minutes from key renewable energy hearings (August 2023) shows no record of their attendance or public comment",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning Commission Meeting Minutes August 22, 2023",
+          "date": "2023-08-22",
           "note": null
         },
         {
-          "claim": "Cory M. Appl is a recipient of USDA agricultural subsidies for farming operations in Wyandotte County",
-          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1",
-          "title": "EWG Farm Subsidy Database - Wyandotte County",
-          "date": "2024-12-31",
+          "claim": "There is no record of either holding a public office or leadership position in the county",
+          "url": "https://www.salinecountyks.gov/Government/County",
+          "title": "Saline County Government Commission",
+          "date": "2024-02-20",
           "note": null
         }
       ]
     },
     {
-      "neighbor_id": "N-03",
-      "name": "Joseph A. & Joyce L. Green",
+      "neighbor_id": "N-02",
+      "name": "Judith L. Sapegin",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "259102"
+        "085128280000000700001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Joseph A. Green is the listed owner of property on Hurrelbrink Road in Kansas City, KS ([Realtor](https://www.realtor.com/realestateandhomes-detail/9716-Hurrelbrink-Rd_Kansas-City_KS_66109_M87399-14759)). There is no indication of the Greens holding public office or taking an active role in local planning meetings or debates on land use ([Wyandotte Daily](https://wyandotteonline.com)).",
-      "confidence": "medium",
+      "claims": "Judith L. Sapegin is the recorded owner of a Saline County parcel in a rural area (ID 085128280000000700001), identified in right-of-way surveys for local infrastructure projects [KDOT ROW Survey](https://ikewebstorage.blob.core.windows.net/files/004-085_ka323002-ROW2-p1.pdf). She was not listed as an attendee or speaker in the August 2023 Saline County Planning Commission hearings regarding battery storage conditional use permits [Planning Commission Minutes](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338). No public comments from Sapegin about local development or clean energy issues have been found in local news sources [Salina Post](https://salinapost.com). She does not appear to serve in any local government capacity [Saline County Commission](https://www.salinecountyks.gov/Government/County).",
+      "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No public presence in development",
+      "influence_justification": "No public profile or roles",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet"
+          "property_value",
+          "heritage_family_legacy"
         ],
-        "engage": "Use a neighborly, informal approach to build trust with the Greens. Emphasize that the project will not disrupt the peace or privacy of their property and will respect the quiet character of the community."
+        "engage": "Engage her one-on-one in a respectful manner, highlighting how the plan will protect her land and family legacy, and clarify long-term safeguards for her property."
       },
-      "entity_classification": "unknown",
+      "entity_classification": "agriculture",
       "profile_summary": null,
       "stance": null,
       "signal": null,
@@ -149,160 +101,59 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Joseph A. Green is the listed owner of property on Hurrelbrink Road in Kansas City, KS",
-          "url": "https://www.realtor.com/realestateandhomes-detail/9716-Hurrelbrink-Rd_Kansas-City_KS_66109_M87399-14759",
-          "title": "9716 Hurrelbrink Rd, Kansas City, KS 66109 Property Details",
-          "date": "2026-02-17",
+          "claim": "Judith L. Sapegin is the recorded owner of a Saline County parcel in a rural area identified in right-of-way surveys",
+          "url": "https://ikewebstorage.blob.core.windows.net/files/004-085_ka323002-ROW2-p1.pdf",
+          "title": "KDOT Right of Way Survey Reference Sheet",
+          "date": "2023-11-13",
           "note": null
         },
         {
-          "claim": "There is no indication of the Greens holding public office or taking an active role in local planning meetings or debates on land use",
-          "url": "https://wyandotteonline.com/",
-          "title": "Wyandotte Daily News Search Verification",
-          "date": "2026-02-17",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Dylan M. Alexander & Cali D. Alexander",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "941106"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Dylan M. Alexander is employed as a Firefighter/EMT with the Kansas City, Kansas Fire Department (KCKFD) ([Kansas OpenGov](https://kansasopengov.org/wp-content/uploads/2023/07/county_ot_2020-2024.csv)). In May 2023, he was recognized by the VFW as the National & State Firefighter of the Year for heroic life-saving actions during a November 2022 apartment complex fire ([Wyandotte County UG](https://www.wycokck.org/Engage-With-Us/News-articles/2023-KCKFD-Awards-Ceremony)). Cali Alexander is a graduate of Fort Hays State University, having completed a Bachelor of General Studies in Human Services in 2018 ([FHSU News](https://www.fhsu.edu/news/2019/03/fort-hays-state-university-announces-fall-2018-graduates)). Family obituaries confirm the couple's marriage and long-standing ties to the region ([Amos Family Funeral Home](https://www.amosfamily.com/obituaries/kermalene-skahan)). No public statements regarding renewable energy development were found for either individual.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Award-winning public servant (National Firefighter of the Year)",
-      "approach_recommendations": {
-        "motivations": [
-          "traffic_safety",
-          "heritage_family_legacy"
-        ],
-        "engage": "Acknowledge Dylan's public service record. Approach via a trusted community liaison or fellow first responder. Focus on safety protocols, emergency access, and how the project supports local infrastructure/services relevant to public safety."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "Dylan Alexander is a highly decorated local firefighter, elevating his community standing. The household appears to be younger/active workforce. No evidence of anti-development sentiment.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Employed as Firefighter/EMT with KCKFD",
-          "url": "https://kansasopengov.org/wp-content/uploads/2023/07/county_ot_2020-2024.csv",
-          "title": "Wyandotte County Overtime and Payroll Data 2020-2024",
-          "date": "2024-01-01",
+          "claim": "She was not listed as an attendee or speaker in the August 2023 Saline County Planning Commission hearings regarding battery storage conditional use permits",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning Commission Meeting Minutes August 22, 2023",
+          "date": "2023-08-22",
           "note": null
         },
         {
-          "claim": "Awarded National & State Firefighter of the Year in 2023",
-          "url": "https://www.wycokck.org/Engage-With-Us/News-articles/2023-KCKFD-Awards-Ceremony",
-          "title": "VFW Honors Three KCKFD Firefighters with National & State Awards",
-          "date": "2023-05-02",
+          "claim": "No public comments from Sapegin about local development or clean energy issues have been found in local news sources",
+          "url": "https://salinapost.com/",
+          "title": "Salina Post Search",
+          "date": "2024-02-20",
           "note": null
         },
         {
-          "claim": "Cali Alexander graduated FHSU 2018",
-          "url": "https://www.fhsu.edu/news/2019/03/fort-hays-state-university-announces-fall-2018-graduates",
-          "title": "Fort Hays State University Announces Fall 2018 Graduates",
-          "date": "2019-03-07",
-          "note": null
-        },
-        {
-          "claim": "Family ties and marriage confirmation",
-          "url": "https://www.amosfamily.com/obituaries/kermalene-skahan",
-          "title": "Obituary for Kermalene Skahan",
-          "date": "2022-01-26",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Terry H. Mertens & Charlotte L. Mertens",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "941105"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Terry and Charlotte Mertens are private residents of Wyandotte County. Family records identify Charlotte (née Bolander) as the wife of Terry Mertens and step-daughter of long-time area resident George Andervich ([Terrace Park Funeral Home](https://www.terraceparkfuneralhome.com/obituaries/george-andervich)). Comprehensive searches of Wyandotte County Planning Commission minutes and local news archives yield no record of the Mertens speaking publicly on zoning, development, or renewable energy matters ([Wyandotte County Planning Minutes](https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-september-planning-zoning-full-commission-minutes.pdf)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents; no identified civic leadership roles",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "heritage_family_legacy"
-        ],
-        "engage": "Approach as private landowners with deep family roots in the area. Focus on low-impact design, visual buffering to maintain privacy, and respect for the rural character of their property."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "Private landowners with extended family history in the region. No digital footprint suggests active opposition, but family legacy implies potential sensitivity to land use changes.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Charlotte Mertens identified as wife of Terry and step-daughter of George Andervich",
-          "url": "https://www.terraceparkfuneralhome.com/obituaries/george-andervich",
-          "title": "Obituary: George E. Andervich",
-          "date": "2017-07-21",
-          "note": null
-        },
-        {
-          "claim": "No appearance in Planning & Zoning minutes",
-          "url": "https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-september-planning-zoning-full-commission-minutes.pdf",
-          "title": "Unified Government Commission Planning & Zoning Minutes",
-          "date": "2016-09-29",
+          "claim": "She does not appear to serve in any local government capacity",
+          "url": "https://www.salinecountyks.gov/Government/County",
+          "title": "Saline County Government Commission",
+          "date": "2024-02-20",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Rebecca Tanney & Jason Huston",
+      "name": "Sabrina T.S. Ozisik & Hakan Ozisik",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "941100"
+        "085128280000000600001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Jason Huston is a Project Manager for Stevenson Company, Inc., a stainless steel manufacturing firm in the region ([Stevenson Company News](https://stevensoncompanyinc.com/news/jason-huston-named-project-manager-for-growing-clientele)). Corporate biographies confirm he resides in the Kansas City area with his wife, Becky ([Stevenson Company Staff](https://www.stevensoncompanyinc.com/contact/staff-bios)). No evidence was found of Tanney or Huston voicing opinions on local development or renewable energy in news or public records, nor do they appear in local planning commission minutes ([Wyandotte County Planning Minutes](https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-may-planning-zoning-full-commission-minutes.pdf)).",
+      "claims": "Hakan Ozisik and Sabrina T.S. Ozisik jointly own a tract of land in rural Saline County (parcel ID 085128280000000600001), confirmed by state project maps which locate their property near McReynolds Road [KDOT Project Maps](https://ikewebstorage.blob.core.windows.net/files/projects/KA-3230-02/004-085-KA-3230-02_Public-Meeting-Project-Maps.pdf). Sabrina Ozisik is documented as being in attendance at the Saline County Planning Commission meeting on August 22, 2023, during the hearing for the 'Mountain Peak Energy Storage' Conditional Use Permit (CUP 23-103) [Planning Commission Minutes](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338). While she attended this critical development meeting, the minutes do not record her making a verbal public comment or statement [Planning Commission Minutes](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338). They are not known to hold any local public office [Saline County Commission](https://www.salinecountyks.gov/Government/County).",
       "confidence": "high",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private sector employee; no public office found",
+      "influence_justification": "Attends planning meetings; engaged",
       "approach_recommendations": {
         "motivations": [
+          "privacy_quiet",
           "property_value",
-          "privacy_quiet"
+          "traffic_safety"
         ],
-        "engage": "Jason works in industrial project management/manufacturing; technical competence and professional project planning may appeal to him. Focus on the engineering integrity and low nuisance profile of the project."
+        "engage": "Reach out in a neighborly way focused on how noise, traffic, and views will be managed. Acknowledge the need for transparency regarding project specifics, as they have previously attended planning meetings regarding energy storage."
       },
-      "entity_classification": "unknown",
-      "profile_summary": "Professional household. Jason is a Project Manager in manufacturing/industrial sector. Likely amenable to logical, well-planned engineering discussions. No history of opposition.",
+      "entity_classification": "agriculture",
+      "profile_summary": null,
       "stance": null,
       "signal": null,
       "influence_level": null,
@@ -316,201 +167,55 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Jason Huston named Project Manager at Stevenson Company",
-          "url": "https://stevensoncompanyinc.com/news/jason-huston-named-project-manager-for-growing-clientele",
-          "title": "Jason Huston Named Project Manager for Growing Clientele",
+          "claim": "Hakan Ozisik and Sabrina T.S. Ozisik jointly own a tract of land in rural Saline County confirmed by state project maps",
+          "url": "https://ikewebstorage.blob.core.windows.net/files/projects/KA-3230-02/004-085-KA-3230-02_Public-Meeting-Project-Maps.pdf",
+          "title": "KDOT K-4 Preliminary Design Public Meeting Project Maps",
           "date": "2021-01-01",
           "note": null
         },
         {
-          "claim": "Resides in KC with wife Becky",
-          "url": "https://www.stevensoncompanyinc.com/contact/staff-bios",
-          "title": "Stevenson Company Staff Bios",
-          "date": "2024-01-01",
+          "claim": "Sabrina Ozisik is documented as being in attendance at the Saline County Planning Commission meeting on August 22, 2023",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning Commission Meeting Minutes August 22, 2023",
+          "date": "2023-08-22",
           "note": null
         },
         {
-          "claim": "No appearance in Planning & Zoning minutes",
-          "url": "https://www.wycokck.org/files/assets/public/v/2/clerk/documents/agendas-amp-minutes/full-commission/2016-may-planning-zoning-full-commission-minutes.pdf",
-          "title": "Unified Government Commission Planning & Zoning Minutes",
-          "date": "2016-05-26",
+          "claim": "the minutes do not record her making a verbal public comment or statement",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning Commission Meeting Minutes August 22, 2023",
+          "date": "2023-08-22",
+          "note": null
+        },
+        {
+          "claim": "They are not known to hold any local public office",
+          "url": "https://www.salinecountyks.gov/Government/County",
+          "title": "Saline County Government Commission",
+          "date": "2024-02-20",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-01",
-      "name": "Lawrence D. Meyer & Mary Y. Meyer",
+      "name": "Michael A & Dawn A Radford Revocable Inter Vivos Trust",
       "entity_category": "Resident",
-      "entity_type": "Individual",
+      "entity_type": "Trust",
       "pins": [
-        "209902"
+        "085128280000000300001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Public property records associate the PIN 209902 with a single-family residential home (built 1978) on approximately 0.37 acres at 9718 Hurrelbrink Rd, rather than a large agricultural holding [Zillow](https://www.zillow.com/homedetails/9718-Hurrelbrink-Rd-Kansas-City-KS-66109/75717299_zpid/). A Lawrence D. Meyer was historically listed as an amateur radio operator in the Kansas City area [Internet Archive](https://archive.org/stream/Winter_1991_Radio_Amateur_Callbook/Winter_1991_Radio_Amateur_Callbook_District_0_djvu.txt).",
+      "claims": "Michael A. Radford and Dawn A. Radford hold their Saline County land under a revocable living trust, as reflected in county property records ([Whitepages](https://www.whitepages.com/name/Michael-Radford/KS)). No public statements, meeting minutes, or media reports were found of the Radfords taking a position on local development or clean energy projects, including the recent battery storage hearings ([Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81)).",
       "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "No significant civic leadership found",
+      "influence_justification": "Private landowners; no public office found",
       "approach_recommendations": {
         "motivations": [
-          "property_value",
-          "privacy_quiet"
+          "privacy_quiet",
+          "fair_contracting"
         ],
-        "engage": "Approach as a residential neighbor rather than a farm operator. Focus on visual screening and property value protection, as the property appears to be a single-family home in a subdivision rather than a large agricultural tract."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "PIN 209902 is a single-family residential home on ~0.37 acres",
-          "url": "https://www.zillow.com/homedetails/9718-Hurrelbrink-Rd-Kansas-City-KS-66109/75717299_zpid/",
-          "title": "9718 Hurrelbrink Rd Property Details",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "Lawrence D. Meyer listed as amateur radio operator",
-          "url": "https://archive.org/stream/Winter_1991_Radio_Amateur_Callbook/Winter_1991_Radio_Amateur_Callbook_District_0_djvu.txt",
-          "title": "Winter 1991 Radio Amateur Callbook",
-          "date": "1991-01-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Cory M. Appl & Stefanie L. Appl",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "416600"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Cory Appl is the Administrator of Spectrum Home Health, Inc., a healthcare agency based in Independence, MO, which serves the Kansas City area [ProPublica](https://projects.propublica.org/nonprofits/organizations/481160123). In 2015, he ran for a seat on the Piper School Board (USD 203), participating in a field of candidates focused on school facilities and finance [Wyandotte Daily](https://wyandotteonline.com/voters-to-go-to-polls-tuesday/). He has been identified as a resident of the Piper area [Wyandotte Daily](https://wyandotteonline.com/voters-to-go-to-polls-tuesday/).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Healthcare administrator; former school board candidate",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "local_control"
-        ],
-        "engage": "Engage through school or community meetings, highlighting how development plans support local services and property values. Connect on shared community goals (e.g., quality schools) to address any concerns within a collaborative, locally-driven dialogue."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Cory Appl is Administrator of Spectrum Home Health, Inc.",
-          "url": "https://projects.propublica.org/nonprofits/organizations/481160123",
-          "title": "Spectrum Health Foundation Inc - Nonprofit Explorer",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "Ran for Piper School Board in 2015",
-          "url": "https://wyandotteonline.com/voters-to-go-to-polls-tuesday/",
-          "title": "Voters to go to polls Tuesday - Wyandotte Daily",
-          "date": "2015-04-06",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Jennifer Masters",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "209901"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jennifer Masters is listed as a resident of 9724 Hurrelbrink Rd, which corresponds to PIN 209901 [National Public Data](https://nationalpublicdata.com/people/m/jennifer-masters/ks/). Property records describe this parcel as a single-family residential home on approximately 0.37 acres, built in 1978, rather than a large agricultural tract [Zillow](https://www.zillow.com/homedetails/9724-Hurrelbrink-Rd-Kansas-City-KS-66109/75717283_zpid/). She has no documented public stance on development in Wyandotte County records accessible at this time.",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Residential homeowner; no public profile found",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "privacy_quiet"
-        ],
-        "engage": "Reach out personally to understand her perspective. Since the property is residential and not agricultural, focus discussions on visual screening, construction setbacks, and maintaining the quiet character of the subdivision."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Jennifer Masters listed as resident at 9724 Hurrelbrink Rd (PIN 209901)",
-          "url": "https://nationalpublicdata.com/people/m/jennifer-masters/ks/",
-          "title": "Jennifer Masters - Kansas Public Records",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "Property is a single-family home on 0.37 acres",
-          "url": "https://www.zillow.com/homedetails/9724-Hurrelbrink-Rd-Kansas-City-KS-66109/75717283_zpid/",
-          "title": "9724 Hurrelbrink Rd Property Details",
-          "date": "2026-02-17",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Bradley Alan Appl, Cory M. Appl, Travis W. Sanders & Tom Crandon",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "416601"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006 ([NPPES Registry](https://npiregistry.cms.hhs.gov/provider-view/1770559494)). Cory M. Appl is a recipient of USDA agricultural subsidies in Wyandotte County ([EWG Farm Subsidies](https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1)) and served as a co-executor for the estate of Helen Ann Henderson in 2021 alongside John F. Sanders ([Wyandotte Echo](https://wyandotteecho.com/wp-content/uploads/2021/06/Echo062421A.pdf)). A Tom Crandon appears in public records as a resident of Derby, KS, rather than Wyandotte County ([Downing & Lahey Mortuary](https://downingandlahey.com/obits/susan-kay-crandon/)). No public statements by the group regarding the East Side Energy Storage project or other developments have been identified.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local physician and agricultural connections; no elected roles found",
-      "approach_recommendations": {
-        "motivations": [
-          "farmland_preservation",
-          "heritage_family_legacy"
-        ],
-        "engage": "Reach out through a trusted agricultural community contact to acknowledge the family’s farming legacy. Discuss how the project can accommodate farmland use, emphasizing respect for their land and livelihood given the mixed medical and agricultural background."
+        "engage": "Approach through a personal, respectful conversation via a trusted community member, emphasizing listening to any of their farmland or property concerns."
       },
       "entity_classification": "agriculture",
       "profile_summary": null,
@@ -527,54 +232,41 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Dr. Bradley Alan Appl is a Kansas City, KS family medicine physician with an active NPI registration since 2006",
-          "url": "https://npiregistry.cms.hhs.gov/provider-view/1770559494",
-          "title": "NPPES NPI Registry - Bradley Alan Appl",
-          "date": "2025-10-02",
+          "claim": "Michael A. Radford and Dawn A. Radford hold their Saline County land under a revocable living trust",
+          "url": "https://www.whitepages.com/name/Michael-Radford/KS",
+          "title": "Michael Radford in Kansas",
+          "date": "2024-02-20",
           "note": null
         },
         {
-          "claim": "Cory M. Appl is a recipient of USDA agricultural subsidies in Wyandotte County",
-          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=totalfarm&page=1",
-          "title": "EWG Farm Subsidy Database - Wyandotte County",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "served as a co-executor for the estate of Helen Ann Henderson in 2021 alongside John F. Sanders",
-          "url": "https://wyandotteecho.com/wp-content/uploads/2021/06/Echo062421A.pdf",
-          "title": "The Wyandotte Echo Legal Notices",
-          "date": "2021-06-24",
-          "note": null
-        },
-        {
-          "claim": "A Tom Crandon appears in public records as a resident of Derby, KS",
-          "url": "https://downingandlahey.com/obits/susan-kay-crandon/",
-          "title": "Obituary for Susan Kay Crandon",
-          "date": "2013-03-01",
+          "claim": "No public statements or media reports were found of the Radfords taking any position on local development or clean energy projects",
+          "url": "https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81",
+          "title": "Salina Post Search Results",
+          "date": "2024-02-20",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-02",
-      "name": "Danny P. Bruch & Mary P. Bruch",
+      "name": "Randall C McGraw & Lindsay R McGraw",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "146828"
+        "085128270000000300001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Danny P. Bruch is a resident of Kansas City, KS (Wyandotte County) ([Best History Sites](https://besthistorysites.net/name/danny-bruch/ks/kansas-city)). The Bruch family does not appear among the top recipients of USDA farm subsidies in Wyandotte County for recent years ([EWG Farm Subsidies](https://farm.ewg.org/top_recips.php?fips=20209&progcode=total_dis&page=2)). No public records were found indicating the Bruchs have taken a stance on the East Side Energy Storage project or other local development hearings.",
-      "confidence": "low",
+      "claims": "Randall C. McGraw and Lindsay R. McGraw jointly own a rural parcel in Saline County, Kansas ([Whitepages](https://www.whitepages.com/name/Randall-McGraw/KS)). Lindsay R. McGraw is a 2023 graduate of the University of Arkansas for Medical Sciences, indicating a background in health professions ([UAMS News](https://news.uams.edu/2023/05/22/uams-graduates-1096-health-care-professionals/)). There is no record in local news or public minutes of the McGraws speaking for or against development or renewable energy proposals in the area ([Salina Journal](https://www.salina.com/)).",
+      "confidence": "medium",
       "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private landowners; no public roles or media presence found",
+      "influence_justification": "No known civic roles; private citizens",
       "approach_recommendations": {
         "motivations": [
-          "privacy_quiet"
+          "privacy_quiet",
+          "local_control"
         ],
-        "engage": "Use a personal, respectful approach via an in-person visit by a known local figure to listen to their concerns. Emphasize that the project will respect their property rights, rural peace, and the value of their land."
+        "engage": "Engage the McGraws informally via a neighbor or agricultural extension contact they trust, focusing on transparent information-sharing and addressing any questions about land impact."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -591,76 +283,42 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Danny P. Bruch is a resident of Kansas City, KS",
-          "url": "https://besthistorysites.net/name/danny-bruch/ks/kansas-city",
-          "title": "Danny P Bruch - Kansas City, KS Public Records",
-          "date": "2026-02-17",
+          "claim": "Randall C. McGraw and Lindsay R. McGraw jointly own a rural parcel in Saline County, Kansas",
+          "url": "https://www.whitepages.com/name/Randall-McGraw/KS",
+          "title": "Randall McGraw in Kansas",
+          "date": "2024-02-20",
           "note": null
         },
         {
-          "claim": "The Bruch family does not appear among the top recipients of USDA farm subsidies in Wyandotte County",
-          "url": "https://farm.ewg.org/top_recips.php?fips=20209&progcode=total_dis&page=2",
-          "title": "EWG Farm Subsidy Database - Wyandotte County Recipients",
-          "date": "2024-01-01",
+          "claim": "Lindsay R. McGraw is a 2023 graduate of the University of Arkansas for Medical Sciences",
+          "url": "https://news.uams.edu/2023/05/22/uams-graduates-1096-health-care-professionals/",
+          "title": "UAMS Graduates 1,096 Health Care Professionals",
+          "date": "2023-05-22",
           "note": null
         }
       ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Jonathan Allwardt",
+      "name": "Eric M Puvogel & Amanda L Meier",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "146816"
+        "085128280000000701001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Public records searches yielded no verifiable information regarding a 'Jonathan Allwardt' in Wyandotte County, KS. No property deeds, voter registrations, or legal notices matching this name and location were found in available databases. Consequently, no stance on development can be verified.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Identity could not be verified in public records",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet"
-        ],
-        "engage": "Attempt to verify property ownership through county tax assessor records before engagement. If confirmed, approach with a general introduction letter to establish contact and gauge interest."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": []
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Jessica and Evan Blomeyer",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "259103"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jessica and Evan Blomeyer are residents of Kansas City, KS ([Way-Watson Funeral Home](https://www.waywatson.com/obituaries/helen-blomeyer)). Evan Blomeyer is the step-son of the late Helen Owens Blomeyer, a registered nurse and Army veteran ([Way-Watson Funeral Home](https://www.waywatson.com/obituaries/helen-blomeyer)). The Blomeyer surname appears in historical Kansas business records in connection with Stuart Hunter (Neighbor N-03) through the professional association \"Blomeyer & Hunter, Chartered,\" registered in Kansas City, KS in 1984, suggesting a potential multi-generational or professional link between these neighbors ([Kansas Register](https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf)). No specific public records were found regarding their stance on renewable energy development.",
+      "claims": "Eric M. Puvogel and Amanda L. Meier (also known as Amanda Puvogel) are landowners in Saline County who experienced the loss of their historic home on East Cloud Street due to a fire in November 2020 ([KSAL News](https://www.ksal.com/eastern-saline-county-home-destroyed-by-fire/)). Amanda Puvogel serves as a Health Educator for the Saline County Health Department ([Saline County](https://salinecountyks.gov/staff-directory/Health-Department)). While they have not made known public comments on renewable energy projects, their experience with property loss may make them sensitive to safety concerns, a topic raised by others in recent battery storage hearings ([Salina 311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/)).",
       "confidence": "high",
       "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private residents; no current public office found",
+      "community_influence": "Medium",
+      "influence_justification": "Amanda Puvogel is a Saline County Health Dept employee",
       "approach_recommendations": {
         "motivations": [
-          "property_value",
-          "privacy_quiet"
+          "aesthetics_viewshed",
+          "traffic_safety",
+          "property_value"
         ],
-        "engage": "Reach out with a neighborly approach, emphasizing that the project will respect their property values and quiet lifestyle. Note potential familial or professional connection to Neighbor N-03 (Stuart Hunter)."
+        "engage": "A friendly, face-to-face approach via a mutual acquaintance or local community meeting can help open dialogue. Be prepared to discuss safety and emergency response plans in detail given their past property loss."
       },
       "entity_classification": "unknown",
       "profile_summary": null,
@@ -677,732 +335,49 @@
       "disambiguation": null,
       "citations": [
         {
-          "claim": "Jessica and Evan Blomeyer are residents of Kansas City, KS",
-          "url": "https://www.waywatson.com/obituaries/helen-blomeyer",
-          "title": "Obituary for Helen Owens Blomeyer",
-          "date": "2023-03-30",
+          "claim": "Eric M. Puvogel and Amanda L. Meier experienced the loss of their historic home on East Cloud Street due to a fire in November 2020",
+          "url": "https://www.ksal.com/eastern-saline-county-home-destroyed-by-fire/",
+          "title": "Eastern Saline County Home Destroyed by Fire",
+          "date": "2020-11-19",
           "note": null
         },
         {
-          "claim": "Professional association 'Blomeyer & Hunter, Chartered' registered in Kansas City, KS",
-          "url": "https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf",
-          "title": "Kansas Register Vol 3 No 27",
-          "date": "1984-07-05",
+          "claim": "Amanda Puvogel serves as a Health Educator for the Saline County Health Department",
+          "url": "https://salinecountyks.gov/staff-directory/Health-Department",
+          "title": "Saline County Health Department Staff Directory",
+          "date": "2024-02-20",
+          "note": null
+        },
+        {
+          "claim": "safety concerns were raised by others in recent battery storage hearings",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Approval of Battery Project",
+          "date": "2026-01-06",
           "note": null
         }
       ]
     },
     {
-      "neighbor_id": "N-02",
-      "name": "Robert K. and Donna L. Creten",
+      "neighbor_id": "N-01",
+      "name": "Wade & Tiffany Waddle",
       "entity_category": "Resident",
       "entity_type": "Individual",
       "pins": [
-        "209900"
+        "085128270000000600001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "Robert and Donna Creten are associated with a long-established farming family in the region; \"Creten Farms\" has been a registered entity in the area since 1966 ([Manta](https://www.manta.com/c/mm7p7vp/creten-farms)). The Creten family has a documented history of challenging county land-use decisions; in the case *Creten v. Board of County Commissioners* (1970), the family litigated a denial of a special use permit for a mobile home park, demonstrating a willingness to engage legally regarding property rights and zoning ([Justia](https://law.justia.com/cases/kansas/supreme-court/1986/57-559-1.html)). No specific record was found of the current owners speaking out on renewable energy issues in recent local news.",
+      "claims": "The Waddle family name has deep roots in Saline County farming, with records of Samuel H. Waddle settling in the area in 1866 ([KSGenWeb](https://www.ksgenweb.org/archives/1918ks/biow/waddlesh.html)). Wade Waddle serves as the Assistant Chief for Saline County Rural Fire District No. 1, where he actively secures grant funding for emergency equipment ([Citizen Portal](https://citizenportal.ai/articles/6536169/Kansas/Saline-County/Rural-Fire-District-No-1-authorized-to-accept-35000-in-foundation-grants-for-wildland-UTV)). In August 2023, Wade Waddle spoke at a Saline County Planning and Zoning Commission meeting regarding a proposed battery storage project near his residence on McReynolds Road ([Saline County](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338)). He expressed specific concerns regarding the local fire district's resources and capability to handle emergencies at the proposed facility ([Saline County](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338)).",
       "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Longtime farming family with history of land-use litigation",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "Assistant Fire Chief, Rural Fire District No. 1",
       "approach_recommendations": {
         "motivations": [
-          "farmland_preservation",
+          "traffic_safety",
           "heritage_family_legacy",
           "local_control"
         ],
-        "engage": "Engage via a respected agricultural peer. Be aware of the family's history of land-use litigation (*Creten v. Bd. of County Comm'rs*); emphasize fair contracting and respect for property rights."
-      },
-      "entity_classification": "agriculture",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Creten Farms has been a registered entity in the area since 1966",
-          "url": "https://www.manta.com/c/mm7p7vp/creten-farms",
-          "title": "Creten Farms Business Listing",
-          "date": "2024-02-17",
-          "note": null
-        },
-        {
-          "claim": "Creten family litigated denial of special use permit in Creten v. Board of County Commissioners",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/1986/57-559-1.html",
-          "title": "Creten v. Board of County Commissioners Case Reference",
-          "date": "1970-01-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Stuart Hunter",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "146830"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Stuart Hunter is a Wyandotte County landowner who shares a historical professional link with the Blomeyer family (Neighbor N-01). State records from 1984 list a professional association titled \"Blomeyer & Hunter, Chartered\" in Kansas City, KS, indicating a likely background in law or professional services ([Kansas Register](https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf)). Despite this historical professional footprint, he does not appear in recent local media reports or public records regarding community discussions on land use or development.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Historical professional status (Chartered association); linked to N-01",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "privacy_quiet"
-        ],
-        "engage": "Approach with professional courtesy suitable for a likely retired professional. Leverage the connection to the Blomeyer family (N-01) if appropriate."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Professional association 'Blomeyer & Hunter, Chartered' registered in Kansas City, KS",
-          "url": "https://sos.ks.gov/publications/register/1984/Vol_3_No_27_July_5_1984_p_901-924.pdf",
-          "title": "Kansas Register Vol 3 No 27",
-          "date": "1984-07-05",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Herbert L. & Joyce K. Dickens",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "259101"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Herbert L. and Joyce K. Dickens are listed as residents at 9723 Donahoo Road in Kansas City, KS ([SimpleContacts](https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road)). The property includes a single-family home built in 1979 situated on approximately 1.29 acres ([Redfin](https://www.redfin.com/KS/Kansas-City/9725-Donahoo-Rd-66109/home/83391793)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime residents; no public office found",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "aesthetics_viewshed"
-        ],
-        "engage": "Have a trusted longtime community member reach out personally, emphasizing that the development will not disrupt the quiet rural atmosphere or scenic views they have enjoyed on their property."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Herbert L. and Joyce K. Dickens are listed as residents at 9723 Donahoo Road in Kansas City, KS",
-          "url": "https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road",
-          "title": "Donahoo Road Residents List",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "The property includes a single-family home built in 1979 situated on approximately 1.29 acres",
-          "url": "https://www.redfin.com/KS/Kansas-City/9725-Donahoo-Rd-66109/home/83391793",
-          "title": "9723 Donahoo Rd Property Details",
-          "date": "2026-01-15",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "William L. & Kelli A. Carmack",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "146829"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "William L. and Kelli A. Carmack reside at 9810 Hurrelbrink Road in the Piper area of Kansas City, KS ([PublicRecords](https://www.menstoppingviolence.org/people/kelli-carmack/)). Records indicate Kelli Carmack previously lived in Clovis, California, before moving to Kansas City ([PublicRecords](https://www.menstoppingviolence.org/people/kelli-carmack/)).",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "No known civic roles; private residents",
-      "approach_recommendations": {
-        "motivations": [
-          "privacy_quiet",
-          "property_value"
-        ],
-        "engage": "Engage the Carmacks with a straightforward, factual discussion addressing how their property values and peace and quiet will be protected. A small neighborhood Q&A session could help answer their questions and build trust."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "William L. and Kelli A. Carmack reside at 9810 Hurrelbrink Road in the Piper area of Kansas City, KS",
-          "url": "https://www.menstoppingviolence.org/people/kelli-carmack/",
-          "title": "Kelli A Carmack Public Record",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "Records indicate Kelli Carmack previously lived in Clovis, California, before moving to Kansas City",
-          "url": "https://www.menstoppingviolence.org/people/kelli-carmack/",
-          "title": "Kelli A Carmack Public Record",
-          "date": "2026-02-17",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Neal P. & Nicole M. Edwards",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "146815"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Neal P. and Nicole M. Edwards are the owners of a residence at 9805 McGurk Road in Kansas City, KS ([Redfin](https://www.redfin.com/KS/Kansas-City/9804-McGurk-Rd-66109/home/97210679)). Public records list Nicole M. Edwards as a resident at this address ([FreeBackgroundChecks](https://freebackgroundchecks.com/people-search/nicole-edwards/)). Family obituaries link Neal and his wife Nicki (Nicole) to the Kansas City area ([Obituary](https://www.alleeholmanhowe.com/obituaries/carol-ruth-elena-beaman)).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Private citizens; no public roles confirmed for this specific individual",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "traffic_safety"
-        ],
-        "engage": "Highlight any community benefits from the project (like improved roads or tax revenue for local services) and proactively address potential traffic or safety concerns in person, perhaps with a local official available to answer their questions."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Neal P. and Nicole M. Edwards are the owners of a residence at 9805 McGurk Road in Kansas City, KS",
-          "url": "https://www.redfin.com/KS/Kansas-City/9804-McGurk-Rd-66109/home/97210679",
-          "title": "9805 McGurk Road Property Overview",
-          "date": "2025-11-15",
-          "note": null
-        },
-        {
-          "claim": "Public records list Nicole M. Edwards as a resident at this address",
-          "url": "https://freebackgroundchecks.com/people-search/nicole-edwards/",
-          "title": "Nicole Edwards Public Record",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "Family obituaries link Neal and his wife Nicki (Nicole) to the Kansas City area",
-          "url": "https://www.alleeholmanhowe.com/obituaries/carol-ruth-elena-beaman",
-          "title": "Obituary for Carol Ruth Elena Beaman",
-          "date": "2016-04-01",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Guy B. Tiner",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "937902"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Guy B. Tiner is a longtime resident of Bonner Springs and a veteran local developer [Bonner Springs City Council](https://www.bonnersprings.org/Archive.aspx?ADID=230). He operates **Tiner Construction** and has been involved in residential developments such as \"The Villages at Deerfield\" and \"Lei Valley\" [Bonner Springs Planning Commission](https://www.bonnersprings.org/Archive.aspx?ADID=414). He is the registered agent for **LER Properties II LLC**, which holds land interests in the county [Wyandotte Echo](https://wyandotteecho.com/wp-content/uploads/2021/10/Echo100721A.pdf). In public hearings, he has self-identified as a \"baby boomer\" and noted his service on a regional committee guiding Kansas City's World Cup hosting activities [Wyandotte County UGTV](https://www.youtube.com/watch?v=Uq185bchZSs).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Medium",
-      "influence_justification": "Active developer; served on regional World Cup committee",
-      "approach_recommendations": {
-        "motivations": [
-          "fair_contracting",
-          "local_control"
-        ],
-        "engage": "Engage regarding his development experience and regional committee work. Acknowledge his role in local housing projects like Lei Valley to build professional rapport."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Identified as resident and developer of \"The Villages at Deerfield\"",
-          "url": "https://www.bonnersprings.org/Archive.aspx?ADID=230",
-          "title": "Bonner Springs Planning Commission Minutes Jan 2012",
-          "date": "2012-01-24",
-          "note": null
-        },
-        {
-          "claim": "Operates Tiner Construction and developed Lei Valley",
-          "url": "https://www.bonnersprings.org/Archive.aspx?ADID=414",
-          "title": "Bonner Springs Planning Commission Minutes Dec 2013",
-          "date": "2013-12-17",
-          "note": null
-        },
-        {
-          "claim": "Registered agent for LER Properties II LLC",
-          "url": "https://wyandotteecho.com/wp-content/uploads/2021/10/Echo100721A.pdf",
-          "title": "The Wyandotte Echo Legal Notices",
-          "date": "2021-10-07",
-          "note": null
-        },
-        {
-          "claim": "Serves on regional World Cup committee and identifies as baby boomer",
-          "url": "https://www.youtube.com/watch?v=Uq185bchZSs",
-          "title": "Unified Government Commission Meeting",
-          "date": "2025-06-27",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Martha E. Gonzalez",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "941219"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "In January 2021, Martha E. Gonzalez (residing at 1032 S. 25th St) applied to acquire a Unified Government Land Bank lot to construct a building for storing and maintaining trucks [Wyandotte Daily](https://wyandotteonline.com/tag/unified-government-commission/page/5/). This application suggests involvement in a logistics or vehicle maintenance enterprise [Wyandotte Daily](https://wyandotteonline.com/tag/unified-government-commission/page/5/).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Local small business applicant; no public office found",
-      "approach_recommendations": {
-        "motivations": [
-          "groundwater_runoff"
-        ],
-        "engage": "Focus on site utility and drainage, as her interest in vehicle maintenance facilities suggests a practical concern for site accessibility and stormwater management."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Applied for Land Bank lot to store and maintain trucks",
-          "url": "https://wyandotteonline.com/tag/unified-government-commission/page/5/",
-          "title": "Wyandotte Daily News - UG Commission Agenda",
-          "date": "2021-01-07",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-03",
-      "name": "Daniel J. Poolman & Karen A. Poolman (Deceased)",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "146827"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Daniel J. Poolman and Karen A. Poolman were married in 1966 and raised three children in the community [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736). Karen Ann Poolman passed away in May 2020 at the age of 72, leaving Daniel as the surviving spouse [Dignity Memorial](https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736).",
-      "confidence": "high",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Longtime residents; no public leadership roles",
-      "approach_recommendations": {
-        "motivations": [
-          "heritage_family_legacy"
-        ],
-        "engage": "Use a neighborly, respectful approach honoring their decades of residence. Be mindful of the household's status as a widower's residence."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Married 1966, Karen passed 2020, Daniel surviving spouse",
-          "url": "https://www.dignitymemorial.com/obituaries/kansas-city-ks/karen-poolman-9194736",
-          "title": "Obituary for Karen Ann Poolman",
-          "date": "2020-05-22",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Brenda Sue Kendrick",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "146817"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "County assessment records for the parcel linked in the draft (R59670) list the owner as Matthew Michael Mussatti, not Brenda Sue Kendrick ([appr.wycokck.org](https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670/utils/trees)). Extensive searches of Wyandotte County property and public records did not verify a resident or landowner by this name; the draft PIN likely refers to a financial figure found in unrelated county documents rather than a valid parcel ID ([budget.kansas.gov](https://budget.kansas.gov/wp-content/uploads/fy2006-gov-bdg-rpt-vol-1.pdf)). Consequently, no stance or community influence could be verified for this profile.",
-      "confidence": "low",
-      "noted_stance": "unknown",
-      "community_influence": "Unknown",
-      "influence_justification": "Residency and property ownership could not be verified",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Verify identity and property ownership before attempting engagement, as public records do not link this individual to the cited location."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "County assessment records for the parcel linked in the draft (R59670) list the owner as Matthew Michael Mussatti, not Brenda Sue Kendrick",
-          "url": "https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R59670/utils/trees",
-          "title": "Wyandotte County Property Detail: R59670",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "the draft PIN likely refers to a financial figure found in unrelated county documents rather than a valid parcel ID",
-          "url": "https://budget.kansas.gov/wp-content/uploads/fy2006-gov-bdg-rpt-vol-1.pdf",
-          "title": "Kansas Governor's Budget Report Vol 1 (Reference to 146,817)",
-          "date": "2005-01-10",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Jessica L. Mazur & Austin Mazur",
-      "entity_category": "Resident",
-      "entity_type": "Individual",
-      "pins": [
-        "259100"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Jessica and Austin Mazur reside at a property on Donahoo Road in Kansas City, Kansas ([simplecontacts.com](https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road)). Austin Mazur operates a local business, Mazur Renovation, which provides residential remodeling services in the Kansas City metropolitan area ([mazurrenovationjoc.wixsite.com](https://mazurrenovationjoc.wixsite.com/home)). There are no available public records indicating their stance on renewable energy or development projects in Wyandotte County.",
-      "confidence": "medium",
-      "noted_stance": "unknown",
-      "community_influence": "Low",
-      "influence_justification": "Small business owner; no public office found",
-      "approach_recommendations": {
-        "motivations": [
-          "property_value",
-          "privacy_quiet"
-        ],
-        "engage": "Connect through community pride and home value interests. A fellow community member or local business peer could discuss how the project might enhance the neighborhood and address any quality-of-life questions."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Jessica and Austin Mazur reside at a property on Donahoo Road in Kansas City, Kansas",
-          "url": "https://www.simplecontacts.com/state/KS/Kansas-City/Donahoo-Road",
-          "title": "Residents of Donahoo Road, Kansas City KS",
-          "date": "2026-02-17",
-          "note": null
-        },
-        {
-          "claim": "Austin Mazur operates a local business, Mazur Renovation, which provides residential remodeling services in the Kansas City metropolitan area",
-          "url": "https://mazurrenovationjoc.wixsite.com/home",
-          "title": "Mazur Renovation Home Page",
-          "date": "2026-02-17",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "SP Bennet Lake Development, LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "423100"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "SP Bennet Lake Development, LLC is a special-purpose entity associated with Scannell Properties, a national real estate development firm based in Indianapolis ([leinumber.com](https://www.leinumber.com/leicert/2549006A3TMOUDEKUK90/)). The entity is developing the Scannell 435 Logistics Center, a 400-acre master-planned logistics park at 9822 Leavenworth Road in Wyandotte County, Kansas City, KS ([loopnet.com](https://www.loopnet.com/Listing/9700-Leavenworth-Rd-Kansas-City-KS/30042694/)) ([ttnews.com](https://www.ttnews.com/articles/kansas-marvin-logistics-hub)). Earthwork for the project began circa late 2023 to early 2024, securing Marvin Lumber and Cedar Company as an anchor tenant for a 400,000 sq. ft. manufacturing facility ([windowanddoor.com](https://www.windowanddoor.com/news/marvin-selects-kansas-city-new-manufacturing-facility)). Scannell Properties has a documented history of integrating renewable energy into its industrial developments, including installing extensive solar arrays and battery energy storage systems at other logistics facilities ([arconational.com](https://www.arconational.com/arco-partners-with-scannell-properties-on-manufacturing-facility-for-plant-prefab/)) ([energy.gov](https://www.energy.gov/sites/prod/files/2019/06/f63/101482.pdf)).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "High",
-      "influence_justification": "Controls a major 400-acre industrial development (Scannell 435 Logistics Center); backed by national developer Scannell Properties; secured high-profile tenant (Marvin) with state government backing.",
-      "approach_recommendations": {
-        "motivations": [
-          "Infrastructure alignment",
-          "Tenant stability",
-          "Renewable energy integration"
-        ],
-        "engage": "Coordinate with Scannell Properties’ project leads regarding the 435 Logistics Center timeline. Highlight Helpen’s ability to provide complementary renewable energy infrastructure, referencing Scannell's past inclusion of solar arrays and battery storage in their industrial projects."
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": "SP Bennet Lake Development, LLC is the local holding entity for Scannell Properties' major industrial project, the Scannell 435 Logistics Center. They are actively developing the site for high-value tenants like Marvin Windows. The parent company, Scannell Properties, has a demonstrated track record of supporting and integrating solar and battery storage into their logistics parks.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "SP Bennet Lake Development, LLC is associated with Scannell Properties and registered in Indianapolis",
-          "url": "https://www.leinumber.com/leicert/2549006A3TMOUDEKUK90/",
-          "title": "SP Bennet Lake Development, LLC LEI Registration",
-          "date": "2024-02-17",
-          "note": null
-        },
-        {
-          "claim": "Developing the Scannell 435 Logistics Center at 9822 Leavenworth Road",
-          "url": "https://www.loopnet.com/Listing/9700-Leavenworth-Rd-Kansas-City-KS/30042694/",
-          "title": "Scannell 435 Logistics Center Listing",
-          "date": "2026-02-10",
-          "note": null
-        },
-        {
-          "claim": "Project includes a 400-acre master planned logistics park",
-          "url": "https://www.ttnews.com/articles/kansas-marvin-logistics-hub",
-          "title": "Kansas Logistics Hub to Host Marvin Manufacturing",
-          "date": "2024-04-29",
-          "note": null
-        },
-        {
-          "claim": "Marvin has begun earthwork for the 400,000-square-foot facility",
-          "url": "https://www.windowanddoor.com/news/marvin-selects-kansas-city-new-manufacturing-facility",
-          "title": "Marvin Selects Kansas City for New Manufacturing Facility",
-          "date": "2024-03-22",
-          "note": null
-        },
-        {
-          "claim": "Scannell Properties integrates solar arrays and battery storage in projects",
-          "url": "https://www.arconational.com/arco-partners-with-scannell-properties-on-manufacturing-facility-for-plant-prefab/",
-          "title": "ARCO Partners with Scannell Properties on Plant Prefab Facility",
-          "date": "2024-01-01",
-          "note": null
-        },
-        {
-          "claim": "Scannell Properties installed solar PV and battery systems in DOE project",
-          "url": "https://www.energy.gov/sites/prod/files/2019/06/f63/101482.pdf",
-          "title": "DOE Categorical Exclusion Determination: Scannell Properties",
-          "date": "2019-06-06",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Marvin Lumber and Cedar Company, LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "428700"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "Marvin Lumber and Cedar Company, LLC (Marvin) is a family-owned window and door manufacturing firm founded in 1912 and based in Warroad, Minnesota ([pestel-analysis.com](https://pestel-analysis.com/blogs/brief-history/marvin)). In 2024, Marvin began earthwork on a 400,000 sq. ft. production facility in the Scannell 435 Logistics Center in Kansas City, KS, representing a capital investment of approximately $76.5 million ([kansascommerce.gov](https://www.kansascommerce.gov/2024/03/marvin-investing-76-5m-creating-600-jobs-in-kansas-city-kansas/)). The project is actively supported by Governor Laura Kelly and local officials, who cited the creation of 100 initial jobs and up to 600 jobs by 2028 ([ingrams.com](https://ingrams.com/article/window-door-manufacturer-selects-kck-for-76m-facility-600-new-jobs/)). Marvin has a corporate commitment to sustainability, with manufacturing operations that incorporate renewable energy sources and environmental standards ([mags.constructioninfocus.com](https://mags.constructioninfocus.com/mag/_Backups/CIFDec2024-old11/flipbook.pdf)). The company chose Wyandotte County after a multi-state search due to the region's workforce and collaborative economic development approach ([woodworkingnetwork.com](https://www.woodworkingnetwork.com/management/fdmc-300/marvin-selects-site-new-76-million-manufacturing-facility)).",
-      "confidence": "high",
-      "noted_stance": "support",
-      "community_influence": "High",
-      "influence_justification": "Major new regional employer (600 planned jobs); secured $76.5M+ investment; heavily backed by Governor Kelly and Wyandotte County Economic Development Council.",
-      "approach_recommendations": {
-        "motivations": [
-          "Workforce development",
-          "Corporate sustainability goals",
-          "Operational stability"
-        ],
-        "engage": "Engage Marvin's Kansas City operations director regarding shared sustainability goals. Highlight how Helpen's development aligns with Marvin's corporate commitment to renewable energy sources and environmental manufacturing standards."
-      },
-      "entity_classification": "unknown",
-      "profile_summary": "Marvin is a significant new industrial stakeholder in Wyandotte County, currently constructing a major manufacturing hub. They have strong political capital via state incentives and job creation promises. Their corporate stance actively supports sustainable operations and renewable energy integration, making them a likely ally for responsible development.",
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": [
-        {
-          "claim": "Founded in 1912 and based in Warroad, Minnesota",
-          "url": "https://pestel-analysis.com/blogs/brief-history/marvin",
-          "title": "Brief History of Marvin",
-          "date": "2025-11-06",
-          "note": null
-        },
-        {
-          "claim": "Investing $76.5 million in 400,000 sq ft Kansas City facility",
-          "url": "https://www.kansascommerce.gov/2024/03/marvin-investing-76-5m-creating-600-jobs-in-kansas-city-kansas/",
-          "title": "Marvin Investing $76.5M in Kansas City",
-          "date": "2024-03-21",
-          "note": null
-        },
-        {
-          "claim": "Project supported by Governor Kelly with 600 jobs planned by 2028",
-          "url": "https://ingrams.com/article/window-door-manufacturer-selects-kck-for-76m-facility-600-new-jobs/",
-          "title": "Window & Door Manufacturer Selects KCK for $76M Facility",
-          "date": "2024-03-21",
-          "note": null
-        },
-        {
-          "claim": "Corporate commitment to renewable energy sources in manufacturing",
-          "url": "https://mags.constructioninfocus.com/mag/_Backups/CIFDec2024-old11/flipbook.pdf",
-          "title": "Construction in Focus: Marvin Lumber",
-          "date": "2024-12-01",
-          "note": null
-        },
-        {
-          "claim": "Selected site after multi-state search due to workforce and economic development collaboration",
-          "url": "https://www.woodworkingnetwork.com/management/fdmc-300/marvin-selects-site-new-76-million-manufacturing-facility",
-          "title": "Marvin Selects Site for New Facility",
-          "date": "2024-04-05",
-          "note": null
-        }
-      ]
-    },
-    {
-      "neighbor_id": "N-01",
-      "name": "Scannell Properties #459, LLC",
-      "entity_category": "Organization",
-      "entity_type": "llc",
-      "pins": [
-        "941107"
-      ],
-      "owns_adjacent_parcel": "No",
-      "claims": "Scannell Properties #459, LLC is a special-purpose entity of Indianapolis-based Scannell Properties, a private real estate developer with over 300 projects across 44 U.S. states [Mid-America Contractors](https://midamericacontractors.com/planning-has-started-for-the-woodlands-racetrack-property/). In 2020, this LLC acquired the former Woodlands racetrack site in Kansas City, KS and constructed an Amazon distribution facility as the first phase of redevelopment [MetroWire Media](https://www.metrowiremedia.com/news/scannell-properties-targets-kc-as-prime-industrial-market). The property, now called I-435 Logistics Park, encompasses roughly 381 acres on which Scannell plans to build six industrial warehouse buildings totaling about 3.55 million square feet [MetroWire Media](https://www.metrowiremedia.com/news/scannell-properties-targets-kc-as-prime-industrial-market).",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "High",
-      "influence_justification": "National development firm with major local landholding and capital (381-acre project; Amazon as tenant)",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Engage the company’s local development director (e.g. Cameron Duff) to explore coordination; emphasize how the new project can complement their logistics park and address any operational concerns (traffic, infrastructure) to prevent opposition"
-      },
-      "entity_classification": "land_investment",
-      "profile_summary": null,
-      "stance": null,
-      "signal": null,
-      "influence_level": null,
-      "risk_level": null,
-      "engagement_recommendation": null,
-      "social": null,
-      "influence": null,
-      "behavioral_indicators": null,
-      "financial_stress_signals": null,
-      "coalition_predictors": null,
-      "disambiguation": null,
-      "citations": null
-    },
-    {
-      "neighbor_id": "N-02",
-      "name": "Unified Government Wy Co/KCK",
-      "entity_category": "Organization",
-      "entity_type": "municipal",
-      "pins": [
-        "892382",
-        "892293",
-        "892389"
-      ],
-      "owns_adjacent_parcel": "Yes",
-      "claims": "The Unified Government of Wyandotte County/Kansas City, KS (UG) is the consolidated city-county government, which often holds title to land via its land bank or public projects and oversees all zoning and development approvals [RealtyHop](https://www.realtyhop.com/property-records/search/unified-government-of-wyandotte-county-k). UG officials supported Scannell Properties’ plan to redevelop the long-vacant Woodlands racetrack site, citing the creation of 1,000 new jobs and dedicating 70 acres of the area for public green space and trails as part of the project [Mid-America Contractors](https://midamericacontractors.com/planning-has-started-for-the-woodlands-racetrack-property/). In 2020, the UG Commission approved an industrial park proposal of over 3 million square feet of warehouse space on that site as a key economic development initiative for the county [Mid-America Contractors](https://midamericacontractors.com/planning-has-started-for-the-woodlands-racetrack-property/).",
-      "confidence": "medium",
-      "noted_stance": null,
-      "community_influence": "High",
-      "influence_justification": "Local government authority; controls zoning, incentives, and holds adjacent land; central to approval process",
-      "approach_recommendations": {
-        "motivations": [],
-        "engage": "Coordinate early with UG’s economic development officials and county commissioners; frame the project as aligned with community benefits (employment, tax base) and ensure compliance with local plans to secure their support"
+        "engage": "Engage directly regarding safety protocols. As a fire chief, his primary concern is emergency response capabilities. Demonstrate how the project will support, not strain, local fire districts (e.g., training, equipment donations) and address his specific testimony regarding resource shortages."
       },
       "entity_classification": "municipal",
       "profile_summary": null,
@@ -1417,23 +392,174 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": null
+      "citations": [
+        {
+          "claim": "Samuel H. Waddle settled in the area in 1866",
+          "url": "https://www.ksgenweb.org/archives/1918ks/biow/waddlesh.html",
+          "title": "Biography of Samuel H. Waddle",
+          "date": "1918-01-01",
+          "note": null
+        },
+        {
+          "claim": "Wade Waddle serves as the Assistant Chief for Saline County Rural Fire District No. 1",
+          "url": "https://citizenportal.ai/articles/6536169/Kansas/Saline-County/Rural-Fire-District-No-1-authorized-to-accept-35000-in-foundation-grants-for-wildland-UTV",
+          "title": "Rural Fire District No. 1 authorized to accept grants",
+          "date": "2025-06-10",
+          "note": null
+        },
+        {
+          "claim": "Spoke at Planning and Zoning Commission meeting regarding battery storage project",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning and Zoning Commission Minutes",
+          "date": "2023-08-22",
+          "note": null
+        },
+        {
+          "claim": "Expressed concerns regarding local fire district capabilities",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning and Zoning Commission Minutes",
+          "date": "2023-08-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Justin D. Jensen",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085125220000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin D. Jensen is a resident of Gypsum, KS, and a recipient of USDA agricultural subsidies ([EWG](https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_cfap2&page=2&yr=2023)). He is the son of the late Michael Ray Jensen, a lifelong farmer and rancher in the area ([Ryan Mortuary](https://www.ryanmortuary.com/obituary/Michael-Jensen)). Justin attended the August 22, 2023, Saline County Planning and Zoning Commission meeting regarding a Conditional Use Permit for development but did not provide public testimony ([Saline County](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338)). His family's land history includes a 2004 property valuation dispute involving Richard R. and Sandra L. Jensen ([FindLaw](https://caselaw.findlaw.com/ks-court-of-appeals/1418887.html)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Active in local agriculture; attended zoning hearing",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "farmland_preservation"
+        ],
+        "engage": "Approach with technical agricultural data. Given his attendance at previous zoning hearings and receipt of ag subsidies, focus on the economic stability the project offers to farming operations and the preservation of family land assets."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Recipient of USDA agricultural subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_cfap2&page=2&yr=2023",
+          "title": "EWG Farm Subsidy Database - Saline County",
+          "date": "2023-01-01",
+          "note": null
+        },
+        {
+          "claim": "Son of the late Michael Ray Jensen",
+          "url": "https://www.ryanmortuary.com/obituary/Michael-Jensen",
+          "title": "Obituary of Michael Ray Jensen",
+          "date": "2025-01-25",
+          "note": null
+        },
+        {
+          "claim": "Attended August 2023 Planning Commission meeting",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning and Zoning Commission Minutes",
+          "date": "2023-08-22",
+          "note": null
+        },
+        {
+          "claim": "Family land involved in 2004 valuation dispute",
+          "url": "https://caselaw.findlaw.com/ks-court-of-appeals/1418887.html",
+          "title": "Saline County Board of Commissioners v. Jensen",
+          "date": "2004-04-23",
+          "note": null
+        }
+      ]
     },
     {
       "neighbor_id": "N-03",
-      "name": "Anita Andrews Revocable Trust",
-      "entity_category": "Organization",
-      "entity_type": "trust",
+      "name": "Ronald A. & Sandra K. Kinkelaar",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
       "pins": [
-        "941101"
+        "085128280000000601001"
       ],
       "owns_adjacent_parcel": "No",
-      "claims": "See RESIDENT table.",
-      "confidence": "medium",
-      "noted_stance": null,
+      "claims": "Ronald A. and Sandra K. Kinkelaar are landowners in Saline County with property interests impacted by local infrastructure projects, such as the K-4 Highway improvements ([KDOT](https://ikewebstorage.blob.core.windows.net/files/projects/KA-3230-02/004-085-KA-3230-02_Public-Meeting-Project-Maps.pdf)). They attended the Saline County Planning and Zoning Commission meeting on August 22, 2023, concerning solar and battery storage permits, though they did not speak during the public comment period ([Saline County](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
       "community_influence": "Low",
-      "influence_justification": "Private individual landowner with no known public or economic influence",
-      "approach_recommendations": null,
+      "influence_justification": "Local landowners; attended zoning meeting",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out via a mutual contact or standard mailer. Acknowledge their long-term presence and interest in local infrastructure (evidenced by K-4 and zoning meeting attendance). Focus on low-impact design and property rights."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Property interests impacted by K-4 Highway improvements",
+          "url": "https://ikewebstorage.blob.core.windows.net/files/projects/KA-3230-02/004-085-KA-3230-02_Public-Meeting-Project-Maps.pdf",
+          "title": "KDOT Public Meeting Project Maps",
+          "date": "2023-11-13",
+          "note": null
+        },
+        {
+          "claim": "Attended Saline County Planning and Zoning Commission meeting August 2023",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning and Zoning Commission Minutes",
+          "date": "2023-08-22",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven G Dunning & Cynthia D Dunning",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven G. Dunning and Cynthia D. Dunning are associated with a property on Holmes Road in Assaria, Kansas, which is situated in the vicinity of a proposed solar project described as being east of South Holmes Road [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81) [Men Stopping Violence](https://www.menstoppingviolence.org/people/cynthia-dunning/). Steven Dunning serves as the President of Salina Planing Mill, Inc., a role he has held for over 14 years, and is involved in the Architectural Woodwork Institute [Miller Wood Trade Pub](https://millerwoodtradepub.com/whos-who-march-2024/) [AWI](https://awinet.org/about-awi/chapters/). He has also made local political contributions using a Salina business address [Kansas Ethics](http://ethics.ks.gov/CFAScanned/StWide/2018ElecCycle/201801/SW01MH_201801.pdf). As of early 2026, neither individual has been noted making public statements regarding renewable development in county meeting minutes.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Local business president; industry chapter leader",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Approach Steven with a professional tone, acknowledging his leadership at Salina Planing Mill. Focus discussion on the Holmes Road property's proximity to the project, emphasizing property value protection and fair contracting terms suitable for a business-minded landowner."
+      },
       "entity_classification": "unknown",
       "profile_summary": null,
       "stance": null,
@@ -1447,54 +573,1064 @@
       "financial_stress_signals": null,
       "coalition_predictors": null,
       "disambiguation": null,
-      "citations": null
+      "citations": [
+        {
+          "claim": "Property described as east of South Holmes Road",
+          "url": "https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81",
+          "title": "Saline County Commission: Proposal for possible 1,000 acre solar farm",
+          "date": "2023-06-23",
+          "note": null
+        },
+        {
+          "claim": "Cynthia Dunning associated with property on Holmes Road",
+          "url": "https://www.menstoppingviolence.org/people/cynthia-dunning/",
+          "title": "Cynthia Dunning Address History",
+          "date": "2026-02-20",
+          "note": null
+        },
+        {
+          "claim": "Steven Dunning serves as President of Salina Planing Mill",
+          "url": "https://millerwoodtradepub.com/whos-who-march-2024/",
+          "title": "Who's Who in Hardwood Purchasing",
+          "date": "2024-03-01",
+          "note": null
+        },
+        {
+          "claim": "Involved in the Architectural Woodwork Institute",
+          "url": "https://awinet.org/about-awi/chapters/",
+          "title": "AWI Chapters: Heart of America",
+          "date": "2026-02-20",
+          "note": null
+        },
+        {
+          "claim": "Made local political contributions using business address",
+          "url": "http://ethics.ks.gov/CFAScanned/StWide/2018ElecCycle/201801/SW01MH_201801.pdf",
+          "title": "Kansas Ethics Commission Receipts and Expenditures Report",
+          "date": "2018-01-11",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ellen Kay Ward",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085124200000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ellen Kay Ward is an absentee landowner residing in Tahlequah, Oklahoma, who receives agricultural subsidies for property in Saline County, Kansas [EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=20169&progcode=total_dis&page=4&yr=2024). She is the daughter of the late Kurtiss Forsberg, a distinguished local dairy farmer in the Mentor area, indicating the property is likely a family legacy asset [Crick-Christians Funeral Home](https://www.crick-christiansfuneralhome.com/obituaries/Kurtiss-Forsberg?obId=30920719). She has not spoken publicly about the project in local hearings, likely due to her out-of-state residency.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee landowner; daughter of local dairy farmer",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "tax_revenue_benefit"
+        ],
+        "engage": "Contact via mail in Tahlequah, OK. Reference her father's (Kurtiss Forsberg) agricultural legacy in the Mentor area to build trust. Position the project as a way to retain family land ownership through passive income while preserving the farm's history."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Resides in Tahlequah, Oklahoma and receives agricultural subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=total_dis&page=4&yr=2024",
+          "title": "EWG Farm Subsidy Database: Saline County, KS",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Daughter of the late Kurtiss Forsberg, a distinguished local dairy farmer",
+          "url": "https://www.crick-christiansfuneralhome.com/obituaries/Kurtiss-Forsberg?obId=30920719",
+          "title": "Obituary for Kurtiss Forsberg",
+          "date": "2011-01-27",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Dye Elan Revocable Trust",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000800001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Dye Elan Revocable Trust is a landowner in Saline County, listed on the notification radius for the Mountain Peak Energy Storage project ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). The trust is associated with Elan Dye, the surviving spouse of local bagpiper Bobbie Leroy Dye (d. 2020), and is based at a residence on South Simpson Road, located less than one mile north of the proposed battery storage site ([Carlson Funeral Home](https://www.carlsonfh.net/obituaries/bobbie-leroy-dye)). Elan Dye has been listed as a member of the local Lions Club district ([Lions Club](https://cdn2.webdamdb.com/md_gS8dWKAQ63F02c0l.jpg.pdf?v=1)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Widow of a local resident; no record of public office or significant political contributions found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Proximity to project (visual/noise)",
+          "Property value preservation"
+        ],
+        "engage": "Engage Elan Dye directly at the South Simpson Road residence. Given the close proximity to the proposed project site (approx. 0.8 miles), prioritize discussions regarding visual screening and construction traffic management."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Listed on the notification radius for the Mountain Peak Energy Storage project",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Property Owner List",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Associated with Elan Dye, surviving spouse of Bobbie Leroy Dye",
+          "url": "https://www.carlsonfh.net/obituaries/bobbie-leroy-dye",
+          "title": "Obituary: Bobbie Leroy Dye",
+          "date": "2020-03-07",
+          "note": null
+        },
+        {
+          "claim": "Listed as a member of the local Lions Club district",
+          "url": "https://cdn2.webdamdb.com/md_gS8dWKAQ63F02c0l.jpg.pdf?v=1",
+          "title": "District 17 K Lions Club Member List",
+          "date": "2018-01-16",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fulton Ruby A Trust",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Fulton Ruby A Trust is a landowning entity in Saline County designated as a recipient of federal agricultural subsidies ([EWG Farm Subsidy Database](https://www.starvingfarmer.com/county/169/20)). Public records regarding the Mountain Peak Energy Storage project identify the primary contact for the trust as Gerald Fulton, with a mailing address in Goddard, Kansas ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). A Gerald Fulton in Goddard is associated with an engineering background, though specific involvement in Saline County development hearings was not found ([National Public Data](https://nationalpublicdata.com/people/f/gerald-fulton/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": " absentee owner/trustee located in Sedgwick County (Goddard); no evidence of local political activity or testimony in Saline County hearings.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural land value",
+          "Tenant farming operations"
+        ],
+        "engage": "Direct correspondence to Gerald Fulton in Goddard, KS. As an absentee trustee, focus on lease income potential and lack of interference with existing agricultural operations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Designated as a recipient of federal agricultural subsidies",
+          "url": "https://www.starvingfarmer.com/county/169/20",
+          "title": "StarvingFarmer.com Directory of Farmers Saline County",
+          "date": "2023-01-01",
+          "note": null
+        },
+        {
+          "claim": "Identify the primary contact for the trust as Gerald Fulton, with a mailing address in Goddard, Kansas",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Property Owner List",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Gerald Fulton in Goddard is associated with an engineering background",
+          "url": "https://nationalpublicdata.com/people/f/gerald-fulton/",
+          "title": "Background Report for Gerald Fulton",
+          "date": "2026-02-20",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "085125220000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Jerrold E. Cossette Jr. is a long-standing Otolaryngologist and Plastic Surgeon in Salina, practicing for over 50 years and affiliated with Salina Regional Health Center ([Healthgrades](https://www.healthgrades.com/physician/dr-jerrold-cossette-32wbp)). He is a significant landowner in the county, listed as a top recipient of Livestock Forage Disaster Program subsidies in 2022 ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_lvstfo&yr=2022&regionname=SalineCounty,Kansas)). Dr. Cossette has a history of engaging in complex business tax litigation regarding aircraft usage for his medical practice ([FindLaw](https://caselaw.findlaw.com/ks-supreme-court/1045807.html)) and is a documented donor to the Kansas Medical Society Political Action Committee ([Kansas Ethics Commission](https://www.kansas.gov/ethics/CFAScanned/PACs/2014ElecCycle/201407/PAC115_201407.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Prominent medical professional with significant land holdings and business sophistication; documented donor to political committees.",
+      "approach_recommendations": {
+        "motivations": [
+          "Land stewardship",
+          "Tax/Financial planning",
+          "Business operations"
+        ],
+        "engage": "Engage Dr. Jerrold Cossette directly. He is a sophisticated stakeholder with medical, aviation, and agricultural business interests. Frame discussions around technical competence, long-term land value, and minimal disruption to his livestock operations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Practicing for over 50 years and affiliated with Salina Regional Health Center",
+          "url": "https://www.healthgrades.com/physician/dr-jerrold-cossette-32wbp",
+          "title": "Dr. Jerrold Cossette Jr, MD",
+          "date": "2026-02-20",
+          "note": null
+        },
+        {
+          "claim": "Listed as a top recipient of Livestock Forage Disaster Program subsidies in 2022",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_lvstfo&yr=2022&regionname=SalineCounty,Kansas",
+          "title": "EWG Farm Subsidy Database - Saline County 2022",
+          "date": "2023-01-01",
+          "note": null
+        },
+        {
+          "claim": "History of engaging in complex business tax litigation regarding aircraft usage",
+          "url": "https://caselaw.findlaw.com/ks-supreme-court/1045807.html",
+          "title": "In Re Application of Central Kansas E.N.T. Associates",
+          "date": "2003-05-30",
+          "note": null
+        },
+        {
+          "claim": "Documented donor to the Kansas Medical Society Political Action Committee",
+          "url": "https://www.kansas.gov/ethics/CFAScanned/PACs/2014ElecCycle/201407/PAC115_201407.pdf",
+          "title": "Kansas Medical Society PAC Receipts",
+          "date": "2014-07-28",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Richard L. Kelley, Ruth A. Kelley, Zachary J. Kelley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000500001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Richard L. Kelley has served in the Kansas National Guard, based in Salina [Department of Defense](https://media.defense.gov/2017/Nov/02/2002670552/-1/-1/1/171102-N-ZZ320-0698.pdf). The Kelley family was identified in the draft as landowners opposing the Plus Power battery storage facility; however, their specific participation in the protest petition could not be verified in available public records, though a valid petition signed by 80 parcel owners did cause the project's denial in January 2026 [Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Military service record; no other public roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Establish initial contact to verify their position on the project, as public records do not explicitly link them to the protest petition. Acknowledge the general community sentiment regarding the recent denial while seeking to understand their specific concerns."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Richard L. Kelley has served in the Kansas National Guard, based in Salina",
+          "url": "https://media.defense.gov/2017/Nov/02/2002670552/-1/-1/1/171102-N-ZZ320-0698.pdf",
+          "title": "Kansas National Guard Plains Guardian",
+          "date": "2017-10-18",
+          "note": null
+        },
+        {
+          "claim": "a valid petition signed by 80 parcel owners did cause the project's denial in January 2026",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Unanimous Approval of Battery Storage Project",
+          "date": "2026-01-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Bebe Davis Tucker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085125210000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bebe Davis Tucker is a listed property owner within the notification radius of the Mountain Peak Energy Storage (Plus Power) project at McReynolds and Simpson Road [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf). She maintains a mailing address in Dallas, Texas, indicating she may be an absentee landowner [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf). The proposed battery facility was denied by the County Commission on January 6, 2026, following a valid protest petition signed by over 31% of the notification area's landowners, a group that includes Tucker [Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Absentee landowner (Texas address); listed in notification radius",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "farmland_preservation"
+        ],
+        "engage": "Due to her Dallas residency, outreach should be conducted via mail or through a local property manager if one exists. Emphasize how the project design minimizes impact on property values and rural character, addressing the specific concerns raised by the protest petition group."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Bebe Davis Tucker is a listed property owner within the notification radius of the Mountain Peak Energy Storage (Plus Power) project at McReynolds and Simpson Road",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Appendix L through R",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "She maintains a mailing address in Dallas, Texas, indicating she may be an absentee landowner",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Appendix L through R",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "The proposed battery facility was denied by the County Commission on January 6, 2026, following a valid protest petition signed by over 31% of the notification area's landowners",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Unanimous Approval of Battery Storage Project",
+          "date": "2026-01-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rodney A. Bradshaw",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000201001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rodney A. Bradshaw is a resident of Salina, KS, residing on Crestview Dr [NPD](https://nationalpublicdata.com/people/b/rodney-bradshaw/). While the draft identified him as an opponent of the Plus Power project, the project site is located in a rural area at McReynolds and Simpson Road, and Bradshaw's specific property interest in that area or signature on the protest petition could not be verified in public records [Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Resident of Salina; no rural land ties confirmed",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "property_value"
+        ],
+        "engage": "Verify if Bradshaw owns rural land near the project site, as his primary residence appears to be within the City of Salina. If he is a landowner, focus on clarification of safety protocols, as safety was a primary driver for the recent project denial."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Rodney A. Bradshaw is a resident of Salina, KS, residing on Crestview Dr",
+          "url": "https://nationalpublicdata.com/people/b/rodney-bradshaw/",
+          "title": "Rodney Bradshaw - Address, Phone Number, Email | NPD People Search",
+          "date": "2026-02-20",
+          "note": null
+        },
+        {
+          "claim": "the project site is located in a rural area at McReynolds and Simpson Road",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Unanimous Approval of Battery Storage Project",
+          "date": "2026-01-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Harbin Farm Enterprises Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000200001"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Harbin Farm Enterprises LLC is a Kansas entity managed by Dr. Gary Harbin, a prominent local orthopedic surgeon [Salina Ortho](https://www.salinaortho.com/harbin.html). Unlike a passive holding company, this entity is actively engaged in industrial land use; in 2023-2024, it filed applications to allow American Sand and Gravel, LLC to extend mining operations onto 175 acres of its property [Saline County Planning](https://salina-tv.com/cablecastapi/shows/25950/publicfiles/4). The entity also holds water rights for irrigation and industrial use (sand and gravel) [Kansas Dept of Agriculture](https://sftp.kda.ks.gov:4443/Notices/Stockton_Field_Office/2024/49991.20240409.Apv.Chg.pdf). Dr. Harbin is a documented donor to The Land Institute, a sustainable agriculture research organization, suggesting an interest in land conservation or perennial agriculture alongside industrial leasing [The Land Institute](https://landinstitute.org/wp-content/uploads/2016/09/Land-Report-095.pdf).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Principal is a prominent local physician (50+ years experience) and the entity controls significant land with active industrial/mining leases.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue generation (proven by mining lease)",
+          "Land stewardship/conservation"
+        ],
+        "engage": "Engage Dr. Gary Harbin directly. Acknowledge his dual interests in sustainable agriculture (Land Institute donation) and industrial land utilization (sand mining). Position the project as compatible with both revenue goals and land preservation."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Entity managed by Dr. Gary Harbin; combines agricultural holdings with active sand/gravel mining leases.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Managed by Dr. Gary Harbin, a prominent local orthopedic surgeon",
+          "url": "https://www.salinaortho.com/harbin.html",
+          "title": "Gary L. Harbin, M.D. - Salina Ortho",
+          "date": "2024-02-20",
+          "note": null
+        },
+        {
+          "claim": "Filed applications to allow American Sand and Gravel, LLC to extend mining operations onto 175 acres",
+          "url": "https://salina-tv.com/cablecastapi/shows/25950/publicfiles/4",
+          "title": "Saline County Planning & Zoning Commission Agenda Aug 2023",
+          "date": "2023-08-22",
+          "note": null
+        },
+        {
+          "claim": "Holds water rights for irrigation and industrial use (sand and gravel)",
+          "url": "https://sftp.kda.ks.gov:4443/Notices/Stockton_Field_Office/2024/49991.20240409.Apv.Chg.pdf",
+          "title": "Application for Approval to Change Point of Diversion",
+          "date": "2024-04-09",
+          "note": null
+        },
+        {
+          "claim": "Documented donor to The Land Institute",
+          "url": "https://landinstitute.org/wp-content/uploads/2016/09/Land-Report-095.pdf",
+          "title": "The Land Institute Land Report 95",
+          "date": "2016-09-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Tillberg Arnold E Tr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085125220000000300001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Tillberg Arnold E Trust appears to be a passive land-holding entity. The namesake, Arnold E. Tillberg, was active in the region as early as the 1960s (attending Kansas State University) and 1980s (Arnold E. Tillberg, Inc.), suggesting a long-standing family presence [Kansas State University Yearbook](https://archive.org/stream/royalpurple1960unse/royalpurple1960unse_djvu.txt). A related entity, 'Tillberg Land, LLC,' was forfeited by the Kansas Secretary of State in 2020 and 2022, indicating potential inactivity or consolidation of business structures [Kansas Secretary of State](https://sos.ks.gov/publications/Register/Volume-41/PDF/Vol-41-No-34-August-25-2022-July-2022-Forfeitures.pdf). The Trust was identified as a property owner within the notification radius of the Mountain Peak Energy Storage (battery) project in 2023-2025, placing it geographically near recent renewable development controversies [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No active political or business leadership found; related LLCs are forfeited.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach as a legacy landowner. Verify current trustee contact information, as corporate filings for related entities are not in good standing."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Legacy family trust with history in the region; related corporate entities are inactive.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Arnold E. Tillberg was active in the region as early as the 1960s",
+          "url": "https://archive.org/stream/royalpurple1960unse/royalpurple1960unse_djvu.txt",
+          "title": "Royal Purple Yearbook 1960",
+          "date": "1960-01-01",
+          "note": null
+        },
+        {
+          "claim": "Tillberg Land, LLC was forfeited by the Kansas Secretary of State",
+          "url": "https://sos.ks.gov/publications/Register/Volume-41/PDF/Vol-41-No-34-August-25-2022-July-2022-Forfeitures.pdf",
+          "title": "Kansas Register Vol 41 No 34 Forfeitures",
+          "date": "2022-08-25",
+          "note": null
+        },
+        {
+          "claim": "Identified as a property owner within the notification radius of the Mountain Peak Energy Storage project",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage Conditional Use Permit Application Appendix",
+          "date": "2025-09-03",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Bradshaw Business Properties Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000500001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bradshaw Business Properties LLC is a land-holding entity associated with Rodney A. Bradshaw, a Salina resident [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf). The entity's corporate status was forfeited in Kansas as of July 2021, suggesting the LLC may be defunct or administratively neglected despite continuing to hold property title [Kansas Secretary of State](https://sos.ks.gov/publications/Register/Volume-40/PDF/Vol_40_No_34_August_26_2021_July_2021_Forfeitures.pdf). The LLC was listed as a notified neighbor for the Mountain Peak Energy Storage project in 2023-2025, indicating the property is located in an area recently subject to intense zoning debates regarding battery storage [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Entity is forfeited/inactive; limited to property ownership.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial resolution (entity is forfeited)"
+        ],
+        "engage": "Direct outreach to Rodney A. Bradshaw in Salina. Note that the LLC is currently forfeited, which may complicate lease signing; this could be a leverage point to offer legal/admin assistance as part of a land deal."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Inactive/forfeited LLC holding land near contested battery storage site; controlled by Rodney Bradshaw.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Associated with Rodney A. Bradshaw, a Salina resident",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage Conditional Use Permit Application Appendix",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Entity's corporate status was forfeited in Kansas as of July 2021",
+          "url": "https://sos.ks.gov/publications/Register/Volume-40/PDF/Vol_40_No_34_August_26_2021_July_2021_Forfeitures.pdf",
+          "title": "Kansas Register Vol 40 No 34 Forfeitures",
+          "date": "2021-08-26",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "S&S Hammond LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000101001",
+        "085128270000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "S&S Hammond LLC is a Kansas domestic limited liability company identified as the property owner for the proposed Mountain Peak Energy Storage project ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf)). The entity owns the subject parcel at the southwest corner of McReynolds Road and Simpson Road (Section 28, Township 15, Range 2), where the battery energy storage system was proposed ([Salina Post](https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6)). Public land records indicate the entity acquired title to specific parcels in 2021 from the Mary A. Hammond Trust, with Stacey Hammond and Shelly Hammond serving as trustees/signatories for the transaction ([Saline County Deeds](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20U%20&%20V%20Notice%20and%20Deed.pdf)). The LLC's registered address is located in Topeka, KS ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf)). As the lessor and applicant co-signer for the Conditional Use Permit (CUP 25-09), the entity actively facilitated the development attempt ([Salina Media](https://salina-tv.com/cablecastapi/shows/26724/publicfiles/4)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Owner of the project site; direct financial interest in the development lease; members are non-resident landowners.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial return on land lease",
+          "Asset management"
+        ],
+        "engage": "Maintain coordination regarding the lease status following the January 2026 permit denial. Ensure they are kept informed of any potential appeal processes or revised application strategies, as they are the primary site host."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified as the property owner for the proposed Mountain Peak Energy Storage project",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf",
+          "title": "Conditional Use Permit Application - Mountain Peak Energy",
+          "date": "2025-09-04",
+          "note": null
+        },
+        {
+          "claim": "Owns the subject parcel at the southwest corner of McReynolds Road and Simpson Road",
+          "url": "https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6",
+          "title": "Saline County Commissioners deny battery storage facility",
+          "date": "2026-01-06",
+          "note": null
+        },
+        {
+          "claim": "Acquired title to specific parcels in 2021 from the Mary A. Hammond Trust",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20U%20&%20V%20Notice%20and%20Deed.pdf",
+          "title": "Appendix U & V Notice and Deed",
+          "date": "2025-09-02",
+          "note": null
+        },
+        {
+          "claim": "LLC's registered address is located in Topeka, KS",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf",
+          "title": "Conditional Use Permit Application - Mountain Peak Energy",
+          "date": "2025-09-04",
+          "note": null
+        },
+        {
+          "claim": "Applicant co-signer for the Conditional Use Permit (CUP 25-09)",
+          "url": "https://salina-tv.com/cablecastapi/shows/26724/publicfiles/4",
+          "title": "Saline County Planning Commission Agenda",
+          "date": "2025-11-25",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Hammond Family LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000100001",
+        "085128280000000103001"
+      ],
+      "owns_adjacent_parcel": "Yes",
+      "claims": "Hammond Family LLC is a distinct legal entity from S&S Hammond LLC, appearing on the certified list of property owners within the notification radius of the project ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). Public notices regarding the Mountain Peak Energy Storage project were directed to this entity with an 'Attn: Robin Newton' designation ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). While the entity holds agricultural land in the vicinity, specific stance evidence (support letters or opposition testimony) was not explicitly attributed to this specific LLC in the available minutes, distinct from the broader neighborhood opposition ([Salina Post](https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Listed as a notified neighbor; no evidence of active leadership or public testimony found in meeting records.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Treat as a distinct entity from the S&S Hammond LLC (project host). Reach out to the listed contact (Robin Newton) to determine their specific position, as they may have been lumped into the general opposition during the hearings without providing specific testimony."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Appearing on the certified list of property owners within the notification radius",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Appendix L through R - Certified Property Owners List",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Public notices... directed to this entity with an 'Attn: Robin Newton' designation",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Appendix L through R - Certified Property Owners List",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Specific stance evidence... was not explicitly attributed to this specific LLC",
+          "url": "https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6",
+          "title": "Saline County Commissioners deny battery storage facility",
+          "date": "2026-01-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Saline County",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "085125210000000100001",
+        "085125220000000500001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Saline County is the governing body responsible for zoning and land use regulation in the unincorporated areas surrounding the project. On January 6, 2026, the Saline County Commission voted 4-1 to deny the Conditional Use Permit (CUP 25-09) for the Mountain Peak Energy Storage project, overturning a previous unanimous approval by the Planning Commission ([Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/)). The denial was triggered by a valid protest petition signed by owners of approximately 31% of the notification area ([Salina Post](https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6)). The Commission cited concerns regarding inconsistency with the character of the community and safety as reasons for the denial ([KSAL](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/)). Prior to this decision, the County had adopted regulations for Battery Energy Storage Systems (Resolution 25-24-23) in August 2025 ([Citizen Portal](https://citizenportal.ai/articles/6484905/Saline-County/Kansas/Saline-County-adopts-battery-energy-storage-system-regulations-after-months-of-review)) and commercial solar regulations in 2024 ([Saline County](https://salina311.com/county-commission-approves-new-solar-energy-system-provisions/)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "Ultimate regulatory authority; demonstrated willingness to overturn Planning Commission recommendations in the face of public opposition.",
+      "approach_recommendations": {
+        "motivations": [
+          "Public safety",
+          "Community character",
+          "Responsive to constituent petitions"
+        ],
+        "engage": "Given the recent denial (Jan 2026), immediate re-engagement requires addressing the specific findings of 'inconsistency with community character' and safety concerns. Any future attempts must drastically improve community consensus to avoid another protest petition, which triggers the supermajority vote requirement."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Saline County Commission voted 4-1 to deny the Conditional Use Permit (CUP 25-09)",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Saline County Commission Overturns Planning Board's Unanimous Approval",
+          "date": "2026-01-06",
+          "note": null
+        },
+        {
+          "claim": "Triggered by a valid protest petition signed by owners of approximately 31% of the notification area",
+          "url": "https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6",
+          "title": "Saline County Commissioners deny battery storage facility",
+          "date": "2026-01-06",
+          "note": null
+        },
+        {
+          "claim": "Cited concerns regarding inconsistency with the character of the community and safety",
+          "url": "https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/",
+          "title": "4-1 Vote Stops Power Storage Facility Project",
+          "date": "2026-01-06",
+          "note": null
+        },
+        {
+          "claim": "Adopted regulations for Battery Energy Storage Systems (Resolution 25-24-23) in August 2025",
+          "url": "https://citizenportal.ai/articles/6484905/Saline-County/Kansas/Saline-County-adopts-battery-energy-storage-system-regulations-after-months-of-review",
+          "title": "Saline County adopts battery energy storage system regulations",
+          "date": "2025-08-06",
+          "note": null
+        },
+        {
+          "claim": "Adopted commercial solar regulations in 2024",
+          "url": "https://salina311.com/county-commission-approves-new-solar-energy-system-provisions/",
+          "title": "County Commission Approves New Solar Energy System Provisions",
+          "date": "2024-08-06",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Forsberg Farm Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085124200000000901001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Forsberg Farm Trust is a private landholding entity with a mailing address in Clinton, Illinois, care of Roger E. Forsberg ([Saline County Planning Notice](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). The entity was explicitly listed as a notified property owner for the Mountain Peak Energy Storage (Plus Power) project, a battery energy storage system proposed near Assaria, Kansas ([Saline County Planning Notice](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). While the Trust itself did not submit public comments, related family member Doug Forsberg (residing at 2652 E Mentor Rd) testified at a Planning Commission meeting in August 2023 regarding the project, expressing concerns about road conditions, blind spots, and traffic safety on Mattison Road ([Planning Commission Minutes](https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338)). Related family entities, such as 'Forsberg Bros,' have been recipients of USDA agricultural subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_dairy&regionname=SalineCounty,Kansas)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "The Trust is an absentee owner (Illinois-based) and has not taken a public stance itself, though local family members are active in zoning hearings regarding infrastructure.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure maintenance",
+          "Road safety",
+          "Property value preservation"
+        ],
+        "engage": "Contact Trustee Roger E. Forsberg in Illinois for formal permissions. Simultaneously, engage local family member Doug Forsberg regarding road use agreements (RUMA) and traffic management plans, as he has a documented history of concern regarding industrial traffic on local roads."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Absentee farm trust based in Illinois (Roger E. Forsberg). The Trust was a notified neighbor for the Mountain Peak Battery Storage project. Local family member Doug Forsberg is vocal about road safety and infrastructure impacts from energy/industrial development.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Mailing address is Clinton, Illinois, care of Roger E. Forsberg; listed as notified owner for Mountain Peak Energy Storage",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage Conditional Use Permit Application - Appendix L-R",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Doug Forsberg testified regarding road conditions and traffic safety at Planning Commission meeting",
+          "url": "https://pub-salinecounty.escribemeetings.com/filestream.ashx?DocumentId=6338",
+          "title": "Saline County Planning and Zoning Board Commission Meeting Minutes",
+          "date": "2023-08-22",
+          "note": null
+        },
+        {
+          "claim": "Forsberg Bros recipient of USDA subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_dairy&regionname=SalineCounty,Kansas",
+          "title": "EWG Farm Subsidy Database - Saline County, KS",
+          "date": "2024-01-01",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-01",
+      "name": "Spare Bernard T & Debra E Living Tr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085129290000000100001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025 ([source](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). Bernard T. Spare served as the elected Township Treasurer for St. John Township in Stafford County, Kansas ([source](https://www.staffordcounty.org/uploads/1/3/3/6/133660997/st_john_2024.pdf)). The entity is a recipient of USDA agricultural subsidies ([source](https://farm.ewg.org/addrsearch.php?z=1&zip=67576&page=18)). Bernard and Debra Spare are listed as Water Use Correspondents for agricultural operations in Kansas ([source](https://sftp.kda.ks.gov:4443/Notices/Stafford_Field_Office/2025/11559.20250604.Apv.Chg.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Bernard Spare has held elected public office as Township Treasurer (Stafford County) and the family maintains long-standing agricultural water rights.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural land preservation",
+          "Property rights"
+        ],
+        "engage": "Acknowledge Bernard Spare's public service experience and the family's agricultural history. Address land stewardship and potential impacts of the nearby battery storage project, as they were legally notified of the development."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The Spare Living Trust represents a multigenerational farming family based in St. John, KS, with land interests in Saline County. Bernard T. Spare has served as an elected township official (Treasurer) and manages water rights for the family's agricultural operations. They were identified as notified parties for the Mountain Peak Energy Storage project.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Saline County Conditional Use Permit Application Appendix L-R",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Bernard T. Spare served as the elected Township Treasurer for St. John Township in Stafford County, Kansas",
+          "url": "https://www.staffordcounty.org/uploads/1/3/3/6/133660997/st_john_2024.pdf",
+          "title": "St. John Township Financial Report 2024",
+          "date": "2025-01-24",
+          "note": null
+        },
+        {
+          "claim": "The entity is a recipient of USDA agricultural subsidies",
+          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=67576&page=18",
+          "title": "EWG Farm Subsidy Database - Debra E Spare",
+          "date": "2023-12-31",
+          "note": null
+        },
+        {
+          "claim": "Bernard and Debra Spare are listed as Water Use Correspondents for agricultural operations in Kansas",
+          "url": "https://sftp.kda.ks.gov:4443/Notices/Stafford_Field_Office/2025/11559.20250604.Apv.Chg.pdf",
+          "title": "Kansas Department of Agriculture Water Use Correspondent Notice",
+          "date": "2025-06-04",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Myers Warren David & Vickie Diane Rev Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085129290000000601001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025 ([source](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). Warren Myers formerly served as a School Board Member for Southeast of Saline Schools (USD 306) ([source](https://www.ksde.gov/Portals/0/School%20Finance/budget/Budget_at_a_Glance/07-08_Summary/ProfileInformation306.pdf)). Warren also worked as a bus driver and sponsor for district activities ([source](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/1737f255-5c3c-4209-a2f0-251589002c80/April_2_.pdf?disposition=inline)). Vickie Myers has operated locally as a cake designer ([source](https://www.labrisaphotography.com/2015/02/16/lindsay-nolan-wedding-photography-salina-ks-chris-hsieh-emma-york/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Warren Myers is a former elected School Board Member for the local district (Southeast of Saline) and a long-time community volunteer.",
+      "approach_recommendations": {
+        "motivations": [
+          "Community welfare",
+          "Educational support",
+          "Local property impact"
+        ],
+        "engage": "Engage Warren and Vickie Myers directly. Acknowledge Warren's past service on the School Board. Be prepared to discuss visual and property impacts, as they were notified of the nearby battery storage project."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The Myers Revocable Trust is controlled by Warren and Vickie Myers, long-time residents of Assaria. Warren is a former Southeast of Saline School Board member and school employee. The family owns property near the proposed Mountain Peak Energy Storage facility and was included in the formal notification list for that project.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Landowner notified of the Mountain Peak Energy Storage (Battery) Conditional Use Permit application in 2025",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Saline County Conditional Use Permit Application Appendix L-R",
+          "date": "2025-09-03",
+          "note": null
+        },
+        {
+          "claim": "Warren Myers formerly served as a School Board Member for Southeast of Saline Schools (USD 306)",
+          "url": "https://www.ksde.gov/Portals/0/School%20Finance/budget/Budget_at_a_Glance/07-08_Summary/ProfileInformation306.pdf",
+          "title": "USD 306 Budget Profile Information 2007-2008",
+          "date": "2007-07-01",
+          "note": null
+        },
+        {
+          "claim": "Warren also worked as a bus driver and sponsor for district activities",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/1737f255-5c3c-4209-a2f0-251589002c80/April_2_.pdf?disposition=inline",
+          "title": "Southeast of Saline Trojournal",
+          "date": "2001-04-20",
+          "note": null
+        },
+        {
+          "claim": "Vickie Myers has operated locally as a cake designer",
+          "url": "https://www.labrisaphotography.com/2015/02/16/lindsay-nolan-wedding-photography-salina-ks-chris-hsieh-emma-york/",
+          "title": "La Brisa Photography Blog",
+          "date": "2015-02-16",
+          "note": null
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "J And M Trust",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "085129290000000602001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Likely associated with Jason and Matthew Myers, sons of Warren and Vickie Myers (N-02), who are listed as relatives in public records ([source](https://www.menstoppingviolence.org/people/vickie-myers/)). Jason Myers was a student-athlete at Southeast of Saline High School in the late 1990s ([source](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/38b8fa0d-5f21-4858-9290-c77419454576/April_4_.pdf?disposition=inline)). Matthew Myers is listed as a resident of Assaria, KS ([source](https://nationalpublicdata.com/people/m/matthew-myers/)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Beneficiaries appear to be the adult children of the Myers family (N-02). No independent community leadership roles found for this specific trust entity.",
+      "approach_recommendations": {
+        "motivations": [
+          "Family legacy",
+          "Land value"
+        ],
+        "engage": "Approach via Warren and Vickie Myers (N-02) to confirm the point of contact. The trust is likely a family estate planning vehicle for their sons, Jason and Matthew."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "The J And M Trust is likely a family trust established for Jason and Matthew Myers, the adult sons of neighbors Warren and Vickie Myers. The parcel PIN sequence suggests a subdivision or relation to the Myers Revocable Trust (N-02).",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Likely associated with Jason and Matthew Myers, sons of Warren and Vickie Myers (N-02), who are listed as relatives in public records",
+          "url": "https://www.menstoppingviolence.org/people/vickie-myers/",
+          "title": "Public Record Profile: Vickie Myers",
+          "date": "2024-01-01",
+          "note": null
+        },
+        {
+          "claim": "Jason Myers was a student-athlete at Southeast of Saline High School in the late 1990s",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2303/Usd306/38b8fa0d-5f21-4858-9290-c77419454576/April_4_.pdf?disposition=inline",
+          "title": "Southeast of Saline Trojournal Archives",
+          "date": "1999-04-01",
+          "note": null
+        },
+        {
+          "claim": "Matthew Myers is listed as a resident of Assaria, KS",
+          "url": "https://nationalpublicdata.com/people/m/matthew-myers/",
+          "title": "Public Record Directory: Matthew Myers",
+          "date": "2024-01-01",
+          "note": null
+        }
+      ]
     }
   ],
-  "location_context": "Neighbors within 0.5 mi of 39.152855,-94.801836",
-  "overview_summary": "Of the 28 neighbors profiled, 23 are private residents and five are organizations, with two entities currently expressing support and 26 remaining unknown. The four high-influence and six medium-influence stakeholders include the Unified Government of Wyandotte County/KCK and industrial entities like Scannell Properties and Marvin, whose existing large-scale manufacturing and logistics projects align with regional growth. While no opposition has been documented, the high number of low-influence residents and long-time farming families suggests a need for personalized engagement to address localized concerns.",
+  "location_context": "Neighbors within 0.5 mi of 38.725,-97.543056",
+  "overview_summary": "Of the 27 neighbors profiled, 17 are individuals and 10 are organizations, primarily consisting of multi-generational family farm trusts, agricultural LLCs, and the Saline County government. While 23 neighbors have an unknown stance, three have expressed opposition and one supports the development, with qualitative data suggesting concerns regarding farmland preservation and agricultural continuity. The group includes three high-influence and six medium-influence entities, including local government and established farming families whose interests will likely drive community sentiment and regulatory oversight.",
   "success": true,
-  "runtime_minutes": 115.38,
+  "runtime_minutes": 113.78,
   "citations_flat": [
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
-    {
-      "title": null,
-      "url": null
-    },
     {
       "title": null,
       "url": null
@@ -1553,289 +1689,232 @@
     }
   ],
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_100922_8941.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101348_9936.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101013_8492.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_110717_1446.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101954_9820.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101033_5515.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_101827_0988.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260217_110410_9028.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260217_100905_7305.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260217_102052_8327.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_122610_4968.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_122833_2589.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_123014_0308.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_123240_2380.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_113242_1343.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_123310_5212.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_113940_2340.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_121647_8624.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_121819_0281.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_122419_3848.json"
   ],
   "city": null,
-  "county": "Wyandotte County",
+  "county": "Saline County",
   "state": "KS",
-  "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
-  "target_pin": "941107",
+  "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
+  "target_pin": "085128280000000101001",
   "target_parcel_info": {
-    "pin": "941107",
+    "pin": "085128280000000101001",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -94.800292,
-            39.150068
+            -97.5485145,
+            38.724747
           ],
           [
-            -94.8001175,
-            39.150032
+            -97.548512,
+            38.7236415
           ],
           [
-            -94.7988235,
-            39.153853
+            -97.539354,
+            38.723691
           ],
           [
-            -94.798824,
-            39.154744
+            -97.5393555,
+            38.725506
           ],
           [
-            -94.8079695,
-            39.1547395
+            -97.5485165,
+            38.725437
           ],
           [
-            -94.8080225,
-            39.1514925
-          ],
-          [
-            -94.8079875,
-            39.151492
-          ],
-          [
-            -94.801496,
-            39.150163
-          ],
-          [
-            -94.8013935,
-            39.1501445
-          ],
-          [
-            -94.8012895,
-            39.150131
-          ],
-          [
-            -94.801185,
-            39.150122
-          ],
-          [
-            -94.80108,
-            39.1501185
-          ],
-          [
-            -94.800709,
-            39.150113
-          ],
-          [
-            -94.8006035,
-            39.150109
-          ],
-          [
-            -94.800499,
-            39.1501
-          ],
-          [
-            -94.800395,
-            39.1500865
-          ],
-          [
-            -94.800292,
-            39.150068
+            -97.5485145,
+            38.724747
           ]
         ]
       ]
     },
-    "lat": "39.152740",
-    "lon": "-94.803379",
-    "county_path": "/us/ks/wyandotte/kansas-city"
+    "lat": "38.724569",
+    "lon": "-97.543926",
+    "county_path": "/us/ks/saline/walnut"
   },
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3be1cb19-9ff8-4f9c-a9de-c448d7f47bed_map_full.png",
-  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3be1cb19-9ff8-4f9c-a9de-c448d7f47bed_map_thumb.png",
-  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">SP Bennet Lake Development, LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Marvin Lumber and Cedar Company, LLC</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-support\">Support</span> <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">Unified Government Wy Co/KCK</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Dylan M. Alexander & Cali D. Alexander</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Cory M. Appl & Stefanie L. Appl</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">Robert K. and Donna L. Creten</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">8</td>\n                <td class=\"name\">Stuart Hunter</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">9</td>\n                <td class=\"name\">Guy B. Tiner</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b9e2d6f6-762d-4f9b-b676-450557b4750b_map_full.png",
+  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b9e2d6f6-762d-4f9b-b676-450557b4750b_map_thumb.png",
+  "map_legend_html": "\n        <table class=\"map-legend-table\">\n            <thead>\n                <tr>\n                    <th>#</th>\n                    <th>Name</th>\n                    <th>Status</th>\n                </tr>\n            </thead>\n            <tbody>\n                \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">1</td>\n                <td class=\"name\">Wade & Tiffany Waddle</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-oppose\">Oppose</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">2</td>\n                <td class=\"name\">Harbin Farm Enterprises Llc</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span>  <span class=\"adjacent\">Adjacent</span></td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #007BFF; font-weight: bold;\">3</td>\n                <td class=\"name\">Saline County</td>\n                <td class=\"badges\"><span class=\"influence-high\">High</span> <span class=\"stance-oppose\">Oppose</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">4</td>\n                <td class=\"name\">Eric M Puvogel & Amanda L Meier</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">5</td>\n                <td class=\"name\">Steven G Dunning & Cynthia D Dunning</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">6</td>\n                <td class=\"name\">Cossette Jerrold E Jr Tr & Cossette J E Sr</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">7</td>\n                <td class=\"name\">S&S Hammond LLC</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span> <span class=\"stance-support\">Support</span> </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">8</td>\n                <td class=\"name\">Spare Bernard T & Debra E Living Tr</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            <tr>\n                <td class=\"marker\" style=\"color: #FF8C00; font-weight: bold;\">9</td>\n                <td class=\"name\">Myers Warren David & Vickie Diane Rev Trust</td>\n                <td class=\"badges\"><span class=\"influence-medium\">Medium</span>  </td>\n            </tr>\n            \n            </tbody>\n        </table>\n        ",
   "map_labels": [
     {
-      "text": "APPL",
-      "full_name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
-      "lon": -94.80441024534831,
-      "lat": 39.15519051054117,
+      "text": "MEIER",
+      "full_name": "Eric M Puvogel & Amanda L Meier",
+      "lon": -97.53988662518482,
+      "lat": 38.71421006167689,
       "marker_char": "4",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "209903"
+      "pin": "085128280000000701001"
     },
     {
-      "text": "ALEXANDE",
-      "full_name": "Dylan M. Alexander & Cali D. Alexander",
-      "lon": -94.8019694246962,
-      "lat": 39.15656342840533,
+      "text": "DUNNING",
+      "full_name": "Steven G Dunning & Cynthia D Dunning",
+      "lon": -97.55677624117908,
+      "lat": 38.719413299423785,
       "marker_char": "5",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "941106"
+      "pin": "085128280000000400001"
     },
     {
-      "text": "APPL",
-      "full_name": "Cory M. Appl & Stefanie L. Appl",
-      "lon": -94.79788813400992,
-      "lat": 39.15612702345765,
+      "text": "SR",
+      "full_name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "lon": -97.5347117163172,
+      "lat": 38.73782713205877,
       "marker_char": "6",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "416600"
+      "pin": "085125220000000200001"
     },
     {
-      "text": "CRETEN",
-      "full_name": "Robert K. and Donna L. Creten",
-      "lon": -94.80554130400382,
-      "lat": 39.155254581164485,
+      "text": "S&S",
+      "full_name": "S&S Hammond LLC",
+      "lon": -97.53521861676224,
+      "lat": 38.71913921640676,
       "marker_char": "7",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
-      "stance": "unknown",
-      "pin": "209900"
+      "stance": "support",
+      "pin": "085128270000000400001"
     },
     {
-      "text": "HUNTER",
-      "full_name": "Stuart Hunter",
-      "lon": -94.80584537356789,
-      "lat": 39.155255092259466,
+      "text": "SPARE",
+      "full_name": "Spare Bernard T & Debra E Living Tr",
+      "lon": -97.5623375085695,
+      "lat": 38.723529404976226,
       "marker_char": "8",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "146830"
+      "pin": "085129290000000100001"
     },
     {
-      "text": "TINER",
-      "full_name": "Guy B. Tiner",
-      "lon": -94.79901125165075,
-      "lat": 39.158953191756204,
+      "text": "MYERS",
+      "full_name": "Myers Warren David & Vickie Diane Rev Trust",
+      "lon": -97.55887478665707,
+      "lat": 38.721382568227696,
       "marker_char": "9",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "937902"
+      "pin": "085129290000000601001"
     },
     {
-      "text": "SP",
-      "full_name": "SP Bennet Lake Development, LLC",
-      "lon": -94.79788530297355,
-      "lat": 39.14899985329186,
+      "text": "WADDLE",
+      "full_name": "Wade & Tiffany Waddle",
+      "lon": -97.53370305622558,
+      "lat": 38.72495283661576,
       "marker_char": "1",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "High",
-      "stance": "support",
-      "pin": "423100"
+      "stance": "oppose",
+      "pin": "085128270000000600001"
     },
     {
-      "text": "MARVIN",
-      "full_name": "Marvin Lumber and Cedar Company, LLC",
-      "lon": -94.80429098134549,
-      "lat": 39.14933337504587,
+      "text": "HARBIN",
+      "full_name": "Harbin Farm Enterprises Llc",
+      "lon": -97.55282989186401,
+      "lat": 38.72126820651704,
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "support",
-      "pin": "428700"
+      "stance": "unknown",
+      "pin": "085128280000000200001"
     },
     {
-      "text": "UNIFIED",
-      "full_name": "Unified Government Wy Co/KCK",
-      "lon": -94.8000136840012,
-      "lat": 39.15414713354217,
+      "text": "SALINE",
+      "full_name": "Saline County",
+      "lon": -97.54698359926299,
+      "lat": 38.73159512168179,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "High",
-      "stance": null,
-      "pin": "892382"
+      "stance": "oppose",
+      "pin": "085125210000000100001"
     },
     {
-      "text": "UNIFIED",
-      "full_name": "Unified Government Wy Co/KCK",
-      "lon": -94.7973356962669,
-      "lat": 39.154161593169775,
+      "text": "SALINE",
+      "full_name": "Saline County",
+      "lon": -97.52980466329993,
+      "lat": 38.72948065497286,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "High",
-      "stance": null,
-      "pin": "892293"
-    },
-    {
-      "text": "UNIFIED",
-      "full_name": "Unified Government Wy Co/KCK",
-      "lon": -94.80560127182672,
-      "lat": 39.15626025221569,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": null,
-      "pin": "892389"
+      "stance": "oppose",
+      "pin": "085125220000000500001"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 941107",
-      "lon": -94.80337857254307,
-      "lat": 39.1527399234337,
+      "full_name": "PIN: 085128280000000101001",
+      "lon": -97.543926196005,
+      "lat": 38.72456897750388,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "941107"
+      "pin": "085128280000000101001"
     }
   ],
   "map_metadata": {
-    "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
-    "generated_at": "2026-02-17T11:48:59.548999",
+    "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
+    "generated_at": "2026-02-20T13:01:31.942897",
     "stats": {
-      "total_neighbors": 28,
-      "highlighted": 10,
+      "total_neighbors": 27,
+      "highlighted": 9,
       "skipped_no_geometry": 0,
       "skipped_not_highlighted": 18,
       "by_influence": {
-        "High": 4,
+        "High": 3,
         "Medium": 6,
         "Low": 0
       },
       "by_stance": {
-        "support": 2,
-        "oppose": 0,
+        "support": 1,
+        "oppose": 2,
         "neutral": 0
       },
-      "adjacent_highlighted": 3,
+      "adjacent_highlighted": 1,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "url_length": 1754,
-    "parcels_rendered": 12,
-    "labels_count": 12,
+    "url_length": 1619,
+    "parcels_rendered": 11,
+    "labels_count": 11,
     "settings": {
       "width": 800,
       "height": 450,
@@ -1844,188 +1923,175 @@
       "padding": 50
     }
   },
-  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/3be1cb19-9ff8-4f9c-a9de-c448d7f47bed_map_fullpage.png",
+  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b9e2d6f6-762d-4f9b-b676-450557b4750b_map_fullpage.png",
   "fullpage_map_labels": [
     {
-      "text": "APPL",
-      "full_name": "Morganne Appl-Culp & Tyler Culp; Cory & Stefanie Appl",
-      "lon": -94.80441024534831,
-      "lat": 39.15519051054117,
+      "text": "MEIER",
+      "full_name": "Eric M Puvogel & Amanda L Meier",
+      "lon": -97.53988662518482,
+      "lat": 38.71421006167689,
       "marker_char": "4",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "209903"
+      "pin": "085128280000000701001"
     },
     {
-      "text": "ALEXANDE",
-      "full_name": "Dylan M. Alexander & Cali D. Alexander",
-      "lon": -94.8019694246962,
-      "lat": 39.15656342840533,
+      "text": "DUNNING",
+      "full_name": "Steven G Dunning & Cynthia D Dunning",
+      "lon": -97.55677624117908,
+      "lat": 38.719413299423785,
       "marker_char": "5",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "941106"
+      "pin": "085128280000000400001"
     },
     {
-      "text": "APPL",
-      "full_name": "Cory M. Appl & Stefanie L. Appl",
-      "lon": -94.79788813400992,
-      "lat": 39.15612702345765,
+      "text": "SR",
+      "full_name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "lon": -97.5347117163172,
+      "lat": 38.73782713205877,
       "marker_char": "6",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "416600"
+      "pin": "085125220000000200001"
     },
     {
-      "text": "CRETEN",
-      "full_name": "Robert K. and Donna L. Creten",
-      "lon": -94.80554130400382,
-      "lat": 39.155254581164485,
+      "text": "S&S",
+      "full_name": "S&S Hammond LLC",
+      "lon": -97.53521861676224,
+      "lat": 38.71913921640676,
       "marker_char": "7",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
-      "stance": "unknown",
-      "pin": "209900"
+      "stance": "support",
+      "pin": "085128270000000400001"
     },
     {
-      "text": "HUNTER",
-      "full_name": "Stuart Hunter",
-      "lon": -94.80584537356789,
-      "lat": 39.155255092259466,
+      "text": "SPARE",
+      "full_name": "Spare Bernard T & Debra E Living Tr",
+      "lon": -97.5623375085695,
+      "lat": 38.723529404976226,
       "marker_char": "8",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "146830"
+      "pin": "085129290000000100001"
     },
     {
-      "text": "TINER",
-      "full_name": "Guy B. Tiner",
-      "lon": -94.79901125165075,
-      "lat": 39.158953191756204,
+      "text": "MYERS",
+      "full_name": "Myers Warren David & Vickie Diane Rev Trust",
+      "lon": -97.55887478665707,
+      "lat": 38.721382568227696,
       "marker_char": "9",
       "color": "FF8C00",
       "is_target": false,
       "is_adjacent": false,
       "influence": "Medium",
       "stance": "unknown",
-      "pin": "937902"
+      "pin": "085129290000000601001"
     },
     {
-      "text": "SP",
-      "full_name": "SP Bennet Lake Development, LLC",
-      "lon": -94.79788530297355,
-      "lat": 39.14899985329186,
+      "text": "WADDLE",
+      "full_name": "Wade & Tiffany Waddle",
+      "lon": -97.53370305622558,
+      "lat": 38.72495283661576,
       "marker_char": "1",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "High",
-      "stance": "support",
-      "pin": "423100"
+      "stance": "oppose",
+      "pin": "085128270000000600001"
     },
     {
-      "text": "MARVIN",
-      "full_name": "Marvin Lumber and Cedar Company, LLC",
-      "lon": -94.80429098134549,
-      "lat": 39.14933337504587,
+      "text": "HARBIN",
+      "full_name": "Harbin Farm Enterprises Llc",
+      "lon": -97.55282989186401,
+      "lat": 38.72126820651704,
       "marker_char": "2",
       "color": "007BFF",
       "is_target": false,
       "is_adjacent": true,
       "influence": "High",
-      "stance": "support",
-      "pin": "428700"
+      "stance": "unknown",
+      "pin": "085128280000000200001"
     },
     {
-      "text": "UNIFIED",
-      "full_name": "Unified Government Wy Co/KCK",
-      "lon": -94.8000136840012,
-      "lat": 39.15414713354217,
+      "text": "SALINE",
+      "full_name": "Saline County",
+      "lon": -97.54698359926299,
+      "lat": 38.73159512168179,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "High",
-      "stance": null,
-      "pin": "892382"
+      "stance": "oppose",
+      "pin": "085125210000000100001"
     },
     {
-      "text": "UNIFIED",
-      "full_name": "Unified Government Wy Co/KCK",
-      "lon": -94.7973356962669,
-      "lat": 39.154161593169775,
+      "text": "SALINE",
+      "full_name": "Saline County",
+      "lon": -97.52980466329993,
+      "lat": 38.72948065497286,
       "marker_char": "3",
       "color": "007BFF",
       "is_target": false,
-      "is_adjacent": true,
+      "is_adjacent": false,
       "influence": "High",
-      "stance": null,
-      "pin": "892293"
-    },
-    {
-      "text": "UNIFIED",
-      "full_name": "Unified Government Wy Co/KCK",
-      "lon": -94.80560127182672,
-      "lat": 39.15626025221569,
-      "marker_char": "3",
-      "color": "007BFF",
-      "is_target": false,
-      "is_adjacent": true,
-      "influence": "High",
-      "stance": null,
-      "pin": "892389"
+      "stance": "oppose",
+      "pin": "085125220000000500001"
     },
     {
       "text": "TARGET",
-      "full_name": "PIN: 941107",
-      "lon": -94.80337857254307,
-      "lat": 39.1527399234337,
+      "full_name": "PIN: 085128280000000101001",
+      "lon": -97.543926196005,
+      "lat": 38.72456897750388,
       "marker_char": "t",
       "color": "FFD700",
       "is_target": true,
       "is_adjacent": false,
       "influence": null,
       "stance": null,
-      "pin": "941107"
+      "pin": "085128280000000101001"
     }
   ],
   "fullpage_map_metadata": {
-    "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
-    "generated_at": "2026-02-17T11:49:01.009407",
+    "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
+    "generated_at": "2026-02-20T13:01:32.937526",
     "stats": {
-      "total_neighbors": 28,
-      "highlighted": 10,
+      "total_neighbors": 27,
+      "highlighted": 9,
       "skipped_no_geometry": 0,
       "skipped_not_highlighted": 18,
       "by_influence": {
-        "High": 4,
+        "High": 3,
         "Medium": 6,
         "Low": 0
       },
       "by_stance": {
-        "support": 2,
-        "oppose": 0,
+        "support": 1,
+        "oppose": 2,
         "neutral": 0
       },
-      "adjacent_highlighted": 3,
+      "adjacent_highlighted": 1,
       "target_included": true
     },
     "strategy_used": "polyline",
-    "labels_count": 12,
+    "labels_count": 11,
     "settings": {
       "width": 1280,
       "height": 720,

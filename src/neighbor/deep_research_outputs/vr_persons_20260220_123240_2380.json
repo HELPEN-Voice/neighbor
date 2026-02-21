@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-02-20T12:40:15.551213",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_123240_2380.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Michael A & Dawn A Radford Revocable Inter Vivos Trust",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "085128280000000300001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael A. Radford and Dawn A. Radford hold their Saline County land under a revocable living trust, as reflected in county property records ([Whitepages](https://www.whitepages.com/name/Michael-Radford/KS)). No public statements, meeting minutes, or media reports were found of the Radfords taking a position on local development or clean energy projects, including the recent battery storage hearings ([Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "fair_contracting"
+        ],
+        "engage": "Approach through a personal, respectful conversation via a trusted community member, emphasizing listening to any of their farmland or property concerns."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Michael A. Radford and Dawn A. Radford hold their Saline County land under a revocable living trust",
+          "url": "https://www.whitepages.com/name/Michael-Radford/KS",
+          "title": "Michael Radford in Kansas",
+          "date": "2024-02-20"
+        },
+        {
+          "claim": "No public statements or media reports were found of the Radfords taking any position on local development or clean energy projects",
+          "url": "https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81",
+          "title": "Salina Post Search Results",
+          "date": "2024-02-20"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Randall C McGraw & Lindsay R McGraw",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000300001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Randall C. McGraw and Lindsay R. McGraw jointly own a rural parcel in Saline County, Kansas ([Whitepages](https://www.whitepages.com/name/Randall-McGraw/KS)). Lindsay R. McGraw is a 2023 graduate of the University of Arkansas for Medical Sciences, indicating a background in health professions ([UAMS News](https://news.uams.edu/2023/05/22/uams-graduates-1096-health-care-professionals/)). There is no record in local news or public minutes of the McGraws speaking for or against development or renewable energy proposals in the area ([Salina Journal](https://www.salina.com/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles; private citizens",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "local_control"
+        ],
+        "engage": "Engage the McGraws informally via a neighbor or agricultural extension contact they trust, focusing on transparent information-sharing and addressing any questions about land impact."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Randall C. McGraw and Lindsay R. McGraw jointly own a rural parcel in Saline County, Kansas",
+          "url": "https://www.whitepages.com/name/Randall-McGraw/KS",
+          "title": "Randall McGraw in Kansas",
+          "date": "2024-02-20"
+        },
+        {
+          "claim": "Lindsay R. McGraw is a 2023 graduate of the University of Arkansas for Medical Sciences",
+          "url": "https://news.uams.edu/2023/05/22/uams-graduates-1096-health-care-professionals/",
+          "title": "UAMS Graduates 1,096 Health Care Professionals",
+          "date": "2023-05-22"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Eric M Puvogel & Amanda L Meier",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000701001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Eric M. Puvogel and Amanda L. Meier (also known as Amanda Puvogel) are landowners in Saline County who experienced the loss of their historic home on East Cloud Street due to a fire in November 2020 ([KSAL News](https://www.ksal.com/eastern-saline-county-home-destroyed-by-fire/)). Amanda Puvogel serves as a Health Educator for the Saline County Health Department ([Saline County](https://salinecountyks.gov/staff-directory/Health-Department)). While they have not made known public comments on renewable energy projects, their experience with property loss may make them sensitive to safety concerns, a topic raised by others in recent battery storage hearings ([Salina 311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Amanda Puvogel is a Saline County Health Dept employee",
+      "approach_recommendations": {
+        "motivations": [
+          "aesthetics_viewshed",
+          "traffic_safety",
+          "property_value"
+        ],
+        "engage": "A friendly, face-to-face approach via a mutual acquaintance or local community meeting can help open dialogue. Be prepared to discuss safety and emergency response plans in detail given their past property loss."
+      },
+      "entity_classification": "resident",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Eric M. Puvogel and Amanda L. Meier experienced the loss of their historic home on East Cloud Street due to a fire in November 2020",
+          "url": "https://www.ksal.com/eastern-saline-county-home-destroyed-by-fire/",
+          "title": "Eastern Saline County Home Destroyed by Fire",
+          "date": "2020-11-19"
+        },
+        {
+          "claim": "Amanda Puvogel serves as a Health Educator for the Saline County Health Department",
+          "url": "https://salinecountyks.gov/staff-directory/Health-Department",
+          "title": "Saline County Health Department Staff Directory",
+          "date": "2024-02-20"
+        },
+        {
+          "claim": "safety concerns were raised by others in recent battery storage hearings",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Approval of Battery Project",
+          "date": "2026-01-06"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 598619,
+    "thinking_count": 36
+  }
+}

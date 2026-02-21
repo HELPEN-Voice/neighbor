@@ -1,0 +1,77 @@
+{
+  "batch_idx": 4,
+  "total_batches": 5,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Steven G Dunning & Cynthia D Dunning",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Steven G. Dunning and his wife, Cynthia D. Dunning, own farmland in rural Saline County, Kansas, near a county-owned tract targeted for a proposed 1,000-acre solar farm [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81). The couple is listed as residing in the Salina area, and they have not been noted making any public statements on local development proposals as of early 2026 [Whitepages](https://www.whitepages.com/name/Steven-Dunning/Salina-KS).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private farm owners; no public offices",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage them through personal outreach via a trusted agricultural community contact (such as a farm bureau or extension representative). Emphasize that the project will address farming concerns and maintain respect for their land and property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Ellen Kay Ward",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085124200000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ellen Kay Ward is the listed owner of a rural Saline County property in the vicinity of the same proposed solar farm site [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81). She is identified as a local Saline County resident and has not spoken publicly about the project or any development issues to date [Whitepages](https://www.whitepages.com/name/Ellen-Ward/Salina-KS).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local landowner; no public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach her one-on-one through a familiar community figure or neighbor to build trust. In conversation, underscore how the project will be managed to preserve the quiet rural character and protect the value of her property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Neither neighbor has publicly expressed support or opposition to the project (both are classified as unknown stance). Both landowners have low community influence, as neither holds any public office or prominent local leadership role.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_113242_1343.json",
+  "cached_at": "2026-02-20T11:32:42.134933"
+}

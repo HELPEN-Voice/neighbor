@@ -1,37 +1,37 @@
 {
-  "run_id": "3be1cb19-9ff8-4f9c-a9de-c448d7f47bed",
-  "coordinates": "39.152855,-94.801836",
+  "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
+  "coordinates": "38.725,-97.543056",
   "state_code": "KS",
   "parcels_analyzed": 30,
   "community_wealth_proxy": {
-    "valid_samples": 0,
-    "median_structure_value": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 9,
+    "median_structure_value": 1890782.608695652,
+    "formatted": "$1,890,783",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
   },
   "land_value_proxy": {
-    "valid_samples": 0,
-    "median_value_per_acre": null,
-    "formatted": "N/A",
-    "risk_level": "UNKNOWN",
-    "risk_class": "risk-unknown"
+    "valid_samples": 28,
+    "median_value_per_acre": 2629.376606654012,
+    "formatted": "$2,629/acre",
+    "risk_level": "LOW",
+    "risk_class": "risk-low"
   },
-  "total_property_value": null,
-  "total_land_value": null,
-  "final_radius_miles": 0.5,
+  "total_property_value": 21699565.217391305,
+  "total_land_value": 7868956.521739129,
+  "final_radius_miles": 1.0,
   "template_variables": {
-    "median_structure_value": "N/A",
-    "wealth_risk_level": "UNKNOWN",
-    "wealth_risk_class": "risk-unknown",
-    "wealth_valid_samples": "0",
-    "median_land_value_acre": "N/A",
-    "land_risk_level": "UNKNOWN",
-    "land_risk_class": "risk-unknown",
-    "land_valid_samples": "0",
+    "median_structure_value": "$1,890,783",
+    "wealth_risk_level": "HIGH",
+    "wealth_risk_class": "risk-high",
+    "wealth_valid_samples": "9",
+    "median_land_value_acre": "$2,629/acre",
+    "land_risk_level": "LOW",
+    "land_risk_class": "risk-low",
+    "land_valid_samples": "28",
     "parcels_analyzed": "30",
-    "total_property_value": "N/A",
-    "total_land_value": "N/A",
-    "final_radius_miles": "0.50"
+    "total_property_value": "$21,699,565",
+    "total_land_value": "$7,868,957",
+    "final_radius_miles": "1.00"
   }
 }

@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-20T12:32:40.238085",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the three neighboring landowners have a publicly documented position on the development, so all are classified with an unknown stance. All appear to be private local landowners without formal leadership roles, meaning there are no high-influence neighbors in this group.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Michael A & Dawn A Radford Revocable Inter Vivos Trust",
+      "entity_category": "Resident",
+      "entity_type": "Trust",
+      "pins": [
+        "085128280000000300001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Michael A. Radford and Dawn A. Radford hold their Saline County land under a revocable living trust, as reflected in county property records [Whitepages](https://www.whitepages.com/name/Michael-Radford/KS). No public statements or media reports were found of the Radfords taking any position on local development or clean energy projects [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowners; no public office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through a personal, respectful conversation via a trusted community member, emphasizing listening to any of their farmland or property concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Randall C McGraw & Lindsay R McGraw",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000300001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Randall C. McGraw and Lindsay R. McGraw jointly own a rural parcel in Saline County, Kansas, which is likely used as agricultural land [Whitepages](https://www.whitepages.com/name/Randall-McGraw/KS). There is no record in local news or public minutes of the McGraws speaking for or against development or renewable energy proposals in the area [Salina Journal](https://www.salina.com/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles; private citizens",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the McGraws informally via a neighbor or agricultural extension contact they trust, focusing on transparent information-sharing and addressing any questions about land impact."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Eric M Puvogel & Amanda L Meier",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000701001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Eric M. Puvogel and Amanda L. Meier are listed as landowners in Saline County, Kansas, residing in the local area where their jointly owned parcel is located [Whitepages](https://www.whitepages.com/name/Eric-Puvogel/KS). They have not made any known public comments or taken a visible stance regarding development or energy projects in the community [KSAL News](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "A friendly, face-to-face approach via a mutual acquaintance or local community meeting can help open dialogue and understand any concerns they might have quietly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the three neighboring landowners have a publicly documented position on the development, so all are classified with an unknown stance. All appear to be private local landowners without formal leadership roles, meaning there are no high-influence neighbors in this group.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Michael A & Dawn A Radford Revocable Inter Vivos Trust\",\n      \"entity_category\": \"Trust\",\n      \"entity_type\": \"Trust\",\n      \"pins\": [\"085128280000000300001\"],\n      \"claims\": \"Michael A. Radford and Dawn A. Radford hold their Saline County land under a revocable living trust, as reflected in county property records [Whitepages](https://www.whitepages.com/name/Michael-Radford/KS). No public statements or media reports were found of the Radfords taking any position on local development or clean energy projects [Salina Post](https://salinapost.com/posts/e74744c0-255e-453b-83b9-51557137da81).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private landowners; no public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach through a personal, respectful conversation via a trusted community member, emphasizing listening to any of their farmland or property concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Randall C McGraw & Lindsay R McGraw\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128270000000300001\"],\n      \"claims\": \"Randall C. McGraw and Lindsay R. McGraw jointly own a rural parcel in Saline County, Kansas, which is likely used as agricultural land [Whitepages](https://www.whitepages.com/name/Randall-McGraw/KS). There is no record in local news or public minutes of the McGraws speaking for or against development or renewable energy proposals in the area [Salina Journal](https://www.salina.com/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic roles; private citizens\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage the McGraws informally via a neighbor or agricultural extension contact they trust, focusing on transparent information-sharing and addressing any questions about land impact.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Eric M Puvogel & Amanda L Meier\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128280000000701001\"],\n      \"claims\": \"Eric M. Puvogel and Amanda L. Meier are listed as landowners in Saline County, Kansas, residing in the local area where their jointly owned parcel is located [Whitepages](https://www.whitepages.com/name/Eric-Puvogel/KS). They have not made any known public comments or taken a visible stance regarding development or energy projects in the community [KSAL News](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or leadership roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"A friendly, face-to-face approach via a mutual acquaintance or local community meeting can help open dialogue and understand any concerns they might have quietly.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-02-20T13:01:24.474163",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_123014_0308.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Richard L. Kelley, Ruth A. Kelley, Zachary J. Kelley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000500001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Richard L. Kelley has served in the Kansas National Guard, based in Salina [Department of Defense](https://media.defense.gov/2017/Nov/02/2002670552/-1/-1/1/171102-N-ZZ320-0698.pdf). The Kelley family was identified in the draft as landowners opposing the Plus Power battery storage facility; however, their specific participation in the protest petition could not be verified in available public records, though a valid petition signed by 80 parcel owners did cause the project's denial in January 2026 [Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Military service record; no other public roles found",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "local_control"
+        ],
+        "engage": "Establish initial contact to verify their position on the project, as public records do not explicitly link them to the protest petition. Acknowledge the general community sentiment regarding the recent denial while seeking to understand their specific concerns."
+      },
+      "entity_classification": "unknown",
+      "verification_notes": "Identified Richard L. Kelley in Salina via military records. Could not verify land ownership near McReynolds Rd or specific signature on the protest petition in the source text. Stance downgraded to unknown.",
+      "citations": [
+        {
+          "claim": "Richard L. Kelley has served in the Kansas National Guard, based in Salina",
+          "url": "https://media.defense.gov/2017/Nov/02/2002670552/-1/-1/1/171102-N-ZZ320-0698.pdf",
+          "title": "Kansas National Guard Plains Guardian",
+          "date": "2017-10-18"
+        },
+        {
+          "claim": "a valid petition signed by 80 parcel owners did cause the project's denial in January 2026",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Unanimous Approval of Battery Storage Project",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Bebe Davis Tucker",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085125210000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Bebe Davis Tucker is a listed property owner within the notification radius of the Mountain Peak Energy Storage (Plus Power) project at McReynolds and Simpson Road [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf). She maintains a mailing address in Dallas, Texas, indicating she may be an absentee landowner [Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf). The proposed battery facility was denied by the County Commission on January 6, 2026, following a valid protest petition signed by over 31% of the notification area's landowners, a group that includes Tucker [Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "Low",
+      "influence_justification": "Absentee landowner (Texas address); listed in notification radius",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "farmland_preservation"
+        ],
+        "engage": "Due to her Dallas residency, outreach should be conducted via mail or through a local property manager if one exists. Emphasize how the project design minimizes impact on property values and rural character, addressing the specific concerns raised by the protest petition group."
+      },
+      "entity_classification": "land_investment",
+      "verification_notes": "Verified name and Dallas address in Saline County Planning notification list (Appendix L-R). Verified project denial due to petition from this specific notification group.",
+      "citations": [
+        {
+          "claim": "Bebe Davis Tucker is a listed property owner within the notification radius of the Mountain Peak Energy Storage (Plus Power) project at McReynolds and Simpson Road",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Appendix L through R",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "She maintains a mailing address in Dallas, Texas, indicating she may be an absentee landowner",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Appendix L through R",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "The proposed battery facility was denied by the County Commission on January 6, 2026, following a valid protest petition signed by over 31% of the notification area's landowners",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Unanimous Approval of Battery Storage Project",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rodney A. Bradshaw",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000201001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rodney A. Bradshaw is a resident of Salina, KS, residing on Crestview Dr [NPD](https://nationalpublicdata.com/people/b/rodney-bradshaw/). While the draft identified him as an opponent of the Plus Power project, the project site is located in a rural area at McReynolds and Simpson Road, and Bradshaw's specific property interest in that area or signature on the protest petition could not be verified in public records [Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "Resident of Salina; no rural land ties confirmed",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "property_value"
+        ],
+        "engage": "Verify if Bradshaw owns rural land near the project site, as his primary residence appears to be within the City of Salina. If he is a landowner, focus on clarification of safety protocols, as safety was a primary driver for the recent project denial."
+      },
+      "entity_classification": "unknown",
+      "verification_notes": "Verified residency in Salina (City). Could not link him to the rural project site or the protest petition in available public documents. Stance downgraded to unknown.",
+      "citations": [
+        {
+          "claim": "Rodney A. Bradshaw is a resident of Salina, KS, residing on Crestview Dr",
+          "url": "https://nationalpublicdata.com/people/b/rodney-bradshaw/",
+          "title": "Rodney Bradshaw - Address, Phone Number, Email | NPD People Search",
+          "date": "2026-02-20"
+        },
+        {
+          "claim": "the project site is located in a rural area at McReynolds and Simpson Road",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Commission Overturns Planning Board's Unanimous Approval of Battery Storage Project",
+          "date": "2026-01-06"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 1511472,
+    "thinking_count": 48
+  }
+}

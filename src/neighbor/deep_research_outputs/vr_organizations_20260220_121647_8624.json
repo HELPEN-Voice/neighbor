@@ -1,0 +1,191 @@
+{
+  "timestamp": "2026-02-20T12:53:23.716446",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_121647_8624.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Dye Elan Revocable Trust",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000800001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Dye Elan Revocable Trust is a landowner in Saline County, listed on the notification radius for the Mountain Peak Energy Storage project ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). The trust is associated with Elan Dye, the surviving spouse of local bagpiper Bobbie Leroy Dye (d. 2020), and is based at a residence on South Simpson Road, located less than one mile north of the proposed battery storage site ([Carlson Funeral Home](https://www.carlsonfh.net/obituaries/bobbie-leroy-dye)). Elan Dye has been listed as a member of the local Lions Club district ([Lions Club](https://cdn2.webdamdb.com/md_gS8dWKAQ63F02c0l.jpg.pdf?v=1)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Widow of a local resident; no record of public office or significant political contributions found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Proximity to project (visual/noise)",
+          "Property value preservation"
+        ],
+        "engage": "Engage Elan Dye directly at the South Simpson Road residence. Given the close proximity to the proposed project site (approx. 0.8 miles), prioritize discussions regarding visual screening and construction traffic management."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Listed on the notification radius for the Mountain Peak Energy Storage project",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Property Owner List",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Associated with Elan Dye, surviving spouse of Bobbie Leroy Dye",
+          "url": "https://www.carlsonfh.net/obituaries/bobbie-leroy-dye",
+          "title": "Obituary: Bobbie Leroy Dye",
+          "date": "2020-03-07"
+        },
+        {
+          "claim": "Listed as a member of the local Lions Club district",
+          "url": "https://cdn2.webdamdb.com/md_gS8dWKAQ63F02c0l.jpg.pdf?v=1",
+          "title": "District 17 K Lions Club Member List",
+          "date": "2018-01-16"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fulton Ruby A Trust",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "085128270000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Fulton Ruby A Trust is a landowning entity in Saline County designated as a recipient of federal agricultural subsidies ([EWG Farm Subsidy Database](https://www.starvingfarmer.com/county/169/20)). Public records regarding the Mountain Peak Energy Storage project identify the primary contact for the trust as Gerald Fulton, with a mailing address in Goddard, Kansas ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). A Gerald Fulton in Goddard is associated with an engineering background, though specific involvement in Saline County development hearings was not found ([National Public Data](https://nationalpublicdata.com/people/f/gerald-fulton/)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": " absentee owner/trustee located in Sedgwick County (Goddard); no evidence of local political activity or testimony in Saline County hearings.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural land value",
+          "Tenant farming operations"
+        ],
+        "engage": "Direct correspondence to Gerald Fulton in Goddard, KS. As an absentee trustee, focus on lease income potential and lack of interference with existing agricultural operations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Designated as a recipient of federal agricultural subsidies",
+          "url": "https://www.starvingfarmer.com/county/169/20",
+          "title": "StarvingFarmer.com Directory of Farmers Saline County",
+          "date": "2023-01-01"
+        },
+        {
+          "claim": "Identify the primary contact for the trust as Gerald Fulton, with a mailing address in Goddard, Kansas",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Mountain Peak Energy Storage CUP Application - Property Owner List",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Gerald Fulton in Goddard is associated with an engineering background",
+          "url": "https://nationalpublicdata.com/people/f/gerald-fulton/",
+          "title": "Background Report for Gerald Fulton",
+          "date": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Cossette Jerrold E Jr Tr & Cossette J E Sr",
+      "entity_category": "Resident",
+      "entity_type": "trust",
+      "pins": [
+        "085125220000000200001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Dr. Jerrold E. Cossette Jr. is a long-standing Otolaryngologist and Plastic Surgeon in Salina, practicing for over 50 years and affiliated with Salina Regional Health Center ([Healthgrades](https://www.healthgrades.com/physician/dr-jerrold-cossette-32wbp)). He is a significant landowner in the county, listed as a top recipient of Livestock Forage Disaster Program subsidies in 2022 ([EWG Farm Subsidy Database](https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_lvstfo&yr=2022&regionname=SalineCounty,Kansas)). Dr. Cossette has a history of engaging in complex business tax litigation regarding aircraft usage for his medical practice ([FindLaw](https://caselaw.findlaw.com/ks-supreme-court/1045807.html)) and is a documented donor to the Kansas Medical Society Political Action Committee ([Kansas Ethics Commission](https://www.kansas.gov/ethics/CFAScanned/PACs/2014ElecCycle/201407/PAC115_201407.pdf)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Prominent medical professional with significant land holdings and business sophistication; documented donor to political committees.",
+      "approach_recommendations": {
+        "motivations": [
+          "Land stewardship",
+          "Tax/Financial planning",
+          "Business operations"
+        ],
+        "engage": "Engage Dr. Jerrold Cossette directly. He is a sophisticated stakeholder with medical, aviation, and agricultural business interests. Frame discussions around technical competence, long-term land value, and minimal disruption to his livestock operations."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Practicing for over 50 years and affiliated with Salina Regional Health Center",
+          "url": "https://www.healthgrades.com/physician/dr-jerrold-cossette-32wbp",
+          "title": "Dr. Jerrold Cossette Jr, MD",
+          "date": "2026-02-20"
+        },
+        {
+          "claim": "Listed as a top recipient of Livestock Forage Disaster Program subsidies in 2022",
+          "url": "https://farm.ewg.org/top_recips.php?fips=20169&progcode=tot_lvstfo&yr=2022&regionname=SalineCounty,Kansas",
+          "title": "EWG Farm Subsidy Database - Saline County 2022",
+          "date": "2023-01-01"
+        },
+        {
+          "claim": "History of engaging in complex business tax litigation regarding aircraft usage",
+          "url": "https://caselaw.findlaw.com/ks-supreme-court/1045807.html",
+          "title": "In Re Application of Central Kansas E.N.T. Associates",
+          "date": "2003-05-30"
+        },
+        {
+          "claim": "Documented donor to the Kansas Medical Society Political Action Committee",
+          "url": "https://www.kansas.gov/ethics/CFAScanned/PACs/2014ElecCycle/201407/PAC115_201407.pdf",
+          "title": "Kansas Medical Society PAC Receipts",
+          "date": "2014-07-28"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 646269,
+    "thinking_count": 24
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-02-20T12:49:20.388749",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_123310_5212.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "S&S Hammond LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000101001",
+        "085128270000000400001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "S&S Hammond LLC is a Kansas domestic limited liability company identified as the property owner for the proposed Mountain Peak Energy Storage project ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf)). The entity owns the subject parcel at the southwest corner of McReynolds Road and Simpson Road (Section 28, Township 15, Range 2), where the battery energy storage system was proposed ([Salina Post](https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6)). Public land records indicate the entity acquired title to specific parcels in 2021 from the Mary A. Hammond Trust, with Stacey Hammond and Shelly Hammond serving as trustees/signatories for the transaction ([Saline County Deeds](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20U%20&%20V%20Notice%20and%20Deed.pdf)). The LLC's registered address is located in Topeka, KS ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf)). As the lessor and applicant co-signer for the Conditional Use Permit (CUP 25-09), the entity actively facilitated the development attempt ([Salina Media](https://salina-tv.com/cablecastapi/shows/26724/publicfiles/4)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "Medium",
+      "influence_justification": "Owner of the project site; direct financial interest in the development lease; members are non-resident landowners.",
+      "approach_recommendations": {
+        "motivations": [
+          "Financial return on land lease",
+          "Asset management"
+        ],
+        "engage": "Maintain coordination regarding the lease status following the January 2026 permit denial. Ensure they are kept informed of any potential appeal processes or revised application strategies, as they are the primary site host."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified as the property owner for the proposed Mountain Peak Energy Storage project",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf",
+          "title": "Conditional Use Permit Application - Mountain Peak Energy",
+          "date": "2025-09-04"
+        },
+        {
+          "claim": "Owns the subject parcel at the southwest corner of McReynolds Road and Simpson Road",
+          "url": "https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6",
+          "title": "Saline County Commissioners deny battery storage facility",
+          "date": "2026-01-06"
+        },
+        {
+          "claim": "Acquired title to specific parcels in 2021 from the Mary A. Hammond Trust",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20U%20&%20V%20Notice%20and%20Deed.pdf",
+          "title": "Appendix U & V Notice and Deed",
+          "date": "2025-09-02"
+        },
+        {
+          "claim": "LLC's registered address is located in Topeka, KS",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Application%20Mountain%20Peak%20Energy.pdf",
+          "title": "Conditional Use Permit Application - Mountain Peak Energy",
+          "date": "2025-09-04"
+        },
+        {
+          "claim": "Applicant co-signer for the Conditional Use Permit (CUP 25-09)",
+          "url": "https://salina-tv.com/cablecastapi/shows/26724/publicfiles/4",
+          "title": "Saline County Planning Commission Agenda",
+          "date": "2025-11-25"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Hammond Family LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "085128280000000100001",
+        "085128280000000103001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hammond Family LLC is a distinct legal entity from S&S Hammond LLC, appearing on the certified list of property owners within the notification radius of the project ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). Public notices regarding the Mountain Peak Energy Storage project were directed to this entity with an 'Attn: Robin Newton' designation ([Saline County Planning](https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf)). While the entity holds agricultural land in the vicinity, specific stance evidence (support letters or opposition testimony) was not explicitly attributed to this specific LLC in the available minutes, distinct from the broader neighborhood opposition ([Salina Post](https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Listed as a notified neighbor; no evidence of active leadership or public testimony found in meeting records.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Treat as a distinct entity from the S&S Hammond LLC (project host). Reach out to the listed contact (Robin Newton) to determine their specific position, as they may have been lumped into the general opposition during the hearings without providing specific testimony."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Appearing on the certified list of property owners within the notification radius",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Appendix L through R - Certified Property Owners List",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Public notices... directed to this entity with an 'Attn: Robin Newton' designation",
+          "url": "https://www.salinecountyks.gov/media/planning-zoning/Conditional%20Use%20Permit%20Application/Mountain%20Peak/Appendix%20L%20through%20R.pdf",
+          "title": "Appendix L through R - Certified Property Owners List",
+          "date": "2025-09-03"
+        },
+        {
+          "claim": "Specific stance evidence... was not explicitly attributed to this specific LLC",
+          "url": "https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6",
+          "title": "Saline County Commissioners deny battery storage facility",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Saline County",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "085125210000000100001",
+        "085125220000000500001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Saline County is the governing body responsible for zoning and land use regulation in the unincorporated areas surrounding the project. On January 6, 2026, the Saline County Commission voted 4-1 to deny the Conditional Use Permit (CUP 25-09) for the Mountain Peak Energy Storage project, overturning a previous unanimous approval by the Planning Commission ([Salina311](https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/)). The denial was triggered by a valid protest petition signed by owners of approximately 31% of the notification area ([Salina Post](https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6)). The Commission cited concerns regarding inconsistency with the character of the community and safety as reasons for the denial ([KSAL](https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/)). Prior to this decision, the County had adopted regulations for Battery Energy Storage Systems (Resolution 25-24-23) in August 2025 ([Citizen Portal](https://citizenportal.ai/articles/6484905/Saline-County/Kansas/Saline-County-adopts-battery-energy-storage-system-regulations-after-months-of-review)) and commercial solar regulations in 2024 ([Saline County](https://salina311.com/county-commission-approves-new-solar-energy-system-provisions/)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "Ultimate regulatory authority; demonstrated willingness to overturn Planning Commission recommendations in the face of public opposition.",
+      "approach_recommendations": {
+        "motivations": [
+          "Public safety",
+          "Community character",
+          "Responsive to constituent petitions"
+        ],
+        "engage": "Given the recent denial (Jan 2026), immediate re-engagement requires addressing the specific findings of 'inconsistency with community character' and safety concerns. Any future attempts must drastically improve community consensus to avoid another protest petition, which triggers the supermajority vote requirement."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Saline County Commission voted 4-1 to deny the Conditional Use Permit (CUP 25-09)",
+          "url": "https://www.salina311.com/stories/2026-01-06-commission-overturns-planning-boards-unanimous-approval-of-battery-storage-project/",
+          "title": "Saline County Commission Overturns Planning Board's Unanimous Approval",
+          "date": "2026-01-06"
+        },
+        {
+          "claim": "Triggered by a valid protest petition signed by owners of approximately 31% of the notification area",
+          "url": "https://salinapost.com/posts/924cb67c-261d-4a54-b8af-210ca14b95c6",
+          "title": "Saline County Commissioners deny battery storage facility",
+          "date": "2026-01-06"
+        },
+        {
+          "claim": "Cited concerns regarding inconsistency with the character of the community and safety",
+          "url": "https://www.ksal.com/4-1-vote-stops-power-storage-facility-project/",
+          "title": "4-1 Vote Stops Power Storage Facility Project",
+          "date": "2026-01-06"
+        },
+        {
+          "claim": "Adopted regulations for Battery Energy Storage Systems (Resolution 25-24-23) in August 2025",
+          "url": "https://citizenportal.ai/articles/6484905/Saline-County/Kansas/Saline-County-adopts-battery-energy-storage-system-regulations-after-months-of-review",
+          "title": "Saline County adopts battery energy storage system regulations",
+          "date": "2025-08-06"
+        },
+        {
+          "claim": "Adopted commercial solar regulations in 2024",
+          "url": "https://salina311.com/county-commission-approves-new-solar-energy-system-provisions/",
+          "title": "County Commission Approves New Solar Energy System Provisions",
+          "date": "2024-08-06"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 624807,
+    "thinking_count": 18
+  }
+}

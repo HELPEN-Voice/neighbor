@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-20T12:26:10.496913",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Saline County",
+    "state": "KS",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three neighbors have an unknown stance (none have openly supported or opposed the project). Their community influence appears limited, as no high-influence neighbors were identified among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Abram P. Dye & Carrie N. Dye",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128270000000700001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Abram P. Dye and Carrie N. Dye are listed as owners of a rural parcel in Saline County, Kansas (parcel ID 085128270000000700001) [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). They have not been publicly involved or quoted in local discussions about development or energy projects [Salina Post](https://salinapost.com). There is no record of either holding a public office or leadership position in the county [Saline County Commission](https://www.salinecountyks.gov/Government/County).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public role; private landowners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Have a trusted local farmer or community member start a personal conversation, emphasizing respect for their farmland and assuring that any project impact on their land and roads will be minimized."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Judith L. Sapegin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000700001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Judith L. Sapegin is the recorded owner of a Saline County parcel in a rural area (ID 085128280000000700001) according to county records [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). No public comments from Sapegin about local development or clean energy issues have been found in local news sources [Salina Post](https://salinapost.com). She does not appear to serve in any local government capacity or civic leadership role [Saline County Commission](https://www.salinecountyks.gov/Government/County).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage her one-on-one in a respectful manner, highlighting how the plan will protect her land and family legacy, and clarify long-term safeguards for her property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sabrina T.S. Ozisik & Hakan Ozisik",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "085128280000000600001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Hakan Ozisik and Sabrina T.S. Ozisik jointly own a tract of land in rural Saline County (parcel ID 085128280000000600001), according to county property records [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). Neither of the Ozisiks has publicly stated a position on local development or renewable energy in available news records [Salina Post](https://salinapost.com). They are not known to hold any local public office or to be active in community organizations [Saline County Commission](https://www.salinecountyks.gov/Government/County).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Little community engagement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in a neighborly way focused on how noise, traffic, and views will be managed during the project, to address any concerns about their privacy and property values."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three neighbors have an unknown stance (none have openly supported or opposed the project). Their community influence appears limited, as no high-influence neighbors were identified among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Abram P. Dye & Carrie N. Dye\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128270000000700001\"],\n      \"claims\": \"Abram P. Dye and Carrie N. Dye are listed as owners of a rural parcel in Saline County, Kansas (parcel ID 085128270000000700001) [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). They have not been publicly involved or quoted in local discussions about development or energy projects [Salina Post](https://salinapost.com). There is no record of either holding a public office or leadership position in the county [Saline County Commission](https://www.salinecountyks.gov/Government/County).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public role; private landowners\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Have a trusted local farmer or community member start a personal conversation, emphasizing respect for their farmland and assuring that any project impact on their land and roads will be minimized.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Judith L. Sapegin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128280000000700001\"],\n      \"claims\": \"Judith L. Sapegin is the recorded owner of a Saline County parcel in a rural area (ID 085128280000000700001) according to county records [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). No public comments from Sapegin about local development or clean energy issues have been found in local news sources [Salina Post](https://salinapost.com). She does not appear to serve in any local government capacity or civic leadership role [Saline County Commission](https://www.salinecountyks.gov/Government/County).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage her one-on-one in a respectful manner, highlighting how the plan will protect her land and family legacy, and clarify long-term safeguards for her property.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Sabrina T.S. Ozisik & Hakan Ozisik\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"085128280000000600001\"],\n      \"claims\": \"Hakan Ozisik and Sabrina T.S. Ozisik jointly own a tract of land in rural Saline County (parcel ID 085128280000000600001), according to county property records [Saline County Parcel Search](https://www.salinecountyks.gov/Appraiser/parcelsearch). Neither of the Ozisiks has publicly stated a position on local development or renewable energy in available news records [Salina Post](https://salinapost.com). They are not known to hold any local public office or to be active in community organizations [Saline County Commission](https://www.salinecountyks.gov/Government/County).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Little community engagement\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out in a neighborly way focused on how noise, traffic, and views will be managed during the project, to address any concerns about their privacy and property values.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
