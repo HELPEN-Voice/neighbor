@@ -662,14 +662,32 @@ class NeighborOrchestrator:
             elif not settings.MAPBOX_ACCESS_TOKEN:
                 print("⚠️ Skipping map generation - MAPBOX_ACCESS_TOKEN not set")
 
-            # Save updated cached data (with rebuilt neighbors and map info) back to JSON
+            # =====================================================================
+            # AGGREGATION BOUNDARY — same as fresh path (line 1447)
+            # Convert PII-bearing profiles to aggregate stats
+            # =====================================================================
+            merged_dicts = [n for n in cached.get("neighbors", [])]
+            final = await aggregate_neighbors(
+                profiles=merged_dicts,
+                location_context=cached.get("location_context", ""),
+                overview_summary=cached.get("overview_summary"),
+                city=city,
+                county=county,
+                state=state,
+                run_id=cached.get("run_id"),
+                runtime_minutes=cached.get("runtime_minutes"),
+                map_image_path=cached.get("map_image_path"),
+                map_thumbnail_path=cached.get("map_thumbnail_path"),
+                map_metadata=cached.get("map_metadata"),
+            )
+
+            # Save the PII-free aggregate result
             final_output_path = output_dir / "neighbor_final_merged.json"
             with open(final_output_path, "w", encoding="utf-8") as f:
-                json.dump(cached, f, indent=2, ensure_ascii=False, default=str)
-            print(f"   Saved updated cache to {final_output_path.name}")
+                json.dump(final, f, indent=2, ensure_ascii=False, default=str)
+            print(f"   Saved aggregate output to {final_output_path.name}")
 
-            # Return the cached final result
-            return cached
+            return final
 
         # Scenario 2: Have dr_* but no vr_* files → check if all batches complete
         # If batches are incomplete, fall through to batch processing to run missing ones
