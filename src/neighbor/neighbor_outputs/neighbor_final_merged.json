@@ -1,244 +1,252 @@
 {
-  "total_screened": 18,
+  "total_screened": 13,
   "residents_count": 8,
-  "organizations_count": 10,
-  "adjacent_count": 2,
+  "organizations_count": 5,
+  "adjacent_count": 5,
   "influence_distribution": {
-    "High": 2,
-    "Medium": 1,
-    "Low": 15
+    "High": 3,
+    "Medium": 2,
+    "Low": 8
   },
   "stance_distribution": {
-    "oppose": 3,
+    "oppose": 1,
     "support": 0,
     "neutral": 0,
-    "unknown": 15
+    "unknown": 12
   },
   "entity_type_breakdown": {
-    "agriculture": 7,
-    "municipal": 1,
-    "unknown": 9,
+    "agriculture": 8,
+    "unknown": 4,
     "land_investment": 1
   },
   "risk_score": 10,
   "risk_level": "high",
   "themes": [
     {
-      "theme": "Agricultural Landholders",
-      "description": "This group consists of family-owned agricultural operations and trusts with long-standing local ties but limited political reach. Their primary focus is on maintaining traditional farming practices and land use continuity on their respective properties.",
-      "neighbor_count": 6,
+      "theme": "Agricultural Power Brokers",
+      "description": "This group consists of high-influence agricultural entities and individuals with significant ties to local government and policy networks. They often manage large-scale operations and have a history of active participation in land-use decisions, regional advocacy, and potential litigation.",
+      "neighbor_count": 4,
       "prevalent_concerns": [
         "farmland_preservation",
-        "land_use_continuity",
-        "neighborly_credibility"
-      ],
-      "typical_influence": "Low",
-      "engagement_approach": "Focus on one-on-one outreach to discuss land impacts and demonstrate respect for the agricultural heritage of the area."
-    },
-    {
-      "theme": "Strategic and Regulatory Stakeholders",
-      "description": "This group includes entities with significant local influence, including municipal authorities with permitting power and multi-generational business owners capable of mobilizing community sentiment. They represent the primary economic and political gatekeepers for the project area.",
-      "neighbor_count": 3,
-      "prevalent_concerns": [
-        "permitting_authority",
-        "economic_impact",
-        "community_mobilization",
-        "legal_and_financial_strategy"
+        "local_control",
+        "land_use_autonomy",
+        "policy_influence",
+        "heritage_family_legacy"
       ],
       "typical_influence": "High",
-      "engagement_approach": "Prioritize formal consultations and transparent communication regarding project benefits, regulatory compliance, and long-term community value."
+      "engagement_approach": "Prioritize early, high-level consultation to address systemic concerns regarding land use and local governance. Focus on providing technical data and demonstrating long-term agricultural compatibility."
     },
     {
-      "theme": "Rural Residential Community",
-      "description": "Comprised of individual residents and small-scale farm owners, this group is primarily concerned with the preservation of their lifestyle, privacy, and environmental aesthetics. Several members have expressed explicit opposition based on heritage and local control concerns.",
+      "theme": "Legacy & Residential Landowners",
+      "description": "This group is composed of individual residents and small-scale agricultural holders primarily concerned with maintaining their quality of life and family heritage. They prioritize privacy, quiet, and the preservation of the rural character of their immediate surroundings.",
       "neighbor_count": 8,
       "prevalent_concerns": [
         "privacy_quiet",
-        "aesthetics_viewshed",
-        "farmland_preservation",
         "heritage_family_legacy",
-        "local_control"
+        "farmland_preservation",
+        "property_value",
+        "drainage_roads"
       ],
       "typical_influence": "Low",
-      "engagement_approach": "Host community meetings to address visual and noise impacts while providing clear information on project mitigation efforts and environmental protections."
+      "engagement_approach": "Utilize personalized outreach and community meetings to address specific concerns about visual impact and noise. Emphasize how the project respects local history and minimizes disruption to daily life."
     },
     {
-      "theme": "Unverified Land Interests",
-      "description": "This group consists of entities with limited public data or unclassified profiles within the project area. Their specific motivations and influence levels remain to be determined through further investigation and direct contact.",
+      "theme": "Industrial & Resource Extraction Interests",
+      "description": "This theme represents entities focused on non-agricultural commercial land uses, such as resource extraction and industrial development. They are experienced in municipal processes like annexation and zoning adjustments and view land through the lens of resource utility.",
       "neighbor_count": 1,
       "prevalent_concerns": [
-        "unknown"
+        "resource_extraction",
+        "industrial_zoning",
+        "development_rights",
+        "municipal_annexation"
       ],
-      "typical_influence": "Unknown",
-      "engagement_approach": "Conduct preliminary outreach to identify key decision-makers and assess potential concerns or support for the development."
+      "typical_influence": "Medium",
+      "engagement_approach": "Engage in professional, business-to-business dialogue focused on zoning compatibility and infrastructure requirements. Monitor for potential conflicts or synergies regarding land-use permits and municipal expansion."
     }
   ],
   "opposition_summary": {
-    "count": 3,
+    "count": 1,
     "common_concerns": [
-      "farmland_preservation",
-      "heritage_family_legacy",
-      "privacy_quiet",
-      "local_control"
+      "Farmland preservation for dairy feed/manure spreading",
+      "Land use autonomy (quarrying rights)"
     ],
     "influence_levels": [
-      "Low"
+      "High"
     ]
   },
   "support_summary": null,
-  "overview_summary": "Of the 27 neighbors profiled, 17 are individuals and 10 are organizations, primarily consisting of multi-generational family farm trusts, agricultural LLCs, and the Saline County government. While 23 neighbors have an unknown stance, three have expressed opposition and one supports the development, with qualitative data suggesting concerns regarding farmland preservation and agricultural continuity. The group includes three high-influence and six medium-influence entities, including local government and established farming families whose interests will likely drive community sentiment and regulatory oversight.",
-  "location_context": "Neighbors within 0.5 mi of 38.725,-97.543056",
+  "overview_summary": "Of the 13 neighbors profiled within a half-mile radius, the majority are residents alongside five organizational entities primarily consisting of long-established family farming operations and agricultural LLCs. While 12 neighbors have an unknown stance on the project, one resident has expressed opposition, and five individuals or entities possess medium to high community influence due to their extensive land holdings and involvement in local government. Key stakeholders include prominent multi-generational dairy farms and entities with a history of pursuing their own development or rezoning initiatives, suggesting that primary concerns center on land value preservation and future land-use flexibility.",
+  "location_context": "Neighbors within 0.5 mi of 43.273991,-89.394502",
   "city": null,
-  "county": "Saline County",
-  "state": "KS",
-  "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
-  "runtime_minutes": null,
+  "county": "Dane County",
+  "state": "WI",
+  "run_id": "cbc2fc2a-b23c-47f9-b982-87f13aa6ac86",
+  "runtime_minutes": 33.6,
   "success": true,
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b9e2d6f6-762d-4f9b-b676-450557b4750b_map_full.png",
-  "map_thumbnail_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b9e2d6f6-762d-4f9b-b676-450557b4750b_map_thumb.png",
-  "map_metadata": {
-    "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
-    "generated_at": "2026-02-20T18:03:59.642536",
-    "stats": {
-      "total_neighbors": 18,
-      "highlighted": 3,
-      "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 15,
-      "by_influence": {
-        "High": 2,
-        "Medium": 1,
-        "Low": 0
-      },
-      "by_stance": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 0
-      },
-      "adjacent_highlighted": 1,
-      "target_included": true
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/cbc2fc2a-b23c-47f9-b982-87f13aa6ac86_ring_map.png",
+  "map_ring_stats": [
+    {
+      "ring": 1,
+      "inner_mi": 0.0,
+      "outer_mi": 0.25,
+      "count": 0,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 0,
+      "sentiment": "no_data"
     },
-    "strategy_used": "polyline",
-    "url_length": 732,
-    "parcels_rendered": 5,
-    "labels_count": 1,
+    {
+      "ring": 2,
+      "inner_mi": 0.25,
+      "outer_mi": 0.5,
+      "count": 0,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 0,
+      "sentiment": "no_data"
+    },
+    {
+      "ring": 3,
+      "inner_mi": 0.5,
+      "outer_mi": 0.75,
+      "count": 0,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 0,
+      "sentiment": "no_data"
+    }
+  ],
+  "map_metadata": {
+    "run_id": "cbc2fc2a-b23c-47f9-b982-87f13aa6ac86",
+    "generated_at": "2026-02-23T12:46:57.262065",
+    "center_lon": -89.39450206958259,
+    "center_lat": 43.27399127141565,
+    "boundaries_mi": [
+      0.0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "total_neighbors_mapped": 0,
+    "total_neighbors": 13,
+    "strategy_used": "geojson",
+    "url_length": 6833,
     "settings": {
       "width": 800,
       "height": 450,
       "style": "satellite-streets-v12",
-      "retina": true,
-      "padding": 50
+      "retina": true
     }
   },
-  "map_labels": [
-    {
-      "text": "TARGET",
-      "full_name": "Target Site",
-      "lon": -97.54546116666667,
-      "lat": 38.72462825,
-      "marker_char": "t",
-      "color": "FFD700",
-      "is_target": true,
-      "is_adjacent": false,
-      "influence": null,
-      "stance": null,
-      "pin": ""
-    }
-  ],
-  "map_legend_html": "",
   "target_parcel_info": {
-    "pin": "085128280000000101001",
+    "pin": "090911295417",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -97.5485145,
-            38.724747
+            -89.3959895,
+            43.2733875
           ],
           [
-            -97.548512,
-            38.7236415
+            -89.39561,
+            43.2729135
           ],
           [
-            -97.539354,
-            38.723691
+            -89.3949125,
+            43.2721345
           ],
           [
-            -97.5393555,
-            38.725506
+            -89.392462,
+            43.2721595
           ],
           [
-            -97.5485165,
-            38.725437
+            -89.392504,
+            43.2752835
           ],
           [
-            -97.5485145,
-            38.724747
+            -89.393818,
+            43.2752695
+          ],
+          [
+            -89.3938235,
+            43.2756895
+          ],
+          [
+            -89.393824,
+            43.2757015
+          ],
+          [
+            -89.394804,
+            43.2756895
+          ],
+          [
+            -89.3948045,
+            43.2756895
+          ],
+          [
+            -89.394804,
+            43.275679
+          ],
+          [
+            -89.3948025,
+            43.275605
+          ],
+          [
+            -89.3953035,
+            43.2755995
+          ],
+          [
+            -89.395302,
+            43.275545
+          ],
+          [
+            -89.3957225,
+            43.2755405
+          ],
+          [
+            -89.3957125,
+            43.2750245
+          ],
+          [
+            -89.3964935,
+            43.2750165
+          ],
+          [
+            -89.3965045,
+            43.275587
+          ],
+          [
+            -89.397416,
+            43.275577
+          ],
+          [
+            -89.397407,
+            43.2749705
+          ],
+          [
+            -89.3959895,
+            43.2733875
           ]
         ]
       ]
     },
-    "lat": "38.724569",
-    "lon": "-97.543926",
-    "county_path": "/us/ks/saline/walnut"
-  },
-  "fullpage_map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/b9e2d6f6-762d-4f9b-b676-450557b4750b_map_fullpage.png",
-  "fullpage_map_labels": [
-    {
-      "text": "TARGET",
-      "full_name": "Target Site",
-      "lon": -97.54546116666667,
-      "lat": 38.72462825,
-      "marker_char": "t",
-      "color": "FFD700",
-      "is_target": true,
-      "is_adjacent": false,
-      "influence": null,
-      "stance": null,
-      "pin": ""
-    }
-  ],
-  "fullpage_map_metadata": {
-    "run_id": "b9e2d6f6-762d-4f9b-b676-450557b4750b",
-    "generated_at": "2026-02-20T18:03:59.957332",
-    "stats": {
-      "total_neighbors": 18,
-      "highlighted": 3,
-      "skipped_no_geometry": 0,
-      "skipped_not_highlighted": 15,
-      "by_influence": {
-        "High": 2,
-        "Medium": 1,
-        "Low": 0
-      },
-      "by_stance": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 0
-      },
-      "adjacent_highlighted": 1,
-      "target_included": true
-    },
-    "strategy_used": "polyline",
-    "labels_count": 1,
-    "settings": {
-      "width": 1280,
-      "height": 720,
-      "style": "satellite-streets-v12",
-      "retina": true,
-      "padding": 80
-    }
+    "lat": "43.273991",
+    "lon": "-89.394502",
+    "county_path": "/us/wi/dane/vienna"
   },
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_165329_9384.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_165329_9639.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_165330_0554.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_165330_1016.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260220_165330_1149.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_165329_9158.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_165329_9373.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_165329_9794.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_165330_0269.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260220_165330_0800.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260223_122435_4721.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260223_121950_8195.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260223_122243_1343.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260223_122032_4222.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260223_122141_1922.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260223_121950_8195.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260223_122032_4222.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260223_122435_4721.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260223_122141_1922.json"
   ]
 }
