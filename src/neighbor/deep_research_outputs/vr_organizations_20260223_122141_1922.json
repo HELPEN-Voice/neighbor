@@ -1,0 +1,143 @@
+{
+  "timestamp": "2026-02-23T12:43:48.230741",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260223_122141_1922.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Dane County",
+    "state": "WI",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Jensen Acres LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "090911190002",
+        "090911195007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jensen Acres LLC is a Wisconsin limited liability company that owns agricultural land in the Town of Vienna (Section 11, 12, and 1) and the Town of Arlington ([Apraz.com](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf)). The entity's registered address is 7586 County Highway I, Arlington, WI, which is associated with the late Richard Jensen (1952–2023) and his family, distinct from the Jerry Jensen family of Oregon, WI ([Legacy.com](https://www.legacy.com/us/obituaries/madison/name/richard-jensen-obituary?id=52141153)). The LLC is a recipient of USDA agricultural subsidies ([EWG.org](https://farm.ewg.org/top_recips.php?fips=55021&progcode=total_acre&regionname=ColumbiaCounty,Wisconsin)). The family has a history of farming in the Arlington and DeForest area ([Legacy.com](https://www.legacy.com/us/obituaries/madison/name/richard-jensen-obituary?id=52141153)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local agricultural landholder; no evidence of high-level political leadership or active opposition found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural preservation",
+          "Family legacy"
+        ],
+        "engage": "Approach the Jensen family heirs (likely Jane Schoeneberg or immediate family) at the Arlington address; acknowledge their long-standing farming history in the area and discuss how the project aligns with agricultural land stewardship."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Jensen Acres LLC is a family-held agricultural entity based in Arlington, WI, owning multiple parcels in the Town of Vienna. The entity was associated with Richard Jensen until his passing in 2023. There is no public record of the entity taking a stance on solar development, and they appear to be distinct from the politically active Jensen family in the Town of Oregon.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": "Distinct from 'Jensen Family Farm LLC' (Jerry Jensen) located in Oregon, WI. Jensen Acres LLC is based in Arlington/Vienna.",
+      "citations": [
+        {
+          "claim": "Jensen Acres LLC owns agricultural land in the Town of Vienna and Arlington",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "Registered address is 7586 County Highway I, Arlington, WI",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "Associated with the late Richard Jensen (1952–2023)",
+          "url": "https://www.legacy.com/us/obituaries/madison/name/richard-jensen-obituary?id=52141153",
+          "title": "Richard Jensen Obituary - DeForest, WI",
+          "date": "2023-06-04"
+        },
+        {
+          "claim": "Recipient of USDA agricultural subsidies",
+          "url": "https://farm.ewg.org/top_recips.php?fips=55021&progcode=total_acre&regionname=ColumbiaCounty,Wisconsin",
+          "title": "EWG Farm Subsidy Database - Columbia County",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Shamrock Acres LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "090911395005",
+        "090911390000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Shamrock Acres LLC is a Wisconsin limited liability company registered at 6756 Old 113 Rd, Dane, WI, which is the residential address of Diane and Chuck Ripp ([Apraz.com](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf); [NationalPublicData](https://nationalpublicdata.com/people/r/diane-ripp/)). The entity holds multiple agricultural parcels in Section 11 of the Town of Vienna ([Apraz.com](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf)). The owners are connected to Ripp Farms and are active in the local agricultural community; Chuck Ripp has served as a delegate for the Dane County Farm Bureau ([WFBF.com](https://wfbf.com/wp-content/uploads/2025/03/FINAL_District-2-Newsletter-1-2025.pdf)). Chuck Ripp has previously participated in discussions regarding renewable power projects (specifically anaerobic digesters) in the county ([BioCycle](https://www.biocycle.net/county-clusters-farms-for-renewable-power-project/)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Owners are connected to the Dane County Farm Bureau (Chuck Ripp is a delegate), indicating influence within the local agricultural policy network.",
+      "approach_recommendations": {
+        "motivations": [
+          "Agricultural interests",
+          "Policy influence"
+        ],
+        "engage": "Engage Chuck and Diane Ripp directly; leverage their Farm Bureau connection by focusing on property rights and potential agricultural economic benefits. Be aware of their prior engagement with renewable energy projects."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Shamrock Acres LLC is an agricultural holding entity linked to the Ripp family (Diane and Chuck Ripp) in Dane, WI. The family is influential in the local farming community, with Chuck Ripp serving as a delegate for the Dane County Farm Bureau. While they have participated in renewable energy discussions in the past, their specific stance on solar development in Vienna is not explicitly documented.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Registered at 6756 Old 113 Rd, Dane, WI",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "Address is residential address of Diane and Chuck Ripp",
+          "url": "https://nationalpublicdata.com/people/r/diane-ripp/",
+          "title": "Diane Ripp Profile - National Public Data",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Chuck Ripp has served as a delegate for the Dane County Farm Bureau",
+          "url": "https://wfbf.com/wp-content/uploads/2025/03/FINAL_District-2-Newsletter-1-2025.pdf",
+          "title": "Wisconsin Farm Bureau District 2 Newsletter",
+          "date": "2025-03-26"
+        },
+        {
+          "claim": "Participated in discussions regarding renewable power projects",
+          "url": "https://www.biocycle.net/county-clusters-farms-for-renewable-power-project/",
+          "title": "County Clusters Farms For Renewable Power Project",
+          "date": "2012-02-27"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 1616285,
+    "thinking_count": 40
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-02-24T12:37:26.157469",
+  "source_file": "src/neighbor/deep_research_outputs/dr_persons_20260223_122243_1343.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Dane County",
+    "state": "WI"
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Blue Star Dairy Farms",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911292009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Blue Star Dairy Farms is a large family partnership operating across two sites in DeForest and Arlington, milking approximately 2,100 to 2,400 cows [Mid-West Farm Report](https://www.midwestfarmreport.com/2024/05/14/blue-star-dairy-farms-is-your-host/) [DCRC](https://www.dcrcouncil.org/wp-content/uploads/2025/09/2025-DCRC-tour-Blue-Star-Dairy-Farms-002.pdf). The farm has been in the Meinholz family since 1946 and is currently operated by third-generation brothers Craig and Brian Meinholz, along with partner Jim Hahn [Dairy Star](https://dairystar.com/stories/focused-on-results,20212). Farm co-owner and manager Sherri Meinholz serves as Supervisor #2 on the Vienna Town Board [Town of Vienna](https://viennawi.gov/town-board/). The farm participates in renewable energy initiatives by supplying manure to the Springfield biodigester [Town of Springfield](https://www.town.springfield.wi.us/wp-content/uploads/Comp-Plan-Amended-6.6.23_w-maps-and-appendices-2.pdf). However, Sherri Meinholz has previously expressed concern that utility-scale solar developers drive up farmland rental rates, making it difficult for dairy farmers to compete for the land base needed to support their herds [Madison Commons](https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Town Supervisor (Sherri Meinholz); large local employer",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "local_control",
+          "heritage_family_legacy",
+          "fair_contracting"
+        ],
+        "engage": "Engage via formal channels given Sherri Meinholz's board role. Acknowledge the farm's participation in biogas but address specific concerns about solar land competition. Frame the project as compatible with, rather than a threat to, the local agricultural land base."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Milking approximately 2,100 to 2,400 cows",
+          "url": "https://www.midwestfarmreport.com/2024/05/14/blue-star-dairy-farms-is-your-host/",
+          "title": "Blue Star Dairy Farms Is Your Host",
+          "date": "2024-05-14"
+        },
+        {
+          "claim": "2,400 cows (milking and dry) at 2 locations",
+          "url": "https://www.dcrcouncil.org/wp-content/uploads/2025/09/2025-DCRC-tour-Blue-Star-Dairy-Farms-002.pdf",
+          "title": "2025 DCRC Tour Blue Star Dairy Farms",
+          "date": "2025-09-01"
+        },
+        {
+          "claim": "Operated by third-generation brothers Craig and Brian Meinholz, along with partner Jim Hahn",
+          "url": "https://dairystar.com/stories/focused-on-results,20212",
+          "title": "Focused on results: Blue Star Dairy Farms",
+          "date": "2023-10-14"
+        },
+        {
+          "claim": "Sherri Meinholz serves as Supervisor #2 on the Vienna Town Board",
+          "url": "https://viennawi.gov/town-board/",
+          "title": "Town of Vienna Board Members",
+          "date": "2025-02-24"
+        },
+        {
+          "claim": "Supplies manure to the Springfield biodigester",
+          "url": "https://www.town.springfield.wi.us/wp-content/uploads/Comp-Plan-Amended-6.6.23_w-maps-and-appendices-2.pdf",
+          "title": "Town of Springfield Comprehensive Plan Amended June 2023",
+          "date": "2023-06-06"
+        },
+        {
+          "claim": "Expressed concern that utility-scale solar developers drive up farmland rental rates",
+          "url": "https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/",
+          "title": "Massive solar project could change the landscape in rural Dane County",
+          "date": "2020-02-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cynthia M. LaValley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911386908"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cynthia M. LaValley is a local landowner in the Town of Vienna who co-owns multiple agricultural parcels with Gerald R. Hahn [Town of Vienna Assessment](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf) [DeForest Zoning Map](https://hdp-us-prod-app-deforest-engage-files.s3.us-west-2.amazonaws.com/3217/6797/2380/4_Proposed_Zoning_Map_2025.12.05.pdf). She does not hold public office and has no documented stance on development issues [Town of Vienna](https://viennawi.gov/town-board/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "property_value"
+        ],
+        "engage": "Connect through a personal approach. Given her co-ownership with Gerald Hahn, utilize any existing relationships with the Hahn family (who are partners in Blue Star Dairy). Emphasize respect for property legacy."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Co-owns multiple agricultural parcels with Gerald R. Hahn",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "Property ownership verified in zoning records",
+          "url": "https://hdp-us-prod-app-deforest-engage-files.s3.us-west-2.amazonaws.com/3217/6797/2380/4_Proposed_Zoning_Map_2025.12.05.pdf",
+          "title": "DeForest Proposed Zoning Map",
+          "date": "2025-12-05"
+        },
+        {
+          "claim": "No known public roles",
+          "url": "https://viennawi.gov/town-board/",
+          "title": "Town of Vienna Board Members",
+          "date": "2025-02-24"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 513259,
+    "thinking_count": 27
+  }
+}

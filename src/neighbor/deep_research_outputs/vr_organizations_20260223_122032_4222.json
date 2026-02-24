@@ -1,0 +1,202 @@
+{
+  "timestamp": "2026-02-23T12:33:41.814660",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260223_122032_4222.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Dane County",
+    "state": "WI",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Meinholz Farms Company Llc",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "090911295417",
+        "090911380011",
+        "090911297102",
+        "090911290510",
+        "090911381001",
+        "090911290010",
+        "090911385007",
+        "090911384008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Meinholz Farms Company LLC is the landholding entity for **Blue Star Dairy Farms**, a large dairy operation milking approximately 2,100 cows across locations in DeForest and Arlington ([Dairy Star](https://dairystar.com/stories/focused-on-results,20212)). The LLC owns contiguous parcels in the Town of Springfield/Vienna and has a history of litigating for land use rights, specifically seeking to recognize nonconforming quarry use on its property in 2018–2022 ([Wisconsin Appeals Court](https://law.justia.com/cases/wisconsin/court-of-appeals/2022/2021ap000346.html)). Family member **Sherri Meinholz** has publicly opposed solar development in Dane County, stating in 2020 that solar projects provide \"steep competition\" for land needed to support their dairy operations and manure management ([Madison Commons](https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/)). She also appeared on talk radio discussing the threat of solar companies \"buying up large parcels of farmland\" ([Vicki McKenna Show](https://newstalk1130.iheart.com/featured/vicki-mckenna/content/2020-02-12-sherri-meinholz-on-losing-her-family-farm-to-the-climate-hoax/)). **Art Meinholz**, who served on the Town of Springfield Board and TDR committee, passed away in January 2026 ([Cress Funeral Service](https://www.cressfuneralservice.com/obituaries/arthur-meinholz)). The family remains active in local governance; Sherri Meinholz ran for Vienna Town Board Supervisor in 2023 ([Ballotpedia](https://ballotpedia.org/Sherri_Meinholz_(Vienna_Town_Board_Supervisor_2,_Wisconsin,_candidate_2023))).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "Principals operate one of the largest dairies in the county (Blue Star Dairy); Family members have held elected office (Town of Springfield, Town of Vienna candidate); Demonstrated willingness to litigate land-use disputes; Active media presence regarding land preservation.",
+      "approach_recommendations": {
+        "motivations": [
+          "Farmland preservation for dairy feed/manure spreading",
+          "Land use autonomy (quarrying rights)"
+        ],
+        "engage": "Acknowledge the dairy's critical need for land base. Any proposal must demonstrate it does not threaten their feed/manure spreading capabilities. Address Sherri Meinholz directly as a key decision-maker. Be aware of their history of litigation regarding industrial/quarry land use."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Large dairy operation (Blue Star Dairy) with documented opposition to solar development due to competition for agricultural land.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Blue Star Dairy Farms is a large dairy operation milking approximately 2,100 cows across locations in DeForest and Arlington",
+          "url": "https://dairystar.com/stories/focused-on-results,20212",
+          "title": "From calf to cow, Blue Star Dairy Farms on cutting edge of progress",
+          "date": "2023-10-14"
+        },
+        {
+          "claim": "The LLC owns contiguous parcels in the Town of Springfield/Vienna and has a history of litigating for land use rights, specifically seeking to recognize nonconforming quarry use on its property in 2018–2022",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2022/2021ap000346.html",
+          "title": "Meinholz, LLC v. Dane Town Board of Zoning Appeals and Adjustment",
+          "date": "2022-05-05"
+        },
+        {
+          "claim": "Sherri Meinholz has publicly opposed solar development in Dane County, stating in 2020 that solar projects provide \"steep competition\" for land needed to support their dairy operations",
+          "url": "https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/",
+          "title": "Massive solar project could change the landscape in rural Dane County",
+          "date": "2020-02-28"
+        },
+        {
+          "claim": "She also appeared on talk radio discussing the threat of solar companies \"buying up large parcels of farmland\"",
+          "url": "https://newstalk1130.iheart.com/featured/vicki-mckenna/content/2020-02-12-sherri-meinholz-on-losing-her-family-farm-to-the-climate-hoax/",
+          "title": "Sherri Meinholz on losing her family farm to the Climate Hoax",
+          "date": "2020-02-12"
+        },
+        {
+          "claim": "Art Meinholz, who served on the Town of Springfield Board and TDR committee, passed away in January 2026",
+          "url": "https://www.cressfuneralservice.com/obituaries/arthur-meinholz",
+          "title": "Obituary for Arthur Edward Meinholz",
+          "date": "2026-01-24"
+        },
+        {
+          "claim": "Sherri Meinholz ran for Vienna Town Board Supervisor in 2023",
+          "url": "https://ballotpedia.org/Sherri_Meinholz_(Vienna_Town_Board_Supervisor_2,_Wisconsin,_candidate_2023)",
+          "title": "Sherri Meinholz (Vienna Town Board Supervisor 2, Wisconsin, candidate 2023)",
+          "date": "2023-04-04"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kittleson Rev Living Tr, Roger I",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "090911190708"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Roger I. Kittleson Revocable Living Trust is the recorded owner of agricultural land in the Town of Vienna (Parcel prefix 0909) with a mailing address in Arlington, WI ([Columbia County Land Records](https://www.apraz.com/wp-content/uploads/2023/05/Leeds-2025-Final-Assessment-Roll.pdf)). The trust beneficiary, Roger I. Kittleson, is a recipient of USDA agricultural subsidies ([EWG Farm Subsidy Database](https://farm.ewg.org/addrsearch.php?z=1&zip=53911&page=3)). While a \"Roger Kittleson\" served as Town Chairman in the nearby Town of Perry, WI, no definitive evidence links that official's renewable energy positions to this specific trust's management of land in Vienna/Arlington. No specific stance on development in the Town of Vienna was found.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-term agricultural landowner; no confirmed leadership roles in the immediate Town of Vienna/Springfield vicinity verified for this specific individual.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Standard landowner outreach. Verify if the owner is the same individual active in broader Dane County governance."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": "Agricultural trust holding land in Vienna and Arlington, WI.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Roger I. Kittleson Revocable Living Trust is the recorded owner of agricultural land in the Town of Vienna (Parcel prefix 0909) with a mailing address in Arlington, WI",
+          "url": "https://accessdane.danecounty.gov/Parcel/PrintSetUp/090924247460?printSummary=True",
+          "title": "Access Dane Parcel Information (Context for 0909 Prefix)",
+          "date": "2025-12-23"
+        },
+        {
+          "claim": "The trust beneficiary, Roger I. Kittleson, is a recipient of USDA agricultural subsidies",
+          "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=53911&page=3",
+          "title": "EWG Farm Subsidy Database - Arlington, WI",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Kelley Tr",
+      "entity_category": "Organization",
+      "entity_type": "trust",
+      "pins": [
+        "090911185010",
+        "090911180004",
+        "090902490008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Kelley Trust (often listed as \"Kelley Trust Dated 3-12-1998\") is associated with **Christopher Kelley** and **Kelley Trucking LLC**, a construction and excavation business based in Arlington, WI ([Columbia County Minutes](https://www.co.columbia.wi.us/columbiacounty/Portals/3/1PlanningZoning%20Committee/May%202025/Notice%20of%20Public%20Hearing.pdf?ver=KBTyLrKcR4ACZQUfhSBSXA%3D%3D)). The Trust owns land in both Columbia and Dane Counties and has actively pursued industrial land uses; notably, it holds a Conditional Use Permit (CUP) for **non-metallic mineral extraction and a hot mix asphalt plant** in the Town of Arlington ([Columbia County Notice](https://www.co.columbia.wi.us/columbiacounty/Portals/3/1PlanningZoning%20Committee/May%202025/Notice%20of%20Public%20Hearing.pdf?ver=KBTyLrKcR4ACZQUfhSBSXA%3D%3D)). In 2013, the Trust was involved in a petition for direct annexation of territory to the Village of DeForest, indicating an interest in development or municipal services ([WI Dept of Administration](https://mds.wi.gov/View/Documents?Type=PetitionFile&ID=13690)). The entity's focus appears to be resource extraction and heavy industrial use.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Owner of an established excavation/trucking business; Holder of industrial use permits (quarry/asphalt); History of engaging in municipal annexation processes.",
+      "approach_recommendations": {
+        "motivations": [
+          "Resource extraction",
+          "Industrial zoning/development"
+        ],
+        "engage": "Approach as a commercial/industrial landowner. Their primary interest is likely ensuring development does not interfere with extraction operations or trucking routes. Potential for service contract opportunities (site prep) given their business line."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Landholding entity for a local excavation and trucking business with active mineral extraction permits and history of annexation petitions.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Kelley Trust is associated with Christopher Kelley and Kelley Trucking LLC, a construction and excavation business based in Arlington, WI",
+          "url": "https://bubba.ai/trucking-companies/wisconsin/arlington/kelley-trucking-llc-1049264",
+          "title": "Kelley Trucking LLC Company Profile",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "It holds a Conditional Use Permit (CUP) for non-metallic mineral extraction and a hot mix asphalt plant in the Town of Arlington",
+          "url": "https://www.co.columbia.wi.us/columbiacounty/Portals/3/1PlanningZoning%20Committee/May%202025/Notice%20of%20Public%20Hearing.pdf?ver=KBTyLrKcR4ACZQUfhSBSXA%3D%3D",
+          "title": "Columbia County Planning & Zoning Notice of Public Hearing",
+          "date": "2025-05-06"
+        },
+        {
+          "claim": "In 2013, the Trust was involved in a petition for direct annexation of territory to the Village of DeForest",
+          "url": "https://mds.wi.gov/View/Documents?Type=PetitionFile&ID=13690",
+          "title": "Petition for Direct Annexation - Village of DeForest",
+          "date": "2013-06-27"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 880983,
+    "thinking_count": 24
+  }
+}

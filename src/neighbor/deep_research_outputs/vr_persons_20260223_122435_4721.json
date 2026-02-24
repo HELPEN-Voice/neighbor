@@ -1,0 +1,167 @@
+{
+  "timestamp": "2026-02-23T12:40:16.002488",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260223_122435_4721.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Dane County",
+    "state": "WI",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Patricia E. Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911296014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Patricia E. Johnson is listed as the owner of a rural Dane County parcel at 5241 County Highway DM ([Vienna Tax Roll](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf)). She does not hold any known public office or committee role in the community. She has no recorded statements or notable participation in local development discussions, and her position on new projects has not been documented.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; private landowner",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Outreach should be handled by a local community liaison emphasizing respect for her property and routine, given her low-profile status. Provide clear, courteous information and invite questions, as she has no known agenda or stance."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Patricia E. Johnson is listed as the owner of a rural Dane County parcel at 5241 County Highway DM",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Sharon E. Haug",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911295006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharon E. Haug is identified as a landowner in the project vicinity, specifically owning property at 5157 County Highway DM ([Vienna Tax Roll](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf)). There are no indications of her involvement in local boards or past development debates, and no public statements by Haug on land use or energy projects were found in local records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or influence",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Engage Haug through polite, one-on-one communication (such as a neighborly visit or mailed information). Emphasize listening to any concerns she may volunteer, since she has not publicly voiced opinions, and address them with empathy and factual reassurance."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Sharon E. Haug is identified as a landowner in the project vicinity, specifically owning property at 5157 County Highway DM",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rodney W. Caldwell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911280003",
+        "090911285008",
+        "090902395004",
+        "090902390018"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rodney W. Caldwell is a long-time landowner in the Town of Vienna ([Vienna Tax Roll](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf)). He is part of a well-known farm family whose operation has historically spanned over 4,000 acres and remained in the family for more than 130 years ([CALS News](https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/)). The Caldwell family has been prominent in Wisconsin’s agricultural community; a former state agriculture secretary credited Caldwell's efforts with helping other family farmers survive during difficult economic times ([CALS News](https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/)). Caldwell previously served as the director of the Wisconsin Farmers Home Administration and as a financial consultant to the state Department of Agriculture ([CALS News](https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/)). While family members (e.g., Nancy Caldwell) have attended recent Town of Vienna solar development meetings, Rodney Caldwell himself has no recorded public testimony opposing or supporting development projects in the verified minutes.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Legacy farm owner; former state Ag official",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "farmland_preservation"
+        ],
+        "engage": "Have a respected agricultural figure or local official initiate contact with Caldwell, acknowledging his family’s long farming legacy. Emphasize how the project can align with preserving farm viability (e.g., providing stable income or coexisting with agriculture), and invite him to share any requirements or insights given his experience."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Rodney W. Caldwell is a long-time landowner in the Town of Vienna",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "He is part of a well-known farm family whose operation has historically spanned over 4,000 acres and remained in the family for more than 130 years",
+          "url": "https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/",
+          "title": "Six to receive Honorary Recognition awards from the College of Agricultural and Life Sciences",
+          "date": "2003-09-25"
+        },
+        {
+          "claim": "former state agriculture secretary credited Caldwell's efforts with helping other family farmers survive during difficult economic times",
+          "url": "https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/",
+          "title": "Six to receive Honorary Recognition awards from the College of Agricultural and Life Sciences",
+          "date": "2003-09-25"
+        },
+        {
+          "claim": "Caldwell previously served as the director of the Wisconsin Farmers Home Administration and as a financial consultant to the state Department of Agriculture",
+          "url": "https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/",
+          "title": "Six to receive Honorary Recognition awards from the College of Agricultural and Life Sciences",
+          "date": "2003-09-25"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 462286,
+    "thinking_count": 30
+  }
+}
