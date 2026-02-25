@@ -1,0 +1,553 @@
+{
+  "total_screened": 13,
+  "residents_count": 7,
+  "organizations_count": 6,
+  "adjacent_count": 5,
+  "influence_distribution": {
+    "High": 3,
+    "Medium": 1,
+    "Low": 9
+  },
+  "stance_distribution": {
+    "oppose": 1,
+    "support": 0,
+    "neutral": 0,
+    "unknown": 12
+  },
+  "entity_type_breakdown": {
+    "unknown": 2,
+    "agriculture": 10,
+    "speculation": 1
+  },
+  "risk_score": 10,
+  "risk_level": "high",
+  "themes": [
+    {
+      "theme": "Residential Stakeholders",
+      "description": "This group consists of individual residents living on smaller parcels near the project area. Their primary interests are centered on the preservation of their immediate living environment, specifically regarding privacy and residential property values.",
+      "neighbor_count": 2,
+      "prevalent_concerns": [
+        "privacy_quiet",
+        "property_value",
+        "aesthetics_viewshed"
+      ],
+      "typical_influence": "Low",
+      "engagement_approach": "Provide clear, visual information regarding project footprint and noise mitigation through direct mail or small-group briefings to address immediate proximity concerns.",
+      "members": [
+        {
+          "name": "Patricia E Johnson",
+          "persona": "Private residential landowner on a small parcel focused on privacy and property value.",
+          "influence": "Low",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            }
+          ]
+        },
+        {
+          "name": "Sharon E Haug",
+          "persona": "Individual resident concerned with maintaining viewshed aesthetics and a quiet living environment.",
+          "influence": "Low",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Private Agricultural Landholders",
+      "description": "This group includes private agricultural landholders and family trusts focused on the operational aspects of farming. They prioritize land stewardship and the continuity of agricultural production over public advocacy or political involvement.",
+      "neighbor_count": 6,
+      "prevalent_concerns": [
+        "farmland_preservation",
+        "agricultural_continuity",
+        "land_stewardship",
+        "property_value"
+      ],
+      "typical_influence": "Low",
+      "engagement_approach": "Focus on technical details of land use, lease terms, and long-term agricultural impact via informational workshops or technical fact sheets.",
+      "members": [
+        {
+          "name": "Gregg A. Komplin",
+          "persona": "Agricultural landowner and civic volunteer interested in farmland preservation and traffic safety.",
+          "influence": "Low",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "Madison West Class of 1976 Directory",
+              "url": "https://www.regents76.net/directory/k/",
+              "date": "2024-02-25"
+            },
+            {
+              "title": "Zor Zephyr Newsletter",
+              "url": "https://img1.wsimg.com/blobby/go/18a43d33-c39b-4850-966d-95fafcd749fe/downloads/1bv4cunq7_874534.pdf?ver=1767370073904",
+              "date": "2020-04-01"
+            }
+          ]
+        },
+        {
+          "name": "Jason D. Kelley",
+          "persona": "Private agricultural landowner focused on fair contracting and preserving the value of farmland.",
+          "influence": "Low",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "EWG Farm Subsidy Database - Columbia County/Arlington",
+              "url": "https://farm.ewg.org/top_recips.php?fips=55021&progcode=totalfarm&page=10",
+              "date": "2024-02-25"
+            }
+          ]
+        },
+        {
+          "name": "Cynthia M. LaValley",
+          "persona": "Individual co-owner of agricultural land prioritizing privacy and the continuity of farming.",
+          "influence": "Low",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "Proposed Zoning Map DeForest/Vienna",
+              "url": "https://hdp-us-prod-app-deforest-engage-files.s3.us-west-2.amazonaws.com/3217/6797/2380/4_Proposed_Zoning_Map_2025.12.05.pdf",
+              "date": "2025-12-05"
+            }
+          ]
+        },
+        {
+          "name": "Jensen Acres LLC",
+          "persona": "Agricultural business entity focused on long-term land stewardship and operational continuity.",
+          "influence": "Low",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "EWG Farm Subsidy Database - Columbia County",
+              "url": "https://farm.ewg.org/top_recips.php?fips=55021&progcode=total_acre&regionname=ColumbiaCounty,Wisconsin",
+              "date": "2024-01-01"
+            },
+            {
+              "title": "R & J Jensen Farms LLC Company Snapshot",
+              "url": "https://brokersnapshot.com/Company?dot=2177028",
+              "date": "2025-05-19"
+            }
+          ]
+        },
+        {
+          "name": "Kittleson Rev Living Tr, Roger I",
+          "persona": "Private family trust managing agricultural land for income with a focus on farming.",
+          "influence": "Low",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "5125 County Road Dam Property Details",
+              "url": "https://www.homes.com/property/5125-county-road-dam-arlington-wi/kbc9r0spn7p79/",
+              "date": "2024-02-25"
+            },
+            {
+              "title": "Town of Vienna 2024 Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "EWG Farm Subsidy Database: 53911",
+              "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=53911&page=3",
+              "date": "2024-01-01"
+            }
+          ]
+        },
+        {
+          "name": "Kelley Tr",
+          "persona": "Family-held agricultural trust with no history of public advocacy or community leadership.",
+          "influence": "Low",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "WisDOT Permit 20250915",
+              "url": "https://cdn.townweb.com/vi.arlington.wi.gov/wp-content/uploads/2025/09/20250915_DT1504_Arlington_Prairie_View-1.pdf",
+              "date": "2025-09-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Legacy Agricultural Landowners",
+      "description": "This group represents long-standing family legacies with significant landholdings that carry substantial local influence. Their focus is on preserving multi-generational heritage and the large-scale agricultural character of the region.",
+      "neighbor_count": 1,
+      "prevalent_concerns": [
+        "farmland_preservation",
+        "heritage_family_legacy"
+      ],
+      "typical_influence": "High",
+      "engagement_approach": "Engage in one-on-one consultations to respect historical legacy and discuss long-term regional preservation goals and project compatibility.",
+      "members": [
+        {
+          "name": "Rodney W Caldwell",
+          "persona": "High-influence legacy farmer with extensive multi-generational landholdings and deep historical root",
+          "influence": "High",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "State Fair Recognizes Families Owning 100 & 150 Year Old Farms",
+              "url": "https://langladecountyedc.org/news/state-fair-recognizes-families-owning-100-150-year-old-farms/",
+              "date": "2017-08-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Active Community Members",
+      "description": "This group comprises individuals and organizations with a documented history of civic engagement and public advocacy. They are frequently involved in local governance, zoning petitions, and public discourse regarding land use.",
+      "neighbor_count": 4,
+      "prevalent_concerns": [
+        "local_control",
+        "farmland_preservation",
+        "land_use_rights",
+        "property_rights"
+      ],
+      "typical_influence": "Medium to High",
+      "engagement_approach": "Maintain transparent communication and early participation in public forums to address regulatory, zoning, and community-wide impact concerns.",
+      "members": [
+        {
+          "name": "Gerald R. Hahn",
+          "persona": "Agricultural landowner with a history of public engagement regarding local zoning and control.",
+          "influence": "Low",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "Dane County Board of Supervisors Referrals 2008-2009",
+              "url": "https://board.danecounty.gov/documents/pdf/archived-reports/leg/REFFERALS-2008-2009.pdf",
+              "date": "2008-04-24"
+            },
+            {
+              "title": "DeForest Proposed Zoning Map",
+              "url": "https://hdp-us-prod-app-deforest-engage-files.s3.us-west-2.amazonaws.com/3217/6797/2380/4_Proposed_Zoning_Map_2025.12.05.pdf",
+              "date": "2025-12-05"
+            }
+          ]
+        },
+        {
+          "name": "Blue Star Dairy Farms",
+          "persona": "Large-scale dairy operation that is highly influential and vocal in local government affairs.",
+          "influence": "High",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Focused on results: Blue Star Dairy Farms grows to 2,100 cows",
+              "url": "https://dairystar.com/stories/focused-on-results,20212",
+              "date": "2023-10-14"
+            },
+            {
+              "title": "Massive solar project could change the landscape in rural Dane County",
+              "url": "https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/",
+              "date": "2020-02-28"
+            },
+            {
+              "title": "Columbia County Board Minutes",
+              "url": "https://www.co.columbia.wi.us/columbiacounty/LinkClick.aspx?fileticket=1pFILRfeaj8%3D&tabid=922&portalid=6&mid=16646",
+              "date": "2022-03-16"
+            }
+          ]
+        },
+        {
+          "name": "Shamrock Acres LLC",
+          "persona": "Land development entity with a history of engaging in public land-use and zoning petitions.",
+          "influence": "Medium",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "Tri-County Paving / Ripp CUP Application Packet",
+              "url": "https://townofdane.gov/wp-content/uploads/2023/03/Tri-County-Agenda-Packet-3_6_23.pdf",
+              "date": "2023-03-28"
+            },
+            {
+              "title": "Dane County Legislation - CUP 02584",
+              "url": "https://dane.legistar.com/gateway.aspx?m=l&id=/matter.aspx?key=24592",
+              "date": "2023-01-25"
+            }
+          ]
+        },
+        {
+          "name": "Meinholz Farms Company LLC",
+          "persona": "Prominent farming family with a history of local elected office and zoning litigation.",
+          "influence": "High",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "Wisconsin Court of Appeals Affirms Town Board's Right",
+              "url": "https://www.boardmanclark.com/publications/municipal-newsletter/wisconsin-court-of-appeals-affirms-town-boards-right-to-reconsider-nonconforming-use-recognition-and-request-zoning-administrator-decision",
+              "date": "2022-07-22"
+            },
+            {
+              "title": "Town of Vienna 2024 Real Estate Assessment Roll",
+              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+              "date": "2024-06-13"
+            },
+            {
+              "title": "MEINHOLZ LLC v. DANE TOWN BOARD OF ZONING APPEALS AND ADJUSTMENT",
+              "url": "https://caselaw.findlaw.com/court/wi-court-of-appeals/2171703.html",
+              "date": "2022-05-05"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "opposition_summary": {
+    "count": 1,
+    "common_concerns": [
+      "farmland_preservation",
+      "fair_contracting",
+      "heritage_family_legacy"
+    ],
+    "influence_levels": [
+      "High"
+    ]
+  },
+  "support_summary": null,
+  "overview_summary": "Screening of 13 neighbors within 0.5 miles identified seven residents and six organizations, primarily consisting of individual landowners and agricultural entities such as multi-generational farming LLCs and dairy operations. While 12 neighbors have unknown stances, one neighbor has expressed opposition, and four stakeholders hold high or medium influence due to extensive landholdings and a history of pursuing commercial development or legal property protection. Key interests among these stakeholders include agricultural preservation and the protection of farm operations and property values.",
+  "location_context": "Neighbors within 0.5 mi of 43.273991,-89.394502",
+  "city": null,
+  "county": "Dane County",
+  "state": "WI",
+  "run_id": "2cb2e83a-67c1-44db-b8d7-600738d3f28a",
+  "runtime_minutes": 68.3,
+  "success": true,
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/2cb2e83a-67c1-44db-b8d7-600738d3f28a_ring_map.png",
+  "map_ring_stats": [
+    {
+      "ring": 1,
+      "inner_mi": 0.0,
+      "outer_mi": 0.16,
+      "count": 4,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 4,
+      "sentiment": "mixed",
+      "high_oppose": 0,
+      "high_support": 0,
+      "high_neutral": 0,
+      "high_unknown": 1,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 0
+    },
+    {
+      "ring": 2,
+      "inner_mi": 0.16,
+      "outer_mi": 0.33,
+      "count": 3,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 3,
+      "sentiment": "mixed",
+      "high_oppose": 0,
+      "high_support": 0,
+      "high_neutral": 0,
+      "high_unknown": 1,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 0
+    },
+    {
+      "ring": 3,
+      "inner_mi": 0.33,
+      "outer_mi": 0.5,
+      "count": 6,
+      "oppose": 1,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 5,
+      "sentiment": "mixed",
+      "high_oppose": 1,
+      "high_support": 0,
+      "high_neutral": 0,
+      "high_unknown": 0,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 1
+    }
+  ],
+  "map_metadata": {
+    "run_id": "2cb2e83a-67c1-44db-b8d7-600738d3f28a",
+    "generated_at": "2026-02-25T13:12:16.958962",
+    "center_lon": -89.39450206958259,
+    "center_lat": 43.27399127141565,
+    "boundaries_mi": [
+      0.0,
+      0.1631,
+      0.3253,
+      0.5026
+    ],
+    "total_neighbors_mapped": 13,
+    "total_neighbors": 13,
+    "strategy_used": "geojson",
+    "url_length": 6865,
+    "settings": {
+      "width": 800,
+      "height": 450,
+      "style": "satellite-streets-v12",
+      "retina": true
+    }
+  },
+  "target_parcel_info": {
+    "pin": "090911295417",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -89.3959895,
+            43.2733875
+          ],
+          [
+            -89.39561,
+            43.2729135
+          ],
+          [
+            -89.3949125,
+            43.2721345
+          ],
+          [
+            -89.392462,
+            43.2721595
+          ],
+          [
+            -89.392504,
+            43.2752835
+          ],
+          [
+            -89.393818,
+            43.2752695
+          ],
+          [
+            -89.3938235,
+            43.2756895
+          ],
+          [
+            -89.393824,
+            43.2757015
+          ],
+          [
+            -89.394804,
+            43.2756895
+          ],
+          [
+            -89.3948045,
+            43.2756895
+          ],
+          [
+            -89.394804,
+            43.275679
+          ],
+          [
+            -89.3948025,
+            43.275605
+          ],
+          [
+            -89.3953035,
+            43.2755995
+          ],
+          [
+            -89.395302,
+            43.275545
+          ],
+          [
+            -89.3957225,
+            43.2755405
+          ],
+          [
+            -89.3957125,
+            43.2750245
+          ],
+          [
+            -89.3964935,
+            43.2750165
+          ],
+          [
+            -89.3965045,
+            43.275587
+          ],
+          [
+            -89.397416,
+            43.275577
+          ],
+          [
+            -89.397407,
+            43.2749705
+          ],
+          [
+            -89.3959895,
+            43.2733875
+          ]
+        ]
+      ]
+    },
+    "lat": "43.273991",
+    "lon": "-89.394502",
+    "county_path": "/us/wi/dane/vienna"
+  },
+  "deep_research_files": [
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_125256_1573.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_123514_2898.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_122208_2200.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260225_124446_0382.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260225_122648_5833.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260225_125256_1573.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260225_123514_2898.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260225_122208_2200.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260225_122648_5833.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260225_124446_0382.json"
+  ]
+}
