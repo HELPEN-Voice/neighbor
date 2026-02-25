@@ -1,8 +1,10 @@
-# Branch: `neighbor-redesign`
+# Branch: `neighbor-updates`
 
 ## Summary
 
 Removes all PII from the neighbor screening pipeline's persistent outputs. Names, parcel IDs, addresses, and claims are used in-memory during Deep Research but are never written to disk, database, or reports. All persisted output is now aggregate: counts, distributions, risk scores, and LLM-generated community themes.
+
+The most recent update adds **per-theme persona bullets with citations** to community themes. Each theme now includes anonymized one-line persona summaries (no names) backed by public-record citations, plus a mandatory 4th "Active Community Members" theme.
 
 ```
 Deep Research (names in-memory) ──► AGGREGATION BOUNDARY ──► PII-Free Output (persisted)
@@ -37,7 +39,25 @@ Converts `NeighborProfile` dicts (with PII) into a `NeighborAggregateResult` dic
 | `_compute_risk()` | `min(10, 2 + (high_influence * 2) + (opposed * 3))` |
 | `_build_opposition_summary()` | Extracts opposition count, concerns, influence levels |
 | `_build_support_summary()` | Extracts support count, reasons |
-| `_generate_themes()` | Sends anonymized summaries to Gemini Flash for 3-5 community themes (no names in output) |
+| `_generate_themes()` | Sends profile names + claims snippets to Gemini Flash for exactly 4 community themes with per-individual member assignments |
+| `_build_theme_members()` | Maps LLM member assignments back to profiles — extracts influence, adjacency, and citations (deduplicated by URL, capped at 3) |
+
+### `src/neighbor/models/aggregate_schemas.py` — New Models
+
+| Schema | Purpose |
+|--------|---------|
+| `ThemeMemberCitation` | Citation backing a theme member's persona (title, url, date) |
+| `ThemeMember` | Individual assigned to a theme with anonymized persona line, influence level, adjacency flag, and citations |
+
+The `CommunityTheme` model now includes a `members: List[ThemeMember]` field (defaults to `[]` for backward compatibility with older output).
+
+### `src/neighbor/tests/test_aggregator_themes.py` — New
+
+30 unit tests covering:
+- `ThemeMemberCitation` / `ThemeMember` / `CommunityTheme` schema validation and serialization roundtrips
+- `_build_theme_members()`: citation extraction, dedup, cap at 3, persona truncation, out-of-range/malformed index handling, null citations, influence normalization
+- `_generate_themes()` with mocked Gemini: successful generation, empty/malformed responses, prompt content verification
+- Backward compatibility: old JSON without `members` key loads correctly
 
 ---
 
