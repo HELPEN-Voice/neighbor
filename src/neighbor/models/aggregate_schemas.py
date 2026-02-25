@@ -9,6 +9,24 @@ from pydantic import BaseModel
 from typing import Dict, List, Optional
 
 
+class ThemeMemberCitation(BaseModel):
+    """A citation backing a theme member's persona."""
+
+    title: str
+    url: Optional[str] = None
+    date: Optional[str] = None
+
+
+class ThemeMember(BaseModel):
+    """An individual neighbor assigned to a community theme."""
+
+    name: str  # e.g., "Gregg A. Komplin"
+    persona: str  # One-line ~12-15 word summary
+    influence: str = "Low"  # "High", "Medium", "Low"
+    adjacent: bool = False  # owns parcel adjacent to target
+    citations: List[ThemeMemberCitation] = []  # max 3 per member
+
+
 class CommunityTheme(BaseModel):
     """A thematic grouping of neighbors with shared characteristics."""
 
@@ -18,6 +36,7 @@ class CommunityTheme(BaseModel):
     prevalent_concerns: List[str] = []  # e.g., ["farmland_preservation", "livestock_safety"]
     typical_influence: str = "Low"  # e.g., "Low to Medium"
     engagement_approach: str = ""  # Generic strategy for this group
+    members: List[ThemeMember] = []  # per-individual personas with citations
 
 
 class OppositionSummary(BaseModel):

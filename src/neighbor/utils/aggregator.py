@@ -16,6 +16,8 @@ from ..models.aggregate_schemas import (
     NeighborAggregateResult,
     OppositionSummary,
     SupportSummary,
+    ThemeMember,
+    ThemeMemberCitation,
 )
 
 
@@ -141,23 +143,74 @@ def _build_support_summary(profiles: List[dict]) -> Optional[SupportSummary]:
     return SupportSummary(count=len(supporters), common_reasons=unique_reasons)
 
 
+def _build_theme_members(
+    member_assignments: List[dict],
+    profiles: List[dict],
+) -> List[ThemeMember]:
+    """Convert LLM member_assignments into ThemeMember objects using original profile data."""
+    members = []
+    for assignment in member_assignments:
+        try:
+            idx = int(assignment.get("neighbor_index", 0)) - 1  # 1-based → 0-based
+            if idx < 0 or idx >= len(profiles):
+                continue
+            profile = profiles[idx]
+            persona = str(assignment.get("persona", ""))[:100]
+            name = profile.get("name", "Unknown")
+            influence = (profile.get("community_influence") or "Low").capitalize()
+            adjacent = profile.get("owns_adjacent_parcel", "No") == "Yes"
+
+            # Extract citations from profile, deduplicate by URL, cap at 3
+            raw_citations = profile.get("citations") or []
+            seen_urls = set()
+            theme_citations = []
+            for c in raw_citations:
+                if not isinstance(c, dict):
+                    continue
+                url = str(c.get("url", "") or "")
+                if url and url in seen_urls:
+                    continue
+                if url:
+                    seen_urls.add(url)
+                theme_citations.append(ThemeMemberCitation(
+                    title=str(c.get("title", "Source")),
+                    url=url or None,
+                    date=c.get("date"),
+                ))
+                if len(theme_citations) >= 3:
+                    break
+
+            members.append(ThemeMember(
+                name=name,
+                persona=persona,
+                influence=influence,
+                adjacent=adjacent,
+                citations=theme_citations,
+            ))
+        except (ValueError, TypeError, KeyError):
+            continue
+    return members
+
+
 async def _generate_themes(
     profiles: List[dict],
     location_context: str,
 ) -> List[CommunityTheme]:
     """Use Gemini Flash to generate community themes from neighbor profiles.
 
-    The LLM receives full profiles (including names) but is instructed to
-    produce only aggregate thematic groupings with NO individual names.
+    The LLM receives profile names and claims snippets to produce thematic
+    groupings with per-individual persona summaries. Names are preserved in
+    member data; full claims text, PINs, and other PII remain stripped.
     """
     api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     if not api_key:
         print("⚠️  No GEMINI_API_KEY set — skipping theme generation")
         return []
 
-    # Build a summary of each profile for the LLM (include analytical data, minimize PII exposure)
+    # Build a summary of each profile for the LLM
     profile_summaries = []
     for i, p in enumerate(profiles):
+        name = p.get("name", "Unknown")
         entity_cat = p.get("entity_category", "Unknown")
         entity_type = p.get("entity_type", "Unknown")
         influence = p.get("community_influence", "Unknown")
@@ -166,13 +219,15 @@ async def _generate_themes(
         classification = p.get("entity_classification", "unknown")
         motivations = (p.get("approach_recommendations") or {}).get("motivations", [])
         adjacent = p.get("owns_adjacent_parcel", "No")
+        claims_snippet = (p.get("claims") or "")[:200]
 
         profile_summaries.append(
-            f"Neighbor {i+1}: {entity_cat} ({entity_type}), "
+            f"Neighbor {i+1} (name=\"{name}\"): {entity_cat} ({entity_type}), "
             f"classification={classification}, influence={influence}, "
             f"stance={stance}, adjacent={adjacent}, "
             f"justification=\"{justification}\", "
-            f"motivations={motivations}"
+            f"motivations={motivations}, "
+            f"claims_snippet=\"{claims_snippet}\""
         )
 
     prompt = f"""You are analyzing neighbor screening results for a land development project.
@@ -180,26 +235,31 @@ async def _generate_themes(
 LOCATION: {location_context}
 TOTAL NEIGHBORS: {len(profiles)}
 
-NEIGHBOR DATA (anonymized):
+NEIGHBOR DATA:
 {chr(10).join(profile_summaries)}
 
 TASK:
-Group these neighbors into 3-5 community themes that capture the key patterns.
+Group these neighbors into exactly 4 community themes. The 4th theme MUST be "Active Community Members" — people who serve on boards, commissions, or appear in public meeting minutes.
 For each theme, provide a JSON object with:
 - "theme": Short theme name (e.g., "Agricultural Community", "Local Government Presence", "Residential Cluster")
-- "description": 2-3 sentence description of this group. DO NOT mention any individual names, PINs, or addresses. Describe the pattern, not the people.
+- "description": 2-3 sentence description of this group. DO NOT mention any individual names, PINs, or addresses in the description field. Describe the pattern, not the people.
 - "neighbor_count": How many neighbors fall into this theme
 - "prevalent_concerns": List of concern keywords (e.g., ["farmland_preservation", "property_value"])
 - "typical_influence": The typical influence level for this group (e.g., "Low", "Medium", "High", "Low to Medium")
 - "engagement_approach": A 1-2 sentence recommended engagement strategy for this group
+- "member_assignments": Array of objects, one per neighbor in this theme:
+    - "neighbor_index": The 1-based neighbor number from the data above
+    - "persona": A one-line (~12-15 word) summary of this specific neighbor (e.g., "Legacy dairy farmer; 4,000-acre family operation" or "Township board member; active in zoning decisions")
 
 RULES:
-- DO NOT mention any individual names, PINs, parcel IDs, or addresses
-- Each neighbor should be counted in exactly one theme
+- DO NOT mention any individual names, PINs, parcel IDs, or addresses in the "description" field
+- Each neighbor should be assigned to exactly one theme
 - Theme neighbor_counts must sum to {len(profiles)}
+- The 4th theme MUST be "Active Community Members" capturing publicly engaged individuals
+- If no neighbors qualify for "Active Community Members", still include the theme with neighbor_count=0 and empty member_assignments
 - Focus on patterns relevant to energy/infrastructure development decisions
 
-Return ONLY a JSON array of theme objects. No preamble or explanation."""
+Return ONLY a JSON array of 4 theme objects. No preamble or explanation."""
 
     client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
@@ -221,7 +281,17 @@ Return ONLY a JSON array of theme objects. No preamble or explanation."""
         themes_data = json.loads(raw)
         if not isinstance(themes_data, list):
             themes_data = [themes_data]
-        return [CommunityTheme(**t) for t in themes_data]
+
+        themes = []
+        for t in themes_data:
+            # Extract and process member_assignments before building CommunityTheme
+            raw_assignments = t.pop("member_assignments", [])
+            if not isinstance(raw_assignments, list):
+                raw_assignments = []
+            members = _build_theme_members(raw_assignments, profiles)
+            theme = CommunityTheme(**t, members=members)
+            themes.append(theme)
+        return themes
     except Exception as e:
         print(f"⚠️  Failed to parse theme JSON: {e}")
         return []
