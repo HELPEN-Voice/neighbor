@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-02-25T15:03:44.252697",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Dane County",
+    "state": "WI",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three neighboring landowners have no publicly documented stance on the proposed development, as none have made known statements or held roles indicating support or opposition. Their community influence also appears limited, with no high-profile positions or leadership roles among them.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gregg A. Komplin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911485006",
+        "090911480001",
+        "090911490009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gregg A. Komplin owns multiple land parcels in the Marshall area of northeast Dane County [Town of Medina – Dane County Wisconsin](https://townofmedina.wi.gov/). No meeting minutes or local news were found in which Komplin has voiced any position on development or energy projects [Town of Sun Prairie](https://www.townofsunprairie.wi.gov/)",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime landowner; no official role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Have a trusted local farmer or community leader reach out to him, emphasizing respect for his farmland and addressing any concerns about preserving agricultural use."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jason D. Kelley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911187900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason D. Kelley is listed as the owner of a single parcel in rural Dane County near Marshall. There is no public record of Kelley taking any active role in local civic affairs or speaking on development issues",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage him in a casual, neighborly conversation, listening to any personal concerns (e.g., traffic or noise). A low-key, one-on-one approach through a mutual acquaintance or friendly visit is likely to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Gerald R. Hahn",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911381912",
+        "090910195009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gerald R. Hahn has longstanding ties to the area, with addresses on County Road T in Sun Prairie and on Highway TT near Marshall [NumLooker](https://numlooker.com/phone/608/574/6296). No evidence was found of Hahn publicly expressing views on local development or energy projects [Town of Sun Prairie](https://www.townofsunprairie.wi.gov/)",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime farmer; no civic office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation"
+        ],
+        "engage": "Ask a well-known local figure (such as a fellow veteran farmer or town official) to introduce the project to him, emphasizing minimal disruption and how it aligns with preserving the rural character of the land."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three neighboring landowners have no publicly documented stance on the proposed development, as none have made known statements or held roles indicating support or opposition. Their community influence also appears limited, with no high-profile positions or leadership roles among them.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Gregg A. Komplin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"090911485006\", \"090911480001\", \"090911490009\"],\n      \"claims\": \"Gregg A. Komplin owns multiple land parcels in the Marshall area of northeast Dane County [Town of Medina – Dane County Wisconsin](https://townofmedina.wi.gov/). No meeting minutes or local news were found in which Komplin has voiced any position on development or energy projects [Town of Sun Prairie](https://www.townofsunprairie.wi.gov/)\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime landowner; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Have a trusted local farmer or community leader reach out to him, emphasizing respect for his farmland and addressing any concerns about preserving agricultural use.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Jason D. Kelley\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"090911187900\"],\n      \"claims\": \"Jason D. Kelley is listed as the owner of a single parcel in rural Dane County near Marshall【Town of Medina – Dane County Wisconsin】. There is no public record of Kelley taking any active role in local civic affairs or speaking on development issues【Town of Sun Prairie】\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage him in a casual, neighborly conversation, listening to any personal concerns (e.g., traffic or noise). A low-key, one-on-one approach through a mutual acquaintance or friendly visit is likely to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Gerald R. Hahn\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"090911381912\", \"090910195009\"],\n      \"claims\": \"Gerald R. Hahn has longstanding ties to the area, with addresses on County Road T in Sun Prairie and on Highway TT near Marshall [NumLooker](https://numlooker.com/phone/608/574/6296). No evidence was found of Hahn publicly expressing views on local development or energy projects [Town of Sun Prairie](https://www.townofsunprairie.wi.gov/)\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Longtime farmer; no civic office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"farmland_preservation\"],\n        \"engage\": \"Ask a well-known local figure (such as a fellow veteran farmer or town official) to introduce the project to him, emphasizing minimal disruption and how it aligns with preserving the rural character of the land.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

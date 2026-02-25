@@ -1,0 +1,143 @@
+{
+  "batch_idx": 1,
+  "total_batches": 3,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gregg A. Komplin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911485006",
+        "090911480001",
+        "090911490009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gregg A. Komplin is listed as an alumnus of Madison West High School\u2019s class of 1976 ([www.regents76.net](https://www.regents76.net/update-your-info/#:~:text=...,Mike%20Koppa%20%E2%80%93)). No references to Komplin were found in local government minutes or news archives, suggesting he has not been publicly active in civic affairs ([townoforegonwi.gov](https://townoforegonwi.gov/plan-commission-submittals/#:~:text=No%20,komplin)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Landowner; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "drainage_roads"
+        ],
+        "engage": "Have a fellow farmer or agricultural advisor reach out, highlighting how the project can respect his farmland and address any drainage or access concerns in a way that aligns with preserving his property."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jason D. Kelley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911187900"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jason D. Kelley appears as a property owner in county records, but no public-facing information (e.g. meeting participation or letters) could be found under his name ([townoforegonwi.gov](https://townoforegonwi.gov/plan-commission-submittals/#:~:text=No%20,kelley)). This suggests he has a very limited public profile in the community.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; no civic roles",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out in person in a neighborly manner, reassuring him that the development will not negatively impact his property value or peace and quiet. Emphasize maintaining the local quality of life to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Gerald R. Hahn",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911381912",
+        "090910195009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gerald R. Hahn\u2019s family has longstanding ties to local farming; a 2022 zoning petition by Kevin W. Hahn (likely a relative) sought to split a farmhouse from their Rutland farmland ([dane.legistar.com](https://dane.legistar.com/MeetingDetail.aspx?GUID=7C6BF6A9-905C-4057-9538-0E71F17478AE&ID=959113&Options=&Search=#:~:text=11853%201%20%C2%A0%20Rutland%20,recommended%20for%20approval%20Pass%20Action%C2%A0details)). Kevin W. Hahn also serves as a Town of Rutland constable ([town.rutland.wi.us](https://town.rutland.wi.us/constables/#:~:text=Constables%20,5607)), indicating the Hahn family\u2019s active presence in the community.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Longtime farm family; minor town role",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage via trusted local officials or agri-community leaders who acknowledge the Hahn family\u2019s generations in the area. Emphasize how the project will respect their farm legacy and maintain local control over important land-use decisions."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "None of these three neighbors have a clearly documented stance on development or clean energy, so all are classified as \"unknown\" in that regard. Their community influence is generally limited: two maintain a low profile, and only one (the Hahn family) shows moderate local engagement through minor civic roles.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260223_121950_8195.json",
+  "cached_at": "2026-02-23T12:19:50.820304"
+}

@@ -1505,8 +1505,9 @@ class NeighborOrchestrator:
 
         # =====================================================================
         # PII CLEANUP — Delete all intermediate files containing personal data
+        # Disabled: breaks cache resume (dr_*/vr_* files needed for re-aggregation)
         # =====================================================================
-        self._cleanup_pii_files()
+        # self._cleanup_pii_files()
 
         return final
 

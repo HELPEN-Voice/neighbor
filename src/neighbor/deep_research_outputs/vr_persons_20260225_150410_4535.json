@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-02-25T15:12:08.234881",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_150410_4535.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Dane County",
+    "state": "WI",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Blue Star Dairy Farms",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911292009"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Blue Star Dairy Farms, founded in 1946 by the Meinholz family, is a major dairy operation milking over 2,100 cows across locations in DeForest and Arlington [Mid-West Farm Report](https://www.midwestfarmreport.com/2024/05/14/blue-star-dairy-farms-is-your-host/). The farm is a community pillar, selected to host the 2024 Dane County Breakfast on the Farm [Dane County Dairy](https://www.danecountydairy.com/breakfast-on-the-farm/). While the farm participates in renewable energy by supplying manure to a biodigester that generates electricity [Town of Springfield](https://www.town.springfield.wi.us/wp-content/uploads/Comp-Plan-Amended-6.6.23_w-maps-and-appendices-2.pdf), the owners have expressed concern that large-scale solar projects compete for the leased farmland essential to their feed and manure management operations [Madison Commons](https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "Major dairy farm; hosts county breakfast events",
+      "approach_recommendations": {
+        "motivations": [
+          "farmland_preservation",
+          "fair_contracting",
+          "local_control"
+        ],
+        "engage": "Utilize an agricultural liaison to discuss how the project can avoid disrupting their critical leased land base, while acknowledging their existing contribution to renewable energy via biogas."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Blue Star Dairy Farms, founded in 1946 by the Meinholz family, is a major dairy operation milking over 2,100 cows across locations in DeForest and Arlington",
+          "url": "https://www.midwestfarmreport.com/2024/05/14/blue-star-dairy-farms-is-your-host/",
+          "title": "Blue Star Dairy Farms Is Your Host",
+          "date": "2024-05-14"
+        },
+        {
+          "claim": "The farm is a community pillar, selected to host the 2024 Dane County Breakfast on the Farm",
+          "url": "https://www.danecountydairy.com/breakfast-on-the-farm/",
+          "title": "Breakfast on the Farm | Dane County Dairy Promotion Committee",
+          "date": "2024-06-08"
+        },
+        {
+          "claim": "While the farm participates in renewable energy by supplying manure to a biodigester that generates electricity",
+          "url": "https://www.town.springfield.wi.us/wp-content/uploads/Comp-Plan-Amended-6.6.23_w-maps-and-appendices-2.pdf",
+          "title": "Town of Springfield Comprehensive Plan Amended 2023",
+          "date": "2023-06-06"
+        },
+        {
+          "claim": "the owners have expressed concern that large-scale solar projects compete for the leased farmland essential to their feed and manure management operations",
+          "url": "https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/",
+          "title": "Massive solar project could change the landscape in rural Dane County",
+          "date": "2020-02-28"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Cynthia M. LaValley",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911386908"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Cynthia M. LaValley is a co-owner of agricultural property at 7684 Patton Road alongside Gerald R. Hahn [Town of Vienna](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf). The property is situated in the DeForest school district and is classified for agricultural use [Town of Vienna](https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf). She does not appear to hold public office or have a documented stance on renewable energy development in public meeting minutes or local news [Town of Vienna](https://www.viennawi.gov/).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private agricultural landowner; no public role found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "farmland_preservation",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage via a respectful, private approach, potentially including co-owner Gerald R. Hahn, emphasizing the preservation of the property's agricultural character and rural viewshed."
+      },
+      "entity_classification": "agriculture",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Cynthia M. LaValley is a co-owner of agricultural property at 7684 Patton Road alongside Gerald R. Hahn",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "The property is situated in the DeForest school district and is classified for agricultural use",
+          "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
+          "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
+          "date": "2024-06-13"
+        },
+        {
+          "claim": "She does not appear to hold public office or have a documented stance on renewable energy development",
+          "url": "https://www.viennawi.gov/",
+          "title": "Town of Vienna Official Website",
+          "date": "2024-06-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 486097,
+    "thinking_count": 21
+  }
+}

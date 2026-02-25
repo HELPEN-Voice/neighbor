@@ -1,0 +1,128 @@
+{
+  "batch_idx": 0,
+  "total_batches": 3,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Patricia E. Johnson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911296014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Patricia E. Johnson is listed as the owner of a rural Dane County parcel and does not hold any known public office or committee role in the community. She has no recorded statements or notable participation in local development discussions, and her position on new projects has not been documented .",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles; private landowner",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach should be handled by a local community liaison emphasizing respect for her property and routine, given her low-profile status. Provide clear, courteous information and invite questions, as she has no known agenda or stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Sharon E. Haug",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911295006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sharon E. Haug is identified as a landowner in the project vicinity with no evident public profile in Dane County. There are no indications of her involvement in local boards or past development debates, and no public statements by Haug on land use or energy projects were found in local records (her stance remains unreported).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or influence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Haug through polite, one-on-one communication (such as a neighborly visit or mailed information). Emphasize listening to any concerns she may volunteer, since she has not publicly voiced opinions, and address them with empathy and factual reassurance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Rodney W. Caldwell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "090911280003",
+        "090911285008",
+        "090902395004",
+        "090902390018"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Rodney W. Caldwell is part of a well-known farm family whose Dane County operation has spanned over 4,000 acres and remained in the family for more than 130 years ([news.cals.wisc.edu](https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/#:~:text=From%201958%20to%201983%2C%20Caldwell,worldwide%20television%20program%20shown%20via)) ([news.cals.wisc.edu](https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/#:~:text=match%20at%20L146%20has%20been,Caldwell%20family%20for%20136%20years)). The Caldwell family has been prominent in Wisconsin\u2019s agricultural community \u2013 a former state agriculture secretary credited their efforts with helping other family farmers survive during difficult times ([news.cals.wisc.edu](https://news.cals.wisc.edu/2003/09/25/six-to-receive-honorary-recognition-awards-from-the-college-of-agricultural-and-life-sciences-oct-23/#:~:text=Caldwell%E2%80%9Ds%20career%20in%20agriculture%20has,and%20daughters%20can%20say%20they)). Rodney Caldwell himself has no record of public opposition or support for development projects, and he has not publicly taken a stance on energy development in local meetings or media.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Legacy farm owner; ag community leader",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Have a respected agricultural figure or local official initiate contact with Caldwell, acknowledging his family\u2019s long farming legacy. Emphasize how the project can align with preserving farm viability (e.g., providing stable income or coexisting with agriculture), and invite him to share any requirements or insights given his experience."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three neighbors have an undetermined stance on the proposed development, as none have made public statements for or against it. One neighbor (Caldwell) wields high community influence due to a prominent multi-generational farm, while the others appear to have low profiles in local affairs.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260223_122435_4721.json",
+  "cached_at": "2026-02-23T12:24:35.473328"
+}
