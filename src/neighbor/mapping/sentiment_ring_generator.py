@@ -59,6 +59,16 @@ class RingStat:
     unknown: int
     sentiment: str      # "oppose" | "support" | "mixed" | "neutral" | "no_data"
 
+    # Influence × stance cross-tabulation
+    high_oppose: int = 0
+    high_support: int = 0
+    high_neutral: int = 0
+    high_unknown: int = 0
+    medium_oppose: int = 0
+    medium_support: int = 0
+    medium_neutral: int = 0
+    medium_unknown: int = 0
+
 
 @dataclass
 class SentimentRingResult:
@@ -152,8 +162,16 @@ class SentimentRingGenerator:
         """Map normalized PIN -> raw parcel geometry from Regrid data."""
         lookup: Dict[str, Dict[str, Any]] = {}
         for parcel in self.raw_parcels:
-            props = parcel.get("properties") or parcel
-            pin = props.get("parcelnumb") or props.get("pin") or ""
+            props = parcel.get("properties", {})
+            fields = props.get("fields", {})
+            pin = (
+                fields.get("parcelnumb")
+                or props.get("parcelnumb")
+                or fields.get("apn")
+                or props.get("apn")
+                or props.get("pin")
+                or ""
+            )
             geom = parcel.get("geometry")
             if pin and geom:
                 lookup[normalize_pin(pin)] = geom
@@ -223,7 +241,7 @@ class SentimentRingGenerator:
             else:
                 ring_bins[3].append(profile)
 
-        # 5. Compute ring stats
+        # 5. Compute ring stats (flat + influence × stance cross-tab)
         ring_stats: List[RingStat] = []
         for ring_num in (1, 2, 3):
             profiles_in_ring = ring_bins[ring_num]
@@ -232,6 +250,14 @@ class SentimentRingGenerator:
             neutral = sum(1 for p in profiles_in_ring if (p.noted_stance or "").lower() == "neutral")
             unknown = len(profiles_in_ring) - oppose - support - neutral
             sentiment = _classify_ring(oppose, support, neutral, unknown, len(profiles_in_ring))
+
+            # Influence × stance cross-tabulation
+            def _count(influence: str, stance: str) -> int:
+                return sum(
+                    1 for p in profiles_in_ring
+                    if (p.community_influence or "").lower() == influence.lower()
+                    and (p.noted_stance or "unknown").lower() == stance
+                )
 
             ring_stats.append(RingStat(
                 ring=ring_num,
@@ -243,6 +269,14 @@ class SentimentRingGenerator:
                 neutral=neutral,
                 unknown=unknown,
                 sentiment=sentiment,
+                high_oppose=_count("High", "oppose"),
+                high_support=_count("High", "support"),
+                high_neutral=_count("High", "neutral"),
+                high_unknown=_count("High", "unknown"),
+                medium_oppose=_count("Medium", "oppose"),
+                medium_support=_count("Medium", "support"),
+                medium_neutral=_count("Medium", "neutral"),
+                medium_unknown=_count("Medium", "unknown"),
             ))
 
         # 6. Build GeoJSON features
