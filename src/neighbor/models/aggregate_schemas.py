@@ -23,6 +23,7 @@ class ThemeMember(BaseModel):
     name: str  # e.g., "Gregg A. Komplin"
     persona: str  # One-line ~12-15 word summary
     influence: str = "Low"  # "High", "Medium", "Low"
+    stance: str = "unknown"  # "oppose", "support", "neutral", "unknown"
     adjacent: bool = False  # owns parcel adjacent to target
     citations: List[ThemeMemberCitation] = []  # max 3 per member
 

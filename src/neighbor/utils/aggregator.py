@@ -158,6 +158,7 @@ def _build_theme_members(
             persona = str(assignment.get("persona", ""))[:100]
             name = profile.get("name", "Unknown")
             influence = (profile.get("community_influence") or "Low").capitalize()
+            stance = (profile.get("noted_stance") or "unknown").lower()
             adjacent = profile.get("owns_adjacent_parcel", "No") == "Yes"
 
             # Extract citations from profile, deduplicate by URL, cap at 3
@@ -184,6 +185,7 @@ def _build_theme_members(
                 name=name,
                 persona=persona,
                 influence=influence,
+                stance=stance,
                 adjacent=adjacent,
                 citations=theme_citations,
             ))
