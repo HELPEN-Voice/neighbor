@@ -341,9 +341,16 @@ async def aggregate_neighbors(
     opposition = _build_opposition_summary(profiles)
     support = _build_support_summary(profiles)
 
+    # Filter to Medium/High influence for theme generation — Low influence
+    # neighbors lack public signal and produce hallucinated personas.
+    theme_profiles = [
+        p for p in profiles
+        if (p.get("community_influence") or "Low").capitalize() in ("High", "Medium")
+    ]
+
     # Generate themes via LLM
-    print(f"\n📊 Generating community themes from {len(profiles)} neighbor profiles...")
-    themes = await _generate_themes(profiles, location_context)
+    print(f"\n📊 Generating community themes from {len(theme_profiles)}/{len(profiles)} neighbors (Medium+ influence)...")
+    themes = await _generate_themes(theme_profiles, location_context)
     if themes:
         print(f"   ✅ Generated {len(themes)} community themes")
     else:
