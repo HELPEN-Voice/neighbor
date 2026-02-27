@@ -1,0 +1,185 @@
+{
+  "timestamp": "2026-02-26T14:48:20.848354",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142846_7636.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Elisabeth Ann Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1307290310"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Elisabeth Ann Martin (with spouse John Martin) applied for a zoning variance (Case 21-166-A) at 1540-1542 South Rolling Road in 2021 to keep ducks and geese on a property under one acre ([Baltimore County Board of Appeals](https://www.baltimorecountymd.gov/files/Documents/Appeals/decisions2021/martin21166afinalopinionandorder.pdf)). During the hearing, Martin testified that she does not reside at the property, but that her son and his family live there ([Baltimore County Board of Appeals](https://www.baltimorecountymd.gov/files/Documents/Appeals/decisions2021/martin21166afinalopinionandorder.pdf)). The variance was denied in 2022 ([Baltimore County Board of Appeals](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes)). No public comments or media references were found indicating Martin’s views on broader development or energy projects.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Petitioner in 2022 zoning variance case",
+      "approach_recommendations": {
+        "motivations": [
+          "local_control",
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage with a personal, neighborly approach. Since she testified that family lives at the property, acknowledge the family legacy. A face-to-face meeting listening to concerns about property usage rights may build trust."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Elisabeth Ann Martin (with spouse John Martin) applied for a zoning variance (Case 21-166-A) at 1540-1542 South Rolling Road in 2021 to keep ducks and geese",
+          "url": "https://www.baltimorecountymd.gov/files/Documents/Appeals/decisions2021/martin21166afinalopinionandorder.pdf",
+          "title": "In the Matter of John and Elisabeth Martin - Case No. 21-166-A",
+          "date": "2022-04-28"
+        },
+        {
+          "claim": "Martin testified that she does not reside at the property, but that her son and his family live there",
+          "url": "https://www.baltimorecountymd.gov/files/Documents/Appeals/decisions2021/martin21166afinalopinionandorder.pdf",
+          "title": "In the Matter of John and Elisabeth Martin - Case No. 21-166-A",
+          "date": "2022-04-28"
+        },
+        {
+          "claim": "The variance was denied in 2022",
+          "url": "https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes",
+          "title": "Board of Appeals Hearings, Decisions and Public Deliberation Minutes",
+          "date": "2022-12-09"
+        }
+      ],
+      "verification_notes": "Verified variance application details directly from County Opinion. Confirmed subject is the legal owner but not the primary resident. Added specific context regarding the nature of the variance (ducks/geese) and family occupancy."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Donna M. Nagy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1323001890"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donna M. Nagy is listed as the owner of 708 Woodland Drive (Parcel ID 13-1323001890) in Baltimore County, a property built in 1953 ([Redfin Public Records](https://www.redfin.com/MD/Halethorpe/708-Woodland-Dr-21227/home/9381036)). Public records indicate she has resided at this location or adjacent 706 Woodland Drive for an extended period ([SimpleContacts](https://www.simplecontacts.com/state/MD/Halethorpe/Woodland-Drive)). She is listed as a family member in the obituary of a long-time Arbutus resident, indicating local community ties ([Ambrose Funeral Homes](https://www.ambrosefuneralhomes.com/obituaries/anna-lepson)). No record of Nagy’s participation in public meetings or local land-use discussions could be found. (Note: A law professor named Donna M. Nagy at Indiana University practiced law in Baltimore in the 1990s, but no definitive link confirms they are the current resident).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Long-term resident; no public office found",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Approach respectfully and one-on-one. Given her potential long-term residency and family ties in the Arbutus area, utilize a community liaison or neighbor she knows to facilitate an introduction."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Donna M. Nagy is listed as the owner of 708 Woodland Drive (Parcel ID 13-1323001890)",
+          "url": "https://www.redfin.com/MD/Halethorpe/708-Woodland-Dr-21227/home/9381036",
+          "title": "708 Woodland Dr, Halethorpe, MD 21227 - Public Records",
+          "date": "2025-12-15"
+        },
+        {
+          "claim": "Public records indicate she has resided at this location or adjacent 706 Woodland Drive for an extended period",
+          "url": "https://www.simplecontacts.com/state/MD/Halethorpe/Woodland-Drive",
+          "title": "Residents of Woodland Drive, Halethorpe, MD",
+          "date": "2025-01-01"
+        },
+        {
+          "claim": "She is listed as a family member in the obituary of a long-time Arbutus resident",
+          "url": "https://www.ambrosefuneralhomes.com/obituaries/anna-lepson",
+          "title": "Obituary for Anna E. Lepson",
+          "date": "2024-09-29"
+        }
+      ],
+      "verification_notes": "Verified property ownership via APN match. Identified potential disambiguation issue with Professor Donna Nagy (Indiana); while the Professor practiced in Baltimore in the 90s, the resident appears to be a distinct local individual linked to the Lepson family. No solar stance found."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jon R. Sheets Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1900014014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jon R. Sheets Jr. has been associated with property at 1544 Rolling Road in Baltimore County (Parcel ID 1900014014), though public records indicate he may have relocated to Fayetteville, North Carolina, around 2010 ([Men Stopping Violence Public Records](https://www.menstoppingviolence.org/people/jon-sheets/)). Other records list Sheila P. Muccio at the 1544 South Rolling Road address ([ASC Appraiser Registry](https://asc.gov/individual-appraiser-public/796299)). There is no indication from available records that Sheets has taken any public position on local development or energy projects in Baltimore County ([Baltimore County Government](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Likely absentee or former resident",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Verify current ownership before engagement. If Sheets is an absentee owner, focus on property value retention. If he has sold the property, update the stakeholder list to the new owner (potentially Sheila Muccio)."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records indicate he may have relocated to Fayetteville, North Carolina, around 2010",
+          "url": "https://www.menstoppingviolence.org/people/jon-sheets/",
+          "title": "Public Records for Jon R Sheets Jr",
+          "date": "2026-01-01"
+        },
+        {
+          "claim": "Other records list Sheila P. Muccio at the 1544 South Rolling Road address",
+          "url": "https://asc.gov/individual-appraiser-public/796299",
+          "title": "Appraiser Registry Report: Sheila P Muccio",
+          "date": "2025-02-07"
+        },
+        {
+          "claim": "There is no indication from available records that Sheets has taken any public position on local development",
+          "url": "https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes",
+          "title": "Baltimore County Board of Appeals Hearings",
+          "date": "2026-02-26"
+        }
+      ],
+      "verification_notes": "Significant discrepancy found regarding residency. Multiple data aggregators place Sheets in NC since 2010-2018. Appraiser registry places a different individual at the Rolling Road address. Confidence lowered to 'Low' and claims updated to reflect absentee/former status."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 888903,
+    "thinking_count": 39
+  }
+}

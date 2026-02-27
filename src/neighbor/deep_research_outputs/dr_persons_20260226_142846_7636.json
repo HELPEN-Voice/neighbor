@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-02-26T14:28:46.763714",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighboring landowners have no documented public stance on the proposed development or clean energy projects, with each classified as 'unknown' in support or opposition. Each also appears to wield low community influence, as none hold notable public positions or leadership roles in local affairs.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Elisabeth Ann Martin",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1307290310"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Elisabeth Ann Martin (with spouse John Martin) applied for a zoning variance at 1540-1542 South Rolling Road in 2021, according to Baltimore County Board of Appeals records ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes#:~:text=John%20and%20Elisabeth%20Martin%20,A%20%20%7C%20Zoning%2C%20Variance)). No public comments or media references were found that indicate Martin’s views on local development or energy projects ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes#:~:text=John%20and%20Elisabeth%20Martin%20,A%20%20%7C%20Zoning%2C%20Variance)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage with a personal, neighborly approach. A face-to-face meeting led by a familiar local figure, focused on listening to her concerns and providing clear information, may help build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Donna M. Nagy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1323001890"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Donna M. Nagy is listed as a Baltimore County property owner (parcel ID 1323001890) according to state tax records ([dat.maryland.gov](https://dat.maryland.gov/realproperty/Pages/Finding-Your-Property-Information-Online.aspx#:~:text=Finding%20Your%20Property%20Information%20Online,address%2C%20street%20name%2C%20account%20identifier)). No record of Nagy’s participation in public meetings or local land-use discussions could be found, and she has not been cited in local news regarding development .",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Nagy respectfully and one-on-one. It may be effective to have a community liaison or neighbor she knows reach out informally to share project details and invite her questions or feedback."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jon R. Sheets Jr.",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1900014014"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jon R. Sheets Jr. owns property in Baltimore County (parcel ID 1900014014) per public land records ([dat.maryland.gov](https://dat.maryland.gov/realproperty/Pages/Finding-Your-Property-Information-Online.aspx#:~:text=Finding%20Your%20Property%20Information%20Online,address%2C%20street%20name%2C%20account%20identifier)). There is no indication from available records that Sheets has taken any public position on development or energy projects, and his name does not appear in county meeting minutes or news reports on such issues ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes#:~:text=No%20,sheets)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Emphasize courtesy and privacy when reaching out. A low-key introduction by a mutual acquaintance or local official can help open communication, allowing Sheets to voice any concerns privately and ensuring he feels heard."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighboring landowners have no documented public stance on the proposed development or clean energy projects, with each classified as 'unknown' in support or opposition. Each also appears to wield low community influence, as none hold notable public positions or leadership roles in local affairs.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Elisabeth Ann Martin\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1307290310\"],\n      \"claims\": \"Elisabeth Ann Martin (with spouse John Martin) applied for a zoning variance at 1540-1542 South Rolling Road in 2021, according to Baltimore County Board of Appeals records ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes#:~:text=John%20and%20Elisabeth%20Martin%20,A%20%20%7C%20Zoning%2C%20Variance)). No public comments or media references were found that indicate Martin’s views on local development or energy projects ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes#:~:text=John%20and%20Elisabeth%20Martin%20,A%20%20%7C%20Zoning%2C%20Variance)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage with a personal, neighborly approach. A face-to-face meeting led by a familiar local figure, focused on listening to her concerns and providing clear information, may help build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Donna M. Nagy\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1323001890\"],\n      \"claims\": \"Donna M. Nagy is listed as a Baltimore County property owner (parcel ID 1323001890) according to state tax records ([dat.maryland.gov](https://dat.maryland.gov/realproperty/Pages/Finding-Your-Property-Information-Online.aspx#:~:text=Finding%20Your%20Property%20Information%20Online,address%2C%20street%20name%2C%20account%20identifier)). No record of Nagy’s participation in public meetings or local land-use discussions could be found, and she has not been cited in local news regarding development .\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach Nagy respectfully and one-on-one. It may be effective to have a community liaison or neighbor she knows reach out informally to share project details and invite her questions or feedback.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Jon R. Sheets Jr.\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1900014014\"],\n      \"claims\": \"Jon R. Sheets Jr. owns property in Baltimore County (parcel ID 1900014014) per public land records ([dat.maryland.gov](https://dat.maryland.gov/realproperty/Pages/Finding-Your-Property-Information-Online.aspx#:~:text=Finding%20Your%20Property%20Information%20Online,address%2C%20street%20name%2C%20account%20identifier)). There is no indication from available records that Sheets has taken any public position on development or energy projects, and his name does not appear in county meeting minutes or news reports on such issues ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/appeals/hearings-decisions-minutes#:~:text=No%20,sheets)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Emphasize courtesy and privacy when reaching out. A low-key introduction by a mutual acquaintance or local official can help open communication, allowing Sheets to voice any concerns privately and ensuring he feels heard.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

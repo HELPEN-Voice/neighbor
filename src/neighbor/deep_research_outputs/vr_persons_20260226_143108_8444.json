@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-02-26T14:39:14.973716",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143108_8444.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Justin Wykowski",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1308300930"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Justin Wykowski is listed as a property owner of a 1.19-acre residential parcel at 5151 Viaduct Ave in Baltimore County ([Baltimore County Government](https://www.baltimorecountymd.gov/files/departments/budget-and-finance/documents/tax-sale-third-ad-2025.pdf)). While a Justin Wykowski is publicly associated with organizing large-scale gaming events (Super Smash Con), there is no verifiable record of this individual taking a public position on local land-use or development issues ([SmashWiki](https://www.ssbwiki.com/Smasher:Justin_Wykowski)). Previous drafts suggesting opposition could not be substantiated with valid sources.",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No verified public civic roles in land use",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Approach as a standard residential neighbor. Provide clear information regarding visual buffers for his residential property, as the parcel is located in a suburban area (Halethorpe/Arbutus) rather than deep rural farmland."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Justin Wykowski is listed as a property owner of a 1.19-acre residential parcel at 5151 Viaduct Ave in Baltimore County",
+          "url": "https://www.baltimorecountymd.gov/files/departments/budget-and-finance/documents/tax-sale-third-ad-2025.pdf",
+          "title": "Baltimore County Tax Sale Advertisement 2025",
+          "date": "2025-06-01"
+        },
+        {
+          "claim": "While a Justin Wykowski is publicly associated with organizing large-scale gaming events (Super Smash Con), there is no verifiable record of this individual taking a public position on local land-use or development issues",
+          "url": "https://www.ssbwiki.com/Smasher:Justin_Wykowski",
+          "title": "Smasher:Justin Wykowski - SmashWiki",
+          "date": "2024-05-23"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Jerome G. Morsberger",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1309750031"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Jerome G. Morsberger is a member of a prominent local family with a history in business and politics; he is the son of Tyson G. Morsberger and related to Louis P. Morsberger, a former state legislator and tavern owner known for being 'loyal to the community' ([Maryland State Archives](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/013300/013346/html/sun2-18-2001.html)). The family is associated with Morsberger Development, Inc., a property development and management entity in the region ([Maryland State Archives](https://msa.maryland.gov/megafile/msa/speccol/sc1100/sc1198/000000/000002/000000/000065/pdf/mdsa_sc1198_2_65.pdf)). Public records link the tax ID associated with this profile to a residential property on Viaduct Ave in Halethorpe ([Redfin Public Records](https://www.redfin.com/MD/Halethorpe/5127-Viaduct-Ave-21227/home/9367777)). No specific evidence was found regarding Jerome G. Morsberger's personal stance on renewable energy projects.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Prominent local family name; development ties",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "heritage_family_legacy"
+        ],
+        "engage": "Acknowledge the Morsberger family's long-standing history in Baltimore County development and civic life. Discussions should focus on how the project aligns with responsible land use and property value preservation, respecting the family's background in the sector."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "related to Louis P. Morsberger, a former state legislator and tavern owner known for being 'loyal to the community'",
+          "url": "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/013300/013346/html/sun2-18-2001.html",
+          "title": "Louis P. Morsberger Obituary / Maryland State Archives",
+          "date": "2002-02-18"
+        },
+        {
+          "claim": "The family is associated with Morsberger Development, Inc., a property development and management entity in the region",
+          "url": "https://msa.maryland.gov/megafile/msa/speccol/sc1100/sc1198/000000/000002/000000/000065/pdf/mdsa_sc1198_2_65.pdf",
+          "title": "Maryland Manual 1985-86 (Legislative Branch)",
+          "date": "1985-01-01"
+        },
+        {
+          "claim": "Public records link the tax ID associated with this profile to a residential property on Viaduct Ave in Halethorpe",
+          "url": "https://www.redfin.com/MD/Halethorpe/5127-Viaduct-Ave-21227/home/9367777",
+          "title": "5127 Viaduct Ave Property Record",
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Warren Taylor",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2500014277"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Warren Taylor is the owner of a residential property at 703 Woodland Drive in Halethorpe, Baltimore County, which includes a single-family residence ([Compass Public Records](https://www.compass.com/homedetails/703-Woodland-Dr-Halethorpe-MD-21227/1VHFY3_pid/)). Due to the high frequency of this name in Maryland, specific civic roles could not be definitively attributed to this individual, and no public record of a stance on development was found. Conflicting records exist regarding individuals of the same name, including a Warren Taylor in Derwood, MD, and various obituaries, making further disambiguation necessary before assigning specific influence or background ([Montgomery County Data](https://data.montgomerycountymd.gov/api/views/5udg-jnru/rows.csv?accessType=DOWNLOAD)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public roles verified",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "property_value"
+        ],
+        "engage": "Approach as a standard residential neighbor in the Halethorpe area. Avoid assumptions regarding agricultural interests unless verified, as the property appears to be residential/suburban. Focus on screening and neighborhood aesthetics."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Warren Taylor is the owner of a residential property at 703 Woodland Drive in Halethorpe, Baltimore County",
+          "url": "https://www.compass.com/homedetails/703-Woodland-Dr-Halethorpe-MD-21227/1VHFY3_pid/",
+          "title": "703 Woodland Dr Public Record",
+          "date": "2026-02-26"
+        },
+        {
+          "claim": "Conflicting records exist regarding individuals of the same name, including a Warren Taylor in Derwood, MD",
+          "url": "https://data.montgomerycountymd.gov/api/views/5udg-jnru/rows.csv?accessType=DOWNLOAD",
+          "title": "Montgomery County Spending Disclosure",
+          "date": "2026-02-26"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 688016,
+    "thinking_count": 33
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-02-26T14:27:45.726815",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of the three profiled neighbors have a documented public stance on development or clean energy projects. All are private landowners with no evident civic roles, resulting in an assessed stance of Unknown for each and a Low community influence overall.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gary Benjamin Scott",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2500014278"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gary B. Scott is listed as a trustee owner of property in Baltimore County, using a mailing address in Ellicott City, Howard County ([sdat.dat.maryland.gov](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?Block=3970F&County=03&Lot=235&SearchType=ACCT&Section=24&Ward=09#:~:text=Mailing%20Address%3A%208128%20HIGH%20MEADOW,Premises%20Address%3A%201511%20TUNLAW%20ROAD)). The parcel is not his primary residence (owner-occupancy is not claimed) ([sdat.dat.maryland.gov](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?Block=3970F&County=03&Lot=235&SearchType=ACCT&Section=24&Ward=09#:~:text=Mailing%20Address%3A%208128%20HIGH%20MEADOW,Premises%20Address%3A%201511%20TUNLAW%20ROAD)). No public records of Scott participating in local hearings or community boards could be found, and no statements on development have been documented (search of news and county minutes yielded no relevant mentions).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Non-resident owner; no public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Outreach via formal communication is advised, focusing on property impacts. Emphasize how the project will protect property value and address any ownership concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "John J. Angelotti",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1311350180"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John J. Angelotti is a local Baltimore County resident, residing at a Halethorpe address in the 21227 area ([fastpeoplesearch.io](https://fastpeoplesearch.io/john-angelotti/maryland/john-j-angelotti-61dd23a034ad749878b7bb23#:~:text=John%20J%20Angelotti%20is%20residing,information%20that%20may%20interest%20you)). He appears to be a private landowner with no record of holding public office or speaking at county meetings (no references to his name in accessible public minutes or news). There are no known public statements from Angelotti regarding development or energy projects.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through a neighborly, face-to-face introduction by a community liaison. Emphasize respect for local traffic and neighborhood character to address any personal concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "John Andrew Plitt",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1311770131",
+        "1311770130"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John A. Plitt resides on South Rolling Road in the Relay area of Baltimore County ([www.simplecontacts.com](https://www.simplecontacts.com/profile/Andrew-Plitt-174df04d#:~:text=)). He owns at least two adjacent parcels, presumably his home and additional land ([www.simplecontacts.com](https://www.simplecontacts.com/profile/Andrew-Plitt-174df04d#:~:text=)). No evidence was found of Plitt taking part in local governmental proceedings or voicing opinions on development; his public profile appears limited to private homeownership.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local homeowner; no official role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via a friendly community meeting or open house invitation. Highlight measures addressing neighborhood concerns like noise and traffic to build trust."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of the three profiled neighbors have a documented public stance on development or clean energy projects. All are private landowners with no evident civic roles, resulting in an assessed stance of Unknown for each and a Low community influence overall.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Gary Benjamin Scott\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"2500014278\"],\n      \"claims\": \"Gary B. Scott is listed as a trustee owner of property in Baltimore County, using a mailing address in Ellicott City, Howard County ([sdat.dat.maryland.gov](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?Block=3970F&County=03&Lot=235&SearchType=ACCT&Section=24&Ward=09#:~:text=Mailing%20Address%3A%208128%20HIGH%20MEADOW,Premises%20Address%3A%201511%20TUNLAW%20ROAD)). The parcel is not his primary residence (owner-occupancy is not claimed) ([sdat.dat.maryland.gov](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?Block=3970F&County=03&Lot=235&SearchType=ACCT&Section=24&Ward=09#:~:text=Mailing%20Address%3A%208128%20HIGH%20MEADOW,Premises%20Address%3A%201511%20TUNLAW%20ROAD)). No public records of Scott participating in local hearings or community boards could be found, and no statements on development have been documented (search of news and county minutes yielded no relevant mentions).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Non-resident owner; no public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Outreach via formal communication is advised, focusing on property impacts. Emphasize how the project will protect property value and address any ownership concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"John J. Angelotti\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1311350180\"],\n      \"claims\": \"John J. Angelotti is a local Baltimore County resident, residing at a Halethorpe address in the 21227 area ([fastpeoplesearch.io](https://fastpeoplesearch.io/john-angelotti/maryland/john-j-angelotti-61dd23a034ad749878b7bb23#:~:text=John%20J%20Angelotti%20is%20residing,information%20that%20may%20interest%20you)). He appears to be a private landowner with no record of holding public office or speaking at county meetings (no references to his name in accessible public minutes or news). There are no known public statements from Angelotti regarding development or energy projects.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private resident; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage through a neighborly, face-to-face introduction by a community liaison. Emphasize respect for local traffic and neighborhood character to address any personal concerns.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"John Andrew Plitt\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1311770131\", \"1311770130\"],\n      \"claims\": \"John A. Plitt resides on South Rolling Road in the Relay area of Baltimore County ([www.simplecontacts.com](https://www.simplecontacts.com/profile/Andrew-Plitt-174df04d#:~:text=)). He owns at least two adjacent parcels, presumably his home and additional land ([www.simplecontacts.com](https://www.simplecontacts.com/profile/Andrew-Plitt-174df04d#:~:text=)). No evidence was found of Plitt taking part in local governmental proceedings or voicing opinions on development; his public profile appears limited to private homeownership.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Local homeowner; no official role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via a friendly community meeting or open house invitation. Highlight measures addressing neighborhood concerns like noise and traffic to build trust.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

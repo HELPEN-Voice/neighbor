@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-02-26T14:30:29.371992",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "No neighbors were found to have a clearly supportive or opposing stance on development; all 3 are classified as unknown stance. None of these individuals holds any formal leadership role in the community, and all are considered to have low local influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Tarrence James Crews",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2200019730"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No public records or news reports naming Tarrence James Crews in connection with civic activities or development issues could be found. A search of Baltimore County hearing archives yielded no entries under Crews’s name as of 2025.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in a friendly, personal way to introduce the project and invite questions. Given his lack of public involvement, focus on listening to any concerns he raises and address common issues calmly."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Linda L. Cain",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1310450310"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Linda Lee Cain, 82, passed away in May 2025 and was remembered for her deep appreciation of nature and the outdoors ([www.cremationsocietyofmd.com](https://www.cremationsocietyofmd.com/obituaries/linda-cain#:~:text=Linda%20Lee%20,appreciation%20for%20nature%20and%20family)) ([www.cremationsocietyofmd.com](https://www.cremationsocietyofmd.com/obituaries/linda-cain#:~:text=Linda%E2%80%99s%20adventurous%20spirit%20shone%20brightly,time%20spent%20with%20her%20family)). She was an active member of the Catholic Community of Relay in Baltimore County, often volunteering (such as ringing the church bell) as part of her community life ([www.cremationsocietyofmd.com](https://www.cremationsocietyofmd.com/obituaries/linda-cain#:~:text=A%20woman%20of%20faith%20and,tradition%20and%20celebration%20that%20brought)). No public statements or documented positions by Cain on development or land use issues were located in available records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Church volunteer; not in public office",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "wildlife_habitat"
+        ],
+        "engage": "Coordinate engagement through her family (spouse or adult children) given her passing. Emphasize the project’s respect for nature and quiet surroundings, aligning with Linda’s lifelong love of the outdoors."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Sharyn L. Herman",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2200019731"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No public information was found indicating that Sharyn L. Herman holds any civic positions or has spoken out on local development matters. A review of county records and meeting minutes did not show her name in connection with community or land use issues.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen; no public role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach her one-on-one in a neighborly manner to discuss the project. Since she has no known stance, start by asking if she has any concerns and provide clear, factual information in a low-key, respectful conversation."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"No neighbors were found to have a clearly supportive or opposing stance on development; all 3 are classified as unknown stance. None of these individuals holds any formal leadership role in the community, and all are considered to have low local influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Tarrence James Crews\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"2200019730\"],\n      \"claims\": \"No public records or news reports naming Tarrence James Crews in connection with civic activities or development issues could be found【86】. A search of Baltimore County hearing archives yielded no entries under Crews’s name as of 2025【86】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known civic roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out in a friendly, personal way to introduce the project and invite questions. Given his lack of public involvement, focus on listening to any concerns he raises and address common issues calmly.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Linda L. Cain\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1310450310\"],\n      \"claims\": \"Linda Lee Cain, 82, passed away in May 2025 and was remembered for her deep appreciation of nature and the outdoors ([www.cremationsocietyofmd.com](https://www.cremationsocietyofmd.com/obituaries/linda-cain#:~:text=Linda%20Lee%20,appreciation%20for%20nature%20and%20family)) ([www.cremationsocietyofmd.com](https://www.cremationsocietyofmd.com/obituaries/linda-cain#:~:text=Linda%E2%80%99s%20adventurous%20spirit%20shone%20brightly,time%20spent%20with%20her%20family)). She was an active member of the Catholic Community of Relay in Baltimore County, often volunteering (such as ringing the church bell) as part of her community life ([www.cremationsocietyofmd.com](https://www.cremationsocietyofmd.com/obituaries/linda-cain#:~:text=A%20woman%20of%20faith%20and,tradition%20and%20celebration%20that%20brought)). No public statements or documented positions by Cain on development or land use issues were located in available records【88】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Church volunteer; not in public office\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"privacy_quiet\", \"wildlife_habitat\"],\n        \"engage\": \"Coordinate engagement through her family (spouse or adult children) given her passing. Emphasize the project’s respect for nature and quiet surroundings, aligning with Linda’s lifelong love of the outdoors.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Sharyn L. Herman\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"2200019731\"],\n      \"claims\": \"No public information was found indicating that Sharyn L. Herman holds any civic positions or has spoken out on local development matters【87】. A review of county records and meeting minutes did not show her name in connection with community or land use issues【87】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private citizen; no public role\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach her one-on-one in a neighborly manner to discuss the project. Since she has no known stance, start by asking if she has any concerns and provide clear, factual information in a low-key, respectful conversation.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

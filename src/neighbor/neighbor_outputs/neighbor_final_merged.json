@@ -1,250 +1,133 @@
 {
-  "total_screened": 13,
-  "residents_count": 10,
-  "organizations_count": 3,
-  "adjacent_count": 5,
+  "total_screened": 26,
+  "residents_count": 21,
+  "organizations_count": 5,
+  "adjacent_count": 3,
   "influence_distribution": {
-    "High": 4,
-    "Medium": 2,
-    "Low": 7
+    "High": 3,
+    "Medium": 3,
+    "Low": 20
   },
   "stance_distribution": {
-    "oppose": 2,
+    "oppose": 0,
     "support": 1,
-    "neutral": 1,
-    "unknown": 9
+    "neutral": 2,
+    "unknown": 23
   },
   "entity_type_breakdown": {
-    "agriculture": 9,
-    "unknown": 3,
-    "speculation": 1
+    "unknown": 20,
+    "speculation": 2,
+    "municipal": 2,
+    "energy_developer": 1,
+    "land_investment": 1
   },
-  "risk_score": 10,
+  "risk_score": 8,
   "risk_level": "high",
   "themes": [
     {
-      "theme": "Agricultural Landowners",
-      "description": "This group consists of primary agricultural producers and landholders focused on long-term farming operations and land stewardship. Their interests are centered on maintaining the viability of the local agricultural economy and preserving soil quality for future generations.",
-      "neighbor_count": 6,
-      "prevalent_concerns": [
-        "farmland_preservation",
-        "heritage_family_legacy",
-        "drainage_roads",
-        "property_value"
-      ],
-      "typical_influence": "Low to Medium",
-      "engagement_approach": "Focus on technical impacts to farming operations, such as drainage and soil compaction, while emphasizing long-term land value and agricultural viability.",
-      "members": [
-        {
-          "name": "Cynthia M. LaValley",
-          "persona": "Private agricultural landowner focused on preserving family legacy and maintaining farmland producti",
-          "influence": "Low",
-          "stance": "unknown",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "Town of Vienna Official Website",
-              "url": "https://www.viennawi.gov/",
-              "date": "2024-06-01"
-            }
-          ]
-        },
-        {
-          "name": "Rodney W. Caldwell",
-          "persona": "Significant farmland owner with an academic background focused on fair contracting and preservation.",
-          "influence": "Medium",
-          "stance": "unknown",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll (Pages 9-10, 58)",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "Plant Pathology in Ohio: Chapters 1-6 (Page 62)",
-              "url": "https://plantpath.osu.edu/sites/plantpath/files/imce/images/Anniversary/Plant%20Pathology%20in%20Ohio%20Chapters%201-6.pdf",
-              "date": "1992-01-01"
-            },
-            {
-              "title": "Dane County Legislative Information Center Search Results",
-              "url": "https://dane.legistar.com/gateway.aspx?m=l&id=/matter.aspx?key=29474",
-              "date": "2025-02-25"
-            }
-          ]
-        },
-        {
-          "name": "Gregg A. Komplin",
-          "persona": "Longtime agricultural landowner and local donor interested in tax revenue and land preservation.",
-          "influence": "Low",
-          "stance": "unknown",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "Village of DeForest Proposed Zoning Map",
-              "url": "https://hdp-us-prod-app-deforest-engage-files.s3.us-west-2.amazonaws.com/3217/6797/2380/4_Proposed_Zoning_Map_2025.12.05.pdf",
-              "date": "2025-12-05"
-            }
-          ]
-        },
-        {
-          "name": "Jason D. Kelley",
-          "persona": "Private resident and agricultural landowner focused on property value and maintaining rural privacy.",
-          "influence": "Low",
-          "stance": "unknown",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "EWG Farm Subsidy Database - Columbia County, WI",
-              "url": "https://farm.ewg.org/top_recips.php?fips=55021&progcode=totalfarm&page=10",
-              "date": "2024-01-01"
-            },
-            {
-              "title": "Town of Vienna Board Minutes",
-              "url": "https://storage.googleapis.com/juniper-media-library/383/2025/09/Aug23.pdf",
-              "date": "2023-08-05"
-            }
-          ]
-        },
-        {
-          "name": "Gerald R. Hahn",
-          "persona": "Owner of significant land holdings with family ties to local infrastructure and drainage.",
-          "influence": "Medium",
-          "stance": "unknown",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "Updated Proposed Zoning Map DeForest/Vienna",
-              "url": "https://hdp-us-prod-app-deforest-engage-files.s3.us-west-2.amazonaws.com/2817/6797/4783/3_Updated_Proposed_Zoning_Map.pdf",
-              "date": "2025-12-05"
-            },
-            {
-              "title": "Dane County Board of Supervisors Referrals 2008-2009",
-              "url": "https://board.danecounty.gov/documents/pdf/archived-reports/leg/REFFERALS-2008-2009.pdf",
-              "date": "2008-04-24"
-            }
-          ]
-        },
-        {
-          "name": "Jensen Acres LLC",
-          "persona": "Agricultural landholding entity based in a neighboring county focused on stewardship and income.",
-          "influence": "Low",
-          "stance": "unknown",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "EWG Farm Subsidy Database - Arlington WI",
-              "url": "https://farm.ewg.org/addrsearch.php?z=1&zip=53911&page=1",
-              "date": "2023-01-01"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "Residential & Adjacent Stakeholders",
-      "description": "These individuals own property directly bordering the project area and are primarily concerned with the immediate physical impacts of development. Their focus is on maintaining the character and tranquility of their private living environments.",
-      "neighbor_count": 2,
-      "prevalent_concerns": [
-        "privacy_quiet",
-        "aesthetics_viewshed",
-        "heritage_family_legacy"
-      ],
-      "typical_influence": "Low",
-      "engagement_approach": "Provide clear information on visual screening and noise mitigation to address quality-of-life concerns early in the process.",
-      "members": [
-        {
-          "name": "Patricia E. Johnson",
-          "persona": "Adjacent landowner prioritizing residential privacy and the preservation of long-standing family her",
-          "influence": "Low",
-          "stance": "unknown",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll (Page 60)",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "Dane County Legislative Information Center Search Results",
-              "url": "https://dane.legistar.com/gateway.aspx?m=l&id=/matter.aspx?key=29474",
-              "date": "2025-02-25"
-            }
-          ]
-        },
-        {
-          "name": "Sharon E. Haug",
-          "persona": "Directly adjacent resident concerned with maintaining the aesthetic viewshed and quiet of their prop",
-          "influence": "Low",
-          "stance": "unknown",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll (Page 59)",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
-            },
-            {
-              "title": "Dane County Legislative Information Center Search Results",
-              "url": "https://dane.legistar.com/gateway.aspx?m=l&id=/matter.aspx?key=29474",
-              "date": "2025-02-25"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "Development & Speculation Interests",
-      "description": "This category includes entities or individuals holding land with a specific focus on future commercial potential or property value maximization. They view land use through the lens of investment return and economic transition.",
+      "theme": "Utility and Grid Infrastructure",
+      "description": "Entities responsible for regional energy distribution and critical transmission infrastructure. They focus on grid stability and the technical feasibility of new interconnections within the project area.",
       "neighbor_count": 1,
       "prevalent_concerns": [
-        "property_value_maximization",
-        "commercial_development_potential"
+        "grid_reliability",
+        "infrastructure_protection",
+        "capacity_upgrades"
       ],
-      "typical_influence": "Low",
-      "engagement_approach": "Engage through discussions regarding economic benefits and the project's compatibility with future regional development trends.",
+      "typical_influence": "High",
+      "engagement_approach": "Technical coordination and early alignment on interconnection requirements and regional upgrade projects.",
       "members": [
         {
-          "name": "Kelley Tr",
-          "persona": "Landowner with a history of development-focused transactions seeking to maximize property value.",
-          "influence": "Low",
+          "name": "Baltimore Gas & Electric Co",
+          "persona": "Regional utility operator managing critical transmission infrastructure and ongoing regional grid up",
+          "influence": "High",
+          "stance": "neutral",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "BGE Tri-County Transmission Upgrade Project Overview",
+              "url": "https://goodenergyinprogress.com/project/tri-county-transmission-upgrade-project/",
+              "date": "2025-10-21"
+            },
+            {
+              "title": "Baltimore County EPS Variance Request - Granite Substation",
+              "url": "https://www.baltimorecountymd.gov/files/departments/environmental-protection-and-sustainability/documents/baltimoregasandelectricgranitesubstation04254458on20251216.pdf",
+              "date": "2025-12-16"
+            },
+            {
+              "title": "Power Line Protest Meets Opposition",
+              "url": "https://patch.com/maryland/perryhall/power-line-protest-meets-opposition-bge-says-wires-are-necessary",
+              "date": "2011-06-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Local Government and Regulatory Oversight",
+      "description": "Municipal bodies that exercise zoning authority and legislative control over land use. They prioritize the preservation of rural character and the management of solar development density.",
+      "neighbor_count": 1,
+      "prevalent_concerns": [
+        "preservation_of_rural_character",
+        "solar_clustering",
+        "prime_farmland"
+      ],
+      "typical_influence": "High",
+      "engagement_approach": "Proactive compliance with local ordinances and transparent communication regarding project siting and community benefits.",
+      "members": [
+        {
+          "name": "Baltimore County, MD",
+          "persona": "County regulatory authority implementing restrictive solar legislation and managing local land-use z",
+          "influence": "High",
           "stance": "neutral",
           "adjacent": false,
           "citations": [
             {
-              "title": "Petition for Direct Annexation - Village of DeForest",
-              "url": "https://mds.wi.gov/View/Documents?Type=PetitionFile&ID=13690",
-              "date": "2013-06-27"
+              "title": "Bill 18-25 Zoning Regulations – Solar Facilities – Proximity Requirements",
+              "url": "https://countycouncilweb.s3.amazonaws.com/Bills%202025/b01825.pdf",
+              "date": "2025-05-22"
             },
             {
-              "title": "Town of Vienna 2024 Completed Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
+              "title": "Baltimore County Auditor Notes - Bill 21-25",
+              "url": "https://www.baltimorecountymd.gov/files/departments/auditor/documents/notespackage20250505.pdf",
+              "date": "2025-05-05"
+            },
+            {
+              "title": "Maryland LCV - Renewable Energy Certainty Act",
+              "url": "https://www.mdlcv.org/reca",
+              "date": "2025-05-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "State Transportation and Land Management",
+      "description": "State-level agencies managing public rights-of-way and transportation corridors. These organizations often seek to leverage their land assets for renewable energy initiatives.",
+      "neighbor_count": 1,
+      "prevalent_concerns": [
+        "tax_revenue_benefit",
+        "fair_contracting",
+        "right_of_way_access"
+      ],
+      "typical_influence": "High",
+      "engagement_approach": "Engagement through established state procurement frameworks and coordination on right-of-way usage.",
+      "members": [
+        {
+          "name": "State Of Maryland State Roads Commission",
+          "persona": "State transportation agency with regulatory authority over rights-of-way and interest in renewable e",
+          "influence": "High",
+          "stance": "support",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "MDOT Solar Energy Contract",
+              "url": "https://www.mdot.maryland.gov/tso/pages/Index.aspx?PageId=155",
+              "date": "2026-02-26"
+            },
+            {
+              "title": "Maryland Solar Program: Value Capture",
+              "url": "https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/maryland_solar_program.aspx",
+              "date": "2026-02-26"
             }
           ]
         }
@@ -252,176 +135,114 @@
     },
     {
       "theme": "Active Community Members",
-      "description": "This group comprises high-influence stakeholders who hold official leadership roles or are deeply integrated into local governance and advocacy. They frequently participate in public forums and have the capacity to shape broader community sentiment.",
-      "neighbor_count": 4,
+      "description": "Individuals with a history of civic participation, political connections, or engagement in legal and zoning processes. They are likely to voice opinions at public hearings and influence local sentiment.",
+      "neighbor_count": 3,
       "prevalent_concerns": [
+        "property_value",
         "local_control",
-        "infrastructure_improvement",
-        "land_use_policy",
-        "sustainability"
+        "privacy_quiet",
+        "heritage_family_legacy"
       ],
-      "typical_influence": "High",
-      "engagement_approach": "Establish direct, high-level communication channels to address policy-level concerns and demonstrate alignment with regional planning goals.",
+      "typical_influence": "Medium",
+      "engagement_approach": "Direct outreach and community meetings to address specific concerns regarding property impacts and local heritage.",
       "members": [
         {
-          "name": "Blue Star Dairy Farms",
-          "persona": "Major dairy operator who hosts county-wide agricultural events and advocates for local control.",
-          "influence": "High",
-          "stance": "oppose",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Blue Star Dairy Farms Is Your Host",
-              "url": "https://www.midwestfarmreport.com/2024/05/14/blue-star-dairy-farms-is-your-host/",
-              "date": "2024-05-14"
-            },
-            {
-              "title": "Breakfast on the Farm | Dane County Dairy Promotion Committee",
-              "url": "https://www.danecountydairy.com/breakfast-on-the-farm/",
-              "date": "2024-06-08"
-            },
-            {
-              "title": "Town of Springfield Comprehensive Plan Amended 2023",
-              "url": "https://www.town.springfield.wi.us/wp-content/uploads/Comp-Plan-Amended-6.6.23_w-maps-and-appendices-2.pdf",
-              "date": "2023-06-06"
-            }
-          ]
-        },
-        {
-          "name": "Kittleson Rev Living Tr, Roger I",
-          "persona": "Elected town official with significant decision-making authority over local land use and infrastruct",
-          "influence": "High",
+          "name": "Jerome G. Morsberger",
+          "persona": "Individual from a politically connected local family with interests in property value and legacy.",
+          "influence": "Medium",
           "stance": "unknown",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "Town of Perry Board Members",
-              "url": "https://www.perry-wi.gov/?page_id=114",
-              "date": "2026-02-25"
-            },
-            {
-              "title": "Town of Perry News: TDS Commits to High-Speed Internet",
-              "url": "https://www.perry-wi.gov/",
-              "date": "2024-01-10"
-            },
-            {
-              "title": "Town of Perry Board Minutes",
-              "url": "https://www.perry-wi.gov/wp-content/uploads/2020/04/TownBoardMinutes030920.pdf",
-              "date": "2020-03-09"
-            }
-          ]
-        },
-        {
-          "name": "Meinholz Farms Company Llc",
-          "persona": "Large-scale dairy operator with a history of active participation in land-use litigation and leaders",
-          "influence": "High",
-          "stance": "oppose",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "Focused on results: Blue Star Dairy Farms",
-              "url": "https://dairystar.com/stories/focused-on-results,20212",
-              "date": "2023-10-14"
-            },
-            {
-              "title": "Massive solar project could change the landscape in rural Dane County",
-              "url": "https://madisoncommons.org/massive-solar-project-could-change-the-landscape-in-rural-dane-county/",
-              "date": "2020-02-28"
-            },
-            {
-              "title": "Meinholz, LLC v. Town of Springfield",
-              "url": "https://caselaw.findlaw.com/court/wi-court-of-appeals/2171703.html",
-              "date": "2018-12-18"
-            }
-          ]
-        },
-        {
-          "name": "Shamrock Acres LLC",
-          "persona": "Influential agricultural leader active on conservation boards and experienced in hosting public town",
-          "influence": "High",
-          "stance": "support",
           "adjacent": false,
           "citations": [
             {
-              "title": "Town of Vienna 2024 Real Estate Assessment Roll",
-              "url": "https://www.apraz.com/wp-content/uploads/2023/03/T.-Vienna-2024-Completed-Real-Estate-Assessment-Roll-1.pdf",
-              "date": "2024-06-13"
+              "title": "Louis P. Morsberger Obituary / Maryland State Archives",
+              "url": "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/013300/013346/html/sun2-18-2001.html",
+              "date": "2002-02-18"
             },
             {
-              "title": "Why immigrant workers became the backbone of Wisconsin's dairy business",
-              "url": "https://pbswisconsin.org/news-item/why-immigrant-workers-became-the-backbone-of-wisconsins-dairy-business/",
-              "date": "2017-10-05"
+              "title": "Maryland Manual 1985-86 (Legislative Branch)",
+              "url": "https://msa.maryland.gov/megafile/msa/speccol/sc1100/sc1198/000000/000002/000000/000065/pdf/mdsa_sc1198_2_65.pdf",
+              "date": "1985-01-01"
             },
             {
-              "title": "Focused on family and the future",
-              "url": "https://jofnm.com/article-317-Focused-on-family-and-the-future.html",
-              "date": "2024-04-18"
+              "title": "5127 Viaduct Ave Property Record",
+              "url": "https://www.redfin.com/MD/Halethorpe/5127-Viaduct-Ave-21227/home/9367777",
+              "date": "2026-02-26"
+            }
+          ]
+        },
+        {
+          "name": "Noah Hutton",
+          "persona": "Educator and union member who actively participates in public hearings and values local control.",
+          "influence": "Medium",
+          "stance": "unknown",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "CCBC Essex Coach Bio: Noah Hutton",
+              "url": "https://ccbcessexknights.com/sports/mxc/2018-19/bios/hutton_noah_pd0n",
+              "date": "2026-02-26"
+            },
+            {
+              "title": "Harford County Council Meeting Video & Transcript",
+              "url": "https://harfordcountymd.new.swagit.com/videos/301638",
+              "date": "2024-04-02"
+            },
+            {
+              "title": "MSEA At-Large Delegate Bios 2024",
+              "url": "https://marylandeducators.org/wp-content/uploads/2024/01/2024_MSEA-At-Large-Bios_Final.pdf",
+              "date": "2024-01-01"
+            }
+          ]
+        },
+        {
+          "name": "Sharyn L. Herman",
+          "persona": "Resident with a history of engaging in legal appeals related to local zoning decisions.",
+          "influence": "Medium",
+          "stance": "unknown",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Baltimore County Administrative Hearings Case 2021-0166-A Opinion",
+              "url": "https://www.baltimorecountymd.gov/files/Documents/Permits/Decisions/2022/September/21166a.pdf",
+              "date": "2022-09-22"
+            },
+            {
+              "title": "Baltimore County Board of Appeals Opinion Case 21-166-A",
+              "url": "https://www.baltimorecountymd.gov/files/Documents/Appeals/decisions2021/martin21166afinalopinionandorder.pdf",
+              "date": "2022-04-28"
             }
           ]
         }
       ]
     }
   ],
-  "opposition_summary": {
-    "count": 2,
-    "common_concerns": [
-      "farmland_preservation",
-      "fair_contracting",
-      "local_control",
-      "Preservation of agricultural land base",
-      "Feed crop availability",
-      "Manure spreading rights"
-    ],
-    "influence_levels": [
-      "High"
-    ]
-  },
+  "opposition_summary": null,
   "support_summary": {
     "count": 1,
     "common_reasons": [
-      "Sustainability",
-      "Diversified revenue",
-      "Community leadership"
+      "tax_revenue_benefit",
+      "fair_contracting"
     ]
   },
-  "overview_summary": "Of the 13 neighbors profiled, 10 are residents and 3 are organizations, primarily consisting of long-established dairy farming operations and family-owned agricultural trusts. While nine neighbors have unknown stances, four are identified as high-influence entities and two have expressed opposition, citing concerns over the loss of productive farmland and the preservation of rural legacies. Although some landowners may prioritize the financial security of land leasing, the prominence of large-scale agricultural interests presents a risk for organized resistance if the development is viewed as a threat to local farming heritage.",
-  "location_context": "Neighbors within 0.5 mi of 43.273991,-89.394502",
+  "overview_summary": "Screening of 26 neighbors identified 21 residents and five organizations, including local government, a regional utility, and investment entities. While 23 neighbors have unknown stances, the assessment identified three high-influence and three medium-influence stakeholders, with one neighbor expressing support and two remaining neutral. Key entities include a prominent local family with political ties and institutional owners focused on infrastructure and land speculation, though no formal opposition has been documented among the 20 low-influence private landowners.",
+  "location_context": "Neighbors within 0.5 mi of 39.228953,-76.712985",
   "city": null,
-  "county": "Dane County",
-  "state": "WI",
-  "run_id": "a271e524-2701-432f-b414-9e77dedb85b0",
-  "runtime_minutes": 23.98,
+  "county": "Baltimore County",
+  "state": "MD",
+  "run_id": "6a876af9-4d3c-4853-8491-2cc2ada15964",
+  "runtime_minutes": 40.13,
   "success": true,
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/a271e524-2701-432f-b414-9e77dedb85b0_ring_map.png",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/6a876af9-4d3c-4853-8491-2cc2ada15964_ring_map.png",
   "map_ring_stats": [
     {
       "ring": 1,
       "inner_mi": 0.0,
-      "outer_mi": 0.16,
-      "count": 4,
-      "oppose": 1,
-      "support": 0,
-      "neutral": 0,
-      "unknown": 3,
-      "sentiment": "mixed",
-      "high_oppose": 1,
-      "high_support": 0,
-      "high_neutral": 0,
-      "high_unknown": 1,
-      "medium_oppose": 0,
-      "medium_support": 0,
-      "medium_neutral": 0,
-      "medium_unknown": 0
-    },
-    {
-      "ring": 2,
-      "inner_mi": 0.16,
-      "outer_mi": 0.33,
-      "count": 3,
+      "outer_mi": 0.08,
+      "count": 1,
       "oppose": 0,
       "support": 0,
       "neutral": 0,
-      "unknown": 3,
+      "unknown": 1,
       "sentiment": "mixed",
       "high_oppose": 0,
       "high_support": 0,
@@ -430,43 +251,62 @@
       "medium_oppose": 0,
       "medium_support": 0,
       "medium_neutral": 0,
-      "medium_unknown": 1
+      "medium_unknown": 0
     },
     {
-      "ring": 3,
-      "inner_mi": 0.33,
-      "outer_mi": 0.5,
-      "count": 6,
-      "oppose": 1,
+      "ring": 2,
+      "inner_mi": 0.08,
+      "outer_mi": 0.15,
+      "count": 8,
+      "oppose": 0,
       "support": 1,
       "neutral": 1,
-      "unknown": 3,
+      "unknown": 6,
       "sentiment": "mixed",
-      "high_oppose": 1,
+      "high_oppose": 0,
       "high_support": 1,
-      "high_neutral": 0,
+      "high_neutral": 1,
       "high_unknown": 0,
       "medium_oppose": 0,
       "medium_support": 0,
       "medium_neutral": 0,
       "medium_unknown": 1
+    },
+    {
+      "ring": 3,
+      "inner_mi": 0.15,
+      "outer_mi": 0.23,
+      "count": 17,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 1,
+      "unknown": 16,
+      "sentiment": "mixed",
+      "high_oppose": 0,
+      "high_support": 0,
+      "high_neutral": 1,
+      "high_unknown": 0,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 2
     }
   ],
   "map_metadata": {
-    "run_id": "a271e524-2701-432f-b414-9e77dedb85b0",
-    "generated_at": "2026-02-25T15:18:18.859377",
-    "center_lon": -89.39450206958259,
-    "center_lat": 43.27399127141565,
+    "run_id": "6a876af9-4d3c-4853-8491-2cc2ada15964",
+    "generated_at": "2026-02-26T14:59:39.429543",
+    "center_lon": -76.71298521663574,
+    "center_lat": 39.22895344742111,
     "boundaries_mi": [
       0.0,
-      0.1631,
-      0.3253,
-      0.5026
+      0.0766,
+      0.1531,
+      0.2297
     ],
-    "total_neighbors_mapped": 13,
-    "total_neighbors": 13,
+    "total_neighbors_mapped": 26,
+    "total_neighbors": 26,
     "strategy_used": "geojson",
-    "url_length": 6865,
+    "url_length": 6826,
     "settings": {
       "width": 800,
       "height": 450,
@@ -475,112 +315,118 @@
     }
   },
   "target_parcel_info": {
-    "pin": "090911295417",
+    "pin": "1311150281",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -89.3959895,
-            43.2733875
+            -76.7119415,
+            39.227757
           ],
           [
-            -89.39561,
-            43.2729135
+            -76.7119,
+            39.2277595
           ],
           [
-            -89.3949125,
-            43.2721345
+            -76.711923,
+            39.2284585
           ],
           [
-            -89.392462,
-            43.2721595
+            -76.7119585,
+            39.229189
           ],
           [
-            -89.392504,
-            43.2752835
+            -76.711962,
+            39.229258
           ],
           [
-            -89.393818,
-            43.2752695
+            -76.7120225,
+            39.230501
           ],
           [
-            -89.3938235,
-            43.2756895
+            -76.712082,
+            39.2305895
           ],
           [
-            -89.393824,
-            43.2757015
+            -76.712436,
+            39.230415
           ],
           [
-            -89.394804,
-            43.2756895
+            -76.7127695,
+            39.230334
           ],
           [
-            -89.3948045,
-            43.2756895
+            -76.7133435,
+            39.2303195
           ],
           [
-            -89.394804,
-            43.275679
+            -76.713887,
+            39.229349
           ],
           [
-            -89.3948025,
-            43.275605
+            -76.714635,
+            39.228259
           ],
           [
-            -89.3953035,
-            43.2755995
+            -76.7146715,
+            39.2282045
           ],
           [
-            -89.395302,
-            43.275545
+            -76.7146725,
+            39.228203
           ],
           [
-            -89.3957225,
-            43.2755405
+            -76.7145705,
+            39.2282055
           ],
           [
-            -89.3957125,
-            43.2750245
+            -76.714153,
+            39.228042
           ],
           [
-            -89.3964935,
-            43.2750165
+            -76.71411,
+            39.228025
           ],
           [
-            -89.3965045,
-            43.275587
+            -76.713435,
+            39.2277615
           ],
           [
-            -89.397416,
-            43.275577
+            -76.712733,
+            39.2277165
           ],
           [
-            -89.397407,
-            43.2749705
-          ],
-          [
-            -89.3959895,
-            43.2733875
+            -76.7119415,
+            39.227757
           ]
         ]
       ]
     },
-    "lat": "43.273991",
-    "lon": "-89.394502",
-    "county_path": "/us/wi/dane/vienna"
+    "lat": "39.228953",
+    "lon": "-76.712985",
+    "county_path": "/us/md/baltimore-county/district-13"
   },
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_150502_5664.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_150344_2526.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260225_150410_4535.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260225_150230_2943.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260225_150313_8912.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260225_150410_4535.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260225_150230_2943.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260225_150502_5664.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260225_150344_2526.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260225_150313_8912.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143041_3930.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143108_8444.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142745_7267.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142651_8109.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142907_3119.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143029_3719.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142846_7636.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142709_3460.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260226_142727_8579.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260226_142741_8928.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_143041_3930.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_143108_8444.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142651_8109.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142745_7267.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142709_3460.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_143029_3719.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142846_7636.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260226_142727_8579.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142907_3119.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260226_142741_8928.json"
   ]
 }

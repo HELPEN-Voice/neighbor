@@ -1,0 +1,135 @@
+{
+  "batch_idx": 3,
+  "total_batches": 8,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "John Angelotti",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2400002999"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John Angelotti is listed as residing at 5125 Viaduct Avenue in Halethorpe (Arbutus area of Baltimore County) ([fastpeoplesearch.io](https://fastpeoplesearch.io/john-angelotti/maryland/john-j-angelotti-61dd23a034ad749878b7bb23#:~:text=John%20J%20Angelotti%20is%20residing,information%20that%20may%20interest%20you)). No record of any public statements or civic positions by Angelotti was found in Baltimore County news or government archives ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/contact/an-employee?%2F=&page=6#:~:text=Employee%20Phone%20Directory%20,6036)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through general community outreach. Emphasize listening to any concerns, as no clear priorities or stance are known."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Samantha C. Connelly",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1312200231"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Samantha C. Connelly appears to be a private landowner in Baltimore County (no affiliated organization) ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/communityupdates/d7/220815d7#:~:text=August%2015%2C%202022%20,Information)). There are no news reports or public meeting records indicating any development stance or community leadership by Connelly ([www.baltimorecountymd.gov](https://www.baltimorecountymd.gov/departments/communityupdates/d7/220815d7#:~:text=August%2015%2C%202022%20,Information)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via standard neighbor communications. Build trust and ask open-ended questions to understand any concerns, since her views are not publicly known."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Noah Hutton",
+      "entity_category": "Resident",
+      "entity_type": "Estate",
+      "pins": [
+        "1311670550"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Noah Kent Hutton Jr. (1951\u20132017) was a longtime Baltimore County resident known for his Baltimore-style pit beef catering business and for owning a bar/restaurant in the Essex area ([www.legacy.com](https://www.legacy.com/us/obituaries/baltimoresun/name/noah-hutton-obituary?id=16663779#:~:text=Noah%20Kent%20Hutton%2C%20Jr,grandsons%20Jack%20%26%20Ryan%20Muth)). He died in 2017 and was survived by children living in Parkton, Baltimore County ([www.legacy.com](https://www.legacy.com/us/obituaries/baltimoresun/name/noah-hutton-obituary?id=16663779#:~:text=of%20Baldwin%2C%20sons%20Noah%20III,Myrth%20Avenue%20in%20Essex%2C%20MD)), suggesting the property may now be held or managed by his family.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local business figure",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Since Mr. Hutton is deceased, connect with his family or estate representatives respectfully. Emphasize community benefits and listen to any legacy concerns they might raise."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three profiled neighbors have no publicly documented position on development or clean energy (all noted stances are \"unknown\"). None appear to wield significant influence in local affairs, as none hold official roles or prominent leadership positions.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142651_8109.json",
+  "cached_at": "2026-02-26T14:26:51.811740"
+}

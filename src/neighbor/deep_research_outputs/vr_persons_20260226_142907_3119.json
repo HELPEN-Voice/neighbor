@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-02-26T14:56:26.567381",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142907_3119.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "George J. Clark",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1313202170"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Property records associate Parcel 1313202170 with the address 1534 S. Rolling Rd, Halethorpe, MD, which last sold in 2016 ([Redfin](https://www.redfin.com/MD/Halethorpe/1534-S-Rolling-Rd-21227/home/9371733)). No public profiles, civic roles, or statements on development were found for a George J. Clark at this location in available news or meeting records.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public office",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Engage respectfully through one-on-one outreach. Emphasize listening to any personal concerns regarding privacy or property values since no public position is known."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Parcel 1313202170 corresponds to 1534 S. Rolling Rd",
+          "url": "https://www.redfin.com/MD/Halethorpe/1534-S-Rolling-Rd-21227/home/9371733",
+          "title": "1534 S Rolling Rd Property Details",
+          "date": "2026-02-13"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Mary E. Miller",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1320800270"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parcel 1320800270 is associated with 5121 Viaduct Ave, Halethorpe, MD, which recorded a sale on October 30, 2024 ([Redfin](https://www.redfin.com/MD/Halethorpe/5121-Viaduct-Ave-21227/home/9380167)). While the draft profile identifies Mary E. Miller, historical ownership records for this property list John J. Angelotti as a prior owner ([Homes.com](https://www.homes.com/property/5125-viaduct-ave-halethorpe-md/sgw7rj3bw1x2w/)). No public statements on development or civic activities were identified for a Mary E. Miller at this address.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Reach out via personal contact to confirm current ownership status following the 2024 sale. Inquire about local issues important to the household given the lack of publicly stated views."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Property at 5121 Viaduct Ave sold on Oct 30, 2024",
+          "url": "https://www.redfin.com/MD/Halethorpe/5121-Viaduct-Ave-21227/home/9380167",
+          "title": "5121 Viaduct Ave Property History",
+          "date": "2026-01-15"
+        },
+        {
+          "claim": "Historical ownership listed as John J. Angelotti",
+          "url": "https://www.homes.com/property/5125-viaduct-ave-halethorpe-md/sgw7rj3bw1x2w/",
+          "title": "5121 Viaduct Ave Ownership History",
+          "date": "2026-02-26"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aris Cipkus",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1303330060"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records associate Aris Cipkus with the property at 706 Woodland Dr (Parcel 1303330060) ([National Public Data](https://nationalpublicdata.com/people/c/aleksadra-cipkus/)). Federal employment records indicate an individual named Aris J. Cipkus has been employed by the Social Security Administration ([GovSalaries](https://govsalaries.com/cipkus-aris-j-125351625)). No participation in local development hearings or public advocacy was found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Federal employee; no local civic role",
+      "approach_recommendations": {
+        "motivations": [
+          "traffic_safety",
+          "property_value"
+        ],
+        "engage": "Approach through informal, personable conversation. Highlight practical aspects like traffic and property value to learn his perspective, as he has no evident prior civic engagement."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Aris Cipkus associated with 706 Woodland Dr",
+          "url": "https://nationalpublicdata.com/people/c/aleksadra-cipkus/",
+          "title": "Public Record: Cipkus Address",
+          "date": "2026-02-26"
+        },
+        {
+          "claim": "Employment at Social Security Administration",
+          "url": "https://govsalaries.com/cipkus-aris-j-125351625",
+          "title": "GovSalaries: Aris J Cipkus",
+          "date": "2021-12-31"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 1286189,
+    "thinking_count": 48
+  }
+}

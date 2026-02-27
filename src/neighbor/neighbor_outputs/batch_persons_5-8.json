@@ -1,0 +1,139 @@
+{
+  "batch_idx": 4,
+  "total_batches": 8,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "George J. Clark",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1313202170"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "No public profiles or civic roles for George J. Clark were found in available records ([www.washingtonpost.com](https://www.washingtonpost.com/archive/politics/1980/04/24/southern-md-justice/18932f10-2113-492a-be43-80d6d4358a23/#:~:text=SOUTHERN%20MD.%20JUSTICE%20,parts%20of%20the%20state%2C%20including)). Property records confirm a parcel owned under this name in Baltimore County, but no recent news or meeting minutes reference this individual ([www.washingtonpost.com](https://www.washingtonpost.com/archive/politics/1980/04/24/southern-md-justice/18932f10-2113-492a-be43-80d6d4358a23/#:~:text=SOUTHERN%20MD.%20JUSTICE%20,parts%20of%20the%20state%2C%20including)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no public office",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage respectfully through one-on-one outreach. Emphasize listening to any personal concerns since no public position is known."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Mary E. Miller",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1320800270"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Mary E. Miller appears as an owner of record for a Baltimore County property, with no public statements on development identified ([besthistorysites.net](https://besthistorysites.net/name/mary-miller/md#:~:text=Mary%20J%20Miller%20in%20Maryland%3A,Belvedere%20Air%20%282)). A search of local news and civic documents yielded no mention of Miller in community or political activities ([besthistorysites.net](https://besthistorysites.net/name/mary-miller/md#:~:text=Mary%20J%20Miller%20in%20Maryland%3A,Belvedere%20Air%20%282)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out via personal contact or neighborhood meetings. Inquire about any local issues important to her, given the lack of publicly stated views."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Aris Cipkus",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1303330060"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Federal employment records show an Aris J. Cipkus working at the Social Security Administration in Woodlawn, MD ([govsalaries.com](https://govsalaries.com/cipkus-aris-j-125351625#:~:text=Aris%20Cipkus%20J%20in%202021,salary%20in%20SOCIAL%20SECURITY%20ADMINISTRATION)). He has not been identified in any local media or civic actions related to development, suggesting no notable public stance to date ([www.city-data.com](https://www.city-data.com/elec2/20/elec-PIKESVILLE-MD-20-part4.html#:~:text=2019%20%2F%202020%20Contributions%20Part,4)) ([www.city-data.com](https://www.city-data.com/elec2/20/elec-PIKESVILLE-MD-20-part4.html#:~:text=No%20,cipkus)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known civic involvement",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach through informal, personable conversation. Highlight practical aspects (e.g., property or traffic) to learn his perspective, as he has no evident prior engagement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three profiled neighbors are private landowners in Baltimore County with no clear public stance on development. None have made documented statements or taken public actions for or against projects, and all appear to have limited community influence (no high-profile roles or known civic positions among them).",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142907_3119.json",
+  "cached_at": "2026-02-26T14:29:07.312794"
+}

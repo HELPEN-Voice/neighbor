@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-02-26T14:27:09.346156",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One nearby landowner was profiled, and this individual’s stance on the proposed development is not documented in public sources. The neighbor does not hold any known public office or leadership role, suggesting low community influence.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Charles H. Beusch",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1302200680"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "An individual sharing the Beusch surname – Christina Gerstung Beusch – served as an Assistant Attorney General in Maryland around 2000 ([caselaw.findlaw.com](https://caselaw.findlaw.com/md-court-of-special-appeals/1446665.html#:~:text=Attorney%20General%20Christina%20Gerstung%20Beusch%2C,that%20the%20hearing%20had%20been)), but no direct evidence links Charles H. Beusch to any public offices or civic leadership roles. No news reports or county records were found in which Charles H. Beusch has taken a public position on local development or energy projects ([docs.justia.com](https://docs.justia.com/cases/federal/district-courts/maryland/mddce/1%3A2009cv01929/170452/61#:~:text=MEMORANDUM%20OPINION%20for%20Ames%20et,After%20receiving%20complaints)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Invite him to a one-on-one conversation via a trusted local contact. Listen to any concerns and provide transparent information addressing potential property or lifestyle impacts."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One nearby landowner was profiled, and this individual’s stance on the proposed development is not documented in public sources. The neighbor does not hold any known public office or leadership role, suggesting low community influence.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Charles H. Beusch\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"1302200680\"],\n      \"claims\": \"An individual sharing the Beusch surname – Christina Gerstung Beusch – served as an Assistant Attorney General in Maryland around 2000 ([caselaw.findlaw.com](https://caselaw.findlaw.com/md-court-of-special-appeals/1446665.html#:~:text=Attorney%20General%20Christina%20Gerstung%20Beusch%2C,that%20the%20hearing%20had%20been)), but no direct evidence links Charles H. Beusch to any public offices or civic leadership roles. No news reports or county records were found in which Charles H. Beusch has taken a public position on local development or energy projects ([docs.justia.com](https://docs.justia.com/cases/federal/district-courts/maryland/mddce/1%3A2009cv01929/170452/61#:~:text=MEMORANDUM%20OPINION%20for%20Ames%20et,After%20receiving%20complaints)).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Invite him to a one-on-one conversation via a trusted local contact. Listen to any concerns and provide transparent information addressing potential property or lifestyle impacts.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

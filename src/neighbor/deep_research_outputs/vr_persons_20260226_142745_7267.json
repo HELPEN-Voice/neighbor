@@ -1,0 +1,167 @@
+{
+  "timestamp": "2026-02-26T14:41:15.981283",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142745_7267.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Gary R. Scott",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2500014278"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Gary R. Scott is listed as the life tenant owner of a residential property in Baltimore (1935 Clifton Ave), with a mailing address in Ellicott City, Howard County ([SDAT](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?County=03&SearchType=ACCT&Ward=15&Section=16&Block=3210%20&Lot=106)). Public records indicate he is a long-term resident of the Ellicott City area ([Redfin](https://www.redfin.com/MD/Ellicott-City/8128-High-Meadow-Ct-21043/unit-128/home/9883916)). No public records of Scott participating in local zoning hearings or community boards were found.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Non-resident owner; no public roles identified.",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Outreach via formal communication to the Ellicott City mailing address is advised. Emphasize how the project will protect property values, as the owner is an absentee landlord/life tenant."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Gary R. Scott is listed as the life tenant owner of a residential property in Baltimore (1935 Clifton Ave), with a mailing address in Ellicott City, Howard County",
+          "url": "https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?County=03&SearchType=ACCT&Ward=15&Section=16&Block=3210%20&Lot=106",
+          "title": "SDAT Real Property Search",
+          "date": "2026-02-26"
+        },
+        {
+          "claim": "Public records indicate he is a long-term resident of the Ellicott City area",
+          "url": "https://www.redfin.com/MD/Ellicott-City/8128-High-Meadow-Ct-21043/unit-128/home/9883916",
+          "title": "Redfin Property History",
+          "date": "2026-02-26"
+        }
+      ],
+      "verification_notes": "Corrected name from 'Gary Benjamin Scott' to 'Gary R. Scott' per SDAT records linking the Ellicott City address to the property. Removed reference to 1511 Tunlaw Road as records link Scott to Clifton Ave. Stance remains unknown."
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "John J. Angelotti",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1311350180"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John J. Angelotti is a resident of the region and serves as the President of DCG Technical Solutions, an IT and cybersecurity firm ([DCG Technical Solutions](https://www.dcgla.com/malware-protection-strategies-business-endpoints/)). He is a graduate of the University of Maryland ([University of Maryland](https://archive.org/stream/commencement1995univ/commencement1995univ_djvu.txt)). No record of him holding public office or speaking at county zoning meetings could be verified.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private resident and business owner; no political activity found.",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Engage through a neighborly introduction. As a business owner in the technical field, he may appreciate detailed technical specs regarding project impacts and interference mitigation."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "John J. Angelotti is a resident of the region and serves as the President of DCG Technical Solutions, an IT and cybersecurity firm",
+          "url": "https://www.dcgla.com/malware-protection-strategies-business-endpoints/",
+          "title": "DCG Technical Solutions Author Profile",
+          "date": "2025-06-30"
+        },
+        {
+          "claim": "He is a graduate of the University of Maryland",
+          "url": "https://archive.org/stream/commencement1995univ/commencement1995univ_djvu.txt",
+          "title": "University of Maryland Commencement 1995",
+          "date": "1995-01-01"
+        }
+      ],
+      "verification_notes": "Confirmed identity as business owner. No specific property address could be verified in public web search snippets, but residency in the region is supported by university records and business listings."
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "John A. Plitt",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1311770131",
+        "1311770130"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John A. Plitt is historically associated with property on South Rolling Road in the Relay area. Public records indicate that John A. Plitt predeceased his wife, Betty M. Plitt, who passed away in 2018 ([Kirkley-Ruddick Funeral Home](https://www.kirkleyruddickfuneralhome.com/obituaries/betty-plitt)). The property may currently be held by his estate or heirs, including a surviving grandson also named John Plitt ([Kirkley-Ruddick Funeral Home](https://www.kirkleyruddickfuneralhome.com/obituaries/betty-plitt)). No evidence was found of active participation in recent development hearings.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Likely estate/heir ownership; no recent public activity.",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Approach via mail to the address on file to identify current executor or heir. Acknowledge the family's long-standing presence in the area (Legacy/Heritage)."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Public records indicate that John A. Plitt predeceased his wife, Betty M. Plitt, who passed away in 2018",
+          "url": "https://www.kirkleyruddickfuneralhome.com/obituaries/betty-plitt",
+          "title": "Obituary for Betty M. Plitt",
+          "date": "2018-10-18"
+        },
+        {
+          "claim": "The property may currently be held by his estate or heirs, including a surviving grandson also named John Plitt",
+          "url": "https://www.kirkleyruddickfuneralhome.com/obituaries/betty-plitt",
+          "title": "Obituary for Betty M. Plitt",
+          "date": "2018-10-18"
+        }
+      ],
+      "verification_notes": "John A. Plitt appears to be deceased (pre-2018). The draft profile likely refers to the estate or a descendant with the same name. Adjusted claims to reflect the obituary record."
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 962527,
+    "thinking_count": 33
+  }
+}

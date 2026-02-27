@@ -1,37 +1,37 @@
 {
-  "run_id": "a271e524-2701-432f-b414-9e77dedb85b0",
-  "coordinates": "43.273991,-89.394502",
-  "state_code": "WI",
+  "run_id": "6a876af9-4d3c-4853-8491-2cc2ada15964",
+  "coordinates": "39.228953,-76.712985",
+  "state_code": "MD",
   "parcels_analyzed": 30,
   "community_wealth_proxy": {
-    "valid_samples": 8,
-    "median_structure_value": 162350.0,
-    "formatted": "$162,350",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 21,
+    "median_structure_value": 292700.0,
+    "formatted": "$292,700",
+    "risk_level": "MEDIUM",
+    "risk_class": "risk-medium"
   },
   "land_value_proxy": {
-    "valid_samples": 24,
-    "median_value_per_acre": 320.69741616764895,
-    "formatted": "$321/acre",
-    "risk_level": "LOW",
-    "risk_class": "risk-low"
+    "valid_samples": 7,
+    "median_value_per_acre": 43445.15292375808,
+    "formatted": "$43,445/acre",
+    "risk_level": "HIGH",
+    "risk_class": "risk-high"
   },
-  "total_property_value": 1511100.0,
-  "total_land_value": 990200.0,
+  "total_property_value": 6830800.0,
+  "total_land_value": 3859400.0,
   "final_radius_miles": 0.5,
   "template_variables": {
-    "median_structure_value": "$162,350",
-    "wealth_risk_level": "LOW",
-    "wealth_risk_class": "risk-low",
-    "wealth_valid_samples": "8",
-    "median_land_value_acre": "$321/acre",
-    "land_risk_level": "LOW",
-    "land_risk_class": "risk-low",
-    "land_valid_samples": "24",
+    "median_structure_value": "$292,700",
+    "wealth_risk_level": "MEDIUM",
+    "wealth_risk_class": "risk-medium",
+    "wealth_valid_samples": "21",
+    "median_land_value_acre": "$43,445/acre",
+    "land_risk_level": "HIGH",
+    "land_risk_class": "risk-high",
+    "land_valid_samples": "7",
     "parcels_analyzed": "30",
-    "total_property_value": "$1,511,100",
-    "total_land_value": "$990,200",
+    "total_property_value": "$6,830,800",
+    "total_land_value": "$3,859,400",
     "final_radius_miles": "0.50"
   }
 }

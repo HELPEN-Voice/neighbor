@@ -1,0 +1,169 @@
+{
+  "timestamp": "2026-02-26T14:37:14.234254",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143041_3930.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Stephen L. Frushon",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "1311150281"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Stephen L. Frushon is a private landowner and resident of Baltimore County, Maryland [National Public Data](https://nationalpublicdata.com/people/f/stephen-frushon/). While he has no documented history of intervening in land use or development hearings, he has demonstrated support for local institutions, appearing as a donor to the University of Maryland Baltimore County (UMBC) Albin O. Kuhn Library & Gallery in 2011 [UMBC Friends of the Library Newsletter](https://library.umbc.edu/friends/publications/Friends_of_the_Library_Newsletter2012.pdf). His stance on renewable energy development remains undocumented in public news and meeting records.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private citizen with no identified leadership roles",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet",
+          "aesthetics_viewshed"
+        ],
+        "engage": "Approach as a private resident with potential ties to the local university community. Focus on maintaining the quiet enjoyment of his property, as he has no public track record of activism."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Stephen L. Frushon is a private landowner and resident of Baltimore County, Maryland",
+          "url": "https://nationalpublicdata.com/people/f/stephen-frushon/",
+          "title": "Stephen L Frushon - National Public Data",
+          "date": "2026-02-26"
+        },
+        {
+          "claim": "Appearing as a donor to the University of Maryland Baltimore County (UMBC) Albin O. Kuhn Library & Gallery in 2011",
+          "url": "https://library.umbc.edu/friends/publications/Friends_of_the_Library_Newsletter2012.pdf",
+          "title": "Friends of the Library & Gallery Newsletter",
+          "date": "2011-12-16"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Edward Heise",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "2200016403"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Edward Heise is a property owner in Baltimore County and has been identified in local media as a \"native Arbutuan\" (native of Arbutus, MD) [Patch Arbutus](https://patch.com/maryland/arbutus/heisters-grill-opens-in-arbutus). He is the husband of Leslie Heise, the proprietor of Heister's Grill in Arbutus, establishing him as part of a local business family [Patch Arbutus](https://patch.com/maryland/arbutus/heisters-grill-opens-in-arbutus). Additionally, an Edward Heise is listed as the principal officer for Relief Resources Inc., a non-profit organization based in Halethorpe, MD [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/521769222/202502889349302615/full). Despite his long-standing residency and business connections, he has not publicly taken a stance on solar or development projects in county hearings.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Local business family connection; no political office found",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "local_control",
+          "property_value"
+        ],
+        "engage": "Engage with respect for his status as a lifelong resident ('native Arbutuan') and local business stakeholder. Frame the project as compatible with the long-term economic health of the community he has invested in."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Identified in local media as a 'native Arbutuan' and husband of Heister's Grill proprietor",
+          "url": "https://patch.com/maryland/arbutus/heisters-grill-opens-in-arbutus",
+          "title": "Heister's Grill Opens in Arbutus",
+          "date": "2011-10-11"
+        },
+        {
+          "claim": "Listed as principal officer for Relief Resources Inc. in Halethorpe, MD",
+          "url": "https://projects.propublica.org/nonprofits/organizations/521769222/202502889349302615/full",
+          "title": "Relief Resources Inc - Full Filing - Nonprofit Explorer",
+          "date": "2025-10-15"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "State Of Maryland State Roads Commission",
+      "entity_category": "Organization",
+      "entity_type": "Organization",
+      "pins": [
+        "1319848711",
+        "1319848608",
+        "1319848621"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The State Roads Commission (part of the Maryland Department of Transportation/MDOT) actively supports renewable energy development on its properties. MDOT established a 'Renewable Energy Master Contract' approved by the Board of Public Works in 2018 to install solar photovoltaic systems on state-owned rights-of-way and facilities [MDOT Solar Program](https://www.mdot.maryland.gov/tso/pages/Index.aspx?PageId=155). The agency views these projects as opportunities to generate revenue through land leases and meet state greenhouse gas reduction goals, having identified over 800 facilities for potential PV system development [FHWA Value Capture](https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/maryland_solar_program.aspx). They have previously solicited master contractors to develop solar projects with no capital investment required from the state [FHWA Value Capture](https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/maryland_solar_program.aspx).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "State agency with regulatory authority over ROW",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "fair_contracting"
+        ],
+        "engage": "Approach via MDOT's existing Office of Environment or Real Estate. Reference their Renewable Energy Master Contract and propose alignment with their GHG reduction goals (40% by 2030)."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Established a Renewable Energy Master Contract to install solar on rights-of-way",
+          "url": "https://www.mdot.maryland.gov/tso/pages/Index.aspx?PageId=155",
+          "title": "MDOT Solar Energy Contract",
+          "date": "2026-02-26"
+        },
+        {
+          "claim": "Identified over 800 facilities for potential PV development to meet GHG goals",
+          "url": "https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/maryland_solar_program.aspx",
+          "title": "Maryland Solar Program: Value Capture",
+          "date": "2026-02-26"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 517171,
+    "thinking_count": 28
+  }
+}

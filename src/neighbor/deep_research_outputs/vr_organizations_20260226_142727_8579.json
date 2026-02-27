@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-02-26T14:53:25.791640",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260226_142727_8579.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "CBM LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "1311150280"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "CBM LLC is a Maryland limited liability company that owns the parcel at 5301 Keech Road in Halethorpe ([Baltimore County Administrative Hearings](https://www.baltimorecountymd.gov/departments/communityupdates/d1/220615d1)). The entity is managed by Chetan B. Mehta, with a mailing address in Ellicott City/Columbia, Maryland ([Baltimore County Administrative Hearings](https://www.baltimorecountymd.gov/departments/communityupdates/d1/220615d1)). While the entity has largely held the property for investment, it applied for a zoning variance in June 2022 (Case No. 2022-0096-A) to construct a 21-foot tall accessory garage on the 34-acre property ([Baltimore County Administrative Hearings](https://www.baltimorecountymd.gov/departments/communityupdates/d1/220615d1)). This contradicts the notion of zero development activity, indicating active management of the site for personal or minor accessory use. The property was the subject of prior litigation (Acorn Land LLC v. Baltimore County) regarding downzoning in 2008, which restricted its development potential ([Justia](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Single-property holder with minor zoning activity (garage variance); no evidence of broader community leadership or political influence found.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value preservation",
+          "Personal use (garage application)"
+        ],
+        "engage": "Engage principal owner Chetan B. Mehta regarding the project's impact on his recent improvements (garage) and potential land value; establishing a direct line of communication is recommended given his active management of the site's zoning compliance."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": "CBM LLC (Chetan B. Mehta) owns the adjacent 34-acre tract. While primarily a land holding entity, they actively engaged the zoning process in 2022 to build a large accessory garage.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Owner of 5301 Keech Road and Chetan B. Mehta management",
+          "url": "https://www.baltimorecountymd.gov/departments/communityupdates/d1/220615d1",
+          "title": "Baltimore County District 1 Community Updates June 2022",
+          "date": "2022-06-15"
+        },
+        {
+          "claim": "Applied for zoning variance Case No. 2022-0096-A in 2022",
+          "url": "https://www.baltimorecountymd.gov/departments/adminhearings/decisions/fy2022",
+          "title": "2022 Administrative Law Decisions - Baltimore County",
+          "date": "2022-06-01"
+        },
+        {
+          "claim": "Prior litigation regarding downzoning (Acorn Land LLC)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html",
+          "title": "Acorn Land LLC v. Baltimore County (2010)",
+          "date": "2011-03-15"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Baltimore County, MD",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "1302190447"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Baltimore County exercises zoning and development authority over the project area. In 2025, the County Council adopted restrictive legislation targeting solar development, specifically Bill 18-25, which prohibits new solar facilities within 1,000 feet of an existing facility or residential building ([Baltimore County Council](https://countycouncilweb.s3.amazonaws.com/Bills%202025/b01825.pdf)). Additionally, Bill 21-25 was introduced to prohibit solar facilities on \"prime farmland\" ([Baltimore County Auditor](https://www.baltimorecountymd.gov/files/departments/auditor/documents/notespackage20250505.pdf)). These local restrictions are in tension with the Maryland Renewable Energy Certainty Act (effective July 1, 2025), which aims to standardize solar siting and limit local zoning preemption ([Maryland League of Conservation Voters](https://www.mdlcv.org/reca)). The County has a history of downzoning properties in this specific area to curb density, as seen in the Acorn Land litigation ([Justia](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "As the regulatory authority, the County's recent legislative actions (Bill 18-25) directly impact project viability and siting feasibility.",
+      "approach_recommendations": {
+        "motivations": [
+          "Preservation of rural character",
+          "Prevention of solar clustering",
+          "Protection of prime farmland"
+        ],
+        "engage": "Engage planning staff immediately to interpret the applicability of Bill 18-25's 1,000-foot buffer and Bill 21-25's soil restrictions to this specific site; leverage the state-level Renewable Energy Certainty Act if local restrictions prove prohibitive."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": "Baltimore County acts as the primary regulator. While officially a neutral arbiter, the Council has recently passed restrictive ordinances (2025) to limit solar clustering and farmland conversion.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Passed Bill 18-25 prohibiting solar within 1,000 feet of other facilities",
+          "url": "https://countycouncilweb.s3.amazonaws.com/Bills%202025/b01825.pdf",
+          "title": "Bill 18-25 Zoning Regulations – Solar Facilities – Proximity Requirements",
+          "date": "2025-05-22"
+        },
+        {
+          "claim": "Bill 21-25 prohibits solar on prime farmland",
+          "url": "https://www.baltimorecountymd.gov/files/departments/auditor/documents/notespackage20250505.pdf",
+          "title": "Baltimore County Auditor Notes - Bill 21-25",
+          "date": "2025-05-05"
+        },
+        {
+          "claim": "Maryland Renewable Energy Certainty Act limits local preemption",
+          "url": "https://www.mdlcv.org/reca",
+          "title": "Maryland LCV - Renewable Energy Certainty Act",
+          "date": "2025-05-21"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Baltimore Gas & Electric Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "1307830320"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Baltimore Gas and Electric Company (BGE), a subsidiary of Exelon, is the regional utility operator. BGE is currently undertaking the \"Tri-County Transmission Upgrade Project,\" a major infrastructure initiative to upgrade 59 miles of transmission lines and substations across Baltimore, Harford, and Howard counties through 2026 ([BGE Project Website](https://goodenergyinprogress.com/project/tri-county-transmission-upgrade-project/)). Specific upgrades include the Granite Substation and the Conastone to Northwest lines ([Baltimore County EPS](https://www.baltimorecountymd.gov/files/departments/environmental-protection-and-sustainability/documents/baltimoregasandelectricgranitesubstation04254458on20251216.pdf)). BGE maintains strict rights regarding its easements and has historically litigated to prevent interference with its facilities ([Patch](https://patch.com/maryland/perryhall/power-line-protest-meets-opposition-bge-says-wires-are-necessary)). They facilitate interconnection but require strict adherence to safety setbacks and right-of-way access.",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Controls critical interconnection infrastructure and right-of-way; currently active in the region with the Tri-County Transmission Upgrade Project.",
+      "approach_recommendations": {
+        "motivations": [
+          "Grid reliability",
+          "Infrastructure protection",
+          "Capacity upgrades"
+        ],
+        "engage": "Coordinate with BGE's Tri-County project team to ensure no conflict with their ongoing transmission upgrades; verify interconnection capacity at the Granite or nearby substations given the active expansion work."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": "BGE is the regional utility currently executing the massive Tri-County Transmission Upgrade Project (2025-2026). They are a critical partner for interconnection but strictly protect their easements.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Undertaking Tri-County Transmission Upgrade Project through 2026",
+          "url": "https://goodenergyinprogress.com/project/tri-county-transmission-upgrade-project/",
+          "title": "BGE Tri-County Transmission Upgrade Project Overview",
+          "date": "2025-10-21"
+        },
+        {
+          "claim": "Upgrades to Granite Substation and Conastone lines",
+          "url": "https://www.baltimorecountymd.gov/files/departments/environmental-protection-and-sustainability/documents/baltimoregasandelectricgranitesubstation04254458on20251216.pdf",
+          "title": "Baltimore County EPS Variance Request - Granite Substation",
+          "date": "2025-12-16"
+        },
+        {
+          "claim": "Litigates to protect easements",
+          "url": "https://patch.com/maryland/perryhall/power-line-protest-meets-opposition-bge-says-wires-are-necessary",
+          "title": "Power Line Protest Meets Opposition",
+          "date": "2011-06-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 485959,
+    "thinking_count": 21
+  }
+}

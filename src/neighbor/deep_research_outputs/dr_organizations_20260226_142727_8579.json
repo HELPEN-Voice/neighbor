@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-26T14:27:27.858017",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Baltimore County",
+    "state": "MD",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Adjacent landowners include a private investment LLC, the county government, and the regional utility company. CBM LLC appears to be a land-holding entity tied to an individual investor (acquired a former development tract after a zoning dispute), suggesting a speculative stance. Baltimore County’s ownership reflects the local government’s direct presence and regulatory influence. Baltimore Gas & Electric’s involvement indicates critical infrastructure nearby, though as a utility it is likely neutral on development apart from protecting its facilities.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "CBM LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "1311150280"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "CBM LLC is a Maryland limited liability company that purchased a 34.762-acre parcel at 5301 Keech Road in Halethorpe on July 20, 2011 for $588,500 (deed recorded in Liber 31018, Folio 188) [Maryland SDAT Real Property](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?AccountNumber=1311150280&County=04&District=13). The LLC’s tax mailing address is listed as “C/O Chetan Bharat Mehta” at a residential address in Columbia, Maryland, indicating it is managed by an individual investor[Maryland SDAT Real Property】. Public records show the parcel was previously downzoned in 2008 (halving its permitted housing density and removing planned water/sewer service), which led the prior owner (Acorn Land LLC) to sue Baltimore County over the lost development potential [Justia – Acorn Land LLC v. Baltimore County (2010)](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html). Since acquiring the property, CBM LLC has not publicly proposed any development, suggesting it is holding the land for long-term investment (no other business activities or additional properties are evident in Maryland filings).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Owns 35 acres but no known local presence; single-property investor with no evident community role or political ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage principal owner Chetan B. Mehta directly to discuss the project’s benefits or potential land deals; emphasize financial upside (e.g. purchase offer or partnership) to align his interest with the development and mitigate any concerns"
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Baltimore County, MD",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "1302190447"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Baltimore County, Maryland is the local government (chartered as a “body corporate and politic”) that holds regulatory authority over zoning and development in this area [Justia – Acorn Land LLC v. Baltimore County (2010)](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html). The County’s Department of Planning has a mandate to implement the Master Plan by “promoting and preserving safe and sustainable communities of a high aesthetic quality” through careful review of land use proposals [Baltimore County Planning Dept.](https://www.baltimorecountymd.gov/departments/planning/development-land-use). In practice, Baltimore County has resisted intensive development on this specific tract in the past — the County Council downzoned the parcel to rural residential (RC-5) in 2008 and even “dug in its heels” by denying public water/sewer access, effectively blocking the previous owner’s subdivision plans [Justia – Acorn Land LLC v. Baltimore County (2010)](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html). As a neighbor and the permitting authority, the County is unlikely to take an outright “for” or “against” stance outside its official processes, instead ensuring any development meets public requirements and community standards.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Local government controls zoning, infrastructure approvals, and holds direct sway over project permitting; its policies can determine project viability",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage through formal channels – work with County planning staff and elected officials to demonstrate alignment with the Master Plan and community benefits; address any county technical requirements or concerns proactively to secure support or at least neutral facilitation"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Baltimore Gas & Electric Co",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "1307830320"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Baltimore Gas and Electric Company (BGE) is Maryland’s largest electric and gas utility, serving the Baltimore region, and is a subsidiary of Exelon Corporation [Wikipedia – Baltimore Gas & Electric](https://en.wikipedia.org/wiki/Baltimore_Gas_and_Electric). BGE owns and operates critical infrastructure (transmission lines, substations, gas pipelines) across Baltimore County and regularly undertakes major upgrades to maintain reliable service – for example, it announced new transmission lines spanning Baltimore and Harford counties to address regional power needs in 2025 [CBS Baltimore](https://www.cbsnews.com/baltimore/news/maryland-bge-electric-transmission-lines-construction/). The company generally does not publicly oppose or endorse unrelated land developments, but it will coordinate to connect new projects to the grid and protect its infrastructure easements. BGE has explicitly asserted its “unrestricted rights to construct, operate, modify, and maintain” its facilities and has taken a firm stance that property owners may not interfere with existing or future utility equipment [Patch – Power Line Dispute](https://patch.com/maryland/perryhall/power-line-protest-meets-opposition-bge-says-wires-are-necessary).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Dominant regional utility with significant resources and essential services; longstanding presence and political/regulatory clout, though typically focused on infrastructure needs rather than local politics",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate early with BGE’s engineering/operations teams regarding the project’s utility needs or proximity to their lines; ensure all plans respect BGE easements and address any safety concerns, turning the utility into a logistical partner rather than a potential obstacle"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Adjacent landowners include a private investment LLC, the county government, and the regional utility company. CBM LLC appears to be a land-holding entity tied to an individual investor (acquired a former development tract after a zoning dispute), suggesting a speculative stance. Baltimore County’s ownership reflects the local government’s direct presence and regulatory influence. Baltimore Gas & Electric’s involvement indicates critical infrastructure nearby, though as a utility it is likely neutral on development apart from protecting its facilities.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"CBM LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"1311150280\"],\n      \"claims\": \"CBM LLC is a Maryland limited liability company that purchased a 34.762-acre parcel at 5301 Keech Road in Halethorpe on July 20, 2011 for $588,500 (deed recorded in Liber 31018, Folio 188) [Maryland SDAT Real Property](https://sdat.dat.maryland.gov/RealProperty/Pages/viewdetails.aspx?AccountNumber=1311150280&County=04&District=13). The LLC’s tax mailing address is listed as “C/O Chetan Bharat Mehta” at a residential address in Columbia, Maryland, indicating it is managed by an individual investor【Maryland SDAT Real Property】. Public records show the parcel was previously downzoned in 2008 (halving its permitted housing density and removing planned water/sewer service), which led the prior owner (Acorn Land LLC) to sue Baltimore County over the lost development potential [Justia – Acorn Land LLC v. Baltimore County (2010)](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html). Since acquiring the property, CBM LLC has not publicly proposed any development, suggesting it is holding the land for long-term investment (no other business activities or additional properties are evident in Maryland filings)【Maryland SDAT Real Property】.\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Owns 35 acres but no known local presence; single-property investor with no evident community role or political ties\",\n      \"entity_classification\": \"speculation\",\n      \"potential_motivators\": [\"Land value appreciation\", \"Future development opportunity\", \"Avoiding any project that might reduce property value\"],\n      \"approach_recommendations\": \"Engage principal owner Chetan B. Mehta directly to discuss the project’s benefits or potential land deals; emphasize financial upside (e.g. purchase offer or partnership) to align his interest with the development and mitigate any concerns\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Baltimore County, MD\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"municipal\",\n      \"pins\": [\"1302190447\"],\n      \"claims\": \"Baltimore County, Maryland is the local government (chartered as a “body corporate and politic”) that holds regulatory authority over zoning and development in this area [Justia – Acorn Land LLC v. Baltimore County (2010)](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html). The County’s Department of Planning has a mandate to implement the Master Plan by “promoting and preserving safe and sustainable communities of a high aesthetic quality” through careful review of land use proposals [Baltimore County Planning Dept.](https://www.baltimorecountymd.gov/departments/planning/development-land-use). In practice, Baltimore County has resisted intensive development on this specific tract in the past — the County Council downzoned the parcel to rural residential (RC-5) in 2008 and even “dug in its heels” by denying public water/sewer access, effectively blocking the previous owner’s subdivision plans [Justia – Acorn Land LLC v. Baltimore County (2010)](https://law.justia.com/cases/federal/appellate-courts/ca4/09-2150/092150.u-2011-03-15.html). As a neighbor and the permitting authority, the County is unlikely to take an outright “for” or “against” stance outside its official processes, instead ensuring any development meets public requirements and community standards【Baltimore County Planning Dept.】.\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Local government controls zoning, infrastructure approvals, and holds direct sway over project permitting; its policies can determine project viability\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Compliance with county land-use plans\", \"Public interests (infrastructure, environment)\", \"Community feedback/political considerations\"],\n      \"approach_recommendations\": \"Engage through formal channels – work with County planning staff and elected officials to demonstrate alignment with the Master Plan and community benefits; address any county technical requirements or concerns proactively to secure support or at least neutral facilitation\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Baltimore Gas & Electric Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"1307830320\"],\n      \"claims\": \"Baltimore Gas and Electric Company (BGE) is Maryland’s largest electric and gas utility, serving the Baltimore region, and is a subsidiary of Exelon Corporation [Wikipedia – Baltimore Gas & Electric](https://en.wikipedia.org/wiki/Baltimore_Gas_and_Electric). BGE owns and operates critical infrastructure (transmission lines, substations, gas pipelines) across Baltimore County and regularly undertakes major upgrades to maintain reliable service – for example, it announced new transmission lines spanning Baltimore and Harford counties to address regional power needs in 2025 [CBS Baltimore](https://www.cbsnews.com/baltimore/news/maryland-bge-electric-transmission-lines-construction/). The company generally does not publicly oppose or endorse unrelated land developments, but it will coordinate to connect new projects to the grid and protect its infrastructure easements. BGE has explicitly asserted its “unrestricted rights to construct, operate, modify, and maintain” its facilities and has taken a firm stance that property owners may not interfere with existing or future utility equipment [Patch – Power Line Dispute](https://patch.com/maryland/perryhall/power-line-protest-meets-opposition-bge-says-wires-are-necessary).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Dominant regional utility with significant resources and essential services; longstanding presence and political/regulatory clout, though typically focused on infrastructure needs rather than local politics\",\n      \"entity_classification\": \"other (utility)\",\n      \"potential_motivators\": [\"Grid reliability and safety\", \"Regulatory compliance obligations\", \"Protection of utility assets/easements\"],\n      \"approach_recommendations\": \"Coordinate early with BGE’s engineering/operations teams regarding the project’s utility needs or proximity to their lines; ensure all plans respect BGE easements and address any safety concerns, turning the utility into a logistical partner rather than a potential obstacle\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
