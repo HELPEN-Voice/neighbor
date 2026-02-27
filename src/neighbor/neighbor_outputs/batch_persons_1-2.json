@@ -1,0 +1,81 @@
+{
+  "batch_idx": 0,
+  "total_batches": 2,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Municipal Authority of the Borough of Minersville",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "05020004.000",
+        "05050002.004",
+        "17010006.000",
+        "17030001.000",
+        "17030008.003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Municipal Authority of the Borough of Minersville was incorporated in 1941 to manage local water services [Waterworks History](https://www.waterworkshistory.us/PA/Minersville/). It provides water service to Minersville Borough [Waterworks History](https://www.waterworkshistory.us/PA/Minersville/); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Public utility authority",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table for engagement recommendations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Schuylkill Economic Development Corporation (SEDCO)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "05020002.011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "SEDCO exists to \"stimulate and influence the process of economic development\" in Schuylkill County [SEDCO](https://www.sed-co.com/about-sedco/). State Senator David Argall has called SEDCO a \"tireless partner\" in bringing new jobs and opportunities to the county [Senator Argall](https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Economic development leader",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table for engagement recommendations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Two neighboring landowners were identified, both of which are organizations rather than private residents. They consist of a municipal utility authority and an economic development corporation, neither of which has a documented stance on local development proposals (both are marked Unknown). Both entities wield significant institutional influence in the community due to their official roles.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101126_2675.json",
+  "cached_at": "2026-02-27T10:11:26.268174"
+}

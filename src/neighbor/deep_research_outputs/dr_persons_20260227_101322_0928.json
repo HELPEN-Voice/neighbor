@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-02-27T10:13:22.092888",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "All three profiled neighbors are landowners with no clearly documented stance on development or energy projects. One is a state agency holding extensive game lands (high influence due to its institutional authority), while the other two are private owners with limited or no visible community involvement (low overall influence).",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Penn Comm Of Game Commission",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "04090029.000",
+        "04060055.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Pennsylvania Game Commission manages over 1.5 million acres of state game lands across the Commonwealth [PA Game Commission](https://www.pa.gov/en/agencies/pgc/huntingandtrapping/where-to-hunt/state-game-lands.html). This includes several State Game Lands located in Schuylkill County, indicating the agency is a major landholder in the area [PA Game Commission](https://www.pa.gov/en/agencies/pgc/huntingandtrapping/where-to-hunt/state-game-lands.html).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "State agency; major landholder",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat"
+        ],
+        "engage": "Coordinate with the Game Commission’s regional office and emphasize wildlife habitat protections to address any concerns."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fanelli Limited Partnership I",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "05020006.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fanelli Limited Partnership I is a private Pennsylvania partnership identified in county records as a landowner in Schuylkill County [Schuylkill County Assessment](https://gis.vgsi.com/SchuylkillCountyPA/). The partnership’s principals maintain a low public profile, with no mention found in local news or civic records, suggesting it functions mainly as a passive property holding entity.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out discreetly via the partnership’s registered agent or mailing address to understand their interests, as direct community channels are absent."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Thomas Milowicki",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "05050003.006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas Milowicki is listed as an owner of property in the area but appears to reside outside Schuylkill County. He was noted in federal court filings as the owner of a firearms range business in southeastern Pennsylvania [Justia](https://law.justia.com/cases/federal/district-courts/pennsylvania/paedce/5:2015cv02485/504276/14/), indicating his primary business and likely residence are not local.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee owner; no local ties",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via direct contact (e.g., phone or mail) focusing on factual project information, as he is an absentee owner with no known local involvement."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"All three profiled neighbors are landowners with no clearly documented stance on development or energy projects. One is a state agency holding extensive game lands (high influence due to its institutional authority), while the other two are private owners with limited or no visible community involvement (low overall influence).\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Penn Comm Of Game Commission\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"Organization\",\n      \"pins\": [\"04090029.000\", \"04060055.000\"],\n      \"claims\": \"The Pennsylvania Game Commission manages over 1.5 million acres of state game lands across the Commonwealth [PA Game Commission](https://www.pa.gov/en/agencies/pgc/huntingandtrapping/where-to-hunt/state-game-lands.html). This includes several State Game Lands located in Schuylkill County, indicating the agency is a major landholder in the area [PA Game Commission](https://www.pa.gov/en/agencies/pgc/huntingandtrapping/where-to-hunt/state-game-lands.html).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"State agency; major landholder\",\n      \"approach_recommendations\": {\n        \"motivations\": [\"wildlife_habitat\"],\n        \"engage\": \"Coordinate with the Game Commission’s regional office and emphasize wildlife habitat protections to address any concerns.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Fanelli Limited Partnership I\",\n      \"entity_category\": \"See ORG table\",\n      \"entity_type\": \"Organization\",\n      \"pins\": [\"05020006.000\"],\n      \"claims\": \"Fanelli Limited Partnership I is a private Pennsylvania partnership identified in county records as a landowner in Schuylkill County [Schuylkill County Assessment](https://gis.vgsi.com/SchuylkillCountyPA/). The partnership’s principals maintain a low public profile, with no mention found in local news or civic records, suggesting it functions mainly as a passive property holding entity.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out discreetly via the partnership’s registered agent or mailing address to understand their interests, as direct community channels are absent.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Thomas Milowicki\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"05050003.006\"],\n      \"claims\": \"Thomas Milowicki is listed as an owner of property in the area but appears to reside outside Schuylkill County. He was noted in federal court filings as the owner of a firearms range business in southeastern Pennsylvania [Justia](https://law.justia.com/cases/federal/district-courts/pennsylvania/paedce/5:2015cv02485/504276/14/), indicating his primary business and likely residence are not local.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Absentee owner; no local ties\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage via direct contact (e.g., phone or mail) focusing on factual project information, as he is an absentee owner with no known local involvement.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

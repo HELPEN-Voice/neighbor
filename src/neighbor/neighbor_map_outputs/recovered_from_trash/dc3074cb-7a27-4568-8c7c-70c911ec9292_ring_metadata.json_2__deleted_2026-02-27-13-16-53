@@ -1,0 +1,83 @@
+{
+  "ring_stats": [
+    {
+      "ring": 1,
+      "inner_mi": 0.0,
+      "outer_mi": 1.07,
+      "count": 3,
+      "oppose": 0,
+      "support": 3,
+      "neutral": 0,
+      "unknown": 0,
+      "sentiment": "support",
+      "high_oppose": 0,
+      "high_support": 3,
+      "high_neutral": 0,
+      "high_unknown": 0,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 0
+    },
+    {
+      "ring": 2,
+      "inner_mi": 1.07,
+      "outer_mi": 1.43,
+      "count": 7,
+      "oppose": 0,
+      "support": 2,
+      "neutral": 3,
+      "unknown": 2,
+      "sentiment": "neutral",
+      "high_oppose": 0,
+      "high_support": 2,
+      "high_neutral": 2,
+      "high_unknown": 1,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 0
+    },
+    {
+      "ring": 3,
+      "inner_mi": 1.43,
+      "outer_mi": 1.8,
+      "count": 5,
+      "oppose": 1,
+      "support": 3,
+      "neutral": 0,
+      "unknown": 1,
+      "sentiment": "support",
+      "high_oppose": 1,
+      "high_support": 2,
+      "high_neutral": 0,
+      "high_unknown": 0,
+      "medium_oppose": 0,
+      "medium_support": 1,
+      "medium_neutral": 0,
+      "medium_unknown": 0
+    }
+  ],
+  "metadata": {
+    "run_id": "dc3074cb-7a27-4568-8c7c-70c911ec9292",
+    "generated_at": "2026-02-27T13:16:50.891280",
+    "center_lon": -76.27474365951052,
+    "center_lat": 40.741966281802,
+    "boundaries_mi": [
+      0.0,
+      1.0711,
+      1.4251,
+      1.798
+    ],
+    "total_neighbors_mapped": 15,
+    "total_neighbors": 15,
+    "strategy_used": "geojson",
+    "url_length": 6657,
+    "settings": {
+      "width": 800,
+      "height": 450,
+      "style": "satellite-streets-v12",
+      "retina": true
+    }
+  }
+}

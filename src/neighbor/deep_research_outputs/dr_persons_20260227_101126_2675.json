@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-02-27T10:11:26.267586",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Two neighboring landowners were identified, both of which are organizations rather than private residents. They consist of a municipal utility authority and an economic development corporation, neither of which has a documented stance on local development proposals (both are marked Unknown). Both entities wield significant institutional influence in the community due to their official roles.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Municipal Authority of the Borough of Minersville",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "05020004.000",
+        "05050002.004",
+        "17010006.000",
+        "17030001.000",
+        "17030008.003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Municipal Authority of the Borough of Minersville was incorporated in 1941 to manage local water services [Waterworks History](https://www.waterworkshistory.us/PA/Minersville/). It provides water service to Minersville Borough [Waterworks History](https://www.waterworkshistory.us/PA/Minersville/); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Public utility authority",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table for engagement recommendations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Schuylkill Economic Development Corporation (SEDCO)",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "05020002.011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "SEDCO exists to \"stimulate and influence the process of economic development\" in Schuylkill County [SEDCO](https://www.sed-co.com/about-sedco/). State Senator David Argall has called SEDCO a \"tireless partner\" in bringing new jobs and opportunities to the county [Senator Argall](https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/); see ORG table.",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Economic development leader",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "See ORG table for engagement recommendations."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Two neighboring landowners were identified, both of which are organizations rather than private residents. They consist of a municipal utility authority and an economic development corporation, neither of which has a documented stance on local development proposals (both are marked Unknown). Both entities wield significant institutional influence in the community due to their official roles.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Municipal Authority of the Borough of Minersville\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"05020004.000\", \"05050002.004\", \"17010006.000\", \"17030001.000\", \"17030008.003\"],\n      \"claims\": \"The Municipal Authority of the Borough of Minersville was incorporated in 1941 to manage local water services [Waterworks History](https://www.waterworkshistory.us/PA/Minersville/). It provides water service to Minersville Borough [Waterworks History](https://www.waterworkshistory.us/PA/Minersville/); see ORG table.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Public utility authority\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"See ORG table for engagement recommendations.\"\n      },\n      \"confidence\": \"High\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Schuylkill Economic Development Corporation (SEDCO)\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"05020002.011\"],\n      \"claims\": \"SEDCO exists to \\\"stimulate and influence the process of economic development\\\" in Schuylkill County [SEDCO](https://www.sed-co.com/about-sedco/). State Senator David Argall has called SEDCO a \\\"tireless partner\\\" in bringing new jobs and opportunities to the county [Senator Argall](https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/); see ORG table.\",\n      \"noted_stance\": \"Support\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Economic development leader\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"See ORG table for engagement recommendations.\"\n      },\n      \"confidence\": \"High\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-02-27T10:32:44.818282",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101048_7659.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Minersville Municipal Authority",
+      "entity_category": "Organization",
+      "entity_type": "municipal_authority",
+      "pins": [
+        "05020001.000",
+        "04100001.001",
+        "04100001.000",
+        "05010001.000",
+        "04060056.000",
+        "04060056.001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Minersville Municipal Authority is a public water utility serving Minersville Borough and portions of Cass Township [Cass Township](https://www.casstownship.org/services/water). The Authority is governed by a board chaired by Michael Andruchek, with Melanie Spittler serving as the full-time Manager [Minersville Borough](https://minersvillepa.gov/services/water-authority/). In early 2025, the Authority was actively negotiating the sale of Authority-owned property to Northpoint Development for the construction of a data center, with a reported potential purchase price of nearly $23 million [Minersville Borough](https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/). The Authority also maintains an existing lease agreement with Green Energy for a windmill located on its property, for which it receives annual payments [Minersville Borough](https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/). The Authority actively manages infrastructure projects, including a $2 million grant-funded upgrade to ultraviolet disinfection systems [Rep. Tim Twardzik](https://www.reptimtwardzik.com/News/36065/Latest-News/Twardzik--Argall-Secure-$2-Million-for-Minersville-Sewer-Upgrade) and a water line replacement project funded by the Commonwealth Financing Authority [Skook News](https://www.skooknews.com/2026/01/more-than-3-million-headed-to.html).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Controls critical water infrastructure for the region; actively negotiating multi-million dollar land deals with industrial developers; board members include local officials.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue generation",
+          "Infrastructure modernization",
+          "Asset monetization"
+        ],
+        "engage": "Engage Manager Melanie Spittler and Chairman Michael Andruchek immediately. Acknowledge their existing relationship with Northpoint Development and Green Energy. Position the project as complementary to their current revenue streams (wind/data center) and ensure the protection of their watershed and reservoir assets."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": "Municipal water authority actively engaging in industrial land sales (data centers) and renewable energy leasing (wind).",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Serves Minersville Borough and portions of Cass Township",
+          "url": "https://www.casstownship.org/services/water",
+          "title": "Cass Township Water Services",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Governed by board chaired by Michael Andruchek with Melanie Spittler as Manager",
+          "url": "https://minersvillepa.gov/services/water-authority/",
+          "title": "Minersville Borough Water Authority Officials",
+          "date": "2025-02-27"
+        },
+        {
+          "claim": "Negotiating sale of property to Northpoint Development for data center for nearly $23 million",
+          "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
+          "title": "Minersville Municipal Authority Minutes February 2025",
+          "date": "2025-02-18"
+        },
+        {
+          "claim": "Receives annual payments from Green Energy for windmill lease",
+          "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
+          "title": "Minersville Municipal Authority Minutes February 2025",
+          "date": "2025-02-18"
+        },
+        {
+          "claim": "Received $2 million grant for UV disinfection system upgrade",
+          "url": "https://www.reptimtwardzik.com/News/36065/Latest-News/Twardzik--Argall-Secure-$2-Million-for-Minersville-Sewer-Upgrade",
+          "title": "Twardzik Argall Secure $2 Million for Minersville Sewer Upgrade",
+          "date": "2025-04-23"
+        },
+        {
+          "claim": "Received funding for water line replacement from Commonwealth Financing Authority",
+          "url": "https://www.skooknews.com/2026/01/more-than-3-million-headed-to.html",
+          "title": "More than $3 million headed to water infrastructure projects",
+          "date": "2026-01-20"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "KSG High Ridge Park 10 LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "05020002.010",
+        "05020002.008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "KSG High Ridge Park 10 LLC is a Pennsylvania limited liability company linked to the Katz & Sterling Group, an industrial real estate investment firm [Bisnow](https://www.bisnow.com/philadelphia/news/deal-sheet/philadelphia-deal-sheet-week-of-may-9-112978). The entity's legal address is associated with Williamsport Holdings L.P. in Lancaster, PA, though related Katz & Sterling entities are connected to property at 100 Industrial Blvd, Stockertown, PA [Eulerpool](https://eulerpool.com/en/company/US-PA/WILLIAMSPORT%20HOLDINGS,%20L.P.,Lancaster,3256486). The 'KSG' designation corresponds to Katz & Sterling Group, whose principals, including Joel Katz, have a history of acquiring and renovating industrial assets in Pennsylvania and New Jersey [GlobeSt](https://www.globest.com/2019/04/09/iconic-former-regina-vacuum-building-sold-by-bussel-realty/). The entity holds land in the Highridge Business Park, operating primarily as a land investment vehicle with no distinct local operational footprint separate from its real estate holdings [SEDCO](https://www.sed-co.com/wp-content/uploads/2025/02/KSG-High-Ridge-Park-50-LLC-taxes-2025-FINAL.pdf). No public record exists of this specific LLC taking a stance on renewable energy development, though its parent organization functions as a commercial landlord and developer [Real Estate NJ](https://re-nj.com/tag/katz-sterling-group/).",
+      "confidence": "medium",
+      "noted_stance": "neutral",
+      "community_influence": "Low",
+      "influence_justification": " absentee commercial landowner; influence is limited to property rights within the industrial park; no evidence of local community leadership roles.",
+      "approach_recommendations": {
+        "motivations": [
+          "Property value appreciation",
+          "Lease revenue",
+          "Industrial compatibility"
+        ],
+        "engage": "Contact principals at Katz & Sterling Group (Joel Katz). Frame the project as an infrastructure enhancement that will not conflict with their industrial logistics operations. Ensure no interference with truck routes or access to their parcels."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Industrial real estate investment vehicle associated with Katz & Sterling Group; likely focused on logistics/warehouse value.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Linked to Katz & Sterling Group, an industrial real estate investment firm",
+          "url": "https://www.bisnow.com/philadelphia/news/deal-sheet/philadelphia-deal-sheet-week-of-may-9-112978",
+          "title": "Philadelphia Deal Sheet: Katz & Sterling Leases Stockertown",
+          "date": "2022-05-11"
+        },
+        {
+          "claim": "Legal address associated with Williamsport Holdings L.P. in Lancaster, PA",
+          "url": "https://eulerpool.com/en/company/US-PA/WILLIAMSPORT%20HOLDINGS,%20L.P.,Lancaster,3256486",
+          "title": "Eulerpool Company Profile: Williamsport Holdings L.P.",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Joel Katz identified as principal of Katz & Sterling",
+          "url": "https://www.globest.com/2019/04/09/iconic-former-regina-vacuum-building-sold-by-bussel-realty/",
+          "title": "Iconic Former Regina Vacuum Building Sold by Bussel Realty",
+          "date": "2019-04-09"
+        },
+        {
+          "claim": "Holds land in Highridge Business Park",
+          "url": "https://www.sed-co.com/wp-content/uploads/2025/02/KSG-High-Ridge-Park-50-LLC-taxes-2025-FINAL.pdf",
+          "title": "SEDCO Tax Document 2025",
+          "date": "2025-02-01"
+        },
+        {
+          "claim": "Parent organization functions as commercial landlord and developer",
+          "url": "https://re-nj.com/tag/katz-sterling-group/",
+          "title": "Real Estate NJ: Katz & Sterling Group Tag",
+          "date": "2019-08-18"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "PPL Electric Utilities Corp",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "05020002.806",
+        "05020002.906"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "PPL Electric Utilities Corporation is a regulated utility serving 1.5 million customers, including Schuylkill County, and is a subsidiary of Allentown-based PPL Corporation [PPL Electric Utilities](https://news.pplweb.com/2025-09-30-PPL-Electric-Utilities-making-necessary-investments-to-strengthen-and-modernize-infrastructure-and-expand-services-and-support-for-customers). The utility actively exercises eminent domain powers to secure rights-of-way for transmission projects when negotiations fail [PPL Electric FAQs](https://www.pplelectric.com/-/media/ppl-jss-app/assets/Home/Landing-Pages/Chanceford/Transmission---Chanceford-500-kV-Project-FAQs---12-21-2023.ashx). PPL is currently advancing the 'Frackville-Columbia' project to rebuild transmission lines and construct a new switchyard in Butler Township specifically to serve a new large-load data center customer [Shenandoah Sentinel](https://shensentinel.com/news/open-house-planned-for-power-company-plans-to-expand-pole-line-build-switchyard-for-new-customer-facility/). The company offers incentive programs for commercial solar installations, providing energy-based incentives for projects that offset grid usage [Solar Tech Online](https://solartechonline.com/blog/ppl-solar-incentives-guide-2025/). PPL filed a Letter of Notification with the PA Public Utility Commission in 2023 regarding reconstruction of the Siegfried-Frackville and Eldred-Frackville 230 kV lines, which are located on property adjacent to their existing Frackville substation [PA PUC](https://www.puc.pa.gov/pcdocs/1799652.pdf).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Sole provider of electric distribution; possesses eminent domain authority; actively building major infrastructure for industrial customers.",
+      "approach_recommendations": {
+        "motivations": [
+          "Grid reliability",
+          "Regulatory compliance",
+          "Load service"
+        ],
+        "engage": "Coordinate with PPL Regional Asset Management regarding the Frackville-Columbia rebuild and the new switchyard. Ensure the proposed project aligns with their interconnection requirements for the new data center load."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": "Regulated utility actively upgrading local transmission infrastructure to support industrial data center growth.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Subsidiary of PPL Corporation serving 1.5 million customers",
+          "url": "https://news.pplweb.com/2025-09-30-PPL-Electric-Utilities-making-necessary-investments-to-strengthen-and-modernize-infrastructure-and-expand-services-and-support-for-customers",
+          "title": "PPL Electric Utilities Rate Request Announcement",
+          "date": "2025-09-30"
+        },
+        {
+          "claim": "Exercises eminent domain powers when negotiations fail",
+          "url": "https://www.pplelectric.com/-/media/ppl-jss-app/assets/Home/Landing-Pages/Chanceford/Transmission---Chanceford-500-kV-Project-FAQs---12-21-2023.ashx",
+          "title": "PPL Transmission Project FAQs",
+          "date": "2024-01-25"
+        },
+        {
+          "claim": "Advancing Frackville-Columbia project to serve new data center customer",
+          "url": "https://shensentinel.com/news/open-house-planned-for-power-company-plans-to-expand-pole-line-build-switchyard-for-new-customer-facility/",
+          "title": "Open house planned for power company plans to expand pole line",
+          "date": "2025-12-06"
+        },
+        {
+          "claim": "Offers incentive programs for commercial solar installations",
+          "url": "https://solartechonline.com/blog/ppl-solar-incentives-guide-2025/",
+          "title": "PPL Solar Incentives Guide 2025",
+          "date": "2025-12-19"
+        },
+        {
+          "claim": "Filed Letter of Notification for Siegfried-Frackville and Eldred-Frackville 230 kV lines reconstruction",
+          "url": "https://www.puc.pa.gov/pcdocs/1799652.pdf",
+          "title": "PA PUC Order on PPL Letter of Notification",
+          "date": "2023-09-21"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 659256,
+    "thinking_count": 30
+  }
+}

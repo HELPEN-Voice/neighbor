@@ -1,0 +1,117 @@
+{
+  "batch_idx": 0,
+  "total_batches": 4,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Minersville Municipal Authority",
+      "entity_category": "Organization",
+      "entity_type": "municipal_authority",
+      "pins": [
+        "05020001.000",
+        "04100001.001",
+        "04100001.000",
+        "05010001.000",
+        "04060056.000",
+        "04060056.001"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Minersville Municipal Authority is a public water utility established by the Borough of Minersville, serving the borough\u2019s approximately 4,300 residents [Minersville Borough](https://minersvillepa.gov/news/2025/06/borough-manager-position/). It is governed by a local board (with Michael Andruchek as Chairman) and operated by a full-time manager, Melanie Spittler [Minersville Borough](https://minersvillepa.gov/services/water-authority/). The Authority owns multiple parcels for wells, reservoir, and treatment infrastructure, and together with the borough it manages a modest annual budget of around $3 million with 17 employees [Minersville Borough](https://minersvillepa.gov/news/2025/06/borough-manager-position/). No public record was found of the Authority taking a position for or against private development projects, suggesting its main focus is on safeguarding water quality and service delivery.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Provides essential water services for entire community; chaired by local officials; moderate budget and staff limit broader political leverage",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Authority\u2019s manager (Melanie Spittler) and board early; provide assurances that the project will not threaten water supply or quality; highlight any infrastructure improvements or revenue (e.g. increased water usage) that benefit the community to secure their neutrality or support."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "KSG High Ridge Park 10 LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "05020002.010",
+        "05020002.008"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "KSG High Ridge Park 10 LLC is a Pennsylvania limited liability company with its legal address listed at 100 Industrial Blvd, Stockertown, PA, which is outside Schuylkill County [Bloomberg LEI Database](https://lei.bloomberg.com/leis/view/254900E0D79CVKYVY143). The \u201cKSG\u201d entities in Schuylkill\u2019s Highridge Business Park (e.g. KSG Highridge Park 50 LLC) are associated with Katz & Sterling Group, an industrial real estate investment firm, as evidenced by Katz & Sterling\u2019s ownership of the Stockertown property and similar holdings [Lehigh Valley Business](https://lvb.com/stockertown-industrial-building-gets-two-new-tenants/). KSG High Ridge Park 10 LLC itself holds at least two parcels in the Highridge Business Park and appears to be a land investment vehicle with no public-facing operations or local personnel. Its beneficial owners (presumably principals of Katz & Sterling Group) are not disclosed in public filings, and no public statements on local development have been found from this entity, indicating its interest is likely limited to property value and lease potential.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Out-of-town commercial landowner; minimal local presence or civic involvement; influence mainly through property ownership in industrial park",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify and reach out to the principals of Katz & Sterling Group (owners behind KSG LLC); reassure them that the proposed project will not impede their industrial development plans or property value. Emphasize mutual benefits (such as infrastructure upgrades or buffer arrangements) and, if feasible, offer collaboration or compensation (e.g. easements, improved access) to address any concerns and prevent opposition."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "PPL Electric Utilities Corp",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "05020002.806",
+        "05020002.906"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "PPL Electric Utilities Corporation is a regulated electric utility serving roughly 1.5 million customers across 29 Pennsylvania counties, including all of Schuylkill County [PPL Electric Utilities](https://www.pplelectric.com/utility/about-us/about-ppl-electric-utilities.aspx). It is a subsidiary of the publicly traded PPL Corporation (headquartered in Allentown, PA) and operates the local transmission and distribution grid. PPL owns infrastructure on the neighboring parcels (likely transmission lines or a substation) and has exercised its utility eminent domain powers in Schuylkill County to secure rights-of-way for electrical lines when necessary [Pennsylvania Commonwealth Court](https://www.casemine.com/judgement/us/5914e343add7b049348f8eed). The company\u2019s role in the community is providing reliable electricity; it generally does not take positions on land use developments unless project activities impact its facilities or service reliability, in which case PPL focuses on ensuring compliance with technical and safety standards rather than engaging in political opposition.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Large utility with significant resources and regional impact; can enforce requirements for grid access, but typically not involved in local politics or advocacy",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate closely with PPL\u2019s regional engineering/operations managers from the outset to address any grid interconnection or easement issues. Ensure the project meets all of PPL\u2019s technical requirements and highlight how it aligns with PPL\u2019s goals for reliability and infrastructure improvement, thereby securing their cooperation or neutrality."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "The neighboring entities are a mix of public, private, and corporate owners \u2013 a municipal water authority, an out-of-area industrial land investor, and a utility company. Ownership ranges from local government (Minersville Municipal Authority) to a private LLC linked to Katz & Sterling Group (a real estate investor) and a major electric utility (PPL Corporation). A key risk is the private land investor potentially opposing development if it threatens their industrial park property value, whereas the water authority\u2019s concern would be protecting water resources. Meanwhile, the utility is primarily focused on grid infrastructure needs, presenting an opportunity to collaborate on technical requirements rather than facing active opposition.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101048_7659.json",
+  "cached_at": "2026-02-27T10:10:48.766764"
+}

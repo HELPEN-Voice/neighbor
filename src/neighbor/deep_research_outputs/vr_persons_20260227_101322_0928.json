@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-02-27T10:28:43.447890",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101322_0928.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Penn Comm Of Game Commission",
+      "entity_category": "Organization",
+      "entity_type": "Organization",
+      "pins": [
+        "04090029.000",
+        "04060055.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Pennsylvania Game Commission (PGC) manages over 1.5 million acres of state game lands across the Commonwealth, fulfilling its mission to conserve wildlife habitat and provide recreational hunting grounds ([Times Observer](https://www.timesobserver.com/news/local-news/2024/02/game-commission-control-of-rural-land-worries-legislators/)). In Schuylkill County, the agency is a major landholder, owning parcels such as State Game Lands identified in tax records ([Schuylkill Parcel Locator](https://gis.vgsi.com/SchuylkillCountyPA/Parcel.aspx?pid=889)). While the Commission has established a 'Wind Energy Voluntary Cooperative Agreement' to guide developers in minimizing wildlife impacts on private land ([PA Game Commission](https://www.pa.gov/agencies/pgc/about-us/agency-business-center/wind-energy)), it has historically maintained a strict moratorium on wind turbine development directly on State Game Lands, citing incompatibility with habitat conservation ([Post-Gazette](https://www.post-gazette.com/powersource/policy-powersource/2018/04/27/pennsylvania-game-commission-wind-energy-ban/stories/201804270124)). Conversely, the agency has generated significant revenue from oil and gas leases on its properties, including in the Marcellus Shale region ([Marcellus Coalition](https://marcelluscoalition.org/energy-and-conservation-a-win-win-for-pennsylvanias-game-lands/)).",
+      "confidence": "high",
+      "noted_stance": "oppose",
+      "community_influence": "High",
+      "influence_justification": "State agency with regulatory authority and extensive land holdings",
+      "approach_recommendations": {
+        "motivations": [
+          "wildlife_habitat"
+        ],
+        "engage": "Coordinate with the Game Commission’s regional office regarding the Wind Energy Voluntary Cooperative Agreement and demonstrate strict adherence to wildlife habitat protections."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Manages over 1.5 million acres of state game lands",
+          "url": "https://www.timesobserver.com/news/local-news/2024/02/game-commission-control-of-rural-land-worries-legislators/",
+          "title": "Game Commission control of rural land worries legislators",
+          "date": "2024-02-14"
+        },
+        {
+          "claim": "Owner of parcels in Schuylkill County",
+          "url": "https://gis.vgsi.com/SchuylkillCountyPA/Parcel.aspx?pid=889",
+          "title": "Schuylkill County Parcel Locator - Penn Comm Of Game Commission",
+          "date": "2026-02-27"
+        },
+        {
+          "claim": "Maintained a strict moratorium on wind turbine development on State Game Lands",
+          "url": "https://www.post-gazette.com/powersource/policy-powersource/2018/04/27/pennsylvania-game-commission-wind-energy-ban/stories/201804270124",
+          "title": "Wildlife agency says no to wind turbines on game lands",
+          "date": "2018-04-27"
+        },
+        {
+          "claim": "Established Wind Energy Voluntary Cooperative Agreement",
+          "url": "https://www.pa.gov/agencies/pgc/about-us/agency-business-center/wind-energy",
+          "title": "Wind Energy Voluntary Cooperative Agreement",
+          "date": "2026-02-27"
+        },
+        {
+          "claim": "Generated revenue from oil and gas leases",
+          "url": "https://marcelluscoalition.org/energy-and-conservation-a-win-win-for-pennsylvanias-game-lands/",
+          "title": "Energy and Conservation: A Win-Win for Pennsylvania’s Game Lands",
+          "date": "2025-10-09"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Fanelli Limited Partnership I",
+      "entity_category": "Resident",
+      "entity_type": "Organization",
+      "pins": [
+        "05020006.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Fanelli Limited Partnership I is a Pennsylvania business entity sharing an address with Fanelli Brothers Trucking Co. and Fanelli Warehousing in Pottsville, PA ([PA Bulletin](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=1040&context=pabulletin_2012)). The entity is affiliated with the Fanelli family, who are prominent local business owners; principal Frederick J. Fanelli is a high-profile attorney and former President of the Schuylkill County Bar Association ([Fanelli Evans Patel](https://www.feplawyers.com/attorney/frederick-j-fanelli/)). Frederick Fanelli previously represented Gladstone Partners in a zoning hearing regarding a proposed cargo airport in Schuylkill County, indicating experience with complex land use and development proceedings ([Aviation News](https://aviationacrossamerica.org/news/2012/09/09/cargo-airport-plan-resilient/)). The partnership owns property in the county but functions as a holding entity for the family's broader commercial interests ([Schuylkill Parcel Locator](https://gis.vgsi.com/SchuylkillCountyPA/Parcel.aspx?pid=68074)).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "High",
+      "influence_justification": "Prominent local business family; principal is high-profile attorney",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "fair_contracting"
+        ],
+        "engage": "Engage via Frederick J. Fanelli or the Fanelli Brothers corporate office; approach as a sophisticated commercial stakeholder familiar with zoning and land development."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Shares address with Fanelli Brothers Trucking Co.",
+          "url": "https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=1040&context=pabulletin_2012",
+          "title": "Pennsylvania Bulletin - Fanelli Limited Partnership I Address",
+          "date": "2012-10-13"
+        },
+        {
+          "claim": "Frederick J. Fanelli is a high-profile attorney and former Bar President",
+          "url": "https://www.feplawyers.com/attorney/frederick-j-fanelli/",
+          "title": "Attorney Profile: Frederick J. Fanelli",
+          "date": "2026-02-27"
+        },
+        {
+          "claim": "Represented Gladstone Partners in zoning hearing for cargo airport",
+          "url": "https://aviationacrossamerica.org/news/2012/09/09/cargo-airport-plan-resilient/",
+          "title": "Cargo Airport Plan Resilient",
+          "date": "2012-09-09"
+        },
+        {
+          "claim": "Owns property in Schuylkill County",
+          "url": "https://gis.vgsi.com/SchuylkillCountyPA/Parcel.aspx?pid=68074",
+          "title": "Schuylkill County Assessment - Fanelli Limited Partnership",
+          "date": "2026-02-27"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Thomas Milowicki",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "05050003.006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Thomas Milowicki is listed as a property owner in Barry Township, Schuylkill County, though records indicate he resides in southeastern Pennsylvania ([Schuylkill Planning](https://cms8.revize.com/revize/schuylkillcountypa/Document_Center/Departments/Planning%20&%20Zoning/Subdivision%20and%20Land%20Development/OLD-%20%20Approved%20Subdivision%20List%20Redone-%2010-29-2014.pdf)). He is the owner of Targetmaster, a firearms business and shooting range located in Chadds Ford, Delaware County, PA, as confirmed by administrative court filings ([PA Human Relations Commission](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/final-legal-orders/2021-present-final-orders/202101691%20targetmaster.pdf)). This confirms his status as an absentee landowner with primary business interests outside the local area.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Absentee owner; primary business in Delaware County",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value"
+        ],
+        "engage": "Engage via direct contact (mail) focusing on factual project information, as he is an absentee owner with no known local civic involvement."
+      },
+      "entity_classification": "speculation",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Listed as property owner in Barry Township",
+          "url": "https://cms8.revize.com/revize/schuylkillcountypa/Document_Center/Departments/Planning%20&%20Zoning/Subdivision%20and%20Land%20Development/OLD-%20%20Approved%20Subdivision%20List%20Redone-%2010-29-2014.pdf",
+          "title": "Schuylkill County Approved Subdivision List",
+          "date": "2013-06-19"
+        },
+        {
+          "claim": "Owner of Targetmaster in Chadds Ford, PA",
+          "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/final-legal-orders/2021-present-final-orders/202101691%20targetmaster.pdf",
+          "title": "PA Human Relations Commission Final Order - Targetmaster",
+          "date": "2024-11-08"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 458775,
+    "thinking_count": 22
+  }
+}

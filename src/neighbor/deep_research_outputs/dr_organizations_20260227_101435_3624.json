@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-02-27T10:14:35.362553",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The neighbors include a major food distribution facility (formerly Sara Lee, now operated by Tyson Foods), the county's economic development corporation (SEDCO), and a leading local coal company (Reading Anthracite) with substantial land holdings. SEDCO and Reading Anthracite wield particularly strong influence: SEDCO coordinates industrial projects and public incentives, while Reading Anthracite controls vast tracts of land and is branching into real estate development. Reading Anthracite could become a competitor or opposition funder if a project conflicts with its plans, whereas SEDCO is likely to support developments that promise jobs and tax revenue; the Tyson/Sara Lee facility is a significant employer but generally neutral unless its operations are affected.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Sara Lee Corp",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "05020002.007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Sara Lee Corp established a food distribution center in the Highridge Business Park (Cass Township) around 2007 [Pottsville Republican-Herald](https://republicanherald4.rssing.com/chan-15221936/all_p932.html). The facility is now run by Tyson Foods (which acquired Sara Lee's meat business) and was expanded in 2018 with a 164,000 sq ft addition and state economic incentives, adding 114 jobs [Pottsville Republican-Herald](https://republicanherald4.rssing.com/chan-15221936/all_p866.html).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Major employer (~200 jobs); part of Tyson Foods; key logistics hub in region",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Tyson Foods' site management to ensure the project doesn't disrupt their distribution operations; emphasize mutual benefits to maintain a neutral stance."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Schuylkill Economic Dev Corp",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "05050001.000",
+        "05020002.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Schuylkill Economic Development Corp (SEDCO) is a nonprofit civic organization (501(c)(4)) founded in 1952 to spur industrial development in Schuylkill County, including developing industrial parks, constructing speculative 'shell' buildings and offering low-interest financing to attract employers [Cause IQ](https://www.causeiq.com/organizations/schuylkill-economic-development-corporation,231412034/). SEDCO also operates the 2,000-acre Highridge Business Park (spanning Cass, Foster and Butler townships), which hosts major distribution centers (e.g. Lowe's, Wegmans) and still has hundreds of acres available for new projects [Foster Township](https://www.fostertwp.org/area-overview/economic-development/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Primary development authority; manages large industrial parks; strong ties to local government and business leaders",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage SEDCO President Frank Zukas early to align the project with their development mission; highlight local job creation and tax revenue to secure SEDCO's support."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Reading Anthracite Co",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "05050002.005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Reading Anthracite Company is a Pottsville-based coal mining firm and part of the Rich family's privately held group of companies [SourceWatch](https://www.sourcewatch.org/index.php/Reading_Anthracite_Company). The company owns extensive coal lands in the region, including a 1,525-acre tract in Schuylkill Township where it sought approval to install a 5-acre solar panel array in 2023 [Times News](https://www.tnonline.com/20230918/solar-park-proposed-in-schuylkill/). In late 2023, Reading Anthracite unveiled plans to construct six large warehouses (800,000-1,600,000 sq ft each) on a 600-acre parcel near I-81, directly across from the Highridge industrial park [Yahoo News](https://www.yahoo.com/news/reading-anthracite-plans-warehouse-development-035900470.html).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Controls thousands of acres; legacy coal industry leader; significant capital for development",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Open direct dialogue with Reading Anthracite President Brian Rich Sr.; address potential conflicts with their development plans by exploring partnership or shared infrastructure to avoid opposition."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The neighbors include a major food distribution facility (formerly Sara Lee, now operated by Tyson Foods), the county's economic development corporation (SEDCO), and a leading local coal company (Reading Anthracite) with substantial land holdings. SEDCO and Reading Anthracite wield particularly strong influence: SEDCO coordinates industrial projects and public incentives, while Reading Anthracite controls vast tracts of land and is branching into real estate development. Reading Anthracite could become a competitor or opposition funder if a project conflicts with its plans, whereas SEDCO is likely to support developments that promise jobs and tax revenue; the Tyson/Sara Lee facility is a significant employer but generally neutral unless its operations are affected.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Sara Lee Corp\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corp\",\n      \"pins\": [\"05020002.007\"],\n      \"claims\": \"Sara Lee Corp established a food distribution center in the Highridge Business Park (Cass Township) around 2007 [Pottsville Republican-Herald](https://republicanherald4.rssing.com/chan-15221936/all_p932.html). The facility is now run by Tyson Foods (which acquired Sara Lee's meat business) and was expanded in 2018 with a 164,000 sq ft addition and state economic incentives, adding 114 jobs [Pottsville Republican-Herald](https://republicanherald4.rssing.com/chan-15221936/all_p866.html).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Major employer (~200 jobs); part of Tyson Foods; key logistics hub in region\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Continuity of operations\", \"Supply chain efficiency\", \"Community goodwill\"],\n      \"approach_recommendations\": \"Coordinate with Tyson Foods' site management to ensure the project doesn't disrupt their distribution operations; emphasize mutual benefits to maintain a neutral stance.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Schuylkill Economic Dev Corp\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corp\",\n      \"pins\": [\"05050001.000\", \"05020002.000\"],\n      \"claims\": \"Schuylkill Economic Development Corp (SEDCO) is a nonprofit civic organization (501(c)(4)) founded in 1952 to spur industrial development in Schuylkill County, including developing industrial parks, constructing speculative 'shell' buildings and offering low-interest financing to attract employers [Cause IQ](https://www.causeiq.com/organizations/schuylkill-economic-development-corporation,231412034/). SEDCO also operates the 2,000-acre Highridge Business Park (spanning Cass, Foster and Butler townships), which hosts major distribution centers (e.g. Lowe's, Wegmans) and still has hundreds of acres available for new projects [Foster Township](https://www.fostertwp.org/area-overview/economic-development/).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Primary development authority; manages large industrial parks; strong ties to local government and business leaders\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Job creation\", \"Industrial investment\", \"Expanded tax base\"],\n      \"approach_recommendations\": \"Engage SEDCO President Frank Zukas early to align the project with their development mission; highlight local job creation and tax revenue to secure SEDCO's support.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Reading Anthracite Co\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corp\",\n      \"pins\": [\"05050002.005\"],\n      \"claims\": \"Reading Anthracite Company is a Pottsville-based coal mining firm and part of the Rich family's privately held group of companies [SourceWatch](https://www.sourcewatch.org/index.php/Reading_Anthracite_Company). The company owns extensive coal lands in the region, including a 1,525-acre tract in Schuylkill Township where it sought approval to install a 5-acre solar panel array in 2023 [Times News](https://www.tnonline.com/20230918/solar-park-proposed-in-schuylkill/). In late 2023, Reading Anthracite unveiled plans to construct six large warehouses (800,000-1,600,000 sq ft each) on a 600-acre parcel near I-81, directly across from the Highridge industrial park [Yahoo News](https://www.yahoo.com/news/reading-anthracite-plans-warehouse-development-035900470.html).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"Controls thousands of acres; legacy coal industry leader; significant capital for development\",\n      \"entity_classification\": \"energy_developer\",\n      \"potential_motivators\": [\"Land monetization\", \"Diversification\", \"Competitive advantage\"],\n      \"approach_recommendations\": \"Open direct dialogue with Reading Anthracite President Brian Rich Sr.; address potential conflicts with their development plans by exploring partnership or shared infrastructure to avoid opposition.\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

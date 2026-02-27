@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-02-27T10:40:50.204919",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101154_5485.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "NP Highridge Park LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "04100005.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "NP Highridge Park LLC is a subsidiary of NorthPoint Development, a Kansas City, MO-based industrial real estate firm ([Shenandoah Sentinel](https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/)). The entity owns property in the Highridge Industrial Park where PPL Electric Utilities is constructing a new switchyard and high-voltage transmission upgrades intended to serve a 'new customer' and support load growth ([Shenandoah Sentinel](https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/)). In March (year context 2025/2026), the company purchased land in the park from the Schuylkill Economic Development Corp (SEDCO) for $6 million ([Shenandoah Sentinel](https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/)). NorthPoint has successfully petitioned the Schuylkill County Commissioners for Local Economic Revitalization Tax Assistance (LERTA) designations to facilitate industrial development at Highridge Business Park, securing tax exemptions for new construction ([Times News](https://www.tnonline.com/20210416/schuylkill-oks-tax-designation-for-highridge-business-park-sites/)). State Senator David Argall has held hearings regarding data center development in the region, involving discussion of NorthPoint's projects, indicating active political engagement on land use issues ([Delaware Currents](https://delawarecurrents.org/2025/09/08/pennsylvania-data-centers/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Major industrial developer with direct access to county commissioners and state senators; successfully secured LERTA tax abatements; owns property hosting critical PPL grid infrastructure (switchyard) serving regional load growth.",
+      "approach_recommendations": {
+        "motivations": [
+          "Infrastructure expansion",
+          "Tax incentives (LERTA)",
+          "Grid capacity for industrial tenants"
+        ],
+        "engage": "Coordinate regarding the PPL switchyard construction and transmission upgrades occurring on their parcel. As a pro-development entity with active industrial projects, they are likely receptive to discussions about grid infrastructure that supports their tenants (potentially data centers). Acknowledge their LERTA status and recent $6M investment in the park."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "Subsidiary of NorthPoint Development; recently purchased Highridge Park land for $6M; site of new PPL switchyard; recipient of LERTA tax credits.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "NP Highridge Park LLC is a subsidiary of NorthPoint Development, a Kansas City, MO-based industrial real estate firm",
+          "url": "https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/",
+          "title": "PPL open house outlines pole line upgrades, new switchyard at Highridge Industrial Park",
+          "date": "2025-12-17"
+        },
+        {
+          "claim": "The entity owns property in the Highridge Industrial Park where PPL Electric Utilities is constructing a new switchyard and high-voltage transmission upgrades",
+          "url": "https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/",
+          "title": "PPL open house outlines pole line upgrades, new switchyard at Highridge Industrial Park",
+          "date": "2025-12-17"
+        },
+        {
+          "claim": "purchased land in the park from the Schuylkill Economic Development Corp (SEDCO) for $6 million",
+          "url": "https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/",
+          "title": "PPL open house outlines pole line upgrades, new switchyard at Highridge Industrial Park",
+          "date": "2025-12-17"
+        },
+        {
+          "claim": "NorthPoint has successfully petitioned the Schuylkill County Commissioners for Local Economic Revitalization Tax Assistance (LERTA) designations",
+          "url": "https://www.tnonline.com/20210416/schuylkill-oks-tax-designation-for-highridge-business-park-sites/",
+          "title": "Schuylkill OKs tax designation for Highridge Business Park sites",
+          "date": "2021-04-16"
+        },
+        {
+          "claim": "State Senator David Argall has held hearings regarding data center development in the region, involving discussion of NorthPoint's projects",
+          "url": "https://delawarecurrents.org/2025/09/08/pennsylvania-data-centers/",
+          "title": "Pennsylvania data centers: Economic boon or environmental drain?",
+          "date": "2025-09-08"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 431204,
+    "thinking_count": 18
+  }
+}

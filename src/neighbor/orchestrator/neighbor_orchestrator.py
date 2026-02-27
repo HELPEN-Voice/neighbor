@@ -616,7 +616,7 @@ class NeighborOrchestrator:
                 run_id=cached.get("run_id"),
                 runtime_minutes=cached.get("runtime_minutes"),
                 map_image_path=cached.get("map_image_path"),
-                map_thumbnail_path=cached.get("map_thumbnail_path"),
+                map_ring_stats=cached.get("map_ring_stats"),
                 map_metadata=cached.get("map_metadata"),
             )
 

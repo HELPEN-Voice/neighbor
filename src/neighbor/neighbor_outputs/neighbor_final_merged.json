@@ -1,133 +1,232 @@
 {
-  "total_screened": 26,
-  "residents_count": 21,
-  "organizations_count": 5,
+  "total_screened": 15,
+  "residents_count": 2,
+  "organizations_count": 13,
   "adjacent_count": 3,
   "influence_distribution": {
-    "High": 3,
-    "Medium": 3,
-    "Low": 20
+    "High": 11,
+    "Medium": 1,
+    "Low": 3
   },
   "stance_distribution": {
-    "oppose": 0,
-    "support": 1,
-    "neutral": 2,
-    "unknown": 23
+    "oppose": 1,
+    "support": 8,
+    "neutral": 3,
+    "unknown": 3
   },
   "entity_type_breakdown": {
-    "unknown": 20,
-    "speculation": 2,
-    "municipal": 2,
-    "energy_developer": 1,
-    "land_investment": 1
+    "land_investment": 7,
+    "speculation": 1,
+    "municipal": 3,
+    "unknown": 1,
+    "energy_developer": 3
   },
-  "risk_score": 8,
+  "risk_score": 10,
   "risk_level": "high",
   "themes": [
     {
-      "theme": "Utility and Grid Infrastructure",
-      "description": "Entities responsible for regional energy distribution and critical transmission infrastructure. They focus on grid stability and the technical feasibility of new interconnections within the project area.",
-      "neighbor_count": 1,
+      "theme": "Corporate Operations and Utilities",
+      "description": "Large-scale corporate entities and utility providers managing critical regional infrastructure and logistics hubs. These organizations focus on operational continuity and grid reliability to support industrial growth.",
+      "neighbor_count": 2,
       "prevalent_concerns": [
+        "operational_continuity",
         "grid_reliability",
-        "infrastructure_protection",
-        "capacity_upgrades"
+        "logistics_efficiency",
+        "regulatory_compliance"
       ],
       "typical_influence": "High",
-      "engagement_approach": "Technical coordination and early alignment on interconnection requirements and regional upgrade projects.",
+      "engagement_approach": "Coordinate on technical requirements and ensure project activities do not interfere with critical utility services or logistics operations.",
       "members": [
         {
-          "name": "Baltimore Gas & Electric Co",
-          "persona": "Regional utility operator managing critical transmission infrastructure and ongoing regional grid up",
+          "name": "Sara Lee Corp",
+          "persona": "Major regional employer managing a critical cold storage facility and logistics infrastructure.",
           "influence": "High",
           "stance": "neutral",
           "adjacent": true,
           "citations": [
             {
-              "title": "BGE Tri-County Transmission Upgrade Project Overview",
-              "url": "https://goodenergyinprogress.com/project/tri-county-transmission-upgrade-project/",
-              "date": "2025-10-21"
+              "title": "Tyson Foods to Invest $59 Million to Expand Pennsylvania Distribution Center",
+              "url": "https://www.tysonfoods.com/news/news-releases/2017/7/tyson-foods-invest-59-million-expand-pennsylvania-distribution-center",
+              "date": "2017-07-06"
             },
             {
-              "title": "Baltimore County EPS Variance Request - Granite Substation",
-              "url": "https://www.baltimorecountymd.gov/files/departments/environmental-protection-and-sustainability/documents/baltimoregasandelectricgranitesubstation04254458on20251216.pdf",
-              "date": "2025-12-16"
+              "title": "Lineage acquires Tyson Foods cold storage warehouses for $247 million",
+              "url": "https://www.provisioneronline.com/articles/118735-lineage-acquires-tyson-foods-cold-storage-warehouses-for-247-million",
+              "date": "2025-05-01"
+            }
+          ]
+        },
+        {
+          "name": "PPL Electric Utilities Corp",
+          "persona": "Regulated electric utility provider with eminent domain authority and grid management responsibiliti",
+          "influence": "High",
+          "stance": "neutral",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "PPL Electric Utilities Rate Request Announcement",
+              "url": "https://news.pplweb.com/2025-09-30-PPL-Electric-Utilities-making-necessary-investments-to-strengthen-and-modernize-infrastructure-and-expand-services-and-support-for-customers",
+              "date": "2025-09-30"
             },
             {
-              "title": "Power Line Protest Meets Opposition",
-              "url": "https://patch.com/maryland/perryhall/power-line-protest-meets-opposition-bge-says-wires-are-necessary",
-              "date": "2011-06-01"
+              "title": "PPL Transmission Project FAQs",
+              "url": "https://www.pplelectric.com/-/media/ppl-jss-app/assets/Home/Landing-Pages/Chanceford/Transmission---Chanceford-500-kV-Project-FAQs---12-21-2023.ashx",
+              "date": "2024-01-25"
+            },
+            {
+              "title": "Open house planned for power company plans to expand pole line",
+              "url": "https://shensentinel.com/news/open-house-planned-for-power-company-plans-to-expand-pole-line-build-switchyard-for-new-customer-facility/",
+              "date": "2025-12-06"
             }
           ]
         }
       ]
     },
     {
-      "theme": "Local Government and Regulatory Oversight",
-      "description": "Municipal bodies that exercise zoning authority and legislative control over land use. They prioritize the preservation of rural character and the management of solar development density.",
-      "neighbor_count": 1,
+      "theme": "Economic Development and Industrial Investment",
+      "description": "Professional development organizations and investment firms focused on industrial park expansion and regional economic growth. They prioritize tax incentives, job creation, and securing state-level funding for large-scale projects.",
+      "neighbor_count": 4,
       "prevalent_concerns": [
-        "preservation_of_rural_character",
-        "solar_clustering",
-        "prime_farmland"
+        "tax_revenue_benefit",
+        "job_creation",
+        "industrial_expansion",
+        "infrastructure_synergy"
       ],
-      "typical_influence": "High",
-      "engagement_approach": "Proactive compliance with local ordinances and transparent communication regarding project siting and community benefits.",
+      "typical_influence": "Medium to High",
+      "engagement_approach": "Align project benefits with regional economic goals and demonstrate how the development complements existing industrial and commercial growth.",
       "members": [
         {
-          "name": "Baltimore County, MD",
-          "persona": "County regulatory authority implementing restrictive solar legislation and managing local land-use z",
+          "name": "Schuylkill Economic Development Corporation (SEDCO)",
+          "persona": "County-wide economic development leader focused on stimulating industrial growth and tax revenue.",
           "influence": "High",
-          "stance": "neutral",
+          "stance": "support",
           "adjacent": false,
           "citations": [
             {
-              "title": "Bill 18-25 Zoning Regulations – Solar Facilities – Proximity Requirements",
-              "url": "https://countycouncilweb.s3.amazonaws.com/Bills%202025/b01825.pdf",
-              "date": "2025-05-22"
+              "title": "About SEDCO",
+              "url": "https://www.sed-co.com/about-sedco/",
+              "date": "2024-01-01"
             },
             {
-              "title": "Baltimore County Auditor Notes - Bill 21-25",
-              "url": "https://www.baltimorecountymd.gov/files/departments/auditor/documents/notespackage20250505.pdf",
-              "date": "2025-05-05"
+              "title": "State Grant Supports Careers, Employers in Western Schuylkill County",
+              "url": "https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/",
+              "date": "2024-07-23"
             },
             {
-              "title": "Maryland LCV - Renewable Energy Certainty Act",
-              "url": "https://www.mdlcv.org/reca",
-              "date": "2025-05-21"
+              "title": "Control Alt Energy Project Portfolio",
+              "url": "http://www.controlaltenergy.com/",
+              "date": "2019-01-01"
+            }
+          ]
+        },
+        {
+          "name": "Schuylkill Economic Dev Corp",
+          "persona": "Non-profit industrial development corporation with strong political connections and large land holdi",
+          "influence": "High",
+          "stance": "support",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "City of Pottsville Economic Development",
+              "url": "http://www.pottsvillepa.gov/html/cp5.htm",
+              "date": "2024-01-01"
+            },
+            {
+              "title": "Highridge Business Park Lot 6 Flyer",
+              "url": "https://www.sed-co.com/wp-content/uploads/2024/01/Highridge_Lot-6_SEDCO-2023.pdf",
+              "date": "2023-01-01"
+            },
+            {
+              "title": "SEDCO receiving $3M in state assistance to prepare site in Highridge Industrial Park",
+              "url": "https://shensentinel.com/news/sedco-receiving-3m-in-state-assistance-to-prepare-site-in-highridge-industrial-park/",
+              "date": "2026-02-26"
+            }
+          ]
+        },
+        {
+          "name": "NP Highridge Park LLC",
+          "persona": "Industrial real estate firm specializing in tax-abated developments and critical grid infrastructure",
+          "influence": "High",
+          "stance": "support",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "PPL open house outlines pole line upgrades, new switchyard at Highridge Industrial Park",
+              "url": "https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/",
+              "date": "2025-12-17"
+            },
+            {
+              "title": "Schuylkill OKs tax designation for Highridge Business Park sites",
+              "url": "https://www.tnonline.com/20210416/schuylkill-oks-tax-designation-for-highridge-business-park-sites/",
+              "date": "2021-04-16"
+            },
+            {
+              "title": "Pennsylvania data centers: Economic boon or environmental drain?",
+              "url": "https://delawarecurrents.org/2025/09/08/pennsylvania-data-centers/",
+              "date": "2025-09-08"
+            }
+          ]
+        },
+        {
+          "name": "611 Land Development LLC",
+          "persona": "Commercial developer focused on travel plaza infrastructure and electric vehicle charging networks.",
+          "influence": "Medium",
+          "stance": "support",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Travel plaza progress continuing; hotel planned next door",
+              "url": "https://shensentinel.com/news/travel-plaza-progress-continuing-hotel-planned-next-door/",
+              "date": "2024-06-28"
+            },
+            {
+              "title": "Liberty Travel Plazas Unveils New Brand Name: Onvo",
+              "url": "https://www.natso.com/liberty-travel-plazas-unveils-new-brand-name/",
+              "date": "2020-11-01"
+            },
+            {
+              "title": "Aminderjeet Aulakh Real Estate Investor Profile",
+              "url": "https://elementix.ai/investors/pa/aminderjeet-aulakh",
+              "date": "2026-02-27"
             }
           ]
         }
       ]
     },
     {
-      "theme": "State Transportation and Land Management",
-      "description": "State-level agencies managing public rights-of-way and transportation corridors. These organizations often seek to leverage their land assets for renewable energy initiatives.",
+      "theme": "Public Resource and Conservation Oversight",
+      "description": "State-level agencies and regulatory bodies responsible for the management of public lands and natural resources. Their primary focus is on habitat conservation and maintaining regulatory standards for land use.",
       "neighbor_count": 1,
       "prevalent_concerns": [
-        "tax_revenue_benefit",
-        "fair_contracting",
-        "right_of_way_access"
+        "wildlife_habitat",
+        "land_conservation",
+        "regulatory_standards",
+        "recreational_access"
       ],
       "typical_influence": "High",
-      "engagement_approach": "Engagement through established state procurement frameworks and coordination on right-of-way usage.",
+      "engagement_approach": "Maintain transparent communication regarding environmental stewardship and adhere strictly to state regulatory and conservation guidelines.",
       "members": [
         {
-          "name": "State Of Maryland State Roads Commission",
-          "persona": "State transportation agency with regulatory authority over rights-of-way and interest in renewable e",
+          "name": "Penn Comm Of Game Commission",
+          "persona": "State agency managing extensive game lands with a focus on wildlife habitat conservation.",
           "influence": "High",
-          "stance": "support",
-          "adjacent": true,
+          "stance": "oppose",
+          "adjacent": false,
           "citations": [
             {
-              "title": "MDOT Solar Energy Contract",
-              "url": "https://www.mdot.maryland.gov/tso/pages/Index.aspx?PageId=155",
-              "date": "2026-02-26"
+              "title": "Game Commission control of rural land worries legislators",
+              "url": "https://www.timesobserver.com/news/local-news/2024/02/game-commission-control-of-rural-land-worries-legislators/",
+              "date": "2024-02-14"
             },
             {
-              "title": "Maryland Solar Program: Value Capture",
-              "url": "https://www.fhwa.dot.gov/ipd/value_capture/strategies_in_practice/maryland_solar_program.aspx",
-              "date": "2026-02-26"
+              "title": "Schuylkill County Parcel Locator - Penn Comm Of Game Commission",
+              "url": "https://gis.vgsi.com/SchuylkillCountyPA/Parcel.aspx?pid=889",
+              "date": "2026-02-27"
+            },
+            {
+              "title": "Wildlife agency says no to wind turbines on game lands",
+              "url": "https://www.post-gazette.com/powersource/policy-powersource/2018/04/27/pennsylvania-game-commission-wind-energy-ban/stories/201804270124",
+              "date": "2018-04-27"
             }
           ]
         }
@@ -135,117 +234,196 @@
     },
     {
       "theme": "Active Community Members",
-      "description": "Individuals with a history of civic participation, political connections, or engagement in legal and zoning processes. They are likely to voice opinions at public hearings and influence local sentiment.",
-      "neighbor_count": 3,
+      "description": "Influential local entities characterized by their involvement in municipal governance, public boards, and political circles. These members often hold significant land tracts and maintain deep historical or professional ties to the local community.",
+      "neighbor_count": 5,
       "prevalent_concerns": [
-        "property_value",
         "local_control",
-        "privacy_quiet",
-        "heritage_family_legacy"
+        "property_value",
+        "infrastructure_modernization",
+        "revenue_generation"
       ],
-      "typical_influence": "Medium",
-      "engagement_approach": "Direct outreach and community meetings to address specific concerns regarding property impacts and local heritage.",
+      "typical_influence": "High",
+      "engagement_approach": "Engage in direct dialogue with key stakeholders and participate in public meetings to address community-specific concerns and legacy interests.",
       "members": [
         {
-          "name": "Jerome G. Morsberger",
-          "persona": "Individual from a politically connected local family with interests in property value and legacy.",
-          "influence": "Medium",
+          "name": "Fanelli Limited Partnership I",
+          "persona": "Prominent local business family led by a high-profile attorney with significant investment interests",
+          "influence": "High",
           "stance": "unknown",
           "adjacent": false,
           "citations": [
             {
-              "title": "Louis P. Morsberger Obituary / Maryland State Archives",
-              "url": "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/013300/013346/html/sun2-18-2001.html",
-              "date": "2002-02-18"
+              "title": "Pennsylvania Bulletin - Fanelli Limited Partnership I Address",
+              "url": "https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=1040&context=pabulletin_2012",
+              "date": "2012-10-13"
             },
             {
-              "title": "Maryland Manual 1985-86 (Legislative Branch)",
-              "url": "https://msa.maryland.gov/megafile/msa/speccol/sc1100/sc1198/000000/000002/000000/000065/pdf/mdsa_sc1198_2_65.pdf",
-              "date": "1985-01-01"
+              "title": "Attorney Profile: Frederick J. Fanelli",
+              "url": "https://www.feplawyers.com/attorney/frederick-j-fanelli/",
+              "date": "2026-02-27"
             },
             {
-              "title": "5127 Viaduct Ave Property Record",
-              "url": "https://www.redfin.com/MD/Halethorpe/5127-Viaduct-Ave-21227/home/9367777",
-              "date": "2026-02-26"
+              "title": "Cargo Airport Plan Resilient",
+              "url": "https://aviationacrossamerica.org/news/2012/09/09/cargo-airport-plan-resilient/",
+              "date": "2012-09-09"
             }
           ]
         },
         {
-          "name": "Noah Hutton",
-          "persona": "Educator and union member who actively participates in public hearings and values local control.",
-          "influence": "Medium",
-          "stance": "unknown",
+          "name": "Municipal Authority of the Borough of Minersville",
+          "persona": "Public water utility managed by a board that controls substantial regional land assets.",
+          "influence": "High",
+          "stance": "support",
           "adjacent": false,
           "citations": [
             {
-              "title": "CCBC Essex Coach Bio: Noah Hutton",
-              "url": "https://ccbcessexknights.com/sports/mxc/2018-19/bios/hutton_noah_pd0n",
-              "date": "2026-02-26"
-            },
-            {
-              "title": "Harford County Council Meeting Video & Transcript",
-              "url": "https://harfordcountymd.new.swagit.com/videos/301638",
-              "date": "2024-04-02"
-            },
-            {
-              "title": "MSEA At-Large Delegate Bios 2024",
-              "url": "https://marylandeducators.org/wp-content/uploads/2024/01/2024_MSEA-At-Large-Bios_Final.pdf",
+              "title": "Minersville, Pennsylvania Waterworks History",
+              "url": "https://www.waterworkshistory.us/PA/Minersville/",
               "date": "2024-01-01"
+            },
+            {
+              "title": "Municipal Authority Minutes August 2021",
+              "url": "https://minersvillepa.gov/document/water-authority-minutes-16-august-2021/",
+              "date": "2021-08-16"
+            },
+            {
+              "title": "Municipal Authority Minutes February 2025",
+              "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
+              "date": "2025-02-18"
             }
           ]
         },
         {
-          "name": "Sharyn L. Herman",
-          "persona": "Resident with a history of engaging in legal appeals related to local zoning decisions.",
-          "influence": "Medium",
-          "stance": "unknown",
+          "name": "Reading Anthracite Co",
+          "persona": "Major private landowner with significant political influence and active industrial development proje",
+          "influence": "High",
+          "stance": "support",
           "adjacent": false,
           "citations": [
             {
-              "title": "Baltimore County Administrative Hearings Case 2021-0166-A Opinion",
-              "url": "https://www.baltimorecountymd.gov/files/Documents/Permits/Decisions/2022/September/21166a.pdf",
-              "date": "2022-09-22"
+              "title": "Environmental and Economic Impacts of the Anthracite Industry",
+              "url": "https://community.pasenategop.com/wp-content/uploads/sites/56/2022/10/anthracite.pdf",
+              "date": "2022-09-27"
             },
             {
-              "title": "Baltimore County Board of Appeals Opinion Case 21-166-A",
-              "url": "https://www.baltimorecountymd.gov/files/Documents/Appeals/decisions2021/martin21166afinalopinionandorder.pdf",
-              "date": "2022-04-28"
+              "title": "Reading Anthracite gets first solar farm approved",
+              "url": "https://shensentinel.com/news/reading-anthracite-gets-first-solar-farm-approved/",
+              "date": "2023-10-16"
+            },
+            {
+              "title": "Schuylkill Twp. approves solar panels on coal land",
+              "url": "https://www.tnonline.com/20231020/schuylkill-twp-approves-solar-panels-on-coal-land/",
+              "date": "2023-10-20"
+            }
+          ]
+        },
+        {
+          "name": "Minersville Municipal Authority",
+          "persona": "Municipal water authority governed by local officials involved in regional land negotiations.",
+          "influence": "High",
+          "stance": "support",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Cass Township Water Services",
+              "url": "https://www.casstownship.org/services/water",
+              "date": "2024-01-01"
+            },
+            {
+              "title": "Minersville Borough Water Authority Officials",
+              "url": "https://minersvillepa.gov/services/water-authority/",
+              "date": "2025-02-27"
+            },
+            {
+              "title": "Minersville Municipal Authority Minutes February 2025",
+              "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
+              "date": "2025-02-18"
+            }
+          ]
+        },
+        {
+          "name": "Reading Anthracite Company",
+          "persona": "Historical land management corporation with deep economic ties and active renewable energy partnersh",
+          "influence": "High",
+          "stance": "support",
+          "adjacent": false,
+          "citations": [
+            {
+              "title": "Reading Anthracite Company Official Website",
+              "url": "https://readinganthracite.com/",
+              "date": "2024-02-27"
+            },
+            {
+              "title": "Testimony to Senate Committee on Community, Economic and Recreational Development",
+              "url": "https://community.pasenategop.com/wp-content/uploads/sites/56/2022/10/anthracite.pdf",
+              "date": "2022-09-27"
+            },
+            {
+              "title": "Foster Township Board of Supervisors Meeting Minutes",
+              "url": "https://www.fostertwp.org/wp-content/uploads/2025/02/January-6-2025.pdf",
+              "date": "2025-01-06"
             }
           ]
         }
       ]
     }
   ],
-  "opposition_summary": null,
-  "support_summary": {
+  "opposition_summary": {
     "count": 1,
-    "common_reasons": [
-      "tax_revenue_benefit",
-      "fair_contracting"
+    "common_concerns": [
+      "wildlife_habitat"
+    ],
+    "influence_levels": [
+      "High"
     ]
   },
-  "overview_summary": "Screening of 26 neighbors identified 21 residents and five organizations, including local government, a regional utility, and investment entities. While 23 neighbors have unknown stances, the assessment identified three high-influence and three medium-influence stakeholders, with one neighbor expressing support and two remaining neutral. Key entities include a prominent local family with political ties and institutional owners focused on infrastructure and land speculation, though no formal opposition has been documented among the 20 low-influence private landowners.",
-  "location_context": "Neighbors within 0.5 mi of 39.228953,-76.712985",
+  "support_summary": {
+    "count": 8,
+    "common_reasons": [
+      "tax_revenue_benefit",
+      "local_control",
+      "property_value",
+      "Job creation",
+      "Tax base expansion",
+      "Industrial development",
+      "Revenue from reclaimed land",
+      "Portfolio diversification",
+      "Revenue generation",
+      "Infrastructure modernization",
+      "Asset monetization",
+      "Infrastructure expansion",
+      "Tax incentives (LERTA)",
+      "Grid capacity for industrial tenants",
+      "Infrastructure synergy (EV charging)",
+      "Commercial development",
+      "Grid reliability",
+      "Revenue diversification",
+      "Land reclamation",
+      "Renewable energy partnerships"
+    ]
+  },
+  "overview_summary": "Screening of 15 neighboring landowners—comprising 13 organizations and two individuals—reveals a landscape dominated by 11 high-influence entities, one medium-influence neighbor, and three with low or unknown influence. While eight neighbors support the project and three remain neutral, one organization holds an opposing stance due to potential conflicts with industrial property values, while three stances remain unknown. Key stakeholder interests center on the protection of water resources, grid infrastructure requirements, and the strategic alignment of new development with existing regional coal, energy, and economic development initiatives.",
+  "location_context": "Neighbors within 0.5 mi of 40.741966,-76.274744",
   "city": null,
-  "county": "Baltimore County",
-  "state": "MD",
-  "run_id": "6a876af9-4d3c-4853-8491-2cc2ada15964",
-  "runtime_minutes": 40.13,
+  "county": "Schuylkill County",
+  "state": "PA",
+  "run_id": "dc3074cb-7a27-4568-8c7c-70c911ec9292",
+  "runtime_minutes": 45.18,
   "success": true,
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/6a876af9-4d3c-4853-8491-2cc2ada15964_ring_map.png",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/dc3074cb-7a27-4568-8c7c-70c911ec9292_ring_map.png",
   "map_ring_stats": [
     {
       "ring": 1,
       "inner_mi": 0.0,
-      "outer_mi": 0.08,
-      "count": 1,
+      "outer_mi": 1.07,
+      "count": 3,
       "oppose": 0,
-      "support": 0,
+      "support": 3,
       "neutral": 0,
-      "unknown": 1,
-      "sentiment": "mixed",
+      "unknown": 0,
+      "sentiment": "support",
       "high_oppose": 0,
-      "high_support": 0,
+      "high_support": 3,
       "high_neutral": 0,
       "high_unknown": 0,
       "medium_oppose": 0,
@@ -255,58 +433,58 @@
     },
     {
       "ring": 2,
-      "inner_mi": 0.08,
-      "outer_mi": 0.15,
-      "count": 8,
+      "inner_mi": 1.07,
+      "outer_mi": 1.43,
+      "count": 7,
       "oppose": 0,
-      "support": 1,
-      "neutral": 1,
-      "unknown": 6,
-      "sentiment": "mixed",
+      "support": 2,
+      "neutral": 3,
+      "unknown": 2,
+      "sentiment": "neutral",
       "high_oppose": 0,
-      "high_support": 1,
-      "high_neutral": 1,
-      "high_unknown": 0,
+      "high_support": 2,
+      "high_neutral": 2,
+      "high_unknown": 1,
       "medium_oppose": 0,
       "medium_support": 0,
       "medium_neutral": 0,
-      "medium_unknown": 1
+      "medium_unknown": 0
     },
     {
       "ring": 3,
-      "inner_mi": 0.15,
-      "outer_mi": 0.23,
-      "count": 17,
-      "oppose": 0,
-      "support": 0,
-      "neutral": 1,
-      "unknown": 16,
-      "sentiment": "mixed",
-      "high_oppose": 0,
-      "high_support": 0,
-      "high_neutral": 1,
+      "inner_mi": 1.43,
+      "outer_mi": 1.8,
+      "count": 5,
+      "oppose": 1,
+      "support": 3,
+      "neutral": 0,
+      "unknown": 1,
+      "sentiment": "support",
+      "high_oppose": 1,
+      "high_support": 2,
+      "high_neutral": 0,
       "high_unknown": 0,
       "medium_oppose": 0,
-      "medium_support": 0,
+      "medium_support": 1,
       "medium_neutral": 0,
-      "medium_unknown": 2
+      "medium_unknown": 0
     }
   ],
   "map_metadata": {
-    "run_id": "6a876af9-4d3c-4853-8491-2cc2ada15964",
-    "generated_at": "2026-02-26T14:59:39.429543",
-    "center_lon": -76.71298521663574,
-    "center_lat": 39.22895344742111,
+    "run_id": "dc3074cb-7a27-4568-8c7c-70c911ec9292",
+    "generated_at": "2026-02-27T10:48:09.682816",
+    "center_lon": -76.27474365951052,
+    "center_lat": 40.741966281802,
     "boundaries_mi": [
       0.0,
-      0.0766,
-      0.1531,
-      0.2297
+      1.0711,
+      1.4251,
+      1.798
     ],
-    "total_neighbors_mapped": 26,
-    "total_neighbors": 26,
+    "total_neighbors_mapped": 15,
+    "total_neighbors": 15,
     "strategy_used": "geojson",
-    "url_length": 6826,
+    "url_length": 6657,
     "settings": {
       "width": 800,
       "height": 450,
@@ -315,118 +493,86 @@
     }
   },
   "target_parcel_info": {
-    "pin": "1311150281",
+    "pin": "05020001.000",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -76.7119415,
-            39.227757
+            -76.287028,
+            40.7336955
           ],
           [
-            -76.7119,
-            39.2277595
+            -76.286729,
+            40.7335585
           ],
           [
-            -76.711923,
-            39.2284585
+            -76.2735905,
+            40.7275455
           ],
           [
-            -76.7119585,
-            39.229189
+            -76.2528335,
+            40.730989
           ],
           [
-            -76.711962,
-            39.229258
+            -76.2676065,
+            40.759585
           ],
           [
-            -76.7120225,
-            39.230501
+            -76.2685815,
+            40.759773
           ],
           [
-            -76.712082,
-            39.2305895
+            -76.2693835,
+            40.759961
           ],
           [
-            -76.712436,
-            39.230415
+            -76.2698705,
+            40.760055
           ],
           [
-            -76.7127695,
-            39.230334
+            -76.2712805,
+            40.760455
           ],
           [
-            -76.7133435,
-            39.2303195
+            -76.2974745,
+            40.743117
           ],
           [
-            -76.713887,
-            39.229349
+            -76.3007465,
+            40.739968
           ],
           [
-            -76.714635,
-            39.228259
+            -76.2941195,
+            40.7369225
           ],
           [
-            -76.7146715,
-            39.2282045
+            -76.2930105,
+            40.7364145
           ],
           [
-            -76.7146725,
-            39.228203
-          ],
-          [
-            -76.7145705,
-            39.2282055
-          ],
-          [
-            -76.714153,
-            39.228042
-          ],
-          [
-            -76.71411,
-            39.228025
-          ],
-          [
-            -76.713435,
-            39.2277615
-          ],
-          [
-            -76.712733,
-            39.2277165
-          ],
-          [
-            -76.7119415,
-            39.227757
+            -76.287028,
+            40.7336955
           ]
         ]
       ]
     },
-    "lat": "39.228953",
-    "lon": "-76.712985",
-    "county_path": "/us/md/baltimore-county/district-13"
+    "lat": "40.741966",
+    "lon": "-76.274744",
+    "county_path": "/us/pa/schuylkill/cass"
   },
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143041_3930.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143108_8444.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142745_7267.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142651_8109.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142907_3119.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_143029_3719.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142846_7636.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260226_142709_3460.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260226_142727_8579.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260226_142741_8928.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_143041_3930.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_143108_8444.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142651_8109.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142745_7267.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142709_3460.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_143029_3719.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142846_7636.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260226_142727_8579.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260226_142907_3119.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260226_142741_8928.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101126_2675.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101322_0928.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101048_7659.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101435_3624.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101420_0559.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101154_5485.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260227_101126_2675.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260227_101322_0928.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101435_3624.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101048_7659.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101154_5485.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101420_0559.json"
   ]
 }

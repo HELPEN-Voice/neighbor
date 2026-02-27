@@ -1,0 +1,193 @@
+{
+  "timestamp": "2026-02-27T10:28:43.450381",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101435_3624.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Sara Lee Corp",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "05020002.007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "While the parcel remains associated with Sara Lee Corp in county records, the facility was acquired by Tyson Foods, which invested $59.7 million in 2017-2018 to construct a 164,000-square-foot expansion and add 114 jobs [Tyson Foods](https://www.tysonfoods.com/news/news-releases/2017/7/tyson-foods-invest-59-million-expand-pennsylvania-distribution-center). In May 2025, Tyson Foods entered an agreement to sell this Pottsville facility (along with three others) to Lineage Logistics, a real estate investment trust specializing in cold storage, for $247 million [Provisioner Online](https://www.provisioneronline.com/articles/118735-lineage-acquires-tyson-foods-cold-storage-warehouses-for-247-million). The facility serves as a major cold storage and distribution hub for the Northeast region [Tyson Foods](https://www.tysonfoods.com/news/news-releases/2017/7/tyson-foods-invest-59-million-expand-pennsylvania-distribution-center).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "Major regional employer; critical infrastructure asset (cold storage) transitioning to Lineage Logistics, the world's largest cold storage REIT.",
+      "approach_recommendations": {
+        "motivations": [
+          "Operational continuity",
+          "Logistics efficiency"
+        ],
+        "engage": "Establish contact with incoming Lineage Logistics facility management; ensure project construction does not impede heavy truck traffic or 24/7 distribution operations."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": "Former Sara Lee distribution center, expanded by Tyson Foods, and currently transitioning to ownership by Lineage Logistics as of 2025.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Tyson Foods invested $59.7 million in 2017-2018 to expand the facility by 164,000 square feet and add 114 jobs.",
+          "url": "https://www.tysonfoods.com/news/news-releases/2017/7/tyson-foods-invest-59-million-expand-pennsylvania-distribution-center",
+          "title": "Tyson Foods to Invest $59 Million to Expand Pennsylvania Distribution Center",
+          "date": "2017-07-06"
+        },
+        {
+          "claim": "In May 2025, Tyson Foods agreed to sell the Pottsville facility to Lineage Logistics as part of a $247 million deal.",
+          "url": "https://www.provisioneronline.com/articles/118735-lineage-acquires-tyson-foods-cold-storage-warehouses-for-247-million",
+          "title": "Lineage acquires Tyson Foods cold storage warehouses for $247 million",
+          "date": "2025-05-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Schuylkill Economic Dev Corp",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "05050001.000",
+        "05020002.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Schuylkill Economic Development Corp (SEDCO) is a nonprofit organization founded in 1952 to drive industrial development, currently led by President Frank Zukas [City of Pottsville](http://www.pottsvillepa.gov/html/cp5.htm). SEDCO developed and manages the 2,000-acre Highridge Business Park, home to major distribution centers including Lowe's and Wegmans [SEDCO](https://www.sed-co.com/wp-content/uploads/2024/01/Highridge_Lot-6_SEDCO-2023.pdf). In February 2026, SEDCO received $3.1 million in state funding to prepare 'Lot 12' in Foster Township for a proposed 262,400 square foot shell building [Shenandoah Sentinel](https://shensentinel.com/news/sedco-receiving-3m-in-state-assistance-to-prepare-site-in-highridge-industrial-park/). Zukas has explicitly advocated for development projects by highlighting their tax revenue benefits for local school districts and townships [Shenandoah Sentinel](https://shensentinel.com/news/mahanoy-township-hears-feedback-and-pushback-as-it-considers-zoning-amendment-courts-two-warehouse-developers/).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Primary economic development agency in the county; controls large tracts of developable land; secures millions in state funding; strong political connections.",
+      "approach_recommendations": {
+        "motivations": [
+          "Job creation",
+          "Tax base expansion",
+          "Industrial development"
+        ],
+        "engage": "Engage SEDCO President Frank Zukas immediately. Position the project as a complementary economic driver that aligns with their mission of revitalizing industrial land and increasing the tax base."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": "County-level economic development corporation actively developing industrial sites and supporting large-scale infrastructure projects.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "SEDCO was founded in 1952 and is led by President Frank Zukas.",
+          "url": "http://www.pottsvillepa.gov/html/cp5.htm",
+          "title": "City of Pottsville Economic Development",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "Manages Highridge Business Park and lists major tenants like Lowe's and Wegmans.",
+          "url": "https://www.sed-co.com/wp-content/uploads/2024/01/Highridge_Lot-6_SEDCO-2023.pdf",
+          "title": "Highridge Business Park Lot 6 Flyer",
+          "date": "2023-01-01"
+        },
+        {
+          "claim": "Received $3.1 million in February 2026 to prepare Lot 12 for a new shell building.",
+          "url": "https://shensentinel.com/news/sedco-receiving-3m-in-state-assistance-to-prepare-site-in-highridge-industrial-park/",
+          "title": "SEDCO receiving $3M in state assistance to prepare site in Highridge Industrial Park",
+          "date": "2026-02-26"
+        },
+        {
+          "claim": "Frank Zukas advocates for development based on tax revenue generation for schools and municipalities.",
+          "url": "https://shensentinel.com/news/mahanoy-township-hears-feedback-and-pushback-as-it-considers-zoning-amendment-courts-two-warehouse-developers/",
+          "title": "Mahanoy Township hears feedback as it courts warehouse developers",
+          "date": "2026-02-03"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Reading Anthracite Co",
+      "entity_category": "Organization",
+      "entity_type": "corp",
+      "pins": [
+        "05050002.005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Reading Anthracite Company, led by the Rich family, owns approximately 16,000 acres of real estate in the region [PA Senate GOP](https://community.pasenategop.com/wp-content/uploads/sites/56/2022/10/anthracite.pdf). The company is actively developing renewable energy on its former mine lands, including a solar farm in West Mahanoy Township approved in October 2023 [Shenandoah Sentinel](https://shensentinel.com/news/reading-anthracite-gets-first-solar-farm-approved/) and a 25-acre solar facility in Schuylkill Township approved the same month [Times News](https://www.tnonline.com/20231020/schuylkill-twp-approves-solar-panels-on-coal-land/). Additionally, Reading Anthracite has partnered with CRG Acquisition LLC to propose a massive logistics hub in Foster Township featuring six warehouses, including one as large as 1.6 million square feet [Shenandoah Sentinel](https://shensentinel.com/news/foster-reviewing-proposed-plans-for-six-large-warehouses/).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Largest private landowner in the region; actively developing utility-scale solar and industrial warehousing; politically influential via the Rich family.",
+      "approach_recommendations": {
+        "motivations": [
+          "Revenue from reclaimed land",
+          "Portfolio diversification",
+          "Industrial development"
+        ],
+        "engage": "Treat as a peer developer. Explore potential for shared infrastructure or interconnection collaboration, as they are actively deploying solar on their own adjacent/nearby holdings."
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": "Legacy mining company actively pivoting to renewable energy development and large-scale industrial warehousing on its vast land holdings.",
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Owns approximately 16,000 acres of real estate in the region.",
+          "url": "https://community.pasenategop.com/wp-content/uploads/sites/56/2022/10/anthracite.pdf",
+          "title": "Environmental and Economic Impacts of the Anthracite Industry",
+          "date": "2022-09-27"
+        },
+        {
+          "claim": "Received zoning approval for a solar farm in West Mahanoy Township in October 2023.",
+          "url": "https://shensentinel.com/news/reading-anthracite-gets-first-solar-farm-approved/",
+          "title": "Reading Anthracite gets first solar farm approved",
+          "date": "2023-10-16"
+        },
+        {
+          "claim": "Secured approval for a 25-acre solar facility in Schuylkill Township in October 2023.",
+          "url": "https://www.tnonline.com/20231020/schuylkill-twp-approves-solar-panels-on-coal-land/",
+          "title": "Schuylkill Twp. approves solar panels on coal land",
+          "date": "2023-10-20"
+        },
+        {
+          "claim": "Proposed six large warehouses in Foster Township, with the largest being 1.6 million square feet.",
+          "url": "https://shensentinel.com/news/foster-reviewing-proposed-plans-for-six-large-warehouses/",
+          "title": "Foster reviewing proposed plans for six large warehouses",
+          "date": "2023-10-04"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 527918,
+    "thinking_count": 17
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-02-27T10:11:54.548575",
+  "entity_type": "organization",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One adjacent landowner is an affiliate of a major industrial developer (NorthPoint Development) that has speculatively acquired and developed a large tract in the area. This suggests a sophisticated player with resources and influence—potentially a competitor for land use, but also a possible partner if the new project aligns with their industrial expansion plans.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "NP Highridge Park LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "04100005.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "NP Highridge Park LLC is an affiliate of NorthPoint Development (a Kansas City, MO industrial real estate firm) formed to purchase an approximately 52-acre unimproved parcel (Lot 10 of Highridge Industrial Park) from Prologis for $2.235 million in December 2015 [Republican Herald](https://republicanherald4.rssing.com/chan-15221936/article10455.html). NorthPoint concurrently acquired a neighboring 37.5-acre tract and constructed a ~357,500 sq ft speculative warehouse (no tenant at the time), combining the two parcels into a total 89-acre industrial development site ([republicanherald4.rssing.com](https://republicanherald4.rssing.com/chan-15221936/article10455.html#:~:text=%E2%80%9CThey%E2%80%99re%20building%20on%20speculation,at%20this%20point%2C%E2%80%9D%20Zukas%20said))[Schuylkill EDC](https://www.sed-co.com/Buildings/). A NorthPoint representative contributed at least $4,500 in 2022 to Pennsylvania State Senator David Argall, indicating the company’s effort to build political goodwill locally [OpenSecrets](https://www.opensecrets.org/donor-lookup/results?cycle=2022&order=desc&page=1&sort=N&zip=18707).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Owns ~89 acres of industrial land locally; demonstrated political engagement via donations; capable of attracting large projects but not a longstanding community entity",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Contact NorthPoint’s development executive (e.g., Brent Miles) directly to discuss the project and address any land-use concerns; emphasize that the new development will not impede their industrial plans and may offer shared benefits (e.g., infrastructure improvements, buffer zones)."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One adjacent landowner is an affiliate of a major industrial developer (NorthPoint Development) that has speculatively acquired and developed a large tract in the area. This suggests a sophisticated player with resources and influence—potentially a competitor for land use, but also a possible partner if the new project aligns with their industrial expansion plans.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"NP Highridge Park LLC\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"llc\",\n      \"pins\": [\"04100005.000\"],\n      \"claims\": \"NP Highridge Park LLC is an affiliate of NorthPoint Development (a Kansas City, MO industrial real estate firm) formed to purchase an approximately 52-acre unimproved parcel (Lot 10 of Highridge Industrial Park) from Prologis for $2.235 million in December 2015 [Republican Herald](https://republicanherald4.rssing.com/chan-15221936/article10455.html). NorthPoint concurrently acquired a neighboring 37.5-acre tract and constructed a ~357,500 sq ft speculative warehouse (no tenant at the time), combining the two parcels into a total 89-acre industrial development site ([republicanherald4.rssing.com](https://republicanherald4.rssing.com/chan-15221936/article10455.html#:~:text=%E2%80%9CThey%E2%80%99re%20building%20on%20speculation,at%20this%20point%2C%E2%80%9D%20Zukas%20said))[Schuylkill EDC](https://www.sed-co.com/Buildings/). A NorthPoint representative contributed at least $4,500 in 2022 to Pennsylvania State Senator David Argall, indicating the company’s effort to build political goodwill locally [OpenSecrets](https://www.opensecrets.org/donor-lookup/results?cycle=2022&order=desc&page=1&sort=N&zip=18707).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Owns ~89 acres of industrial land locally; demonstrated political engagement via donations; capable of attracting large projects but not a longstanding community entity\",\n      \"entity_classification\": \"land_investment\",\n      \"potential_motivators\": [\"Return on industrial investment\", \"Future expansion potential\", \"Compatible land use in vicinity\"],\n      \"approach_recommendations\": \"Contact NorthPoint’s development executive (e.g., Brent Miles) directly to discuss the project and address any land-use concerns; emphasize that the new development will not impede their industrial plans and may offer shared benefits (e.g., infrastructure improvements, buffer zones).\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

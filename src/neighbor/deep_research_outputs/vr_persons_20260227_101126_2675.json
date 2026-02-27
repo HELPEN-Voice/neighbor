@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-02-27T10:23:41.000913",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101126_2675.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Schuylkill County",
+    "state": "PA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Municipal Authority of the Borough of Minersville",
+      "entity_category": "Organization",
+      "entity_type": "Organization",
+      "pins": [
+        "05020004.000",
+        "05050002.004",
+        "17010006.000",
+        "17030001.000",
+        "17030008.003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Municipal Authority of the Borough of Minersville was incorporated in 1941 to manage local water services ([source](https://www.waterworkshistory.us/PA/Minersville/)). The Authority is actively engaged in renewable energy development discussions; as of August 2021, the board reviewed a proposal from Everett Jones Investments, LLC to lease and develop 1,500 acres of Authority property for a large solar project ([source](https://minersvillepa.gov/document/water-authority-minutes-16-august-2021/)). By February 2025, meeting minutes indicated that permitting with the Fish and Boat Commission was complete and Cass Township zoning was secured for solar use, though interconnection queue delays were noted ([source](https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/)). The Authority currently receives annual lease revenue for a windmill operated by Green Energy ([source](https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/)). Additionally, PENNVEST funding applications for 2022 included the installation of solar panels to reduce energy demand at Authority facilities ([source](https://files.dep.state.pa.us/water/bpnpsm/InfrastructureFinance/StateRevolvFundIntendUsePlan/2022/2022_DWSRF_IUP_Attachment_6-Project_Application_Sources_and_Uses_Charts.pdf)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Public utility controlling 1500+ acres",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "local_control"
+        ],
+        "engage": "Engage via Board Solicitor Albert Evans or Manager Melanie Spittler; reference ongoing 1,500-acre solar lease negotiations with Everett Jones Investments."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Municipal Authority of the Borough of Minersville was incorporated in 1941 to manage local water services",
+          "url": "https://www.waterworkshistory.us/PA/Minersville/",
+          "title": "Minersville, Pennsylvania Waterworks History",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "as of August 2021, the board reviewed a proposal from Everett Jones Investments, LLC to lease and develop 1,500 acres of Authority property for a large solar project",
+          "url": "https://minersvillepa.gov/document/water-authority-minutes-16-august-2021/",
+          "title": "Municipal Authority Minutes August 2021",
+          "date": "2021-08-16"
+        },
+        {
+          "claim": "By February 2025, meeting minutes indicated that permitting with the Fish and Boat Commission was complete and Cass Township zoning was secured for solar use",
+          "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
+          "title": "Municipal Authority Minutes February 2025",
+          "date": "2025-02-18"
+        },
+        {
+          "claim": "The Authority currently receives annual lease revenue for a windmill operated by Green Energy",
+          "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
+          "title": "Municipal Authority Minutes February 2025",
+          "date": "2025-02-18"
+        },
+        {
+          "claim": "PENNVEST funding applications for 2022 included the installation of solar panels to reduce energy demand at Authority facilities",
+          "url": "https://files.dep.state.pa.us/water/bpnpsm/InfrastructureFinance/StateRevolvFundIntendUsePlan/2022/2022_DWSRF_IUP_Attachment_6-Project_Application_Sources_and_Uses_Charts.pdf",
+          "title": "DWSRF Project Application Sources and Uses Charts FFY 2022",
+          "date": "2022-06-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Schuylkill Economic Development Corporation (SEDCO)",
+      "entity_category": "Organization",
+      "entity_type": "Organization",
+      "pins": [
+        "05020002.011"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "SEDCO exists to \"stimulate and influence the process of economic development\" in Schuylkill County ([source](https://www.sed-co.com/about-sedco/)). State Senator David Argall has called SEDCO a \"tireless partner\" in bringing new jobs and opportunities to the county ([source](https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/)). The organization manages Highridge Business Park, where it installed a wind turbine to power entrance lighting ([source](http://www.controlaltenergy.com/)). In 2025, the organization was listed in the state Capital Budget Project Itemization Act for a $10 million allocation toward industrial park development including \"solar energy or other alternative green energy sources\" ([source](https://www.pa.gov/content/dam/copapwp-pagov/en/budget/documents/programs-and-services/racp/racp-project-awards-itemizations/project%20authorizations-website.xlsx)). SEDCO President Frank Zukas has publicly testified regarding the tax revenue benefits of industrial and renewable energy projects ([source](https://shensentinel.com/news/mahanoy-township-hears-feedback-and-pushback-as-it-considers-zoning-amendment-courts-two-warehouse-developers/)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "County-wide economic development leader",
+      "approach_recommendations": {
+        "motivations": [
+          "tax_revenue_benefit",
+          "property_value"
+        ],
+        "engage": "Coordinate with President Frank Zukas; leverage their existing $10M RACP allocation for green energy industrial park development."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "SEDCO exists to \"stimulate and influence the process of economic development\" in Schuylkill County",
+          "url": "https://www.sed-co.com/about-sedco/",
+          "title": "About SEDCO",
+          "date": "2024-01-01"
+        },
+        {
+          "claim": "State Senator David Argall has called SEDCO a \"tireless partner\" in bringing new jobs and opportunities to the county",
+          "url": "https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/",
+          "title": "State Grant Supports Careers, Employers in Western Schuylkill County",
+          "date": "2024-07-23"
+        },
+        {
+          "claim": "The organization manages Highridge Business Park, where it installed a wind turbine to power entrance lighting",
+          "url": "http://www.controlaltenergy.com/",
+          "title": "Control Alt Energy Project Portfolio",
+          "date": "2019-01-01"
+        },
+        {
+          "claim": "In 2025, the organization was listed in the state Capital Budget Project Itemization Act for a $10 million allocation toward industrial park development including \"solar energy or other alternative green energy sources\"",
+          "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/budget/documents/programs-and-services/racp/racp-project-awards-itemizations/project%20authorizations-website.xlsx",
+          "title": "RACP Project Awards Itemizations",
+          "date": "2025-08-27"
+        },
+        {
+          "claim": "SEDCO President Frank Zukas has publicly testified regarding the tax revenue benefits of industrial and renewable energy projects",
+          "url": "https://shensentinel.com/news/mahanoy-township-hears-feedback-and-pushback-as-it-considers-zoning-amendment-courts-two-warehouse-developers/",
+          "title": "Mahanoy Township hears feedback and pushback as it considers zoning amendment",
+          "date": "2026-02-03"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 2,
+    "profiles_output": 2,
+    "total_tokens": 322269,
+    "thinking_count": 18
+  }
+}

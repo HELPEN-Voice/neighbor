@@ -1,0 +1,111 @@
+{
+  "batch_idx": 2,
+  "total_batches": 4,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Png Enterprises Inc",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "05020002.003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Png Enterprises, Inc. is a Pennsylvania corporation that primarily operates a hotel (formerly under the Country Inn & Suites by Carlson brand) near Pottsville. The company has been in business for approximately 22 years and is estimated to generate around $562,000 in annual revenue with about 26 employees at its Pottsville location. It is led by President Naran Patel, and there is no indication of involvement in other large-scale land developments or activism beyond its hospitality operations. No significant legal filings or public objections related to land use have been found for this company (its activities appear confined to the hotel property).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Operates a single local hotel; limited economic footprint and no known political or community leadership roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage President Naran Patel directly, emphasizing how the project could increase local lodging demand and benefit the hotel; address any concerns about construction disturbances to ensure cooperation"
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "611 Land Development LLC",
+      "entity_category": "Organization",
+      "entity_type": "llc",
+      "pins": [
+        "05050001.003"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "611 Land Development LLC is a privately held Pennsylvania limited liability company involved in commercial real estate development. In 2025, it applied for zoning variances to construct a four-story hotel on a 46.5-acre tract at 3481 Route 611 in Bartonsville (Monroe County), indicating a focus on highway-oriented development projects. The Bartonsville property spans three municipalities (Pocono, Stroud, and Hamilton Townships), underscoring the scale of the project and substantial land ownership for this venture. The beneficial owners or managers of 611 Land Development LLC are not publicly disclosed, suggesting it is a standalone development venture without an obvious corporate parent or local public profile. Its activities to date (e.g. hotel development plans) signal a profit-driven approach to land investment, with an emphasis on increasing property value through commercial use.",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Low",
+      "influence_justification": "Outside private developer with no established local network; limited known presence in community affairs aside from land ownership",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Identify and approach the managing member or representative; position the project as complementing their development interests and offer collaboration or accommodations to address any overlap with their plans"
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Reading Anthracite Company",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "05060057.000",
+        "05050003.000"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Reading Anthracite Company is a Pottsville-based coal mining and land management corporation, historically tied to the 1871 Philadelphia & Reading Coal and Iron Co. and acquired by the Rich family in 1961. It remains family-owned (now in the third generation under President Brian Rich Sr.) and controls roughly 20,000 acres of land in the region, making it the area\u2019s largest coal producer and a dominant local landowner. Beyond mining, the company has diversified its land uses \u2013 hosting industrial site development, retail projects, and outdoor recreation on former mining lands \u2013 leveraging its extensive property portfolio for various revenue streams. Recently, Reading Anthracite has also moved into renewable energy development: in 2023 it obtained zoning approval to install a 25-acre solar panel array on one of its reclaimed coal sites, and it has several other solar projects proposed on its lands (including in Cass Township), positioning itself at the forefront of local solar energy initiatives. This indicates that the company is actively repurposing its land assets and will defend or negotiate uses that align with its business interests.",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "Largest landowner and legacy employer in the county; strong financial resources and longstanding relationships in local government",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage company leadership (e.g., Brian Rich Sr.) at the outset; frame the project as complementary to their own development goals (such as renewable energy or land value enhancement) and explore partnership opportunities to mitigate competition or conflict"
+      },
+      "entity_classification": "energy_developer",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "The neighboring organizational landowners range from a small hospitality business to a private land developer and a large coal company. Png Enterprises Inc is a local hotel operator with limited land holdings and minimal political influence, likely focused on its direct business interests. 611 Land Development LLC appears to be a private real estate developer active in highway-area projects, potentially speculating on land value and future commercial development but without deep roots in the community. By contrast, Reading Anthracite Company is a dominant regional player \u2013 a family-owned coal and land enterprise with extensive acreage and resources that enable significant sway over local development outcomes. Reading Anthracite\u2019s own project initiatives (like solar farms on its lands) suggest it could either oppose competing developments or collaborate if incentives align, making it the key stakeholder to address, while the smaller owners are less equipped to mount major opposition and may be swayed by economic benefits.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101420_0559.json",
+  "cached_at": "2026-02-27T10:14:20.057236"
+}
