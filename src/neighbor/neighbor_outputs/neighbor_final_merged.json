@@ -1,449 +1,148 @@
 {
-  "total_screened": 15,
-  "residents_count": 2,
-  "organizations_count": 13,
-  "adjacent_count": 3,
+  "total_screened": 21,
+  "residents_count": 19,
+  "organizations_count": 2,
+  "adjacent_count": 1,
   "influence_distribution": {
-    "High": 11,
+    "High": 1,
     "Medium": 1,
-    "Low": 3
+    "Low": 19
   },
   "stance_distribution": {
-    "oppose": 1,
-    "support": 8,
-    "neutral": 3,
-    "unknown": 3
+    "oppose": 0,
+    "support": 0,
+    "neutral": 0,
+    "unknown": 21
   },
   "entity_type_breakdown": {
-    "land_investment": 7,
-    "speculation": 1,
-    "municipal": 3,
-    "unknown": 1,
-    "energy_developer": 3
+    "unknown": 21
   },
-  "risk_score": 10,
-  "risk_level": "high",
+  "risk_score": 4,
+  "risk_level": "medium",
   "themes": [
     {
-      "theme": "Corporate Operations and Utilities",
-      "description": "Large-scale corporate entities and utility providers managing critical regional infrastructure and logistics hubs. These organizations focus on operational continuity and grid reliability to support industrial growth.",
-      "neighbor_count": 2,
-      "prevalent_concerns": [
-        "operational_continuity",
-        "grid_reliability",
-        "logistics_efficiency",
-        "regulatory_compliance"
-      ],
-      "typical_influence": "High",
-      "engagement_approach": "Coordinate on technical requirements and ensure project activities do not interfere with critical utility services or logistics operations.",
-      "members": [
-        {
-          "name": "Sara Lee Corp",
-          "persona": "Major regional employer managing a critical cold storage facility and logistics infrastructure.",
-          "influence": "High",
-          "stance": "neutral",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "Tyson Foods to Invest $59 Million to Expand Pennsylvania Distribution Center",
-              "url": "https://www.tysonfoods.com/news/news-releases/2017/7/tyson-foods-invest-59-million-expand-pennsylvania-distribution-center",
-              "date": "2017-07-06"
-            },
-            {
-              "title": "Lineage acquires Tyson Foods cold storage warehouses for $247 million",
-              "url": "https://www.provisioneronline.com/articles/118735-lineage-acquires-tyson-foods-cold-storage-warehouses-for-247-million",
-              "date": "2025-05-01"
-            }
-          ]
-        },
-        {
-          "name": "PPL Electric Utilities Corp",
-          "persona": "Regulated electric utility provider with eminent domain authority and grid management responsibiliti",
-          "influence": "High",
-          "stance": "neutral",
-          "adjacent": true,
-          "citations": [
-            {
-              "title": "PPL Electric Utilities Rate Request Announcement",
-              "url": "https://news.pplweb.com/2025-09-30-PPL-Electric-Utilities-making-necessary-investments-to-strengthen-and-modernize-infrastructure-and-expand-services-and-support-for-customers",
-              "date": "2025-09-30"
-            },
-            {
-              "title": "PPL Transmission Project FAQs",
-              "url": "https://www.pplelectric.com/-/media/ppl-jss-app/assets/Home/Landing-Pages/Chanceford/Transmission---Chanceford-500-kV-Project-FAQs---12-21-2023.ashx",
-              "date": "2024-01-25"
-            },
-            {
-              "title": "Open house planned for power company plans to expand pole line",
-              "url": "https://shensentinel.com/news/open-house-planned-for-power-company-plans-to-expand-pole-line-build-switchyard-for-new-customer-facility/",
-              "date": "2025-12-06"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "Economic Development and Industrial Investment",
-      "description": "Professional development organizations and investment firms focused on industrial park expansion and regional economic growth. They prioritize tax incentives, job creation, and securing state-level funding for large-scale projects.",
-      "neighbor_count": 4,
-      "prevalent_concerns": [
-        "tax_revenue_benefit",
-        "job_creation",
-        "industrial_expansion",
-        "infrastructure_synergy"
-      ],
-      "typical_influence": "Medium to High",
-      "engagement_approach": "Align project benefits with regional economic goals and demonstrate how the development complements existing industrial and commercial growth.",
-      "members": [
-        {
-          "name": "Schuylkill Economic Development Corporation (SEDCO)",
-          "persona": "County-wide economic development leader focused on stimulating industrial growth and tax revenue.",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "About SEDCO",
-              "url": "https://www.sed-co.com/about-sedco/",
-              "date": "2024-01-01"
-            },
-            {
-              "title": "State Grant Supports Careers, Employers in Western Schuylkill County",
-              "url": "https://www.senatorargall.com/2024/07/23/state-grant-supports-careers-employers-in-western-schuylkill-county/",
-              "date": "2024-07-23"
-            },
-            {
-              "title": "Control Alt Energy Project Portfolio",
-              "url": "http://www.controlaltenergy.com/",
-              "date": "2019-01-01"
-            }
-          ]
-        },
-        {
-          "name": "Schuylkill Economic Dev Corp",
-          "persona": "Non-profit industrial development corporation with strong political connections and large land holdi",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "City of Pottsville Economic Development",
-              "url": "http://www.pottsvillepa.gov/html/cp5.htm",
-              "date": "2024-01-01"
-            },
-            {
-              "title": "Highridge Business Park Lot 6 Flyer",
-              "url": "https://www.sed-co.com/wp-content/uploads/2024/01/Highridge_Lot-6_SEDCO-2023.pdf",
-              "date": "2023-01-01"
-            },
-            {
-              "title": "SEDCO receiving $3M in state assistance to prepare site in Highridge Industrial Park",
-              "url": "https://shensentinel.com/news/sedco-receiving-3m-in-state-assistance-to-prepare-site-in-highridge-industrial-park/",
-              "date": "2026-02-26"
-            }
-          ]
-        },
-        {
-          "name": "NP Highridge Park LLC",
-          "persona": "Industrial real estate firm specializing in tax-abated developments and critical grid infrastructure",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "PPL open house outlines pole line upgrades, new switchyard at Highridge Industrial Park",
-              "url": "https://shensentinel.com/news/ppl-open-house-outlines-pole-line-upgrades-new-switchyard-at-highridge-industrial-park/",
-              "date": "2025-12-17"
-            },
-            {
-              "title": "Schuylkill OKs tax designation for Highridge Business Park sites",
-              "url": "https://www.tnonline.com/20210416/schuylkill-oks-tax-designation-for-highridge-business-park-sites/",
-              "date": "2021-04-16"
-            },
-            {
-              "title": "Pennsylvania data centers: Economic boon or environmental drain?",
-              "url": "https://delawarecurrents.org/2025/09/08/pennsylvania-data-centers/",
-              "date": "2025-09-08"
-            }
-          ]
-        },
-        {
-          "name": "611 Land Development LLC",
-          "persona": "Commercial developer focused on travel plaza infrastructure and electric vehicle charging networks.",
-          "influence": "Medium",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Travel plaza progress continuing; hotel planned next door",
-              "url": "https://shensentinel.com/news/travel-plaza-progress-continuing-hotel-planned-next-door/",
-              "date": "2024-06-28"
-            },
-            {
-              "title": "Liberty Travel Plazas Unveils New Brand Name: Onvo",
-              "url": "https://www.natso.com/liberty-travel-plazas-unveils-new-brand-name/",
-              "date": "2020-11-01"
-            },
-            {
-              "title": "Aminderjeet Aulakh Real Estate Investor Profile",
-              "url": "https://elementix.ai/investors/pa/aminderjeet-aulakh",
-              "date": "2026-02-27"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "Public Resource and Conservation Oversight",
-      "description": "State-level agencies and regulatory bodies responsible for the management of public lands and natural resources. Their primary focus is on habitat conservation and maintaining regulatory standards for land use.",
+      "theme": "Large-Scale Infrastructure and Industrial Operators",
+      "description": "This group consists of major corporate entities with significant operational footprints and workforce presence in the region. They often manage industrial facilities and maintain high levels of influence through economic contributions and political engagement.",
       "neighbor_count": 1,
       "prevalent_concerns": [
-        "wildlife_habitat",
-        "land_conservation",
-        "regulatory_standards",
-        "recreational_access"
+        "operational_continuity",
+        "zoning_regulations",
+        "infrastructure_compatibility"
       ],
       "typical_influence": "High",
-      "engagement_approach": "Maintain transparent communication regarding environmental stewardship and adhere strictly to state regulatory and conservation guidelines.",
+      "engagement_approach": "Focus on high-level corporate relations and ensuring project compatibility with existing industrial operations and logistics.",
       "members": [
         {
-          "name": "Penn Comm Of Game Commission",
-          "persona": "State agency managing extensive game lands with a focus on wildlife habitat conservation.",
+          "name": "C.W. Matthews Contracting Co., Inc.",
+          "persona": "Major heavy highway construction firm operating local industrial facilities with significant regiona",
           "influence": "High",
-          "stance": "oppose",
-          "adjacent": false,
+          "stance": "unknown",
+          "adjacent": true,
           "citations": [
             {
-              "title": "Game Commission control of rural land worries legislators",
-              "url": "https://www.timesobserver.com/news/local-news/2024/02/game-commission-control-of-rural-land-worries-legislators/",
-              "date": "2024-02-14"
+              "title": "C.W. Matthews - History",
+              "url": "https://cwmatthews.com/about/history/",
+              "date": "unknown"
             },
             {
-              "title": "Schuylkill County Parcel Locator - Penn Comm Of Game Commission",
-              "url": "https://gis.vgsi.com/SchuylkillCountyPA/Parcel.aspx?pid=889",
-              "date": "2026-02-27"
+              "title": "C.W. Matthews - Leadership Team",
+              "url": "https://cwmatthews.com/about/leadership/",
+              "date": "unknown"
             },
             {
-              "title": "Wildlife agency says no to wind turbines on game lands",
-              "url": "https://www.post-gazette.com/powersource/policy-powersource/2018/04/27/pennsylvania-game-commission-wind-energy-ban/stories/201804270124",
-              "date": "2018-04-27"
+              "title": "C.W. Matthews - Asphalt Plants Manufacturing",
+              "url": "https://cwmatthews.com/expertise/asphalt-plants-manufacturing/",
+              "date": "unknown"
             }
           ]
         }
       ]
     },
     {
-      "theme": "Active Community Members",
-      "description": "Influential local entities characterized by their involvement in municipal governance, public boards, and political circles. These members often hold significant land tracts and maintain deep historical or professional ties to the local community.",
-      "neighbor_count": 5,
+      "theme": "Local Landowners and Property Holders",
+      "description": "This group represents individuals or families who own multiple parcels of land within the vicinity of the project area. Their interests are typically tied to property rights, land use flexibility, and the long-term value of their holdings.",
+      "neighbor_count": 1,
       "prevalent_concerns": [
-        "local_control",
-        "property_value",
-        "infrastructure_modernization",
-        "revenue_generation"
+        "property_rights",
+        "land_value",
+        "future_development_potential"
       ],
-      "typical_influence": "High",
-      "engagement_approach": "Engage in direct dialogue with key stakeholders and participate in public meetings to address community-specific concerns and legacy interests.",
+      "typical_influence": "Medium",
+      "engagement_approach": "Provide clear information regarding project impacts on land use and maintain open lines of communication regarding property boundaries.",
       "members": [
         {
-          "name": "Fanelli Limited Partnership I",
-          "persona": "Prominent local business family led by a high-profile attorney with significant investment interests",
-          "influence": "High",
+          "name": "James Allen Massey & Debbie E. Massey",
+          "persona": "Multi-parcel residential landowners with established property holdings in the local county area.",
+          "influence": "Medium",
           "stance": "unknown",
           "adjacent": false,
           "citations": [
             {
-              "title": "Pennsylvania Bulletin - Fanelli Limited Partnership I Address",
-              "url": "https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=1040&context=pabulletin_2012",
-              "date": "2012-10-13"
+              "title": "Polk County Tax Assessor",
+              "url": "https://polkga.org/departments/tax_assessor/index.php",
+              "date": "2026-03-10"
             },
             {
-              "title": "Attorney Profile: Frederick J. Fanelli",
-              "url": "https://www.feplawyers.com/attorney/frederick-j-fanelli/",
-              "date": "2026-02-27"
-            },
-            {
-              "title": "Cargo Airport Plan Resilient",
-              "url": "https://aviationacrossamerica.org/news/2012/09/09/cargo-airport-plan-resilient/",
-              "date": "2012-09-09"
-            }
-          ]
-        },
-        {
-          "name": "Municipal Authority of the Borough of Minersville",
-          "persona": "Public water utility managed by a board that controls substantial regional land assets.",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Minersville, Pennsylvania Waterworks History",
-              "url": "https://www.waterworkshistory.us/PA/Minersville/",
-              "date": "2024-01-01"
-            },
-            {
-              "title": "Municipal Authority Minutes August 2021",
-              "url": "https://minersvillepa.gov/document/water-authority-minutes-16-august-2021/",
-              "date": "2021-08-16"
-            },
-            {
-              "title": "Municipal Authority Minutes February 2025",
-              "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
-              "date": "2025-02-18"
-            }
-          ]
-        },
-        {
-          "name": "Reading Anthracite Co",
-          "persona": "Major private landowner with significant political influence and active industrial development proje",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Environmental and Economic Impacts of the Anthracite Industry",
-              "url": "https://community.pasenategop.com/wp-content/uploads/sites/56/2022/10/anthracite.pdf",
-              "date": "2022-09-27"
-            },
-            {
-              "title": "Reading Anthracite gets first solar farm approved",
-              "url": "https://shensentinel.com/news/reading-anthracite-gets-first-solar-farm-approved/",
-              "date": "2023-10-16"
-            },
-            {
-              "title": "Schuylkill Twp. approves solar panels on coal land",
-              "url": "https://www.tnonline.com/20231020/schuylkill-twp-approves-solar-panels-on-coal-land/",
-              "date": "2023-10-20"
-            }
-          ]
-        },
-        {
-          "name": "Minersville Municipal Authority",
-          "persona": "Municipal water authority governed by local officials involved in regional land negotiations.",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Cass Township Water Services",
-              "url": "https://www.casstownship.org/services/water",
-              "date": "2024-01-01"
-            },
-            {
-              "title": "Minersville Borough Water Authority Officials",
-              "url": "https://minersvillepa.gov/services/water-authority/",
-              "date": "2025-02-27"
-            },
-            {
-              "title": "Minersville Municipal Authority Minutes February 2025",
-              "url": "https://minersvillepa.gov/document/water-authority-minutes-17-february-2025/",
-              "date": "2025-02-18"
-            }
-          ]
-        },
-        {
-          "name": "Reading Anthracite Company",
-          "persona": "Historical land management corporation with deep economic ties and active renewable energy partnersh",
-          "influence": "High",
-          "stance": "support",
-          "adjacent": false,
-          "citations": [
-            {
-              "title": "Reading Anthracite Company Official Website",
-              "url": "https://readinganthracite.com/",
-              "date": "2024-02-27"
-            },
-            {
-              "title": "Testimony to Senate Committee on Community, Economic and Recreational Development",
-              "url": "https://community.pasenategop.com/wp-content/uploads/sites/56/2022/10/anthracite.pdf",
-              "date": "2022-09-27"
-            },
-            {
-              "title": "Foster Township Board of Supervisors Meeting Minutes",
-              "url": "https://www.fostertwp.org/wp-content/uploads/2025/02/January-6-2025.pdf",
-              "date": "2025-01-06"
+              "title": "AP News Search: James Massey Polk County GA",
+              "url": "https://apnews.com/search?query=%22James%20Massey%22%20Polk%20County%20GA",
+              "date": "2026-03-10"
             }
           ]
         }
       ]
+    },
+    {
+      "theme": "Residential Stakeholders",
+      "description": "This group includes individual residents living in close proximity to the project site who may be concerned with localized impacts. They typically prioritize quality of life, noise levels, and visual changes to their immediate surroundings.",
+      "neighbor_count": 0,
+      "prevalent_concerns": [
+        "noise",
+        "visual_impact",
+        "traffic"
+      ],
+      "typical_influence": "Low to Medium",
+      "engagement_approach": "Utilize community mailers and public meetings to address concerns regarding daily life disruptions and environmental impacts.",
+      "members": []
+    },
+    {
+      "theme": "Active Community Members",
+      "description": "This group comprises individuals who hold positions on local boards, commissions, or are frequently involved in public governance and meeting proceedings. They play a key role in shaping local policy and public opinion on development projects.",
+      "neighbor_count": 0,
+      "prevalent_concerns": [
+        "public_policy",
+        "community_benefit",
+        "regulatory_compliance"
+      ],
+      "typical_influence": "High",
+      "engagement_approach": "Engage through formal public channels and provide detailed technical documentation to support regulatory review processes.",
+      "members": []
     }
   ],
-  "opposition_summary": {
-    "count": 1,
-    "common_concerns": [
-      "wildlife_habitat"
-    ],
-    "influence_levels": [
-      "High"
-    ]
-  },
-  "support_summary": {
-    "count": 8,
-    "common_reasons": [
-      "tax_revenue_benefit",
-      "local_control",
-      "property_value",
-      "Job creation",
-      "Tax base expansion",
-      "Industrial development",
-      "Revenue from reclaimed land",
-      "Portfolio diversification",
-      "Revenue generation",
-      "Infrastructure modernization",
-      "Asset monetization",
-      "Infrastructure expansion",
-      "Tax incentives (LERTA)",
-      "Grid capacity for industrial tenants",
-      "Infrastructure synergy (EV charging)",
-      "Commercial development",
-      "Grid reliability",
-      "Revenue diversification",
-      "Land reclamation",
-      "Renewable energy partnerships"
-    ]
-  },
-  "overview_summary": "Screening of 15 neighboring landowners—comprising 13 organizations and two individuals—reveals a landscape dominated by 11 high-influence entities, one medium-influence neighbor, and three with low or unknown influence. While eight neighbors support the project and three remain neutral, one organization holds an opposing stance due to potential conflicts with industrial property values, while three stances remain unknown. Key stakeholder interests center on the protection of water resources, grid infrastructure requirements, and the strategic alignment of new development with existing regional coal, energy, and economic development initiatives.",
-  "location_context": "Neighbors within 0.5 mi of 40.741966,-76.274744",
+  "opposition_summary": null,
+  "support_summary": null,
+  "overview_summary": "Screening of 21 neighbors within 0.5 miles identified 19 residents and two organizations, all of whom currently maintain an unknown stance regarding the development. While the majority are private landowners with low community influence, the group includes one high-influence entity and one medium-influence entity. The high-influence neighbor is a long-established industrial infrastructure firm with significant local political presence that may be neutral or supportive depending on operational impacts. No documented opposition exists among the profiled neighbors, most of whom are longstanding community members with low public profiles.",
+  "location_context": "Neighbors within 0.5 mi of 34.04515,-85.04341",
   "city": null,
-  "county": "Schuylkill County",
-  "state": "PA",
-  "run_id": "dc3074cb-7a27-4568-8c7c-70c911ec9292",
-  "runtime_minutes": 45.18,
+  "county": "Polk County",
+  "state": "GA",
+  "run_id": "8b58be4e-1cd8-4526-86d3-41d6f8604c9d",
+  "runtime_minutes": 206.81,
   "success": true,
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/dc3074cb-7a27-4568-8c7c-70c911ec9292_ring_map.png",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/8b58be4e-1cd8-4526-86d3-41d6f8604c9d_ring_map.png",
   "map_ring_stats": [
     {
       "ring": 1,
       "inner_mi": 0.0,
-      "outer_mi": 1.07,
-      "count": 3,
+      "outer_mi": 0.26,
+      "count": 5,
       "oppose": 0,
-      "support": 3,
+      "support": 0,
       "neutral": 0,
-      "unknown": 0,
-      "sentiment": "support",
+      "unknown": 5,
+      "sentiment": "mixed",
       "high_oppose": 0,
-      "high_support": 3,
+      "high_support": 0,
       "high_neutral": 0,
-      "high_unknown": 0,
-      "medium_oppose": 0,
-      "medium_support": 0,
-      "medium_neutral": 0,
-      "medium_unknown": 0
-    },
-    {
-      "ring": 2,
-      "inner_mi": 1.07,
-      "outer_mi": 1.43,
-      "count": 7,
-      "oppose": 0,
-      "support": 2,
-      "neutral": 3,
-      "unknown": 2,
-      "sentiment": "neutral",
-      "high_oppose": 0,
-      "high_support": 2,
-      "high_neutral": 2,
       "high_unknown": 1,
       "medium_oppose": 0,
       "medium_support": 0,
@@ -451,40 +150,59 @@
       "medium_unknown": 0
     },
     {
-      "ring": 3,
-      "inner_mi": 1.43,
-      "outer_mi": 1.8,
-      "count": 5,
-      "oppose": 1,
-      "support": 3,
+      "ring": 2,
+      "inner_mi": 0.26,
+      "outer_mi": 0.36,
+      "count": 8,
+      "oppose": 0,
+      "support": 0,
       "neutral": 0,
-      "unknown": 1,
-      "sentiment": "support",
-      "high_oppose": 1,
-      "high_support": 2,
+      "unknown": 8,
+      "sentiment": "mixed",
+      "high_oppose": 0,
+      "high_support": 0,
       "high_neutral": 0,
       "high_unknown": 0,
       "medium_oppose": 0,
-      "medium_support": 1,
+      "medium_support": 0,
+      "medium_neutral": 0,
+      "medium_unknown": 1
+    },
+    {
+      "ring": 3,
+      "inner_mi": 0.36,
+      "outer_mi": 0.54,
+      "count": 8,
+      "oppose": 0,
+      "support": 0,
+      "neutral": 0,
+      "unknown": 8,
+      "sentiment": "mixed",
+      "high_oppose": 0,
+      "high_support": 0,
+      "high_neutral": 0,
+      "high_unknown": 0,
+      "medium_oppose": 0,
+      "medium_support": 0,
       "medium_neutral": 0,
       "medium_unknown": 0
     }
   ],
   "map_metadata": {
-    "run_id": "dc3074cb-7a27-4568-8c7c-70c911ec9292",
-    "generated_at": "2026-02-27T10:48:09.682816",
-    "center_lon": -76.27474365951052,
-    "center_lat": 40.741966281802,
+    "run_id": "8b58be4e-1cd8-4526-86d3-41d6f8604c9d",
+    "generated_at": "2026-03-10T04:13:29.044009",
+    "center_lon": -85.04371404716157,
+    "center_lat": 34.04574139820154,
     "boundaries_mi": [
       0.0,
-      1.0711,
-      1.4251,
-      1.798
+      0.2554,
+      0.3611,
+      0.5362
     ],
-    "total_neighbors_mapped": 15,
-    "total_neighbors": 15,
+    "total_neighbors_mapped": 21,
+    "total_neighbors": 21,
     "strategy_used": "geojson",
-    "url_length": 6657,
+    "url_length": 7341,
     "settings": {
       "width": 800,
       "height": 450,
@@ -493,86 +211,186 @@
     }
   },
   "target_parcel_info": {
-    "pin": "05020001.000",
+    "pin": "12972",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -76.287028,
-            40.7336955
+            -85.0407265,
+            34.046812
           ],
           [
-            -76.286729,
-            40.7335585
+            -85.040752,
+            34.0468125
           ],
           [
-            -76.2735905,
-            40.7275455
+            -85.040889,
+            34.046813
           ],
           [
-            -76.2528335,
-            40.730989
+            -85.044247,
+            34.0468325
           ],
           [
-            -76.2676065,
-            40.759585
+            -85.0477795,
+            34.0468355
           ],
           [
-            -76.2685815,
-            40.759773
+            -85.0478015,
+            34.0466795
           ],
           [
-            -76.2693835,
-            40.759961
+            -85.0478135,
+            34.046466
           ],
           [
-            -76.2698705,
-            40.760055
+            -85.0478295,
+            34.046252
           ],
           [
-            -76.2712805,
-            40.760455
+            -85.0478505,
+            34.0460385
           ],
           [
-            -76.2974745,
-            40.743117
+            -85.0478765,
+            34.045775
           ],
           [
-            -76.3007465,
-            40.739968
+            -85.0478975,
+            34.045511
           ],
           [
-            -76.2941195,
-            40.7369225
+            -85.0474375,
+            34.0454935
           ],
           [
-            -76.2930105,
-            40.7364145
+            -85.0474375,
+            34.0454905
           ],
           [
-            -76.287028,
-            40.7336955
+            -85.0452495,
+            34.045415
+          ],
+          [
+            -85.0450215,
+            34.045177
+          ],
+          [
+            -85.0450485,
+            34.0446335
+          ],
+          [
+            -85.0450115,
+            34.0446345
+          ],
+          [
+            -85.044489,
+            34.044681
+          ],
+          [
+            -85.044483,
+            34.0447365
+          ],
+          [
+            -85.04406,
+            34.0446905
+          ],
+          [
+            -85.0439675,
+            34.0446805
+          ],
+          [
+            -85.043342,
+            34.044636
+          ],
+          [
+            -85.0429965,
+            34.0445775
+          ],
+          [
+            -85.042504,
+            34.0443085
+          ],
+          [
+            -85.042324,
+            34.044188
+          ],
+          [
+            -85.0420955,
+            34.044264
+          ],
+          [
+            -85.0416345,
+            34.0442035
+          ],
+          [
+            -85.0416325,
+            34.0442035
+          ],
+          [
+            -85.041595,
+            34.0441985
+          ],
+          [
+            -85.0415925,
+            34.044198
+          ],
+          [
+            -85.041525,
+            34.0441895
+          ],
+          [
+            -85.0413385,
+            34.0440435
+          ],
+          [
+            -85.041272,
+            34.0440325
+          ],
+          [
+            -85.041052,
+            34.043995
+          ],
+          [
+            -85.0408245,
+            34.0439285
+          ],
+          [
+            -85.0406575,
+            34.044037
+          ],
+          [
+            -85.040591,
+            34.044026
+          ],
+          [
+            -85.0407265,
+            34.046812
           ]
         ]
       ]
     },
-    "lat": "40.741966",
-    "lon": "-76.274744",
-    "county_path": "/us/pa/schuylkill/cass"
+    "lat": "34.045741",
+    "lon": "-85.043714",
+    "county_path": "/us/ga/polk/aragon"
   },
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101126_2675.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260227_101322_0928.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101048_7659.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101435_3624.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101420_0559.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260227_101154_5485.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260227_101126_2675.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260227_101322_0928.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101435_3624.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101048_7659.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101154_5485.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260227_101420_0559.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010140_1476.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005910_8504.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005925_7944.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010218_0803.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005741_3299.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010003_3644.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010206_3181.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260310_005754_3521.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010218_0803.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_005910_8504.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010140_1476.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_005741_3299.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010003_3644.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260310_005754_3521.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010206_3181.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_005925_7944.json"
   ]
 }

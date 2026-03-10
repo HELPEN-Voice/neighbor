@@ -1,0 +1,135 @@
+{
+  "batch_idx": 1,
+  "total_batches": 7,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Murrieta Javier & Janice Bowman",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "17994"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Javier Murrieta and Janice Bowman jointly own a parcel of land in Polk County (ID #17994) ([propertytaxrecords.georgiaofficialrecords.com](https://propertytaxrecords.georgiaofficialrecords.com/county/polk#:~:text=The%20Polk%20County%20Tax%20Assessor,Sales%20history%20information)). Bowman\u2019s primary address is listed in Piedmont, Alabama, indicating they reside out of state while owning property in Polk County ([nationalpublicdata.com](https://nationalpublicdata.com/people/b/janice-bowman/#:~:text=192%20County%20Road%20306%2C%20Piedmont%2C,AL%2C%2036272%20Current)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Out-of-state owners; no local roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage via formal communication (letters/calls) since they live out-of-area. Emphasize that the project will not harm their property\u2019s value or impose burdens on their ownership."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "White Elmont & Geraldine",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "12983"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Elmont White and his wife Geraldine are listed as owners of Polk County parcel #12983 ([propertytaxrecords.georgiaofficialrecords.com](https://propertytaxrecords.georgiaofficialrecords.com/county/polk#:~:text=The%20Polk%20County%20Tax%20Assessor,Sales%20history%20information)). The White family has lived in Polk County for decades, but no public records show them taking any active role in local development debates ([www.alvismillerfuneralhome.com](https://www.alvismillerfuneralhome.com/obituaries/ernest-albert-white#:~:text=He%20was%20born%20in%20Rockmart%2C,enjoyed%20watching%20western%20movies%20and)).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Retired longtime residents",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Build rapport through a personal, respectful approach (possibly via mutual community contacts). Emphasize considerations like preserving the quiet rural character and addressing any practical concerns they may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Taylor William L & Angela",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "22167"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "William L. Taylor and Angela Taylor jointly own Polk County parcel #22167 ([propertytaxrecords.georgiaofficialrecords.com](https://propertytaxrecords.georgiaofficialrecords.com/county/polk#:~:text=The%20Polk%20County%20Tax%20Assessor,Sales%20history%20information)). No available public information indicates that either of the Taylors holds any official position or has spoken out about local development proposals ([propertytaxrecords.georgiaofficialrecords.com](https://propertytaxrecords.georgiaofficialrecords.com/county/polk#:~:text=The%20Polk%20County%20Tax%20Assessor,Sales%20history%20information)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out in person if possible, focusing on practical assurances (e.g., minimal traffic or visual impact). A neighborly approach addressing everyday concerns can help gain their understanding."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "overview_summary": "All three profiled neighboring landowners have no documented stance on the development (3 \"unknown\"). None are high-profile community figures \u2013 all are assessed with low local influence. This suggests minimal organized influence from these immediate neighbors.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005910_8504.json",
+  "cached_at": "2026-03-10T00:59:10.851769"
+}

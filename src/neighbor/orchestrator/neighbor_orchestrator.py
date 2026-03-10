@@ -1509,7 +1509,115 @@ class NeighborOrchestrator:
         # =====================================================================
         # self._cleanup_pii_files()
 
+        # Upload outputs to S3 for cache/resume on ECS reruns
+        self._sync_to_s3(run_id=run_id, county=county, state=state)
+
         return final
+
+    def _sync_to_s3(
+        self,
+        run_id: str,
+        county: str | None = None,
+        state: str | None = None,
+    ):
+        """Best-effort upload of neighbor outputs to S3.
+
+        Uploads neighbor_outputs/, deep_research_outputs/, and
+        neighbor_map_outputs/ to s3://{bucket}/neighbor-runs/{county}_{state}_{run_id}/.
+        Non-fatal on failure.
+        """
+        s3_bucket = os.environ.get("DILIGENCE_S3_BUCKET", "").strip()
+        if not s3_bucket:
+            return
+
+        try:
+            import boto3
+        except ImportError:
+            print("⚠️ boto3 not installed — skipping S3 sync for neighbor outputs")
+            return
+
+        try:
+            import re as _re
+
+            def _sanitize(value: str, fallback: str = "unknown") -> str:
+                cleaned = (value or "").strip()
+                cleaned = _re.sub(r"\s+", "_", cleaned)
+                cleaned = _re.sub(r"[^A-Za-z0-9._-]", "", cleaned)
+                cleaned = _re.sub(r"_+", "_", cleaned).strip("._-")
+                return cleaned or fallback
+
+            safe_county = _sanitize(county or "", "unknown_county")
+            safe_state = _sanitize(state or "", "unknown_state")
+            safe_run_id = _sanitize(run_id, "unknown_run")
+            s3_prefix = f"neighbor-runs/{safe_county}_{safe_state}_{safe_run_id}"
+
+            region = os.environ.get("S3_REGION") or os.environ.get("AWS_REGION")
+            s3 = boto3.client("s3", region_name=region) if region else boto3.client("s3")
+
+            base_dir = Path(__file__).parent.parent
+            dirs_to_upload = [
+                base_dir / "neighbor_outputs",
+                base_dir / "deep_research_outputs",
+                base_dir / "neighbor_map_outputs",
+            ]
+
+            uploaded_count = 0
+            failed_count = 0
+
+            # Write and upload run_meta.json
+            run_meta = {
+                "run_id": run_id,
+                "run_timestamp": datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),
+                "county": county or "",
+                "state": state or "",
+            }
+            import tempfile
+            with tempfile.NamedTemporaryFile(
+                mode="w", suffix=".json", delete=False
+            ) as tmp:
+                json.dump(run_meta, tmp, indent=2, ensure_ascii=False)
+                tmp_path = tmp.name
+            try:
+                s3.upload_file(
+                    tmp_path,
+                    s3_bucket,
+                    f"{s3_prefix}/run_meta.json",
+                    ExtraArgs={"ContentType": "application/json"},
+                )
+                uploaded_count += 1
+            except Exception:
+                failed_count += 1
+            finally:
+                os.unlink(tmp_path)
+
+            # Upload output directories
+            import mimetypes
+            for dir_path in dirs_to_upload:
+                if not dir_path.exists():
+                    continue
+                dir_name = dir_path.name
+                for file_path in dir_path.rglob("*"):
+                    if not file_path.is_file():
+                        continue
+                    relative = file_path.relative_to(dir_path).as_posix()
+                    key = f"{s3_prefix}/{dir_name}/{relative}"
+                    content_type, _ = mimetypes.guess_type(file_path.name)
+                    extra = {"ContentType": content_type} if content_type else None
+                    try:
+                        if extra:
+                            s3.upload_file(str(file_path), s3_bucket, key, ExtraArgs=extra)
+                        else:
+                            s3.upload_file(str(file_path), s3_bucket, key)
+                        uploaded_count += 1
+                    except Exception:
+                        failed_count += 1
+
+            print(
+                f"☁️ Neighbor S3 sync: uploaded={uploaded_count}, failed={failed_count}, "
+                f"prefix=s3://{s3_bucket}/{s3_prefix}/"
+            )
+        except Exception as exc:
+            print(f"⚠️ Neighbor S3 sync failed (non-fatal): {exc}")
 
     def _cleanup_pii_files(self):
         """Delete all intermediate files containing PII.

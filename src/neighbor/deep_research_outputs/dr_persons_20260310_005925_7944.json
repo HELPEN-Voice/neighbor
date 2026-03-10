@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-03-10T00:59:25.794546",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Polk County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "Both profiled neighbors have not publicly taken a stance on local development, with their positions remaining unknown. None hold formal community leadership roles, and high-influence individuals are absent among these neighbors, indicating a generally low influence risk profile.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "James Allen Massey & Debbie E. Massey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "18129",
+        "20157",
+        "17998"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Polk County property records list James Allen Massey (also recorded as James A. Massey) and his wife Debbie E. Massey as owners of multiple land parcels in the county [Polk County Tax Assessor](https://polkga.org/departments/tax_assessor/index.php). There is no record of James or Debbie Massey voicing any opinions on development in Polk County; their names do not appear in local news archives or county meeting minutes in recent years [AP News](https://apnews.com/search?query=%22James%20Massey%22%20Polk%20County%20GA).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Medium",
+      "influence_justification": "Multi-parcel landowners",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via a personable, local contact to build rapport and listen to any concerns about property impacts, given their lack of a stated stance."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kaysie Taylor & Heather Dawn Holder",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "20041"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kaysie Taylor and Heather Dawn Holder are listed together as co-owners of a Polk County property, per county tax records [Polk County Tax Assessor](https://polkga.org/departments/tax_assessor/index.php). Kaysie Taylor works as an X-ray technologist at a nearby hospital in Paulding County, indicating a professional background outside of agriculture [Bold.pro](https://us.bold.pro/my/kaysie-taylor). There are no public reports or meeting records indicating that either Taylor or Holder has taken a public position on local development issues [Coosa Valley News](https://coosavalleynews.com).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No known public roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage with an open, informative approach to answer questions and gauge any concerns, as neither co-owner has shown prior involvement in community development debates."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"Both profiled neighbors have not publicly taken a stance on local development, with their positions remaining unknown. None hold formal community leadership roles, and high-influence individuals are absent among these neighbors, indicating a generally low influence risk profile.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"James Allen Massey & Debbie E. Massey\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"18129\", \"20157\", \"17998\"],\n      \"claims\": \"Polk County property records list James Allen Massey (also recorded as James A. Massey) and his wife Debbie E. Massey as owners of multiple land parcels in the county [Polk County Tax Assessor](https://polkga.org/departments/tax_assessor/index.php). There is no record of James or Debbie Massey voicing any opinions on development in Polk County; their names do not appear in local news archives or county meeting minutes in recent years [AP News](https://apnews.com/search?query=%22James%20Massey%22%20Polk%20County%20GA).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Multi-parcel landowners\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via a personable, local contact to build rapport and listen to any concerns about property impacts, given their lack of a stated stance.\"\n      },\n      \"confidence\": \"Medium\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kaysie Taylor & Heather Dawn Holder\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"20041\"],\n      \"claims\": \"Kaysie Taylor and Heather Dawn Holder are listed together as co-owners of a Polk County property, per county tax records [Polk County Tax Assessor](https://polkga.org/departments/tax_assessor/index.php). Kaysie Taylor works as an X-ray technologist at a nearby hospital in Paulding County, indicating a professional background outside of agriculture [Bold.pro](https://us.bold.pro/my/kaysie-taylor). There are no public reports or meeting records indicating that either Taylor or Holder has taken a public position on local development issues [Coosa Valley News](https://coosavalleynews.com).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No known public roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage with an open, informative approach to answer questions and gauge any concerns, as neither co-owner has shown prior involvement in community development debates.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-03-10T00:57:54.352222",
+  "entity_type": "organization",
+  "batch_size": 2,
+  "location_context": {
+    "county": "Polk County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "C.W. Matthews Contracting Co., Inc. is a long-established (since 1946), family-owned highway construction company that owns an asphalt plant in Polk County. The firm is a major infrastructure player with notable political clout (large campaign donations). It is not a competitor to the development; if anything, C.W. Matthews could be neutral or supportive, especially if the project does not impede its plant operations and offers subcontracting opportunities.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "C.W. Matthews Contracting Co., Inc.",
+      "entity_category": "Organization",
+      "entity_type": "inc",
+      "pins": [
+        "7441",
+        "12972",
+        "12982",
+        "17996"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "C.W. Matthews Contracting Co., Inc. is a Georgia-based heavy highway construction company founded in 1946 that has grown to employ over 1,800 people statewide [C.W. Matthews – History](https://cwmatthews.com/about/history/) [C.W. Matthews – About Us](https://cwmatthews.com/about/). It remains privately held under multiple generations of the Matthews family (via parent company Matsco, Inc.) and is headquartered in Marietta, Georgia [C.W. Matthews – Leadership Team](https://cwmatthews.com/about/leadership/). The company operates asphalt manufacturing plants across Georgia, including one in Rockmart, Polk County, reflecting its direct local presence [C.W. Matthews – Asphalt Plant Locations](https://cwmatthews.com/expertise/asphalt-plants-manufacturing/locations/). C.W. Matthews has secured over $64 million in federal highway construction contracts [ProPublica](https://projects.propublica.org/contracts/contractor/c-w-matthews-contracting-co-inc.html). Its executives and affiliates are politically active, contributing over $500,000 in the 2020 election cycle (about 99% of it to Republican candidates) [OpenSecrets](https://www.opensecrets.org/orgs/cw-matthews-contracting/totals?id=D000049929).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "One of Georgia’s largest contractors (1,800+ employees); deep ties to state officials (major donor); operates local asphalt plant",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage CFO Michael Bell (who oversees external affairs) or President Dan Garcia directly to discuss the project. Emphasize potential subcontracting opportunities (e.g., road work, material supply) and reassure that the development will not impede their Rockmart plant operations."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"C.W. Matthews Contracting Co., Inc. is a long-established (since 1946), family-owned highway construction company that owns an asphalt plant in Polk County. The firm is a major infrastructure player with notable political clout (large campaign donations). It is not a competitor to the development; if anything, C.W. Matthews could be neutral or supportive, especially if the project does not impede its plant operations and offers subcontracting opportunities.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"C.W. Matthews Contracting Co., Inc.\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"inc\",\n      \"pins\": [\"7441\", \"12972\", \"12982\", \"17996\"],\n      \"claims\": \"C.W. Matthews Contracting Co., Inc. is a Georgia-based heavy highway construction company founded in 1946 that has grown to employ over 1,800 people statewide [C.W. Matthews – History](https://cwmatthews.com/about/history/) [C.W. Matthews – About Us](https://cwmatthews.com/about/). It remains privately held under multiple generations of the Matthews family (via parent company Matsco, Inc.) and is headquartered in Marietta, Georgia [C.W. Matthews – Leadership Team](https://cwmatthews.com/about/leadership/). The company operates asphalt manufacturing plants across Georgia, including one in Rockmart, Polk County, reflecting its direct local presence [C.W. Matthews – Asphalt Plant Locations](https://cwmatthews.com/expertise/asphalt-plants-manufacturing/locations/). C.W. Matthews has secured over $64 million in federal highway construction contracts [ProPublica](https://projects.propublica.org/contracts/contractor/c-w-matthews-contracting-co-inc.html). Its executives and affiliates are politically active, contributing over $500,000 in the 2020 election cycle (about 99% of it to Republican candidates) [OpenSecrets](https://www.opensecrets.org/orgs/cw-matthews-contracting/totals?id=D000049929).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"One of Georgia’s largest contractors (1,800+ employees); deep ties to state officials (major donor); operates local asphalt plant\",\n      \"entity_classification\": \"infrastructure_contractor\",\n      \"potential_motivators\": [\"Securing infrastructure work from new development projects\", \"Protecting existing asphalt plant operations\", \"Maintaining presence in regional market\"],\n      \"approach_recommendations\": \"Engage CFO Michael Bell (who oversees external affairs) or President Dan Garcia directly to discuss the project. Emphasize potential subcontracting opportunities (e.g., road work, material supply) and reassure that the development will not impede their Rockmart plant operations.\",\n      \"confidence\": \"high\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}

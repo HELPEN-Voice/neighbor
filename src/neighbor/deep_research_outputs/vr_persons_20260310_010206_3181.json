@@ -1,0 +1,153 @@
+{
+  "timestamp": "2026-03-10T02:35:47.886538",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010206_3181.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Polk County",
+    "state": "GA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ward Levon Formby",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19051"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ward Levon Formby is connected to a long-rooted local family in Polk County, Georgia (e.g., Charles Elmer Formby lived his entire life in the county) ([Alvis Miller Funeral Home](https://www.alvismillerfuneralhome.com/obituaries?page=30)). The individual does not hold any public office or civic position on the Polk County Board of Commissioners ([Polk County Government](https://www.polkga.org/government/board_of_commissioners/index.php)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not on Board of Commissioners",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy",
+          "privacy_quiet"
+        ],
+        "engage": "Approach via a respectful, personal conversation (ideally through a long-time community member) to understand any concerns."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Charles Elmer Formby lived his entire life in the county",
+          "url": "https://www.alvismillerfuneralhome.com/obituaries?page=30",
+          "title": "Alvis Miller Funeral Home Obituaries",
+          "date": "2023-08-27"
+        },
+        {
+          "claim": "Does not hold any public office or civic position on the Polk County Board of Commissioners",
+          "url": "https://www.polkga.org/government/board_of_commissioners/index.php",
+          "title": "Polk County Board of Commissioners",
+          "date": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kenneth Godfrey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19955"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kenneth Godfrey does not hold any local leadership position or public office on the Polk County Board of Commissioners ([Polk County Government](https://www.polkga.org/government/board_of_commissioners/index.php)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not on Board of Commissioners",
+      "approach_recommendations": {
+        "motivations": [
+          "privacy_quiet"
+        ],
+        "engage": "Engage one-on-one through a neighborly visit or call, focusing on listening to any questions or concerns."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Does not hold any local leadership position or public office on the Polk County Board of Commissioners",
+          "url": "https://www.polkga.org/government/board_of_commissioners/index.php",
+          "title": "Polk County Board of Commissioners",
+          "date": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Makayla & Matthew Kennedy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23468"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Makayla and Matthew Kennedy do not have known public involvement in local governance, as neither appears on the current Polk County Board of Commissioners ([Polk County Government](https://www.polkga.org/government/board_of_commissioners/index.php)).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Not on Board of Commissioners",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Reach out informally to build rapport and open a dialogue about the project."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Neither appears on the current Polk County Board of Commissioners",
+          "url": "https://www.polkga.org/government/board_of_commissioners/index.php",
+          "title": "Polk County Board of Commissioners",
+          "date": "2026-03-10"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 736612,
+    "thinking_count": 91
+  }
+}

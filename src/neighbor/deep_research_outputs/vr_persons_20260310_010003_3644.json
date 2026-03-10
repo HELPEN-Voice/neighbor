@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-03-10T02:33:14.865895",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010003_3644.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Polk County",
+    "state": "GA",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Starr Properties",
+      "entity_category": "Organization",
+      "entity_type": "LLC",
+      "pins": [
+        "15815"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Public records indicate Starr Properties is a business entity. Could not verify ownership of parcel 15815 by Starr Properties in Polk County public records [Polk County Tax Assessor](https://www.polkga.org/departments/tax_assessor/index.php).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "LLC owner; no personal presence",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with this corporate landowner through official channels, as standard for an LLC."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Could not verify ownership of parcel 15815 by Starr Properties in Polk County public records",
+          "url": "https://www.polkga.org/departments/tax_assessor/index.php",
+          "title": "Polk County Tax Assessor",
+          "date": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Marty L. Waddell & Angie E. Waddell",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "16584",
+        "19110"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Marty Waddell, an Aragon resident, passed away on October 12, 2020 [Alvis Miller Funeral Home](https://www.alvismillerfuneralhome.com/obituaries/marty-waddell). There is no verified public record of his wife Angie holding local office or stating a position on development [Polk County Board of Commissioners](https://www.polkga.org/government/board_of_commissioners/index.php).",
+      "confidence": "high",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Longtime residents; no official role",
+      "approach_recommendations": {
+        "motivations": [
+          "heritage_family_legacy"
+        ],
+        "engage": "Engage Angie Waddell via a mutual local contact, emphasizing respect for their family’s long-standing local ties and listening to any concerns she may have."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Marty Waddell, an Aragon resident, passed away on October 12, 2020",
+          "url": "https://www.alvismillerfuneralhome.com/obituaries/marty-waddell",
+          "title": "Marty Waddell Obituary - Alvis Miller & Son Funeral Home",
+          "date": "2020-10-12"
+        },
+        {
+          "claim": "There is no verified public record of his wife Angie holding local office or stating a position on development",
+          "url": "https://www.polkga.org/government/board_of_commissioners/index.php",
+          "title": "Polk County Board of Commissioners",
+          "date": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Jeremy Roberson",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "4070"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Roberson name is associated with Roberson Road near Rockmart, where a vacant tract spans approximately 34.5 acres [Redfin](https://www.redfin.com/GA/Rockmart/214-Roberson-Rd-30153/home/24512844). Could not verify Jeremy Roberson's specific stance on local development or any formal public roles [Polk County Board of Commissioners](https://www.polkga.org/government/board_of_commissioners/index.php).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no civic profile",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "privacy_quiet"
+        ],
+        "engage": "Use a neighborly one-on-one approach with Jeremy Roberson, ensuring open communication. Be prepared to address common concerns about property impacts and show willingness to listen to his questions."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Roberson name is associated with Roberson Road near Rockmart, where a vacant tract spans approximately 34.5 acres",
+          "url": "https://www.redfin.com/GA/Rockmart/214-Roberson-Rd-30153/home/24512844",
+          "title": "214 Roberson Rd, Rockmart, GA 30153 - Redfin",
+          "date": "2026-03-10"
+        },
+        {
+          "claim": "Could not verify Jeremy Roberson's specific stance on local development or any formal public roles",
+          "url": "https://www.polkga.org/government/board_of_commissioners/index.php",
+          "title": "Polk County Board of Commissioners",
+          "date": "2026-03-10"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 972018,
+    "thinking_count": 93
+  }
+}

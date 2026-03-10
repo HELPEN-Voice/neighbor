@@ -1,0 +1,110 @@
+{
+  "batch_idx": 4,
+  "total_batches": 7,
+  "entity_type": "person",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Debbie F. Moffett Godfrey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "17990"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Debbie F. Moffett Godfrey is listed as the owner of a parcel (PIN 17990) in Polk County property records [Polk County Tax Assessor\u2019s Office](https://qpublic.net/ga/polk/). No news reports or public meeting minutes were found that mention her taking any position on local development issues as of 2026 [Polk County Standard Journal](https://www.newslibrary.com/newspapers/usa/georgia/cedartown/polk-county-standard-journal).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private landowner; no known civic role",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out personally through a polite, in-person introduction. Emphasize listening to any concerns she may have about community impacts before describing the project\u2019s potential benefits."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Susan Carol Clay",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "5697"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Susan Carol Clay is identified in county records as the owner of parcel #5697 in Polk County [Polk County Tax Assessor\u2019s Office](https://qpublic.net/ga/polk/). There is no record of her voicing any opinion on development or energy projects in local media or public meetings to date [Polk County Standard Journal](https://www.newslibrary.com/newspapers/usa/georgia/cedartown/polk-county-standard-journal).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Low-profile resident; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach Ms. Clay in a neighborly manner, possibly via mutual acquaintances, to build trust. Given her lack of public stance, focus on understanding her views and reassure her about any personal concerns quietly and respectfully."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "John T. & Paulette H. Combs",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "4360"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "John T. Combs and Paulette H. Combs jointly own parcel #4360 in Polk County per the county assessor\u2019s records [Polk County Tax Assessor\u2019s Office](https://qpublic.net/ga/polk/). They have not been mentioned in local news or documented participating in community meetings regarding development, indicating no visible stance on the project so far [Coosa Valley News](https://coosavalleynews.com/).",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or influence roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Combs family through a friendly, informal conversation at their convenience. With no known position on development, it\u2019s important to respectfully introduce the project and address any questions they might have in a neighborly setting."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "Three neighboring landowners were profiled in Polk County, and none have a documented public stance for or against development. All three appear to be private residents with low public profiles and no known positions of community leadership, suggesting no high-influence opponents in the immediate area.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005741_3299.json",
+  "cached_at": "2026-03-10T00:57:41.330797"
+}

@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-03-10T01:02:06.318239",
+  "entity_type": "person",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Polk County",
+    "state": "GA",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "None of these three adjacent landowners have taken a clear public stance on development or clean energy projects, and all are essentially private residents without known civic roles. Their community influence appears low, as none hold public office or leadership positions in Polk County.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ward Levon Formby",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19051"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Ward Levon Formby is a Polk County landowner (tax parcel #19051) and appears to hail from a long-rooted local family (e.g., another Formby relative lived his entire life in Polk County) [Polk County Tax Assessors](https://www.polkga.org/tax-assessors) [Alvis Miller Funeral Home](https://www.alvismillerfuneralhome.com/obituaries/charles-elmer-formby). He does not hold any public office or civic position (his name does not appear among Polk County’s local officials or in local meeting records) [OneDoorPolk](https://onedoorpolk.org/polk-county-board-of-commissioners/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No official role; private resident",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Approach via a respectful, personal conversation (ideally through a long-time community member) to understand any concerns he may have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Kenneth Godfrey",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "19955"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Kenneth Godfrey is identified as an owner of a Polk County property (parcel #19955) [Polk County Tax Assessors](https://www.polkga.org/tax-assessors). There is no indication that he holds any local leadership position or has voiced opinions on development (he is not listed among county officials or known public commenters) [OneDoorPolk](https://onedoorpolk.org/polk-county-board-of-commissioners/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "No public profile or roles",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage him one-on-one through a neighborly visit or call, focusing on listening to any questions or concerns he might have."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Makayla & Matthew Kennedy",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "23468"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Makayla and Matthew Kennedy are the listed co-owners of a Polk County parcel (#23468) [Polk County Tax Assessors](https://www.polkga.org/tax-assessors). They have no known public involvement in local governance or development debates (neither appears in local official directories or news archives) [OneDoorPolk](https://onedoorpolk.org/polk-county-board-of-commissioners/).",
+      "confidence": "low",
+      "noted_stance": "unknown",
+      "community_influence": "Low",
+      "influence_justification": "Private residents; not publicly active",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Reach out informally (for example, via a community gathering or neighbor introduction) to build rapport and open a dialogue about the project."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"None of these three adjacent landowners have taken a clear public stance on development or clean energy projects, and all are essentially private residents without known civic roles. Their community influence appears low, as none hold public office or leadership positions in Polk County.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Ward Levon Formby\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"19051\"],\n      \"claims\": \"Ward Levon Formby is a Polk County landowner (tax parcel #19051) and appears to hail from a long-rooted local family (e.g., another Formby relative lived his entire life in Polk County) [Polk County Tax Assessors](https://www.polkga.org/tax-assessors) [Alvis Miller Funeral Home](https://www.alvismillerfuneralhome.com/obituaries/charles-elmer-formby). He does not hold any public office or civic position (his name does not appear among Polk County’s local officials or in local meeting records) [OneDoorPolk](https://onedoorpolk.org/polk-county-board-of-commissioners/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No official role; private resident\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Approach via a respectful, personal conversation (ideally through a long-time community member) to understand any concerns he may have.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Kenneth Godfrey\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"19955\"],\n      \"claims\": \"Kenneth Godfrey is identified as an owner of a Polk County property (parcel #19955) [Polk County Tax Assessors](https://www.polkga.org/tax-assessors). There is no indication that he holds any local leadership position or has voiced opinions on development (he is not listed among county officials or known public commenters) [OneDoorPolk](https://onedoorpolk.org/polk-county-board-of-commissioners/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"No public profile or roles\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Engage him one-on-one through a neighborly visit or call, focusing on listening to any questions or concerns he might have.\"\n      },\n      \"confidence\": \"Low\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Makayla & Matthew Kennedy\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"23468\"],\n      \"claims\": \"Makayla and Matthew Kennedy are the listed co-owners of a Polk County parcel (#23468) [Polk County Tax Assessors](https://www.polkga.org/tax-assessors). They have no known public involvement in local governance or development debates (neither appears in local official directories or news archives) [OneDoorPolk](https://onedoorpolk.org/polk-county-board-of-commissioners/).\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Low\",\n      \"influence_justification\": \"Private residents; not publicly active\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Reach out informally (for example, via a community gathering or neighbor introduction) to build rapport and open a dialogue about the project.\"\n      },\n      \"confidence\": \"Low\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
