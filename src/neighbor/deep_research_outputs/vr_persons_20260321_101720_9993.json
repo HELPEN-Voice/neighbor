@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-03-21T10:25:36.665789",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260321_101720_9993.json",
+  "entity_type": "person",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Mack Real Estate Group",
+      "entity_category": "Organization",
+      "entity_type": "Commercial Developer",
+      "pins": [
+        "20409008A",
+        "20409008B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parcels 204-09-008A and 204-09-008B are located at the northeast corner of Loop 303 and N 51st Ave and belong to the Halo Vista development ([source](https://www.costar.com/article/767572006/costco-marriott-join-real-estate-project-surrounding-tsmc-microchip-plant-in-arizona)). Mack Real Estate Group and McCourt Partners acquired the 2,300-acre site at an Arizona State Land Department auction in May 2024 to build a multi-billion dollar mixed-use hub surrounding the TSMC semiconductor plant ([source](https://www.costar.com/article/1448747740/sale-acquistion-of-the-year-for-phoenix-22)). As a major real estate firm, they are actively planning up to 30 million square feet of commercial space, industrial facilities, and residential units ([source](https://www.costar.com/article/767572006/costco-marriott-join-real-estate-project-surrounding-tsmc-microchip-plant-in-arizona)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "Developing multi-billion dollar Halo Vista project around TSMC",
+      "approach_recommendations": {
+        "motivations": [
+          "property_value",
+          "traffic_safety",
+          "drainage_roads"
+        ],
+        "engage": "Engage as a peer commercial developer. Coordinate strictly on infrastructure, zoning, and complementary land uses, recognizing their massive investment and high influence with Phoenix economic development officials."
+      },
+      "entity_classification": "land_investment",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Parcels 204-09-008A and 204-09-008B are located at the northeast corner of Loop 303 and N 51st Ave and belong to the Halo Vista development",
+          "url": "https://www.costar.com/article/767572006/costco-marriott-join-real-estate-project-surrounding-tsmc-microchip-plant-in-arizona",
+          "title": "Costco, Marriott Join Real Estate Project Surrounding TSMC Microchip Plant in Arizona",
+          "date": "2025-10-06"
+        },
+        {
+          "claim": "Mack Real Estate Group and McCourt Partners acquired the 2,300-acre site at an Arizona State Land Department auction in May 2024 to build a multi-billion dollar mixed-use hub surrounding the TSMC semiconductor plant",
+          "url": "https://www.costar.com/article/1448747740/sale-acquistion-of-the-year-for-phoenix-22",
+          "title": "Sale/Acquisition of the Year for Phoenix",
+          "date": "2025-03-26"
+        },
+        {
+          "claim": "As a major real estate firm, they are actively planning up to 30 million square feet of commercial space, industrial facilities, and residential units",
+          "url": "https://www.costar.com/article/767572006/costco-marriott-join-real-estate-project-surrounding-tsmc-microchip-plant-in-arizona",
+          "title": "Costco, Marriott Join Real Estate Project Surrounding TSMC Microchip Plant in Arizona",
+          "date": "2025-10-06"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "person",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 296200,
+    "thinking_count": 53
+  }
+}

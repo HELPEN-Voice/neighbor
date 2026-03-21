@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-03-21T10:23:33.866133",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260321_101711_3004.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "TSMC Arizona Corporation",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "20409005",
+        "20409006",
+        "20409007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "TSMC Arizona Corporation was incorporated in Arizona in November 2020 as a wholly owned subsidiary of Taiwan Semiconductor Manufacturing Co. (TSMC), aimed at establishing a new semiconductor fabrication campus in Phoenix ([SEC](https://www.sec.gov/Archives/edgar/data/1046179/000119312521301096/d133627df3asr.htm)). TSMC’s Phoenix project has secured a $6.6 billion federal CHIPS Act grant to help fund a planned $65 billion multi-factory complex in north Phoenix ([Axios](https://www.axios.com/local/phoenix/2024/11/15/tsmc-chips-act-funding)). In January 2026, TSMC Arizona paid $197.25 million for 900 additional acres of adjacent state trust land at auction, nearly doubling its land holdings to accommodate up to six chip plants and related facilities ([AZ Big Media](https://azbigmedia.com/real-estate/tsmc-buys-900-acres-of-land-in-north-phoenix-for-197-million/)). The corporation actively supports renewable energy infrastructure, having installed a 14.5MW solar array over its Arizona facility parking areas and committing to 100% renewable energy consumption ([TSMC ESG](https://www.tsmc.com/static/abouttsmcaz/index.htm)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "High - Multi-billion-dollar project with strong government backing; major employer and landholder influencing local economy and infrastructure.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage TSMC Arizona’s executive leadership (e.g. site president) with a partnership approach. Emphasize mutual benefits (for example, the project could support infrastructure or clean energy for their fabs) and address any safety or environmental concerns upfront to align with TSMC’s interests."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "TSMC Arizona Corporation was incorporated in Arizona in November 2020 as a wholly owned subsidiary of Taiwan Semiconductor Manufacturing Co.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312521301096/d133627df3asr.htm",
+          "title": "SEC Form F-3 Registration Statement - TSMC Arizona Corporation",
+          "date": "2021-10-18"
+        },
+        {
+          "claim": "Secured a $6.6 billion federal CHIPS Act grant for a $65 billion complex",
+          "url": "https://www.axios.com/local/phoenix/2024/11/15/tsmc-chips-act-funding",
+          "title": "Biden administration finalizes $6.6 billion TSMC award",
+          "date": "2024-11-15"
+        },
+        {
+          "claim": "In January 2026, paid $197.25 million for 900 additional acres of state trust land at auction",
+          "url": "https://azbigmedia.com/real-estate/tsmc-buys-900-acres-of-land-in-north-phoenix-for-197-million/",
+          "title": "TSMC buys 900 acres of land in North Phoenix for $197 million",
+          "date": "2026-01-24"
+        },
+        {
+          "claim": "Installed a 14.5MW solar array over its Arizona facility parking areas",
+          "url": "https://www.tsmc.com/static/abouttsmcaz/index.htm",
+          "title": "TSMC Arizona Sustainability",
+          "date": "2024-04-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Arizona State Of",
+      "entity_category": "Organization",
+      "entity_type": "government",
+      "pins": [
+        "20409002A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parcel 204-09-002A was state trust land owned by the State of Arizona and managed by the Arizona State Land Department to benefit public institutions, primarily the public school system ([AZ JLBC](https://www.azjlbc.gov/units/pslandtrust.pdf)). In January 2026, the Land Department auctioned approximately 900 acres in this area with a minimum bid of $197.25 million; TSMC ultimately won the auction to acquire the land for its expansion ([KJZZ](https://www.kjzz.org/business/2026-01-08/tsmc-buys-900-acres-of-arizona-state-land-at-auction)). Arizona law requires that trust lands be sold or leased via public auction at or above appraised value ([Arizona State Law Journal](https://arizonastatelawjournal.org/2026/03/12/sold-to-the-only-bidder-what-the-tsmc-land-auction-reveals-about-arizona-trust-land-law/)) – for example, in 2024 a 95-acre Phoenix parcel was appraised at $68.5 million and slated for auction at that price ([AP News](https://apnews.com/article/arizona-coyotes-arena-561f0f996d24e322e89daa21f05933e0)). The ASLD explicitly supports renewable energy by offering long-term commercial leases for utility-scale solar projects on trust lands through public auction ([ASLD Solar Applications](https://land.az.gov/solar-applications)).",
+      "confidence": "high",
+      "noted_stance": "support",
+      "community_influence": "High",
+      "influence_justification": "High - Government trustee of vast land assets; controls disposition of development land (e.g. enabled $197M TSMC land sale) and holds legal authority impacting local development.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Arizona State Land Department leadership to ensure the project aligns with trust land rules. Emphasize how the development can complement state land use plans and provide infrastructure or value benefits, addressing any requirements to secure the state’s support."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Managed by the Arizona State Land Department to benefit public institutions, primarily the public school system",
+          "url": "https://www.azjlbc.gov/units/pslandtrust.pdf",
+          "title": "Arizona State Land Trust Overview",
+          "date": "2019-09-01"
+        },
+        {
+          "claim": "Auctioned approximately 900 acres in this area with a minimum bid of $197.25 million",
+          "url": "https://www.kjzz.org/business/2026-01-08/tsmc-buys-900-acres-of-arizona-state-land-at-auction",
+          "title": "TSMC buys 900 acres of Arizona state land at auction",
+          "date": "2026-01-08"
+        },
+        {
+          "claim": "Arizona law requires that trust lands be sold or leased via public auction at or above appraised value",
+          "url": "https://arizonastatelawjournal.org/2026/03/12/sold-to-the-only-bidder-what-the-tsmc-land-auction-reveals-about-arizona-trust-land-law/",
+          "title": "Sold to the Only Bidder: What the TSMC Land Auction Reveals About Arizona Trust Land Law",
+          "date": "2026-03-13"
+        },
+        {
+          "claim": "In 2024 a 95-acre Phoenix parcel was appraised at $68.5 million and slated for auction",
+          "url": "https://apnews.com/article/arizona-coyotes-arena-561f0f996d24e322e89daa21f05933e0",
+          "title": "Arizona's Land Department approves auction of Phoenix land sought by Coyotes",
+          "date": "2024-03-14"
+        },
+        {
+          "claim": "ASLD explicitly supports renewable energy by offering long-term commercial leases for utility-scale solar projects",
+          "url": "https://land.az.gov/solar-applications",
+          "title": "Arizona State Land Department - Solar Applications",
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Arizona Game & Fish Comm",
+      "entity_category": "Organization",
+      "entity_type": "government",
+      "pins": [
+        "20310005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Arizona Game and Fish Commission is a five-member board appointed by the governor to oversee the state’s Game and Fish Department ([Nevada Legislature Research](https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/30499)). The Department’s mission is to preserve, protect, perpetuate, and manage the wildlife of the state ([Nevada Legislature Research](https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/30499)). The Commission owns and operates the 1,650-acre Ben Avery Shooting Facility in north Phoenix – one of the largest publicly operated shooting ranges in the nation, serving over 120,000 shooters each year ([AZGFD](https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/)). The Commission is not a permitting authority for solar projects but acts as an advisory body. In 2010, they published 'Guidelines for Solar Development in Arizona' to provide science-based recommendations to developers on mitigating wildlife impacts and strategic siting, maintaining a scientifically neutral approach to energy development ([AZGFD Solar Guidelines](https://s3.amazonaws.com/azgfd-portal-wordpress/PortalImages/files/wildlife/planningFor/wildlifeFriendlyGuidelines/FinalSolarGuidelines03122010.pdf)).",
+      "confidence": "medium",
+      "noted_stance": "neutral",
+      "community_influence": "Medium",
+      "influence_justification": "Medium - Manages significant recreational land (1,650-acre shooting range); holds regulatory influence over wildlife, but not a major economic driver.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Game & Fish Department staff and Commission members early to discuss any wildlife or recreation impacts. Coordinate with Ben Avery Shooting Facility managers on safety/noise mitigation and show that the project will not harm wildlife habitat, aligning with the Commission’s mission."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "Five-member board appointed by the governor to oversee the state’s Game and Fish Department with a mission to preserve wildlife",
+          "url": "https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/30499",
+          "title": "Review of the Arizona Game and Fish Commission",
+          "date": "2024-04-05"
+        },
+        {
+          "claim": "Owns and operates the 1,650-acre Ben Avery Shooting Facility serving over 120,000 shooters",
+          "url": "https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/",
+          "title": "Welcome to Ben Avery Shooting Facility",
+          "date": "2026-01-01"
+        },
+        {
+          "claim": "Not a permitting authority; published 'Guidelines for Solar Development' in 2010 to provide advisory mitigation strategies",
+          "url": "https://s3.amazonaws.com/azgfd-portal-wordpress/PortalImages/files/wildlife/planningFor/wildlifeFriendlyGuidelines/FinalSolarGuidelines03122010.pdf",
+          "title": "Guidelines for Solar Development in Arizona",
+          "date": "2010-03-12"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 3,
+    "profiles_output": 3,
+    "total_tokens": 384576,
+    "thinking_count": 20
+  }
+}

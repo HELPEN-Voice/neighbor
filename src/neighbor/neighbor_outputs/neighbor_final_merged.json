@@ -1,149 +1,208 @@
 {
-  "total_screened": 21,
-  "residents_count": 19,
-  "organizations_count": 2,
-  "adjacent_count": 1,
+  "total_screened": 4,
+  "residents_count": 0,
+  "organizations_count": 4,
+  "adjacent_count": 3,
   "influence_distribution": {
-    "High": 1,
+    "High": 3,
     "Medium": 1,
-    "Low": 19
+    "Low": 0
   },
   "stance_distribution": {
     "oppose": 0,
-    "support": 0,
-    "neutral": 0,
-    "unknown": 21
+    "support": 3,
+    "neutral": 1,
+    "unknown": 0
   },
   "entity_type_breakdown": {
-    "unknown": 21
+    "unknown": 1,
+    "municipal": 2,
+    "land_investment": 1
   },
-  "risk_score": 4,
-  "risk_level": "medium",
+  "risk_score": 8,
+  "risk_level": "high",
   "themes": [
     {
-      "theme": "Large-Scale Infrastructure and Industrial Operators",
-      "description": "This group consists of major corporate entities with significant operational footprints and workforce presence in the region. They often manage industrial facilities and maintain high levels of influence through economic contributions and political engagement.",
+      "theme": "Industrial & Economic Anchors",
+      "description": "Major industrial entities driving regional economic growth and infrastructure requirements. These stakeholders often have significant capital investment and government support for large-scale operations.",
       "neighbor_count": 1,
       "prevalent_concerns": [
-        "operational_continuity",
-        "zoning_regulations",
-        "infrastructure_compatibility"
+        "infrastructure_capacity",
+        "utility_reliability",
+        "economic_growth"
       ],
       "typical_influence": "High",
-      "engagement_approach": "Focus on high-level corporate relations and ensuring project compatibility with existing industrial operations and logistics.",
+      "engagement_approach": "Focus on technical coordination and long-term infrastructure alignment to support large-scale industrial operations.",
       "members": [
         {
-          "name": "C.W. Matthews Contracting Co., Inc.",
-          "persona": "Major heavy highway construction firm operating local industrial facilities with significant regiona",
+          "name": "TSMC Arizona Corporation",
+          "persona": "Large-scale semiconductor manufacturer establishing a major industrial footprint with significant go",
           "influence": "High",
-          "stance": "unknown",
+          "stance": "support",
           "adjacent": true,
           "citations": [
             {
-              "title": "C.W. Matthews - History",
-              "url": "https://cwmatthews.com/about/history/",
-              "date": "unknown"
+              "title": "SEC Form F-3 Registration Statement - TSMC Arizona Corporation",
+              "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312521301096/d133627df3asr.htm",
+              "date": "2021-10-18"
             },
             {
-              "title": "C.W. Matthews - Leadership Team",
-              "url": "https://cwmatthews.com/about/leadership/",
-              "date": "unknown"
+              "title": "Biden administration finalizes $6.6 billion TSMC award",
+              "url": "https://www.axios.com/local/phoenix/2024/11/15/tsmc-chips-act-funding",
+              "date": "2024-11-15"
             },
             {
-              "title": "C.W. Matthews - Asphalt Plants Manufacturing",
-              "url": "https://cwmatthews.com/expertise/asphalt-plants-manufacturing/",
-              "date": "unknown"
+              "title": "TSMC buys 900 acres of land in North Phoenix for $197 million",
+              "url": "https://azbigmedia.com/real-estate/tsmc-buys-900-acres-of-land-in-north-phoenix-for-197-million/",
+              "date": "2026-01-24"
             }
           ]
         }
       ]
     },
     {
-      "theme": "Local Landowners and Property Holders",
-      "description": "This group represents individuals or families who own multiple parcels of land within the vicinity of the project area. Their interests are typically tied to property rights, land use flexibility, and the long-term value of their holdings.",
+      "theme": "Institutional Land Management",
+      "description": "Government entities responsible for managing vast tracts of land for public benefit and future disposition. These stakeholders control land use permissions and large-scale sales that shape regional development patterns.",
       "neighbor_count": 1,
       "prevalent_concerns": [
-        "property_rights",
-        "land_value",
-        "future_development_potential"
+        "land_valuation",
+        "public_school_funding",
+        "zoning_authority"
       ],
-      "typical_influence": "Medium",
-      "engagement_approach": "Provide clear information regarding project impacts on land use and maintain open lines of communication regarding property boundaries.",
+      "typical_influence": "High",
+      "engagement_approach": "Maintain formal communication regarding land use regulations and long-term state-level development goals.",
       "members": [
         {
-          "name": "James Allen Massey & Debbie E. Massey",
-          "persona": "Multi-parcel residential landowners with established property holdings in the local county area.",
-          "influence": "Medium",
-          "stance": "unknown",
+          "name": "Arizona State Of",
+          "persona": "State-level land management authority overseeing the disposition and development of trust lands for ",
+          "influence": "High",
+          "stance": "support",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "Arizona State Land Trust Overview",
+              "url": "https://www.azjlbc.gov/units/pslandtrust.pdf",
+              "date": "2019-09-01"
+            },
+            {
+              "title": "TSMC buys 900 acres of Arizona state land at auction",
+              "url": "https://www.kjzz.org/business/2026-01-08/tsmc-buys-900-acres-of-arizona-state-land-at-auction",
+              "date": "2026-01-08"
+            },
+            {
+              "title": "Sold to the Only Bidder: What the TSMC Land Auction Reveals About Arizona Trust Land Law",
+              "url": "https://arizonastatelawjournal.org/2026/03/12/sold-to-the-only-bidder-what-the-tsmc-land-auction-reveals-about-arizona-trust-land-law/",
+              "date": "2026-03-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Commercial Development Interests",
+      "description": "Private real estate entities focused on large-scale commercial and mixed-use projects. Their primary interests involve maximizing property value and ensuring adequate infrastructure for new developments.",
+      "neighbor_count": 1,
+      "prevalent_concerns": [
+        "property_value",
+        "traffic_safety",
+        "drainage_infrastructure"
+      ],
+      "typical_influence": "High",
+      "engagement_approach": "Coordinate on shared infrastructure needs and potential synergies between adjacent commercial and industrial development projects.",
+      "members": [
+        {
+          "name": "Mack Real Estate Group",
+          "persona": "Commercial real estate developer focused on multi-billion dollar mixed-use projects surrounding majo",
+          "influence": "High",
+          "stance": "support",
           "adjacent": false,
           "citations": [
             {
-              "title": "Polk County Tax Assessor",
-              "url": "https://polkga.org/departments/tax_assessor/index.php",
-              "date": "2026-03-10"
+              "title": "Costco, Marriott Join Real Estate Project Surrounding TSMC Microchip Plant in Arizona",
+              "url": "https://www.costar.com/article/767572006/costco-marriott-join-real-estate-project-surrounding-tsmc-microchip-plant-in-arizona",
+              "date": "2025-10-06"
             },
             {
-              "title": "AP News Search: James Massey Polk County GA",
-              "url": "https://apnews.com/search?query=%22James%20Massey%22%20Polk%20County%20GA",
-              "date": "2026-03-10"
+              "title": "Sale/Acquisition of the Year for Phoenix",
+              "url": "https://www.costar.com/article/1448747740/sale-acquistion-of-the-year-for-phoenix-22",
+              "date": "2025-03-26"
             }
           ]
         }
       ]
     },
     {
-      "theme": "Residential Stakeholders",
-      "description": "This group includes individual residents living in close proximity to the project site who may be concerned with localized impacts. They typically prioritize quality of life, noise levels, and visual changes to their immediate surroundings.",
-      "neighbor_count": 0,
-      "prevalent_concerns": [
-        "noise",
-        "visual_impact",
-        "traffic"
-      ],
-      "typical_influence": "Low to Medium",
-      "engagement_approach": "Utilize community mailers and public meetings to address concerns regarding daily life disruptions and environmental impacts.",
-      "members": []
-    },
-    {
       "theme": "Active Community Members",
-      "description": "This group comprises individuals who hold positions on local boards, commissions, or are frequently involved in public governance and meeting proceedings. They play a key role in shaping local policy and public opinion on development projects.",
-      "neighbor_count": 0,
+      "description": "Appointed or elected officials serving on regulatory boards and commissions that oversee specific public resources. These individuals represent institutional oversight and public interest in specialized sectors like wildlife or recreation.",
+      "neighbor_count": 1,
       "prevalent_concerns": [
-        "public_policy",
-        "community_benefit",
-        "regulatory_compliance"
+        "wildlife_conservation",
+        "recreational_land_use",
+        "environmental_stewardship"
       ],
-      "typical_influence": "High",
-      "engagement_approach": "Engage through formal public channels and provide detailed technical documentation to support regulatory review processes.",
-      "members": []
+      "typical_influence": "Medium",
+      "engagement_approach": "Engage through public hearings and formal board reviews to address specific regulatory and environmental stewardship concerns.",
+      "members": [
+        {
+          "name": "Arizona Game & Fish Comm",
+          "persona": "Governor-appointed commission members overseeing state wildlife resources and significant recreation",
+          "influence": "Medium",
+          "stance": "neutral",
+          "adjacent": true,
+          "citations": [
+            {
+              "title": "Review of the Arizona Game and Fish Commission",
+              "url": "https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/30499",
+              "date": "2024-04-05"
+            },
+            {
+              "title": "Welcome to Ben Avery Shooting Facility",
+              "url": "https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/",
+              "date": "2026-01-01"
+            },
+            {
+              "title": "Guidelines for Solar Development in Arizona",
+              "url": "https://s3.amazonaws.com/azgfd-portal-wordpress/PortalImages/files/wildlife/planningFor/wildlifeFriendlyGuidelines/FinalSolarGuidelines03122010.pdf",
+              "date": "2010-03-12"
+            }
+          ]
+        }
+      ]
     }
   ],
   "opposition_summary": null,
-  "support_summary": null,
-  "overview_summary": "Screening of 21 neighbors within 0.5 miles identified 19 residents and two organizations, all of whom currently maintain an unknown stance regarding the development. While the majority are private landowners with low community influence, the group includes one high-influence entity and one medium-influence entity. The high-influence neighbor is a long-established industrial infrastructure firm with significant local political presence that may be neutral or supportive depending on operational impacts. No documented opposition exists among the profiled neighbors, most of whom are longstanding community members with low public profiles.",
-  "location_context": "Neighbors within 0.5 mi of 34.04515,-85.04341",
+  "support_summary": {
+    "count": 3,
+    "common_reasons": [
+      "property_value",
+      "traffic_safety",
+      "drainage_roads"
+    ]
+  },
+  "overview_summary": "Screening identified four organizational neighbors within a 0.5-mile radius, comprising three high-influence entities and one medium-influence entity. Three of these organizations support development, including a global industrial manufacturer and state agencies focused on economic growth, while one state wildlife commission remains neutral. Although no opposition was recorded, the project faces potential scrutiny regarding impacts on wildlife habitats and public recreation facilities managed by high-influence state entities.",
+  "location_context": "Neighbors within 0.5 mi of 33.789353,-112.169708",
   "city": null,
-  "county": "Polk County",
-  "state": "GA",
-  "run_id": "8b58be4e-1cd8-4526-86d3-41d6f8604c9d",
-  "runtime_minutes": 206.81,
+  "county": "Maricopa County",
+  "state": "AZ",
+  "run_id": "fbe309cb-b224-472b-8dd4-08f5f08daf85",
+  "runtime_minutes": 17.68,
   "success": true,
-  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/8b58be4e-1cd8-4526-86d3-41d6f8604c9d_ring_map.png",
+  "map_image_path": "/home/falcao/neighbor/src/neighbor/neighbor_map_outputs/fbe309cb-b224-472b-8dd4-08f5f08daf85_ring_map.png",
   "map_ring_stats": [
     {
       "ring": 1,
       "inner_mi": 0.0,
-      "outer_mi": 0.26,
-      "count": 5,
+      "outer_mi": 0.1,
+      "count": 2,
       "oppose": 0,
-      "support": 0,
+      "support": 2,
       "neutral": 0,
-      "unknown": 5,
-      "sentiment": "mixed",
+      "unknown": 0,
+      "sentiment": "support",
       "high_oppose": 0,
-      "high_support": 0,
+      "high_support": 2,
       "high_neutral": 0,
-      "high_unknown": 1,
+      "high_unknown": 0,
       "medium_oppose": 0,
       "medium_support": 0,
       "medium_neutral": 0,
@@ -151,33 +210,14 @@
     },
     {
       "ring": 2,
-      "inner_mi": 0.26,
-      "outer_mi": 0.36,
-      "count": 8,
+      "inner_mi": 0.1,
+      "outer_mi": 0.2,
+      "count": 0,
       "oppose": 0,
       "support": 0,
       "neutral": 0,
-      "unknown": 8,
-      "sentiment": "mixed",
-      "high_oppose": 0,
-      "high_support": 0,
-      "high_neutral": 0,
-      "high_unknown": 0,
-      "medium_oppose": 0,
-      "medium_support": 0,
-      "medium_neutral": 0,
-      "medium_unknown": 1
-    },
-    {
-      "ring": 3,
-      "inner_mi": 0.36,
-      "outer_mi": 0.54,
-      "count": 8,
-      "oppose": 0,
-      "support": 0,
-      "neutral": 0,
-      "unknown": 8,
-      "sentiment": "mixed",
+      "unknown": 0,
+      "sentiment": "no_data",
       "high_oppose": 0,
       "high_support": 0,
       "high_neutral": 0,
@@ -186,23 +226,42 @@
       "medium_support": 0,
       "medium_neutral": 0,
       "medium_unknown": 0
+    },
+    {
+      "ring": 3,
+      "inner_mi": 0.2,
+      "outer_mi": 1.33,
+      "count": 2,
+      "oppose": 0,
+      "support": 1,
+      "neutral": 1,
+      "unknown": 0,
+      "sentiment": "support",
+      "high_oppose": 0,
+      "high_support": 1,
+      "high_neutral": 0,
+      "high_unknown": 0,
+      "medium_oppose": 0,
+      "medium_support": 0,
+      "medium_neutral": 1,
+      "medium_unknown": 0
     }
   ],
   "map_metadata": {
-    "run_id": "8b58be4e-1cd8-4526-86d3-41d6f8604c9d",
-    "generated_at": "2026-03-10T04:13:29.044009",
-    "center_lon": -85.04371404716157,
-    "center_lat": 34.04574139820154,
+    "run_id": "fbe309cb-b224-472b-8dd4-08f5f08daf85",
+    "generated_at": "2026-03-21T10:25:47.962637",
+    "center_lon": -112.15517242653225,
+    "center_lat": 33.786370914343905,
     "boundaries_mi": [
       0.0,
-      0.2554,
-      0.3611,
-      0.5362
+      0.1,
+      0.2,
+      1.3294
     ],
-    "total_neighbors_mapped": 21,
-    "total_neighbors": 21,
+    "total_neighbors_mapped": 4,
+    "total_neighbors": 4,
     "strategy_used": "geojson",
-    "url_length": 7341,
+    "url_length": 5826,
     "settings": {
       "width": 800,
       "height": 450,
@@ -211,186 +270,490 @@
     }
   },
   "target_parcel_info": {
-    "pin": "12972",
+    "pin": "20409008A",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
           [
-            -85.0407265,
-            34.046812
+            -112.1430905,
+            33.798063
           ],
           [
-            -85.040752,
-            34.0468125
+            -112.1512445,
+            33.797868
           ],
           [
-            -85.040889,
-            34.046813
+            -112.1604015,
+            33.798047
           ],
           [
-            -85.044247,
-            34.0468325
+            -112.160405,
+            33.7980475
           ],
           [
-            -85.0477795,
-            34.0468355
+            -112.169558,
+            33.798226
           ],
           [
-            -85.0478015,
-            34.0466795
+            -112.175786,
+            33.7980375
           ],
           [
-            -85.0478135,
-            34.046466
+            -112.1760955,
+            33.797778
           ],
           [
-            -85.0478295,
-            34.046252
+            -112.176894,
+            33.7972905
           ],
           [
-            -85.0478505,
-            34.0460385
+            -112.177698,
+            33.796343
           ],
           [
-            -85.0478765,
-            34.045775
+            -112.178203,
+            33.7951685
           ],
           [
-            -85.0478975,
-            34.045511
+            -112.178228,
+            33.795118
           ],
           [
-            -85.0474375,
-            34.0454935
+            -112.1782595,
+            33.7950695
           ],
           [
-            -85.0474375,
-            34.0454905
+            -112.1782965,
+            33.795024
           ],
           [
-            -85.0452495,
-            34.045415
+            -112.1783385,
+            33.7949815
           ],
           [
-            -85.0450215,
-            34.045177
+            -112.1783855,
+            33.794943
           ],
           [
-            -85.0450485,
-            34.0446335
+            -112.178437,
+            33.7949085
           ],
           [
-            -85.0450115,
-            34.0446345
+            -112.1784925,
+            33.7948785
           ],
           [
-            -85.044489,
-            34.044681
+            -112.1785515,
+            33.7948535
           ],
           [
-            -85.044483,
-            34.0447365
+            -112.178613,
+            33.7948335
           ],
           [
-            -85.04406,
-            34.0446905
+            -112.1786765,
+            33.7948185
           ],
           [
-            -85.0439675,
-            34.0446805
+            -112.1787415,
+            33.794809
           ],
           [
-            -85.043342,
-            34.044636
+            -112.1788075,
+            33.794805
           ],
           [
-            -85.0429965,
-            34.0445775
+            -112.1788735,
+            33.7948065
           ],
           [
-            -85.042504,
-            34.0443085
+            -112.178939,
+            33.7948135
           ],
           [
-            -85.042324,
-            34.044188
+            -112.1790035,
+            33.794826
           ],
           [
-            -85.0420955,
-            34.044264
+            -112.179066,
+            33.7948435
           ],
           [
-            -85.0416345,
-            34.0442035
+            -112.179126,
+            33.7948665
           ],
           [
-            -85.0416325,
-            34.0442035
+            -112.179183,
+            33.7948945
           ],
           [
-            -85.041595,
-            34.0441985
+            -112.1792565,
+            33.7949315
           ],
           [
-            -85.0415925,
-            34.044198
+            -112.1793335,
+            33.7949635
           ],
           [
-            -85.041525,
-            34.0441895
+            -112.1794125,
+            33.794991
           ],
           [
-            -85.0413385,
-            34.0440435
+            -112.1794945,
+            33.7950135
           ],
           [
-            -85.041272,
-            34.0440325
+            -112.179578,
+            33.795031
           ],
           [
-            -85.041052,
-            34.043995
+            -112.1796625,
+            33.795043
           ],
           [
-            -85.0408245,
-            34.0439285
+            -112.1797485,
+            33.7950495
           ],
           [
-            -85.0406575,
-            34.044037
+            -112.1798345,
+            33.795051
           ],
           [
-            -85.040591,
-            34.044026
+            -112.17992,
+            33.795047
           ],
           [
-            -85.0407265,
-            34.046812
+            -112.1800055,
+            33.7950375
+          ],
+          [
+            -112.1800895,
+            33.795023
+          ],
+          [
+            -112.1801725,
+            33.7950035
+          ],
+          [
+            -112.180253,
+            33.7949785
+          ],
+          [
+            -112.180331,
+            33.7949485
+          ],
+          [
+            -112.180618,
+            33.794828
+          ],
+          [
+            -112.1811875,
+            33.7945095
+          ],
+          [
+            -112.182298,
+            33.7935325
+          ],
+          [
+            -112.183183,
+            33.792981
+          ],
+          [
+            -112.184163,
+            33.792159
+          ],
+          [
+            -112.1850995,
+            33.790909
+          ],
+          [
+            -112.185782,
+            33.790587
+          ],
+          [
+            -112.186208,
+            33.7901225
+          ],
+          [
+            -112.1868025,
+            33.789087
+          ],
+          [
+            -112.187399,
+            33.7884085
+          ],
+          [
+            -112.1889335,
+            33.7873355
+          ],
+          [
+            -112.1905525,
+            33.7858345
+          ],
+          [
+            -112.19119,
+            33.7847635
+          ],
+          [
+            -112.1924245,
+            33.783335
+          ],
+          [
+            -112.1933615,
+            33.78237
+          ],
+          [
+            -112.193787,
+            33.7816035
+          ],
+          [
+            -112.1934415,
+            33.781516
+          ],
+          [
+            -112.1930985,
+            33.781423
+          ],
+          [
+            -112.192757,
+            33.781325
+          ],
+          [
+            -112.1924185,
+            33.781221
+          ],
+          [
+            -112.192082,
+            33.781112
+          ],
+          [
+            -112.1917485,
+            33.7809975
+          ],
+          [
+            -112.191417,
+            33.7808775
+          ],
+          [
+            -112.191089,
+            33.7807525
+          ],
+          [
+            -112.1907635,
+            33.780622
+          ],
+          [
+            -112.1904415,
+            33.7804865
+          ],
+          [
+            -112.1901225,
+            33.780346
+          ],
+          [
+            -112.1898065,
+            33.7802005
+          ],
+          [
+            -112.1894945,
+            33.78005
+          ],
+          [
+            -112.1891855,
+            33.779894
+          ],
+          [
+            -112.1888805,
+            33.7797335
+          ],
+          [
+            -112.188579,
+            33.7795685
+          ],
+          [
+            -112.1861895,
+            33.7782295
+          ],
+          [
+            -112.186186,
+            33.7788145
+          ],
+          [
+            -112.1860335,
+            33.778907
+          ],
+          [
+            -112.182844,
+            33.780793
+          ],
+          [
+            -112.1828435,
+            33.7807935
+          ],
+          [
+            -112.1828425,
+            33.7807945
+          ],
+          [
+            -112.180636,
+            33.7827775
+          ],
+          [
+            -112.1806355,
+            33.7827785
+          ],
+          [
+            -112.180247,
+            33.783267
+          ],
+          [
+            -112.178412,
+            33.785573
+          ],
+          [
+            -112.1782685,
+            33.7857485
+          ],
+          [
+            -112.1779695,
+            33.7857115
+          ],
+          [
+            -112.17767,
+            33.7856805
+          ],
+          [
+            -112.1773695,
+            33.785655
+          ],
+          [
+            -112.1770685,
+            33.7856355
+          ],
+          [
+            -112.1767665,
+            33.7856215
+          ],
+          [
+            -112.1764645,
+            33.7856135
+          ],
+          [
+            -112.1761625,
+            33.7856115
+          ],
+          [
+            -112.1661595,
+            33.7856335
+          ],
+          [
+            -112.166171,
+            33.7900665
+          ],
+          [
+            -112.1661645,
+            33.7905895
+          ],
+          [
+            -112.1617645,
+            33.79055
+          ],
+          [
+            -112.1618015,
+            33.7856425
+          ],
+          [
+            -112.1574475,
+            33.78565
+          ],
+          [
+            -112.1569975,
+            33.7869585
+          ],
+          [
+            -112.1513265,
+            33.7869285
+          ],
+          [
+            -112.151336,
+            33.785662
+          ],
+          [
+            -112.1513545,
+            33.7832825
+          ],
+          [
+            -112.15145,
+            33.775996
+          ],
+          [
+            -112.151702,
+            33.7691605
+          ],
+          [
+            -112.143408,
+            33.7691705
+          ],
+          [
+            -112.1347065,
+            33.7691835
+          ],
+          [
+            -112.129501,
+            33.7692025
+          ],
+          [
+            -112.135639,
+            33.7982405
+          ],
+          [
+            -112.13564,
+            33.7982405
+          ],
+          [
+            -112.14309,
+            33.7980635
+          ],
+          [
+            -112.1430905,
+            33.798063
+          ]
+        ],
+        [
+          [
+            -112.1473985,
+            33.7809335
+          ],
+          [
+            -112.143128,
+            33.7809415
+          ],
+          [
+            -112.143269,
+            33.774964
+          ],
+          [
+            -112.1473825,
+            33.7749565
+          ],
+          [
+            -112.1473985,
+            33.7809335
           ]
         ]
       ]
     },
-    "lat": "34.045741",
-    "lon": "-85.043714",
-    "county_path": "/us/ga/polk/aragon"
+    "lat": "33.784049",
+    "lon": "-112.141994",
+    "county_path": "/us/az/maricopa/deer-valley"
   },
   "deep_research_files": [
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010140_1476.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005910_8504.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005925_7944.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010218_0803.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_005741_3299.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010003_3644.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260310_010206_3181.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260310_005754_3521.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010218_0803.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_005910_8504.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010140_1476.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_005741_3299.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010003_3644.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260310_005754_3521.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_010206_3181.json",
-    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260310_005925_7944.json"
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_persons_20260321_101720_9993.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260321_101711_3004.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260321_101328_8072.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260321_101711_3004.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_organizations_20260321_101328_8072.json",
+    "/home/falcao/neighbor/src/neighbor/deep_research_outputs/vr_persons_20260321_101720_9993.json"
   ]
 }

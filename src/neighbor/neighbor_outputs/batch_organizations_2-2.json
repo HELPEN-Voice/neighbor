@@ -1,0 +1,44 @@
+{
+  "batch_idx": 1,
+  "total_batches": 2,
+  "entity_type": "organization",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ariz Game & Fish Commission",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "20310006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Arizona Game and Fish Commission is a state body created in 1929 that establishes policy for wildlife conservation and regulates hunting, fishing, and outdoor recreation statewide [Arizona State Library](https://azlibrary.gov/sla/agency_histories/game-fish-commission-department) [Arizona Game & Fish Dept](https://www.azgfd.com/about-arizona-game-fish/commission-public-information/). The Commission owns and operates the 1,650-acre Ben Avery Shooting Facility in north Phoenix, one of the largest public shooting ranges in the U.S., serving over 120,000 users annually [Arizona Game & Fish Dept](https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/). In 2002, meeting records show the Commission considered selling the Ben Avery property for urban development \u2013 real estate developers Pulte Homes and Del Webb pressured for a sale and even pledged funds toward a new range \u2013 with Commission minutes referencing the land\u2019s \u201chighest and best use\u201d for a lucrative redevelopment [Tucson Weekly](https://www.tucsonweekly.com/newsopinion/trigger-unhappy-1073835/).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "State wildlife authority with regulatory power; controls major public land (1,650-acre facility); engages a large constituency of hunters and recreation users across Arizona",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Game & Fish Department leadership early to address wildlife and recreation concerns; emphasize habitat mitigation and show how the project aligns with the agency\u2019s conservation mission to gain the Commission\u2019s goodwill"
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "overview_summary": "This neighbor is a state wildlife management commission with significant land holdings and regulatory authority. It is not a private developer or speculator, but its actions are driven by conservation and public recreation interests. The commission\u2019s influence is high, given its control of major public land and its broad constituency of hunters, anglers, and outdoor enthusiasts. Any development proposal would be scrutinized for wildlife impact, meaning the project must align with habitat protection or risk opposition from this powerful state entity.",
+  "saved_filepath": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260321_101328_8072.json",
+  "cached_at": "2026-03-21T10:13:28.807547"
+}

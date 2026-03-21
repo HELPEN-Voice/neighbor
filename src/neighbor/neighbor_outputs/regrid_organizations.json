@@ -2,20 +2,36 @@
   "entity_type": "organization",
   "neighbors": [
     {
-      "name": "Cw Matthews Contracting Co Inc",
+      "name": "Tsmc Arizona Corporation",
       "entity_type": "organization",
       "pins": [
-        "12972",
-        "17996"
+        "20409005",
+        "20409006",
+        "20409007"
       ],
       "owns_adjacent_parcel": "Yes"
     },
     {
-      "name": "C W Matthews Contracting Co Inc",
+      "name": "Arizona State Of",
       "entity_type": "organization",
       "pins": [
-        "7441",
-        "12982"
+        "20409002A"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Arizona Game & Fish Comm",
+      "entity_type": "organization",
+      "pins": [
+        "20310005"
+      ],
+      "owns_adjacent_parcel": "Yes"
+    },
+    {
+      "name": "Ariz Game & Fish Commission",
+      "entity_type": "organization",
+      "pins": [
+        "20310006"
       ],
       "owns_adjacent_parcel": "Yes"
     }

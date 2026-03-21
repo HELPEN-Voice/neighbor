@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-03-21T10:23:34.185541",
+  "source_file": "/home/falcao/neighbor/src/neighbor/deep_research_outputs/dr_organizations_20260321_101328_8072.json",
+  "entity_type": "organization",
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null
+  },
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Ariz Game & Fish Commission",
+      "entity_category": "Organization",
+      "entity_type": "municipal",
+      "pins": [
+        "20310006"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Arizona Game and Fish Commission is a state body created in 1929 that establishes policy for wildlife conservation and regulates hunting, fishing, and outdoor recreation statewide ([Arizona State Library](https://azlibrary.gov/agency-history/2107)). The Commission owns and operates the 1,650-acre Ben Avery Shooting Facility in north Phoenix, one of the largest public shooting ranges in the U.S., which serves over 120,000 users annually ([AZGFD](https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/)). While the facility has faced historic and ongoing pressure from encroaching urban development, the Commission and state legislators continue to operate and protect it as a public asset ([AZ Senate Minutes](https://www.azleg.gov/iminute/senate/44leg/2r/1116FirearmsSafety.pdf)). Regarding renewable energy development, the Commission holds a neutral but highly regulated stance; in 2010, the Department released the 'Guidelines for Solar Development in Arizona' to help developers avoid, minimize, and mitigate impacts to wildlife and habitat corridors ([AZGFD Solar Guidelines](https://s3.amazonaws.com/azgfd-portal-wordpress/PortalImages/files/wildlife/planningFor/wildlifeFriendlyGuidelines/FinalSolarGuidelines03122010.pdf)). The Commission does not unilaterally oppose solar development but evaluates projects based on their adherence to these wildlife protection guidelines and potential habitat fragmentation ([AZGFD Conservation Challenges](https://awcs.azgfd.com/conservation-challenges/energy-production-and-mining)).",
+      "confidence": "high",
+      "noted_stance": "neutral",
+      "community_influence": "High",
+      "influence_justification": "State wildlife authority with significant advisory and regulatory power; controls major public land (the 1,650-acre Ben Avery facility); issues definitive 'Guidelines for Solar Development in Arizona' that directly influence county zoning and state permitting processes.",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage the Game & Fish Department leadership early in the siting process. Formally coordinate using their 2010 Solar Guidelines to address wildlife corridors, habitat fragmentation, and mitigation strategies to gain the Commission’s goodwill and avoid regulatory friction during permitting."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": [
+        {
+          "claim": "The Arizona Game and Fish Commission is a state body created in 1929 that establishes policy for wildlife conservation and regulates hunting, fishing, and outdoor recreation statewide",
+          "url": "https://azlibrary.gov/agency-history/2107",
+          "title": "Arizona Game and Fish Commission Agency History",
+          "date": "2022-08-06"
+        },
+        {
+          "claim": "The Commission owns and operates the 1,650-acre Ben Avery Shooting Facility in north Phoenix, one of the largest public shooting ranges in the U.S., which serves over 120,000 users annually",
+          "url": "https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/",
+          "title": "Ben Avery Shooting Facility - Arizona Game & Fish Department",
+          "date": "2026-03-31"
+        },
+        {
+          "claim": "While the facility has faced historic and ongoing pressure from encroaching urban development, the Commission and state legislators continue to operate and protect it as a public asset",
+          "url": "https://www.azleg.gov/iminute/senate/44leg/2r/1116FirearmsSafety.pdf",
+          "title": "Study Committee on Firearms Safety and Sport Shooting Ranges",
+          "date": "2000-11-16"
+        },
+        {
+          "claim": "In 2010, the Department released the 'Guidelines for Solar Development in Arizona' to help developers avoid, minimize, and mitigate impacts to wildlife and habitat corridors",
+          "url": "https://s3.amazonaws.com/azgfd-portal-wordpress/PortalImages/files/wildlife/planningFor/wildlifeFriendlyGuidelines/FinalSolarGuidelines03122010.pdf",
+          "title": "Guidelines for Solar Development in Arizona",
+          "date": "2010-03-12"
+        },
+        {
+          "claim": "The Commission does not unilaterally oppose solar development but evaluates projects based on their adherence to these wildlife protection guidelines and potential habitat fragmentation",
+          "url": "https://awcs.azgfd.com/conservation-challenges/energy-production-and-mining",
+          "title": "AZGFD Conservation Challenges: Energy Production and Mining",
+          "date": "2025-01-01"
+        }
+      ]
+    }
+  ],
+  "verification_metadata": {
+    "entity_type": "organization",
+    "profiles_input": 1,
+    "profiles_output": 1,
+    "total_tokens": 435369,
+    "thinking_count": 35
+  }
+}

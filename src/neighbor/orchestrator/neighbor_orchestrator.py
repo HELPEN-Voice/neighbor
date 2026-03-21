@@ -1114,23 +1114,29 @@ class NeighborOrchestrator:
             CONFIDENCE_PRIORITY = {"low": 1, "medium": 2, "high": 3}  # Lower = keep
             MAX_DISTANCE = 2
 
-            # Split into residents and entities - only dedupe residents
-            residents = []
-            entities = []
-            for n in neighbors:
-                category = n.get("entity_category", "").lower()
-                if category in ["resident", "individual", "person"]:
-                    residents.append(n)
-                else:
-                    entities.append(n)
+            ABBREV_MAP = {
+                "comm": "commission",
+                "ariz": "arizona",
+                "dept": "department",
+                "assn": "association",
+                "assoc": "association",
+                "govt": "government",
+                "natl": "national",
+                "intl": "international",
+            }
 
-            # Group residents by similar names (Levenshtein distance <= 2)
-            # Each group is a list of neighbors; we track a representative name for matching
+            def normalize_name(name: str) -> str:
+                """Expand common abbreviations for better dedup matching."""
+                words = name.strip().lower().split()
+                return " ".join(ABBREV_MAP.get(w, w) for w in words)
+
+            # Deduplicate all neighbors (residents and organizations)
+            # Group by similar names (Levenshtein distance <= 2)
             groups: List[List[Dict[str, Any]]] = []
             group_names: List[str] = []  # Representative name for each group
 
-            for n in residents:
-                name = n.get("name", "").strip().lower()
+            for n in neighbors:
+                name = normalize_name(n.get("name", ""))
                 if not name:
                     continue
 
@@ -1202,8 +1208,7 @@ class NeighborOrchestrator:
                 )
                 deduped.append(merged_entry)
 
-            # Return deduped residents + untouched entities
-            return deduped + entities
+            return deduped
 
         merged = dedupe_neighbors(merged)
 

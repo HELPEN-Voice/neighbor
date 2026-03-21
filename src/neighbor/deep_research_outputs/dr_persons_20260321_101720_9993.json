@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-03-21T10:17:20.999396",
+  "entity_type": "person",
+  "batch_size": 1,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "One neighboring landowner has not been identified in public records, with no documented stance on development. This neighbor’s influence is unquantified due to the lack of information, highlighting a gap in the community profile.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "Unknown",
+      "entity_category": "Resident",
+      "entity_type": "Individual",
+      "pins": [
+        "20409008A",
+        "20409008B"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "As of March 2026, the Maricopa County Assessor’s public database shows no owner name for these new parcels, indicating the ownership record is still pending. No references to this landowner or the parcel were found in local public records or news, leaving their views on development and clean energy unreported.",
+      "confidence": "medium",
+      "noted_stance": "unknown",
+      "community_influence": "Unknown",
+      "influence_justification": "No public profile",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Obtain owner details from county records once available and initiate contact with a neutral, information-sharing approach."
+      },
+      "entity_classification": null,
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"One neighboring landowner has not been identified in public records, with no documented stance on development. This neighbor’s influence is unquantified due to the lack of information, highlighting a gap in the community profile.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"Unknown\",\n      \"entity_category\": \"Resident\",\n      \"entity_type\": \"Individual\",\n      \"pins\": [\"20409008A\", \"20409008B\"],\n      \"claims\": \"As of March 2026, the Maricopa County Assessor’s public database shows no owner name for these new parcels, indicating the ownership record is still pending【48】. No references to this landowner or the parcel were found in local public records or news, leaving their views on development and clean energy unreported【59】.\",\n      \"noted_stance\": \"Unknown\",\n      \"community_influence\": \"Unknown\",\n      \"influence_justification\": \"No public profile\",\n      \"approach_recommendations\": {\n        \"motivations\": [],\n        \"engage\": \"Obtain owner details from county records once available and initiate contact with a neutral, information-sharing approach.\"\n      },\n      \"confidence\": \"Medium\"\n    }\n  ]\n}\n```\n\n",
+  "markdown_debug": null
+}

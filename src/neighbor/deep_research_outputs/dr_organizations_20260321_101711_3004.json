@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-03-21T10:17:11.300438",
+  "entity_type": "organization",
+  "batch_size": 3,
+  "location_context": {
+    "county": "Maricopa County",
+    "state": "AZ",
+    "city": null,
+    "radius_mi": 0.5
+  },
+  "overview_summary": "The profiled neighbors include a global semiconductor manufacturer and state government entities. TSMC Arizona Corporation is developing a massive chipmaking campus with strong political and economic influence, while the State of Arizona’s trust land involvement indicates official support for development (auctioning land to fund public education). Meanwhile, the Arizona Game & Fish Commission manages a 1,650-acre shooting sports facility and prioritizes wildlife/recreation, meaning any project near its land should mitigate impacts on those interests even though the Commission is not an actively oppositional force.",
+  "neighbors": [
+    {
+      "neighbor_id": "N-01",
+      "name": "TSMC Arizona Corporation",
+      "entity_category": "Organization",
+      "entity_type": "corporation",
+      "pins": [
+        "20409005",
+        "20409006",
+        "20409007"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "TSMC Arizona Corporation was incorporated in Arizona in November 2020 as a wholly owned subsidiary of Taiwan Semiconductor Manufacturing Co. (TSMC), aimed at establishing a new semiconductor fabrication campus in Phoenix ([www.sec.gov](https://www.sec.gov/Archives/edgar/data/1046179/000119312521301096/d133627df3asr.htm#:~:text=TSMC%20Arizona%20Corporation%2C%20a%20corporation,TSMC%20Arizona%20plans%20to%20spend)). TSMC’s Phoenix project has secured a $6.6 billion federal CHIPS Act grant to help fund a planned $65 billion multi-factory complex in north Phoenix ([www.axios.com](https://www.axios.com/local/phoenix/2024/11/15/tsmc-chips-act-funding#:~:text=The%20U,nationally%20to%20reach%20the%20final)). In January 2026, TSMC Arizona paid $197 million for 900 additional acres of adjacent state trust land at auction, nearly doubling its land holdings to accommodate up to six chip plants and related facilities ([www.orionprop.com](https://www.orionprop.com/topfive/tsmc-pays-197m-for-north-phoenix-land-to-propel-expansion/#:~:text=TSMC%20Arizona%20bought%20900%20acres,massive%20semiconductor%20manufacturing%20facility%E2%80%99s%20expansion)). Arizona officials have lauded TSMC’s expansion as a transformative investment bringing thousands of high-tech jobs and catalyzing further economic growth in the community ([www.azfamily.com](https://www.azfamily.com/2026/01/12/tsmc-buys-900-acres-state-trust-land-north-phoenix-expansion/#:~:text=%E2%80%9CThis%20is%20going%20to%20support,%E2%80%9D)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "High - Multi-billion-dollar project with strong government backing; major employer and landholder influencing local economy and infrastructure",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage TSMC Arizona’s executive leadership (e.g. site president) with a partnership approach. Emphasize mutual benefits (for example, the project could support infrastructure or clean energy for their fabs) and address any safety or environmental concerns upfront to align with TSMC’s interests."
+      },
+      "entity_classification": "unknown",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-02",
+      "name": "Arizona State Of",
+      "entity_category": "Organization",
+      "entity_type": "government",
+      "pins": [
+        "20409002A"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "Parcel 204-09-002A was state trust land owned by the State of Arizona and managed by the Arizona State Land Department to benefit the public school system ([www.kjzz.org](https://www.kjzz.org/business/2026-01-08/tsmc-buys-900-acres-of-arizona-state-land-at-auction#:~:text=In%20a%20statement%2C%20Councilwoman%20Ann,toward%20Arizona%E2%80%99s%20public%20school%20system)). In January 2026, the Land Department auctioned approximately 900 acres in this area (including APN 204-09-002A) with a minimum bid of $197.25 million; TSMC ultimately won the auction to acquire the land for its expansion ([www.orionprop.com](https://www.orionprop.com/topfive/tsmc-pays-197m-for-north-phoenix-land-to-propel-expansion/#:~:text=TSMC%20Arizona%20bought%20900%20acres,massive%20semiconductor%20manufacturing%20facility%E2%80%99s%20expansion)). Arizona law requires that trust lands be sold or leased via public auction at or above appraised value – for example, in 2024 a 95-acre Phoenix parcel was appraised at $68.5 million and slated for auction at that price ([apnews.com](https://apnews.com/article/561f0f996d24e322e89daa21f05933e0#:~:text=PHOENIX%20%28AP%29%20,tract%20of%20land%20near%20Scottsdale)).",
+      "confidence": "high",
+      "noted_stance": null,
+      "community_influence": "High",
+      "influence_justification": "High - Government trustee of vast land assets; controls disposition of development land (e.g. enabled $197M TSMC land sale) and holds legal authority impacting local development",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Coordinate with Arizona State Land Department leadership to ensure the project aligns with trust land rules. Emphasize how the development can complement state land use plans and provide infrastructure or value benefits, addressing any requirements to secure the state’s support."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    },
+    {
+      "neighbor_id": "N-03",
+      "name": "Arizona Game & Fish Comm",
+      "entity_category": "Organization",
+      "entity_type": "government",
+      "pins": [
+        "20310005"
+      ],
+      "owns_adjacent_parcel": "No",
+      "claims": "The Arizona Game and Fish Commission is a five-member board appointed by the governor to oversee the state’s Game and Fish Department ([www.azgfd.com](https://www.azgfd.com/about-arizona-game-fish/commission-public-information/about-the-commission/#:~:text=The%20Commission%20is%20composed%20of,chair%20during%20their%20last%20year)). The Department’s mission is to conserve Arizona’s wildlife resources while managing safe, compatible outdoor recreation opportunities ([www.azgfd.com](https://www.azgfd.com/#:~:text=The%20mission%20of%20the%20Arizona,for%20current%20and%20future%20generations)). The Commission owns and operates the 1,650-acre Ben Avery Shooting Facility in north Phoenix – one of the largest publicly operated shooting ranges in the nation, serving over 120,000 shooters each year ([www.azgfd.com](https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/#:~:text=The%20Ben%20Avery%20Shooting%20Facility,shooting%20facilities%20in%20the%20country)).",
+      "confidence": "medium",
+      "noted_stance": null,
+      "community_influence": "Medium",
+      "influence_justification": "Medium - Manages significant recreational land (1,650-acre shooting range); holds regulatory influence over wildlife, but not a major economic driver",
+      "approach_recommendations": {
+        "motivations": [],
+        "engage": "Engage Game & Fish Department staff and Commission members early to discuss any wildlife or recreation impacts. Coordinate with Ben Avery Shooting Facility managers on safety/noise mitigation and show that the project will not harm wildlife habitat, aligning with the Commission’s mission."
+      },
+      "entity_classification": "municipal",
+      "profile_summary": null,
+      "stance": null,
+      "signal": null,
+      "influence_level": null,
+      "risk_level": null,
+      "engagement_recommendation": null,
+      "social": null,
+      "influence": null,
+      "behavioral_indicators": null,
+      "financial_stress_signals": null,
+      "coalition_predictors": null,
+      "disambiguation": null,
+      "citations": null
+    }
+  ],
+  "annotations": [
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    },
+    {
+      "title": null,
+      "url": null
+    }
+  ],
+  "raw_text": "```json\n{\n  \"overview_summary\": \"The profiled neighbors include a global semiconductor manufacturer and state government entities. TSMC Arizona Corporation is developing a massive chipmaking campus with strong political and economic influence, while the State of Arizona’s trust land involvement indicates official support for development (auctioning land to fund public education). Meanwhile, the Arizona Game & Fish Commission manages a 1,650-acre shooting sports facility and prioritizes wildlife/recreation, meaning any project near its land should mitigate impacts on those interests even though the Commission is not an actively oppositional force.\",\n  \"neighbors\": [\n    {\n      \"neighbor_id\": \"N-01\",\n      \"name\": \"TSMC Arizona Corporation\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"corporation\",\n      \"pins\": [\"20409005\", \"20409006\", \"20409007\"],\n      \"claims\": \"TSMC Arizona Corporation was incorporated in Arizona in November 2020 as a wholly owned subsidiary of Taiwan Semiconductor Manufacturing Co. (TSMC), aimed at establishing a new semiconductor fabrication campus in Phoenix ([www.sec.gov](https://www.sec.gov/Archives/edgar/data/1046179/000119312521301096/d133627df3asr.htm#:~:text=TSMC%20Arizona%20Corporation%2C%20a%20corporation,TSMC%20Arizona%20plans%20to%20spend)). TSMC’s Phoenix project has secured a $6.6 billion federal CHIPS Act grant to help fund a planned $65 billion multi-factory complex in north Phoenix ([www.axios.com](https://www.axios.com/local/phoenix/2024/11/15/tsmc-chips-act-funding#:~:text=The%20U,nationally%20to%20reach%20the%20final)). In January 2026, TSMC Arizona paid $197 million for 900 additional acres of adjacent state trust land at auction, nearly doubling its land holdings to accommodate up to six chip plants and related facilities ([www.orionprop.com](https://www.orionprop.com/topfive/tsmc-pays-197m-for-north-phoenix-land-to-propel-expansion/#:~:text=TSMC%20Arizona%20bought%20900%20acres,massive%20semiconductor%20manufacturing%20facility%E2%80%99s%20expansion)). Arizona officials have lauded TSMC’s expansion as a transformative investment bringing thousands of high-tech jobs and catalyzing further economic growth in the community ([www.azfamily.com](https://www.azfamily.com/2026/01/12/tsmc-buys-900-acres-state-trust-land-north-phoenix-expansion/#:~:text=%E2%80%9CThis%20is%20going%20to%20support,%E2%80%9D)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"High - Multi-billion-dollar project with strong government backing; major employer and landholder influencing local economy and infrastructure\",\n      \"entity_classification\": \"unknown\",\n      \"potential_motivators\": [\"Campus expansion\", \"Infrastructure support\", \"Workforce pipeline\"],\n      \"approach_recommendations\": \"Engage TSMC Arizona’s executive leadership (e.g. site president) with a partnership approach. Emphasize mutual benefits (for example, the project could support infrastructure or clean energy for their fabs) and address any safety or environmental concerns upfront to align with TSMC’s interests.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-02\",\n      \"name\": \"Arizona State Of\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"government\",\n      \"pins\": [\"20409002A\"],\n      \"claims\": \"Parcel 204-09-002A was state trust land owned by the State of Arizona and managed by the Arizona State Land Department to benefit the public school system ([www.kjzz.org](https://www.kjzz.org/business/2026-01-08/tsmc-buys-900-acres-of-arizona-state-land-at-auction#:~:text=In%20a%20statement%2C%20Councilwoman%20Ann,toward%20Arizona%E2%80%99s%20public%20school%20system)). In January 2026, the Land Department auctioned approximately 900 acres in this area (including APN 204-09-002A) with a minimum bid of $197.25 million; TSMC ultimately won the auction to acquire the land for its expansion ([www.orionprop.com](https://www.orionprop.com/topfive/tsmc-pays-197m-for-north-phoenix-land-to-propel-expansion/#:~:text=TSMC%20Arizona%20bought%20900%20acres,massive%20semiconductor%20manufacturing%20facility%E2%80%99s%20expansion)). Arizona law requires that trust lands be sold or leased via public auction at or above appraised value – for example, in 2024 a 95-acre Phoenix parcel was appraised at $68.5 million and slated for auction at that price ([apnews.com](https://apnews.com/article/561f0f996d24e322e89daa21f05933e0#:~:text=PHOENIX%20%28AP%29%20,tract%20of%20land%20near%20Scottsdale)).\",\n      \"community_influence\": \"High\",\n      \"influence_justification\": \"High - Government trustee of vast land assets; controls disposition of development land (e.g. enabled $197M TSMC land sale) and holds legal authority impacting local development\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Maximize trust land value\", \"Economic development revenue\", \"Fiduciary duty to beneficiaries\"],\n      \"approach_recommendations\": \"Coordinate with Arizona State Land Department leadership to ensure the project aligns with trust land rules. Emphasize how the development can complement state land use plans and provide infrastructure or value benefits, addressing any requirements to secure the state’s support.\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"neighbor_id\": \"N-03\",\n      \"name\": \"Arizona Game & Fish Comm\",\n      \"entity_category\": \"Organization\",\n      \"entity_type\": \"government\",\n      \"pins\": [\"20310005\"],\n      \"claims\": \"The Arizona Game and Fish Commission is a five-member board appointed by the governor to oversee the state’s Game and Fish Department ([www.azgfd.com](https://www.azgfd.com/about-arizona-game-fish/commission-public-information/about-the-commission/#:~:text=The%20Commission%20is%20composed%20of,chair%20during%20their%20last%20year)). The Department’s mission is to conserve Arizona’s wildlife resources while managing safe, compatible outdoor recreation opportunities ([www.azgfd.com](https://www.azgfd.com/#:~:text=The%20mission%20of%20the%20Arizona,for%20current%20and%20future%20generations)). The Commission owns and operates the 1,650-acre Ben Avery Shooting Facility in north Phoenix – one of the largest publicly operated shooting ranges in the nation, serving over 120,000 shooters each year ([www.azgfd.com](https://www.azgfd.com/shooting-sports/ben-avery-shooting-facility/#:~:text=The%20Ben%20Avery%20Shooting%20Facility,shooting%20facilities%20in%20the%20country)).\",\n      \"community_influence\": \"Medium\",\n      \"influence_justification\": \"Medium - Manages significant recreational land (1,650-acre shooting range); holds regulatory influence over wildlife, but not a major economic driver\",\n      \"entity_classification\": \"municipal\",\n      \"potential_motivators\": [\"Wildlife conservation\", \"Recreational land protection\", \"Public safety (range operations)\"],\n      \"approach_recommendations\": \"Engage Game & Fish Department staff and Commission members early to discuss any wildlife or recreation impacts. Coordinate with Ben Avery Shooting Facility managers on safety/noise mitigation and show that the project will not harm wildlife habitat, aligning with the Commission’s mission.\",\n      \"confidence\": \"medium\"\n    }\n  ]\n}\n```",
+  "markdown_debug": null
+}
