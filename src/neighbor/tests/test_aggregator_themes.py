@@ -304,11 +304,11 @@ class TestBuildThemeMembers:
         assert members[0].adjacent is True
         assert members[1].adjacent is False
 
-    def test_persona_truncated_at_100_chars(self):
+    def test_persona_truncated_at_175_chars(self):
         long_persona = "A" * 200
         assignments = [{"neighbor_index": 1, "persona": long_persona}]
         members = _build_theme_members(assignments, SAMPLE_PROFILES)
-        assert len(members[0].persona) == 100
+        assert len(members[0].persona) == 175
 
     def test_out_of_range_index_skipped(self):
         assignments = [

@@ -155,7 +155,7 @@ def _build_theme_members(
             if idx < 0 or idx >= len(profiles):
                 continue
             profile = profiles[idx]
-            persona = str(assignment.get("persona", ""))[:100]
+            persona = str(assignment.get("persona", ""))[:175]
             name = profile.get("name", "Unknown")
             influence = (profile.get("community_influence") or "Low").capitalize()
             stance = (profile.get("noted_stance") or "unknown").lower()
